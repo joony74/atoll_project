@@ -1,0 +1,188 @@
+from __future__ import annotations
+
+from pathlib import Path
+
+from reportlab.lib import colors
+from reportlab.lib.enums import TA_LEFT
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+from reportlab.lib.units import mm
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.cidfonts import UnicodeCIDFont
+from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer
+
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT_DIR = ROOT / "docs"
+PDF_PATH = OUT_DIR / "coco_main_chat_engine_plan.pdf"
+
+
+SECTIONS: list[tuple[str, list[str]]] = [
+    (
+        "1. 문서 목적",
+        [
+            "이 문서는 코코앱의 메인챗을 어떤 원칙으로 운영할지, 그리고 그 원칙을 코드 구조로 어떻게 가져갈지를 정리하기 위한 내부 설계 문서다.",
+            "메인챗은 학습리스트를 기반으로 문제를 깊게 분석하는 학습채팅과 역할이 다르다. 메인챗은 사용자가 앱을 처음 열었을 때 가장 먼저 만나는 대화 채널이며, 자연스러운 스몰톡과 가벼운 질문 응답을 담당한다.",
+        ],
+    ),
+    (
+        "2. 메인챗의 기본 방향",
+        [
+            "메인챗은 겉으로 보기에 평범하고 자연스러운 대화처럼 느껴져야 한다.",
+            "내부적으로는 검색과 검증을 거치더라도, 그 과정은 사용자에게 직접 노출하지 않는다.",
+            "사실 질문은 가능한 한 근거를 확인한 뒤 답하지만, 답변은 대화체로 자연스럽게 조립한다.",
+            "확실하지 않은 내용은 단정하지 않는다.",
+            "수학 질문은 메인챗에서도 받아줄 수 있지만, 깊은 분석이 필요하면 학습리스트 생성을 권한다.",
+        ],
+    ),
+    (
+        "3. 답변 톤 가이드",
+        [
+            "기본 톤: 친근하지만 가볍지 않게, 짧지만 무심하지 않게, 사용자를 가르치기보다 같이 생각해보는 말투를 우선한다.",
+            "불확실성 표현: 내 답변이 정확하지 않을 수 있어요. 제가 잘못 이해했을 수도 있어요. 지금은 이렇게 생각해요. 제가 확인한 범위에서는 이렇게 이해돼요.",
+            "UI에 직접 드러내지 않을 표현: 찾는 중, 근거 확인 중, 정리 중, 공식 기준, 업로드 자료 기준, 웹 검색 기준, 추정 배지.",
+        ],
+    ),
+    (
+        "4. 수학 질문 처리 원칙",
+        [
+            "메인챗에서 수학 질문이 들어오면 무조건 차갑게 끊지 않는다.",
+            "먼저 짧게 받아준 뒤, 더 깊은 분석이 필요하면 학습리스트 생성을 권한다.",
+            "권장 문장 예시: 지금도 간단히 같이 볼 수는 있어요. 학습리스트를 생성하면 더 깊게 분석할 수 있어요. 문제 이미지를 등록하면 풀이 흐름을 더 정확하게 이어갈 수 있어요.",
+        ],
+    ),
+    (
+        "5. 메인챗 엔진의 내부 구조",
+        [
+            "입력 분류기: 스몰톡, 일반 정보 질문, 앱 사용 질문, 수학 질문, 민감하거나 조심해야 하는 질문으로 먼저 나눈다.",
+            "검색 및 검증 레이어: 사실 질문은 바로 생성하지 않고 먼저 내부 검색과 검증을 거친다. 다만 이 과정은 사용자에게 드러내지 않는다.",
+            "검색 우선순위: 현재 세션 상태, 앱 내부 정의, 학습리스트 문맥, 공식 문서, 허용한 신뢰 소스.",
+            "응답 조립기: 검증된 결과를 그대로 나열하지 않고, 코코의 대화 톤으로 다시 써서 전달한다.",
+            "응답 흐름: 한 줄 결론, 확인된 핵심 사실, 필요한 경우 다음 행동 제안.",
+        ],
+    ),
+    (
+        "6. 권장 개발 구조",
+        [
+            "초기 구현은 역할을 나누는 구성이 적절하다: chat_router, main_chat_engine, grounding_service, response_composer, math_handoff, chat_state.",
+            "chat_router는 입력 의도 분류를 담당한다.",
+            "main_chat_engine은 메인챗 답변 정책과 응답 생성을 담당한다.",
+            "grounding_service는 검색, 검증, 내부 근거 수집을 담당한다.",
+            "response_composer는 자연스러운 문장으로 재구성한다.",
+            "math_handoff는 수학 질문을 학습리스트 흐름으로 연결한다.",
+            "chat_state는 최근 타겟, 활성 모드, 대화 이력 관리를 담당한다.",
+        ],
+    ),
+    (
+        "7. 상태 관리 원칙",
+        [
+            "메인챗과 학습채팅의 기록은 분리한다.",
+            "최근 활성 타겟은 별도 상태로 저장한다.",
+            "앱 재실행 시에는 마지막으로 활성화된 타겟을 우선 복원한다.",
+            "대화 스크롤 위치는 최근 메시지가 입력창에 가리지 않도록 맞춘다.",
+        ],
+    ),
+    (
+        "8. 단계별 구현 순서",
+        [
+            "1단계: 메인챗 톤 가이드 고정, 메인/학습 대화 타겟 분리, 최근 타겟 복원 안정화.",
+            "2단계: 입력 분류기 분리, 메인챗 응답 엔진 분리, 수학 질문 핸드오프 정리.",
+            "3단계: 내부 검색 및 검증 레이어 추가, 응답 조립기 추가, 신뢰 가능한 사실 질문 응답 강화.",
+        ],
+    ),
+    (
+        "9. 한 줄 원칙",
+        [
+            "겉으로는 자연스럽고 편안한 대화, 내부적으로는 검색과 검증을 거친 신중한 응답, 수학 질문은 학습리스트를 통해 더 깊게 분석하는 구조로 가져간다.",
+        ],
+    ),
+]
+
+
+def build_pdf() -> None:
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    pdfmetrics.registerFont(UnicodeCIDFont("HYGothic-Medium"))
+    pdfmetrics.registerFont(UnicodeCIDFont("HYSMyeongJo-Medium"))
+
+    doc = SimpleDocTemplate(
+        str(PDF_PATH),
+        pagesize=A4,
+        leftMargin=18 * mm,
+        rightMargin=18 * mm,
+        topMargin=18 * mm,
+        bottomMargin=18 * mm,
+        title="코코 메인챗 엔진 가이드 및 개발 구조",
+        author="Codex",
+    )
+
+    styles = getSampleStyleSheet()
+    title_style = ParagraphStyle(
+        "KTitle",
+        parent=styles["Title"],
+        fontName="HYGothic-Medium",
+        fontSize=22,
+        leading=28,
+        textColor=colors.HexColor("#172033"),
+        alignment=TA_LEFT,
+        spaceAfter=8,
+    )
+    subtitle_style = ParagraphStyle(
+        "KSubtitle",
+        parent=styles["Normal"],
+        fontName="HYSMyeongJo-Medium",
+        fontSize=10.5,
+        leading=16,
+        textColor=colors.HexColor("#5b6475"),
+        alignment=TA_LEFT,
+        spaceAfter=16,
+        wordWrap="CJK",
+    )
+    heading_style = ParagraphStyle(
+        "KHeading",
+        parent=styles["Heading2"],
+        fontName="HYGothic-Medium",
+        fontSize=14,
+        leading=19,
+        textColor=colors.HexColor("#172033"),
+        spaceBefore=6,
+        spaceAfter=6,
+        wordWrap="CJK",
+    )
+    body_style = ParagraphStyle(
+        "KBody",
+        parent=styles["BodyText"],
+        fontName="HYSMyeongJo-Medium",
+        fontSize=10.5,
+        leading=17,
+        textColor=colors.HexColor("#243041"),
+        spaceAfter=6,
+        wordWrap="CJK",
+    )
+    bullet_style = ParagraphStyle(
+        "KBullet",
+        parent=body_style,
+        leftIndent=12,
+        firstLineIndent=-10,
+        bulletIndent=0,
+        spaceAfter=5,
+    )
+
+    story = [
+        Paragraph("코코 메인챗 엔진 가이드 및 개발 구조", title_style),
+        Paragraph(
+            "메인챗의 대화 원칙, 수학 질문 핸드오프 방식, 내부 검색 기반 응답 구조, 그리고 추천 개발 구조를 정리한 내부 설계 문서",
+            subtitle_style,
+        ),
+    ]
+
+    for heading, bullets in SECTIONS:
+        story.append(Paragraph(heading, heading_style))
+        for bullet in bullets:
+            story.append(Paragraph(bullet, bullet_style, bulletText="•"))
+        story.append(Spacer(1, 5))
+
+    doc.build(story)
+
+
+if __name__ == "__main__":
+    build_pdf()

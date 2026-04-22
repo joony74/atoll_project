@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+venv_clean/
+.automation_venv/
+
+# Browser / tooling caches
+.playwright-browsers/
+
+# Build outputs
+build/
+dist/
+
+# Local backups
+backups/
+
+# Logs
+*.log
+
+# Runtime / generated app data
+data/chats/data/
+data/chats/logs/
+data/chats/watch/
+data/files/
+data/image_cache/
+data/problem_understanding/
+data/sessions/
+
+# Optional local settings
+config/settings.local.json

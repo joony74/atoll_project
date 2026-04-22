@@ -1,0 +1,71 @@
+{
+  "doc_id": "sample-doc",
+  "file_name": "sample.png",
+  "file_path": "/tmp/sample.png",
+  "analysis_engine_version": "test-v1",
+  "recognition_status": "success",
+  "problem_examples": [
+    {
+      "doc_id": "sample-doc",
+      "file_name": "sample.png",
+      "problem_id": "sample-doc:p1",
+      "display_number": 1,
+      "problem_text": "cos(3π/2)의 값은?",
+      "expressions": [
+        "cos(3π/2)"
+      ],
+      "choices": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "computed_answer": "0",
+      "solution_steps": [
+        "단위원에서 3π/2는 아래쪽 점이야.",
+        "cos는 x좌표라서 0이야."
+      ],
+      "math_topic": "trigonometry",
+      "target_question": "값 계산",
+      "confidence": 0.92,
+      "analysis_engine_version": "test-v1",
+      "recognition_status": "success",
+      "created_at": 1776508131.882964
+    }
+  ],
+  "ocr_examples": [
+    {
+      "doc_id": "sample-doc",
+      "file_name": "sample.png",
+      "raw_text": "cos 3π / 2 의 값은?",
+      "clean_text": "cos(3π/2)의 값은?",
+      "problem_text": "cos(3π/2)의 값은?",
+      "equations": [
+        "cos(3π/2)"
+      ],
+      "choices": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "recognition_status": "success",
+      "ocr_source": "easyocr",
+      "vision_engine": "v2",
+      "analysis_engine_version": "test-v1",
+      "created_at": 1776508131.882967
+    }
+  ],
+  "dialogue_examples": [
+    {
+      "doc_id": "sample-doc",
+      "file_name": "sample.png",
+      "turn_index": 1,
+      "user_query": "이거 뭐야?",
+      "assistant_answer": "이건 삼각함수 기본 문제야. 단위원으로 보면 cos(3π/2)는 0이야.",
+      "problem_text": "cos(3π/2)의 값은?",
+      "math_topic": "trigonometry",
+      "target_question": "값 계산",
+      "created_at": 1776508131.882968
+    }
+  ],
+  "updated_at": 1776508131.8829691
+}

@@ -1,0 +1,29 @@
+<svg width="720" height="120" viewBox="30 35 580 95" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+.text{
+font-family: 'Pretendard','Inter','Arial';
+font-size:120px;
+font-weight:700;
+fill:none;
+stroke-width:10;
+stroke-linejoin:round;
+}
+</style>
+
+<defs>
+<linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#FF8A4C"></stop>
+<stop offset="100%" stop-color="#FFC38A"></stop>
+</linearGradient>
+
+<linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#4C8DFF"></stop>
+<stop offset="100%" stop-color="#A6C8FF"></stop>
+</linearGradient>
+</defs>
+
+<text x="45" y="120" class="text" stroke="url(#grad1)">COCO</text>
+<text x="375" y="120" class="text" stroke="url(#grad2)">AI</text>
+
+</svg>

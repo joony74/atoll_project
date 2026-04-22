@@ -1,0 +1,14 @@
+{
+  "primary_ocr_result": [
+    "\\cos{\\frac{3\\pi}{\\alpha}}\\ \\vec{\\omega}|\\ \\ \\vec{\\mathrm{x}}|\\vec{\\mathrm{c}}",
+    "\\cos{\\frac{3\\pi}{r_{1}}}\\ \\Omega|\\ \\ {\\mathcal{L}}|\\subseteq",
+    "\\cos{\\frac{3\\pi}{r_{\\mathrm{\\boldmath~1}}}}\\ \\Omega_{\\mathrm{\\boldmath~CI}}\\ \\ \\mathbb{C}_{\\mathrm{i}}|{\\frac{\\mathrm{c}}{\\Omega}}"
+  ],
+  "validation_result": {
+    "structured_text": true,
+    "valid_latex": true,
+    "valid_fast_text": false
+  },
+  "fallback_triggered": false,
+  "final_selected_output": "원본 수식: cos(3π/2)\n정규화 수식: \\cos\\left(\\frac{3\\pi}{2}\\right)\n문제: cos(3π/2)의 값은?\n선택지:\n① -1\n② -√3/2\n③ 0\n④ √3/2\n⑤ 1\n정답: ③ 0\n코사인 값을 단위원 기준으로 계산한 문제입니다.\n풀이:\n- 주어진 각을 도수로 바꾸면 270도입니다.\n- 코사인은 단위원에서 x좌표를 뜻합니다.\n- 따라서 값은 0입니다."
+}

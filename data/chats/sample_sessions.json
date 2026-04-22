@@ -1,0 +1,38 @@
+{
+  "current_session_id": "sample-session-1",
+  "sessions": [
+    {
+      "id": "sample-session-1",
+      "title": "cos(3π/2)의 값은?",
+      "source": "prompt",
+      "created_at": "2026-04-14T00:00:00",
+      "updated_at": "2026-04-14T00:05:00",
+      "messages": [
+        {
+          "role": "user",
+          "type": "problem",
+          "content": "cos(3π/2)의 값은?"
+        },
+        {
+          "role": "assistant",
+          "type": "concept_start",
+          "content": "좋아, 이 문제는 답보다 먼저 어떤 개념을 보고 있는지가 중요해.",
+          "first_question": "이 표현을 볼 때, 너는 단위원 위 한 점으로 떠올리고 있어, 아니면 그냥 계산식처럼 보고 있어?",
+          "concepts": [
+            "삼각함수",
+            "단위원",
+            "라디안"
+          ]
+        }
+      ],
+      "attachments": [],
+      "current_problem_text": "cos(3π/2)의 값은?",
+      "dialogue_session": null,
+      "concept_analysis": null,
+      "explanation_bundle": null,
+      "understanding_result": null,
+      "re_explanation_bundle": null,
+      "expected_input": "understanding"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "theme": "dark",
+  "llm_enabled": false,
+  "auto_save": true,
+  "default_style": "easy",
+  "web_enrichment": {
+    "enabled": true,
+    "provider": "askmath_web",
+    "askmath_solver_url": "https://askmath.com/ko/ai-math-solver/",
+    "brave_api_key": "",
+    "tavily_api_key": "",
+    "bing_visual_api_key": "",
+    "bing_visual_endpoint": "https://api.bing.microsoft.com/v7.0/images/visualsearch",
+    "browser_google_binary": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "browser_google_user_data_dir": "/Users/juhwigeun/Library/Application Support/Google/Chrome",
+    "browser_google_profile_directory": "Default",
+    "browser_google_clone_profile": true,
+    "google_cse_api_key": "",
+    "google_cse_engine_id": "",
+    "serpapi_api_key": "",
+    "timeout_seconds": 12,
+    "result_limit": 3,
+    "min_similarity": 0.62
+  }
+}
