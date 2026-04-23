@@ -69,6 +69,15 @@ class ChatContextPacket(TypedDict, total=False):
     ambiguity_score: int
     ambiguity_reasons: list[str]
     llm_candidate: bool
+    selected_doc_id: str | None
+    selected_doc_name: str | None
+    study_problem_text: str | None
+    study_math_topic: str | None
+    study_answer_candidate: str | None
+    study_steps: list[str]
+    study_expressions: list[str]
+    study_question_type: str | None
+    study_latest_user_query: str | None
 
 
 class GroundingResult(TypedDict, total=False):

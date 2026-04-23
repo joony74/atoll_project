@@ -8,6 +8,7 @@ icon_path = str(project_root / "assets" / "cocoai_app_icon.icns")
 
 datas = [
     (str(project_root / "assets"), "assets"),
+    (str(project_root / "app.py"), "."),
     (str(project_root / "app"), "app"),
 ]
 

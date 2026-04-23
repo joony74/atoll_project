@@ -19,7 +19,8 @@ rmdir /s /q dist 2>nul
 venv\Scripts\pyinstaller.exe --noconfirm --windowed --name CocoAIStudy ^
   --icon assets\cocoai_app_icon.png ^
   --add-data "assets;assets" ^
-  --add-data "rag-agent;rag-agent" ^
+  --add-data "app;app" ^
+  --add-data "app.py;." ^
   --hidden-import streamlit.web.cli ^
   --hidden-import streamlit.runtime.scriptrunner ^
   --hidden-import webview.platforms.edgechromium ^

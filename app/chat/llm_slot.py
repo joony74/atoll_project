@@ -80,19 +80,42 @@ def _recent_dialogue(packet: ChatContextPacket) -> str:
 
 def _system_prompt() -> str:
     return (
-        "너는 코코앱 메인챗 안에서 대화하는 한국어 도우미 코코다. "
+        "너는 코코앱 안에서 대화하는 한국어 도우미 코코다. "
         "답변은 자연스럽고 사람처럼 이어가되, 내부 라우팅이나 모델, 검색, 규칙 엔진 이야기는 절대 꺼내지 않는다. "
         "반드시 자연스러운 한국어로만 답하고, 중국어/일본어/영어를 섞지 않는다. "
         "단정이 어렵다면 부드럽게 여지를 두고 말하되, 사용자를 다시 시험하듯 되묻지 말고 먼저 맥락을 이어서 정리한다. "
         "질문이 조금 애매해도 가장 가능성 높은 뜻으로 먼저 도와주고, 필요한 경우에만 마지막에 짧게 방향을 좁혀 묻는다. "
         "이미지 해석 가능 여부를 묻는 질문에는 '이미지를 등록하면 더 깊은 풀이가 가능해요'라는 방향으로 안내하고, "
         "'이미지를 해석하지 못합니다'처럼 단정적으로 막지 않는다. "
+        "학습리스트가 선택된 상태에서는 현재 자료에서 복원된 문제 문장, 식 후보, 답 후보를 참고해 설명하되, "
+        "정보가 불완전하면 현재 확인된 범위 안에서만 분명하게 말한다. "
         "수학 질문은 간단히 받을 수 있지만 학습리스트가 없으면 '학습리스트를 생성하면 더 깊게 분석할 수 있어요' 정도로만 가볍게 연결한다. "
         "무례하거나 감정 섞인 입력도 지나치게 방어적으로 반응하지 말고, 문맥을 읽어 부드럽게 이어간다."
     )
 
 
-def _developer_prompt(packet: ChatContextPacket) -> str:
+def _safe_text(value: str | None, fallback: str = "없음", limit: int = 180) -> str:
+    text = str(value or "").strip()
+    if not text:
+        return fallback
+    if len(text) <= limit:
+        return text
+    return f"{text[:limit - 1]}…"
+
+
+def _safe_join(values: list[str] | None, fallback: str = "없음", limit: int = 4, item_limit: int = 70) -> str:
+    cleaned: list[str] = []
+    for item in values or []:
+        text = str(item or "").strip()
+        if not text or text in cleaned:
+            continue
+        cleaned.append(_safe_text(text, fallback="", limit=item_limit))
+        if len(cleaned) >= limit:
+            break
+    return " / ".join(cleaned) if cleaned else fallback
+
+
+def _main_developer_prompt(packet: ChatContextPacket) -> str:
     active_mode = str(packet.get("active_mode") or "main")
     has_documents = bool(packet.get("has_documents"))
     last_intent = str(packet.get("last_intent") or "").strip() or "general"
@@ -123,6 +146,49 @@ def _developer_prompt(packet: ChatContextPacket) -> str:
         f"직전 개념: {last_concept_term}\n"
         f"애매함 신호: {ambiguity}"
     )
+
+
+def _study_developer_prompt(packet: ChatContextPacket) -> str:
+    selected_doc_name = _safe_text(packet.get("selected_doc_name"), limit=80)
+    problem_text = _safe_text(packet.get("study_problem_text"), fallback="문제 문장을 아직 선명하게 복원하는 중입니다.", limit=220)
+    math_topic = _safe_text(packet.get("study_math_topic"))
+    answer_candidate = _safe_text(packet.get("study_answer_candidate"), fallback="아직 정답 후보를 확정하는 중입니다.")
+    expressions = _safe_join(packet.get("study_expressions"), fallback="복원된 식 후보가 아직 충분하지 않습니다.")
+    steps = _safe_join(packet.get("study_steps"), fallback="풀이 단서를 정리하는 중입니다.")
+    question_type = _safe_text(packet.get("study_question_type"))
+    latest_user_query = _safe_text(packet.get("study_latest_user_query"))
+    ambiguity = ", ".join(packet.get("ambiguity_reasons") or []) or "없음"
+
+    return (
+        "답변 원칙:\n"
+        "- 한국어로 답한다.\n"
+        "- 현재 선택된 학습자료를 기준으로 답한다.\n"
+        "- 먼저 사용자의 질문에 바로 답하고, 필요하면 현재 자료와 연결해 짧게 설명을 보강한다.\n"
+        "- 복원 정보가 불완전하면 확인된 정보만 분명하게 말하고, 없는 내용을 지어내지 않는다.\n"
+        "- 내부 튜터, OCR, 파이프라인, 모델 선택 같은 시스템 설명은 하지 않는다.\n"
+        "- 사용자가 풀이를 물으면 현재 문제 문장, 식 후보, 답 후보, 풀이 단서를 바탕으로 차분하게 설명한다.\n"
+        "- 정답이 아직 확실하지 않으면 '현재 복원 정보 기준'이라고 자연스럽게 밝혀라.\n"
+        "- 문서와 직접 관련 없는 짧은 질문도 현재 자료 흐름 안에서 이해하고 너무 딱딱하게 끊지 않는다.\n"
+        "- 코드블록, 자바/파이썬 예시는 넣지 않는다.\n"
+        "- 반드시 자연스러운 한국어만 사용한다.\n\n"
+        "현재 모드: study\n"
+        f"선택 자료명: {selected_doc_name}\n"
+        f"문제 유형: {question_type}\n"
+        f"수학 주제: {math_topic}\n"
+        f"복원된 문제 문장: {problem_text}\n"
+        f"식 후보: {expressions}\n"
+        f"현재 답 후보: {answer_candidate}\n"
+        f"풀이 단서: {steps}\n"
+        f"직전 학습 질문: {latest_user_query}\n"
+        f"애매함 신호: {ambiguity}"
+    )
+
+
+def _developer_prompt(packet: ChatContextPacket) -> str:
+    active_mode = str(packet.get("active_mode") or "main")
+    if active_mode == "study":
+        return _study_developer_prompt(packet)
+    return _main_developer_prompt(packet)
 
 
 def _build_payload(packet: ChatContextPacket, *, retry_korean_only: bool = False) -> dict:
@@ -267,11 +333,23 @@ def _call_ollama(packet: ChatContextPacket) -> str | None:
     return content or None
 
 
-def can_use_main_chat_llm(packet: ChatContextPacket | None = None) -> bool:
+def can_use_chat_llm(packet: ChatContextPacket | None = None) -> bool:
+    active_mode = str((packet or {}).get("active_mode") or "main").strip()
+    if active_mode == "study":
+        main_default = _env_flag("COCO_ENABLE_MAIN_CHAT_LLM", default=True)
+        return _env_flag("COCO_ENABLE_STUDY_CHAT_LLM", default=main_default)
     return _env_flag("COCO_ENABLE_MAIN_CHAT_LLM", default=True)
 
 
-def maybe_generate_main_chat_reply(packet: ChatContextPacket) -> str | None:
-    if not can_use_main_chat_llm(packet):
+def can_use_main_chat_llm(packet: ChatContextPacket | None = None) -> bool:
+    return can_use_chat_llm(packet)
+
+
+def maybe_generate_chat_reply(packet: ChatContextPacket) -> str | None:
+    if not can_use_chat_llm(packet):
         return None
     return _call_ollama(packet)
+
+
+def maybe_generate_main_chat_reply(packet: ChatContextPacket) -> str | None:
+    return maybe_generate_chat_reply(packet)

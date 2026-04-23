@@ -3,14 +3,24 @@ from __future__ import annotations
 import base64
 import hashlib
 import html
+import json
+import os
 import re
+import shutil
+import subprocess
+import sys
 import time
 from pathlib import Path
 
 import streamlit as st
 
+from app.chat.context_packet import build_study_chat_context_packet as _build_study_chat_context_packet
+from app.chat.llm_slot import maybe_generate_chat_reply as _maybe_generate_chat_reply
 from app.chat.orchestrator import build_main_chat_reply as _build_main_chat_reply
 from app.chat.state import (
+    APP_SUPPORT_DIR,
+    DOCS_DIR,
+    STATE_PATH,
     UPLOADS_DIR,
     active_chat_mode as _active_chat_mode,
     append_main_message as _append_main_message,
@@ -31,23 +41,120 @@ from app.chat.ui import (
     render_conversation as _render_conversation,
     scroll_chat_to_latest as _scroll_chat_to_latest,
 )
-from app.core.pipeline import run_solve_pipeline
 
 
 LOGO_PATH = Path(__file__).resolve().parent / "assets" / "cocoai.svg"
 DEFAULT_USER_PROMPT = "뭐야?"
 PROMPT_PLACEHOLDER = "자료가 없어도 괜찮아요. 수학 개념이나 문제를 그대로 물어보세요."
+APP_VERSION = str(os.getenv("COCO_APP_VERSION") or "1.0.0").strip() or "1.0.0"
+CHECK_FAULTS_PATH = APP_SUPPORT_DIR / "check_faults.json"
+CAPTURES_DIR = APP_SUPPORT_DIR / "captures"
+OLLAMA_BIN_CANDIDATES = (
+    "/opt/homebrew/bin/ollama",
+    "/usr/local/bin/ollama",
+    "/Applications/Ollama.app/Contents/Resources/ollama",
+)
+
+
+def _set_upload_feedback(tone: str, message: str) -> None:
+    st.session_state["_upload_feedback"] = {
+        "tone": "success" if str(tone).strip() == "success" else "error",
+        "message": str(message or "").strip(),
+    }
+
+
+def _upload_widget_key(name: str) -> str:
+    nonce_key = f"{name}_nonce"
+    nonce = int(st.session_state.get(nonce_key, 0) or 0)
+    return f"{name}_{nonce}"
+
+
+def _reset_upload_widgets() -> None:
+    for base in ("upload_find_card",):
+        nonce_key = f"{base}_nonce"
+        st.session_state[nonce_key] = int(st.session_state.get(nonce_key, 0) or 0) + 1
+
+
+def _save_uploaded_bytes(file_name: str, data: bytes) -> tuple[str, str, str]:
+    safe_name = Path(str(file_name or "upload.png")).name or "upload.png"
+    file_hash = hashlib.sha1(data).hexdigest()[:12]
+    target_path = UPLOADS_DIR / f"{file_hash}_{safe_name}"
+    target_path.write_bytes(data)
+    return file_hash, safe_name, str(target_path)
 
 
 def _save_uploaded_file(uploaded_file) -> tuple[str, str, str]:
     data = uploaded_file.getvalue()
-    file_hash = hashlib.sha1(data).hexdigest()[:12]
-    target_path = UPLOADS_DIR / f"{file_hash}_{uploaded_file.name}"
-    target_path.write_bytes(data)
-    return file_hash, uploaded_file.name, str(target_path)
+    return _save_uploaded_bytes(str(getattr(uploaded_file, "name", "") or "upload.png"), data)
+
+
+def _register_uploaded_document(state: dict, file_id: str, file_name: str, file_path: str) -> None:
+    analysis = _run_analysis(file_path)
+    document_payload = {
+        "doc_id": file_id,
+        "file_name": file_name,
+        "file_path": file_path,
+        "latest_user_query": "",
+        "analysis": analysis,
+    }
+    _persist_document(file_id, file_name, file_path, analysis)
+    docs = [item for item in state.get("documents", []) if item.get("doc_id") != file_id]
+    docs.insert(
+        0,
+        {
+            "doc_id": file_id,
+            "file_name": file_name,
+            "file_path": file_path,
+            "created_at": time.time(),
+            "latest_user_query": "",
+        },
+    )
+    state["documents"] = docs
+    _mark_active_target(state, "study", file_id)
+    _append_message(state, "assistant", _build_recovery_message(document_payload), doc_id=file_id)
+
+
+def _capture_screen_selection() -> tuple[str, str, str] | None:
+    if sys.platform != "darwin":
+        _set_upload_feedback("error", "현재 캡처 등록은 macOS 앱 환경에서만 지원합니다.")
+        return None
+
+    capture_bin = shutil.which("screencapture") or "/usr/sbin/screencapture"
+    CAPTURES_DIR.mkdir(parents=True, exist_ok=True)
+    capture_name = f"capture_{time.strftime('%Y%m%d_%H%M%S')}.png"
+    capture_path = CAPTURES_DIR / capture_name
+
+    try:
+        result = subprocess.run(
+            [capture_bin, "-i", str(capture_path)],
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+    except Exception as exc:
+        _set_upload_feedback("error", f"캡처를 시작하지 못했습니다: {exc}")
+        return None
+
+    if result.returncode != 0 or not capture_path.exists() or capture_path.stat().st_size == 0:
+        if capture_path.exists():
+            capture_path.unlink(missing_ok=True)
+        _set_upload_feedback("error", "캡처가 취소되었거나 저장되지 않았습니다.")
+        return None
+
+    try:
+        data = capture_path.read_bytes()
+        file_id, file_name, file_path = _save_uploaded_bytes(capture_name, data)
+        capture_path.unlink(missing_ok=True)
+        return file_id, file_name, file_path
+    except Exception as exc:
+        capture_path.unlink(missing_ok=True)
+        _set_upload_feedback("error", f"캡처 파일을 등록하지 못했습니다: {exc}")
+        return None
 
 
 def _run_analysis(file_path: str, user_query: str = "") -> dict:
+    from app.core.pipeline import run_solve_pipeline
+
     started = time.time()
     payload = run_solve_pipeline(image_path=file_path, user_query=user_query, debug=True)
     finished = time.time()
@@ -78,6 +185,7 @@ def _status_badge(status: str) -> str:
     palette = {
         "정상": ("rgba(34,197,94,0.14)", "#7ce2a6"),
         "보강 필요": ("rgba(251,113,133,0.16)", "#f9a8b3"),
+        "재설정필요": ("rgba(251,113,133,0.16)", "#f9a8b3"),
         "실패": ("rgba(248,113,113,0.18)", "#fca5a5"),
     }
     bg, fg = palette.get(status, ("rgba(148,163,184,0.18)", "#cbd5e1"))
@@ -85,6 +193,185 @@ def _status_badge(status: str) -> str:
         f'<span class="status-badge" style="background:{bg};color:{fg};">'
         f"{html.escape(status)}</span>"
     )
+
+
+def _load_check_faults() -> dict[str, bool]:
+    if not CHECK_FAULTS_PATH.exists():
+        return {}
+    try:
+        payload = json.loads(CHECK_FAULTS_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    if not isinstance(payload, dict):
+        return {}
+    normalized: dict[str, bool] = {}
+    for key, value in payload.items():
+        normalized[str(key).strip()] = bool(value)
+    return normalized
+
+
+def _set_check_fault(name: str, enabled: bool) -> None:
+    CHECK_FAULTS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    faults = _load_check_faults()
+    if enabled:
+        faults[name] = True
+    else:
+        faults.pop(name, None)
+    if faults:
+        CHECK_FAULTS_PATH.write_text(json.dumps(faults, ensure_ascii=False, indent=2), encoding="utf-8")
+    elif CHECK_FAULTS_PATH.exists():
+        CHECK_FAULTS_PATH.unlink()
+
+
+def _run_process(command: list[str], timeout: float = 6.0) -> tuple[bool, str]:
+    try:
+        result = subprocess.run(
+            command,
+            capture_output=True,
+            text=True,
+            timeout=timeout,
+            check=False,
+        )
+    except Exception as exc:
+        return False, str(exc)
+    if result.returncode == 0:
+        return True, (result.stdout or "").strip()
+    return False, (result.stderr or result.stdout or "").strip()
+
+
+def _resolve_ollama_bin() -> str | None:
+    candidates: list[Path] = []
+
+    env_override = str(os.getenv("COCO_OLLAMA_BIN") or "").strip()
+    if env_override:
+        candidates.append(Path(env_override).expanduser())
+
+    discovered = shutil.which("ollama")
+    if discovered:
+        candidates.append(Path(discovered))
+
+    candidates.extend(Path(raw) for raw in OLLAMA_BIN_CANDIDATES)
+
+    seen: set[str] = set()
+    for candidate in candidates:
+        expanded = candidate.expanduser()
+        key = str(expanded)
+        if key in seen:
+            continue
+        seen.add(key)
+        if expanded.exists() and os.access(expanded, os.X_OK):
+            return key
+    return None
+
+
+def _probe_storage_targets() -> tuple[bool, str]:
+    targets = [APP_SUPPORT_DIR, UPLOADS_DIR, DOCS_DIR]
+    for target in targets:
+        if not target.exists():
+            return False, f"{target.name} 폴더를 찾을 수 없습니다."
+        probe = target / f".coco_check_{int(time.time() * 1000)}.tmp"
+        try:
+            probe.write_text("ok", encoding="utf-8")
+            probe.unlink(missing_ok=True)
+        except Exception as exc:
+            return False, f"{target.name} 폴더에 접근할 수 없습니다: {exc}"
+    return True, "앱 상태 파일과 업로드 폴더에 접근할 수 있습니다."
+
+
+def _probe_session_restore() -> tuple[bool, str]:
+    if not STATE_PATH.parent.exists():
+        return False, "세션 저장 폴더를 찾을 수 없습니다."
+    if not os.access(STATE_PATH.parent, os.W_OK):
+        return False, "세션 저장 폴더에 쓰기 권한이 없습니다."
+    if STATE_PATH.exists():
+        try:
+            json.loads(STATE_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            return False, "세션 상태 파일을 다시 준비해야 합니다."
+    return True, "세션 저장과 복원이 정상적으로 준비되었습니다."
+
+
+def _probe_coco_engine() -> tuple[bool, str]:
+    engine_bin = _resolve_ollama_bin()
+    if not engine_bin:
+        return False, "코코 엔진 실행 파일을 찾지 못했습니다."
+    ok, detail = _run_process([engine_bin, "list"], timeout=8.0)
+    if ok:
+        return True, "코코 대화 엔진이 정상적으로 연결되었습니다."
+    if detail:
+        return False, "코코 엔진 연결이 끊어졌습니다. 재실행해주세요."
+    return False, "코코 엔진을 다시 실행해야 합니다."
+
+
+def _repair_storage_targets() -> tuple[bool, str]:
+    try:
+        _ensure_dirs()
+        APP_SUPPORT_DIR.mkdir(parents=True, exist_ok=True)
+        ok, detail = _probe_storage_targets()
+        if ok:
+            _set_check_fault("storage", False)
+            return True, "저장 공간을 다시 준비했습니다."
+        return False, detail
+    except Exception as exc:
+        return False, f"저장 공간을 다시 준비하지 못했습니다: {exc}"
+
+
+def _repair_session_restore(state: dict) -> tuple[bool, str]:
+    try:
+        if STATE_PATH.exists():
+            try:
+                json.loads(STATE_PATH.read_text(encoding="utf-8"))
+            except Exception:
+                backup_path = STATE_PATH.with_name(f"{STATE_PATH.stem}.broken-{int(time.time())}.json")
+                STATE_PATH.replace(backup_path)
+        _save_state(state)
+        ok, detail = _probe_session_restore()
+        if ok:
+            _set_check_fault("session", False)
+            return True, "세션 복원을 다시 준비했습니다."
+        return False, detail
+    except Exception as exc:
+        return False, f"세션 복원을 다시 준비하지 못했습니다: {exc}"
+
+
+def _repair_coco_engine() -> tuple[bool, str]:
+    engine_bin = _resolve_ollama_bin()
+    if not engine_bin:
+        return False, "Ollama 실행 파일을 찾지 못했습니다."
+    ok, _ = _run_process([engine_bin, "list"], timeout=8.0)
+    if ok:
+        _set_check_fault("engine", False)
+        return True, "코코 엔진이 이미 정상적으로 연결되어 있습니다."
+
+    try:
+        subprocess.Popen(
+            [engine_bin, "serve"],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+            stdin=subprocess.DEVNULL,
+            start_new_session=True,
+        )
+    except Exception as exc:
+        return False, f"코코 엔진을 다시 실행하지 못했습니다: {exc}"
+
+    deadline = time.time() + 12.0
+    while time.time() < deadline:
+        ok, _ = _run_process([engine_bin, "list"], timeout=8.0)
+        if ok:
+            _set_check_fault("engine", False)
+            return True, "코코 엔진을 다시 연결했습니다."
+        time.sleep(0.8)
+    return False, "코코 엔진이 아직 응답하지 않습니다."
+
+
+def _run_check_action(action_id: str, state: dict) -> tuple[bool, str]:
+    if action_id == "storage":
+        return _repair_storage_targets()
+    if action_id == "session":
+        return _repair_session_restore(state)
+    if action_id == "engine":
+        return _repair_coco_engine()
+    return False, "아직 연결되지 않은 점검 액션입니다."
 
 
 def _assistant_render_delay_seconds(answer: str) -> float:
@@ -168,9 +455,14 @@ def _build_recovery_message(document: dict | None) -> str:
     return "\n".join(lines)
 
 
-def _build_followup_message(document: dict | None, prompt: str) -> str:
+def _build_followup_message(document: dict | None, prompt: str, state: dict | None = None) -> str:
     if not document:
         return "파일을 먼저 올려주면 복원된 식, 문제문장, 답 후보를 이 자리에서 바로 같이 정리할게요."
+
+    packet = _build_study_chat_context_packet(prompt, document=document, state=state)
+    llm_reply = _maybe_generate_chat_reply(packet)
+    if llm_reply:
+        return llm_reply
 
     analysis = document.get("analysis") or {}
     structured = analysis.get("structured_problem") or {}
@@ -221,90 +513,353 @@ def _clear_active_chat(state: dict) -> None:
                 break
 
 
-def _build_check_items(state: dict, selected: dict | None) -> list[dict]:
-    documents = _load_all_documents(state)
-    stored_files = len(documents)
-    analyzed_count = max(stored_files, sum(1 for item in state.get("chat_history", []) if item.get("role") == "assistant"))
-    recognized_count = sum(
-        1
-        for doc in documents
-        if str(((doc.get("analysis") or {}).get("structured_problem") or {}).get("normalized_problem_text") or "").strip()
-    )
-    solved_count = sum(
-        1
-        for doc in documents
-        if str(((doc.get("analysis") or {}).get("solve_result") or {}).get("validation_status") or "").strip() == "verified"
-    )
-    pending_count = max(stored_files - solved_count, 0)
-    error_count = sum(
-        1
-        for doc in documents
-        if not str(((doc.get("analysis") or {}).get("structured_problem") or {}).get("normalized_problem_text") or "").strip()
-    )
-
-    selected_topic = str(((selected or {}).get("analysis") or {}).get("structured_problem", {}).get("math_topic") or "").strip()
-    if selected_topic in {"", "unknown"}:
-        selected_topic = "unknown_intent"
+def _build_main_check_items(state: dict) -> list[dict]:
+    faults = _load_check_faults()
+    runtime_path = Path(sys.executable).resolve()
+    runtime_ok = runtime_path.exists()
+    storage_ok, storage_body = _probe_storage_targets()
+    if faults.get("storage"):
+        storage_ok = False
+        storage_body = "저장 공간 연결이 중단되었습니다. 다시 준비해주세요."
+    session_ready, session_body = _probe_session_restore()
+    if faults.get("session"):
+        session_ready = False
+        session_body = "세션 복원 상태가 중단되었습니다. 다시 준비해주세요."
+    engine_ready, engine_body = _probe_coco_engine()
+    if faults.get("engine"):
+        engine_ready = False
+        engine_body = "코코 엔진 연결이 중단되었습니다. 재실행해주세요."
+    main_history_count = sum(1 for item in state.get("main_chat_history", []) if isinstance(item, dict))
 
     return [
-        {"title": "설치/실행", "status": "정상", "body": "첫 실행 시간이 기록되었습니다."},
         {
-            "title": "파일 업로드/분석",
-            "status": "정상" if stored_files else "보강 필요",
-            "body": f"저장된 파일 {stored_files}개, 분석 기록 {analyzed_count}회",
-        },
-        {
-            "title": "문제 인식",
-            "status": "정상" if recognized_count else "보강 필요",
-            "body": f"구조화된 문제 {recognized_count}개",
-        },
-        {
-            "title": "풀이/검증",
-            "status": "정상" if solved_count else "보강 필요",
-            "body": f"완료 {solved_count}개 / processing 잔류 {pending_count}개",
-        },
-        {
-            "title": "프롬프트 함수 흐름",
+            "id": "version",
+            "title": "코코 버전",
             "status": "정상",
-            "body": f"마지막 액션: {selected_topic}",
+            "body": f"현재 실행 버전 {APP_VERSION}",
         },
         {
-            "title": "저장/복원",
+            "id": "runtime",
+            "title": "코코 환경",
+            "status": "정상" if runtime_ok else "실패",
+            "body": (
+                "코코 실행 환경이 정상적으로 준비되었습니다."
+                if runtime_ok
+                else "내장 런타임 경로를 다시 확인해주세요."
+            ),
+        },
+        {
+            "id": "server",
+            "title": "코코 서버",
             "status": "정상",
-            "body": "세션 복원 파일과 복원 시간 기록 확인",
+            "body": "메인 채팅 화면이 정상적으로 열려 있습니다.",
         },
         {
-            "title": "오류 처리",
-            "status": "정상" if error_count == 0 else "보강 필요",
-            "body": f"최근 오류 로그 {error_count}건",
+            "id": "storage",
+            "title": "저장 공간",
+            "status": "정상" if storage_ok else "실패",
+            "body": storage_body if storage_ok else storage_body,
+            "action_label": None if storage_ok else "재설정",
+        },
+        {
+            "id": "engine",
+            "title": "코코 엔진",
+            "status": "정상" if engine_ready else "실패",
+            "body": (
+                f"기본 대화 엔진 준비 완료 / 현재 대화 기록 {main_history_count}건"
+                if engine_ready
+                else engine_body
+            ),
+            "action_label": None if engine_ready else "재실행",
+        },
+        {
+            "id": "session",
+            "title": "세션 복원",
+            "status": "정상" if session_ready else "실패",
+            "body": session_body if session_ready else session_body,
+            "action_label": None if session_ready else "재설정",
         },
     ]
 
 
-def _render_check_panel(items: list[dict]) -> str:
-    needs_attention = any(item.get("status") != "정상" for item in items)
-    summary = "추가 수정 필요" if needs_attention else "정상"
-    summary_class = "needs-work" if needs_attention else "healthy"
-    sections = []
-    for item in items:
-        title = html.escape(str(item.get("title") or ""))
-        title_class = "check-title upload-check-title" if "업로드" in title else "check-title"
-        badge = _status_badge(str(item.get("status") or ""))
-        body = html.escape(str(item.get("body") or ""))
-        sections.append(
-            '<div class="check-row">'
-            '<div class="check-title-line">'
-            f'<div class="{title_class}">{title}</div>'
-            f'<div>{badge}</div>'
-            '</div>'
-            f'<div class="check-body">{body}</div>'
-            '</div>'
-        )
-    return (
-        f'<div class="check-panel"><div class="check-panel-head"><div class="check-panel-title">요청 점검</div>'
-        f'<div class="check-summary {summary_class}">{html.escape(summary)}</div></div>'
-        f'{"".join(sections)}</div>'
+def _count_debug_entries(payload: object) -> int:
+    if isinstance(payload, dict):
+        return len(payload)
+    if isinstance(payload, (list, tuple, set)):
+        return len(payload)
+    return 0
+
+
+def _build_study_check_items(state: dict, selected: dict | None) -> list[dict]:
+    documents = _load_all_documents(state)
+    stored_files = len(documents)
+    selected_analysis = (selected or {}).get("analysis") or {}
+    structured = selected_analysis.get("structured_problem") or {}
+    solved = selected_analysis.get("solve_result") or {}
+    debug_payload = selected_analysis.get("debug") or {}
+
+    file_name = str((selected or {}).get("file_name") or "").strip()
+    selected_doc_id = str((selected or {}).get("doc_id") or state.get("selected_doc_id") or "").strip()
+    selected_chat_count = sum(
+        1
+        for item in state.get("chat_history", [])
+        if isinstance(item, dict) and str(item.get("doc_id") or "").strip() == selected_doc_id
     )
+
+    recognized_signals = _dedupe_text(
+        [str(structured.get("normalized_problem_text") or "").strip()]
+        + [str(item or "").strip() for item in structured.get("expressions") or []]
+        + [str(item or "").strip() for item in structured.get("source_text_candidates") or []],
+        limit=8,
+    )
+    recognition_ready = bool(recognized_signals)
+
+    answer_value = str(solved.get("matched_choice") or solved.get("computed_answer") or "").strip()
+    steps = [str(item or "").strip() for item in solved.get("steps") or [] if str(item or "").strip()]
+    validation_status = str(solved.get("validation_status") or "").strip().lower()
+    solution_ready = bool(answer_value or steps or validation_status in {"verified", "completed", "matched"})
+
+    storage_ok, storage_body = _probe_storage_targets()
+    session_ok, session_body = _probe_session_restore()
+    storage_ready = storage_ok and session_ok
+
+    warning_count = _count_debug_entries(debug_payload.get("warnings")) + _count_debug_entries(debug_payload.get("errors"))
+    if not recognition_ready:
+        warning_count += 1
+
+    file_body = "현재 등록된 학습 자료가 없습니다."
+    if file_name:
+        file_body = f"현재 자료 {_truncate_label(file_name, limit=20)} / 저장된 자료 {stored_files}건"
+
+    if recognition_ready:
+        recognition_body = f"문제 문장과 식 후보 {len(recognized_signals)}개를 확인했습니다."
+    else:
+        recognition_body = "문제 문장과 식 후보를 더 선명하게 읽는 중입니다."
+
+    if solution_ready:
+        if answer_value:
+            solution_body = f"현재 답 후보 {answer_value}"
+        else:
+            solution_body = f"풀이 단계 {len(steps)}개를 정리했습니다."
+    else:
+        solution_body = "풀이 단서를 정리하는 중입니다."
+
+    if selected_chat_count:
+        dialogue_body = f"현재 자료 대화 {selected_chat_count}건이 이어지고 있습니다."
+    else:
+        dialogue_body = "등록 직후 안내 메시지를 준비했습니다."
+
+    storage_message = "학습 파일과 세션 기록이 정상적으로 저장되고 있습니다." if storage_ready else (
+        storage_body if not storage_ok else session_body
+    )
+
+    error_body = "최근 분석 오류가 없습니다." if warning_count == 0 else f"최근 확인된 분석 경고 {warning_count}건"
+
+    return [
+        {
+            "id": "study_file",
+            "title": "파일 등록",
+            "status": "정상" if file_name else "보강 필요",
+            "body": file_body,
+        },
+        {
+            "id": "study_recognition",
+            "title": "문제 인식",
+            "status": "정상" if recognition_ready else "보강 필요",
+            "body": recognition_body,
+        },
+        {
+            "id": "study_solution",
+            "title": "풀이 결과",
+            "status": "정상" if solution_ready else "보강 필요",
+            "body": solution_body,
+        },
+        {
+            "id": "study_dialogue",
+            "title": "학습 대화",
+            "status": "정상",
+            "body": dialogue_body,
+        },
+        {
+            "id": "study_storage",
+            "title": "저장 상태",
+            "status": "정상" if storage_ready else "보강 필요",
+            "body": storage_message,
+        },
+        {
+            "id": "study_errors",
+            "title": "오류 로그",
+            "status": "정상" if warning_count == 0 else "보강 필요",
+            "body": error_body,
+        },
+    ]
+
+
+def _build_check_items(state: dict, selected: dict | None) -> list[dict]:
+    if _active_chat_mode(state) == "main":
+        return _build_main_check_items(state)
+    return _build_study_check_items(state, selected)
+
+
+def _build_check_panel_meta(state: dict, selected: dict | None) -> tuple[str, str]:
+    if _active_chat_mode(state) == "main":
+        return "코코 점검", ""
+
+    file_name = str((selected or {}).get("file_name") or "").strip()
+    if file_name:
+        return "학습 점검", f"현재 자료 {_truncate_label(file_name, limit=20)}"
+    return "학습 점검", "등록된 학습 자료 상태를 확인하고 있습니다."
+
+
+def _render_check_panel(items: list[dict], state: dict, selected: dict | None) -> None:
+    has_red_status = any(str(item.get("status") or "").strip() in {"보강 필요", "실패"} for item in items)
+    summary = "재설정필요" if has_red_status else "정상"
+    summary_badge = _status_badge(summary)
+    feedback = st.session_state.pop("_check_panel_feedback", None)
+    panel_title, panel_subtitle = _build_check_panel_meta(state, selected)
+    panel_mode = "main" if _active_chat_mode(state) == "main" else "study"
+    title_html = html.escape(panel_title)
+    subtitle_html = html.escape(panel_subtitle)
+
+    with st.container(key=f"check_panel_{panel_mode}"):
+        with st.container(key=f"check_header_{panel_mode}"):
+            head_left, head_right = st.columns([1, 0.36], gap="small")
+            with head_left:
+                st.markdown(f'<div class="check-panel-title">{title_html}</div>', unsafe_allow_html=True)
+                if panel_subtitle:
+                    st.markdown(f'<div class="check-panel-subtitle">{subtitle_html}</div>', unsafe_allow_html=True)
+            with head_right:
+                st.markdown(f'<div class="check-summary">{summary_badge}</div>', unsafe_allow_html=True)
+
+        if isinstance(feedback, dict):
+            tone = "success" if feedback.get("ok") else "error"
+            message = html.escape(str(feedback.get("message") or ""))
+            st.markdown(f'<div class="check-feedback {tone}">{message}</div>', unsafe_allow_html=True)
+
+        for index, item in enumerate(items):
+            item_id = str(item.get("id") or f"item_{index}")
+            row_key = f"check_row_first_{item_id}" if index == 0 else f"check_row_{item_id}"
+            title = html.escape(str(item.get("title") or ""))
+            title_class = "check-title upload-check-title" if "업로드" in title else "check-title"
+            badge = _status_badge(str(item.get("status") or ""))
+            body = html.escape(str(item.get("body") or ""))
+
+            with st.container(key=row_key):
+                line_left, line_right = st.columns([1, 0.36], gap="small")
+                with line_left:
+                    st.markdown(f'<div class="{title_class}">{title}</div>', unsafe_allow_html=True)
+                with line_right:
+                    st.markdown(f'<div class="check-row-badge">{badge}</div>', unsafe_allow_html=True)
+
+                st.markdown(f'<div class="check-body">{body}</div>', unsafe_allow_html=True)
+
+                action_label = str(item.get("action_label") or "").strip()
+                if action_label:
+                    with st.container(key=f"check_action_{item_id}"):
+                        action_left, action_right = st.columns([1, 0.38], gap="small")
+                        with action_right:
+                            if st.button(action_label, key=f"check_action_button_{item_id}", use_container_width=True):
+                                ok, message = _run_check_action(item_id, state)
+                                st.session_state["_check_panel_feedback"] = {"ok": ok, "message": message}
+                                _save_state(state)
+                                st.rerun()
+
+
+def _render_upload_feedback() -> None:
+    feedback = st.session_state.get("_upload_feedback")
+    if not isinstance(feedback, dict):
+        return
+    message = html.escape(str(feedback.get("message") or "").strip())
+    if not message:
+        return
+    tone = "success" if str(feedback.get("tone") or "").strip() == "success" else "error"
+    st.markdown(f'<div class="upload-feedback {tone}">{message}</div>', unsafe_allow_html=True)
+
+
+def _complete_upload_registration(
+    state: dict,
+    upload_result: tuple[str, str, str] | None,
+    *,
+    success_message: str,
+) -> bool:
+    if not upload_result:
+        return False
+
+    try:
+        file_id, file_name, file_path = upload_result
+        _register_uploaded_document(state, file_id, file_name, file_path)
+        _save_state(state)
+    except Exception as exc:
+        _set_upload_feedback("error", f"이미지를 등록하지 못했습니다: {exc}")
+        return False
+
+    _set_upload_feedback("success", success_message)
+    return True
+
+
+def _process_uploaded_file(state: dict, uploaded_file, *, success_message: str) -> None:
+    if uploaded_file is None:
+        return
+
+    try:
+        with st.spinner("이미지를 등록하고 있어요."):
+            upload_result = _save_uploaded_file(uploaded_file)
+            if _complete_upload_registration(state, upload_result, success_message=success_message):
+                _reset_upload_widgets()
+                st.rerun()
+    except Exception as exc:
+        _set_upload_feedback("error", f"파일을 등록하지 못했습니다: {exc}")
+        _reset_upload_widgets()
+        st.rerun()
+
+
+def _run_capture_registration(state: dict) -> None:
+    captured = _capture_screen_selection()
+    if not captured:
+        st.rerun()
+        return
+
+    with st.spinner("캡처 이미지를 등록하고 있어요."):
+        if _complete_upload_registration(
+            state,
+            captured,
+            success_message="캡처 이미지를 바로 등록했습니다.",
+        ):
+            _reset_upload_widgets()
+            st.rerun()
+    st.rerun()
+
+
+def _render_upload_entry(state: dict) -> None:
+    st.markdown('<div class="upload-picker-helper">등록 방식을 선택해 주세요.</div>', unsafe_allow_html=True)
+
+    capture_col, browse_col = st.columns(2, gap="small")
+
+    with capture_col:
+        with st.container(key="upload_option_capture"):
+            if st.button(
+                "캡처\n화면을 드래그해 바로 등록",
+                key="upload_capture_trigger",
+                use_container_width=True,
+            ):
+                _set_upload_feedback("success", "캡처할 영역을 선택해주세요.")
+                st.session_state["_pending_capture_request"] = True
+                st.rerun()
+
+    with browse_col:
+        with st.container(key="upload_find_card"):
+            picked_file = st.file_uploader(
+                "찾기 등록",
+                type=["png", "jpg", "jpeg"],
+                label_visibility="collapsed",
+                key=_upload_widget_key("upload_find_card"),
+            )
+        _process_uploaded_file(state, picked_file, success_message="선택한 이미지를 등록했습니다.")
+
+    _render_upload_feedback()
+
+    if st.session_state.pop("_pending_capture_request", False):
+        _run_capture_registration(state)
 
 
 def _conversation_from_state(state: dict) -> list[dict]:
@@ -382,7 +937,7 @@ def _render_chat_body(state: dict, submitted_prompt: str | None = None) -> None:
             conversation_slot.markdown(_render_conversation(pending_conversation, mode=mode), unsafe_allow_html=True)
             _scroll_chat_to_latest()
             started = time.time()
-            assistant_reply = _build_followup_message(selected_document, prompt)
+            assistant_reply = _build_followup_message(selected_document, prompt, state=state)
             elapsed = time.time() - started
             remaining = max(_assistant_render_delay_seconds(assistant_reply) - elapsed, 0.0)
             if remaining > 0:
@@ -583,6 +1138,99 @@ def _inject_css() -> None:
           color: #ffb067;
         }
 
+        .upload-picker-helper {
+          color: #9ca8bf;
+          font-size: 12px;
+          line-height: 1.45;
+          margin: 2px 4px 10px;
+        }
+
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"],
+        [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploader"] {
+          margin: 0 !important;
+        }
+
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button {
+          min-height: 64px !important;
+          height: 64px !important;
+          width: 100% !important;
+          padding: 0 !important;
+          border-radius: 16px !important;
+          border: 1px solid rgba(117, 126, 151, 0.4) !important;
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.025) 100%) !important;
+          box-shadow: none !important;
+          justify-content: center !important;
+          align-items: center !important;
+          text-align: center !important;
+          position: relative !important;
+          overflow: hidden !important;
+        }
+
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button:hover,
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button:focus,
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button:active {
+          border: 1px solid rgba(143, 156, 185, 0.62) !important;
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
+          box-shadow: none !important;
+        }
+
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 28px;
+          height: 28px;
+          transform: translate(-50%, -50%);
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Cpath d='M9.2 7.4L10.5 5.8C10.8 5.43 11.25 5.2 11.73 5.2H14.27C14.75 5.2 15.2 5.43 15.5 5.8L16.8 7.4H19.15C20.34 7.4 21.3 8.36 21.3 9.55V17.45C21.3 18.64 20.34 19.6 19.15 19.6H6.85C5.66 19.6 4.7 18.64 4.7 17.45V9.55C4.7 8.36 5.66 7.4 6.85 7.4H9.2Z' stroke='%23EDF2FF' stroke-width='1.9' stroke-linejoin='round'/%3E%3Ccircle cx='13' cy='13.5' r='3.55' stroke='%23EDF2FF' stroke-width='1.9'/%3E%3Ccircle cx='18.25' cy='10.55' r='0.9' fill='%23EDF2FF'/%3E%3C/svg%3E");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          pointer-events: none;
+        }
+
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button > div,
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button [data-testid="stMarkdownContainer"] {
+          width: 100% !important;
+          display: flex !important;
+          align-items: center !important;
+          justify-content: center !important;
+          text-align: center !important;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button p,
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button span {
+          color: transparent !important;
+          font-size: 0 !important;
+          line-height: 0 !important;
+          font-weight: 400 !important;
+          text-align: center !important;
+          white-space: nowrap !important;
+        }
+
+        .upload-feedback {
+          margin: 8px 0 6px !important;
+          padding: 10px 12px !important;
+          border-radius: 14px !important;
+          font-size: 12px !important;
+          line-height: 1.45 !important;
+          border: 1px solid transparent !important;
+        }
+
+        .upload-feedback.success {
+          background: rgba(34, 197, 94, 0.12) !important;
+          border-color: rgba(74, 222, 128, 0.22) !important;
+          color: #9ae6b4 !important;
+        }
+
+        .upload-feedback.error {
+          background: rgba(248, 113, 113, 0.14) !important;
+          border-color: rgba(252, 165, 165, 0.24) !important;
+          color: #fecaca !important;
+        }
+
         [data-testid="stFileUploader"] {
           margin: 0 0 5px !important;
           padding: 0 !important;
@@ -608,6 +1256,49 @@ def _inject_css() -> None:
           padding: 0 !important;
           min-height: 0 !important;
           height: 0 !important;
+        }
+
+        [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"] {
+          min-height: 64px !important;
+          height: 64px !important;
+          border-radius: 16px !important;
+          border: 1px solid rgba(117, 126, 151, 0.4) !important;
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.025) 100%) !important;
+        }
+
+        [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"]:hover,
+        [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"]:focus,
+        [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"]:active {
+          border: 1px solid rgba(143, 156, 185, 0.62) !important;
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
+        }
+
+        [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"] section,
+        [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"] > div,
+        [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"] section > div,
+        [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"] section > div > div {
+          min-height: 64px !important;
+          height: 64px !important;
+        }
+
+        [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"]::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 28px;
+          height: 28px;
+          transform: translate(-50%, -50%);
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Cpath d='M13 6.5V15.7' stroke='%23EDF2FF' stroke-width='1.95' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M8.78 10.72L13 6.5L17.22 10.72' stroke='%23EDF2FF' stroke-width='1.95' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M7.25 18.15V18.9C7.25 19.8 7.98 20.55 8.9 20.55H17.1C18.02 20.55 18.75 19.8 18.75 18.9V18.15' stroke='%23EDF2FF' stroke-width='1.95' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          color: #edf2ff;
+          pointer-events: none;
+        }
+
+        [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"]::after {
+          content: none;
         }
 
         [data-testid="stFileUploaderDropzone"] {
@@ -694,7 +1385,7 @@ def _inject_css() -> None:
           width: 34px;
           height: 34px;
           transform: translate(-50%, -50%);
-          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='34' viewBox='0 0 34 34' fill='none'%3E%3Cpath d='M17 8.5V20.5' stroke='%23EDF2FF' stroke-width='2.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M11.5 14L17 8.5L22.5 14' stroke='%23EDF2FF' stroke-width='2.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M9.5 23.5V24.5C9.5 25.6046 10.3954 26.5 11.5 26.5H22.5C23.6046 26.5 24.5 25.6046 24.5 24.5V23.5' stroke='%23EDF2FF' stroke-width='2.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='34' viewBox='0 0 34 34' fill='none'%3E%3Cpath d='M17 8.5V20.5' stroke='%23EDF2FF' stroke-width='2.05' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M11.5 14L17 8.5L22.5 14' stroke='%23EDF2FF' stroke-width='2.05' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M9.5 23.5V24.5C9.5 25.6046 10.3954 26.5 11.5 26.5H22.5C23.6046 26.5 24.5 25.6046 24.5 24.5V23.5' stroke='%23EDF2FF' stroke-width='2.05' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
           background-position: center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -713,9 +1404,9 @@ def _inject_css() -> None:
         }
 
         .sidebar-section-title.learning-list-title {
-          font-size: 16px;
+          font-size: 14px;
           font-weight: 400;
-          padding-left: 1ch;
+          padding-left: 1em;
           margin: 9px 4px 10px 0;
         }
 
@@ -744,6 +1435,7 @@ def _inject_css() -> None:
           padding: 0 16px 0 22px !important;
           text-align: left !important;
           font-size: 14px !important;
+          position: relative !important;
         }
 
         [class*="st-key-doc_select_"] [data-testid="stButton"] button > div,
@@ -766,24 +1458,49 @@ def _inject_css() -> None:
           margin: 0 !important;
         }
 
-        [class*="st-key-doc_select_"] button[kind="secondary"] {
+        [class*="st-key-doc_select_inactive_"] [data-testid="stButton"] button {
+          background: rgba(255, 255, 255, 0.04) !important;
+          border: 1px solid #4c5060 !important;
+          color: #b4bccb !important;
           box-shadow: inset 5px 0 0 #4b505d !important;
           font-weight: 400 !important;
+          padding-left: 42px !important;
         }
 
-        [class*="st-key-doc_select_"] button[kind="primary"] {
+        [class*="st-key-doc_select_inactive_"] [data-testid="stButton"] button::before {
+          content: "";
+          position: absolute;
+          left: 18px;
+          top: 50%;
+          width: 13px;
+          height: 16px;
+          transform: translateY(-50%);
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='16' viewBox='0 0 13 16' fill='none'%3E%3Cpath d='M3 1.25H8.25L11.5 4.5V13.25C11.5 14.0784 10.8284 14.75 10 14.75H3C2.17157 14.75 1.5 14.0784 1.5 13.25V2.75C1.5 1.92157 2.17157 1.25 3 1.25Z' stroke='%2397A0B4' stroke-width='1.3' stroke-linejoin='round'/%3E%3Cpath d='M8 1.5V4.75H11.25' stroke='%2397A0B4' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          pointer-events: none;
+          opacity: 0.92;
+        }
+
+        [class*="st-key-doc_select_active_"] [data-testid="stButton"] button {
+          background: #f3f7ff !important;
+          border: 1px solid #3b82f6 !important;
+          color: #172033 !important;
           box-shadow: inset 5px 0 0 #3b82f6 !important;
           font-weight: 700 !important;
         }
 
-        [class*="st-key-doc_select_"] button[kind="secondary"] p,
-        [class*="st-key-doc_select_"] button[kind="secondary"] span {
+        [class*="st-key-doc_select_inactive_"] [data-testid="stButton"] button p,
+        [class*="st-key-doc_select_inactive_"] [data-testid="stButton"] button span {
           font-weight: 400 !important;
+          color: #b4bccb !important;
         }
 
-        [class*="st-key-doc_select_"] button[kind="primary"] p,
-        [class*="st-key-doc_select_"] button[kind="primary"] span {
+        [class*="st-key-doc_select_active_"] [data-testid="stButton"] button p,
+        [class*="st-key-doc_select_active_"] [data-testid="stButton"] button span {
           font-weight: 700 !important;
+          color: #172033 !important;
         }
 
         [class*="st-key-doc_row_"] div[data-testid="stHorizontalBlock"] {
@@ -862,7 +1579,8 @@ def _inject_css() -> None:
           border-radius: 16px;
           padding: 16px 18px;
           margin: 2px 4px 8px;
-          font-size: 0.96rem;
+          font-size: 12px;
+          font-weight: 300;
         }
 
         .doc-preview-list {
@@ -912,60 +1630,88 @@ def _inject_css() -> None:
           box-shadow: inset 5px 0 0 #3b82f6;
         }
 
-        .check-panel {
+        [class*="st-key-check_panel"] {
           margin-top: 13px;
-          background: #1a1c23;
+          background: linear-gradient(180deg, #1a1c23 0%, #171920 100%);
           border: 1px solid var(--panel-border);
           border-radius: 20px;
-          padding: 14px 18px 4px;
+          padding: 14px 18px 6px;
           color: white;
         }
 
-        .check-panel-head {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          margin-bottom: 4px;
+        [class*="st-key-check_panel_main"] {
+          background: linear-gradient(180deg, #19202a 0%, #171c24 100%);
+          border-color: rgba(111, 135, 174, 0.2);
+          box-shadow: inset 0 1px 0 rgba(182, 204, 239, 0.04);
+        }
+
+        [class*="st-key-check_panel_study"] {
+          background: linear-gradient(180deg, #141518 0%, #101114 100%);
+          border-color: rgba(255, 255, 255, 0.08);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+        }
+
+        [class*="st-key-check_panel"] > div {
+          gap: 0 !important;
+        }
+
+        [class*="st-key-check_header"] {
+          margin-bottom: 6px;
+        }
+
+        [class*="st-key-check_header"] div[data-testid="column"] {
+          padding: 0 !important;
+        }
+
+        [class*="st-key-check_header"] div[data-testid="stHorizontalBlock"] {
+          align-items: flex-start !important;
         }
 
         .check-panel-title {
-          font-size: 14px;
+          font-size: 15px;
+          font-weight: 700;
+          letter-spacing: -0.03em;
+          line-height: 1.2;
+        }
+
+        .check-panel-subtitle {
+          margin-top: 4px;
+          color: rgba(255, 255, 255, 0.54);
+          font-size: 11px;
+          line-height: 1.4;
           font-weight: 400;
-          letter-spacing: -0.04em;
         }
 
         .check-summary {
-          font-size: 10px;
-          font-weight: 400;
+          display: flex;
+          width: 100%;
+          align-items: flex-start;
+          justify-content: flex-end;
+          padding-top: 2px;
         }
 
-        .check-summary.needs-work {
-          color: #9ab0ff;
+        [class*="st-key-check_row_"],
+        [class*="st-key-check_row_first_"] {
+          padding: 12px 0;
         }
 
-        .check-summary.healthy {
-          color: #7ce2a6;
-        }
-
-        .check-row {
-          padding: 10px 0;
+        [class*="st-key-check_row_"] {
           border-top: 1px solid rgba(255, 255, 255, 0.08);
         }
 
-        .check-row:first-of-type {
+        [class*="st-key-check_row_first_"] {
           border-top: none;
         }
 
-        .check-title-line {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          gap: 8px;
+        [class*="st-key-check_row_"] div[data-testid="column"],
+        [class*="st-key-check_row_first_"] div[data-testid="column"] {
+          padding: 0 !important;
         }
 
         .check-title {
-          font-size: 14px;
-          font-weight: 400;
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 1.35;
         }
 
         .check-title.upload-check-title,
@@ -975,11 +1721,31 @@ def _inject_css() -> None:
         }
 
         .check-body {
-          margin-top: 4px;
-          color: rgba(255, 255, 255, 0.74);
-          line-height: 1.45;
+          margin-top: 6px;
+          color: rgba(255, 255, 255, 0.72);
+          line-height: 1.55;
           font-size: 12px;
           font-weight: 400;
+        }
+
+        .check-row-badge {
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-start;
+        }
+
+        .check-feedback {
+          margin: 4px 0 8px;
+          font-size: 11px;
+          line-height: 1.45;
+        }
+
+        .check-feedback.success {
+          color: #7ce2a6;
+        }
+
+        .check-feedback.error {
+          color: #f9a8b3;
         }
 
         .status-badge {
@@ -987,9 +1753,40 @@ def _inject_css() -> None:
           align-items: center;
           justify-content: center;
           border-radius: 999px;
-          padding: 4px 10px;
+          min-width: 70px;
+          padding: 6px 12px;
           font-size: 10px;
-          font-weight: 400;
+          font-weight: 600;
+          line-height: 1;
+          white-space: nowrap;
+          text-align: center;
+        }
+
+        .check-summary .status-badge {
+          margin-left: auto;
+          min-width: 88px;
+        }
+
+        [class*="st-key-check_action_"] {
+          margin-top: 8px;
+        }
+
+        [class*="st-key-check_action_"] div[data-testid="column"] {
+          padding: 0 !important;
+        }
+
+        [class*="st-key-check_action_"] [data-testid="stButton"] {
+          display: flex;
+          justify-content: flex-end;
+        }
+
+        [class*="st-key-check_action_"] [data-testid="stButton"] button {
+          min-height: 32px !important;
+          height: 32px !important;
+          border-radius: 999px !important;
+          padding: 0 12px !important;
+          font-size: 11px !important;
+          font-weight: 400 !important;
         }
 
         .chat-shell {
@@ -1005,8 +1802,8 @@ def _inject_css() -> None:
             overflow-y: auto;
             overscroll-behavior: contain;
             box-sizing: border-box;
-            border: 1px solid rgba(239, 68, 68, 0.9);
-            background: rgba(239, 68, 68, 0.03);
+            border: 0;
+            background: transparent;
         }
 
         .chat-shell.empty-state {
@@ -1018,6 +1815,8 @@ def _inject_css() -> None:
             justify-content: center;
             padding-top: 0;
             overflow: hidden;
+            border: 0;
+            background: transparent;
         }
 
         .chat-row {
@@ -1040,8 +1839,8 @@ def _inject_css() -> None:
     height: 12px;
     flex: 0 0 12px;
     scroll-margin-bottom: 10px;
-    border: 1px solid rgba(56, 189, 248, 0.9);
-    background: rgba(56, 189, 248, 0.08);
+    border: 0;
+    background: transparent;
     box-sizing: border-box;
 }
 
@@ -1059,22 +1858,28 @@ def _inject_css() -> None:
         }
 
         .assistant-card.pending-card {
-          min-height: 96px;
+          width: 45px;
+          min-width: 45px;
+          max-width: 45px;
+          height: 45px;
+          min-height: 45px;
+          max-height: 45px;
           display: flex;
           align-items: center;
-          justify-content: flex-start;
+          justify-content: center;
+          padding: 0;
         }
 
         .typing-dots {
           display: inline-flex;
           align-items: center;
-          gap: 10px;
-          padding-left: 4px;
+          gap: 5px;
+          padding-left: 0;
         }
 
         .typing-dots span {
-          width: 12px;
-          height: 12px;
+          width: 7px;
+          height: 7px;
           border-radius: 999px;
           background: #a4afc4;
           opacity: 0.3;
@@ -1213,7 +2018,7 @@ div[data-testid="stChatInput"] textarea:focus {
   overflow-y: auto !important;
   transition: none !important;
   transform: none !important;
-  border: 1px solid rgba(249, 115, 22, 0.95) !important;
+  border: 0 !important;
 }
 
         div[data-testid="stChatInput"] textarea::placeholder {
@@ -1258,7 +2063,7 @@ div[data-testid="stChatInput"] button {
     height: 48px;
     margin: 0 !important;
     padding: 0 !important;
-    border: 1px solid rgba(239, 68, 68, 0.9) !important;
+    border: 0 !important;
 }
 
 [class*="st-key-floating_reset_button"] > div,
@@ -1270,11 +2075,11 @@ div[data-testid="stChatInput"] button {
 }
 
 [class*="st-key-floating_reset_button"] > div {
-    border: 1px solid rgba(56, 189, 248, 0.9) !important;
+    border: 0 !important;
 }
 
 [class*="st-key-floating_reset_button"] [data-testid="stButton"] {
-    border: 1px solid rgba(34, 197, 94, 0.9) !important;
+    border: 0 !important;
 }
 
         [class*="st-key-floating_reset_button"] button {
@@ -1389,49 +2194,25 @@ with st.sidebar:
             _save_state(state)
             st.rerun()
 
-    uploaded_file = st.file_uploader("이미지 업로드", type=["png", "jpg", "jpeg"], label_visibility="collapsed")
-    if uploaded_file is not None:
-        file_id, file_name, file_path = _save_uploaded_file(uploaded_file)
-        analysis = _run_analysis(file_path)
-        document_payload = {
-            "doc_id": file_id,
-            "file_name": file_name,
-            "file_path": file_path,
-            "latest_user_query": "",
-            "analysis": analysis,
-        }
-        _persist_document(file_id, file_name, file_path, analysis)
-        docs = [item for item in state.get("documents", []) if item.get("doc_id") != file_id]
-        docs.insert(
-            0,
-            {
-                "doc_id": file_id,
-                "file_name": file_name,
-                "file_path": file_path,
-                "created_at": time.time(),
-                "latest_user_query": "",
-            },
-        )
-        state["documents"] = docs
-        _mark_active_target(state, "study", file_id)
-        _append_message(state, "assistant", _build_recovery_message(document_payload), doc_id=file_id)
-        _save_state(state)
-        st.rerun()
+    _render_upload_entry(state)
 
     st.markdown('<div class="sidebar-section-title learning-list-title">학습리스트</div>', unsafe_allow_html=True)
     if state.get("documents"):
+        is_study_mode = _active_chat_mode(state) == "study"
         with st.container(key="doc_live_list"):
             for item in state.get("documents", []):
                 doc_id = item["doc_id"]
+                is_doc_active = is_study_mode and state.get("selected_doc_id") == doc_id
                 with st.container(key=f"doc_row_{doc_id}"):
                     row_left, row_right = st.columns([1, 0.16], gap="small")
                     with row_left:
-                        with st.container(key=f"doc_select_{doc_id}"):
+                        select_key = f"doc_select_active_{doc_id}" if is_doc_active else f"doc_select_inactive_{doc_id}"
+                        with st.container(key=select_key):
                             if st.button(
                                 _truncate_label(item.get("file_name") or doc_id),
                                 key=f"select_{doc_id}",
                                 use_container_width=True,
-                                type="primary" if state.get("selected_doc_id") == doc_id else "secondary",
+                                type="primary" if is_doc_active else "secondary",
                             ):
                                 _mark_active_target(state, "study", doc_id)
                                 _save_state(state)
@@ -1461,7 +2242,7 @@ with st.sidebar:
         )
 
     selected_for_sidebar = _load_document(state.get("selected_doc_id"))
-    st.markdown(_render_check_panel(_build_check_items(state, selected_for_sidebar)), unsafe_allow_html=True)
+    _render_check_panel(_build_check_items(state, selected_for_sidebar), state, selected_for_sidebar)
 
 submitted_prompt = _render_prompt_input()
 _render_chat_body(state, submitted_prompt=submitted_prompt)
