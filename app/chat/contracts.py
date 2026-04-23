@@ -64,6 +64,8 @@ class ChatContextPacket(TypedDict, total=False):
     last_intent: str
     last_concept_term: str | None
     last_concept_stage: str | None
+    intent_hint: ChatIntent | None
+    content_theme: str | None
     ambiguity_score: int
     ambiguity_reasons: list[str]
     llm_candidate: bool

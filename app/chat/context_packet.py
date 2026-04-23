@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from .contracts import AppState, ChatContextPacket, ChatMessage
+from .router import classify_main_chat_intent, extract_content_theme
 from .state import active_chat_mode
 
 
@@ -58,6 +59,8 @@ def build_chat_context_packet(prompt: str, state: AppState | None = None) -> Cha
     resolved_state = state or {}
     normalized = str(prompt or "").strip()
     context = resolved_state.get("main_chat_context") or {}
+    intent_hint = classify_main_chat_intent(normalized, custom_concepts=resolved_state.get("custom_concepts"))
+    content_theme = extract_content_theme(normalized)
     reasons = _ambiguity_reasons(normalized, resolved_state)
     recent_messages = _recent_main_messages(resolved_state)
     llm_candidate = bool(reasons)
@@ -75,6 +78,8 @@ def build_chat_context_packet(prompt: str, state: AppState | None = None) -> Cha
         "last_intent": str(context.get("last_intent") or "").strip(),
         "last_concept_term": str(context.get("last_concept_term") or "").strip() or None,
         "last_concept_stage": str(context.get("last_concept_stage") or "").strip() or None,
+        "intent_hint": intent_hint,
+        "content_theme": content_theme,
         "ambiguity_score": len(reasons),
         "ambiguity_reasons": reasons,
         "llm_candidate": llm_candidate,

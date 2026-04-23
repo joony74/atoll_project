@@ -18,6 +18,7 @@ _KOREAN_CHAR_PATTERN = re.compile(r"[가-힣]")
 _LEADING_ACK_PATTERN = re.compile(
     r"^\s*(?:(?:(?i:great|good|sure|okay|alright)|그(?i:reat|ood))|"
     r"(?:그런|이런|좋은|재밌는|흥미로운)?\s*질문\s*(?:감사합니다|고마워요|좋네요)|"
+    r"(?:그런|이런|좋은|재밌는|흥미로운)?\s*질문(?:을|를)?\s*해주셔서\s*(?:기쁩니다|반갑습니다)|"
     r"(?:네|네에|좋네요|좋아요|좋습니다|그렇네요|알겠어요)"
     r"(?:\s*,\s*(?:좋네요|좋아요|좋습니다|그렇네요))?)"
     r"[!,.~\s:：-]*"
@@ -28,10 +29,18 @@ _TRAILING_EMOJI_AFTER_PUNCT_PATTERN = re.compile(
 _TRAILING_EMOJI_PATTERN = re.compile(
     r"\s*(?:[\uFE0F\u200D]|[\U0001F300-\U0001FAFF\u2600-\u27BF])+\s*$"
 )
+_TRAILING_ENGLISH_GARBAGE_PATTERN = re.compile(
+    r"(?:\s|[가-힣])+(?:understand|understood|yourself|yourselves|ok|okay|alright|right)\??\s*$",
+    re.IGNORECASE,
+)
 _SENTENCE_SPLIT_PATTERN = re.compile(r"(?<=[.!?。！？])\s*|\n+")
 _PAREN_HAN_PATTERN = re.compile(r"\([\u4e00-\u9fff][^)]*\)|（[\u4e00-\u9fff][^）]*）")
 _HAN_SUFFIX_AFTER_PUNCT_PATTERN = re.compile(r"\s*[,;:：，、]\s*[\u4e00-\u9fff].*$")
 _HAN_SUFFIX_PATTERN = re.compile(r"\s*[\u4e00-\u9fff].*$")
+_CODE_BLOCK_PATTERN = re.compile(r"```|`[^`]+`")
+_PROGRAMMING_PATTERN = re.compile(
+    r"\b(public\s+class|private\s+\w+|System\.out|import\s+\w|def\s+\w+\(|class\s+\w+|return\s+\w+\s*;)\b"
+)
 
 
 def _env_flag(name: str, default: bool = False) -> bool:
@@ -88,6 +97,8 @@ def _developer_prompt(packet: ChatContextPacket) -> str:
     has_documents = bool(packet.get("has_documents"))
     last_intent = str(packet.get("last_intent") or "").strip() or "general"
     last_concept_term = str(packet.get("last_concept_term") or "").strip() or "없음"
+    intent_hint = str(packet.get("intent_hint") or "").strip() or "general"
+    content_theme = str(packet.get("content_theme") or "").strip() or "없음"
     ambiguity = ", ".join(packet.get("ambiguity_reasons") or []) or "없음"
     return (
         "답변 원칙:\n"
@@ -98,11 +109,16 @@ def _developer_prompt(packet: ChatContextPacket) -> str:
         "- 개념 설명과 콘텐츠 요청(예: 사랑 노래) 같은 단어 조합은 다르게 해석한다.\n"
         "- 이미지, 사진, 캡처, 스크린샷을 해석할 수 있는지 묻는 질문은 앱 기능 안내로 보고, 이미지를 등록하면 더 깊은 풀이가 가능하다고 자연스럽게 설명한다.\n"
         "- 콘텐츠 요청은 먼저 가장 자연스러운 예시나 방향을 제안하고, 꼭 필요할 때만 짧게 되묻는다.\n"
+        "- 콘텐츠 요청으로 보이면 개념 정의로 되돌아가지 않는다. 특히 노래/음악/영화/책 요청은 추천이나 분위기 제안으로 답한다.\n"
+        "- 사용자가 수학을 어려워한다고 말하면 설명보다 먼저 부담을 덜어주고, 무엇이 어려운지 같이 정리하는 방향으로 답한다.\n"
+        "- 사용자가 코드/프로그래밍을 묻지 않았다면 코드블록, 자바/파이썬 예시, 클래스 예시는 절대 넣지 않는다.\n"
         "- 설명보다 추천이나 예시가 더 맞는 문장이라면 개념 정의로 되돌아가지 않는다.\n"
         "- 반드시 한국어만 사용한다. 중국어 한자식 문장이나 영어 혼용 문장을 만들지 않는다.\n"
         "- 사용자를 다시 훈계하거나 메타 설명으로 빠지지 않는다.\n\n"
         f"현재 모드: {active_mode}\n"
         f"학습리스트 존재: {'예' if has_documents else '아니오'}\n"
+        f"추정 intent: {intent_hint}\n"
+        f"콘텐츠 주제: {content_theme}\n"
         f"직전 intent: {last_intent}\n"
         f"직전 개념: {last_concept_term}\n"
         f"애매함 신호: {ambiguity}"
@@ -193,7 +209,45 @@ def _sanitize_reply(content: str | None) -> str | None:
         cleaned = _strip_han_segments(cleaned)
     cleaned = _TRAILING_EMOJI_AFTER_PUNCT_PATTERN.sub(r"\1", cleaned)
     cleaned = _TRAILING_EMOJI_PATTERN.sub("", cleaned)
+    cleaned = _TRAILING_ENGLISH_GARBAGE_PATTERN.sub("", cleaned).rstrip(" ,;:：")
     return cleaned or None
+
+
+def _contains_unsolicited_code(content: str, prompt: str) -> bool:
+    prompt_text = str(prompt or "")
+    if any(
+        token in prompt_text.lower()
+        for token in ("코드", "프로그래밍", "자바", "python", "파이썬", "c++", "c#", "javascript", "js", "개발")
+    ):
+        return False
+    return bool(_CODE_BLOCK_PATTERN.search(content) or _PROGRAMMING_PATTERN.search(content))
+
+
+def _looks_invalid_for_packet(packet: ChatContextPacket, content: str) -> bool:
+    intent_hint = str(packet.get("intent_hint") or "").strip() or "general"
+    prompt = str(packet.get("normalized_prompt") or packet.get("prompt") or "").strip()
+    content_theme = str(packet.get("content_theme") or "").strip()
+
+    if _looks_mixed_non_korean(content):
+        return True
+
+    if _contains_unsolicited_code(content, prompt):
+        return True
+
+    if intent_hint == "content_request" and any(token in prompt for token in ("노래", "음악", "플레이리스트", "가사", "영화", "드라마", "책", "소설", "영상")):
+        if re.search(r"(에 대해 쉽게 말하면|뜻은|의미는|정의하자면|라고 볼 수 있어요)", content):
+            return True
+        if content_theme and content_theme not in prompt and re.search(r"(감정적 상태|개념|정의)", content):
+            return True
+
+    if intent_hint == "math" and any(token in prompt for token in ("못해", "어려워", "힘들", "싫어", "무서워")):
+        if re.search(r"(구체적으로 말씀해|예를 들어 식 풀이|기하학)", content) and _contains_unsolicited_code(content, prompt):
+            return True
+
+    if intent_hint in {"smalltalk", "emotional"} and _contains_unsolicited_code(content, prompt):
+        return True
+
+    return False
 
 
 def _call_ollama(packet: ChatContextPacket) -> str | None:
@@ -204,7 +258,12 @@ def _call_ollama(packet: ChatContextPacket) -> str | None:
         retry_result = _post_json(_llm_endpoint(), _build_payload(packet, retry_korean_only=True))
         retry_content = _sanitize_reply(_extract_content(retry_result))
         if retry_content:
+            if _looks_invalid_for_packet(packet, retry_content):
+                return None
             return retry_content
+        return None
+    if content and _looks_invalid_for_packet(packet, content):
+        return None
     return content or None
 
 

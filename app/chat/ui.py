@@ -88,10 +88,10 @@ def scroll_chat_to_latest() -> None:
           const anchors = root.querySelectorAll('.chat-end-anchor');
           const target = anchors[anchors.length - 1];
           if (!target) return;
-          const promptBar = root.querySelector('div[data-testid="stTextInput"]');
-          const promptHeight = promptBar ? promptBar.getBoundingClientRect().height : 0;
+          const promptBar = root.querySelector('div[data-testid="stChatInput"]')
+            || root.querySelector('div[data-testid="stTextInput"]');
           const scrollParent = findScrollParent(root, target);
-          const extraBottom = promptHeight + 72;
+          const extraBottom = 12;
           target.scrollIntoView({behavior: 'auto', block: 'end'});
           if (scrollParent) {
             scrollParent.scrollTop = scrollParent.scrollHeight + extraBottom;

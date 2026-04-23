@@ -173,6 +173,20 @@ _MATH_PATTERN = re.compile(
     re.IGNORECASE,
 )
 
+_MATH_HELP_HINTS = (
+    "못해",
+    "못 하",
+    "어려워",
+    "어렵",
+    "힘들",
+    "헷갈",
+    "약해",
+    "막혀",
+    "무서워",
+    "싫어",
+    "부담",
+)
+
 
 def extract_concept_term(prompt: str) -> str | None:
     normalized = str(prompt or "").strip().rstrip("?.! ")
@@ -203,7 +217,7 @@ def extract_content_theme(prompt: str) -> str | None:
         if keyword in compact:
             theme = compact.replace(keyword, " ")
             theme = re.sub(
-                r"(있어|있나|추천|알아|찾아|들려|보여|같은|관련|좀|하나|있니|있냐|있을까)$",
+                r"(있어|있나|추천|알아|찾아|들려|보여|같은|관련|좀|하나|있니|있냐|있을까|추천해줘|찾아줘|알려줘|들려줘|보여줘|줘|해줘|해주세요)$",
                 "",
                 theme,
             )
@@ -237,9 +251,21 @@ def is_concept_clarification_prompt(prompt: str, custom_concepts: dict[str, Stor
         return True
     if any(token in normalized for token in _CONCEPT_CLARIFIER_TOKENS):
         return True
-    if resolve_known_concept_term(normalized, custom_concepts=custom_concepts) and len(normalized) <= 14:
+    known_term = resolve_known_concept_term(normalized, custom_concepts=custom_concepts)
+    if known_term and re.sub(r"\s+", "", normalized) == re.sub(r"\s+", "", known_term):
         return True
     return False
+
+
+def is_math_help_prompt(prompt: str) -> bool:
+    normalized = str(prompt or "").strip()
+    lowered = normalized.lower()
+    if not normalized:
+        return False
+    has_math_signal = any(token in lowered for token in _MATH_KEYWORDS) or bool(_MATH_PATTERN.search(normalized))
+    if not has_math_signal:
+        return False
+    return any(token in normalized for token in _MATH_HELP_HINTS)
 
 
 def classify_main_chat_intent(prompt: str, custom_concepts: dict[str, StoredConcept] | None = None) -> ChatIntent:
@@ -262,6 +288,9 @@ def classify_main_chat_intent(prompt: str, custom_concepts: dict[str, StoredConc
 
     if is_content_request_prompt(normalized):
         return "content_request"
+
+    if is_math_help_prompt(normalized):
+        return "math"
 
     if extract_concept_term(normalized) or (
         resolve_known_concept_term(normalized, custom_concepts=custom_concepts)

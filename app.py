@@ -196,33 +196,13 @@ def _build_followup_message(document: dict | None, prompt: str) -> str:
     return "\n".join(lines)
 
 
-def _render_prompt_input() -> None:
+def _render_prompt_input() -> str | None:
     with st.container(key="floating_reset_button"):
         if st.button("↻", key="floating_reset", help="대화 초기화"):
             st.session_state["_clear_active_chat_requested"] = True
             st.rerun()
-    st.text_input(
-        "질문 입력",
-        value="",
-        key="prompt_input",
-        label_visibility="collapsed",
-        placeholder=PROMPT_PLACEHOLDER,
-    )
-
-
-def _consume_submitted_prompt() -> str | None:
-    current = str(st.session_state.get("prompt_input", "") or "").strip()
-    last_seen = str(st.session_state.get("_last_prompt_widget_value", "") or "").strip()
-
-    if current and current != last_seen:
-        st.session_state["_last_prompt_widget_value"] = current
-        st.session_state["prompt_input"] = ""
-        return current
-
-    if not current and last_seen:
-        st.session_state["_last_prompt_widget_value"] = ""
-
-    return None
+    prompt = st.chat_input(PROMPT_PLACEHOLDER, key="prompt_input")
+    return str(prompt or "").strip() or None
 
 
 def _clear_active_chat(state: dict) -> None:
@@ -453,6 +433,11 @@ def _inject_css() -> None:
           font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Apple SD Gothic Neo", "Pretendard", sans-serif;
         }
 
+        html,
+        body {
+          background: var(--main-bg) !important;
+        }
+
         #MainMenu, footer, header[data-testid="stHeader"] {
           display: none !important;
         }
@@ -469,8 +454,13 @@ def _inject_css() -> None:
           height: 0 !important;
         }
 
-        [data-testid="stAppViewContainer"] {
-          background: var(--main-bg);
+        [data-testid="stAppViewContainer"],
+        [data-testid="stAppViewContainer"] > div,
+        [data-testid="stMain"],
+        [data-testid="stMain"] > div,
+        [data-testid="stMain"] section,
+        [data-testid="stMainBlockContainer"] {
+          background: var(--main-bg) !important;
         }
 
         [data-testid="stSidebar"] {
@@ -1003,29 +993,31 @@ def _inject_css() -> None:
         }
 
         .chat-shell {
-          max-width: 1110px;
-          margin: 6px auto 0;
-          height: calc(100vh - 220px);
-          min-height: calc(100vh - 220px);
-          padding-top: 18px;
-          padding-bottom: 0;
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          overflow-y: auto;
-          overscroll-behavior: contain;
-          box-sizing: border-box;
+            max-width: 1110px;
+            margin: 6px auto 0;
+      height: 90vh;
+      min-height: 90vh;
+            padding-top: 18px;
+            padding-bottom: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            overflow-y: auto;
+            overscroll-behavior: contain;
+            box-sizing: border-box;
+            border: 1px solid rgba(239, 68, 68, 0.9);
+            background: rgba(239, 68, 68, 0.03);
         }
 
         .chat-shell.empty-state {
-          width: 100%;
-          height: calc(100vh - 240px);
-          min-height: calc(100vh - 240px);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          padding-top: 0;
-          overflow: hidden;
+            width: 100%;
+      height: 90vh;
+      min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 0;
+            overflow: hidden;
         }
 
         .chat-row {
@@ -1043,22 +1035,26 @@ def _inject_css() -> None:
           margin: 0 0 18px;
         }
 
-        .chat-end-anchor {
-          width: 100%;
-          height: 220px;
-          flex: 0 0 220px;
-          scroll-margin-bottom: 180px;
-        }
+.chat-end-anchor {
+    width: 100%;
+    height: 12px;
+    flex: 0 0 12px;
+    scroll-margin-bottom: 10px;
+    border: 1px solid rgba(56, 189, 248, 0.9);
+    background: rgba(56, 189, 248, 0.08);
+    box-sizing: border-box;
+}
 
         .assistant-card {
           max-width: 760px;
+          min-height: 45px;
           border: 1px solid var(--assistant-border);
           border-radius: 16px;
           background: white;
-          padding: 22px 24px;
+          padding: 12px 16px;
           color: #111827;
-          line-height: 1.68;
-          font-size: 1rem;
+          line-height: 1.45;
+          font-size: 14px;
           box-shadow: 0 1px 0 rgba(148, 163, 184, 0.08);
         }
 
@@ -1105,16 +1101,18 @@ def _inject_css() -> None:
         }
 
         .user-bubble {
-          min-width: 180px;
+          min-width: 96px;
+          min-height: 45px;
           max-width: 560px;
           border: 1px solid #93c5fd;
           border-radius: 15px;
           background: #dbeafe;
-          padding: 18px 20px;
+          padding: 10px 14px;
           color: #111827;
-          font-size: 1rem;
-          font-weight: 800;
+          font-size: 14px;
+          font-weight: 400;
           text-align: left;
+          line-height: 1.4;
         }
 
         .empty-chat {
@@ -1125,118 +1123,171 @@ def _inject_css() -> None:
           line-height: 1.7;
         }
 
-        div[data-testid="stTextInput"] {
-          position: fixed !important;
-          left: 310px !important;
-          right: 0 !important;
-          bottom: 0 !important;
-          width: calc(100vw - 310px) !important;
-          max-width: calc(100vw - 310px) !important;
-          height: 120px !important;
-          z-index: 1001 !important;
-          display: flex !important;
-          justify-content: center !important;
-          align-items: center !important;
-          margin: 0 !important;
-          padding: 0 !important;
-          background: rgba(255, 255, 255, 0.02) !important;
-          border: 1px solid transparent !important;
-          backdrop-filter: blur(8px);
-          -webkit-backdrop-filter: blur(8px);
-          box-sizing: border-box;
+        :root {
+          --coco-chat-left: 346px;
+          --coco-chat-right: 36px;
+          --coco-chat-bottom: 12px;
+          --coco-chat-height: 45px;
         }
 
-        div[data-testid="stTextInput"] > div,
-        div[data-testid="stTextInput"] div[data-testid="stVerticalBlock"],
-        div[data-testid="stTextInput"] div[data-testid="stHorizontalBlock"],
-        div[data-testid="stTextInput"] section,
-        div[data-testid="stTextInput"] label,
-        div[data-testid="stTextInput"] div[data-testid="stElementContainer"] {
-          width: 100% !important;
-          max-width: 100% !important;
-          min-width: 0 !important;
-          min-height: 0 !important;
-          margin: 0 !important;
-          padding: 0 !important;
-          background: transparent !important;
-          border: 1px solid transparent !important;
-          box-shadow: none !important;
-          box-sizing: border-box;
-          gap: 0 !important;
-        }
+div[data-testid="stChatInput"] {
+  position: fixed !important;
+  left: var(--coco-chat-left) !important;
+  right: var(--coco-chat-right) !important;
+  bottom: var(--coco-chat-bottom) !important;
+  height: var(--coco-chat-height) !important;
+  min-height: var(--coco-chat-height) !important;
+  max-height: var(--coco-chat-height) !important;
+  display: block !important;
+  z-index: 1002 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+  box-sizing: border-box !important;
+    border: 0 !important;
+}
 
-        div[data-testid="stTextInputRootElement"] {
-          width: 95% !important;
-          max-width: 95% !important;
-          flex: 0 0 95% !important;
-          height: 72px !important;
-          margin: 0 auto !important;
-          padding: 0 !important;
-          border: 1px solid transparent !important;
-          background: transparent !important;
-        }
+div[data-testid="stChatInput"] > div,
+div[data-testid="stChatInput"] form,
+div[data-testid="stChatInput"] [data-testid="stChatInputForm"],
+div[data-testid="stChatInput"] [data-baseweb="textarea"],
+div[data-testid="stChatInput"] [data-baseweb="base-input"] {
+  width: 100% !important;
+  height: var(--coco-chat-height) !important;
+  min-height: var(--coco-chat-height) !important;
+  max-height: var(--coco-chat-height) !important;
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  box-sizing: border-box !important;
+  overflow: visible !important;
+}
 
-        div[data-testid="stTextInputRootElement"] > div,
-        div[data-testid="stTextInput"] div[data-baseweb="base-input"],
-        div[data-testid="stTextInput"] div[data-baseweb="base-input"] > div,
-        div[data-testid="stTextInput"] div[data-baseweb="base-input"] > div > div {
-          min-height: 72px !important;
-          height: 72px !important;
-          width: 100% !important;
-          border-radius: 16px !important;
-          background: #2c2f3b !important;
-          border: 1px solid rgba(96, 165, 250, 0.95) !important;
-          box-shadow: 0 8px 24px rgba(15, 23, 42, 0.18) !important;
-          box-sizing: border-box;
-        }
+div[data-testid="stChatInput"] > div {
+    border: 0 !important;
+}
 
-        div[data-testid="stTextInput"] div[data-baseweb="base-input"] {
-          overflow: hidden !important;
-        }
+div[data-testid="stChatInput"] form {
+    border: 0 !important;
+}
 
-        div[data-testid="stTextInputRootElement"] input {
-          background: transparent !important;
-          color: #e5e7eb !important;
-          font-size: 1.06rem !important;
-          height: 72px !important;
-          line-height: 72px !important;
-          padding: 0 22px !important;
-        }
+div[data-testid="stChatInput"] [data-testid="stChatInputForm"] {
+    border: 0 !important;
+}
 
-        div[data-testid="stTextInputRootElement"] input::placeholder {
+div[data-testid="stChatInput"] [data-baseweb="textarea"],
+div[data-testid="stChatInput"] [data-baseweb="base-input"] {
+  position: relative !important;
+}
+
+div[data-testid="stChatInput"] [data-baseweb="textarea"] {
+    border: 0 !important;
+}
+
+div[data-testid="stChatInput"] [data-baseweb="base-input"] {
+    border: 0 !important;
+}
+
+div[data-testid="stChatInput"] textarea,
+div[data-testid="stChatInput"] textarea:focus {
+  width: 100% !important;
+  height: var(--coco-chat-height) !important;
+  min-height: var(--coco-chat-height) !important;
+  max-height: var(--coco-chat-height) !important;
+  margin: 0 !important;
+  border-radius: 16px !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  box-sizing: border-box !important;
+  color: #e5e7eb !important;
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+  padding: 9px 36px 9px 12px !important;
+  resize: none !important;
+  overflow-y: auto !important;
+  transition: none !important;
+  transform: none !important;
+  border: 1px solid rgba(249, 115, 22, 0.95) !important;
+}
+
+        div[data-testid="stChatInput"] textarea::placeholder {
           color: #8f97aa !important;
         }
 
-        [class*="st-key-floating_reset_button"] {
-          position: fixed;
-          right: 40px;
-          bottom: 152px;
-          z-index: 1002;
-          width: 68px;
-          height: 68px;
+div[data-testid="stChatInput"] button {
+  position: absolute !important;
+  top: auto !important;
+  bottom: 0 !important;
+  right: 12px !important;
+  transform: none !important;
+  width: 44px !important;
+  min-width: 44px !important;
+  height: 44px !important;
+  min-height: 44px !important;
           margin: 0 !important;
           padding: 0 !important;
+          border-radius: 14px !important;
+          background: transparent !important;
+          border: 0 !important;
+          box-shadow: none !important;
+          appearance: none !important;
+          -webkit-appearance: none !important;
+          opacity: 0 !important;
+          z-index: 4 !important;
         }
 
-        [class*="st-key-floating_reset_button"] > div,
-        [class*="st-key-floating_reset_button"] [data-testid="stButton"] {
-          width: 68px !important;
-          height: 68px !important;
-          margin: 0 !important;
-          padding: 0 !important;
+        div[data-testid="stChatInput"] button svg,
+        div[data-testid="stChatInput"] button path {
+          color: transparent !important;
+          fill: transparent !important;
+          opacity: 0 !important;
         }
+
+[class*="st-key-floating_reset_button"] {
+    position: fixed;
+    right: 40px;
+    bottom: 98px;
+    z-index: 1002;
+    width: 48px;
+    height: 48px;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 1px solid rgba(239, 68, 68, 0.9) !important;
+}
+
+[class*="st-key-floating_reset_button"] > div,
+[class*="st-key-floating_reset_button"] [data-testid="stButton"] {
+    width: 48px !important;
+    height: 48px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+[class*="st-key-floating_reset_button"] > div {
+    border: 1px solid rgba(56, 189, 248, 0.9) !important;
+}
+
+[class*="st-key-floating_reset_button"] [data-testid="stButton"] {
+    border: 1px solid rgba(34, 197, 94, 0.9) !important;
+}
 
         [class*="st-key-floating_reset_button"] button {
-          width: 68px !important;
-          min-width: 68px !important;
-          max-width: 68px !important;
-          height: 68px !important;
-          min-height: 68px !important;
+          width: 48px !important;
+          min-width: 48px !important;
+          max-width: 48px !important;
+          height: 48px !important;
+          min-height: 48px !important;
           border-radius: 999px !important;
           background: #2c2f3b !important;
           border: 1px solid rgba(255, 255, 255, 0.08) !important;
           color: #f8a05b !important;
-          font-size: 2rem !important;
+          font-size: 1.5rem !important;
           font-weight: 800 !important;
           padding: 0 !important;
           margin: 0 !important;
@@ -1253,7 +1304,7 @@ def _inject_css() -> None:
         }
 
         [class*="st-key-floating_reset_button"] button p {
-          font-size: 2rem !important;
+          font-size: 1.5rem !important;
           line-height: 1 !important;
           margin: 0 !important;
         }
@@ -1264,11 +1315,9 @@ def _inject_css() -> None:
             max-width: 310px !important;
           }
 
-          div[data-testid="stTextInput"] {
-            left: 310px !important;
-            right: 0 !important;
-            width: calc(100vw - 310px) !important;
-            max-width: calc(100vw - 310px) !important;
+          :root {
+            --coco-chat-left: 328px;
+            --coco-chat-right: 18px;
           }
         }
 
@@ -1279,22 +1328,20 @@ def _inject_css() -> None:
             padding-bottom: 148px;
           }
 
-          div[data-testid="stTextInput"] {
-            left: 0 !important;
-            width: 100% !important;
-            max-width: 100% !important;
-            margin: 0 !important;
+          :root {
+            --coco-chat-left: 18px;
+            --coco-chat-right: 18px;
           }
 
-          .chat-shell {
-            height: calc(100vh - 206px);
-            min-height: calc(100vh - 206px);
-          }
+            .chat-shell {
+        height: 90vh;
+        min-height: 90vh;
+            }
 
-          .chat-shell.empty-state {
-            height: calc(100vh - 224px);
-            min-height: calc(100vh - 224px);
-          }
+            .chat-shell.empty-state {
+        height: 90vh;
+        min-height: 90vh;
+            }
         }
         </style>
         """
@@ -1416,6 +1463,5 @@ with st.sidebar:
     selected_for_sidebar = _load_document(state.get("selected_doc_id"))
     st.markdown(_render_check_panel(_build_check_items(state, selected_for_sidebar)), unsafe_allow_html=True)
 
-submitted_prompt = _consume_submitted_prompt()
-_render_prompt_input()
+submitted_prompt = _render_prompt_input()
 _render_chat_body(state, submitted_prompt=submitted_prompt)
