@@ -6,7 +6,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 
-ROOT = Path("/Users/juhwigeun/Desktop/atoll_project")
+ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs" / "설계구조.md"
 OUTPUT = ROOT / "docs" / "설계구조.pdf"
 FONT_CANDIDATES = [

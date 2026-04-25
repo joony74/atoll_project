@@ -13,6 +13,7 @@ import webview
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 STREAMLIT_ENTRY = PROJECT_ROOT / "app.py"
+RUNTIME_ROOT = PROJECT_ROOT.parent / "runtime"
 LOG_DIR = Path.home() / "Library" / "Application Support" / "CocoAIStudy"
 LOG_PATH = LOG_DIR / "launcher.log"
 COMMON_PATH_HINTS = (
@@ -25,6 +26,8 @@ COMMON_PATH_HINTS = (
     "/usr/sbin",
     "/sbin",
 )
+WINDOW_SHOW_DELAY_SECONDS = float(os.getenv("COCO_WINDOW_SHOW_DELAY_SECONDS", "1.4"))
+
 SPLASH_HTML = """
 <!doctype html>
 <html lang="ko">
@@ -124,7 +127,14 @@ SPLASH_HTML = """
 
 
 def _resolve_python_bin() -> Path:
+    env_override = str(os.getenv("COCO_RUNTIME_PYTHON") or "").strip()
+    if env_override:
+        candidate = Path(env_override).expanduser()
+        if candidate.exists():
+            return candidate
+
     candidates = [
+        RUNTIME_ROOT / "bin" / "python",
         PROJECT_ROOT / "venv_clean" / "bin" / "python",
         PROJECT_ROOT / "venv" / "bin" / "python",
     ]
@@ -145,6 +155,39 @@ def _log(message: str) -> None:
             fh.write(f"[{timestamp}] {message}\n")
     except Exception:
         pass
+
+
+def _apply_dock_icon() -> None:
+    if os.getenv("COCO_SKIP_DOCK_ICON_FIX"):
+        return
+    env_icon_path = str(os.getenv("COCO_APP_ICON_PATH") or "").strip()
+    icon_candidates: list[Path] = []
+    if env_icon_path:
+        icon_candidates.append(Path(env_icon_path).expanduser())
+    icon_candidates.extend(
+        [
+            PROJECT_ROOT / "assets" / "cocoai_app_icon.icns",
+            PROJECT_ROOT / "assets" / "cocoai_icon_1024_clean.png",
+            PROJECT_ROOT.parent / "CocoAIStudy.icns",
+        ]
+    )
+    icon_path = next((path for path in icon_candidates if path.exists() and path.is_file()), None)
+    if icon_path is None:
+        _log("dock_icon_missing")
+        return
+    try:
+        from AppKit import NSApplication, NSImage
+        from Foundation import NSProcessInfo
+
+        image = NSImage.alloc().initWithContentsOfFile_(str(icon_path))
+        if image is None:
+            _log(f"dock_icon_image_failed {icon_path}")
+            return
+        NSProcessInfo.processInfo().setProcessName_("CocoAi Study")
+        NSApplication.sharedApplication().setApplicationIconImage_(image)
+        _log(f"dock_icon_applied {icon_path}")
+    except Exception as exc:
+        _log(f"dock_icon_apply_failed {exc}")
 
 
 def _free_port() -> int:
@@ -248,9 +291,9 @@ def _prepare_quick_shutdown(window: webview.Window, process_holder: dict[str, su
     window.events.closing += _on_closing
 
 
-def _render_startup_error(window: webview.Window, message: str) -> None:
+def _startup_error_html(message: str) -> str:
     safe_message = str(message or "알 수 없는 오류").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-    error_html = f"""
+    return f"""
     <!doctype html>
     <html lang="ko">
       <head>
@@ -297,8 +340,11 @@ def _render_startup_error(window: webview.Window, message: str) -> None:
       </body>
     </html>
     """.strip()
+
+
+def _render_startup_error(window: webview.Window, message: str) -> None:
     try:
-        window.load_html(error_html)
+        window.load_html(_startup_error_html(message))
     except Exception as exc:
         _log(f"window_error_html_failed {exc}")
 
@@ -316,8 +362,20 @@ def _boot_streamlit_into_window(window: webview.Window, port: int, process_holde
         _render_startup_error(window, str(exc))
 
 
+def _show_window_after_initial_paint(window: webview.Window) -> None:
+    delay = max(WINDOW_SHOW_DELAY_SECONDS, 0.0)
+    if delay:
+        time.sleep(delay)
+    try:
+        _log(f"show_window delay={delay}")
+        window.show()
+    except Exception as exc:
+        _log(f"show_window_failed {exc}")
+
+
 def main() -> int:
     _log("launcher_main_start")
+    _apply_dock_icon()
     if not PYTHON_BIN.exists():
         _log(f"missing_python {PYTHON_BIN}")
         raise FileNotFoundError(f"Missing runtime python: {PYTHON_BIN}")
@@ -326,21 +384,35 @@ def main() -> int:
         raise FileNotFoundError(f"Missing streamlit entry: {STREAMLIT_ENTRY}")
 
     port = _free_port()
+    url = f"http://127.0.0.1:{port}"
     process_holder: dict[str, subprocess.Popen[str] | None] = {"process": None}
     atexit.register(lambda: _stop_streamlit_if_any(process_holder, timeout=0.1))
-    _log("create_window")
+
+    window_kwargs: dict[str, str] = {}
+    try:
+        process = _start_streamlit(port)
+        process_holder["process"] = process
+        _wait_for_server(url)
+        _log(f"create_window_url {url}")
+        window_kwargs["url"] = url
+    except Exception as exc:
+        _log(f"launcher_boot_failed {exc}")
+        window_kwargs["html"] = _startup_error_html(str(exc))
+
+    _log("create_window_hidden")
     window = webview.create_window(
         "CocoAi Study",
-        html=SPLASH_HTML,
         width=1400,
         height=920,
         text_select=True,
         background_color="#272934",
+        hidden=True,
+        **window_kwargs,
     )
     _prepare_quick_shutdown(window, process_holder)
     try:
-        _log("webview_start")
-        webview.start(_boot_streamlit_into_window, args=(window, port, process_holder))
+        _log("webview_start_hidden")
+        webview.start(_show_window_after_initial_paint, args=(window,))
     finally:
         _log("webview_exit")
         _stop_streamlit_if_any(process_holder)

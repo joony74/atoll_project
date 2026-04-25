@@ -124,15 +124,85 @@ def save_state(state: AppState) -> None:
     STATE_PATH.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def persist_document(doc_id: str, file_name: str, file_path: str, analysis: dict, latest_user_query: str = "") -> None:
+def _safe_float(value: object, fallback: float = 0.0) -> float:
+    try:
+        return float(value or fallback)
+    except Exception:
+        return fallback
+
+
+def _stat_registered_fallback(path: Path) -> float:
+    try:
+        stat = path.stat()
+    except Exception:
+        return time.time()
+    return float(getattr(stat, "st_birthtime", 0.0) or stat.st_mtime)
+
+
+def _analysis_started_at(payload: dict) -> float:
+    analysis = payload.get("analysis") if isinstance(payload, dict) else {}
+    if not isinstance(analysis, dict):
+        return 0.0
+    return _safe_float(analysis.get("analysis_started_at"), 0.0)
+
+
+def _document_registered_at(payload: dict, path: Path, state_item: dict | None = None) -> float:
+    for source in (
+        payload.get("registered_at"),
+        payload.get("created_at"),
+        _analysis_started_at(payload),
+        (state_item or {}).get("registered_at"),
+        (state_item or {}).get("created_at"),
+    ):
+        value = _safe_float(source, 0.0)
+        if value > 0:
+            return value
+    return _stat_registered_fallback(path)
+
+
+def _document_last_opened_at(payload: dict, state_item: dict | None = None) -> float:
+    return _safe_float((state_item or {}).get("last_opened_at"), _safe_float(payload.get("last_opened_at"), 0.0))
+
+
+def _sort_documents_by_registered_at(documents: list[dict]) -> list[dict]:
+    return sorted(
+        documents,
+        key=lambda item: (
+            _safe_float(item.get("registered_at"), _safe_float(item.get("created_at"), 0.0)),
+            str(item.get("doc_id") or ""),
+        ),
+        reverse=True,
+    )
+
+
+def persist_document(
+    doc_id: str,
+    file_name: str,
+    file_path: str,
+    analysis: dict,
+    latest_user_query: str = "",
+    registered_at: float | None = None,
+) -> None:
+    doc_path = DOCS_DIR / f"{doc_id}.json"
+    previous: dict = {}
+    if doc_path.exists():
+        try:
+            previous = json.loads(doc_path.read_text(encoding="utf-8"))
+        except Exception:
+            previous = {}
+    if registered_at is None:
+        registered_at = _document_registered_at({"analysis": analysis, **previous}, doc_path)
     payload = {
         "doc_id": doc_id,
         "file_name": file_name,
         "file_path": file_path,
+        "registered_at": float(registered_at),
+        "created_at": float(registered_at),
+        "last_opened_at": _safe_float(previous.get("last_opened_at"), 0.0),
         "latest_user_query": latest_user_query,
         "analysis": analysis,
     }
-    (DOCS_DIR / f"{doc_id}.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    doc_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def load_document(doc_id: str | None) -> dict | None:
@@ -155,7 +225,7 @@ def delete_document(doc_id: str) -> None:
 
 def discover_documents_from_disk() -> list[dict]:
     discovered: list[dict] = []
-    for path in sorted(DOCS_DIR.glob("*.json"), key=lambda item: item.stat().st_mtime, reverse=True):
+    for path in DOCS_DIR.glob("*.json"):
         try:
             payload = json.loads(path.read_text(encoding="utf-8"))
         except Exception:
@@ -163,16 +233,19 @@ def discover_documents_from_disk() -> list[dict]:
         doc_id = str(payload.get("doc_id") or path.stem).strip()
         if not doc_id:
             continue
+        registered_at = _document_registered_at(payload, path)
         discovered.append(
             {
                 "doc_id": doc_id,
                 "file_name": str(payload.get("file_name") or doc_id),
                 "file_path": str(payload.get("file_path") or ""),
-                "created_at": float(path.stat().st_mtime),
+                "created_at": registered_at,
+                "registered_at": registered_at,
+                "last_opened_at": _document_last_opened_at(payload),
                 "latest_user_query": str(payload.get("latest_user_query") or ""),
             }
         )
-    return discovered
+    return _sort_documents_by_registered_at(discovered)
 
 
 def sync_documents(state: AppState) -> AppState:
@@ -187,23 +260,29 @@ def sync_documents(state: AppState) -> AppState:
         if not doc_path.exists():
             continue
         try:
-            created_at = float(item.get("created_at") or doc_path.stat().st_mtime)
+            payload = json.loads(doc_path.read_text(encoding="utf-8"))
         except Exception:
-            created_at = float(doc_path.stat().st_mtime)
+            payload = {}
+        try:
+            registered_at = _document_registered_at(payload, doc_path, item)
+        except Exception:
+            registered_at = _stat_registered_fallback(doc_path)
         existing_docs.append(
             {
                 "doc_id": doc_id,
-                "file_name": str(item.get("file_name") or doc_id),
-                "file_path": str(item.get("file_path") or ""),
-                "created_at": created_at,
-                "latest_user_query": str(item.get("latest_user_query") or ""),
+                "file_name": str(payload.get("file_name") or item.get("file_name") or doc_id),
+                "file_path": str(payload.get("file_path") or item.get("file_path") or ""),
+                "created_at": registered_at,
+                "registered_at": registered_at,
+                "last_opened_at": _document_last_opened_at(payload, item),
+                "latest_user_query": str(item.get("latest_user_query") or payload.get("latest_user_query") or ""),
             }
         )
 
     if not existing_docs:
         existing_docs = discover_documents_from_disk()
 
-    existing_docs.sort(key=lambda item: float(item.get("created_at") or 0.0), reverse=True)
+    existing_docs = _sort_documents_by_registered_at(existing_docs)
 
     state["documents"] = existing_docs
     clean_main_history: list[dict] = []
@@ -350,10 +429,9 @@ def promote_document(state: AppState, doc_id: str | None) -> None:
         if str(item.get("doc_id") or "").strip() != target:
             continue
         refreshed = dict(item)
-        refreshed["created_at"] = time.time()
-        documents.pop(index)
-        documents.insert(0, refreshed)
-        state["documents"] = documents
+        refreshed["last_opened_at"] = time.time()
+        documents[index] = refreshed
+        state["documents"] = _sort_documents_by_registered_at(documents)
         state["selected_doc_id"] = target
         return
     state["selected_doc_id"] = target

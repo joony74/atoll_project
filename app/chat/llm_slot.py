@@ -5,6 +5,8 @@ import os
 import re
 from urllib.request import Request, urlopen
 
+from app.core.config import settings
+
 from .contracts import ChatContextPacket
 
 
@@ -41,6 +43,7 @@ _CODE_BLOCK_PATTERN = re.compile(r"```|`[^`]+`")
 _PROGRAMMING_PATTERN = re.compile(
     r"\b(public\s+class|private\s+\w+|System\.out|import\s+\w|def\s+\w+\(|class\s+\w+|return\s+\w+\s*;)\b"
 )
+_MAIN_FAST_LOCAL_INTENTS = {"smalltalk", "self_info", "app_help", "emotional", "opinion", "math"}
 
 
 def _env_flag(name: str, default: bool = False) -> bool:
@@ -157,6 +160,8 @@ def _study_developer_prompt(packet: ChatContextPacket) -> str:
     steps = _safe_join(packet.get("study_steps"), fallback="풀이 단서를 정리하는 중입니다.")
     question_type = _safe_text(packet.get("study_question_type"))
     latest_user_query = _safe_text(packet.get("study_latest_user_query"))
+    reference_solution = _safe_text(packet.get("study_reference_solution"), limit=900)
+    study_source = _safe_text(packet.get("study_source"))
     ambiguity = ", ".join(packet.get("ambiguity_reasons") or []) or "없음"
 
     return (
@@ -167,6 +172,7 @@ def _study_developer_prompt(packet: ChatContextPacket) -> str:
         "- 복원 정보가 불완전하면 확인된 정보만 분명하게 말하고, 없는 내용을 지어내지 않는다.\n"
         "- 내부 튜터, OCR, 파이프라인, 모델 선택 같은 시스템 설명은 하지 않는다.\n"
         "- 사용자가 풀이를 물으면 현재 문제 문장, 식 후보, 답 후보, 풀이 단서를 바탕으로 차분하게 설명한다.\n"
+        "- 문제은행 원풀이가 제공되면 그것을 신뢰 기준으로 삼아 한국어로 풀어 설명한다.\n"
         "- 정답이 아직 확실하지 않으면 '현재 복원 정보 기준'이라고 자연스럽게 밝혀라.\n"
         "- 문서와 직접 관련 없는 짧은 질문도 현재 자료 흐름 안에서 이해하고 너무 딱딱하게 끊지 않는다.\n"
         "- 코드블록, 자바/파이썬 예시는 넣지 않는다.\n"
@@ -179,6 +185,8 @@ def _study_developer_prompt(packet: ChatContextPacket) -> str:
         f"식 후보: {expressions}\n"
         f"현재 답 후보: {answer_candidate}\n"
         f"풀이 단서: {steps}\n"
+        f"학습자료 출처: {study_source}\n"
+        f"문제은행 원풀이: {reference_solution}\n"
         f"직전 학습 질문: {latest_user_query}\n"
         f"애매함 신호: {ambiguity}"
     )
@@ -202,6 +210,7 @@ def _build_payload(packet: ChatContextPacket, *, retry_korean_only: bool = False
     return {
         "model": _llm_model(),
         "stream": False,
+        "keep_alive": settings.llm_keep_alive,
         "messages": [
             {"role": "system", "content": _system_prompt()},
             {"role": "system", "content": _developer_prompt(packet)},
@@ -209,6 +218,7 @@ def _build_payload(packet: ChatContextPacket, *, retry_korean_only: bool = False
         ],
         "options": {
             "temperature": 0.5,
+            "num_ctx": settings.ollama_num_ctx,
         },
     }
 
@@ -333,6 +343,26 @@ def _call_ollama(packet: ChatContextPacket) -> str | None:
     return content or None
 
 
+def _should_skip_main_chat_llm(packet: ChatContextPacket) -> bool:
+    if str(packet.get("active_mode") or "main").strip() != "main":
+        return False
+    if _env_flag("COCO_MAIN_CHAT_LLM_ALWAYS", default=False):
+        return False
+
+    intent_hint = str(packet.get("intent_hint") or "").strip() or "general"
+    normalized = str(packet.get("normalized_prompt") or packet.get("prompt") or "").strip()
+    recent_messages = packet.get("recent_messages") or []
+    llm_candidate = bool(packet.get("llm_candidate"))
+
+    if not recent_messages and intent_hint in _MAIN_FAST_LOCAL_INTENTS:
+        return True
+    if not recent_messages and not llm_candidate:
+        return True
+    if len(recent_messages) <= 1 and intent_hint in _MAIN_FAST_LOCAL_INTENTS and len(normalized) <= 24:
+        return True
+    return False
+
+
 def can_use_chat_llm(packet: ChatContextPacket | None = None) -> bool:
     active_mode = str((packet or {}).get("active_mode") or "main").strip()
     if active_mode == "study":
@@ -348,8 +378,32 @@ def can_use_main_chat_llm(packet: ChatContextPacket | None = None) -> bool:
 def maybe_generate_chat_reply(packet: ChatContextPacket) -> str | None:
     if not can_use_chat_llm(packet):
         return None
+    if _should_skip_main_chat_llm(packet):
+        return None
     return _call_ollama(packet)
 
 
 def maybe_generate_main_chat_reply(packet: ChatContextPacket) -> str | None:
     return maybe_generate_chat_reply(packet)
+
+
+def warmup_chat_llm(active_mode: str = "main") -> bool:
+    packet: ChatContextPacket = {"active_mode": "study" if str(active_mode).strip() == "study" else "main"}
+    if not can_use_chat_llm(packet):
+        return False
+
+    payload = {
+        "model": _llm_model(),
+        "stream": False,
+        "keep_alive": settings.llm_keep_alive,
+        "messages": [
+            {"role": "system", "content": "간단한 준비 요청이다. 한 글자만 답해라."},
+            {"role": "user", "content": "준비"},
+        ],
+        "options": {
+            "temperature": 0,
+            "num_predict": 1,
+            "num_ctx": settings.ollama_num_ctx,
+        },
+    }
+    return _post_json(_llm_endpoint(), payload) is not None

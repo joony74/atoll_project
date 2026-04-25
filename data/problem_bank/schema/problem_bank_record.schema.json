@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://coco.local/schema/problem_bank_record.v1.json",
+  "title": "Coco Problem Bank Record",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "source",
+    "content",
+    "answer",
+    "taxonomy",
+    "structure",
+    "learning",
+    "search",
+    "metadata"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "problem_bank_record.v1"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "required": ["name", "dataset_id", "original_index", "split"],
+      "properties": {
+        "name": {"type": "string"},
+        "dataset_id": {"type": "string"},
+        "source_url": {"type": "string"},
+        "license": {"type": "string"},
+        "original_index": {"type": "integer", "minimum": 0},
+        "split": {"type": "string"},
+        "source_problem_id": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "content": {
+      "type": "object",
+      "required": ["language", "problem_latex", "solution_latex"],
+      "properties": {
+        "language": {"type": "string"},
+        "problem_latex": {"type": "string"},
+        "problem_plain": {"type": "string"},
+        "solution_latex": {"type": "string"},
+        "solution_plain": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "answer": {
+      "type": "object",
+      "required": ["final_raw", "final_normalized", "candidates", "extraction_method", "answer_type"],
+      "properties": {
+        "final_raw": {"type": "string"},
+        "final_normalized": {"type": "string"},
+        "candidates": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "extraction_method": {"type": "string"},
+        "answer_type": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "taxonomy": {
+      "type": "object",
+      "required": ["domain", "subject", "level", "level_number", "concepts", "tags"],
+      "properties": {
+        "domain": {"type": "string"},
+        "subject": {"type": "string"},
+        "subject_slug": {"type": "string"},
+        "level": {"type": "string"},
+        "level_number": {"type": "integer"},
+        "grade_band": {"type": "string"},
+        "concepts": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "tags": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "structure": {
+      "type": "object",
+      "required": ["format", "has_asy", "has_diagram", "has_table", "has_choices"],
+      "properties": {
+        "format": {"type": "string"},
+        "has_asy": {"type": "boolean"},
+        "has_diagram": {"type": "boolean"},
+        "has_table": {"type": "boolean"},
+        "has_choices": {"type": "boolean"},
+        "requires_rendering": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "learning": {
+      "type": "object",
+      "required": ["prerequisites", "step_outline", "hints", "common_mistakes"],
+      "properties": {
+        "prerequisites": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "step_outline": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "hints": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "common_mistakes": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "search": {
+      "type": "object",
+      "required": ["problem_text", "solution_text", "keywords"],
+      "properties": {
+        "problem_text": {"type": "string"},
+        "solution_text": {"type": "string"},
+        "keywords": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["created_at", "updated_at", "quality"],
+      "properties": {
+        "created_at": {"type": "string"},
+        "updated_at": {"type": "string"},
+        "quality": {
+          "type": "object",
+          "required": ["solution_available", "final_answer_extracted", "needs_review"],
+          "properties": {
+            "solution_available": {"type": "boolean"},
+            "final_answer_extracted": {"type": "boolean"},
+            "needs_review": {"type": "boolean"},
+            "review_reasons": {
+              "type": "array",
+              "items": {"type": "string"}
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

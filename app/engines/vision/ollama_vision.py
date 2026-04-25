@@ -13,7 +13,7 @@ class OllamaVisionClient:
     def __init__(self, base_url: str | None = None, model_name: str | None = None, timeout: int | None = None) -> None:
         self.base_url = (base_url or settings.ollama_base_url).rstrip("/")
         self.model_name = model_name or settings.ollama_vision_model
-        self.timeout = timeout or settings.request_timeout_seconds
+        self.timeout = timeout or settings.vision_timeout_seconds
 
     def _prompt(self) -> str:
         return (
@@ -34,6 +34,10 @@ class OllamaVisionClient:
                     "prompt": self._prompt(),
                     "images": [encoded],
                     "stream": False,
+                    "keep_alive": settings.vision_keep_alive,
+                    "options": {
+                        "num_ctx": settings.ollama_num_ctx,
+                    },
                 },
                 timeout=self.timeout,
             )

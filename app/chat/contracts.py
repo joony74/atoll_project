@@ -21,6 +21,8 @@ class StoredDocument(TypedDict, total=False):
     file_name: str
     file_path: str
     created_at: float
+    registered_at: float
+    last_opened_at: float
     latest_user_query: str
 
 
@@ -78,6 +80,8 @@ class ChatContextPacket(TypedDict, total=False):
     study_expressions: list[str]
     study_question_type: str | None
     study_latest_user_query: str | None
+    study_reference_solution: str | None
+    study_source: str | None
 
 
 class GroundingResult(TypedDict, total=False):

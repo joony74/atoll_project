@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://coco.local/schema/problem_bank_manifest.v1.json",
+  "title": "Coco Problem Bank Manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "bank_id",
+    "generated_at",
+    "source",
+    "storage",
+    "counts",
+    "shards",
+    "indexes"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "problem_bank_manifest.v1"
+    },
+    "bank_id": {"type": "string"},
+    "generated_at": {"type": "string"},
+    "source": {
+      "type": "object",
+      "required": ["name", "dataset_id", "source_url"],
+      "additionalProperties": true
+    },
+    "storage": {
+      "type": "object",
+      "required": ["format", "encoding", "record_schema"],
+      "properties": {
+        "format": {"type": "string"},
+        "encoding": {"type": "string"},
+        "record_schema": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "counts": {
+      "type": "object",
+      "required": ["total", "by_subject", "by_level"],
+      "additionalProperties": true
+    },
+    "shards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "count", "subject", "level"],
+        "additionalProperties": true
+      }
+    },
+    "indexes": {
+      "type": "object",
+      "required": ["lightweight"],
+      "properties": {
+        "lightweight": {"type": "string"}
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

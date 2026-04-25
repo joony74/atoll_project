@@ -9,6 +9,7 @@ import re
 import shutil
 import subprocess
 import sys
+import threading
 import time
 from pathlib import Path
 
@@ -16,6 +17,7 @@ import streamlit as st
 
 from app.chat.context_packet import build_study_chat_context_packet as _build_study_chat_context_packet
 from app.chat.llm_slot import maybe_generate_chat_reply as _maybe_generate_chat_reply
+from app.chat.llm_slot import warmup_chat_llm as _warmup_chat_llm
 from app.chat.orchestrator import build_main_chat_reply as _build_main_chat_reply
 from app.chat.state import (
     APP_SUPPORT_DIR,
@@ -40,6 +42,25 @@ from app.chat.state import (
 from app.chat.ui import (
     render_conversation as _render_conversation,
     scroll_chat_to_latest as _scroll_chat_to_latest,
+)
+from app.engines.parser.school_math_taxonomy import topic_label as _school_topic_label
+from app.learning_engine import (
+    format_learning_engine_status as _format_learning_engine_status,
+    generate_learning_problem_record as _generate_learning_problem_record,
+    normalize_learning_request as _normalize_learning_request,
+    recommend_problem_candidates as _recommend_learning_problems,
+)
+from app.problem_bank.chat_commands import (
+    format_problem_bank_help as _format_problem_bank_help,
+    format_problem_bank_search_results as _format_problem_bank_search_results,
+    parse_problem_bank_command as _parse_problem_bank_command,
+    resolve_problem_bank_selection as _resolve_problem_bank_selection,
+)
+from app.problem_bank.repository import (
+    ProblemBankError as _ProblemBankError,
+    list_banks as _list_problem_banks,
+    load_problem as _load_problem_bank_problem,
+    record_to_document as _problem_bank_record_to_document,
 )
 
 
@@ -89,15 +110,18 @@ def _save_uploaded_file(uploaded_file) -> tuple[str, str, str]:
 
 
 def _register_uploaded_document(state: dict, file_id: str, file_name: str, file_path: str) -> None:
+    registered_at = time.time()
     analysis = _run_analysis(file_path)
     document_payload = {
         "doc_id": file_id,
         "file_name": file_name,
         "file_path": file_path,
+        "registered_at": registered_at,
+        "created_at": registered_at,
         "latest_user_query": "",
         "analysis": analysis,
     }
-    _persist_document(file_id, file_name, file_path, analysis)
+    _persist_document(file_id, file_name, file_path, analysis, registered_at=registered_at)
     docs = [item for item in state.get("documents", []) if item.get("doc_id") != file_id]
     docs.insert(
         0,
@@ -105,13 +129,180 @@ def _register_uploaded_document(state: dict, file_id: str, file_name: str, file_
             "doc_id": file_id,
             "file_name": file_name,
             "file_path": file_path,
-            "created_at": time.time(),
+            "created_at": registered_at,
+            "registered_at": registered_at,
+            "last_opened_at": registered_at,
             "latest_user_query": "",
         },
     )
     state["documents"] = docs
     _mark_active_target(state, "study", file_id)
     _append_message(state, "assistant", _build_recovery_message(document_payload), doc_id=file_id)
+
+
+def _problem_bank_context(state: dict) -> dict:
+    context = state.setdefault("main_chat_context", {})
+    if not isinstance(context, dict):
+        context = {}
+        state["main_chat_context"] = context
+    return context
+
+
+def _set_problem_bank_last_results(state: dict, results: list[dict]) -> None:
+    context = _problem_bank_context(state)
+    stored: list[dict] = []
+    for item in results:
+        if not isinstance(item, dict):
+            continue
+        stored_item = dict(item)
+        stored_item.setdefault("bank_id", "competition_math")
+        stored.append(stored_item)
+    context["problem_bank_last_results"] = stored
+    context["problem_bank_last_updated_at"] = time.time()
+
+
+def _get_problem_bank_last_results(state: dict) -> list[dict]:
+    results = _problem_bank_context(state).get("problem_bank_last_results") or []
+    return [dict(item) for item in results if isinstance(item, dict)]
+
+
+def _is_learning_engine_status_prompt(prompt: str) -> bool:
+    compact = re.sub(r"\s+", "", str(prompt or "").strip().lower())
+    return compact in {
+        "학습엔진",
+        "코코학습엔진",
+        "학습엔진상태",
+        "코코학습엔진상태",
+        "문제은행상태",
+    }
+
+
+def _register_problem_bank_document(state: dict, document: dict) -> None:
+    doc_id = str(document.get("doc_id") or "").strip()
+    if not doc_id:
+        raise _ProblemBankError("problem bank document id is empty")
+
+    file_name = str(document.get("file_name") or doc_id)
+    file_path = str(document.get("file_path") or "")
+    analysis = document.get("analysis") or {}
+    registered_at = float(document.get("registered_at") or time.time())
+    latest_query = str(document.get("latest_user_query") or "")
+
+    _persist_document(
+        doc_id,
+        file_name,
+        file_path,
+        analysis,
+        latest_user_query=latest_query,
+        registered_at=registered_at,
+    )
+    docs = [item for item in state.get("documents", []) if item.get("doc_id") != doc_id]
+    docs.insert(
+        0,
+        {
+            "doc_id": doc_id,
+            "file_name": file_name,
+            "file_path": file_path,
+            "created_at": registered_at,
+            "registered_at": registered_at,
+            "last_opened_at": registered_at,
+            "latest_user_query": latest_query,
+        },
+    )
+    state["documents"] = docs
+    _mark_active_target(state, "study", doc_id)
+    _append_message(state, "assistant", _build_problem_bank_open_message(document), doc_id=doc_id)
+
+
+def _build_problem_bank_open_message(document: dict) -> str:
+    analysis = document.get("analysis") or {}
+    record = analysis.get("problem_bank_record") or {}
+    content = record.get("content") or {}
+    answer = record.get("answer") or {}
+    solved = analysis.get("solve_result") or {}
+    problem_text = str(content.get("problem_plain") or content.get("problem_latex") or "").strip()
+    final_answer = str(answer.get("final_normalized") or answer.get("final_raw") or solved.get("computed_answer") or "").strip()
+
+    lines = ["문제은행에서 문제를 가져왔어요.", ""]
+    if problem_text:
+        lines.append(f"- 문제: {_truncate_text(problem_text, 420)}")
+    if final_answer:
+        lines.append(f"- 저장된 정답: {final_answer}")
+    intro = str(solved.get("explanation") or "").strip()
+    if intro:
+        lines.extend(["", intro])
+    lines.append("")
+    lines.append("이제 이 문제 기준으로 풀이 설명, 힌트, 변형 문제를 바로 이어갈 수 있어요.")
+    return "\n".join(lines)
+
+
+def _truncate_text(text: str, limit: int) -> str:
+    collapsed = re.sub(r"\s+", " ", str(text or "")).strip()
+    if len(collapsed) <= limit:
+        return collapsed
+    return collapsed[: max(0, limit - 1)].rstrip() + "..."
+
+
+def _build_problem_bank_chat_reply(prompt: str, state: dict) -> str | None:
+    if _is_learning_engine_status_prompt(prompt):
+        return _format_learning_engine_status()
+
+    command = _parse_problem_bank_command(prompt)
+    if command is None:
+        return None
+
+    try:
+        if command.action == "help":
+            return _format_problem_bank_help(_list_problem_banks())
+
+        if command.action == "search":
+            request = _normalize_learning_request(
+                prompt,
+                action="search",
+                query=command.query,
+                subject_slug=command.subject_slug,
+                level_number=command.level_number,
+                limit=5,
+            )
+            results = _recommend_learning_problems(request)
+            _set_problem_bank_last_results(state, results)
+            return _format_problem_bank_search_results(results, command)
+
+        if command.action == "generate":
+            request = _normalize_learning_request(
+                prompt,
+                action="generate",
+                query=command.query,
+                subject_slug=command.subject_slug or "arithmetic_word_problem",
+                level_number=command.level_number,
+            )
+            record = _generate_learning_problem_record(request)
+            document = _problem_bank_record_to_document(record, user_query=prompt)
+            _register_problem_bank_document(state, document)
+            reply = f"`{document.get('file_name')}` 새 문제를 출제해서 학습리스트에 열었어요."
+            generation = ((record.get("metadata") or {}).get("generation") or {})
+            if generation.get("fallback_reason"):
+                reply += "\n\n현재 자동 출제 템플릿은 초등 문장제를 먼저 안정화하고 있어서, 우선 그 유형으로 열었어요."
+            return reply
+
+        if command.action == "open":
+            last_results = _get_problem_bank_last_results(state)
+            selected = _resolve_problem_bank_selection(command.target, last_results)
+            if selected is None and ":" in command.target:
+                selected = {"id": command.target, "bank_id": "competition_math"}
+            if selected is None:
+                return "먼저 `문제은행 검색어`로 문제를 찾은 뒤 `문제은행 열기 1`처럼 번호를 골라주세요."
+
+            problem_id = str(selected.get("id") or "").strip()
+            bank_id = str(selected.get("bank_id") or "competition_math").strip() or "competition_math"
+            record = _load_problem_bank_problem(problem_id, bank_id=bank_id)
+            document = _problem_bank_record_to_document(record, user_query=prompt)
+            _register_problem_bank_document(state, document)
+            return f"`{document.get('file_name') or problem_id}` 문제를 학습리스트에 열었어요."
+    except _ProblemBankError as exc:
+        return f"문제은행을 읽는 중 문제가 생겼어요: {exc}"
+
+    return None
 
 
 def _capture_screen_selection() -> tuple[str, str, str] | None:
@@ -152,6 +343,45 @@ def _capture_screen_selection() -> tuple[str, str, str] | None:
         return None
 
 
+def _choose_local_image_file() -> tuple[str, str, str] | None:
+    if sys.platform != "darwin":
+        _set_upload_feedback("error", "현재 파일 찾기는 macOS 앱 환경에서만 지원합니다.")
+        return None
+
+    script_lines = [
+        'set chosenFile to choose file with prompt "등록할 이미지를 선택해주세요." of type {"public.image"}',
+        "POSIX path of chosenFile",
+    ]
+    try:
+        result = subprocess.run(
+            ["osascript", *sum([["-e", line] for line in script_lines], [])],
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+    except Exception as exc:
+        _set_upload_feedback("error", f"파일 선택창을 열지 못했습니다: {exc}")
+        return None
+
+    selected_path = Path(str(result.stdout or "").strip())
+    error_text = str(result.stderr or "").strip()
+    if result.returncode != 0:
+        if "User canceled" not in error_text and "-128" not in error_text:
+            _set_upload_feedback("error", f"파일 선택창을 열지 못했습니다: {error_text or result.returncode}")
+        return None
+
+    if not selected_path.exists() or not selected_path.is_file():
+        _set_upload_feedback("error", "선택한 파일을 찾지 못했습니다.")
+        return None
+
+    try:
+        data = selected_path.read_bytes()
+        return _save_uploaded_bytes(selected_path.name, data)
+    except Exception as exc:
+        _set_upload_feedback("error", f"선택한 파일을 등록하지 못했습니다: {exc}")
+        return None
+
+
 def _run_analysis(file_path: str, user_query: str = "") -> dict:
     from app.core.pipeline import run_solve_pipeline
 
@@ -165,6 +395,23 @@ def _run_analysis(file_path: str, user_query: str = "") -> dict:
         "solve_result": payload["solve_result"].model_dump(),
         "debug": payload.get("debug", {}),
     }
+
+
+def _schedule_main_chat_llm_warmup() -> None:
+    warmup_enabled = str(os.getenv("COCO_LLM_WARMUP") or "").strip().lower() in {"1", "true", "yes", "on"}
+    if not warmup_enabled:
+        return
+    if st.session_state.get("_main_chat_llm_warmup_started"):
+        return
+    st.session_state["_main_chat_llm_warmup_started"] = True
+
+    thread = threading.Thread(
+        target=_warmup_chat_llm,
+        kwargs={"active_mode": "main"},
+        daemon=True,
+        name="coco-main-chat-llm-warmup",
+    )
+    thread.start()
 
 
 def _logo_markup() -> str:
@@ -408,16 +655,46 @@ def _list_repr(values: list[str], limit: int = 8) -> str:
     return f"[{', '.join(rendered)}{suffix}]"
 
 
+def _clean_visible_candidate(value: str) -> str:
+    text = str(value or "").replace("\\n", " ").replace("\\i", " ")
+    text = text.replace("@", " ")
+    text = re.sub(r"\\[a-zA-Z]+", " ", text)
+    text = re.sub(r"\s+", " ", text).strip(" .,:;`'\"")
+    if len(text) > 72:
+        text = f"{text[:69]}..."
+    return text
+
+
+def _visible_candidates(values: list[str], limit: int = 3) -> list[str]:
+    candidates: list[str] = []
+    for raw in values:
+        text = _clean_visible_candidate(raw)
+        if not text:
+            continue
+        if re.search(r"[@\\]|(?:19|20)\d{2}", text):
+            continue
+        if len(text) < 3:
+            continue
+        if text not in candidates:
+            candidates.append(text)
+        if len(candidates) >= limit:
+            break
+    return candidates
+
+
+def _topic_label(topic: str) -> str:
+    label = _school_topic_label(topic)
+    return f"{label} 문제" if label != "문제 유형 확인 중" and not label.endswith("문제") else label
+
+
 def _extract_function_candidates(structured: dict) -> list[str]:
     expressions = [str(item or "") for item in structured.get("expressions") or []]
     raw_candidates = [str(item or "") for item in structured.get("source_text_candidates") or []]
     functionish = []
     for text in expressions + raw_candidates:
         lowered = text.lower()
-        if any(token in lowered for token in ("f(", "x", "y", "=")):
+        if "f(" in lowered or re.search(r"\b[xy]\s*=", lowered) or ("=" in lowered and any(var in lowered for var in ("x", "y"))):
             functionish.append(text)
-    if not functionish:
-        functionish = expressions[:3]
     return _dedupe_text(functionish, limit=4)
 
 
@@ -426,6 +703,33 @@ def _extract_coordinate_candidates(structured: dict) -> list[str]:
     bucket += "\n" + "\n".join(str(item or "") for item in (structured.get("expressions") or []))
     matches = re.findall(r"\(\s*-?\d+(?:\.\d+)?\s*,\s*-?\d+(?:\.\d+)?\s*\)", bucket)
     return _dedupe_text(matches, limit=4)
+
+
+def _analysis_runtime_notes(analysis: dict | None) -> list[str]:
+    structured = (analysis or {}).get("structured_problem") or {}
+    solved = (analysis or {}).get("solve_result") or {}
+    metadata = structured.get("metadata") or {}
+    ocr_debug = metadata.get("ocr_debug") or {}
+    tesseract_debug = ocr_debug.get("tesseract") or {}
+    vision_debug = ocr_debug.get("vision") or {}
+    repair_debug = ocr_debug.get("text_repair") or {}
+
+    notes: list[str] = []
+    vision_error = str(vision_debug.get("error") or "").strip()
+    if vision_debug.get("skipped"):
+        notes.append("가벼운 OCR 모드로 문제를 읽었습니다.")
+    elif vision_debug and not vision_debug.get("available"):
+        if "404" in vision_error:
+            notes.append("시각 분석 모델이 설치되지 않아 기본 OCR만 사용했습니다.")
+        elif vision_error:
+            notes.append("시각 분석 엔진이 응답하지 않아 기본 OCR만 사용했습니다.")
+    if str(tesseract_debug.get("variant") or "").strip() == "preprocessed":
+        notes.append("기본 OCR 이미지를 보정해서 다시 읽었습니다.")
+    if repair_debug.get("accepted"):
+        notes.append("읽힌 문제 문장을 텍스트 기준으로 한 번 더 정리했습니다.")
+    if str(solved.get("validation_status") or "").strip().lower() == "failed":
+        notes.append("복원된 수식이 아직 불안정해서 풀이까지 이어지지 못했습니다.")
+    return _dedupe_text(notes, limit=3)
 
 
 def _build_recovery_message(document: dict | None) -> str:
@@ -438,20 +742,31 @@ def _build_recovery_message(document: dict | None) -> str:
     source_candidates = [str(item or "") for item in structured.get("source_text_candidates") or []]
     function_candidates = _extract_function_candidates(structured)
     coordinate_candidates = _extract_coordinate_candidates(structured)
-    question_goal = str(structured.get("math_topic") or "unknown").strip() or "unknown"
-    if question_goal == "unknown":
-        question_goal = "unknown"
+    problem_text = _clean_visible_candidate(str(structured.get("normalized_problem_text") or ""))
+    question_goal = _topic_label(str(structured.get("math_topic") or "unknown").strip() or "unknown")
+    runtime_notes = _analysis_runtime_notes(analysis)
+    visible_expressions = _visible_candidates(expressions or source_candidates)
+    visible_functions = _visible_candidates(function_candidates)
+    visible_coordinates = _visible_candidates(coordinate_candidates)
 
     lines = [
-        "현재 파일에서 복원된 정보는 제한적이지만, 다음은 확인됩니다.",
+        "이미지에서 읽은 내용을 먼저 정리했어요.",
         "",
-        f"- 식 후보: {_list_repr(expressions or source_candidates)}",
-        f"- 함수 후보: {_list_repr(function_candidates)}",
-        f"- 좌표 후보: {_list_repr(coordinate_candidates)}",
-        f"- 질문 목표 후보: {question_goal}",
-        "",
-        "이 정보를 기반으로 풀이를 진행할 수 있습니다.",
     ]
+    if runtime_notes:
+        lines.extend([f"- 상태: {note}" for note in runtime_notes])
+        lines.append("")
+    if problem_text:
+        lines.append(f"- 읽은 문제: {problem_text}")
+    if visible_expressions:
+        lines.append(f"- 수식 후보: {', '.join(visible_expressions)}")
+    else:
+        lines.append("- 수식 후보: 아직 확실하지 않아 다시 맞춰보는 중입니다.")
+    if visible_functions:
+        lines.append(f"- 함수 후보: {', '.join(visible_functions)}")
+    if visible_coordinates:
+        lines.append(f"- 좌표 후보: {', '.join(visible_coordinates)}")
+    lines.extend([f"- 유형 후보: {question_goal}", "", "이 상태에서 바로 풀이를 이어갈 수 있어요."])
     return "\n".join(lines)
 
 
@@ -597,6 +912,11 @@ def _build_study_check_items(state: dict, selected: dict | None) -> list[dict]:
     structured = selected_analysis.get("structured_problem") or {}
     solved = selected_analysis.get("solve_result") or {}
     debug_payload = selected_analysis.get("debug") or {}
+    metadata = structured.get("metadata") or {}
+    ocr_debug = metadata.get("ocr_debug") or {}
+    tesseract_debug = ocr_debug.get("tesseract") or {}
+    vision_debug = ocr_debug.get("vision") or {}
+    repair_debug = ocr_debug.get("text_repair") or {}
 
     file_name = str((selected or {}).get("file_name") or "").strip()
     selected_doc_id = str((selected or {}).get("doc_id") or state.get("selected_doc_id") or "").strip()
@@ -612,7 +932,11 @@ def _build_study_check_items(state: dict, selected: dict | None) -> list[dict]:
         + [str(item or "").strip() for item in structured.get("source_text_candidates") or []],
         limit=8,
     )
-    recognition_ready = bool(recognized_signals)
+    try:
+        recognition_confidence = float(structured.get("confidence") or 0.0)
+    except Exception:
+        recognition_confidence = 0.0
+    recognition_ready = bool(recognized_signals) and recognition_confidence >= 0.45
 
     answer_value = str(solved.get("matched_choice") or solved.get("computed_answer") or "").strip()
     steps = [str(item or "").strip() for item in solved.get("steps") or [] if str(item or "").strip()]
@@ -631,8 +955,13 @@ def _build_study_check_items(state: dict, selected: dict | None) -> list[dict]:
     if file_name:
         file_body = f"현재 자료 {_truncate_label(file_name, limit=20)} / 저장된 자료 {stored_files}건"
 
+    vision_missing = bool(vision_debug) and not bool(vision_debug.get("available"))
     if recognition_ready:
         recognition_body = f"문제 문장과 식 후보 {len(recognized_signals)}개를 확인했습니다."
+    elif repair_debug.get("accepted"):
+        recognition_body = "기본 OCR을 바탕으로 문제 문장을 다시 정리했고, 식 후보를 더 선명하게 맞추는 중입니다."
+    elif vision_missing:
+        recognition_body = "시각 분석 모델 연결이 없어 기본 OCR만 사용했고, 문제 문장을 더 선명하게 읽는 중입니다."
     else:
         recognition_body = "문제 문장과 식 후보를 더 선명하게 읽는 중입니다."
 
@@ -641,6 +970,10 @@ def _build_study_check_items(state: dict, selected: dict | None) -> list[dict]:
             solution_body = f"현재 답 후보 {answer_value}"
         else:
             solution_body = f"풀이 단계 {len(steps)}개를 정리했습니다."
+    elif validation_status == "failed" and repair_debug.get("accepted"):
+        solution_body = "문제 문장은 보강했지만 계산식 확정이 더 필요해서 풀이를 계속 정리하고 있습니다."
+    elif validation_status == "failed" and str(tesseract_debug.get("variant") or "").strip() == "preprocessed":
+        solution_body = "OCR 보정까지 시도했지만 수식 복원이 부족해서 풀이를 확정하지 못했습니다."
     else:
         solution_body = "풀이 단서를 정리하는 중입니다."
 
@@ -830,6 +1163,23 @@ def _run_capture_registration(state: dict) -> None:
     st.rerun()
 
 
+def _run_browse_registration(state: dict) -> None:
+    selected = _choose_local_image_file()
+    if not selected:
+        st.rerun()
+        return
+
+    with st.spinner("선택한 이미지를 등록하고 있어요."):
+        if _complete_upload_registration(
+            state,
+            selected,
+            success_message="선택한 이미지를 등록했습니다.",
+        ):
+            _reset_upload_widgets()
+            st.rerun()
+    st.rerun()
+
+
 def _render_upload_entry(state: dict) -> None:
     st.markdown('<div class="upload-picker-helper">등록 방식을 선택해 주세요.</div>', unsafe_allow_html=True)
 
@@ -847,19 +1197,21 @@ def _render_upload_entry(state: dict) -> None:
                 st.rerun()
 
     with browse_col:
-        with st.container(key="upload_find_card"):
-            picked_file = st.file_uploader(
-                "찾기 등록",
-                type=["png", "jpg", "jpeg"],
-                label_visibility="collapsed",
-                key=_upload_widget_key("upload_find_card"),
-            )
-        _process_uploaded_file(state, picked_file, success_message="선택한 이미지를 등록했습니다.")
+        with st.container(key="upload_find_button"):
+            if st.button(
+                "찾기\n기존 파일을 선택해 등록",
+                key="upload_find_trigger",
+                use_container_width=True,
+            ):
+                st.session_state["_pending_browse_request"] = True
+                st.rerun()
 
     _render_upload_feedback()
 
     if st.session_state.pop("_pending_capture_request", False):
         _run_capture_registration(state)
+    if st.session_state.pop("_pending_browse_request", False):
+        _run_browse_registration(state)
 
 
 def _conversation_from_state(state: dict) -> list[dict]:
@@ -897,15 +1249,20 @@ def _render_chat_body(state: dict, submitted_prompt: str | None = None) -> None:
 
     if submitted:
         prompt = user_prompt or DEFAULT_USER_PROMPT
-        if mode == "main":
+        is_problem_bank_prompt = _parse_problem_bank_command(prompt) is not None
+        is_learning_engine_prompt = _is_learning_engine_status_prompt(prompt)
+        if mode == "main" or is_problem_bank_prompt or is_learning_engine_prompt:
             _mark_active_target(state, "main")
             _append_main_message(state, "user", prompt)
             _save_state(state)
+            mode = _active_chat_mode(state)
             pending_conversation = _conversation_from_state(state) + [{"role": "assistant", "pending": True}]
             conversation_slot.markdown(_render_conversation(pending_conversation, mode=mode), unsafe_allow_html=True)
             _scroll_chat_to_latest()
             started = time.time()
-            assistant_reply = _build_main_chat_reply(prompt, state=state)
+            assistant_reply = _build_problem_bank_chat_reply(prompt, state) if (is_problem_bank_prompt or is_learning_engine_prompt) else None
+            if assistant_reply is None:
+                assistant_reply = _build_main_chat_reply(prompt, state=state)
             elapsed = time.time() - started
             remaining = max(_assistant_render_delay_seconds(assistant_reply) - elapsed, 0.0)
             if remaining > 0:
@@ -982,6 +1339,9 @@ def _inject_css() -> None:
           --main-bg: #f5f7fb;
           --assistant-border: #d7e0ea;
           --input-bg: #2a2d37;
+          --coco-chat-shell-height: calc(100dvh - 150px);
+          --coco-chat-scroll-clearance: 96px;
+          --coco-chat-body-side-space: 75px;
         }
 
         html, body, [class*="css"] {
@@ -1072,6 +1432,11 @@ def _inject_css() -> None:
           box-sizing: border-box;
         }
 
+        [data-testid="stMainBlockContainer"] > [data-testid="stVerticalBlock"] {
+          gap: 0 !important;
+          row-gap: 0 !important;
+        }
+
         .sidebar-head {
           display: flex;
           align-items: flex-start;
@@ -1146,11 +1511,12 @@ def _inject_css() -> None:
         }
 
         [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"],
-        [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploader"] {
+        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] {
           margin: 0 !important;
         }
 
-        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button {
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button,
+        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button {
           min-height: 64px !important;
           height: 64px !important;
           width: 100% !important;
@@ -1168,7 +1534,10 @@ def _inject_css() -> None:
 
         [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button:hover,
         [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button:focus,
-        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button:active {
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button:active,
+        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button:hover,
+        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button:focus,
+        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button:active {
           border: 1px solid rgba(143, 156, 185, 0.62) !important;
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
           box-shadow: none !important;
@@ -1189,8 +1558,25 @@ def _inject_css() -> None:
           pointer-events: none;
         }
 
+        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 28px;
+          height: 28px;
+          transform: translate(-50%, -50%);
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Cpath d='M13 6.5V15.7' stroke='%23EDF2FF' stroke-width='1.95' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M8.78 10.72L13 6.5L17.22 10.72' stroke='%23EDF2FF' stroke-width='1.95' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M7.25 18.15V18.9C7.25 19.8 7.98 20.55 8.9 20.55H17.1C18.02 20.55 18.75 19.8 18.75 18.9V18.15' stroke='%23EDF2FF' stroke-width='1.95' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          pointer-events: none;
+        }
+
         [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button > div,
-        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button [data-testid="stMarkdownContainer"] {
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button [data-testid="stMarkdownContainer"],
+        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button > div,
+        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button [data-testid="stMarkdownContainer"] {
           width: 100% !important;
           display: flex !important;
           align-items: center !important;
@@ -1201,7 +1587,9 @@ def _inject_css() -> None:
         }
 
         [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button p,
-        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button span {
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button span,
+        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button p,
+        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button span {
           color: transparent !important;
           font-size: 0 !important;
           line-height: 0 !important;
@@ -1211,12 +1599,14 @@ def _inject_css() -> None:
         }
 
         .upload-feedback {
-          margin: 8px 0 6px !important;
-          padding: 10px 12px !important;
-          border-radius: 14px !important;
+          margin: 6px 0 4px !important;
+          padding: 7px 10px !important;
+          min-height: 32px !important;
+          border-radius: 12px !important;
           font-size: 12px !important;
-          line-height: 1.45 !important;
+          line-height: 1.35 !important;
           border: 1px solid transparent !important;
+          box-sizing: border-box !important;
         }
 
         .upload-feedback.success {
@@ -1229,6 +1619,32 @@ def _inject_css() -> None:
           background: rgba(248, 113, 113, 0.14) !important;
           border-color: rgba(252, 165, 165, 0.24) !important;
           color: #fecaca !important;
+        }
+
+        [data-testid="stSidebar"] [data-testid="stSpinner"] {
+          margin: 6px 0 4px !important;
+          padding: 0 !important;
+          min-height: 32px !important;
+          height: 32px !important;
+          display: flex !important;
+          align-items: center !important;
+          overflow: hidden !important;
+        }
+
+        [data-testid="stSidebar"] [data-testid="stSpinner"] > div {
+          min-height: 32px !important;
+          height: 32px !important;
+          display: flex !important;
+          align-items: center !important;
+          gap: 8px !important;
+        }
+
+        [data-testid="stSidebar"] [data-testid="stSpinner"] p,
+        [data-testid="stSidebar"] [data-testid="stSpinner"] span {
+          margin: 0 !important;
+          padding: 0 !important;
+          font-size: 12px !important;
+          line-height: 1.35 !important;
         }
 
         [data-testid="stFileUploader"] {
@@ -1791,16 +2207,21 @@ def _inject_css() -> None:
 
         .chat-shell {
             max-width: 1110px;
-            margin: 6px auto 0;
-      height: 90vh;
-      min-height: 90vh;
-            padding-top: 18px;
-            padding-bottom: 0;
+            margin: 0 auto;
+      height: var(--coco-chat-shell-height);
+      min-height: 0;
+      max-height: var(--coco-chat-shell-height);
+            padding-top: 0;
+            padding-bottom: var(--coco-chat-scroll-clearance);
+            padding-left: var(--coco-chat-body-side-space);
+            padding-right: var(--coco-chat-body-side-space);
             display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+            gap: 6px;
             overflow-y: auto;
             overscroll-behavior: contain;
+            scroll-padding-bottom: var(--coco-chat-scroll-clearance);
             box-sizing: border-box;
             border: 0;
             background: transparent;
@@ -1808,12 +2229,17 @@ def _inject_css() -> None:
 
         .chat-shell.empty-state {
             width: 100%;
-      height: 90vh;
-      min-height: 90vh;
+      height: var(--coco-chat-shell-height);
+      min-height: 0;
+      max-height: var(--coco-chat-shell-height);
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: center;
-            padding-top: 0;
+            justify-content: flex-start;
+            padding-top: 18px;
+            padding-bottom: 0;
+            padding-left: var(--coco-chat-body-side-space);
+            padding-right: var(--coco-chat-body-side-space);
             overflow: hidden;
             border: 0;
             background: transparent;
@@ -1822,23 +2248,22 @@ def _inject_css() -> None:
         .chat-row {
           display: flex;
           width: 100%;
+          margin: 0;
         }
 
         .chat-row.assistant {
           justify-content: flex-start;
-          margin: 0 0 56px;
         }
 
         .chat-row.user {
           justify-content: flex-end;
-          margin: 0 0 18px;
         }
 
 .chat-end-anchor {
     width: 100%;
-    height: 12px;
-    flex: 0 0 12px;
-    scroll-margin-bottom: 10px;
+    height: 0;
+    flex: 0 0 0;
+    scroll-margin-bottom: 0;
     border: 0;
     background: transparent;
     box-sizing: border-box;
@@ -1846,24 +2271,24 @@ def _inject_css() -> None:
 
         .assistant-card {
           max-width: 760px;
-          min-height: 45px;
+          min-height: 36px;
           border: 1px solid var(--assistant-border);
           border-radius: 16px;
           background: white;
-          padding: 12px 16px;
+          padding: 8px 12px;
           color: #111827;
-          line-height: 1.45;
+          line-height: 1.35;
           font-size: 14px;
           box-shadow: 0 1px 0 rgba(148, 163, 184, 0.08);
         }
 
         .assistant-card.pending-card {
-          width: 45px;
-          min-width: 45px;
-          max-width: 45px;
-          height: 45px;
-          min-height: 45px;
-          max-height: 45px;
+          width: 36px;
+          min-width: 36px;
+          max-width: 36px;
+          height: 36px;
+          min-height: 36px;
+          max-height: 36px;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -1907,17 +2332,17 @@ def _inject_css() -> None:
 
         .user-bubble {
           min-width: 96px;
-          min-height: 45px;
+          min-height: 36px;
           max-width: 560px;
           border: 1px solid #93c5fd;
           border-radius: 15px;
           background: #dbeafe;
-          padding: 10px 14px;
+          padding: 8px 12px;
           color: #111827;
           font-size: 14px;
           font-weight: 400;
           text-align: left;
-          line-height: 1.4;
+          line-height: 1.35;
         }
 
         .empty-chat {
@@ -1930,7 +2355,7 @@ def _inject_css() -> None:
 
         :root {
           --coco-chat-left: 346px;
-          --coco-chat-right: 36px;
+          --coco-chat-right: 106px;
           --coco-chat-bottom: 12px;
           --coco-chat-height: 45px;
         }
@@ -2122,7 +2547,7 @@ div[data-testid="stChatInput"] button {
 
           :root {
             --coco-chat-left: 328px;
-            --coco-chat-right: 18px;
+            --coco-chat-right: 88px;
           }
         }
 
@@ -2136,16 +2561,19 @@ div[data-testid="stChatInput"] button {
           :root {
             --coco-chat-left: 18px;
             --coco-chat-right: 18px;
+            --coco-chat-shell-height: calc(100dvh - 138px);
+            --coco-chat-scroll-clearance: 72px;
+            --coco-chat-body-side-space: 18px;
           }
 
             .chat-shell {
-        height: 90vh;
-        min-height: 90vh;
+        height: var(--coco-chat-shell-height);
+        max-height: var(--coco-chat-shell-height);
             }
 
             .chat-shell.empty-state {
-        height: 90vh;
-        min-height: 90vh;
+        height: var(--coco-chat-shell-height);
+        max-height: var(--coco-chat-shell-height);
             }
         }
         </style>
@@ -2162,6 +2590,7 @@ st.set_page_config(
 
 _ensure_dirs()
 state = _sync_documents(_load_state())
+_schedule_main_chat_llm_warmup()
 
 if not st.session_state.get("_recent_target_bootstrapped"):
     st.session_state["_recent_target_bootstrapped"] = True

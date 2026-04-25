@@ -1,0 +1,56 @@
+[
+  {
+    "case_id": "elementary_arithmetic_01",
+    "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/3학년/auto_초등_사칙연산_01.png",
+    "passed": true,
+    "expected_answer": "20",
+    "computed_answer": "20",
+    "matched_choice": "",
+    "expected_topic": "arithmetic",
+    "topic": "arithmetic",
+    "recognized_text": "다음 식의 값을 구하시오",
+    "expressions": [
+      "12+8"
+    ],
+    "solver_name": "safe_eval_solver",
+    "validation_status": "verified",
+    "confidence": 0.86,
+    "bottlenecks": []
+  },
+  {
+    "case_id": "middle_linear_equation_01",
+    "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/02.중등/auto_중등_일차방정식_01.png",
+    "passed": true,
+    "expected_answer": "4",
+    "computed_answer": "4",
+    "matched_choice": "",
+    "expected_topic": "linear_equation",
+    "topic": "linear_equation",
+    "recognized_text": "2x+3=11",
+    "expressions": [
+      "2x+3=11"
+    ],
+    "solver_name": "equation_solver",
+    "validation_status": "verified",
+    "confidence": 0.84,
+    "bottlenecks": []
+  },
+  {
+    "case_id": "high_radical_power_01",
+    "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/03.고등/auto_고등_루트거듭제곱_01.png",
+    "passed": true,
+    "expected_answer": "12",
+    "computed_answer": "12",
+    "matched_choice": "",
+    "expected_topic": "radical_power",
+    "topic": "radical_power",
+    "recognized_text": "다음 식의 값을 구하시오",
+    "expressions": [
+      "sqrt(16) + 2^3"
+    ],
+    "solver_name": "safe_eval_solver",
+    "validation_status": "verified",
+    "confidence": 0.86,
+    "bottlenecks": []
+  }
+]

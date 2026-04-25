@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import time
 from urllib.parse import quote, urlencode
@@ -83,6 +84,15 @@ _LEARN_PREFIXES = (
     "핵심만 다시 잡아보면,",
     "아주 짧게 다시 잡아보면,",
 )
+_REMOTE_CONCEPT_CACHE: dict[str, ConceptSearchResult | None] = {}
+
+
+def _remote_concept_timeout() -> float:
+    raw = str(os.getenv("COCO_CONCEPT_LOOKUP_TIMEOUT") or "0.9").strip()
+    try:
+        return max(float(raw or 0.9), 0.2)
+    except Exception:
+        return 0.9
 
 
 def _selected_document_from_state(state: AppState) -> dict | None:
@@ -193,10 +203,10 @@ def _lookup_custom_concept(term: str, custom_concepts: dict[str, StoredConcept] 
     }
 
 
-def _fetch_json(url: str) -> dict | None:
+def _fetch_json(url: str, timeout: float | None = None) -> dict | None:
     request = Request(url, headers=_REQUEST_HEADERS)
     try:
-        with urlopen(request, timeout=3.5) as response:
+        with urlopen(request, timeout=timeout or _remote_concept_timeout()) as response:
             return json.loads(response.read().decode("utf-8"))
     except Exception:
         return None
@@ -261,21 +271,27 @@ def search_concept(term: str, custom_concepts: dict[str, StoredConcept] | None =
     normalized = _normalize_concept_key(term)
     if not normalized:
         return None
+    if normalized in _REMOTE_CONCEPT_CACHE:
+        return _REMOTE_CONCEPT_CACHE[normalized]
 
     title = _search_wikipedia_title(normalized)
     if not title:
+        _REMOTE_CONCEPT_CACHE[normalized] = None
         return None
 
     summary = _fetch_wikipedia_extract(title)
     if not summary:
+        _REMOTE_CONCEPT_CACHE[normalized] = None
         return None
 
-    return {
+    result: ConceptSearchResult = {
         "term": normalized,
         "summary": summary,
         "confidence": "medium",
         "source": f"wikipedia:{quote(title)}",
     }
+    _REMOTE_CONCEPT_CACHE[normalized] = result
+    return result
 
 
 def _clean_learned_summary(term: str, summary: str) -> str:

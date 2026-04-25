@@ -41,17 +41,18 @@ def render_conversation(messages: list[dict], mode: str = "main") -> str:
         )
 
     rendered = []
-    for message in messages:
+    for index, message in enumerate(reversed(messages)):
         role = str(message.get("role") or "assistant")
         pending = bool(message.get("pending"))
         content = render_message_content(str(message.get("content") or ""))
+        latest_attr = ' data-latest-message="true"' if index == 0 else ""
         if role == "user":
             rendered.append(
-                f'<div class="chat-row user"><div class="user-bubble">{content}</div></div>'
+                f'<div class="chat-row user"{latest_attr}><div class="user-bubble">{content}</div></div>'
             )
         elif pending:
             rendered.append(
-                '<div class="chat-row assistant">'
+                f'<div class="chat-row assistant"{latest_attr}>'
                 '<div class="assistant-card pending-card">'
                 '<div class="typing-dots" aria-label="생각 중">'
                 '<span></span><span></span><span></span>'
@@ -60,7 +61,7 @@ def render_conversation(messages: list[dict], mode: str = "main") -> str:
             )
         else:
             rendered.append(
-                f'<div class="chat-row assistant"><div class="assistant-card">{content}</div></div>'
+                f'<div class="chat-row assistant"{latest_attr}><div class="assistant-card">{content}</div></div>'
             )
     return f'<div class="chat-shell">{"".join(rendered)}<div class="chat-end-anchor"></div></div>'
 
@@ -88,17 +89,39 @@ def scroll_chat_to_latest() -> None:
           const anchors = root.querySelectorAll('.chat-end-anchor');
           const target = anchors[anchors.length - 1];
           if (!target) return;
+          const latestRows = root.querySelectorAll('.chat-row[data-latest-message="true"]');
+          const latestRow = latestRows[latestRows.length - 1] || target.previousElementSibling || target;
           const promptBar = root.querySelector('div[data-testid="stChatInput"]')
             || root.querySelector('div[data-testid="stTextInput"]');
-          const scrollParent = findScrollParent(root, target);
-          const extraBottom = 12;
-          target.scrollIntoView({behavior: 'auto', block: 'end'});
+          const bottomBlock = root.querySelector('[data-testid="stBottomBlockContainer"]');
+          const scrollParent = findScrollParent(root, latestRow);
+          const computed = scrollParent ? window.parent.getComputedStyle(scrollParent) : null;
+          const clearance = computed
+            ? parseFloat(computed.getPropertyValue('--coco-chat-scroll-clearance')) || 84
+            : 84;
+          const extraBottom = Math.max(clearance, 84);
           if (scrollParent) {
-            scrollParent.scrollTop = scrollParent.scrollHeight + extraBottom;
-            if (typeof scrollParent.scrollBy === 'function') {
-              scrollParent.scrollBy({top: extraBottom, left: 0, behavior: 'auto'});
+            if (computed && (computed.flexDirection || '').includes('reverse')) {
+              scrollParent.scrollTop = 0;
+              return;
+            }
+            if (latestRow && latestRow.offsetParent) {
+              const parentRect = scrollParent.getBoundingClientRect();
+              const rowRect = latestRow.getBoundingClientRect();
+              const rowTop = rowRect.top - parentRect.top + scrollParent.scrollTop;
+              const desiredTop = rowTop + latestRow.offsetHeight - scrollParent.clientHeight + extraBottom;
+              scrollParent.scrollTop = Math.max(0, desiredTop);
             } else {
-              scrollParent.scrollTop = scrollParent.scrollHeight + extraBottom;
+              scrollParent.scrollTop = scrollParent.scrollHeight;
+            }
+            const safeEdge = promptBar || bottomBlock;
+            if (safeEdge && typeof scrollParent.scrollBy === 'function') {
+              const latestRect = latestRow.getBoundingClientRect();
+              const edgeRect = safeEdge.getBoundingClientRect();
+              const overflow = latestRect.bottom - (edgeRect.top - 18);
+              if (overflow > 0) {
+                scrollParent.scrollBy({top: overflow + 8, left: 0, behavior: 'auto'});
+              }
             }
             return;
           }

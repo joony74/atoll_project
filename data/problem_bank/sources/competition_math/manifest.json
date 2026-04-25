@@ -1,0 +1,332 @@
+{
+  "schema_version": "problem_bank_manifest.v1",
+  "bank_id": "competition_math",
+  "generated_at": "2026-04-24T18:07:55+00:00",
+  "source": {
+    "name": "Competition MATH",
+    "dataset_id": "qwedsacf/competition_math",
+    "source_url": "https://huggingface.co/datasets/qwedsacf/competition_math/resolve/main/data/train-00000-of-00001-7320a6f3aba8ebd2.parquet",
+    "license": "MIT",
+    "notes": "Official hendrycks/competition_math Hugging Face page was unavailable during import; this source URL is the active mirror referenced in local feasibility checks."
+  },
+  "storage": {
+    "format": "json_shards",
+    "encoding": "utf-8",
+    "record_schema": "../../schema/problem_bank_record.schema.json"
+  },
+  "counts": {
+    "total": 12500,
+    "by_subject": {
+      "Algebra": 2931,
+      "Counting & Probability": 1245,
+      "Geometry": 1349,
+      "Intermediate Algebra": 2198,
+      "Number Theory": 1409,
+      "Prealgebra": 2076,
+      "Precalculus": 1292
+    },
+    "by_level": {
+      "Level 1": 1001,
+      "Level 2": 2242,
+      "Level 3": 2723,
+      "Level 4": 2904,
+      "Level 5": 3628,
+      "Level ?": 2
+    },
+    "answer_missing": 4,
+    "asy": 2071
+  },
+  "shards": [
+    {
+      "path": "shards/algebra/level_1.json",
+      "count": 313,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1
+    },
+    {
+      "path": "shards/algebra/level_2.json",
+      "count": 541,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 2",
+      "level_number": 2
+    },
+    {
+      "path": "shards/algebra/level_3.json",
+      "count": 653,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3
+    },
+    {
+      "path": "shards/algebra/level_4.json",
+      "count": 681,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4
+    },
+    {
+      "path": "shards/algebra/level_5.json",
+      "count": 743,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 5",
+      "level_number": 5
+    },
+    {
+      "path": "shards/counting_probability/level_1.json",
+      "count": 89,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1
+    },
+    {
+      "path": "shards/counting_probability/level_2.json",
+      "count": 220,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 2",
+      "level_number": 2
+    },
+    {
+      "path": "shards/counting_probability/level_3.json",
+      "count": 260,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 3",
+      "level_number": 3
+    },
+    {
+      "path": "shards/counting_probability/level_4.json",
+      "count": 277,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4
+    },
+    {
+      "path": "shards/counting_probability/level_5.json",
+      "count": 399,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 5",
+      "level_number": 5
+    },
+    {
+      "path": "shards/geometry/level_0.json",
+      "count": 2,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level ?",
+      "level_number": 0
+    },
+    {
+      "path": "shards/geometry/level_1.json",
+      "count": 79,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 1",
+      "level_number": 1
+    },
+    {
+      "path": "shards/geometry/level_2.json",
+      "count": 182,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 2",
+      "level_number": 2
+    },
+    {
+      "path": "shards/geometry/level_3.json",
+      "count": 231,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3
+    },
+    {
+      "path": "shards/geometry/level_4.json",
+      "count": 302,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 4",
+      "level_number": 4
+    },
+    {
+      "path": "shards/geometry/level_5.json",
+      "count": 553,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 5",
+      "level_number": 5
+    },
+    {
+      "path": "shards/intermediate_algebra/level_1.json",
+      "count": 110,
+      "subject": "Intermediate Algebra",
+      "subject_slug": "intermediate_algebra",
+      "level": "Level 1",
+      "level_number": 1
+    },
+    {
+      "path": "shards/intermediate_algebra/level_2.json",
+      "count": 295,
+      "subject": "Intermediate Algebra",
+      "subject_slug": "intermediate_algebra",
+      "level": "Level 2",
+      "level_number": 2
+    },
+    {
+      "path": "shards/intermediate_algebra/level_3.json",
+      "count": 496,
+      "subject": "Intermediate Algebra",
+      "subject_slug": "intermediate_algebra",
+      "level": "Level 3",
+      "level_number": 3
+    },
+    {
+      "path": "shards/intermediate_algebra/level_4.json",
+      "count": 588,
+      "subject": "Intermediate Algebra",
+      "subject_slug": "intermediate_algebra",
+      "level": "Level 4",
+      "level_number": 4
+    },
+    {
+      "path": "shards/intermediate_algebra/level_5.json",
+      "count": 709,
+      "subject": "Intermediate Algebra",
+      "subject_slug": "intermediate_algebra",
+      "level": "Level 5",
+      "level_number": 5
+    },
+    {
+      "path": "shards/number_theory/level_1.json",
+      "count": 77,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1
+    },
+    {
+      "path": "shards/number_theory/level_2.json",
+      "count": 223,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 2",
+      "level_number": 2
+    },
+    {
+      "path": "shards/number_theory/level_3.json",
+      "count": 313,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3
+    },
+    {
+      "path": "shards/number_theory/level_4.json",
+      "count": 329,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4
+    },
+    {
+      "path": "shards/number_theory/level_5.json",
+      "count": 467,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5
+    },
+    {
+      "path": "shards/prealgebra/level_1.json",
+      "count": 212,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1
+    },
+    {
+      "path": "shards/prealgebra/level_2.json",
+      "count": 506,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 2",
+      "level_number": 2
+    },
+    {
+      "path": "shards/prealgebra/level_3.json",
+      "count": 475,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 3",
+      "level_number": 3
+    },
+    {
+      "path": "shards/prealgebra/level_4.json",
+      "count": 438,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4
+    },
+    {
+      "path": "shards/prealgebra/level_5.json",
+      "count": 445,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5
+    },
+    {
+      "path": "shards/precalculus/level_1.json",
+      "count": 121,
+      "subject": "Precalculus",
+      "subject_slug": "precalculus",
+      "level": "Level 1",
+      "level_number": 1
+    },
+    {
+      "path": "shards/precalculus/level_2.json",
+      "count": 275,
+      "subject": "Precalculus",
+      "subject_slug": "precalculus",
+      "level": "Level 2",
+      "level_number": 2
+    },
+    {
+      "path": "shards/precalculus/level_3.json",
+      "count": 295,
+      "subject": "Precalculus",
+      "subject_slug": "precalculus",
+      "level": "Level 3",
+      "level_number": 3
+    },
+    {
+      "path": "shards/precalculus/level_4.json",
+      "count": 289,
+      "subject": "Precalculus",
+      "subject_slug": "precalculus",
+      "level": "Level 4",
+      "level_number": 4
+    },
+    {
+      "path": "shards/precalculus/level_5.json",
+      "count": 312,
+      "subject": "Precalculus",
+      "subject_slug": "precalculus",
+      "level": "Level 5",
+      "level_number": 5
+    }
+  ],
+  "indexes": {
+    "lightweight": "index/problem_index.json"
+  }
+}

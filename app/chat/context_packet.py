@@ -23,6 +23,7 @@ _ACK_ONLY = {
 }
 
 _CONTENT_OBJECT_TOKENS = ("노래", "음악", "영화", "드라마", "책", "소설", "영상", "가사")
+_FAST_LOCAL_INTENTS = {"smalltalk", "self_info", "app_help", "emotional", "opinion", "math"}
 
 
 def _recent_main_messages(state: AppState, limit: int = 8) -> list[ChatMessage]:
@@ -97,6 +98,13 @@ def build_chat_context_packet(prompt: str, state: AppState | None = None) -> Cha
     llm_candidate = bool(reasons)
     if len(recent_messages) >= 2 and len(normalized) <= 14:
         llm_candidate = True
+    if not recent_messages:
+        if intent_hint in _FAST_LOCAL_INTENTS:
+            llm_candidate = False
+        elif intent_hint == "content_request" and len(normalized) <= 18:
+            llm_candidate = False
+        elif intent_hint == "general" and len(normalized) <= 8:
+            llm_candidate = False
 
     return {
         "prompt": prompt,
@@ -129,6 +137,8 @@ def build_study_chat_context_packet(prompt: str, document: dict | None, state: A
     steps = _dedupe_texts(_as_text_list(solved.get("steps")), limit=4)
     problem_text = str(structured.get("normalized_problem_text") or "").strip() or None
     answer_candidate = str(solved.get("matched_choice") or solved.get("computed_answer") or "").strip() or None
+    metadata = structured.get("metadata") or {}
+    reference_solution = str(metadata.get("reference_solution_plain") or metadata.get("reference_solution_latex") or "").strip() or None
     reasons = _ambiguity_reasons(normalized, resolved_state)
     content_theme = extract_content_theme(normalized)
     intent_hint = "math" if (problem_text or expressions or answer_candidate) else "general"
@@ -158,4 +168,6 @@ def build_study_chat_context_packet(prompt: str, document: dict | None, state: A
         "study_expressions": expressions,
         "study_question_type": str(structured.get("question_type") or "").strip() or None,
         "study_latest_user_query": str((document or {}).get("latest_user_query") or "").strip() or None,
+        "study_reference_solution": reference_solution,
+        "study_source": str(metadata.get("source") or "").strip() or None,
     }

@@ -1,0 +1,128 @@
+{
+  "rows": 12500,
+  "columns": [
+    "problem",
+    "level",
+    "type",
+    "solution"
+  ],
+  "type_counts": {
+    "Algebra": 2931,
+    "Intermediate Algebra": 2198,
+    "Prealgebra": 2076,
+    "Number Theory": 1409,
+    "Geometry": 1349,
+    "Precalculus": 1292,
+    "Counting & Probability": 1245
+  },
+  "level_counts": {
+    "Level 1": 1001,
+    "Level 2": 2242,
+    "Level 3": 2723,
+    "Level 4": 2904,
+    "Level 5": 3628,
+    "Level ?": 2
+  },
+  "boxed_solution_count": 12498,
+  "boxed_missing_count": 2,
+  "multi_boxed_solution_count": 204,
+  "problem_length": {
+    "min": 16,
+    "median": 146,
+    "max": 4309
+  },
+  "solution_length": {
+    "min": 26,
+    "median": 405,
+    "max": 6767
+  },
+  "literal_asy_count": 2071,
+  "estimated_jsonl_mb": 10.03,
+  "by_type": [
+    {
+      "type": "Algebra",
+      "count": 2931,
+      "levels": {
+        "Level 1": 313,
+        "Level 2": 541,
+        "Level 3": 653,
+        "Level 4": 681,
+        "Level 5": 743
+      },
+      "boxed_missing": 2
+    },
+    {
+      "type": "Counting & Probability",
+      "count": 1245,
+      "levels": {
+        "Level 1": 89,
+        "Level 2": 220,
+        "Level 3": 260,
+        "Level 4": 277,
+        "Level 5": 399
+      },
+      "boxed_missing": 0
+    },
+    {
+      "type": "Geometry",
+      "count": 1349,
+      "levels": {
+        "Level 1": 79,
+        "Level 2": 182,
+        "Level 3": 231,
+        "Level 4": 302,
+        "Level 5": 553,
+        "Level ?": 2
+      },
+      "boxed_missing": 0
+    },
+    {
+      "type": "Intermediate Algebra",
+      "count": 2198,
+      "levels": {
+        "Level 1": 110,
+        "Level 2": 295,
+        "Level 3": 496,
+        "Level 4": 588,
+        "Level 5": 709
+      },
+      "boxed_missing": 0
+    },
+    {
+      "type": "Number Theory",
+      "count": 1409,
+      "levels": {
+        "Level 1": 77,
+        "Level 2": 223,
+        "Level 3": 313,
+        "Level 4": 329,
+        "Level 5": 467
+      },
+      "boxed_missing": 0
+    },
+    {
+      "type": "Prealgebra",
+      "count": 2076,
+      "levels": {
+        "Level 1": 212,
+        "Level 2": 506,
+        "Level 3": 475,
+        "Level 4": 438,
+        "Level 5": 445
+      },
+      "boxed_missing": 0
+    },
+    {
+      "type": "Precalculus",
+      "count": 1292,
+      "levels": {
+        "Level 1": 121,
+        "Level 2": 275,
+        "Level 3": 295,
+        "Level 4": 289,
+        "Level 5": 312
+      },
+      "boxed_missing": 0
+    }
+  ]
+}

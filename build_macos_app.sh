@@ -57,11 +57,27 @@ APP_DIR="dist/CocoAIStudy.app"
 CONTENTS_DIR="$APP_DIR/Contents"
 MACOS_DIR="$CONTENTS_DIR/MacOS"
 RESOURCES_DIR="$CONTENTS_DIR/Resources"
-LAUNCHER_M="/tmp/cocoai_launcher.m"
+BUNDLE_PROJECT_DIR="$RESOURCES_DIR/project"
+BUNDLE_RUNTIME_DIR="$RESOURCES_DIR/runtime"
+LAUNCHER_M="macos/CocoAIStudyLauncher.m"
+RUNTIME_ROOT="$(cd "$(dirname "$PYTHON_BIN")/.." && pwd)"
 
-mkdir -p "$MACOS_DIR" "$RESOURCES_DIR"
+mkdir -p "$MACOS_DIR" "$RESOURCES_DIR" "$BUNDLE_PROJECT_DIR"
 cp "$ICON_ICNS" "$RESOURCES_DIR/CocoAIStudy.icns"
 printf 'APPL????' > "$CONTENTS_DIR/PkgInfo"
+
+ditto "$RUNTIME_ROOT" "$BUNDLE_RUNTIME_DIR"
+ditto app "$BUNDLE_PROJECT_DIR/app"
+ditto assets "$BUNDLE_PROJECT_DIR/assets"
+if [[ -d config ]]; then
+  ditto config "$BUNDLE_PROJECT_DIR/config"
+fi
+if [[ -d data/problem_bank ]]; then
+  mkdir -p "$BUNDLE_PROJECT_DIR/data"
+  ditto data/problem_bank "$BUNDLE_PROJECT_DIR/data/problem_bank"
+fi
+cp app.py "$BUNDLE_PROJECT_DIR/app.py"
+cp desktop_app.py "$BUNDLE_PROJECT_DIR/desktop_app.py"
 
 cat > "$CONTENTS_DIR/Info.plist" <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
@@ -96,35 +112,16 @@ cat > "$CONTENTS_DIR/Info.plist" <<EOF
   <string>NSApplication</string>
   <key>NSHighResolutionCapable</key>
   <true/>
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsLocalNetworking</key>
+    <true/>
+  </dict>
 </dict>
 </plist>
 EOF
 
-cat > "$LAUNCHER_M" <<EOF
-#import <Cocoa/Cocoa.h>
-
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        [NSApplication sharedApplication];
-
-        NSString *projectRoot = @"/Users/juhwigeun/Desktop/atoll_project";
-        NSString *pythonBin = @"/Users/juhwigeun/Desktop/atoll_project/${PYTHON_BIN}";
-        NSString *desktopEntry = @"/Users/juhwigeun/Desktop/atoll_project/desktop_app.py";
-
-        [[NSFileManager defaultManager] changeCurrentDirectoryPath:projectRoot];
-
-        NSTask *task = [[NSTask alloc] init];
-        task.launchPath = pythonBin;
-        task.arguments = @[desktopEntry];
-        task.standardOutput = [NSFileHandle fileHandleWithNullDevice];
-        task.standardError = [NSFileHandle fileHandleWithNullDevice];
-        [task launch];
-    }
-    return 0;
-}
-EOF
-
-clang -O2 -framework Cocoa -o "$MACOS_DIR/CocoAIStudy" "$LAUNCHER_M"
+clang -O2 -framework Cocoa -framework WebKit -o "$MACOS_DIR/CocoAIStudy" "$LAUNCHER_M"
 chmod +x "$MACOS_DIR/CocoAIStudy"
 
 echo ""

@@ -1,0 +1,143 @@
+{
+  "schema_version": "problem_bank_manifest.v1",
+  "bank_id": "gsm8k",
+  "generated_at": "2026-04-24T18:45:36+00:00",
+  "source": {
+    "name": "GSM8K",
+    "dataset_id": "openai/grade-school-math",
+    "source_url": "https://github.com/openai/grade-school-math",
+    "license": "MIT",
+    "raw_sources": {
+      "train": "https://raw.githubusercontent.com/openai/grade-school-math/master/grade_school_math/data/train.jsonl",
+      "test": "https://raw.githubusercontent.com/openai/grade-school-math/master/grade_school_math/data/test.jsonl",
+      "train_socratic": "https://raw.githubusercontent.com/openai/grade-school-math/master/grade_school_math/data/train_socratic.jsonl",
+      "test_socratic": "https://raw.githubusercontent.com/openai/grade-school-math/master/grade_school_math/data/test_socratic.jsonl",
+      "example_model_solutions": "https://raw.githubusercontent.com/openai/grade-school-math/master/grade_school_math/data/example_model_solutions.jsonl"
+    },
+    "notes": "Imported train/test only as canonical problem records. Socratic files are duplicate prompts with generated subquestions and are tracked as available variants, not imported as separate records."
+  },
+  "storage": {
+    "format": "json_shards",
+    "encoding": "utf-8",
+    "record_schema": "../../schema/problem_bank_record.schema.json"
+  },
+  "counts": {
+    "total": 8792,
+    "by_subject": {
+      "Arithmetic Word Problems": 8792
+    },
+    "by_level": {
+      "Level 1": 564,
+      "Level 2": 3243,
+      "Level 3": 3149,
+      "Level 4": 1373,
+      "Level 5": 463
+    },
+    "by_split": {
+      "train": 7473,
+      "test": 1319
+    },
+    "by_grade_band": {
+      "elementary": 3807,
+      "elementary_middle": 4522,
+      "middle": 463
+    },
+    "answer_missing": 0,
+    "calculation_annotated": 8679
+  },
+  "shards": [
+    {
+      "path": "shards/test/level_1.json",
+      "count": 78,
+      "subject": "Arithmetic Word Problems",
+      "subject_slug": "arithmetic_word_problem",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "test"
+    },
+    {
+      "path": "shards/test/level_2.json",
+      "count": 477,
+      "subject": "Arithmetic Word Problems",
+      "subject_slug": "arithmetic_word_problem",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "test"
+    },
+    {
+      "path": "shards/test/level_3.json",
+      "count": 457,
+      "subject": "Arithmetic Word Problems",
+      "subject_slug": "arithmetic_word_problem",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "test"
+    },
+    {
+      "path": "shards/test/level_4.json",
+      "count": 223,
+      "subject": "Arithmetic Word Problems",
+      "subject_slug": "arithmetic_word_problem",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "test"
+    },
+    {
+      "path": "shards/test/level_5.json",
+      "count": 84,
+      "subject": "Arithmetic Word Problems",
+      "subject_slug": "arithmetic_word_problem",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "test"
+    },
+    {
+      "path": "shards/train/level_1.json",
+      "count": 486,
+      "subject": "Arithmetic Word Problems",
+      "subject_slug": "arithmetic_word_problem",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "train"
+    },
+    {
+      "path": "shards/train/level_2.json",
+      "count": 2766,
+      "subject": "Arithmetic Word Problems",
+      "subject_slug": "arithmetic_word_problem",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "train"
+    },
+    {
+      "path": "shards/train/level_3.json",
+      "count": 2692,
+      "subject": "Arithmetic Word Problems",
+      "subject_slug": "arithmetic_word_problem",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "train"
+    },
+    {
+      "path": "shards/train/level_4.json",
+      "count": 1150,
+      "subject": "Arithmetic Word Problems",
+      "subject_slug": "arithmetic_word_problem",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "train"
+    },
+    {
+      "path": "shards/train/level_5.json",
+      "count": 379,
+      "subject": "Arithmetic Word Problems",
+      "subject_slug": "arithmetic_word_problem",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "train"
+    }
+  ],
+  "indexes": {
+    "lightweight": "index/problem_index.json"
+  }
+}

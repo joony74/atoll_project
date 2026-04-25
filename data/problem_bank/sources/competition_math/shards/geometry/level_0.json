@@ -1,0 +1,158 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "competition_math:geometry:level_0:02773",
+    "source": {
+      "name": "Competition MATH",
+      "dataset_id": "qwedsacf/competition_math",
+      "source_url": "https://huggingface.co/datasets/qwedsacf/competition_math/resolve/main/data/train-00000-of-00001-7320a6f3aba8ebd2.parquet",
+      "license": "MIT",
+      "original_index": 2773,
+      "split": "train",
+      "source_problem_id": "competition_math_02773"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "We have a triangle $\\triangle ABC$ and a point $K$ on $BC$ such that $AK$ is an altitude of $\\triangle ABC$. If $AC = 10,$ $BK = 7$, and $BC = 13,$ then what is the area of $\\triangle ABC$?",
+      "problem_plain": "We have a triangle ABC and a point K on BC such that AK is an altitude of ABC . If AC = 10, BK = 7 , and BC = 13, then what is the area of ABC ?",
+      "solution_latex": "First, we sketch! [asy]\npair A, B, C, K;\nA = (0, 8);\nB = (-7, 0);\nC = (6, 0);\nK = (0, 0);\ndraw(A--B--C--cycle);\ndraw(A--K);\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$K$\", K, NE);\nlabel(\"10\", C--A, NE);\nlabel(\"7\", B--K, N);\nlabel(\"13\", B--C, S);\ndraw(rightanglemark(A,K,B,10));\n[/asy] We now see that $CK = BC - BK = 6.$ That means $\\triangle AKC$ is a $3:4:5$ right triangle, so $AK = 8.$ At this point, we can see that the area of $\\triangle ABC$ is $\\frac{1}{2} \\cdot AK \\cdot BC = \\frac{1}{2} \\cdot 8 \\cdot 13 = \\boxed{52}.$",
+      "solution_plain": "First, we sketch! [asy] pair A, B, C, K; A = (0, 8); B = (-7, 0); C = (6, 0); K = (0, 0); draw(A--B--C--cycle); draw(A--K); label(\" A \", A, N); label(\" B \", B, SW); label(\" C \", C, SE); label(\" K \", K, NE); label(\"10\", C--A, NE); label(\"7\", B--K, N); label(\"13\", B--C, S); draw(rightanglemark(A,K,B,10)); [/asy] We now see that CK = BC - BK = 6. That means AKC is a 3:4:5 right triangle, so AK = 8. At this point, we can see that the area of ABC is 1 2 AK BC = 1 2 8 13 = 52 ."
+    },
+    "answer": {
+      "final_raw": "52",
+      "final_normalized": "52",
+      "candidates": [
+        "52"
+      ],
+      "extraction_method": "boxed",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level ?",
+      "level_number": 0,
+      "grade_band": "advanced",
+      "concepts": [],
+      "tags": [
+        "diagram",
+        "geometry",
+        "level_0"
+      ]
+    },
+    "structure": {
+      "format": "latex_text",
+      "has_asy": true,
+      "has_diagram": true,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "We have a triangle ABC and a point K on BC such that AK is an altitude of ABC . If AC = 10, BK = 7 , and BC = 13, then what is the area of ABC ?",
+      "solution_text": "First, we sketch! [asy] pair A, B, C, K; A = (0, 8); B = (-7, 0); C = (6, 0); K = (0, 0); draw(A--B--C--cycle); draw(A--K); label(\" A \", A, N); label(\" B \", B, SW); label(\" C \", C, SE); label(\" K \", K, NE); label(\"10\", C--A, NE); label(\"7\", B--K, N); label(\"13\", B--C, S); draw(rightanglemark(A,K,B,10)); [/asy] We now see that CK = BC - BK = 6. That means AKC is a 3:4:5 right triangle, so AK = 8. At this point, we can see that the area of ABC is 1 2 AK BC = 1 2 8 13 = 52 .",
+      "keywords": [
+        "diagram",
+        "geometry",
+        "level_0"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-24T18:07:55+00:00",
+      "updated_at": "2026-04-24T18:07:55+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "unknown_level"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "competition_math:geometry:level_0:02832",
+    "source": {
+      "name": "Competition MATH",
+      "dataset_id": "qwedsacf/competition_math",
+      "source_url": "https://huggingface.co/datasets/qwedsacf/competition_math/resolve/main/data/train-00000-of-00001-7320a6f3aba8ebd2.parquet",
+      "license": "MIT",
+      "original_index": 2832,
+      "split": "train",
+      "source_problem_id": "competition_math_02832"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "One leg of a right triangle is 12 inches, and the measure of the angle opposite that leg is $30^\\circ$. What is the number of inches in the hypotenuse of the triangle?",
+      "problem_plain": "One leg of a right triangle is 12 inches, and the measure of the angle opposite that leg is 30^ . What is the number of inches in the hypotenuse of the triangle?",
+      "solution_latex": "A right triangle with a $30^\\circ$ angle is a 30-60-90 triangle.  In such a triangle, the hypotenuse has twice the length of the leg opposite the $30^\\circ$ angle, so the hypotenuse of the triangle in the problem has length $2\\cdot 12 = \\boxed{24}$ inches.",
+      "solution_plain": "A right triangle with a 30^ angle is a 30-60-90 triangle. In such a triangle, the hypotenuse has twice the length of the leg opposite the 30^ angle, so the hypotenuse of the triangle in the problem has length 2 12 = 24 inches."
+    },
+    "answer": {
+      "final_raw": "24",
+      "final_normalized": "24",
+      "candidates": [
+        "24"
+      ],
+      "extraction_method": "boxed",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level ?",
+      "level_number": 0,
+      "grade_band": "advanced",
+      "concepts": [],
+      "tags": [
+        "diagram",
+        "geometry",
+        "level_0"
+      ]
+    },
+    "structure": {
+      "format": "latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "One leg of a right triangle is 12 inches, and the measure of the angle opposite that leg is 30^ . What is the number of inches in the hypotenuse of the triangle?",
+      "solution_text": "A right triangle with a 30^ angle is a 30-60-90 triangle. In such a triangle, the hypotenuse has twice the length of the leg opposite the 30^ angle, so the hypotenuse of the triangle in the problem has length 2 12 = 24 inches.",
+      "keywords": [
+        "diagram",
+        "geometry",
+        "level_0"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-24T18:07:55+00:00",
+      "updated_at": "2026-04-24T18:07:55+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "unknown_level"
+        ]
+      }
+    }
+  }
+]

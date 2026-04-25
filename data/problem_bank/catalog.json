@@ -1,0 +1,20 @@
+{
+  "schema_version": "problem_bank_catalog.v1",
+  "updated_at": "2026-04-24T18:45:38+00:00",
+  "banks": [
+    {
+      "bank_id": "competition_math",
+      "name": "Competition MATH",
+      "manifest_path": "data/problem_bank/sources/competition_math/manifest.json",
+      "total": 12500,
+      "generated_at": "2026-04-24T18:07:55+00:00"
+    },
+    {
+      "bank_id": "gsm8k",
+      "name": "GSM8K",
+      "manifest_path": "data/problem_bank/sources/gsm8k/manifest.json",
+      "total": 8792,
+      "generated_at": "2026-04-24T18:45:36+00:00"
+    }
+  ]
+}
