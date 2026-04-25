@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 
+from app.engines.parser.math_normalization_profile import apply_learned_profile_rewrites
 from app.utils.text_normalizer import normalize_math_text
 
 
@@ -37,6 +38,7 @@ def _replace_superscript_run(match: re.Match[str]) -> str:
 def normalize_ocr_math_text(text: str) -> str:
     normalized = normalize_math_text(text)
     normalized = normalized.replace("\\n", "\n").replace("\\t", " ")
+    normalized = apply_learned_profile_rewrites(normalized)
     normalized = OCR_ESCAPE_RE.sub(" ", normalized)
     normalized = OCR_BACKSLASH_WORD_RE.sub(" ", normalized)
     normalized = re.sub(r"[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+", _replace_superscript_run, normalized)

@@ -17,6 +17,7 @@ class LearningEngineTests(unittest.TestCase):
         self.assertIn("21,292", reply)
         self.assertIn("초등 문장제", reply)
         self.assertIn("학습엔진", reply)
+        self.assertIn("수식 정규화", reply)
 
     def test_normalizes_school_band_subject_and_level(self) -> None:
         request = normalize_learning_request("문제은행 중등 기하 난이도 3", action="search")

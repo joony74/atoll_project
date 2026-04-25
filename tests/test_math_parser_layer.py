@@ -132,7 +132,7 @@ class MathParserLayerTests(unittest.TestCase):
         self.assertEqual(_merge_expression_candidates(raw)[0], "2*4")
 
     def test_extracts_spaced_log_expression(self) -> None:
-        self.assertIn("log _5(25)", _merge_expression_candidates("다음 로그의 값을 구하시오.\nlog _5(25)"))
+        self.assertIn("log_5(25)", _merge_expression_candidates("다음 로그의 값을 구하시오.\nlog _5(25)"))
 
     def test_infers_quadratic_when_x_squared_is_read_as_times_two(self) -> None:
         self.assertIn("x^2+2x=8", _merge_expression_candidates("다음 식의 값을 구하시오.\n×2+2<=8"))

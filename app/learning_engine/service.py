@@ -6,6 +6,7 @@ from dataclasses import asdict, dataclass
 from functools import lru_cache
 from typing import Any
 
+from app.engines.parser.math_normalization_profile import profile_summary as math_normalization_profile_summary
 from app.problem_bank.generator import clear_caches as clear_generator_caches
 from app.problem_bank.generator import generate_problem_record, load_generation_profile
 from app.problem_bank.repository import clear_caches as clear_repository_caches
@@ -424,6 +425,7 @@ def generate_learning_problem_record(request: LearningRequest, *, seed: int | No
 
 def format_learning_engine_status() -> str:
     profile = _profile()
+    normalization = math_normalization_profile_summary()
     counts = profile.get("counts") or {}
     domains = profile.get("domains") or {}
     source_banks = profile.get("source_banks") or list_banks()
@@ -435,6 +437,8 @@ def format_learning_engine_status() -> str:
         "",
         f"- 전체 학습 기준 문항: {total:,}개",
         f"- 연결된 문제은행: {len(source_banks)}개",
+        f"- 수식 정규화 학습 문항: {int(normalization.get('total_records') or 0):,}개",
+        f"- 런타임 정규화 규칙: {int(normalization.get('runtime_rule_count') or 0):,}개",
         f"- 출제/추천 전략: {strategy}",
         "",
         "주요 영역",
