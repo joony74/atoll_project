@@ -1,0 +1,2920 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:00776",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 776,
+      "split": "en_test",
+      "source_problem_id": "3c7a11e078d344aa81b0e5895e9b99d9"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A school district claims that the average teacher in the district earns $\\textbackslash$$48,000 per year. The teachers\\textquotesingle{} organization argues that the average salary is less. A random sample of 25 teachers yields a mean salary of $\\textbackslash$$47,500 with a sample standard deviation of $\\textbackslash$$2,000. Assuming that the distribution of all teachers\\textquotesingle{} salaries is approximately normally distributed, what is the value of the t-test statistic and the P-value for a test of the hypothesis H\\textsubscript{0}:~$\\mu$~= 48,000 against H\\textsubscript{a}: $\\mu$ \\textless{} 48,000? (Remember, df= 25 - 1 = 24.)\n(A) t=1.25, 0.10\\textless P\\textless0.15\n(B) t=-1.25, 0.20\\textless P\\textless0.30\n(C) t=1.25, 0.20\\textless P\\textless0.30\n(D) t=-1.25, 0.10\\textless P\\textless0.15\n(E) t=-1.25, P\\textgreater0.25",
+      "problem_plain": "A school district claims that the average teacher in the district earns 48,000 per year. The teachers organization argues that the average salary is less. A random sample of 25 teachers yields a mean salary of 47,500 with a sample standard deviation of 2,000. Assuming that the distribution of all teachers salaries is approximately normally distributed, what is the value of the t-test statistic and the P-value for a test of the hypothesis H 0 :~ ~= 48,000 against H a : 48,000? (Remember, df= 25 - 1 = 24.) (A) t=1.25, 0.10 P 0.15 (B) t=-1.25, 0.20 P 0.30 (C) t=1.25, 0.20 P 0.30 (D) t=-1.25, 0.10 P 0.15 (E) t=-1.25, P 0.25",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "t=-1.25, 0.10\\textless P\\textless0.15",
+      "final_normalized": "t=-1.25, 0.10\\textless P\\textless0.15",
+      "candidates": [
+        "D",
+        "t=-1.25, 0.10\\textless P\\textless0.15"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A school district claims that the average teacher in the district earns 48,000 per year. The teachers organization argues that the average salary is less. A random sample of 25 teachers yields a mean salary of 47,500 with a sample standard deviation of 2,000. Assuming that the distribution of all teachers salaries is approximately normally distributed, what is the value of the t-test statistic and the P-value for a test of the hypothesis H 0 :~ ~= 48,000 against H a : 48,000? (Remember, df= 25 - 1 = 24.) (A) t=1.25, 0.10 P 0.15 (B) t=-1.25, 0.20 P 0.30 (C) t=1.25, 0.20 P 0.30 (D) t=-1.25, 0.10 P 0.15 (E) t=-1.25, P 0.25",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "2631",
+        "queId": "3c7a11e078d344aa81b0e5895e9b99d9",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "t=1.25, 0.10\\textless P\\textless0.15"
+          },
+          {
+            "label": "B",
+            "content": "t=-1.25, 0.20\\textless P\\textless0.30"
+          },
+          {
+            "label": "C",
+            "content": "t=1.25, 0.20\\textless P\\textless0.30"
+          },
+          {
+            "label": "D",
+            "content": "t=-1.25, 0.10\\textless P\\textless0.15"
+          },
+          {
+            "label": "E",
+            "content": "t=-1.25, P\\textgreater0.25"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01007",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1007,
+      "split": "en_test",
+      "source_problem_id": "e7ba657096a344d8bc0650c8c504de13"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "[PhysicsBowl question revised] A car and a truck are both traveling with a constant speed of 30 m/s. The car is 20 m behind the truck. The truck driver suddenly applies his brakes, causing the truck to slow to a stop at the constant rate of 3 m/s². 3 seconds later, the driver of the car applies their brakes and just manages to avoid a rear-end collision. Determine the constant rate at which the car slowed.\n(A) 9.23 m/s²\n(B) 10.33 m/s²\n(C) 11.23 m/s²\n(D) 11.93 m/s²",
+      "problem_plain": "[PhysicsBowl question revised] A car and a truck are both traveling with a constant speed of 30 m/s. The car is 20 m behind the truck. The truck driver suddenly applies his brakes, causing the truck to slow to a stop at the constant rate of 3 m/s². 3 seconds later, the driver of the car applies their brakes and just manages to avoid a rear-end collision. Determine the constant rate at which the car slowed. (A) 9.23 m/s² (B) 10.33 m/s² (C) 11.23 m/s² (D) 11.93 m/s²",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "9.23 m/s²",
+      "final_normalized": "9.23 m/s²",
+      "candidates": [
+        "9.23 m/s²",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules",
+        "operations_with_new_definition",
+        "operations_with_new_definition_in_flow_charts"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "operations_with_new_definition",
+        "operations_with_new_definition_in_flow_charts",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "[PhysicsBowl question revised] A car and a truck are both traveling with a constant speed of 30 m/s. The car is 20 m behind the truck. The truck driver suddenly applies his brakes, causing the truck to slow to a stop at the constant rate of 3 m/s². 3 seconds later, the driver of the car applies their brakes and just manages to avoid a rear-end collision. Determine the constant rate at which the car slowed. (A) 9.23 m/s² (B) 10.33 m/s² (C) 11.23 m/s² (D) 11.93 m/s²",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "operations_with_new_definition",
+        "operations_with_new_definition_in_flow_charts",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "3443",
+        "queId": "e7ba657096a344d8bc0650c8c504de13",
+        "difficulty": "4",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "9.23 m/s²"
+          },
+          {
+            "label": "B",
+            "content": "10.33 m/s²"
+          },
+          {
+            "label": "C",
+            "content": "11.23 m/s²"
+          },
+          {
+            "label": "D",
+            "content": "11.93 m/s²"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Operations with New Definition->Operations with New Definition in Flow Charts"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01014",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1014,
+      "split": "en_test",
+      "source_problem_id": "1a1ca0584acb40d1821dd112e7382e62"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A 1-kg object is moving with a velocity of 6 m/s to the right. It collides and sticks to a 2-kg object moving with a velocity of 3 m/s in the same direction. How much kinetic energy was lost in the collision?\n(A) 1.5J\n(B) 2J\n(C) 2.5J\n(D) 3J",
+      "problem_plain": "A 1-kg object is moving with a velocity of 6 m/s to the right. It collides and sticks to a 2-kg object moving with a velocity of 3 m/s in the same direction. How much kinetic energy was lost in the collision? (A) 1.5J (B) 2J (C) 2.5J (D) 3J",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "3J",
+      "final_normalized": "3J",
+      "candidates": [
+        "3J",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A 1-kg object is moving with a velocity of 6 m/s to the right. It collides and sticks to a 2-kg object moving with a velocity of 3 m/s in the same direction. How much kinetic energy was lost in the collision? (A) 1.5J (B) 2J (C) 2.5J (D) 3J",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "3475",
+        "queId": "1a1ca0584acb40d1821dd112e7382e62",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1.5J"
+          },
+          {
+            "label": "B",
+            "content": "2J"
+          },
+          {
+            "label": "C",
+            "content": "2.5J"
+          },
+          {
+            "label": "D",
+            "content": "3J"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01036",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1036,
+      "split": "en_test",
+      "source_problem_id": "1a7316b931fc479ea1f23e040fe599e7"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A 95 percent confidence interval for the mean time, in minutes, for a volunteer fire company to respond to emergency incidents is determined to be (2.8, 12.3). Which of the following is the best interpretation of the interval?\n(A) Five percent of the time, the time for response is less than 2.8 minutes or greater than 12.3 minutes.\n(B) The probability is 0.95 that a randomly selected time for response will be between 2.8 minutes and 12.3 minutes.\n(C) Ninety-five percent of the time the mean time for response is between 2.8 minutes and 12.3 minutes.\n(D) We are 95\\% confident that the mean time for response is between 2.8 minutes and 12.3 minutes.\n(E) We are 95\\% confident that a randomly selected time for response will be between 2.8 minutes and 12.3 minutes.",
+      "problem_plain": "A 95 percent confidence interval for the mean time, in minutes, for a volunteer fire company to respond to emergency incidents is determined to be (2.8, 12.3). Which of the following is the best interpretation of the interval? (A) Five percent of the time, the time for response is less than 2.8 minutes or greater than 12.3 minutes. (B) The probability is 0.95 that a randomly selected time for response will be between 2.8 minutes and 12.3 minutes. (C) Ninety-five percent of the time the mean time for response is between 2.8 minutes and 12.3 minutes. (D) We are 95 % confident that the mean time for response is between 2.8 minutes and 12.3 minutes. (E) We are 95 % confident that a randomly selected time for response will be between 2.8 minutes and 12.3 minutes.",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "We are 95\\% confident that the mean time for response is between 2.8 minutes and 12.3 minutes.",
+      "final_normalized": "We are 95\\% confident that the mean time for response is between 2.8 minutes and 12.3 minutes.",
+      "candidates": [
+        "D",
+        "We are 95\\% confident that the mean time for response is between 2.8 minutes and 12.3 minutes."
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A 95 percent confidence interval for the mean time, in minutes, for a volunteer fire company to respond to emergency incidents is determined to be (2.8, 12.3). Which of the following is the best interpretation of the interval? (A) Five percent of the time, the time for response is less than 2.8 minutes or greater than 12.3 minutes. (B) The probability is 0.95 that a randomly selected time for response will be between 2.8 minutes and 12.3 minutes. (C) Ninety-five percent of the time the mean time for response is between 2.8 minutes and 12.3 minutes. (D) We are 95 % confident that the mean time for response is between 2.8 minutes and 12.3 minutes. (E) We are 95 % confident that a randomly selected time for response will be between 2.8 minutes and 12.3 minutes.",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "3543",
+        "queId": "1a7316b931fc479ea1f23e040fe599e7",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Five percent of the time, the time for response is less than 2.8 minutes or greater than 12.3 minutes."
+          },
+          {
+            "label": "B",
+            "content": "The probability is 0.95 that a randomly selected time for response will be between 2.8 minutes and 12.3 minutes."
+          },
+          {
+            "label": "C",
+            "content": "Ninety-five percent of the time the mean time for response is between 2.8 minutes and 12.3 minutes."
+          },
+          {
+            "label": "D",
+            "content": "We are 95\\% confident that the mean time for response is between 2.8 minutes and 12.3 minutes."
+          },
+          {
+            "label": "E",
+            "content": "We are 95\\% confident that a randomly selected time for response will be between 2.8 minutes and 12.3 minutes."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01064",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1064,
+      "split": "en_test",
+      "source_problem_id": "50123cb55baa4baca8e2da963960b96c"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "St. Norbert College in Green Bay conducts an annual survey of Wisconsin residents. In 2011 a random sample of 400 Wisconsin residents was selected and 25\\% of respondents said the country is headed in the right direction. In a 2016 random sample of 664 residents, 28\\% said they thought the country was headed in the right direction. Do these samples provide convincing evidence of a change in the proportion of adults who thought the country was headed in the right direction?\n(A) No, because the 95\\% confidence interval for the difference contains 3\\%.\n(B) No, because the 95\\% confdence interval for the difference contains 0\\%.\n(C) No, because the 95\\% confidence interval for the difference does not contain 0\\%.\n(D) Yes, because the 95\\% confdence interval for the difference does not contain 3\\%.\n(E) Yes, because the 95\\% confdence interval for the difference contains 3\\%.",
+      "problem_plain": "St. Norbert College in Green Bay conducts an annual survey of Wisconsin residents. In 2011 a random sample of 400 Wisconsin residents was selected and 25 % of respondents said the country is headed in the right direction. In a 2016 random sample of 664 residents, 28 % said they thought the country was headed in the right direction. Do these samples provide convincing evidence of a change in the proportion of adults who thought the country was headed in the right direction? (A) No, because the 95 % confidence interval for the difference contains 3 %. (B) No, because the 95 % confdence interval for the difference contains 0 %. (C) No, because the 95 % confidence interval for the difference does not contain 0 %. (D) Yes, because the 95 % confdence interval for the difference does not contain 3 %. (E) Yes, because the 95 % confdence interval for the difference contains 3 %.",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "No, because the 95\\% confdence interval for the difference contains 0\\%.",
+      "final_normalized": "No, because the 95\\% confdence interval for the difference contains 0\\%.",
+      "candidates": [
+        "B",
+        "No, because the 95\\% confdence interval for the difference contains 0\\%."
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "St. Norbert College in Green Bay conducts an annual survey of Wisconsin residents. In 2011 a random sample of 400 Wisconsin residents was selected and 25 % of respondents said the country is headed in the right direction. In a 2016 random sample of 664 residents, 28 % said they thought the country was headed in the right direction. Do these samples provide convincing evidence of a change in the proportion of adults who thought the country was headed in the right direction? (A) No, because the 95 % confidence interval for the difference contains 3 %. (B) No, because the 95 % confdence interval for the difference contains 0 %. (C) No, because the 95 % confidence interval for the difference does not contain 0 %. (D) Yes, because the 95 % confdence interval for the difference does not contain 3 %. (E) Yes, because the 95 % confdence interval for the difference contains 3 %.",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "3633",
+        "queId": "50123cb55baa4baca8e2da963960b96c",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "No, because the 95\\% confidence interval for the difference contains 3\\%."
+          },
+          {
+            "label": "B",
+            "content": "No, because the 95\\% confdence interval for the difference contains 0\\%."
+          },
+          {
+            "label": "C",
+            "content": "No, because the 95\\% confidence interval for the difference does not contain 0\\%."
+          },
+          {
+            "label": "D",
+            "content": "Yes, because the 95\\% confdence interval for the difference does not contain 3\\%."
+          },
+          {
+            "label": "E",
+            "content": "Yes, because the 95\\% confdence interval for the difference contains 3\\%."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01076",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1076,
+      "split": "en_test",
+      "source_problem_id": "279c7ceba507464b8728efb6f508f48e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A medical center conducted a study to investigate cholesterol levels in people who have had heart attacks. A random sample of 16 people was obtained from the names of all patients of the medical center who had a heart attack in the previous year. Of the people in the sample, the mean cholesterol level was 264.70 milligrams per deciliter (me/dL) with standard deviation 42.12 mg/dL. Assuming all conditions for inference were met, which of the following is a 90 percent confidence interval for the mean cholesterol level, in mg/dL, of all patients of the medical center who had a heart attack in the previous year?\n(A) (242.26, 287.14)\n(B) (244.06, 285.34)\n(C) (246.24, 283.16)\n(D) (247.38, 282.02)\n(E) (260.09, 269.31)",
+      "problem_plain": "A medical center conducted a study to investigate cholesterol levels in people who have had heart attacks. A random sample of 16 people was obtained from the names of all patients of the medical center who had a heart attack in the previous year. Of the people in the sample, the mean cholesterol level was 264.70 milligrams per deciliter (me/dL) with standard deviation 42.12 mg/dL. Assuming all conditions for inference were met, which of the following is a 90 percent confidence interval for the mean cholesterol level, in mg/dL, of all patients of the medical center who had a heart attack in the previous year? (A) (242.26, 287.14) (B) (244.06, 285.34) (C) (246.24, 283.16) (D) (247.38, 282.02) (E) (260.09, 269.31)",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "(246.24, 283.16)",
+      "final_normalized": "(246.24, 283.16)",
+      "candidates": [
+        "(246.24, 283.16)",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A medical center conducted a study to investigate cholesterol levels in people who have had heart attacks. A random sample of 16 people was obtained from the names of all patients of the medical center who had a heart attack in the previous year. Of the people in the sample, the mean cholesterol level was 264.70 milligrams per deciliter (me/dL) with standard deviation 42.12 mg/dL. Assuming all conditions for inference were met, which of the following is a 90 percent confidence interval for the mean cholesterol level, in mg/dL, of all patients of the medical center who had a heart attack in the previous year? (A) (242.26, 287.14) (B) (244.06, 285.34) (C) (246.24, 283.16) (D) (247.38, 282.02) (E) (260.09, 269.31)",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "3679",
+        "queId": "279c7ceba507464b8728efb6f508f48e",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "(242.26, 287.14)"
+          },
+          {
+            "label": "B",
+            "content": "(244.06, 285.34)"
+          },
+          {
+            "label": "C",
+            "content": "(246.24, 283.16)"
+          },
+          {
+            "label": "D",
+            "content": "(247.38, 282.02)"
+          },
+          {
+            "label": "E",
+            "content": "(260.09, 269.31)"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01187",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1187,
+      "split": "en_test",
+      "source_problem_id": "2d786d7248e24846970190b45ff7f814"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The scores on two tests in a statistics class were approximately normally distributed. The first test had a mean of 42 and a standard deviation of 5. For the second test, the mean was 45 with a standard deviation of 6. Jemma earned a 38 on the first test. What score on the second test would be at the same percentile as her score on the first?\n(A) 38\n(B) 39\n(C) 40\n(D) 41\n(E) 42",
+      "problem_plain": "The scores on two tests in a statistics class were approximately normally distributed. The first test had a mean of 42 and a standard deviation of 5. For the second test, the mean was 45 with a standard deviation of 6. Jemma earned a 38 on the first test. What score on the second test would be at the same percentile as her score on the first? (A) 38 (B) 39 (C) 40 (D) 41 (E) 42",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "40",
+      "final_normalized": "40",
+      "candidates": [
+        "40",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The scores on two tests in a statistics class were approximately normally distributed. The first test had a mean of 42 and a standard deviation of 5. For the second test, the mean was 45 with a standard deviation of 6. Jemma earned a 38 on the first test. What score on the second test would be at the same percentile as her score on the first? (A) 38 (B) 39 (C) 40 (D) 41 (E) 42",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4146",
+        "queId": "2d786d7248e24846970190b45ff7f814",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "38"
+          },
+          {
+            "label": "B",
+            "content": "39"
+          },
+          {
+            "label": "C",
+            "content": "40"
+          },
+          {
+            "label": "D",
+            "content": "41"
+          },
+          {
+            "label": "E",
+            "content": "42"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01194",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1194,
+      "split": "en_test",
+      "source_problem_id": "50fb929a92ea439c9d982b5147ecff0b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "At a certain university, library study rooms have a maximum time limit of 3 hours per student. A librarian takes a random sample of times that 37 students use the study rooms and found that the mean time was 2.7 hours with a standard deviation of 0.2 hours. Which of the following is the best description of the amount of time that students used the study rooms?\n(A) The distribution has a median that is less than the mean.\n(B) The distribution of times is approximately normal since the standard deviation is approximately 95\\% smaller than the mean.\n(C) The distribution of times is approximately normal since the sample size is greater than 30, and thus the Central Limit Theorem applies.\n(D) The distribution of times is skewed to the right because the maximum possible time is within two standard deviations of the mean.\n(E) The distribution of times is skewed to the left because the maximum possible time is within two standard deviations of the mean.",
+      "problem_plain": "At a certain university, library study rooms have a maximum time limit of 3 hours per student. A librarian takes a random sample of times that 37 students use the study rooms and found that the mean time was 2.7 hours with a standard deviation of 0.2 hours. Which of the following is the best description of the amount of time that students used the study rooms? (A) The distribution has a median that is less than the mean. (B) The distribution of times is approximately normal since the standard deviation is approximately 95 % smaller than the mean. (C) The distribution of times is approximately normal since the sample size is greater than 30, and thus the Central Limit Theorem applies. (D) The distribution of times is skewed to the right because the maximum possible time is within two standard deviations of the mean. (E) The distribution of times is skewed to the left because the maximum possible time is within two standard deviations of the mean.",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "The distribution of times is skewed to the left because the maximum possible time is within two standard deviations of the mean.",
+      "final_normalized": "The distribution of times is skewed to the left because the maximum possible time is within two standard deviations of the mean.",
+      "candidates": [
+        "E",
+        "The distribution of times is skewed to the left because the maximum possible time is within two standard deviations of the mean."
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "At a certain university, library study rooms have a maximum time limit of 3 hours per student. A librarian takes a random sample of times that 37 students use the study rooms and found that the mean time was 2.7 hours with a standard deviation of 0.2 hours. Which of the following is the best description of the amount of time that students used the study rooms? (A) The distribution has a median that is less than the mean. (B) The distribution of times is approximately normal since the standard deviation is approximately 95 % smaller than the mean. (C) The distribution of times is approximately normal since the sample size is greater than 30, and thus the Central Limit Theorem applies. (D) The distribution of times is skewed to the right because the maximum possible time is within two standard deviations of the mean. (E) The distribution of times is skewed to the left because the maximum possible time is within two standard deviations of the mean.",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4177",
+        "queId": "50fb929a92ea439c9d982b5147ecff0b",
+        "difficulty": "4",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "The distribution has a median that is less than the mean."
+          },
+          {
+            "label": "B",
+            "content": "The distribution of times is approximately normal since the standard deviation is approximately 95\\% smaller than the mean."
+          },
+          {
+            "label": "C",
+            "content": "The distribution of times is approximately normal since the sample size is greater than 30, and thus the Central Limit Theorem applies."
+          },
+          {
+            "label": "D",
+            "content": "The distribution of times is skewed to the right because the maximum possible time is within two standard deviations of the mean."
+          },
+          {
+            "label": "E",
+            "content": "The distribution of times is skewed to the left because the maximum possible time is within two standard deviations of the mean."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01247",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1247,
+      "split": "en_test",
+      "source_problem_id": "da41a8d10c5f49b98816faac1cb82ff3"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A satellite that is a spinning cylinder has initial rotational inertia I\\textsubscript{0}~and angular velocity w\\textsubscript{0.~}Solar panels unfold from the satellite and are extended outward. The satellite then has rotational inertia I\\textsubscript{f} = al\\textsubscript{0} and angular velocity w\\textsubscript{f} = bw\\textsubscript{0,~}where a and b are constants. Which of the following is true about the constants a and b ?\n(A) a = l and b = 1\n(B) a \\textgreater{} 1 and b \\textless{} l\n(C) a \\textgreater{} l and b = 1\n(D) a \\textless{} l and b \\textless{} l",
+      "problem_plain": "A satellite that is a spinning cylinder has initial rotational inertia I 0 ~and angular velocity w 0.~ Solar panels unfold from the satellite and are extended outward. The satellite then has rotational inertia I f = al 0 and angular velocity w f = bw 0,~ where a and b are constants. Which of the following is true about the constants a and b ? (A) a = l and b = 1 (B) a 1 and b l (C) a l and b = 1 (D) a l and b l",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "a \\textgreater{} 1 and b \\textless{} l",
+      "final_normalized": "a \\textgreater{} 1 and b \\textless{} l",
+      "candidates": [
+        "B",
+        "a \\textgreater{} 1 and b \\textless{} l"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A satellite that is a spinning cylinder has initial rotational inertia I 0 ~and angular velocity w 0.~ Solar panels unfold from the satellite and are extended outward. The satellite then has rotational inertia I f = al 0 and angular velocity w f = bw 0,~ where a and b are constants. Which of the following is true about the constants a and b ? (A) a = l and b = 1 (B) a 1 and b l (C) a l and b = 1 (D) a l and b l",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4406",
+        "queId": "da41a8d10c5f49b98816faac1cb82ff3",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "a = l and b = 1"
+          },
+          {
+            "label": "B",
+            "content": "a \\textgreater{} 1 and b \\textless{} l"
+          },
+          {
+            "label": "C",
+            "content": "a \\textgreater{} l and b = 1"
+          },
+          {
+            "label": "D",
+            "content": "a \\textless{} l and b \\textless{} l"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01303",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1303,
+      "split": "en_test",
+      "source_problem_id": "51d526cfbbbf4b7dbbf341a044e021ce"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "When a 0.05-kg mass is attached to a vertical spring, it is observed that the spring stretches 0.03 m. The system is then placed horizontally on a frictionless surface and set into simple harmonic motion. What is the period of the oscillations?\n(A) 0.75s\n(B) 0.12s\n(C) 0.35s\n(D) 1.3s",
+      "problem_plain": "When a 0.05-kg mass is attached to a vertical spring, it is observed that the spring stretches 0.03 m. The system is then placed horizontally on a frictionless surface and set into simple harmonic motion. What is the period of the oscillations? (A) 0.75s (B) 0.12s (C) 0.35s (D) 1.3s",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "0.35s",
+      "final_normalized": "0.35s",
+      "candidates": [
+        "0.35s",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "When a 0.05-kg mass is attached to a vertical spring, it is observed that the spring stretches 0.03 m. The system is then placed horizontally on a frictionless surface and set into simple harmonic motion. What is the period of the oscillations? (A) 0.75s (B) 0.12s (C) 0.35s (D) 1.3s",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4587",
+        "queId": "51d526cfbbbf4b7dbbf341a044e021ce",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0.75s"
+          },
+          {
+            "label": "B",
+            "content": "0.12s"
+          },
+          {
+            "label": "C",
+            "content": "0.35s"
+          },
+          {
+            "label": "D",
+            "content": "1.3s"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01314",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1314,
+      "split": "en_test",
+      "source_problem_id": "90b9d0d9520749c589686f6b64c7d7d1"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A random sample of 50 students at a large high school resulted in a 95 percent confidence interval for the mean number of hours of sleep per day of (6.73, 7.67). Which of the following statements best summarizes the meaning of this confidence interval?\n(A) About 95\\% of all random samples of 50 students from this population would result in a 95\\% confidence interval of (6.73.7.67).\n(B) About 95\\% of all random samples of 50 students from this population would result in a 95\\% confidence interval that covered the population mean number of hours of sleep per day.\n(C) 95\\% of the students in the survey reported sleeping between 6.73 and 7.67 hours per day.\n(D) 95\\% of the students in this high school sleep between 6.73 and 7.67 hours per day.\n(E) A student selected at random from this population sleeps between 6.73 and 7.67 hours per day for 95\\% of the time.",
+      "problem_plain": "A random sample of 50 students at a large high school resulted in a 95 percent confidence interval for the mean number of hours of sleep per day of (6.73, 7.67). Which of the following statements best summarizes the meaning of this confidence interval? (A) About 95 % of all random samples of 50 students from this population would result in a 95 % confidence interval of (6.73.7.67). (B) About 95 % of all random samples of 50 students from this population would result in a 95 % confidence interval that covered the population mean number of hours of sleep per day. (C) 95 % of the students in the survey reported sleeping between 6.73 and 7.67 hours per day. (D) 95 % of the students in this high school sleep between 6.73 and 7.67 hours per day. (E) A student selected at random from this population sleeps between 6.73 and 7.67 hours per day for 95 % of the time.",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "About 95\\% of all random samples of 50 students from this population would result in a 95\\% confidence interval that covered the population mean number of hours of sleep per day.",
+      "final_normalized": "About 95\\% of all random samples of 50 students from this population would result in a 95\\% confidence interval that covered the population mean number of hours of sleep per day.",
+      "candidates": [
+        "About 95\\% of all random samples of 50 students from this population would result in a 95\\% confidence interval that covered the population mean number of hours of sleep per day.",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A random sample of 50 students at a large high school resulted in a 95 percent confidence interval for the mean number of hours of sleep per day of (6.73, 7.67). Which of the following statements best summarizes the meaning of this confidence interval? (A) About 95 % of all random samples of 50 students from this population would result in a 95 % confidence interval of (6.73.7.67). (B) About 95 % of all random samples of 50 students from this population would result in a 95 % confidence interval that covered the population mean number of hours of sleep per day. (C) 95 % of the students in the survey reported sleeping between 6.73 and 7.67 hours per day. (D) 95 % of the students in this high school sleep between 6.73 and 7.67 hours per day. (E) A student selected at random from this population sleeps between 6.73 and 7.67 hours per day for 95 % of the time.",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4622",
+        "queId": "90b9d0d9520749c589686f6b64c7d7d1",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "About 95\\% of all random samples of 50 students from this population would result in a 95\\% confidence interval of (6.73.7.67)."
+          },
+          {
+            "label": "B",
+            "content": "About 95\\% of all random samples of 50 students from this population would result in a 95\\% confidence interval that covered the population mean number of hours of sleep per day."
+          },
+          {
+            "label": "C",
+            "content": "95\\% of the students in the survey reported sleeping between 6.73 and 7.67 hours per day."
+          },
+          {
+            "label": "D",
+            "content": "95\\% of the students in this high school sleep between 6.73 and 7.67 hours per day."
+          },
+          {
+            "label": "E",
+            "content": "A student selected at random from this population sleeps between 6.73 and 7.67 hours per day for 95\\% of the time."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01335",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1335,
+      "split": "en_test",
+      "source_problem_id": "8c30937dcb1f4f5eb344bffc83882b68"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A commercial for a breakfast cereal is shown during a certain television program. The manufacturer of the cereal wants to estimate the percent of television viewers who watch the program. The manufacturer wants the estimate to have a margin of error of at most 0.02 at a level of 95 percent confidence. Of the following, which is the smallest sample size that will satisfy the manufacturer\\textquotesingle s requirements?\n(A) 40\n(B) 50\n(C) 100\n(D) 1.700\n(E) 2.500",
+      "problem_plain": "A commercial for a breakfast cereal is shown during a certain television program. The manufacturer of the cereal wants to estimate the percent of television viewers who watch the program. The manufacturer wants the estimate to have a margin of error of at most 0.02 at a level of 95 percent confidence. Of the following, which is the smallest sample size that will satisfy the manufacturer s requirements? (A) 40 (B) 50 (C) 100 (D) 1.700 (E) 2.500",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "2.500",
+      "final_normalized": "2.500",
+      "candidates": [
+        "2.500",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "decimal"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A commercial for a breakfast cereal is shown during a certain television program. The manufacturer of the cereal wants to estimate the percent of television viewers who watch the program. The manufacturer wants the estimate to have a margin of error of at most 0.02 at a level of 95 percent confidence. Of the following, which is the smallest sample size that will satisfy the manufacturer s requirements? (A) 40 (B) 50 (C) 100 (D) 1.700 (E) 2.500",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4693",
+        "queId": "8c30937dcb1f4f5eb344bffc83882b68",
+        "difficulty": "4",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "40"
+          },
+          {
+            "label": "B",
+            "content": "50"
+          },
+          {
+            "label": "C",
+            "content": "100"
+          },
+          {
+            "label": "D",
+            "content": "1.700"
+          },
+          {
+            "label": "E",
+            "content": "2.500"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01343",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1343,
+      "split": "en_test",
+      "source_problem_id": "becc922dfbd04f11ac0e940f5e0a6220"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "An engine maintains constant power on a conveyor belt machine. If the belt\\textquotesingle s velocity is doubled, the magnitude of its average acceleration\n(A) is doubled\n(B) is quartered\n(C) is halved\n(D) is quadrupled",
+      "problem_plain": "An engine maintains constant power on a conveyor belt machine. If the belt s velocity is doubled, the magnitude of its average acceleration (A) is doubled (B) is quartered (C) is halved (D) is quadrupled",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "is halved",
+      "final_normalized": "is halved",
+      "candidates": [
+        "C",
+        "is halved"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "An engine maintains constant power on a conveyor belt machine. If the belt s velocity is doubled, the magnitude of its average acceleration (A) is doubled (B) is quartered (C) is halved (D) is quadrupled",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4720",
+        "queId": "becc922dfbd04f11ac0e940f5e0a6220",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "is doubled"
+          },
+          {
+            "label": "B",
+            "content": "is quartered"
+          },
+          {
+            "label": "C",
+            "content": "is halved"
+          },
+          {
+            "label": "D",
+            "content": "is quadrupled"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01348",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1348,
+      "split": "en_test",
+      "source_problem_id": "5f9696518f924b07bc872609869e388f"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A large city newspaper periodically reports the mean cost of dinner for two people at restaurants in the city. The newspaper staff will collect data from a random sample of restaurants in the city and estimate the mean price using a 90 percent confidence interval. In past years, the standard deviation has always been very close to $\\textbackslash$$35. Assuming that the population standard deviation is $\\textbackslash$$35, which of the following is the minimum sample size needed to obtain a margin of error of no more than $\\textbackslash$$5?\n(A) 90\n(B) 112\n(C) 133\n(D) 147\n(E) 195",
+      "problem_plain": "A large city newspaper periodically reports the mean cost of dinner for two people at restaurants in the city. The newspaper staff will collect data from a random sample of restaurants in the city and estimate the mean price using a 90 percent confidence interval. In past years, the standard deviation has always been very close to 35. Assuming that the population standard deviation is 35, which of the following is the minimum sample size needed to obtain a margin of error of no more than 5? (A) 90 (B) 112 (C) 133 (D) 147 (E) 195",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "133",
+      "final_normalized": "133",
+      "candidates": [
+        "133",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A large city newspaper periodically reports the mean cost of dinner for two people at restaurants in the city. The newspaper staff will collect data from a random sample of restaurants in the city and estimate the mean price using a 90 percent confidence interval. In past years, the standard deviation has always been very close to 35. Assuming that the population standard deviation is 35, which of the following is the minimum sample size needed to obtain a margin of error of no more than 5? (A) 90 (B) 112 (C) 133 (D) 147 (E) 195",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4729",
+        "queId": "5f9696518f924b07bc872609869e388f",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "90"
+          },
+          {
+            "label": "B",
+            "content": "112"
+          },
+          {
+            "label": "C",
+            "content": "133"
+          },
+          {
+            "label": "D",
+            "content": "147"
+          },
+          {
+            "label": "E",
+            "content": "195"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01379",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1379,
+      "split": "en_test",
+      "source_problem_id": "56f077e7b39d494194dccac63d065c9e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "An arrow is shot from the roof of a building 30 meters high at 5 m/s and at an angle of 45 degrees. How fast will the arrow be going when it hits the ground?\n(A) I have submitted my answer in the google form.\n(B) I haven\\textquotesingle t submitted.",
+      "problem_plain": "An arrow is shot from the roof of a building 30 meters high at 5 m/s and at an angle of 45 degrees. How fast will the arrow be going when it hits the ground? (A) I have submitted my answer in the google form. (B) I haven t submitted.",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "I have submitted my answer in the google form.",
+      "final_normalized": "I have submitted my answer in the google form.",
+      "candidates": [
+        "A",
+        "I have submitted my answer in the google form."
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "An arrow is shot from the roof of a building 30 meters high at 5 m/s and at an angle of 45 degrees. How fast will the arrow be going when it hits the ground? (A) I have submitted my answer in the google form. (B) I haven t submitted.",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4865",
+        "queId": "56f077e7b39d494194dccac63d065c9e",
+        "difficulty": "4",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "I have submitted my answer in the google form."
+          },
+          {
+            "label": "B",
+            "content": "I haven\\textquotesingle t submitted."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01387",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1387,
+      "split": "en_test",
+      "source_problem_id": "6d75f14a10dd490ca8bb6c32f7cd3a01"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A ball with a mass of 0.15 kg has a velocity of 5 m/s. It strikes a wall perpendicularly and bounces off straight back with a velocity of 3 m/s. The ball underwent a change in momentum equal to\n(A) 0.30 kg·m/s\n(B) 1.20 kg·m/s\n(C) 0.15 kg·m/s\n(D) 5 kg·m/s",
+      "problem_plain": "A ball with a mass of 0.15 kg has a velocity of 5 m/s. It strikes a wall perpendicularly and bounces off straight back with a velocity of 3 m/s. The ball underwent a change in momentum equal to (A) 0.30 kg·m/s (B) 1.20 kg·m/s (C) 0.15 kg·m/s (D) 5 kg·m/s",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "1.20 kg·m/s",
+      "final_normalized": "1.20 kg·m/s",
+      "candidates": [
+        "1.20 kg·m/s",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A ball with a mass of 0.15 kg has a velocity of 5 m/s. It strikes a wall perpendicularly and bounces off straight back with a velocity of 3 m/s. The ball underwent a change in momentum equal to (A) 0.30 kg·m/s (B) 1.20 kg·m/s (C) 0.15 kg·m/s (D) 5 kg·m/s",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4882",
+        "queId": "6d75f14a10dd490ca8bb6c32f7cd3a01",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0.30 kg·m/s"
+          },
+          {
+            "label": "B",
+            "content": "1.20 kg·m/s"
+          },
+          {
+            "label": "C",
+            "content": "0.15 kg·m/s"
+          },
+          {
+            "label": "D",
+            "content": "5 kg·m/s"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01436",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1436,
+      "split": "en_test",
+      "source_problem_id": "531e3a4798374d61a28c96455f4c9f45"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following pairs of sample size n and population proportion p would produce the greatest standard deviation for the sampling distribution of a sample proportion~$\\overset{\\wedge}{p}$?\n(A) n = 1,000 and p close to 0\n(B) n = 1,000 and p close to 1\n(C) n = 1,000 and p close to~$\\dfrac{1}{2}\n(D) n = 100 and p close to 0\n(E) n = 100 and p close to~$\\dfrac{1}{2}",
+      "problem_plain": "Which of the following pairs of sample size n and population proportion p would produce the greatest standard deviation for the sampling distribution of a sample proportion~ p ? (A) n = 1,000 and p close to 0 (B) n = 1,000 and p close to 1 (C) n = 1,000 and p close to~ 1 2 (D) n = 100 and p close to 0 (E) n = 100 and p close to~ 1 2",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "n = 100 and p close to~$\\dfrac{1}{2}",
+      "final_normalized": "n = 100 and p close to~$\\dfrac{1}{2}",
+      "candidates": [
+        "E",
+        "n = 100 and p close to~$\\dfrac{1}{2}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following pairs of sample size n and population proportion p would produce the greatest standard deviation for the sampling distribution of a sample proportion~ p ? (A) n = 1,000 and p close to 0 (B) n = 1,000 and p close to 1 (C) n = 1,000 and p close to~ 1 2 (D) n = 100 and p close to 0 (E) n = 100 and p close to~ 1 2",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "5085",
+        "queId": "531e3a4798374d61a28c96455f4c9f45",
+        "difficulty": "4",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "n = 1,000 and p close to 0"
+          },
+          {
+            "label": "B",
+            "content": "n = 1,000 and p close to 1"
+          },
+          {
+            "label": "C",
+            "content": "n = 1,000 and p close to~$\\dfrac{1}{2}"
+          },
+          {
+            "label": "D",
+            "content": "n = 100 and p close to 0"
+          },
+          {
+            "label": "E",
+            "content": "n = 100 and p close to~$\\dfrac{1}{2}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01557",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1557,
+      "split": "en_test",
+      "source_problem_id": "7c6c04bec77a486bbc71f81bd4bf0ca3"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A hypothesis test in which n = 250 is set up so that P (rejecting H\\textsubscript{0}, when H\\textsubscript{0~}is true) = 0.05. Which of the following is true?\n(A) We can increase the power if we let alpha = 0.05.\n(B) We can increase the power if we let alpha = 0.01.\n(C) We can increase the power if we let n = 200.\n(D) We can decrease the power if we let n = 200.\n(E) We can decrease the power if we let n = 300.",
+      "problem_plain": "A hypothesis test in which n = 250 is set up so that P (rejecting H 0 , when H 0~ is true) = 0.05. Which of the following is true? (A) We can increase the power if we let alpha = 0.05. (B) We can increase the power if we let alpha = 0.01. (C) We can increase the power if we let n = 200. (D) We can decrease the power if we let n = 200. (E) We can decrease the power if we let n = 300.",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "We can decrease the power if we let n = 200.",
+      "final_normalized": "We can decrease the power if we let n = 200.",
+      "candidates": [
+        "D",
+        "We can decrease the power if we let n = 200."
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A hypothesis test in which n = 250 is set up so that P (rejecting H 0 , when H 0~ is true) = 0.05. Which of the following is true? (A) We can increase the power if we let alpha = 0.05. (B) We can increase the power if we let alpha = 0.01. (C) We can increase the power if we let n = 200. (D) We can decrease the power if we let n = 200. (E) We can decrease the power if we let n = 300.",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "5516",
+        "queId": "7c6c04bec77a486bbc71f81bd4bf0ca3",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "We can increase the power if we let alpha = 0.05."
+          },
+          {
+            "label": "B",
+            "content": "We can increase the power if we let alpha = 0.01."
+          },
+          {
+            "label": "C",
+            "content": "We can increase the power if we let n = 200."
+          },
+          {
+            "label": "D",
+            "content": "We can decrease the power if we let n = 200."
+          },
+          {
+            "label": "E",
+            "content": "We can decrease the power if we let n = 300."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01602",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1602,
+      "split": "en_test",
+      "source_problem_id": "96f1483a6a43498baf3fac6246b29450"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A 99 percent one-sample z-interval for a proportion will be created from the point estimate obtained from each of two random samples selected from the same population: sample R and sample S. Let R represent a random sample of size 1,000, and let S represent a random sample of size 4,000. If the point estimate obtained from R is equal to the point estimate obtained from S, which of the following must be true about the respective margins of error constructed from those samples?\n(A) The margin of error for S will be 4 times the margin of error for R.\n(B) The margin of error for S will be 2 times the margin of error for R.\n(C) The margin of error for S will be equal to the margin of error for R.\n(D) The margin of error for R will be 4 times the margin of error for S.\n(E) The margin of error for R will be 2 times the margin of error for S.",
+      "problem_plain": "A 99 percent one-sample z-interval for a proportion will be created from the point estimate obtained from each of two random samples selected from the same population: sample R and sample S. Let R represent a random sample of size 1,000, and let S represent a random sample of size 4,000. If the point estimate obtained from R is equal to the point estimate obtained from S, which of the following must be true about the respective margins of error constructed from those samples? (A) The margin of error for S will be 4 times the margin of error for R. (B) The margin of error for S will be 2 times the margin of error for R. (C) The margin of error for S will be equal to the margin of error for R. (D) The margin of error for R will be 4 times the margin of error for S. (E) The margin of error for R will be 2 times the margin of error for S.",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "The margin of error for R will be 2 times the margin of error for S.",
+      "final_normalized": "The margin of error for R will be 2 times the margin of error for S.",
+      "candidates": [
+        "E",
+        "The margin of error for R will be 2 times the margin of error for S."
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A 99 percent one-sample z-interval for a proportion will be created from the point estimate obtained from each of two random samples selected from the same population: sample R and sample S. Let R represent a random sample of size 1,000, and let S represent a random sample of size 4,000. If the point estimate obtained from R is equal to the point estimate obtained from S, which of the following must be true about the respective margins of error constructed from those samples? (A) The margin of error for S will be 4 times the margin of error for R. (B) The margin of error for S will be 2 times the margin of error for R. (C) The margin of error for S will be equal to the margin of error for R. (D) The margin of error for R will be 4 times the margin of error for S. (E) The margin of error for R will be 2 times the margin of error for S.",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "5663",
+        "queId": "96f1483a6a43498baf3fac6246b29450",
+        "difficulty": "4",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "The margin of error for S will be 4 times the margin of error for R."
+          },
+          {
+            "label": "B",
+            "content": "The margin of error for S will be 2 times the margin of error for R."
+          },
+          {
+            "label": "C",
+            "content": "The margin of error for S will be equal to the margin of error for R."
+          },
+          {
+            "label": "D",
+            "content": "The margin of error for R will be 4 times the margin of error for S."
+          },
+          {
+            "label": "E",
+            "content": "The margin of error for R will be 2 times the margin of error for S."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01705",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1705,
+      "split": "en_test",
+      "source_problem_id": "c0aa20270e3c491f87a22c29e9f4c53c"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Last year, the level of support for a yerly community event was estimated to be 83\\%. Officials would like to estimate the level of support this yearwith 95\\% confdence and a margin of error no larger than 4\\%. Which of the following is the smallest sample size that would do so?\n(A) 30\n(B) 300\n(C) 350\n(D) 610\n(E) 1000",
+      "problem_plain": "Last year, the level of support for a yerly community event was estimated to be 83 %. Officials would like to estimate the level of support this yearwith 95 % confdence and a margin of error no larger than 4 %. Which of the following is the smallest sample size that would do so? (A) 30 (B) 300 (C) 350 (D) 610 (E) 1000",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "350",
+      "final_normalized": "350",
+      "candidates": [
+        "350",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Last year, the level of support for a yerly community event was estimated to be 83 %. Officials would like to estimate the level of support this yearwith 95 % confdence and a margin of error no larger than 4 %. Which of the following is the smallest sample size that would do so? (A) 30 (B) 300 (C) 350 (D) 610 (E) 1000",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "6044",
+        "queId": "c0aa20270e3c491f87a22c29e9f4c53c",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "30"
+          },
+          {
+            "label": "B",
+            "content": "300"
+          },
+          {
+            "label": "C",
+            "content": "350"
+          },
+          {
+            "label": "D",
+            "content": "610"
+          },
+          {
+            "label": "E",
+            "content": "1000"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01708",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1708,
+      "split": "en_test",
+      "source_problem_id": "c52c9d5870c54cbd92745348d58211f8"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A large grocery store chain wants to determine the proportion of its customers who redeem coupons in its stores. They intend to use a 99 percent confidence interval on a large sample with a margin of error of no more than 2 percent. What is the mini-mum sample size to produce this margin of error?\n(A) 5625\n(B) 4161\n(C) 3394\n(D) 2653\n(E) 2401",
+      "problem_plain": "A large grocery store chain wants to determine the proportion of its customers who redeem coupons in its stores. They intend to use a 99 percent confidence interval on a large sample with a margin of error of no more than 2 percent. What is the mini-mum sample size to produce this margin of error? (A) 5625 (B) 4161 (C) 3394 (D) 2653 (E) 2401",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "4161",
+      "final_normalized": "4161",
+      "candidates": [
+        "4161",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A large grocery store chain wants to determine the proportion of its customers who redeem coupons in its stores. They intend to use a 99 percent confidence interval on a large sample with a margin of error of no more than 2 percent. What is the mini-mum sample size to produce this margin of error? (A) 5625 (B) 4161 (C) 3394 (D) 2653 (E) 2401",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "6054",
+        "queId": "c52c9d5870c54cbd92745348d58211f8",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "5625"
+          },
+          {
+            "label": "B",
+            "content": "4161"
+          },
+          {
+            "label": "C",
+            "content": "3394"
+          },
+          {
+            "label": "D",
+            "content": "2653"
+          },
+          {
+            "label": "E",
+            "content": "2401"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01818",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1818,
+      "split": "en_test",
+      "source_problem_id": "fd57d31f60604e17994357dc34457f27"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Cart A moves horizontally on a frictionless track. It collides and sticks to identical cart B, which is at rest. The speed of cart A before the collision is measured to be 3.0 m/s , with an uncertainty of\\uline{+}~0.2 m/s. Students are asked to predict the speed of the carts after the collision. Given the uncertainty of the measurement for the speed ofcart A, which of the following is the best prediction?\n(A) 1.1 to 1.9 m/s\n(B) 1.2 to 1.8 m/s\n(C) 1.3 to 1.7 m/s\n(D) 1.4 to 1.6 m/s",
+      "problem_plain": "Cart A moves horizontally on a frictionless track. It collides and sticks to identical cart B, which is at rest. The speed of cart A before the collision is measured to be 3.0 m/s , with an uncertainty of + ~0.2 m/s. Students are asked to predict the speed of the carts after the collision. Given the uncertainty of the measurement for the speed ofcart A, which of the following is the best prediction? (A) 1.1 to 1.9 m/s (B) 1.2 to 1.8 m/s (C) 1.3 to 1.7 m/s (D) 1.4 to 1.6 m/s",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "1.4 to 1.6 m/s",
+      "final_normalized": "1.4 to 1.6 m/s",
+      "candidates": [
+        "1.4 to 1.6 m/s",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Cart A moves horizontally on a frictionless track. It collides and sticks to identical cart B, which is at rest. The speed of cart A before the collision is measured to be 3.0 m/s , with an uncertainty of + ~0.2 m/s. Students are asked to predict the speed of the carts after the collision. Given the uncertainty of the measurement for the speed ofcart A, which of the following is the best prediction? (A) 1.1 to 1.9 m/s (B) 1.2 to 1.8 m/s (C) 1.3 to 1.7 m/s (D) 1.4 to 1.6 m/s",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "6515",
+        "queId": "fd57d31f60604e17994357dc34457f27",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1.1 to 1.9 m/s"
+          },
+          {
+            "label": "B",
+            "content": "1.2 to 1.8 m/s"
+          },
+          {
+            "label": "C",
+            "content": "1.3 to 1.7 m/s"
+          },
+          {
+            "label": "D",
+            "content": "1.4 to 1.6 m/s"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01834",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1834,
+      "split": "en_test",
+      "source_problem_id": "f8e974d250674dbd834d4931a630c9b5"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A group of students wanted to investigate the claim that the average number of text messages sent yesterday by students in their school was greater than 100. They asked each student in a random sample of 50 students how many text messages he or she sent yesterday. An appropriate t-test was conducted and resulted in a p-value of 0.0853. Assuming the conditions for the t-test were met, which of the following is an appropriate conclusion?\n(A) Because p \\textless{} 0.10, at the 10\\% significance level, it can be concluded that the mean number of text messages sent yesterday by students in the school is less than 100.\n(B) Because p \\textless{} 0.10, at the 10\\% significance level, it cannot be concluded that the mean number of text messages sent yesterday by students in the school is greater than 100.\n(C) Because p \\textgreater{} 0.05, at the 5\\% significance level, it can be concluded that the mean number of text messages sent yesterday by students in the school is greater than 100.\n(D) Because p \\textgreater{} 0.05, at the 5\\% significance level, it can be concluded that the mean number of text messages sent yesterday by students in the school is less than 100.\n(E) Because p \\textgreater{} 0.05, at the 5\\% significance level, it cannot be concluded that the mean number of text messages sent yesterday by students in the school is greater than 100.",
+      "problem_plain": "A group of students wanted to investigate the claim that the average number of text messages sent yesterday by students in their school was greater than 100. They asked each student in a random sample of 50 students how many text messages he or she sent yesterday. An appropriate t-test was conducted and resulted in a p-value of 0.0853. Assuming the conditions for the t-test were met, which of the following is an appropriate conclusion? (A) Because p 0.10, at the 10 % significance level, it can be concluded that the mean number of text messages sent yesterday by students in the school is less than 100. (B) Because p 0.10, at the 10 % significance level, it cannot be concluded that the mean number of text messages sent yesterday by students in the school is greater than 100. (C) Because p 0.05, at the 5 % significance level, it can be concluded that the mean number of text messages sent yesterday by students in the school is greater than 100. (D) Because p 0.05, at the 5 % significance level, it can be concluded that the mean number of text messages sent yesterday by students in the school is less than 100. (E) Because p 0.05, at the 5 % significance level, it cannot be concluded that the mean number of text messages sent yesterday by students in the school is greater than 100.",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "Because p \\textgreater{} 0.05, at the 5\\% significance level, it cannot be concluded that the mean number of text messages sent yesterday by students in the school is greater than 100.",
+      "final_normalized": "Because p \\textgreater{} 0.05, at the 5\\% significance level, it cannot be concluded that the mean number of text messages sent yesterday by students in the school is greater than 100.",
+      "candidates": [
+        "Because p \\textgreater{} 0.05, at the 5\\% significance level, it cannot be concluded that the mean number of text messages sent yesterday by students in the school is greater than 100.",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A group of students wanted to investigate the claim that the average number of text messages sent yesterday by students in their school was greater than 100. They asked each student in a random sample of 50 students how many text messages he or she sent yesterday. An appropriate t-test was conducted and resulted in a p-value of 0.0853. Assuming the conditions for the t-test were met, which of the following is an appropriate conclusion? (A) Because p 0.10, at the 10 % significance level, it can be concluded that the mean number of text messages sent yesterday by students in the school is less than 100. (B) Because p 0.10, at the 10 % significance level, it cannot be concluded that the mean number of text messages sent yesterday by students in the school is greater than 100. (C) Because p 0.05, at the 5 % significance level, it can be concluded that the mean number of text messages sent yesterday by students in the school is greater than 100. (D) Because p 0.05, at the 5 % significance level, it can be concluded that the mean number of text messages sent yesterday by students in the school is less than 100. (E) Because p 0.05, at the 5 % significance level, it cannot be concluded that the mean number of text messages sent yesterday by students in the school is greater than 100.",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "6558",
+        "queId": "f8e974d250674dbd834d4931a630c9b5",
+        "difficulty": "4",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Because p \\textless{} 0.10, at the 10\\% significance level, it can be concluded that the mean number of text messages sent yesterday by students in the school is less than 100."
+          },
+          {
+            "label": "B",
+            "content": "Because p \\textless{} 0.10, at the 10\\% significance level, it cannot be concluded that the mean number of text messages sent yesterday by students in the school is greater than 100."
+          },
+          {
+            "label": "C",
+            "content": "Because p \\textgreater{} 0.05, at the 5\\% significance level, it can be concluded that the mean number of text messages sent yesterday by students in the school is greater than 100."
+          },
+          {
+            "label": "D",
+            "content": "Because p \\textgreater{} 0.05, at the 5\\% significance level, it can be concluded that the mean number of text messages sent yesterday by students in the school is less than 100."
+          },
+          {
+            "label": "E",
+            "content": "Because p \\textgreater{} 0.05, at the 5\\% significance level, it cannot be concluded that the mean number of text messages sent yesterday by students in the school is greater than 100."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:prealgebra:level_5:01882",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1882,
+      "split": "en_test",
+      "source_problem_id": "ec28ca503a354bf8b9258d3e32892958"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A researcher is conducting a study of charitable donations by surveying a simple random sample of householdsin a certain city. The researcher wants to determine whether there is convincing statistical evidence that more than 50 percent of households in the city gave a charitable donation in the past year. Let p represent the proportion of all households in the city that gave a charitable donation in the past year. Which of the followingare appropriate hypotheses for the researcher?\n(A) H\\textsubscript{0} : p = 0.5 and H\\textsubscript{a}~: p \\textgreater{} 0.5\n(B) H\\textsubscript{0} : p = 0.5 and H\\textsubscript{a}~: p * 0.5\n(C) H\\textsubscript{0} : p = 0.5 and H\\textsubscript{a} : p \\textless{} 0.5\n(D) H\\textsubscript{0}~: p \\textgreater{} 0.5 and H\\textsubscript{a} : p $\\ne$0.5\n(E) H\\textsubscript{0} : p \\textgreater{} 0.5 and H\\textsubscript{a} : p = 0.5",
+      "problem_plain": "A researcher is conducting a study of charitable donations by surveying a simple random sample of householdsin a certain city. The researcher wants to determine whether there is convincing statistical evidence that more than 50 percent of households in the city gave a charitable donation in the past year. Let p represent the proportion of all households in the city that gave a charitable donation in the past year. Which of the followingare appropriate hypotheses for the researcher? (A) H 0 : p = 0.5 and H a ~: p 0.5 (B) H 0 : p = 0.5 and H a ~: p * 0.5 (C) H 0 : p = 0.5 and H a : p 0.5 (D) H 0 ~: p 0.5 and H a : p 0.5 (E) H 0 : p 0.5 and H a : p = 0.5",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "H\\textsubscript{0} : p = 0.5 and H\\textsubscript{a}~: p \\textgreater{} 0.5",
+      "final_normalized": "H\\textsubscript{0} : p = 0.5 and H\\textsubscript{a}~: p \\textgreater{} 0.5",
+      "candidates": [
+        "A",
+        "H\\textsubscript{0} : p = 0.5 and H\\textsubscript{a}~: p \\textgreater{} 0.5"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A researcher is conducting a study of charitable donations by surveying a simple random sample of householdsin a certain city. The researcher wants to determine whether there is convincing statistical evidence that more than 50 percent of households in the city gave a charitable donation in the past year. Let p represent the proportion of all households in the city that gave a charitable donation in the past year. Which of the followingare appropriate hypotheses for the researcher? (A) H 0 : p = 0.5 and H a ~: p 0.5 (B) H 0 : p = 0.5 and H a ~: p * 0.5 (C) H 0 : p = 0.5 and H a : p 0.5 (D) H 0 ~: p 0.5 and H a : p 0.5 (E) H 0 : p 0.5 and H a : p = 0.5",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "6727",
+        "queId": "ec28ca503a354bf8b9258d3e32892958",
+        "difficulty": "4",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "H\\textsubscript{0} : p = 0.5 and H\\textsubscript{a}~: p \\textgreater{} 0.5"
+          },
+          {
+            "label": "B",
+            "content": "H\\textsubscript{0} : p = 0.5 and H\\textsubscript{a}~: p * 0.5"
+          },
+          {
+            "label": "C",
+            "content": "H\\textsubscript{0} : p = 0.5 and H\\textsubscript{a} : p \\textless{} 0.5"
+          },
+          {
+            "label": "D",
+            "content": "H\\textsubscript{0}~: p \\textgreater{} 0.5 and H\\textsubscript{a} : p $\\ne$0.5"
+          },
+          {
+            "label": "E",
+            "content": "H\\textsubscript{0} : p \\textgreater{} 0.5 and H\\textsubscript{a} : p = 0.5"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,1647 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_4:00159",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 159,
+      "split": "zh_test",
+      "source_problem_id": "b09e2fec68744a548593839e289ac190"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "我们用$$(x,y)$$表示$$x$$，$$y$$这两数中较大的数减去较小的数所得的结果，比如：  $$(2,3)=(3,2)=3-2=1$$，$$(5,5)=5-5=0$$，$$\\cdots $$  现将$$1\\sim 2020$$这$$2020$$个自然数分成$$A$$，$$B$$两组（每组$$1010$$个数），并把$$A$$组的数从小到大排列得到$$a_1\\textless a_2\\textless\\cdots \\textless a_{1010}$$．而将$$B$$组的数从大到小排列得到$$b_1\\textgreater b_2\\textgreater\\cdots \\textgreater b_{1010}$$．则$$(a_1,b_1)+(a_2,b_2)+(a_3,b_3)+\\cdots +(a_{1009},b_{1009})+(a_{1010},b_{1010})$$的值为．\n(A) 1000000\n(B) 1010025\n(C) 1020100\n(D) 1030225\n(E) 4080400",
+      "problem_plain": "我们用 (x,y) 表示 x ， y 这两数中较大的数减去较小的数所得的结果，比如： (2,3)=(3,2)=3-2=1 ， (5,5)=5-5=0 ， 现将 1 2020 这 2020 个自然数分成 A ， B 两组（每组 1010 个数），并把 A 组的数从小到大排列得到 a_1 a_2 a_ 1010 ．而将 B 组的数从大到小排列得到 b_1 b_2 b_ 1010 ．则 (a_1,b_1)+(a_2,b_2)+(a_3,b_3)+ +(a_ 1009 ,b_ 1009 )+(a_ 1010 ,b_ 1010 ) 的值为． (A) 1000000 (B) 1010025 (C) 1020100 (D) 1030225 (E) 4080400",
+      "solution_latex": "首先我们来证明，$$1\\sim 2020$$中的后$$1010$$个数一定不会放到一组$$(x,y)$$中来计算．设$$1011\\sim 2020$$这$$1010$$个数，有$$m$$个出现在$$A$$组，有$$n$$个出现在$$B$$组，则$$m+n=1010$$．  由于$$A$$组中的数是从小到大排列的，$$B$$组中的数是从大到小排列的，所以$$1011\\sim 2020$$中的数如果出现在$$A$$组，其中最小的数应为$$a_{1010-m+1}=a_{1011-m}$$；这些数出现在$$B$$组，其中最小的数为$$b_n=b_{1010-m}$$．由此可以看出，不管$$m$$和$$n$$怎么取值，$$1011\\sim 2020$$中的数都不会放到一组$$(x,y)$$中来计算．同理$$1\\sim 1010$$中的数也不会放到一组$$(x,y)$$中来计算．那么每一组$$(x,y)$$中，必有一个来自于$$1\\sim 1010$$，另一个来自于$$1011\\sim 2020$$，得到的结果必然是后一半的数减前一半的数，我们要计算的算式可以改为：$$(1011+1012+\\cdots+2019+2020)-(1+2+3+\\cdots+1009+1010)$$$$=1010\\times1010=1020100$$．  故选 $$\\text{C}$$．",
+      "solution_plain": "首先我们来证明， 1 2020 中的后 1010 个数一定不会放到一组 (x,y) 中来计算．设 1011 2020 这 1010 个数，有 m 个出现在 A 组，有 n 个出现在 B 组，则 m+n=1010 ． 由于 A 组中的数是从小到大排列的， B 组中的数是从大到小排列的，所以 1011 2020 中的数如果出现在 A 组，其中最小的数应为 a_ 1010-m+1 =a_ 1011-m ；这些数出现在 B 组，其中最小的数为 b_n=b_ 1010-m ．由此可以看出，不管 m 和 n 怎么取值， 1011 2020 中的数都不会放到一组 (x,y) 中来计算．同理 1 1010 中的数也不会放到一组 (x,y) 中来计算．那么每一组 (x,y) 中，必有一个来自于 1 1010 ，另一个来自于 1011 2020 ，得到的结果必然是后一半的数减前一半的数，我们要计算的算式可以改为： (1011+1012+ +2019+2020)-(1+2+3+ +1009+1010) =1010 1010=1020100 ． 故选 C ．"
+    },
+    "answer": {
+      "final_raw": "1020100",
+      "final_normalized": "1020100",
+      "candidates": [
+        "1020100",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "首先我们来证明，$$1\\sim 2020$$中的后$$1010$$个数一定不会放到一组$$(x,y)$$中来计算．设$$1011\\sim 2020$$这$$1010$$个数，有$$m$$个出现在$$A$$组，有$$n$$个出现在$$B$$组，则$$m+n=1010$$．  由于$$A$$组中的数是从小到大排列的，$$B$$组中的数是从大到小排列的，所以$$1011\\sim 2020$$中的数如果出现在$$A$$组，其中最小的数应为$$a_{1010-m+1}=a_{1011-m}$$；这些数出现在$$B$$组，其中最小的数为$$b_n=b_{1010-m}$$．由此可以看出，不管$$m$$和$$n$$怎么取值，$$1011\\sim 2020$$中的数都不会放到一组$$(x,y)$$中来计算．同理$$1\\sim 1010$$中的数也不会放到一组$$(x,y)$$中来计算．那么每一组$$(x,y)$$中，必有一个来自于$$1\\sim 1010$$，另一个来自于$$1011\\sim 2020$$，得到的结果必然是后一半的数减前一半的数，我们要计算的算式可以改为：$$(1011+1012+\\cdots+2019+2020)-(1+2+3+\\cdots+1009+1010)$$$$=1010\\times1010=1020100$$．  故选 $$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "我们用 (x,y) 表示 x ， y 这两数中较大的数减去较小的数所得的结果，比如： (2,3)=(3,2)=3-2=1 ， (5,5)=5-5=0 ， 现将 1 2020 这 2020 个自然数分成 A ， B 两组（每组 1010 个数），并把 A 组的数从小到大排列得到 a_1 a_2 a_ 1010 ．而将 B 组的数从大到小排列得到 b_1 b_2 b_ 1010 ．则 (a_1,b_1)+(a_2,b_2)+(a_3,b_3)+ +(a_ 1009 ,b_ 1009 )+(a_ 1010 ,b_ 1010 ) 的值为． (A) 1000000 (B) 1010025 (C) 1020100 (D) 1030225 (E) 4080400",
+      "solution_text": "首先我们来证明， 1 2020 中的后 1010 个数一定不会放到一组 (x,y) 中来计算．设 1011 2020 这 1010 个数，有 m 个出现在 A 组，有 n 个出现在 B 组，则 m+n=1010 ． 由于 A 组中的数是从小到大排列的， B 组中的数是从大到小排列的，所以 1011 2020 中的数如果出现在 A 组，其中最小的数应为 a_ 1010-m+1 =a_ 1011-m ；这些数出现在 B 组，其中最小的数为 b_n=b_ 1010-m ．由此可以看出，不管 m 和 n 怎么取值， 1011 2020 中的数都不会放到一组 (x,y) 中来计算．同理 1 1010 中的数也不会放到一组 (x,y) 中来计算．那么每一组 (x,y) 中，必有一个来自于 1 1010 ，另一个来自于 1011 2020 ，得到的结果必然是后一半的数减前一半的数，我们要计算的算式可以改为： (1011+1012+ +2019+2020)-(1+2+3+ +1009+1010) =1010 1010=1020100 ． 故选 C ．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2634",
+        "queId": "b09e2fec68744a548593839e289ac190",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1000000"
+          },
+          {
+            "label": "B",
+            "content": "1010025"
+          },
+          {
+            "label": "C",
+            "content": "1020100"
+          },
+          {
+            "label": "D",
+            "content": "1030225"
+          },
+          {
+            "label": "E",
+            "content": "4080400"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->符号代换->代数运算"
+        ],
+        "competition_source_list": [
+          "2021年鹏程杯六年级竞赛初赛第20题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_4:00466",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 466,
+      "split": "zh_test",
+      "source_problem_id": "c6381abfa0f44ffcbd01039e9e7b600c"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在下列横式中，相同的汉字代表相同的数字，不同的汉字代表不同的数字，且没有汉字代表$$7$$，``迎''、``春''、``杯''均不等于$$1$$，那么``迎''、``春''、``杯''所代表三个数字的和是~\\uline{~~~~~~~~~~}~．  $$\\overline{学数学}\\times 7\\times迎 \\times 春\\times$$$$杯$$$$=\\overline{加油加油}\\times 吧$$\n(A) 13\n(B) 14\n(C) 15\n(D) 16\n(E) 18",
+      "problem_plain": "在下列横式中，相同的汉字代表相同的数字，不同的汉字代表不同的数字，且没有汉字代表 7 ，``迎''、``春''、``杯''均不等于 1 ，那么``迎''、``春''、``杯''所代表三个数字的和是~ ~~~~~~~~~~ ~． 学数学 7 迎 春 杯 = 加油加油 吧 (A) 13 (B) 14 (C) 15 (D) 16 (E) 18",
+      "solution_latex": "若含$$5$$，则必为``加''此时$$\\overline{加油}=56$$，此时$$3$$和$$9$$各剩一个，无法满足，所以不含$$5$$．$$\\overline{加油}$$为$$7$$的倍数，且不为$$49$$，考虑$$3$$、$$6$$、$$9$$的分配．  第一种情况，吧$$=9$$，则$$3$$、$$6$$在左侧，且$$\\overline{加油}$$不是$$3$$的倍数，则$$\\overline{加油}=14$$或$$28$$，无解；  第二种情况，$$9$$在左侧，则$$3$$、$$6$$在右侧，可得$$1\\times 2\\times 4\\times 9\\times 7=63\\times 8$$．  ``迎''、``春''、``杯''的和为$$15$$．",
+      "solution_plain": "若含 5 ，则必为``加''此时 加油 =56 ，此时 3 和 9 各剩一个，无法满足，所以不含 5 ． 加油 为 7 的倍数，且不为 49 ，考虑 3 、 6 、 9 的分配． 第一种情况，吧 =9 ，则 3 、 6 在左侧，且 加油 不是 3 的倍数，则 加油 =14 或 28 ，无解； 第二种情况， 9 在左侧，则 3 、 6 在右侧，可得 1 2 4 9 7=63 8 ． ``迎''、``春''、``杯''的和为 15 ．"
+    },
+    "answer": {
+      "final_raw": "15",
+      "final_normalized": "15",
+      "candidates": [
+        "15",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "若含$$5$$，则必为``加''此时$$\\overline{加油}=56$$，此时$$3$$和$$9$$各剩一个，无法满足，所以不含$$5$$．$$\\overline{加油}$$为$$7$$的倍数，且不为$$49$$，考虑$$3$$、$$6$$、$$9$$的分配．  第一种情况，吧$$=9$$，则$$3$$、$$6$$在左侧，且$$\\overline{加油}$$不是$$3$$的倍数，则$$\\overline{加油}=14$$或$$28$$，无解；  第二种情况，$$9$$在左侧，则$$3$$、$$6$$在右侧，可得$$1\\times 2\\times 4\\times 9\\times 7=63\\times 8$$．  ``迎''、``春''、``杯''的和为$$15$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在下列横式中，相同的汉字代表相同的数字，不同的汉字代表不同的数字，且没有汉字代表 7 ，``迎''、``春''、``杯''均不等于 1 ，那么``迎''、``春''、``杯''所代表三个数字的和是~ ~~~~~~~~~~ ~． 学数学 7 迎 春 杯 = 加油加油 吧 (A) 13 (B) 14 (C) 15 (D) 16 (E) 18",
+      "solution_text": "若含 5 ，则必为``加''此时 加油 =56 ，此时 3 和 9 各剩一个，无法满足，所以不含 5 ． 加油 为 7 的倍数，且不为 49 ，考虑 3 、 6 、 9 的分配． 第一种情况，吧 =9 ，则 3 、 6 在左侧，且 加油 不是 3 的倍数，则 加油 =14 或 28 ，无解； 第二种情况， 9 在左侧，则 3 、 6 在右侧，可得 1 2 4 9 7=63 8 ． ``迎''、``春''、``杯''的和为 15 ．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "498",
+        "queId": "c6381abfa0f44ffcbd01039e9e7b600c",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "13"
+          },
+          {
+            "label": "B",
+            "content": "14"
+          },
+          {
+            "label": "C",
+            "content": "15"
+          },
+          {
+            "label": "D",
+            "content": "16"
+          },
+          {
+            "label": "E",
+            "content": "18"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->逻辑分析->代数逻辑推理",
+          "Overseas Competition->知识点->组合模块->数字谜->横式数字谜"
+        ],
+        "competition_source_list": [
+          "2018年北京迎春杯五年级竞赛初赛A卷"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_4:01030",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1030,
+      "split": "zh_test",
+      "source_problem_id": "31924e70bed1432db670d75fcd234673"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "如果关于$$x$$的方程$$3\\left( x+4 \\right)=2a+5$$的解大于关于$$x$$的方程$$\\frac{(4a+1)x}{4}=\\frac{a(3x-4)}{3}$$的解，那么．\n(A) a\\textgreater2\n(B) a\\textless{}2\n(C) a\\textless{}\\frac{7}{18}\n(D) a\\textgreater\\frac{7}{18}",
+      "problem_plain": "如果关于 x 的方程 3 ( x+4 )=2a+5 的解大于关于 x 的方程 (4a+1)x 4 = a(3x-4) 3 的解，那么． (A) a 2 (B) a 2 (C) a 7 18 (D) a 7 18",
+      "solution_latex": "关于$$x$$的方程$$3\\left( x+4 \\right)=2a+5$$的解为$$x=\\frac{2a-7}{3}$$，  关于$$x$$的方程$$\\frac{(4a+1)x}{4}=\\frac{a(3x-4)}{3}$$的解为$$x=-\\frac{16}{3}a$$，  由题意$$\\frac{2a-7}{3}\\textgreater-\\frac{16}{3}a$$，解得$$a\\textgreater\\frac{7}{18}$$，选$$\\text{D}$$．",
+      "solution_plain": "关于 x 的方程 3 ( x+4 )=2a+5 的解为 x= 2a-7 3 ， 关于 x 的方程 (4a+1)x 4 = a(3x-4) 3 的解为 x=- 16 3 a ， 由题意 2a-7 3 - 16 3 a ，解得 a 7 18 ，选 D ．"
+    },
+    "answer": {
+      "final_raw": "a\\textgreater\\frac{7}{18}",
+      "final_normalized": "a\\textgreater\\frac{7}{18}",
+      "candidates": [
+        "D",
+        "a\\textgreater\\frac{7}{18}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "关于$$x$$的方程$$3\\left( x+4 \\right)=2a+5$$的解为$$x=\\frac{2a-7}{3}$$，  关于$$x$$的方程$$\\frac{(4a+1)x}{4}=\\frac{a(3x-4)}{3}$$的解为$$x=-\\frac{16}{3}a$$，  由题意$$\\frac{2a-7}{3}\\textgreater-\\frac{16}{3}a$$，解得$$a\\textgreater\\frac{7}{18}$$，选$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "如果关于 x 的方程 3 ( x+4 )=2a+5 的解大于关于 x 的方程 (4a+1)x 4 = a(3x-4) 3 的解，那么． (A) a 2 (B) a 2 (C) a 7 18 (D) a 7 18",
+      "solution_text": "关于 x 的方程 3 ( x+4 )=2a+5 的解为 x= 2a-7 3 ， 关于 x 的方程 (4a+1)x 4 = a(3x-4) 3 的解为 x=- 16 3 a ， 由题意 2a-7 3 - 16 3 a ，解得 a 7 18 ，选 D ．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "513",
+        "queId": "31924e70bed1432db670d75fcd234673",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "a\\textgreater2"
+          },
+          {
+            "label": "B",
+            "content": "a\\textless{}2"
+          },
+          {
+            "label": "C",
+            "content": "a\\textless{}\\frac{7}{18}"
+          },
+          {
+            "label": "D",
+            "content": "a\\textgreater\\frac{7}{18}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->分析和解决问题能力",
+          "课内体系->能力->运算能力",
+          "课内体系->知识点->方程与不等式->不等式（组）->一元一次不等式->解一元一次不等式",
+          "课内体系->知识点->方程与不等式->不等式（组）->含参不等式->不等式（组）解的情况确定参数的范围"
+        ],
+        "competition_source_list": [
+          "1996年第7届全国希望杯初一竞赛复赛第9题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_4:01370",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1370,
+      "split": "zh_test",
+      "source_problem_id": "8aac49074e724b45014e87caced5514b"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "如果关于$$x$$的方程$$3\\left( x+4 \\right)=2a+5$$的解大于关于$$x$$的方程$$\\frac{(4a+1)x}{4}=\\frac{a(3x-4)}{3}$$的解，  那么．\n(A) a\\textgreater2\n(B) a\\textless{}2\n(C) a\\textless{}\\frac{7}{18}\n(D) a\\textgreater\\frac{7}{18}",
+      "problem_plain": "如果关于 x 的方程 3 ( x+4 )=2a+5 的解大于关于 x 的方程 (4a+1)x 4 = a(3x-4) 3 的解， 那么． (A) a 2 (B) a 2 (C) a 7 18 (D) a 7 18",
+      "solution_latex": "关于$$x$$的方程$$3\\left( x+4 \\right)=2a+5$$的解为$$x=\\frac{2a-7}{3}$$，  关于$$x$$的方程$$\\frac{(4a+1)x}{4}=\\frac{a(3x-4)}{3}$$的解为$$x=-\\frac{16}{3}a$$，  由题意$$\\frac{2a-7}{3}\\textgreater-\\frac{16}{3}a$$，解得$$a\\textgreater\\frac{7}{18}$$，选$$\\text{D}$$．",
+      "solution_plain": "关于 x 的方程 3 ( x+4 )=2a+5 的解为 x= 2a-7 3 ， 关于 x 的方程 (4a+1)x 4 = a(3x-4) 3 的解为 x=- 16 3 a ， 由题意 2a-7 3 - 16 3 a ，解得 a 7 18 ，选 D ．"
+    },
+    "answer": {
+      "final_raw": "a\\textgreater\\frac{7}{18}",
+      "final_normalized": "a\\textgreater\\frac{7}{18}",
+      "candidates": [
+        "D",
+        "a\\textgreater\\frac{7}{18}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "关于$$x$$的方程$$3\\left( x+4 \\right)=2a+5$$的解为$$x=\\frac{2a-7}{3}$$，  关于$$x$$的方程$$\\frac{(4a+1)x}{4}=\\frac{a(3x-4)}{3}$$的解为$$x=-\\frac{16}{3}a$$，  由题意$$\\frac{2a-7}{3}\\textgreater-\\frac{16}{3}a$$，解得$$a\\textgreater\\frac{7}{18}$$，选$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "如果关于 x 的方程 3 ( x+4 )=2a+5 的解大于关于 x 的方程 (4a+1)x 4 = a(3x-4) 3 的解， 那么． (A) a 2 (B) a 2 (C) a 7 18 (D) a 7 18",
+      "solution_text": "关于 x 的方程 3 ( x+4 )=2a+5 的解为 x= 2a-7 3 ， 关于 x 的方程 (4a+1)x 4 = a(3x-4) 3 的解为 x=- 16 3 a ， 由题意 2a-7 3 - 16 3 a ，解得 a 7 18 ，选 D ．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1207",
+        "queId": "8aac49074e724b45014e87caced5514b",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "a\\textgreater2"
+          },
+          {
+            "label": "B",
+            "content": "a\\textless{}2"
+          },
+          {
+            "label": "C",
+            "content": "a\\textless{}\\frac{7}{18}"
+          },
+          {
+            "label": "D",
+            "content": "a\\textgreater\\frac{7}{18}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->方程与不等式->不等式（组）->一元一次不等式->解一元一次不等式",
+          "课内体系->知识点->方程与不等式->不等式（组）->含参不等式->不等式（组）解的情况确定参数的范围",
+          "课内体系->能力->运算能力",
+          "课内体系->能力->分析和解决问题能力"
+        ],
+        "competition_source_list": [
+          "1996年第7届全国希望杯初一竞赛复赛第9题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_4:01719",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1719,
+      "split": "zh_test",
+      "source_problem_id": "3c7b8420f7b04d958984a48ebb91f2d0"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知函数$$f\\left( x \\right)=f\\left( 398-x \\right)=f\\left( 2158-x \\right)=f\\left( 3214-x \\right)$$对于所有实数$$x$$均成立，则$$f\\left( 0 \\right)$$，$$f\\left( 1 \\right)$$，$$f\\left( 2 \\right)$$，．．．，$$f\\left( 999 \\right)$$中最多有个不同的值？\n(A) 165\n(B) 177\n(C) 183\n(D) 199",
+      "problem_plain": "已知函数 f ( x )=f ( 398-x )=f ( 2158-x )=f ( 3214-x ) 对于所有实数 x 均成立，则 f ( 0 ) ， f ( 1 ) ， f ( 2 ) ，．．．， f ( 999 ) 中最多有个不同的值？ (A) 165 (B) 177 (C) 183 (D) 199",
+      "solution_latex": "由$$f\\left( 398-x \\right)=f\\left( 2158-x \\right)$$得$$f\\left( x \\right)=f\\left( x+1760 \\right)$$．  由$$f\\left( 2158-x \\right)=f\\left( 3214-x \\right)$$得，$$f\\left( x \\right)=f\\left( x+1056 \\right)$$．  故有$$f\\left( x \\right)=f\\left( x+1056 \\right)=f\\left( x+2112 \\right)=f\\left( x+352 \\right)$$．  从而$$f\\left( x \\right)$$为周期函数，且它的一个周期为$$352$$．  又由于$$f\\left( x \\right)=f\\left( 398-x \\right)$$，故$$f\\left( x \\right)$$关于$$x=199$$对称．  于是当$$f$$在$$x\\in \\left[ 23,199 \\right]$$定义后，  由$$f\\left( x \\right)$$的对称性知$$x\\in \\left[ 199,375 \\right]$$时，  $$f$$亦可定义；再由$$f\\left( x \\right)$$的周期性知对任意$$x\\in \\mathbf{R}$$，  $$f$$可定义．故在一个周期内，  每一个函数值至少对应两个不同的$$x$$，其中$$x\\ne 199+352k\\left( k\\in \\mathbf{Z} \\right)$$．  因此，$$f\\left( 0 \\right)$$，$$f\\left( 1 \\right)$$，．．．，$$f\\left( 999 \\right)$$至多有$$\\frac{1}{2}\\cdot 352+1=177$$个不同的值，  且当$$f\\left( 23 \\right)$$，$$f\\left( 24 \\right)$$，．．．，$$f\\left( 199 \\right)$$两两不等时，$$177$$可以取到．  因此，所求的最大值为$$177$$．  【点评】由已知恒等式组$$f\\left( x \\right)=f\\left( 398-x \\right)$$，$$f\\left( x \\right)=f\\left( 2158-x \\right)$$及$$f\\left( x \\right)=f\\left( 3214-x \\right)$$可得出以下恒等式组：  $$f\\left( x \\right)=f\\left( 2158-x \\right)=f\\left( 3214-\\left( 2158-x \\right) \\right)=f\\left( 1056+x \\right)$$，  $$f\\left( x \\right)=f\\left( 1056+x \\right)=f\\left( 2158-\\left( 1056+x \\right) \\right)=f\\left( 1192-x \\right)$$，  $$f\\left( x \\right)=f\\left( 1056+x \\right)=f\\left( 1102-\\left( 1056+x \\right) \\right)=f\\left( 46-x \\right)$$及  $$f\\left( x \\right)=f\\left( 46-x \\right)=f\\left( 398-\\left( 46-x \\right) \\right)=f\\left( 352+x \\right)$$．  由最后一个恒等式知$$f$$是一个周期函数，且$$f$$的一个周期为$$352$$．  故$$f\\left( 0 \\right)$$，$$f\\left( 1 \\right)$$，．．．，$$f\\left( 999 \\right)$$中每个值都可在$$f\\left( 0 \\right)$$，$$f\\left( 1 \\right)$$，．．．，$$\\left( 351 \\right)$$中找到．  恒等式$$f\\left( x \\right)=f\\left( 398-x \\right)$$表明$$f\\left( 200 \\right)$$，$$f\\left( 201 \\right)$$，．．．，$$f\\left( 351 \\right)$$可在$$f\\left( 0 \\right)$$，$$f\\left( 1 \\right)$$，．．．，$$f\\left( 199 \\right)$$中找到．  恒等式$$f\\left( x \\right)=f\\left( 46-x \\right)$$表明$$f\\left( 0 \\right)$$，$$f\\left( 1 \\right)$$，．．．，$$f\\left( 22 \\right)$$可在$$f\\left( 23 \\right)$$，$$f\\left( 24 \\right)$$，．．．，$$f\\left( 199 \\right)$$中找到．  故题中所给一列函数中最多有$$177$$个不同的值．  要说明$$f\\left( 23 \\right)$$，$$f\\left( 24 \\right)$$，．．．，$$f\\left( 199 \\right)$$可以是不同的值，  考虑函数$$f\\left( x \\right)=\\cos \\left( \\frac{360}{352}\\left( x-23 \\right) \\right)$$，$$x$$的单位为度．  用常规方法可证明恒等式$$f\\left( x \\right)=f\\left( 398-x \\right)$$，$$f\\left( x \\right)=f\\left( 2158-x \\right)$$及$$f\\left( x \\right)=f\\left( 3214-x \\right)$$，  且可看出  $$1=f\\left( 23 \\right)\\textgreater f\\left( 24 \\right)\\textgreater f\\left( 25 \\right)\\textgreater\\cdots \\textgreater f\\left( 199 \\right)=-1$$．",
+      "solution_plain": "由 f ( 398-x )=f ( 2158-x ) 得 f ( x )=f ( x+1760 ) ． 由 f ( 2158-x )=f ( 3214-x ) 得， f ( x )=f ( x+1056 ) ． 故有 f ( x )=f ( x+1056 )=f ( x+2112 )=f ( x+352 ) ． 从而 f ( x ) 为周期函数，且它的一个周期为 352 ． 又由于 f ( x )=f ( 398-x ) ，故 f ( x ) 关于 x=199 对称． 于是当 f 在 x [ 23,199 ] 定义后， 由 f ( x ) 的对称性知 x [ 199,375 ] 时， f 亦可定义；再由 f ( x ) 的周期性知对任意 x R ， f 可定义．故在一个周期内， 每一个函数值至少对应两个不同的 x ，其中 x 199+352k ( k Z ) ． 因此， f ( 0 ) ， f ( 1 ) ，．．．， f ( 999 ) 至多有 1 2 352+1=177 个不同的值， 且当 f ( 23 ) ， f ( 24 ) ，．．．， f ( 199 ) 两两不等时， 177 可以取到． 因此，所求的最大值为 177 ． 【点评】由已知恒等式组 f ( x )=f ( 398-x ) ， f ( x )=f ( 2158-x ) 及 f ( x )=f ( 3214-x ) 可得出以下恒等式组： f ( x )=f ( 2158-x )=f ( 3214- ( 2158-x ) )=f ( 1056+x ) ， f ( x )=f ( 1056+x )=f ( 2158- ( 1056+x ) )=f ( 1192-x ) ， f ( x )=f ( 1056+x )=f ( 1102- ( 1056+x ) )=f ( 46-x ) 及 f ( x )=f ( 46-x )=f ( 398- ( 46-x ) )=f ( 352+x ) ． 由最后一个恒等式知 f 是一个周期函数，且 f 的一个周期为 352 ． 故 f ( 0 ) ， f ( 1 ) ，．．．， f ( 999 ) 中每个值都可在 f ( 0 ) ， f ( 1 ) ，．．．， ( 351 ) 中找到． 恒等式 f ( x )=f ( 398-x ) 表明 f ( 200 ) ， f ( 201 ) ，．．．， f ( 351 ) 可在 f ( 0 ) ， f ( 1 ) ，．．．， f ( 199 ) 中找到． 恒等式 f ( x )=f ( 46-x ) 表明 f ( 0 ) ， f ( 1 ) ，．．．， f ( 22 ) 可在 f ( 23 ) ， f ( 24 ) ，．．．， f ( 199 ) 中找到． 故题中所给一列函数中最多有 177 个不同的值． 要说明 f ( 23 ) ， f ( 24 ) ，．．．， f ( 199 ) 可以是不同的值， 考虑函数 f ( x )= ( 360 352 ( x-23 ) ) ， x 的单位为度． 用常规方法可证明恒等式 f ( x )=f ( 398-x ) ， f ( x )=f ( 2158-x ) 及 f ( x )=f ( 3214-x ) ， 且可看出 1=f ( 23 ) f ( 24 ) f ( 25 ) f ( 199 )=-1 ．"
+    },
+    "answer": {
+      "final_raw": "177",
+      "final_normalized": "177",
+      "candidates": [
+        "177",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由$$f\\left( 398-x \\right)=f\\left( 2158-x \\right)$$得$$f\\left( x \\right)=f\\left( x+1760 \\right)$$．  由$$f\\left( 2158-x \\right)=f\\left( 3214-x \\right)$$得，$$f\\left( x \\right)=f\\left( x+1056 \\right)$$．  故有$$f\\left( x \\right)=f\\left( x+1056 \\right)=f\\left( x+2112 \\right)=f\\left( x+352 \\right)$$．  从而$$f\\left( x \\right)$$为周期函数，且它的一个周期为$$352$$．  又由于$$f\\left( x \\right)=f\\left( 398-x \\right)$$，故$$f\\left( x \\right)$$关于$$x=199$$对称．  于是当$$f$$在$$x\\in \\left[ 23,199 \\right]$$定义后，  由$$f\\left( x \\right)$$的对称性知$$x\\in \\left[ 199,375 \\right]$$时，  $$f$$亦可定义；再由$$f\\left( x \\right)$$的周期性知对任意$$x\\in \\mathbf{R}$$，  $$f$$可定义．故在一个周期内，  每一个函数值至少对应两个不同的$$x$$，其中$$x\\ne 199+352k\\left( k\\in \\mathbf{Z} \\right)$$．  因此，$$f\\left( 0 \\right)$$，$$f\\left( 1 \\right)$$，．．．，$$f\\left( 999 \\right)$$至多有$$\\frac{1}{2}\\cdot 352+1=177$$个不同的值，  且当$$f\\left( 23 \\right)$$，$$f\\left( 24 \\right)$$，．．．，$$f\\left( 199 \\right)$$两两不等时，$$177$$可以取到．  因此，所求的最大值为$$177$$．  【点评】由已知恒等式组$$f\\left( x \\right)=f\\left( 398-x \\right)$$，$$f\\left( x \\right)=f\\left( 2158-x \\right)$$及$$f\\left( x \\right)=f\\left( 3214-x \\right)$$可得出以下恒等式组：  $$f\\left( x \\right)=f\\left( 2158-x \\right)=f\\left( 3214-\\left( 2158-x \\right) \\right)=f\\left( 1056+x \\right)$$，  $$f\\left( x \\right)=f\\left( 1056+x \\right)=f\\left( 2158-\\left( 1056+x \\right) \\right)=f\\left( 1192-x \\right)$$，  $$f\\left( x \\right)=f\\left( 1056+x \\right)=f\\left( 1102-\\left( 1056+x \\right) \\right)=f\\left( 46-x \\right)$$及  $$f\\left( x \\right)=f\\left( 46-x \\right)=f\\left( 398-\\left( 46-x \\right) \\right)=f\\left( 352+x \\right)$$．  由最后一个恒等式知$$f$$是一个周期函数，且$$f$$的一个周期为$$352$$．  故$$f\\left( 0 \\right)$$，$$f\\left( 1 \\right)$$，．．．，$$f\\left( 999 \\right)$$中每个值都可在$$f\\left( 0 \\right)$$，$$f\\left( 1 \\right)$$，．．．，$$\\left( 351 \\right)$$中找到．  恒等式$$f\\left( x \\right)=f\\left( 398-x \\right)$$表明$$f\\left( 200 \\right)$$，$$f\\left( 201 \\right)$$，．．．，$$f\\left( 351 \\right)$$可在$$f\\left( 0 \\right)$$，$$f\\left( 1 \\right)$$，．．．，$$f\\left( 199 \\right)$$中找到．  恒等式$$f\\left( x \\right)=f\\left( 46-x \\right)$$表明$$f\\left( 0 \\right)$$，$$f\\left( 1 \\right)$$，．．．，$$f\\left( 22 \\right)$$可在$$f\\left( 23 \\right)$$，$$f\\left( 24 \\right)$$，．．．，$$f\\left( 199 \\right)$$中找到．  故题中所给一列函数中最多有$$177$$个不同的值．  要说明$$f\\left( 23 \\right)$$，$$f\\left( 24 \\right)$$，．．．，$$f\\left( 199 \\right)$$可以是不同的值，  考虑函数$$f\\left( x \\right)=\\cos \\left( \\frac{360}{352}\\left( x-23 \\right) \\right)$$，$$x$$的单位为度．  用常规方法可证明恒等式$$f\\left( x \\right)=f\\left( 398-x \\right)$$，$$f\\left( x \\right)=f\\left( 2158-x \\right)$$及$$f\\left( x \\right)=f\\left( 3214-x \\right)$$，  且可看出  $$1=f\\left( 23 \\right)\\textgreater f\\left( 24 \\right)\\textgreater f\\left( 25 \\right)\\textgreater\\cdots \\textgreater f\\left( 199 \\right)=-1$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知函数 f ( x )=f ( 398-x )=f ( 2158-x )=f ( 3214-x ) 对于所有实数 x 均成立，则 f ( 0 ) ， f ( 1 ) ， f ( 2 ) ，．．．， f ( 999 ) 中最多有个不同的值？ (A) 165 (B) 177 (C) 183 (D) 199",
+      "solution_text": "由 f ( 398-x )=f ( 2158-x ) 得 f ( x )=f ( x+1760 ) ． 由 f ( 2158-x )=f ( 3214-x ) 得， f ( x )=f ( x+1056 ) ． 故有 f ( x )=f ( x+1056 )=f ( x+2112 )=f ( x+352 ) ． 从而 f ( x ) 为周期函数，且它的一个周期为 352 ． 又由于 f ( x )=f ( 398-x ) ，故 f ( x ) 关于 x=199 对称． 于是当 f 在 x [ 23,199 ] 定义后， 由 f ( x ) 的对称性知 x [ 199,375 ] 时， f 亦可定义；再由 f ( x ) 的周期性知对任意 x R ， f 可定义．故在一个周期内， 每一个函数值至少对应两个不同的 x ，其中 x 199+352k ( k Z ) ． 因此， f ( 0 ) ， f ( 1 ) ，．．．， f ( 999 ) 至多有 1 2 352+1=177 个不同的值， 且当 f ( 23 ) ， f ( 24 ) ，．．．， f ( 199 ) 两两不等时， 177 可以取到． 因此，所求的最大值为 177 ． 【点评】由已知恒等式组 f ( x )=f ( 398-x ) ， f ( x )=f ( 2158-x ) 及 f ( x )=f ( 3214-x ) 可得出以下恒等式组： f ( x )=f ( 2158-x )=f ( 3214- ( 2158-x ) )=f ( 1056+x ) ， f ( x )=f ( 1056+x )=f ( 2158- ( 1056+x ) )=f ( 1192-x ) ， f ( x )=f ( 1056+x )=f ( 1102- ( 1056+x ) )=f ( 46-x ) 及 f ( x )=f ( 46-x )=f ( 398- ( 46-x ) )=f ( 352+x ) ． 由最后一个恒等式知 f 是一个周期函数，且 f 的一个周期为 352 ． 故 f ( 0 ) ， f ( 1 ) ，．．．， f ( 999 ) 中每个值都可在 f ( 0 ) ， f ( 1 ) ，．．．， ( 351 ) 中找到． 恒等式 f ( x )=f ( 398-x ) 表明 f ( 200 ) ， f ( 201 ) ，．．．， f ( 351 ) 可在 f ( 0 ) ， f ( 1 ) ，．．．， f ( 199 ) 中找到． 恒等式 f ( x )=f ( 46-x ) 表明 f ( 0 ) ， f ( 1 ) ，．．．， f ( 22 ) 可在 f ( 23 ) ， f ( 24 ) ，．．．， f ( 199 ) 中找到． 故题中所给一列函数中最多有 177 个不同的值． 要说明 f ( 23 ) ， f ( 24 ) ，．．．， f ( 199 ) 可以是不同的值， 考虑函数 f ( x )= ( 360 352 ( x-23 ) ) ， x 的单位为度． 用常规方法可证明恒等式 f ( x )=f ( 398-x ) ， f ( x )=f ( 2158-x ) 及 f ( x )=f ( 3214-x ) ， 且可看出 1=f ( 23 ) f ( 24 ) f ( 25 ) f ( 199 )=-1 ．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "15",
+        "queId": "3c7b8420f7b04d958984a48ebb91f2d0",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "165"
+          },
+          {
+            "label": "B",
+            "content": "177"
+          },
+          {
+            "label": "C",
+            "content": "183"
+          },
+          {
+            "label": "D",
+            "content": "199"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->函数->函数的图像与性质",
+          "课内体系->知识点->函数的概念与性质->函数的性质->对称性"
+        ],
+        "competition_source_list": [
+          "2000年第18届美国数学邀请赛（AIME）竞赛第12题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_4:01734",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1734,
+      "split": "zh_test",
+      "source_problem_id": "a0c50a982e3e42529c3f1b5bc02b67f5"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "\\uline{The tower function of twos} is defined recursively as follows: $$T\\left(1\\right)=2$$ and $$T\\left(n+1\\right)=2^{T\\left(n\\right)}$$ for $$n\\geqslant 1$$. Let $$A=\\left(T\\left(2009\\right)\\right)^{T\\left(2009\\right)}$$ and $$B=\\left(T\\left(2009\\right)\\right)^{A}$$. What is the largest integer $$k$$ such that $$\\underbrace{\\log_{2}\\log_{2}\\log_{2}\\ldots\\log_{2}B}_{{k\\textasciitilde{} \\text{times}}}$$ is defined?  2的\\uline{塔函数}定义如下: $$T\\left(1\\right)=2$$ , $$T\\left(n+1\\right)=2^{T\\left(n\\right)}$$ ($$n\\geqslant 1$$). 令 $$A=\\left(T\\left(2009\\right)\\right)^{T\\left(2009\\right)}$$ , $$B=\\left(T\\left(2009\\right)\\right)^{A}$$. 使得 $$\\underbrace{\\log_{2}\\log_{2}\\log_{2}\\ldots\\log_{2}B}_{{k\\textasciitilde{} \\text{times}}}$$有意义的最大整数 $$k$$是多少?\n(A) 2009\n(B) 2010\n(C) 2011\n(D) 2012\n(E) 2013",
+      "problem_plain": "The tower function of twos is defined recursively as follows: T (1 )=2 and T (n+1 )=2^ T (n ) for n 1 . Let A= (T (2009 ) )^ T (2009 ) and B= (T (2009 ) )^ A . What is the largest integer k such that _ 2 _ 2 _ 2 _ 2 B _ k times is defined? 2的 塔函数 定义如下: T (1 )=2 , T (n+1 )=2^ T (n ) ( n 1 ). 令 A= (T (2009 ) )^ T (2009 ) , B= (T (2009 ) )^ A . 使得 _ 2 _ 2 _ 2 _ 2 B _ k times 有意义的最大整数 k 是多少? (A) 2009 (B) 2010 (C) 2011 (D) 2012 (E) 2013",
+      "solution_latex": "记$\\log_2$为$\\log$.  由条件, 有$\\log{T(n+1)}=T(n)$.  我们对$B$求几次对数看看情况.  $\\log{B}=A\\log{T(2009)}=A\\cdot T(2008)=T(2009)^{T(2009)}T(2008)$  $\\log{\\log{B}}=T(2009)\\log{T(2009)}+\\log{T(2008)}=T(2009)T(2008)+T(2007)$  再往下似乎不太好求了, 不过我们可以进行一些适当的舍入.  $\\log{\\log{B}}=T(2009)T(2008)+T(2007)=T(2009)\\left(T(2008)+\\frac{T(2007)}{T(2009)}\\right)$  $\\Rightarrow\\log\\log\\log{B}=\\log{T(2009)}+\\log{\\left(T(2008)+\\frac{T(2007)}{T(2009)}\\right)}\\approx\\log{T(2009)}+\\log{T(2008)}=T(2008)+T(2007)$  考虑到$T(2007)=\\log\\log{T(2009)}\\textless\\textless T(2009)$, 这里的舍入是合理的.  故技重施,  $\\log\\log\\log\\log{B}=\\log{\\left(T(2008)\\left(1+\\frac{T(2007)}{T(2008)}\\right)\\right)}=\\log{T(2008)}+\\log{\\left(1+\\frac{T(2007)}{T(2008)}\\right)}\\approx T(2007)$  到这里就好求了, 从$T(2007)$再往下求$$2007$$层, 会得到$$1.$$ 考虑到我们在计算过程中做了一些舍入, 实际上这时的值会略大于$$1.$$ 再求一层, 得到一个略大于$$0$$的值$$.$$ 再求一层, 得到一个负值$$.$$ 之后再往下，就没有意义了.  因此, 总层数$=2+2007+4=2013$, 选E.",
+      "solution_plain": "记 _2 为 . 由条件, 有 T(n+1) =T(n) . 我们对 B 求几次对数看看情况. B =A T(2009) =A T(2008)=T(2009)^ T(2009) T(2008) B =T(2009) T(2009) + T(2008) =T(2009)T(2008)+T(2007) 再往下似乎不太好求了, 不过我们可以进行一些适当的舍入. B =T(2009)T(2008)+T(2007)=T(2009) (T(2008)+ T(2007) T(2009) ) B = T(2009) + (T(2008)+ T(2007) T(2009) ) T(2009) + T(2008) =T(2008)+T(2007) 考虑到 T(2007)= T(2009) T(2009) , 这里的舍入是合理的. 故技重施, B = (T(2008) (1+ T(2007) T(2008) ) ) = T(2008) + (1+ T(2007) T(2008) ) T(2007) 到这里就好求了, 从 T(2007) 再往下求 2007 层, 会得到 1. 考虑到我们在计算过程中做了一些舍入, 实际上这时的值会略大于 1. 再求一层, 得到一个略大于 0 的值 . 再求一层, 得到一个负值 . 之后再往下，就没有意义了. 因此, 总层数 =2+2007+4=2013 , 选E."
+    },
+    "answer": {
+      "final_raw": "2013",
+      "final_normalized": "2013",
+      "candidates": [
+        "2013",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "combination",
+        "mapping_and_correspondence",
+        "reasoning",
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "amc10_12",
+        "combination",
+        "level_4",
+        "mapping_and_correspondence",
+        "reasoning",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "记$\\log_2$为$\\log$.",
+        "由条件, 有$\\log{T(n+1)}=T(n)$.",
+        "我们对$B$求几次对数看看情况.",
+        "$\\log{B}=A\\log{T(2009)}=A\\cdot T(2008)=T(2009)^{T(2009)}T(2008)$  $\\log{\\log{B}}=T(2009)\\log{T(2009)}+\\log{T(2008)}=T(2009)T(2008)+T(2007)$  再往下似乎不太好求了, 不过我们可以进行一些适当的舍入.",
+        "$\\log{\\log{B}}=T(2009)T(2008)+T(2007)=T(2009)\\left(T(2008)+\\frac{T(2007)}{T(2009)}\\right)$  $\\Rightarrow\\log\\log\\log{B}=\\log{T(2009)}+\\log{\\left(T(2008)+\\frac{T(2007)}{T(2009)}\\right)}\\approx\\log{T(2009)}+\\log{T(2008)}=T(2008)+T(2007)$  考虑到$T(2007)=\\log\\log{T(2009)}\\textless\\textless T(2009)$, 这里的舍入是合理的.",
+        "故技重施,  $\\log\\log\\log\\log{B}=\\log{\\left(T(2008)\\left(1+\\frac{T(2007)}{T(2008)}\\right)\\right)}=\\log{T(2008)}+\\log{\\left(1+\\frac{T(2007)}{T(2008)}\\right)}\\approx T(2007)$  到这里就好求了, 从$T(2007)$再往下求$$2007$$层, 会得到$$1.$$ 考虑到我们在计算过程中做了一些舍入, 实际上这时的值会略大于$$1.$$ 再求一层, 得到一个略大于$$0$$的值$$.$$ 再求一层, 得到一个负值$$.$$ 之后再往下，就没有意义了.",
+        "因此, 总层数$=2+2007+4=2013$, 选E."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The tower function of twos is defined recursively as follows: T (1 )=2 and T (n+1 )=2^ T (n ) for n 1 . Let A= (T (2009 ) )^ T (2009 ) and B= (T (2009 ) )^ A . What is the largest integer k such that _ 2 _ 2 _ 2 _ 2 B _ k times is defined? 2的 塔函数 定义如下: T (1 )=2 , T (n+1 )=2^ T (n ) ( n 1 ). 令 A= (T (2009 ) )^ T (2009 ) , B= (T (2009 ) )^ A . 使得 _ 2 _ 2 _ 2 _ 2 B _ k times 有意义的最大整数 k 是多少? (A) 2009 (B) 2010 (C) 2011 (D) 2012 (E) 2013",
+      "solution_text": "记 _2 为 . 由条件, 有 T(n+1) =T(n) . 我们对 B 求几次对数看看情况. B =A T(2009) =A T(2008)=T(2009)^ T(2009) T(2008) B =T(2009) T(2009) + T(2008) =T(2009)T(2008)+T(2007) 再往下似乎不太好求了, 不过我们可以进行一些适当的舍入. B =T(2009)T(2008)+T(2007)=T(2009) (T(2008)+ T(2007) T(2009) ) B = T(2009) + (T(2008)+ T(2007) T(2009) ) T(2009) + T(2008) =T(2008)+T(2007) 考虑到 T(2007)= T(2009) T(2009) , 这里的舍入是合理的. 故技重施, B = (T(2008) (1+ T(2007) T(2008) ) ) = T(2008) + (1+ T(2007) T(2008) ) T(2007) 到这里就好求了, 从 T(2007) 再往下求 2007 层, 会得到 1. 考虑到我们在计算过程中做了一些舍入, 实际上这时的值会略大于 1. 再求一层, 得到一个略大于 0 的值 . 再求一层, 得到一个负值 . 之后再往下，就没有意义了. 因此, 总层数 =2+2007+4=2013 , 选E.",
+      "keywords": [
+        "algebra",
+        "amc10_12",
+        "combination",
+        "level_4",
+        "mapping_and_correspondence",
+        "reasoning",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "992",
+        "queId": "a0c50a982e3e42529c3f1b5bc02b67f5",
+        "difficulty": "3",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2009"
+          },
+          {
+            "label": "B",
+            "content": "2010"
+          },
+          {
+            "label": "C",
+            "content": "2011"
+          },
+          {
+            "label": "D",
+            "content": "2012"
+          },
+          {
+            "label": "E",
+            "content": "2013"
+          }
+        ],
+        "knowledge_point_routes": [
+          "美国AMC10/12->Knowledge Point->Combination->Reasoning->Mapping and Correspondence",
+          "课内体系->知识点->基本初等函数->对数的概念及其运算->对数的运算"
+        ],
+        "competition_source_list": [
+          "2009年AMC12竞赛A第24题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_4:01751",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1751,
+      "split": "zh_test",
+      "source_problem_id": "ff4ffd40657a468b8a6405774e85c35c"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知两个实数集合$$A=\\left { {{a}_{1}},{{a}_{2}},\\cdots ,{{a}_{100}} \\right }$$与$$B=\\left { {{b}_{1}},{{b}_{2}},\\cdots ,{{b}_{50}} \\right }$$，若从$$A$$到$$B$$的映射$$f$$使得$$B$$中的每一个元素都有原象，且$$f\\left( {{a}_{1}} \\right)\\leqslant f\\left( {{a}_{2}} \\right)\\leqslant \\cdots \\leqslant f\\left( {{a}_{100}} \\right)$$，则这样的映射共有．\n(A) \\text{C}_{100}^{50}\n(B) \\text{C}_{90}^{50}\n(C) \\text{C}_{100}^{49}\n(D) \\text{C}_{99}^{49}",
+      "problem_plain": "已知两个实数集合 A= a _ 1 , a _ 2 , , a _ 100 与 B= b _ 1 , b _ 2 , , b _ 50 ，若从 A 到 B 的映射 f 使得 B 中的每一个元素都有原象，且 f ( a _ 1 ) f ( a _ 2 ) f ( a _ 100 ) ，则这样的映射共有． (A) C _ 100 ^ 50 (B) C _ 90 ^ 50 (C) C _ 100 ^ 49 (D) C _ 99 ^ 49",
+      "solution_latex": "本题直接考虑集合$$A$$中每一个元素在$$B$$中的象的情况非常困难．  注意到集合$$B$$中每个元素都有原象，即$$A$$中有$$50$$``组''元素分别与$$B$$中的$$50$$个元素对应；现将集合$$A$$中的$$100$$个元素按原有的顺序分成$$50$$组，每组至少一个元素；将集合$$B$$中的元素按从小到大的顺序排列为$$B=\\left { {{{{b}'}}_{1}},{{{{b}'}}_{2}},\\cdots ,{{{{b}'}}_{50}} \\right }$$；  ∵$$f\\left( {{a}_{1}} \\right)\\leqslant f\\left( {{a}_{2}} \\right)\\leqslant \\cdots \\leqslant f\\left( {{a}_{100}} \\right)$$，  ∴$$A$$中的``第$$1$$组''元素的象为$${{{b}'}_{1}}$$，``第$$2$$组''元素的象为$${{{b}'}_{2}}$$，``第$$50$$组''元素的象为$${{{b}'}_{50}}$$，此处没有排列的问题，即只要$$A$$中元素的分组确定了，映射也就随之确定了；而$$A$$中元素的分组可视为在由这$$100$$个元素所形成的$$99$$个``空''中插上$$49$$块``挡板''，所以有$$\\text{C}_{99}^{49}$$种分法，即映射共有$$\\text{C}_{99}^{49}$$个．  故选$$\\text{D}$$．",
+      "solution_plain": "本题直接考虑集合 A 中每一个元素在 B 中的象的情况非常困难． 注意到集合 B 中每个元素都有原象，即 A 中有 50 ``组''元素分别与 B 中的 50 个元素对应；现将集合 A 中的 100 个元素按原有的顺序分成 50 组，每组至少一个元素；将集合 B 中的元素按从小到大的顺序排列为 B= b ' _ 1 , b ' _ 2 , , b ' _ 50 ； ∵ f ( a _ 1 ) f ( a _ 2 ) f ( a _ 100 ) ， ∴ A 中的``第 1 组''元素的象为 b ' _ 1 ，``第 2 组''元素的象为 b ' _ 2 ，``第 50 组''元素的象为 b ' _ 50 ，此处没有排列的问题，即只要 A 中元素的分组确定了，映射也就随之确定了；而 A 中元素的分组可视为在由这 100 个元素所形成的 99 个``空''中插上 49 块``挡板''，所以有 C _ 99 ^ 49 种分法，即映射共有 C _ 99 ^ 49 个． 故选 D ．"
+    },
+    "answer": {
+      "final_raw": "\\text{C}_{99}^{49}",
+      "final_normalized": "\\text{C}_{99}^{49}",
+      "candidates": [
+        "D",
+        "\\text{C}_{99}^{49}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "本题直接考虑集合$$A$$中每一个元素在$$B$$中的象的情况非常困难．  注意到集合$$B$$中每个元素都有原象，即$$A$$中有$$50$$``组''元素分别与$$B$$中的$$50$$个元素对应；现将集合$$A$$中的$$100$$个元素按原有的顺序分成$$50$$组，每组至少一个元素；将集合$$B$$中的元素按从小到大的顺序排列为$$B=\\left { {{{{b}'}}_{1}},{{{{b}'}}_{2}},\\cdots ,{{{{b}'}}_{50}} \\right }$$；  ∵$$f\\left( {{a}_{1}} \\right)\\leqslant f\\left( {{a}_{2}} \\right)\\leqslant \\cdots \\leqslant f\\left( {{a}_{100}} \\right)$$，  ∴$$A$$中的``第$$1$$组''元素的象为$${{{b}'}_{1}}$$，``第$$2$$组''元素的象为$${{{b}'}_{2}}$$，``第$$50$$组''元素的象为$${{{b}'}_{50}}$$，此处没有排列的问题，即只要$$A$$中元素的分组确定了，映射也就随之确定了；而$$A$$中元素的分组可视为在由这$$100$$个元素所形成的$$99$$个``空''中插上$$49$$块``挡板''，所以有$$\\text{C}_{99}^{49}$$种分法，即映射共有$$\\text{C}_{99}^{49}$$个．  故选$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知两个实数集合 A= a _ 1 , a _ 2 , , a _ 100 与 B= b _ 1 , b _ 2 , , b _ 50 ，若从 A 到 B 的映射 f 使得 B 中的每一个元素都有原象，且 f ( a _ 1 ) f ( a _ 2 ) f ( a _ 100 ) ，则这样的映射共有． (A) C _ 100 ^ 50 (B) C _ 90 ^ 50 (C) C _ 100 ^ 49 (D) C _ 99 ^ 49",
+      "solution_text": "本题直接考虑集合 A 中每一个元素在 B 中的象的情况非常困难． 注意到集合 B 中每个元素都有原象，即 A 中有 50 ``组''元素分别与 B 中的 50 个元素对应；现将集合 A 中的 100 个元素按原有的顺序分成 50 组，每组至少一个元素；将集合 B 中的元素按从小到大的顺序排列为 B= b ' _ 1 , b ' _ 2 , , b ' _ 50 ； ∵ f ( a _ 1 ) f ( a _ 2 ) f ( a _ 100 ) ， ∴ A 中的``第 1 组''元素的象为 b ' _ 1 ，``第 2 组''元素的象为 b ' _ 2 ，``第 50 组''元素的象为 b ' _ 50 ，此处没有排列的问题，即只要 A 中元素的分组确定了，映射也就随之确定了；而 A 中元素的分组可视为在由这 100 个元素所形成的 99 个``空''中插上 49 块``挡板''，所以有 C _ 99 ^ 49 种分法，即映射共有 C _ 99 ^ 49 个． 故选 D ．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "538",
+        "queId": "ff4ffd40657a468b8a6405774e85c35c",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\text{C}_{100}^{50}"
+          },
+          {
+            "label": "B",
+            "content": "\\text{C}_{90}^{50}"
+          },
+          {
+            "label": "C",
+            "content": "\\text{C}_{100}^{49}"
+          },
+          {
+            "label": "D",
+            "content": "\\text{C}_{99}^{49}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->素养->逻辑推理",
+          "课内体系->知识点->函数的概念与性质->函数的概念及其表示->函数的概念->映射",
+          "课内体系->知识点->计数原理->排列与组合->组合"
+        ],
+        "competition_source_list": [
+          "2002年全国全国高中数学联赛竞赛一试第5题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_4:01841",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1841,
+      "split": "zh_test",
+      "source_problem_id": "a5d4b19a530e4b9eae7820473f10a1c3"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知圆$C\\colon x^{2}+y^{2}=r^{2}$，点\\emph{P}，$P\\textquotesingle$在以\\emph{O}为起点的射线上，且满足$\\textbar{} OP\\textbar{} \\cdot \\left\\textbar{} OP\\textquotesingle\\right\\textbar{} =r^{2}$，则称点\\emph{P}，$P\\textquotesingle$关于圆周\\emph{C}对称，那么抛物线$y=x^{2}$上的点$P(x,y)$关于单位圆$x^{2}+y^{2}=1$的对称点满足的方程为（~~~~~~~）\n(A) x^{4}-y^{2}=0\n(B) \\left(x^{2}+y^{2}\\right)x^{2}=y\n(C) y^{4}-x^{2}=0\n(D) \\left(x^{2}+y^{2}\\right)y=x^{2}",
+      "problem_plain": "已知圆 C x^ 2 +y^ 2 =r^ 2 ，点 P ， P 在以 O 为起点的射线上，且满足 OP OP =r^ 2 ，则称点 P ， P 关于圆周 C 对称，那么抛物线 y=x^ 2 上的点 P(x,y) 关于单位圆 x^ 2 +y^ 2 =1 的对称点满足的方程为（~~~~~~~） (A) x^ 4 -y^ 2 =0 (B) (x^ 2 +y^ 2 )x^ 2 =y (C) y^ 4 -x^ 2 =0 (D) (x^ 2 +y^ 2 )y=x^ 2",
+      "solution_latex": "\\hfill\\break 【分析】\\\\ 求出抛物线的极坐标方程，利用极坐标系下曲线关于圆周的对称的曲线方程公式可求对应曲线的极坐标方程，从而可得所求的直角方程.\\\\ 【详解】\\\\ 以直角坐标系的原点为极点，$x$轴的正半轴为极轴建立极坐标系.\\\\ 于是$y=x^{2}$的极坐标方程为$\\sin \\theta =\\rho \\cos ^{2}\\theta$.\\\\ 因为$\\Gamma \\colon f(\\rho ,\\theta )=0$关于圆周\\emph{C}对称的曲线$\\textquotesingle\\colon f\\left(\\frac{r^{2}}{\\rho },\\theta \\right)=0$．\\\\ 于是方程$\\sin \\theta =\\rho \\cos ^{2}\\theta$关于单位圆对称的曲线为$\\sin \\theta =\\frac{1}{\\rho }\\cos ^{2}\\theta$，\\\\ 其对应的直角方程为$\\left(x^{2}+y^{2}\\right)y=x^{2}$．\\\\ 故选：D",
+      "solution_plain": "【分析】 求出抛物线的极坐标方程，利用极坐标系下曲线关于圆周的对称的曲线方程公式可求对应曲线的极坐标方程，从而可得所求的直角方程. 【详解】 以直角坐标系的原点为极点， x 轴的正半轴为极轴建立极坐标系. 于是 y=x^ 2 的极坐标方程为 = ^ 2 . 因为 f( , )=0 关于圆周 C 对称的曲线 f ( r^ 2 , )=0 ． 于是方程 = ^ 2 关于单位圆对称的曲线为 = 1 ^ 2 ， 其对应的直角方程为 (x^ 2 +y^ 2 )y=x^ 2 ． 故选：D"
+    },
+    "answer": {
+      "final_raw": "\\left(x^{2}+y^{2}\\right)y=x^{2}",
+      "final_normalized": "\\left(x^{2}+y^{2}\\right)y=x^{2}",
+      "candidates": [
+        "D",
+        "\\left(x^{2}+y^{2}\\right)y=x^{2}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "\\hfill\\break 【分析】\\\\ 求出抛物线的极坐标方程，利用极坐标系下曲线关于圆周的对称的曲线方程公式可求对应曲线的极坐标方程，从而可得所求的直角方程.\\\\ 【详解】\\\\ 以直角坐标系的原点为极点，$x$轴的正半轴为极轴建立极坐标系.\\\\ 于是$y=x^{2}$的极坐标方程为$\\sin \\theta =\\rho \\cos ^{2}\\theta$.\\\\ 因为$\\Gamma \\colon f(\\rho ,\\theta )=0$关于圆周\\emph{C}对称的曲线$\\textquotesingle\\colon f\\left(\\frac{r^{2}}{\\rho },\\theta \\right)=0$．\\\\ 于是方程$\\sin \\theta =\\rho \\cos ^{2}\\theta$关于单位圆对称的曲线为$\\sin \\theta =\\frac{1}{\\rho }\\cos ^{2}\\theta$，\\\\ 其对应的直角方程为$\\left(x^{2}+y^{2}\\right)y=x^{2}$．\\\\ 故选：D"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知圆 C x^ 2 +y^ 2 =r^ 2 ，点 P ， P 在以 O 为起点的射线上，且满足 OP OP =r^ 2 ，则称点 P ， P 关于圆周 C 对称，那么抛物线 y=x^ 2 上的点 P(x,y) 关于单位圆 x^ 2 +y^ 2 =1 的对称点满足的方程为（~~~~~~~） (A) x^ 4 -y^ 2 =0 (B) (x^ 2 +y^ 2 )x^ 2 =y (C) y^ 4 -x^ 2 =0 (D) (x^ 2 +y^ 2 )y=x^ 2",
+      "solution_text": "【分析】 求出抛物线的极坐标方程，利用极坐标系下曲线关于圆周的对称的曲线方程公式可求对应曲线的极坐标方程，从而可得所求的直角方程. 【详解】 以直角坐标系的原点为极点， x 轴的正半轴为极轴建立极坐标系. 于是 y=x^ 2 的极坐标方程为 = ^ 2 . 因为 f( , )=0 关于圆周 C 对称的曲线 f ( r^ 2 , )=0 ． 于是方程 = ^ 2 关于单位圆对称的曲线为 = 1 ^ 2 ， 其对应的直角方程为 (x^ 2 +y^ 2 )y=x^ 2 ． 故选：D",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1045",
+        "queId": "a5d4b19a530e4b9eae7820473f10a1c3",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "x^{4}-y^{2}=0"
+          },
+          {
+            "label": "B",
+            "content": "\\left(x^{2}+y^{2}\\right)x^{2}=y"
+          },
+          {
+            "label": "C",
+            "content": "y^{4}-x^{2}=0"
+          },
+          {
+            "label": "D",
+            "content": "\\left(x^{2}+y^{2}\\right)y=x^{2}"
+          }
+        ],
+        "knowledge_point_routes": [],
+        "competition_source_list": [
+          "竞赛第11题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_4:01852",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1852,
+      "split": "zh_test",
+      "source_problem_id": "5fd41c6497da49bbaebf9cac46156183"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设函数$$f{}(x){}=\\sqrt{1-{{x}^{2}}}\\centerdot \\left( \\left\\textbar{} x-2 \\right\\textbar+\\frac{4}{{{2}^{x}}-1} \\right)$$．考虑命题$$p:f{(}x{)}$$是奇函数；命题$$q{:}f{(}x{)}$$是偶函数．那么，正确的命题是．\n(A) p{,}q\n(B) p{,}\\neg q\n(C) \\neg p{,}q\n(D) \\neg p{,}\\neg q",
+      "problem_plain": "设函数 f (x) = 1- x ^ 2 ( x-2 + 4 2 ^ x -1 ) ．考虑命题 p:f ( x ) 是奇函数；命题 q : f ( x ) 是偶函数．那么，正确的命题是． (A) p , q (B) p , q (C) p , q (D) p , q",
+      "solution_latex": "注意$$f\\left( x \\right)$$的定义域是$$\\left[ -1,0 \\right)\\cup \\left( 0,1 \\right]$$，所以  $$f\\left( x \\right)=\\sqrt{1-{{x}^{2}}}\\cdot \\left( 2-x+\\frac{4}{{{2}^{x}}-1} \\right)$$  $$=\\sqrt{1-{{x}^{2}}}\\cdot \\left( -x+2\\centerdot \\frac{{{2}^{x}}+1}{{{2}^{x}}-1} \\right)$$，  容易看出$$f\\left( x \\right)$$是奇函数，不是偶函数．",
+      "solution_plain": "注意 f ( x ) 的定义域是 [ -1,0 ) ( 0,1 ] ，所以 f ( x )= 1- x ^ 2 ( 2-x+ 4 2 ^ x -1 ) = 1- x ^ 2 ( -x+2 2 ^ x +1 2 ^ x -1 ) ， 容易看出 f ( x ) 是奇函数，不是偶函数．"
+    },
+    "answer": {
+      "final_raw": "p{,}\\neg q",
+      "final_normalized": "p{,}\\neg q",
+      "candidates": [
+        "B",
+        "p{,}\\neg q"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "注意$$f\\left( x \\right)$$的定义域是$$\\left[ -1,0 \\right)\\cup \\left( 0,1 \\right]$$，所以  $$f\\left( x \\right)=\\sqrt{1-{{x}^{2}}}\\cdot \\left( 2-x+\\frac{4}{{{2}^{x}}-1} \\right)$$  $$=\\sqrt{1-{{x}^{2}}}\\cdot \\left( -x+2\\centerdot \\frac{{{2}^{x}}+1}{{{2}^{x}}-1} \\right)$$，  容易看出$$f\\left( x \\right)$$是奇函数，不是偶函数．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设函数 f (x) = 1- x ^ 2 ( x-2 + 4 2 ^ x -1 ) ．考虑命题 p:f ( x ) 是奇函数；命题 q : f ( x ) 是偶函数．那么，正确的命题是． (A) p , q (B) p , q (C) p , q (D) p , q",
+      "solution_text": "注意 f ( x ) 的定义域是 [ -1,0 ) ( 0,1 ] ，所以 f ( x )= 1- x ^ 2 ( 2-x+ 4 2 ^ x -1 ) = 1- x ^ 2 ( -x+2 2 ^ x +1 2 ^ x -1 ) ， 容易看出 f ( x ) 是奇函数，不是偶函数．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "650",
+        "queId": "5fd41c6497da49bbaebf9cac46156183",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "p{,}q"
+          },
+          {
+            "label": "B",
+            "content": "p{,}\\neg q"
+          },
+          {
+            "label": "C",
+            "content": "\\neg p{,}q"
+          },
+          {
+            "label": "D",
+            "content": "\\neg p{,}\\neg q"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->函数->函数的图像与性质",
+          "竞赛->知识点->函数->函数的概念",
+          "竞赛->知识点->逻辑->常用逻辑用语"
+        ],
+        "competition_source_list": [
+          "2013年天津全国高中数学联赛竞赛初赛第1题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_4:01870",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1870,
+      "split": "zh_test",
+      "source_problem_id": "26eb2ae0826d49899d07630ace5b3b30"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "2009AMC12A, 24  \\uline{The tower function of twos} is defined recursively as follows: $$T\\left(1\\right)=2$$ and $$T\\left(n+1\\right)=2^{T\\left(n\\right)}$$ for $$n\\geqslant 1$$. Let $$A=\\left(T\\left(2009\\right)\\right)^{T\\left(2009\\right)}$$ and $$B=\\left(T\\left(2009\\right)\\right)^{A}$$. What is the largest integer $$k$$ such that $$\\underbrace{\\log_{2}\\log_{2}\\log_{2}\\ldots\\log_{2}B}_{{k\\textasciitilde{} \\text{times}}}$$ is defined?  2的\\uline{塔函数}定义如下: $$T\\left(1\\right)=2$$ , $$T\\left(n+1\\right)=2^{T\\left(n\\right)}$$ ($$n\\geqslant 1$$). 令 $$A=\\left(T\\left(2009\\right)\\right)^{T\\left(2009\\right)}$$ , $$B=\\left(T\\left(2009\\right)\\right)^{A}$$. 使得 $$\\underbrace{\\log_{2}\\log_{2}\\log_{2}\\ldots\\log_{2}B}_{{k\\textasciitilde{} \\text{times}}}$$有意义的最大整数 $$k$$是多少?\n(A) 2009\n(B) 2010\n(C) 2011\n(D) 2012\n(E) 2013",
+      "problem_plain": "2009AMC12A, 24 The tower function of twos is defined recursively as follows: T (1 )=2 and T (n+1 )=2^ T (n ) for n 1 . Let A= (T (2009 ) )^ T (2009 ) and B= (T (2009 ) )^ A . What is the largest integer k such that _ 2 _ 2 _ 2 _ 2 B _ k times is defined? 2的 塔函数 定义如下: T (1 )=2 , T (n+1 )=2^ T (n ) ( n 1 ). 令 A= (T (2009 ) )^ T (2009 ) , B= (T (2009 ) )^ A . 使得 _ 2 _ 2 _ 2 _ 2 B _ k times 有意义的最大整数 k 是多少? (A) 2009 (B) 2010 (C) 2011 (D) 2012 (E) 2013",
+      "solution_latex": "记$\\log_2$为$\\log$.  由条件, 有$\\log{T(n+1)}=T(n)$.  我们对$B$求几次对数看看情况.  $\\log{B}=A\\log{T(2009)}=A\\cdot T(2008)=T(2009)^{T(2009)}T(2008)$  $\\log{\\log{B}}=T(2009)\\log{T(2009)}+\\log{T(2008)}=T(2009)T(2008)+T(2007)$  再往下似乎不太好求了, 不过我们可以进行一些适当的舍入.  $\\log{\\log{B}}=T(2009)T(2008)+T(2007)=T(2009)\\left(T(2008)+\\frac{T(2007)}{T(2009)}\\right)$  $\\Rightarrow\\log\\log\\log{B}=\\log{T(2009)}+\\log{\\left(T(2008)+\\frac{T(2007)}{T(2009)}\\right)}\\approx\\log{T(2009)}+\\log{T(2008)}=T(2008)+T(2007)$  考虑到$T(2007)=\\log\\log{T(2009)}\\textless\\textless T(2009)$, 这里的舍入是合理的.  故技重施,  $\\log\\log\\log\\log{B}=\\log{\\left(T(2008)\\left(1+\\frac{T(2007)}{T(2008)}\\right)\\right)}=\\log{T(2008)}+\\log{\\left(1+\\frac{T(2007)}{T(2008)}\\right)}\\approx T(2007)$  到这里就好求了, 从$T(2007)$再往下求$$2007$$层, 会得到$$1.$$ 考虑到我们在计算过程中做了一些舍入, 实际上这时的值会略大于$$1.$$ 再求一层, 得到一个略大于$$0$$的值$$.$$ 再求一层, 得到一个负值$$.$$ 之后再往下，就没有意义了.  因此, 总层数$=2+2007+4=2013$, 选E.",
+      "solution_plain": "记 _2 为 . 由条件, 有 T(n+1) =T(n) . 我们对 B 求几次对数看看情况. B =A T(2009) =A T(2008)=T(2009)^ T(2009) T(2008) B =T(2009) T(2009) + T(2008) =T(2009)T(2008)+T(2007) 再往下似乎不太好求了, 不过我们可以进行一些适当的舍入. B =T(2009)T(2008)+T(2007)=T(2009) (T(2008)+ T(2007) T(2009) ) B = T(2009) + (T(2008)+ T(2007) T(2009) ) T(2009) + T(2008) =T(2008)+T(2007) 考虑到 T(2007)= T(2009) T(2009) , 这里的舍入是合理的. 故技重施, B = (T(2008) (1+ T(2007) T(2008) ) ) = T(2008) + (1+ T(2007) T(2008) ) T(2007) 到这里就好求了, 从 T(2007) 再往下求 2007 层, 会得到 1. 考虑到我们在计算过程中做了一些舍入, 实际上这时的值会略大于 1. 再求一层, 得到一个略大于 0 的值 . 再求一层, 得到一个负值 . 之后再往下，就没有意义了. 因此, 总层数 =2+2007+4=2013 , 选E."
+    },
+    "answer": {
+      "final_raw": "2013",
+      "final_normalized": "2013",
+      "candidates": [
+        "2013",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "combination",
+        "mapping_and_correspondence",
+        "reasoning",
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "amc10_12",
+        "combination",
+        "level_4",
+        "mapping_and_correspondence",
+        "reasoning",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "记$\\log_2$为$\\log$.",
+        "由条件, 有$\\log{T(n+1)}=T(n)$.",
+        "我们对$B$求几次对数看看情况.",
+        "$\\log{B}=A\\log{T(2009)}=A\\cdot T(2008)=T(2009)^{T(2009)}T(2008)$  $\\log{\\log{B}}=T(2009)\\log{T(2009)}+\\log{T(2008)}=T(2009)T(2008)+T(2007)$  再往下似乎不太好求了, 不过我们可以进行一些适当的舍入.",
+        "$\\log{\\log{B}}=T(2009)T(2008)+T(2007)=T(2009)\\left(T(2008)+\\frac{T(2007)}{T(2009)}\\right)$  $\\Rightarrow\\log\\log\\log{B}=\\log{T(2009)}+\\log{\\left(T(2008)+\\frac{T(2007)}{T(2009)}\\right)}\\approx\\log{T(2009)}+\\log{T(2008)}=T(2008)+T(2007)$  考虑到$T(2007)=\\log\\log{T(2009)}\\textless\\textless T(2009)$, 这里的舍入是合理的.",
+        "故技重施,  $\\log\\log\\log\\log{B}=\\log{\\left(T(2008)\\left(1+\\frac{T(2007)}{T(2008)}\\right)\\right)}=\\log{T(2008)}+\\log{\\left(1+\\frac{T(2007)}{T(2008)}\\right)}\\approx T(2007)$  到这里就好求了, 从$T(2007)$再往下求$$2007$$层, 会得到$$1.$$ 考虑到我们在计算过程中做了一些舍入, 实际上这时的值会略大于$$1.$$ 再求一层, 得到一个略大于$$0$$的值$$.$$ 再求一层, 得到一个负值$$.$$ 之后再往下，就没有意义了.",
+        "因此, 总层数$=2+2007+4=2013$, 选E."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2009AMC12A, 24 The tower function of twos is defined recursively as follows: T (1 )=2 and T (n+1 )=2^ T (n ) for n 1 . Let A= (T (2009 ) )^ T (2009 ) and B= (T (2009 ) )^ A . What is the largest integer k such that _ 2 _ 2 _ 2 _ 2 B _ k times is defined? 2的 塔函数 定义如下: T (1 )=2 , T (n+1 )=2^ T (n ) ( n 1 ). 令 A= (T (2009 ) )^ T (2009 ) , B= (T (2009 ) )^ A . 使得 _ 2 _ 2 _ 2 _ 2 B _ k times 有意义的最大整数 k 是多少? (A) 2009 (B) 2010 (C) 2011 (D) 2012 (E) 2013",
+      "solution_text": "记 _2 为 . 由条件, 有 T(n+1) =T(n) . 我们对 B 求几次对数看看情况. B =A T(2009) =A T(2008)=T(2009)^ T(2009) T(2008) B =T(2009) T(2009) + T(2008) =T(2009)T(2008)+T(2007) 再往下似乎不太好求了, 不过我们可以进行一些适当的舍入. B =T(2009)T(2008)+T(2007)=T(2009) (T(2008)+ T(2007) T(2009) ) B = T(2009) + (T(2008)+ T(2007) T(2009) ) T(2009) + T(2008) =T(2008)+T(2007) 考虑到 T(2007)= T(2009) T(2009) , 这里的舍入是合理的. 故技重施, B = (T(2008) (1+ T(2007) T(2008) ) ) = T(2008) + (1+ T(2007) T(2008) ) T(2007) 到这里就好求了, 从 T(2007) 再往下求 2007 层, 会得到 1. 考虑到我们在计算过程中做了一些舍入, 实际上这时的值会略大于 1. 再求一层, 得到一个略大于 0 的值 . 再求一层, 得到一个负值 . 之后再往下，就没有意义了. 因此, 总层数 =2+2007+4=2013 , 选E.",
+      "keywords": [
+        "algebra",
+        "amc10_12",
+        "combination",
+        "level_4",
+        "mapping_and_correspondence",
+        "reasoning",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "261",
+        "queId": "26eb2ae0826d49899d07630ace5b3b30",
+        "difficulty": "3",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2009"
+          },
+          {
+            "label": "B",
+            "content": "2010"
+          },
+          {
+            "label": "C",
+            "content": "2011"
+          },
+          {
+            "label": "D",
+            "content": "2012"
+          },
+          {
+            "label": "E",
+            "content": "2013"
+          }
+        ],
+        "knowledge_point_routes": [
+          "美国AMC10/12->Knowledge Point->Combination->Reasoning->Mapping and Correspondence",
+          "课内体系->知识点->基本初等函数->对数的概念及其运算->对数的运算"
+        ],
+        "competition_source_list": [
+          "2009年AMC12竞赛A第24题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_4:01884",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1884,
+      "split": "zh_test",
+      "source_problem_id": "2789b36ec1ab482e9fe2cdfcf46ccdcb"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "对所有满足$$1\\leqslant n\\leqslant m\\leqslant 5$$的$$m$$，$$n$$，极坐标方程$$\\rho =\\frac{1}{1-\\text{C}_{m}^{n}\\cos \\theta }$$表示的不同双曲线条数为（~ ）．\n(A) 6\n(B) 9\n(C) 12\n(D) 15",
+      "problem_plain": "对所有满足 1 n m 5 的 m ， n ，极坐标方程 = 1 1- C _ m ^ n 表示的不同双曲线条数为（~ ）． (A) 6 (B) 9 (C) 12 (D) 15",
+      "solution_latex": "$$e=\\text{C}_{m}^{n}$$，∴$$m\\textgreater n$$．注意离心率相同的情形．",
+      "solution_plain": "e= C _ m ^ n ，∴ m n ．注意离心率相同的情形．"
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$e=\\text{C}_{m}^{n}$$，∴$$m\\textgreater n$$．注意离心率相同的情形．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "对所有满足 1 n m 5 的 m ， n ，极坐标方程 = 1 1- C _ m ^ n 表示的不同双曲线条数为（~ ）． (A) 6 (B) 9 (C) 12 (D) 15",
+      "solution_text": "e= C _ m ^ n ，∴ m n ．注意离心率相同的情形．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "312",
+        "queId": "2789b36ec1ab482e9fe2cdfcf46ccdcb",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "9"
+          },
+          {
+            "label": "C",
+            "content": "12"
+          },
+          {
+            "label": "D",
+            "content": "15"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->极坐标系与直角坐标系"
+        ],
+        "competition_source_list": [
+          "1984年全国高中数学联赛竞赛一试第3题",
+          "2015年湖南全国高中数学联赛竞赛初赛第4题5分",
+          "2006年上海复旦大学自主招生千分考第22题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_4:01932",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1932,
+      "split": "zh_test",
+      "source_problem_id": "66a80a0f7f714f9e9fcc6b852873c2c1"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "2005AMC12A, 21  How many ordered triples of integers $$(a, b, c)$$, with $$a\\geqslant2$$, $$b\\geqslant1$$, and $$c\\geqslant0$$, satisfy both $$\\log_ab=c^{2005}$$ and $$a+b+c= 2005$$?  有多少个整数 $$(a, b, c)$$ 的有序三元组，其中 $$a\\geqslant2$$、$$b\\geqslant1$$ 和 $$c\\geqslant0$$ 满足 $$\\log_ab =c^{2005}$$ 和 $$a+b+c= 2005$$?\n(A) 0\n(B) 1\n(C) 2\n(D) 3\n(E) 4",
+      "problem_plain": "2005AMC12A, 21 How many ordered triples of integers (a, b, c) , with a 2 , b 1 , and c 0 , satisfy both _ab=c^ 2005 and a+b+c= 2005 ? 有多少个整数 (a, b, c) 的有序三元组，其中 a 2 、 b 1 和 c 0 满足 _ab =c^ 2005 和 a+b+c= 2005 ? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_latex": "由$\\log_a{b}=c^{2005}$可知$b=a^{c^{2005}}$.  又由$a+b+c=2005$知$a\\textless2005$, 故$c=0$或$c=1$.  $c=0$时, $b=a^{0}=1$, $a=2005-b-c=2004$.  $c=1$时, $b=a^{1}=a$, 再由$a+b+c=2005$知$(a,b,c)=(1002, 1002, 1)$.  共两种, 选$$\\text{C}$$.",
+      "solution_plain": "由 _a b =c^ 2005 可知 b=a^ c^ 2005 . 又由 a+b+c=2005 知 a 2005 , 故 c=0 或 c=1 . c=0 时, b=a^ 0 =1 , a=2005-b-c=2004 . c=1 时, b=a^ 1 =a , 再由 a+b+c=2005 知 (a,b,c)=(1002, 1002, 1) . 共两种, 选 C ."
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "algebra",
+        "amc10_12",
+        "calculation",
+        "solve_quadratic_equations",
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "amc10_12",
+        "calculation",
+        "level_4",
+        "single_choice",
+        "solve_quadratic_equations",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由$\\log_a{b}=c^{2005}$可知$b=a^{c^{2005}}$.",
+        "又由$a+b+c=2005$知$a\\textless2005$, 故$c=0$或$c=1$.",
+        "$c=0$时, $b=a^{0}=1$, $a=2005-b-c=2004$.",
+        "$c=1$时, $b=a^{1}=a$, 再由$a+b+c=2005$知$(a,b,c)=(1002, 1002, 1)$.",
+        "共两种, 选$$\\text{C}$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2005AMC12A, 21 How many ordered triples of integers (a, b, c) , with a 2 , b 1 , and c 0 , satisfy both _ab=c^ 2005 and a+b+c= 2005 ? 有多少个整数 (a, b, c) 的有序三元组，其中 a 2 、 b 1 和 c 0 满足 _ab =c^ 2005 和 a+b+c= 2005 ? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_text": "由 _a b =c^ 2005 可知 b=a^ c^ 2005 . 又由 a+b+c=2005 知 a 2005 , 故 c=0 或 c=1 . c=0 时, b=a^ 0 =1 , a=2005-b-c=2004 . c=1 时, b=a^ 1 =a , 再由 a+b+c=2005 知 (a,b,c)=(1002, 1002, 1) . 共两种, 选 C .",
+      "keywords": [
+        "algebra",
+        "amc10_12",
+        "calculation",
+        "level_4",
+        "single_choice",
+        "solve_quadratic_equations",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "191",
+        "queId": "66a80a0f7f714f9e9fcc6b852873c2c1",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          },
+          {
+            "label": "E",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->基本初等函数->对数的概念及其运算->指对化简求值",
+          "美国AMC10/12->Knowledge Point->Algebra->Calculation->Solve Quadratic Equations"
+        ],
+        "competition_source_list": [
+          "2005年AMC12竞赛A第21题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_4:01966",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1966,
+      "split": "zh_test",
+      "source_problem_id": "848de2b3929b4caaa19c2e4e2995074a"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "2003AMC12A, 24  If $$a\\geqslant b\\textgreater1$$, what is the largest possible value of $$\\log_a\\left(\\frac{a}{b}\\right)+\\log_b\\left(\\frac{b}{a}\\right)$$?  若$$a\\geqslant b\\textgreater1$$, $$\\log_a\\left(\\frac{a}{b}\\right)+\\log_b\\left(\\frac{b}{a}\\right)$$的最大值为? ．\n(A) -2\n(B) 0\n(C) 2\n(D) 3\n(E) 4",
+      "problem_plain": "2003AMC12A, 24 If a b 1 , what is the largest possible value of _a ( a b )+ _b ( b a ) ? 若 a b 1 , _a ( a b )+ _b ( b a ) 的最大值为? ． (A) -2 (B) 0 (C) 2 (D) 3 (E) 4",
+      "solution_latex": "$$\\log_a\\left(\\frac{a}{b}\\right)+\\log_b\\left(\\frac{b}{a}\\right)=1-\\log_a{b}+1-\\log_b{a}=2-(\\log_a{b}+\\log_b{a})$$  $$=2-\\left(\\log_a{b}+\\frac{1}{\\log_a{b}}\\right)\\leq 2-2=0$$, 选$$\\text{B}$$.",
+      "solution_plain": "_a ( a b )+ _b ( b a )=1- _a b +1- _b a =2-( _a b + _b a ) =2- ( _a b + 1 _a b ) 2-2=0 , 选 B ."
+    },
+    "answer": {
+      "final_raw": "0",
+      "final_normalized": "0",
+      "candidates": [
+        "0",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "combination",
+        "reasoning",
+        "simple_logical_reasoning",
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "amc10_12",
+        "combination",
+        "level_4",
+        "reasoning",
+        "simple_logical_reasoning",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$\\log_a\\left(\\frac{a}{b}\\right)+\\log_b\\left(\\frac{b}{a}\\right)=1-\\log_a{b}+1-\\log_b{a}=2-(\\log_a{b}+\\log_b{a})$$  $$=2-\\left(\\log_a{b}+\\frac{1}{\\log_a{b}}\\right)\\leq 2-2=0$$, 选$$\\text{B}$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2003AMC12A, 24 If a b 1 , what is the largest possible value of _a ( a b )+ _b ( b a ) ? 若 a b 1 , _a ( a b )+ _b ( b a ) 的最大值为? ． (A) -2 (B) 0 (C) 2 (D) 3 (E) 4",
+      "solution_text": "_a ( a b )+ _b ( b a )=1- _a b +1- _b a =2-( _a b + _b a ) =2- ( _a b + 1 _a b ) 2-2=0 , 选 B .",
+      "keywords": [
+        "algebra",
+        "amc10_12",
+        "combination",
+        "level_4",
+        "reasoning",
+        "simple_logical_reasoning",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "725",
+        "queId": "848de2b3929b4caaa19c2e4e2995074a",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "-2"
+          },
+          {
+            "label": "B",
+            "content": "0"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          },
+          {
+            "label": "E",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "美国AMC10/12->Knowledge Point->Combination->Reasoning->Simple Logical Reasoning",
+          "课内体系->知识点->基本初等函数->对数的概念及其运算->对数的运算"
+        ],
+        "competition_source_list": [
+          "2003年AMC12竞赛A第24题"
+        ]
+      }
+    }
+  }
+]

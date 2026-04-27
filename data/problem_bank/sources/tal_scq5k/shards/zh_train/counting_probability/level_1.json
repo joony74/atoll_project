@@ -1,0 +1,1695 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_1:00170",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 170,
+      "split": "zh_train",
+      "source_problem_id": "ef5e066f20f9419fa9fec355c9ed0f82"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "张、黄、李分别是三位小朋友的姓．根据下面三句话，请你猜一猜，三位小朋友各姓什么?  已知：  $$\\left( 1 \\right)$$甲不姓张；  $$\\left( 2 \\right)$$姓黄的不是丙；  $$\\left( 3 \\right)$$甲和乙正在听姓李的小朋友唱歌．\n(A) 甲姓张，乙姓黄，丙姓李．\n(B) 甲姓黄，乙姓李，丙姓张．\n(C) 甲姓黄，乙姓张，丙姓李．\n(D) 甲姓李，乙姓张，丙姓黄．",
+      "problem_plain": "张、黄、李分别是三位小朋友的姓．根据下面三句话，请你猜一猜，三位小朋友各姓什么? 已知： ( 1 ) 甲不姓张； ( 2 ) 姓黄的不是丙； ( 3 ) 甲和乙正在听姓李的小朋友唱歌． (A) 甲姓张，乙姓黄，丙姓李． (B) 甲姓黄，乙姓李，丙姓张． (C) 甲姓黄，乙姓张，丙姓李． (D) 甲姓李，乙姓张，丙姓黄．",
+      "solution_latex": "甲姓黄，乙姓张，丙姓李．",
+      "solution_plain": "甲姓黄，乙姓张，丙姓李．"
+    },
+    "answer": {
+      "final_raw": "甲姓黄，乙姓张，丙姓李．",
+      "final_normalized": "甲姓黄，乙姓张，丙姓李．",
+      "candidates": [
+        "C",
+        "甲姓黄，乙姓张，丙姓李．"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "甲姓黄，乙姓张，丙姓李．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "张、黄、李分别是三位小朋友的姓．根据下面三句话，请你猜一猜，三位小朋友各姓什么? 已知： ( 1 ) 甲不姓张； ( 2 ) 姓黄的不是丙； ( 3 ) 甲和乙正在听姓李的小朋友唱歌． (A) 甲姓张，乙姓黄，丙姓李． (B) 甲姓黄，乙姓李，丙姓张． (C) 甲姓黄，乙姓张，丙姓李． (D) 甲姓李，乙姓张，丙姓黄．",
+      "solution_text": "甲姓黄，乙姓张，丙姓李．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "512",
+        "queId": "ef5e066f20f9419fa9fec355c9ed0f82",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "甲姓张，乙姓黄，丙姓李．"
+          },
+          {
+            "label": "B",
+            "content": "甲姓黄，乙姓李，丙姓张．"
+          },
+          {
+            "label": "C",
+            "content": "甲姓黄，乙姓张，丙姓李．"
+          },
+          {
+            "label": "D",
+            "content": "甲姓李，乙姓张，丙姓黄．"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->逻辑推理->条件型逻辑推理->表格法"
+        ],
+        "competition_source_list": [
+          "2016年全国学而思杯一年级竞赛样卷第7题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_1:00226",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 226,
+      "split": "zh_train",
+      "source_problem_id": "3449325fd55246e08d7476067cca6b8b"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "现在是下午$$2$$时，灰太狼准备在$$1$$小时后去喝下午茶，请问灰太狼几点钟喝下午茶？\n(A) 下午$$2$$时\n(B) 下午$$3$$时\n(C) 下午$$4$$时\n(D) 我不知道",
+      "problem_plain": "现在是下午 2 时，灰太狼准备在 1 小时后去喝下午茶，请问灰太狼几点钟喝下午茶？ (A) 下午 2 时 (B) 下午 3 时 (C) 下午 4 时 (D) 我不知道",
+      "solution_latex": "现在是下午$$2$$时，$$1$$小时后是下午$$3$$时．",
+      "solution_plain": "现在是下午 2 时， 1 小时后是下午 3 时．"
+    },
+    "answer": {
+      "final_raw": "下午$$3$$时",
+      "final_normalized": "下午$$3$$时",
+      "candidates": [
+        "B",
+        "下午$$3$$时"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "现在是下午$$2$$时，$$1$$小时后是下午$$3$$时．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "现在是下午 2 时，灰太狼准备在 1 小时后去喝下午茶，请问灰太狼几点钟喝下午茶？ (A) 下午 2 时 (B) 下午 3 时 (C) 下午 4 时 (D) 我不知道",
+      "solution_text": "现在是下午 2 时， 1 小时后是下午 3 时．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "105",
+        "queId": "3449325fd55246e08d7476067cca6b8b",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "下午$$2$$时"
+          },
+          {
+            "label": "B",
+            "content": "下午$$3$$时"
+          },
+          {
+            "label": "C",
+            "content": "下午$$4$$时"
+          },
+          {
+            "label": "D",
+            "content": "我不知道"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->拓展思维->组合模块->时间问题->认识钟表"
+        ],
+        "competition_source_list": [
+          "2015年全国学而思杯小学低年级竞赛学前组第2题",
+          "2015年第5届全国学而思综合能力诊断学前班竞赛第2题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_1:00390",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 390,
+      "split": "zh_train",
+      "source_problem_id": "9cedf28367094132b54d3658a92c82d1"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "将各位数字的和为$$4$$的所有自然数由小到大排成一列，$$2011$$是第(  )个。\n(A) 23\n(B) 24\n(C) 25\n(D) 27",
+      "problem_plain": "将各位数字的和为 4 的所有自然数由小到大排成一列， 2011 是第( )个。 (A) 23 (B) 24 (C) 25 (D) 27",
+      "solution_latex": "枚举法。各位数字和为$$4$$的自然数依次为：$$4\\text{，}13\\text{，}22\\text{，}31\\text{，}40\\text{，}103\\text{，}112\\text{，}121\\text{，}130\\text{，}202\\text{，}211\\text{，}220\\text{，}301\\text{，}310\\text{，}400\\text{，}1003\\text{，}1012\\text{，}1021\\text{，}1030\\text{，}1102\\text{，}1111\\text{，}1120\\text{，}1201\\text{，}1210\\text{，}1300\\text{，}2002\\text{，}2011$$，即$$2011$$是第$$27$$个。",
+      "solution_plain": "枚举法。各位数字和为 4 的自然数依次为： 4 ， 13 ， 22 ， 31 ， 40 ， 103 ， 112 ， 121 ， 130 ， 202 ， 211 ， 220 ， 301 ， 310 ， 400 ， 1003 ， 1012 ， 1021 ， 1030 ， 1102 ， 1111 ， 1120 ， 1201 ， 1210 ， 1300 ， 2002 ， 2011 ，即 2011 是第 27 个。"
+    },
+    "answer": {
+      "final_raw": "27",
+      "final_normalized": "27",
+      "candidates": [
+        "27",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "枚举法。各位数字和为$$4$$的自然数依次为：$$4\\text{，}13\\text{，}22\\text{，}31\\text{，}40\\text{，}103\\text{，}112\\text{，}121\\text{，}130\\text{，}202\\text{，}211\\text{，}220\\text{，}301\\text{，}310\\text{，}400\\text{，}1003\\text{，}1012\\text{，}1021\\text{，}1030\\text{，}1102\\text{，}1111\\text{，}1120\\text{，}1201\\text{，}1210\\text{，}1300\\text{，}2002\\text{，}2011$$，即$$2011$$是第$$27$$个。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "将各位数字的和为 4 的所有自然数由小到大排成一列， 2011 是第( )个。 (A) 23 (B) 24 (C) 25 (D) 27",
+      "solution_text": "枚举法。各位数字和为 4 的自然数依次为： 4 ， 13 ， 22 ， 31 ， 40 ， 103 ， 112 ， 121 ， 130 ， 202 ， 211 ， 220 ， 301 ， 310 ， 400 ， 1003 ， 1012 ， 1021 ， 1030 ， 1102 ， 1111 ， 1120 ， 1201 ， 1210 ， 1300 ， 2002 ， 2011 ，即 2011 是第 27 个。",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3424",
+        "queId": "9cedf28367094132b54d3658a92c82d1",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "23"
+          },
+          {
+            "label": "B",
+            "content": "24"
+          },
+          {
+            "label": "C",
+            "content": "25"
+          },
+          {
+            "label": "D",
+            "content": "27"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计数模块->枚举法综合->枚举法->有序枚举"
+        ],
+        "competition_source_list": [
+          "2011年五年级竞赛创新杯"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_1:00530",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 530,
+      "split": "zh_train",
+      "source_problem_id": "1be042552e18453d8fcc5111d611feca"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "星期天，小军帮助妈妈做一些家务。各项家务花的时间为：叠被子$$3$$分钟，洗碗$$8$$分钟，用洗衣机洗衣服$$30$$分钟，晾衣服$$5$$分钟，拖地板$$10$$分钟，削土豆皮$$12$$分钟。  想一想：以上事件中哪些是必须要按顺序完成的？\n(A) 叠被子$$-$$洗碗\n(B) 用洗衣机洗衣服$$-$$晾衣服\n(C) 拖地板$$-$$削土豆皮\n(D) 洗碗$$-$$晾衣服",
+      "problem_plain": "星期天，小军帮助妈妈做一些家务。各项家务花的时间为：叠被子 3 分钟，洗碗 8 分钟，用洗衣机洗衣服 30 分钟，晾衣服 5 分钟，拖地板 10 分钟，削土豆皮 12 分钟。 想一想：以上事件中哪些是必须要按顺序完成的？ (A) 叠被子 - 洗碗 (B) 用洗衣机洗衣服 - 晾衣服 (C) 拖地板 - 削土豆皮 (D) 洗碗 - 晾衣服",
+      "solution_latex": "解： 先用洗衣机洗衣服，然后晾衣服。",
+      "solution_plain": "解： 先用洗衣机洗衣服，然后晾衣服。"
+    },
+    "answer": {
+      "final_raw": "用洗衣机洗衣服$$-$$晾衣服",
+      "final_normalized": "用洗衣机洗衣服$$-$$晾衣服",
+      "candidates": [
+        "B",
+        "用洗衣机洗衣服$$-$$晾衣服"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "解： 先用洗衣机洗衣服，然后晾衣服。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "星期天，小军帮助妈妈做一些家务。各项家务花的时间为：叠被子 3 分钟，洗碗 8 分钟，用洗衣机洗衣服 30 分钟，晾衣服 5 分钟，拖地板 10 分钟，削土豆皮 12 分钟。 想一想：以上事件中哪些是必须要按顺序完成的？ (A) 叠被子 - 洗碗 (B) 用洗衣机洗衣服 - 晾衣服 (C) 拖地板 - 削土豆皮 (D) 洗碗 - 晾衣服",
+      "solution_text": "解： 先用洗衣机洗衣服，然后晾衣服。",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1",
+        "queId": "1be042552e18453d8fcc5111d611feca",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "叠被子$$-$$洗碗"
+          },
+          {
+            "label": "B",
+            "content": "用洗衣机洗衣服$$-$$晾衣服"
+          },
+          {
+            "label": "C",
+            "content": "拖地板$$-$$削土豆皮"
+          },
+          {
+            "label": "D",
+            "content": "洗碗$$-$$晾衣服"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->操作与策略->统筹规划->简单时间统筹问题->时间总和问题"
+        ],
+        "competition_source_list": [
+          "2013年中环杯三年级竞赛决赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_1:00941",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 941,
+      "split": "zh_train",
+      "source_problem_id": "ee061a9d0ba643dcb6b506905845b9b3"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有一个推理游戏叫做``狼人杀''，$$10$$位同学参与游戏，通过抽牌决定所扮演的角色，事先做好$$10$$张卡牌（除所写文字不同，其余均相同），其中有法官牌$$1$$张，预言家牌$$1$$张，女巫牌$$1$$张，猎人牌$$1$$张，狼人牌$$3$$张．艾迪参与游戏，如果只随机抽取一张，那么艾迪抽到狼人牌的概率是．\n(A) 10 \\%\n(B) 20 \\%\n(C) 30 \\%\n(D) 40 \\%",
+      "problem_plain": "有一个推理游戏叫做``狼人杀''， 10 位同学参与游戏，通过抽牌决定所扮演的角色，事先做好 10 张卡牌（除所写文字不同，其余均相同），其中有法官牌 1 张，预言家牌 1 张，女巫牌 1 张，猎人牌 1 张，狼人牌 3 张．艾迪参与游戏，如果只随机抽取一张，那么艾迪抽到狼人牌的概率是． (A) 10 % (B) 20 % (C) 30 % (D) 40 %",
+      "solution_latex": "狼人牌有$$3$$张，一共有$$10$$张卡牌．所以抽到狼人牌的概率是$$\\frac{3}{10}=30  \\% $$．",
+      "solution_plain": "狼人牌有 3 张，一共有 10 张卡牌．所以抽到狼人牌的概率是 3 10 =30 % ．"
+    },
+    "answer": {
+      "final_raw": "30 \\%",
+      "final_normalized": "30 \\%",
+      "candidates": [
+        "30 \\%",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "狼人牌有$$3$$张，一共有$$10$$张卡牌．所以抽到狼人牌的概率是$$\\frac{3}{10}=30  \\% $$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有一个推理游戏叫做``狼人杀''， 10 位同学参与游戏，通过抽牌决定所扮演的角色，事先做好 10 张卡牌（除所写文字不同，其余均相同），其中有法官牌 1 张，预言家牌 1 张，女巫牌 1 张，猎人牌 1 张，狼人牌 3 张．艾迪参与游戏，如果只随机抽取一张，那么艾迪抽到狼人牌的概率是． (A) 10 % (B) 20 % (C) 30 % (D) 40 %",
+      "solution_text": "狼人牌有 3 张，一共有 10 张卡牌．所以抽到狼人牌的概率是 3 10 =30 % ．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3410",
+        "queId": "ee061a9d0ba643dcb6b506905845b9b3",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10 \\%"
+          },
+          {
+            "label": "B",
+            "content": "20 \\%"
+          },
+          {
+            "label": "C",
+            "content": "30 \\%"
+          },
+          {
+            "label": "D",
+            "content": "40 \\%"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计数模块->统计与概率->概率->计数求概率"
+        ],
+        "competition_source_list": [
+          "2017年北京学而思杯六年级竞赛年度教学质量监测第2题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_1:01193",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1193,
+      "split": "zh_train",
+      "source_problem_id": "ce3896d59e0143f699c36e487bffd1a5"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$2$$个人同时吃$$2$$个馒头用$$2$$分钟，$$10$$个人同时吃$$10$$个馒头用分钟．\n(A) 2\n(B) 10\n(C) 20",
+      "problem_plain": "2 个人同时吃 2 个馒头用 2 分钟， 10 个人同时吃 10 个馒头用分钟． (A) 2 (B) 10 (C) 20",
+      "solution_latex": "两人同时吃两个馒头的时间与一个人吃一个馒头时间相同，与$$10$$个人同时吃$$10$$个馒头时间相同，都是两分钟．  故选：$$\\text{A}$$．",
+      "solution_plain": "两人同时吃两个馒头的时间与一个人吃一个馒头时间相同，与 10 个人同时吃 10 个馒头时间相同，都是两分钟． 故选： A ．"
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "两人同时吃两个馒头的时间与一个人吃一个馒头时间相同，与$$10$$个人同时吃$$10$$个馒头时间相同，都是两分钟．  故选：$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2 个人同时吃 2 个馒头用 2 分钟， 10 个人同时吃 10 个馒头用分钟． (A) 2 (B) 10 (C) 20",
+      "solution_text": "两人同时吃两个馒头的时间与一个人吃一个馒头时间相同，与 10 个人同时吃 10 个馒头时间相同，都是两分钟． 故选： A ．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "456",
+        "queId": "ce3896d59e0143f699c36e487bffd1a5",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "10"
+          },
+          {
+            "label": "C",
+            "content": "20"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->操作与策略->统筹规划->简单时间统筹问题->同时进行问题"
+        ],
+        "competition_source_list": [
+          "2018年第22届广东世界少年奥林匹克数学竞赛一年级竞赛初赛第2题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_1:01343",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1343,
+      "split": "zh_train",
+      "source_problem_id": "9812d4f24482420580c6931d94c5d771"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "狐狸、灰兔、小熊、小猪和松鼠都参加了跳绳比赛，小猪比狐狸少跳了$$3$$下，小猪比小熊少跳了$$1$$下，灰兔比狐狸多跳了$$3$$下，比松鼠少跳$$3$$下，狐狸是第~\\uline{~~~~~~~~~~}~名．\n(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+      "problem_plain": "狐狸、灰兔、小熊、小猪和松鼠都参加了跳绳比赛，小猪比狐狸少跳了 3 下，小猪比小熊少跳了 1 下，灰兔比狐狸多跳了 3 下，比松鼠少跳 3 下，狐狸是第~ ~~~~~~~~~~ ~名． (A) 1 (B) 2 (C) 3 (D) 4 (E) 5",
+      "solution_latex": "根据题目描述得小猪\\textless 小熊\\textless 狐狸\\textless 灰兔\\textless 松鼠．",
+      "solution_plain": "根据题目描述得小猪 小熊 狐狸 灰兔 松鼠．"
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "根据题目描述得小猪\\textless 小熊\\textless 狐狸\\textless 灰兔\\textless 松鼠．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "狐狸、灰兔、小熊、小猪和松鼠都参加了跳绳比赛，小猪比狐狸少跳了 3 下，小猪比小熊少跳了 1 下，灰兔比狐狸多跳了 3 下，比松鼠少跳 3 下，狐狸是第~ ~~~~~~~~~~ ~名． (A) 1 (B) 2 (C) 3 (D) 4 (E) 5",
+      "solution_text": "根据题目描述得小猪 小熊 狐狸 灰兔 松鼠．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "455",
+        "queId": "9812d4f24482420580c6931d94c5d771",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          },
+          {
+            "label": "E",
+            "content": "5"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->知识点->组合模块->逻辑推理",
+          "拓展思维->拓展思维->组合模块->逻辑推理->条件型逻辑推理->神推理"
+        ],
+        "competition_source_list": [
+          "2013年全国学而思杯二年级竞赛第4题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_1:01353",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1353,
+      "split": "zh_train",
+      "source_problem_id": "53d87ebda6d24d0d9b8e9821a3767a74"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$10$$个学生参加一次考试，满分是$$100$$分，这次考试中十个学生的平均分为$$92$$，成绩最差的学生可能得到的最低分为(  )\n(A) 92\n(B) 90\n(C) 40\n(D) 20",
+      "problem_plain": "10 个学生参加一次考试，满分是 100 分，这次考试中十个学生的平均分为 92 ，成绩最差的学生可能得到的最低分为( ) (A) 92 (B) 90 (C) 40 (D) 20",
+      "solution_latex": "这次考试$$10$$个学生的总分为$$92\\times 10=920$$（分），假设有$$9$$个学生的成绩为满分，即$$100\\times 9=900$$（分），那么最差学生的最低分为$$920-900=20$$（分），所以选D。",
+      "solution_plain": "这次考试 10 个学生的总分为 92 10=920 （分），假设有 9 个学生的成绩为满分，即 100 9=900 （分），那么最差学生的最低分为 920-900=20 （分），所以选D。"
+    },
+    "answer": {
+      "final_raw": "20",
+      "final_normalized": "20",
+      "candidates": [
+        "20",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "这次考试$$10$$个学生的总分为$$92\\times 10=920$$（分），假设有$$9$$个学生的成绩为满分，即$$100\\times 9=900$$（分），那么最差学生的最低分为$$920-900=20$$（分），所以选D。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "10 个学生参加一次考试，满分是 100 分，这次考试中十个学生的平均分为 92 ，成绩最差的学生可能得到的最低分为( ) (A) 92 (B) 90 (C) 40 (D) 20",
+      "solution_text": "这次考试 10 个学生的总分为 92 10=920 （分），假设有 9 个学生的成绩为满分，即 100 9=900 （分），那么最差学生的最低分为 920-900=20 （分），所以选D。",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "50",
+        "queId": "53d87ebda6d24d0d9b8e9821a3767a74",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "92"
+          },
+          {
+            "label": "B",
+            "content": "90"
+          },
+          {
+            "label": "C",
+            "content": "40"
+          },
+          {
+            "label": "D",
+            "content": "20"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->数字谜->竖式数字谜->竖式数字谜的最值"
+        ],
+        "competition_source_list": [
+          "2006年六年级竞赛创新杯",
+          "2006年六年级竞赛创新杯",
+          "2006年五年级竞赛创新杯",
+          "2006年第4届创新杯四年级竞赛初赛A卷第2题",
+          "2006年五年级竞赛创新杯",
+          "2006年四年级竞赛创新杯",
+          "2006年四年级竞赛创新杯"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_1:01412",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1412,
+      "split": "zh_train",
+      "source_problem_id": "070f7b7b9f0d4a8b92587b575f200be2"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "``数学趣味题数学趣味题$$\\cdots \\cdots $$''依次重复排列，第$$2019$$个字是．\n(A) 趣\n(B) 味\n(C) 题",
+      "problem_plain": "``数学趣味题数学趣味题 ''依次重复排列，第 2019 个字是． (A) 趣 (B) 味 (C) 题",
+      "solution_latex": "观察题干可知，$$5$$个字一个循环周期，分别按照数、学、趣、味、题，依次排列，据此求出第$$2019$$个字是第几个循环周期的第几个字即可解答问题．  $$2019\\div 5=403$$（组）$$\\cdots \\cdots 4$$（个），  所以第$$2019$$个字是第$$403$$循环周期的第$$4$$个字，是``味''．  答：第$$2019$$个字是味．  故选：$$\\text{B}$$．",
+      "solution_plain": "观察题干可知， 5 个字一个循环周期，分别按照数、学、趣、味、题，依次排列，据此求出第 2019 个字是第几个循环周期的第几个字即可解答问题． 2019 5=403 （组） 4 （个）， 所以第 2019 个字是第 403 循环周期的第 4 个字，是``味''． 答：第 2019 个字是味． 故选： B ．"
+    },
+    "answer": {
+      "final_raw": "味",
+      "final_normalized": "味",
+      "candidates": [
+        "B",
+        "味"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "观察题干可知，$$5$$个字一个循环周期，分别按照数、学、趣、味、题，依次排列，据此求出第$$2019$$个字是第几个循环周期的第几个字即可解答问题．  $$2019\\div 5=403$$（组）$$\\cdots \\cdots 4$$（个），  所以第$$2019$$个字是第$$403$$循环周期的第$$4$$个字，是``味''．  答：第$$2019$$个字是味．  故选：$$\\text{B}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "``数学趣味题数学趣味题 ''依次重复排列，第 2019 个字是． (A) 趣 (B) 味 (C) 题",
+      "solution_text": "观察题干可知， 5 个字一个循环周期，分别按照数、学、趣、味、题，依次排列，据此求出第 2019 个字是第几个循环周期的第几个字即可解答问题． 2019 5=403 （组） 4 （个）， 所以第 2019 个字是第 403 循环周期的第 4 个字，是``味''． 答：第 2019 个字是味． 故选： B ．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1041",
+        "queId": "070f7b7b9f0d4a8b92587b575f200be2",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "趣"
+          },
+          {
+            "label": "B",
+            "content": "味"
+          },
+          {
+            "label": "C",
+            "content": "题"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->应用题模块->周期问题->基本排列的周期问题"
+        ],
+        "competition_source_list": [
+          "2018年第22届广东世界少年奥林匹克数学竞赛三年级竞赛决赛第4题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_1:01587",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1587,
+      "split": "zh_train",
+      "source_problem_id": "f442abd3b0f2414f96b4d10d52bc0cc3"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "芳芳煮熟$$2$$个生鸡蛋用$$6$$分钟，煮熟$$10$$个生鸡蛋用分钟．\n(A) 3\n(B) 6\n(C) 30",
+      "problem_plain": "芳芳煮熟 2 个生鸡蛋用 6 分钟，煮熟 10 个生鸡蛋用分钟． (A) 3 (B) 6 (C) 30",
+      "solution_latex": "鸡蛋可以一起煮，所以所花的时间是一样的．  故选择$$\\text{B}$$．",
+      "solution_plain": "鸡蛋可以一起煮，所以所花的时间是一样的． 故选择 B ．"
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "鸡蛋可以一起煮，所以所花的时间是一样的．  故选择$$\\text{B}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "芳芳煮熟 2 个生鸡蛋用 6 分钟，煮熟 10 个生鸡蛋用分钟． (A) 3 (B) 6 (C) 30",
+      "solution_text": "鸡蛋可以一起煮，所以所花的时间是一样的． 故选择 B ．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "524",
+        "queId": "f442abd3b0f2414f96b4d10d52bc0cc3",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "6"
+          },
+          {
+            "label": "C",
+            "content": "30"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->操作与策略->统筹规划->简单时间统筹问题->时间总和问题"
+        ],
+        "competition_source_list": [
+          "2018年第22届广东世界少年奥林匹克数学竞赛二年级竞赛初赛第3题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_1:02686",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2686,
+      "split": "zh_train",
+      "source_problem_id": "4bd140ebd0e34989be770f055867ef28"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一个盒子里有$$3$$个黑球和$$4$$个白球，现从盒子里随机每次取出一个球，取出后不再放回，每个球被取出的可能性相等．直到某种颜色的球全部被取出．最后取出的是黑球的概率是．\n(A) \\frac{3}{5}\n(B) \\frac{4}{7}\n(C) \\frac{1}{2}\n(D) \\frac{3}{7}",
+      "problem_plain": "一个盒子里有 3 个黑球和 4 个白球，现从盒子里随机每次取出一个球，取出后不再放回，每个球被取出的可能性相等．直到某种颜色的球全部被取出．最后取出的是黑球的概率是． (A) 3 5 (B) 4 7 (C) 1 2 (D) 3 7",
+      "solution_latex": "$$7$$个球全被取出的方式共有$$\\text{C}_{7}^{3}=\\text{C}_{7}^{4}=35$$（种），$$3$$个黑球全部被取出的方式有$$\\text{C}_{6}^{3}=20$$（种），故所求概率为$$\\frac{20}{35}=\\frac{4}{7}$$．",
+      "solution_plain": "7 个球全被取出的方式共有 C _ 7 ^ 3 = C _ 7 ^ 4 =35 （种）， 3 个黑球全部被取出的方式有 C _ 6 ^ 3 =20 （种），故所求概率为 20 35 = 4 7 ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{4}{7}",
+      "final_normalized": "\\frac{4}{7}",
+      "candidates": [
+        "B",
+        "\\frac{4}{7}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$7$$个球全被取出的方式共有$$\\text{C}_{7}^{3}=\\text{C}_{7}^{4}=35$$（种），$$3$$个黑球全部被取出的方式有$$\\text{C}_{6}^{3}=20$$（种），故所求概率为$$\\frac{20}{35}=\\frac{4}{7}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一个盒子里有 3 个黑球和 4 个白球，现从盒子里随机每次取出一个球，取出后不再放回，每个球被取出的可能性相等．直到某种颜色的球全部被取出．最后取出的是黑球的概率是． (A) 3 5 (B) 4 7 (C) 1 2 (D) 3 7",
+      "solution_text": "7 个球全被取出的方式共有 C _ 7 ^ 3 = C _ 7 ^ 4 =35 （种）， 3 个黑球全部被取出的方式有 C _ 6 ^ 3 =20 （种），故所求概率为 20 35 = 4 7 ．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "369",
+        "queId": "4bd140ebd0e34989be770f055867ef28",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{3}{5}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{4}{7}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{1}{2}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{3}{7}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->排列组合与概率->概率初步"
+        ],
+        "competition_source_list": [
+          "2011年辽宁全国高中数学联赛竞赛初赛第3题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_1:02756",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2756,
+      "split": "zh_train",
+      "source_problem_id": "fb96b44cd915485d822b88451afe11cb"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$${{\\left( a+2b-3c \\right)}^{4}}$$的展开式中$$ab{{c}^{2}}$$的系数为．\n(A) 208\n(B) 216\n(C) 217\n(D) 218",
+      "problem_plain": "( a+2b-3c ) ^ 4 的展开式中 ab c ^ 2 的系数为． (A) 208 (B) 216 (C) 217 (D) 218",
+      "solution_latex": "依题意，知$$ab{{c}^{2}}$$的系数为$$\\text{C}_{4}^{2}{{(-3)}^{2}}\\text{C}_{2}^{1}\\times 2\\times 1=216$$．",
+      "solution_plain": "依题意，知 ab c ^ 2 的系数为 C _ 4 ^ 2 (-3) ^ 2 C _ 2 ^ 1 2 1=216 ．"
+    },
+    "answer": {
+      "final_raw": "216",
+      "final_normalized": "216",
+      "candidates": [
+        "216",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "依题意，知$$ab{{c}^{2}}$$的系数为$$\\text{C}_{4}^{2}{{(-3)}^{2}}\\text{C}_{2}^{1}\\times 2\\times 1=216$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "( a+2b-3c ) ^ 4 的展开式中 ab c ^ 2 的系数为． (A) 208 (B) 216 (C) 217 (D) 218",
+      "solution_text": "依题意，知 ab c ^ 2 的系数为 C _ 4 ^ 2 (-3) ^ 2 C _ 2 ^ 1 2 1=216 ．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "919",
+        "queId": "fb96b44cd915485d822b88451afe11cb",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "208"
+          },
+          {
+            "label": "B",
+            "content": "216"
+          },
+          {
+            "label": "C",
+            "content": "217"
+          },
+          {
+            "label": "D",
+            "content": "218"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->素养->数学运算",
+          "课内体系->知识点->计数原理->二项式定理->求项的系数或二项式系数",
+          "课内体系->知识点->计数原理->二项式定理->求二项式展开式的特定项"
+        ],
+        "competition_source_list": [
+          "2018年黑龙江全国高中数学联赛竞赛初赛第3题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_1:02864",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2864,
+      "split": "zh_train",
+      "source_problem_id": "f7f387aea7db4c5f972211af4a1efbb5"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$2004-AMC10A-6$$  Bertha has $$6$$ daughters and no sons. Some of her daughters have $$6$$ daughters, and the rest have none. Bertha has a total of $$30$$ daughters and granddaughters, and no great-granddaughters. How many of Bertha\\textquotesingle s daughters and grand-daughters have no children?  伯莎有 $6$$ 个女儿，没有儿子。 她的一些女儿有 $6$$ 个女儿，其余的没有。 伯莎总共有 30个女儿和孙女，没有曾孙女。 伯莎的女儿和孙女有多少没有孩子？\n(A) 22\n(B) 23\n(C) 24\n(D) 25\n(E) 26",
+      "problem_plain": "2004-AMC10A-6 Bertha has 6 daughters and no sons. Some of her daughters have 6 daughters, and the rest have none. Bertha has a total of 30 daughters and granddaughters, and no great-granddaughters. How many of Bertha s daughters and grand-daughters have no children? 伯莎有 6 个女儿，没有儿子。 她的一些女儿有 6 个女儿，其余的没有。 伯莎总共有 30个女儿和孙女，没有曾孙女。 伯莎的女儿和孙女有多少没有孩子？ (A) 22 (B) 23 (C) 24 (D) 25 (E) 26",
+      "solution_latex": "Since Bertha has $$6$$ daughters, she has $$30-6=24$$ granddaughters, of which none have daughters. Of Bertha\\textquotesingle s daughters, $$\\dfrac{24}{6}=4$$ have daughters, so $$6-4=2$$ do not have daughters. Therefore, of Bertha\\textquotesingle s daughters and granddaughters, $$24+2=26$$ do not have daughters. $$\\boxed{ (\\text{E}) 26}$$.  ▪  ▪ Alcumus**  Bertha has $$30-6=24$$ granddaughters, none of whom have any daughters. The granddaughters are the children of $$\\dfrac{24}{6}=4$$ of Bertha\\textquotesingle s daughters, so the number of women having no daughters is $$30-4=\\boxed {26}$$.  Draw a tree diagram and see that the answer can be found in the sum of $$6+6$$ granddaughters, $$5+5$$ daughters, and $$4$$ more daughters. Adding them together gives the answer of $$\\boxed{ (\\text{E}) 26}$$.",
+      "solution_plain": "Since Bertha has 6 daughters, she has 30-6=24 granddaughters, of which none have daughters. Of Bertha s daughters, 24 6 =4 have daughters, so 6-4=2 do not have daughters. Therefore, of Bertha s daughters and granddaughters, 24+2=26 do not have daughters. ( E ) 26 . ▪ ▪ Alcumus** Bertha has 30-6=24 granddaughters, none of whom have any daughters. The granddaughters are the children of 24 6 =4 of Bertha s daughters, so the number of women having no daughters is 30-4= 26 . Draw a tree diagram and see that the answer can be found in the sum of 6+6 granddaughters, 5+5 daughters, and 4 more daughters. Adding them together gives the answer of ( E ) 26 ."
+    },
+    "answer": {
+      "final_raw": "26",
+      "final_normalized": "26",
+      "candidates": [
+        "26",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "amc10_12",
+        "combination",
+        "reasoning",
+        "simple_logical_reasoning",
+        "unknown"
+      ],
+      "tags": [
+        "amc10_12",
+        "combination",
+        "counting_probability",
+        "level_1",
+        "reasoning",
+        "simple_logical_reasoning",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Since Bertha has $$6$$ daughters, she has $$30-6=24$$ granddaughters, of which none have daughters.",
+        "Of Bertha\\textquotesingle s daughters, $$\\dfrac{24}{6}=4$$ have daughters, so $$6-4=2$$ do not have daughters.",
+        "Therefore, of Bertha\\textquotesingle s daughters and granddaughters, $$24+2=26$$ do not have daughters.",
+        "$$\\boxed{ (\\text{E}) 26}$$.",
+        "▪  ▪ Alcumus**  Bertha has $$30-6=24$$ granddaughters, none of whom have any daughters.",
+        "The granddaughters are the children of $$\\dfrac{24}{6}=4$$ of Bertha\\textquotesingle s daughters, so the number of women having no daughters is $$30-4=\\boxed {26}$$.",
+        "Draw a tree diagram and see that the answer can be found in the sum of $$6+6$$ granddaughters, $$5+5$$ daughters, and $$4$$ more daughters.",
+        "Adding them together gives the answer of $$\\boxed{ (\\text{E}) 26}$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2004-AMC10A-6 Bertha has 6 daughters and no sons. Some of her daughters have 6 daughters, and the rest have none. Bertha has a total of 30 daughters and granddaughters, and no great-granddaughters. How many of Bertha s daughters and grand-daughters have no children? 伯莎有 6 个女儿，没有儿子。 她的一些女儿有 6 个女儿，其余的没有。 伯莎总共有 30个女儿和孙女，没有曾孙女。 伯莎的女儿和孙女有多少没有孩子？ (A) 22 (B) 23 (C) 24 (D) 25 (E) 26",
+      "solution_text": "Since Bertha has 6 daughters, she has 30-6=24 granddaughters, of which none have daughters. Of Bertha s daughters, 24 6 =4 have daughters, so 6-4=2 do not have daughters. Therefore, of Bertha s daughters and granddaughters, 24+2=26 do not have daughters. ( E ) 26 . ▪ ▪ Alcumus** Bertha has 30-6=24 granddaughters, none of whom have any daughters. The granddaughters are the children of 24 6 =4 of Bertha s daughters, so the number of women having no daughters is 30-4= 26 . Draw a tree diagram and see that the answer can be found in the sum of 6+6 granddaughters, 5+5 daughters, and 4 more daughters. Adding them together gives the answer of ( E ) 26 .",
+      "keywords": [
+        "amc10_12",
+        "combination",
+        "counting_probability",
+        "level_1",
+        "reasoning",
+        "simple_logical_reasoning",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1091",
+        "queId": "f7f387aea7db4c5f972211af4a1efbb5",
+        "difficulty": "0",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "22"
+          },
+          {
+            "label": "B",
+            "content": "23"
+          },
+          {
+            "label": "C",
+            "content": "24"
+          },
+          {
+            "label": "D",
+            "content": "25"
+          },
+          {
+            "label": "E",
+            "content": "26"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->计数原理->排列与组合->排除法",
+          "美国AMC10/12->Knowledge Point->Combination->Reasoning->Simple Logical Reasoning"
+        ],
+        "competition_source_list": [
+          "2004年AMC10竞赛A第6题",
+          "2004年AMC12竞赛A第4题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_1:02990",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2990,
+      "split": "zh_train",
+      "source_problem_id": "44bd142564114a478aad912c768207b7"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$2008$$年中国北京奥运会吉祥物由$$5$$个``中国福娃''组成，分别叫贝贝、晶晶、欢欢、迎迎、妮妮．现有两套不同大小的福娃（共$$10$$个福娃），从两套福娃中任意选出$$5$$个福娃，恰好缺一个组成完整``奥运会吉祥物''的选法有．\n(A) 160$$种\n(B) 320$$种\n(C) 32$$种\n(D) 120$$种",
+      "problem_plain": "2008 年中国北京奥运会吉祥物由 5 个``中国福娃''组成，分别叫贝贝、晶晶、欢欢、迎迎、妮妮．现有两套不同大小的福娃（共 10 个福娃），从两套福娃中任意选出 5 个福娃，恰好缺一个组成完整``奥运会吉祥物''的选法有． (A) 160 种 (B) 320 种 (C) 32 种 (D) 120 种",
+      "solution_latex": "$$\\text{C}_{5}^{1}\\cdot \\text{C}_{4}^{1}\\cdot 2\\cdot 2\\cdot 2=160$$．故选$$\\text{A}$$．",
+      "solution_plain": "C _ 5 ^ 1 C _ 4 ^ 1 2 2 2=160 ．故选 A ．"
+    },
+    "answer": {
+      "final_raw": "160$$种",
+      "final_normalized": "160$$种",
+      "candidates": [
+        "160$$种",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$\\text{C}_{5}^{1}\\cdot \\text{C}_{4}^{1}\\cdot 2\\cdot 2\\cdot 2=160$$．故选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2008 年中国北京奥运会吉祥物由 5 个``中国福娃''组成，分别叫贝贝、晶晶、欢欢、迎迎、妮妮．现有两套不同大小的福娃（共 10 个福娃），从两套福娃中任意选出 5 个福娃，恰好缺一个组成完整``奥运会吉祥物''的选法有． (A) 160 种 (B) 320 种 (C) 32 种 (D) 120 种",
+      "solution_text": "C _ 5 ^ 1 C _ 4 ^ 1 2 2 2=160 ．故选 A ．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "611",
+        "queId": "44bd142564114a478aad912c768207b7",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "160$$种"
+          },
+          {
+            "label": "B",
+            "content": "320$$种"
+          },
+          {
+            "label": "C",
+            "content": "32$$种"
+          },
+          {
+            "label": "D",
+            "content": "120$$种"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->排列组合与概率->排列与组合"
+        ],
+        "competition_source_list": [
+          "2008年吉林全国高中数学联赛竞赛初赛第2题6分"
+        ]
+      }
+    }
+  }
+]

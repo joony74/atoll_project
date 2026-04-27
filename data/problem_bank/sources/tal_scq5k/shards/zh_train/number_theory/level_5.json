@@ -1,0 +1,364 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_5:00608",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 608,
+      "split": "zh_train",
+      "source_problem_id": "9e53db3ee81247c2aa57046448824dd2"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$A$$, $$B$$ and $$C$$ are three consecutive numbers that are divisible by $$5$$, $$8$$ and $$9$$ respectively. The smallest possible sum of these three numbers is ．  $$A$$、$$B$$、$$C$$是三个连续数，分别可被$$5$$、$$8$$及$$9$$整除．此三个数最小的和是~\\uline{~~~~~~~~~~}~．\n(A) 555\n(B) 666\n(C) 777\n(D) 888\n(E) 999",
+      "problem_plain": "A , B and C are three consecutive numbers that are divisible by 5 , 8 and 9 respectively. The smallest possible sum of these three numbers is ． A 、 B 、 C 是三个连续数，分别可被 5 、 8 及 9 整除．此三个数最小的和是~ ~~~~~~~~~~ ~． (A) 555 (B) 666 (C) 777 (D) 888 (E) 999",
+      "solution_latex": "$$A$$能被$$5$$整除，个位就是$$0$$或$$5$$，$$A$$加$$1$$得$$B$$ 是$$8$$的倍数，个位不能是$$1$$，故只能是$$6$$，$$B$$再加$$1$$得$$C$$ 是$$9$$的倍数，个位数字是$$7$$，$$C$$的个位只能由$$3\\times 9=27$$得来．  假设$$C=3\\times 9=27$$，则$$B=26$$，$$26$$不能被$$8$$整除；故排除；  假设$$C=13\\times 9=127$$，则$$B=126$$，$$126$$不能被$$8$$整除；故排除；  假设$$C=23\\times 9=207$$，则$$B=206$$，$$206$$不能被$$8$$整除；故排除；  假设$$C=33\\times 9=297$$，则$$B=296$$，$$296\\div 8=37$$，且$$295\\div 5=59$$；因此，最小$$A=295$$，$$B=296$$，$$C=297$$，三个数的和为：$$295+296+297=888$$．  故选$$888$$．",
+      "solution_plain": "A 能被 5 整除，个位就是 0 或 5 ， A 加 1 得 B 是 8 的倍数，个位不能是 1 ，故只能是 6 ， B 再加 1 得 C 是 9 的倍数，个位数字是 7 ， C 的个位只能由 3 9=27 得来． 假设 C=3 9=27 ，则 B=26 ， 26 不能被 8 整除；故排除； 假设 C=13 9=127 ，则 B=126 ， 126 不能被 8 整除；故排除； 假设 C=23 9=207 ，则 B=206 ， 206 不能被 8 整除；故排除； 假设 C=33 9=297 ，则 B=296 ， 296 8=37 ，且 295 5=59 ；因此，最小 A=295 ， B=296 ， C=297 ，三个数的和为： 295+296+297=888 ． 故选 888 ．"
+    },
+    "answer": {
+      "final_raw": "888",
+      "final_normalized": "888",
+      "candidates": [
+        "888",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_5",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$A$$能被$$5$$整除，个位就是$$0$$或$$5$$，$$A$$加$$1$$得$$B$$ 是$$8$$的倍数，个位不能是$$1$$，故只能是$$6$$，$$B$$再加$$1$$得$$C$$ 是$$9$$的倍数，个位数字是$$7$$，$$C$$的个位只能由$$3\\times 9=27$$得来．  假设$$C=3\\times 9=27$$，则$$B=26$$，$$26$$不能被$$8$$整除；故排除；  假设$$C=13\\times 9=127$$，则$$B=126$$，$$126$$不能被$$8$$整除；故排除；  假设$$C=23\\times 9=207$$，则$$B=206$$，$$206$$不能被$$8$$整除；故排除；  假设$$C=33\\times 9=297$$，则$$B=296$$，$$296\\div 8=37$$，且$$295\\div 5=59$$；因此，最小$$A=295$$，$$B=296$$，$$C=297$$，三个数的和为：$$295+296+297=888$$．  故选$$888$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A , B and C are three consecutive numbers that are divisible by 5 , 8 and 9 respectively. The smallest possible sum of these three numbers is ． A 、 B 、 C 是三个连续数，分别可被 5 、 8 及 9 整除．此三个数最小的和是~ ~~~~~~~~~~ ~． (A) 555 (B) 666 (C) 777 (D) 888 (E) 999",
+      "solution_text": "A 能被 5 整除，个位就是 0 或 5 ， A 加 1 得 B 是 8 的倍数，个位不能是 1 ，故只能是 6 ， B 再加 1 得 C 是 9 的倍数，个位数字是 7 ， C 的个位只能由 3 9=27 得来． 假设 C=3 9=27 ，则 B=26 ， 26 不能被 8 整除；故排除； 假设 C=13 9=127 ，则 B=126 ， 126 不能被 8 整除；故排除； 假设 C=23 9=207 ，则 B=206 ， 206 不能被 8 整除；故排除； 假设 C=33 9=297 ，则 B=296 ， 296 8=37 ，且 295 5=59 ；因此，最小 A=295 ， B=296 ， C=297 ，三个数的和为： 295+296+297=888 ． 故选 888 ．",
+      "keywords": [
+        "level_5",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1465",
+        "queId": "9e53db3ee81247c2aa57046448824dd2",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "555"
+          },
+          {
+            "label": "B",
+            "content": "666"
+          },
+          {
+            "label": "C",
+            "content": "777"
+          },
+          {
+            "label": "D",
+            "content": "888"
+          },
+          {
+            "label": "E",
+            "content": "999"
+          }
+        ],
+        "knowledge_point_routes": [
+          "海外竞赛体系->知识点->数论模块->整除->整除特征",
+          "拓展思维->思想->分类讨论思想"
+        ],
+        "competition_source_list": [
+          "2018年环亚太杯六年级竞赛复赛第15题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_5:01012",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1012,
+      "split": "zh_train",
+      "source_problem_id": "d24a111e9c7f40e1bf536a4dfc249255"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$\\overline{**45}$$，$$\\overline{19*8}$$，$$\\overline{23*1}$$，$$\\overline{3*49}$$是四个四位数，其中$$*$$代表不能辨认的数字，若其中有一个数是完全平方数，那么这个数可能是．（6分）\n(A) \\overline{**45}\n(B) \\overline{19*8}\n(C) \\overline{23*1}\n(D) \\overline{3*49}",
+      "problem_plain": "**45 ， 19*8 ， 23*1 ， 3*49 是四个四位数，其中 * 代表不能辨认的数字，若其中有一个数是完全平方数，那么这个数可能是．（6分） (A) **45 (B) 19*8 (C) 23*1 (D) 3*49",
+      "solution_latex": "完全平方数的个位只能为$$0$$、$$1$$、$$4$$、$$5$$、$$6$$、$$9$$，因此排除$$\\text{B}$$选项．如果一个完全平方数是  $$5$$的倍数，那么它至少是$$25$$的倍数，因此排除$$\\text{A}$$选项．估算$${{48}^{2}}=2304$$，$${{49}^{2}}=2401$$，排除  $$\\text{C}$$选项．经检验$${{57}^{2}}=3249$$．",
+      "solution_plain": "完全平方数的个位只能为 0 、 1 、 4 、 5 、 6 、 9 ，因此排除 B 选项．如果一个完全平方数是 5 的倍数，那么它至少是 25 的倍数，因此排除 A 选项．估算 48 ^ 2 =2304 ， 49 ^ 2 =2401 ，排除 C 选项．经检验 57 ^ 2 =3249 ．"
+    },
+    "answer": {
+      "final_raw": "\\overline{3*49}",
+      "final_normalized": "\\overline{3*49}",
+      "candidates": [
+        "D",
+        "\\overline{3*49}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_5",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "完全平方数的个位只能为$$0$$、$$1$$、$$4$$、$$5$$、$$6$$、$$9$$，因此排除$$\\text{B}$$选项．如果一个完全平方数是  $$5$$的倍数，那么它至少是$$25$$的倍数，因此排除$$\\text{A}$$选项．估算$${{48}^{2}}=2304$$，$${{49}^{2}}=2401$$，排除  $$\\text{C}$$选项．经检验$${{57}^{2}}=3249$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "**45 ， 19*8 ， 23*1 ， 3*49 是四个四位数，其中 * 代表不能辨认的数字，若其中有一个数是完全平方数，那么这个数可能是．（6分） (A) **45 (B) 19*8 (C) 23*1 (D) 3*49",
+      "solution_text": "完全平方数的个位只能为 0 、 1 、 4 、 5 、 6 、 9 ，因此排除 B 选项．如果一个完全平方数是 5 的倍数，那么它至少是 25 的倍数，因此排除 A 选项．估算 48 ^ 2 =2304 ， 49 ^ 2 =2401 ，排除 C 选项．经检验 57 ^ 2 =3249 ．",
+      "keywords": [
+        "level_5",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "896",
+        "queId": "d24a111e9c7f40e1bf536a4dfc249255",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\overline{**45}"
+          },
+          {
+            "label": "B",
+            "content": "\\overline{19*8}"
+          },
+          {
+            "label": "C",
+            "content": "\\overline{23*1}"
+          },
+          {
+            "label": "D",
+            "content": "\\overline{3*49}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->知识点->数论模块->完全平方数->平方数的尾数特征"
+        ],
+        "competition_source_list": [
+          "2012年第8届全国新希望杯小学高年级六年级竞赛复赛第6题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_5:01393",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1393,
+      "split": "zh_train",
+      "source_problem_id": "90efdbd02fe749ff86b8c748a27823e7"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$\\overline{**45}$$，$$\\overline{19*8}$$，$$\\overline{2*86}$$，$$\\overline{3*49}$$是四个四位数，其中$$*$$代表不能辨认的数字，若其中有一个数是完全平方数，那么这个数可能是．\n(A) \\overline{**45}\n(B) \\overline{19*8}\n(C) \\overline{2*86}\n(D) \\overline{3*49}",
+      "problem_plain": "**45 ， 19*8 ， 2*86 ， 3*49 是四个四位数，其中 * 代表不能辨认的数字，若其中有一个数是完全平方数，那么这个数可能是． (A) **45 (B) 19*8 (C) 2*86 (D) 3*49",
+      "solution_latex": "完全平方数的个位只能为$$0$$、$$1$$、$$4$$、$$5$$、$$6$$、$$9$$，因此排除$$\\text{B}$$选项．如果一个完全平方数是  $$5$$的倍数，那么它至少是$$25$$的倍数，因此排除$$\\text{A}$$选项．估算$${{48}^{2}}=2304$$，$${{49}^{2}}=2401$$，排除  $$\\text{C}$$选项．经检验$${{57}^{2}}=3249$$．",
+      "solution_plain": "完全平方数的个位只能为 0 、 1 、 4 、 5 、 6 、 9 ，因此排除 B 选项．如果一个完全平方数是 5 的倍数，那么它至少是 25 的倍数，因此排除 A 选项．估算 48 ^ 2 =2304 ， 49 ^ 2 =2401 ，排除 C 选项．经检验 57 ^ 2 =3249 ．"
+    },
+    "answer": {
+      "final_raw": "\\overline{3*49}",
+      "final_normalized": "\\overline{3*49}",
+      "candidates": [
+        "D",
+        "\\overline{3*49}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_5",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "完全平方数的个位只能为$$0$$、$$1$$、$$4$$、$$5$$、$$6$$、$$9$$，因此排除$$\\text{B}$$选项．如果一个完全平方数是  $$5$$的倍数，那么它至少是$$25$$的倍数，因此排除$$\\text{A}$$选项．估算$${{48}^{2}}=2304$$，$${{49}^{2}}=2401$$，排除  $$\\text{C}$$选项．经检验$${{57}^{2}}=3249$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "**45 ， 19*8 ， 2*86 ， 3*49 是四个四位数，其中 * 代表不能辨认的数字，若其中有一个数是完全平方数，那么这个数可能是． (A) **45 (B) 19*8 (C) 2*86 (D) 3*49",
+      "solution_text": "完全平方数的个位只能为 0 、 1 、 4 、 5 、 6 、 9 ，因此排除 B 选项．如果一个完全平方数是 5 的倍数，那么它至少是 25 的倍数，因此排除 A 选项．估算 48 ^ 2 =2304 ， 49 ^ 2 =2401 ，排除 C 选项．经检验 57 ^ 2 =3249 ．",
+      "keywords": [
+        "level_5",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "762",
+        "queId": "90efdbd02fe749ff86b8c748a27823e7",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\overline{**45}"
+          },
+          {
+            "label": "B",
+            "content": "\\overline{19*8}"
+          },
+          {
+            "label": "C",
+            "content": "\\overline{2*86}"
+          },
+          {
+            "label": "D",
+            "content": "\\overline{3*49}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->完全平方数->平方数的简单应用"
+        ],
+        "competition_source_list": [
+          "2012年第8届全国新希望杯小学高年级六年级竞赛复赛第6题4分"
+        ]
+      }
+    }
+  }
+]

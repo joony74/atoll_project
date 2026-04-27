@@ -1,0 +1,1742 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_conversion:00712",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 712,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_conversion_00712"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many millilitres are there in 309.0725l?",
+      "problem_plain": "How many millilitres are there in 309.0725l?",
+      "solution_latex": "309072.5",
+      "solution_plain": "309072.5"
+    },
+    "answer": {
+      "final_raw": "309072.5",
+      "final_normalized": "309072.5",
+      "candidates": [
+        "309072.5"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "decimal"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_conversion"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many millilitres are there in 309.0725l?",
+      "solution_text": "309072.5",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__conversion",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_conversion:00713",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 713,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_conversion_00713"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is 15574.25t in micrograms?",
+      "problem_plain": "What is 15574.25t in micrograms?",
+      "solution_latex": "15574250000000000",
+      "solution_plain": "15574250000000000"
+    },
+    "answer": {
+      "final_raw": "15574250000000000",
+      "final_normalized": "15574250000000000",
+      "candidates": [
+        "15574250000000000"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_conversion"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is 15574.25t in micrograms?",
+      "solution_text": "15574250000000000",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__conversion",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_conversion:00714",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 714,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_conversion_00714"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Convert 0.7828385km to centimeters.",
+      "problem_plain": "Convert 0.7828385km to centimeters.",
+      "solution_latex": "78283.85",
+      "solution_plain": "78283.85"
+    },
+    "answer": {
+      "final_raw": "78283.85",
+      "final_normalized": "78283.85",
+      "candidates": [
+        "78283.85"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "decimal"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_conversion"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Convert 0.7828385km to centimeters.",
+      "solution_text": "78283.85",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__conversion",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_conversion:00715",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 715,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_conversion_00715"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many months are there in 67066.73 years?",
+      "problem_plain": "How many months are there in 67066.73 years?",
+      "solution_latex": "804800.76",
+      "solution_plain": "804800.76"
+    },
+    "answer": {
+      "final_raw": "804800.76",
+      "final_normalized": "804800.76",
+      "candidates": [
+        "804800.76"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "decimal"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_conversion"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many months are there in 67066.73 years?",
+      "solution_text": "804800.76",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__conversion",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_conversion:00716",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 716,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_conversion_00716"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many centuries are there in 0.0149573 millennia?",
+      "problem_plain": "How many centuries are there in 0.0149573 millennia?",
+      "solution_latex": "0.149573",
+      "solution_plain": "0.149573"
+    },
+    "answer": {
+      "final_raw": "0.149573",
+      "final_normalized": "0.149573",
+      "candidates": [
+        "0.149573"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "decimal"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_conversion"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many centuries are there in 0.0149573 millennia?",
+      "solution_text": "0.149573",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__conversion",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_conversion:00717",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 717,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_conversion_00717"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many years are there in 914.3097 months?",
+      "problem_plain": "How many years are there in 914.3097 months?",
+      "solution_latex": "76.192475",
+      "solution_plain": "76.192475"
+    },
+    "answer": {
+      "final_raw": "76.192475",
+      "final_normalized": "76.192475",
+      "candidates": [
+        "76.192475"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "decimal"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_conversion"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many years are there in 914.3097 months?",
+      "solution_text": "76.192475",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__conversion",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_conversion:00718",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 718,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_conversion_00718"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is 3/25 of a microsecond in nanoseconds?",
+      "problem_plain": "What is 3/25 of a microsecond in nanoseconds?",
+      "solution_latex": "120",
+      "solution_plain": "120"
+    },
+    "answer": {
+      "final_raw": "120",
+      "final_normalized": "120",
+      "candidates": [
+        "120"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_conversion"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is 3/25 of a microsecond in nanoseconds?",
+      "solution_text": "120",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__conversion",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_conversion:00719",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 719,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_conversion_00719"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Convert 37.29621km to nanometers.",
+      "problem_plain": "Convert 37.29621km to nanometers.",
+      "solution_latex": "37296210000000",
+      "solution_plain": "37296210000000"
+    },
+    "answer": {
+      "final_raw": "37296210000000",
+      "final_normalized": "37296210000000",
+      "candidates": [
+        "37296210000000"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_conversion"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Convert 37.29621km to nanometers.",
+      "solution_text": "37296210000000",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__conversion",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_conversion:00720",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 720,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_conversion_00720"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is 1/10 of a kilometer in meters?",
+      "problem_plain": "What is 1/10 of a kilometer in meters?",
+      "solution_latex": "100",
+      "solution_plain": "100"
+    },
+    "answer": {
+      "final_raw": "100",
+      "final_normalized": "100",
+      "candidates": [
+        "100"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_conversion"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is 1/10 of a kilometer in meters?",
+      "solution_text": "100",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__conversion",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_conversion:00721",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 721,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_conversion_00721"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is four thirds of a decade in months?",
+      "problem_plain": "What is four thirds of a decade in months?",
+      "solution_latex": "160",
+      "solution_plain": "160"
+    },
+    "answer": {
+      "final_raw": "160",
+      "final_normalized": "160",
+      "candidates": [
+        "160"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_conversion"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is four thirds of a decade in months?",
+      "solution_text": "160",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_conversion",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__conversion",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_time:00722",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 722,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_time_00722"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is 342 minutes after 6:05 PM?",
+      "problem_plain": "What is 342 minutes after 6:05 PM?",
+      "solution_latex": "11:47 PM",
+      "solution_plain": "11:47 PM"
+    },
+    "answer": {
+      "final_raw": "11:47 PM",
+      "final_normalized": "11:47 PM",
+      "candidates": [
+        "11:47 PM"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_time"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is 342 minutes after 6:05 PM?",
+      "solution_text": "11:47 PM",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__time",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_time:00723",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 723,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_time_00723"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many minutes are there between 7:45 AM and 9:45 AM?",
+      "problem_plain": "How many minutes are there between 7:45 AM and 9:45 AM?",
+      "solution_latex": "120",
+      "solution_plain": "120"
+    },
+    "answer": {
+      "final_raw": "120",
+      "final_normalized": "120",
+      "candidates": [
+        "120"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_time"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many minutes are there between 7:45 AM and 9:45 AM?",
+      "solution_text": "120",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__time",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_time:00724",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 724,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_time_00724"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is 137 minutes before 7:47 PM?",
+      "problem_plain": "What is 137 minutes before 7:47 PM?",
+      "solution_latex": "5:30 PM",
+      "solution_plain": "5:30 PM"
+    },
+    "answer": {
+      "final_raw": "5:30 PM",
+      "final_normalized": "5:30 PM",
+      "candidates": [
+        "5:30 PM"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_time"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is 137 minutes before 7:47 PM?",
+      "solution_text": "5:30 PM",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__time",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_time:00725",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 725,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_time_00725"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is 520 minutes before 4:20 AM?",
+      "problem_plain": "What is 520 minutes before 4:20 AM?",
+      "solution_latex": "7:40 PM",
+      "solution_plain": "7:40 PM"
+    },
+    "answer": {
+      "final_raw": "7:40 PM",
+      "final_normalized": "7:40 PM",
+      "candidates": [
+        "7:40 PM"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_time"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is 520 minutes before 4:20 AM?",
+      "solution_text": "7:40 PM",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__time",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_time:00726",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 726,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_time_00726"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many minutes are there between 1:47 PM and 1:02 AM?",
+      "problem_plain": "How many minutes are there between 1:47 PM and 1:02 AM?",
+      "solution_latex": "675",
+      "solution_plain": "675"
+    },
+    "answer": {
+      "final_raw": "675",
+      "final_normalized": "675",
+      "candidates": [
+        "675"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_time"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many minutes are there between 1:47 PM and 1:02 AM?",
+      "solution_text": "675",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__time",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_time:00727",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 727,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_time_00727"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many minutes are there between 10:01 AM and 11:30 AM?",
+      "problem_plain": "How many minutes are there between 10:01 AM and 11:30 AM?",
+      "solution_latex": "89",
+      "solution_plain": "89"
+    },
+    "answer": {
+      "final_raw": "89",
+      "final_normalized": "89",
+      "candidates": [
+        "89"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_time"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many minutes are there between 10:01 AM and 11:30 AM?",
+      "solution_text": "89",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__time",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_time:00728",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 728,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_time_00728"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is 627 minutes after 7:42 PM?",
+      "problem_plain": "What is 627 minutes after 7:42 PM?",
+      "solution_latex": "6:09 AM",
+      "solution_plain": "6:09 AM"
+    },
+    "answer": {
+      "final_raw": "6:09 AM",
+      "final_normalized": "6:09 AM",
+      "candidates": [
+        "6:09 AM"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_time"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is 627 minutes after 7:42 PM?",
+      "solution_text": "6:09 AM",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__time",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_time:00729",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 729,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_time_00729"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many minutes are there between 3:27 AM and 12:15 PM?",
+      "problem_plain": "How many minutes are there between 3:27 AM and 12:15 PM?",
+      "solution_latex": "528",
+      "solution_plain": "528"
+    },
+    "answer": {
+      "final_raw": "528",
+      "final_normalized": "528",
+      "candidates": [
+        "528"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_time"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many minutes are there between 3:27 AM and 12:15 PM?",
+      "solution_text": "528",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__time",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_time:00730",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 730,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_time_00730"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is 92 minutes after 11:16 AM?",
+      "problem_plain": "What is 92 minutes after 11:16 AM?",
+      "solution_latex": "12:48 PM",
+      "solution_plain": "12:48 PM"
+    },
+    "answer": {
+      "final_raw": "12:48 PM",
+      "final_normalized": "12:48 PM",
+      "candidates": [
+        "12:48 PM"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_time"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is 92 minutes after 11:16 AM?",
+      "solution_text": "12:48 PM",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__time",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_medium:measurement_time:00731",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 731,
+      "split": "train_medium",
+      "source_problem_id": "train_medium_measurement_time_00731"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many minutes are there between 11:57 AM and 5:34 PM?",
+      "problem_plain": "How many minutes are there between 11:57 AM and 5:34 PM?",
+      "solution_latex": "337",
+      "solution_plain": "337"
+    },
+    "answer": {
+      "final_raw": "337",
+      "final_normalized": "337",
+      "candidates": [
+        "337"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "measurement",
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "measurement_time"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many minutes are there between 11:57 AM and 5:34 PM?",
+      "solution_text": "337",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_2",
+        "measurement",
+        "measurement_time",
+        "train_medium"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_medium",
+        "module_name": "measurement__time",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  }
+]

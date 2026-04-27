@@ -3,6 +3,31 @@ from __future__ import annotations
 import re
 
 
+_CHOICE_LABELS = ("①", "②", "③", "④", "⑤")
+_OCR_CHOICE_MARKER_RE = re.compile(r"(?:[①②③④⑤]|[®@©]|[0O]\)|[0O]?[1-5]\)|[1-5][).])")
+
+
+def _parse_ocr_marker_choices(text: str) -> list[str]:
+    choices: list[str] = []
+    for line in str(text or "").splitlines():
+        markers = list(_OCR_CHOICE_MARKER_RE.finditer(line))
+        if len(markers) < 4:
+            continue
+        values: list[str] = []
+        for index, marker in enumerate(markers):
+            start = marker.end()
+            end = markers[index + 1].start() if index + 1 < len(markers) else len(line)
+            body = line[start:end].strip()
+            match = re.search(r"[-+]?\d+(?:/\d+)?(?:\.\d+)?", body)
+            if match:
+                values.append(match.group(0))
+        if len(values) >= 4:
+            for index, value in enumerate(values[:5]):
+                choices.append(f"{_CHOICE_LABELS[index]} {value}")
+            break
+    return choices
+
+
 def parse_choices(text: str) -> list[str]:
     normalized = str(text or "")
     choices: list[str] = []
@@ -33,4 +58,7 @@ def parse_choices(text: str) -> list[str]:
                 continue
             value = f"{match.group(1)}. {body}"
             choices.append(value)
-    return choices[:5]
+    if choices:
+        return choices[:5]
+
+    return _parse_ocr_marker_choices(normalized)[:5]

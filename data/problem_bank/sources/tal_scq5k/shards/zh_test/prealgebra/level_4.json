@@ -1,0 +1,1128 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_4:00248",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 248,
+      "split": "zh_test",
+      "source_problem_id": "bd77d1db033b434e8731d5b9c23b4c9e"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "计算：$$\\frac{{{1}^{2}}+{{2}^{2}}}{1\\times 2}+\\frac{{{2}^{2}}+{{3}^{2}}}{2\\times 3}+\\cdots +\\frac{{{18}^{2}}+{{19}^{2}}}{18\\times 19}+\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}$$=~\\uline{~~~~~~~~~~}~\n(A) 37\\frac{19}{20}\n(B) 28\\frac{19}{20}\n(C) 38\\frac{19}{20}",
+      "problem_plain": "计算： 1 ^ 2 + 2 ^ 2 1 2 + 2 ^ 2 + 3 ^ 2 2 3 + + 18 ^ 2 + 19 ^ 2 18 19 + 19 ^ 2 + 20 ^ 2 19 20 =~ ~~~~~~~~~~ ~ (A) 37 19 20 (B) 28 19 20 (C) 38 19 20",
+      "solution_latex": "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律：  $$\\frac{{{1}^{2}}+{{2}^{2}}}{1\\times 2}=\\frac{5}{2}=2\\frac{1}{2}$$，$$\\frac{{{2}^{2}}+{{3}^{2}}}{2\\times 3}=\\frac{13}{6}=2\\frac{1}{6}$$，$$\\frac{{{3}^{2}}+{{4}^{2}}}{3\\times 4}=\\frac{25}{12}=2\\frac{1}{12}$$．  我们发现一规律：每一项减去$$2$$后，分子就变成了$$1$$．  再来试试最后一项：$$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{761}{380}=2\\frac{1}{380}$$，  也满足这个规律，这是为什么呢？  观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形：  $$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{19\\times \\left( 20-1 \\right)+20\\times \\left( 19+1 \\right)}{19\\times 20}$$  $$=\\frac{19\\times 20\\times 2+\\left( 20-19 \\right)}{19\\times 20}$$  $$=2+\\frac{1}{19\\times 20}$$．  算式中的每一项都能像上面一样进行变形，所以：  原式$$=2\\frac{1}{1\\times 2}+2\\frac{1}{2\\times 3}+\\cdots +2\\frac{1}{19\\times 20}$$  $$=2\\times 19+\\frac{1}{1\\times 2}+\\frac{1}{2\\times 3}+\\cdots +\\frac{1}{19\\times 20}$$  $$=38+1-\\frac{1}{20}$$  $$=38\\frac{19}{20}$$．",
+      "solution_plain": "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律： 1 ^ 2 + 2 ^ 2 1 2 = 5 2 =2 1 2 ， 2 ^ 2 + 3 ^ 2 2 3 = 13 6 =2 1 6 ， 3 ^ 2 + 4 ^ 2 3 4 = 25 12 =2 1 12 ． 我们发现一规律：每一项减去 2 后，分子就变成了 1 ． 再来试试最后一项： 19 ^ 2 + 20 ^ 2 19 20 = 761 380 =2 1 380 ， 也满足这个规律，这是为什么呢？ 观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形： 19 ^ 2 + 20 ^ 2 19 20 = 19 ( 20-1 )+20 ( 19+1 ) 19 20 = 19 20 2+ ( 20-19 ) 19 20 =2+ 1 19 20 ． 算式中的每一项都能像上面一样进行变形，所以： 原式 =2 1 1 2 +2 1 2 3 + +2 1 19 20 =2 19+ 1 1 2 + 1 2 3 + + 1 19 20 =38+1- 1 20 =38 19 20 ．"
+    },
+    "answer": {
+      "final_raw": "38\\frac{19}{20}",
+      "final_normalized": "38\\frac{19}{20}",
+      "candidates": [
+        "38\\frac{19}{20}",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律：  $$\\frac{{{1}^{2}}+{{2}^{2}}}{1\\times 2}=\\frac{5}{2}=2\\frac{1}{2}$$，$$\\frac{{{2}^{2}}+{{3}^{2}}}{2\\times 3}=\\frac{13}{6}=2\\frac{1}{6}$$，$$\\frac{{{3}^{2}}+{{4}^{2}}}{3\\times 4}=\\frac{25}{12}=2\\frac{1}{12}$$．  我们发现一规律：每一项减去$$2$$后，分子就变成了$$1$$．  再来试试最后一项：$$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{761}{380}=2\\frac{1}{380}$$，  也满足这个规律，这是为什么呢？",
+        "观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形：  $$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{19\\times \\left( 20-1 \\right)+20\\times \\left( 19+1 \\right)}{19\\times 20}$$  $$=\\frac{19\\times 20\\times 2+\\left( 20-19 \\right)}{19\\times 20}$$  $$=2+\\frac{1}{19\\times 20}$$．  算式中的每一项都能像上面一样进行变形，所以：  原式$$=2\\frac{1}{1\\times 2}+2\\frac{1}{2\\times 3}+\\cdots +2\\frac{1}{19\\times 20}$$  $$=2\\times 19+\\frac{1}{1\\times 2}+\\frac{1}{2\\times 3}+\\cdots +\\frac{1}{19\\times 20}$$  $$=38+1-\\frac{1}{20}$$  $$=38\\frac{19}{20}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "计算： 1 ^ 2 + 2 ^ 2 1 2 + 2 ^ 2 + 3 ^ 2 2 3 + + 18 ^ 2 + 19 ^ 2 18 19 + 19 ^ 2 + 20 ^ 2 19 20 =~ ~~~~~~~~~~ ~ (A) 37 19 20 (B) 28 19 20 (C) 38 19 20",
+      "solution_text": "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律： 1 ^ 2 + 2 ^ 2 1 2 = 5 2 =2 1 2 ， 2 ^ 2 + 3 ^ 2 2 3 = 13 6 =2 1 6 ， 3 ^ 2 + 4 ^ 2 3 4 = 25 12 =2 1 12 ． 我们发现一规律：每一项减去 2 后，分子就变成了 1 ． 再来试试最后一项： 19 ^ 2 + 20 ^ 2 19 20 = 761 380 =2 1 380 ， 也满足这个规律，这是为什么呢？ 观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形： 19 ^ 2 + 20 ^ 2 19 20 = 19 ( 20-1 )+20 ( 19+1 ) 19 20 = 19 20 2+ ( 20-19 ) 19 20 =2+ 1 19 20 ． 算式中的每一项都能像上面一样进行变形，所以： 原式 =2 1 1 2 +2 1 2 3 + +2 1 19 20 =2 19+ 1 1 2 + 1 2 3 + + 1 19 20 =38+1- 1 20 =38 19 20 ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3077",
+        "queId": "bd77d1db033b434e8731d5b9c23b4c9e",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "37\\frac{19}{20}"
+          },
+          {
+            "label": "B",
+            "content": "28\\frac{19}{20}"
+          },
+          {
+            "label": "C",
+            "content": "38\\frac{19}{20}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->拓展思维->计算模块->裂项与通项归纳->分数裂项->分数裂差->两分数间接裂差"
+        ],
+        "competition_source_list": [
+          "六年级其它导引",
+          "2015年世界少年奥林匹克数学竞赛六年级竞赛复赛A卷第10题10分",
+          "2018年陕西西安雁塔区西安铁一中小升初（二十六）第20题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_4:00274",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 274,
+      "split": "zh_test",
+      "source_problem_id": "02cde06cff2346c797eca46df1d7457e"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有一天，彭老师和陈老师约好去打乒乓球，结果彭老师以$$4:0$$完虐陈老师．乒乓球比赛为$$11$$分制，即每局$$11$$分，$$7$$局$$4$$胜制，打成$$10:10$$后必须净胜而且只能净胜$$2$$分．经计算，彭老师四局的总得分为$$48$$分，陈老师总得分为$$39$$分，且每一局比赛分差不超过$$3$$分，则一共有种情况．（不考虑这四局比分之间的顺序）\n(A) 4\n(B) 5\n(C) 6\n(D) 7",
+      "problem_plain": "有一天，彭老师和陈老师约好去打乒乓球，结果彭老师以 4:0 完虐陈老师．乒乓球比赛为 11 分制，即每局 11 分， 7 局 4 胜制，打成 10:10 后必须净胜而且只能净胜 2 分．经计算，彭老师四局的总得分为 48 分，陈老师总得分为 39 分，且每一局比赛分差不超过 3 分，则一共有种情况．（不考虑这四局比分之间的顺序） (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_latex": "每局比赛要分出胜负分差必须在$$2$$分或以上，题中又给出每局比赛分差不超过$$3$$分，故每局比赛的分差只有两种可能：差$$2$$分或$$3$$分．且分差为$$3$$分的那局彭老师得分为$$11$$分，总分差为$$48-39=9$$分，故必有$$3$$场分差为$$2$$分，另一场分差为$$3$$分；即有一场的比分为$$11：8$$，另两场的总比分为$$37：31$$，有以下四种情况：①$$11:9$$，$$11:9$$，$$15:13$$②$$11:9$$，$$12:10$$，$$14:12$$③$$11:9$$，$$13:11$$，$$13:11$$④$$12:10$$，$$12:10$$，$$13:11$$．故一共有$$4$$种情况．",
+      "solution_plain": "每局比赛要分出胜负分差必须在 2 分或以上，题中又给出每局比赛分差不超过 3 分，故每局比赛的分差只有两种可能：差 2 分或 3 分．且分差为 3 分的那局彭老师得分为 11 分，总分差为 48-39=9 分，故必有 3 场分差为 2 分，另一场分差为 3 分；即有一场的比分为 11：8 ，另两场的总比分为 37：31 ，有以下四种情况：① 11:9 ， 11:9 ， 15:13 ② 11:9 ， 12:10 ， 14:12 ③ 11:9 ， 13:11 ， 13:11 ④ 12:10 ， 12:10 ， 13:11 ．故一共有 4 种情况．"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "每局比赛要分出胜负分差必须在$$2$$分或以上，题中又给出每局比赛分差不超过$$3$$分，故每局比赛的分差只有两种可能：差$$2$$分或$$3$$分．且分差为$$3$$分的那局彭老师得分为$$11$$分，总分差为$$48-39=9$$分，故必有$$3$$场分差为$$2$$分，另一场分差为$$3$$分；即有一场的比分为$$11：8$$，另两场的总比分为$$37：31$$，有以下四种情况：①$$11:9$$，$$11:9$$，$$15:13$$②$$11:9$$，$$12:10$$，$$14:12$$③$$11:9$$，$$13:11$$，$$13:11$$④$$12:10$$，$$12:10$$，$$13:11$$．故一共有$$4$$种情况．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有一天，彭老师和陈老师约好去打乒乓球，结果彭老师以 4:0 完虐陈老师．乒乓球比赛为 11 分制，即每局 11 分， 7 局 4 胜制，打成 10:10 后必须净胜而且只能净胜 2 分．经计算，彭老师四局的总得分为 48 分，陈老师总得分为 39 分，且每一局比赛分差不超过 3 分，则一共有种情况．（不考虑这四局比分之间的顺序） (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_text": "每局比赛要分出胜负分差必须在 2 分或以上，题中又给出每局比赛分差不超过 3 分，故每局比赛的分差只有两种可能：差 2 分或 3 分．且分差为 3 分的那局彭老师得分为 11 分，总分差为 48-39=9 分，故必有 3 场分差为 2 分，另一场分差为 3 分；即有一场的比分为 11：8 ，另两场的总比分为 37：31 ，有以下四种情况：① 11:9 ， 11:9 ， 15:13 ② 11:9 ， 12:10 ， 14:12 ③ 11:9 ， 13:11 ， 13:11 ④ 12:10 ， 12:10 ， 13:11 ．故一共有 4 种情况．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "25",
+        "queId": "02cde06cff2346c797eca46df1d7457e",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "7"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->逻辑推理->体育比赛->单循环赛",
+          "课内体系->能力->逻辑分析"
+        ],
+        "competition_source_list": [
+          "2017年第16届湖北武汉创新杯五年级竞赛邀请赛训练题（三）"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_4:00279",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 279,
+      "split": "zh_test",
+      "source_problem_id": "f0fa01cc4a5d4ea3a17cbded820938b3"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "若$$a=\\frac{2005\\times 2006}{2007\\times 2008}$$，$$b=\\frac{2006\\times 2007}{2008\\times 2009}$$，$$c=\\frac{2007\\times 2008}{2009\\times 2010}$$，则有（  ）。\n(A) a\\textgreater b\\textgreater c\n(B) a\\textgreater c\\textgreater b\n(C) a \\textless{} c \\textless{} b\n(D) a \\textless{} b \\textless{} c",
+      "problem_plain": "若 a= 2005 2006 2007 2008 ， b= 2006 2007 2008 2009 ， c= 2007 2008 2009 2010 ，则有（ ）。 (A) a b c (B) a c b (C) a c b (D) a b c",
+      "solution_latex": "先比较$$a$$和$$b$$， $$a=\\frac{2005\\times 2006}{2007\\times 2008}=\\frac{2005}{2007}\\times \\frac{2006}{2008} $$，$$b=\\frac{2006\\times 2007}{2008\\times 2009}=\\frac{2006}{2008}\\times \\frac{2007}{2009}$$ 比较$$\\frac{2005}{2007}$$和$$\\frac{2007}{2009}$$，$$1-\\frac{2005}{2007}=\\frac{2}{2007}$$，$$1-\\frac{2007}{2009}=\\frac{2}{2009}$$，由于$$\\frac{2}{2007}\\textgreater\\frac{2}{2009}$$，所以 $$\\frac{2005}{2007} \\textless{} \\frac{2007}{2009}$$，则$$\\frac{2005}{2007}\\times \\frac{2006}{2008} \\textless{} \\frac{2006}{2008}\\times\\frac{2007}{2009}$$，$$a \\textless{} b$$。 同样的道理：$$b \\textless{} c$$。则$$a \\textless{} b \\textless{} c$$，选D。",
+      "solution_plain": "先比较 a 和 b ， a= 2005 2006 2007 2008 = 2005 2007 2006 2008 ， b= 2006 2007 2008 2009 = 2006 2008 2007 2009 比较 2005 2007 和 2007 2009 ， 1- 2005 2007 = 2 2007 ， 1- 2007 2009 = 2 2009 ，由于 2 2007 2 2009 ，所以 2005 2007 2007 2009 ，则 2005 2007 2006 2008 2006 2008 2007 2009 ， a b 。 同样的道理： b c 。则 a b c ，选D。"
+    },
+    "answer": {
+      "final_raw": "a \\textless{} b \\textless{} c",
+      "final_normalized": "a \\textless{} b \\textless{} c",
+      "candidates": [
+        "D",
+        "a \\textless{} b \\textless{} c"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "先比较$$a$$和$$b$$， $$a=\\frac{2005\\times 2006}{2007\\times 2008}=\\frac{2005}{2007}\\times \\frac{2006}{2008} $$，$$b=\\frac{2006\\times 2007}{2008\\times 2009}=\\frac{2006}{2008}\\times \\frac{2007}{2009}$$ 比较$$\\frac{2005}{2007}$$和$$\\frac{2007}{2009}$$，$$1-\\frac{2005}{2007}=\\frac{2}{2007}$$，$$1-\\frac{2007}{2009}=\\frac{2}{2009}$$，由于$$\\frac{2}{2007}\\textgreater\\frac{2}{2009}$$，所以 $$\\frac{2005}{2007} \\textless{} \\frac{2007}{2009}$$，则$$\\frac{2005}{2007}\\times \\frac{2006}{2008} \\textless{} \\frac{2006}{2008}\\times\\frac{2007}{2009}$$，$$a \\textless{} b$$。",
+        "同样的道理：$$b \\textless{} c$$。则$$a \\textless{} b \\textless{} c$$，选D。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "若 a= 2005 2006 2007 2008 ， b= 2006 2007 2008 2009 ， c= 2007 2008 2009 2010 ，则有（ ）。 (A) a b c (B) a c b (C) a c b (D) a b c",
+      "solution_text": "先比较 a 和 b ， a= 2005 2006 2007 2008 = 2005 2007 2006 2008 ， b= 2006 2007 2008 2009 = 2006 2008 2007 2009 比较 2005 2007 和 2007 2009 ， 1- 2005 2007 = 2 2007 ， 1- 2007 2009 = 2 2009 ，由于 2 2007 2 2009 ，所以 2005 2007 2007 2009 ，则 2005 2007 2006 2008 2006 2008 2007 2009 ， a b 。 同样的道理： b c 。则 a b c ，选D。",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2466",
+        "queId": "f0fa01cc4a5d4ea3a17cbded820938b3",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "a\\textgreater b\\textgreater c"
+          },
+          {
+            "label": "B",
+            "content": "a\\textgreater c\\textgreater b"
+          },
+          {
+            "label": "C",
+            "content": "a \\textless{} c \\textless{} b"
+          },
+          {
+            "label": "D",
+            "content": "a \\textless{} b \\textless{} c"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->比较与估算->比较大小综合->糖水原理法"
+        ],
+        "competition_source_list": [
+          "2008年华杯赛六年级竞赛初赛",
+          "2008年华杯赛五年级竞赛初赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_4:00596",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 596,
+      "split": "zh_test",
+      "source_problem_id": "47c38c1fe65a46fe85b396307a21dac9"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "小朋友玩游戏，老师让小朋友们站成一排，并从第一位开始依照$$1$$、$$2$$、$$3$$循环报数，最后一位小朋友报的数是$$2$$，请问这一排可能共有多少位小朋友？\n(A) 24\n(B) 25\n(C) 26\n(D) 27\n(E) 28",
+      "problem_plain": "小朋友玩游戏，老师让小朋友们站成一排，并从第一位开始依照 1 、 2 、 3 循环报数，最后一位小朋友报的数是 2 ，请问这一排可能共有多少位小朋友？ (A) 24 (B) 25 (C) 26 (D) 27 (E) 28",
+      "solution_latex": "由题意可知这一派同学的人数除以$$3$$后所得的余数是$$2$$，在各个选项中只有选项$$\\text{C}$$符合要求．  故选$$\\text{C}$$．",
+      "solution_plain": "由题意可知这一派同学的人数除以 3 后所得的余数是 2 ，在各个选项中只有选项 C 符合要求． 故选 C ．"
+    },
+    "answer": {
+      "final_raw": "26",
+      "final_normalized": "26",
+      "candidates": [
+        "26",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由题意可知这一派同学的人数除以$$3$$后所得的余数是$$2$$，在各个选项中只有选项$$\\text{C}$$符合要求．  故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "小朋友玩游戏，老师让小朋友们站成一排，并从第一位开始依照 1 、 2 、 3 循环报数，最后一位小朋友报的数是 2 ，请问这一排可能共有多少位小朋友？ (A) 24 (B) 25 (C) 26 (D) 27 (E) 28",
+      "solution_text": "由题意可知这一派同学的人数除以 3 后所得的余数是 2 ，在各个选项中只有选项 C 符合要求． 故选 C ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2607",
+        "queId": "47c38c1fe65a46fe85b396307a21dac9",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "24"
+          },
+          {
+            "label": "B",
+            "content": "25"
+          },
+          {
+            "label": "C",
+            "content": "26"
+          },
+          {
+            "label": "D",
+            "content": "27"
+          },
+          {
+            "label": "E",
+            "content": "28"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->拓展思维->计算模块->整数->整数乘除->整数除法运算->带余除法"
+        ],
+        "competition_source_list": [
+          "2014年IMAS小学中年级竞赛第一轮检测试题第18题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_4:00714",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 714,
+      "split": "zh_test",
+      "source_problem_id": "ff8080814502fa2401450bc9eefe16a2"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "若$$a = \\underbrace {1515 \\cdots 15}_{1004个15} \\times \\underbrace {333 \\cdots 3}_{2008个3}$$，则整数$$a$$的所有数位上的数字和等于（ ~ ~ ~ ）．\n(A) 18063\n(B) 18072\n(C) 18079\n(D) 18054",
+      "problem_plain": "若 a = 1515 15 _ 1004个15 333 3 _ 2008个3 ，则整数 a 的所有数位上的数字和等于（ ~ ~ ~ ）． (A) 18063 (B) 18072 (C) 18079 (D) 18054",
+      "solution_latex": "$${a = \\underbrace {1515 \\cdots 15}_{1004 个 15}~ \\times ~\\underbrace {333 \\cdots 3}_{2008个3}}$$  $${ = \\underbrace {505050 \\cdots 5}_{1004个 5 和 1003 个0}\\times ~ \\underbrace {999 \\cdots 9}_{2008个9}}$$  $${ = \\underbrace {505050 \\cdots 5}_{1004个 5 和 1003 个0}\\times~ （1 \\underbrace {0000 \\cdots 0}_{2008个0} - 1}）$$  $${ = \\underbrace {505050 \\cdots 50}_{1004个50} \\underbrace {0000 \\cdots 0}_{2007个0} ~ - \\underbrace {505050 \\cdots 5}_{1004个 5 和 1003 个0}}$$  $${ = \\underbrace {505050 \\cdots 50}_{1003个50}\\underbrace {494949 \\cdots 49}_{1004个49}{5}}$$  所以整数$$a$$的所有数位上的数字和$$ = 1003 \\times 5 + 1004 \\times 4 + 9 + 5 = 18072$$ ．",
+      "solution_plain": "a = 1515 15 _ 1004 个 15 ~ ~ 333 3 _ 2008个3 = 505050 5 _ 1004个 5 和 1003 个0 ~ 999 9 _ 2008个9 = 505050 5 _ 1004个 5 和 1003 个0 ~ （1 0000 0 _ 2008个0 - 1 ） = 505050 50 _ 1004个50 0000 0 _ 2007个0 ~ - 505050 5 _ 1004个 5 和 1003 个0 = 505050 50 _ 1003个50 494949 49 _ 1004个49 5 所以整数 a 的所有数位上的数字和 = 1003 5 + 1004 4 + 9 + 5 = 18072 ．"
+    },
+    "answer": {
+      "final_raw": "18072",
+      "final_normalized": "18072",
+      "candidates": [
+        "18072",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$${a = \\underbrace {1515 \\cdots 15}_{1004 个 15}~ \\times ~\\underbrace {333 \\cdots 3}_{2008个3}}$$  $${ = \\underbrace {505050 \\cdots 5}_{1004个 5 和 1003 个0}\\times ~ \\underbrace {999 \\cdots 9}_{2008个9}}$$  $${ = \\underbrace {505050 \\cdots 5}_{1004个 5 和 1003 个0}\\times~ （1 \\underbrace {0000 \\cdots 0}_{2008个0} - 1}）$$  $${ = \\underbrace {505050 \\cdots 50}_{1004个50} \\underbrace {0000 \\cdots 0}_{2007个0} ~ - \\underbrace {505050 \\cdots 5}_{1004个 5 和 1003 个0}}$$  $${ = \\underbrace {505050 \\cdots 50}_{1003个50}\\underbrace {494949 \\cdots 49}_{1004个49}{5}}$$  所以整数$$a$$的所有数位上的数字和$$ = 1003 \\times 5 + 1004 \\times 4 + 9 + 5 = 18072$$ ．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "若 a = 1515 15 _ 1004个15 333 3 _ 2008个3 ，则整数 a 的所有数位上的数字和等于（ ~ ~ ~ ）． (A) 18063 (B) 18072 (C) 18079 (D) 18054",
+      "solution_text": "a = 1515 15 _ 1004 个 15 ~ ~ 333 3 _ 2008个3 = 505050 5 _ 1004个 5 和 1003 个0 ~ 999 9 _ 2008个9 = 505050 5 _ 1004个 5 和 1003 个0 ~ （1 0000 0 _ 2008个0 - 1 ） = 505050 50 _ 1004个50 0000 0 _ 2007个0 ~ - 505050 5 _ 1004个 5 和 1003 个0 = 505050 50 _ 1003个50 494949 49 _ 1004个49 5 所以整数 a 的所有数位上的数字和 = 1003 5 + 1004 4 + 9 + 5 = 18072 ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2730",
+        "queId": "ff8080814502fa2401450bc9eefe16a2",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "18063"
+          },
+          {
+            "label": "B",
+            "content": "18072"
+          },
+          {
+            "label": "C",
+            "content": "18079"
+          },
+          {
+            "label": "D",
+            "content": "18054"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->整数->整数分配律->整数乘法巧算之分配律->拆数法构造分配律"
+        ],
+        "competition_source_list": [
+          "2008年第13届全国迎春杯竞赛初赛第5题10分",
+          "2008年全国华杯赛竞赛初赛第5题",
+          "小学高年级六年级其它小高著名杯赛拉分题第4题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_4:00916",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 916,
+      "split": "zh_test",
+      "source_problem_id": "73dbc03a8f974d489949f4c4fa35c9a3"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$a$$、$$b$$、$$c$$三个数字共可组成六个无重复数字的三位数，这六个三位数的和为$$3774$$，那么这六个三位数中最大数与最小数的差最小是（~ ）．\n(A) 99\n(B) 297\n(C) 369\n(D) 396",
+      "problem_plain": "a 、 b 、 c 三个数字共可组成六个无重复数字的三位数，这六个三位数的和为 3774 ，那么这六个三位数中最大数与最小数的差最小是（~ ）． (A) 99 (B) 297 (C) 369 (D) 396",
+      "solution_latex": "这六个三位数之和为$$222\\times \\left( a+b+c \\right)=3774$$，即$$a+b+c=17$$．要使最大和最小的差最小，即  让三个数尽可能接近，即为$$4$$、$$6$$、$$7$$，此时最大减最小为$$764-467=297$$．",
+      "solution_plain": "这六个三位数之和为 222 ( a+b+c )=3774 ，即 a+b+c=17 ．要使最大和最小的差最小，即 让三个数尽可能接近，即为 4 、 6 、 7 ，此时最大减最小为 764-467=297 ．"
+    },
+    "answer": {
+      "final_raw": "297",
+      "final_normalized": "297",
+      "candidates": [
+        "297",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "这六个三位数之和为$$222\\times \\left( a+b+c \\right)=3774$$，即$$a+b+c=17$$．要使最大和最小的差最小，即  让三个数尽可能接近，即为$$4$$、$$6$$、$$7$$，此时最大减最小为$$764-467=297$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "a 、 b 、 c 三个数字共可组成六个无重复数字的三位数，这六个三位数的和为 3774 ，那么这六个三位数中最大数与最小数的差最小是（~ ）． (A) 99 (B) 297 (C) 369 (D) 396",
+      "solution_text": "这六个三位数之和为 222 ( a+b+c )=3774 ，即 a+b+c=17 ．要使最大和最小的差最小，即 让三个数尽可能接近，即为 4 、 6 、 7 ，此时最大减最小为 764-467=297 ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "874",
+        "queId": "73dbc03a8f974d489949f4c4fa35c9a3",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "99"
+          },
+          {
+            "label": "B",
+            "content": "297"
+          },
+          {
+            "label": "C",
+            "content": "369"
+          },
+          {
+            "label": "D",
+            "content": "396"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->位值原理与进制->位值原理运用->位值原理的综合应用"
+        ],
+        "competition_source_list": [
+          "2012年第8届全国新希望杯小学高年级六年级竞赛复赛第4题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_4:01035",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1035,
+      "split": "zh_test",
+      "source_problem_id": "263de7ee70e84be296ecbd478a501533"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "循环节长度是$$4$$的纯循环小数化成最简分数后，分母是三位数，这样的循环小数有（~ ）\n(A) 798$$个\n(B) 898$$个\n(C) 900$$个\n(D) 998$$个",
+      "problem_plain": "循环节长度是 4 的纯循环小数化成最简分数后，分母是三位数，这样的循环小数有（~ ） (A) 798 个 (B) 898 个 (C) 900 个 (D) 998 个",
+      "solution_latex": "设$$0.\\dot{a}bc\\dot{d}=\\frac{\\overline{abcd}}{9999}=\\frac{q}{p}$$，$$(p,q)=1$$，$$q\\textless{}p$$，$$p$$是$$9999$$的约数，且是三位数．  由于$$9999={{3}^{2}}\\times 11\\times 101$$，  所以，$$p$$的值只可能是$$101$$，$$303$$，$$909$$．  分母$$p=101$$时，因为$$101$$是质数，  所以，分子可以是$$1$$，$$2$$，$$3$$，$$\\cdots $$，$$100$$，共$$100$$个数满足条件；  分母$$p=303$$时，在$$1$$～$$302$$中，$$3$$的倍数有$$100$$个，$$101$$的倍数有$$2$$个，  所以，共有$$302-102=200$$个数满足条件；  分母$$p=909$$时，在$$1$$～$$908$$中，$$3$$的倍数有$$302$$个，$$101$$的倍数有$$8$$个，既是$$3$$的倍数又是$$101$$的倍数的数有$$2$$个：$$303$$，$$606$$，  所以，共有$$908-302-8+2=600$$个数满足条件．  综上，满足条件的数共有$$100+200+600=900$$个．\n<p>，故$$9999$$的三位数约数只有$$101$$，$$303$$，$$909$$，</p>\n<p>即对于分数$$\\frac{x}{909}$$，必有$$101|x$$，故共有$$900$$个．</p>\n<p>即与$$9999$$约分后得$$3$$位数．</p>\n<p></p>\n<p>&there4;约分后为</p>\n<p>①，与$$101$$互质的有$$100$$个，（$$x&gt;1$$，$$2$$，$$\\cdots $$，$$100$$），</p>\n<p>②，与$$303$$互质，（$$x=1$$，$$2$$，$$\\cdots 302$$），</p>\n<p>其中$$3$$的倍数有$$100$$个，加上$$101$$，$$202$$，共$$102$$个，</p>\n<p>&there4;有$$200$$个符合的．</p>\n<p>③，与$$909$$互质（$$x=1$$，$$2$$，$$\\cdots 908$$），</p>\n<p>其中$$3$$的倍数有$$302$$个，加上$$101$$，$$202$$，$$404$$，$$505$$，$$707$$，$$808$$，共$$308$$个．</p>\n<p>&there4;有$$600$$个符合的．</p>\n<p>综上，共$$900$$个这样的循环小数．</p>\n<p>故选$$\\text{C}$$．</p>",
+      "solution_plain": "设 0. a bc d = abcd 9999 = q p ， (p,q)=1 ， q p ， p 是 9999 的约数，且是三位数． 由于 9999= 3 ^ 2 11 101 ， 所以， p 的值只可能是 101 ， 303 ， 909 ． 分母 p=101 时，因为 101 是质数， 所以，分子可以是 1 ， 2 ， 3 ， ， 100 ，共 100 个数满足条件； 分母 p=303 时，在 1 ～ 302 中， 3 的倍数有 100 个， 101 的倍数有 2 个， 所以，共有 302-102=200 个数满足条件； 分母 p=909 时，在 1 ～ 908 中， 3 的倍数有 302 个， 101 的倍数有 8 个，既是 3 的倍数又是 101 的倍数的数有 2 个： 303 ， 606 ， 所以，共有 908-302-8+2=600 个数满足条件． 综上，满足条件的数共有 100+200+600=900 个． <p>，故 9999 的三位数约数只有 101 ， 303 ， 909 ，</p> <p>即对于分数 x 909 ，必有 101|x ，故共有 900 个．</p> <p>即与 9999 约分后得 3 位数．</p> <p></p> <p>&there4;约分后为</p> <p>①，与 101 互质的有 100 个，（ x&gt;1 ， 2 ， ， 100 ），</p> <p>②，与 303 互质，（ x=1 ， 2 ， 302 ），</p> <p>其中 3 的倍数有 100 个，加上 101 ， 202 ，共 102 个，</p> <p>&there4;有 200 个符合的．</p> <p>③，与 909 互质（ x=1 ， 2 ， 908 ），</p> <p>其中 3 的倍数有 302 个，加上 101 ， 202 ， 404 ， 505 ， 707 ， 808 ，共 308 个．</p> <p>&there4;有 600 个符合的．</p> <p>综上，共 900 个这样的循环小数．</p> <p>故选 C ．</p>"
+    },
+    "answer": {
+      "final_raw": "900$$个",
+      "final_normalized": "900$$个",
+      "candidates": [
+        "900$$个",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设$$0.\\dot{a}bc\\dot{d}=\\frac{\\overline{abcd}}{9999}=\\frac{q}{p}$$，$$(p,q)=1$$，$$q\\textless{}p$$，$$p$$是$$9999$$的约数，且是三位数．  由于$$9999={{3}^{2}}\\times 11\\times 101$$，  所以，$$p$$的值只可能是$$101$$，$$303$$，$$909$$．  分母$$p=101$$时，因为$$101$$是质数，  所以，分子可以是$$1$$，$$2$$，$$3$$，$$\\cdots $$，$$100$$，共$$100$$个数满足条件；  分母$$p=303$$时，在$$1$$～$$302$$中，$$3$$的倍数有$$100$$个，$$101$$的倍数有$$2$$个，  所以，共有$$302-102=200$$个数满足条件；  分母$$p=909$$时，在$$1$$～$$908$$中，$$3$$的倍数有$$302$$个，$$101$$的倍数有$$8$$个，既是$$3$$的倍数又是$$101$$的倍数的数有$$2$$个：$$303$$，$$606$$，  所以，共有$$908-302-8+2=600$$个数满足条件．  综上，满足条件的数共有$$100+200+600=900$$个．\n<p>，故$$9999$$的三位数约数只有$$101$$，$$303$$，$$909$$，</p>\n<p>即对于分数$$\\frac{x}{909}$$，必有$$101|x$$，故共有$$900$$个．</p>\n<p>即与$$9999$$约分后得$$3$$位数．</p>\n<p></p>\n<p>&there4;约分后为</p>\n<p>①，与$$101$$互质的有$$100$$个，（$$x&gt;1$$，$$2$$，$$\\cdots $$，$$100$$），</p>\n<p>②，与$$303$$互质，（$$x=1$$，$$2$$，$$\\cdots 302$$），</p>\n<p>其中$$3$$的倍数有$$100$$个，加上$$101$$，$$202$$，共$$102$$个，</p>\n<p>&there4;有$$200$$个符合的．</p>\n<p>③，与$$909$$互质（$$x=1$$，$$2$$，$$\\cdots 908$$），</p>\n<p>其中$$3$$的倍数有$$302$$个，加上$$101$$，$$202$$，$$404$$，$$505$$，$$707$$，$$808$$，共$$308$$个．</p>\n<p>&there4;有$$600$$个符合的．</p>\n<p>综上，共$$900$$个这样的循环小数．</p>\n<p>故选$$\\text{C}$$．</p>"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "循环节长度是 4 的纯循环小数化成最简分数后，分母是三位数，这样的循环小数有（~ ） (A) 798 个 (B) 898 个 (C) 900 个 (D) 998 个",
+      "solution_text": "设 0. a bc d = abcd 9999 = q p ， (p,q)=1 ， q p ， p 是 9999 的约数，且是三位数． 由于 9999= 3 ^ 2 11 101 ， 所以， p 的值只可能是 101 ， 303 ， 909 ． 分母 p=101 时，因为 101 是质数， 所以，分子可以是 1 ， 2 ， 3 ， ， 100 ，共 100 个数满足条件； 分母 p=303 时，在 1 ～ 302 中， 3 的倍数有 100 个， 101 的倍数有 2 个， 所以，共有 302-102=200 个数满足条件； 分母 p=909 时，在 1 ～ 908 中， 3 的倍数有 302 个， 101 的倍数有 8 个，既是 3 的倍数又是 101 的倍数的数有 2 个： 303 ， 606 ， 所以，共有 908-302-8+2=600 个数满足条件． 综上，满足条件的数共有 100+200+600=900 个． <p>，故 9999 的三位数约数只有 101 ， 303 ， 909 ，</p> <p>即对于分数 x 909 ，必有 101|x ，故共有 900 个．</p> <p>即与 9999 约分后得 3 位数．</p> <p></p> <p>&there4;约分后为</p> <p>①，与 101 互质的有 100 个，（ x&gt;1 ， 2 ， ， 100 ），</p> <p>②，与 303 互质，（ x=1 ， 2 ， 302 ），</p> <p>其中 3 的倍数有 100 个，加上 101 ， 202 ，共 102 个，</p> <p>&there4;有 200 个符合的．</p> <p>③，与 909 互质（ x=1 ， 2 ， 908 ），</p> <p>其中 3 的倍数有 302 个，加上 101 ， 202 ， 404 ， 505 ， 707 ， 808 ，共 308 个．</p> <p>&there4;有 600 个符合的．</p> <p>综上，共 900 个这样的循环小数．</p> <p>故选 C ．</p>",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "204",
+        "queId": "263de7ee70e84be296ecbd478a501533",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "798$$个"
+          },
+          {
+            "label": "B",
+            "content": "898$$个"
+          },
+          {
+            "label": "C",
+            "content": "900$$个"
+          },
+          {
+            "label": "D",
+            "content": "998$$个"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->数论->整除->算术基本定理"
+        ],
+        "competition_source_list": [
+          "2012年第23届全国希望杯初二竞赛复赛第10题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_4:01726",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1726,
+      "split": "zh_test",
+      "source_problem_id": "0874009b64da40af95ebf024cb4db186"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "2019AMC12A, 23  Define binary operations $$\\diamondsuit $$ and $$\\heartsuit$$ by $$a\\diamondsuit b=a^{\\log _7(b)}$$ and $$a\\heartsuit b=a^{\\frac{1}{\\log _7(b)}}$$ for all real numbers $$a$$ and $$b$$ for which these expressions are defined. The sequence $$(a_n)$$ is defined recursively by $$a_3=3\\heartsuit 2$$ and $$a_n=(n\\heartsuit (n-1))\\diamondsuit a_{n-1}$$ for all integers $$n\\geqslant 4$$. To the nearest integer, what is $$\\log _7(a_{2019})$$?   对所有实数$$a$$, $$b$$, 定义二元运算$$\\diamondsuit $$ 和 $$\\heartsuit$$如下: $$a\\diamondsuit b=a^{\\log _7(b)}$$ , $$a\\heartsuit b=a^{\\frac{1}{\\log _7(b)}}$$. 数列 $$(a_n)$$ 满足 $$a_3=3\\heartsuit 2$$以及$$a_n=(n\\heartsuit (n-1))\\diamondsuit a_{n-1}$$ ($$n\\geq 4$$). 距离 $$\\log _7(a_{2019})$$ 最近的整数是多少? ．\n(A) 8\n(B) 9\n(C) 10\n(D) 11\n(E) 12",
+      "problem_plain": "2019AMC12A, 23 Define binary operations and by a b=a^ _7(b) and a b=a^ 1 _7(b) for all real numbers a and b for which these expressions are defined. The sequence (a_n) is defined recursively by a_3=3 2 and a_n=(n (n-1)) a_ n-1 for all integers n 4 . To the nearest integer, what is _7(a_ 2019 ) ? 对所有实数 a , b , 定义二元运算 和 如下: a b=a^ _7(b) , a b=a^ 1 _7(b) . 数列 (a_n) 满足 a_3=3 2 以及 a_n=(n (n-1)) a_ n-1 ( n 4 ). 距离 _7(a_ 2019 ) 最近的整数是多少? ． (A) 8 (B) 9 (C) 10 (D) 11 (E) 12",
+      "solution_latex": "首先化简一下题目中给的条件.  $$a_3=3\\heartsuit2=3^{\\frac{1}{\\log_7{(2)}}}=3^{\\log_2{7}}$$  $$a_n=(n\\heartsuit (n-1))\\diamondsuit a_{n-1}=(n\\heartsuit (n-1))^{\\log_7{a_{n-1}}}=(n^{\\log_{n-1}{7}})^{\\log_7{a_{n-1}}}=n^{\\log_{n-1}{a_{n-1}}}$$  $$\\Rightarrow\\log_n{a_n}=\\log_{n-1}{a_{n-1}}=\\log_3{a_3}=\\log_2{7}$$  因此$$\\log_{2019}{a_{2019}}=\\log_2{7}\\Rightarrow\\log_7{a_{2019}}=\\log_7{2019}\\log_2{7}=\\log_2{2019}$$.  这个值最接近$\\log_2{2048}=11$, 选$$\\text{D}$$.",
+      "solution_plain": "首先化简一下题目中给的条件. a_3=3 2=3^ 1 _7 (2) =3^ _2 7 a_n=(n (n-1)) a_ n-1 =(n (n-1))^ _7 a_ n-1 =(n^ _ n-1 7 )^ _7 a_ n-1 =n^ _ n-1 a_ n-1 _n a_n = _ n-1 a_ n-1 = _3 a_3 = _2 7 因此 _ 2019 a_ 2019 = _2 7 _7 a_ 2019 = _7 2019 _2 7 = _2 2019 . 这个值最接近 _2 2048 =11 , 选 D ."
+    },
+    "answer": {
+      "final_raw": "11",
+      "final_normalized": "11",
+      "candidates": [
+        "11",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "combination",
+        "information_migration_new_definition",
+        "reasoning",
+        "recurrence_and_recursion",
+        "unknown"
+      ],
+      "tags": [
+        "amc10_12",
+        "combination",
+        "information_migration_new_definition",
+        "level_4",
+        "prealgebra",
+        "reasoning",
+        "recurrence_and_recursion",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "首先化简一下题目中给的条件.",
+        "$$a_3=3\\heartsuit2=3^{\\frac{1}{\\log_7{(2)}}}=3^{\\log_2{7}}$$  $$a_n=(n\\heartsuit (n-1))\\diamondsuit a_{n-1}=(n\\heartsuit (n-1))^{\\log_7{a_{n-1}}}=(n^{\\log_{n-1}{7}})^{\\log_7{a_{n-1}}}=n^{\\log_{n-1}{a_{n-1}}}$$  $$\\Rightarrow\\log_n{a_n}=\\log_{n-1}{a_{n-1}}=\\log_3{a_3}=\\log_2{7}$$  因此$$\\log_{2019}{a_{2019}}=\\log_2{7}\\Rightarrow\\log_7{a_{2019}}=\\log_7{2019}\\log_2{7}=\\log_2{2019}$$.",
+        "这个值最接近$\\log_2{2048}=11$, 选$$\\text{D}$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2019AMC12A, 23 Define binary operations and by a b=a^ _7(b) and a b=a^ 1 _7(b) for all real numbers a and b for which these expressions are defined. The sequence (a_n) is defined recursively by a_3=3 2 and a_n=(n (n-1)) a_ n-1 for all integers n 4 . To the nearest integer, what is _7(a_ 2019 ) ? 对所有实数 a , b , 定义二元运算 和 如下: a b=a^ _7(b) , a b=a^ 1 _7(b) . 数列 (a_n) 满足 a_3=3 2 以及 a_n=(n (n-1)) a_ n-1 ( n 4 ). 距离 _7(a_ 2019 ) 最近的整数是多少? ． (A) 8 (B) 9 (C) 10 (D) 11 (E) 12",
+      "solution_text": "首先化简一下题目中给的条件. a_3=3 2=3^ 1 _7 (2) =3^ _2 7 a_n=(n (n-1)) a_ n-1 =(n (n-1))^ _7 a_ n-1 =(n^ _ n-1 7 )^ _7 a_ n-1 =n^ _ n-1 a_ n-1 _n a_n = _ n-1 a_ n-1 = _3 a_3 = _2 7 因此 _ 2019 a_ 2019 = _2 7 _7 a_ 2019 = _7 2019 _2 7 = _2 2019 . 这个值最接近 _2 2048 =11 , 选 D .",
+      "keywords": [
+        "amc10_12",
+        "combination",
+        "information_migration_new_definition",
+        "level_4",
+        "prealgebra",
+        "reasoning",
+        "recurrence_and_recursion",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "86",
+        "queId": "0874009b64da40af95ebf024cb4db186",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "8"
+          },
+          {
+            "label": "B",
+            "content": "9"
+          },
+          {
+            "label": "C",
+            "content": "10"
+          },
+          {
+            "label": "D",
+            "content": "11"
+          },
+          {
+            "label": "E",
+            "content": "12"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->基本初等函数->对数的概念及其运算->对数的运算",
+          "美国AMC10/12->Knowledge Point->Combination->Reasoning->Information Migration (new definition)",
+          "美国AMC10/12->Knowledge Point->Combination->Reasoning->Recurrence and Recursion"
+        ],
+        "competition_source_list": [
+          "2019年AMC12竞赛A第23题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_4:01930",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1930,
+      "split": "zh_test",
+      "source_problem_id": "c7b151d8598147abb9b1fc39a20a314a"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "2007AMC12B, 21  The first $$2007$$ positive integers are each written in base $$3$$. How many of these base- $$3$$ representations are palindromes? (A palindrome is a number that reads the same forward and backward.)．  把前$$2007$$个正整数用$$3$$进制来表示。这些$3$进制表示中有多少是回文数？（回文数，指正着或倒着读都一样的数。）．\n(A) 100\n(B) 101\n(C) 102\n(D) 103\n(E) 104",
+      "problem_plain": "2007AMC12B, 21 The first 2007 positive integers are each written in base 3 . How many of these base- 3 representations are palindromes? (A palindrome is a number that reads the same forward and backward.)． 把前 2007 个正整数用 3 进制来表示。这些 3 进制表示中有多少是回文数？（回文数，指正着或倒着读都一样的数。）． (A) 100 (B) 101 (C) 102 (D) 103 (E) 104",
+      "solution_latex": "首先把$2007_{10}$转化成$$3$$进制, 得到$2202100_3$.  于是我们就要数出有多少不超过$2202100_3$的$$3$$进制正回文数$$.$$ 按位数分类计数, 然后求和, 是一个可行的思路.  1位的$$3$$进制回文数有$$2$$个, 1和$$2$$（注意题目要求正整数）.  2位的有$$2$$个, $11$和$22$.  3位的有$2\\times 3=6$个, $1(\\cdot)1$和$2(\\cdot)2$.  4位的有$2\\times 3=6$个, $1(\\cdot)(\\cdot)1$和$2(\\cdot)(\\cdot)2$.  算到这里, 我们发现$2k-1$位的回文数和$2k$位的回文数的个数理应是相同的, 且都等于$2k-2$位的回文数的个数$\\times 3$.  于是$$5$$位和$$6$$位的回文数各有$6\\times 3=18$个.  7位的回文数有$18\\times 3=54$个.  注意我们要求的是不超过$2202100_3$的回文数, 因此再之后的就就不用求了, 而且我们还需要剔除几个太大的数.  7位且大于$2202100_3$的回文数只能是$22(x)(y)(x)22$的形式, 且$x\\neq0$.因此需要剔除的数共有$2\\times3=6$个.  于是我们的结果是$2\\times(2+6+18)+54-6=100$个, 选$$\\text{A}$$.  拓展: 如果把这前$$2007$$个正整数用$$10$$进制表示, 其中的回文数又有多少个? 用其它进制表示呢? 回文数的数量与进制存在关系吗?",
+      "solution_plain": "首先把 2007_ 10 转化成 3 进制, 得到 2202100_3 . 于是我们就要数出有多少不超过 2202100_3 的 3 进制正回文数 . 按位数分类计数, 然后求和, 是一个可行的思路. 1位的 3 进制回文数有 2 个, 1和 2 （注意题目要求正整数）. 2位的有 2 个, 11 和 22 . 3位的有 2 3=6 个, 1( )1 和 2( )2 . 4位的有 2 3=6 个, 1( )( )1 和 2( )( )2 . 算到这里, 我们发现 2k-1 位的回文数和 2k 位的回文数的个数理应是相同的, 且都等于 2k-2 位的回文数的个数 3 . 于是 5 位和 6 位的回文数各有 6 3=18 个. 7位的回文数有 18 3=54 个. 注意我们要求的是不超过 2202100_3 的回文数, 因此再之后的就就不用求了, 而且我们还需要剔除几个太大的数. 7位且大于 2202100_3 的回文数只能是 22(x)(y)(x)22 的形式, 且 x 0 .因此需要剔除的数共有 2 3=6 个. 于是我们的结果是 2 (2+6+18)+54-6=100 个, 选 A . 拓展: 如果把这前 2007 个正整数用 10 进制表示, 其中的回文数又有多少个? 用其它进制表示呢? 回文数的数量与进制存在关系吗?"
+    },
+    "answer": {
+      "final_raw": "100",
+      "final_normalized": "100",
+      "candidates": [
+        "100",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "combination",
+        "information_migration_new_definition",
+        "reasoning",
+        "unknown"
+      ],
+      "tags": [
+        "amc10_12",
+        "combination",
+        "information_migration_new_definition",
+        "level_4",
+        "prealgebra",
+        "reasoning",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "首先把$2007_{10}$转化成$$3$$进制, 得到$2202100_3$.",
+        "于是我们就要数出有多少不超过$2202100_3$的$$3$$进制正回文数$$.$$ 按位数分类计数, 然后求和, 是一个可行的思路.",
+        "1位的$$3$$进制回文数有$$2$$个, 1和$$2$$（注意题目要求正整数）.",
+        "2位的有$$2$$个, $11$和$22$.",
+        "3位的有$2\\times 3=6$个, $1(\\cdot)1$和$2(\\cdot)2$.",
+        "4位的有$2\\times 3=6$个, $1(\\cdot)(\\cdot)1$和$2(\\cdot)(\\cdot)2$.",
+        "算到这里, 我们发现$2k-1$位的回文数和$2k$位的回文数的个数理应是相同的, 且都等于$2k-2$位的回文数的个数$\\times 3$.",
+        "于是$$5$$位和$$6$$位的回文数各有$6\\times 3=18$个."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2007AMC12B, 21 The first 2007 positive integers are each written in base 3 . How many of these base- 3 representations are palindromes? (A palindrome is a number that reads the same forward and backward.)． 把前 2007 个正整数用 3 进制来表示。这些 3 进制表示中有多少是回文数？（回文数，指正着或倒着读都一样的数。）． (A) 100 (B) 101 (C) 102 (D) 103 (E) 104",
+      "solution_text": "首先把 2007_ 10 转化成 3 进制, 得到 2202100_3 . 于是我们就要数出有多少不超过 2202100_3 的 3 进制正回文数 . 按位数分类计数, 然后求和, 是一个可行的思路. 1位的 3 进制回文数有 2 个, 1和 2 （注意题目要求正整数）. 2位的有 2 个, 11 和 22 . 3位的有 2 3=6 个, 1( )1 和 2( )2 . 4位的有 2 3=6 个, 1( )( )1 和 2( )( )2 . 算到这里, 我们发现 2k-1 位的回文数和 2k 位的回文数的个数理应是相同的, 且都等于 2k-2 位的回文数的个数 3 . 于是 5 位和 6 位的回文数各有 6 3=18 个. 7位的回文数有 18 3=54 个. 注意我们要求的是不超过 2202100_3 的回文数, 因此再之后的就就不用求了, 而且我们还需要剔除几个太大的数. 7位且大于 2202100_3 的回文数只能是 22(x)(y)(x)22 的形式, 且 x 0 .因此需要剔除的数共有 2 3=6 个. 于是我们的结果是 2 (2+6+18)+54-6=100 个, 选 A . 拓展: 如果把这前 2007 个正整数用 10 进制表示, 其中的回文数又有多少个? 用其它进制表示呢? 回文数的数量与进制存在关系吗?",
+      "keywords": [
+        "amc10_12",
+        "combination",
+        "information_migration_new_definition",
+        "level_4",
+        "prealgebra",
+        "reasoning",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "493",
+        "queId": "c7b151d8598147abb9b1fc39a20a314a",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "100"
+          },
+          {
+            "label": "B",
+            "content": "101"
+          },
+          {
+            "label": "C",
+            "content": "102"
+          },
+          {
+            "label": "D",
+            "content": "103"
+          },
+          {
+            "label": "E",
+            "content": "104"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->算法与框图->算法案例->进位制",
+          "美国AMC10/12->Knowledge Point->Combination->Reasoning->Information Migration (new definition)"
+        ],
+        "competition_source_list": [
+          "2007年AMC12竞赛B第21题"
+        ]
+      }
+    }
+  }
+]

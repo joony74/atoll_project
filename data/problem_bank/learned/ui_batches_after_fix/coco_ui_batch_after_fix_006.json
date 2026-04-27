@@ -1,0 +1,1368 @@
+{
+  "schema_version": "coco_app_batch_after_fix.v1",
+  "batch_index": 6,
+  "band": "초등",
+  "offset": 50,
+  "doc_ids": [
+    "autobank__elementary_g03_011__9f046299",
+    "autobank__elementary_g03_012__b51656cf",
+    "autobank__elementary_g03_013__e00d1ec2",
+    "autobank__elementary_g03_014__25159c35",
+    "autobank__elementary_g03_015__315acc38",
+    "autobank__elementary_g03_016__4aa08ed8",
+    "autobank__elementary_g03_017__902a0169",
+    "autobank__elementary_g03_018__a219d831",
+    "autobank__elementary_g03_019__56872873",
+    "autobank__elementary_g03_020__5257baa5"
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "error": 0,
+    "by_band": {
+      "초등": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "error": 0
+      }
+    },
+    "by_topic": {
+      "arithmetic": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "geometry": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "pattern": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      },
+      "statistics": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      }
+    }
+  },
+  "card_issue_count": 0,
+  "card_issues": [],
+  "state_issue": null,
+  "results": [
+    {
+      "case_id": "elementary_g03_011",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "pattern",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/변화와 관계/규칙 배열/elementary_g03_011_easy_expression_pattern.png",
+      "expected_answer": "21",
+      "expected_expression": "17+4",
+      "computed_answer": "21",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "answer=21",
+      "recognized_expressions": [
+        "answer=21",
+        "10 ="
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.706,
+      "analysis": {
+        "analysis_started_at": 1777119454.532782,
+        "analysis_finished_at": 1777119455.238934,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n5, 9 13, 17 0\nAS 3학년 ㆍ규칙 배열ㆍ기본 expression - pattern\n~|Oo <= O\n규칙을 찾아 빈칸에 알맞은 AS MAIO.\n5, 9 13, 17",
+            "초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n5, 9 13, 17 0\nAS 3학년 ㆍ규칙 배열ㆍ기본 expression - pattern\n~|Oo <= O\n규칙을 찾아 빈칸에 알맞은 AS MAIO.\n5, 9 13, 17"
+          ],
+          "normalized_problem_text": "answer=21",
+          "expressions": [
+            "answer=21",
+            "10 ="
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/변화와 관계/규칙 배열/elementary_g03_011_easy_expression_pattern.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n5, 9 13, 17 0",
+                "confidence": 0.72,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n5, 9 13, 17 0",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n5, 9 13, 17 0",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "AS 3학년 ㆍ규칙 배열ㆍ기본 expression - pattern\n~|Oo <= O\n규칙을 찾아 빈칸에 알맞은 AS MAIO.\n5, 9 13, 17",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "f66159cd96d8"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "21",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 21야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 21야. 그래서 정답은 21야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n5, 9 13, 17 0\nAS 3학년 ㆍ규칙 배열ㆍ기본 expression - pattern\n~|Oo <= O\n규칙을 찾아 빈칸에 알맞은 AS MAIO.\n5, 9 13, 17",
+            "content_text": "초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n5, 9 13, 17 0\nAS 3학년 ㆍ규칙 배열ㆍ기본 expression - pattern\n~|Oo <= O\n규칙을 찾아 빈칸에 알맞은 AS MAIO.\n5, 9 13, 17",
+            "repaired_text": "",
+            "expressions": [
+              "answer=21",
+              "10 ="
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "21",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_011__9f046299"
+    },
+    {
+      "case_id": "elementary_g03_012",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/자료와 가능성/막대그래프/elementary_g03_012_easy_word_statistics.png",
+      "expected_answer": "90",
+      "expected_expression": "73+35-18",
+      "computed_answer": "90",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "： 초등 3학년 ㆍ막대그래프ㆍ기본 word : statistics ： 초등 3학년 ㆍ막대그래프ㆍ기본 word : statistics",
+      "recognized_expressions": [
+        "73+35-18"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.814,
+      "analysis": {
+        "analysis_started_at": 1777119455.239626,
+        "analysis_finished_at": 1777119456.0535989,
+        "structured_problem": {
+          "source_text_candidates": [
+            "： 초등 3학년 ㆍ막대그래프ㆍ기본 word : statistics ：\n민지는 스티커를 73장 가지고 있었습니다.\n35장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Ba\n초등 3학년 ㆍ막대그래프ㆍ기본 word : statistics\n민지는 스티커를 734 가지고 있었습니다.\n35장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 SS\n35장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 at",
+            "： 초등 3학년 ㆍ막대그래프ㆍ기본 word : statistics ：\n민지는 스티커를 73장 가지고 있었습니다.\n35장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Ba\n초등 3학년 ㆍ막대그래프ㆍ기본 word : statistics\n민지는 스티커를 734 가지고 있었습니다.\n35장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 SS\n35장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 at"
+          ],
+          "normalized_problem_text": "： 초등 3학년 ㆍ막대그래프ㆍ기본 word : statistics ： 초등 3학년 ㆍ막대그래프ㆍ기본 word : statistics",
+          "expressions": [
+            "73+35-18"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "coordinate_geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/자료와 가능성/막대그래프/elementary_g03_012_easy_word_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "： 초등 3학년 ㆍ막대그래프ㆍ기본 word : statistics ：\n민지는 스티커를 73장 가지고 있었습니다.\n35장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Ba",
+                "confidence": 0.54,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ막대그래프ㆍ기본 word : statistics\n민지는 스티커를 734 가지고 있었습니다.\n35장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 SS",
+                    "confidence": 0.48
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ막대그래프ㆍ기본 word : statistics\n민지는 스티커를 734 가지고 있었습니다.\n35장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 at\nO AEA",
+                    "confidence": 0.52
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 초등 3학년 ㆍ막대그래프ㆍ기본 word : statistics ：\n민지는 스티커를 73장 가지고 있었습니다.\n35장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Ba",
+                    "confidence": 0.54
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "6c5f06f421e5"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "90",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 90야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 90야. 그래서 정답은 90야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "： 초등 3학년 ㆍ막대그래프ㆍ기본 word : statistics ：\n민지는 스티커를 73장 가지고 있었습니다.\n35장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Ba\n초등 3학년 ㆍ막대그래프ㆍ기본 word : statistics\n민지는 스티커를 734 가지고 있었습니다.\n35장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 SS\n35장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 at",
+            "content_text": "： 초등 3학년 ㆍ막대그래프ㆍ기본 word : statistics ：\n민지는 스티커를 73장 가지고 있었습니다.\n35장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Ba\n초등 3학년 ㆍ막대그래프ㆍ기본 word : statistics\n민지는 스티커를 734 가지고 있었습니다.\n35장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 SS\n35장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 at",
+            "repaired_text": "",
+            "expressions": [
+              "73+35-18"
+            ],
+            "choices": [],
+            "math_topic": "coordinate_geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "90",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_012__b51656cf"
+    },
+    {
+      "case_id": "elementary_g03_013",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "arithmetic",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/수와 연산/곱셈·나눗셈과 분수/elementary_g03_013_easy_table_arithmetic.png",
+      "expected_answer": "131",
+      "expected_expression": "38+21+35+37",
+      "computed_answer": "131",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 SSS 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "38+21+35+37"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.396,
+      "analysis": {
+        "analysis_started_at": 1777119456.05432,
+        "analysis_finished_at": 1777119457.4501781,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 3학년ㆍ곱셈:나늦셈과 분수 ㆍ기본 table - arithmetic\n아래 표의 SSS 모두 몇 개인지 구하시오.\n값 38 21 35 37\n초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 table ㆍ arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오,\n： ABS 3학년 ㆍ곱셈ㆍ나늦셈과 분수ㆍ기본 table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\ntable_row_2 38 21 35 37",
+            "초등 3학년ㆍ곱셈:나늦셈과 분수 ㆍ기본 table - arithmetic\n아래 표의 SSS 모두 몇 개인지 구하시오.\n값 38 21 35 37\n초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 table ㆍ arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오,\n： ABS 3학년 ㆍ곱셈ㆍ나늦셈과 분수ㆍ기본 table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\ntable_row_2 38 21 35 37"
+          ],
+          "normalized_problem_text": "아래 표의 SSS 모두 몇 개인지 구하시오",
+          "expressions": [
+            "38+21+35+37"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/수와 연산/곱셈·나눗셈과 분수/elementary_g03_013_easy_table_arithmetic.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 3학년ㆍ곱셈:나늦셈과 분수 ㆍ기본 table - arithmetic\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B 의 D\n값 38 21 35 37",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 table ㆍ arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오,\neC",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 3학년ㆍ곱셈:나늦셈과 분수 ㆍ기본 table - arithmetic\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B 의 D\n값 38 21 35 37",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： ABS 3학년 ㆍ곱셈ㆍ나늦셈과 분수ㆍ기본 table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 fA BC",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 38 21 35 37",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "c993e823792d"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "131",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 131야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 131야. 그래서 정답은 131야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 3학년ㆍ곱셈:나늦셈과 분수 ㆍ기본 table - arithmetic\n아래 표의 SSS 모두 몇 개인지 구하시오.\n값 38 21 35 37\n초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 table ㆍ arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오,\n： ABS 3학년 ㆍ곱셈ㆍ나늦셈과 분수ㆍ기본 table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\ntable_row_2 38 21 35 37",
+            "content_text": "초등 3학년ㆍ곱셈:나늦셈과 분수 ㆍ기본 table - arithmetic\n아래 표의 SSS 모두 몇 개인지 구하시오.\n값 38 21 35 37\n초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 table ㆍ arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오,\n： ABS 3학년 ㆍ곱셈ㆍ나늦셈과 분수ㆍ기본 table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\ntable_row_2 38 21 35 37",
+            "repaired_text": "",
+            "expressions": [
+              "38+21+35+37"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "131",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_013__e00d1ec2"
+    },
+    {
+      "case_id": "elementary_g03_014",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/도형과 측정/평면도형과 원/elementary_g03_014_easy_expression_geometry.png",
+      "expected_answer": "55",
+      "expected_expression": "37+18",
+      "computed_answer": "55",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "37 + 18"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.456,
+      "analysis": {
+        "analysis_started_at": 1777119457.4510028,
+        "analysis_finished_at": 1777119457.906537,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| AS 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n37 + 18\n초등 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr",
+            "| AS 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n37 + 18\n초등 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "37 + 18"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/도형과 측정/평면도형과 원/elementary_g03_014_easy_expression_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| AS 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n37 + 18",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n37 + 18",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| AS 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n37 + 18",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "38f4ce9a0344"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "55",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 55야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 도형이나 좌표 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 55야. 그래서 정답은 55야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| AS 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n37 + 18\n초등 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr",
+            "content_text": "| AS 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n37 + 18\n초등 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr",
+            "repaired_text": "",
+            "expressions": [
+              "37 + 18"
+            ],
+            "choices": [],
+            "math_topic": "geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "55",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_014__25159c35"
+    },
+    {
+      "case_id": "elementary_g03_015",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "pattern",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/변화와 관계/규칙 배열/elementary_g03_015_easy_expression_pattern.png",
+      "expected_answer": "31",
+      "expected_expression": "25+6",
+      "computed_answer": "31",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "answer=31",
+      "recognized_expressions": [
+        "answer=31"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.695,
+      "analysis": {
+        "analysis_started_at": 1777119457.907177,
+        "analysis_finished_at": 1777119458.601696,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 초등 3학년ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n7, 13, 19, 25, 니\n초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n7, 13, 19, 25, O",
+            "| 초등 3학년ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n7, 13, 19, 25, 니\n초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n7, 13, 19, 25, O"
+          ],
+          "normalized_problem_text": "answer=31",
+          "expressions": [
+            "answer=31"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/변화와 관계/규칙 배열/elementary_g03_015_easy_expression_pattern.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 초등 3학년ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n7, 13, 19, 25, 니",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n7, 13, 19, 25, O",
+                    "confidence": 0.48
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n7, 13, 19, 25, O",
+                    "confidence": 0.52
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 3학년ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n7, 13, 19, 25, 니",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "3b7839a5044a"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "31",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 31야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 31야. 그래서 정답은 31야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 초등 3학년ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n7, 13, 19, 25, 니\n초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n7, 13, 19, 25, O",
+            "content_text": "| 초등 3학년ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n7, 13, 19, 25, 니\n초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n7, 13, 19, 25, O",
+            "repaired_text": "",
+            "expressions": [
+              "answer=31"
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "31",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_015__315acc38"
+    },
+    {
+      "case_id": "elementary_g03_016",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/자료와 가능성/막대그래프/elementary_g03_016_easy_expression_statistics.png",
+      "expected_answer": "413/5",
+      "expected_expression": "(87+86+77+96+67)/5",
+      "computed_answer": "413/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(87+86+77+96+67)/5",
+        "87, 86, // 96, 67"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.467,
+      "analysis": {
+        "analysis_started_at": 1777119458.603018,
+        "analysis_finished_at": 1777119459.070512,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistic:\n다음 자료의 평균을 구하시오.\n87, 86, 77, 96, 67\n“ 초등 3학년 ㆍ막대그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n87, 86, // 96, 67",
+            "초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistic:\n다음 자료의 평균을 구하시오.\n87, 86, 77, 96, 67\n“ 초등 3학년 ㆍ막대그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n87, 86, // 96, 67"
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(87+86+77+96+67)/5",
+            "87, 86, // 96, 67"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/자료와 가능성/막대그래프/elementary_g03_016_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistic:\n다음 자료의 평균을 구하시오.\n87, 86, 77, 96, 67",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistic:\n다음 자료의 평균을 구하시오.\n87, 86, 77, 96, 67",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "“ 초등 3학년 ㆍ막대그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n87, 86, // 96, 67",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "ddb1e7cbb1b6"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "413/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 413/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 413/5야. 그래서 정답은 413/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistic:\n다음 자료의 평균을 구하시오.\n87, 86, 77, 96, 67\n“ 초등 3학년 ㆍ막대그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n87, 86, // 96, 67",
+            "content_text": "초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistic:\n다음 자료의 평균을 구하시오.\n87, 86, 77, 96, 67\n“ 초등 3학년 ㆍ막대그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n87, 86, // 96, 67",
+            "repaired_text": "",
+            "expressions": [
+              "(87+86+77+96+67)/5",
+              "87, 86, // 96, 67"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "413/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_016__4aa08ed8"
+    },
+    {
+      "case_id": "elementary_g03_017",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "arithmetic",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/수와 연산/곱셈·나눗셈과 분수/elementary_g03_017_easy_word_arithmetic.png",
+      "expected_answer": "33",
+      "expected_expression": "35+8-10",
+      "computed_answer": "33",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "35+8-10",
+      "recognized_expressions": [
+        "35+8-10"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.778,
+      "analysis": {
+        "analysis_started_at": 1777119459.0712981,
+        "analysis_finished_at": 1777119459.849117,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 초등 3학년 ee Leds 분수 ㆍ기본 word - arithmetic\n민지는 스티커를 35S 가지고 있었습니다.\n8장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 SZ\n초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 word ㆍ arithmetic\n8장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장온\n초등 3학년ㆍ곱셈:나늦셈과 분수 ㆍ기본 word ㆍ arithmetic\n민지는 스티커를 35장 가지고 있었습니다.",
+            "| 초등 3학년 ee Leds 분수 ㆍ기본 word - arithmetic\n민지는 스티커를 35S 가지고 있었습니다.\n8장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 SZ\n초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 word ㆍ arithmetic\n8장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장온\n초등 3학년ㆍ곱셈:나늦셈과 분수 ㆍ기본 word ㆍ arithmetic\n민지는 스티커를 35장 가지고 있었습니다."
+          ],
+          "normalized_problem_text": "35+8-10",
+          "expressions": [
+            "35+8-10"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/수와 연산/곱셈·나눗셈과 분수/elementary_g03_017_easy_word_arithmetic.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 초등 3학년 ee Leds 분수 ㆍ기본 word - arithmetic\n민지는 스티커를 35S 가지고 있었습니다.\n8장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 SZ",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 word ㆍ arithmetic\n민지는 스티커를 35S 가지고 있었습니다.\n8장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장온",
+                    "confidence": 0.48
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 3학년ㆍ곱셈:나늦셈과 분수 ㆍ기본 word ㆍ arithmetic\n민지는 스티커를 35장 가지고 있었습니다.\n8장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장온",
+                    "confidence": 0.52
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 3학년 ee Leds 분수 ㆍ기본 word - arithmetic\n민지는 스티커를 35S 가지고 있었습니다.\n8장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 SZ",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "21bd34e808d9"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "33",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 33야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 33야. 그래서 정답은 33야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 초등 3학년 ee Leds 분수 ㆍ기본 word - arithmetic\n민지는 스티커를 35S 가지고 있었습니다.\n8장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 SZ\n초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 word ㆍ arithmetic\n8장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장온\n초등 3학년ㆍ곱셈:나늦셈과 분수 ㆍ기본 word ㆍ arithmetic\n민지는 스티커를 35장 가지고 있었습니다.",
+            "content_text": "| 초등 3학년 ee Leds 분수 ㆍ기본 word - arithmetic\n민지는 스티커를 35S 가지고 있었습니다.\n8장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 SZ\n초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 word ㆍ arithmetic\n8장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장온\n초등 3학년ㆍ곱셈:나늦셈과 분수 ㆍ기본 word ㆍ arithmetic\n민지는 스티커를 35장 가지고 있었습니다.",
+            "repaired_text": "",
+            "expressions": [
+              "35+8-10"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "33",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_017__902a0169"
+    },
+    {
+      "case_id": "elementary_g03_018",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/도형과 측정/평면도형과 원/elementary_g03_018_easy_table_geometry.png",
+      "expected_answer": "68",
+      "expected_expression": "14+26+16+12",
+      "computed_answer": "68",
+      "matched_choice": "",
+      "validation_status": "needs_review",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 수량은 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "14+26+16+12"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.415,
+      "analysis": {
+        "analysis_started_at": 1777119459.849802,
+        "analysis_finished_at": 1777119461.264898,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 3학년 ㆍ평면도형과 원ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오,\na 14 26 16 12\n아래 표의 수량은 모두 몇 개인지 구하시오.\n： AS 3학년 ㆍ평면도형과 원ㆍ기본 table ㆍ geometry ：\n= [| [< ]ㅁ\nae pe 0 60000\ntable_row_2 14 26 16 12",
+            "초등 3학년 ㆍ평면도형과 원ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오,\na 14 26 16 12\n아래 표의 수량은 모두 몇 개인지 구하시오.\n： AS 3학년 ㆍ평면도형과 원ㆍ기본 table ㆍ geometry ：\n= [| [< ]ㅁ\nae pe 0 60000\ntable_row_2 14 26 16 12"
+          ],
+          "normalized_problem_text": "아래 표의 수량은 모두 몇 개인지 구하시오",
+          "expressions": [
+            "14+26+16+12"
+          ],
+          "choices": [
+            "ㅁ ae pe 0 60000\ntable_row_2 14 26 16 12"
+          ],
+          "question_type": "multiple_choice",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/도형과 측정/평면도형과 원/elementary_g03_018_easy_table_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 3학년 ㆍ평면도형과 원ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오,\n항목 A B c D\na 14 26 16 12",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ평면도형과 원ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항모] ee |ㅁ|",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ평면도형과 원ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오,\n항목 A B c D\na 14 26 16 12",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： AS 3학년 ㆍ평면도형과 원ㆍ기본 table ㆍ geometry ：\n아래 표의 수량은 모두 몇 개인지 구하시오.\n= [| [< ]ㅁ\nae pe 0 60000",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 14 26 16 12",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "4ece09d28fdc"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "68",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 68야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "needs_review",
+          "explanation": "이건 도형이나 좌표 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 68야. 그래서 정답은 68야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 3학년 ㆍ평면도형과 원ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오,\na 14 26 16 12\n아래 표의 수량은 모두 몇 개인지 구하시오.\n： AS 3학년 ㆍ평면도형과 원ㆍ기본 table ㆍ geometry ：\n= [| [< ]ㅁ\nae pe 0 60000\ntable_row_2 14 26 16 12",
+            "content_text": "초등 3학년 ㆍ평면도형과 원ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오,\na 14 26 16 12\n아래 표의 수량은 모두 몇 개인지 구하시오.\n： AS 3학년 ㆍ평면도형과 원ㆍ기본 table ㆍ geometry ：\n= [| [< ]ㅁ\nae pe 0 60000\ntable_row_2 14 26 16 12",
+            "repaired_text": "",
+            "expressions": [
+              "14+26+16+12"
+            ],
+            "choices": [
+              "ㅁ ae pe 0 60000\ntable_row_2 14 26 16 12"
+            ],
+            "math_topic": "geometry",
+            "question_type": "multiple_choice"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "68",
+          "validation_status": "needs_review"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_018__a219d831"
+    },
+    {
+      "case_id": "elementary_g03_019",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "pattern",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/변화와 관계/규칙 배열/elementary_g03_019_easy_expression_pattern.png",
+      "expected_answer": "30",
+      "expected_expression": "24+6",
+      "computed_answer": "30",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "answer=30",
+      "recognized_expressions": [
+        "answer=30"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.698,
+      "analysis": {
+        "analysis_started_at": 1777119461.265598,
+        "analysis_finished_at": 1777119461.963753,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 초등 3학년ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\nrio =x © -\nTAS 찾아 빈칸에 알맞은 수를 MAIO.\n6, 12, 18, 24LO\n초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n6, 12, 18, 24, O",
+            "| 초등 3학년ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\nrio =x © -\nTAS 찾아 빈칸에 알맞은 수를 MAIO.\n6, 12, 18, 24LO\n초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n6, 12, 18, 24, O"
+          ],
+          "normalized_problem_text": "answer=30",
+          "expressions": [
+            "answer=30"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/변화와 관계/규칙 배열/elementary_g03_019_easy_expression_pattern.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 초등 3학년ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\nrio =x © -\nTAS 찾아 빈칸에 알맞은 수를 MAIO.\n6, 12, 18, 24LO",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n6, 12, 18, 24, O",
+                    "confidence": 0.48
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n6, 12, 18, 24, O",
+                    "confidence": 0.52
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 3학년ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\nrio =x © -\nTAS 찾아 빈칸에 알맞은 수를 MAIO.\n6, 12, 18, 24LO",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "dfaf9dfeb98d"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "30",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 30야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 30야. 그래서 정답은 30야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 초등 3학년ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\nrio =x © -\nTAS 찾아 빈칸에 알맞은 수를 MAIO.\n6, 12, 18, 24LO\n초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n6, 12, 18, 24, O",
+            "content_text": "| 초등 3학년ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\nrio =x © -\nTAS 찾아 빈칸에 알맞은 수를 MAIO.\n6, 12, 18, 24LO\n초등 3학년 ㆍ규칙 배열ㆍ기본 expression ㆍ pattern\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n6, 12, 18, 24, O",
+            "repaired_text": "",
+            "expressions": [
+              "answer=30"
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "30",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_019__56872873"
+    },
+    {
+      "case_id": "elementary_g03_020",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/자료와 가능성/막대그래프/elementary_g03_020_easy_expression_statistics.png",
+      "expected_answer": "416/5",
+      "expected_expression": "(81+95+71+98+71)/5",
+      "computed_answer": "416/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(81+95+71+98+71)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.455,
+      "analysis": {
+        "analysis_started_at": 1777119461.964421,
+        "analysis_finished_at": 1777119462.419404,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistic:\n다음 자료의 평균을 구하시오.\n81, 95, 71, 98, 71\n“ 초등 3학년 ㆍ막대그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.",
+            "초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistic:\n다음 자료의 평균을 구하시오.\n81, 95, 71, 98, 71\n“ 초등 3학년 ㆍ막대그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오."
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(81+95+71+98+71)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/자료와 가능성/막대그래프/elementary_g03_020_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistic:\n다음 자료의 평균을 구하시오.\n81, 95, 71, 98, 71",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistic:\n다음 자료의 평균을 구하시오.\n81, 95, 71, 98, 71",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "“ 초등 3학년 ㆍ막대그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n81, 95, 71, 98, 71",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "1c696b696d87"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "416/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 416/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 416/5야. 그래서 정답은 416/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistic:\n다음 자료의 평균을 구하시오.\n81, 95, 71, 98, 71\n“ 초등 3학년 ㆍ막대그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.",
+            "content_text": "초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistic:\n다음 자료의 평균을 구하시오.\n81, 95, 71, 98, 71\n“ 초등 3학년 ㆍ막대그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "(81+95+71+98+71)/5"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "416/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_020__5257baa5"
+    }
+  ]
+}

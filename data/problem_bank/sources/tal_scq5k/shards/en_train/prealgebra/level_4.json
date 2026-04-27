@@ -1,0 +1,2509 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:01103",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1103,
+      "split": "en_train",
+      "source_problem_id": "339d23c6d10d423696ef81cebc0ee787"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Two integers are inserted into the list $3,3,8,11,28$ to double its range. The mode and median remain unchanged. What is the maximum possible sum of the two additional numbers?\n(A) 56\n(B) 57\n(C) 58\n(D) 60\n(E) 61",
+      "problem_plain": "Two integers are inserted into the list 3,3,8,11,28 to double its range. The mode and median remain unchanged. What is the maximum possible sum of the two additional numbers? (A) 56 (B) 57 (C) 58 (D) 60 (E) 61",
+      "solution_latex": "D",
+      "solution_plain": "D"
+    },
+    "answer": {
+      "final_raw": "60",
+      "final_normalized": "60",
+      "candidates": [
+        "60",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "D"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Two integers are inserted into the list 3,3,8,11,28 to double its range. The mode and median remain unchanged. What is the maximum possible sum of the two additional numbers? (A) 56 (B) 57 (C) 58 (D) 60 (E) 61",
+      "solution_text": "D",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3006",
+        "queId": "339d23c6d10d423696ef81cebc0ee787",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "56"
+          },
+          {
+            "label": "B",
+            "content": "57"
+          },
+          {
+            "label": "C",
+            "content": "58"
+          },
+          {
+            "label": "D",
+            "content": "60"
+          },
+          {
+            "label": "E",
+            "content": "61"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:01120",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1120,
+      "split": "en_train",
+      "source_problem_id": "0c99a520a2684252805a3492987c0a25"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the remainder when $2^{2023}+2023$ is divided by $2^{20}+1$? (Adapted From 2020 AMC 10B Problems, Question \\#22)\n(A) 2015\n(B) 2^{5}\n(C) 2023\n(D) 2048\n(E) 20",
+      "problem_plain": "What is the remainder when 2^ 2023 +2023 is divided by 2^ 20 +1 ? (Adapted From 2020 AMC 10B Problems, Question #22) (A) 2015 (B) 2^ 5 (C) 2023 (D) 2048 (E) 20",
+      "solution_latex": "Let $x=2^{20}$.  We are now looking for the remainder of $\\frac{8x^{101}+2023}{x+1}$. By Polynomial Remainder Theorem, the remainder is $8\\times (-1)^{101} + 2023 = 2015$.",
+      "solution_plain": "Let x=2^ 20 . We are now looking for the remainder of 8x^ 101 +2023 x+1 . By Polynomial Remainder Theorem, the remainder is 8 (-1)^ 101 + 2023 = 2015 ."
+    },
+    "answer": {
+      "final_raw": "2015",
+      "final_normalized": "2015",
+      "candidates": [
+        "2015",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Let $x=2^{20}$.",
+        "We are now looking for the remainder of $\\frac{8x^{101}+2023}{x+1}$.",
+        "By Polynomial Remainder Theorem, the remainder is $8\\times (-1)^{101} + 2023 = 2015$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the remainder when 2^ 2023 +2023 is divided by 2^ 20 +1 ? (Adapted From 2020 AMC 10B Problems, Question #22) (A) 2015 (B) 2^ 5 (C) 2023 (D) 2048 (E) 20",
+      "solution_text": "Let x=2^ 20 . We are now looking for the remainder of 8x^ 101 +2023 x+1 . By Polynomial Remainder Theorem, the remainder is 8 (-1)^ 101 + 2023 = 2015 .",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3082",
+        "queId": "0c99a520a2684252805a3492987c0a25",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2015"
+          },
+          {
+            "label": "B",
+            "content": "2^{5}"
+          },
+          {
+            "label": "C",
+            "content": "2023"
+          },
+          {
+            "label": "D",
+            "content": "2048"
+          },
+          {
+            "label": "E",
+            "content": "20"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:01132",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1132,
+      "split": "en_train",
+      "source_problem_id": "2aa8627cef2b444dbb189c1d669cf4dd"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "(2) Eddie had 120 dollars as his pocket money, and spent $$ \\frac{3}{4} $$of it. How much money is left?\n(A) 30\n(B) 60\n(C) 90\n(D) 120",
+      "problem_plain": "(2) Eddie had 120 dollars as his pocket money, and spent 3 4 of it. How much money is left? (A) 30 (B) 60 (C) 90 (D) 120",
+      "solution_latex": "left！！！not spent! So you need to calculate the fraction of left money. Then use T*F=C",
+      "solution_plain": "left！！！not spent! So you need to calculate the fraction of left money. Then use T*F=C"
+    },
+    "answer": {
+      "final_raw": "30",
+      "final_normalized": "30",
+      "candidates": [
+        "30",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules",
+        "fractions"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "fractions",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "left！！！not spent!",
+        "So you need to calculate the fraction of left money.",
+        "Then use T*F=C"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "(2) Eddie had 120 dollars as his pocket money, and spent 3 4 of it. How much money is left? (A) 30 (B) 60 (C) 90 (D) 120",
+      "solution_text": "left！！！not spent! So you need to calculate the fraction of left money. Then use T*F=C",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "fractions",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3125",
+        "queId": "2aa8627cef2b444dbb189c1d669cf4dd",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "30"
+          },
+          {
+            "label": "B",
+            "content": "60"
+          },
+          {
+            "label": "C",
+            "content": "90"
+          },
+          {
+            "label": "D",
+            "content": "120"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Fractions"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:01210",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1210,
+      "split": "en_train",
+      "source_problem_id": "874b263665b34a9da8ad6b6c590d4f59"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Known $$A=\\frac{{{3}^{2019}}+1}{{{3}^{2020}}+1}$$，$$B=\\frac{{{3}^{2020}}+1}{{{3}^{2021}}+1}$$, compare between $$A$$ and $$B$$．\n(A) A=B\n(B) A\\textgreater B\n(C) A\\textless B\n(D) All of the above\n(E) None of the above",
+      "problem_plain": "Known A= 3 ^ 2019 +1 3 ^ 2020 +1 ， B= 3 ^ 2020 +1 3 ^ 2021 +1 , compare between A and B ． (A) A=B (B) A B (C) A B (D) All of the above (E) None of the above",
+      "solution_latex": "$${{3}^{2019}}=a$$，$$A=\\frac{a+1}{3a+1}$$，$$B=\\frac{3a+1}{9a+1}$$，  $$\\frac{1}{A}=\\frac{3a+1}{a+1}=\\frac{3(a+1)-2}{a+1}=3-\\frac{2}{a+1}$$，  $$\\frac{1}{B}=\\frac{9a+1}{3a+1}=\\frac{3(3a+1)-2}{3a+1}=3-\\frac{2}{3a+1}$$，  ∴$$\\frac{1}{A} ~\\textless{} ~\\frac{1}{B}$$，  ∴$$A\\textgreater B$$．",
+      "solution_plain": "3 ^ 2019 =a ， A= a+1 3a+1 ， B= 3a+1 9a+1 ， 1 A = 3a+1 a+1 = 3(a+1)-2 a+1 =3- 2 a+1 ， 1 B = 9a+1 3a+1 = 3(3a+1)-2 3a+1 =3- 2 3a+1 ， ∴ 1 A ~ ~ 1 B ， ∴ A B ．"
+    },
+    "answer": {
+      "final_raw": "A\\textgreater B",
+      "final_normalized": "A\\textgreater B",
+      "candidates": [
+        "A\\textgreater B",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$${{3}^{2019}}=a$$，$$A=\\frac{a+1}{3a+1}$$，$$B=\\frac{3a+1}{9a+1}$$，  $$\\frac{1}{A}=\\frac{3a+1}{a+1}=\\frac{3(a+1)-2}{a+1}=3-\\frac{2}{a+1}$$，  $$\\frac{1}{B}=\\frac{9a+1}{3a+1}=\\frac{3(3a+1)-2}{3a+1}=3-\\frac{2}{3a+1}$$，  ∴$$\\frac{1}{A} ~\\textless{} ~\\frac{1}{B}$$，  ∴$$A\\textgreater B$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Known A= 3 ^ 2019 +1 3 ^ 2020 +1 ， B= 3 ^ 2020 +1 3 ^ 2021 +1 , compare between A and B ． (A) A=B (B) A B (C) A B (D) All of the above (E) None of the above",
+      "solution_text": "3 ^ 2019 =a ， A= a+1 3a+1 ， B= 3a+1 9a+1 ， 1 A = 3a+1 a+1 = 3(a+1)-2 a+1 =3- 2 a+1 ， 1 B = 9a+1 3a+1 = 3(3a+1)-2 3a+1 =3- 2 3a+1 ， ∴ 1 A ~ ~ 1 B ， ∴ A B ．",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3472",
+        "queId": "874b263665b34a9da8ad6b6c590d4f59",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "A=B"
+          },
+          {
+            "label": "B",
+            "content": "A\\textgreater B"
+          },
+          {
+            "label": "C",
+            "content": "A\\textless B"
+          },
+          {
+            "label": "D",
+            "content": "All of the above"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:01257",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1257,
+      "split": "en_train",
+      "source_problem_id": "4288c25670dd4ab69ce3b78675fb4028"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Greta Grasshopper sits on a long line of lily pads in a pond. From any lily pad, Greta can jump $5$ pads to the right or $3$ pads to the left. What is the fewest number of jumps Greta must make to reach the lily pad located $2023$ pads to the right of her starting position?\n(A) 405\n(B) 407\n(C) 409\n(D) 411\n(E) 413",
+      "problem_plain": "Greta Grasshopper sits on a long line of lily pads in a pond. From any lily pad, Greta can jump 5 pads to the right or 3 pads to the left. What is the fewest number of jumps Greta must make to reach the lily pad located 2023 pads to the right of her starting position? (A) 405 (B) 407 (C) 409 (D) 411 (E) 413",
+      "solution_latex": "D",
+      "solution_plain": "D"
+    },
+    "answer": {
+      "final_raw": "405",
+      "final_normalized": "405",
+      "candidates": [
+        "405",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "D"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Greta Grasshopper sits on a long line of lily pads in a pond. From any lily pad, Greta can jump 5 pads to the right or 3 pads to the left. What is the fewest number of jumps Greta must make to reach the lily pad located 2023 pads to the right of her starting position? (A) 405 (B) 407 (C) 409 (D) 411 (E) 413",
+      "solution_text": "D",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3699",
+        "queId": "4288c25670dd4ab69ce3b78675fb4028",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "405"
+          },
+          {
+            "label": "B",
+            "content": "407"
+          },
+          {
+            "label": "C",
+            "content": "409"
+          },
+          {
+            "label": "D",
+            "content": "411"
+          },
+          {
+            "label": "E",
+            "content": "413"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:01268",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1268,
+      "split": "en_train",
+      "source_problem_id": "23a03c2f1a3644c98e89d5dc863788f1"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let $P(x)$ be a polynomial such that when $P(x)$ is divided by $x-19$, the remainder is 99 , and when $P(x)$ is divided by $x-99$, the remainder is 19. What is the remainder when $P(x)$ is divided by $(x-19)(x-99)$? (1999 AHSME Problems, Question \\#17)\n(A) -x+80\n(B) x+80\n(C) -x+118\n(D) x+118\n(E) 0",
+      "problem_plain": "Let P(x) be a polynomial such that when P(x) is divided by x-19 , the remainder is 99 , and when P(x) is divided by x-99 , the remainder is 19. What is the remainder when P(x) is divided by (x-19)(x-99) ? (1999 AHSME Problems, Question #17) (A) -x+80 (B) x+80 (C) -x+118 (D) x+118 (E) 0",
+      "solution_latex": "Since the divisor $(x-19)(x-99)$ is a quadratic, the degree of the remainder is at most linear.  We can write $P(x)$ in the form $$ P(x)=Q(x)(x-19)(x-99)+c x+d $$ where $c x+d$ is the remainder.  By the Remainder Theorem, plugging in 19 and 99 gives us a system of equations:  $$ \\begin{aligned} \\& 99 c+d=19 \\textbackslash\\textbackslash{} \\& 19 c+d=99\\end{aligned} $$  Solving gives us $c=-1$ and $d=118$, thus, our answer is $(\\text{C})-x+118$.",
+      "solution_plain": "Since the divisor (x-19)(x-99) is a quadratic, the degree of the remainder is at most linear. We can write P(x) in the form P(x)=Q(x)(x-19)(x-99)+c x+d where c x+d is the remainder. By the Remainder Theorem, plugging in 19 and 99 gives us a system of equations: aligned & 99 c+d=19 & 19 c+d=99 aligned Solving gives us c=-1 and d=118 , thus, our answer is ( C )-x+118 ."
+    },
+    "answer": {
+      "final_raw": "-x+118",
+      "final_normalized": "-x+118",
+      "candidates": [
+        "-x+118",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Since the divisor $(x-19)(x-99)$ is a quadratic, the degree of the remainder is at most linear.",
+        "We can write $P(x)$ in the form $$ P(x)=Q(x)(x-19)(x-99)+c x+d $$ where $c x+d$ is the remainder.",
+        "By the Remainder Theorem, plugging in 19 and 99 gives us a system of equations:  $$ \\begin{aligned} \\& 99 c+d=19 \\textbackslash\\textbackslash{} \\& 19 c+d=99\\end{aligned} $$  Solving gives us $c=-1$ and $d=118$, thus, our answer is $(\\text{C})-x+118$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let P(x) be a polynomial such that when P(x) is divided by x-19 , the remainder is 99 , and when P(x) is divided by x-99 , the remainder is 19. What is the remainder when P(x) is divided by (x-19)(x-99) ? (1999 AHSME Problems, Question #17) (A) -x+80 (B) x+80 (C) -x+118 (D) x+118 (E) 0",
+      "solution_text": "Since the divisor (x-19)(x-99) is a quadratic, the degree of the remainder is at most linear. We can write P(x) in the form P(x)=Q(x)(x-19)(x-99)+c x+d where c x+d is the remainder. By the Remainder Theorem, plugging in 19 and 99 gives us a system of equations: aligned & 99 c+d=19 & 19 c+d=99 aligned Solving gives us c=-1 and d=118 , thus, our answer is ( C )-x+118 .",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3765",
+        "queId": "23a03c2f1a3644c98e89d5dc863788f1",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "-x+80"
+          },
+          {
+            "label": "B",
+            "content": "x+80"
+          },
+          {
+            "label": "C",
+            "content": "-x+118"
+          },
+          {
+            "label": "D",
+            "content": "x+118"
+          },
+          {
+            "label": "E",
+            "content": "0"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:01366",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1366,
+      "split": "en_train",
+      "source_problem_id": "634e34cc8b2948089ca5b408b7f7a6fb"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Two integers are inserted into the list $3,3,8,11,28$ to double its range. The mode and median remain unchanged. What is the maximum possible sum of the two additional numbers?\n(A) 56\n(B) 57\n(C) 58\n(D) 60\n(E) 61",
+      "problem_plain": "Two integers are inserted into the list 3,3,8,11,28 to double its range. The mode and median remain unchanged. What is the maximum possible sum of the two additional numbers? (A) 56 (B) 57 (C) 58 (D) 60 (E) 61",
+      "solution_latex": "D",
+      "solution_plain": "D"
+    },
+    "answer": {
+      "final_raw": "56",
+      "final_normalized": "56",
+      "candidates": [
+        "56",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "D"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Two integers are inserted into the list 3,3,8,11,28 to double its range. The mode and median remain unchanged. What is the maximum possible sum of the two additional numbers? (A) 56 (B) 57 (C) 58 (D) 60 (E) 61",
+      "solution_text": "D",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "4254",
+        "queId": "634e34cc8b2948089ca5b408b7f7a6fb",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "56"
+          },
+          {
+            "label": "B",
+            "content": "57"
+          },
+          {
+            "label": "C",
+            "content": "58"
+          },
+          {
+            "label": "D",
+            "content": "60"
+          },
+          {
+            "label": "E",
+            "content": "61"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:01386",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1386,
+      "split": "en_train",
+      "source_problem_id": "a2d028b64a9a47d7968c3a9a61b0f244"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "In a sequence of positive integers, each term after the second is the product of the previous two terms. The sixth term in the sequence is $4000$. What is the first term?\n(A) 1\n(B) 2\n(C) 4\n(D) 5\n(E) 10",
+      "problem_plain": "In a sequence of positive integers, each term after the second is the product of the previous two terms. The sixth term in the sequence is 4000 . What is the first term? (A) 1 (B) 2 (C) 4 (D) 5 (E) 10",
+      "solution_latex": "D",
+      "solution_plain": "D"
+    },
+    "answer": {
+      "final_raw": "5",
+      "final_normalized": "5",
+      "candidates": [
+        "5",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "D"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "In a sequence of positive integers, each term after the second is the product of the previous two terms. The sixth term in the sequence is 4000 . What is the first term? (A) 1 (B) 2 (C) 4 (D) 5 (E) 10",
+      "solution_text": "D",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "4334",
+        "queId": "a2d028b64a9a47d7968c3a9a61b0f244",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "5"
+          },
+          {
+            "label": "E",
+            "content": "10"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:01430",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1430,
+      "split": "en_train",
+      "source_problem_id": "5f287b4c4fb54522906d34896995d843"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Given that $$\\left[ x+0.19 \\right]+\\left[ x+0.20 \\right]+\\left[ x+0.21 \\right]+\\cdots \\cdots +\\left[ x+0.91 \\right]=546$$. Find $$\\left[ 100x \\right]$$\n(A) 793\n(B) 737\n(C) 757\n(D) 743\n(E) None of the above",
+      "problem_plain": "Given that [ x+0.19 ]+ [ x+0.20 ]+ [ x+0.21 ]+ + [ x+0.91 ]=546 . Find [ 100x ] (A) 793 (B) 737 (C) 757 (D) 743 (E) None of the above",
+      "solution_latex": "NA",
+      "solution_plain": "NA"
+    },
+    "answer": {
+      "final_raw": "743",
+      "final_normalized": "743",
+      "candidates": [
+        "743",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "NA"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Given that [ x+0.19 ]+ [ x+0.20 ]+ [ x+0.21 ]+ + [ x+0.91 ]=546 . Find [ 100x ] (A) 793 (B) 737 (C) 757 (D) 743 (E) None of the above",
+      "solution_text": "NA",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "4511",
+        "queId": "5f287b4c4fb54522906d34896995d843",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "793"
+          },
+          {
+            "label": "B",
+            "content": "737"
+          },
+          {
+            "label": "C",
+            "content": "757"
+          },
+          {
+            "label": "D",
+            "content": "743"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:01489",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1489,
+      "split": "en_train",
+      "source_problem_id": "c36ede0918a64827ac2640e93833e55e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Alina writes the numbers $1,2,\\cdots ,9$ on a separate cards, one number per card. She wishes to divide the cards into $3$ groups of $3$ cards so that the sum of the numbers in each group will be the same. In how many ways can this be done?\n(A) 0\n(B) 1\n(C) 2\n(D) 3\n(E) 4",
+      "problem_plain": "Alina writes the numbers 1,2, ,9 on a separate cards, one number per card. She wishes to divide the cards into 3 groups of 3 cards so that the sum of the numbers in each group will be the same. In how many ways can this be done? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_latex": "C",
+      "solution_plain": "C"
+    },
+    "answer": {
+      "final_raw": "0",
+      "final_normalized": "0",
+      "candidates": [
+        "0",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "C"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Alina writes the numbers 1,2, ,9 on a separate cards, one number per card. She wishes to divide the cards into 3 groups of 3 cards so that the sum of the numbers in each group will be the same. In how many ways can this be done? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_text": "C",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "4762",
+        "queId": "c36ede0918a64827ac2640e93833e55e",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          },
+          {
+            "label": "E",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:01576",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1576,
+      "split": "en_train",
+      "source_problem_id": "dac45af48645433fbdd72290ac6e5444"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Chantal and Jean start hiking from a trailhead toward a fire tower. Jean is wearing a heavy backpack and walks slower. Chantal starts walking $4$ miles per hour. Halfway to the tower, the trail becomes really steep, and Chantal slows down to $2$ miles per hour. After reaching the tower, she immediately turns around and descends the steep part of the trail at $3$ miles per hour. She meets Jean at the halfway point. What was Jean\\textquotesingle s average speed, in miles per hour, until they meet? (2021 AMC 10A Problems, Question \\#6)\n(A) \\frac{12}{13}\n(B) 1\n(C) \\frac{13}{12}\n(D) \\frac{24}{13}\n(E) 2",
+      "problem_plain": "Chantal and Jean start hiking from a trailhead toward a fire tower. Jean is wearing a heavy backpack and walks slower. Chantal starts walking 4 miles per hour. Halfway to the tower, the trail becomes really steep, and Chantal slows down to 2 miles per hour. After reaching the tower, she immediately turns around and descends the steep part of the trail at 3 miles per hour. She meets Jean at the halfway point. What was Jean s average speed, in miles per hour, until they meet? (2021 AMC 10A Problems, Question #6) (A) 12 13 (B) 1 (C) 13 12 (D) 24 13 (E) 2",
+      "solution_latex": "Let $2 d$ miles be the distance from the trailhead to the fire tower, where $d\\textgreater0$. When Chantal meets Jean, the two have traveled for $$ \\frac{d}{4}+\\frac{d}{2}+\\frac{d}{3}=d\\left(\\frac{1}{4}+\\frac{1}{2}+\\frac{1}{3}\\right)=d\\left(\\frac{3}{12}+\\frac{6}{12}+\\frac{4}{12}\\right)=\\frac{13}{12} d $$ hours.  At that point, Jean has traveled for $d$ miles, so his average speed is $\\frac{d}{\\frac{13}{12} d}=(\\mathbf{A}) \\frac{12}{13}$ miles per hour.",
+      "solution_plain": "Let 2 d miles be the distance from the trailhead to the fire tower, where d 0 . When Chantal meets Jean, the two have traveled for d 4 + d 2 + d 3 =d ( 1 4 + 1 2 + 1 3 )=d ( 3 12 + 6 12 + 4 12 )= 13 12 d hours. At that point, Jean has traveled for d miles, so his average speed is d 13 12 d =( A ) 12 13 miles per hour."
+    },
+    "answer": {
+      "final_raw": "\\frac{12}{13}",
+      "final_normalized": "\\frac{12}{13}",
+      "candidates": [
+        "A",
+        "\\frac{12}{13}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Let $2 d$ miles be the distance from the trailhead to the fire tower, where $d\\textgreater0$.",
+        "When Chantal meets Jean, the two have traveled for $$ \\frac{d}{4}+\\frac{d}{2}+\\frac{d}{3}=d\\left(\\frac{1}{4}+\\frac{1}{2}+\\frac{1}{3}\\right)=d\\left(\\frac{3}{12}+\\frac{6}{12}+\\frac{4}{12}\\right)=\\frac{13}{12} d $$ hours.",
+        "At that point, Jean has traveled for $d$ miles, so his average speed is $\\frac{d}{\\frac{13}{12} d}=(\\mathbf{A}) \\frac{12}{13}$ miles per hour."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Chantal and Jean start hiking from a trailhead toward a fire tower. Jean is wearing a heavy backpack and walks slower. Chantal starts walking 4 miles per hour. Halfway to the tower, the trail becomes really steep, and Chantal slows down to 2 miles per hour. After reaching the tower, she immediately turns around and descends the steep part of the trail at 3 miles per hour. She meets Jean at the halfway point. What was Jean s average speed, in miles per hour, until they meet? (2021 AMC 10A Problems, Question #6) (A) 12 13 (B) 1 (C) 13 12 (D) 24 13 (E) 2",
+      "solution_text": "Let 2 d miles be the distance from the trailhead to the fire tower, where d 0 . When Chantal meets Jean, the two have traveled for d 4 + d 2 + d 3 =d ( 1 4 + 1 2 + 1 3 )=d ( 3 12 + 6 12 + 4 12 )= 13 12 d hours. At that point, Jean has traveled for d miles, so his average speed is d 13 12 d =( A ) 12 13 miles per hour.",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "5154",
+        "queId": "dac45af48645433fbdd72290ac6e5444",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{12}{13}"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{13}{12}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{24}{13}"
+          },
+          {
+            "label": "E",
+            "content": "2"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:01624",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1624,
+      "split": "en_train",
+      "source_problem_id": "b63f5adaeaa1403fb242b506b7c5871f"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Greta Grasshopper sits on a long line of lily pads in a pond. From any lily pad, Greta can jump $5$ pads to the right or $3$ pads to the left. What is the fewest number of jumps Greta must make to reach the lily pad located $2023$ pads to the right of her starting position?\n(A) 405\n(B) 407\n(C) 409\n(D) 411\n(E) 413",
+      "problem_plain": "Greta Grasshopper sits on a long line of lily pads in a pond. From any lily pad, Greta can jump 5 pads to the right or 3 pads to the left. What is the fewest number of jumps Greta must make to reach the lily pad located 2023 pads to the right of her starting position? (A) 405 (B) 407 (C) 409 (D) 411 (E) 413",
+      "solution_latex": "D",
+      "solution_plain": "D"
+    },
+    "answer": {
+      "final_raw": "411",
+      "final_normalized": "411",
+      "candidates": [
+        "411",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "D"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Greta Grasshopper sits on a long line of lily pads in a pond. From any lily pad, Greta can jump 5 pads to the right or 3 pads to the left. What is the fewest number of jumps Greta must make to reach the lily pad located 2023 pads to the right of her starting position? (A) 405 (B) 407 (C) 409 (D) 411 (E) 413",
+      "solution_text": "D",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "5340",
+        "queId": "b63f5adaeaa1403fb242b506b7c5871f",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "405"
+          },
+          {
+            "label": "B",
+            "content": "407"
+          },
+          {
+            "label": "C",
+            "content": "409"
+          },
+          {
+            "label": "D",
+            "content": "411"
+          },
+          {
+            "label": "E",
+            "content": "413"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:01653",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1653,
+      "split": "en_train",
+      "source_problem_id": "8d6bbc95778f484c9ae5b898e39612c6"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "In a sequence of positive integers, each term after the second is the product of the previous two terms. The sixth term in the sequence is $4000$. What is the first term?\n(A) 1\n(B) 2\n(C) 4\n(D) 5\n(E) 10",
+      "problem_plain": "In a sequence of positive integers, each term after the second is the product of the previous two terms. The sixth term in the sequence is 4000 . What is the first term? (A) 1 (B) 2 (C) 4 (D) 5 (E) 10",
+      "solution_latex": "D",
+      "solution_plain": "D"
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "D"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "In a sequence of positive integers, each term after the second is the product of the previous two terms. The sixth term in the sequence is 4000 . What is the first term? (A) 1 (B) 2 (C) 4 (D) 5 (E) 10",
+      "solution_text": "D",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "5457",
+        "queId": "8d6bbc95778f484c9ae5b898e39612c6",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "5"
+          },
+          {
+            "label": "E",
+            "content": "10"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:01791",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1791,
+      "split": "en_train",
+      "source_problem_id": "a5906eaa101a4069a4b553bcdf768e6b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Alina writes the numbers $1,2,\\cdots ,9$ on a separate cards, one number per card. She wishes to divide the cards into $3$ groups of $3$ cards so that the sum of the numbers in each group will be the same. In how many ways can this be done?\n(A) 0\n(B) 1\n(C) 2\n(D) 3\n(E) 4",
+      "problem_plain": "Alina writes the numbers 1,2, ,9 on a separate cards, one number per card. She wishes to divide the cards into 3 groups of 3 cards so that the sum of the numbers in each group will be the same. In how many ways can this be done? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_latex": "C",
+      "solution_plain": "C"
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "C"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Alina writes the numbers 1,2, ,9 on a separate cards, one number per card. She wishes to divide the cards into 3 groups of 3 cards so that the sum of the numbers in each group will be the same. In how many ways can this be done? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_text": "C",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "6035",
+        "queId": "a5906eaa101a4069a4b553bcdf768e6b",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          },
+          {
+            "label": "E",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:01858",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1858,
+      "split": "en_train",
+      "source_problem_id": "afa8f1055a15453b85fb2284e451cc28"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "26-18=．\n(A) 8\n(B) 16\n(C) 9\n(D) 12\n(E) 11",
+      "problem_plain": "26-18=． (A) 8 (B) 16 (C) 9 (D) 12 (E) 11",
+      "solution_latex": "$$26-18=8$$",
+      "solution_plain": "26-18=8"
+    },
+    "answer": {
+      "final_raw": "8",
+      "final_normalized": "8",
+      "candidates": [
+        "8",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "adding_and_subtracting_within_10000",
+        "addition_and_subtraction_of_whole_numbers",
+        "calculation_modules",
+        "operations_of_numbers",
+        "overseas_in_curriculum",
+        "subtraction_of_3_digit_numbers",
+        "whole_numbers",
+        "whole_numbers_addition_and_subtraction"
+      ],
+      "tags": [
+        "adding_and_subtracting_within_10000",
+        "addition_and_subtraction_of_whole_numbers",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "operations_of_numbers",
+        "overseas_in_curriculum",
+        "prealgebra",
+        "single_choice",
+        "subtraction_of_3_digit_numbers",
+        "tal_scq5k",
+        "whole_numbers",
+        "whole_numbers_addition_and_subtraction"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$26-18=8$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "26-18=． (A) 8 (B) 16 (C) 9 (D) 12 (E) 11",
+      "solution_text": "26-18=8",
+      "keywords": [
+        "adding_and_subtracting_within_10000",
+        "addition_and_subtraction_of_whole_numbers",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "operations_of_numbers",
+        "overseas_in_curriculum",
+        "prealgebra",
+        "single_choice",
+        "subtraction_of_3_digit_numbers",
+        "tal_scq5k",
+        "whole_numbers",
+        "whole_numbers_addition_and_subtraction"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "6345",
+        "queId": "afa8f1055a15453b85fb2284e451cc28",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "8"
+          },
+          {
+            "label": "B",
+            "content": "16"
+          },
+          {
+            "label": "C",
+            "content": "9"
+          },
+          {
+            "label": "D",
+            "content": "12"
+          },
+          {
+            "label": "E",
+            "content": "11"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas In-curriculum->Knowledge Point->Operations of Numbers ->Addition and Subtraction of Whole Numbers->Adding and Subtracting within 10000->Subtraction of 3-digit Numbers",
+          "Overseas Competition->Knowledge Point->Calculation Modules->Whole Numbers->Whole Numbers Addition and Subtraction"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:02223",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2223,
+      "split": "en_train",
+      "source_problem_id": "bddee69baaec485cb151f8064140edbe"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "After a test, teacher Valeria collects the data of the scores. Given that:  The average score of class $A$ is $76$.  The average score of class $B$ is $84$.  The average score of class $C$ is $89$.  The average score of class $A$ and $B$ is $79$.  The average score of all the three classes is $81$.  There are $40$ students in class $A.$ What is the ratio of number of students of class $B$ to that of $C$?\n(A) 3:2\n(B) 1:1\n(C) 4:1\n(D) 5:2\n(E) 2:3",
+      "problem_plain": "After a test, teacher Valeria collects the data of the scores. Given that: The average score of class A is 76 . The average score of class B is 84 . The average score of class C is 89 . The average score of class A and B is 79 . The average score of all the three classes is 81 . There are 40 students in class A. What is the ratio of number of students of class B to that of C ? (A) 3:2 (B) 1:1 (C) 4:1 (D) 5:2 (E) 2:3",
+      "solution_latex": "There are $40\\div\\frac{84-79}{79-76}=24$ students in class $B.$  There are $(40+24)\\div\\frac{89-81}{81-79}=16$ students in class $C.$  $24:16=3:2$",
+      "solution_plain": "There are 40 84-79 79-76 =24 students in class B. There are (40+24) 89-81 81-79 =16 students in class C. 24:16=3:2"
+    },
+    "answer": {
+      "final_raw": "3:2",
+      "final_normalized": "3:2",
+      "candidates": [
+        "3:2",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "concentration_problems",
+        "word_problem_modules"
+      ],
+      "tags": [
+        "concentration_problems",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "There are $40\\div\\frac{84-79}{79-76}=24$ students in class $B.$  There are $(40+24)\\div\\frac{89-81}{81-79}=16$ students in class $C.$  $24:16=3:2$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "After a test, teacher Valeria collects the data of the scores. Given that: The average score of class A is 76 . The average score of class B is 84 . The average score of class C is 89 . The average score of class A and B is 79 . The average score of all the three classes is 81 . There are 40 students in class A. What is the ratio of number of students of class B to that of C ? (A) 3:2 (B) 1:1 (C) 4:1 (D) 5:2 (E) 2:3",
+      "solution_text": "There are 40 84-79 79-76 =24 students in class B. There are (40+24) 89-81 81-79 =16 students in class C. 24:16=3:2",
+      "keywords": [
+        "concentration_problems",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "8342",
+        "queId": "bddee69baaec485cb151f8064140edbe",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3:2"
+          },
+          {
+            "label": "B",
+            "content": "1:1"
+          },
+          {
+            "label": "C",
+            "content": "4:1"
+          },
+          {
+            "label": "D",
+            "content": "5:2"
+          },
+          {
+            "label": "E",
+            "content": "2:3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules->Concentration Problems"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:02268",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2268,
+      "split": "en_train",
+      "source_problem_id": "14ee35a7009e4252b39c4e924d643d7b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A store sells cakes for $10 each, at the following discounts.  \\textbf{① $1 off each every Wednesday.}  \\textbf{② Buy three or more, $1 off each.}  If both rules are met at same time, the price can be reduced together.  How much will Tracy pay for 4 cakes at this store on Tuesday?\n(A) 36\n(B) 40\n(C) 34\n(D) 44\n(E) 30",
+      "problem_plain": "A store sells cakes for 10 each, at the following discounts. ① 1 off each every Wednesday. ② Buy three or more, 1 off each. If both rules are met at same time, the price can be reduced together. How much will Tracy pay for 4 cakes at this store on Tuesday? (A) 36 (B) 40 (C) 34 (D) 44 (E) 30",
+      "solution_latex": "40-1*4=36",
+      "solution_plain": "40-1*4=36"
+    },
+    "answer": {
+      "final_raw": "36",
+      "final_normalized": "36",
+      "candidates": [
+        "36",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "money_calculation",
+        "word_problem_modules",
+        "word_problems_in_economics"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "level_4",
+        "money_calculation",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules",
+        "word_problems_in_economics"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "40-1*4=36"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A store sells cakes for 10 each, at the following discounts. ① 1 off each every Wednesday. ② Buy three or more, 1 off each. If both rules are met at same time, the price can be reduced together. How much will Tracy pay for 4 cakes at this store on Tuesday? (A) 36 (B) 40 (C) 34 (D) 44 (E) 30",
+      "solution_text": "40-1*4=36",
+      "keywords": [
+        "en",
+        "en_train",
+        "level_4",
+        "money_calculation",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules",
+        "word_problems_in_economics"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "8463",
+        "queId": "14ee35a7009e4252b39c4e924d643d7b",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "36"
+          },
+          {
+            "label": "B",
+            "content": "40"
+          },
+          {
+            "label": "C",
+            "content": "34"
+          },
+          {
+            "label": "D",
+            "content": "44"
+          },
+          {
+            "label": "E",
+            "content": "30"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules->Word Problems in Economics->Money Calculation"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:02287",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2287,
+      "split": "en_train",
+      "source_problem_id": "3d62a87a37cb43d0be834b7f03b739cc"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A store sells cakes for $10 each, at the following discounts.  \\textbf{① $1 off each every Wednesday.}  \\textbf{② Buy three or more, $1 off each.}  If both conditions are met at same time, the price can be reduced together.  How much will Tracy pay for 4 cakes at this store on Tuesday?\n(A) 36\n(B) 40\n(C) 34\n(D) 44\n(E) 30",
+      "problem_plain": "A store sells cakes for 10 each, at the following discounts. ① 1 off each every Wednesday. ② Buy three or more, 1 off each. If both conditions are met at same time, the price can be reduced together. How much will Tracy pay for 4 cakes at this store on Tuesday? (A) 36 (B) 40 (C) 34 (D) 44 (E) 30",
+      "solution_latex": "40-1*4=36",
+      "solution_plain": "40-1*4=36"
+    },
+    "answer": {
+      "final_raw": "36",
+      "final_normalized": "36",
+      "candidates": [
+        "36",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "money_calculation",
+        "word_problem_modules",
+        "word_problems_in_economics"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "level_4",
+        "money_calculation",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules",
+        "word_problems_in_economics"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "40-1*4=36"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A store sells cakes for 10 each, at the following discounts. ① 1 off each every Wednesday. ② Buy three or more, 1 off each. If both conditions are met at same time, the price can be reduced together. How much will Tracy pay for 4 cakes at this store on Tuesday? (A) 36 (B) 40 (C) 34 (D) 44 (E) 30",
+      "solution_text": "40-1*4=36",
+      "keywords": [
+        "en",
+        "en_train",
+        "level_4",
+        "money_calculation",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules",
+        "word_problems_in_economics"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "8545",
+        "queId": "3d62a87a37cb43d0be834b7f03b739cc",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "36"
+          },
+          {
+            "label": "B",
+            "content": "40"
+          },
+          {
+            "label": "C",
+            "content": "34"
+          },
+          {
+            "label": "D",
+            "content": "44"
+          },
+          {
+            "label": "E",
+            "content": "30"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules->Word Problems in Economics->Money Calculation"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:02474",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2474,
+      "split": "en_train",
+      "source_problem_id": "3265fed465f44eda9549816f1eeadb1e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Sam wants to use two kinds of sugar water with concentrations of $$5\\textbackslash\\%$$ and $$20\\textbackslash\\%$$ to make a sugar water of $$300$$g with a concentration of $$15\\textbackslash\\%$$. He correctly calculated the required ratio of the two solutions, but reversed the two bottles of sugar water when preparing them. The actual concentration of the wrongly mixed sugar water is~\\uline{~~~~~~~~~~}~$$\\textbackslash\\%$$.\n(A) 8\n(B) 10\n(C) 12.5\n(D) 15\n(E) None of the above",
+      "problem_plain": "Sam wants to use two kinds of sugar water with concentrations of 5 % and 20 % to make a sugar water of 300 g with a concentration of 15 % . He correctly calculated the required ratio of the two solutions, but reversed the two bottles of sugar water when preparing them. The actual concentration of the wrongly mixed sugar water is~ ~~~~~~~~~~ ~ % . (A) 8 (B) 10 (C) 12.5 (D) 15 (E) None of the above",
+      "solution_latex": "NA",
+      "solution_plain": "NA"
+    },
+    "answer": {
+      "final_raw": "10",
+      "final_normalized": "10",
+      "candidates": [
+        "10",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "concentration_problems",
+        "word_problem_modules"
+      ],
+      "tags": [
+        "concentration_problems",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "NA"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Sam wants to use two kinds of sugar water with concentrations of 5 % and 20 % to make a sugar water of 300 g with a concentration of 15 % . He correctly calculated the required ratio of the two solutions, but reversed the two bottles of sugar water when preparing them. The actual concentration of the wrongly mixed sugar water is~ ~~~~~~~~~~ ~ % . (A) 8 (B) 10 (C) 12.5 (D) 15 (E) None of the above",
+      "solution_text": "NA",
+      "keywords": [
+        "concentration_problems",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "9241",
+        "queId": "3265fed465f44eda9549816f1eeadb1e",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "8"
+          },
+          {
+            "label": "B",
+            "content": "10"
+          },
+          {
+            "label": "C",
+            "content": "12.5"
+          },
+          {
+            "label": "D",
+            "content": "15"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules->Concentration Problems"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_4:02840",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2840,
+      "split": "en_train",
+      "source_problem_id": "b3101b748edd4194976ef37455b0a402"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "When one ounce of water is added to a mixture of acid and water, the new mixture is $$20\\textbackslash\\%$$ acid. When one ounce of acid is added to the new mixture, the result is $$33\\frac{1}{3}\\textbackslash\\%$$ acid. The percentage of acid in the original mixture is ($$1973$$ AHSME Problem, Question \\#$$33$$)\n(A) 22\\textbackslash\\%\n(B) 24\\textbackslash\\%\n(C) 25\\textbackslash\\%\n(D) 30\\textbackslash\\%\n(E) 33\\frac{1}{3}\\textbackslash\\%",
+      "problem_plain": "When one ounce of water is added to a mixture of acid and water, the new mixture is 20 % acid. When one ounce of acid is added to the new mixture, the result is 33 1 3 % acid. The percentage of acid in the original mixture is ( 1973 AHSME Problem, Question # 33 ) (A) 22 % (B) 24 % (C) 25 % (D) 30 % (E) 33 1 3 %",
+      "solution_latex": "Let $$a$$ be the original number of ounces of acid and $$w$$ be the original number of ounces of water. We can write two equations $$\\frac{a}{a+w+1}=\\frac{1}{5}$$ and $$\\frac{a+1}{a+w+2}=\\frac{1}{3}$$. Then cross-multiply to get rid of the fractions. $$5a=a+w+1$$, $$3a+3=a+w+1$$ Solve the system to get $$a=1$$ and $$w=3$$. The percentage of acid in the original mixture is $$\\frac{1}{1+3}=25 \\textbackslash\\% $$.",
+      "solution_plain": "Let a be the original number of ounces of acid and w be the original number of ounces of water. We can write two equations a a+w+1 = 1 5 and a+1 a+w+2 = 1 3 . Then cross-multiply to get rid of the fractions. 5a=a+w+1 , 3a+3=a+w+1 Solve the system to get a=1 and w=3 . The percentage of acid in the original mixture is 1 1+3 =25 % ."
+    },
+    "answer": {
+      "final_raw": "25\\textbackslash\\%",
+      "final_normalized": "25\\textbackslash\\%",
+      "candidates": [
+        "25\\textbackslash\\%",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "basic_concentration_problems",
+        "concentration_problems",
+        "word_problem_modules"
+      ],
+      "tags": [
+        "basic_concentration_problems",
+        "concentration_problems",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Let $$a$$ be the original number of ounces of acid and $$w$$ be the original number of ounces of water.",
+        "We can write two equations $$\\frac{a}{a+w+1}=\\frac{1}{5}$$ and $$\\frac{a+1}{a+w+2}=\\frac{1}{3}$$.",
+        "Then cross-multiply to get rid of the fractions.",
+        "$$5a=a+w+1$$, $$3a+3=a+w+1$$ Solve the system to get $$a=1$$ and $$w=3$$.",
+        "The percentage of acid in the original mixture is $$\\frac{1}{1+3}=25 \\textbackslash\\% $$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "When one ounce of water is added to a mixture of acid and water, the new mixture is 20 % acid. When one ounce of acid is added to the new mixture, the result is 33 1 3 % acid. The percentage of acid in the original mixture is ( 1973 AHSME Problem, Question # 33 ) (A) 22 % (B) 24 % (C) 25 % (D) 30 % (E) 33 1 3 %",
+      "solution_text": "Let a be the original number of ounces of acid and w be the original number of ounces of water. We can write two equations a a+w+1 = 1 5 and a+1 a+w+2 = 1 3 . Then cross-multiply to get rid of the fractions. 5a=a+w+1 , 3a+3=a+w+1 Solve the system to get a=1 and w=3 . The percentage of acid in the original mixture is 1 1+3 =25 % .",
+      "keywords": [
+        "basic_concentration_problems",
+        "concentration_problems",
+        "en",
+        "en_train",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "10539",
+        "queId": "b3101b748edd4194976ef37455b0a402",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "22\\textbackslash\\%"
+          },
+          {
+            "label": "B",
+            "content": "24\\textbackslash\\%"
+          },
+          {
+            "label": "C",
+            "content": "25\\textbackslash\\%"
+          },
+          {
+            "label": "D",
+            "content": "30\\textbackslash\\%"
+          },
+          {
+            "label": "E",
+            "content": "33\\frac{1}{3}\\textbackslash\\%"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules->Concentration Problems->Basic Concentration Problems"
+        ],
+        "competition_source_list": []
+      }
+    }
+  }
+]

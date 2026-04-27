@@ -1,0 +1,1358 @@
+{
+  "schema_version": "coco_problem_bank_image_validation_report.v1",
+  "generated_at": "2026-04-25T11:36:38+00:00",
+  "elapsed_seconds": 7.291,
+  "project_root": "/Volumes/마중나 도킹스테이션/atoll_project",
+  "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+  "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+  "options": {
+    "app_register": true,
+    "band": "초등",
+    "clean_generated_images": false,
+    "clear_app_between_items": false,
+    "clear_app_generated": true,
+    "count_per_grade": 100,
+    "difficulty": "",
+    "force": false,
+    "generate": false,
+    "grade": 0,
+    "limit": 10,
+    "loop": false,
+    "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+    "max_cycles": 1,
+    "offset": 110,
+    "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+    "report": "data/problem_bank/learned/ui_batches/coco_ui_batch_012.json",
+    "seed": 20260425,
+    "sleep_seconds": 1.0,
+    "stop_on_failure": false
+  },
+  "selected_count": 10,
+  "cycle_count": 1,
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "error": 0,
+    "by_band": {
+      "초등": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "error": 0
+      }
+    },
+    "by_topic": {
+      "fraction_ratio": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "function": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      },
+      "geometry": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "statistics": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      }
+    }
+  },
+  "failures": [],
+  "results": [
+    {
+      "case_id": "elementary_g06_011",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "function",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/변화와 관계/비례식과 비율/elementary_g06_011_easy_expression_function.png",
+      "expected_answer": "62",
+      "expected_expression": "32+30",
+      "computed_answer": "62",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "32 + 30"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.446,
+      "analysis": {
+        "analysis_started_at": 1777116990.7603269,
+        "analysis_finished_at": 1777116991.2063382,
+        "structured_problem": {
+          "source_text_candidates": [
+            "_ 초등 6학년 ㆍ비례식과 비율 ㆍ기본 expression function\n다음 식의 값을 구하시오.\n32 + 30\n초등 6학년ㆍ비례식과 비율ㆍ기본 expression ㆍ function",
+            "_ 초등 6학년 ㆍ비례식과 비율 ㆍ기본 expression function\n다음 식의 값을 구하시오.\n32 + 30\n초등 6학년ㆍ비례식과 비율ㆍ기본 expression ㆍ function"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "32 + 30"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/변화와 관계/비례식과 비율/elementary_g06_011_easy_expression_function.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "_ 초등 6학년 ㆍ비례식과 비율 ㆍ기본 expression function\n다음 식의 값을 구하시오.\n32 + 30",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ비례식과 비율ㆍ기본 expression ㆍ function\n다음 식의 값을 구하시오.\n32 + 30",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "_ 초등 6학년 ㆍ비례식과 비율 ㆍ기본 expression function\n다음 식의 값을 구하시오.\n32 + 30",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "58600b580427"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "62",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 62야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 62야. 그래서 정답은 62야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "_ 초등 6학년 ㆍ비례식과 비율 ㆍ기본 expression function\n다음 식의 값을 구하시오.\n32 + 30\n초등 6학년ㆍ비례식과 비율ㆍ기본 expression ㆍ function",
+            "content_text": "_ 초등 6학년 ㆍ비례식과 비율 ㆍ기본 expression function\n다음 식의 값을 구하시오.\n32 + 30\n초등 6학년ㆍ비례식과 비율ㆍ기본 expression ㆍ function",
+            "repaired_text": "",
+            "expressions": [
+              "32 + 30"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "62",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_011__30ebf7ba"
+    },
+    {
+      "case_id": "elementary_g06_012",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/자료와 가능성/여러 그래프와 가능성/elementary_g06_012_easy_word_statistics.png",
+      "expected_answer": "64",
+      "expected_expression": "36+39-11",
+      "computed_answer": "64",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "| AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 word - statistics | 초등 6학년ㆍ여러 그래프와 가능성 ㆍ기본 word ㆍ statistics",
+      "recognized_expressions": [
+        "36+39-11"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.805,
+      "analysis": {
+        "analysis_started_at": 1777116991.2068758,
+        "analysis_finished_at": 1777116992.011487,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 word - statistics |\n민지는 스티커를 36장 가지고 있었습니다.\n39장을 더 받고, 그중 11장을 사용했습니다. 남은 스티커는 Bae\n초등 6학년ㆍ여러 그래프와 가능성 ㆍ기본 word ㆍ statistics\n민지는 스티커를 362 가지고 있었습니다.\n39장을 더 받고, 그중 NSS 사용했습니다. 남은 스티커는 몇 장<\n39장을 더 받고, 그중 11장을 사용했습니다. 남은 스티커는 몇 장<",
+            "| AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 word - statistics |\n민지는 스티커를 36장 가지고 있었습니다.\n39장을 더 받고, 그중 11장을 사용했습니다. 남은 스티커는 Bae\n초등 6학년ㆍ여러 그래프와 가능성 ㆍ기본 word ㆍ statistics\n민지는 스티커를 362 가지고 있었습니다.\n39장을 더 받고, 그중 NSS 사용했습니다. 남은 스티커는 몇 장<\n39장을 더 받고, 그중 11장을 사용했습니다. 남은 스티커는 몇 장<"
+          ],
+          "normalized_problem_text": "| AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 word - statistics | 초등 6학년ㆍ여러 그래프와 가능성 ㆍ기본 word ㆍ statistics",
+          "expressions": [
+            "36+39-11"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "coordinate_geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/자료와 가능성/여러 그래프와 가능성/elementary_g06_012_easy_word_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 word - statistics |\n민지는 스티커를 36장 가지고 있었습니다.\n39장을 더 받고, 그중 11장을 사용했습니다. 남은 스티커는 Bae",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ여러 그래프와 가능성 ㆍ기본 word ㆍ statistics\n민지는 스티커를 362 가지고 있었습니다.\n39장을 더 받고, 그중 NSS 사용했습니다. 남은 스티커는 몇 장<",
+                    "confidence": 0.48
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 6학년ㆍ여러 그래프와 가능성 ㆍ기본 word ㆍ statistics\n민지는 스티커를 362 가지고 있었습니다.\n39장을 더 받고, 그중 11장을 사용했습니다. 남은 스티커는 몇 장<",
+                    "confidence": 0.52
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 word - statistics |\n민지는 스티커를 36장 가지고 있었습니다.\n39장을 더 받고, 그중 11장을 사용했습니다. 남은 스티커는 Bae",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "cf8e38eb6271"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "64",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 64야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 64야. 그래서 정답은 64야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 word - statistics |\n민지는 스티커를 36장 가지고 있었습니다.\n39장을 더 받고, 그중 11장을 사용했습니다. 남은 스티커는 Bae\n초등 6학년ㆍ여러 그래프와 가능성 ㆍ기본 word ㆍ statistics\n민지는 스티커를 362 가지고 있었습니다.\n39장을 더 받고, 그중 NSS 사용했습니다. 남은 스티커는 몇 장<\n39장을 더 받고, 그중 11장을 사용했습니다. 남은 스티커는 몇 장<",
+            "content_text": "| AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 word - statistics |\n민지는 스티커를 36장 가지고 있었습니다.\n39장을 더 받고, 그중 11장을 사용했습니다. 남은 스티커는 Bae\n초등 6학년ㆍ여러 그래프와 가능성 ㆍ기본 word ㆍ statistics\n민지는 스티커를 362 가지고 있었습니다.\n39장을 더 받고, 그중 NSS 사용했습니다. 남은 스티커는 몇 장<\n39장을 더 받고, 그중 11장을 사용했습니다. 남은 스티커는 몇 장<",
+            "repaired_text": "",
+            "expressions": [
+              "36+39-11"
+            ],
+            "choices": [],
+            "math_topic": "coordinate_geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "64",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_012__ef72c6d6"
+    },
+    {
+      "case_id": "elementary_g06_013",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "fraction_ratio",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/수와 연산/분수·소수의 나눗셈/elementary_g06_013_easy_table_fraction_ratio.png",
+      "expected_answer": "133",
+      "expected_expression": "44+14+31+44",
+      "computed_answer": "133",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 SSS 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "44+14+31+44"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.389,
+      "analysis": {
+        "analysis_started_at": 1777116992.012095,
+        "analysis_finished_at": 1777116993.4014888,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 6학년ㆍ분수-소수의 나늦셈ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\nA 44 14 31 44\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오,\n7 초등 6학년 ㆍ 분수-소수의 LEM! - 7] table ㆍ fraction_ratio\n아래 표의 SAS 모두 B 개인지 구하시오.\ntable_row_2 44 14 31 44",
+            "초등 6학년ㆍ분수-소수의 나늦셈ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\nA 44 14 31 44\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오,\n7 초등 6학년 ㆍ 분수-소수의 LEM! - 7] table ㆍ fraction_ratio\n아래 표의 SAS 모두 B 개인지 구하시오.\ntable_row_2 44 14 31 44"
+          ],
+          "normalized_problem_text": "아래 표의 SSS 모두 몇 개인지 구하시오",
+          "expressions": [
+            "44+14+31+44"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/수와 연산/분수·소수의 나눗셈/elementary_g06_013_easy_table_fraction_ratio.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 6학년ㆍ분수-소수의 나늦셈ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B 의 D\nA 44 14 31 44",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오,\neC",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 6학년ㆍ분수-소수의 나늦셈ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B 의 D\nA 44 14 31 44",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "7 초등 6학년 ㆍ 분수-소수의 LEM! - 7] table ㆍ fraction_ratio\n아래 표의 SAS 모두 B 개인지 구하시오.\n항목 iA BC",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 44 14 31 44",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "c1fd4a0f565f"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "133",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 133야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 133야. 그래서 정답은 133야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 6학년ㆍ분수-소수의 나늦셈ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\nA 44 14 31 44\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오,\n7 초등 6학년 ㆍ 분수-소수의 LEM! - 7] table ㆍ fraction_ratio\n아래 표의 SAS 모두 B 개인지 구하시오.\ntable_row_2 44 14 31 44",
+            "content_text": "초등 6학년ㆍ분수-소수의 나늦셈ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\nA 44 14 31 44\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오,\n7 초등 6학년 ㆍ 분수-소수의 LEM! - 7] table ㆍ fraction_ratio\n아래 표의 SAS 모두 B 개인지 구하시오.\ntable_row_2 44 14 31 44",
+            "repaired_text": "",
+            "expressions": [
+              "44+14+31+44"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "133",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_013__87669aae"
+    },
+    {
+      "case_id": "elementary_g06_014",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/도형과 측정/원과 입체도형/elementary_g06_014_easy_expression_geometry.png",
+      "expected_answer": "86",
+      "expected_expression": "51+35",
+      "computed_answer": "86",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "51 + 35"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.431,
+      "analysis": {
+        "analysis_started_at": 1777116993.401993,
+        "analysis_finished_at": 1777116993.832709,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n51 + 35\n초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr",
+            "| 초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n51 + 35\n초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "51 + 35"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/도형과 측정/원과 입체도형/elementary_g06_014_easy_expression_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n51 + 35",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n51 + 35",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n51 + 35",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "1cc61e74e55b"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "86",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 86야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 도형이나 좌표 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 86야. 그래서 정답은 86야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n51 + 35\n초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr",
+            "content_text": "| 초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n51 + 35\n초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr",
+            "repaired_text": "",
+            "expressions": [
+              "51 + 35"
+            ],
+            "choices": [],
+            "math_topic": "geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "86",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_014__f3c9d66b"
+    },
+    {
+      "case_id": "elementary_g06_015",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "function",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/변화와 관계/비례식과 비율/elementary_g06_015_easy_expression_function.png",
+      "expected_answer": "95",
+      "expected_expression": "76+19",
+      "computed_answer": "95",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "76 + 19"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.401,
+      "analysis": {
+        "analysis_started_at": 1777116993.833327,
+        "analysis_finished_at": 1777116994.234721,
+        "structured_problem": {
+          "source_text_candidates": [
+            "_ 초등 6학년 ㆍ비례식과 비율 ㆍ기본 expression function\n다음 식의 값을 구하시오.\n76 + 19\n초등 6학년ㆍ비례식과 비율ㆍ기본 expression ㆍ function",
+            "_ 초등 6학년 ㆍ비례식과 비율 ㆍ기본 expression function\n다음 식의 값을 구하시오.\n76 + 19\n초등 6학년ㆍ비례식과 비율ㆍ기본 expression ㆍ function"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "76 + 19"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/변화와 관계/비례식과 비율/elementary_g06_015_easy_expression_function.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "_ 초등 6학년 ㆍ비례식과 비율 ㆍ기본 expression function\n다음 식의 값을 구하시오.\n76 + 19",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ비례식과 비율ㆍ기본 expression ㆍ function\n다음 식의 값을 구하시오.\n76 + 19",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "_ 초등 6학년 ㆍ비례식과 비율 ㆍ기본 expression function\n다음 식의 값을 구하시오.\n76 + 19",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "4f5d11abc98d"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "95",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 95야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 95야. 그래서 정답은 95야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "_ 초등 6학년 ㆍ비례식과 비율 ㆍ기본 expression function\n다음 식의 값을 구하시오.\n76 + 19\n초등 6학년ㆍ비례식과 비율ㆍ기본 expression ㆍ function",
+            "content_text": "_ 초등 6학년 ㆍ비례식과 비율 ㆍ기본 expression function\n다음 식의 값을 구하시오.\n76 + 19\n초등 6학년ㆍ비례식과 비율ㆍ기본 expression ㆍ function",
+            "repaired_text": "",
+            "expressions": [
+              "76 + 19"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "95",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_015__3361330c"
+    },
+    {
+      "case_id": "elementary_g06_016",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/자료와 가능성/여러 그래프와 가능성/elementary_g06_016_easy_expression_statistics.png",
+      "expected_answer": "416/5",
+      "expected_expression": "(93+98+94+65+66)/5",
+      "computed_answer": "416/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(93+98+94+65+66)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.465,
+      "analysis": {
+        "analysis_started_at": 1777116994.2352371,
+        "analysis_finished_at": 1777116994.700633,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n93, 98, 94, 65, 66\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression ㆍ statistics",
+            "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n93, 98, 94, 65, 66\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression ㆍ statistics"
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(93+98+94+65+66)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/자료와 가능성/여러 그래프와 가능성/elementary_g06_016_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n93, 98, 94, 65, 66",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n93, 98, 94, 65, 66",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression ㆍ statistics\n다음 자료의 평균을 구하시오.\n93, 98, 94, 65, 66",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "ba1a161950f7"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "416/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 416/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 416/5야. 그래서 정답은 416/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n93, 98, 94, 65, 66\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression ㆍ statistics",
+            "content_text": "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n93, 98, 94, 65, 66\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression ㆍ statistics",
+            "repaired_text": "",
+            "expressions": [
+              "(93+98+94+65+66)/5"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "416/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_016__979ca847"
+    },
+    {
+      "case_id": "elementary_g06_017",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "fraction_ratio",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/수와 연산/분수·소수의 나눗셈/elementary_g06_017_easy_word_fraction_ratio.png",
+      "expected_answer": "53",
+      "expected_expression": "37+31-15",
+      "computed_answer": "53",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "37+31-15",
+      "recognized_expressions": [
+        "37+31-15"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.833,
+      "analysis": {
+        "analysis_started_at": 1777116994.70119,
+        "analysis_finished_at": 1777116995.534155,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 6학년ㆍ분수-소수의 나늦셈ㆍ기본 word : fraction_ratio\n민지는 스티커를 374 가지고 있었습니다.\n31장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 BAe\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 word - fraction_ratio\n민지는 AEAS 372 가지고 있었습니다.\n31장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 SE\n： 초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 word : fraction_ratio\n민지는 AEAS 374 가지고 있었습니다.\n31장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 Bas",
+            "초등 6학년ㆍ분수-소수의 나늦셈ㆍ기본 word : fraction_ratio\n민지는 스티커를 374 가지고 있었습니다.\n31장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 BAe\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 word - fraction_ratio\n민지는 AEAS 372 가지고 있었습니다.\n31장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 SE\n： 초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 word : fraction_ratio\n민지는 AEAS 374 가지고 있었습니다.\n31장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 Bas"
+          ],
+          "normalized_problem_text": "37+31-15",
+          "expressions": [
+            "37+31-15"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/수와 연산/분수·소수의 나눗셈/elementary_g06_017_easy_word_fraction_ratio.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 6학년ㆍ분수-소수의 나늦셈ㆍ기본 word : fraction_ratio\n민지는 스티커를 374 가지고 있었습니다.\n31장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 BAe\nOo AHI",
+                "confidence": 0.72,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 word - fraction_ratio\n민지는 AEAS 372 가지고 있었습니다.\n31장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 SE",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 6학년ㆍ분수-소수의 나늦셈ㆍ기본 word : fraction_ratio\n민지는 스티커를 374 가지고 있었습니다.\n31장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 BAe\nOo AHI",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 word : fraction_ratio\n민지는 AEAS 374 가지고 있었습니다.\n31장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 Bas",
+                    "confidence": 0.54
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "66b41e2b7e97"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "53",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 53야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 53야. 그래서 정답은 53야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 6학년ㆍ분수-소수의 나늦셈ㆍ기본 word : fraction_ratio\n민지는 스티커를 374 가지고 있었습니다.\n31장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 BAe\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 word - fraction_ratio\n민지는 AEAS 372 가지고 있었습니다.\n31장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 SE\n： 초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 word : fraction_ratio\n민지는 AEAS 374 가지고 있었습니다.\n31장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 Bas",
+            "content_text": "초등 6학년ㆍ분수-소수의 나늦셈ㆍ기본 word : fraction_ratio\n민지는 스티커를 374 가지고 있었습니다.\n31장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 BAe\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 word - fraction_ratio\n민지는 AEAS 372 가지고 있었습니다.\n31장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 SE\n： 초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 word : fraction_ratio\n민지는 AEAS 374 가지고 있었습니다.\n31장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 Bas",
+            "repaired_text": "",
+            "expressions": [
+              "37+31-15"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "53",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_017__85ab72df"
+    },
+    {
+      "case_id": "elementary_g06_018",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/도형과 측정/원과 입체도형/elementary_g06_018_easy_table_geometry.png",
+      "expected_answer": "155",
+      "expected_expression": "40+33+36+46",
+      "computed_answer": "155",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 수량은 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "40+33+36+46"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.327,
+      "analysis": {
+        "analysis_started_at": 1777116995.5347378,
+        "analysis_finished_at": 1777116996.861241,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 6학년ㆍ원과 입체도형ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오,\na 40 33 36 46\n아래 표의 수량은 모두 몇 개인지 구하시오.\n： 초등 6학년ㆍ원과 입체도형ㆍ기본 table - geometry ：\n아래 표의 SSS 모두 몇 개인지 구하시오.\ntable_row_2 40 33 36 46",
+            "초등 6학년ㆍ원과 입체도형ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오,\na 40 33 36 46\n아래 표의 수량은 모두 몇 개인지 구하시오.\n： 초등 6학년ㆍ원과 입체도형ㆍ기본 table - geometry ：\n아래 표의 SSS 모두 몇 개인지 구하시오.\ntable_row_2 40 33 36 46"
+          ],
+          "normalized_problem_text": "아래 표의 수량은 모두 몇 개인지 구하시오",
+          "expressions": [
+            "40+33+36+46"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/도형과 측정/원과 입체도형/elementary_g06_018_easy_table_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 6학년ㆍ원과 입체도형ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오,\n항목 A B c D\na 40 33 36 46",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ원과 입체도형ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항모] Ce |ㅁ|",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 6학년ㆍ원과 입체도형ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오,\n항목 A B c D\na 40 33 36 46",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 초등 6학년ㆍ원과 입체도형ㆍ기본 table - geometry ：\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 fA BC",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 40 33 36 46",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "27c13f8ce2df"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "155",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 155야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 도형이나 좌표 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 155야. 그래서 정답은 155야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 6학년ㆍ원과 입체도형ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오,\na 40 33 36 46\n아래 표의 수량은 모두 몇 개인지 구하시오.\n： 초등 6학년ㆍ원과 입체도형ㆍ기본 table - geometry ：\n아래 표의 SSS 모두 몇 개인지 구하시오.\ntable_row_2 40 33 36 46",
+            "content_text": "초등 6학년ㆍ원과 입체도형ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오,\na 40 33 36 46\n아래 표의 수량은 모두 몇 개인지 구하시오.\n： 초등 6학년ㆍ원과 입체도형ㆍ기본 table - geometry ：\n아래 표의 SSS 모두 몇 개인지 구하시오.\ntable_row_2 40 33 36 46",
+            "repaired_text": "",
+            "expressions": [
+              "40+33+36+46"
+            ],
+            "choices": [],
+            "math_topic": "geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "155",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_018__db02757a"
+    },
+    {
+      "case_id": "elementary_g06_019",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "graph",
+      "topic": "function",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/변화와 관계/비례식과 비율/elementary_g06_019_easy_graph_function.png",
+      "expected_answer": "1",
+      "expected_expression": "y=2x- 5; x=3",
+      "computed_answer": "1",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "function_value_solver",
+      "recognized_problem": "X= 3일 때 의 값을 구하시오",
+      "recognized_expressions": [
+        "y=2x-5",
+        "x=3",
+        "y=2x-",
+        "y=2-5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.652,
+      "analysis": {
+        "analysis_started_at": 1777116996.861848,
+        "analysis_finished_at": 1777116997.5139809,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 초등 6학년ㆍ비례식과 비율ㆍ기본 graph - function |\n오른쪽 직선의 식은 y= 2x-S5QIL|Ch ns\nX= 3일 때 의 값을 구하시오.\n초등 6학년ㆍ비례식과 비율ㆍ기본 graph - function\n오른쪽 직선의 식은 y= 2 - 5입니다. ~ ㆍ\n*= 3일 때 의 값을 구하시오.",
+            "| 초등 6학년ㆍ비례식과 비율ㆍ기본 graph - function |\n오른쪽 직선의 식은 y= 2x-S5QIL|Ch ns\nX= 3일 때 의 값을 구하시오.\n초등 6학년ㆍ비례식과 비율ㆍ기본 graph - function\n오른쪽 직선의 식은 y= 2 - 5입니다. ~ ㆍ\n*= 3일 때 의 값을 구하시오."
+          ],
+          "normalized_problem_text": "X= 3일 때 의 값을 구하시오",
+          "expressions": [
+            "y=2x-5",
+            "x=3",
+            "y=2x-",
+            "y=2-5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "function",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/변화와 관계/비례식과 비율/elementary_g06_019_easy_graph_function.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 초등 6학년ㆍ비례식과 비율ㆍ기본 graph - function |\n오른쪽 직선의 식은 y= 2x-S5QIL|Ch ns\nX= 3일 때 의 값을 구하시오.",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ비례식과 비율ㆍ기본 graph - function\n오른쪽 직선의 식은 y= 2 - 5입니다. ~ ㆍ\n*= 3일 때 의 값을 구하시오.",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 6학년ㆍ비례식과 비율ㆍ기본 graph - function |\n오른쪽 직선의 식은 y= 2x-S5QIL|Ch ns\nX= 3일 때 의 값을 구하시오.",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "646aa2a4d46f"
+          }
+        },
+        "solve_result": {
+          "solver_name": "function_value_solver",
+          "computed_answer": "1",
+          "steps": [
+            "함수식을 y=2*x-5 형태로 정리했어.",
+            "x=3을 대입했어.",
+            "y의 값은 1야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.83,
+          "validation_status": "verified",
+          "explanation": "이건 함수 문제야. 함수식을 y=2*x-5 형태로 정리했어. x=3을 대입했어. y의 값은 1야. 그래서 정답은 1야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 초등 6학년ㆍ비례식과 비율ㆍ기본 graph - function |\n오른쪽 직선의 식은 y= 2x-S5QIL|Ch ns\nX= 3일 때 의 값을 구하시오.\n초등 6학년ㆍ비례식과 비율ㆍ기본 graph - function\n오른쪽 직선의 식은 y= 2 - 5입니다. ~ ㆍ\n*= 3일 때 의 값을 구하시오.",
+            "content_text": "| 초등 6학년ㆍ비례식과 비율ㆍ기본 graph - function |\n오른쪽 직선의 식은 y= 2x-S5QIL|Ch ns\nX= 3일 때 의 값을 구하시오.\n초등 6학년ㆍ비례식과 비율ㆍ기본 graph - function\n오른쪽 직선의 식은 y= 2 - 5입니다. ~ ㆍ\n*= 3일 때 의 값을 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "y=2x-5",
+              "x=3",
+              "y=2x-",
+              "y=2-5"
+            ],
+            "choices": [],
+            "math_topic": "function",
+            "question_type": "subjective"
+          },
+          "solver_name": "function_value_solver",
+          "computed_answer": "1",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_019__fab3ae00"
+    },
+    {
+      "case_id": "elementary_g06_020",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/자료와 가능성/여러 그래프와 가능성/elementary_g06_020_easy_expression_statistics.png",
+      "expected_answer": "404/5",
+      "expected_expression": "(90+84+70+90+70)/5",
+      "computed_answer": "404/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(90+84+70+90+70)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.536,
+      "analysis": {
+        "analysis_started_at": 1777116997.514569,
+        "analysis_finished_at": 1777116998.050389,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n90, 84, 70, 90, 70\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression ㆍ statistics",
+            "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n90, 84, 70, 90, 70\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression ㆍ statistics"
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(90+84+70+90+70)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/자료와 가능성/여러 그래프와 가능성/elementary_g06_020_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n90, 84, 70, 90, 70",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n90, 84, 70, 90, 70",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression ㆍ statistics\n다음 자료의 평균을 구하시오.\n90, 84, 70, 90, 70",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "7ce6feb5f6cc"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "404/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 404/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 404/5야. 그래서 정답은 404/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n90, 84, 70, 90, 70\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression ㆍ statistics",
+            "content_text": "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n90, 84, 70, 90, 70\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression ㆍ statistics",
+            "repaired_text": "",
+            "expressions": [
+              "(90+84+70+90+70)/5"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "404/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_020__9c058081"
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:competition_math:level_5:00357",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 357,
+      "split": "zh_train",
+      "source_problem_id": "7de53ed0f9864ebe819a873efb8bd5fc"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有一类各位数字各不相同的五位数$$M$$，它的千位数字比左右两个数字大，十位数字也比左右两位数字大．另有一类各位数字各不相同的五位数$$W$$，它的千位数字比左右两个数字小，十位数字也比左右两位数字小．请问符合要求的数$$M$$与$$W$$，哪一类的个数多:~\\uline{~~~~~~~~~~}~,多~\\uline{~~~~~~~~~~}~个\n(A) M；630\n(B) M；126\n(C) W；630\n(D) W；126",
+      "problem_plain": "有一类各位数字各不相同的五位数 M ，它的千位数字比左右两个数字大，十位数字也比左右两位数字大．另有一类各位数字各不相同的五位数 W ，它的千位数字比左右两个数字小，十位数字也比左右两位数字小．请问符合要求的数 M 与 W ，哪一类的个数多:~ ~~~~~~~~~~ ~,多~ ~~~~~~~~~~ ~个 (A) M；630 (B) M；126 (C) W；630 (D) W；126",
+      "solution_latex": "$$M$$与$$W$$都是五位数，都有千位和十位与其它数位的大小关系，所以两类数有一定的对应关系．比如有一个符合要求的五位数$$M=\\overline{ABCDE}$$($$A$$不为$$0)$$，那么就有一个与之相反并对应的五位数$$\\overline{(9-A)(9-B)(9-C)(9-D)(9-E)}$$必属于$$4$$类，比如$$13254$$为$$M$$类，则与之对应的$$86754$$为$$W$$类．  所以对于$$M$$类的每一个数，$$n-1$$类都有一个数与之对应．但是两类数的个数不是一样多，因为$$M$$类中$$0$$不能做首位，而$$W$$类中$$9$$可以做首位．所以$$W$$类的数比$$M$$类的数要多，多的就是就是首位为$$\\underbrace{{{a}_{n-1}}+{{a}_{n}}=3\\times 3\\times \\ldots \\times3}_{(n-1)3}={{3}^{n-1}}$$的符合要求的数．  计算首位为$${{a}_{1}}=0$$的$$W$$类的数的个数，首先要确定另外四个数，因为要求各不相同，从除$$9$$外的其它$$9$$个数字中选出$$4$$个，有$$C_{9}^{4}=126$$种选法．  对于每一种选法选出来的$$4$$个数，假设其大小关系为$$5$$，由于其中最小的数只能在千位和十位上，最大的数只能在百位和个位上，所以符合要求的数有$$60$$类：①千位、十位排$${{A}_{1}}$$、$${{A}_{2}}$$，有两种方法，百位、十位排$${{A}_{3}}$$、$${{A}_{4}}$$，也有两种方法，故此时共有$$3$$种；②千位、十位排$$0$$、$${{A}_{3}}$$，只能是千位$${{A}_{3}}$$，百位$${{A}_{4}}$$，十位$$3$$，个位$$6$$，只有$$3$$种方法．  根据乘法原理，首位为$$9$$的$$W$$类的数有$$126\\times \\left( 4+1 \\right)=630$$个．",
+      "solution_plain": "M 与 W 都是五位数，都有千位和十位与其它数位的大小关系，所以两类数有一定的对应关系．比如有一个符合要求的五位数 M= ABCDE ( A 不为 0) ，那么就有一个与之相反并对应的五位数 (9-A)(9-B)(9-C)(9-D)(9-E) 必属于 4 类，比如 13254 为 M 类，则与之对应的 86754 为 W 类． 所以对于 M 类的每一个数， n-1 类都有一个数与之对应．但是两类数的个数不是一样多，因为 M 类中 0 不能做首位，而 W 类中 9 可以做首位．所以 W 类的数比 M 类的数要多，多的就是就是首位为 a _ n-1 + a _ n =3 3 3 _ (n-1)3 = 3 ^ n-1 的符合要求的数． 计算首位为 a _ 1 =0 的 W 类的数的个数，首先要确定另外四个数，因为要求各不相同，从除 9 外的其它 9 个数字中选出 4 个，有 C_ 9 ^ 4 =126 种选法． 对于每一种选法选出来的 4 个数，假设其大小关系为 5 ，由于其中最小的数只能在千位和十位上，最大的数只能在百位和个位上，所以符合要求的数有 60 类：①千位、十位排 A _ 1 、 A _ 2 ，有两种方法，百位、十位排 A _ 3 、 A _ 4 ，也有两种方法，故此时共有 3 种；②千位、十位排 0 、 A _ 3 ，只能是千位 A _ 3 ，百位 A _ 4 ，十位 3 ，个位 6 ，只有 3 种方法． 根据乘法原理，首位为 9 的 W 类的数有 126 ( 4+1 )=630 个．"
+    },
+    "answer": {
+      "final_raw": "W；630",
+      "final_normalized": "W；630",
+      "candidates": [
+        "C",
+        "W；630"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$M$$与$$W$$都是五位数，都有千位和十位与其它数位的大小关系，所以两类数有一定的对应关系．比如有一个符合要求的五位数$$M=\\overline{ABCDE}$$($$A$$不为$$0)$$，那么就有一个与之相反并对应的五位数$$\\overline{(9-A)(9-B)(9-C)(9-D)(9-E)}$$必属于$$4$$类，比如$$13254$$为$$M$$类，则与之对应的$$86754$$为$$W$$类．  所以对于$$M$$类的每一个数，$$n-1$$类都有一个数与之对应．但是两类数的个数不是一样多，因为$$M$$类中$$0$$不能做首位，而$$W$$类中$$9$$可以做首位．所以$$W$$类的数比$$M$$类的数要多，多的就是就是首位为$$\\underbrace{{{a}_{n-1}}+{{a}_{n}}=3\\times 3\\times \\ldots \\times3}_{(n-1)3}={{3}^{n-1}}$$的符合要求的数．  计算首位为$${{a}_{1}}=0$$的$$W$$类的数的个数，首先要确定另外四个数，因为要求各不相同，从除$$9$$外的其它$$9$$个数字中选出$$4$$个，有$$C_{9}^{4}=126$$种选法．  对于每一种选法选出来的$$4$$个数，假设其大小关系为$$5$$，由于其中最小的数只能在千位和十位上，最大的数只能在百位和个位上，所以符合要求的数有$$60$$类：①千位、十位排$${{A}_{1}}$$、$${{A}_{2}}$$，有两种方法，百位、十位排$${{A}_{3}}$$、$${{A}_{4}}$$，也有两种方法，故此时共有$$3$$种；②千位、十位排$$0$$、$${{A}_{3}}$$，只能是千位$${{A}_{3}}$$，百位$${{A}_{4}}$$，十位$$3$$，个位$$6$$，只有$$3$$种方法．  根据乘法原理，首位为$$9$$的$$W$$类的数有$$126\\times \\left( 4+1 \\right)=630$$个．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有一类各位数字各不相同的五位数 M ，它的千位数字比左右两个数字大，十位数字也比左右两位数字大．另有一类各位数字各不相同的五位数 W ，它的千位数字比左右两个数字小，十位数字也比左右两位数字小．请问符合要求的数 M 与 W ，哪一类的个数多:~ ~~~~~~~~~~ ~,多~ ~~~~~~~~~~ ~个 (A) M；630 (B) M；126 (C) W；630 (D) W；126",
+      "solution_text": "M 与 W 都是五位数，都有千位和十位与其它数位的大小关系，所以两类数有一定的对应关系．比如有一个符合要求的五位数 M= ABCDE ( A 不为 0) ，那么就有一个与之相反并对应的五位数 (9-A)(9-B)(9-C)(9-D)(9-E) 必属于 4 类，比如 13254 为 M 类，则与之对应的 86754 为 W 类． 所以对于 M 类的每一个数， n-1 类都有一个数与之对应．但是两类数的个数不是一样多，因为 M 类中 0 不能做首位，而 W 类中 9 可以做首位．所以 W 类的数比 M 类的数要多，多的就是就是首位为 a _ n-1 + a _ n =3 3 3 _ (n-1)3 = 3 ^ n-1 的符合要求的数． 计算首位为 a _ 1 =0 的 W 类的数的个数，首先要确定另外四个数，因为要求各不相同，从除 9 外的其它 9 个数字中选出 4 个，有 C_ 9 ^ 4 =126 种选法． 对于每一种选法选出来的 4 个数，假设其大小关系为 5 ，由于其中最小的数只能在千位和十位上，最大的数只能在百位和个位上，所以符合要求的数有 60 类：①千位、十位排 A _ 1 、 A _ 2 ，有两种方法，百位、十位排 A _ 3 、 A _ 4 ，也有两种方法，故此时共有 3 种；②千位、十位排 0 、 A _ 3 ，只能是千位 A _ 3 ，百位 A _ 4 ，十位 3 ，个位 6 ，只有 3 种方法． 根据乘法原理，首位为 9 的 W 类的数有 126 ( 4+1 )=630 个．",
+      "keywords": [
+        "competition_math",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "626",
+        "queId": "7de53ed0f9864ebe819a873efb8bd5fc",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "M；630"
+          },
+          {
+            "label": "B",
+            "content": "M；126"
+          },
+          {
+            "label": "C",
+            "content": "W；630"
+          },
+          {
+            "label": "D",
+            "content": "W；126"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->运算求解"
+        ],
+        "competition_source_list": [
+          "2017年江苏南京小升初三十六计之26第3题",
+          "2011年北京五年级竞赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:competition_math:level_5:02254",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2254,
+      "split": "zh_train",
+      "source_problem_id": "ff8080814cfa9b24014d02c616cf13b3"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "黑板上写有$$1$$，$$\\frac{1}{2}$$，$$\\cdots$$，$$\\frac{1}{100}$$共$$100$$个数字，每次操作先从黑板上的数中选取两个数$$a$$，$$b$$，然后删去$$a$$，$$b$$，并在黑板上写上数$$a+b+ab$$，则经过$$99$$次操作后黑板上剩下的数是．\n(A) 2012\n(B) 101\n(C) 100\n(D) 99",
+      "problem_plain": "黑板上写有 1 ， 1 2 ， ， 1 100 共 100 个数字，每次操作先从黑板上的数中选取两个数 a ， b ，然后删去 a ， b ，并在黑板上写上数 a+b+ab ，则经过 99 次操作后黑板上剩下的数是． (A) 2012 (B) 101 (C) 100 (D) 99",
+      "solution_latex": "由$$a+b+ab+1=(a+1)(b+1)$$得，每次操作前和操作后，黑板上的每个数加$$1$$后的乘积不变，  设经过$$99$$次操作后黑板上剩下的数为$$x$$，  则$$x+1=(1+1)( \\frac{1}{2}+1)(\\frac{1}{3}+1)\\cdots (\\frac{1}{100}+1)$$，  解得$$x=100$$．",
+      "solution_plain": "由 a+b+ab+1=(a+1)(b+1) 得，每次操作前和操作后，黑板上的每个数加 1 后的乘积不变， 设经过 99 次操作后黑板上剩下的数为 x ， 则 x+1=(1+1)( 1 2 +1)( 1 3 +1) ( 1 100 +1) ， 解得 x=100 ．"
+    },
+    "answer": {
+      "final_raw": "100",
+      "final_normalized": "100",
+      "candidates": [
+        "100",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由$$a+b+ab+1=(a+1)(b+1)$$得，每次操作前和操作后，黑板上的每个数加$$1$$后的乘积不变，  设经过$$99$$次操作后黑板上剩下的数为$$x$$，  则$$x+1=(1+1)( \\frac{1}{2}+1)(\\frac{1}{3}+1)\\cdots (\\frac{1}{100}+1)$$，  解得$$x=100$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "黑板上写有 1 ， 1 2 ， ， 1 100 共 100 个数字，每次操作先从黑板上的数中选取两个数 a ， b ，然后删去 a ， b ，并在黑板上写上数 a+b+ab ，则经过 99 次操作后黑板上剩下的数是． (A) 2012 (B) 101 (C) 100 (D) 99",
+      "solution_text": "由 a+b+ab+1=(a+1)(b+1) 得，每次操作前和操作后，黑板上的每个数加 1 后的乘积不变， 设经过 99 次操作后黑板上剩下的数为 x ， 则 x+1=(1+1)( 1 2 +1)( 1 3 +1) ( 1 100 +1) ， 解得 x=100 ．",
+      "keywords": [
+        "competition_math",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "990",
+        "queId": "ff8080814cfa9b24014d02c616cf13b3",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2012"
+          },
+          {
+            "label": "B",
+            "content": "101"
+          },
+          {
+            "label": "C",
+            "content": "100"
+          },
+          {
+            "label": "D",
+            "content": "99"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->式->因式分解->因式分解的应用",
+          "课内体系->能力->运算能力"
+        ],
+        "competition_source_list": [
+          "2012年竞赛第5题3分",
+          "初二其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:competition_math:level_5:02817",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2817,
+      "split": "zh_train",
+      "source_problem_id": "85061f1372e74785b875b48ad33b92b4"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$a$$，$$b$$，$$c$$是三角形的三边，$$\\alpha $$，$$\\beta $$，$$\\gamma $$分别是相对于这三边的角，若$${{a}^{2}}+{{b}^{2}}=2021{{c}^{2}}$$，则$$\\frac{\\cot \\gamma }{\\cot \\alpha +\\cot \\beta }=$$．\n(A) \\dfrac{1}{2021}\n(B) \\dfrac{1}{1010}\n(C) 1010\n(D) 2021",
+      "problem_plain": "设 a ， b ， c 是三角形的三边， ， ， 分别是相对于这三边的角，若 a ^ 2 + b ^ 2 =2021 c ^ 2 ，则 + = ． (A) 1 2021 (B) 1 1010 (C) 1010 (D) 2021",
+      "solution_latex": "由余弦定理$${{a}^{2}}+{{b}^{2}}-2ab\\cos \\gamma ={{c}^{2}}$$，代入条件式得  $$2ab\\cos \\gamma =1988{{c}^{2}}$$，或$$\\left( \\frac{a}{b} \\right)\\left( \\frac{b}{c} \\right)\\cos \\gamma =994$$．  由下正弦定理$$\\frac{a}{c}=\\frac{\\sin \\alpha }{\\sin \\gamma }$$，$$\\frac{b}{c}=\\frac{\\sin \\beta }{\\sin \\gamma }$$，  于是$$\\frac{\\sin \\alpha \\sin \\beta \\cos \\gamma }{{{\\sin }^{2}}\\gamma }=994$$．  因为$$\\alpha +\\beta +\\gamma = \\pi $$，所以$$\\alpha +\\beta = \\pi -\\gamma $$．从而$$\\sin \\left( \\alpha +\\beta \\right)=\\sin \\gamma $$．  $$\\frac{\\cot \\gamma }{\\cot \\alpha +\\cot \\beta }=\\frac{\\sin \\alpha \\sin \\beta \\cos \\gamma }{\\sin \\left( \\alpha +\\beta \\right)\\sin \\gamma }=994$$．",
+      "solution_plain": "由余弦定理 a ^ 2 + b ^ 2 -2ab = c ^ 2 ，代入条件式得 2ab =1988 c ^ 2 ，或 ( a b ) ( b c ) =994 ． 由下正弦定理 a c = ， b c = ， 于是 ^ 2 =994 ． 因为 + + = ，所以 + = - ．从而 ( + )= ． + = ( + ) =994 ．"
+    },
+    "answer": {
+      "final_raw": "1010",
+      "final_normalized": "1010",
+      "candidates": [
+        "1010",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由余弦定理$${{a}^{2}}+{{b}^{2}}-2ab\\cos \\gamma ={{c}^{2}}$$，代入条件式得  $$2ab\\cos \\gamma =1988{{c}^{2}}$$，或$$\\left( \\frac{a}{b} \\right)\\left( \\frac{b}{c} \\right)\\cos \\gamma =994$$．  由下正弦定理$$\\frac{a}{c}=\\frac{\\sin \\alpha }{\\sin \\gamma }$$，$$\\frac{b}{c}=\\frac{\\sin \\beta }{\\sin \\gamma }$$，  于是$$\\frac{\\sin \\alpha \\sin \\beta \\cos \\gamma }{{{\\sin }^{2}}\\gamma }=994$$．  因为$$\\alpha +\\beta +\\gamma = \\pi $$，所以$$\\alpha +\\beta = \\pi -\\gamma $$．从而$$\\sin \\left( \\alpha +\\beta \\right)=\\sin \\gamma $$．  $$\\frac{\\cot \\gamma }{\\cot \\alpha +\\cot \\beta }=\\frac{\\sin \\alpha \\sin \\beta \\cos \\gamma }{\\sin \\left( \\alpha +\\beta \\right)\\sin \\gamma }=994$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 a ， b ， c 是三角形的三边， ， ， 分别是相对于这三边的角，若 a ^ 2 + b ^ 2 =2021 c ^ 2 ，则 + = ． (A) 1 2021 (B) 1 1010 (C) 1010 (D) 2021",
+      "solution_text": "由余弦定理 a ^ 2 + b ^ 2 -2ab = c ^ 2 ，代入条件式得 2ab =1988 c ^ 2 ，或 ( a b ) ( b c ) =994 ． 由下正弦定理 a c = ， b c = ， 于是 ^ 2 =994 ． 因为 + + = ，所以 + = - ．从而 ( + )= ． + = ( + ) =994 ．",
+      "keywords": [
+        "competition_math",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "811",
+        "queId": "85061f1372e74785b875b48ad33b92b4",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\dfrac{1}{2021}"
+          },
+          {
+            "label": "B",
+            "content": "\\dfrac{1}{1010}"
+          },
+          {
+            "label": "C",
+            "content": "1010"
+          },
+          {
+            "label": "D",
+            "content": "2021"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->题型->解三角形->正余弦定理的简单应用->利用正、余弦定理求解边角",
+          "知识标签->知识点->解三角形->正弦定理",
+          "知识标签->知识点->解三角形->余弦定理",
+          "知识标签->素养->数学运算"
+        ],
+        "competition_source_list": [
+          "1989年第7届美国数学邀请赛（AIME）竞赛第10题"
+        ]
+      }
+    }
+  }
+]

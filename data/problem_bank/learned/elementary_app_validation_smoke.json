@@ -1,0 +1,1261 @@
+{
+  "schema_version": "coco_app_corpus_validation.v1",
+  "generated_at": "2026-04-26T02:30:47+00:00",
+  "batch_size": 10,
+  "input_total": 20,
+  "processed_total": 20,
+  "summary": {
+    "total": 20,
+    "ok": 4,
+    "review": 16,
+    "non_problem": 0,
+    "error": 0,
+    "issue_counts": {
+      "answer_missing": 8,
+      "card_needs_review": 9,
+      "card_topic_unknown": 1,
+      "expression_missing": 6,
+      "ocr_noise_high": 15,
+      "solve_failed": 8,
+      "topic_unknown": 1
+    },
+    "by_band": {
+      "unknown": {
+        "review": 16,
+        "ocr_noise_high": 15,
+        "card_needs_review": 9,
+        "ok": 4,
+        "expression_missing": 6,
+        "solve_failed": 8,
+        "answer_missing": 8,
+        "topic_unknown": 1,
+        "card_topic_unknown": 1
+      }
+    },
+    "by_source_kind": {
+      "generated_curriculum": {
+        "review": 16,
+        "ocr_noise_high": 15,
+        "card_needs_review": 9,
+        "ok": 4,
+        "expression_missing": 6,
+        "solve_failed": 8,
+        "answer_missing": 8,
+        "topic_unknown": 1,
+        "card_topic_unknown": 1
+      }
+    },
+    "by_topic": {
+      "arithmetic": {
+        "review": 15,
+        "ok": 4
+      },
+      "unknown": {
+        "review": 1
+      }
+    }
+  },
+  "issue_examples": {
+    "answer_missing": [
+      {
+        "index": 6,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_3회_p02.png",
+        "problem_text": "|. 순서를 거꾸로 하여 빈칸에 알맞은 se 써 1G, 4보다 크고 8보다 작은 수는 모두 몇 개입",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "|. 순서를 거꾸로 하여 빈칸에 알맞은 se 써 1G, 4보다 크고 8보다 작은 수는 모두 몇 개입 |. 순서를 거꾸로 하여 빈칸에 알맞은 se 써 1G, 4보다 크고 8보다 작은 수는 모두 몇 개입 > ( 15) (3K 2) 17. 민서는 6살입니다. SSE 민서보다 1살 더 12. (_ ) 안에 알맞은 수를 써 넣으세요. ( ) 보다 1만큼 더 작은 AL ?입니다. 18. BS 선영...",
+        "error": null
+      },
+      {
+        "index": 7,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p01.png",
+        "problem_text": "떤 모양인지 알맞은 모양에 o 2",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "떤 모양인지 알맞은 모양에 o 2 |. 다음 중 | |, 모양은 모두 몇 개입니까? 7, SES 상자 안의 eae 어 (^) 떤 모양인지 알맞은 모양에 o 2 08900 «= 2. 다음 중 . ㅣ 모양은 모두 몇 개입니까? 6. 모양이 같은 것끼리 선으로 이어 보시오. 9 90 > 0 fi © ： 5 3. 다음 중 (._) 모양은 모두 몇 개입니까? 6 3 9 @ 7. 왼쪽 물건과 같은...",
+        "error": null
+      },
+      {
+        "index": 9,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p03.png",
+        "problem_text": "17. _) 모양을 모두 몇 개 이용했는지 세어 보 ㅣ 444, 다음 모양을 만드는 데 사용한 모양의 개수",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "17. _) 모양을 모두 몇 개 이용했는지 세어 보 ㅣ 444, 다음 모양을 만드는 데 사용한 모양의 개수 ㅣ /. . | Sos 모두 몇 개 이용했는지 세어 보 ： 4. 다음 모양을 만드는 데 사용한 모양의 개수 세요. 가 3개인 것은 어느 것인지 ○표 하세요. =t Pan 18. 다음 모양을 만드는 데 이용하지 않은 모양 2. OG =e 19. 다음 그림에서 |, = (. ) see...",
+        "error": null
+      },
+      {
+        "index": 10,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_2회_p01.png",
+        "problem_text": "|. 다음 중 | |, 모양은 모두 몇 개입니까? 4.-), . | ©) 모양 중에서 가장 AS See 2. 다음 중 . ㅣ age 모두 몇 개입니까? 버",
+        "expressions": [
+          "so 0 ="
+        ],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "|. 다음 중 | |, 모양은 모두 몇 개입니까? 4.-), . | ©) 모양 중에서 가장 AS See 2. 다음 중 . ㅣ age 모두 몇 개입니까? 버 |. 다음 중 | |, 모양은 모두 몇 개입니까? 4.-), . | ©) 모양 중에서 가장 AS See 00000\" 어느것인지 ○표 하세요. 5. 오른쪽 상자 안의 BAS 어떤 LOA 2. 다음 중 . ㅣ age 모두 몇 개입니까? ...",
+        "error": null
+      },
+      {
+        "index": 12,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_2회_p03.png",
+        "problem_text": "17. 모양을 모두 몇 개 이용했는지 서어 보",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "17. 모양을 모두 몇 개 이용했는지 서어 보 10, 보이는 모양을 보고 이 모양에 대해 잘못 설 19. 다음 그림에서 | |, Lo WO 모양을 각각 동준 : $2 부분이 있어. ^ 현철 : 평평한 면을 이용하여 쌓을 수 있어. a0 가 17. 모양을 모두 몇 개 이용했는지 서어 보 20. 다음 모양을 만드는 데 사용한 모양의 개수 가 4개인 것은 어느 것인지 ○표 하세요. ( ) 9...",
+        "error": null
+      },
+      {
+        "index": 13,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p01.png",
+        "problem_text": "/ 그 : 모양인지 알맞은 모양에 ○표 하",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "/ 그 : 모양인지 알맞은 모양에 ○표 하 1, 다음 중 [개 모양은 모두 몇 개입니까? . 4.1개, ed OS 중에서 가장 적은 SYS 2. 다음 중 . ] 모양은 모두 몇 개입니까? _ 5. 오른쪽 상자 안의 SUS 어떤 / 그 : 모양인지 알맞은 모양에 ○표 하 41 «6, 모양이 같은 것끼리 MOS 이어 보시오. 3. 다음 중 6 모양은 모두 몇 개입니까? ) a 7. 왼쪽 물...",
+        "error": null
+      },
+      {
+        "index": 14,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p02.png",
+        "problem_text": "--=- (S 8",
+        "expressions": [
+          "--=- (S 8"
+        ],
+        "computed_answer": "",
+        "display_topic": "unknown",
+        "source_preview": "--=- (S 8 8. 다음 그림에서 잘 쌓을 수 있고 잘 굴러가지 124. 그림에서 이용한 모양을 모두 골라 OF of SS 8 8 휴지상자 연필꽂이 축구공 9. 가와 나 중에서 과 같은 모양끼리 모은 것의 0) @ 00 ©) --=- (S 8 @ © 1“ © 때 8RASA 연필꽂이 축구공 13. 오른쪽 상자 안의 물건과 같은 10. 모양이 같은 것끼리 모은 것을 찾아 기호를 @ㅁ00...",
+        "error": null
+      },
+      {
+        "index": 15,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p03.png",
+        "problem_text": "17. (._ ) 모양을 모두 몇 개 이용했는지 세어 보",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "17. (._ ) 모양을 모두 몇 개 이용했는지 세어 보 10, 보이는 모양을 보고 이 Seo] 대해 잘못 설 ： 19. 다음 그림에서 | |, Lo, © 모양을 각각 찬우 : 모든 부분이 S20 ~ 기 17. (. ) 모양을 모두 몇 개 이용했는지 세어 보 2 20. 다음 모양을 만드는 데 사용한 모양의 개수 = - 가 4개인 것은 어느 것인지 ○표 하세요 (gf. ㄱ7. @) 18....",
+        "error": null
+      }
+    ],
+    "card_needs_review": [
+      {
+        "index": 2,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_1회_p02.png",
+        "problem_text": "14. 알맞은 말에 ○표 하세요. 19. 다음을 만족하는 수를 구하시오",
+        "expressions": [
+          "answer=5"
+        ],
+        "computed_answer": "5",
+        "display_topic": "arithmetic",
+        "source_preview": "14. 알맞은 말에 ○표 하세요. 19. 다음을 만족하는 수를 구하시오 **%*%*% | 0123 15 12, 사탕은 민석이는 4개를 받았고, 은희는 민석 나을 수들 중에서 맞는 수를 도두 골라 쓰시 이보다 1개 더 많이 받았습니다. 은희는 사탕을 ° 1, 2, 3, 4, 5, 0, 7, 8, 9 (1) 4보다 작은 수 13. ㅁ 안에 알맞은 수를 써넣으세요. 보다 1 큰 수는 8입니다...",
+        "error": null
+      },
+      {
+        "index": 6,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_3회_p02.png",
+        "problem_text": "|. 순서를 거꾸로 하여 빈칸에 알맞은 se 써 1G, 4보다 크고 8보다 작은 수는 모두 몇 개입",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "|. 순서를 거꾸로 하여 빈칸에 알맞은 se 써 1G, 4보다 크고 8보다 작은 수는 모두 몇 개입 |. 순서를 거꾸로 하여 빈칸에 알맞은 se 써 1G, 4보다 크고 8보다 작은 수는 모두 몇 개입 > ( 15) (3K 2) 17. 민서는 6살입니다. SSE 민서보다 1살 더 12. (_ ) 안에 알맞은 수를 써 넣으세요. ( ) 보다 1만큼 더 작은 AL ?입니다. 18. BS 선영...",
+        "error": null
+      },
+      {
+        "index": 7,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p01.png",
+        "problem_text": "떤 모양인지 알맞은 모양에 o 2",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "떤 모양인지 알맞은 모양에 o 2 |. 다음 중 | |, 모양은 모두 몇 개입니까? 7, SES 상자 안의 eae 어 (^) 떤 모양인지 알맞은 모양에 o 2 08900 «= 2. 다음 중 . ㅣ 모양은 모두 몇 개입니까? 6. 모양이 같은 것끼리 선으로 이어 보시오. 9 90 > 0 fi © ： 5 3. 다음 중 (._) 모양은 모두 몇 개입니까? 6 3 9 @ 7. 왼쪽 물건과 같은...",
+        "error": null
+      },
+      {
+        "index": 9,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p03.png",
+        "problem_text": "17. _) 모양을 모두 몇 개 이용했는지 세어 보 ㅣ 444, 다음 모양을 만드는 데 사용한 모양의 개수",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "17. _) 모양을 모두 몇 개 이용했는지 세어 보 ㅣ 444, 다음 모양을 만드는 데 사용한 모양의 개수 ㅣ /. . | Sos 모두 몇 개 이용했는지 세어 보 ： 4. 다음 모양을 만드는 데 사용한 모양의 개수 세요. 가 3개인 것은 어느 것인지 ○표 하세요. =t Pan 18. 다음 모양을 만드는 데 이용하지 않은 모양 2. OG =e 19. 다음 그림에서 |, = (. ) see...",
+        "error": null
+      },
+      {
+        "index": 10,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_2회_p01.png",
+        "problem_text": "|. 다음 중 | |, 모양은 모두 몇 개입니까? 4.-), . | ©) 모양 중에서 가장 AS See 2. 다음 중 . ㅣ age 모두 몇 개입니까? 버",
+        "expressions": [
+          "so 0 ="
+        ],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "|. 다음 중 | |, 모양은 모두 몇 개입니까? 4.-), . | ©) 모양 중에서 가장 AS See 2. 다음 중 . ㅣ age 모두 몇 개입니까? 버 |. 다음 중 | |, 모양은 모두 몇 개입니까? 4.-), . | ©) 모양 중에서 가장 AS See 00000\" 어느것인지 ○표 하세요. 5. 오른쪽 상자 안의 BAS 어떤 LOA 2. 다음 중 . ㅣ age 모두 몇 개입니까? ...",
+        "error": null
+      },
+      {
+        "index": 12,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_2회_p03.png",
+        "problem_text": "17. 모양을 모두 몇 개 이용했는지 서어 보",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "17. 모양을 모두 몇 개 이용했는지 서어 보 10, 보이는 모양을 보고 이 모양에 대해 잘못 설 19. 다음 그림에서 | |, Lo WO 모양을 각각 동준 : $2 부분이 있어. ^ 현철 : 평평한 면을 이용하여 쌓을 수 있어. a0 가 17. 모양을 모두 몇 개 이용했는지 서어 보 20. 다음 모양을 만드는 데 사용한 모양의 개수 가 4개인 것은 어느 것인지 ○표 하세요. ( ) 9...",
+        "error": null
+      },
+      {
+        "index": 13,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p01.png",
+        "problem_text": "/ 그 : 모양인지 알맞은 모양에 ○표 하",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "/ 그 : 모양인지 알맞은 모양에 ○표 하 1, 다음 중 [개 모양은 모두 몇 개입니까? . 4.1개, ed OS 중에서 가장 적은 SYS 2. 다음 중 . ] 모양은 모두 몇 개입니까? _ 5. 오른쪽 상자 안의 SUS 어떤 / 그 : 모양인지 알맞은 모양에 ○표 하 41 «6, 모양이 같은 것끼리 MOS 이어 보시오. 3. 다음 중 6 모양은 모두 몇 개입니까? ) a 7. 왼쪽 물...",
+        "error": null
+      },
+      {
+        "index": 14,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p02.png",
+        "problem_text": "--=- (S 8",
+        "expressions": [
+          "--=- (S 8"
+        ],
+        "computed_answer": "",
+        "display_topic": "unknown",
+        "source_preview": "--=- (S 8 8. 다음 그림에서 잘 쌓을 수 있고 잘 굴러가지 124. 그림에서 이용한 모양을 모두 골라 OF of SS 8 8 휴지상자 연필꽂이 축구공 9. 가와 나 중에서 과 같은 모양끼리 모은 것의 0) @ 00 ©) --=- (S 8 @ © 1“ © 때 8RASA 연필꽂이 축구공 13. 오른쪽 상자 안의 물건과 같은 10. 모양이 같은 것끼리 모은 것을 찾아 기호를 @ㅁ00...",
+        "error": null
+      },
+      {
+        "index": 15,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p03.png",
+        "problem_text": "17. (._ ) 모양을 모두 몇 개 이용했는지 세어 보",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "17. (._ ) 모양을 모두 몇 개 이용했는지 세어 보 10, 보이는 모양을 보고 이 Seo] 대해 잘못 설 ： 19. 다음 그림에서 | |, Lo, © 모양을 각각 찬우 : 모든 부분이 S20 ~ 기 17. (. ) 모양을 모두 몇 개 이용했는지 세어 보 2 20. 다음 모양을 만드는 데 사용한 모양의 개수 = - 가 4개인 것은 어느 것인지 ○표 하세요 (gf. ㄱ7. @) 18....",
+        "error": null
+      }
+    ],
+    "card_topic_unknown": [
+      {
+        "index": 14,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p02.png",
+        "problem_text": "--=- (S 8",
+        "expressions": [
+          "--=- (S 8"
+        ],
+        "computed_answer": "",
+        "display_topic": "unknown",
+        "source_preview": "--=- (S 8 8. 다음 그림에서 잘 쌓을 수 있고 잘 굴러가지 124. 그림에서 이용한 모양을 모두 골라 OF of SS 8 8 휴지상자 연필꽂이 축구공 9. 가와 나 중에서 과 같은 모양끼리 모은 것의 0) @ 00 ©) --=- (S 8 @ © 1“ © 때 8RASA 연필꽂이 축구공 13. 오른쪽 상자 안의 물건과 같은 10. 모양이 같은 것끼리 모은 것을 찾아 기호를 @ㅁ00...",
+        "error": null
+      }
+    ],
+    "expression_missing": [
+      {
+        "index": 6,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_3회_p02.png",
+        "problem_text": "|. 순서를 거꾸로 하여 빈칸에 알맞은 se 써 1G, 4보다 크고 8보다 작은 수는 모두 몇 개입",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "|. 순서를 거꾸로 하여 빈칸에 알맞은 se 써 1G, 4보다 크고 8보다 작은 수는 모두 몇 개입 |. 순서를 거꾸로 하여 빈칸에 알맞은 se 써 1G, 4보다 크고 8보다 작은 수는 모두 몇 개입 > ( 15) (3K 2) 17. 민서는 6살입니다. SSE 민서보다 1살 더 12. (_ ) 안에 알맞은 수를 써 넣으세요. ( ) 보다 1만큼 더 작은 AL ?입니다. 18. BS 선영...",
+        "error": null
+      },
+      {
+        "index": 7,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p01.png",
+        "problem_text": "떤 모양인지 알맞은 모양에 o 2",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "떤 모양인지 알맞은 모양에 o 2 |. 다음 중 | |, 모양은 모두 몇 개입니까? 7, SES 상자 안의 eae 어 (^) 떤 모양인지 알맞은 모양에 o 2 08900 «= 2. 다음 중 . ㅣ 모양은 모두 몇 개입니까? 6. 모양이 같은 것끼리 선으로 이어 보시오. 9 90 > 0 fi © ： 5 3. 다음 중 (._) 모양은 모두 몇 개입니까? 6 3 9 @ 7. 왼쪽 물건과 같은...",
+        "error": null
+      },
+      {
+        "index": 9,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p03.png",
+        "problem_text": "17. _) 모양을 모두 몇 개 이용했는지 세어 보 ㅣ 444, 다음 모양을 만드는 데 사용한 모양의 개수",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "17. _) 모양을 모두 몇 개 이용했는지 세어 보 ㅣ 444, 다음 모양을 만드는 데 사용한 모양의 개수 ㅣ /. . | Sos 모두 몇 개 이용했는지 세어 보 ： 4. 다음 모양을 만드는 데 사용한 모양의 개수 세요. 가 3개인 것은 어느 것인지 ○표 하세요. =t Pan 18. 다음 모양을 만드는 데 이용하지 않은 모양 2. OG =e 19. 다음 그림에서 |, = (. ) see...",
+        "error": null
+      },
+      {
+        "index": 12,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_2회_p03.png",
+        "problem_text": "17. 모양을 모두 몇 개 이용했는지 서어 보",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "17. 모양을 모두 몇 개 이용했는지 서어 보 10, 보이는 모양을 보고 이 모양에 대해 잘못 설 19. 다음 그림에서 | |, Lo WO 모양을 각각 동준 : $2 부분이 있어. ^ 현철 : 평평한 면을 이용하여 쌓을 수 있어. a0 가 17. 모양을 모두 몇 개 이용했는지 서어 보 20. 다음 모양을 만드는 데 사용한 모양의 개수 가 4개인 것은 어느 것인지 ○표 하세요. ( ) 9...",
+        "error": null
+      },
+      {
+        "index": 13,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p01.png",
+        "problem_text": "/ 그 : 모양인지 알맞은 모양에 ○표 하",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "/ 그 : 모양인지 알맞은 모양에 ○표 하 1, 다음 중 [개 모양은 모두 몇 개입니까? . 4.1개, ed OS 중에서 가장 적은 SYS 2. 다음 중 . ] 모양은 모두 몇 개입니까? _ 5. 오른쪽 상자 안의 SUS 어떤 / 그 : 모양인지 알맞은 모양에 ○표 하 41 «6, 모양이 같은 것끼리 MOS 이어 보시오. 3. 다음 중 6 모양은 모두 몇 개입니까? ) a 7. 왼쪽 물...",
+        "error": null
+      },
+      {
+        "index": 15,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p03.png",
+        "problem_text": "17. (._ ) 모양을 모두 몇 개 이용했는지 세어 보",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "17. (._ ) 모양을 모두 몇 개 이용했는지 세어 보 10, 보이는 모양을 보고 이 Seo] 대해 잘못 설 ： 19. 다음 그림에서 | |, Lo, © 모양을 각각 찬우 : 모든 부분이 S20 ~ 기 17. (. ) 모양을 모두 몇 개 이용했는지 세어 보 2 20. 다음 모양을 만드는 데 사용한 모양의 개수 = - 가 4개인 것은 어느 것인지 ○표 하세요 (gf. ㄱ7. @) 18....",
+        "error": null
+      }
+    ],
+    "ocr_noise_high": [
+      {
+        "index": 1,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_1회_p01.png",
+        "problem_text": "3/4] 16171am [OOOO",
+        "expressions": [
+          "3/4] 16171am [OOOO"
+        ],
+        "computed_answer": "3/4",
+        "display_topic": "arithmetic",
+        "source_preview": "3/4] 16171am [OOOO ㅣ, 수만큼 (〉를 그려 보세요. 3. 빈 곳에 알맞은 수를 써 넣으세요. 01 20 (2) > |__| 0 [| |) 7. 오른쪽에서 세 번째에 있는 축구공에 ○표 하 2.43 두 가지로 읽어 보시오. 28 두 지로 리시 BLOGGED (2) 4 > ( ) 8. 주어진 수만큼 색칠하여 보시오. 3. 빈 칸에 알맞은 수를 써 넣으시오. 3/4] 1617...",
+        "error": null
+      },
+      {
+        "index": 2,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_1회_p02.png",
+        "problem_text": "14. 알맞은 말에 ○표 하세요. 19. 다음을 만족하는 수를 구하시오",
+        "expressions": [
+          "answer=5"
+        ],
+        "computed_answer": "5",
+        "display_topic": "arithmetic",
+        "source_preview": "14. 알맞은 말에 ○표 하세요. 19. 다음을 만족하는 수를 구하시오 **%*%*% | 0123 15 12, 사탕은 민석이는 4개를 받았고, 은희는 민석 나을 수들 중에서 맞는 수를 도두 골라 쓰시 이보다 1개 더 많이 받았습니다. 은희는 사탕을 ° 1, 2, 3, 4, 5, 0, 7, 8, 9 (1) 4보다 작은 수 13. ㅁ 안에 알맞은 수를 써넣으세요. 보다 1 큰 수는 8입니다...",
+        "error": null
+      },
+      {
+        "index": 3,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_2회_p01.png",
+        "problem_text": "1+2+3+4+5+6",
+        "expressions": [
+          "1+2+3+4+5+6"
+        ],
+        "computed_answer": "21",
+        "display_topic": "arithmetic",
+        "source_preview": "1+2+3+4+5+6 ㅣ, 수만큼 OS 그려 보세요. ㅁ. 0만큼 묶을 때, 묶지 않은 것의 수를 세어 보 0632 5 | geese ©- AH 0000 7. 알맞게 선으로 이어보세요. 2. <보기>와 같이 수를 2가지 방법으로 쓰시오. 기 티에 변이 are 3 5 (셋, AD ro (0 ) 가 나 다 라 마 09000 3. 더 큰 수에 ○표 하시오. 7 ; 8. 순서에 맞게 알맞은 W...",
+        "error": null
+      },
+      {
+        "index": 5,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_3회_p01.png",
+        "problem_text": "2.48 세어 ©) 안에 알맞은 수를 쓰고 읽어 보 ( ) 5. 수를 세어 빈 칸에 알맞은 수를 써넣으시오",
+        "expressions": [
+          "6+7+8"
+        ],
+        "computed_answer": "21",
+        "display_topic": "arithmetic",
+        "source_preview": "2.48 세어 ©) 안에 알맞은 수를 쓰고 읽어 보 ( ) 5. 수를 세어 빈 칸에 알맞은 수를 써넣으시오 ㅣ, 수만큼 OS 그려 보세요. ㅁ. 2만큼 묶을 때, 묶지 않은 것의 수를 세어 보 2.48 세어 ©) 안에 알맞은 수를 쓰고 읽어 보 ( ) 7. 알맞게 MOS 이어보세요. 3. 더 큰 수에 ○표 하시오. 5 2 | 31A 6 7 8. 여섯째에 색칠해 보세요. 4. 6보다 큰 ...",
+        "error": null
+      },
+      {
+        "index": 7,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p01.png",
+        "problem_text": "떤 모양인지 알맞은 모양에 o 2",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "떤 모양인지 알맞은 모양에 o 2 |. 다음 중 | |, 모양은 모두 몇 개입니까? 7, SES 상자 안의 eae 어 (^) 떤 모양인지 알맞은 모양에 o 2 08900 «= 2. 다음 중 . ㅣ 모양은 모두 몇 개입니까? 6. 모양이 같은 것끼리 선으로 이어 보시오. 9 90 > 0 fi © ： 5 3. 다음 중 (._) 모양은 모두 몇 개입니까? 6 3 9 @ 7. 왼쪽 물건과 같은...",
+        "error": null
+      },
+      {
+        "index": 8,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p02.png",
+        "problem_text": "12 그림에서 이용한 모양을 모두 골라 ○표 하 16. 보이는 SAS 보고 이 모양에 대해 잘못 설",
+        "expressions": [
+          "4+6+11",
+          "*le = 02 &"
+        ],
+        "computed_answer": "21",
+        "display_topic": "arithmetic",
+        "source_preview": "12 그림에서 이용한 모양을 모두 골라 ○표 하 16. 보이는 SAS 보고 이 모양에 대해 잘못 설 그, 가와 나 중에서 Ott 같은 모양끼리 모은 것의 15, 오른쪽 상자 안의 물건과 같은 YG) 가 나 선물상자 롤티슈 수박 14. 모양을 보고 알맞게 선으로 이어 보시오. 10. 모양이 같은 것끼리 모은 것을 찾아 기호를 “le = 02 & B06in 4 6 @ 11. 같은 모양끼리 ...",
+        "error": null
+      },
+      {
+        "index": 9,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p03.png",
+        "problem_text": "17. _) 모양을 모두 몇 개 이용했는지 세어 보 ㅣ 444, 다음 모양을 만드는 데 사용한 모양의 개수",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "17. _) 모양을 모두 몇 개 이용했는지 세어 보 ㅣ 444, 다음 모양을 만드는 데 사용한 모양의 개수 ㅣ /. . | Sos 모두 몇 개 이용했는지 세어 보 ： 4. 다음 모양을 만드는 데 사용한 모양의 개수 세요. 가 3개인 것은 어느 것인지 ○표 하세요. =t Pan 18. 다음 모양을 만드는 데 이용하지 않은 모양 2. OG =e 19. 다음 그림에서 |, = (. ) see...",
+        "error": null
+      },
+      {
+        "index": 10,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_2회_p01.png",
+        "problem_text": "|. 다음 중 | |, 모양은 모두 몇 개입니까? 4.-), . | ©) 모양 중에서 가장 AS See 2. 다음 중 . ㅣ age 모두 몇 개입니까? 버",
+        "expressions": [
+          "so 0 ="
+        ],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "|. 다음 중 | |, 모양은 모두 몇 개입니까? 4.-), . | ©) 모양 중에서 가장 AS See 2. 다음 중 . ㅣ age 모두 몇 개입니까? 버 |. 다음 중 | |, 모양은 모두 몇 개입니까? 4.-), . | ©) 모양 중에서 가장 AS See 00000\" 어느것인지 ○표 하세요. 5. 오른쪽 상자 안의 BAS 어떤 LOA 2. 다음 중 . ㅣ age 모두 몇 개입니까? ...",
+        "error": null
+      },
+      {
+        "index": 11,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_2회_p02.png",
+        "problem_text": "6. 다음 그림에서 둥근 FEO] 있으면서 어느 방 ： 4. 그림에서 이용한 SSS 모두 골라 OF of 6. 다음 그림에서 둥근 FEO] 있으면서 어느 12, 그림에서 이용한 모양을 모두 골라 OF of",
+        "expressions": [
+          "1+0+6",
+          "0+0+6"
+        ],
+        "computed_answer": "7",
+        "display_topic": "arithmetic",
+        "source_preview": "6. 다음 그림에서 둥근 FEO] 있으면서 어느 방 ： 4. 그림에서 이용한 SSS 모두 골라 OF of 6. 다음 그림에서 둥근 FEO] 있으면서 어느 12, 그림에서 이용한 모양을 모두 골라 OF of 6. 다음 그림에서 둥근 FEO] 있으면서 어느 방 ： 4. 그림에서 이용한 SSS 모두 골라 OF of 휴지상자 연필꽂이 축구공 OB al =e 9. 가와 나 중에서 과 같은 모양끼...",
+        "error": null
+      },
+      {
+        "index": 12,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_2회_p03.png",
+        "problem_text": "17. 모양을 모두 몇 개 이용했는지 서어 보",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "17. 모양을 모두 몇 개 이용했는지 서어 보 10, 보이는 모양을 보고 이 모양에 대해 잘못 설 19. 다음 그림에서 | |, Lo WO 모양을 각각 동준 : $2 부분이 있어. ^ 현철 : 평평한 면을 이용하여 쌓을 수 있어. a0 가 17. 모양을 모두 몇 개 이용했는지 서어 보 20. 다음 모양을 만드는 데 사용한 모양의 개수 가 4개인 것은 어느 것인지 ○표 하세요. ( ) 9...",
+        "error": null
+      },
+      {
+        "index": 13,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p01.png",
+        "problem_text": "/ 그 : 모양인지 알맞은 모양에 ○표 하",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "/ 그 : 모양인지 알맞은 모양에 ○표 하 1, 다음 중 [개 모양은 모두 몇 개입니까? . 4.1개, ed OS 중에서 가장 적은 SYS 2. 다음 중 . ] 모양은 모두 몇 개입니까? _ 5. 오른쪽 상자 안의 SUS 어떤 / 그 : 모양인지 알맞은 모양에 ○표 하 41 «6, 모양이 같은 것끼리 MOS 이어 보시오. 3. 다음 중 6 모양은 모두 몇 개입니까? ) a 7. 왼쪽 물...",
+        "error": null
+      },
+      {
+        "index": 14,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p02.png",
+        "problem_text": "--=- (S 8",
+        "expressions": [
+          "--=- (S 8"
+        ],
+        "computed_answer": "",
+        "display_topic": "unknown",
+        "source_preview": "--=- (S 8 8. 다음 그림에서 잘 쌓을 수 있고 잘 굴러가지 124. 그림에서 이용한 모양을 모두 골라 OF of SS 8 8 휴지상자 연필꽂이 축구공 9. 가와 나 중에서 과 같은 모양끼리 모은 것의 0) @ 00 ©) --=- (S 8 @ © 1“ © 때 8RASA 연필꽂이 축구공 13. 오른쪽 상자 안의 물건과 같은 10. 모양이 같은 것끼리 모은 것을 찾아 기호를 @ㅁ00...",
+        "error": null
+      },
+      {
+        "index": 15,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p03.png",
+        "problem_text": "17. (._ ) 모양을 모두 몇 개 이용했는지 세어 보",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "17. (._ ) 모양을 모두 몇 개 이용했는지 세어 보 10, 보이는 모양을 보고 이 Seo] 대해 잘못 설 ： 19. 다음 그림에서 | |, Lo, © 모양을 각각 찬우 : 모든 부분이 S20 ~ 기 17. (. ) 모양을 모두 몇 개 이용했는지 세어 보 2 20. 다음 모양을 만드는 데 사용한 모양의 개수 = - 가 4개인 것은 어느 것인지 ○표 하세요 (gf. ㄱ7. @) 18....",
+        "error": null
+      },
+      {
+        "index": 18,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_3단원_덧셈과뺄셈_2회_p01.png",
+        "problem_text": "1, 그럼을 보고 모으기를 해 보세요. 2.4188 보고 알맞은 덧셈식을 써 보세요 2, 그림을 보고 가르기를 해 보세요. 6. 덧셈을 해 보세요",
+        "expressions": [
+          "- 7 1+5=",
+          "(00000080 8 8-"
+        ],
+        "computed_answer": "-66",
+        "display_topic": "arithmetic",
+        "source_preview": "1, 그럼을 보고 모으기를 해 보세요. 2.4188 보고 알맞은 덧셈식을 써 보세요 2, 그림을 보고 가르기를 해 보세요. 6. 덧셈을 해 보세요 1, 그럼을 보고 모으기를 해 보세요. 2.4188 보고 알맞은 덧셈식을 써 보세요. oe “00 41 31 (00000080 8 8- 2, 그림을 보고 가르기를 해 보세요. 6. 덧셈을 해 보세요 - 7 1+5= SESS og = SS Se...",
+        "error": null
+      },
+      {
+        "index": 19,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_3단원_덧셈과뺄셈_2회_p02.png",
+        "problem_text": "12. 그림을 보고 알맞은 HAAS 써 보세요",
+        "expressions": [
+          "12--6",
+          "= 7",
+          "-6 +4"
+        ],
+        "computed_answer": "18",
+        "display_topic": "arithmetic",
+        "source_preview": "12. 그림을 보고 알맞은 HAAS 써 보세요 1U, 만두 0개를 영준이와 영호가 똑같이 나누어 ： ｌ6. 계산 결과가 같은 것에 ○표 하세요. 11, 희수는 풍선을 ?개 불었습니다. 그중에서 3 -6 +4 12. 그림을 보고 알맞은 HAAS 써 보세요. = 7 능 능 x& x & | 18. 수 카드 중에서 3장을 골라 차가 가장 큰 13. Mas 해 보세요. 더 19. 사탕을 민수는 ...",
+        "error": null
+      }
+    ],
+    "solve_failed": [
+      {
+        "index": 6,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_3회_p02.png",
+        "problem_text": "|. 순서를 거꾸로 하여 빈칸에 알맞은 se 써 1G, 4보다 크고 8보다 작은 수는 모두 몇 개입",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "|. 순서를 거꾸로 하여 빈칸에 알맞은 se 써 1G, 4보다 크고 8보다 작은 수는 모두 몇 개입 |. 순서를 거꾸로 하여 빈칸에 알맞은 se 써 1G, 4보다 크고 8보다 작은 수는 모두 몇 개입 > ( 15) (3K 2) 17. 민서는 6살입니다. SSE 민서보다 1살 더 12. (_ ) 안에 알맞은 수를 써 넣으세요. ( ) 보다 1만큼 더 작은 AL ?입니다. 18. BS 선영...",
+        "error": null
+      },
+      {
+        "index": 7,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p01.png",
+        "problem_text": "떤 모양인지 알맞은 모양에 o 2",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "떤 모양인지 알맞은 모양에 o 2 |. 다음 중 | |, 모양은 모두 몇 개입니까? 7, SES 상자 안의 eae 어 (^) 떤 모양인지 알맞은 모양에 o 2 08900 «= 2. 다음 중 . ㅣ 모양은 모두 몇 개입니까? 6. 모양이 같은 것끼리 선으로 이어 보시오. 9 90 > 0 fi © ： 5 3. 다음 중 (._) 모양은 모두 몇 개입니까? 6 3 9 @ 7. 왼쪽 물건과 같은...",
+        "error": null
+      },
+      {
+        "index": 9,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p03.png",
+        "problem_text": "17. _) 모양을 모두 몇 개 이용했는지 세어 보 ㅣ 444, 다음 모양을 만드는 데 사용한 모양의 개수",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "17. _) 모양을 모두 몇 개 이용했는지 세어 보 ㅣ 444, 다음 모양을 만드는 데 사용한 모양의 개수 ㅣ /. . | Sos 모두 몇 개 이용했는지 세어 보 ： 4. 다음 모양을 만드는 데 사용한 모양의 개수 세요. 가 3개인 것은 어느 것인지 ○표 하세요. =t Pan 18. 다음 모양을 만드는 데 이용하지 않은 모양 2. OG =e 19. 다음 그림에서 |, = (. ) see...",
+        "error": null
+      },
+      {
+        "index": 10,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_2회_p01.png",
+        "problem_text": "|. 다음 중 | |, 모양은 모두 몇 개입니까? 4.-), . | ©) 모양 중에서 가장 AS See 2. 다음 중 . ㅣ age 모두 몇 개입니까? 버",
+        "expressions": [
+          "so 0 ="
+        ],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "|. 다음 중 | |, 모양은 모두 몇 개입니까? 4.-), . | ©) 모양 중에서 가장 AS See 2. 다음 중 . ㅣ age 모두 몇 개입니까? 버 |. 다음 중 | |, 모양은 모두 몇 개입니까? 4.-), . | ©) 모양 중에서 가장 AS See 00000\" 어느것인지 ○표 하세요. 5. 오른쪽 상자 안의 BAS 어떤 LOA 2. 다음 중 . ㅣ age 모두 몇 개입니까? ...",
+        "error": null
+      },
+      {
+        "index": 12,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_2회_p03.png",
+        "problem_text": "17. 모양을 모두 몇 개 이용했는지 서어 보",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "17. 모양을 모두 몇 개 이용했는지 서어 보 10, 보이는 모양을 보고 이 모양에 대해 잘못 설 19. 다음 그림에서 | |, Lo WO 모양을 각각 동준 : $2 부분이 있어. ^ 현철 : 평평한 면을 이용하여 쌓을 수 있어. a0 가 17. 모양을 모두 몇 개 이용했는지 서어 보 20. 다음 모양을 만드는 데 사용한 모양의 개수 가 4개인 것은 어느 것인지 ○표 하세요. ( ) 9...",
+        "error": null
+      },
+      {
+        "index": 13,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p01.png",
+        "problem_text": "/ 그 : 모양인지 알맞은 모양에 ○표 하",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "/ 그 : 모양인지 알맞은 모양에 ○표 하 1, 다음 중 [개 모양은 모두 몇 개입니까? . 4.1개, ed OS 중에서 가장 적은 SYS 2. 다음 중 . ] 모양은 모두 몇 개입니까? _ 5. 오른쪽 상자 안의 SUS 어떤 / 그 : 모양인지 알맞은 모양에 ○표 하 41 «6, 모양이 같은 것끼리 MOS 이어 보시오. 3. 다음 중 6 모양은 모두 몇 개입니까? ) a 7. 왼쪽 물...",
+        "error": null
+      },
+      {
+        "index": 14,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p02.png",
+        "problem_text": "--=- (S 8",
+        "expressions": [
+          "--=- (S 8"
+        ],
+        "computed_answer": "",
+        "display_topic": "unknown",
+        "source_preview": "--=- (S 8 8. 다음 그림에서 잘 쌓을 수 있고 잘 굴러가지 124. 그림에서 이용한 모양을 모두 골라 OF of SS 8 8 휴지상자 연필꽂이 축구공 9. 가와 나 중에서 과 같은 모양끼리 모은 것의 0) @ 00 ©) --=- (S 8 @ © 1“ © 때 8RASA 연필꽂이 축구공 13. 오른쪽 상자 안의 물건과 같은 10. 모양이 같은 것끼리 모은 것을 찾아 기호를 @ㅁ00...",
+        "error": null
+      },
+      {
+        "index": 15,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p03.png",
+        "problem_text": "17. (._ ) 모양을 모두 몇 개 이용했는지 세어 보",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "17. (._ ) 모양을 모두 몇 개 이용했는지 세어 보 10, 보이는 모양을 보고 이 Seo] 대해 잘못 설 ： 19. 다음 그림에서 | |, Lo, © 모양을 각각 찬우 : 모든 부분이 S20 ~ 기 17. (. ) 모양을 모두 몇 개 이용했는지 세어 보 2 20. 다음 모양을 만드는 데 사용한 모양의 개수 = - 가 4개인 것은 어느 것인지 ○표 하세요 (gf. ㄱ7. @) 18....",
+        "error": null
+      }
+    ],
+    "topic_unknown": [
+      {
+        "index": 14,
+        "band": "unknown",
+        "grade": 1,
+        "source_kind": "generated_curriculum",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p02.png",
+        "problem_text": "--=- (S 8",
+        "expressions": [
+          "--=- (S 8"
+        ],
+        "computed_answer": "",
+        "display_topic": "unknown",
+        "source_preview": "--=- (S 8 8. 다음 그림에서 잘 쌓을 수 있고 잘 굴러가지 124. 그림에서 이용한 모양을 모두 골라 OF of SS 8 8 휴지상자 연필꽂이 축구공 9. 가와 나 중에서 과 같은 모양끼리 모은 것의 0) @ 00 ©) --=- (S 8 @ © 1“ © 때 8RASA 연필꽂이 축구공 13. 오른쪽 상자 안의 물건과 같은 10. 모양이 같은 것끼리 모은 것을 찾아 기호를 @ㅁ00...",
+        "error": null
+      }
+    ]
+  },
+  "results": [
+    {
+      "index": 1,
+      "case_id": "초1-1_1단원_9까지의수_1회_p01",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_1회_p01.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_1회_p01.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "3/4] 16171am [OOOO",
+      "expressions": [
+        "3/4] 16171am [OOOO"
+      ],
+      "computed_answer": "3/4",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "needs_review",
+      "source_preview": "3/4] 16171am [OOOO ㅣ, 수만큼 (〉를 그려 보세요. 3. 빈 곳에 알맞은 수를 써 넣으세요. 01 20 (2) > |__| 0 [| |) 7. 오른쪽에서 세 번째에 있는 축구공에 ○표 하 2.43 두 가지로 읽어 보시오. 28 두 지로 리시 BLOGGED (2) 4 > ( ) 8. 주어진 수만큼 색칠하여 보시오. 3. 빈 칸에 알맞은 수를 써 넣으시오. 3/4] 1617...",
+      "elapsed_seconds": 2.906
+    },
+    {
+      "index": 2,
+      "case_id": "초1-1_1단원_9까지의수_1회_p02",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_1회_p02.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_1회_p02.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "card_needs_review"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "14. 알맞은 말에 ○표 하세요. 19. 다음을 만족하는 수를 구하시오",
+      "expressions": [
+        "answer=5"
+      ],
+      "computed_answer": "5",
+      "matched_choice": "ㅁ 안에 알맞은 수를 써넣으세요.\n보다 1 큰 수는 8입니다.\n|_| 1 1 를 수든 Sa (2) 5보다 크고 9보다 작은 수\n14. 알맞은 말에 ○표 하세요. 19. 다음을 만족하는 수를 구하시오.\n3은 8보다 (BUC, 작습니다). 6과 9사이에 있는 수입니다.\n15. 나타내는 수가 5인 것에 ○표 하세요.\n. 버 버 “ S ¢ 20, AME 달리기 경기에서 5등을 하였습니다.\n16. 0부터 9까지의 수 중에서 6보다 큰 수를 모\n12. 사탕은 민석이는 4개를 받았고, 은희는 민석",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "source_preview": "14. 알맞은 말에 ○표 하세요. 19. 다음을 만족하는 수를 구하시오 **%*%*% | 0123 15 12, 사탕은 민석이는 4개를 받았고, 은희는 민석 나을 수들 중에서 맞는 수를 도두 골라 쓰시 이보다 1개 더 많이 받았습니다. 은희는 사탕을 ° 1, 2, 3, 4, 5, 0, 7, 8, 9 (1) 4보다 작은 수 13. ㅁ 안에 알맞은 수를 써넣으세요. 보다 1 큰 수는 8입니다...",
+      "elapsed_seconds": 2.25
+    },
+    {
+      "index": 3,
+      "case_id": "초1-1_1단원_9까지의수_2회_p01",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_2회_p01.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_2회_p01.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "1+2+3+4+5+6",
+      "expressions": [
+        "1+2+3+4+5+6"
+      ],
+      "computed_answer": "21",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "needs_review",
+      "source_preview": "1+2+3+4+5+6 ㅣ, 수만큼 OS 그려 보세요. ㅁ. 0만큼 묶을 때, 묶지 않은 것의 수를 세어 보 0632 5 | geese ©- AH 0000 7. 알맞게 선으로 이어보세요. 2. <보기>와 같이 수를 2가지 방법으로 쓰시오. 기 티에 변이 are 3 5 (셋, AD ro (0 ) 가 나 다 라 마 09000 3. 더 큰 수에 ○표 하시오. 7 ; 8. 순서에 맞게 알맞은 W...",
+      "elapsed_seconds": 2.361
+    },
+    {
+      "index": 4,
+      "case_id": "초1-1_1단원_9까지의수_2회_p02",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_2회_p02.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_2회_p02.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "17. 3보다 크고 ?보다 작은 수는 모두 몇 개입",
+      "expressions": [
+        "22722727+2",
+        "17+3"
+      ],
+      "computed_answer": "22722729",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "17. 3보다 크고 ?보다 작은 수는 모두 몇 개입 TU, 오른쪽에서 두 번째에 있는 사탕에 OF of = 10, 큰 수부터 차례대로 써 보세요. #22722727 2 9 4 11. 순서에 맞게 빈칸에 알맞은 수를 써넣으시 17. 3보다 크고 ?보다 작은 수는 모두 몇 개입 3) ey 니까? 12. 순서를 거꾸로 하여 빈칸에 알맞은 수를 써 49 니머지 둘과 다른 AS 말한 친구는 누구...",
+      "elapsed_seconds": 3.264
+    },
+    {
+      "index": 5,
+      "case_id": "초1-1_1단원_9까지의수_3회_p01",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_3회_p01.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_3회_p01.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "2.48 세어 ©) 안에 알맞은 수를 쓰고 읽어 보 ( ) 5. 수를 세어 빈 칸에 알맞은 수를 써넣으시오",
+      "expressions": [
+        "6+7+8"
+      ],
+      "computed_answer": "21",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "needs_review",
+      "source_preview": "2.48 세어 ©) 안에 알맞은 수를 쓰고 읽어 보 ( ) 5. 수를 세어 빈 칸에 알맞은 수를 써넣으시오 ㅣ, 수만큼 OS 그려 보세요. ㅁ. 2만큼 묶을 때, 묶지 않은 것의 수를 세어 보 2.48 세어 ©) 안에 알맞은 수를 쓰고 읽어 보 ( ) 7. 알맞게 MOS 이어보세요. 3. 더 큰 수에 ○표 하시오. 5 2 | 31A 6 7 8. 여섯째에 색칠해 보세요. 4. 6보다 큰 ...",
+      "elapsed_seconds": 2.486
+    },
+    {
+      "index": 6,
+      "case_id": "초1-1_1단원_9까지의수_3회_p02",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_3회_p02.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_1단원_9까지의수_3회_p02.png",
+      "status": "review",
+      "issues": [
+        "expression_missing",
+        "solve_failed",
+        "answer_missing",
+        "card_needs_review"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "|. 순서를 거꾸로 하여 빈칸에 알맞은 se 써 1G, 4보다 크고 8보다 작은 수는 모두 몇 개입",
+      "expressions": [],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "|. 순서를 거꾸로 하여 빈칸에 알맞은 se 써 1G, 4보다 크고 8보다 작은 수는 모두 몇 개입 |. 순서를 거꾸로 하여 빈칸에 알맞은 se 써 1G, 4보다 크고 8보다 작은 수는 모두 몇 개입 > ( 15) (3K 2) 17. 민서는 6살입니다. SSE 민서보다 1살 더 12. (_ ) 안에 알맞은 수를 써 넣으세요. ( ) 보다 1만큼 더 작은 AL ?입니다. 18. BS 선영...",
+      "elapsed_seconds": 3.334
+    },
+    {
+      "index": 7,
+      "case_id": "초1-1_2단원_여러가지모양_1회_p01",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p01.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p01.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "expression_missing",
+        "solve_failed",
+        "answer_missing",
+        "card_needs_review"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "떤 모양인지 알맞은 모양에 o 2",
+      "expressions": [],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "떤 모양인지 알맞은 모양에 o 2 |. 다음 중 | |, 모양은 모두 몇 개입니까? 7, SES 상자 안의 eae 어 (^) 떤 모양인지 알맞은 모양에 o 2 08900 «= 2. 다음 중 . ㅣ 모양은 모두 몇 개입니까? 6. 모양이 같은 것끼리 선으로 이어 보시오. 9 90 > 0 fi © ： 5 3. 다음 중 (._) 모양은 모두 몇 개입니까? 6 3 9 @ 7. 왼쪽 물건과 같은...",
+      "elapsed_seconds": 3.318
+    },
+    {
+      "index": 8,
+      "case_id": "초1-1_2단원_여러가지모양_1회_p02",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p02.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p02.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "arithmetic",
+      "problem_text": "12 그림에서 이용한 모양을 모두 골라 ○표 하 16. 보이는 SAS 보고 이 모양에 대해 잘못 설",
+      "expressions": [
+        "4+6+11",
+        "*le = 02 &"
+      ],
+      "computed_answer": "21",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "verified",
+      "source_preview": "12 그림에서 이용한 모양을 모두 골라 ○표 하 16. 보이는 SAS 보고 이 모양에 대해 잘못 설 그, 가와 나 중에서 Ott 같은 모양끼리 모은 것의 15, 오른쪽 상자 안의 물건과 같은 YG) 가 나 선물상자 롤티슈 수박 14. 모양을 보고 알맞게 선으로 이어 보시오. 10. 모양이 같은 것끼리 모은 것을 찾아 기호를 “le = 02 & B06in 4 6 @ 11. 같은 모양끼리 ...",
+      "elapsed_seconds": 3.067
+    },
+    {
+      "index": 9,
+      "case_id": "초1-1_2단원_여러가지모양_1회_p03",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p03.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_1회_p03.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "expression_missing",
+        "solve_failed",
+        "answer_missing",
+        "card_needs_review"
+      ],
+      "math_topic": "sequence",
+      "display_topic": "arithmetic",
+      "problem_text": "17. _) 모양을 모두 몇 개 이용했는지 세어 보 ㅣ 444, 다음 모양을 만드는 데 사용한 모양의 개수",
+      "expressions": [],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "17. _) 모양을 모두 몇 개 이용했는지 세어 보 ㅣ 444, 다음 모양을 만드는 데 사용한 모양의 개수 ㅣ /. . | Sos 모두 몇 개 이용했는지 세어 보 ： 4. 다음 모양을 만드는 데 사용한 모양의 개수 세요. 가 3개인 것은 어느 것인지 ○표 하세요. =t Pan 18. 다음 모양을 만드는 데 이용하지 않은 모양 2. OG =e 19. 다음 그림에서 |, = (. ) see...",
+      "elapsed_seconds": 1.956
+    },
+    {
+      "index": 10,
+      "case_id": "초1-1_2단원_여러가지모양_2회_p01",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_2회_p01.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_2회_p01.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "solve_failed",
+        "answer_missing",
+        "card_needs_review"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "arithmetic",
+      "problem_text": "|. 다음 중 | |, 모양은 모두 몇 개입니까? 4.-), . | ©) 모양 중에서 가장 AS See 2. 다음 중 . ㅣ age 모두 몇 개입니까? 버",
+      "expressions": [
+        "so 0 ="
+      ],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "|. 다음 중 | |, 모양은 모두 몇 개입니까? 4.-), . | ©) 모양 중에서 가장 AS See 2. 다음 중 . ㅣ age 모두 몇 개입니까? 버 |. 다음 중 | |, 모양은 모두 몇 개입니까? 4.-), . | ©) 모양 중에서 가장 AS See 00000\" 어느것인지 ○표 하세요. 5. 오른쪽 상자 안의 BAS 어떤 LOA 2. 다음 중 . ㅣ age 모두 몇 개입니까? ...",
+      "elapsed_seconds": 2.647
+    },
+    {
+      "index": 11,
+      "case_id": "초1-1_2단원_여러가지모양_2회_p02",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_2회_p02.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_2회_p02.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "probability",
+      "display_topic": "arithmetic",
+      "problem_text": "6. 다음 그림에서 둥근 FEO] 있으면서 어느 방 ： 4. 그림에서 이용한 SSS 모두 골라 OF of 6. 다음 그림에서 둥근 FEO] 있으면서 어느 12, 그림에서 이용한 모양을 모두 골라 OF of",
+      "expressions": [
+        "1+0+6",
+        "0+0+6"
+      ],
+      "computed_answer": "7",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "verified",
+      "source_preview": "6. 다음 그림에서 둥근 FEO] 있으면서 어느 방 ： 4. 그림에서 이용한 SSS 모두 골라 OF of 6. 다음 그림에서 둥근 FEO] 있으면서 어느 12, 그림에서 이용한 모양을 모두 골라 OF of 6. 다음 그림에서 둥근 FEO] 있으면서 어느 방 ： 4. 그림에서 이용한 SSS 모두 골라 OF of 휴지상자 연필꽂이 축구공 OB al =e 9. 가와 나 중에서 과 같은 모양끼...",
+      "elapsed_seconds": 3.09
+    },
+    {
+      "index": 12,
+      "case_id": "초1-1_2단원_여러가지모양_2회_p03",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_2회_p03.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_2회_p03.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "expression_missing",
+        "solve_failed",
+        "answer_missing",
+        "card_needs_review"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "17. 모양을 모두 몇 개 이용했는지 서어 보",
+      "expressions": [],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "17. 모양을 모두 몇 개 이용했는지 서어 보 10, 보이는 모양을 보고 이 모양에 대해 잘못 설 19. 다음 그림에서 | |, Lo WO 모양을 각각 동준 : $2 부분이 있어. ^ 현철 : 평평한 면을 이용하여 쌓을 수 있어. a0 가 17. 모양을 모두 몇 개 이용했는지 서어 보 20. 다음 모양을 만드는 데 사용한 모양의 개수 가 4개인 것은 어느 것인지 ○표 하세요. ( ) 9...",
+      "elapsed_seconds": 2.487
+    },
+    {
+      "index": 13,
+      "case_id": "초1-1_2단원_여러가지모양_3회_p01",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p01.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p01.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "expression_missing",
+        "solve_failed",
+        "answer_missing",
+        "card_needs_review"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "/ 그 : 모양인지 알맞은 모양에 ○표 하",
+      "expressions": [],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "/ 그 : 모양인지 알맞은 모양에 ○표 하 1, 다음 중 [개 모양은 모두 몇 개입니까? . 4.1개, ed OS 중에서 가장 적은 SYS 2. 다음 중 . ] 모양은 모두 몇 개입니까? _ 5. 오른쪽 상자 안의 SUS 어떤 / 그 : 모양인지 알맞은 모양에 ○표 하 41 «6, 모양이 같은 것끼리 MOS 이어 보시오. 3. 다음 중 6 모양은 모두 몇 개입니까? ) a 7. 왼쪽 물...",
+      "elapsed_seconds": 2.669
+    },
+    {
+      "index": 14,
+      "case_id": "초1-1_2단원_여러가지모양_3회_p02",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p02.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p02.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "solve_failed",
+        "answer_missing",
+        "topic_unknown",
+        "card_needs_review",
+        "card_topic_unknown"
+      ],
+      "math_topic": "unknown",
+      "display_topic": "unknown",
+      "problem_text": "--=- (S 8",
+      "expressions": [
+        "--=- (S 8"
+      ],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "--=- (S 8 8. 다음 그림에서 잘 쌓을 수 있고 잘 굴러가지 124. 그림에서 이용한 모양을 모두 골라 OF of SS 8 8 휴지상자 연필꽂이 축구공 9. 가와 나 중에서 과 같은 모양끼리 모은 것의 0) @ 00 ©) --=- (S 8 @ © 1“ © 때 8RASA 연필꽂이 축구공 13. 오른쪽 상자 안의 물건과 같은 10. 모양이 같은 것끼리 모은 것을 찾아 기호를 @ㅁ00...",
+      "elapsed_seconds": 3.368
+    },
+    {
+      "index": 15,
+      "case_id": "초1-1_2단원_여러가지모양_3회_p03",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p03.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_2단원_여러가지모양_3회_p03.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "expression_missing",
+        "solve_failed",
+        "answer_missing",
+        "card_needs_review"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "17. (._ ) 모양을 모두 몇 개 이용했는지 세어 보",
+      "expressions": [],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "17. (._ ) 모양을 모두 몇 개 이용했는지 세어 보 10, 보이는 모양을 보고 이 Seo] 대해 잘못 설 ： 19. 다음 그림에서 | |, Lo, © 모양을 각각 찬우 : 모든 부분이 S20 ~ 기 17. (. ) 모양을 모두 몇 개 이용했는지 세어 보 2 20. 다음 모양을 만드는 데 사용한 모양의 개수 = - 가 4개인 것은 어느 것인지 ○표 하세요 (gf. ㄱ7. @) 18....",
+      "elapsed_seconds": 2.514
+    },
+    {
+      "index": 16,
+      "case_id": "초1-1_3단원_덧셈과뺄셈_1회_p01",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_3단원_덧셈과뺄셈_1회_p01.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_3단원_덧셈과뺄셈_1회_p01.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "ㅣ, 그럼을 보고 모으기를 해 보세요. 0.168 보고 알맞은 덧셈식을 써 보세요 2. 그림을 보고 가르기를 해 보세요. 6. 28S 해 보세요",
+      "expressions": [
+        "3+5="
+      ],
+      "computed_answer": "8",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "ㅣ, 그럼을 보고 모으기를 해 보세요. 0.168 보고 알맞은 덧셈식을 써 보세요 2. 그림을 보고 가르기를 해 보세요. 6. 28S 해 보세요 ㅣ, 그럼을 보고 모으기를 해 보세요. 0.168 보고 알맞은 덧셈식을 써 보세요. ㅣ) = 46th 2. 그림을 보고 가르기를 해 보세요. 6. 28S 해 보세요. 3+5= 앵어이이이이 6 @8e ee0 3 7. 덧셈식으로 나타내어 보세요. ...",
+      "elapsed_seconds": 2.385
+    },
+    {
+      "index": 17,
+      "case_id": "초1-1_3단원_덧셈과뺄셈_1회_p02",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_3단원_덧셈과뺄셈_1회_p02.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_3단원_덧셈과뺄셈_1회_p02.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "17. 빈칸에 알맞은 수를 써넣으세요 12. 그림을 보고 알맞은 BS 써 보세요",
+      "expressions": [
+        "-6 +3"
+      ],
+      "computed_answer": "-3",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "needs_review",
+      "source_preview": "17. 빈칸에 알맞은 수를 써넣으세요 12. 그림을 보고 알맞은 BS 써 보세요 ㅣ. 영준이는 바둑돌 8개를 양손에 나누어 AR 16. 계산 결과가 같은 것에 ○표 하세요. 습니다. 바둑돌을 오른손에 5개 쥐었다면 왼손 11. 주희는 초콜릿을 9개 가지고 있었습니다. 그 중에서 1개를 동생에게 주고 2개는 언니에게 TM ㅁㄴ SSBAac 2 17. 빈칸에 알맞은 수를 써넣으세요. -6 ...",
+      "elapsed_seconds": 3.548
+    },
+    {
+      "index": 18,
+      "case_id": "초1-1_3단원_덧셈과뺄셈_2회_p01",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_3단원_덧셈과뺄셈_2회_p01.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_3단원_덧셈과뺄셈_2회_p01.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "1, 그럼을 보고 모으기를 해 보세요. 2.4188 보고 알맞은 덧셈식을 써 보세요 2, 그림을 보고 가르기를 해 보세요. 6. 덧셈을 해 보세요",
+      "expressions": [
+        "- 7 1+5=",
+        "(00000080 8 8-"
+      ],
+      "computed_answer": "-66",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "verified",
+      "source_preview": "1, 그럼을 보고 모으기를 해 보세요. 2.4188 보고 알맞은 덧셈식을 써 보세요 2, 그림을 보고 가르기를 해 보세요. 6. 덧셈을 해 보세요 1, 그럼을 보고 모으기를 해 보세요. 2.4188 보고 알맞은 덧셈식을 써 보세요. oe “00 41 31 (00000080 8 8- 2, 그림을 보고 가르기를 해 보세요. 6. 덧셈을 해 보세요 - 7 1+5= SESS og = SS Se...",
+      "elapsed_seconds": 2.475
+    },
+    {
+      "index": 19,
+      "case_id": "초1-1_3단원_덧셈과뺄셈_2회_p02",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_3단원_덧셈과뺄셈_2회_p02.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_3단원_덧셈과뺄셈_2회_p02.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "12. 그림을 보고 알맞은 HAAS 써 보세요",
+      "expressions": [
+        "12--6",
+        "= 7",
+        "-6 +4"
+      ],
+      "computed_answer": "18",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "verified",
+      "source_preview": "12. 그림을 보고 알맞은 HAAS 써 보세요 1U, 만두 0개를 영준이와 영호가 똑같이 나누어 ： ｌ6. 계산 결과가 같은 것에 ○표 하세요. 11, 희수는 풍선을 ?개 불었습니다. 그중에서 3 -6 +4 12. 그림을 보고 알맞은 HAAS 써 보세요. = 7 능 능 x& x & | 18. 수 카드 중에서 3장을 골라 차가 가장 큰 13. Mas 해 보세요. 더 19. 사탕을 민수는 ...",
+      "elapsed_seconds": 3.428
+    },
+    {
+      "index": 20,
+      "case_id": "초1-1_3단원_덧셈과뺄셈_3회_p01",
+      "band": "unknown",
+      "grade": 1,
+      "source_kind": "generated_curriculum",
+      "image_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_3단원_덧셈과뺄셈_3회_p01.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/EDITE/초1-1_3단원_덧셈과뺄셈_3회_p01.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "ㅣ, 그럼을 보고 모으기를 해 보세요. 0.168 보고 알맞은 덧셈식을 써 보세요 2. 그림을 보고 가르기를 해 보세요. 6. 28S 해 보세요",
+      "expressions": [
+        "23+4="
+      ],
+      "computed_answer": "27",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "ㅣ, 그럼을 보고 모으기를 해 보세요. 0.168 보고 알맞은 덧셈식을 써 보세요 2. 그림을 보고 가르기를 해 보세요. 6. 28S 해 보세요 ㅣ, 그럼을 보고 모으기를 해 보세요. 0.168 보고 알맞은 덧셈식을 써 보세요. bE 6666 2120 4 , 소고 >ㅋ 66666 2. 그림을 보고 가르기를 해 보세요. 6. 28S 해 보세요. 0000000 7 23+4= 000oo 3 ...",
+      "elapsed_seconds": 2.347
+    }
+  ]
+}

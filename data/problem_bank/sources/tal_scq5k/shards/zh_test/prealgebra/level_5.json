@@ -1,0 +1,122 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_5:00953",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 953,
+      "split": "zh_test",
+      "source_problem_id": "dd5e7ccc5fd646358fca7303d49413e2"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "思思编了一个计算机程序，在屏幕上显示所有由$$0$$、$$1$$、$$2$$、$$3$$组成的四位编码（数字可以重复使用），每个四位编码都是红、黄、蓝、绿四种颜色中的一种．并且，如果两个编码的每一位数字均不相同，那么这两个编码的颜色也不相同．如果，$$0000$$是红色的、$$1000$$是黄色的、$$2000$$是蓝色的，那么：  (1) 下列编码中，一定不是红色的是．\n(A) 0102\n(B) 0312\n(C) 2222\n(D) 0123",
+      "problem_plain": "思思编了一个计算机程序，在屏幕上显示所有由 0 、 1 、 2 、 3 组成的四位编码（数字可以重复使用），每个四位编码都是红、黄、蓝、绿四种颜色中的一种．并且，如果两个编码的每一位数字均不相同，那么这两个编码的颜色也不相同．如果， 0000 是红色的、 1000 是黄色的、 2000 是蓝色的，那么： (1) 下列编码中，一定不是红色的是． (A) 0102 (B) 0312 (C) 2222 (D) 0123",
+      "solution_latex": "$$2222$$与$$0000$$的每一位数字均不相同，故$$2222$$一定不是红色，选$$\\text{C}$$．",
+      "solution_plain": "2222 与 0000 的每一位数字均不相同，故 2222 一定不是红色，选 C ．"
+    },
+    "answer": {
+      "final_raw": "2222",
+      "final_normalized": "2222",
+      "candidates": [
+        "2222",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$2222$$与$$0000$$的每一位数字均不相同，故$$2222$$一定不是红色，选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "思思编了一个计算机程序，在屏幕上显示所有由 0 、 1 、 2 、 3 组成的四位编码（数字可以重复使用），每个四位编码都是红、黄、蓝、绿四种颜色中的一种．并且，如果两个编码的每一位数字均不相同，那么这两个编码的颜色也不相同．如果， 0000 是红色的、 1000 是黄色的、 2000 是蓝色的，那么： (1) 下列编码中，一定不是红色的是． (A) 0102 (B) 0312 (C) 2222 (D) 0123",
+      "solution_text": "2222 与 0000 的每一位数字均不相同，故 2222 一定不是红色，选 C ．",
+      "keywords": [
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "954",
+        "queId": "dd5e7ccc5fd646358fca7303d49413e2",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0102"
+          },
+          {
+            "label": "B",
+            "content": "0312"
+          },
+          {
+            "label": "C",
+            "content": "2222"
+          },
+          {
+            "label": "D",
+            "content": "0123"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->逐步调整思想",
+          "课内体系->思想->逐步调整思想"
+        ],
+        "competition_source_list": [
+          "2013年全国学而思杯五年级竞赛A卷第20题"
+        ]
+      }
+    }
+  }
+]

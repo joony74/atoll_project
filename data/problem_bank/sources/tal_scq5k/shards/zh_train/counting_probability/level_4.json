@@ -1,0 +1,3195 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:00065",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 65,
+      "split": "zh_train",
+      "source_problem_id": "6e3bd81aa1404e508056ac65434053ce"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有一个$$12$$级的楼梯．某人每次能登上$$1$$级或$$2$$级或$$3$$级，现在他要从地面登上第$$12$$级，有种不同的方式．\n(A) 149\n(B) 244\n(C) 264\n(D) 274",
+      "problem_plain": "有一个 12 级的楼梯．某人每次能登上 1 级或 2 级或 3 级，现在他要从地面登上第 12 级，有种不同的方式． (A) 149 (B) 244 (C) 264 (D) 274",
+      "solution_latex": "设第$$n$$级有$${{a}_{n}}$$种登的方式，  则第$$n-3$$，$$n-2$$，$$n-1$$级再分别登$$3$$，$$2$$，$$1$$级可到第$$n$$级，  则$${{a}_{n}}={{a}_{n-3}}+{{a}_{n-2}}+{{a}_{n-1}}$$，  而$${{a}_{1}}=1$$，$${{a}_{2}}=1+1=2$$，$${{a}_{3}}=1+1+2=4$$，  故$${{a}_{4}}=1+2+4=7$$，  $${{a}_{5}}=2+4+7=13$$，  $${{a}_{6}}=4+7+13=24$$，  $${{a}_{7}}=7+13+24=44$$，  $${{a}_{8}}=13+24+44=81$$，  $${{a}_{9}}=24+44+81=149$$，  $${{a}_{10}}=44+81+149=274$$．  故选：$$\\text{D}$$．",
+      "solution_plain": "设第 n 级有 a _ n 种登的方式， 则第 n-3 ， n-2 ， n-1 级再分别登 3 ， 2 ， 1 级可到第 n 级， 则 a _ n = a _ n-3 + a _ n-2 + a _ n-1 ， 而 a _ 1 =1 ， a _ 2 =1+1=2 ， a _ 3 =1+1+2=4 ， 故 a _ 4 =1+2+4=7 ， a _ 5 =2+4+7=13 ， a _ 6 =4+7+13=24 ， a _ 7 =7+13+24=44 ， a _ 8 =13+24+44=81 ， a _ 9 =24+44+81=149 ， a _ 10 =44+81+149=274 ． 故选： D ．"
+    },
+    "answer": {
+      "final_raw": "274",
+      "final_normalized": "274",
+      "candidates": [
+        "274",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设第$$n$$级有$${{a}_{n}}$$种登的方式，  则第$$n-3$$，$$n-2$$，$$n-1$$级再分别登$$3$$，$$2$$，$$1$$级可到第$$n$$级，  则$${{a}_{n}}={{a}_{n-3}}+{{a}_{n-2}}+{{a}_{n-1}}$$，  而$${{a}_{1}}=1$$，$${{a}_{2}}=1+1=2$$，$${{a}_{3}}=1+1+2=4$$，  故$${{a}_{4}}=1+2+4=7$$，  $${{a}_{5}}=2+4+7=13$$，  $${{a}_{6}}=4+7+13=24$$，  $${{a}_{7}}=7+13+24=44$$，  $${{a}_{8}}=13+24+44=81$$，  $${{a}_{9}}=24+44+81=149$$，  $${{a}_{10}}=44+81+149=274$$．  故选：$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有一个 12 级的楼梯．某人每次能登上 1 级或 2 级或 3 级，现在他要从地面登上第 12 级，有种不同的方式． (A) 149 (B) 244 (C) 264 (D) 274",
+      "solution_text": "设第 n 级有 a _ n 种登的方式， 则第 n-3 ， n-2 ， n-1 级再分别登 3 ， 2 ， 1 级可到第 n 级， 则 a _ n = a _ n-3 + a _ n-2 + a _ n-1 ， 而 a _ 1 =1 ， a _ 2 =1+1=2 ， a _ 3 =1+1+2=4 ， 故 a _ 4 =1+2+4=7 ， a _ 5 =2+4+7=13 ， a _ 6 =4+7+13=24 ， a _ 7 =7+13+24=44 ， a _ 8 =13+24+44=81 ， a _ 9 =24+44+81=149 ， a _ 10 =44+81+149=274 ． 故选： D ．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "337",
+        "queId": "6e3bd81aa1404e508056ac65434053ce",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "149"
+          },
+          {
+            "label": "B",
+            "content": "244"
+          },
+          {
+            "label": "C",
+            "content": "264"
+          },
+          {
+            "label": "D",
+            "content": "274"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->操作与策略->归纳递推->斐波那契数列递推"
+        ],
+        "competition_source_list": [
+          "2019年第24届YMO六年级竞赛决赛第7题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:00187",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 187,
+      "split": "zh_train",
+      "source_problem_id": "f543a9b7d68348fa906a0f795317ac0b"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知袋子中装有$$n$$颗小球，依次编号为$$1$$、$$2$$、$$3$$、$$\\cdots$$、$$n$$，每次都从袋子中取出两颗球，把它们的编号相加并记下结果，然后把它们放回袋子内．重复抽取直到袋子中每一对小球都被取到为止，记录中恰好有$$215$$种不同的数值，请问$$n$$的值是多少？\n(A) 100\n(B) 105\n(C) 108\n(D) 109\n(E) 215",
+      "problem_plain": "已知袋子中装有 n 颗小球，依次编号为 1 、 2 、 3 、 、 n ，每次都从袋子中取出两颗球，把它们的编号相加并记下结果，然后把它们放回袋子内．重复抽取直到袋子中每一对小球都被取到为止，记录中恰好有 215 种不同的数值，请问 n 的值是多少？ (A) 100 (B) 105 (C) 108 (D) 109 (E) 215",
+      "solution_latex": "每两个数相加，和最小为$$1+2=3$$，最大为$$n+(n-1)=2n-1$$，现在共有$$215$$种不同的数值，即最大的数值为$$215+3-1=217$$，$$217=2n-1$$，$$n=109$$．  最大值和最小值之间有多少数字就是多少种可能性．$$2n -1-3=215$$．",
+      "solution_plain": "每两个数相加，和最小为 1+2=3 ，最大为 n+(n-1)=2n-1 ，现在共有 215 种不同的数值，即最大的数值为 215+3-1=217 ， 217=2n-1 ， n=109 ． 最大值和最小值之间有多少数字就是多少种可能性． 2n -1-3=215 ．"
+    },
+    "answer": {
+      "final_raw": "215",
+      "final_normalized": "215",
+      "candidates": [
+        "215",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "每两个数相加，和最小为$$1+2=3$$，最大为$$n+(n-1)=2n-1$$，现在共有$$215$$种不同的数值，即最大的数值为$$215+3-1=217$$，$$217=2n-1$$，$$n=109$$．  最大值和最小值之间有多少数字就是多少种可能性．$$2n -1-3=215$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知袋子中装有 n 颗小球，依次编号为 1 、 2 、 3 、 、 n ，每次都从袋子中取出两颗球，把它们的编号相加并记下结果，然后把它们放回袋子内．重复抽取直到袋子中每一对小球都被取到为止，记录中恰好有 215 种不同的数值，请问 n 的值是多少？ (A) 100 (B) 105 (C) 108 (D) 109 (E) 215",
+      "solution_text": "每两个数相加，和最小为 1+2=3 ，最大为 n+(n-1)=2n-1 ，现在共有 215 种不同的数值，即最大的数值为 215+3-1=217 ， 217=2n-1 ， n=109 ． 最大值和最小值之间有多少数字就是多少种可能性． 2n -1-3=215 ．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "541",
+        "queId": "f543a9b7d68348fa906a0f795317ac0b",
+        "difficulty": "3",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "100"
+          },
+          {
+            "label": "B",
+            "content": "105"
+          },
+          {
+            "label": "C",
+            "content": "108"
+          },
+          {
+            "label": "D",
+            "content": "109"
+          },
+          {
+            "label": "E",
+            "content": "215"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->操作与策略->归纳递推->汉诺塔递推"
+        ],
+        "competition_source_list": [
+          "2016年IMAS小学高年级竞赛第一轮检测试题第13题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:00237",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 237,
+      "split": "zh_train",
+      "source_problem_id": "bf2ac8ceae5649a894c2a0f5c5b6b6e3"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "老师把某两位数的六个不同因数分别告诉了$$A\\sim F$$六个聪明诚实的同学．  $$A$$和$$B$$同时说：我知道这个数是多少了．  $$C$$和$$D$$同时说：听了他们的话，我也知道这个数是多少了．  $$E$$：听了他们的话，我知道我的数一定比$$F$$的大．  $$F$$：我拿的数的大小在$$C$$和$$D$$之间． 那么六个人拿的数之和是．\n(A) 141\n(B) 152\n(C) 171\n(D) 175",
+      "problem_plain": "老师把某两位数的六个不同因数分别告诉了 A F 六个聪明诚实的同学． A 和 B 同时说：我知道这个数是多少了． C 和 D 同时说：听了他们的话，我也知道这个数是多少了． E ：听了他们的话，我知道我的数一定比 F 的大． F ：我拿的数的大小在 C 和 D 之间． 那么六个人拿的数之和是． (A) 141 (B) 152 (C) 171 (D) 175",
+      "solution_latex": "AB看到自己手里的数，就说我知道了。这里必须理解是什么情况。绝不单单是，其中一个数很大，不能乘以$$2$$，乘以$$2$$就超出$$100$$，而是利用了一个条件$$-\\/-\\/-\\/-\\/-\\/-\\/-$$六个不同的因数  AB拿的数必须具有这样的特点，他手中的数要么乘$$2$$就会超出两位数，且这个数至少有$$6$$个因数，要么乘以一个数后，至少有$$6$$个因数，他手中的数不能有$$6$$个或者$$6$$个以上的因数，否则他不能确定这个数是自己手中的数还是要乘以一个数得到的数。（一个是最大的，一个是次大的）  这样我们根据枚举就能枚举出所有可以满足的情况  枚举如下，  $2\\times 3\\times 13=78, 3\\times 13=39$ 可能  $2\\times 3\\times 17=102 $排除  $2\\times 2\\times 13=52, 2\\times 13=26$ 因为$$26\\times 3=78$$ 所以排除  $2\\times 2\\times 17=68, 2\\times 17=34$ 可能  $2\\times 2\\times 19=76, 2\\times 19=38$ 可能  $2\\times 2\\times 23=92, 2\\times 23=46$ 可能  $2\\times 2\\times 29$ 排除  $2\\times 3\\times 3\\times 3=54, 3\\times 3\\times 3=27$ 可能（这一点容易丢）  $3\\times 3\\times 5=45$ 因为$$45\\times 2$$ 排除  $3\\times 3\\times 11=99, 3\\times 11=33$，因为$$33\\times 2=66$$ 排除  $2\\times 5\\times 7=70, 5\\times 7=35$ 可能  $2\\times 3\\times 3\\times 5=90, 5\\times 9=45$ 排除因为$$45$$就已经$$6$$个因数了，不能确定是$$45$$还是90  $2\\times 7\\times 7=98, 7\\times 7=49$ 可能  这样就剩下⑦个数了。同时我将他们的因数都写出来。  78 39 26 13 6 3 2 1 一共$$8$$个因数  76 38 19 4 2 1~~一共$$6$$个因数  68 34 17 4 2 1~~一共$$6$$个因数  92 46 23 4 2 1~~一共$$6$$个因数  54 27 18 9 6 3 2 1 一共$$8$$个因数  70 35 14 10 7 5 2 1 一共$$8$$个因数  98 49 14 7 2 1~~~一共$$6$$个因数  $$C$$和$$D$$能从$$AB$$知道，可以很``容易''判断出这$$7$$个数，但此时$$C$$和$$D$$也说自己知道了。很显然，他们手里不可能是上面重复的数，如7,6，$$4$$ ， 3， 2， 1。否则无法确定老师手中的数。  既然能确定，那我们就能排除掉98,因为除了98, 49，没有$$2$$个数能给$$C$$和$$D$$了。  同理，也可以排除76~~68 和92。  如果是$$78$$，$$E$$ 就是$$13$$后的第一个数$$6$$，如果是$$70$$，由于还有一个$$7$$，所以$$E$$拿的一定是$$14$$，这样才能确保$$E$$一定比$$F$$的大。如果是$$54$$，$$E$$只能是6.  所以可以知道$$C$$和$$D$$之间必须有一个数存在才行，这样的话，这个数就能判断只能是$$70$$了，$$E$$是$$14$$，那$$C$$和$$D$$就是$$10$$和$$5$$，$$F$$就是7  答案就是70+35+14+10+7+5=141",
+      "solution_plain": "AB看到自己手里的数，就说我知道了。这里必须理解是什么情况。绝不单单是，其中一个数很大，不能乘以 2 ，乘以 2 就超出 100 ，而是利用了一个条件 - /- /- /- /- /- /- 六个不同的因数 AB拿的数必须具有这样的特点，他手中的数要么乘 2 就会超出两位数，且这个数至少有 6 个因数，要么乘以一个数后，至少有 6 个因数，他手中的数不能有 6 个或者 6 个以上的因数，否则他不能确定这个数是自己手中的数还是要乘以一个数得到的数。（一个是最大的，一个是次大的） 这样我们根据枚举就能枚举出所有可以满足的情况 枚举如下， 2 3 13=78, 3 13=39 可能 2 3 17=102 排除 2 2 13=52, 2 13=26 因为 26 3=78 所以排除 2 2 17=68, 2 17=34 可能 2 2 19=76, 2 19=38 可能 2 2 23=92, 2 23=46 可能 2 2 29 排除 2 3 3 3=54, 3 3 3=27 可能（这一点容易丢） 3 3 5=45 因为 45 2 排除 3 3 11=99, 3 11=33 ，因为 33 2=66 排除 2 5 7=70, 5 7=35 可能 2 3 3 5=90, 5 9=45 排除因为 45 就已经 6 个因数了，不能确定是 45 还是90 2 7 7=98, 7 7=49 可能 这样就剩下⑦个数了。同时我将他们的因数都写出来。 78 39 26 13 6 3 2 1 一共 8 个因数 76 38 19 4 2 1~~一共 6 个因数 68 34 17 4 2 1~~一共 6 个因数 92 46 23 4 2 1~~一共 6 个因数 54 27 18 9 6 3 2 1 一共 8 个因数 70 35 14 10 7 5 2 1 一共 8 个因数 98 49 14 7 2 1~~~一共 6 个因数 C 和 D 能从 AB 知道，可以很``容易''判断出这 7 个数，但此时 C 和 D 也说自己知道了。很显然，他们手里不可能是上面重复的数，如7,6， 4 ， 3， 2， 1。否则无法确定老师手中的数。 既然能确定，那我们就能排除掉98,因为除了98, 49，没有 2 个数能给 C 和 D 了。 同理，也可以排除76~~68 和92。 如果是 78 ， E 就是 13 后的第一个数 6 ，如果是 70 ，由于还有一个 7 ，所以 E 拿的一定是 14 ，这样才能确保 E 一定比 F 的大。如果是 54 ， E 只能是6. 所以可以知道 C 和 D 之间必须有一个数存在才行，这样的话，这个数就能判断只能是 70 了， E 是 14 ，那 C 和 D 就是 10 和 5 ， F 就是7 答案就是70+35+14+10+7+5=141"
+    },
+    "answer": {
+      "final_raw": "141",
+      "final_normalized": "141",
+      "candidates": [
+        "141",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "AB看到自己手里的数，就说我知道了。这里必须理解是什么情况。绝不单单是，其中一个数很大，不能乘以$$2$$，乘以$$2$$就超出$$100$$，而是利用了一个条件$$-\\/-\\/-\\/-\\/-\\/-\\/-$$六个不同的因数  AB拿的数必须具有这样的特点，他手中的数要么乘$$2$$就会超出两位数，且这个数至少有$$6$$个因数，要么乘以一个数后，至少有$$6$$个因数，他手中的数不能有$$6$$个或者$$6$$个以上的因数，否则他不能确定这个数是自己手中的数还是要乘以一个数得到的数。（一个是最大的，一个是次大的）  这样我们根据枚举就能枚举出所有可以满足的情况  枚举如下，  $2\\times 3\\times 13=78, 3\\times 13=39$ 可能  $2\\times 3\\times 17=102 $排除  $2\\times 2\\times 13=52, 2\\times 13=26$ 因为$$26\\times 3=78$$ 所以排除  $2\\times 2\\times 17=68, 2\\times 17=34$ 可能  $2\\times 2\\times 19=76, 2\\times 19=38$ 可能  $2\\times 2\\times 23=92, 2\\times 23=46$ 可能  $2\\times 2\\times 29$ 排除  $2\\times 3\\times 3\\times 3=54, 3\\times 3\\times 3=27$ 可能（这一点容易丢）  $3\\times 3\\times 5=45$ 因为$$45\\times 2$$ 排除  $3\\times 3\\times 11=99, 3\\times 11=33$，因为$$33\\times 2=66$$ 排除  $2\\times 5\\times 7=70, 5\\times 7=35$ 可能  $2\\times 3\\times 3\\times 5=90, 5\\times 9=45$ 排除因为$$45$$就已经$$6$$个因数了，不能确定是$$45$$还是90  $2\\times 7\\times 7=98, 7\\times 7=49$ 可能  这样就剩下⑦个数了。同时我将他们的因数都写出来。",
+        "78 39 26 13 6 3 2 1 一共$$8$$个因数  76 38 19 4 2 1~~一共$$6$$个因数  68 34 17 4 2 1~~一共$$6$$个因数  92 46 23 4 2 1~~一共$$6$$个因数  54 27 18 9 6 3 2 1 一共$$8$$个因数  70 35 14 10 7 5 2 1 一共$$8$$个因数  98 49 14 7 2 1~~~一共$$6$$个因数  $$C$$和$$D$$能从$$AB$$知道，可以很``容易''判断出这$$7$$个数，但此时$$C$$和$$D$$也说自己知道了。很显然，他们手里不可能是上面重复的数，如7,6，$$4$$ ， 3， 2， 1。否则无法确定老师手中的数。",
+        "既然能确定，那我们就能排除掉98,因为除了98, 49，没有$$2$$个数能给$$C$$和$$D$$了。",
+        "同理，也可以排除76~~68 和92。",
+        "如果是$$78$$，$$E$$ 就是$$13$$后的第一个数$$6$$，如果是$$70$$，由于还有一个$$7$$，所以$$E$$拿的一定是$$14$$，这样才能确保$$E$$一定比$$F$$的大。如果是$$54$$，$$E$$只能是6.",
+        "所以可以知道$$C$$和$$D$$之间必须有一个数存在才行，这样的话，这个数就能判断只能是$$70$$了，$$E$$是$$14$$，那$$C$$和$$D$$就是$$10$$和$$5$$，$$F$$就是7  答案就是70+35+14+10+7+5=141"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "老师把某两位数的六个不同因数分别告诉了 A F 六个聪明诚实的同学． A 和 B 同时说：我知道这个数是多少了． C 和 D 同时说：听了他们的话，我也知道这个数是多少了． E ：听了他们的话，我知道我的数一定比 F 的大． F ：我拿的数的大小在 C 和 D 之间． 那么六个人拿的数之和是． (A) 141 (B) 152 (C) 171 (D) 175",
+      "solution_text": "AB看到自己手里的数，就说我知道了。这里必须理解是什么情况。绝不单单是，其中一个数很大，不能乘以 2 ，乘以 2 就超出 100 ，而是利用了一个条件 - /- /- /- /- /- /- 六个不同的因数 AB拿的数必须具有这样的特点，他手中的数要么乘 2 就会超出两位数，且这个数至少有 6 个因数，要么乘以一个数后，至少有 6 个因数，他手中的数不能有 6 个或者 6 个以上的因数，否则他不能确定这个数是自己手中的数还是要乘以一个数得到的数。（一个是最大的，一个是次大的） 这样我们根据枚举就能枚举出所有可以满足的情况 枚举如下， 2 3 13=78, 3 13=39 可能 2 3 17=102 排除 2 2 13=52, 2 13=26 因为 26 3=78 所以排除 2 2 17=68, 2 17=34 可能 2 2 19=76, 2 19=38 可能 2 2 23=92, 2 23=46 可能 2 2 29 排除 2 3 3 3=54, 3 3 3=27 可能（这一点容易丢） 3 3 5=45 因为 45 2 排除 3 3 11=99, 3 11=33 ，因为 33 2=66 排除 2 5 7=70, 5 7=35 可能 2 3 3 5=90, 5 9=45 排除因为 45 就已经 6 个因数了，不能确定是 45 还是90 2 7 7=98, 7 7=49 可能 这样就剩下⑦个数了。同时我将他们的因数都写出来。 78 39 26 13 6 3 2 1 一共 8 个因数 76 38 19 4 2 1~~一共 6 个因数 68 34 17 4 2 1~~一共 6 个因数 92 46 23 4 2 1~~一共 6 个因数 54 27 18 9 6 3 2 1 一共 8 个因数 70 35 14 10 7 5 2 1 一共 8 个因数 98 49 14 7 2 1~~~一共 6 个因数 C 和 D 能从 AB 知道，可以很``容易''判断出这 7 个数，但此时 C 和 D 也说自己知道了。很显然，他们手里不可能是上面重复的数，如7,6， 4 ， 3， 2， 1。否则无法确定老师手中的数。 既然能确定，那我们就能排除掉98,因为除了98, 49，没有 2 个数能给 C 和 D 了。 同理，也可以排除76~~68 和92。 如果是 78 ， E 就是 13 后的第一个数 6 ，如果是 70 ，由于还有一个 7 ，所以 E 拿的一定是 14 ，这样才能确保 E 一定比 F 的大。如果是 54 ， E 只能是6. 所以可以知道 C 和 D 之间必须有一个数存在才行，这样的话，这个数就能判断只能是 70 了， E 是 14 ，那 C 和 D 就是 10 和 5 ， F 就是7 答案就是70+35+14+10+7+5=141",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "324",
+        "queId": "bf2ac8ceae5649a894c2a0f5c5b6b6e3",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "141"
+          },
+          {
+            "label": "B",
+            "content": "152"
+          },
+          {
+            "label": "C",
+            "content": "171"
+          },
+          {
+            "label": "D",
+            "content": "175"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->逻辑推理->假设型逻辑推理->答案（数字）正误问题"
+        ],
+        "competition_source_list": [
+          "2014年全国迎春杯五年级竞赛复赛第15题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:00279",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 279,
+      "split": "zh_train",
+      "source_problem_id": "eb3870c8868446a3baa88b905da327f3"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "从$$1$$，$$2$$，$$3$$，$$\\cdots $$，$$16$$中选出$$m$$个数，若选出的数中，每一个数都不是另一个数的$$2$$倍，则$$m$$的最大值为．\n(A) 8\n(B) 9\n(C) 10\n(D) 11",
+      "problem_plain": "从 1 ， 2 ， 3 ， ， 16 中选出 m 个数，若选出的数中，每一个数都不是另一个数的 2 倍，则 m 的最大值为． (A) 8 (B) 9 (C) 10 (D) 11",
+      "solution_latex": "先选择$$1$$、$$3$$、$$5$$、$$7$$、$$9$$、$$11$$、$$13$$、$$15$$，再选择$$4$$、$$12$$、$$16$$，共$$11$$个数．",
+      "solution_plain": "先选择 1 、 3 、 5 、 7 、 9 、 11 、 13 、 15 ，再选择 4 、 12 、 16 ，共 11 个数．"
+    },
+    "answer": {
+      "final_raw": "11",
+      "final_normalized": "11",
+      "candidates": [
+        "11",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "先选择$$1$$、$$3$$、$$5$$、$$7$$、$$9$$、$$11$$、$$13$$、$$15$$，再选择$$4$$、$$12$$、$$16$$，共$$11$$个数．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "从 1 ， 2 ， 3 ， ， 16 中选出 m 个数，若选出的数中，每一个数都不是另一个数的 2 倍，则 m 的最大值为． (A) 8 (B) 9 (C) 10 (D) 11",
+      "solution_text": "先选择 1 、 3 、 5 、 7 、 9 、 11 、 13 、 15 ，再选择 4 、 12 、 16 ，共 11 个数．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3466",
+        "queId": "eb3870c8868446a3baa88b905da327f3",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "8"
+          },
+          {
+            "label": "B",
+            "content": "9"
+          },
+          {
+            "label": "C",
+            "content": "10"
+          },
+          {
+            "label": "D",
+            "content": "11"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计数模块->枚举法综合->枚举法->有序枚举"
+        ],
+        "competition_source_list": [
+          "2017年新希望杯六年级竞赛训练题（三）第6题",
+          "2018年湖北武汉新希望杯六年级竞赛训练题（三）第6题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:00563",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 563,
+      "split": "zh_train",
+      "source_problem_id": "822ac40360674c1b8ef66114d4f15b7e"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一个五位数$$\\overline{ABCDE}$$是$$2014$$的倍数，并且$$\\overline{CDE}$$恰好有$$16$$个因数，则$$\\overline{ABCDE}$$的最小值是~\\uline{~~~~~~~~~~}~．\n(A) 10070\n(B) 16112\n(C) 22154\n(D) 24168",
+      "problem_plain": "一个五位数 ABCDE 是 2014 的倍数，并且 CDE 恰好有 16 个因数，则 ABCDE 的最小值是~ ~~~~~~~~~~ ~． (A) 10070 (B) 16112 (C) 22154 (D) 24168",
+      "solution_latex": "最值问题从极端情况出发，既是五位数又是$$2014$$的倍数，最小为$$10070$$；所以$$\\overline{ABCDE}=2014\\times k$$，且$$\\overline{CDE}$$有$$16$$个因数，$$2014\\times k=2014\\times 5+2014\\times n=10070+2014n$$，因此$$\\overline{CDE}=70+14n$$．要求当$$\\overline{CDE}$$有$$16$$个因数时，$$n$$的最小值是几，$$\\overline{CDE}=14\\left( n+5 \\right)=2\\times 7\\times \\left( n+5 \\right)$$从小到大发现$$n=7$$时满足条件，此时$$\\overline{CDE}={{2}^{3}}\\times 3\\times 7$$一共有$$16$$个因数，此时最小值为$$2014\\times \\left( 5+7 \\right)=24168$$．  最值问题从极端情况出发，既是五位数又是$$2014$$的倍数，最小为$$10070$$；  约数个数逆应用，$$16=16=8\\times 2=4\\times 4=4\\times 2\\times 2=2\\times 2\\times 2\\times 2$$，分解质因数后指数可能是（ $$15 $$），（$$7$$，$$1$$），（$$3$$，$$3$$），（$$3$$，$$1$$，$$1$$ ），（$$1$$，$$1$$，$$1$$，$$1$$ ）这几组．  $$10070$$，$$70=2\\times 5\\times 7$$，舍  $$12084$$，$$84={{2}^{2}}\\times 3\\times 7$$，舍  $$14098$$，$$98={{2}^{{}}}\\times {{7}^{2}}$$，舍  $$16112$$，$$112={{2}^{4}}\\times 7$$，舍  $$18126$$，$$126=2\\times {{3}^{2}}\\times 7$$，舍  $$20140$$，$$140={{2}^{2}}\\times 5\\times 7$$，舍  $$22154$$，$$154=2\\times 7\\times 11$$，舍  $$24168$$，$$168={{2}^{3}}\\times 3\\times 7$$，符合  $$\\overline{ABCDE}$$最小为$$24168$$．",
+      "solution_plain": "最值问题从极端情况出发，既是五位数又是 2014 的倍数，最小为 10070 ；所以 ABCDE =2014 k ，且 CDE 有 16 个因数， 2014 k=2014 5+2014 n=10070+2014n ，因此 CDE =70+14n ．要求当 CDE 有 16 个因数时， n 的最小值是几， CDE =14 ( n+5 )=2 7 ( n+5 ) 从小到大发现 n=7 时满足条件，此时 CDE = 2 ^ 3 3 7 一共有 16 个因数，此时最小值为 2014 ( 5+7 )=24168 ． 最值问题从极端情况出发，既是五位数又是 2014 的倍数，最小为 10070 ； 约数个数逆应用， 16=16=8 2=4 4=4 2 2=2 2 2 2 ，分解质因数后指数可能是（ 15 ），（ 7 ， 1 ），（ 3 ， 3 ），（ 3 ， 1 ， 1 ），（ 1 ， 1 ， 1 ， 1 ）这几组． 10070 ， 70=2 5 7 ，舍 12084 ， 84= 2 ^ 2 3 7 ，舍 14098 ， 98= 2 ^ 7 ^ 2 ，舍 16112 ， 112= 2 ^ 4 7 ，舍 18126 ， 126=2 3 ^ 2 7 ，舍 20140 ， 140= 2 ^ 2 5 7 ，舍 22154 ， 154=2 7 11 ，舍 24168 ， 168= 2 ^ 3 3 7 ，符合 ABCDE 最小为 24168 ．"
+    },
+    "answer": {
+      "final_raw": "24168",
+      "final_normalized": "24168",
+      "candidates": [
+        "24168",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "最值问题从极端情况出发，既是五位数又是$$2014$$的倍数，最小为$$10070$$；所以$$\\overline{ABCDE}=2014\\times k$$，且$$\\overline{CDE}$$有$$16$$个因数，$$2014\\times k=2014\\times 5+2014\\times n=10070+2014n$$，因此$$\\overline{CDE}=70+14n$$．要求当$$\\overline{CDE}$$有$$16$$个因数时，$$n$$的最小值是几，$$\\overline{CDE}=14\\left( n+5 \\right)=2\\times 7\\times \\left( n+5 \\right)$$从小到大发现$$n=7$$时满足条件，此时$$\\overline{CDE}={{2}^{3}}\\times 3\\times 7$$一共有$$16$$个因数，此时最小值为$$2014\\times \\left( 5+7 \\right)=24168$$．  最值问题从极端情况出发，既是五位数又是$$2014$$的倍数，最小为$$10070$$；  约数个数逆应用，$$16=16=8\\times 2=4\\times 4=4\\times 2\\times 2=2\\times 2\\times 2\\times 2$$，分解质因数后指数可能是（ $$15 $$），（$$7$$，$$1$$），（$$3$$，$$3$$），（$$3$$，$$1$$，$$1$$ ），（$$1$$，$$1$$，$$1$$，$$1$$ ）这几组．  $$10070$$，$$70=2\\times 5\\times 7$$，舍  $$12084$$，$$84={{2}^{2}}\\times 3\\times 7$$，舍  $$14098$$，$$98={{2}^{{}}}\\times {{7}^{2}}$$，舍  $$16112$$，$$112={{2}^{4}}\\times 7$$，舍  $$18126$$，$$126=2\\times {{3}^{2}}\\times 7$$，舍  $$20140$$，$$140={{2}^{2}}\\times 5\\times 7$$，舍  $$22154$$，$$154=2\\times 7\\times 11$$，舍  $$24168$$，$$168={{2}^{3}}\\times 3\\times 7$$，符合  $$\\overline{ABCDE}$$最小为$$24168$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一个五位数 ABCDE 是 2014 的倍数，并且 CDE 恰好有 16 个因数，则 ABCDE 的最小值是~ ~~~~~~~~~~ ~． (A) 10070 (B) 16112 (C) 22154 (D) 24168",
+      "solution_text": "最值问题从极端情况出发，既是五位数又是 2014 的倍数，最小为 10070 ；所以 ABCDE =2014 k ，且 CDE 有 16 个因数， 2014 k=2014 5+2014 n=10070+2014n ，因此 CDE =70+14n ．要求当 CDE 有 16 个因数时， n 的最小值是几， CDE =14 ( n+5 )=2 7 ( n+5 ) 从小到大发现 n=7 时满足条件，此时 CDE = 2 ^ 3 3 7 一共有 16 个因数，此时最小值为 2014 ( 5+7 )=24168 ． 最值问题从极端情况出发，既是五位数又是 2014 的倍数，最小为 10070 ； 约数个数逆应用， 16=16=8 2=4 4=4 2 2=2 2 2 2 ，分解质因数后指数可能是（ 15 ），（ 7 ， 1 ），（ 3 ， 3 ），（ 3 ， 1 ， 1 ），（ 1 ， 1 ， 1 ， 1 ）这几组． 10070 ， 70=2 5 7 ，舍 12084 ， 84= 2 ^ 2 3 7 ，舍 14098 ， 98= 2 ^ 7 ^ 2 ，舍 16112 ， 112= 2 ^ 4 7 ，舍 18126 ， 126=2 3 ^ 2 7 ，舍 20140 ， 140= 2 ^ 2 5 7 ，舍 22154 ， 154=2 7 11 ，舍 24168 ， 168= 2 ^ 3 3 7 ，符合 ABCDE 最小为 24168 ．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "902",
+        "queId": "822ac40360674c1b8ef66114d4f15b7e",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10070"
+          },
+          {
+            "label": "B",
+            "content": "16112"
+          },
+          {
+            "label": "C",
+            "content": "22154"
+          },
+          {
+            "label": "D",
+            "content": "24168"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->组合模块最值问题->枚举型最值问题"
+        ],
+        "competition_source_list": [
+          "2014年第15届上海中环杯小学高年级五年级竞赛初赛第18题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:00885",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 885,
+      "split": "zh_train",
+      "source_problem_id": "55a71b1b0f5449c4b0a61ac26a302d95"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$$a$$、$$b$$的最小公倍数是$$60$$；$$b$$、$$c$$的最小公倍数是$$36$$；$$c$$、$$a$$的最小公倍数是$$90$$，那么满足这些条件的不同数组（$$a$$，$$b$$，$$c$$）共有~\\uline{~~~~~~~~~~}~个．\n(A) 5\n(B) 6\n(C) 7\n(D) 8\n(E) 9",
+      "problem_plain": "已知 a 、 b 的最小公倍数是 60 ； b 、 c 的最小公倍数是 36 ； c 、 a 的最小公倍数是 90 ，那么满足这些条件的不同数组（ a ， b ， c ）共有~ ~~~~~~~~~~ ~个． (A) 5 (B) 6 (C) 7 (D) 8 (E) 9",
+      "solution_latex": "$$60=2\\times 2\\times 3\\times 5$$，$$36=2\\times 2\\times 3\\times 3$$，$$90=2\\times 3\\times 3\\times 5$$．  因为$$36$$中不含有因数$$5$$，所以$$b$$，$$c$$中不含有因数$$5$$，则$$a$$中必含有$$1$$个$$5$$．$$a$$，$$b$$中有且只有一个能被$$3$$整除且不能被$$9$$整除．  $$a$$，$$c$$不能被$$4$$整除，$$b$$可被$$4$$整除，$$c$$能被$$9$$整除．  然后枚举：①$$a=5$$，$$b=12$$，$$c=18$$．②$$a=10$$，$$b=12$$，$$c=9$$．③$$a=10$$，$$b=12$$，$$c=18$$．④$$a=15$$，$$b=4$$，$$c=18$$．⑤$$a=15$$，$$b=12$$，$$c=18$$．⑥$$a=30$$，$$b=4$$，$$c=9$$．⑦$$a=30$$，$$b=4$$，$$c=18$$．⑧$$a=30$$，$$b=12$$，$$c=9$$．⑨$$a=30$$，$$b=12$$，$$c=18$$．",
+      "solution_plain": "60=2 2 3 5 ， 36=2 2 3 3 ， 90=2 3 3 5 ． 因为 36 中不含有因数 5 ，所以 b ， c 中不含有因数 5 ，则 a 中必含有 1 个 5 ． a ， b 中有且只有一个能被 3 整除且不能被 9 整除． a ， c 不能被 4 整除， b 可被 4 整除， c 能被 9 整除． 然后枚举：① a=5 ， b=12 ， c=18 ．② a=10 ， b=12 ， c=9 ．③ a=10 ， b=12 ， c=18 ．④ a=15 ， b=4 ， c=18 ．⑤ a=15 ， b=12 ， c=18 ．⑥ a=30 ， b=4 ， c=9 ．⑦ a=30 ， b=4 ， c=18 ．⑧ a=30 ， b=12 ， c=9 ．⑨ a=30 ， b=12 ， c=18 ．"
+    },
+    "answer": {
+      "final_raw": "9",
+      "final_normalized": "9",
+      "candidates": [
+        "9",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$60=2\\times 2\\times 3\\times 5$$，$$36=2\\times 2\\times 3\\times 3$$，$$90=2\\times 3\\times 3\\times 5$$．  因为$$36$$中不含有因数$$5$$，所以$$b$$，$$c$$中不含有因数$$5$$，则$$a$$中必含有$$1$$个$$5$$．$$a$$，$$b$$中有且只有一个能被$$3$$整除且不能被$$9$$整除．  $$a$$，$$c$$不能被$$4$$整除，$$b$$可被$$4$$整除，$$c$$能被$$9$$整除．  然后枚举：①$$a=5$$，$$b=12$$，$$c=18$$．②$$a=10$$，$$b=12$$，$$c=9$$．③$$a=10$$，$$b=12$$，$$c=18$$．④$$a=15$$，$$b=4$$，$$c=18$$．⑤$$a=15$$，$$b=12$$，$$c=18$$．⑥$$a=30$$，$$b=4$$，$$c=9$$．⑦$$a=30$$，$$b=4$$，$$c=18$$．⑧$$a=30$$，$$b=12$$，$$c=9$$．⑨$$a=30$$，$$b=12$$，$$c=18$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 a 、 b 的最小公倍数是 60 ； b 、 c 的最小公倍数是 36 ； c 、 a 的最小公倍数是 90 ，那么满足这些条件的不同数组（ a ， b ， c ）共有~ ~~~~~~~~~~ ~个． (A) 5 (B) 6 (C) 7 (D) 8 (E) 9",
+      "solution_text": "60=2 2 3 5 ， 36=2 2 3 3 ， 90=2 3 3 5 ． 因为 36 中不含有因数 5 ，所以 b ， c 中不含有因数 5 ，则 a 中必含有 1 个 5 ． a ， b 中有且只有一个能被 3 整除且不能被 9 整除． a ， c 不能被 4 整除， b 可被 4 整除， c 能被 9 整除． 然后枚举：① a=5 ， b=12 ， c=18 ．② a=10 ， b=12 ， c=9 ．③ a=10 ， b=12 ， c=18 ．④ a=15 ， b=4 ， c=18 ．⑤ a=15 ， b=12 ， c=18 ．⑥ a=30 ， b=4 ， c=9 ．⑦ a=30 ， b=4 ， c=18 ．⑧ a=30 ， b=12 ， c=9 ．⑨ a=30 ， b=12 ， c=18 ．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3266",
+        "queId": "55a71b1b0f5449c4b0a61ac26a302d95",
+        "difficulty": "3",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "5"
+          },
+          {
+            "label": "B",
+            "content": "6"
+          },
+          {
+            "label": "C",
+            "content": "7"
+          },
+          {
+            "label": "D",
+            "content": "8"
+          },
+          {
+            "label": "E",
+            "content": "9"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计数模块->枚举法综合->枚举法->有序枚举",
+          "Overseas Competition->知识点->计数模块"
+        ],
+        "competition_source_list": [
+          "2011年国奥赛竞赛决赛第6题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:00929",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 929,
+      "split": "zh_train",
+      "source_problem_id": "2b23392531014f25a3b7ef0422b00a6d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$5$$卷百科全书按从第$$1$$卷到第$$5$$卷的递增序号排列，今要将它们变为反序排列，即从第$$5$$卷到第$$1$$卷．如果每次只能调换相邻的两卷，那么最少要调换多少次？\n(A) 12\n(B) 10\n(C) 8\n(D) 6",
+      "problem_plain": "5 卷百科全书按从第 1 卷到第 5 卷的递增序号排列，今要将它们变为反序排列，即从第 5 卷到第 1 卷．如果每次只能调换相邻的两卷，那么最少要调换多少次？ (A) 12 (B) 10 (C) 8 (D) 6",
+      "solution_latex": "因为必须是调换相邻的两卷，将第$$5$$卷调至原来第$$1$$卷的位置最少需$$4$$次，得到的顺序为$$51234$$；  现在将第$$4$$卷调至此时第$$1$$卷的位置最少需$$3$$次，得到的顺序为$$54123$$；  现在将第$$3$$卷调至此时第$$1$$卷的位置最少需$$2$$次，得到的顺序为$$54312$$；  最后将第$$1$$卷和第$$2$$卷对调即可．  所以，共需调换$$4+3+2+1=10$$（次）．",
+      "solution_plain": "因为必须是调换相邻的两卷，将第 5 卷调至原来第 1 卷的位置最少需 4 次，得到的顺序为 51234 ； 现在将第 4 卷调至此时第 1 卷的位置最少需 3 次，得到的顺序为 54123 ； 现在将第 3 卷调至此时第 1 卷的位置最少需 2 次，得到的顺序为 54312 ； 最后将第 1 卷和第 2 卷对调即可． 所以，共需调换 4+3+2+1=10 （次）．"
+    },
+    "answer": {
+      "final_raw": "10",
+      "final_normalized": "10",
+      "candidates": [
+        "10",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为必须是调换相邻的两卷，将第$$5$$卷调至原来第$$1$$卷的位置最少需$$4$$次，得到的顺序为$$51234$$；  现在将第$$4$$卷调至此时第$$1$$卷的位置最少需$$3$$次，得到的顺序为$$54123$$；  现在将第$$3$$卷调至此时第$$1$$卷的位置最少需$$2$$次，得到的顺序为$$54312$$；  最后将第$$1$$卷和第$$2$$卷对调即可．  所以，共需调换$$4+3+2+1=10$$（次）．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "5 卷百科全书按从第 1 卷到第 5 卷的递增序号排列，今要将它们变为反序排列，即从第 5 卷到第 1 卷．如果每次只能调换相邻的两卷，那么最少要调换多少次？ (A) 12 (B) 10 (C) 8 (D) 6",
+      "solution_text": "因为必须是调换相邻的两卷，将第 5 卷调至原来第 1 卷的位置最少需 4 次，得到的顺序为 51234 ； 现在将第 4 卷调至此时第 1 卷的位置最少需 3 次，得到的顺序为 54123 ； 现在将第 3 卷调至此时第 1 卷的位置最少需 2 次，得到的顺序为 54312 ； 最后将第 1 卷和第 2 卷对调即可． 所以，共需调换 4+3+2+1=10 （次）．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3188",
+        "queId": "2b23392531014f25a3b7ef0422b00a6d",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "12"
+          },
+          {
+            "label": "B",
+            "content": "10"
+          },
+          {
+            "label": "C",
+            "content": "8"
+          },
+          {
+            "label": "D",
+            "content": "6"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计数模块->枚举法综合->枚举法->有序枚举"
+        ],
+        "competition_source_list": [
+          "2011年北京学而思杯五年级竞赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:00994",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 994,
+      "split": "zh_train",
+      "source_problem_id": "15ac506d2bbb47acb9ae5fd70629a787"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有一个密码箱的密码由六位数码组成，结果程序出现了问题，只要和原来的密码数字相同而排列顺序不同也能打开这个密码箱．现在知道有$$180$$个不同的六位数码都能打开，而且这六个数码里没有$$3$$，那么原来这个密码箱的密码数字的和最小是．\n(A) 7\n(B) 8\n(C) 9\n(D) 10",
+      "problem_plain": "有一个密码箱的密码由六位数码组成，结果程序出现了问题，只要和原来的密码数字相同而排列顺序不同也能打开这个密码箱．现在知道有 180 个不同的六位数码都能打开，而且这六个数码里没有 3 ，那么原来这个密码箱的密码数字的和最小是． (A) 7 (B) 8 (C) 9 (D) 10",
+      "solution_latex": "①$$6$$个数字互不相同，  有$$6\\times 5\\times 4\\times 3\\times 2\\times 1=720$$个不同六位数码舍去；  ②只有$$2$$个数字相同，  有$$6\\times 5\\times 4\\times 3=360$$个不同六位数码，舍去；  ③只有$$3$$个数字相同，  有$$6\\times 5\\times 4=120$$个不同六位数码，舍去；  ④有$$2$$对数字分别相同，  有$$6\\times 5\\times \\left( 3+2+1 \\right)=180$$个不同六位数码，符合，  且$$6$$个数字里没有$$3$$，则最小为$$0$$，$$0$$，$$1$$，$$1$$，$$2$$，$$4$$，  故和最小为$$0+0+1+1+2+4=8$$；  ⑤其他情况均小于$$180$$个六位数码；  综上，故选$$\\text{B}$$．",
+      "solution_plain": "① 6 个数字互不相同， 有 6 5 4 3 2 1=720 个不同六位数码舍去； ②只有 2 个数字相同， 有 6 5 4 3=360 个不同六位数码，舍去； ③只有 3 个数字相同， 有 6 5 4=120 个不同六位数码，舍去； ④有 2 对数字分别相同， 有 6 5 ( 3+2+1 )=180 个不同六位数码，符合， 且 6 个数字里没有 3 ，则最小为 0 ， 0 ， 1 ， 1 ， 2 ， 4 ， 故和最小为 0+0+1+1+2+4=8 ； ⑤其他情况均小于 180 个六位数码； 综上，故选 B ．"
+    },
+    "answer": {
+      "final_raw": "8",
+      "final_normalized": "8",
+      "candidates": [
+        "8",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "①$$6$$个数字互不相同，  有$$6\\times 5\\times 4\\times 3\\times 2\\times 1=720$$个不同六位数码舍去；  ②只有$$2$$个数字相同，  有$$6\\times 5\\times 4\\times 3=360$$个不同六位数码，舍去；  ③只有$$3$$个数字相同，  有$$6\\times 5\\times 4=120$$个不同六位数码，舍去；  ④有$$2$$对数字分别相同，  有$$6\\times 5\\times \\left( 3+2+1 \\right)=180$$个不同六位数码，符合，  且$$6$$个数字里没有$$3$$，则最小为$$0$$，$$0$$，$$1$$，$$1$$，$$2$$，$$4$$，  故和最小为$$0+0+1+1+2+4=8$$；  ⑤其他情况均小于$$180$$个六位数码；  综上，故选$$\\text{B}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有一个密码箱的密码由六位数码组成，结果程序出现了问题，只要和原来的密码数字相同而排列顺序不同也能打开这个密码箱．现在知道有 180 个不同的六位数码都能打开，而且这六个数码里没有 3 ，那么原来这个密码箱的密码数字的和最小是． (A) 7 (B) 8 (C) 9 (D) 10",
+      "solution_text": "① 6 个数字互不相同， 有 6 5 4 3 2 1=720 个不同六位数码舍去； ②只有 2 个数字相同， 有 6 5 4 3=360 个不同六位数码，舍去； ③只有 3 个数字相同， 有 6 5 4=120 个不同六位数码，舍去； ④有 2 对数字分别相同， 有 6 5 ( 3+2+1 )=180 个不同六位数码，符合， 且 6 个数字里没有 3 ，则最小为 0 ， 0 ， 1 ， 1 ， 2 ， 4 ， 故和最小为 0+0+1+1+2+4=8 ； ⑤其他情况均小于 180 个六位数码； 综上，故选 B ．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3190",
+        "queId": "15ac506d2bbb47acb9ae5fd70629a787",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "7"
+          },
+          {
+            "label": "B",
+            "content": "8"
+          },
+          {
+            "label": "C",
+            "content": "9"
+          },
+          {
+            "label": "D",
+            "content": "10"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计数模块->加乘原理->组数问题->有特殊要求的组数问题"
+        ],
+        "competition_source_list": [
+          "2019年第24届YMO五年级竞赛决赛第10题3分",
+          "2020年第24届YMO五年级竞赛决赛第10题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:01033",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1033,
+      "split": "zh_train",
+      "source_problem_id": "d5a39b8eed74439dbf67cfac1453b902"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一副扑克牌有四种花色，每种花色有$$13$$张，此外还有两张王牌，从中任意抽牌。那么，最少要抽  张牌，才能保证有$$4$$张牌是同一花色。\n(A) 14\n(B) 15\n(C) 16",
+      "problem_plain": "一副扑克牌有四种花色，每种花色有 13 张，此外还有两张王牌，从中任意抽牌。那么，最少要抽 张牌，才能保证有 4 张牌是同一花色。 (A) 14 (B) 15 (C) 16",
+      "solution_latex": "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前$$12$$张是$$4$$种花色各$$3$$张，再抽两张王牌，这时抽第$$15$$张，无论是哪种花色，都能保证凑成$$4$$张牌同一花色。所以至少要抽$$15$$张牌，才能保证有四张牌是同一花色的。",
+      "solution_plain": "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前 12 张是 4 种花色各 3 张，再抽两张王牌，这时抽第 15 张，无论是哪种花色，都能保证凑成 4 张牌同一花色。所以至少要抽 15 张牌，才能保证有四张牌是同一花色的。"
+    },
+    "answer": {
+      "final_raw": "15",
+      "final_normalized": "15",
+      "candidates": [
+        "15",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前$$12$$张是$$4$$种花色各$$3$$张，再抽两张王牌，这时抽第$$15$$张，无论是哪种花色，都能保证凑成$$4$$张牌同一花色。所以至少要抽$$15$$张牌，才能保证有四张牌是同一花色的。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一副扑克牌有四种花色，每种花色有 13 张，此外还有两张王牌，从中任意抽牌。那么，最少要抽 张牌，才能保证有 4 张牌是同一花色。 (A) 14 (B) 15 (C) 16",
+      "solution_text": "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前 12 张是 4 种花色各 3 张，再抽两张王牌，这时抽第 15 张，无论是哪种花色，都能保证凑成 4 张牌同一花色。所以至少要抽 15 张牌，才能保证有四张牌是同一花色的。",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "240",
+        "queId": "d5a39b8eed74439dbf67cfac1453b902",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "14"
+          },
+          {
+            "label": "B",
+            "content": "15"
+          },
+          {
+            "label": "C",
+            "content": "16"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->抽屉原理->最不利原则"
+        ],
+        "competition_source_list": [
+          "1989年华杯赛六年级竞赛初赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:01265",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1265,
+      "split": "zh_train",
+      "source_problem_id": "d929b788a5ae4b40bd4fa473010a6d62"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有$$49$$个孩子，每人胸前有一个号码，号码从$$1$$到$$49$$各不相同.~ 请你挑出若干个小孩排成一个圆圈，使任 何相邻两个孩子号码数乘积小于100.~ 你最多能够选出个孩子.\n(A) 17\n(B) 18\n(C) 19\n(D) 20",
+      "problem_plain": "有 49 个孩子，每人胸前有一个号码，号码从 1 到 49 各不相同.~ 请你挑出若干个小孩排成一个圆圈，使任 何相邻两个孩子号码数乘积小于100.~ 你最多能够选出个孩子. (A) 17 (B) 18 (C) 19 (D) 20",
+      "solution_latex": "任意两位数乘积都小于$$100$$，所以相邻两个数必须有一个$$1$$位数，$$1$$位数共有$$9$$个，所以两位数最多也只能挑$$9$$个，因此最多能挑$$18$$个孩子.",
+      "solution_plain": "任意两位数乘积都小于 100 ，所以相邻两个数必须有一个 1 位数， 1 位数共有 9 个，所以两位数最多也只能挑 9 个，因此最多能挑 18 个孩子."
+    },
+    "answer": {
+      "final_raw": "18",
+      "final_normalized": "18",
+      "candidates": [
+        "18",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "任意两位数乘积都小于$$100$$，所以相邻两个数必须有一个$$1$$位数，$$1$$位数共有$$9$$个，所以两位数最多也只能挑$$9$$个，因此最多能挑$$18$$个孩子."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有 49 个孩子，每人胸前有一个号码，号码从 1 到 49 各不相同.~ 请你挑出若干个小孩排成一个圆圈，使任 何相邻两个孩子号码数乘积小于100.~ 你最多能够选出个孩子. (A) 17 (B) 18 (C) 19 (D) 20",
+      "solution_text": "任意两位数乘积都小于 100 ，所以相邻两个数必须有一个 1 位数， 1 位数共有 9 个，所以两位数最多也只能挑 9 个，因此最多能挑 18 个孩子.",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3471",
+        "queId": "d929b788a5ae4b40bd4fa473010a6d62",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "17"
+          },
+          {
+            "label": "B",
+            "content": "18"
+          },
+          {
+            "label": "C",
+            "content": "19"
+          },
+          {
+            "label": "D",
+            "content": "20"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计数模块->排列组合->组合->组合的基本运算"
+        ],
+        "competition_source_list": [
+          "2008年中环杯六年级竞赛决赛",
+          "2008年中环杯五年级竞赛决赛",
+          "2008年第9届中环杯五年级竞赛决赛第8题",
+          "2008年中环杯四年级竞赛决赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:01378",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1378,
+      "split": "zh_train",
+      "source_problem_id": "8cb6ad5c87544a0c9db03f7a7a393c18"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "数学家维纳是控制论的创始人。在他获得哈佛大学博士学位的授予仪式上，有人看他一脸稚气的样子，好奇地询问他的年龄。维纳的回答很有趣，他说:``我的年龄的立方是一个四位数，年龄的四次方是一个六位数，这两个数刚好把$$0\\sim9$$这$$10$$个数字全都用上了，不重也不漏.''那么，维纳这一年~\\uline{~~~~~~~~~~}~岁。(注:数$$a$$的立方等于$$a\\times a\\times a$$，数$$a$$的四次方等于$$a\\times a\\times a\\times a$$)\n(A) 10\n(B) 12\n(C) 14\n(D) 16\n(E) 18",
+      "problem_plain": "数学家维纳是控制论的创始人。在他获得哈佛大学博士学位的授予仪式上，有人看他一脸稚气的样子，好奇地询问他的年龄。维纳的回答很有趣，他说:``我的年龄的立方是一个四位数，年龄的四次方是一个六位数，这两个数刚好把 0 9 这 10 个数字全都用上了，不重也不漏.''那么，维纳这一年~ ~~~~~~~~~~ ~岁。(注:数 a 的立方等于 a a a ，数 a 的四次方等于 a a a a ) (A) 10 (B) 12 (C) 14 (D) 16 (E) 18",
+      "solution_latex": "假设维纳今年的年龄为$$a$$岁，根据$$a$$的三次方是一个四位数，可以推出$$a$$不超过$$21$$，根据$$a$$的四次方是一个六位数，可以推出$$a$$不小于$$18$$.所以，$$a$$可能为$$18$$、$$19$$、$$20$$、$$21$$. 当$$a$$取$$20$$或$$21$$时，它的三次方和四次方尾数相同，与题意相违，排除; 当$$a=19$$时，$${{\\text{a}}^{4}}=130321$$，$$1$$和$$3$$重复出现，与题意相违，排除$$.$$ 所以，$$a=18$$.经验算，符合题意，所以维纳这一年$$18$$岁.",
+      "solution_plain": "假设维纳今年的年龄为 a 岁，根据 a 的三次方是一个四位数，可以推出 a 不超过 21 ，根据 a 的四次方是一个六位数，可以推出 a 不小于 18 .所以， a 可能为 18 、 19 、 20 、 21 . 当 a 取 20 或 21 时，它的三次方和四次方尾数相同，与题意相违，排除; 当 a=19 时， a ^ 4 =130321 ， 1 和 3 重复出现，与题意相违，排除 . 所以， a=18 .经验算，符合题意，所以维纳这一年 18 岁."
+    },
+    "answer": {
+      "final_raw": "18",
+      "final_normalized": "18",
+      "candidates": [
+        "18",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "假设维纳今年的年龄为$$a$$岁，根据$$a$$的三次方是一个四位数，可以推出$$a$$不超过$$21$$，根据$$a$$的四次方是一个六位数，可以推出$$a$$不小于$$18$$.所以，$$a$$可能为$$18$$、$$19$$、$$20$$、$$21$$.",
+        "当$$a$$取$$20$$或$$21$$时，它的三次方和四次方尾数相同，与题意相违，排除; 当$$a=19$$时，$${{\\text{a}}^{4}}=130321$$，$$1$$和$$3$$重复出现，与题意相违，排除$$.$$ 所以，$$a=18$$.经验算，符合题意，所以维纳这一年$$18$$岁."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "数学家维纳是控制论的创始人。在他获得哈佛大学博士学位的授予仪式上，有人看他一脸稚气的样子，好奇地询问他的年龄。维纳的回答很有趣，他说:``我的年龄的立方是一个四位数，年龄的四次方是一个六位数，这两个数刚好把 0 9 这 10 个数字全都用上了，不重也不漏.''那么，维纳这一年~ ~~~~~~~~~~ ~岁。(注:数 a 的立方等于 a a a ，数 a 的四次方等于 a a a a ) (A) 10 (B) 12 (C) 14 (D) 16 (E) 18",
+      "solution_text": "假设维纳今年的年龄为 a 岁，根据 a 的三次方是一个四位数，可以推出 a 不超过 21 ，根据 a 的四次方是一个六位数，可以推出 a 不小于 18 .所以， a 可能为 18 、 19 、 20 、 21 . 当 a 取 20 或 21 时，它的三次方和四次方尾数相同，与题意相违，排除; 当 a=19 时， a ^ 4 =130321 ， 1 和 3 重复出现，与题意相违，排除 . 所以， a=18 .经验算，符合题意，所以维纳这一年 18 岁.",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "314",
+        "queId": "8cb6ad5c87544a0c9db03f7a7a393c18",
+        "difficulty": "3",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "12"
+          },
+          {
+            "label": "C",
+            "content": "14"
+          },
+          {
+            "label": "D",
+            "content": "16"
+          },
+          {
+            "label": "E",
+            "content": "18"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->逻辑推理->条件型逻辑推理->神推理"
+        ],
+        "competition_source_list": [
+          "2021年超常思维竞赛小学中年级四年级竞赛初赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:01424",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1424,
+      "split": "zh_train",
+      "source_problem_id": "98b5657c8d2e47c2a3d135db304cb333"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一副扑克牌有四种花色，每种花色有$$13$$张，此外还有两张王牌，从中任意抽牌。那么，最少要抽张牌，才能保证有$$4$$张牌是同一花色。\n(A) 14\n(B) 15\n(C) 16",
+      "problem_plain": "一副扑克牌有四种花色，每种花色有 13 张，此外还有两张王牌，从中任意抽牌。那么，最少要抽张牌，才能保证有 4 张牌是同一花色。 (A) 14 (B) 15 (C) 16",
+      "solution_latex": "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前$$12$$张是$$4$$种花色各$$3$$张，再抽两张王牌，这时抽第$$15$$张，无论是哪种花色，都能保证凑成$$4$$张牌同一花色。所以至少要抽$$15$$张牌，才能保证有四张牌是同一花色的。",
+      "solution_plain": "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前 12 张是 4 种花色各 3 张，再抽两张王牌，这时抽第 15 张，无论是哪种花色，都能保证凑成 4 张牌同一花色。所以至少要抽 15 张牌，才能保证有四张牌是同一花色的。"
+    },
+    "answer": {
+      "final_raw": "15",
+      "final_normalized": "15",
+      "candidates": [
+        "15",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前$$12$$张是$$4$$种花色各$$3$$张，再抽两张王牌，这时抽第$$15$$张，无论是哪种花色，都能保证凑成$$4$$张牌同一花色。所以至少要抽$$15$$张牌，才能保证有四张牌是同一花色的。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一副扑克牌有四种花色，每种花色有 13 张，此外还有两张王牌，从中任意抽牌。那么，最少要抽张牌，才能保证有 4 张牌是同一花色。 (A) 14 (B) 15 (C) 16",
+      "solution_text": "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前 12 张是 4 种花色各 3 张，再抽两张王牌，这时抽第 15 张，无论是哪种花色，都能保证凑成 4 张牌同一花色。所以至少要抽 15 张牌，才能保证有四张牌是同一花色的。",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "78",
+        "queId": "98b5657c8d2e47c2a3d135db304cb333",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "14"
+          },
+          {
+            "label": "B",
+            "content": "15"
+          },
+          {
+            "label": "C",
+            "content": "16"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->抽屉原理->最不利原则"
+        ],
+        "competition_source_list": [
+          "1989年华杯赛六年级竞赛初赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:01484",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1484,
+      "split": "zh_train",
+      "source_problem_id": "42ab9ae47b164e9e943a8956cd860b01"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "小周老师写了一个两位质数，并将这个质数个位数字告诉了甲，十位数字告诉了乙，十位数字与个位数字之和告诉了丙，十位数字与个位数字之差（大减小）告诉了丁．  丙说：在我说话之前，甲一定认为乙不知道这个质数是多少．  丙说完之后，乙说：在我说话之前，甲一定认为丁不知道这个质数是多少．  那么，这个质数是~\\uline{~~~~~~~~~~}~．（甲、乙、丙、丁四位同学诚实且聪明）\n(A) 23\n(B) 29\n(C) 41\n(D) 61\n(E) 97",
+      "problem_plain": "小周老师写了一个两位质数，并将这个质数个位数字告诉了甲，十位数字告诉了乙，十位数字与个位数字之和告诉了丙，十位数字与个位数字之差（大减小）告诉了丁． 丙说：在我说话之前，甲一定认为乙不知道这个质数是多少． 丙说完之后，乙说：在我说话之前，甲一定认为丁不知道这个质数是多少． 那么，这个质数是~ ~~~~~~~~~~ ~．（甲、乙、丙、丁四位同学诚实且聪明） (A) 23 (B) 29 (C) 41 (D) 61 (E) 97",
+      "solution_latex": "所有的两位质数：$$11$$、$$31$$、$$41$$、$$61$$、$$71$$；  $$13$$、$$23$$、$$43$$、$$53$$、$$73$$、$$83$$；  $$17$$、$$37$$、$$47$$、$$67$$、$$97$$；  $$19$$、$$29$$、$$59$$、$$79$$、$$89$$．  丙：丙说话之前甲只知道个位，就知道乙猜不出，  所以个位不可能是$$7$$，  丙手上拿的是数字和，通过数字和来确定这个信息的，  因此数字和不可能是$$8$$、$$10$$、$$11$$、$$13$$、$$16$$，将数字和为这些的都排除，  只剩下$$9$$个数：$$11$$、$$13$$、$$23$$、$$31$$、$$41$$、$$43$$、$$59$$、$$61$$、$$89$$．  乙：乙说话之前，丁拿的是数字差，甲一定猜不出，  所以排除$$11$$、$$41$$、$$59$$、$$61$$，那么个位不可能是$$1$$和$$9$$，  继续排除$$31$$、$$59$$、$$89$$．  剩下$$3$$个数：$$13$$、$$23$$、$$43$$，  乙通过十位确定甲一定知道丁猜不出，那么十位不可能是$$1$$和$$4$$，  故这个质数一定是$$23$$．",
+      "solution_plain": "所有的两位质数： 11 、 31 、 41 、 61 、 71 ； 13 、 23 、 43 、 53 、 73 、 83 ； 17 、 37 、 47 、 67 、 97 ； 19 、 29 、 59 、 79 、 89 ． 丙：丙说话之前甲只知道个位，就知道乙猜不出， 所以个位不可能是 7 ， 丙手上拿的是数字和，通过数字和来确定这个信息的， 因此数字和不可能是 8 、 10 、 11 、 13 、 16 ，将数字和为这些的都排除， 只剩下 9 个数： 11 、 13 、 23 、 31 、 41 、 43 、 59 、 61 、 89 ． 乙：乙说话之前，丁拿的是数字差，甲一定猜不出， 所以排除 11 、 41 、 59 、 61 ，那么个位不可能是 1 和 9 ， 继续排除 31 、 59 、 89 ． 剩下 3 个数： 13 、 23 、 43 ， 乙通过十位确定甲一定知道丁猜不出，那么十位不可能是 1 和 4 ， 故这个质数一定是 23 ．"
+    },
+    "answer": {
+      "final_raw": "23",
+      "final_normalized": "23",
+      "candidates": [
+        "23",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "所有的两位质数：$$11$$、$$31$$、$$41$$、$$61$$、$$71$$；  $$13$$、$$23$$、$$43$$、$$53$$、$$73$$、$$83$$；  $$17$$、$$37$$、$$47$$、$$67$$、$$97$$；  $$19$$、$$29$$、$$59$$、$$79$$、$$89$$．  丙：丙说话之前甲只知道个位，就知道乙猜不出，  所以个位不可能是$$7$$，  丙手上拿的是数字和，通过数字和来确定这个信息的，  因此数字和不可能是$$8$$、$$10$$、$$11$$、$$13$$、$$16$$，将数字和为这些的都排除，  只剩下$$9$$个数：$$11$$、$$13$$、$$23$$、$$31$$、$$41$$、$$43$$、$$59$$、$$61$$、$$89$$．  乙：乙说话之前，丁拿的是数字差，甲一定猜不出，  所以排除$$11$$、$$41$$、$$59$$、$$61$$，那么个位不可能是$$1$$和$$9$$，  继续排除$$31$$、$$59$$、$$89$$．  剩下$$3$$个数：$$13$$、$$23$$、$$43$$，  乙通过十位确定甲一定知道丁猜不出，那么十位不可能是$$1$$和$$4$$，  故这个质数一定是$$23$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "小周老师写了一个两位质数，并将这个质数个位数字告诉了甲，十位数字告诉了乙，十位数字与个位数字之和告诉了丙，十位数字与个位数字之差（大减小）告诉了丁． 丙说：在我说话之前，甲一定认为乙不知道这个质数是多少． 丙说完之后，乙说：在我说话之前，甲一定认为丁不知道这个质数是多少． 那么，这个质数是~ ~~~~~~~~~~ ~．（甲、乙、丙、丁四位同学诚实且聪明） (A) 23 (B) 29 (C) 41 (D) 61 (E) 97",
+      "solution_text": "所有的两位质数： 11 、 31 、 41 、 61 、 71 ； 13 、 23 、 43 、 53 、 73 、 83 ； 17 、 37 、 47 、 67 、 97 ； 19 、 29 、 59 、 79 、 89 ． 丙：丙说话之前甲只知道个位，就知道乙猜不出， 所以个位不可能是 7 ， 丙手上拿的是数字和，通过数字和来确定这个信息的， 因此数字和不可能是 8 、 10 、 11 、 13 、 16 ，将数字和为这些的都排除， 只剩下 9 个数： 11 、 13 、 23 、 31 、 41 、 43 、 59 、 61 、 89 ． 乙：乙说话之前，丁拿的是数字差，甲一定猜不出， 所以排除 11 、 41 、 59 、 61 ，那么个位不可能是 1 和 9 ， 继续排除 31 、 59 、 89 ． 剩下 3 个数： 13 、 23 、 43 ， 乙通过十位确定甲一定知道丁猜不出，那么十位不可能是 1 和 4 ， 故这个质数一定是 23 ．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "164",
+        "queId": "42ab9ae47b164e9e943a8956cd860b01",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "23"
+          },
+          {
+            "label": "B",
+            "content": "29"
+          },
+          {
+            "label": "C",
+            "content": "41"
+          },
+          {
+            "label": "D",
+            "content": "61"
+          },
+          {
+            "label": "E",
+            "content": "97"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->数感认知->数学概念理解（数）",
+          "海外竞赛体系->知识点->组合模块->逻辑推理"
+        ],
+        "competition_source_list": [
+          "2020年迎春杯六年级竞赛第10题12分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:01608",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1608,
+      "split": "zh_train",
+      "source_problem_id": "bb4248def3c446898d2305d1656057bd"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "甲、乙、丙、丁各戴了一顶帽子，帽子上写了一个$$1\\sim9$$中的自然数，且互不相同．每人能看到别人帽子上的数，但看不到自己的．他们有如下对话：  甲说：``我看到的三个数两两互质．''  乙、丙同时说：``那我知道我帽子上的数了．''  如果他们都聪明且诚实，那么丁帽子上的数是．\n(A) 4\n(B) 5\n(C) 6\n(D) 8\n(E) 9",
+      "problem_plain": "甲、乙、丙、丁各戴了一顶帽子，帽子上写了一个 1 9 中的自然数，且互不相同．每人能看到别人帽子上的数，但看不到自己的．他们有如下对话： 甲说：``我看到的三个数两两互质．'' 乙、丙同时说：``那我知道我帽子上的数了．'' 如果他们都聪明且诚实，那么丁帽子上的数是． (A) 4 (B) 5 (C) 6 (D) 8 (E) 9",
+      "solution_latex": "本题中，通过甲说出的``另外三个数两两互质''，乙丙就知道了自己的数，说明乙、丙、丁三个人的数字，在$$1\\sim 9$$当中是唯一固定的一组三个数明确的互质数即``$$5$$、$$6$$、$$7$$''三个数，而在这三个数中，只有``$$6$$''在$$1$$$$\\sim 9$$当中有且仅有$$5$$、$$7$$两个互质数，所以乙、丙两个人的数为$$5$$、$$7$$或$$7$$、$$5$$，丁为$$6$$．  $$1$$$$\\sim9$$各个数字对应的互质数．  $$1$$：$$1$$、$$2$$、$$3$$、$$4$$、$$5$$、$$6$$、$$7$$、$$8$$、$$9$$，  $$2$$：$$3$$、$$5$$、$$7$$、$$9$$，  $$3$$：$$2$$、$$4$$、$$5$$、$$7$$、$$8$$，  $$4$$：$$3$$、$$5$$、$$7$$、$$9$$，  $$5$$：$$2$$、$$3$$、$$4$$、$$6$$、$$7$$、$$8$$、$$9$$，  $$6$$：$$5$$、$$7$$，  $$8$$：$$3$$、$$5$$、$$7$$、$$9$$，  $$9$$：$$2$$、$$4$$、$$5$$、$$7$$、$$8$$．  由此可见，只有$$6$$在$$1\\sim9$$的范围内有且仅有两个互质数．",
+      "solution_plain": "本题中，通过甲说出的``另外三个数两两互质''，乙丙就知道了自己的数，说明乙、丙、丁三个人的数字，在 1 9 当中是唯一固定的一组三个数明确的互质数即`` 5 、 6 、 7 ''三个数，而在这三个数中，只有`` 6 ''在 1 9 当中有且仅有 5 、 7 两个互质数，所以乙、丙两个人的数为 5 、 7 或 7 、 5 ，丁为 6 ． 1 9 各个数字对应的互质数． 1 ： 1 、 2 、 3 、 4 、 5 、 6 、 7 、 8 、 9 ， 2 ： 3 、 5 、 7 、 9 ， 3 ： 2 、 4 、 5 、 7 、 8 ， 4 ： 3 、 5 、 7 、 9 ， 5 ： 2 、 3 、 4 、 6 、 7 、 8 、 9 ， 6 ： 5 、 7 ， 8 ： 3 、 5 、 7 、 9 ， 9 ： 2 、 4 、 5 、 7 、 8 ． 由此可见，只有 6 在 1 9 的范围内有且仅有两个互质数．"
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "1",
+        "unknown"
+      ],
+      "tags": [
+        "1",
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "本题中，通过甲说出的``另外三个数两两互质''，乙丙就知道了自己的数，说明乙、丙、丁三个人的数字，在$$1\\sim 9$$当中是唯一固定的一组三个数明确的互质数即``$$5$$、$$6$$、$$7$$''三个数，而在这三个数中，只有``$$6$$''在$$1$$$$\\sim 9$$当中有且仅有$$5$$、$$7$$两个互质数，所以乙、丙两个人的数为$$5$$、$$7$$或$$7$$、$$5$$，丁为$$6$$．  $$1$$$$\\sim9$$各个数字对应的互质数．  $$1$$：$$1$$、$$2$$、$$3$$、$$4$$、$$5$$、$$6$$、$$7$$、$$8$$、$$9$$，  $$2$$：$$3$$、$$5$$、$$7$$、$$9$$，  $$3$$：$$2$$、$$4$$、$$5$$、$$7$$、$$8$$，  $$4$$：$$3$$、$$5$$、$$7$$、$$9$$，  $$5$$：$$2$$、$$3$$、$$4$$、$$6$$、$$7$$、$$8$$、$$9$$，  $$6$$：$$5$$、$$7$$，  $$8$$：$$3$$、$$5$$、$$7$$、$$9$$，  $$9$$：$$2$$、$$4$$、$$5$$、$$7$$、$$8$$．  由此可见，只有$$6$$在$$1\\sim9$$的范围内有且仅有两个互质数．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "甲、乙、丙、丁各戴了一顶帽子，帽子上写了一个 1 9 中的自然数，且互不相同．每人能看到别人帽子上的数，但看不到自己的．他们有如下对话： 甲说：``我看到的三个数两两互质．'' 乙、丙同时说：``那我知道我帽子上的数了．'' 如果他们都聪明且诚实，那么丁帽子上的数是． (A) 4 (B) 5 (C) 6 (D) 8 (E) 9",
+      "solution_text": "本题中，通过甲说出的``另外三个数两两互质''，乙丙就知道了自己的数，说明乙、丙、丁三个人的数字，在 1 9 当中是唯一固定的一组三个数明确的互质数即`` 5 、 6 、 7 ''三个数，而在这三个数中，只有`` 6 ''在 1 9 当中有且仅有 5 、 7 两个互质数，所以乙、丙两个人的数为 5 、 7 或 7 、 5 ，丁为 6 ． 1 9 各个数字对应的互质数． 1 ： 1 、 2 、 3 、 4 、 5 、 6 、 7 、 8 、 9 ， 2 ： 3 、 5 、 7 、 9 ， 3 ： 2 、 4 、 5 、 7 、 8 ， 4 ： 3 、 5 、 7 、 9 ， 5 ： 2 、 3 、 4 、 6 、 7 、 8 、 9 ， 6 ： 5 、 7 ， 8 ： 3 、 5 、 7 、 9 ， 9 ： 2 、 4 、 5 、 7 、 8 ． 由此可见，只有 6 在 1 9 的范围内有且仅有两个互质数．",
+      "keywords": [
+        "1",
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1813",
+        "queId": "bb4248def3c446898d2305d1656057bd",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "8"
+          },
+          {
+            "label": "E",
+            "content": "9"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->逻辑推理->条件型逻辑推理->神推理",
+          "Overseas Competition->知识点->应用题模块->分百应用题->认识单位1"
+        ],
+        "competition_source_list": [
+          "2021年迎春杯小学高年级六年级竞赛决赛C卷第7题10分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:01652",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1652,
+      "split": "zh_train",
+      "source_problem_id": "884bbed70af843ae81f91f75ea0c10a7"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一副扑克牌有四种花色，每种花色有$$13$$张，此外还有两张王牌，从中任意抽牌。那么，最少要抽（  ）张牌，才能保证有$$4$$张牌是同一花色。\n(A) 14\n(B) 15\n(C) 16",
+      "problem_plain": "一副扑克牌有四种花色，每种花色有 13 张，此外还有两张王牌，从中任意抽牌。那么，最少要抽（ ）张牌，才能保证有 4 张牌是同一花色。 (A) 14 (B) 15 (C) 16",
+      "solution_latex": "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前$$12$$张是$$4$$种花色各$$3$$张，再抽两张王牌，这时抽第$$15$$张，无论是哪种花色，都能保证凑成$$4$$张牌同一花色。所以至少要抽$$15$$张牌，才能保证有四张牌是同一花色的。",
+      "solution_plain": "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前 12 张是 4 种花色各 3 张，再抽两张王牌，这时抽第 15 张，无论是哪种花色，都能保证凑成 4 张牌同一花色。所以至少要抽 15 张牌，才能保证有四张牌是同一花色的。"
+    },
+    "answer": {
+      "final_raw": "15",
+      "final_normalized": "15",
+      "candidates": [
+        "15",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前$$12$$张是$$4$$种花色各$$3$$张，再抽两张王牌，这时抽第$$15$$张，无论是哪种花色，都能保证凑成$$4$$张牌同一花色。所以至少要抽$$15$$张牌，才能保证有四张牌是同一花色的。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一副扑克牌有四种花色，每种花色有 13 张，此外还有两张王牌，从中任意抽牌。那么，最少要抽（ ）张牌，才能保证有 4 张牌是同一花色。 (A) 14 (B) 15 (C) 16",
+      "solution_text": "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前 12 张是 4 种花色各 3 张，再抽两张王牌，这时抽第 15 张，无论是哪种花色，都能保证凑成 4 张牌同一花色。所以至少要抽 15 张牌，才能保证有四张牌是同一花色的。",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "253",
+        "queId": "884bbed70af843ae81f91f75ea0c10a7",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "14"
+          },
+          {
+            "label": "B",
+            "content": "15"
+          },
+          {
+            "label": "C",
+            "content": "16"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->抽屉原理->最不利原则"
+        ],
+        "competition_source_list": [
+          "1989年华杯赛六年级竞赛初赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:01681",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1681,
+      "split": "zh_train",
+      "source_problem_id": "c9301aa7fe654db6b01ecddf387f7e73"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一个程序员给编号为$$1-40$$的$$40$$个机器人写好程序，让它们来判断某句话的对错．程序员为了提高准确率，在它们都进行过一次判断后，让从编号为$$1$$的机器人开始，修改自己的答案．如果其余$$39$$个机器人回答``对''多，则自己的回答也为``对''，否则回答``错''．如果最开始有$$20$$个机器人回答``对''，$$20$$个机器人回答``错''，并且一号机器人回答``对''．那么这$$40$$个机器人按序修改自己的答案后，有多少人回答``对''？\n(A) 0\n(B) 19\n(C) 20\n(D) 40",
+      "problem_plain": "一个程序员给编号为 1-40 的 40 个机器人写好程序，让它们来判断某句话的对错．程序员为了提高准确率，在它们都进行过一次判断后，让从编号为 1 的机器人开始，修改自己的答案．如果其余 39 个机器人回答``对''多，则自己的回答也为``对''，否则回答``错''．如果最开始有 20 个机器人回答``对''， 20 个机器人回答``错''，并且一号机器人回答``对''．那么这 40 个机器人按序修改自己的答案后，有多少人回答``对''？ (A) 0 (B) 19 (C) 20 (D) 40",
+      "solution_latex": "由于第一个机器人回答对，所以说明除了第一个外的机器人，开始时$$19$$个回答对，$$20$$个回答错，第一个机器人根据判定需要改答案，其他机器根据第一个机器人改了答案判断，应该都回答错．",
+      "solution_plain": "由于第一个机器人回答对，所以说明除了第一个外的机器人，开始时 19 个回答对， 20 个回答错，第一个机器人根据判定需要改答案，其他机器根据第一个机器人改了答案判断，应该都回答错．"
+    },
+    "answer": {
+      "final_raw": "0",
+      "final_normalized": "0",
+      "candidates": [
+        "0",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由于第一个机器人回答对，所以说明除了第一个外的机器人，开始时$$19$$个回答对，$$20$$个回答错，第一个机器人根据判定需要改答案，其他机器根据第一个机器人改了答案判断，应该都回答错．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一个程序员给编号为 1-40 的 40 个机器人写好程序，让它们来判断某句话的对错．程序员为了提高准确率，在它们都进行过一次判断后，让从编号为 1 的机器人开始，修改自己的答案．如果其余 39 个机器人回答``对''多，则自己的回答也为``对''，否则回答``错''．如果最开始有 20 个机器人回答``对''， 20 个机器人回答``错''，并且一号机器人回答``对''．那么这 40 个机器人按序修改自己的答案后，有多少人回答``对''？ (A) 0 (B) 19 (C) 20 (D) 40",
+      "solution_text": "由于第一个机器人回答对，所以说明除了第一个外的机器人，开始时 19 个回答对， 20 个回答错，第一个机器人根据判定需要改答案，其他机器根据第一个机器人改了答案判断，应该都回答错．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "419",
+        "queId": "c9301aa7fe654db6b01ecddf387f7e73",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "19"
+          },
+          {
+            "label": "C",
+            "content": "20"
+          },
+          {
+            "label": "D",
+            "content": "40"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->逻辑推理->假设型逻辑推理->答案（数字）正误问题"
+        ],
+        "competition_source_list": [
+          "2016年全国美国数学大联盟杯小学中年级三年级竞赛初赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:01841",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1841,
+      "split": "zh_train",
+      "source_problem_id": "a1ce585018a64daba0bb9b800d691608"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有一个$$12$$级的楼梯．某人每次能登上$$1$$级或$$2$$级或$$3$$级，现在他要从地面登上第$$10$$级，有种不同的方式．\n(A) 149\n(B) 244\n(C) 264\n(D) 274",
+      "problem_plain": "有一个 12 级的楼梯．某人每次能登上 1 级或 2 级或 3 级，现在他要从地面登上第 10 级，有种不同的方式． (A) 149 (B) 244 (C) 264 (D) 274",
+      "solution_latex": "设第$$n$$级有$${{a}_{n}}$$种登的方式，  则第$$n-3$$，$$n-2$$，$$n-1$$级再分别登$$3$$，$$2$$，$$1$$级可到第$$n$$级，  则$${{a}_{n}}={{a}_{n-3}}+{{a}_{n-2}}+{{a}_{n-1}}$$，  而$${{a}_{1}}=1$$，$${{a}_{2}}=1+1=2$$，$${{a}_{3}}=1+1+2=4$$，  故$${{a}_{4}}=1+2+4=7$$，  $${{a}_{5}}=2+4+7=13$$，  $${{a}_{6}}=4+7+13=24$$，  $${{a}_{7}}=7+13+24=44$$，  $${{a}_{8}}=13+24+44=81$$，  $${{a}_{9}}=24+44+81=149$$，  $${{a}_{10}}=44+81+149=274$$．  故选：$$\\text{D}$$．",
+      "solution_plain": "设第 n 级有 a _ n 种登的方式， 则第 n-3 ， n-2 ， n-1 级再分别登 3 ， 2 ， 1 级可到第 n 级， 则 a _ n = a _ n-3 + a _ n-2 + a _ n-1 ， 而 a _ 1 =1 ， a _ 2 =1+1=2 ， a _ 3 =1+1+2=4 ， 故 a _ 4 =1+2+4=7 ， a _ 5 =2+4+7=13 ， a _ 6 =4+7+13=24 ， a _ 7 =7+13+24=44 ， a _ 8 =13+24+44=81 ， a _ 9 =24+44+81=149 ， a _ 10 =44+81+149=274 ． 故选： D ．"
+    },
+    "answer": {
+      "final_raw": "274",
+      "final_normalized": "274",
+      "candidates": [
+        "274",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设第$$n$$级有$${{a}_{n}}$$种登的方式，  则第$$n-3$$，$$n-2$$，$$n-1$$级再分别登$$3$$，$$2$$，$$1$$级可到第$$n$$级，  则$${{a}_{n}}={{a}_{n-3}}+{{a}_{n-2}}+{{a}_{n-1}}$$，  而$${{a}_{1}}=1$$，$${{a}_{2}}=1+1=2$$，$${{a}_{3}}=1+1+2=4$$，  故$${{a}_{4}}=1+2+4=7$$，  $${{a}_{5}}=2+4+7=13$$，  $${{a}_{6}}=4+7+13=24$$，  $${{a}_{7}}=7+13+24=44$$，  $${{a}_{8}}=13+24+44=81$$，  $${{a}_{9}}=24+44+81=149$$，  $${{a}_{10}}=44+81+149=274$$．  故选：$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有一个 12 级的楼梯．某人每次能登上 1 级或 2 级或 3 级，现在他要从地面登上第 10 级，有种不同的方式． (A) 149 (B) 244 (C) 264 (D) 274",
+      "solution_text": "设第 n 级有 a _ n 种登的方式， 则第 n-3 ， n-2 ， n-1 级再分别登 3 ， 2 ， 1 级可到第 n 级， 则 a _ n = a _ n-3 + a _ n-2 + a _ n-1 ， 而 a _ 1 =1 ， a _ 2 =1+1=2 ， a _ 3 =1+1+2=4 ， 故 a _ 4 =1+2+4=7 ， a _ 5 =2+4+7=13 ， a _ 6 =4+7+13=24 ， a _ 7 =7+13+24=44 ， a _ 8 =13+24+44=81 ， a _ 9 =24+44+81=149 ， a _ 10 =44+81+149=274 ． 故选： D ．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "478",
+        "queId": "a1ce585018a64daba0bb9b800d691608",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "149"
+          },
+          {
+            "label": "B",
+            "content": "244"
+          },
+          {
+            "label": "C",
+            "content": "264"
+          },
+          {
+            "label": "D",
+            "content": "274"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->操作与策略->归纳递推->斐波那契数列递推",
+          "Overseas Competition->知识点->组合模块->操作与策略->归纳递推"
+        ],
+        "competition_source_list": [
+          "2019年第24届YMO六年级竞赛决赛第7题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:01918",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1918,
+      "split": "zh_train",
+      "source_problem_id": "eb2c244e22764dc5ada2b8f122b7a667"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "小悦与阿奇比赛下象棋，两人水平相当，约定赛$$7$$局，先赢$$4$$局者胜，现在已经比赛了$$3$$局，小悦胜了$$2$$局，阿奇胜了$$1$$局，请问：小悦最后胜利的概率有多少？\n(A) \\frac{3}{8}\n(B) \\frac{11}{16}\n(C) \\frac{3}{16}\n(D) \\frac{7}{16}",
+      "problem_plain": "小悦与阿奇比赛下象棋，两人水平相当，约定赛 7 局，先赢 4 局者胜，现在已经比赛了 3 局，小悦胜了 2 局，阿奇胜了 1 局，请问：小悦最后胜利的概率有多少？ (A) 3 8 (B) 11 16 (C) 3 16 (D) 7 16",
+      "solution_latex": "$$\\rm B$$",
+      "solution_plain": "B"
+    },
+    "answer": {
+      "final_raw": "\\frac{11}{16}",
+      "final_normalized": "\\frac{11}{16}",
+      "candidates": [
+        "B",
+        "\\frac{11}{16}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$\\rm B$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "小悦与阿奇比赛下象棋，两人水平相当，约定赛 7 局，先赢 4 局者胜，现在已经比赛了 3 局，小悦胜了 2 局，阿奇胜了 1 局，请问：小悦最后胜利的概率有多少？ (A) 3 8 (B) 11 16 (C) 3 16 (D) 7 16",
+      "solution_text": "B",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3463",
+        "queId": "eb2c244e22764dc5ada2b8f122b7a667",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{3}{8}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{11}{16}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{3}{16}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{7}{16}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->逻辑分析"
+        ],
+        "competition_source_list": [
+          "2017年北京迎春杯小学高年级五年级竞赛模拟"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:02046",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2046,
+      "split": "zh_train",
+      "source_problem_id": "2619520d5faf413daedbaf2619cde7fc"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "将$$1$$，$$2$$，$$3$$，$$4$$，$$5$$，$$6$$，$$7$$，$$8$$这$$8$$个数排成一行，使$$8$$的两边各数的和相等，则不同的排法有．\n(A) 144$$种\n(B) 288$$种\n(C) 576$$种\n(D) 1152$$种",
+      "problem_plain": "将 1 ， 2 ， 3 ， 4 ， 5 ， 6 ， 7 ， 8 这 8 个数排成一行，使 8 的两边各数的和相等，则不同的排法有． (A) 144 种 (B) 288 种 (C) 576 种 (D) 1152 种",
+      "solution_latex": "因为去掉$$8$$以后，余下$$7$$个数的和是$$1+2+3+4+5+6+7=28$$，  所以$$8$$的两边各数的和分别是$$14$$．  因为$$7+6=13$$，  所以$$14$$至少是由$$3$$个数相加而成的，  所以$$8$$的两边分别有$$3$$个数和$$4$$个数．  因为$$(7,6,1)$$，$$(7,5,2)$$，$$(7,4,3)$$，$$(6,5,3)$$这四组数的和都是$$14$$，  每组中的数的排列方法有$$3\\times 2\\times 1=6$$种，  与其对应的另外$$4$$个数（$$8$$除外）有$$4\\times 3\\times 2\\times 1=24$$种排列方法，  当排成横行时，这$$4$$组数有排在$$8$$的左边和右边两种排列方法，  因此，每组数的排列方法有$$2\\times 6\\times 24=288$$（种）．  所以，满足题意的排列方法有$$4\\times 288=1152$$（种）．",
+      "solution_plain": "因为去掉 8 以后，余下 7 个数的和是 1+2+3+4+5+6+7=28 ， 所以 8 的两边各数的和分别是 14 ． 因为 7+6=13 ， 所以 14 至少是由 3 个数相加而成的， 所以 8 的两边分别有 3 个数和 4 个数． 因为 (7,6,1) ， (7,5,2) ， (7,4,3) ， (6,5,3) 这四组数的和都是 14 ， 每组中的数的排列方法有 3 2 1=6 种， 与其对应的另外 4 个数（ 8 除外）有 4 3 2 1=24 种排列方法， 当排成横行时，这 4 组数有排在 8 的左边和右边两种排列方法， 因此，每组数的排列方法有 2 6 24=288 （种）． 所以，满足题意的排列方法有 4 288=1152 （种）．"
+    },
+    "answer": {
+      "final_raw": "1152$$种",
+      "final_normalized": "1152$$种",
+      "candidates": [
+        "1152$$种",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为去掉$$8$$以后，余下$$7$$个数的和是$$1+2+3+4+5+6+7=28$$，  所以$$8$$的两边各数的和分别是$$14$$．  因为$$7+6=13$$，  所以$$14$$至少是由$$3$$个数相加而成的，  所以$$8$$的两边分别有$$3$$个数和$$4$$个数．  因为$$(7,6,1)$$，$$(7,5,2)$$，$$(7,4,3)$$，$$(6,5,3)$$这四组数的和都是$$14$$，  每组中的数的排列方法有$$3\\times 2\\times 1=6$$种，  与其对应的另外$$4$$个数（$$8$$除外）有$$4\\times 3\\times 2\\times 1=24$$种排列方法，  当排成横行时，这$$4$$组数有排在$$8$$的左边和右边两种排列方法，  因此，每组数的排列方法有$$2\\times 6\\times 24=288$$（种）．  所以，满足题意的排列方法有$$4\\times 288=1152$$（种）．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "将 1 ， 2 ， 3 ， 4 ， 5 ， 6 ， 7 ， 8 这 8 个数排成一行，使 8 的两边各数的和相等，则不同的排法有． (A) 144 种 (B) 288 种 (C) 576 种 (D) 1152 种",
+      "solution_text": "因为去掉 8 以后，余下 7 个数的和是 1+2+3+4+5+6+7=28 ， 所以 8 的两边各数的和分别是 14 ． 因为 7+6=13 ， 所以 14 至少是由 3 个数相加而成的， 所以 8 的两边分别有 3 个数和 4 个数． 因为 (7,6,1) ， (7,5,2) ， (7,4,3) ， (6,5,3) 这四组数的和都是 14 ， 每组中的数的排列方法有 3 2 1=6 种， 与其对应的另外 4 个数（ 8 除外）有 4 3 2 1=24 种排列方法， 当排成横行时，这 4 组数有排在 8 的左边和右边两种排列方法， 因此，每组数的排列方法有 2 6 24=288 （种）． 所以，满足题意的排列方法有 4 288=1152 （种）．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "187",
+        "queId": "2619520d5faf413daedbaf2619cde7fc",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "144$$种"
+          },
+          {
+            "label": "B",
+            "content": "288$$种"
+          },
+          {
+            "label": "C",
+            "content": "576$$种"
+          },
+          {
+            "label": "D",
+            "content": "1152$$种"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->分析和解决问题能力",
+          "竞赛->知识点->组合->排列与组合"
+        ],
+        "competition_source_list": [
+          "2014年第25届全国希望杯初二竞赛初赛第10题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:02260",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2260,
+      "split": "zh_train",
+      "source_problem_id": "cb254cd9d4ec483e9a9378591a650cbf"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "将$$1$$，$$2$$，$$3$$，$$4$$，$$5$$，$$6$$，$$7$$，$$8$$这$$8$$个数排成一行，要使$$8$$的两边各数的和相等，那么不同的排法一共有．\n(A) 1152$$种\n(B) 576$$种\n(C) 288$$种\n(D) 144$$种",
+      "problem_plain": "将 1 ， 2 ， 3 ， 4 ， 5 ， 6 ， 7 ， 8 这 8 个数排成一行，要使 8 的两边各数的和相等，那么不同的排法一共有． (A) 1152 种 (B) 576 种 (C) 288 种 (D) 144 种",
+      "solution_latex": "因为去掉$$8$$以后，余下$$7$$个数的和是$$1+2+3+4+5+6+7=28$$，  所以$$8$$的两边各数的和分别是$$14$$．  因为$$7+6=13$$，  所以$$14$$至少是由$$3$$个数相加而成的，  所以$$8$$的两边分别有$$3$$个数和$$4$$个数．  因为$$(7,6,1)$$，$$(7,5,2)$$，$$(7,4,3)$$，$$(6,5,3)$$这四组数的和都是$$14$$，  每组中的数的排列方法有$$3\\times 2\\times 1=6$$种，  与其对应的另外$$4$$个数（$$8$$除外）有$$4\\times 3\\times 2\\times 1=24$$种排列方法，  当排成横行时，这$$4$$组数有排在$$8$$的左边和右边两种排列方法，  因此，每组数的排列方法有$$2\\times 6\\times 24=288$$（种）．  所以，满足题意的排列方法有$$4\\times 288=1152$$（种）．",
+      "solution_plain": "因为去掉 8 以后，余下 7 个数的和是 1+2+3+4+5+6+7=28 ， 所以 8 的两边各数的和分别是 14 ． 因为 7+6=13 ， 所以 14 至少是由 3 个数相加而成的， 所以 8 的两边分别有 3 个数和 4 个数． 因为 (7,6,1) ， (7,5,2) ， (7,4,3) ， (6,5,3) 这四组数的和都是 14 ， 每组中的数的排列方法有 3 2 1=6 种， 与其对应的另外 4 个数（ 8 除外）有 4 3 2 1=24 种排列方法， 当排成横行时，这 4 组数有排在 8 的左边和右边两种排列方法， 因此，每组数的排列方法有 2 6 24=288 （种）． 所以，满足题意的排列方法有 4 288=1152 （种）．"
+    },
+    "answer": {
+      "final_raw": "1152$$种",
+      "final_normalized": "1152$$种",
+      "candidates": [
+        "1152$$种",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为去掉$$8$$以后，余下$$7$$个数的和是$$1+2+3+4+5+6+7=28$$，  所以$$8$$的两边各数的和分别是$$14$$．  因为$$7+6=13$$，  所以$$14$$至少是由$$3$$个数相加而成的，  所以$$8$$的两边分别有$$3$$个数和$$4$$个数．  因为$$(7,6,1)$$，$$(7,5,2)$$，$$(7,4,3)$$，$$(6,5,3)$$这四组数的和都是$$14$$，  每组中的数的排列方法有$$3\\times 2\\times 1=6$$种，  与其对应的另外$$4$$个数（$$8$$除外）有$$4\\times 3\\times 2\\times 1=24$$种排列方法，  当排成横行时，这$$4$$组数有排在$$8$$的左边和右边两种排列方法，  因此，每组数的排列方法有$$2\\times 6\\times 24=288$$（种）．  所以，满足题意的排列方法有$$4\\times 288=1152$$（种）．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "将 1 ， 2 ， 3 ， 4 ， 5 ， 6 ， 7 ， 8 这 8 个数排成一行，要使 8 的两边各数的和相等，那么不同的排法一共有． (A) 1152 种 (B) 576 种 (C) 288 种 (D) 144 种",
+      "solution_text": "因为去掉 8 以后，余下 7 个数的和是 1+2+3+4+5+6+7=28 ， 所以 8 的两边各数的和分别是 14 ． 因为 7+6=13 ， 所以 14 至少是由 3 个数相加而成的， 所以 8 的两边分别有 3 个数和 4 个数． 因为 (7,6,1) ， (7,5,2) ， (7,4,3) ， (6,5,3) 这四组数的和都是 14 ， 每组中的数的排列方法有 3 2 1=6 种， 与其对应的另外 4 个数（ 8 除外）有 4 3 2 1=24 种排列方法， 当排成横行时，这 4 组数有排在 8 的左边和右边两种排列方法， 因此，每组数的排列方法有 2 6 24=288 （种）． 所以，满足题意的排列方法有 4 288=1152 （种）．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1535",
+        "queId": "cb254cd9d4ec483e9a9378591a650cbf",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1152$$种"
+          },
+          {
+            "label": "B",
+            "content": "576$$种"
+          },
+          {
+            "label": "C",
+            "content": "288$$种"
+          },
+          {
+            "label": "D",
+            "content": "144$$种"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->分析和解决问题能力",
+          "竞赛->知识点->组合->排列与组合"
+        ],
+        "competition_source_list": [
+          "2014年第25届全国希望杯初二竞赛初赛第10题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:02500",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2500,
+      "split": "zh_train",
+      "source_problem_id": "3fa3ca53534544b4965d9303e491d08d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "某电影院第一排共有$$9$$个座位，现有$$3$$名观众就座，若他们每两人都不能相邻且要求每人左右至多只有两个空位，那么不同的坐法种数共有．\n(A) 36\n(B) 42\n(C) 48\n(D) 54",
+      "problem_plain": "某电影院第一排共有 9 个座位，现有 3 名观众就座，若他们每两人都不能相邻且要求每人左右至多只有两个空位，那么不同的坐法种数共有． (A) 36 (B) 42 (C) 48 (D) 54",
+      "solution_latex": "将座位从左至右编为$$1,2,\\cdots ,9$$，考虑从左至右第一个有人坐的座位号：  ①如果是$$1$$，则另两个人的座位号只能是$$4$$和$$7$$，只有$$1$$种方法；  ②如果是$$2$$，则下一个人可以坐$$4$$或$$5$$．若是$$4$$，则第三个人只能坐$$7$$号；若是$$5$$，则第三个人可以坐$$7$$或$$8$$．共有$$3$$种方法；  ③如果是$$3$$，则下一个人可以坐$$5$$或$$6$$．若是$$5$$，则第三个人可以坐$$7$$或$$8$$；若是$$6$$，则第三个人可以坐$$8$$或$$9$$．共有$$2+2=4$$种方法．  所以，不同的坐法种数为$$\\left( 1+3+4 \\right)\\text{A}_{3}^{3}=48$$．",
+      "solution_plain": "将座位从左至右编为 1,2, ,9 ，考虑从左至右第一个有人坐的座位号： ①如果是 1 ，则另两个人的座位号只能是 4 和 7 ，只有 1 种方法； ②如果是 2 ，则下一个人可以坐 4 或 5 ．若是 4 ，则第三个人只能坐 7 号；若是 5 ，则第三个人可以坐 7 或 8 ．共有 3 种方法； ③如果是 3 ，则下一个人可以坐 5 或 6 ．若是 5 ，则第三个人可以坐 7 或 8 ；若是 6 ，则第三个人可以坐 8 或 9 ．共有 2+2=4 种方法． 所以，不同的坐法种数为 ( 1+3+4 ) A _ 3 ^ 3 =48 ．"
+    },
+    "answer": {
+      "final_raw": "48",
+      "final_normalized": "48",
+      "candidates": [
+        "48",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "将座位从左至右编为$$1,2,\\cdots ,9$$，考虑从左至右第一个有人坐的座位号：  ①如果是$$1$$，则另两个人的座位号只能是$$4$$和$$7$$，只有$$1$$种方法；  ②如果是$$2$$，则下一个人可以坐$$4$$或$$5$$．若是$$4$$，则第三个人只能坐$$7$$号；若是$$5$$，则第三个人可以坐$$7$$或$$8$$．共有$$3$$种方法；  ③如果是$$3$$，则下一个人可以坐$$5$$或$$6$$．若是$$5$$，则第三个人可以坐$$7$$或$$8$$；若是$$6$$，则第三个人可以坐$$8$$或$$9$$．共有$$2+2=4$$种方法．  所以，不同的坐法种数为$$\\left( 1+3+4 \\right)\\text{A}_{3}^{3}=48$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "某电影院第一排共有 9 个座位，现有 3 名观众就座，若他们每两人都不能相邻且要求每人左右至多只有两个空位，那么不同的坐法种数共有． (A) 36 (B) 42 (C) 48 (D) 54",
+      "solution_text": "将座位从左至右编为 1,2, ,9 ，考虑从左至右第一个有人坐的座位号： ①如果是 1 ，则另两个人的座位号只能是 4 和 7 ，只有 1 种方法； ②如果是 2 ，则下一个人可以坐 4 或 5 ．若是 4 ，则第三个人只能坐 7 号；若是 5 ，则第三个人可以坐 7 或 8 ．共有 3 种方法； ③如果是 3 ，则下一个人可以坐 5 或 6 ．若是 5 ，则第三个人可以坐 7 或 8 ；若是 6 ，则第三个人可以坐 8 或 9 ．共有 2+2=4 种方法． 所以，不同的坐法种数为 ( 1+3+4 ) A _ 3 ^ 3 =48 ．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "540",
+        "queId": "3fa3ca53534544b4965d9303e491d08d",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "36"
+          },
+          {
+            "label": "B",
+            "content": "42"
+          },
+          {
+            "label": "C",
+            "content": "48"
+          },
+          {
+            "label": "D",
+            "content": "54"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->排列组合与概率->排列与组合"
+        ],
+        "competition_source_list": [
+          "2009年黑龙江全国高中数学联赛竞赛初赛第9题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:02691",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2691,
+      "split": "zh_train",
+      "source_problem_id": "cf9c7765077f4560a4d082c8f67b09c7"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在半径为$r$的圆周上独立随机地选择两点．从每一个点沿顺时针方向画出一条长为$r$的弦．这两条弦相交的概率是多少？\n(A) \\dfrac{1}{6}\n(B) \\dfrac{1}{5}\n(C) \\dfrac{1}{4}\n(D) \\dfrac{1}{3}\n(E) \\dfrac{1}{2}",
+      "problem_plain": "在半径为 r 的圆周上独立随机地选择两点．从每一个点沿顺时针方向画出一条长为 r 的弦．这两条弦相交的概率是多少？ (A) 1 6 (B) 1 5 (C) 1 4 (D) 1 3 (E) 1 2",
+      "solution_latex": "Fix a point $$A$$ from which we draw a clockwise chord. In order for the clockwise chord from another point $$B$$ to intersect that of point $$A$$, $$A$$ and $$B$$ must be no more than $$r$$ units apart.By drawing the circle, we quickly see that $$B$$ can be on $$\\dfrac{120}{360}=\\dfrac{1}{3}(\\rm D)$$ of the perimeter of the crcle. (lmagine a regular hexagon inscribed in the circle).",
+      "solution_plain": "Fix a point A from which we draw a clockwise chord. In order for the clockwise chord from another point B to intersect that of point A , A and B must be no more than r units apart.By drawing the circle, we quickly see that B can be on 120 360 = 1 3 ( D) of the perimeter of the crcle. (lmagine a regular hexagon inscribed in the circle)."
+    },
+    "answer": {
+      "final_raw": "\\dfrac{1}{3}",
+      "final_normalized": "\\dfrac{1}{3}",
+      "candidates": [
+        "D",
+        "\\dfrac{1}{3}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "combination",
+        "geometric_models_of_probabilities",
+        "probability_calculation",
+        "unknown"
+      ],
+      "tags": [
+        "amc10_12",
+        "combination",
+        "counting_probability",
+        "geometric_models_of_probabilities",
+        "level_4",
+        "probability_calculation",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Fix a point $$A$$ from which we draw a clockwise chord.",
+        "In order for the clockwise chord from another point $$B$$ to intersect that of point $$A$$, $$A$$ and $$B$$ must be no more than $$r$$ units apart.By drawing the circle, we quickly see that $$B$$ can be on $$\\dfrac{120}{360}=\\dfrac{1}{3}(\\rm D)$$ of the perimeter of the crcle.",
+        "(lmagine a regular hexagon inscribed in the circle)."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在半径为 r 的圆周上独立随机地选择两点．从每一个点沿顺时针方向画出一条长为 r 的弦．这两条弦相交的概率是多少？ (A) 1 6 (B) 1 5 (C) 1 4 (D) 1 3 (E) 1 2",
+      "solution_text": "Fix a point A from which we draw a clockwise chord. In order for the clockwise chord from another point B to intersect that of point A , A and B must be no more than r units apart.By drawing the circle, we quickly see that B can be on 120 360 = 1 3 ( D) of the perimeter of the crcle. (lmagine a regular hexagon inscribed in the circle).",
+      "keywords": [
+        "amc10_12",
+        "combination",
+        "counting_probability",
+        "geometric_models_of_probabilities",
+        "level_4",
+        "probability_calculation",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1147",
+        "queId": "cf9c7765077f4560a4d082c8f67b09c7",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\dfrac{1}{6}"
+          },
+          {
+            "label": "B",
+            "content": "\\dfrac{1}{5}"
+          },
+          {
+            "label": "C",
+            "content": "\\dfrac{1}{4}"
+          },
+          {
+            "label": "D",
+            "content": "\\dfrac{1}{3}"
+          },
+          {
+            "label": "E",
+            "content": "\\dfrac{1}{2}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->统计与概率->概率->事件与概率->几何概型->与角度有关的几何概率的计算",
+          "课内体系->知识点->直线和圆的方程->圆与方程->直线与圆的位置关系->圆的弦长的相关问题",
+          "美国AMC10/12->Knowledge Point->Combination->Probability Calculation->Geometric Models of Probabilities"
+        ],
+        "competition_source_list": [
+          "2011年AMC10竞赛A第20题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:02736",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2736,
+      "split": "zh_train",
+      "source_problem_id": "9145a7720ff84c54ad057b4e3dd6790c"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知平面区域$$\\Omega = {(x,y)\\textbar x+y\\leqslant 6,x\\geqslant 0,y\\geqslant 0 }$$，$$A= {(x,y)\\textbar x\\leqslant 4,y\\geqslant 0,x-2y\\geqslant 0 }$$，若向区域$$\\Omega $$上随机投一点$$P$$，则点$$P$$落入区域$$A$$的概率为．\n(A) \\frac{2}{3}\n(B) \\frac{1}{3}\n(C) \\frac{2}{9}\n(D) \\frac{1}{9}",
+      "problem_plain": "已知平面区域 = (x,y) x+y 6,x 0,y 0 ， A= (x,y) x 4,y 0,x-2y 0 ，若向区域 上随机投一点 P ，则点 P 落入区域 A 的概率为． (A) 2 3 (B) 1 3 (C) 2 9 (D) 1 9",
+      "solution_latex": "不难算出平面区域$$\\Omega $$的面积为$$\\frac{1}{2}\\cdot 6\\cdot 6=18$$，$$A$$的面积为$$\\frac{1}{2}\\cdot 4\\cdot 2=4$$，  所以所求概率为$$\\frac{4}{18}=\\frac{2}{9}$$．",
+      "solution_plain": "不难算出平面区域 的面积为 1 2 6 6=18 ， A 的面积为 1 2 4 2=4 ， 所以所求概率为 4 18 = 2 9 ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{2}{9}",
+      "final_normalized": "\\frac{2}{9}",
+      "candidates": [
+        "C",
+        "\\frac{2}{9}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "不难算出平面区域$$\\Omega $$的面积为$$\\frac{1}{2}\\cdot 6\\cdot 6=18$$，$$A$$的面积为$$\\frac{1}{2}\\cdot 4\\cdot 2=4$$，  所以所求概率为$$\\frac{4}{18}=\\frac{2}{9}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知平面区域 = (x,y) x+y 6,x 0,y 0 ， A= (x,y) x 4,y 0,x-2y 0 ，若向区域 上随机投一点 P ，则点 P 落入区域 A 的概率为． (A) 2 3 (B) 1 3 (C) 2 9 (D) 1 9",
+      "solution_text": "不难算出平面区域 的面积为 1 2 6 6=18 ， A 的面积为 1 2 4 2=4 ， 所以所求概率为 4 18 = 2 9 ．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "706",
+        "queId": "9145a7720ff84c54ad057b4e3dd6790c",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{2}{3}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{1}{3}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{2}{9}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{1}{9}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->排列组合与概率->概率初步",
+          "竞赛->知识点->集合->集合的划分与覆盖",
+          "竞赛->知识点->集合->集合的概念与运算"
+        ],
+        "competition_source_list": [
+          "2009年黑龙江全国高中数学联赛竞赛初赛第5题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:02754",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2754,
+      "split": "zh_train",
+      "source_problem_id": "1d2b0485674e496ebfdfe4358d643b77"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "瑞秋和罗伯特在一个圆形跑道上跑步．瑞秋逆时针跑，每隔$90$秒完成一圈，罗伯特顺时针跑，每隔$80$秒完成一圈．两人在同一时间从同一条线上出发．在他们开始跑步后的$10$分钟和$11$分钟之间的某个随机时间，一个站在赛道内的摄影师拍了一张照片，照片显示了以起跑线为中心的四分之一的赛道．瑞秋和罗伯特都在照片上的概率是多少？\n(A) \\frac{1}{16}\n(B) \\frac{1}{8}\n(C) \\frac{3}{16}\n(D) \\frac{1}{4}\n(E) \\frac{5}{16}",
+      "problem_plain": "瑞秋和罗伯特在一个圆形跑道上跑步．瑞秋逆时针跑，每隔 90 秒完成一圈，罗伯特顺时针跑，每隔 80 秒完成一圈．两人在同一时间从同一条线上出发．在他们开始跑步后的 10 分钟和 11 分钟之间的某个随机时间，一个站在赛道内的摄影师拍了一张照片，照片显示了以起跑线为中心的四分之一的赛道．瑞秋和罗伯特都在照片上的概率是多少？ (A) 1 16 (B) 1 8 (C) 3 16 (D) 1 4 (E) 5 16",
+      "solution_latex": "After $$10$$ minutes ($$600$$ seconds), Rachel will have completed $$6$$ laps and be $$30$$ seconds from completing her seventh lap. Because Rachel runs one-fourth of a lap in $$22.5$$ seconds, she will be in the picture between $$18.75$$ seconds and $$41.25$$ seconds of the tenth minute. After $$10$$ minutes Robert will have completed $$7$$ laps and will be $$40$$ seconds past the starting line. Because Robert runs one-fourth of a lap in $$20$$ seconds, he will be in the picture between $$30$$ and $$50$$ seconds of the tenth minute. Hence both Rachel and Robert will be in the picture if it is taken between $$30$$ and $$41.25$$ seconds of the tenth minute. So the probability that both runners are in the picture is $$\\frac{41 .25-30}{60}= \\boxed{\\frac{3}{16}}$$. The answer is $$\\rm(C)$$.",
+      "solution_plain": "After 10 minutes ( 600 seconds), Rachel will have completed 6 laps and be 30 seconds from completing her seventh lap. Because Rachel runs one-fourth of a lap in 22.5 seconds, she will be in the picture between 18.75 seconds and 41.25 seconds of the tenth minute. After 10 minutes Robert will have completed 7 laps and will be 40 seconds past the starting line. Because Robert runs one-fourth of a lap in 20 seconds, he will be in the picture between 30 and 50 seconds of the tenth minute. Hence both Rachel and Robert will be in the picture if it is taken between 30 and 41.25 seconds of the tenth minute. So the probability that both runners are in the picture is 41 .25-30 60 = 3 16 . The answer is (C) ."
+    },
+    "answer": {
+      "final_raw": "\\frac{3}{16}",
+      "final_normalized": "\\frac{3}{16}",
+      "candidates": [
+        "C",
+        "\\frac{3}{16}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "combination",
+        "geometric_models_of_probabilities",
+        "max_f_x_g_x",
+        "probability_calculation",
+        "unknown"
+      ],
+      "tags": [
+        "amc10_12",
+        "combination",
+        "counting_probability",
+        "geometric_models_of_probabilities",
+        "level_4",
+        "max_f_x_g_x",
+        "probability_calculation",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "After $$10$$ minutes ($$600$$ seconds), Rachel will have completed $$6$$ laps and be $$30$$ seconds from completing her seventh lap.",
+        "Because Rachel runs one-fourth of a lap in $$22.5$$ seconds, she will be in the picture between $$18.75$$ seconds and $$41.25$$ seconds of the tenth minute.",
+        "After $$10$$ minutes Robert will have completed $$7$$ laps and will be $$40$$ seconds past the starting line.",
+        "Because Robert runs one-fourth of a lap in $$20$$ seconds, he will be in the picture between $$30$$ and $$50$$ seconds of the tenth minute.",
+        "Hence both Rachel and Robert will be in the picture if it is taken between $$30$$ and $$41.25$$ seconds of the tenth minute.",
+        "So the probability that both runners are in the picture is $$\\frac{41 .25-30}{60}= \\boxed{\\frac{3}{16}}$$.",
+        "The answer is $$\\rm(C)$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "瑞秋和罗伯特在一个圆形跑道上跑步．瑞秋逆时针跑，每隔 90 秒完成一圈，罗伯特顺时针跑，每隔 80 秒完成一圈．两人在同一时间从同一条线上出发．在他们开始跑步后的 10 分钟和 11 分钟之间的某个随机时间，一个站在赛道内的摄影师拍了一张照片，照片显示了以起跑线为中心的四分之一的赛道．瑞秋和罗伯特都在照片上的概率是多少？ (A) 1 16 (B) 1 8 (C) 3 16 (D) 1 4 (E) 5 16",
+      "solution_text": "After 10 minutes ( 600 seconds), Rachel will have completed 6 laps and be 30 seconds from completing her seventh lap. Because Rachel runs one-fourth of a lap in 22.5 seconds, she will be in the picture between 18.75 seconds and 41.25 seconds of the tenth minute. After 10 minutes Robert will have completed 7 laps and will be 40 seconds past the starting line. Because Robert runs one-fourth of a lap in 20 seconds, he will be in the picture between 30 and 50 seconds of the tenth minute. Hence both Rachel and Robert will be in the picture if it is taken between 30 and 41.25 seconds of the tenth minute. So the probability that both runners are in the picture is 41 .25-30 60 = 3 16 . The answer is (C) .",
+      "keywords": [
+        "amc10_12",
+        "combination",
+        "counting_probability",
+        "geometric_models_of_probabilities",
+        "level_4",
+        "max_f_x_g_x",
+        "probability_calculation",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "171",
+        "queId": "1d2b0485674e496ebfdfe4358d643b77",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{1}{16}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{1}{8}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{3}{16}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{1}{4}"
+          },
+          {
+            "label": "E",
+            "content": "\\frac{5}{16}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->学科符号->数与式->新定义符号->取最值函数->max{f(x),g(x)}",
+          "美国AMC10/12->Knowledge Point->Combination->Probability Calculation->Geometric Models of Probabilities"
+        ],
+        "competition_source_list": [
+          "2009年AMC10竞赛B第23题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:02924",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2924,
+      "split": "zh_train",
+      "source_problem_id": "55508b008823452b96a614f82e303501"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "数列$$\\left { {{a}_{n}} \\right }$$共有$$11$$项，$${{a}_{1}}=0$$，$${{a}_{11}}=4$$，$$\\left\\textbar{} {{a}_{k+1}}-{{a}_{k}} \\right\\textbar=1$$，$$k=1$$，$$2$$，$$\\cdots$$，$$10$$，满足这样的条件的不同数列的个数为．\n(A) 100\n(B) 120\n(C) 140\n(D) 160",
+      "problem_plain": "数列 a _ n 共有 11 项， a _ 1 =0 ， a _ 11 =4 ， a _ k+1 - a _ k =1 ， k=1 ， 2 ， ， 10 ，满足这样的条件的不同数列的个数为． (A) 100 (B) 120 (C) 140 (D) 160",
+      "solution_latex": "设$${{b}_{k+1}}={{a}_{k+1}}-{{a}_{k}}$$，则$${{b}_{k+1}}=\\pm 1$$，且$${{b}_{2}}+{{b}_{3}}+\\cdots+{{b}_{11}}=4$$，只需$${{b}_{2}}$$，$${{b}_{3}}$$，$$\\cdots$$，$${{b}_{11}}$$中有$$7$$个$$1$$和$$3$$个$$-1$$即可，所求的方法数为$$\\text{C}_{10}^{3}=120$$．",
+      "solution_plain": "设 b _ k+1 = a _ k+1 - a _ k ，则 b _ k+1 = 1 ，且 b _ 2 + b _ 3 + + b _ 11 =4 ，只需 b _ 2 ， b _ 3 ， ， b _ 11 中有 7 个 1 和 3 个 -1 即可，所求的方法数为 C _ 10 ^ 3 =120 ．"
+    },
+    "answer": {
+      "final_raw": "120",
+      "final_normalized": "120",
+      "candidates": [
+        "120",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设$${{b}_{k+1}}={{a}_{k+1}}-{{a}_{k}}$$，则$${{b}_{k+1}}=\\pm 1$$，且$${{b}_{2}}+{{b}_{3}}+\\cdots+{{b}_{11}}=4$$，只需$${{b}_{2}}$$，$${{b}_{3}}$$，$$\\cdots$$，$${{b}_{11}}$$中有$$7$$个$$1$$和$$3$$个$$-1$$即可，所求的方法数为$$\\text{C}_{10}^{3}=120$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "数列 a _ n 共有 11 项， a _ 1 =0 ， a _ 11 =4 ， a _ k+1 - a _ k =1 ， k=1 ， 2 ， ， 10 ，满足这样的条件的不同数列的个数为． (A) 100 (B) 120 (C) 140 (D) 160",
+      "solution_text": "设 b _ k+1 = a _ k+1 - a _ k ，则 b _ k+1 = 1 ，且 b _ 2 + b _ 3 + + b _ 11 =4 ，只需 b _ 2 ， b _ 3 ， ， b _ 11 中有 7 个 1 和 3 个 -1 即可，所求的方法数为 C _ 10 ^ 3 =120 ．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "444",
+        "queId": "55508b008823452b96a614f82e303501",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "100"
+          },
+          {
+            "label": "B",
+            "content": "120"
+          },
+          {
+            "label": "C",
+            "content": "140"
+          },
+          {
+            "label": "D",
+            "content": "160"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->排列组合与概率->排列与组合"
+        ],
+        "competition_source_list": [
+          "2012年湖南全国高中数学联赛竞赛初赛第3题6分",
+          "2011年北京清华大学自主招生夏令营第8题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_4:02939",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2939,
+      "split": "zh_train",
+      "source_problem_id": "b39fb4710ee041699a9e0b547d6be154"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "对于一对特殊的骰子，在每个骰子上掷出$1$、$2$、$3$、$4$、$5$和$6$的概率的比例是$1:2:3:4:5:6$.两颗骰子共掷出$7$的概率是多少？\n(A) \\dfrac{4}{63}\n(B) \\dfrac{1}{8}\n(C) \\dfrac{8}{63}\n(D) \\dfrac{1}{6}\n(E) \\dfrac{2}{7}",
+      "problem_plain": "对于一对特殊的骰子，在每个骰子上掷出 1 、 2 、 3 、 4 、 5 和 6 的概率的比例是 1:2:3:4:5:6 .两颗骰子共掷出 7 的概率是多少？ (A) 4 63 (B) 1 8 (C) 8 63 (D) 1 6 (E) 2 7",
+      "solution_latex": "Let $$x$$ be the \\uline{probability} of rolling a $$1$$. The probabilities of rolling a $$2$$, $$3$$, $$4$$, $$5$$, and $$6$$ are $$2x$$, $$3x$$, $$4x$$, $$5x$$, and $$6x$$, respectively.  The sum of the probabilties of rolling each number must equal $$1$$, so  $$x+2x+3x+4x+5x+6x=1$$,  $$21x=1$$,  $$x= \\dfrac{1}{21}$$,  So the probabilities of rolling a $$1$$, $$2$$, $$3$$, $$4$$, $$5$$, and $$6$$ are respectively $$\\dfrac{1}{21}$$,~ $$\\dfrac{2}{21}$$, $$\\dfrac{3}{21}$$, $$\\dfrac{4}{21}$$, $$\\dfrac{5}{21}$$, and, $$\\dfrac{6}{21}$$. The possible combinations of two rolls that total $$7$$ are: $$(1,6)$$; $$(2,5)$$; $$(3,4)$$; $$(4,3)$$; $$(5,2)$$; $$(6,1)$$. The probability of rolling a total of $$7$$ on the two dice is equal to the sum of the probabilities of rolling each combination. $$P= \\dfrac{1}{21}\\cdot \\dfrac{6}{21}+ \\dfrac{2}{21}\\cdot \\dfrac{5}{21}+ \\dfrac{3}{21}\\cdot \\dfrac{4}{21}+ \\dfrac{4}{21}\\cdot \\dfrac{3}{21}+ \\dfrac{5}{21}\\cdot \\dfrac{2}{21}+ \\dfrac{6}{21}\\cdot \\dfrac{1}{21}= \\dfrac{8}{63}\\Rightarrow C$$",
+      "solution_plain": "Let x be the probability of rolling a 1 . The probabilities of rolling a 2 , 3 , 4 , 5 , and 6 are 2x , 3x , 4x , 5x , and 6x , respectively. The sum of the probabilties of rolling each number must equal 1 , so x+2x+3x+4x+5x+6x=1 , 21x=1 , x= 1 21 , So the probabilities of rolling a 1 , 2 , 3 , 4 , 5 , and 6 are respectively 1 21 ,~ 2 21 , 3 21 , 4 21 , 5 21 , and, 6 21 . The possible combinations of two rolls that total 7 are: (1,6) ; (2,5) ; (3,4) ; (4,3) ; (5,2) ; (6,1) . The probability of rolling a total of 7 on the two dice is equal to the sum of the probabilities of rolling each combination. P= 1 21 6 21 + 2 21 5 21 + 3 21 4 21 + 4 21 3 21 + 5 21 2 21 + 6 21 1 21 = 8 63 C"
+    },
+    "answer": {
+      "final_raw": "\\dfrac{8}{63}",
+      "final_normalized": "\\dfrac{8}{63}",
+      "candidates": [
+        "C",
+        "\\dfrac{8}{63}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "classical_models_of_probabilities",
+        "combination",
+        "probability_calculation",
+        "unknown"
+      ],
+      "tags": [
+        "amc10_12",
+        "classical_models_of_probabilities",
+        "combination",
+        "counting_probability",
+        "level_4",
+        "probability_calculation",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Let $$x$$ be the \\uline{probability} of rolling a $$1$$.",
+        "The probabilities of rolling a $$2$$, $$3$$, $$4$$, $$5$$, and $$6$$ are $$2x$$, $$3x$$, $$4x$$, $$5x$$, and $$6x$$, respectively.",
+        "The sum of the probabilties of rolling each number must equal $$1$$, so  $$x+2x+3x+4x+5x+6x=1$$,  $$21x=1$$,  $$x= \\dfrac{1}{21}$$,  So the probabilities of rolling a $$1$$, $$2$$, $$3$$, $$4$$, $$5$$, and $$6$$ are respectively $$\\dfrac{1}{21}$$,~ $$\\dfrac{2}{21}$$, $$\\dfrac{3}{21}$$, $$\\dfrac{4}{21}$$, $$\\dfrac{5}{21}$$, and, $$\\dfrac{6}{21}$$.",
+        "The possible combinations of two rolls that total $$7$$ are: $$(1,6)$$; $$(2,5)$$; $$(3,4)$$; $$(4,3)$$; $$(5,2)$$; $$(6,1)$$.",
+        "The probability of rolling a total of $$7$$ on the two dice is equal to the sum of the probabilities of rolling each combination.",
+        "$$P= \\dfrac{1}{21}\\cdot \\dfrac{6}{21}+ \\dfrac{2}{21}\\cdot \\dfrac{5}{21}+ \\dfrac{3}{21}\\cdot \\dfrac{4}{21}+ \\dfrac{4}{21}\\cdot \\dfrac{3}{21}+ \\dfrac{5}{21}\\cdot \\dfrac{2}{21}+ \\dfrac{6}{21}\\cdot \\dfrac{1}{21}= \\dfrac{8}{63}\\Rightarrow C$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "对于一对特殊的骰子，在每个骰子上掷出 1 、 2 、 3 、 4 、 5 和 6 的概率的比例是 1:2:3:4:5:6 .两颗骰子共掷出 7 的概率是多少？ (A) 4 63 (B) 1 8 (C) 8 63 (D) 1 6 (E) 2 7",
+      "solution_text": "Let x be the probability of rolling a 1 . The probabilities of rolling a 2 , 3 , 4 , 5 , and 6 are 2x , 3x , 4x , 5x , and 6x , respectively. The sum of the probabilties of rolling each number must equal 1 , so x+2x+3x+4x+5x+6x=1 , 21x=1 , x= 1 21 , So the probabilities of rolling a 1 , 2 , 3 , 4 , 5 , and 6 are respectively 1 21 ,~ 2 21 , 3 21 , 4 21 , 5 21 , and, 6 21 . The possible combinations of two rolls that total 7 are: (1,6) ; (2,5) ; (3,4) ; (4,3) ; (5,2) ; (6,1) . The probability of rolling a total of 7 on the two dice is equal to the sum of the probabilities of rolling each combination. P= 1 21 6 21 + 2 21 5 21 + 3 21 4 21 + 4 21 3 21 + 5 21 2 21 + 6 21 1 21 = 8 63 C",
+      "keywords": [
+        "amc10_12",
+        "classical_models_of_probabilities",
+        "combination",
+        "counting_probability",
+        "level_4",
+        "probability_calculation",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1065",
+        "queId": "b39fb4710ee041699a9e0b547d6be154",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\dfrac{4}{63}"
+          },
+          {
+            "label": "B",
+            "content": "\\dfrac{1}{8}"
+          },
+          {
+            "label": "C",
+            "content": "\\dfrac{8}{63}"
+          },
+          {
+            "label": "D",
+            "content": "\\dfrac{1}{6}"
+          },
+          {
+            "label": "E",
+            "content": "\\dfrac{2}{7}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->统计与概率->概率->事件与概率->互斥事件->互斥事件的概率加法公式",
+          "美国AMC10/12->Knowledge Point->Combination->Probability Calculation->Classical Models of Probabilities"
+        ],
+        "competition_source_list": [
+          "2006年AMC10竞赛B第21题"
+        ]
+      }
+    }
+  }
+]

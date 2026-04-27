@@ -1,0 +1,1134 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:algebra:level_1:01119",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1119,
+      "split": "en_train",
+      "source_problem_id": "187d23b145854fc3af538ceafbb56d10"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Given: $a-b\\textgreater a$ and $a+b\\textless b$. Which of the following must be true?~\\uline{~~~~~~~~~~}~  $I$. $a b$ is negative  $II$. $a+b$ is negative  $III$. $a-b$ is negative\n(A) I$ only\n(B) I$ and $III$ only\n(C) II$ only\n(D) I$, $II$, $III",
+      "problem_plain": "Given: a-b a and a+b b . Which of the following must be true?~ ~~~~~~~~~~ ~ I . a b is negative II . a+b is negative III . a-b is negative (A) I only (B) I and III only (C) II only (D) I , II , III",
+      "solution_latex": "$a-b\\textgreater a$ then $b\\textless0$  $a+b\\textless b$ then $a\\textless0$.  So both $a$ and $b$ are negative. $I$ is false, since the product will be positive. $II$ is true since the sum of two negative numbers is negative. $III$ is false because if $a=-1$ and $b=-2$ then $a-b$ is positive. Only $II$ is true.",
+      "solution_plain": "a-b a then b 0 a+b b then a 0 . So both a and b are negative. I is false, since the product will be positive. II is true since the sum of two negative numbers is negative. III is false because if a=-1 and b=-2 then a-b is positive. Only II is true."
+    },
+    "answer": {
+      "final_raw": "II$ only",
+      "final_normalized": "II$ only",
+      "candidates": [
+        "C",
+        "II$ only"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "inequalities"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "inequalities",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$a-b\\textgreater a$ then $b\\textless0$  $a+b\\textless b$ then $a\\textless0$.",
+        "So both $a$ and $b$ are negative.",
+        "$I$ is false, since the product will be positive.",
+        "$II$ is true since the sum of two negative numbers is negative.",
+        "$III$ is false because if $a=-1$ and $b=-2$ then $a-b$ is positive.",
+        "Only $II$ is true."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Given: a-b a and a+b b . Which of the following must be true?~ ~~~~~~~~~~ ~ I . a b is negative II . a+b is negative III . a-b is negative (A) I only (B) I and III only (C) II only (D) I , II , III",
+      "solution_text": "a-b a then b 0 a+b b then a 0 . So both a and b are negative. I is false, since the product will be positive. II is true since the sum of two negative numbers is negative. III is false because if a=-1 and b=-2 then a-b is positive. Only II is true.",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "inequalities",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3073",
+        "queId": "187d23b145854fc3af538ceafbb56d10",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "I$ only"
+          },
+          {
+            "label": "B",
+            "content": "I$ and $III$ only"
+          },
+          {
+            "label": "C",
+            "content": "II$ only"
+          },
+          {
+            "label": "D",
+            "content": "I$, $II$, $III"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Inequalities"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:algebra:level_1:01325",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1325,
+      "split": "en_train",
+      "source_problem_id": "b9b11cdc16554f4db9b7fa7ee094ac30"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Given the equation $3x+4y=5$, find the slope and $y$-intercept.\n(A) m=-3, b=4\n(B) m=-3, b=5\n(C) m=\\frac{3}{4}, b=\\frac{5}{4}\n(D) m=-\\frac{3}{4}, b=\\frac{5}{4}",
+      "problem_plain": "Given the equation 3x+4y=5 , find the slope and y -intercept. (A) m=-3, b=4 (B) m=-3, b=5 (C) m= 3 4 , b= 5 4 (D) m=- 3 4 , b= 5 4",
+      "solution_latex": "$3x+4y=5$,  $y=-\\frac{3}{4}x+\\frac{5}{4}$,  Its slope is $-\\frac{3}{4}$ and intercept is $\\frac{5}{4}$.",
+      "solution_plain": "3x+4y=5 , y=- 3 4 x+ 5 4 , Its slope is - 3 4 and intercept is 5 4 ."
+    },
+    "answer": {
+      "final_raw": "m=-\\frac{3}{4}, b=\\frac{5}{4}",
+      "final_normalized": "m=-\\frac{3}{4}, b=\\frac{5}{4}",
+      "candidates": [
+        "D",
+        "m=-\\frac{3}{4}, b=\\frac{5}{4}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "linear_equations_with_one_variable"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_1",
+        "linear_equations_with_one_variable",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$3x+4y=5$,  $y=-\\frac{3}{4}x+\\frac{5}{4}$,  Its slope is $-\\frac{3}{4}$ and intercept is $\\frac{5}{4}$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Given the equation 3x+4y=5 , find the slope and y -intercept. (A) m=-3, b=4 (B) m=-3, b=5 (C) m= 3 4 , b= 5 4 (D) m=- 3 4 , b= 5 4",
+      "solution_text": "3x+4y=5 , y=- 3 4 x+ 5 4 , Its slope is - 3 4 and intercept is 5 4 .",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_1",
+        "linear_equations_with_one_variable",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "4071",
+        "queId": "b9b11cdc16554f4db9b7fa7ee094ac30",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "m=-3, b=4"
+          },
+          {
+            "label": "B",
+            "content": "m=-3, b=5"
+          },
+          {
+            "label": "C",
+            "content": "m=\\frac{3}{4}, b=\\frac{5}{4}"
+          },
+          {
+            "label": "D",
+            "content": "m=-\\frac{3}{4}, b=\\frac{5}{4}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Linear Equations with one Variable"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:algebra:level_1:01352",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1352,
+      "split": "en_train",
+      "source_problem_id": "558a06db22c644d7841c7e0f16ddb041"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Match the linear equation, $6x-3y=2$, with its corresponding $y$-intercept.\n(A) \\frac{2}{3}\n(B) -\\frac{2}{3}\n(C) 2\n(D) 6",
+      "problem_plain": "Match the linear equation, 6x-3y=2 , with its corresponding y -intercept. (A) 2 3 (B) - 2 3 (C) 2 (D) 6",
+      "solution_latex": "$6x-3y=2$,  $y=2x-\\frac{2}{3}$,  Its $y$-intercept is $-\\frac{2}{3}$.",
+      "solution_plain": "6x-3y=2 , y=2x- 2 3 , Its y -intercept is - 2 3 ."
+    },
+    "answer": {
+      "final_raw": "-\\frac{2}{3}",
+      "final_normalized": "-\\frac{2}{3}",
+      "candidates": [
+        "-\\frac{2}{3}",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "linear_equations_with_one_variable"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_1",
+        "linear_equations_with_one_variable",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$6x-3y=2$,  $y=2x-\\frac{2}{3}$,  Its $y$-intercept is $-\\frac{2}{3}$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Match the linear equation, 6x-3y=2 , with its corresponding y -intercept. (A) 2 3 (B) - 2 3 (C) 2 (D) 6",
+      "solution_text": "6x-3y=2 , y=2x- 2 3 , Its y -intercept is - 2 3 .",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_1",
+        "linear_equations_with_one_variable",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "4187",
+        "queId": "558a06db22c644d7841c7e0f16ddb041",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{2}{3}"
+          },
+          {
+            "label": "B",
+            "content": "-\\frac{2}{3}"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "6"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Linear Equations with one Variable"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:algebra:level_1:01391",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1391,
+      "split": "en_train",
+      "source_problem_id": "a2d78d925d4d41fa82714b0ac146183a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which set of numbers go into the missing blanks respectively to make the equation true?  $7=14$ $\\div$~\\uline{~~~~~~~~~~}~$=\\frac{14}{\\square}=\\frac{14}{1}\\times\\frac{1}{\\square}$\n(A) 2, 1, 2\n(B) 1, 2, 2\n(C) 2, 2, 1\n(D) 2, 2, 2",
+      "problem_plain": "Which set of numbers go into the missing blanks respectively to make the equation true? 7=14 ~ ~~~~~~~~~~ ~ = 14 = 14 1 1 (A) 2, 1, 2 (B) 1, 2, 2 (C) 2, 2, 1 (D) 2, 2, 2",
+      "solution_latex": "Dividing a term by $2$ is the same as multiplying it by half ($\\frac{1}{2}$)!",
+      "solution_plain": "Dividing a term by 2 is the same as multiplying it by half ( 1 2 )!"
+    },
+    "answer": {
+      "final_raw": "2, 2, 2",
+      "final_normalized": "2, 2, 2",
+      "candidates": [
+        "2, 2, 2",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "algebra",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Dividing a term by $2$ is the same as multiplying it by half ($\\frac{1}{2}$)!"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which set of numbers go into the missing blanks respectively to make the equation true? 7=14 ~ ~~~~~~~~~~ ~ = 14 = 14 1 1 (A) 2, 1, 2 (B) 1, 2, 2 (C) 2, 2, 1 (D) 2, 2, 2",
+      "solution_text": "Dividing a term by 2 is the same as multiplying it by half ( 1 2 )!",
+      "keywords": [
+        "algebra",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "4360",
+        "queId": "a2d78d925d4d41fa82714b0ac146183a",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2, 1, 2"
+          },
+          {
+            "label": "B",
+            "content": "1, 2, 2"
+          },
+          {
+            "label": "C",
+            "content": "2, 2, 1"
+          },
+          {
+            "label": "D",
+            "content": "2, 2, 2"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:algebra:level_1:01447",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1447,
+      "split": "en_train",
+      "source_problem_id": "3bbcaf4295fd46ccad836ab4d0154afe"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which is the solution of the following inequality:  $-11x-10\\geq30-x$.\n(A) x\\leq-4\n(B) x\\geq-4\n(C) x\\leq-2\n(D) x\\geq-2",
+      "problem_plain": "Which is the solution of the following inequality: -11x-10 30-x . (A) x -4 (B) x -4 (C) x -2 (D) x -2",
+      "solution_latex": "$-10x\\leq40$  $x\\leq-4$",
+      "solution_plain": "-10x 40 x -4"
+    },
+    "answer": {
+      "final_raw": "x\\leq-4",
+      "final_normalized": "x\\leq-4",
+      "candidates": [
+        "A",
+        "x\\leq-4"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "inequalities"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "inequalities",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$-10x\\leq40$  $x\\leq-4$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which is the solution of the following inequality: -11x-10 30-x . (A) x -4 (B) x -4 (C) x -2 (D) x -2",
+      "solution_text": "-10x 40 x -4",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "inequalities",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "4577",
+        "queId": "3bbcaf4295fd46ccad836ab4d0154afe",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "x\\leq-4"
+          },
+          {
+            "label": "B",
+            "content": "x\\geq-4"
+          },
+          {
+            "label": "C",
+            "content": "x\\leq-2"
+          },
+          {
+            "label": "D",
+            "content": "x\\geq-2"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Inequalities"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:algebra:level_1:01548",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1548,
+      "split": "en_train",
+      "source_problem_id": "7fd1b4e51adb4efca7564e586e6bdd7c"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following expression is written correctly?\n(A) 3 \\times x+4\n(B) x \\times y+z\n(C) 6a+b\n(D) 3a+b \\times c",
+      "problem_plain": "Which of the following expression is written correctly? (A) 3 x+4 (B) x y+z (C) 6a+b (D) 3a+b c",
+      "solution_latex": "Only $ \\text C$ is in accordance with the rules of writing expression.",
+      "solution_plain": "Only C is in accordance with the rules of writing expression."
+    },
+    "answer": {
+      "final_raw": "6a+b",
+      "final_normalized": "6a+b",
+      "candidates": [
+        "6a+b",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Only $ \\text C$ is in accordance with the rules of writing expression."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following expression is written correctly? (A) 3 x+4 (B) x y+z (C) 6a+b (D) 3a+b c",
+      "solution_text": "Only C is in accordance with the rules of writing expression.",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "4984",
+        "queId": "7fd1b4e51adb4efca7564e586e6bdd7c",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3 \\times x+4"
+          },
+          {
+            "label": "B",
+            "content": "x \\times y+z"
+          },
+          {
+            "label": "C",
+            "content": "6a+b"
+          },
+          {
+            "label": "D",
+            "content": "3a+b \\times c"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:algebra:level_1:01577",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1577,
+      "split": "en_train",
+      "source_problem_id": "84a58bb8665d440db6cdba816650920d"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "After simplying the following expressions, which one is different from others?\n(A) (x+y)-(x-y)\n(B) (2x+3y)+(-2x-y)\n(C) (3x-2y)+(-3x+4y)\n(D) (x-y)+(-x+y)",
+      "problem_plain": "After simplying the following expressions, which one is different from others? (A) (x+y)-(x-y) (B) (2x+3y)+(-2x-y) (C) (3x-2y)+(-3x+4y) (D) (x-y)+(-x+y)",
+      "solution_latex": "$(x+y)-(x-y)=2y$  $(2x+3y)+(-2x-y)=2x+3y-2x-y=2y$  $(3x-2y)+(-3x+4y)=3x-2y-3x+4y=2y$  $(x-y)+(-x+y)=x-y-x+y=0$",
+      "solution_plain": "(x+y)-(x-y)=2y (2x+3y)+(-2x-y)=2x+3y-2x-y=2y (3x-2y)+(-3x+4y)=3x-2y-3x+4y=2y (x-y)+(-x+y)=x-y-x+y=0"
+    },
+    "answer": {
+      "final_raw": "(x-y)+(-x+y)",
+      "final_normalized": "(x-y)+(-x+y)",
+      "candidates": [
+        "(x-y)+(-x+y)",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$(x+y)-(x-y)=2y$  $(2x+3y)+(-2x-y)=2x+3y-2x-y=2y$  $(3x-2y)+(-3x+4y)=3x-2y-3x+4y=2y$  $(x-y)+(-x+y)=x-y-x+y=0$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "After simplying the following expressions, which one is different from others? (A) (x+y)-(x-y) (B) (2x+3y)+(-2x-y) (C) (3x-2y)+(-3x+4y) (D) (x-y)+(-x+y)",
+      "solution_text": "(x+y)-(x-y)=2y (2x+3y)+(-2x-y)=2x+3y-2x-y=2y (3x-2y)+(-3x+4y)=3x-2y-3x+4y=2y (x-y)+(-x+y)=x-y-x+y=0",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "5155",
+        "queId": "84a58bb8665d440db6cdba816650920d",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "(x+y)-(x-y)"
+          },
+          {
+            "label": "B",
+            "content": "(2x+3y)+(-2x-y)"
+          },
+          {
+            "label": "C",
+            "content": "(3x-2y)+(-3x+4y)"
+          },
+          {
+            "label": "D",
+            "content": "(x-y)+(-x+y)"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:algebra:level_1:01938",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1938,
+      "split": "en_train",
+      "source_problem_id": "fe59c815fd50431cba386c9b72f519ad"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What value of $a$ would make the solution to the equation, $$ 2 a+3-4 x+7=3\\left(-\\frac{4}{3} x+7\\right) $$,~\"infinitely many solutions\"?~\\uline{~~~~~~~~~~}~\n(A) -5\n(B) \\frac{11}{2}\n(C) 10.5\n(D) 21",
+      "problem_plain": "What value of a would make the solution to the equation, 2 a+3-4 x+7=3 (- 4 3 x+7 ) ,~\"infinitely many solutions\"?~ ~~~~~~~~~~ ~ (A) -5 (B) 11 2 (C) 10.5 (D) 21",
+      "solution_latex": "$2 a+10-4 x=-4 x+21$  $2 a=11 $  $a=\\frac{11}{2}$",
+      "solution_plain": "2 a+10-4 x=-4 x+21 2 a=11 a= 11 2"
+    },
+    "answer": {
+      "final_raw": "\\frac{11}{2}",
+      "final_normalized": "\\frac{11}{2}",
+      "candidates": [
+        "B",
+        "\\frac{11}{2}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$2 a+10-4 x=-4 x+21$  $2 a=11 $  $a=\\frac{11}{2}$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What value of a would make the solution to the equation, 2 a+3-4 x+7=3 (- 4 3 x+7 ) ,~\"infinitely many solutions\"?~ ~~~~~~~~~~ ~ (A) -5 (B) 11 2 (C) 10.5 (D) 21",
+      "solution_text": "2 a+10-4 x=-4 x+21 2 a=11 a= 11 2",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "6704",
+        "queId": "fe59c815fd50431cba386c9b72f519ad",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "-5"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{11}{2}"
+          },
+          {
+            "label": "C",
+            "content": "10.5"
+          },
+          {
+            "label": "D",
+            "content": "21"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:algebra:level_1:02160",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2160,
+      "split": "en_train",
+      "source_problem_id": "3c899876d4434a43ab94cea802694831"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A basket with $$5$$ watermelons weighs $$3250$$ grams. If $$3$$ of the watermelons were taken out, the remaining weight would be $$1510$$ grams. What is the weight (in grams) of the basket?\n(A) 350$$ grams\n(B) 1160$$ grams\n(C) 1740$$ grams\n(D) 870$$ grams\n(E) None of the above",
+      "problem_plain": "A basket with 5 watermelons weighs 3250 grams. If 3 of the watermelons were taken out, the remaining weight would be 1510 grams. What is the weight (in grams) of the basket? (A) 350 grams (B) 1160 grams (C) 1740 grams (D) 870 grams (E) None of the above",
+      "solution_latex": "$$NA.$$",
+      "solution_plain": "NA."
+    },
+    "answer": {
+      "final_raw": "350$$ grams",
+      "final_normalized": "350$$ grams",
+      "candidates": [
+        "350$$ grams",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "equation_word_problems",
+        "equivalent_substitution_in_equation_word_problems",
+        "replacement_of_equivalent_substitution",
+        "word_problem_modules"
+      ],
+      "tags": [
+        "algebra",
+        "en",
+        "en_train",
+        "equation_word_problems",
+        "equivalent_substitution_in_equation_word_problems",
+        "level_1",
+        "replacement_of_equivalent_substitution",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$NA.$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A basket with 5 watermelons weighs 3250 grams. If 3 of the watermelons were taken out, the remaining weight would be 1510 grams. What is the weight (in grams) of the basket? (A) 350 grams (B) 1160 grams (C) 1740 grams (D) 870 grams (E) None of the above",
+      "solution_text": "NA.",
+      "keywords": [
+        "algebra",
+        "en",
+        "en_train",
+        "equation_word_problems",
+        "equivalent_substitution_in_equation_word_problems",
+        "level_1",
+        "replacement_of_equivalent_substitution",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "8086",
+        "queId": "3c899876d4434a43ab94cea802694831",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "350$$ grams"
+          },
+          {
+            "label": "B",
+            "content": "1160$$ grams"
+          },
+          {
+            "label": "C",
+            "content": "1740$$ grams"
+          },
+          {
+            "label": "D",
+            "content": "870$$ grams"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules->Equation Word Problems->Equivalent Substitution in Equation Word Problems->Replacement of Equivalent Substitution"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  }
+]

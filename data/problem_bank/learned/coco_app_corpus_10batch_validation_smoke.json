@@ -1,0 +1,373 @@
+{
+  "schema_version": "coco_app_corpus_validation.v1",
+  "generated_at": "2026-04-25T13:15:45+00:00",
+  "batch_size": 10,
+  "input_total": 10,
+  "processed_total": 10,
+  "summary": {
+    "total": 10,
+    "ok": 9,
+    "review": 1,
+    "error": 0,
+    "issue_counts": {
+      "answer_missing": 1,
+      "card_needs_review": 1,
+      "expression_missing": 1,
+      "ocr_noise_high": 1,
+      "solve_failed": 1
+    },
+    "by_band": {
+      "초등": {
+        "ok": 9,
+        "review": 1,
+        "ocr_noise_high": 1,
+        "expression_missing": 1,
+        "solve_failed": 1,
+        "answer_missing": 1,
+        "card_needs_review": 1
+      }
+    },
+    "by_source_kind": {
+      "generated_auto": {
+        "ok": 9,
+        "review": 1,
+        "ocr_noise_high": 1,
+        "expression_missing": 1,
+        "solve_failed": 1,
+        "answer_missing": 1,
+        "card_needs_review": 1
+      }
+    },
+    "by_topic": {
+      "arithmetic": {
+        "ok": 4,
+        "review": 1
+      },
+      "geometry": {
+        "ok": 2
+      },
+      "pattern": {
+        "ok": 3
+      }
+    }
+  },
+  "issue_examples": {
+    "answer_missing": [
+      {
+        "index": 6,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "generated_auto",
+        "relative_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_003_easy_table_pattern.png",
+        "problem_text": "아래 표의 수량은 모두 몇 개인지 구하시오",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "아래 표의 수량은 모두 몇 개인지 구하시오 초등 1학년ㆍ규칙 찾기ㆍ기본 table - pattern 아래 표의 수량은 모두 몇 개인지 구하시오. a 42 16 27 18 항복 0Co | ： AS 1학년ㆍ규칙 찾기ㆍ기본 table - pattern ： 아래 표의 SSS 모두 몇 개인지 구하시오. table_row_2 42 16 2 18 초등 1학년ㆍ규칙 찾기ㆍ기본 table - patte...",
+        "error": null
+      }
+    ],
+    "card_needs_review": [
+      {
+        "index": 6,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "generated_auto",
+        "relative_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_003_easy_table_pattern.png",
+        "problem_text": "아래 표의 수량은 모두 몇 개인지 구하시오",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "아래 표의 수량은 모두 몇 개인지 구하시오 초등 1학년ㆍ규칙 찾기ㆍ기본 table - pattern 아래 표의 수량은 모두 몇 개인지 구하시오. a 42 16 27 18 항복 0Co | ： AS 1학년ㆍ규칙 찾기ㆍ기본 table - pattern ： 아래 표의 SSS 모두 몇 개인지 구하시오. table_row_2 42 16 2 18 초등 1학년ㆍ규칙 찾기ㆍ기본 table - patte...",
+        "error": null
+      }
+    ],
+    "expression_missing": [
+      {
+        "index": 6,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "generated_auto",
+        "relative_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_003_easy_table_pattern.png",
+        "problem_text": "아래 표의 수량은 모두 몇 개인지 구하시오",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "아래 표의 수량은 모두 몇 개인지 구하시오 초등 1학년ㆍ규칙 찾기ㆍ기본 table - pattern 아래 표의 수량은 모두 몇 개인지 구하시오. a 42 16 27 18 항복 0Co | ： AS 1학년ㆍ규칙 찾기ㆍ기본 table - pattern ： 아래 표의 SSS 모두 몇 개인지 구하시오. table_row_2 42 16 2 18 초등 1학년ㆍ규칙 찾기ㆍ기본 table - patte...",
+        "error": null
+      }
+    ],
+    "ocr_noise_high": [
+      {
+        "index": 6,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "generated_auto",
+        "relative_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_003_easy_table_pattern.png",
+        "problem_text": "아래 표의 수량은 모두 몇 개인지 구하시오",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "아래 표의 수량은 모두 몇 개인지 구하시오 초등 1학년ㆍ규칙 찾기ㆍ기본 table - pattern 아래 표의 수량은 모두 몇 개인지 구하시오. a 42 16 27 18 항복 0Co | ： AS 1학년ㆍ규칙 찾기ㆍ기본 table - pattern ： 아래 표의 SSS 모두 몇 개인지 구하시오. table_row_2 42 16 2 18 초등 1학년ㆍ규칙 찾기ㆍ기본 table - patte...",
+        "error": null
+      }
+    ],
+    "solve_failed": [
+      {
+        "index": 6,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "generated_auto",
+        "relative_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_003_easy_table_pattern.png",
+        "problem_text": "아래 표의 수량은 모두 몇 개인지 구하시오",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "아래 표의 수량은 모두 몇 개인지 구하시오 초등 1학년ㆍ규칙 찾기ㆍ기본 table - pattern 아래 표의 수량은 모두 몇 개인지 구하시오. a 42 16 27 18 항복 0Co | ： AS 1학년ㆍ규칙 찾기ㆍ기본 table - pattern ： 아래 표의 SSS 모두 몇 개인지 구하시오. table_row_2 42 16 2 18 초등 1학년ㆍ규칙 찾기ㆍ기본 table - patte...",
+        "error": null
+      }
+    ]
+  },
+  "results": [
+    {
+      "index": 1,
+      "case_id": "elementary_g01_002_easy_word_geometry",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "generated_auto",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_002_easy_word_geometry.png",
+      "relative_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_002_easy_word_geometry.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "geometry",
+      "display_topic": "geometry",
+      "problem_text": "이 밭의 넓이를 구하시오. 600",
+      "expressions": [
+        "10*6",
+        "rectangle_width 10rectangle_height 6rectangle_area 10*6"
+      ],
+      "computed_answer": "60",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "이 밭의 넓이를 구하시오. 600 . 초등 학년 ㆍ여러 가지 모양과 길이 비교 ㆍ 기본 word - geometry 가로가 10cm, 세로가 6cme! 직사각형 모양 Bro) 이 밭의 넓이를 구하시오. 00 10cm 초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 word ㆍ geometry 가로가 10cm, 세로가 6cme! 직사각형 모양 받이 이 밭의 넓이를 구하시오. een 가로가 ...",
+      "elapsed_seconds": 0.866
+    },
+    {
+      "index": 2,
+      "case_id": "elementary_g01_006_easy_expression_geometry",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "generated_auto",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_006_easy_expression_geometry.png",
+      "relative_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_006_easy_expression_geometry.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "다음 식의 값을 구하시오",
+      "expressions": [
+        "63 + 27"
+      ],
+      "computed_answer": "90",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "다음 식의 값을 구하시오 | AS 1학년 ㆍ여러 가지 SOFT 길이 비교ㆍ기본 expression ㆍ geometr © < =. 다음 식의 값을 구하시오. 63-+ 27 초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 expression ㆍ geometr 63 + 27 | AS 1학년 ㆍ여러 가지 SOFT 길이 비교ㆍ기본 expression ㆍ geometr © < =. 다음 식의 값을 ...",
+      "elapsed_seconds": 0.454
+    },
+    {
+      "index": 3,
+      "case_id": "elementary_g01_010_easy_geometry_geometry",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "generated_auto",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_010_easy_geometry_geometry.png",
+      "relative_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_010_easy_geometry_geometry.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "linear_equation",
+      "display_topic": "geometry",
+      "problem_text": "오른쪽 직사각형의 넓이를 구하시오",
+      "expressions": [
+        "8*6",
+        "rectangle_width 8rectangle_height 6rectangle_area 8*6"
+      ],
+      "computed_answer": "48",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "오른쪽 직사각형의 넓이를 구하시오 _ 초등 1학년 ㆍ여러 가지 모양과 길이 비교ㆍ기본 geometry - geometry 고즈 증 L- = = 오른쪽 직사각형의 넓이를 구하시오. 0 더 8cm 초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 geometry - geometry 르즈 층 L = = 80070 rectangle_width 8rectangle_height 6rectangle_a...",
+      "elapsed_seconds": 0.664
+    },
+    {
+      "index": 4,
+      "case_id": "elementary_g01_014_easy_expression_geometry",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "generated_auto",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_014_easy_expression_geometry.png",
+      "relative_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_014_easy_expression_geometry.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "다음 식의 값을 구하시오",
+      "expressions": [
+        "86 + 13"
+      ],
+      "computed_answer": "99",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "다음 식의 값을 구하시오 | AS 1학년 ㆍ여러 가지 SOFT 길이 비교ㆍ기본 expression ㆍ geometr © < =. 다음 식의 값을 구하시오. 86 + 13 초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 expression ㆍ geometr | AS 1학년 ㆍ여러 가지 SOFT 길이 비교ㆍ기본 expression ㆍ geometr © < =. 다음 식의 값을 구하시오. 86...",
+      "elapsed_seconds": 0.463
+    },
+    {
+      "index": 5,
+      "case_id": "elementary_g01_018_easy_table_geometry",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "generated_auto",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_018_easy_table_geometry.png",
+      "relative_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_018_easy_table_geometry.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "아래 표의 SSS 모두 몇 개인지 구하시오",
+      "expressions": [
+        "15+36+39+19"
+      ],
+      "computed_answer": "109",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "verified",
+      "source_preview": "아래 표의 SSS 모두 몇 개인지 구하시오 초등 1학년ㆍ여러 가지 모양과 길이 비교 ㆍ기본 table - geometry 아래 표의 SSS 모두 몇 개인지 구하시오. a 15 36 39 19 아래 표의 수량은 모두 몇 개인지 구하시오. ： 초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 table - geometry | table_row_2 15 36 39 19 초등 1학년ㆍ여러 가지 모...",
+      "elapsed_seconds": 1.369
+    },
+    {
+      "index": 6,
+      "case_id": "elementary_g01_003_easy_table_pattern",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "generated_auto",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_003_easy_table_pattern.png",
+      "relative_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_003_easy_table_pattern.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "expression_missing",
+        "solve_failed",
+        "answer_missing",
+        "card_needs_review"
+      ],
+      "math_topic": "unknown",
+      "display_topic": "arithmetic",
+      "problem_text": "아래 표의 수량은 모두 몇 개인지 구하시오",
+      "expressions": [],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "아래 표의 수량은 모두 몇 개인지 구하시오 초등 1학년ㆍ규칙 찾기ㆍ기본 table - pattern 아래 표의 수량은 모두 몇 개인지 구하시오. a 42 16 27 18 항복 0Co | ： AS 1학년ㆍ규칙 찾기ㆍ기본 table - pattern ： 아래 표의 SSS 모두 몇 개인지 구하시오. table_row_2 42 16 2 18 초등 1학년ㆍ규칙 찾기ㆍ기본 table - patte...",
+      "elapsed_seconds": 1.959
+    },
+    {
+      "index": 7,
+      "case_id": "elementary_g01_007_easy_word_pattern",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "generated_auto",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_007_easy_word_pattern.png",
+      "relative_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_007_easy_word_pattern.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "32+35-9",
+      "expressions": [
+        "32+35-9"
+      ],
+      "computed_answer": "58",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "verified",
+      "source_preview": "32+35-9 ： AS 1학년ㆍ규칙 찾기ㆍ기본 word - pattern ： 민지는 스티커를 32장 가지고 있었습니다. 35장을 더 받고, 그중 9장을 사용했습니다. 남은 스티커는 몇 장인 초등 1학년ㆍ규칙 찾기ㆍ기본 word - pattern 민지는 스티커를 328 가지고 있었습니다. 35장을 더 받고, 그중 9장을 사용했습니다. 남은 스티커는 몇 장온 ： AS 1학년ㆍ규칙 찾기ㆍ기본...",
+      "elapsed_seconds": 0.75
+    },
+    {
+      "index": 8,
+      "case_id": "elementary_g01_011_easy_expression_pattern",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "generated_auto",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_011_easy_expression_pattern.png",
+      "relative_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_011_easy_expression_pattern.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "linear_equation",
+      "display_topic": "pattern",
+      "problem_text": "answer=28",
+      "expressions": [
+        "answer=28",
+        "*106 = Oo",
+        "10 ="
+      ],
+      "computed_answer": "28",
+      "matched_choice": "",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "source_preview": "answer=28 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern 10 = 규칙을 찾아 빈칸에 알맞은 수를 쓰시오. 4, 10, 16, 22, 0 | 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern “106 = Oo TAS 찾아 빈칸에 알맞은 수를 MAIO. 4 10, 16, 22, 니 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern...",
+      "elapsed_seconds": 0.636
+    },
+    {
+      "index": 9,
+      "case_id": "elementary_g01_015_easy_expression_pattern",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "generated_auto",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_015_easy_expression_pattern.png",
+      "relative_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_015_easy_expression_pattern.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "linear_equation",
+      "display_topic": "pattern",
+      "problem_text": "answer=15",
+      "expressions": [
+        "answer=15",
+        "10 ="
+      ],
+      "computed_answer": "15",
+      "matched_choice": "",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "source_preview": "answer=15 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern 10 = 규칙을 찾아 빈칸에 알맞은 수를 MAIC. 7,9, 11, 13, 2 | 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern rio =x © - 규칙을 찾아 빈칸에 알맞은 수를 쓰시오 7 9, 11, 13, O 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern 10...",
+      "elapsed_seconds": 0.653
+    },
+    {
+      "index": 10,
+      "case_id": "elementary_g01_019_easy_expression_pattern",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "generated_auto",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_019_easy_expression_pattern.png",
+      "relative_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_019_easy_expression_pattern.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "linear_equation",
+      "display_topic": "pattern",
+      "problem_text": "answer=15",
+      "expressions": [
+        "answer=15",
+        "10 ="
+      ],
+      "computed_answer": "15",
+      "matched_choice": "",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "source_preview": "answer=15 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern 10 = 규칙을 찾아 빈칸에 알맞은 수를 쓰시오. 3, 6,9, 12, 0 AS 1학년ㆍ규칙 찾기ㆍ기본 expression - pattern ~|Oo <= O 규칙을 찾아 빈칸에 알맞은 AS Malo. 3, 6, 9 12, 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern 10 = 규칙을...",
+      "elapsed_seconds": 0.639
+    }
+  ]
+}

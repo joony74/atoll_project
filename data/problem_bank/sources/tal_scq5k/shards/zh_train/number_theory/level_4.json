@@ -1,0 +1,3373 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:00045",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 45,
+      "split": "zh_train",
+      "source_problem_id": "c9dda81a33f44f8bb8c34025b7ae45dd"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "要想用天平称出$$1\\sim40$$克所有整数克的质量，如果允许两边放砝码，至少用（  ）个砝码。\n(A) 4\n(B) 5\n(C) 6\n(D) 7",
+      "problem_plain": "要想用天平称出 1 40 克所有整数克的质量，如果允许两边放砝码，至少用（ ）个砝码。 (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_latex": "若只有一个砝码，那么这个砝码有放左、放右和不放$$3$$种不同选择，其中左、右都不放的情况不计，剩下的情况会出现左右重复，只能称出$$\\frac{3-1}{2}=1$$（种）不同的质量；取$$1$$克，可以称出$$1$$克；  若有两个砝码，共有$$3\\times 3=9$$（种）放法，最多称出$$\\frac{{{3}^{2}}-1}{2}=4$$（种）不同的质量；取$$1$$克和$$3$$克，即可称出$$1$ $4$$克；  若有三个砝码，共有$${{3}^{3}}=27$$（种）放法，最多称出$$\\frac{{{3}^{3}}-1}{2}=13$$（种）不同的质量；取$$1$$克、$$3$$克和$$9$$克，即可称出$$1$ $13$$克；  若有四个砝码，共有$${{3}^{4}}=81$$（种）放法，最多称出$$\\frac{{{3}^{4}}-1}{2}=40$$（种）不同的质量．取$$1$$克、$$3$$克、$$9$$克和$$27$$克，即可称出$$1$ $40$$克．  由此我们只需$$1$$克、$$3$$克、$$9$$克、$$27$$克这样的$$4$$个砝码，即可称出$$1$ $40$$克所有整数克的质量．",
+      "solution_plain": "若只有一个砝码，那么这个砝码有放左、放右和不放 3 种不同选择，其中左、右都不放的情况不计，剩下的情况会出现左右重复，只能称出 3-1 2 =1 （种）不同的质量；取 1 克，可以称出 1 克； 若有两个砝码，共有 3 3=9 （种）放法，最多称出 3 ^ 2 -1 2 =4 （种）不同的质量；取 1 克和 3 克，即可称出 1 4 克； 若有三个砝码，共有 3 ^ 3 =27 （种）放法，最多称出 3 ^ 3 -1 2 =13 （种）不同的质量；取 1 克、 3 克和 9 克，即可称出 1 13 克； 若有四个砝码，共有 3 ^ 4 =81 （种）放法，最多称出 3 ^ 4 -1 2 =40 （种）不同的质量．取 1 克、 3 克、 9 克和 27 克，即可称出 1 40 克． 由此我们只需 1 克、 3 克、 9 克、 27 克这样的 4 个砝码，即可称出 1 40 克所有整数克的质量．"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "若只有一个砝码，那么这个砝码有放左、放右和不放$$3$$种不同选择，其中左、右都不放的情况不计，剩下的情况会出现左右重复，只能称出$$\\frac{3-1}{2}=1$$（种）不同的质量；取$$1$$克，可以称出$$1$$克；  若有两个砝码，共有$$3\\times 3=9$$（种）放法，最多称出$$\\frac{{{3}^{2}}-1}{2}=4$$（种）不同的质量；取$$1$$克和$$3$$克，即可称出$$1$ $4$$克；  若有三个砝码，共有$${{3}^{3}}=27$$（种）放法，最多称出$$\\frac{{{3}^{3}}-1}{2}=13$$（种）不同的质量；取$$1$$克、$$3$$克和$$9$$克，即可称出$$1$ $13$$克；  若有四个砝码，共有$${{3}^{4}}=81$$（种）放法，最多称出$$\\frac{{{3}^{4}}-1}{2}=40$$（种）不同的质量．取$$1$$克、$$3$$克、$$9$$克和$$27$$克，即可称出$$1$ $40$$克．  由此我们只需$$1$$克、$$3$$克、$$9$$克、$$27$$克这样的$$4$$个砝码，即可称出$$1$ $40$$克所有整数克的质量．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "要想用天平称出 1 40 克所有整数克的质量，如果允许两边放砝码，至少用（ ）个砝码。 (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_text": "若只有一个砝码，那么这个砝码有放左、放右和不放 3 种不同选择，其中左、右都不放的情况不计，剩下的情况会出现左右重复，只能称出 3-1 2 =1 （种）不同的质量；取 1 克，可以称出 1 克； 若有两个砝码，共有 3 3=9 （种）放法，最多称出 3 ^ 2 -1 2 =4 （种）不同的质量；取 1 克和 3 克，即可称出 1 4 克； 若有三个砝码，共有 3 ^ 3 =27 （种）放法，最多称出 3 ^ 3 -1 2 =13 （种）不同的质量；取 1 克、 3 克和 9 克，即可称出 1 13 克； 若有四个砝码，共有 3 ^ 4 =81 （种）放法，最多称出 3 ^ 4 -1 2 =40 （种）不同的质量．取 1 克、 3 克、 9 克和 27 克，即可称出 1 40 克． 由此我们只需 1 克、 3 克、 9 克、 27 克这样的 4 个砝码，即可称出 1 40 克所有整数克的质量．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "465",
+        "queId": "c9dda81a33f44f8bb8c34025b7ae45dd",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "7"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->枚举思想"
+        ],
+        "competition_source_list": [
+          "2010年五年级竞赛创新杯",
+          "2010年六年级竞赛创新杯"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:00140",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 140,
+      "split": "zh_train",
+      "source_problem_id": "3c45ef6542654659ac04603c61e0b261"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在$$1$$、$$2$$、$$3$$、$$4$$\\ldots\\ldots$$2007$$这$$2007$$个数中有~\\uline{~~~~~~~~~~}~个自然数$$a$$能使$$2008+a$$能被$$2007-a$$整除。\n(A) 6\n(B) 7\n(C) 8\n(D) 9",
+      "problem_plain": "在 1 、 2 、 3 、 4 2007 这 2007 个数中有~ ~~~~~~~~~~ ~个自然数 a 能使 2008+a 能被 2007-a 整除。 (A) 6 (B) 7 (C) 8 (D) 9",
+      "solution_latex": "【详解】 要使得$$2008+a$$能被$$2007-a$$整除，我们可以将条件等价的转化为只要让$$\\frac{2008+a}{2007-a}$$是一个整数即可。下面是一个比较难的技巧，我们知道若$$a$$可以使得$$\\frac{2008+a}{2007-a}$$是一个整数，那么$$a$$也同样可以使得$$\\frac{2008+a}{2007-a}+1=\\frac{2008+a+2007-a}{2007-a}=\\frac{4015}{2007-a}$$是一个整数，这样只要$$2007-a$$是$$4015$$的约数即可，将$$4015$$分解可知其共有$$8$$个因数，其中$$4015$$是最大的一个，但是显然没有可以让$$2007-a$$等于$$4015$$的$$a$$的值，其余的$$7$$个均可以有对应的$$a$$的值，所以满足条件的$$a$$的取值共有$$7$$个。",
+      "solution_plain": "【详解】 要使得 2008+a 能被 2007-a 整除，我们可以将条件等价的转化为只要让 2008+a 2007-a 是一个整数即可。下面是一个比较难的技巧，我们知道若 a 可以使得 2008+a 2007-a 是一个整数，那么 a 也同样可以使得 2008+a 2007-a +1= 2008+a+2007-a 2007-a = 4015 2007-a 是一个整数，这样只要 2007-a 是 4015 的约数即可，将 4015 分解可知其共有 8 个因数，其中 4015 是最大的一个，但是显然没有可以让 2007-a 等于 4015 的 a 的值，其余的 7 个均可以有对应的 a 的值，所以满足条件的 a 的取值共有 7 个。"
+    },
+    "answer": {
+      "final_raw": "7",
+      "final_normalized": "7",
+      "candidates": [
+        "7",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "【详解】 要使得$$2008+a$$能被$$2007-a$$整除，我们可以将条件等价的转化为只要让$$\\frac{2008+a}{2007-a}$$是一个整数即可。下面是一个比较难的技巧，我们知道若$$a$$可以使得$$\\frac{2008+a}{2007-a}$$是一个整数，那么$$a$$也同样可以使得$$\\frac{2008+a}{2007-a}+1=\\frac{2008+a+2007-a}{2007-a}=\\frac{4015}{2007-a}$$是一个整数，这样只要$$2007-a$$是$$4015$$的约数即可，将$$4015$$分解可知其共有$$8$$个因数，其中$$4015$$是最大的一个，但是显然没有可以让$$2007-a$$等于$$4015$$的$$a$$的值，其余的$$7$$个均可以有对应的$$a$$的值，所以满足条件的$$a$$的取值共有$$7$$个。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在 1 、 2 、 3 、 4 2007 这 2007 个数中有~ ~~~~~~~~~~ ~个自然数 a 能使 2008+a 能被 2007-a 整除。 (A) 6 (B) 7 (C) 8 (D) 9",
+      "solution_text": "【详解】 要使得 2008+a 能被 2007-a 整除，我们可以将条件等价的转化为只要让 2008+a 2007-a 是一个整数即可。下面是一个比较难的技巧，我们知道若 a 可以使得 2008+a 2007-a 是一个整数，那么 a 也同样可以使得 2008+a 2007-a +1= 2008+a+2007-a 2007-a = 4015 2007-a 是一个整数，这样只要 2007-a 是 4015 的约数即可，将 4015 分解可知其共有 8 个因数，其中 4015 是最大的一个，但是显然没有可以让 2007-a 等于 4015 的 a 的值，其余的 7 个均可以有对应的 a 的值，所以满足条件的 a 的取值共有 7 个。",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "754",
+        "queId": "3c45ef6542654659ac04603c61e0b261",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "7"
+          },
+          {
+            "label": "C",
+            "content": "8"
+          },
+          {
+            "label": "D",
+            "content": "9"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->因数与倍数"
+        ],
+        "competition_source_list": [
+          "2022年小学高年级六年级竞赛（小学奥数5-2-5整除与分类计数综合专项训练）第6题",
+          "2022年小学高年级六年级竞赛（小学奥数5-2-5整除与分类计数综合专项训练）"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:00154",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 154,
+      "split": "zh_train",
+      "source_problem_id": "09982d2d1a6f437bbfc45ba748715bcf"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "给出一列数：$$23+m$$，$$23+2m$$，$$23+3m$$，$$\\cdot \\cdot \\cdot $$，$$23+2023m$$，这$$2023$$个数的和除以$$14$$的余数是（其中$$m$$为正整数）．\n(A) 9\n(B) 7\n(C) 5\n(D) 3",
+      "problem_plain": "给出一列数： 23+m ， 23+2m ， 23+3m ， ， 23+2023m ，这 2023 个数的和除以 14 的余数是（其中 m 为正整数）． (A) 9 (B) 7 (C) 5 (D) 3",
+      "solution_latex": "$$23\\times 2023+(1+2+\\cdot \\cdot \\cdot +2023)m$$除以$$14$$的余数，  $$23\\div 14$$余$$9$$，  $$23\\div 14$$余$$7$$，  $$1+2+\\cdot \\cdot \\cdot +2023=2023\\times 1012$$刚好是$$14$$的倍数，  那么只用看$$23\\times 2023$$除以$$14$$的余数是$$7$$．",
+      "solution_plain": "23 2023+(1+2+ +2023)m 除以 14 的余数， 23 14 余 9 ， 23 14 余 7 ， 1+2+ +2023=2023 1012 刚好是 14 的倍数， 那么只用看 23 2023 除以 14 的余数是 7 ．"
+    },
+    "answer": {
+      "final_raw": "7",
+      "final_normalized": "7",
+      "candidates": [
+        "7",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$23\\times 2023+(1+2+\\cdot \\cdot \\cdot +2023)m$$除以$$14$$的余数，  $$23\\div 14$$余$$9$$，  $$23\\div 14$$余$$7$$，  $$1+2+\\cdot \\cdot \\cdot +2023=2023\\times 1012$$刚好是$$14$$的倍数，  那么只用看$$23\\times 2023$$除以$$14$$的余数是$$7$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "给出一列数： 23+m ， 23+2m ， 23+3m ， ， 23+2023m ，这 2023 个数的和除以 14 的余数是（其中 m 为正整数）． (A) 9 (B) 7 (C) 5 (D) 3",
+      "solution_text": "23 2023+(1+2+ +2023)m 除以 14 的余数， 23 14 余 9 ， 23 14 余 7 ， 1+2+ +2023=2023 1012 刚好是 14 的倍数， 那么只用看 23 2023 除以 14 的余数是 7 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "553",
+        "queId": "09982d2d1a6f437bbfc45ba748715bcf",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "9"
+          },
+          {
+            "label": "B",
+            "content": "7"
+          },
+          {
+            "label": "C",
+            "content": "5"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->逻辑分析->代数逻辑推理"
+        ],
+        "competition_source_list": [
+          "2015年第13届全国创新杯五年级竞赛复赛第7题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:00156",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 156,
+      "split": "zh_train",
+      "source_problem_id": "15d058581e4e4de0b6e3386af14ea11a"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "对于整数$$n\\geqslant 3$$，用$$\\varphi \\left( n \\right)$$表示所有小于$$n$$的素数的乘积，求满足条件$$\\varphi \\left( n \\right)=22n-32$$的所有正整数$$n$$，$$n$$为．\n(A) n\\textgreater11\n(B) n\\textless{}11\n(C) n=11\n(D) n$$有多个值",
+      "problem_plain": "对于整数 n 3 ，用 ( n ) 表示所有小于 n 的素数的乘积，求满足条件 ( n )=22n-32 的所有正整数 n ， n 为． (A) n 11 (B) n 11 (C) n=11 (D) n 有多个值",
+      "solution_latex": "若$$n\\textgreater11$$，则$$11$$整除$$\\varphi \\left( n \\right)$$，但$$11$$不能整除$$22n-32$$．  因此，$$n\\textgreater11$$不符合要求．故，$$n\\leqslant 11$$．  若$$7\\textless{}n\\leqslant 11$$，则$$\\varphi \\left( n \\right)=2\\times 3\\times 5\\times 7=210$$，  由$$210=22n-32$$，  得$$n=11$$．  若$$5\\textless{}6\\leqslant 7$$，则$$\\varphi \\left( n \\right)=2\\times 3\\times 5=30$$，  由$$30=22n-32$$，得正整数$$n$$不存在．  若$$3\\textless{}n\\leqslant 5$$，则$$\\varphi \\left( n \\right)=2\\times 3=6$$，  由$$6=22n-32$$，得正整数$$n$$不存在．  若$$n=3$$，则$$\\varphi \\left( n \\right)=2$$，由$$2=22n-32$$，  得正整数$$n$$不存在．  ∴满足条件的正整数$$n$$只有$$1$$个，$$n=11$$．  解法二：由$$\\varphi \\left( n \\right)=22n-32$$，得$$\\varphi \\left( n \\right)-1024=22\\left( n-48 \\right)$$．  由于$$\\varphi \\left( n \\right)$$是偶数，但不是$$4$$的倍数，因此，$$n-48$$是奇数．  若$$n-48\\geqslant 3$$，则$$n-48$$含有奇数的素数因子$$p$$，  即$$p$$为奇素数，且$$p$$整除$$n-48$$．  由$$n-48\\textless{}n$$知，$$p$$整除$$\\varphi \\left( n \\right)$$．由此$$p$$整除$$1024$$矛盾．  故，$$n-48\\textless{}3$$，即$$n\\leqslant 49$$，且$$n$$为奇数．  ∵$$n\\leqslant 49$$时，$$22n-32\\leqslant 22\\times 49-32=1046$$，  ∴$$\\varphi \\left( n \\right)\\leqslant 1046$$．  又$$2\\times 3\\times 5\\times 7=210$$，$$2\\times 3\\times 5\\times 7\\times 11=210\\times 11\\textgreater1046$$．  ∴$$n\\leqslant 11$$，即$$n=3，$$5$$，$$7$$，$$9$$，11$$．  将$$n=3，$$5$$，$$7$$，$$9$$，11$$分别代入$$\\varphi \\left( n \\right)=22n-32$$验证，  $$n=3$$时，$$\\varphi \\left( 3 \\right)=2$$，$$22n-32=34$$，不符合要求．  $$n=$$5时，$$\\varphi \\left( 5 \\right)=2\\times 3=6$$，$$22n-32=78$$，不符合要求．  $$n=7$$时，$$\\varphi \\left( 7 \\right)=2\\times 3\\times 5=30$$，$$22n-32=122$$，不符合要求．  $$n=9$$时，$$\\varphi \\left( 9 \\right)=2\\times 3\\times 5\\times 7=210$$，$$22n-32=166$$，不符合要求．  $$n=11$$时，$$\\varphi \\left( 11 \\right)=2\\times 3\\times 5\\times 7=210$$，$$22n-32=210$$，符合要求．  ∴满足条件的正整数$$n$$只有$$1$$个，$$n=11$$．  故选$$\\text{C}$$．",
+      "solution_plain": "若 n 11 ，则 11 整除 ( n ) ，但 11 不能整除 22n-32 ． 因此， n 11 不符合要求．故， n 11 ． 若 7 n 11 ，则 ( n )=2 3 5 7=210 ， 由 210=22n-32 ， 得 n=11 ． 若 5 6 7 ，则 ( n )=2 3 5=30 ， 由 30=22n-32 ，得正整数 n 不存在． 若 3 n 5 ，则 ( n )=2 3=6 ， 由 6=22n-32 ，得正整数 n 不存在． 若 n=3 ，则 ( n )=2 ，由 2=22n-32 ， 得正整数 n 不存在． ∴满足条件的正整数 n 只有 1 个， n=11 ． 解法二：由 ( n )=22n-32 ，得 ( n )-1024=22 ( n-48 ) ． 由于 ( n ) 是偶数，但不是 4 的倍数，因此， n-48 是奇数． 若 n-48 3 ，则 n-48 含有奇数的素数因子 p ， 即 p 为奇素数，且 p 整除 n-48 ． 由 n-48 n 知， p 整除 ( n ) ．由此 p 整除 1024 矛盾． 故， n-48 3 ，即 n 49 ，且 n 为奇数． ∵ n 49 时， 22n-32 22 49-32=1046 ， ∴ ( n ) 1046 ． 又 2 3 5 7=210 ， 2 3 5 7 11=210 11 1046 ． ∴ n 11 ，即 n=3， 5 ， 7 ， 9 ，11 ． 将 n=3， 5 ， 7 ， 9 ，11 分别代入 ( n )=22n-32 验证， n=3 时， ( 3 )=2 ， 22n-32=34 ，不符合要求． n= 5时， ( 5 )=2 3=6 ， 22n-32=78 ，不符合要求． n=7 时， ( 7 )=2 3 5=30 ， 22n-32=122 ，不符合要求． n=9 时， ( 9 )=2 3 5 7=210 ， 22n-32=166 ，不符合要求． n=11 时， ( 11 )=2 3 5 7=210 ， 22n-32=210 ，符合要求． ∴满足条件的正整数 n 只有 1 个， n=11 ． 故选 C ．"
+    },
+    "answer": {
+      "final_raw": "n=11",
+      "final_normalized": "n=11",
+      "candidates": [
+        "C",
+        "n=11"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "若$$n\\textgreater11$$，则$$11$$整除$$\\varphi \\left( n \\right)$$，但$$11$$不能整除$$22n-32$$．  因此，$$n\\textgreater11$$不符合要求．故，$$n\\leqslant 11$$．  若$$7\\textless{}n\\leqslant 11$$，则$$\\varphi \\left( n \\right)=2\\times 3\\times 5\\times 7=210$$，  由$$210=22n-32$$，  得$$n=11$$．  若$$5\\textless{}6\\leqslant 7$$，则$$\\varphi \\left( n \\right)=2\\times 3\\times 5=30$$，  由$$30=22n-32$$，得正整数$$n$$不存在．  若$$3\\textless{}n\\leqslant 5$$，则$$\\varphi \\left( n \\right)=2\\times 3=6$$，  由$$6=22n-32$$，得正整数$$n$$不存在．  若$$n=3$$，则$$\\varphi \\left( n \\right)=2$$，由$$2=22n-32$$，  得正整数$$n$$不存在．  ∴满足条件的正整数$$n$$只有$$1$$个，$$n=11$$．  解法二：由$$\\varphi \\left( n \\right)=22n-32$$，得$$\\varphi \\left( n \\right)-1024=22\\left( n-48 \\right)$$．  由于$$\\varphi \\left( n \\right)$$是偶数，但不是$$4$$的倍数，因此，$$n-48$$是奇数．  若$$n-48\\geqslant 3$$，则$$n-48$$含有奇数的素数因子$$p$$，  即$$p$$为奇素数，且$$p$$整除$$n-48$$．  由$$n-48\\textless{}n$$知，$$p$$整除$$\\varphi \\left( n \\right)$$．由此$$p$$整除$$1024$$矛盾．  故，$$n-48\\textless{}3$$，即$$n\\leqslant 49$$，且$$n$$为奇数．  ∵$$n\\leqslant 49$$时，$$22n-32\\leqslant 22\\times 49-32=1046$$，  ∴$$\\varphi \\left( n \\right)\\leqslant 1046$$．  又$$2\\times 3\\times 5\\times 7=210$$，$$2\\times 3\\times 5\\times 7\\times 11=210\\times 11\\textgreater1046$$．  ∴$$n\\leqslant 11$$，即$$n=3，$$5$$，$$7$$，$$9$$，11$$．  将$$n=3，$$5$$，$$7$$，$$9$$，11$$分别代入$$\\varphi \\left( n \\right)=22n-32$$验证，  $$n=3$$时，$$\\varphi \\left( 3 \\right)=2$$，$$22n-32=34$$，不符合要求．  $$n=$$5时，$$\\varphi \\left( 5 \\right)=2\\times 3=6$$，$$22n-32=78$$，不符合要求．  $$n=7$$时，$$\\varphi \\left( 7 \\right)=2\\times 3\\times 5=30$$，$$22n-32=122$$，不符合要求．  $$n=9$$时，$$\\varphi \\left( 9 \\right)=2\\times 3\\times 5\\times 7=210$$，$$22n-32=166$$，不符合要求．  $$n=11$$时，$$\\varphi \\left( 11 \\right)=2\\times 3\\times 5\\times 7=210$$，$$22n-32=210$$，符合要求．  ∴满足条件的正整数$$n$$只有$$1$$个，$$n=11$$．  故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "对于整数 n 3 ，用 ( n ) 表示所有小于 n 的素数的乘积，求满足条件 ( n )=22n-32 的所有正整数 n ， n 为． (A) n 11 (B) n 11 (C) n=11 (D) n 有多个值",
+      "solution_text": "若 n 11 ，则 11 整除 ( n ) ，但 11 不能整除 22n-32 ． 因此， n 11 不符合要求．故， n 11 ． 若 7 n 11 ，则 ( n )=2 3 5 7=210 ， 由 210=22n-32 ， 得 n=11 ． 若 5 6 7 ，则 ( n )=2 3 5=30 ， 由 30=22n-32 ，得正整数 n 不存在． 若 3 n 5 ，则 ( n )=2 3=6 ， 由 6=22n-32 ，得正整数 n 不存在． 若 n=3 ，则 ( n )=2 ，由 2=22n-32 ， 得正整数 n 不存在． ∴满足条件的正整数 n 只有 1 个， n=11 ． 解法二：由 ( n )=22n-32 ，得 ( n )-1024=22 ( n-48 ) ． 由于 ( n ) 是偶数，但不是 4 的倍数，因此， n-48 是奇数． 若 n-48 3 ，则 n-48 含有奇数的素数因子 p ， 即 p 为奇素数，且 p 整除 n-48 ． 由 n-48 n 知， p 整除 ( n ) ．由此 p 整除 1024 矛盾． 故， n-48 3 ，即 n 49 ，且 n 为奇数． ∵ n 49 时， 22n-32 22 49-32=1046 ， ∴ ( n ) 1046 ． 又 2 3 5 7=210 ， 2 3 5 7 11=210 11 1046 ． ∴ n 11 ，即 n=3， 5 ， 7 ， 9 ，11 ． 将 n=3， 5 ， 7 ， 9 ，11 分别代入 ( n )=22n-32 验证， n=3 时， ( 3 )=2 ， 22n-32=34 ，不符合要求． n= 5时， ( 5 )=2 3=6 ， 22n-32=78 ，不符合要求． n=7 时， ( 7 )=2 3 5=30 ， 22n-32=122 ，不符合要求． n=9 时， ( 9 )=2 3 5 7=210 ， 22n-32=166 ，不符合要求． n=11 时， ( 11 )=2 3 5 7=210 ， 22n-32=210 ，符合要求． ∴满足条件的正整数 n 只有 1 个， n=11 ． 故选 C ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2482",
+        "queId": "15d058581e4e4de0b6e3386af14ea11a",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "n\\textgreater11"
+          },
+          {
+            "label": "B",
+            "content": "n\\textless{}11"
+          },
+          {
+            "label": "C",
+            "content": "n=11"
+          },
+          {
+            "label": "D",
+            "content": "n$$有多个值"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->分类讨论思想"
+        ],
+        "competition_source_list": [
+          "2017年华杯赛小学高年级竞赛（深圳营一）第4题10分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:00225",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 225,
+      "split": "zh_train",
+      "source_problem_id": "4096675af058435db197e30c0af6466d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "某地有甲、乙两个水池，今要在那里做基本建设，虽值雨季，也要先将池水抽出以便开工．已知甲池的面积是$$2$$亩，用$$3$$辆水车可于$$2$$天将水抽尽；若改用$$2$$辆水车便要$$4$$天才可将水抽尽．乙池的面积是甲池的$$3$$倍，要用$$6$$天将水抽尽，则需要用辆水车．\n(A) 1\n(B) 2\n(C) 3\n(D) 5\n(E) 10",
+      "problem_plain": "某地有甲、乙两个水池，今要在那里做基本建设，虽值雨季，也要先将池水抽出以便开工．已知甲池的面积是 2 亩，用 3 辆水车可于 2 天将水抽尽；若改用 2 辆水车便要 4 天才可将水抽尽．乙池的面积是甲池的 3 倍，要用 6 天将水抽尽，则需要用辆水车． (A) 1 (B) 2 (C) 3 (D) 5 (E) 10",
+      "solution_latex": "设甲池原有水量为$$v$$，每天降于甲池的雨量为$$x$$，那么$$\\frac{v+2x}{3\\times 2}$$及$$\\frac{v+4x}{2\\times 4}$$都是表示一辆水车一天抽出甲池的水量，即$$\\frac{v+2x}{6}=\\frac{v+4x}{8}$$，得$$v=4x$$，  所以$$x=\\frac{v}{4}$$．  由此可知一辆水车一天抽甲池的水量为$$\\frac{v+2x}{6}=\\frac{v+\\frac{v}{2}}{6}=\\frac{v}{4}$$，  从上面两式，得知降于甲池一天的雨水，恰被一辆水车抽尽．  因乙池的面积是甲池的$$3$$倍，故要当天抽尽乙池当天的雨水，恰需要$$3$$辆水车．又因甲池原有水量为$$v$$，那么乙池原有水量为$$3v$$．已知一辆水车抽甲池的水量为$$\\frac{v}{4}$$，那么一辆水车抽尽乙池原有水量，必须$$3v\\div \\frac{v}{4}=12$$天．今要$$6$$天抽尽乙池原有水量，就需要$$2$$辆水车．故要$$6$$天抽尽乙池的雨量和原有水量，共需要用$$3+2=5$$辆水车．  故选：$$\\text{D}$$．  （算数解法）（$$1$$）因甲池的水（包括下的雨水），用$$3$$辆水车，$$2$$天抽尽；若一天抽完，要用$$6$$辆水车．同样，用$$2$$辆水车，$$4$$天抽尽；若一天抽尽，要用$$8$$辆水车．  因为多经过两天，多下了两天雨，所以多用$$8-6=2$$辆水车，  所以，甲池每天的雨量要用一辆水车才能抽尽．  若只抽甲池原存水量，用$$3-1=2$$辆水车，$$2$$天抽尽；用一辆水车，$$4$$天抽尽，  所以每辆水车每天抽甲池原存水量的$$\\frac{1}{4}$$.  （$$2$$）因乙池是甲池的$$3$$倍，所以抽当天下的雨水，需要$$3$$辆水车．  又每辆水车是抽乙池原存水量的$$\\frac{1}{4}\\div 3=\\frac{1}{12}$$．今要$$6$$天抽尽乙池的水，每天应抽出$$\\frac{1}{6}$$．  所以只抽乙池原存水量，每天需$$\\frac{1}{6}\\div \\frac{1}{12}=2$$辆水车，  所以抽乙池雨水和原存水量共用的水车是$$3+2=5$$辆这就是说，$$5$$辆水车在$$6$$天抽尽乙池的水．  故选：$$\\text{D}$$．",
+      "solution_plain": "设甲池原有水量为 v ，每天降于甲池的雨量为 x ，那么 v+2x 3 2 及 v+4x 2 4 都是表示一辆水车一天抽出甲池的水量，即 v+2x 6 = v+4x 8 ，得 v=4x ， 所以 x= v 4 ． 由此可知一辆水车一天抽甲池的水量为 v+2x 6 = v+ v 2 6 = v 4 ， 从上面两式，得知降于甲池一天的雨水，恰被一辆水车抽尽． 因乙池的面积是甲池的 3 倍，故要当天抽尽乙池当天的雨水，恰需要 3 辆水车．又因甲池原有水量为 v ，那么乙池原有水量为 3v ．已知一辆水车抽甲池的水量为 v 4 ，那么一辆水车抽尽乙池原有水量，必须 3v v 4 =12 天．今要 6 天抽尽乙池原有水量，就需要 2 辆水车．故要 6 天抽尽乙池的雨量和原有水量，共需要用 3+2=5 辆水车． 故选： D ． （算数解法）（ 1 ）因甲池的水（包括下的雨水），用 3 辆水车， 2 天抽尽；若一天抽完，要用 6 辆水车．同样，用 2 辆水车， 4 天抽尽；若一天抽尽，要用 8 辆水车． 因为多经过两天，多下了两天雨，所以多用 8-6=2 辆水车， 所以，甲池每天的雨量要用一辆水车才能抽尽． 若只抽甲池原存水量，用 3-1=2 辆水车， 2 天抽尽；用一辆水车， 4 天抽尽， 所以每辆水车每天抽甲池原存水量的 1 4 . （ 2 ）因乙池是甲池的 3 倍，所以抽当天下的雨水，需要 3 辆水车． 又每辆水车是抽乙池原存水量的 1 4 3= 1 12 ．今要 6 天抽尽乙池的水，每天应抽出 1 6 ． 所以只抽乙池原存水量，每天需 1 6 1 12 =2 辆水车， 所以抽乙池雨水和原存水量共用的水车是 3+2=5 辆这就是说， 5 辆水车在 6 天抽尽乙池的水． 故选： D ．"
+    },
+    "answer": {
+      "final_raw": "5",
+      "final_normalized": "5",
+      "candidates": [
+        "5",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设甲池原有水量为$$v$$，每天降于甲池的雨量为$$x$$，那么$$\\frac{v+2x}{3\\times 2}$$及$$\\frac{v+4x}{2\\times 4}$$都是表示一辆水车一天抽出甲池的水量，即$$\\frac{v+2x}{6}=\\frac{v+4x}{8}$$，得$$v=4x$$，  所以$$x=\\frac{v}{4}$$．  由此可知一辆水车一天抽甲池的水量为$$\\frac{v+2x}{6}=\\frac{v+\\frac{v}{2}}{6}=\\frac{v}{4}$$，  从上面两式，得知降于甲池一天的雨水，恰被一辆水车抽尽．  因乙池的面积是甲池的$$3$$倍，故要当天抽尽乙池当天的雨水，恰需要$$3$$辆水车．又因甲池原有水量为$$v$$，那么乙池原有水量为$$3v$$．已知一辆水车抽甲池的水量为$$\\frac{v}{4}$$，那么一辆水车抽尽乙池原有水量，必须$$3v\\div \\frac{v}{4}=12$$天．今要$$6$$天抽尽乙池原有水量，就需要$$2$$辆水车．故要$$6$$天抽尽乙池的雨量和原有水量，共需要用$$3+2=5$$辆水车．  故选：$$\\text{D}$$．  （算数解法）（$$1$$）因甲池的水（包括下的雨水），用$$3$$辆水车，$$2$$天抽尽；若一天抽完，要用$$6$$辆水车．同样，用$$2$$辆水车，$$4$$天抽尽；若一天抽尽，要用$$8$$辆水车．  因为多经过两天，多下了两天雨，所以多用$$8-6=2$$辆水车，  所以，甲池每天的雨量要用一辆水车才能抽尽．  若只抽甲池原存水量，用$$3-1=2$$辆水车，$$2$$天抽尽；用一辆水车，$$4$$天抽尽，  所以每辆水车每天抽甲池原存水量的$$\\frac{1}{4}$$.",
+        "（$$2$$）因乙池是甲池的$$3$$倍，所以抽当天下的雨水，需要$$3$$辆水车．  又每辆水车是抽乙池原存水量的$$\\frac{1}{4}\\div 3=\\frac{1}{12}$$．今要$$6$$天抽尽乙池的水，每天应抽出$$\\frac{1}{6}$$．  所以只抽乙池原存水量，每天需$$\\frac{1}{6}\\div \\frac{1}{12}=2$$辆水车，  所以抽乙池雨水和原存水量共用的水车是$$3+2=5$$辆这就是说，$$5$$辆水车在$$6$$天抽尽乙池的水．  故选：$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "某地有甲、乙两个水池，今要在那里做基本建设，虽值雨季，也要先将池水抽出以便开工．已知甲池的面积是 2 亩，用 3 辆水车可于 2 天将水抽尽；若改用 2 辆水车便要 4 天才可将水抽尽．乙池的面积是甲池的 3 倍，要用 6 天将水抽尽，则需要用辆水车． (A) 1 (B) 2 (C) 3 (D) 5 (E) 10",
+      "solution_text": "设甲池原有水量为 v ，每天降于甲池的雨量为 x ，那么 v+2x 3 2 及 v+4x 2 4 都是表示一辆水车一天抽出甲池的水量，即 v+2x 6 = v+4x 8 ，得 v=4x ， 所以 x= v 4 ． 由此可知一辆水车一天抽甲池的水量为 v+2x 6 = v+ v 2 6 = v 4 ， 从上面两式，得知降于甲池一天的雨水，恰被一辆水车抽尽． 因乙池的面积是甲池的 3 倍，故要当天抽尽乙池当天的雨水，恰需要 3 辆水车．又因甲池原有水量为 v ，那么乙池原有水量为 3v ．已知一辆水车抽甲池的水量为 v 4 ，那么一辆水车抽尽乙池原有水量，必须 3v v 4 =12 天．今要 6 天抽尽乙池原有水量，就需要 2 辆水车．故要 6 天抽尽乙池的雨量和原有水量，共需要用 3+2=5 辆水车． 故选： D ． （算数解法）（ 1 ）因甲池的水（包括下的雨水），用 3 辆水车， 2 天抽尽；若一天抽完，要用 6 辆水车．同样，用 2 辆水车， 4 天抽尽；若一天抽尽，要用 8 辆水车． 因为多经过两天，多下了两天雨，所以多用 8-6=2 辆水车， 所以，甲池每天的雨量要用一辆水车才能抽尽． 若只抽甲池原存水量，用 3-1=2 辆水车， 2 天抽尽；用一辆水车， 4 天抽尽， 所以每辆水车每天抽甲池原存水量的 1 4 . （ 2 ）因乙池是甲池的 3 倍，所以抽当天下的雨水，需要 3 辆水车． 又每辆水车是抽乙池原存水量的 1 4 3= 1 12 ．今要 6 天抽尽乙池的水，每天应抽出 1 6 ． 所以只抽乙池原存水量，每天需 1 6 1 12 =2 辆水车， 所以抽乙池雨水和原存水量共用的水车是 3+2=5 辆这就是说， 5 辆水车在 6 天抽尽乙池的水． 故选： D ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1546",
+        "queId": "4096675af058435db197e30c0af6466d",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "5"
+          },
+          {
+            "label": "E",
+            "content": "10"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->应用题模块->列方程解应用题->多元一次方程解应用题->整数系数多元一次方程组解应用题"
+        ],
+        "competition_source_list": [
+          "2020年第1届广东深圳超常思维竞赛五年级竞赛初赛第15题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:00294",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 294,
+      "split": "zh_train",
+      "source_problem_id": "a35b90d09a5b411ca0f1eadaa31cb08f"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一次数学竞赛，某校$$200$$多人报名，其中有$$\\frac{1}{16}$$的人成绩不足$$60$$分，$$\\frac{1}{15}$$的人成绩不足$$70$$分，$$20 \\%$$的人不足$$80$$分，$$90$$分以上的占总数的$$\\frac{1}{6}$$．那么成绩在$$80$$～$$89$$分的有人.\n(A) 150\n(B) 151\n(C) 152\n(D) 153",
+      "problem_plain": "一次数学竞赛，某校 200 多人报名，其中有 1 16 的人成绩不足 60 分， 1 15 的人成绩不足 70 分， 20 % 的人不足 80 分， 90 分以上的占总数的 1 6 ．那么成绩在 80 ～ 89 分的有人. (A) 150 (B) 151 (C) 152 (D) 153",
+      "solution_latex": "人数必须是整数，总人数是$$16$$，$$15$$，$$5$$，$$6$$的公倍数。求公倍数可以由最小公倍数来求，所以可以求出这次竞赛共有$$240$$（$$16$$、$$15$$、$$5$$、$$6$$的最小公倍数）人参加。  $$80$$～$$90$$分的人数占$$\\left( 1-20  \\% -\\frac{1}{6} \\right)=\\frac{19}{30}$$．  由此可求出$$80$$～$$90$$分的人数．  $$240\\times \\frac{19}{30}=152$$（人）  答：成绩在$$80$$～$$90$$分的有$$152$$人．  拓展：$$3$$个数短除法，百分数（六年级上）也叫百分比、百分率",
+      "solution_plain": "人数必须是整数，总人数是 16 ， 15 ， 5 ， 6 的公倍数。求公倍数可以由最小公倍数来求，所以可以求出这次竞赛共有 240 （ 16 、 15 、 5 、 6 的最小公倍数）人参加。 80 ～ 90 分的人数占 ( 1-20 % - 1 6 )= 19 30 ． 由此可求出 80 ～ 90 分的人数． 240 19 30 =152 （人） 答：成绩在 80 ～ 90 分的有 152 人． 拓展： 3 个数短除法，百分数（六年级上）也叫百分比、百分率"
+    },
+    "answer": {
+      "final_raw": "152",
+      "final_normalized": "152",
+      "candidates": [
+        "152",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "人数必须是整数，总人数是$$16$$，$$15$$，$$5$$，$$6$$的公倍数。求公倍数可以由最小公倍数来求，所以可以求出这次竞赛共有$$240$$（$$16$$、$$15$$、$$5$$、$$6$$的最小公倍数）人参加。",
+        "$$80$$～$$90$$分的人数占$$\\left( 1-20  \\% -\\frac{1}{6} \\right)=\\frac{19}{30}$$．  由此可求出$$80$$～$$90$$分的人数．  $$240\\times \\frac{19}{30}=152$$（人）  答：成绩在$$80$$～$$90$$分的有$$152$$人．  拓展：$$3$$个数短除法，百分数（六年级上）也叫百分比、百分率"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一次数学竞赛，某校 200 多人报名，其中有 1 16 的人成绩不足 60 分， 1 15 的人成绩不足 70 分， 20 % 的人不足 80 分， 90 分以上的占总数的 1 6 ．那么成绩在 80 ～ 89 分的有人. (A) 150 (B) 151 (C) 152 (D) 153",
+      "solution_text": "人数必须是整数，总人数是 16 ， 15 ， 5 ， 6 的公倍数。求公倍数可以由最小公倍数来求，所以可以求出这次竞赛共有 240 （ 16 、 15 、 5 、 6 的最小公倍数）人参加。 80 ～ 90 分的人数占 ( 1-20 % - 1 6 )= 19 30 ． 由此可求出 80 ～ 90 分的人数． 240 19 30 =152 （人） 答：成绩在 80 ～ 90 分的有 152 人． 拓展： 3 个数短除法，百分数（六年级上）也叫百分比、百分率",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "780",
+        "queId": "a35b90d09a5b411ca0f1eadaa31cb08f",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "150"
+          },
+          {
+            "label": "B",
+            "content": "151"
+          },
+          {
+            "label": "C",
+            "content": "152"
+          },
+          {
+            "label": "D",
+            "content": "153"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->因数与倍数->公因数与公倍数->因倍应用题->倍数应用题"
+        ],
+        "competition_source_list": [
+          "2016年第3届广东深圳鹏程杯六年级竞赛集训材料第十八章综合训练题（八）第13题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:00431",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 431,
+      "split": "zh_train",
+      "source_problem_id": "d0d76eaf186643199ea985ef9657a6ae"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知正整数$$A$$分解质因数可以写成$$A={{2}^{\\alpha }}\\times {{3}^{\\beta }}\\times {{5}^{\\gamma }}$$，其中$$\\alpha $$、$$\\beta $$、$$\\gamma $$是自然数．如果$$A$$除以$$2$$的商是完全平方数，$$A$$除以$$3$$的结果是完全立方数，$$A$$除以$$5$$后是某个自然数的五次方，那么$$\\alpha +\\beta +\\gamma $$的最小值是．\n(A) 10\n(B) 17\n(C) 23\n(D) 31",
+      "problem_plain": "已知正整数 A 分解质因数可以写成 A= 2 ^ 3 ^ 5 ^ ，其中 、 、 是自然数．如果 A 除以 2 的商是完全平方数， A 除以 3 的结果是完全立方数， A 除以 5 后是某个自然数的五次方，那么 + + 的最小值是． (A) 10 (B) 17 (C) 23 (D) 31",
+      "solution_latex": "根据``$$A$$的二分之一是完全平方数''可以知道，$$\\alpha -1$$、$$\\beta $$、$$\\gamma $$都是$$2$$的倍数．  根据``$$A$$的三分之一是完全立方数''可以知道，$$\\alpha $$、$$\\beta -1$$、$$\\gamma $$都是$$3$$的倍数．  根据``$$A$$的五分之一是某个自然数的五次方''可以知道，$$\\alpha $$、$$\\beta $$、$$\\gamma -1$$都是$$5$$的倍数．  同时满足三个条件的$$\\alpha $$的最小值恰好是$$\\left[ 3,5 \\right]=15$$；$$\\beta $$的最小值恰好是$$\\left[2,5 \\right]=10$$；$$\\gamma $$的最小值恰好是$$\\left[ 2,3 \\right]=6$$．  所以，$$\\alpha +\\beta +\\gamma $$的最小值是$$15+10+6=31$$．",
+      "solution_plain": "根据`` A 的二分之一是完全平方数''可以知道， -1 、 、 都是 2 的倍数． 根据`` A 的三分之一是完全立方数''可以知道， 、 -1 、 都是 3 的倍数． 根据`` A 的五分之一是某个自然数的五次方''可以知道， 、 、 -1 都是 5 的倍数． 同时满足三个条件的 的最小值恰好是 [ 3,5 ]=15 ； 的最小值恰好是 [2,5 ]=10 ； 的最小值恰好是 [ 2,3 ]=6 ． 所以， + + 的最小值是 15+10+6=31 ．"
+    },
+    "answer": {
+      "final_raw": "31",
+      "final_normalized": "31",
+      "candidates": [
+        "31",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "根据``$$A$$的二分之一是完全平方数''可以知道，$$\\alpha -1$$、$$\\beta $$、$$\\gamma $$都是$$2$$的倍数．  根据``$$A$$的三分之一是完全立方数''可以知道，$$\\alpha $$、$$\\beta -1$$、$$\\gamma $$都是$$3$$的倍数．  根据``$$A$$的五分之一是某个自然数的五次方''可以知道，$$\\alpha $$、$$\\beta $$、$$\\gamma -1$$都是$$5$$的倍数．  同时满足三个条件的$$\\alpha $$的最小值恰好是$$\\left[ 3,5 \\right]=15$$；$$\\beta $$的最小值恰好是$$\\left[2,5 \\right]=10$$；$$\\gamma $$的最小值恰好是$$\\left[ 2,3 \\right]=6$$．  所以，$$\\alpha +\\beta +\\gamma $$的最小值是$$15+10+6=31$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知正整数 A 分解质因数可以写成 A= 2 ^ 3 ^ 5 ^ ，其中 、 、 是自然数．如果 A 除以 2 的商是完全平方数， A 除以 3 的结果是完全立方数， A 除以 5 后是某个自然数的五次方，那么 + + 的最小值是． (A) 10 (B) 17 (C) 23 (D) 31",
+      "solution_text": "根据`` A 的二分之一是完全平方数''可以知道， -1 、 、 都是 2 的倍数． 根据`` A 的三分之一是完全立方数''可以知道， 、 -1 、 都是 3 的倍数． 根据`` A 的五分之一是某个自然数的五次方''可以知道， 、 、 -1 都是 5 的倍数． 同时满足三个条件的 的最小值恰好是 [ 3,5 ]=15 ； 的最小值恰好是 [2,5 ]=10 ； 的最小值恰好是 [ 2,3 ]=6 ． 所以， + + 的最小值是 15+10+6=31 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "701",
+        "queId": "d0d76eaf186643199ea985ef9657a6ae",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "17"
+          },
+          {
+            "label": "C",
+            "content": "23"
+          },
+          {
+            "label": "D",
+            "content": "31"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->七大能力->逻辑分析"
+        ],
+        "competition_source_list": [
+          "2013年全国华杯赛小学高年级竞赛初赛C卷第4题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:00707",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 707,
+      "split": "zh_train",
+      "source_problem_id": "e088c6efe05548f0ac5dc3b5e2f6ffe2"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$$n$$，$$k$$为正整数使得$${{n}^{2}}\\textless{}4k\\textless{}{{n}^{2}}+\\frac{2016}{{{n}^{2}}}$$，请问$$n$$最大可能值是多少？\n(A) 请将该小题的答案写在答题卡的指定答题区域，考试结束后上传至``本讲巩固''",
+      "problem_plain": "已知 n ， k 为正整数使得 n ^ 2 4k n ^ 2 + 2016 n ^ 2 ，请问 n 最大可能值是多少？ (A) 请将该小题的答案写在答题卡的指定答题区域，考试结束后上传至``本讲巩固''",
+      "solution_latex": "该题为解答题，请将该小题的答案写在答题卡的指定答题区域，考试结束后上传至``本讲巩固''",
+      "solution_plain": "该题为解答题，请将该小题的答案写在答题卡的指定答题区域，考试结束后上传至``本讲巩固''"
+    },
+    "answer": {
+      "final_raw": "请将该小题的答案写在答题卡的指定答题区域，考试结束后上传至``本讲巩固''",
+      "final_normalized": "请将该小题的答案写在答题卡的指定答题区域，考试结束后上传至``本讲巩固''",
+      "candidates": [
+        "A",
+        "请将该小题的答案写在答题卡的指定答题区域，考试结束后上传至``本讲巩固''"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "该题为解答题，请将该小题的答案写在答题卡的指定答题区域，考试结束后上传至``本讲巩固''"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 n ， k 为正整数使得 n ^ 2 4k n ^ 2 + 2016 n ^ 2 ，请问 n 最大可能值是多少？ (A) 请将该小题的答案写在答题卡的指定答题区域，考试结束后上传至``本讲巩固''",
+      "solution_text": "该题为解答题，请将该小题的答案写在答题卡的指定答题区域，考试结束后上传至``本讲巩固''",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "919",
+        "queId": "e088c6efe05548f0ac5dc3b5e2f6ffe2",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "请将该小题的答案写在答题卡的指定答题区域，考试结束后上传至``本讲巩固''"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->拓展思维->组合模块->组合模块最值问题->枚举型最值问题"
+        ],
+        "competition_source_list": [
+          "2016年IMAS小学高年级竞赛第二轮检测试题第14题20分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:00912",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 912,
+      "split": "zh_train",
+      "source_problem_id": "b1d2180c09b14b68bec5ebdcbf9e19cf"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有$$125$$个同样大小的正方体木块，木块的每个面的面积均为$$1$$平方厘米，其中$$63$$个表面涂上白色，还有$$62$$个表面涂上蓝色．将这$$125$$个正方体木块粘在一起，形成一个棱长为$$5$$厘米大正方体木块．这个大正方体木块的表面上，蓝色的面积最多是~\\uline{~~~~~~~~~~}~平方厘米．\n(A) 110\n(B) 112\n(C) 114\n(D) 116\n(E) 118",
+      "problem_plain": "有 125 个同样大小的正方体木块，木块的每个面的面积均为 1 平方厘米，其中 63 个表面涂上白色，还有 62 个表面涂上蓝色．将这 125 个正方体木块粘在一起，形成一个棱长为 5 厘米大正方体木块．这个大正方体木块的表面上，蓝色的面积最多是~ ~~~~~~~~~~ ~平方厘米． (A) 110 (B) 112 (C) 114 (D) 116 (E) 118",
+      "solution_latex": "显然大正方体表面不能全为蓝色，$$8$$个顶点上的正方体木块表面积是$$3$$平方厘米，棱上的正方体木块表面积是$$2$$平方厘米，面上的正方体木块表面积是$$1$$平方厘米，所以要先在顶点和棱上放蓝色的正方体木块，剩下的放在面上，不放在内部．所以让正方体顶点和棱均为蓝色方块时蓝色表面积最大．此时蓝色的面积为：$$8\\times3+2\\times（5-2）\\times12+（62-8-36）=114$$（平方厘米）.",
+      "solution_plain": "显然大正方体表面不能全为蓝色， 8 个顶点上的正方体木块表面积是 3 平方厘米，棱上的正方体木块表面积是 2 平方厘米，面上的正方体木块表面积是 1 平方厘米，所以要先在顶点和棱上放蓝色的正方体木块，剩下的放在面上，不放在内部．所以让正方体顶点和棱均为蓝色方块时蓝色表面积最大．此时蓝色的面积为： 8 3+2 （5-2） 12+（62-8-36）=114 （平方厘米）."
+    },
+    "answer": {
+      "final_raw": "114",
+      "final_normalized": "114",
+      "candidates": [
+        "114",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "2",
+        "unknown"
+      ],
+      "tags": [
+        "2",
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "显然大正方体表面不能全为蓝色，$$8$$个顶点上的正方体木块表面积是$$3$$平方厘米，棱上的正方体木块表面积是$$2$$平方厘米，面上的正方体木块表面积是$$1$$平方厘米，所以要先在顶点和棱上放蓝色的正方体木块，剩下的放在面上，不放在内部．所以让正方体顶点和棱均为蓝色方块时蓝色表面积最大．此时蓝色的面积为：$$8\\times3+2\\times（5-2）\\times12+（62-8-36）=114$$（平方厘米）."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有 125 个同样大小的正方体木块，木块的每个面的面积均为 1 平方厘米，其中 63 个表面涂上白色，还有 62 个表面涂上蓝色．将这 125 个正方体木块粘在一起，形成一个棱长为 5 厘米大正方体木块．这个大正方体木块的表面上，蓝色的面积最多是~ ~~~~~~~~~~ ~平方厘米． (A) 110 (B) 112 (C) 114 (D) 116 (E) 118",
+      "solution_text": "显然大正方体表面不能全为蓝色， 8 个顶点上的正方体木块表面积是 3 平方厘米，棱上的正方体木块表面积是 2 平方厘米，面上的正方体木块表面积是 1 平方厘米，所以要先在顶点和棱上放蓝色的正方体木块，剩下的放在面上，不放在内部．所以让正方体顶点和棱均为蓝色方块时蓝色表面积最大．此时蓝色的面积为： 8 3+2 （5-2） 12+（62-8-36）=114 （平方厘米）.",
+      "keywords": [
+        "2",
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "848",
+        "queId": "b1d2180c09b14b68bec5ebdcbf9e19cf",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "110"
+          },
+          {
+            "label": "B",
+            "content": "112"
+          },
+          {
+            "label": "C",
+            "content": "114"
+          },
+          {
+            "label": "D",
+            "content": "116"
+          },
+          {
+            "label": "E",
+            "content": "118"
+          }
+        ],
+        "knowledge_point_routes": [
+          "海外竞赛体系->知识点->数论模块->质数与合数->特殊质数运用->特殊质数2",
+          "拓展思维->能力->空间想象->立体几何加工"
+        ],
+        "competition_source_list": [
+          "2008年全国迎春杯三年级竞赛初赛第10题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:01029",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1029,
+      "split": "zh_train",
+      "source_problem_id": "887143bab3b44cefaf3ca1841193bdf1"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "根据``三角形任意两边之和大于第三边''的知识，解答本题：  有不同长度的七条线段，其长度均为整数厘米，最短的是$$1$$厘米，最长的是$$21$$厘米，其中以任何三条线段作``边''都不能组成一个三角形，那么这七条线段中第二长的线段长厘米．\n(A) 8\n(B) 9\n(C) 13\n(D) 20",
+      "problem_plain": "根据``三角形任意两边之和大于第三边''的知识，解答本题： 有不同长度的七条线段，其长度均为整数厘米，最短的是 1 厘米，最长的是 21 厘米，其中以任何三条线段作``边''都不能组成一个三角形，那么这七条线段中第二长的线段长厘米． (A) 8 (B) 9 (C) 13 (D) 20",
+      "solution_latex": "斐波那契数列从第三项开始，等于前两项的和，即$$1$$、$$2$$、$$3$$、$$5$$、$$8$$、$$13$$、$$21$$．  即第二长的为$$13$$．",
+      "solution_plain": "斐波那契数列从第三项开始，等于前两项的和，即 1 、 2 、 3 、 5 、 8 、 13 、 21 ． 即第二长的为 13 ．"
+    },
+    "answer": {
+      "final_raw": "13",
+      "final_normalized": "13",
+      "candidates": [
+        "13",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "斐波那契数列从第三项开始，等于前两项的和，即$$1$$、$$2$$、$$3$$、$$5$$、$$8$$、$$13$$、$$21$$．  即第二长的为$$13$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "根据``三角形任意两边之和大于第三边''的知识，解答本题： 有不同长度的七条线段，其长度均为整数厘米，最短的是 1 厘米，最长的是 21 厘米，其中以任何三条线段作``边''都不能组成一个三角形，那么这七条线段中第二长的线段长厘米． (A) 8 (B) 9 (C) 13 (D) 20",
+      "solution_text": "斐波那契数列从第三项开始，等于前两项的和，即 1 、 2 、 3 、 5 、 8 、 13 、 21 ． 即第二长的为 13 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2698",
+        "queId": "887143bab3b44cefaf3ca1841193bdf1",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "8"
+          },
+          {
+            "label": "B",
+            "content": "9"
+          },
+          {
+            "label": "C",
+            "content": "13"
+          },
+          {
+            "label": "D",
+            "content": "20"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->整体思想"
+        ],
+        "competition_source_list": [
+          "2016年第14届全国创新杯五年级竞赛初赛第8题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:01079",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1079,
+      "split": "zh_train",
+      "source_problem_id": "2cca264bfb004f3bb44b0190ab7757e0"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$2021$$年，疯狂动物城警察局为了表彰表现优异的警察，给他们授予特殊的警号，这些警号是形如$$\\overline{\\square 2021\\square }$$的六位数，并且都能被$$21$$整除，这样的警号有~\\uline{~~~~~~~~~~}~个．\n(A) 7\n(B) 6\n(C) 5\n(D) 4\n(E) 3",
+      "problem_plain": "2021 年，疯狂动物城警察局为了表彰表现优异的警察，给他们授予特殊的警号，这些警号是形如 2021 的六位数，并且都能被 21 整除，这样的警号有~ ~~~~~~~~~~ ~个． (A) 7 (B) 6 (C) 5 (D) 4 (E) 3",
+      "solution_latex": "$$21=3\\times 7$$，故能被$$21$$整除必能被$$3$$和$$7$$整除，满足被$$3$$整除为各位数字之和为$$3$$的倍数，  故$$2+0+2+1=5$$故余下$$2$$位数字和最大为$$9+9=18$$，  故可取$$1$$，$$4$$，$$7$$，$$10$$，$$13$$，$$16$$，  $$1$$：$$1+0$$，$$4$$：$$4+0$$，$$3+1$$，$$2+2$$，$$7$$：$$7+0$$，$$6+1$$，$$5+2$$，$$4+3$$，  $$10$$：$$9+1$$，$$8+2$$，$$7+3$$，$$6+4$$，$$5+5$$，  $$13$$：$$9+4$$，$$8+5$$，$$7+6$$，  $$16$$：$$9+7$$，$$8+8$$，  上述除$$0$$不能在首位外共有：$$1$$：$$1$$种；$$4$$：$$1+2+1=4$$种，$$7$$：$$1+2+2+2=7$$种；$$10$$：$$2+2+2+2+1=9$$种；$$13$$：$$2+2+2=6$$种；$$16$$：$$2+1=3$$种，  能被$$7$$整除特点为（除去个位数字后的数$$-2\\times $$个位）能被$$7$$整除，  故一共有：$$420210$$，$$520212$$，$$620214$$，$$720216$$，$$820218$$共$$5$$个．  故答案为：$$5$$．",
+      "solution_plain": "21=3 7 ，故能被 21 整除必能被 3 和 7 整除，满足被 3 整除为各位数字之和为 3 的倍数， 故 2+0+2+1=5 故余下 2 位数字和最大为 9+9=18 ， 故可取 1 ， 4 ， 7 ， 10 ， 13 ， 16 ， 1 ： 1+0 ， 4 ： 4+0 ， 3+1 ， 2+2 ， 7 ： 7+0 ， 6+1 ， 5+2 ， 4+3 ， 10 ： 9+1 ， 8+2 ， 7+3 ， 6+4 ， 5+5 ， 13 ： 9+4 ， 8+5 ， 7+6 ， 16 ： 9+7 ， 8+8 ， 上述除 0 不能在首位外共有： 1 ： 1 种； 4 ： 1+2+1=4 种， 7 ： 1+2+2+2=7 种； 10 ： 2+2+2+2+1=9 种； 13 ： 2+2+2=6 种； 16 ： 2+1=3 种， 能被 7 整除特点为（除去个位数字后的数 -2 个位）能被 7 整除， 故一共有： 420210 ， 520212 ， 620214 ， 720216 ， 820218 共 5 个． 故答案为： 5 ．"
+    },
+    "answer": {
+      "final_raw": "5",
+      "final_normalized": "5",
+      "candidates": [
+        "5",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$21=3\\times 7$$，故能被$$21$$整除必能被$$3$$和$$7$$整除，满足被$$3$$整除为各位数字之和为$$3$$的倍数，  故$$2+0+2+1=5$$故余下$$2$$位数字和最大为$$9+9=18$$，  故可取$$1$$，$$4$$，$$7$$，$$10$$，$$13$$，$$16$$，  $$1$$：$$1+0$$，$$4$$：$$4+0$$，$$3+1$$，$$2+2$$，$$7$$：$$7+0$$，$$6+1$$，$$5+2$$，$$4+3$$，  $$10$$：$$9+1$$，$$8+2$$，$$7+3$$，$$6+4$$，$$5+5$$，  $$13$$：$$9+4$$，$$8+5$$，$$7+6$$，  $$16$$：$$9+7$$，$$8+8$$，  上述除$$0$$不能在首位外共有：$$1$$：$$1$$种；$$4$$：$$1+2+1=4$$种，$$7$$：$$1+2+2+2=7$$种；$$10$$：$$2+2+2+2+1=9$$种；$$13$$：$$2+2+2=6$$种；$$16$$：$$2+1=3$$种，  能被$$7$$整除特点为（除去个位数字后的数$$-2\\times $$个位）能被$$7$$整除，  故一共有：$$420210$$，$$520212$$，$$620214$$，$$720216$$，$$820218$$共$$5$$个．  故答案为：$$5$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2021 年，疯狂动物城警察局为了表彰表现优异的警察，给他们授予特殊的警号，这些警号是形如 2021 的六位数，并且都能被 21 整除，这样的警号有~ ~~~~~~~~~~ ~个． (A) 7 (B) 6 (C) 5 (D) 4 (E) 3",
+      "solution_text": "21=3 7 ，故能被 21 整除必能被 3 和 7 整除，满足被 3 整除为各位数字之和为 3 的倍数， 故 2+0+2+1=5 故余下 2 位数字和最大为 9+9=18 ， 故可取 1 ， 4 ， 7 ， 10 ， 13 ， 16 ， 1 ： 1+0 ， 4 ： 4+0 ， 3+1 ， 2+2 ， 7 ： 7+0 ， 6+1 ， 5+2 ， 4+3 ， 10 ： 9+1 ， 8+2 ， 7+3 ， 6+4 ， 5+5 ， 13 ： 9+4 ， 8+5 ， 7+6 ， 16 ： 9+7 ， 8+8 ， 上述除 0 不能在首位外共有： 1 ： 1 种； 4 ： 1+2+1=4 种， 7 ： 1+2+2+2=7 种； 10 ： 2+2+2+2+1=9 种； 13 ： 2+2+2=6 种； 16 ： 2+1=3 种， 能被 7 整除特点为（除去个位数字后的数 -2 个位）能被 7 整除， 故一共有： 420210 ， 520212 ， 620214 ， 720216 ， 820218 共 5 个． 故答案为： 5 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "682",
+        "queId": "2cca264bfb004f3bb44b0190ab7757e0",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "7"
+          },
+          {
+            "label": "B",
+            "content": "6"
+          },
+          {
+            "label": "C",
+            "content": "5"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          },
+          {
+            "label": "E",
+            "content": "3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->整除->整除特征->和系整除特征应用"
+        ],
+        "competition_source_list": [
+          "2021年新希望杯五年级竞赛初赛第39题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:01166",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1166,
+      "split": "zh_train",
+      "source_problem_id": "0b2c0af4249d4de5ad60a9783116bb67"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "整数$$N=12345678910111213\\cdot \\cdot \\cdot \\cdot \\cdot \\cdot 201020112012201320142015$$是由$$1 \\tilde{  } 2015$$这$$2015$$个整数，由小到大的顺序依次写出得到的，那么$$N$$是（~ ）位数．\n(A) 5678\n(B) 6947\n(C) 6950\n(D) 6953",
+      "problem_plain": "整数 N=12345678910111213 201020112012201320142015 是由 1 2015 这 2015 个整数，由小到大的顺序依次写出得到的，那么 N 是（~ ）位数． (A) 5678 (B) 6947 (C) 6950 (D) 6953",
+      "solution_latex": "$$1\\times 9+2\\times 90+3\\times 900+4\\times 1016=6953$$．",
+      "solution_plain": "1 9+2 90+3 900+4 1016=6953 ．"
+    },
+    "answer": {
+      "final_raw": "6953",
+      "final_normalized": "6953",
+      "candidates": [
+        "6953",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$1\\times 9+2\\times 90+3\\times 900+4\\times 1016=6953$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "整数 N=12345678910111213 201020112012201320142015 是由 1 2015 这 2015 个整数，由小到大的顺序依次写出得到的，那么 N 是（~ ）位数． (A) 5678 (B) 6947 (C) 6950 (D) 6953",
+      "solution_text": "1 9+2 90+3 900+4 1016=6953 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "52",
+        "queId": "0b2c0af4249d4de5ad60a9783116bb67",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "5678"
+          },
+          {
+            "label": "B",
+            "content": "6947"
+          },
+          {
+            "label": "C",
+            "content": "6950"
+          },
+          {
+            "label": "D",
+            "content": "6953"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->图形规律->数量变化"
+        ],
+        "competition_source_list": [
+          "2016年第14届全国创新杯五年级竞赛初赛第6题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:01318",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1318,
+      "split": "zh_train",
+      "source_problem_id": "eb5090d0cba54b50be06eda329c82ccc"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$\\overline{abcd}$$是一个四位数，且$$\\overline{abcd}+3b+c+8d=2012$$，则$$d$$是。\n(A) 2\n(B) 7\n(C) 5\n(D) 1",
+      "problem_plain": "abcd 是一个四位数，且 abcd +3b+c+8d=2012 ，则 d 是。 (A) 2 (B) 7 (C) 5 (D) 1",
+      "solution_latex": "位值原理展开：$$1000a+100b+10c+d+3b+c+8d=2012$$，化简得：  $$1000a+103b+11c+9d=2012$$，  若$$a=2$$，则有$$103b+11c+9d=12$$，则$$b=0$$，即$$11c+9d=12$$，显然无整数解；  若$$a=1$$，则有$$103b+11c+9d=1012$$，若$$b=8$$，则$$103b+11c+9d$$最大为  $$103\\times 8+11\\times 9+9\\times 9=1004$$，不可能，所以有$$b=9$$，则有$$11c+9d=85$$，$$85\\equiv 4\\left( \\bmod 9 \\right)$$，  即$$11c\\equiv 4\\left( \\bmod 9 \\right)$$，显然当$$c=2$$，$$11c=22$$时，满足$$11c\\equiv 4\\left( \\bmod 9 \\right)$$，此时$$9d=63$$，  即$$d=7$$",
+      "solution_plain": "位值原理展开： 1000a+100b+10c+d+3b+c+8d=2012 ，化简得： 1000a+103b+11c+9d=2012 ， 若 a=2 ，则有 103b+11c+9d=12 ，则 b=0 ，即 11c+9d=12 ，显然无整数解； 若 a=1 ，则有 103b+11c+9d=1012 ，若 b=8 ，则 103b+11c+9d 最大为 103 8+11 9+9 9=1004 ，不可能，所以有 b=9 ，则有 11c+9d=85 ， 85 4 ( 9 ) ， 即 11c 4 ( 9 ) ，显然当 c=2 ， 11c=22 时，满足 11c 4 ( 9 ) ，此时 9d=63 ， 即 d=7"
+    },
+    "answer": {
+      "final_raw": "7",
+      "final_normalized": "7",
+      "candidates": [
+        "7",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "位值原理展开：$$1000a+100b+10c+d+3b+c+8d=2012$$，化简得：  $$1000a+103b+11c+9d=2012$$，  若$$a=2$$，则有$$103b+11c+9d=12$$，则$$b=0$$，即$$11c+9d=12$$，显然无整数解；  若$$a=1$$，则有$$103b+11c+9d=1012$$，若$$b=8$$，则$$103b+11c+9d$$最大为  $$103\\times 8+11\\times 9+9\\times 9=1004$$，不可能，所以有$$b=9$$，则有$$11c+9d=85$$，$$85\\equiv 4\\left( \\bmod 9 \\right)$$，  即$$11c\\equiv 4\\left( \\bmod 9 \\right)$$，显然当$$c=2$$，$$11c=22$$时，满足$$11c\\equiv 4\\left( \\bmod 9 \\right)$$，此时$$9d=63$$，  即$$d=7$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "abcd 是一个四位数，且 abcd +3b+c+8d=2012 ，则 d 是。 (A) 2 (B) 7 (C) 5 (D) 1",
+      "solution_text": "位值原理展开： 1000a+100b+10c+d+3b+c+8d=2012 ，化简得： 1000a+103b+11c+9d=2012 ， 若 a=2 ，则有 103b+11c+9d=12 ，则 b=0 ，即 11c+9d=12 ，显然无整数解； 若 a=1 ，则有 103b+11c+9d=1012 ，若 b=8 ，则 103b+11c+9d 最大为 103 8+11 9+9 9=1004 ，不可能，所以有 b=9 ，则有 11c+9d=85 ， 85 4 ( 9 ) ， 即 11c 4 ( 9 ) ，显然当 c=2 ， 11c=22 时，满足 11c 4 ( 9 ) ，此时 9d=63 ， 即 d=7",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "958",
+        "queId": "eb5090d0cba54b50be06eda329c82ccc",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "7"
+          },
+          {
+            "label": "C",
+            "content": "5"
+          },
+          {
+            "label": "D",
+            "content": "1"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->逻辑分析",
+          "拓展思维->拓展思维->数论模块->位值原理与进制->位值原理运用->位值原理的综合应用"
+        ],
+        "competition_source_list": [
+          "2012年第8届全国新希望杯小学高年级六年级竞赛复赛第13题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:01388",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1388,
+      "split": "zh_train",
+      "source_problem_id": "898c8c07681944bb91885b892c19cebe"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "请从一个$$1 \\sim 9$$（缺$$8$$）这八个自然数中不重复地用这些数字构造出四个两位质数，并求出它们的和是．\n(A) 190\n(B) 217\n(C) 127",
+      "problem_plain": "请从一个 1 9 （缺 8 ）这八个自然数中不重复地用这些数字构造出四个两位质数，并求出它们的和是． (A) 190 (B) 217 (C) 127",
+      "solution_latex": "我们知道所有的偶数都是合数，除了$$5$$以外，个位为$$5$$的数也都是合数，这$$8$$个数中只有$$1$$、$$3$$、$$5$$、$$7$$、$$9$$放在个位才有可能是质数，所以十位上只能是$$2$$、$$4$$、$$5$$、$$6$$．这四个两位数的和是$$\\left( 2+4+5+6 \\right)\\times 10+1+3+7+9=190$$．",
+      "solution_plain": "我们知道所有的偶数都是合数，除了 5 以外，个位为 5 的数也都是合数，这 8 个数中只有 1 、 3 、 5 、 7 、 9 放在个位才有可能是质数，所以十位上只能是 2 、 4 、 5 、 6 ．这四个两位数的和是 ( 2+4+5+6 ) 10+1+3+7+9=190 ．"
+    },
+    "answer": {
+      "final_raw": "190",
+      "final_normalized": "190",
+      "candidates": [
+        "190",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "我们知道所有的偶数都是合数，除了$$5$$以外，个位为$$5$$的数也都是合数，这$$8$$个数中只有$$1$$、$$3$$、$$5$$、$$7$$、$$9$$放在个位才有可能是质数，所以十位上只能是$$2$$、$$4$$、$$5$$、$$6$$．这四个两位数的和是$$\\left( 2+4+5+6 \\right)\\times 10+1+3+7+9=190$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "请从一个 1 9 （缺 8 ）这八个自然数中不重复地用这些数字构造出四个两位质数，并求出它们的和是． (A) 190 (B) 217 (C) 127",
+      "solution_text": "我们知道所有的偶数都是合数，除了 5 以外，个位为 5 的数也都是合数，这 8 个数中只有 1 、 3 、 5 、 7 、 9 放在个位才有可能是质数，所以十位上只能是 2 、 4 、 5 、 6 ．这四个两位数的和是 ( 2+4+5+6 ) 10+1+3+7+9=190 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "836",
+        "queId": "898c8c07681944bb91885b892c19cebe",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "190"
+          },
+          {
+            "label": "B",
+            "content": "217"
+          },
+          {
+            "label": "C",
+            "content": "127"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->质数与合数->质数与合数判定->质数与合数的认识"
+        ],
+        "competition_source_list": [
+          "2016年全国世奥赛竞赛A卷第11题",
+          "2016年第16届世奥赛六年级竞赛决赛第11题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:01510",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1510,
+      "split": "zh_train",
+      "source_problem_id": "33154aa4cedb45e2914a1b58fab56bdd"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "请从一个$$1 \\sim 9$$（缺$$8$$）这八个自然数中不重复地用这些数字构造出四个两位质数，并求出它们的和是．\n(A) 190\n(B) 217\n(C) 127\n(D) 无法构造",
+      "problem_plain": "请从一个 1 9 （缺 8 ）这八个自然数中不重复地用这些数字构造出四个两位质数，并求出它们的和是． (A) 190 (B) 217 (C) 127 (D) 无法构造",
+      "solution_latex": "我们知道所有的偶数都是合数，除了$$5$$以外，个位为$$5$$的数也都是合数，这$$8$$个数中只有$$1$$、$$3$$、$$5$$、$$7$$、$$9$$放在个位才有可能是质数，所以十位上只能是$$2$$、$$4$$、$$5$$、$$6$$．这四个两位数的和是$$\\left( 2+4+5+6 \\right)\\times 10+1+3+7+9=190$$．",
+      "solution_plain": "我们知道所有的偶数都是合数，除了 5 以外，个位为 5 的数也都是合数，这 8 个数中只有 1 、 3 、 5 、 7 、 9 放在个位才有可能是质数，所以十位上只能是 2 、 4 、 5 、 6 ．这四个两位数的和是 ( 2+4+5+6 ) 10+1+3+7+9=190 ．"
+    },
+    "answer": {
+      "final_raw": "190",
+      "final_normalized": "190",
+      "candidates": [
+        "190",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "我们知道所有的偶数都是合数，除了$$5$$以外，个位为$$5$$的数也都是合数，这$$8$$个数中只有$$1$$、$$3$$、$$5$$、$$7$$、$$9$$放在个位才有可能是质数，所以十位上只能是$$2$$、$$4$$、$$5$$、$$6$$．这四个两位数的和是$$\\left( 2+4+5+6 \\right)\\times 10+1+3+7+9=190$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "请从一个 1 9 （缺 8 ）这八个自然数中不重复地用这些数字构造出四个两位质数，并求出它们的和是． (A) 190 (B) 217 (C) 127 (D) 无法构造",
+      "solution_text": "我们知道所有的偶数都是合数，除了 5 以外，个位为 5 的数也都是合数，这 8 个数中只有 1 、 3 、 5 、 7 、 9 放在个位才有可能是质数，所以十位上只能是 2 、 4 、 5 、 6 ．这四个两位数的和是 ( 2+4+5+6 ) 10+1+3+7+9=190 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "737",
+        "queId": "33154aa4cedb45e2914a1b58fab56bdd",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "190"
+          },
+          {
+            "label": "B",
+            "content": "217"
+          },
+          {
+            "label": "C",
+            "content": "127"
+          },
+          {
+            "label": "D",
+            "content": "无法构造"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->质数与合数->质数与合数判定->质数与合数的认识"
+        ],
+        "competition_source_list": [
+          "2016年第16届世奥赛六年级竞赛决赛第11题",
+          "2016年全国世奥赛竞赛A卷第11题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:01731",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1731,
+      "split": "zh_train",
+      "source_problem_id": "bd9cac9ff9d344e9aa52d18a55361368"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "根据``三角形任意两边之和大于第三边''的知识，解答本题：  有不同长度的七条线段，其长度均为整数厘米，最短的是$$1$$厘米，最长的是$$21$$厘米，其中以任何三条线段作``边''都不能组成一个三角形，那么这七条线段中第二长的线段长厘米．\n(A) 8\n(B) 9\n(C) 13\n(D) 20",
+      "problem_plain": "根据``三角形任意两边之和大于第三边''的知识，解答本题： 有不同长度的七条线段，其长度均为整数厘米，最短的是 1 厘米，最长的是 21 厘米，其中以任何三条线段作``边''都不能组成一个三角形，那么这七条线段中第二长的线段长厘米． (A) 8 (B) 9 (C) 13 (D) 20",
+      "solution_latex": "斐波那契数列从第三项开始，等于前两项的和，即$$1$$、$$2$$、$$3$$、$$5$$、$$8$$、$$13$$、$$21$$．  即第二长的为$$13$$．",
+      "solution_plain": "斐波那契数列从第三项开始，等于前两项的和，即 1 、 2 、 3 、 5 、 8 、 13 、 21 ． 即第二长的为 13 ．"
+    },
+    "answer": {
+      "final_raw": "13",
+      "final_normalized": "13",
+      "candidates": [
+        "13",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "斐波那契数列从第三项开始，等于前两项的和，即$$1$$、$$2$$、$$3$$、$$5$$、$$8$$、$$13$$、$$21$$．  即第二长的为$$13$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "根据``三角形任意两边之和大于第三边''的知识，解答本题： 有不同长度的七条线段，其长度均为整数厘米，最短的是 1 厘米，最长的是 21 厘米，其中以任何三条线段作``边''都不能组成一个三角形，那么这七条线段中第二长的线段长厘米． (A) 8 (B) 9 (C) 13 (D) 20",
+      "solution_text": "斐波那契数列从第三项开始，等于前两项的和，即 1 、 2 、 3 、 5 、 8 、 13 、 21 ． 即第二长的为 13 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3086",
+        "queId": "bd9cac9ff9d344e9aa52d18a55361368",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "8"
+          },
+          {
+            "label": "B",
+            "content": "9"
+          },
+          {
+            "label": "C",
+            "content": "13"
+          },
+          {
+            "label": "D",
+            "content": "20"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->逻辑分析"
+        ],
+        "competition_source_list": [
+          "2016年第14届全国创新杯五年级竞赛初赛第8题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:01770",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1770,
+      "split": "zh_train",
+      "source_problem_id": "66abdab8a1d246548df974c39dd6e831"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "从前一百个正整数中，最多能选出多少个不同整数，使任意其中三个都不能作为同一个三角形的三边长？\n(A) 8\n(B) 9\n(C) 10\n(D) 11",
+      "problem_plain": "从前一百个正整数中，最多能选出多少个不同整数，使任意其中三个都不能作为同一个三角形的三边长？ (A) 8 (B) 9 (C) 10 (D) 11",
+      "solution_latex": "To be the lengths of a triangle, the sum of two sides must be longer than the third side. Therefore, we just need to make the third number exactly the sum of the two former numbers, which is also the Fibonacci sequence. $$1$$，$$2$$，$$3$$，$$5$$，$$8$$，$$13$$，$$21$$，$$34$$，$$55$$，$$89$$. The last number to be chosen is $$89$$. A total of $$10$$ numbers. Choose $$C$$．",
+      "solution_plain": "To be the lengths of a triangle, the sum of two sides must be longer than the third side. Therefore, we just need to make the third number exactly the sum of the two former numbers, which is also the Fibonacci sequence. 1 ， 2 ， 3 ， 5 ， 8 ， 13 ， 21 ， 34 ， 55 ， 89 . The last number to be chosen is 89 . A total of 10 numbers. Choose C ．"
+    },
+    "answer": {
+      "final_raw": "10",
+      "final_normalized": "10",
+      "candidates": [
+        "10",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "To be the lengths of a triangle, the sum of two sides must be longer than the third side.",
+        "Therefore, we just need to make the third number exactly the sum of the two former numbers, which is also the Fibonacci sequence.",
+        "$$1$$，$$2$$，$$3$$，$$5$$，$$8$$，$$13$$，$$21$$，$$34$$，$$55$$，$$89$$.",
+        "The last number to be chosen is $$89$$.",
+        "A total of $$10$$ numbers.",
+        "Choose $$C$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "从前一百个正整数中，最多能选出多少个不同整数，使任意其中三个都不能作为同一个三角形的三边长？ (A) 8 (B) 9 (C) 10 (D) 11",
+      "solution_text": "To be the lengths of a triangle, the sum of two sides must be longer than the third side. Therefore, we just need to make the third number exactly the sum of the two former numbers, which is also the Fibonacci sequence. 1 ， 2 ， 3 ， 5 ， 8 ， 13 ， 21 ， 34 ， 55 ， 89 . The last number to be chosen is 89 . A total of 10 numbers. Choose C ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2455",
+        "queId": "66abdab8a1d246548df974c39dd6e831",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "8"
+          },
+          {
+            "label": "B",
+            "content": "9"
+          },
+          {
+            "label": "C",
+            "content": "10"
+          },
+          {
+            "label": "D",
+            "content": "11"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->知识点->几何模块->直线型->图形认知->三角形->三角形三边关系",
+          "拓展思维->能力->逻辑分析"
+        ],
+        "competition_source_list": [
+          "2017年全国美国数学大联盟杯小学高年级五年级竞赛初赛第34题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:01906",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1906,
+      "split": "zh_train",
+      "source_problem_id": "0f032374f5cf4fb4bff2db0c3e573675"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有两个整数，它们的和恰好是两个数字相同的两位数，它们的乘积恰好是三个数字相同的三位数．求这两个整数分别是多少？\n(A) 37$$和$$18\n(B) 74$$和$$3\n(C) 74$$和$$3$$或$$37$$和$$18",
+      "problem_plain": "有两个整数，它们的和恰好是两个数字相同的两位数，它们的乘积恰好是三个数字相同的三位数．求这两个整数分别是多少？ (A) 37 和 18 (B) 74 和 3 (C) 74 和 3 或 37 和 18",
+      "solution_latex": "两位数中，数字相同的两位数有$$11$$、$$22$$、$$33$$、$$44$$、$$55$$、$$66$$、$$77$$、$$88$$、$$99$$共九个，它们中的每个数都可以表示成两个整数相加的形式，例如$$33=1+32=2+31=3+30=\\cdots \\cdots =16+17$$，共有$$16$$种形式，如果把每个数都这样分解，再相乘，看哪两个数的乘积是三个数字相同的三位数，显然太繁琐了．可以从乘积入手，因为三个数字相同的三位数有$$111$$、$$222$$、$$333$$、$$444$$、$$555$$、$$666$$、$$777$$、$$888$$、$$999$$，每个数都是$$111$$的倍数，而$$111=37\\times 3$$，因此把这九个数表示成一个两位数与一个一位数或两个两位数相乘时，必有一个因数是$$37$$或$$37$$的倍数，但只能是$$37$$的$$2$$倍（想想为什么？）$$3$$倍就不是两位数了．  把九个三位数分解：$$111=37\\times 3$$、$$222=37\\times 6=74\\times 3$$、$$333=37\\times 9$$、$$444=37\\times12=74\\times 6$$、$$555=37\\times 15$$、$$666=37\\times 18=74\\times 9$$、$$777=37\\times 21$$、$$888=37\\times24=74\\times 12$$、$$999=37\\times 27$$．  把两个因数相加，只有($$74+3$$)$$=77$$和($$37+18$$)$$=55$$的两位数字相同．所以满足题意的答案是$$74$$和$$3$$，$$37$$和$$18$$．",
+      "solution_plain": "两位数中，数字相同的两位数有 11 、 22 、 33 、 44 、 55 、 66 、 77 、 88 、 99 共九个，它们中的每个数都可以表示成两个整数相加的形式，例如 33=1+32=2+31=3+30= =16+17 ，共有 16 种形式，如果把每个数都这样分解，再相乘，看哪两个数的乘积是三个数字相同的三位数，显然太繁琐了．可以从乘积入手，因为三个数字相同的三位数有 111 、 222 、 333 、 444 、 555 、 666 、 777 、 888 、 999 ，每个数都是 111 的倍数，而 111=37 3 ，因此把这九个数表示成一个两位数与一个一位数或两个两位数相乘时，必有一个因数是 37 或 37 的倍数，但只能是 37 的 2 倍（想想为什么？） 3 倍就不是两位数了． 把九个三位数分解： 111=37 3 、 222=37 6=74 3 、 333=37 9 、 444=37 12=74 6 、 555=37 15 、 666=37 18=74 9 、 777=37 21 、 888=37 24=74 12 、 999=37 27 ． 把两个因数相加，只有( 74+3 ) =77 和( 37+18 ) =55 的两位数字相同．所以满足题意的答案是 74 和 3 ， 37 和 18 ．"
+    },
+    "answer": {
+      "final_raw": "74$$和$$3$$或$$37$$和$$18",
+      "final_normalized": "74$$和$$3$$或$$37$$和$$18",
+      "candidates": [
+        "74$$和$$3$$或$$37$$和$$18",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "两位数中，数字相同的两位数有$$11$$、$$22$$、$$33$$、$$44$$、$$55$$、$$66$$、$$77$$、$$88$$、$$99$$共九个，它们中的每个数都可以表示成两个整数相加的形式，例如$$33=1+32=2+31=3+30=\\cdots \\cdots =16+17$$，共有$$16$$种形式，如果把每个数都这样分解，再相乘，看哪两个数的乘积是三个数字相同的三位数，显然太繁琐了．可以从乘积入手，因为三个数字相同的三位数有$$111$$、$$222$$、$$333$$、$$444$$、$$555$$、$$666$$、$$777$$、$$888$$、$$999$$，每个数都是$$111$$的倍数，而$$111=37\\times 3$$，因此把这九个数表示成一个两位数与一个一位数或两个两位数相乘时，必有一个因数是$$37$$或$$37$$的倍数，但只能是$$37$$的$$2$$倍（想想为什么？）$$3$$倍就不是两位数了．  把九个三位数分解：$$111=37\\times 3$$、$$222=37\\times 6=74\\times 3$$、$$333=37\\times 9$$、$$444=37\\times12=74\\times 6$$、$$555=37\\times 15$$、$$666=37\\times 18=74\\times 9$$、$$777=37\\times 21$$、$$888=37\\times24=74\\times 12$$、$$999=37\\times 27$$．  把两个因数相加，只有($$74+3$$)$$=77$$和($$37+18$$)$$=55$$的两位数字相同．所以满足题意的答案是$$74$$和$$3$$，$$37$$和$$18$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有两个整数，它们的和恰好是两个数字相同的两位数，它们的乘积恰好是三个数字相同的三位数．求这两个整数分别是多少？ (A) 37 和 18 (B) 74 和 3 (C) 74 和 3 或 37 和 18",
+      "solution_text": "两位数中，数字相同的两位数有 11 、 22 、 33 、 44 、 55 、 66 、 77 、 88 、 99 共九个，它们中的每个数都可以表示成两个整数相加的形式，例如 33=1+32=2+31=3+30= =16+17 ，共有 16 种形式，如果把每个数都这样分解，再相乘，看哪两个数的乘积是三个数字相同的三位数，显然太繁琐了．可以从乘积入手，因为三个数字相同的三位数有 111 、 222 、 333 、 444 、 555 、 666 、 777 、 888 、 999 ，每个数都是 111 的倍数，而 111=37 3 ，因此把这九个数表示成一个两位数与一个一位数或两个两位数相乘时，必有一个因数是 37 或 37 的倍数，但只能是 37 的 2 倍（想想为什么？） 3 倍就不是两位数了． 把九个三位数分解： 111=37 3 、 222=37 6=74 3 、 333=37 9 、 444=37 12=74 6 、 555=37 15 、 666=37 18=74 9 、 777=37 21 、 888=37 24=74 12 、 999=37 27 ． 把两个因数相加，只有( 74+3 ) =77 和( 37+18 ) =55 的两位数字相同．所以满足题意的答案是 74 和 3 ， 37 和 18 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3156",
+        "queId": "0f032374f5cf4fb4bff2db0c3e573675",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "37$$和$$18"
+          },
+          {
+            "label": "B",
+            "content": "74$$和$$3"
+          },
+          {
+            "label": "C",
+            "content": "74$$和$$3$$或$$37$$和$$18"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->拓展思维->计数模块->枚举法综合->枚举法->有序枚举"
+        ],
+        "competition_source_list": [
+          "2011年北京学而思杯五年级竞赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:01988",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1988,
+      "split": "zh_train",
+      "source_problem_id": "4341126073c04edab976eb89aad96dde"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在$$\\left[ \\frac{{{1}^{2}}}{2017} \\right]$$，$$\\left[ \\frac{{{3}^{2}}}{2017} \\right]$$，$$\\left[ \\frac{{{5}^{2}}}{2017} \\right]$$，\\ldots，$$\\left[ \\frac{{{2017}^{2}}}{2017} \\right]$$这$$1009$$个数中共有个互不相同的数（$$\\left[ {}\\textasciitilde\\textasciitilde\\textasciitilde{} \\right]$$表示取整数，如$$\\left[ \\frac{13}{5} \\right]=2$$）．\n(A) 883\n(B) 882\n(C) 888\n(D) 1509",
+      "problem_plain": "在 [ 1 ^ 2 2017 ] ， [ 3 ^ 2 2017 ] ， [ 5 ^ 2 2017 ] ， ， [ 2017 ^ 2 2017 ] 这 1009 个数中共有个互不相同的数（ [ ] 表示取整数，如 [ 13 5 ]=2 ）． (A) 883 (B) 882 (C) 888 (D) 1509",
+      "solution_latex": "假设相邻两数为$$a$$、$$b$$，且$$a$$大$$b$$小，其实我们知道，$$a-b$$的差小于$$1$$时，$$[a]=[b]$$或者$$[a]-[b]=1$$；当$$a-b$$的差大于等于$$1$$时，$$[a]$$和$$[b]$$一定不同．  从小到大看，取整符号中的第$$n$$项是$$\\frac{{{\\left( 2n-1 \\right)}^{2}}}{2017}$$，第$$\\left( n+1 \\right)$$项是$$\\frac{{{\\left( 2n+1 \\right)}^{2}}}{2017}$$，  相减并利用平方差公式为$$\\frac{{{\\left( 2n+1 \\right)}^{2}}}{2017}-\\frac{{{\\left( 2n-1 \\right)}^{2}}}{2017}=\\frac{8n}{2017}$$，要想大于等于$$1$$，则$$n$$至少取$$253$$．所以取整符号中的第$$253$$项之后的数之差均大于$$1$$，即各不相同．  第$$253$$项为$$\\frac{{{505}^{2}}}{2017}=126$$，$$1-253$$项中，取整后的数每个整数都取过$$0-126$$有$$127$$个不一样的数．从第$$254-1009$$项中，每个数都不相同，  有$$1009-253=756$$个数．$$127+756=883$$（个）．",
+      "solution_plain": "假设相邻两数为 a 、 b ，且 a 大 b 小，其实我们知道， a-b 的差小于 1 时， [a]=[b] 或者 [a]-[b]=1 ；当 a-b 的差大于等于 1 时， [a] 和 [b] 一定不同． 从小到大看，取整符号中的第 n 项是 ( 2n-1 ) ^ 2 2017 ，第 ( n+1 ) 项是 ( 2n+1 ) ^ 2 2017 ， 相减并利用平方差公式为 ( 2n+1 ) ^ 2 2017 - ( 2n-1 ) ^ 2 2017 = 8n 2017 ，要想大于等于 1 ，则 n 至少取 253 ．所以取整符号中的第 253 项之后的数之差均大于 1 ，即各不相同． 第 253 项为 505 ^ 2 2017 =126 ， 1-253 项中，取整后的数每个整数都取过 0-126 有 127 个不一样的数．从第 254-1009 项中，每个数都不相同， 有 1009-253=756 个数． 127+756=883 （个）．"
+    },
+    "answer": {
+      "final_raw": "883",
+      "final_normalized": "883",
+      "candidates": [
+        "883",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "假设相邻两数为$$a$$、$$b$$，且$$a$$大$$b$$小，其实我们知道，$$a-b$$的差小于$$1$$时，$$[a]=[b]$$或者$$[a]-[b]=1$$；当$$a-b$$的差大于等于$$1$$时，$$[a]$$和$$[b]$$一定不同．  从小到大看，取整符号中的第$$n$$项是$$\\frac{{{\\left( 2n-1 \\right)}^{2}}}{2017}$$，第$$\\left( n+1 \\right)$$项是$$\\frac{{{\\left( 2n+1 \\right)}^{2}}}{2017}$$，  相减并利用平方差公式为$$\\frac{{{\\left( 2n+1 \\right)}^{2}}}{2017}-\\frac{{{\\left( 2n-1 \\right)}^{2}}}{2017}=\\frac{8n}{2017}$$，要想大于等于$$1$$，则$$n$$至少取$$253$$．所以取整符号中的第$$253$$项之后的数之差均大于$$1$$，即各不相同．  第$$253$$项为$$\\frac{{{505}^{2}}}{2017}=126$$，$$1-253$$项中，取整后的数每个整数都取过$$0-126$$有$$127$$个不一样的数．从第$$254-1009$$项中，每个数都不相同，  有$$1009-253=756$$个数．$$127+756=883$$（个）．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在 [ 1 ^ 2 2017 ] ， [ 3 ^ 2 2017 ] ， [ 5 ^ 2 2017 ] ， ， [ 2017 ^ 2 2017 ] 这 1009 个数中共有个互不相同的数（ [ ] 表示取整数，如 [ 13 5 ]=2 ）． (A) 883 (B) 882 (C) 888 (D) 1509",
+      "solution_text": "假设相邻两数为 a 、 b ，且 a 大 b 小，其实我们知道， a-b 的差小于 1 时， [a]=[b] 或者 [a]-[b]=1 ；当 a-b 的差大于等于 1 时， [a] 和 [b] 一定不同． 从小到大看，取整符号中的第 n 项是 ( 2n-1 ) ^ 2 2017 ，第 ( n+1 ) 项是 ( 2n+1 ) ^ 2 2017 ， 相减并利用平方差公式为 ( 2n+1 ) ^ 2 2017 - ( 2n-1 ) ^ 2 2017 = 8n 2017 ，要想大于等于 1 ，则 n 至少取 253 ．所以取整符号中的第 253 项之后的数之差均大于 1 ，即各不相同． 第 253 项为 505 ^ 2 2017 =126 ， 1-253 项中，取整后的数每个整数都取过 0-126 有 127 个不一样的数．从第 254-1009 项中，每个数都不相同， 有 1009-253=756 个数． 127+756=883 （个）．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "695",
+        "queId": "4341126073c04edab976eb89aad96dde",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "883"
+          },
+          {
+            "label": "B",
+            "content": "882"
+          },
+          {
+            "label": "C",
+            "content": "888"
+          },
+          {
+            "label": "D",
+            "content": "1509"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->数据处理"
+        ],
+        "competition_source_list": [
+          "2016年创新杯小学高年级六年级竞赛训练题（四）第7题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:02018",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2018,
+      "split": "zh_train",
+      "source_problem_id": "8a1b784b6f28450e98f6848b1afa8e96"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "满足不等式$$\\frac{2}{3}\\textless{}\\frac{5}{n}\\textless{}\\frac{3}{m}$$的有序整数对$$(m,n)$$的个数是（~ ）．\n(A) 12\n(B) 13\n(C) 14\n(D) 15",
+      "problem_plain": "满足不等式 2 3 5 n 3 m 的有序整数对 (m,n) 的个数是（~ ）． (A) 12 (B) 13 (C) 14 (D) 15",
+      "solution_latex": "由$$\\frac{2}{3}\\textless{}\\frac{5}{n}\\textless{}\\frac{3}{m}$$，得到$$\\frac{m}{3}\\textless{}\\frac{n}{5}\\textless{}\\frac{3}{2}$$，即$$\\frac{5}{3}m\\textless{}n\\textless{}\\frac{15}{2}$$，因此$$n\\leqslant 7$$．  $$n=7\\Rightarrow m\\textless{}\\frac{3}{5}n=\\frac{21}{5}$$，$$m=1,2,3,4$$，  $$n=6\\Rightarrow m\\textless{}\\frac{3}{5}n=\\frac{18}{5}$$，$$m=1,2,3$$，  $$n=5\\Rightarrow m\\textless{}\\frac{3}{5}n=3$$，$$m=1,2$$，  $$n=4\\Rightarrow m\\textless{}\\frac{3}{5}n=\\frac{12}{5}$$，$$m=1,2$$，  $$n=3\\Rightarrow m\\textless{}\\frac{3}{5}n=\\frac{9}{5}$$，$$m=1$$，  $$n=2\\Rightarrow m\\textless{}\\frac{3}{5}n=\\frac{6}{5}$$，$$m=1$$，  ∴满足不等式的$$(m,n)$$一共有$$4+3+2+2+1+1=13$$对．  故选$$\\text{B}$$．",
+      "solution_plain": "由 2 3 5 n 3 m ，得到 m 3 n 5 3 2 ，即 5 3 m n 15 2 ，因此 n 7 ． n=7 m 3 5 n= 21 5 ， m=1,2,3,4 ， n=6 m 3 5 n= 18 5 ， m=1,2,3 ， n=5 m 3 5 n=3 ， m=1,2 ， n=4 m 3 5 n= 12 5 ， m=1,2 ， n=3 m 3 5 n= 9 5 ， m=1 ， n=2 m 3 5 n= 6 5 ， m=1 ， ∴满足不等式的 (m,n) 一共有 4+3+2+2+1+1=13 对． 故选 B ．"
+    },
+    "answer": {
+      "final_raw": "13",
+      "final_normalized": "13",
+      "candidates": [
+        "13",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由$$\\frac{2}{3}\\textless{}\\frac{5}{n}\\textless{}\\frac{3}{m}$$，得到$$\\frac{m}{3}\\textless{}\\frac{n}{5}\\textless{}\\frac{3}{2}$$，即$$\\frac{5}{3}m\\textless{}n\\textless{}\\frac{15}{2}$$，因此$$n\\leqslant 7$$．  $$n=7\\Rightarrow m\\textless{}\\frac{3}{5}n=\\frac{21}{5}$$，$$m=1,2,3,4$$，  $$n=6\\Rightarrow m\\textless{}\\frac{3}{5}n=\\frac{18}{5}$$，$$m=1,2,3$$，  $$n=5\\Rightarrow m\\textless{}\\frac{3}{5}n=3$$，$$m=1,2$$，  $$n=4\\Rightarrow m\\textless{}\\frac{3}{5}n=\\frac{12}{5}$$，$$m=1,2$$，  $$n=3\\Rightarrow m\\textless{}\\frac{3}{5}n=\\frac{9}{5}$$，$$m=1$$，  $$n=2\\Rightarrow m\\textless{}\\frac{3}{5}n=\\frac{6}{5}$$，$$m=1$$，  ∴满足不等式的$$(m,n)$$一共有$$4+3+2+2+1+1=13$$对．  故选$$\\text{B}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "满足不等式 2 3 5 n 3 m 的有序整数对 (m,n) 的个数是（~ ）． (A) 12 (B) 13 (C) 14 (D) 15",
+      "solution_text": "由 2 3 5 n 3 m ，得到 m 3 n 5 3 2 ，即 5 3 m n 15 2 ，因此 n 7 ． n=7 m 3 5 n= 21 5 ， m=1,2,3,4 ， n=6 m 3 5 n= 18 5 ， m=1,2,3 ， n=5 m 3 5 n=3 ， m=1,2 ， n=4 m 3 5 n= 12 5 ， m=1,2 ， n=3 m 3 5 n= 9 5 ， m=1 ， n=2 m 3 5 n= 6 5 ， m=1 ， ∴满足不等式的 (m,n) 一共有 4+3+2+2+1+1=13 对． 故选 B ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1002",
+        "queId": "8a1b784b6f28450e98f6848b1afa8e96",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "12"
+          },
+          {
+            "label": "B",
+            "content": "13"
+          },
+          {
+            "label": "C",
+            "content": "14"
+          },
+          {
+            "label": "D",
+            "content": "15"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->方程与不等式->不等式（组）->一元一次不等式组->一元一次不等式组的整数解"
+        ],
+        "competition_source_list": [
+          "2013年第18届华杯赛初一竞赛初赛第6题",
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:02085",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2085,
+      "split": "zh_train",
+      "source_problem_id": "ff8080814d7978b9014d897647403530"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "三元方程$$x+y+z=1999$$的非负整数解的个数有（~ ~ ）．\n(A) 20001999$$个\n(B) 19992000$$个\n(C) 2001000$$个\n(D) 2001999",
+      "problem_plain": "三元方程 x+y+z=1999 的非负整数解的个数有（~ ~ ）． (A) 20001999 个 (B) 19992000 个 (C) 2001000 个 (D) 2001999",
+      "solution_latex": "当$$x=0$$时，$$y+z=1999$$，$$y$$分别取$$0$$，$$1$$，$$2$$，\\ldots，$$1999$$时，$$z$$取$$1999$$，$$1998$$，\\ldots，$$0$$，有$$2000$$个整数解；  当$$x=1$$时，$$y+z=1998$$，有$$1999$$个整数解，  当$$x=2$$时，$$y+z=1997$$，有$$1998$$个整数解；  \\ldots 当$$x=1999$$时，$$y+z=1$$，只有$$1$$组整数解．故非负整数解共有$$2000+1999+1998+\\cdot \\cdot \\cdot +3+2+1=2001000$$（个）．",
+      "solution_plain": "当 x=0 时， y+z=1999 ， y 分别取 0 ， 1 ， 2 ， ， 1999 时， z 取 1999 ， 1998 ， ， 0 ，有 2000 个整数解； 当 x=1 时， y+z=1998 ，有 1999 个整数解， 当 x=2 时， y+z=1997 ，有 1998 个整数解； 当 x=1999 时， y+z=1 ，只有 1 组整数解．故非负整数解共有 2000+1999+1998+ +3+2+1=2001000 （个）．"
+    },
+    "answer": {
+      "final_raw": "2001000$$个",
+      "final_normalized": "2001000$$个",
+      "candidates": [
+        "2001000$$个",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "当$$x=0$$时，$$y+z=1999$$，$$y$$分别取$$0$$，$$1$$，$$2$$，\\ldots，$$1999$$时，$$z$$取$$1999$$，$$1998$$，\\ldots，$$0$$，有$$2000$$个整数解；  当$$x=1$$时，$$y+z=1998$$，有$$1999$$个整数解，  当$$x=2$$时，$$y+z=1997$$，有$$1998$$个整数解；  \\ldots 当$$x=1999$$时，$$y+z=1$$，只有$$1$$组整数解．故非负整数解共有$$2000+1999+1998+\\cdot \\cdot \\cdot +3+2+1=2001000$$（个）．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "三元方程 x+y+z=1999 的非负整数解的个数有（~ ~ ）． (A) 20001999 个 (B) 19992000 个 (C) 2001000 个 (D) 2001999",
+      "solution_text": "当 x=0 时， y+z=1999 ， y 分别取 0 ， 1 ， 2 ， ， 1999 时， z 取 1999 ， 1998 ， ， 0 ，有 2000 个整数解； 当 x=1 时， y+z=1998 ，有 1999 个整数解， 当 x=2 时， y+z=1997 ，有 1998 个整数解； 当 x=1999 时， y+z=1 ，只有 1 组整数解．故非负整数解共有 2000+1999+1998+ +3+2+1=2001000 （个）．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1071",
+        "queId": "ff8080814d7978b9014d897647403530",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "20001999$$个"
+          },
+          {
+            "label": "B",
+            "content": "19992000$$个"
+          },
+          {
+            "label": "C",
+            "content": "2001000$$个"
+          },
+          {
+            "label": "D",
+            "content": "2001999"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->方程与不等式->其他方程->三元一次方程组->三元一次方程组的定义",
+          "课内体系->知识点->方程与不等式->其他方程->三元一次方程组->解三元一次方程组"
+        ],
+        "competition_source_list": [
+          "2000年第11届希望杯初二竞赛第2试第7题",
+          "初一其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:02201",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2201,
+      "split": "zh_train",
+      "source_problem_id": "c62fbbba557448b0825048e223c8dafe"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "如果对于不小于$$8$$的自然数$$n$$，当$$3n+1$$是一个完全平方数时，$$n+1$$都能表示成$$k$$个完全平方数的和，那么$$k$$的最小值为（~ ）．\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
+      "problem_plain": "如果对于不小于 8 的自然数 n ，当 3n+1 是一个完全平方数时， n+1 都能表示成 k 个完全平方数的和，那么 k 的最小值为（~ ）． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_latex": "$$3n+1$$是一个完全平方数，那这个完全平方数$$a$$显然不是$$3$$的倍数．  设$$a=3t\\pm 1$$，则$${{a}^{2}}=9{{t}^{2}}\\pm 6t+1$$，  $${{a}^{2}}=3n+1=9{{t}^{2}}\\pm 6t+1$$，$$\\textasciitilde\\Rightarrow n=3{{t}^{2}}\\pm 2t$$，  $$n+1=3{{t}^{2}}\\pm 2t+1={{(t\\pm 1)}^{2}}+{{t}^{2}}+{{t}^{2}}$$．  而若$$k$$为$$1$$，当$$n=21$$时$$3n+1=64$$是完全平方数，但是$$n+1=22$$不能写成一个或两个完全平方数的和，故$$k$$最小为$$3$$，选择$$\\text{C}$$．",
+      "solution_plain": "3n+1 是一个完全平方数，那这个完全平方数 a 显然不是 3 的倍数． 设 a=3t 1 ，则 a ^ 2 =9 t ^ 2 6t+1 ， a ^ 2 =3n+1=9 t ^ 2 6t+1 ， n=3 t ^ 2 2t ， n+1=3 t ^ 2 2t+1= (t 1) ^ 2 + t ^ 2 + t ^ 2 ． 而若 k 为 1 ，当 n=21 时 3n+1=64 是完全平方数，但是 n+1=22 不能写成一个或两个完全平方数的和，故 k 最小为 3 ，选择 C ．"
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$3n+1$$是一个完全平方数，那这个完全平方数$$a$$显然不是$$3$$的倍数．  设$$a=3t\\pm 1$$，则$${{a}^{2}}=9{{t}^{2}}\\pm 6t+1$$，  $${{a}^{2}}=3n+1=9{{t}^{2}}\\pm 6t+1$$，$$\\textasciitilde\\Rightarrow n=3{{t}^{2}}\\pm 2t$$，  $$n+1=3{{t}^{2}}\\pm 2t+1={{(t\\pm 1)}^{2}}+{{t}^{2}}+{{t}^{2}}$$．  而若$$k$$为$$1$$，当$$n=21$$时$$3n+1=64$$是完全平方数，但是$$n+1=22$$不能写成一个或两个完全平方数的和，故$$k$$最小为$$3$$，选择$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "如果对于不小于 8 的自然数 n ，当 3n+1 是一个完全平方数时， n+1 都能表示成 k 个完全平方数的和，那么 k 的最小值为（~ ）． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_text": "3n+1 是一个完全平方数，那这个完全平方数 a 显然不是 3 的倍数． 设 a=3t 1 ，则 a ^ 2 =9 t ^ 2 6t+1 ， a ^ 2 =3n+1=9 t ^ 2 6t+1 ， n=3 t ^ 2 2t ， n+1=3 t ^ 2 2t+1= (t 1) ^ 2 + t ^ 2 + t ^ 2 ． 而若 k 为 1 ，当 n=21 时 3n+1=64 是完全平方数，但是 n+1=22 不能写成一个或两个完全平方数的和，故 k 最小为 3 ，选择 C ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1494",
+        "queId": "c62fbbba557448b0825048e223c8dafe",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->数论->同余->完全平方数"
+        ],
+        "competition_source_list": [
+          "2002年第19届全国初中数学联赛竞赛第6题7分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:02288",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2288,
+      "split": "zh_train",
+      "source_problem_id": "a127093d424e43548f4c680444b49b9d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$n$$是小于$$100$$的正整数且使$$5{{n}^{2}}+3n-5$$是$$15$$的倍数，则符合条件的所有正整数$$n$$的和是（~ ~ ~）．\n(A) 285\n(B) 350\n(C) 540\n(D) 635",
+      "problem_plain": "设 n 是小于 100 的正整数且使 5 n ^ 2 +3n-5 是 15 的倍数，则符合条件的所有正整数 n 的和是（~ ~ ~）． (A) 285 (B) 350 (C) 540 (D) 635",
+      "solution_latex": "∵$$5{{n}^{2}}+3n-5$$是$$15$$的倍数，  ∴$$5\\textbar(5{{n}^{2}}+3n-5)$$，  ∴$$5\\textbar3n$$，  ∴$$5\\textbar n$$．  设$$n=5m$$（$$m$$是正整数），  则$$5{{n}^{2}}+3n-5=125{{m}^{2}}+15m-5=120{{m}^{2}}+15m+5({{m}^{2}}-1)$$．  又∵$$5{{n}^{2}}+3n-5$$是$$15$$的倍数，  ∴$${{m}^{2}}-1$$是$$3$$的倍数，  ∴$$m=3k+1$$或$$m=3k+2$$，其中$$k$$是非负整数，  ∴$$n=5(3k+1)=15k+5$$或$$n=5(3k+2)=15k+10$$，其中$$k$$是非负整数，  ∴符合条件的所有正整数$$n$$的和为  $$(5+20+35+50+65+80+95)+(10+25+40+55+70+85)=635$$．",
+      "solution_plain": "∵ 5 n ^ 2 +3n-5 是 15 的倍数， ∴ 5 (5 n ^ 2 +3n-5) ， ∴ 5 3n ， ∴ 5 n ． 设 n=5m （ m 是正整数）， 则 5 n ^ 2 +3n-5=125 m ^ 2 +15m-5=120 m ^ 2 +15m+5( m ^ 2 -1) ． 又∵ 5 n ^ 2 +3n-5 是 15 的倍数， ∴ m ^ 2 -1 是 3 的倍数， ∴ m=3k+1 或 m=3k+2 ，其中 k 是非负整数， ∴ n=5(3k+1)=15k+5 或 n=5(3k+2)=15k+10 ，其中 k 是非负整数， ∴符合条件的所有正整数 n 的和为 (5+20+35+50+65+80+95)+(10+25+40+55+70+85)=635 ．"
+    },
+    "answer": {
+      "final_raw": "635",
+      "final_normalized": "635",
+      "candidates": [
+        "635",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "∵$$5{{n}^{2}}+3n-5$$是$$15$$的倍数，  ∴$$5\\textbar(5{{n}^{2}}+3n-5)$$，  ∴$$5\\textbar3n$$，  ∴$$5\\textbar n$$．  设$$n=5m$$（$$m$$是正整数），  则$$5{{n}^{2}}+3n-5=125{{m}^{2}}+15m-5=120{{m}^{2}}+15m+5({{m}^{2}}-1)$$．  又∵$$5{{n}^{2}}+3n-5$$是$$15$$的倍数，  ∴$${{m}^{2}}-1$$是$$3$$的倍数，  ∴$$m=3k+1$$或$$m=3k+2$$，其中$$k$$是非负整数，  ∴$$n=5(3k+1)=15k+5$$或$$n=5(3k+2)=15k+10$$，其中$$k$$是非负整数，  ∴符合条件的所有正整数$$n$$的和为  $$(5+20+35+50+65+80+95)+(10+25+40+55+70+85)=635$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 n 是小于 100 的正整数且使 5 n ^ 2 +3n-5 是 15 的倍数，则符合条件的所有正整数 n 的和是（~ ~ ~）． (A) 285 (B) 350 (C) 540 (D) 635",
+      "solution_text": "∵ 5 n ^ 2 +3n-5 是 15 的倍数， ∴ 5 (5 n ^ 2 +3n-5) ， ∴ 5 3n ， ∴ 5 n ． 设 n=5m （ m 是正整数）， 则 5 n ^ 2 +3n-5=125 m ^ 2 +15m-5=120 m ^ 2 +15m+5( m ^ 2 -1) ． 又∵ 5 n ^ 2 +3n-5 是 15 的倍数， ∴ m ^ 2 -1 是 3 的倍数， ∴ m=3k+1 或 m=3k+2 ，其中 k 是非负整数， ∴ n=5(3k+1)=15k+5 或 n=5(3k+2)=15k+10 ，其中 k 是非负整数， ∴符合条件的所有正整数 n 的和为 (5+20+35+50+65+80+95)+(10+25+40+55+70+85)=635 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1373",
+        "queId": "a127093d424e43548f4c680444b49b9d",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "285"
+          },
+          {
+            "label": "B",
+            "content": "350"
+          },
+          {
+            "label": "C",
+            "content": "540"
+          },
+          {
+            "label": "D",
+            "content": "635"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->数->有理数->有理数基础运算->有理数除法->有理数四则混合运算",
+          "课内体系->能力->运算能力",
+          "竞赛->知识点->数论->同余->剩余系及其应用",
+          "竞赛->知识点->数论->整除->整除的概念与基本性质"
+        ],
+        "competition_source_list": [
+          "2015年第32届全国全国初中数学联赛竞赛A卷第6题7分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:02340",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2340,
+      "split": "zh_train",
+      "source_problem_id": "20a5539f724b4d5785001a9b6c9cadf6"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "将不大于$$20$$的正偶数分成两组，使得第一组中数的乘积能被第二组中数的乘积整除，则商的最小值是~\\uline{~~~~~~~~~~}~．\n(A) 6\n(B) 7\n(C) 8\n(D) 9",
+      "problem_plain": "将不大于 20 的正偶数分成两组，使得第一组中数的乘积能被第二组中数的乘积整除，则商的最小值是~ ~~~~~~~~~~ ~． (A) 6 (B) 7 (C) 8 (D) 9",
+      "solution_latex": "不大于$$20$$的正偶数的乘积是  $$2\\times 4\\times 6\\times 8\\times 10\\times 12\\times 14\\times 16\\times 18\\times 20$$  $$={{2}^{10}}\\times (1\\times 2\\times 3\\times 4\\times 5\\times 6\\times 7\\times 8\\times 9\\times 10)$$  $$={{2}^{10}}\\times (1\\times 2\\times 3\\times 4\\times 5\\times 6\\times 7\\times 8\\times 9\\times 10)$$  $$={{2}^{18}}\\times (3\\times 5\\times 3\\times 7\\times 9\\times 5)$$  $$={{2}^{18}}\\times {{3}^{4}}\\times {{5}^{2}}\\times 7$$．  设第一、二组中数的乘积分别是$$M$$，$$N$$，  则$$MN={{2}^{18}}\\times {{3}^{4}}\\times {{5}^{2}}\\times 7$$．  题意是要求最小的商，其实就是求最大的$$N$$，  易知$${{N}_{\\max }}={{2}^{9}}\\times {{3}^{2}}\\times 5$$，  故商为$$7$$．",
+      "solution_plain": "不大于 20 的正偶数的乘积是 2 4 6 8 10 12 14 16 18 20 = 2 ^ 10 (1 2 3 4 5 6 7 8 9 10) = 2 ^ 10 (1 2 3 4 5 6 7 8 9 10) = 2 ^ 18 (3 5 3 7 9 5) = 2 ^ 18 3 ^ 4 5 ^ 2 7 ． 设第一、二组中数的乘积分别是 M ， N ， 则 MN= 2 ^ 18 3 ^ 4 5 ^ 2 7 ． 题意是要求最小的商，其实就是求最大的 N ， 易知 N _ = 2 ^ 9 3 ^ 2 5 ， 故商为 7 ．"
+    },
+    "answer": {
+      "final_raw": "7",
+      "final_normalized": "7",
+      "candidates": [
+        "7",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "不大于$$20$$的正偶数的乘积是  $$2\\times 4\\times 6\\times 8\\times 10\\times 12\\times 14\\times 16\\times 18\\times 20$$  $$={{2}^{10}}\\times (1\\times 2\\times 3\\times 4\\times 5\\times 6\\times 7\\times 8\\times 9\\times 10)$$  $$={{2}^{10}}\\times (1\\times 2\\times 3\\times 4\\times 5\\times 6\\times 7\\times 8\\times 9\\times 10)$$  $$={{2}^{18}}\\times (3\\times 5\\times 3\\times 7\\times 9\\times 5)$$  $$={{2}^{18}}\\times {{3}^{4}}\\times {{5}^{2}}\\times 7$$．  设第一、二组中数的乘积分别是$$M$$，$$N$$，  则$$MN={{2}^{18}}\\times {{3}^{4}}\\times {{5}^{2}}\\times 7$$．  题意是要求最小的商，其实就是求最大的$$N$$，  易知$${{N}_{\\max }}={{2}^{9}}\\times {{3}^{2}}\\times 5$$，  故商为$$7$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "将不大于 20 的正偶数分成两组，使得第一组中数的乘积能被第二组中数的乘积整除，则商的最小值是~ ~~~~~~~~~~ ~． (A) 6 (B) 7 (C) 8 (D) 9",
+      "solution_text": "不大于 20 的正偶数的乘积是 2 4 6 8 10 12 14 16 18 20 = 2 ^ 10 (1 2 3 4 5 6 7 8 9 10) = 2 ^ 10 (1 2 3 4 5 6 7 8 9 10) = 2 ^ 18 (3 5 3 7 9 5) = 2 ^ 18 3 ^ 4 5 ^ 2 7 ． 设第一、二组中数的乘积分别是 M ， N ， 则 MN= 2 ^ 18 3 ^ 4 5 ^ 2 7 ． 题意是要求最小的商，其实就是求最大的 N ， 易知 N _ = 2 ^ 9 3 ^ 2 5 ， 故商为 7 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "32",
+        "queId": "20a5539f724b4d5785001a9b6c9cadf6",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "7"
+          },
+          {
+            "label": "C",
+            "content": "8"
+          },
+          {
+            "label": "D",
+            "content": "9"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->数->有理数->有理数基础运算->有理数乘法->有理数乘法运算",
+          "课内体系->能力->运算能力",
+          "竞赛->知识点->数论->整除->整除的概念与基本性质",
+          "竞赛->知识点->数论->整除->算术基本定理"
+        ],
+        "competition_source_list": [
+          "2013年第24届全国希望杯初二竞赛初赛第20题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:02368",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2368,
+      "split": "zh_train",
+      "source_problem_id": "dc18f91ec8dd4ac18ad8ced1811c815a"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "满足$${{1998}^{2}}+{{m}^{2}}={{1997}^{2}}+{{n}^{2}}(0\\textless{}m\\textless{}n\\textless{}1998)$$的整数对（$$m$$，$$n$$），共有~\\uline{~~~~~~~~~~}~个．\n(A) 3\n(B) 4\n(C) 5\n(D) 6",
+      "problem_plain": "满足 1998 ^ 2 + m ^ 2 = 1997 ^ 2 + n ^ 2 (0 m n 1998) 的整数对（ m ， n ），共有~ ~~~~~~~~~~ ~个． (A) 3 (B) 4 (C) 5 (D) 6",
+      "solution_latex": "整理得$$n^{2}-m^{2}=3995=5\\times17\\times47$$，$$(n-m)(n+m)=5\\times17\\times47$$，  ∵对$$3995$$的任意整数分拆均可得到$$(m,n)$$，$$0\\textless m\\textless n\\textless1998$$，  ∴$$\\begin{cases} n-m=5   n+m=17\\times47    \\end{cases}$$或$$\\begin{cases} n-m=17    n+m=5\\times47    \\end{cases}$$或$$ \\begin{cases} n-m=47    n+m=17\\times5    \\end{cases} $$或$$\\left { \\begin{array}{l} {m+n=5\\times17\\times47}  {m-n=1} \\end{array}\\right. $$，  ∴满足条件的整数对$$(m,n)$$共$$4$$个．  故答案为$$4$$．",
+      "solution_plain": "整理得 n^ 2 -m^ 2 =3995=5 17 47 ， (n-m)(n+m)=5 17 47 ， ∵对 3995 的任意整数分拆均可得到 (m,n) ， 0 m n 1998 ， ∴ cases n-m=5 n+m=17 47 cases 或 cases n-m=17 n+m=5 47 cases 或 cases n-m=47 n+m=17 5 cases 或 array l m+n=5 17 47 m-n=1 array . ， ∴满足条件的整数对 (m,n) 共 4 个． 故答案为 4 ．"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "整理得$$n^{2}-m^{2}=3995=5\\times17\\times47$$，$$(n-m)(n+m)=5\\times17\\times47$$，  ∵对$$3995$$的任意整数分拆均可得到$$(m,n)$$，$$0\\textless m\\textless n\\textless1998$$，  ∴$$\\begin{cases} n-m=5   n+m=17\\times47    \\end{cases}$$或$$\\begin{cases} n-m=17    n+m=5\\times47    \\end{cases}$$或$$ \\begin{cases} n-m=47    n+m=17\\times5    \\end{cases} $$或$$\\left { \\begin{array}{l} {m+n=5\\times17\\times47}  {m-n=1} \\end{array}\\right.",
+        "$$，  ∴满足条件的整数对$$(m,n)$$共$$4$$个．  故答案为$$4$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "满足 1998 ^ 2 + m ^ 2 = 1997 ^ 2 + n ^ 2 (0 m n 1998) 的整数对（ m ， n ），共有~ ~~~~~~~~~~ ~个． (A) 3 (B) 4 (C) 5 (D) 6",
+      "solution_text": "整理得 n^ 2 -m^ 2 =3995=5 17 47 ， (n-m)(n+m)=5 17 47 ， ∵对 3995 的任意整数分拆均可得到 (m,n) ， 0 m n 1998 ， ∴ cases n-m=5 n+m=17 47 cases 或 cases n-m=17 n+m=5 47 cases 或 cases n-m=47 n+m=17 5 cases 或 array l m+n=5 17 47 m-n=1 array . ， ∴满足条件的整数对 (m,n) 共 4 个． 故答案为 4 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1392",
+        "queId": "dc18f91ec8dd4ac18ad8ced1811c815a",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "4"
+          },
+          {
+            "label": "C",
+            "content": "5"
+          },
+          {
+            "label": "D",
+            "content": "6"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->数论->同余->完全平方数",
+          "课内体系->知识点->数->有理数->有理数运算巧解->完全平方非负性"
+        ],
+        "competition_source_list": [
+          "1998年第15届全国初中数学联赛竞赛第6题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:02533",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2533,
+      "split": "zh_train",
+      "source_problem_id": "ca8c43dea02442aaa64eedf289d800c6"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$${{a}_{n}}=\\text{C}_{200}^{n}{{\\left( \\sqrt[3]{6} \\right)}^{200-n}}{{\\left( \\frac{1}{\\sqrt{2}} \\right)}^{n}}\\left( n=1,2,\\cdots ,95 \\right)$$，则数列$$\\left { {{a}_{n}} \\right }$$中整数项有个.\n(A) 10\n(B) 15\n(C) 20\n(D) 25",
+      "problem_plain": "已知 a _ n = C _ 200 ^ n ( [3] 6 ) ^ 200-n ( 1 2 ) ^ n ( n=1,2, ,95 ) ，则数列 a _ n 中整数项有个. (A) 10 (B) 15 (C) 20 (D) 25",
+      "solution_latex": "$${{a}_{n}}=\\text{C}_{200}^{n}\\cdot {{3}^{\\frac{200-n}{3}}}\\cdot {{2}^{\\frac{400-5 \\pi }{6}}}$$，  要使$${{a}_{n}}(1\\leqslant n\\leqslant 95)$$为整数，必有$$\\frac{200-n}{3}$$，$$\\frac{400-5n}{6}$$均为整数，从而$$6\\textbar n+4$$．  当$$n=2,8,14,20,26,32,38,44,50,56,62,68,74,80$$时，$$\\frac{200-n}{3}$$和$$\\frac{400-5n}{6}$$均为非负整数，所以$${{a}_{n}}$$为整数，共有$$14$$个．  当$$n=86$$时，$${{a}_{n}}=\\text{C}_{200}^{86}\\cdot {{3}^{38}}\\cdot 2_{{}}^{-5}$$，在$$\\text{C}_{200}^{86}=\\frac{200!}{86!\\cdot 114!}$$中，  $$200$$中因数$$2$$的个数为$$\\left[ \\frac{200}{2} \\right]+\\left[ \\frac{200}{{{2}^{2}}} \\right]+\\left[ \\frac{200}{{{2}^{3}}} \\right]+\\left[ \\frac{200}{{{2}^{4}}} \\right]+\\left[ \\frac{200}{{{2}^{5}}} \\right]+\\left[ \\frac{200}{{{2}^{6}}} \\right]+\\left[ \\frac{200}{{{2}^{7}}} \\right]=197$$，  同理可计算得$$86$$中因数$$2$$的个数为$$82$$，$$114$$中因数$$2$$的个数为$$110$$，  所以$$\\text{C}_{200}^{86}$$中因数$$2$$的个数为$$197-82-110=5$$，故$${{a}_{86}}$$是整数．  当$$n=92$$时，$${{a}_{92}}=\\text{C}_{200}^{92}\\cdot {{3}^{36}}\\cdot {{2}^{-10}}  $$在$$\\text{C}_{200}^{92}=\\frac{200!}{92!108!}$$中，同样可求得$$92$$中因数$$2$$的个数为$$88$$，$$108$$中因数$$2$$的个数为$$105$$，故$$\\text{C}_{200}^{86}$$中因数$$2$$的个数为$$197-88-105=4$$，故不是整数．  因此，整数项的个数为$$14+1=15$$．",
+      "solution_plain": "a _ n = C _ 200 ^ n 3 ^ 200-n 3 2 ^ 400-5 6 ， 要使 a _ n (1 n 95) 为整数，必有 200-n 3 ， 400-5n 6 均为整数，从而 6 n+4 ． 当 n=2,8,14,20,26,32,38,44,50,56,62,68,74,80 时， 200-n 3 和 400-5n 6 均为非负整数，所以 a _ n 为整数，共有 14 个． 当 n=86 时， a _ n = C _ 200 ^ 86 3 ^ 38 2_ ^ -5 ，在 C _ 200 ^ 86 = 200! 86! 114! 中， 200 中因数 2 的个数为 [ 200 2 ]+ [ 200 2 ^ 2 ]+ [ 200 2 ^ 3 ]+ [ 200 2 ^ 4 ]+ [ 200 2 ^ 5 ]+ [ 200 2 ^ 6 ]+ [ 200 2 ^ 7 ]=197 ， 同理可计算得 86 中因数 2 的个数为 82 ， 114 中因数 2 的个数为 110 ， 所以 C _ 200 ^ 86 中因数 2 的个数为 197-82-110=5 ，故 a _ 86 是整数． 当 n=92 时， a _ 92 = C _ 200 ^ 92 3 ^ 36 2 ^ -10 在 C _ 200 ^ 92 = 200! 92!108! 中，同样可求得 92 中因数 2 的个数为 88 ， 108 中因数 2 的个数为 105 ，故 C _ 200 ^ 86 中因数 2 的个数为 197-88-105=4 ，故不是整数． 因此，整数项的个数为 14+1=15 ．"
+    },
+    "answer": {
+      "final_raw": "15",
+      "final_normalized": "15",
+      "candidates": [
+        "15",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$${{a}_{n}}=\\text{C}_{200}^{n}\\cdot {{3}^{\\frac{200-n}{3}}}\\cdot {{2}^{\\frac{400-5 \\pi }{6}}}$$，  要使$${{a}_{n}}(1\\leqslant n\\leqslant 95)$$为整数，必有$$\\frac{200-n}{3}$$，$$\\frac{400-5n}{6}$$均为整数，从而$$6\\textbar n+4$$．  当$$n=2,8,14,20,26,32,38,44,50,56,62,68,74,80$$时，$$\\frac{200-n}{3}$$和$$\\frac{400-5n}{6}$$均为非负整数，所以$${{a}_{n}}$$为整数，共有$$14$$个．  当$$n=86$$时，$${{a}_{n}}=\\text{C}_{200}^{86}\\cdot {{3}^{38}}\\cdot 2_{{}}^{-5}$$，在$$\\text{C}_{200}^{86}=\\frac{200!}{86!\\cdot 114!}$$中，  $$200$$中因数$$2$$的个数为$$\\left[ \\frac{200}{2} \\right]+\\left[ \\frac{200}{{{2}^{2}}} \\right]+\\left[ \\frac{200}{{{2}^{3}}} \\right]+\\left[ \\frac{200}{{{2}^{4}}} \\right]+\\left[ \\frac{200}{{{2}^{5}}} \\right]+\\left[ \\frac{200}{{{2}^{6}}} \\right]+\\left[ \\frac{200}{{{2}^{7}}} \\right]=197$$，  同理可计算得$$86$$中因数$$2$$的个数为$$82$$，$$114$$中因数$$2$$的个数为$$110$$，  所以$$\\text{C}_{200}^{86}$$中因数$$2$$的个数为$$197-82-110=5$$，故$${{a}_{86}}$$是整数．  当$$n=92$$时，$${{a}_{92}}=\\text{C}_{200}^{92}\\cdot {{3}^{36}}\\cdot {{2}^{-10}}  $$在$$\\text{C}_{200}^{92}=\\frac{200!}{92!108!}$$中，同样可求得$$92$$中因数$$2$$的个数为$$88$$，$$108$$中因数$$2$$的个数为$$105$$，故$$\\text{C}_{200}^{86}$$中因数$$2$$的个数为$$197-88-105=4$$，故不是整数．  因此，整数项的个数为$$14+1=15$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 a _ n = C _ 200 ^ n ( [3] 6 ) ^ 200-n ( 1 2 ) ^ n ( n=1,2, ,95 ) ，则数列 a _ n 中整数项有个. (A) 10 (B) 15 (C) 20 (D) 25",
+      "solution_text": "a _ n = C _ 200 ^ n 3 ^ 200-n 3 2 ^ 400-5 6 ， 要使 a _ n (1 n 95) 为整数，必有 200-n 3 ， 400-5n 6 均为整数，从而 6 n+4 ． 当 n=2,8,14,20,26,32,38,44,50,56,62,68,74,80 时， 200-n 3 和 400-5n 6 均为非负整数，所以 a _ n 为整数，共有 14 个． 当 n=86 时， a _ n = C _ 200 ^ 86 3 ^ 38 2_ ^ -5 ，在 C _ 200 ^ 86 = 200! 86! 114! 中， 200 中因数 2 的个数为 [ 200 2 ]+ [ 200 2 ^ 2 ]+ [ 200 2 ^ 3 ]+ [ 200 2 ^ 4 ]+ [ 200 2 ^ 5 ]+ [ 200 2 ^ 6 ]+ [ 200 2 ^ 7 ]=197 ， 同理可计算得 86 中因数 2 的个数为 82 ， 114 中因数 2 的个数为 110 ， 所以 C _ 200 ^ 86 中因数 2 的个数为 197-82-110=5 ，故 a _ 86 是整数． 当 n=92 时， a _ 92 = C _ 200 ^ 92 3 ^ 36 2 ^ -10 在 C _ 200 ^ 92 = 200! 92!108! 中，同样可求得 92 中因数 2 的个数为 88 ， 108 中因数 2 的个数为 105 ，故 C _ 200 ^ 86 中因数 2 的个数为 197-88-105=4 ，故不是整数． 因此，整数项的个数为 14+1=15 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1100",
+        "queId": "ca8c43dea02442aaa64eedf289d800c6",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "15"
+          },
+          {
+            "label": "C",
+            "content": "20"
+          },
+          {
+            "label": "D",
+            "content": "25"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->排列组合与概率->二项式定理及其应用"
+        ],
+        "competition_source_list": [
+          "2011年全国高中数学联赛竞赛复赛一试第8题8分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:02613",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2613,
+      "split": "zh_train",
+      "source_problem_id": "c26080e1ceec485e801f614906f0e3e3"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "2014AMC12A, 21  For every real number $$x$$, let $$\\left\\lfloor {x} \\right\\rfloor$$ denote the greatest integer not exceeding $$x$$, and let $$f(x)= \\left\\lfloor {x} \\right\\rfloor(2014^{x-\\left\\lfloor {x} \\right\\rfloor}- 1)$$. The set of all numbers $$x$$ such that $$1\\leqslant x\\textless{} 2014$$ and $$f(x)\\leqslant1$$ is a union of disjoint intervals. What is the sum of the lengths of those intervals?  对于任意实数$$x$$，令$$\\left\\lfloor {x} \\right\\rfloor$$ 表示不超过$$x$$ 的最大整数，令$$f(x)= \\left\\lfloor {x} \\right\\rfloor(2014^{x-\\left\\lfloor {x} \\right\\rfloor}- 1)$$. 满足 $$1\\leqslant x\\textless{} 2014$$ 和 $$f(x)\\leqslant1$$ 的所有 $$x$$ 的集合是一些不相交区间的并集。 这些区间的长度之和是多少？\n(A) 1\n(B) \\frac{ \\log 2015}{ \\log 2014}\n(C) \\frac{ \\log 2014}{ \\log 2013}\n(D) \\frac{2014}{2013}\n(E) 2014^{\\frac{1}{2014}}",
+      "problem_plain": "2014AMC12A, 21 For every real number x , let x denote the greatest integer not exceeding x , and let f(x)= x (2014^ x- x - 1) . The set of all numbers x such that 1 x 2014 and f(x) 1 is a union of disjoint intervals. What is the sum of the lengths of those intervals? 对于任意实数 x ，令 x 表示不超过 x 的最大整数，令 f(x)= x (2014^ x- x - 1) . 满足 1 x 2014 和 f(x) 1 的所有 x 的集合是一些不相交区间的并集。 这些区间的长度之和是多少？ (A) 1 (B) 2015 2014 (C) 2014 2013 (D) 2014 2013 (E) 2014^ 1 2014",
+      "solution_latex": "记$\\left { x\\right }=x-\\left\\lfloor x\\right\\rfloor\\textgreater0$.  则$f(x)\\leq 1\\Leftrightarrow 2014^{\\left {x\\right }}-1\\leq \\frac{1}{\\left\\lfloor x\\right\\rfloor}$  $\\Leftrightarrow \\left {x\\right }\\leq\\log_{2014}{\\frac{\\left\\lfloor x\\right\\rfloor+1}{\\left\\lfloor x\\right\\rfloor}}$  于是单个满足$f(x)\\leq 1$的区间长度为$\\log_{2014}{\\frac{\\left\\lfloor x\\right\\rfloor+1}{\\left\\lfloor x\\right\\rfloor}}$  区间总长度$=\\sum_{x=1}^{2013}\\log_{2014}{\\frac{\\left\\lfloor x\\right\\rfloor+1}{\\left\\lfloor x\\right\\rfloor}}=\\log_{2014}{\\frac{2}{1}\\times\\frac{3}{2}\\times\\cdots\\times\\frac{2014}{2013}}=\\log_{2014}{2014}=1$, 选$$\\text{A}$$.",
+      "solution_plain": "记 x =x- x 0 . 则 f(x) 1 2014^ x -1 1 x x _ 2014 x +1 x 于是单个满足 f(x) 1 的区间长度为 _ 2014 x +1 x 区间总长度 = _ x=1 ^ 2013 _ 2014 x +1 x = _ 2014 2 1 3 2 2014 2013 = _ 2014 2014 =1 , 选 A ."
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "gaussian_function",
+        "number_theory",
+        "unknown"
+      ],
+      "tags": [
+        "amc10_12",
+        "gaussian_function",
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "记$\\left { x\\right }=x-\\left\\lfloor x\\right\\rfloor\\textgreater0$.",
+        "则$f(x)\\leq 1\\Leftrightarrow 2014^{\\left {x\\right }}-1\\leq \\frac{1}{\\left\\lfloor x\\right\\rfloor}$  $\\Leftrightarrow \\left {x\\right }\\leq\\log_{2014}{\\frac{\\left\\lfloor x\\right\\rfloor+1}{\\left\\lfloor x\\right\\rfloor}}$  于是单个满足$f(x)\\leq 1$的区间长度为$\\log_{2014}{\\frac{\\left\\lfloor x\\right\\rfloor+1}{\\left\\lfloor x\\right\\rfloor}}$  区间总长度$=\\sum_{x=1}^{2013}\\log_{2014}{\\frac{\\left\\lfloor x\\right\\rfloor+1}{\\left\\lfloor x\\right\\rfloor}}=\\log_{2014}{\\frac{2}{1}\\times\\frac{3}{2}\\times\\cdots\\times\\frac{2014}{2013}}=\\log_{2014}{2014}=1$, 选$$\\text{A}$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2014AMC12A, 21 For every real number x , let x denote the greatest integer not exceeding x , and let f(x)= x (2014^ x- x - 1) . The set of all numbers x such that 1 x 2014 and f(x) 1 is a union of disjoint intervals. What is the sum of the lengths of those intervals? 对于任意实数 x ，令 x 表示不超过 x 的最大整数，令 f(x)= x (2014^ x- x - 1) . 满足 1 x 2014 和 f(x) 1 的所有 x 的集合是一些不相交区间的并集。 这些区间的长度之和是多少？ (A) 1 (B) 2015 2014 (C) 2014 2013 (D) 2014 2013 (E) 2014^ 1 2014",
+      "solution_text": "记 x =x- x 0 . 则 f(x) 1 2014^ x -1 1 x x _ 2014 x +1 x 于是单个满足 f(x) 1 的区间长度为 _ 2014 x +1 x 区间总长度 = _ x=1 ^ 2013 _ 2014 x +1 x = _ 2014 2 1 3 2 2014 2013 = _ 2014 2014 =1 , 选 A .",
+      "keywords": [
+        "amc10_12",
+        "gaussian_function",
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1162",
+        "queId": "c26080e1ceec485e801f614906f0e3e3",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{ \\log 2015}{ \\log 2014}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{ \\log 2014}{ \\log 2013}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{2014}{2013}"
+          },
+          {
+            "label": "E",
+            "content": "2014^{\\frac{1}{2014}}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "美国AMC10/12->Knowledge Point->Number Theory->Gaussian Function",
+          "课内体系->知识点->基本初等函数->对数的概念及其运算->对数的运算"
+        ],
+        "competition_source_list": [
+          "2014年AMC12竞赛A第21题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_4:02871",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2871,
+      "split": "zh_train",
+      "source_problem_id": "ff8080814a39795c014a3bff668e00ac"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知数列$$\\left { {{a}_{n}} \\right }$$满足$${{a}_{n}}=n\\cdot {{k}^{n}}(n\\in {{N}^{*}},0\\textless{}k\\textless{}1)$$下面说法正确的是（~ ）．  ①$$k=\\frac{1}{2}$$时，数列$$\\left { {{a}_{n}} \\right }$$为递减数列；  ②$$\\frac{1}{2}\\textless{}k\\textless{}1$$时，数列$$\\left { {{a}_{n}} \\right }$$不一定有最大项；  ③$$0\\textless{}k\\textless{}\\frac{1}{2}$$时，数列$$\\left { {{a}_{n}} \\right }$$为递减数列；  ④当$$\\frac{k}{1-k}$$为正整数时，数列$$\\left { {{a}_{n}} \\right }$$必有两项相等的最大项.\n(A) ①②\n(B) ②④\n(C) ③④\n(D) ②③",
+      "problem_plain": "已知数列 a _ n 满足 a _ n =n k ^ n (n N ^ * ,0 k 1) 下面说法正确的是（~ ）． ① k= 1 2 时，数列 a _ n 为递减数列； ② 1 2 k 1 时，数列 a _ n 不一定有最大项； ③ 0 k 1 2 时，数列 a _ n 为递减数列； ④当 k 1-k 为正整数时，数列 a _ n 必有两项相等的最大项. (A) ①② (B) ②④ (C) ③④ (D) ②③",
+      "solution_latex": "①当$$k=\\frac{1}{2}$$时，$${{a}_{n}}=n\\cdot {{\\left( \\frac{1}{2} \\right)}^{n}}(n\\in {{N}^{*}})$$，$$\\because {{a}_{1}}=\\frac{1}{2},{{a}_{2}}=2\\times \\frac{1}{4}=\\frac{1}{2}$$，$$\\therefore {{a}_{1}}={{a}_{2}}$$，  即数列$$\\left { {{a}_{n}} \\right }$$不是递减数列，$$\\therefore $$①错误；  ②当$$\\frac{1}{2}\\textless{}k\\textless{}1$$时，$$\\frac{{{a}_{n+1}}}{{{a}_{n}}}=\\frac{(n+1)\\cdot {{k}^{n+1}}}{n\\cdot {{k}^{n}}}=\\frac{(n+1)k}{n}$$，  $$\\therefore k\\textless\\frac{k(n+1)}{n}\\textless2k$$，因此数列$$\\left { {{a}_{n}} \\right }$$可有最大项，因此错误；  ③当$$0\\textless{}k\\textless{}\\frac{1}{2}$$时，$$\\frac{{{a}_{n+1}}}{{{a}_{n}}}=\\frac{(n+1)\\cdot {{k}^{n+1}}}{n\\cdot {{k}^{n}}}=\\frac{(n+1)k}{n}\\textless{}\\frac{n+1}{2n}\\leqslant 1$$，  $$\\therefore {{a}_{n+1}}\\textless{{a}_{n}}$$，故数列$$\\left { {{a}_{n}} \\right }$$为递减数列；  ④当$$\\frac{k}{1-k}$$为正整数时，$$\\frac{{{a}_{n+1}}}{{{a}_{n}}}=\\frac{(n+1)\\cdot {{k}^{n+1}}}{n\\cdot {{k}^{n}}}=\\frac{(n+1)k}{n}$$，  $$\\therefore $$当$$\\frac{k}{1-k}$$为正整数时，$$1\\textgreater k\\geqslant \\begin{matrix} 1    2   \\end{matrix}$$，  即当$$k=\\frac{1}{2}$$时，$${{a}_{1}}={{a}_{2}}\\textgreater{{a}_{3}}\\textgreater{{a}_{4}}\\textgreater\\cdots $$  当$$1\\textgreater k\\textgreater\\frac{1}{2}$$时，令$$\\frac{k}{1-k}=m\\in {{\\mathbf{N}}^{*}}$$，解得$$k=\\frac{m}{1+m}$$，则$$\\frac{{{a}_{n+1}}}{{{a}_{n}}}=\\frac{(n+1)m}{n(1+m)}$$，  综上数列$$\\left { {{a}_{n}} \\right }$$必有两项相等的最大项．",
+      "solution_plain": "①当 k= 1 2 时， a _ n =n ( 1 2 ) ^ n (n N ^ * ) ， a _ 1 = 1 2 , a _ 2 =2 1 4 = 1 2 ， a _ 1 = a _ 2 ， 即数列 a _ n 不是递减数列， ①错误； ②当 1 2 k 1 时， a _ n+1 a _ n = (n+1) k ^ n+1 n k ^ n = (n+1)k n ， k k(n+1) n 2k ，因此数列 a _ n 可有最大项，因此错误； ③当 0 k 1 2 时， a _ n+1 a _ n = (n+1) k ^ n+1 n k ^ n = (n+1)k n n+1 2n 1 ， a _ n+1 a _ n ，故数列 a _ n 为递减数列； ④当 k 1-k 为正整数时， a _ n+1 a _ n = (n+1) k ^ n+1 n k ^ n = (n+1)k n ， 当 k 1-k 为正整数时， 1 k matrix 1 2 matrix ， 即当 k= 1 2 时， a _ 1 = a _ 2 a _ 3 a _ 4 当 1 k 1 2 时，令 k 1-k =m N ^ * ，解得 k= m 1+m ，则 a _ n+1 a _ n = (n+1)m n(1+m) ， 综上数列 a _ n 必有两项相等的最大项．"
+    },
+    "answer": {
+      "final_raw": "③④",
+      "final_normalized": "③④",
+      "candidates": [
+        "C",
+        "③④"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "①当$$k=\\frac{1}{2}$$时，$${{a}_{n}}=n\\cdot {{\\left( \\frac{1}{2} \\right)}^{n}}(n\\in {{N}^{*}})$$，$$\\because {{a}_{1}}=\\frac{1}{2},{{a}_{2}}=2\\times \\frac{1}{4}=\\frac{1}{2}$$，$$\\therefore {{a}_{1}}={{a}_{2}}$$，  即数列$$\\left { {{a}_{n}} \\right }$$不是递减数列，$$\\therefore $$①错误；  ②当$$\\frac{1}{2}\\textless{}k\\textless{}1$$时，$$\\frac{{{a}_{n+1}}}{{{a}_{n}}}=\\frac{(n+1)\\cdot {{k}^{n+1}}}{n\\cdot {{k}^{n}}}=\\frac{(n+1)k}{n}$$，  $$\\therefore k\\textless\\frac{k(n+1)}{n}\\textless2k$$，因此数列$$\\left { {{a}_{n}} \\right }$$可有最大项，因此错误；  ③当$$0\\textless{}k\\textless{}\\frac{1}{2}$$时，$$\\frac{{{a}_{n+1}}}{{{a}_{n}}}=\\frac{(n+1)\\cdot {{k}^{n+1}}}{n\\cdot {{k}^{n}}}=\\frac{(n+1)k}{n}\\textless{}\\frac{n+1}{2n}\\leqslant 1$$，  $$\\therefore {{a}_{n+1}}\\textless{{a}_{n}}$$，故数列$$\\left { {{a}_{n}} \\right }$$为递减数列；  ④当$$\\frac{k}{1-k}$$为正整数时，$$\\frac{{{a}_{n+1}}}{{{a}_{n}}}=\\frac{(n+1)\\cdot {{k}^{n+1}}}{n\\cdot {{k}^{n}}}=\\frac{(n+1)k}{n}$$，  $$\\therefore $$当$$\\frac{k}{1-k}$$为正整数时，$$1\\textgreater k\\geqslant \\begin{matrix} 1    2   \\end{matrix}$$，  即当$$k=\\frac{1}{2}$$时，$${{a}_{1}}={{a}_{2}}\\textgreater{{a}_{3}}\\textgreater{{a}_{4}}\\textgreater\\cdots $$  当$$1\\textgreater k\\textgreater\\frac{1}{2}$$时，令$$\\frac{k}{1-k}=m\\in {{\\mathbf{N}}^{*}}$$，解得$$k=\\frac{m}{1+m}$$，则$$\\frac{{{a}_{n+1}}}{{{a}_{n}}}=\\frac{(n+1)m}{n(1+m)}$$，  综上数列$$\\left { {{a}_{n}} \\right }$$必有两项相等的最大项．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知数列 a _ n 满足 a _ n =n k ^ n (n N ^ * ,0 k 1) 下面说法正确的是（~ ）． ① k= 1 2 时，数列 a _ n 为递减数列； ② 1 2 k 1 时，数列 a _ n 不一定有最大项； ③ 0 k 1 2 时，数列 a _ n 为递减数列； ④当 k 1-k 为正整数时，数列 a _ n 必有两项相等的最大项. (A) ①② (B) ②④ (C) ③④ (D) ②③",
+      "solution_text": "①当 k= 1 2 时， a _ n =n ( 1 2 ) ^ n (n N ^ * ) ， a _ 1 = 1 2 , a _ 2 =2 1 4 = 1 2 ， a _ 1 = a _ 2 ， 即数列 a _ n 不是递减数列， ①错误； ②当 1 2 k 1 时， a _ n+1 a _ n = (n+1) k ^ n+1 n k ^ n = (n+1)k n ， k k(n+1) n 2k ，因此数列 a _ n 可有最大项，因此错误； ③当 0 k 1 2 时， a _ n+1 a _ n = (n+1) k ^ n+1 n k ^ n = (n+1)k n n+1 2n 1 ， a _ n+1 a _ n ，故数列 a _ n 为递减数列； ④当 k 1-k 为正整数时， a _ n+1 a _ n = (n+1) k ^ n+1 n k ^ n = (n+1)k n ， 当 k 1-k 为正整数时， 1 k matrix 1 2 matrix ， 即当 k= 1 2 时， a _ 1 = a _ 2 a _ 3 a _ 4 当 1 k 1 2 时，令 k 1-k =m N ^ * ，解得 k= m 1+m ，则 a _ n+1 a _ n = (n+1)m n(1+m) ， 综上数列 a _ n 必有两项相等的最大项．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "821",
+        "queId": "ff8080814a39795c014a3bff668e00ac",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "①②"
+          },
+          {
+            "label": "B",
+            "content": "②④"
+          },
+          {
+            "label": "C",
+            "content": "③④"
+          },
+          {
+            "label": "D",
+            "content": "②③"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->数列->数列的概念->数列的函数特性->数列中最大项与最小项的求解问题",
+          "课内体系->知识点->数列->数列的概念->数列的函数特性->数列单调性问题",
+          "课内体系->知识点->函数的概念与性质->函数的性质->单调性",
+          "课内体系->思想->函数思想",
+          "课内体系->素养->数学运算",
+          "课内体系->特色题型->解答压轴"
+        ],
+        "competition_source_list": [
+          "2014年黑龙江全国高中数学联赛竞赛初赛第11题5分",
+          "2013~2014学年北京朝阳区高三上学期期末理科第8题"
+        ]
+      }
+    }
+  }
+]

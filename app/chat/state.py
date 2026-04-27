@@ -11,6 +11,8 @@ APP_SUPPORT_DIR = Path.home() / "Library" / "Application Support" / "CocoAIStudy
 UPLOADS_DIR = APP_SUPPORT_DIR / "uploads"
 DOCS_DIR = APP_SUPPORT_DIR / "data" / "files"
 STATE_PATH = APP_SUPPORT_DIR / "app_state.json"
+INITIAL_STUDY_CARD_KIND = "initial_study_card"
+INITIAL_STUDY_CARD_PREFIX = "이미지에서 읽은 내용을 먼저 정리했어요."
 
 
 def default_state() -> AppState:
@@ -335,14 +337,22 @@ def sync_documents(state: AppState) -> AppState:
             created_at = float(item.get("created_at") or time.time())
         except Exception:
             created_at = time.time()
-        clean_history.append(
-            {
-                "role": role,
-                "content": content,
-                "doc_id": doc_id,
-                "created_at": created_at,
-            }
-        )
+        message = {
+            "role": role,
+            "content": content,
+            "doc_id": doc_id,
+            "created_at": created_at,
+        }
+        kind = str(item.get("kind") or "").strip()
+        if kind:
+            message["kind"] = kind
+        preview_image_path = str(item.get("preview_image_path") or "").strip()
+        if preview_image_path:
+            message["preview_image_path"] = preview_image_path
+        preview_image_label = str(item.get("preview_image_label") or "").strip()
+        if preview_image_label:
+            message["preview_image_label"] = preview_image_label
+        clean_history.append(message)
     state["chat_history"] = clean_history[-24:]
     return state
 
@@ -437,15 +447,31 @@ def promote_document(state: AppState, doc_id: str | None) -> None:
     state["selected_doc_id"] = target
 
 
-def append_message(state: AppState, role: str, content: str, doc_id: str | None = None) -> None:
-    state.setdefault("chat_history", []).append(
-        {
-            "role": role,
-            "content": content,
-            "doc_id": doc_id,
-            "created_at": time.time(),
-        }
-    )
+def append_message(
+    state: AppState,
+    role: str,
+    content: str,
+    doc_id: str | None = None,
+    kind: str | None = None,
+    preview_image_path: str | None = None,
+    preview_image_label: str | None = None,
+) -> None:
+    message: dict = {
+        "role": role,
+        "content": content,
+        "doc_id": doc_id,
+        "created_at": time.time(),
+    }
+    normalized_kind = str(kind or "").strip()
+    if normalized_kind:
+        message["kind"] = normalized_kind
+    normalized_preview = str(preview_image_path or "").strip()
+    if normalized_preview:
+        message["preview_image_path"] = normalized_preview
+    normalized_preview_label = str(preview_image_label or "").strip()
+    if normalized_preview_label:
+        message["preview_image_label"] = normalized_preview_label
+    state.setdefault("chat_history", []).append(message)
     state["chat_history"] = state["chat_history"][-24:]
 
 
@@ -459,6 +485,68 @@ def append_main_message(state: AppState, role: str, content: str) -> None:
         }
     )
     state["main_chat_history"] = state["main_chat_history"][-24:]
+
+
+def _is_initial_study_card_message(item: dict, doc_id: str) -> bool:
+    if not isinstance(item, dict):
+        return False
+    if str(item.get("doc_id") or "").strip() != doc_id:
+        return False
+    if str(item.get("role") or "").strip() != "assistant":
+        return False
+    if str(item.get("kind") or "").strip() == INITIAL_STUDY_CARD_KIND:
+        return True
+    return str(item.get("content") or "").strip().startswith(INITIAL_STUDY_CARD_PREFIX)
+
+
+def clear_active_chat_history(
+    state: AppState,
+    *,
+    initial_study_message: str | None = None,
+) -> None:
+    if active_chat_mode(state) == "main":
+        state["main_chat_history"] = []
+        return
+
+    selected_doc_id = str(state.get("selected_doc_id") or "").strip()
+    if not selected_doc_id:
+        return
+
+    generated_practice = state.get("generated_practice_by_doc")
+    if isinstance(generated_practice, dict):
+        generated_practice.pop(selected_doc_id, None)
+
+    preserved_initial: dict | None = None
+    for item in state.get("chat_history", []):
+        if _is_initial_study_card_message(item, selected_doc_id):
+            preserved_initial = dict(item)
+            preserved_initial["kind"] = INITIAL_STUDY_CARD_KIND
+            break
+
+    if preserved_initial is None:
+        content = str(initial_study_message or "").strip()
+        if content:
+            preserved_initial = {
+                "role": "assistant",
+                "content": content,
+                "doc_id": selected_doc_id,
+                "created_at": time.time(),
+                "kind": INITIAL_STUDY_CARD_KIND,
+            }
+
+    state["chat_history"] = [
+        item
+        for item in state.get("chat_history", [])
+        if str((item or {}).get("doc_id") or "").strip() != selected_doc_id
+    ]
+    if preserved_initial is not None:
+        state["chat_history"].append(preserved_initial)
+    state["chat_history"] = state["chat_history"][-24:]
+
+    for item in state.get("documents", []):
+        if str(item.get("doc_id") or "").strip() == selected_doc_id:
+            item["latest_user_query"] = ""
+            break
 
 
 def load_all_documents(state: AppState) -> list[dict]:

@@ -1,0 +1,1365 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:competition_math:level_1:02215",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2215,
+      "split": "en_train",
+      "source_problem_id": "13e67e76f839419e9e4c2a599e3c4a61"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A $$12$$-metre long steel pipe was cut into few pieces. The length of each piece is $$3$$ metres. It takes $$18$$ minutes to complete the whole process. How long does it take to cut a $$12$$-metre pipe into $$6$$-metre sections?\n(A) 6$$ minutes\n(B) 9$$ minutes\n(C) 12$$ minutes\n(D) 18$$ minutes\n(E) None of the above",
+      "problem_plain": "A 12 -metre long steel pipe was cut into few pieces. The length of each piece is 3 metres. It takes 18 minutes to complete the whole process. How long does it take to cut a 12 -metre pipe into 6 -metre sections? (A) 6 minutes (B) 9 minutes (C) 12 minutes (D) 18 minutes (E) None of the above",
+      "solution_latex": "$$18\\div3=6$$",
+      "solution_plain": "18 3=6"
+    },
+    "answer": {
+      "final_raw": "6$$ minutes",
+      "final_normalized": "6$$ minutes",
+      "candidates": [
+        "6$$ minutes",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "interval_problems",
+        "word_problem_modules"
+      ],
+      "tags": [
+        "competition_math",
+        "en",
+        "en_train",
+        "interval_problems",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$18\\div3=6$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A 12 -metre long steel pipe was cut into few pieces. The length of each piece is 3 metres. It takes 18 minutes to complete the whole process. How long does it take to cut a 12 -metre pipe into 6 -metre sections? (A) 6 minutes (B) 9 minutes (C) 12 minutes (D) 18 minutes (E) None of the above",
+      "solution_text": "18 3=6",
+      "keywords": [
+        "competition_math",
+        "en",
+        "en_train",
+        "interval_problems",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "8296",
+        "queId": "13e67e76f839419e9e4c2a599e3c4a61",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6$$ minutes"
+          },
+          {
+            "label": "B",
+            "content": "9$$ minutes"
+          },
+          {
+            "label": "C",
+            "content": "12$$ minutes"
+          },
+          {
+            "label": "D",
+            "content": "18$$ minutes"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules->Interval Problems"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:competition_math:level_1:02235",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2235,
+      "split": "en_train",
+      "source_problem_id": "33ca829cbfd8476d923ee8f264b1553e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Amanda is $$7$$ years old last year. In $$2$$ years times, she is double of her sister\\textquotesingle s age. What is the sum of their age this year?\n(A) 11\n(B) 12\n(C) 13\n(D) 14\n(E) 15",
+      "problem_plain": "Amanda is 7 years old last year. In 2 years times, she is double of her sister s age. What is the sum of their age this year? (A) 11 (B) 12 (C) 13 (D) 14 (E) 15",
+      "solution_latex": "$$2$$ years time, Amanda $$10$$ and sister $$5$$. Total $$15$$.  This year, $$15-2-2=11$$.",
+      "solution_plain": "2 years time, Amanda 10 and sister 5 . Total 15 . This year, 15-2-2=11 ."
+    },
+    "answer": {
+      "final_raw": "11",
+      "final_normalized": "11",
+      "candidates": [
+        "11",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "age_problems",
+        "word_problem_modules"
+      ],
+      "tags": [
+        "age_problems",
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$2$$ years time, Amanda $$10$$ and sister $$5$$.",
+        "Total $$15$$.",
+        "This year, $$15-2-2=11$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Amanda is 7 years old last year. In 2 years times, she is double of her sister s age. What is the sum of their age this year? (A) 11 (B) 12 (C) 13 (D) 14 (E) 15",
+      "solution_text": "2 years time, Amanda 10 and sister 5 . Total 15 . This year, 15-2-2=11 .",
+      "keywords": [
+        "age_problems",
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "8373",
+        "queId": "33ca829cbfd8476d923ee8f264b1553e",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "11"
+          },
+          {
+            "label": "B",
+            "content": "12"
+          },
+          {
+            "label": "C",
+            "content": "13"
+          },
+          {
+            "label": "D",
+            "content": "14"
+          },
+          {
+            "label": "E",
+            "content": "15"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules->Age Problems"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:competition_math:level_1:02338",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2338,
+      "split": "en_train",
+      "source_problem_id": "d099cad18be84975900c73c05f9e8596"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "There are three books Chinese, Math, and English. Sissy wants to put them in the bookcase. How many ways are there for the three books to put? List out all the ways.\n(A) 6\n(B) 5\n(C) 4\n(D) 3",
+      "problem_plain": "There are three books Chinese, Math, and English. Sissy wants to put them in the bookcase. How many ways are there for the three books to put? List out all the ways. (A) 6 (B) 5 (C) 4 (D) 3",
+      "solution_latex": "List out all the possible ways in order.  $C A E$  $C E A$  $A C E$  $A E C$  $E C A$  $E A C $",
+      "solution_plain": "List out all the possible ways in order. C A E C E A A C E A E C E C A E A C"
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "word_problem_modules"
+      ],
+      "tags": [
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "List out all the possible ways in order.",
+        "$C A E$  $C E A$  $A C E$  $A E C$  $E C A$  $E A C $"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "There are three books Chinese, Math, and English. Sissy wants to put them in the bookcase. How many ways are there for the three books to put? List out all the ways. (A) 6 (B) 5 (C) 4 (D) 3",
+      "solution_text": "List out all the possible ways in order. C A E C E A A C E A E C E C A E A C",
+      "keywords": [
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "8701",
+        "queId": "d099cad18be84975900c73c05f9e8596",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:competition_math:level_1:02459",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2459,
+      "split": "en_train",
+      "source_problem_id": "da31826157214798804ddb8fa2daadca"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "There are three books, Chinese, Math, and English. Sissy wants to put them in bookcase. How many ways are there for three books to put?\n(A) 6\n(B) 5\n(C) 4\n(D) 3",
+      "problem_plain": "There are three books, Chinese, Math, and English. Sissy wants to put them in bookcase. How many ways are there for three books to put? (A) 6 (B) 5 (C) 4 (D) 3",
+      "solution_latex": "List out all the possible ways in order.  $C A E$  $C E A$  $A C E$  $A E C$  $E C A$  $E A C $",
+      "solution_plain": "List out all the possible ways in order. C A E C E A A C E A E C E C A E A C"
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "word_problem_modules"
+      ],
+      "tags": [
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "List out all the possible ways in order.",
+        "$C A E$  $C E A$  $A C E$  $A E C$  $E C A$  $E A C $"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "There are three books, Chinese, Math, and English. Sissy wants to put them in bookcase. How many ways are there for three books to put? (A) 6 (B) 5 (C) 4 (D) 3",
+      "solution_text": "List out all the possible ways in order. C A E C E A A C E A E C E C A E A C",
+      "keywords": [
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "9195",
+        "queId": "da31826157214798804ddb8fa2daadca",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:competition_math:level_1:02549",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2549,
+      "split": "en_train",
+      "source_problem_id": "ece925b54e5946a7a5ca47b790a8e5a8"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Of $$60$$ flamingos, twice as many stood on $$2$$ legs as stood on $$1$$. All together, on how many legs did all of these flamingos stand?\n(A) 80\n(B) 90\n(C) 100\n(D) 110\n(E) 120",
+      "problem_plain": "Of 60 flamingos, twice as many stood on 2 legs as stood on 1 . All together, on how many legs did all of these flamingos stand? (A) 80 (B) 90 (C) 100 (D) 110 (E) 120",
+      "solution_latex": "Of $$60$$ flamingos, $$40$$ stood on $$2$$ legs and $$20$$ stood on $$1$$. All together, these flamingos stood on $$[(40\\times2)+20]$$ legs $$=100$$ legs.",
+      "solution_plain": "Of 60 flamingos, 40 stood on 2 legs and 20 stood on 1 . All together, these flamingos stood on [(40 2)+20] legs =100 legs."
+    },
+    "answer": {
+      "final_raw": "100",
+      "final_normalized": "100",
+      "candidates": [
+        "100",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "problems_of_sum_and_multiple",
+        "questions_involving_sum_difference_and_multiples",
+        "word_problem_modules"
+      ],
+      "tags": [
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "problems_of_sum_and_multiple",
+        "questions_involving_sum_difference_and_multiples",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Of $$60$$ flamingos, $$40$$ stood on $$2$$ legs and $$20$$ stood on $$1$$.",
+        "All together, these flamingos stood on $$[(40\\times2)+20]$$ legs $$=100$$ legs."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Of 60 flamingos, twice as many stood on 2 legs as stood on 1 . All together, on how many legs did all of these flamingos stand? (A) 80 (B) 90 (C) 100 (D) 110 (E) 120",
+      "solution_text": "Of 60 flamingos, 40 stood on 2 legs and 20 stood on 1 . All together, these flamingos stood on [(40 2)+20] legs =100 legs.",
+      "keywords": [
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "problems_of_sum_and_multiple",
+        "questions_involving_sum_difference_and_multiples",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "9499",
+        "queId": "ece925b54e5946a7a5ca47b790a8e5a8",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "80"
+          },
+          {
+            "label": "B",
+            "content": "90"
+          },
+          {
+            "label": "C",
+            "content": "100"
+          },
+          {
+            "label": "D",
+            "content": "110"
+          },
+          {
+            "label": "E",
+            "content": "120"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules->Questions Involving Sum, Difference and Multiples->Problems of Sum and Multiple"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:competition_math:level_1:02560",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2560,
+      "split": "en_train",
+      "source_problem_id": "642c501efe3647c98a1998d50006e33a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Jenny need to reach her teacher house by $$2.15 \\rm{p.m}$$ for piano class. From her house to teacher\\textquotesingle s house, she need to walk for $$20$$ minutes. She was late for $$10$$ minutes. What time did she leave her house?\n(A) 2.05 \\rm{a.m.}\n(B) 2.05 \\rm{p.m.}\n(C) 1.55 \\rm{a.m.}\n(D) 1.55 \\rm{p.m.}\n(E) 2.25 \\rm{p.m.}",
+      "problem_plain": "Jenny need to reach her teacher house by 2.15 p.m for piano class. From her house to teacher s house, she need to walk for 20 minutes. She was late for 10 minutes. What time did she leave her house? (A) 2.05 a.m. (B) 2.05 p.m. (C) 1.55 a.m. (D) 1.55 p.m. (E) 2.25 p.m.",
+      "solution_latex": "She reached at $$2.25 \\rm{p.m.}$$, thus, $$20$$ minutes before that is $$2.05 \\rm{p.m.}$$",
+      "solution_plain": "She reached at 2.25 p.m. , thus, 20 minutes before that is 2.05 p.m."
+    },
+    "answer": {
+      "final_raw": "2.05 \\rm{p.m.}",
+      "final_normalized": "2.05 \\rm{p.m.}",
+      "candidates": [
+        "2.05 \\rm{p.m.}",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "word_problem_modules"
+      ],
+      "tags": [
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "She reached at $$2.25 \\rm{p.m.}$$, thus, $$20$$ minutes before that is $$2.05 \\rm{p.m.}$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Jenny need to reach her teacher house by 2.15 p.m for piano class. From her house to teacher s house, she need to walk for 20 minutes. She was late for 10 minutes. What time did she leave her house? (A) 2.05 a.m. (B) 2.05 p.m. (C) 1.55 a.m. (D) 1.55 p.m. (E) 2.25 p.m.",
+      "solution_text": "She reached at 2.25 p.m. , thus, 20 minutes before that is 2.05 p.m.",
+      "keywords": [
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "9550",
+        "queId": "642c501efe3647c98a1998d50006e33a",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2.05 \\rm{a.m.}"
+          },
+          {
+            "label": "B",
+            "content": "2.05 \\rm{p.m.}"
+          },
+          {
+            "label": "C",
+            "content": "1.55 \\rm{a.m.}"
+          },
+          {
+            "label": "D",
+            "content": "1.55 \\rm{p.m.}"
+          },
+          {
+            "label": "E",
+            "content": "2.25 \\rm{p.m.}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:competition_math:level_1:02585",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2585,
+      "split": "en_train",
+      "source_problem_id": "7b0c281aa954482eb52e53167b4d825f"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "White and White Jr. have $$50$$ apples in total, and White has $$10$$ more appled than junior, so White Jr has~\\uline{~~~~~~~~~~}~apples．\n(A) 15\n(B) 20\n(C) 40\n(D) 60",
+      "problem_plain": "White and White Jr. have 50 apples in total, and White has 10 more appled than junior, so White Jr has~ ~~~~~~~~~~ ~apples． (A) 15 (B) 20 (C) 40 (D) 60",
+      "solution_latex": "$$(50-10)\\div 2=20$$",
+      "solution_plain": "(50-10) 2=20"
+    },
+    "answer": {
+      "final_raw": "20",
+      "final_normalized": "20",
+      "candidates": [
+        "20",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "questions_involving_sum_difference_and_multiples",
+        "word_problem_modules"
+      ],
+      "tags": [
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "questions_involving_sum_difference_and_multiples",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$(50-10)\\div 2=20$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "White and White Jr. have 50 apples in total, and White has 10 more appled than junior, so White Jr has~ ~~~~~~~~~~ ~apples． (A) 15 (B) 20 (C) 40 (D) 60",
+      "solution_text": "(50-10) 2=20",
+      "keywords": [
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "questions_involving_sum_difference_and_multiples",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "9630",
+        "queId": "7b0c281aa954482eb52e53167b4d825f",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "15"
+          },
+          {
+            "label": "B",
+            "content": "20"
+          },
+          {
+            "label": "C",
+            "content": "40"
+          },
+          {
+            "label": "D",
+            "content": "60"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules->Questions Involving Sum, Difference and Multiples"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:competition_math:level_1:02639",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2639,
+      "split": "en_train",
+      "source_problem_id": "6df1f19cbcbf4bf59a053da92f7be17f"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "$$380$$ is~\\uline{~~~~~~~~~~}~more than $$254$$.\n(A) 126\n(B) 124\n(C) 534\n(D) 634",
+      "problem_plain": "380 is~ ~~~~~~~~~~ ~more than 254 . (A) 126 (B) 124 (C) 534 (D) 634",
+      "solution_latex": "$$380-254=126$$",
+      "solution_plain": "380-254=126"
+    },
+    "answer": {
+      "final_raw": "126",
+      "final_normalized": "126",
+      "candidates": [
+        "126",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "word_problem_modules"
+      ],
+      "tags": [
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$380-254=126$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "380 is~ ~~~~~~~~~~ ~more than 254 . (A) 126 (B) 124 (C) 534 (D) 634",
+      "solution_text": "380-254=126",
+      "keywords": [
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "9802",
+        "queId": "6df1f19cbcbf4bf59a053da92f7be17f",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "126"
+          },
+          {
+            "label": "B",
+            "content": "124"
+          },
+          {
+            "label": "C",
+            "content": "534"
+          },
+          {
+            "label": "D",
+            "content": "634"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:competition_math:level_1:02753",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2753,
+      "split": "en_train",
+      "source_problem_id": "dfd29d6b2ca9419dbe3a49c5e20ac5c0"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "There are stools and chairs in the room. Each stool has $$3$$ legs, and each chair has $$4$$ legs. Altogether there are $$17$$ legs. How many chairs are there in the room?\n(A) 5\n(B) 4\n(C) 3\n(D) 2\n(E) 1",
+      "problem_plain": "There are stools and chairs in the room. Each stool has 3 legs, and each chair has 4 legs. Altogether there are 17 legs. How many chairs are there in the room? (A) 5 (B) 4 (C) 3 (D) 2 (E) 1",
+      "solution_latex": "If there are five stools, the chairs have $17-3\\times5=2$ legs, which is not applicable. If there are four stools, the chairs have $17-3\\times4=5$~ legs, which is also not applicable. If there are three stools, the chairs have $17-3\\times3=8$ legs, which implies that there are $8\\div4=2$ chairs and is applicable according to the question.",
+      "solution_plain": "If there are five stools, the chairs have 17-3 5=2 legs, which is not applicable. If there are four stools, the chairs have 17-3 4=5 ~ legs, which is also not applicable. If there are three stools, the chairs have 17-3 3=8 legs, which implies that there are 8 4=2 chairs and is applicable according to the question."
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "chicken_rabbit_problems",
+        "solving_chicken_rabbit_problems_by_using_hypothesis",
+        "word_problem_modules"
+      ],
+      "tags": [
+        "chicken_rabbit_problems",
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "solving_chicken_rabbit_problems_by_using_hypothesis",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "If there are five stools, the chairs have $17-3\\times5=2$ legs, which is not applicable.",
+        "If there are four stools, the chairs have $17-3\\times4=5$~ legs, which is also not applicable.",
+        "If there are three stools, the chairs have $17-3\\times3=8$ legs, which implies that there are $8\\div4=2$ chairs and is applicable according to the question."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "There are stools and chairs in the room. Each stool has 3 legs, and each chair has 4 legs. Altogether there are 17 legs. How many chairs are there in the room? (A) 5 (B) 4 (C) 3 (D) 2 (E) 1",
+      "solution_text": "If there are five stools, the chairs have 17-3 5=2 legs, which is not applicable. If there are four stools, the chairs have 17-3 4=5 ~ legs, which is also not applicable. If there are three stools, the chairs have 17-3 3=8 legs, which implies that there are 8 4=2 chairs and is applicable according to the question.",
+      "keywords": [
+        "chicken_rabbit_problems",
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "solving_chicken_rabbit_problems_by_using_hypothesis",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "10233",
+        "queId": "dfd29d6b2ca9419dbe3a49c5e20ac5c0",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "5"
+          },
+          {
+            "label": "B",
+            "content": "4"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "2"
+          },
+          {
+            "label": "E",
+            "content": "1"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules->Chicken-Rabbit Problems->Solving Chicken-Rabbit Problems by Using Hypothesis"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:competition_math:level_1:02768",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2768,
+      "split": "en_train",
+      "source_problem_id": "9b98aaf8a68f48298d0f2f61414a5981"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "$9$ more than $43$ is~\\uline{~~~~~~~~~~}~.\n(A) 42\n(B) 52\n(C) 62\n(D) 50",
+      "problem_plain": "9 more than 43 is~ ~~~~~~~~~~ ~. (A) 42 (B) 52 (C) 62 (D) 50",
+      "solution_latex": "$$43+9=52$$",
+      "solution_plain": "43+9=52"
+    },
+    "answer": {
+      "final_raw": "52",
+      "final_normalized": "52",
+      "candidates": [
+        "52",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "applying_addition_and_subtraction",
+        "word_problem_modules"
+      ],
+      "tags": [
+        "applying_addition_and_subtraction",
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$43+9=52$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "9 more than 43 is~ ~~~~~~~~~~ ~. (A) 42 (B) 52 (C) 62 (D) 50",
+      "solution_text": "43+9=52",
+      "keywords": [
+        "applying_addition_and_subtraction",
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "10296",
+        "queId": "9b98aaf8a68f48298d0f2f61414a5981",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "42"
+          },
+          {
+            "label": "B",
+            "content": "52"
+          },
+          {
+            "label": "C",
+            "content": "62"
+          },
+          {
+            "label": "D",
+            "content": "50"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules->Applying Addition and Subtraction"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:competition_math:level_1:02862",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2862,
+      "split": "en_train",
+      "source_problem_id": "ce616f2455954faaa96cbde1322717a9"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Duckings are walking in a queue when they are following the mother duck. Joey the duckling is the 6th from the front and 8th from the back (including the mother duck). Some of the ducklings at the back moved away from the queue making Joey the middle duckling in the queue. How many ducklings moved away from the queue?\n(A) 2\n(B) 3\n(C) 4\n(D) 5\n(E) None of the above.",
+      "problem_plain": "Duckings are walking in a queue when they are following the mother duck. Joey the duckling is the 6th from the front and 8th from the back (including the mother duck). Some of the ducklings at the back moved away from the queue making Joey the middle duckling in the queue. How many ducklings moved away from the queue? (A) 2 (B) 3 (C) 4 (D) 5 (E) None of the above.",
+      "solution_latex": "total number of duck and ducklings in the queue is 6+(8-1) = 13.  if 2 ducklings at the back moved away, it would be 13-2=11 in the queue, and the middle ducking would be 6th from the front, which is Joey\\textquotesingle s position.",
+      "solution_plain": "total number of duck and ducklings in the queue is 6+(8-1) = 13. if 2 ducklings at the back moved away, it would be 13-2=11 in the queue, and the middle ducking would be 6th from the front, which is Joey s position."
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "applying_addition_and_subtraction",
+        "simple_addition_and_subtraction",
+        "word_problem_modules"
+      ],
+      "tags": [
+        "applying_addition_and_subtraction",
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "simple_addition_and_subtraction",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "total number of duck and ducklings in the queue is 6+(8-1) = 13.",
+        "if 2 ducklings at the back moved away, it would be 13-2=11 in the queue, and the middle ducking would be 6th from the front, which is Joey\\textquotesingle s position."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Duckings are walking in a queue when they are following the mother duck. Joey the duckling is the 6th from the front and 8th from the back (including the mother duck). Some of the ducklings at the back moved away from the queue making Joey the middle duckling in the queue. How many ducklings moved away from the queue? (A) 2 (B) 3 (C) 4 (D) 5 (E) None of the above.",
+      "solution_text": "total number of duck and ducklings in the queue is 6+(8-1) = 13. if 2 ducklings at the back moved away, it would be 13-2=11 in the queue, and the middle ducking would be 6th from the front, which is Joey s position.",
+      "keywords": [
+        "applying_addition_and_subtraction",
+        "competition_math",
+        "en",
+        "en_train",
+        "level_1",
+        "simple_addition_and_subtraction",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "10603",
+        "queId": "ce616f2455954faaa96cbde1322717a9",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "5"
+          },
+          {
+            "label": "E",
+            "content": "None of the above."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules->Applying Addition and Subtraction->Simple Addition and Subtraction"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  }
+]

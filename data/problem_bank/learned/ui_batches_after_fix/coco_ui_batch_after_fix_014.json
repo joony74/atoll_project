@@ -1,0 +1,1349 @@
+{
+  "schema_version": "coco_app_batch_after_fix.v1",
+  "batch_index": 14,
+  "band": "중등",
+  "offset": 10,
+  "doc_ids": [
+    "autobank__middle_g01_011__31e4d97e",
+    "autobank__middle_g01_012__7b1aa80a",
+    "autobank__middle_g01_013__bbf1fba2",
+    "autobank__middle_g01_014__b08e9f82",
+    "autobank__middle_g01_015__bd91f60d",
+    "autobank__middle_g01_016__559d5fa5",
+    "autobank__middle_g01_017__cc758047",
+    "autobank__middle_g01_018__ac46ae9d",
+    "autobank__middle_g01_019__86a62c37",
+    "autobank__middle_g01_020__be356977"
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "error": 0,
+    "by_band": {
+      "중등": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "error": 0
+      }
+    },
+    "by_topic": {
+      "arithmetic": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "function": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "geometry": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "linear_equation": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "statistics": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      }
+    }
+  },
+  "card_issue_count": 0,
+  "card_issues": [],
+  "state_issue": null,
+  "results": [
+    {
+      "case_id": "middle_g01_011",
+      "band": "중등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "arithmetic",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/수와 연산/정수와 유리수/middle_g01_011_easy_expression_arithmetic.png",
+      "expected_answer": "71",
+      "expected_expression": "34+37",
+      "computed_answer": "71",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "34+ 37"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.463,
+      "analysis": {
+        "analysis_started_at": 1777119514.172099,
+        "analysis_finished_at": 1777119514.6350772,
+        "structured_problem": {
+          "source_text_candidates": [
+            "중등 1학년ㆍ정수와 유리수 ㆍ기본 expression - arithmet\n© < =.\n다음 식의 값을 구하시오.\n34+ 37",
+            "중등 1학년ㆍ정수와 유리수 ㆍ기본 expression - arithmet\n© < =.\n다음 식의 값을 구하시오.\n34+ 37"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "34+ 37"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/수와 연산/정수와 유리수/middle_g01_011_easy_expression_arithmetic.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "중등 1학년ㆍ정수와 유리수 ㆍ기본 expression - arithmet\n© < =.\n다음 식의 값을 구하시오.\n34+ 37",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 ]학년ㆍ정수와 유리수 ㆍ기본 expression ㆍ arithmet\n다음 식의 값을 구하시오.\n34+ 37",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 1학년ㆍ정수와 유리수 ㆍ기본 expression - arithmet\n© < =.\n다음 식의 값을 구하시오.\n34+ 37",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "f95b5348f630"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "71",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 71야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 71야. 그래서 정답은 71야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "중등 1학년ㆍ정수와 유리수 ㆍ기본 expression - arithmet\n© < =.\n다음 식의 값을 구하시오.\n34+ 37",
+            "content_text": "중등 1학년ㆍ정수와 유리수 ㆍ기본 expression - arithmet\n© < =.\n다음 식의 값을 구하시오.\n34+ 37",
+            "repaired_text": "",
+            "expressions": [
+              "34+ 37"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "71",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g01_011__31e4d97e"
+    },
+    {
+      "case_id": "middle_g01_012",
+      "band": "중등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "linear_equation",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/변화와 관계/문자의 사용과 일차방정식/middle_g01_012_easy_word_linear_equation.png",
+      "expected_answer": "71",
+      "expected_expression": "67+17-13",
+      "computed_answer": "71",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "67+17-13",
+      "recognized_expressions": [
+        "67+17-13"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.822,
+      "analysis": {
+        "analysis_started_at": 1777119514.635819,
+        "analysis_finished_at": 1777119515.4576619,
+        "structured_problem": {
+          "source_text_candidates": [
+            "등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 67장 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 몇 St\nO AEA ow -\n중등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 678 가지고 있었습니다.\n. 중등 학년 ㆍ문자의 사용과 일치방정식 ㆍ 기분 word : linear equatio\n민지는 스티커를 672 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 몇 Ate",
+            "등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 67장 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 몇 St\nO AEA ow -\n중등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 678 가지고 있었습니다.\n. 중등 학년 ㆍ문자의 사용과 일치방정식 ㆍ 기분 word : linear equatio\n민지는 스티커를 672 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 몇 Ate"
+          ],
+          "normalized_problem_text": "67+17-13",
+          "expressions": [
+            "67+17-13"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/변화와 관계/문자의 사용과 일차방정식/middle_g01_012_easy_word_linear_equation.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 67장 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 몇 St\nO AEA ow -",
+                "confidence": 0.72,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 678 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 몇 St",
+                    "confidence": 0.48
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 67장 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 몇 St\nO AEA ow -",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ". 중등 학년 ㆍ문자의 사용과 일치방정식 ㆍ 기분 word : linear equatio\n민지는 스티커를 672 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 몇 Ate",
+                    "confidence": 0.54
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "74191d0a6ff1"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "71",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 71야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 71야. 그래서 정답은 71야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 67장 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 몇 St\nO AEA ow -\n중등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 678 가지고 있었습니다.\n. 중등 학년 ㆍ문자의 사용과 일치방정식 ㆍ 기분 word : linear equatio\n민지는 스티커를 672 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 몇 Ate",
+            "content_text": "등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 67장 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 몇 St\nO AEA ow -\n중등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 678 가지고 있었습니다.\n. 중등 학년 ㆍ문자의 사용과 일치방정식 ㆍ 기분 word : linear equatio\n민지는 스티커를 672 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 몇 Ate",
+            "repaired_text": "",
+            "expressions": [
+              "67+17-13"
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "71",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g01_012__7b1aa80a"
+    },
+    {
+      "case_id": "middle_g01_013",
+      "band": "중등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "function",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/변화와 관계/좌표평면과 그래프/middle_g01_013_easy_table_function.png",
+      "expected_answer": "1",
+      "expected_expression": "y=2x- 1; x=1",
+      "computed_answer": "1",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "* = 1일 때 의 값을 구하시오",
+      "recognized_expressions": [
+        "answer=1",
+        "x=1"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.291,
+      "analysis": {
+        "analysis_started_at": 1777119515.458258,
+        "analysis_finished_at": 1777119516.749655,
+        "structured_problem": {
+          "source_text_candidates": [
+            "중등 1학년 ㆍ좌표평면과 그래프ㆍ기본 table - function\n아래 표는 일차함수 / = ax + 『의 일부입니다.\n* = 1일 때 \\의 값을 구하시오\nx 1 2 3 4\ny 1 3 5 7\n아래 표는 일차함수 / = ax + #의 일부입니다.\n* = 1일 때 \\의 KS 구하시오.\n. 중등 학년 ㆍ좌표평면과 그래프 ㆍ기본 table « function\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 1일 때 의 값을 구하시오.\ntable_row_1 1 2 3\ntable_row_2 1 3 5 7",
+            "중등 1학년 ㆍ좌표평면과 그래프ㆍ기본 table - function\n아래 표는 일차함수 / = ax + 『의 일부입니다.\n* = 1일 때 \\의 값을 구하시오\nx 1 2 3 4\ny 1 3 5 7\n아래 표는 일차함수 / = ax + #의 일부입니다.\n* = 1일 때 \\의 KS 구하시오.\n. 중등 학년 ㆍ좌표평면과 그래프 ㆍ기본 table « function\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 1일 때 의 값을 구하시오.\ntable_row_1 1 2 3\ntable_row_2 1 3 5 7"
+          ],
+          "normalized_problem_text": "* = 1일 때 의 값을 구하시오",
+          "expressions": [
+            "answer=1",
+            "x=1"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "coordinate_geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/변화와 관계/좌표평면과 그래프/middle_g01_013_easy_table_function.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "중등 1학년 ㆍ좌표평면과 그래프ㆍ기본 table - function\n아래 표는 일차함수 / = ax + 『의 일부입니다.\n* = 1일 때 \\의 값을 구하시오\nx 1 2 3 4\ny 1 3 5 7",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 1학년ㆍ좌표평면과 그래프 ㆍ기본 table - function\n아래 표는 일차함수 / = ax + #의 일부입니다.\n* = 1일 때 \\의 KS 구하시오.",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "중등 1학년 ㆍ좌표평면과 그래프ㆍ기본 table - function\n아래 표는 일차함수 / = ax + 『의 일부입니다.\n* = 1일 때 \\의 값을 구하시오\nx 1 2 3 4\ny 1 3 5 7",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ". 중등 학년 ㆍ좌표평면과 그래프 ㆍ기본 table « function\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 1일 때 의 값을 구하시오.\nyo BS",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_1 1 2 3\ntable_row_2 1 3 5 7",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "cbf39863f796"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "1",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 1야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 1야. 그래서 정답은 1야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "중등 1학년 ㆍ좌표평면과 그래프ㆍ기본 table - function\n아래 표는 일차함수 / = ax + 『의 일부입니다.\n* = 1일 때 \\의 값을 구하시오\nx 1 2 3 4\ny 1 3 5 7\n아래 표는 일차함수 / = ax + #의 일부입니다.\n* = 1일 때 \\의 KS 구하시오.\n. 중등 학년 ㆍ좌표평면과 그래프 ㆍ기본 table « function\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 1일 때 의 값을 구하시오.\ntable_row_1 1 2 3\ntable_row_2 1 3 5 7",
+            "content_text": "중등 1학년 ㆍ좌표평면과 그래프ㆍ기본 table - function\n아래 표는 일차함수 / = ax + 『의 일부입니다.\n* = 1일 때 \\의 값을 구하시오\nx 1 2 3 4\ny 1 3 5 7\n아래 표는 일차함수 / = ax + #의 일부입니다.\n* = 1일 때 \\의 KS 구하시오.\n. 중등 학년 ㆍ좌표평면과 그래프 ㆍ기본 table « function\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 1일 때 의 값을 구하시오.\ntable_row_1 1 2 3\ntable_row_2 1 3 5 7",
+            "repaired_text": "",
+            "expressions": [
+              "answer=1",
+              "x=1"
+            ],
+            "choices": [],
+            "math_topic": "coordinate_geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "1",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g01_013__bbf1fba2"
+    },
+    {
+      "case_id": "middle_g01_014",
+      "band": "중등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/도형과 측정/기본도형과 작도/middle_g01_014_easy_expression_geometry.png",
+      "expected_answer": "99",
+      "expected_expression": "86+13",
+      "computed_answer": "99",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "86 + 13"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.48,
+      "analysis": {
+        "analysis_started_at": 1777119516.7513971,
+        "analysis_finished_at": 1777119517.230929,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr\nOo =\n다음 식의 값을 구하시오.\n86 + 13\n중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr",
+            "| 중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr\nOo =\n다음 식의 값을 구하시오.\n86 + 13\n중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "86 + 13"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/도형과 측정/기본도형과 작도/middle_g01_014_easy_expression_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr\nOo =\n다음 식의 값을 구하시오.\n86 + 13",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n86 + 13",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr\nOo =\n다음 식의 값을 구하시오.\n86 + 13",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "ad1080f75ca4"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "99",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 99야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 99야. 그래서 정답은 99야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr\nOo =\n다음 식의 값을 구하시오.\n86 + 13\n중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr",
+            "content_text": "| 중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr\nOo =\n다음 식의 값을 구하시오.\n86 + 13\n중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr",
+            "repaired_text": "",
+            "expressions": [
+              "86 + 13"
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "99",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g01_014__b08e9f82"
+    },
+    {
+      "case_id": "middle_g01_015",
+      "band": "중등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/자료와 가능성/자료의 정리와 해석/middle_g01_015_easy_expression_statistics.png",
+      "expected_answer": "382/5",
+      "expected_expression": "(82+64+81+88+67)/5",
+      "computed_answer": "382/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(82+64+81+88+67)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.472,
+      "analysis": {
+        "analysis_started_at": 1777119517.231589,
+        "analysis_finished_at": 1777119517.7035022,
+        "structured_problem": {
+          "source_text_candidates": [
+            "중등 1학년ㆍ자료의 정리와 해석ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n82, 64, 81, 88, 67\n\" ZE 1학년 ㆍ자료의 정리와 해석 ㆍ기본 expression ㆍ statistics\n다음 자료의 BAS 구하시오.",
+            "중등 1학년ㆍ자료의 정리와 해석ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n82, 64, 81, 88, 67\n\" ZE 1학년 ㆍ자료의 정리와 해석 ㆍ기본 expression ㆍ statistics\n다음 자료의 BAS 구하시오."
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(82+64+81+88+67)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/자료와 가능성/자료의 정리와 해석/middle_g01_015_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "중등 1학년ㆍ자료의 정리와 해석ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n82, 64, 81, 88, 67",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 1학년ㆍ자료의 정리와 해석ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n82, 64, 81, 88, 67",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "\" ZE 1학년 ㆍ자료의 정리와 해석 ㆍ기본 expression ㆍ statistics\n다음 자료의 BAS 구하시오.\n82, 64, 81, 88, 67",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "d58132e0eac1"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "382/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 382/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 382/5야. 그래서 정답은 382/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "중등 1학년ㆍ자료의 정리와 해석ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n82, 64, 81, 88, 67\n\" ZE 1학년 ㆍ자료의 정리와 해석 ㆍ기본 expression ㆍ statistics\n다음 자료의 BAS 구하시오.",
+            "content_text": "중등 1학년ㆍ자료의 정리와 해석ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n82, 64, 81, 88, 67\n\" ZE 1학년 ㆍ자료의 정리와 해석 ㆍ기본 expression ㆍ statistics\n다음 자료의 BAS 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "(82+64+81+88+67)/5"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "382/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g01_015__bd91f60d"
+    },
+    {
+      "case_id": "middle_g01_016",
+      "band": "중등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "arithmetic",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/수와 연산/정수와 유리수/middle_g01_016_easy_expression_arithmetic.png",
+      "expected_answer": "115",
+      "expected_expression": "89+26",
+      "computed_answer": "115",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "89 + 26"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.387,
+      "analysis": {
+        "analysis_started_at": 1777119517.704201,
+        "analysis_finished_at": 1777119518.090952,
+        "structured_problem": {
+          "source_text_candidates": [
+            "다음 식의 값을 구하시오.\n89 + 26\n| AE 1함년 ㆍ정수와 유리수 ㆍ기본 expression ㆍ arithmet\n=) © D",
+            "다음 식의 값을 구하시오.\n89 + 26\n| AE 1함년 ㆍ정수와 유리수 ㆍ기본 expression ㆍ arithmet\n=) © D"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "89 + 26"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/수와 연산/정수와 유리수/middle_g01_016_easy_expression_arithmetic.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "중등 ]학년ㆍ정수와 유리수 ㆍ기본 expression ㆍ arithmet\n다음 식의 값을 구하시오.\n89 + 26",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 ]학년ㆍ정수와 유리수 ㆍ기본 expression ㆍ arithmet\n다음 식의 값을 구하시오.\n89 + 26",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| AE 1함년 ㆍ정수와 유리수 ㆍ기본 expression ㆍ arithmet\n=) © D\n89 + 26",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "457649ea30ff"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "115",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 115야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 115야. 그래서 정답은 115야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "다음 식의 값을 구하시오.\n89 + 26\n| AE 1함년 ㆍ정수와 유리수 ㆍ기본 expression ㆍ arithmet\n=) © D",
+            "content_text": "다음 식의 값을 구하시오.\n89 + 26\n| AE 1함년 ㆍ정수와 유리수 ㆍ기본 expression ㆍ arithmet\n=) © D",
+            "repaired_text": "",
+            "expressions": [
+              "89 + 26"
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "115",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g01_016__559d5fa5"
+    },
+    {
+      "case_id": "middle_g01_017",
+      "band": "중등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "linear_equation",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/변화와 관계/문자의 사용과 일차방정식/middle_g01_017_easy_word_linear_equation.png",
+      "expected_answer": "37",
+      "expected_expression": "32+15-10",
+      "computed_answer": "37",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "32+15-10",
+      "recognized_expressions": [
+        "32+15-10"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.841,
+      "analysis": {
+        "analysis_started_at": 1777119518.091549,
+        "analysis_finished_at": 1777119518.932093,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 중등 1학년 ㆍ문자의 사용과 일차방정식ㆍ기본 word - linear_equatio\n민지는 스티커를 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 Sas\n중등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장<\n등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 32장 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장\nO AEA ow -",
+            "| 중등 1학년 ㆍ문자의 사용과 일차방정식ㆍ기본 word - linear_equatio\n민지는 스티커를 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 Sas\n중등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장<\n등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 32장 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장\nO AEA ow -"
+          ],
+          "normalized_problem_text": "32+15-10",
+          "expressions": [
+            "32+15-10"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/변화와 관계/문자의 사용과 일차방정식/middle_g01_017_easy_word_linear_equation.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 중등 1학년 ㆍ문자의 사용과 일차방정식ㆍ기본 word - linear_equatio\n민지는 스티커를 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 Sas",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장<",
+                    "confidence": 0.48
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 32장 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장\nO AEA ow -",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 중등 1학년 ㆍ문자의 사용과 일차방정식ㆍ기본 word - linear_equatio\n민지는 스티커를 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 Sas",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "14fa5e8e93ef"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "37",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 37야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 37야. 그래서 정답은 37야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 중등 1학년 ㆍ문자의 사용과 일차방정식ㆍ기본 word - linear_equatio\n민지는 스티커를 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 Sas\n중등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장<\n등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 32장 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장\nO AEA ow -",
+            "content_text": "| 중등 1학년 ㆍ문자의 사용과 일차방정식ㆍ기본 word - linear_equatio\n민지는 스티커를 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 Sas\n중등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장<\n등 1학년ㆍ문자의 사용과 일차방정식ㆍ기본 word : linear_equatio\n민지는 스티커를 32장 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장\nO AEA ow -",
+            "repaired_text": "",
+            "expressions": [
+              "32+15-10"
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "37",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g01_017__cc758047"
+    },
+    {
+      "case_id": "middle_g01_018",
+      "band": "중등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "function",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/변화와 관계/좌표평면과 그래프/middle_g01_018_easy_table_function.png",
+      "expected_answer": "9",
+      "expected_expression": "y=2x+ 1; x=4",
+      "computed_answer": "9",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "* = 4일 때 의 값을 구하시오",
+      "recognized_expressions": [
+        "answer=9",
+        "x=4"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.431,
+      "analysis": {
+        "analysis_started_at": 1777119518.9331331,
+        "analysis_finished_at": 1777119520.36423,
+        "structured_problem": {
+          "source_text_candidates": [
+            "중등 1학년 ㆍ좌표평면과 그래프ㆍ기본 table - function\n아래 표는 일차함수 / = ax + #의 일부입니다.\nx = 4일 때 \\의 값을 구하시오\n* 1 2 3 4\n3 5 7 9\nx= 4일 때 \\의 값을 구하시오.\n. 중등 학년 ㆍ좌표평면과 그래프 ㆍ기본 table « function\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 4일 때 의 값을 구하시오.\ntable_row_1 1 2 3\ntable_row_2 3 5 7 9",
+            "중등 1학년 ㆍ좌표평면과 그래프ㆍ기본 table - function\n아래 표는 일차함수 / = ax + #의 일부입니다.\nx = 4일 때 \\의 값을 구하시오\n* 1 2 3 4\n3 5 7 9\nx= 4일 때 \\의 값을 구하시오.\n. 중등 학년 ㆍ좌표평면과 그래프 ㆍ기본 table « function\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 4일 때 의 값을 구하시오.\ntable_row_1 1 2 3\ntable_row_2 3 5 7 9"
+          ],
+          "normalized_problem_text": "* = 4일 때 의 값을 구하시오",
+          "expressions": [
+            "answer=9",
+            "x=4"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "coordinate_geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/변화와 관계/좌표평면과 그래프/middle_g01_018_easy_table_function.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "중등 1학년 ㆍ좌표평면과 그래프ㆍ기본 table - function\n아래 표는 일차함수 / = ax + #의 일부입니다.\nx = 4일 때 \\의 값을 구하시오\n* 1 2 3 4\n3 5 7 9",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 1학년ㆍ좌표평면과 그래프 ㆍ기본 table - function\n아래 표는 일차함수 / = ax + #의 일부입니다.\nx= 4일 때 \\의 값을 구하시오.\njy Rs ㄴㄴ",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "중등 1학년 ㆍ좌표평면과 그래프ㆍ기본 table - function\n아래 표는 일차함수 / = ax + #의 일부입니다.\nx = 4일 때 \\의 값을 구하시오\n* 1 2 3 4\n3 5 7 9",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ". 중등 학년 ㆍ좌표평면과 그래프 ㆍ기본 table « function\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 4일 때 의 값을 구하시오.\nyo BS",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_1 1 2 3\ntable_row_2 3 5 7 9",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "ad07dd711de2"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "9",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 9야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 9야. 그래서 정답은 9야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "중등 1학년 ㆍ좌표평면과 그래프ㆍ기본 table - function\n아래 표는 일차함수 / = ax + #의 일부입니다.\nx = 4일 때 \\의 값을 구하시오\n* 1 2 3 4\n3 5 7 9\nx= 4일 때 \\의 값을 구하시오.\n. 중등 학년 ㆍ좌표평면과 그래프 ㆍ기본 table « function\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 4일 때 의 값을 구하시오.\ntable_row_1 1 2 3\ntable_row_2 3 5 7 9",
+            "content_text": "중등 1학년 ㆍ좌표평면과 그래프ㆍ기본 table - function\n아래 표는 일차함수 / = ax + #의 일부입니다.\nx = 4일 때 \\의 값을 구하시오\n* 1 2 3 4\n3 5 7 9\nx= 4일 때 \\의 값을 구하시오.\n. 중등 학년 ㆍ좌표평면과 그래프 ㆍ기본 table « function\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 4일 때 의 값을 구하시오.\ntable_row_1 1 2 3\ntable_row_2 3 5 7 9",
+            "repaired_text": "",
+            "expressions": [
+              "answer=9",
+              "x=4"
+            ],
+            "choices": [],
+            "math_topic": "coordinate_geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "9",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g01_018__ac46ae9d"
+    },
+    {
+      "case_id": "middle_g01_019",
+      "band": "중등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/도형과 측정/기본도형과 작도/middle_g01_019_easy_expression_geometry.png",
+      "expected_answer": "42",
+      "expected_expression": "26+16",
+      "computed_answer": "42",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "26 + 16"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.471,
+      "analysis": {
+        "analysis_started_at": 1777119520.3658528,
+        "analysis_finished_at": 1777119520.837285,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr\nOo =\n다음 식의 값을 구하시오.\n26 + 16\n중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr",
+            "| 중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr\nOo =\n다음 식의 값을 구하시오.\n26 + 16\n중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "26 + 16"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/도형과 측정/기본도형과 작도/middle_g01_019_easy_expression_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr\nOo =\n다음 식의 값을 구하시오.\n26 + 16",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n26 + 16",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr\nOo =\n다음 식의 값을 구하시오.\n26 + 16",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "8683b298cae3"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "42",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 42야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 42야. 그래서 정답은 42야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr\nOo =\n다음 식의 값을 구하시오.\n26 + 16\n중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr",
+            "content_text": "| 중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr\nOo =\n다음 식의 값을 구하시오.\n26 + 16\n중등 1학년ㆍ기본도형과 작도 ㆍ기본 expression ㆍ geometr",
+            "repaired_text": "",
+            "expressions": [
+              "26 + 16"
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "42",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g01_019__86a62c37"
+    },
+    {
+      "case_id": "middle_g01_020",
+      "band": "중등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/자료와 가능성/자료의 정리와 해석/middle_g01_020_easy_expression_statistics.png",
+      "expected_answer": "393/5",
+      "expected_expression": "(72+82+80+92+67)/5",
+      "computed_answer": "393/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(72+82+80+92+67)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.464,
+      "analysis": {
+        "analysis_started_at": 1777119520.8380108,
+        "analysis_finished_at": 1777119521.3018749,
+        "structured_problem": {
+          "source_text_candidates": [
+            "중등 1학년ㆍ자료의 정리와 해석ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n72, 82, 80, 92, 67\n“ ZE 1학년 ㆍ자료의 정리와 해석 ㆍ기본 expression ㆍ statistics\n다음 자료의 BAS 구하시오.",
+            "중등 1학년ㆍ자료의 정리와 해석ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n72, 82, 80, 92, 67\n“ ZE 1학년 ㆍ자료의 정리와 해석 ㆍ기본 expression ㆍ statistics\n다음 자료의 BAS 구하시오."
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(72+82+80+92+67)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/1학년/자료와 가능성/자료의 정리와 해석/middle_g01_020_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "중등 1학년ㆍ자료의 정리와 해석ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n72, 82, 80, 92, 67",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 1학년ㆍ자료의 정리와 해석ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n72, 82, 80, 92, 67",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "“ ZE 1학년 ㆍ자료의 정리와 해석 ㆍ기본 expression ㆍ statistics\n다음 자료의 BAS 구하시오.\n72, 82, 80, 92, 67",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "03befb5b9cc2"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "393/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 393/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 393/5야. 그래서 정답은 393/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "중등 1학년ㆍ자료의 정리와 해석ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n72, 82, 80, 92, 67\n“ ZE 1학년 ㆍ자료의 정리와 해석 ㆍ기본 expression ㆍ statistics\n다음 자료의 BAS 구하시오.",
+            "content_text": "중등 1학년ㆍ자료의 정리와 해석ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n72, 82, 80, 92, 67\n“ ZE 1학년 ㆍ자료의 정리와 해석 ㆍ기본 expression ㆍ statistics\n다음 자료의 BAS 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "(72+82+80+92+67)/5"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "393/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g01_020__be356977"
+    }
+  ]
+}

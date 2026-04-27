@@ -14,6 +14,9 @@ class ChatMessage(TypedDict, total=False):
     content: str
     doc_id: str | None
     created_at: float
+    kind: str
+    preview_image_path: str
+    preview_image_label: str
 
 
 class StoredDocument(TypedDict, total=False):

@@ -35,7 +35,30 @@ def _replace_superscript_run(match: re.Match[str]) -> str:
     return f"^({exponent})"
 
 
-def normalize_ocr_math_text(text: str) -> str:
+def _repair_elementary_korean_ocr(text: str) -> str:
+    """Fix frequent English-looking OCR leaks in elementary Korean prompts."""
+
+    repaired = text
+    repaired = re.sub(r"알맞은\s*[+A]S(?=\s|$|[를을])", "알맞은 수", repaired)
+    repaired = re.sub(r"큰\s*[+A]S(?=\s|$|[를을])", "큰 수", repaired)
+    repaired = re.sub(r"(?<=[가-힣]\s)OF(?=\s*하)", "○표", repaired, flags=re.IGNORECASE)
+    repaired = re.sub(r"(?<=[가-힣])OF(?=\s*하)", "○표", repaired, flags=re.IGNORECASE)
+    repaired = re.sub(r"\bOME\s+(?=9까지)", "0부터 ", repaired, flags=re.IGNORECASE)
+    repaired = re.sub(r"써\s*You(?=\s|$|[.。])", "써 넣으세요", repaired, flags=re.IGNORECASE)
+    repaired = re.sub(r"써\s*Yo\](?=\s|$|[.。])", "써 넣으세요", repaired, flags=re.IGNORECASE)
+    repaired = re.sub(r"수\s*중에서", "수 중에서", repaired)
+    return repaired
+
+
+def apply_school_ocr_profile(text: str, *, school_level: str | None = None, profile: str | None = None) -> str:
+    level = str(school_level or "").strip().lower()
+    profile_id = str(profile or "").strip().lower()
+    if level == "elementary" or profile_id.startswith("elementary"):
+        return _repair_elementary_korean_ocr(text)
+    return text
+
+
+def normalize_ocr_math_text(text: str, *, school_level: str | None = None, profile: str | None = None) -> str:
     normalized = normalize_math_text(text)
     normalized = normalized.replace("\\n", "\n").replace("\\t", " ")
     normalized = apply_learned_profile_rewrites(normalized)
@@ -55,15 +78,17 @@ def normalize_ocr_math_text(text: str) -> str:
     normalized = re.sub(r"(?<=\d)/(?=\s|=|$)", "7", normalized)
     normalized = re.sub(r"([xX])\s*[°º]\s*2", r"\1^2", normalized)
     normalized = re.sub(r"(\d+)\s*[°º]\s*2", r"\1^2", normalized)
+    normalized = re.sub(r"(?<=\d)([xX])\s*\*\s*([23])\b", r"\1^\2", normalized)
     normalized = re.sub(r"√\s*([0-9a-zA-Z]+)", r"sqrt(\1)", normalized)
     normalized = re.sub(r"(?<=\d|\))\s*[xX]\s*(?=\d|\()", "*", normalized)
     normalized = re.sub(r"(\d+)\s*/\s*(\d+)", r"\1/\2", normalized)
+    normalized = apply_school_ocr_profile(normalized, school_level=school_level, profile=profile)
     normalized = re.sub(r"\s+", " ", normalized)
     return "\n".join(line.strip() for line in normalized.splitlines() if line.strip()).strip()
 
 
-def clean_visible_math_text(text: str) -> str:
-    cleaned = normalize_ocr_math_text(text)
+def clean_visible_math_text(text: str, *, school_level: str | None = None, profile: str | None = None) -> str:
+    cleaned = normalize_ocr_math_text(text, school_level=school_level, profile=profile)
     cleaned = cleaned.replace("\n", " ")
     cleaned = re.sub(r"\s+", " ", cleaned)
     return cleaned.strip(" .,:;`'\"")

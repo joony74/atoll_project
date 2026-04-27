@@ -1,0 +1,182 @@
+{
+  "schema_version": "problem_bank_manifest.v1",
+  "bank_id": "metamathqa",
+  "generated_at": "2026-04-25T05:38:16+00:00",
+  "source": {
+    "name": "MetaMathQA",
+    "dataset_id": "meta-math/MetaMathQA",
+    "source_url": "https://github.com/meta-math/MetaMath",
+    "dataset_url": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+    "license": "MIT",
+    "raw_sources": {
+      "metamathqa_395k": "https://huggingface.co/datasets/meta-math/MetaMathQA/resolve/main/MetaMathQA-395K.json"
+    },
+    "notes": "Streaming sample import from the public 395K JSON array. Increase --limit to expand local training coverage without loading the full file into memory."
+  },
+  "storage": {
+    "format": "json_shards",
+    "encoding": "utf-8",
+    "record_schema": "../../schema/problem_bank_record.schema.json"
+  },
+  "counts": {
+    "total": 20000,
+    "sample_limit": 20000,
+    "by_subject": {
+      "Algebra": 2151,
+      "Competition Math": 2980,
+      "Counting & Probability": 310,
+      "Geometry": 608,
+      "Grade School Math": 12115,
+      "Intermediate Algebra": 378,
+      "Number Theory": 1458
+    },
+    "by_level": {
+      "Level 2": 10809,
+      "Level 3": 2598,
+      "Level 4": 4163,
+      "Level 5": 2430
+    },
+    "by_type": {
+      "GSM_AnsAug": 4022,
+      "GSM_FOBAR": 2017,
+      "GSM_Rephrased": 4067,
+      "GSM_SV": 2009,
+      "MATH_AnsAug": 3753,
+      "MATH_FOBAR": 804,
+      "MATH_Rephrased": 2574,
+      "MATH_SV": 754
+    },
+    "answer_missing": 1
+  },
+  "shards": [
+    {
+      "path": "shards/algebra/level_3.json",
+      "count": 1223,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "sample"
+    },
+    {
+      "path": "shards/algebra/level_4.json",
+      "count": 928,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "sample"
+    },
+    {
+      "path": "shards/arithmetic_word_problem/level_2.json",
+      "count": 10809,
+      "subject": "Grade School Math",
+      "subject_slug": "arithmetic_word_problem",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "sample"
+    },
+    {
+      "path": "shards/arithmetic_word_problem/level_3.json",
+      "count": 1306,
+      "subject": "Grade School Math",
+      "subject_slug": "arithmetic_word_problem",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "sample"
+    },
+    {
+      "path": "shards/competition_math/level_4.json",
+      "count": 1692,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "sample"
+    },
+    {
+      "path": "shards/competition_math/level_5.json",
+      "count": 1288,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "sample"
+    },
+    {
+      "path": "shards/counting_probability/level_4.json",
+      "count": 145,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "sample"
+    },
+    {
+      "path": "shards/counting_probability/level_5.json",
+      "count": 165,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "sample"
+    },
+    {
+      "path": "shards/geometry/level_4.json",
+      "count": 233,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "sample"
+    },
+    {
+      "path": "shards/geometry/level_5.json",
+      "count": 375,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "sample"
+    },
+    {
+      "path": "shards/intermediate_algebra/level_3.json",
+      "count": 69,
+      "subject": "Intermediate Algebra",
+      "subject_slug": "intermediate_algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "sample"
+    },
+    {
+      "path": "shards/intermediate_algebra/level_4.json",
+      "count": 309,
+      "subject": "Intermediate Algebra",
+      "subject_slug": "intermediate_algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "sample"
+    },
+    {
+      "path": "shards/number_theory/level_4.json",
+      "count": 856,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "sample"
+    },
+    {
+      "path": "shards/number_theory/level_5.json",
+      "count": 602,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "sample"
+    }
+  ],
+  "indexes": {
+    "lightweight": "index/problem_index.json"
+  }
+}

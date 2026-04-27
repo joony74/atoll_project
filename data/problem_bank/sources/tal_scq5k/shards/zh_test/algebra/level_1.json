@@ -1,0 +1,5037 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:00062",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 62,
+      "split": "zh_test",
+      "source_problem_id": "30f8077df077407b899c42edc09ce79e"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "买$$2$$瓶汽水和$$1$$瓶矿泉水一共要花$$7$$元，买$$4$$瓶汽水和$$3$$瓶矿泉水一共要花$$16$$元，那么买$$10$$瓶汽水和$$10$$瓶矿泉水一共要花元．\n(A) 45\n(B) 46\n(C) 47",
+      "problem_plain": "买 2 瓶汽水和 1 瓶矿泉水一共要花 7 元，买 4 瓶汽水和 3 瓶矿泉水一共要花 16 元，那么买 10 瓶汽水和 10 瓶矿泉水一共要花元． (A) 45 (B) 46 (C) 47",
+      "solution_latex": "$$2$$汽$$+1$$水$$=7$$①，  $$4$$汽$$+3$$水$$=16$$②，  ②$$-$$①$$\\times 2$$得：水$$=2$$，所以汽$$=2.5$$，  故：$$10$$汽$$+10$$水$$=10\\times 2.5+10\\times 2=45$$（元）．  故选择$$\\text{A}$$．",
+      "solution_plain": "2 汽 +1 水 =7 ①， 4 汽 +3 水 =16 ②， ② - ① 2 得：水 =2 ，所以汽 =2.5 ， 故： 10 汽 +10 水 =10 2.5+10 2=45 （元）． 故选择 A ．"
+    },
+    "answer": {
+      "final_raw": "45",
+      "final_normalized": "45",
+      "candidates": [
+        "45",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$2$$汽$$+1$$水$$=7$$①，  $$4$$汽$$+3$$水$$=16$$②，  ②$$-$$①$$\\times 2$$得：水$$=2$$，所以汽$$=2.5$$，  故：$$10$$汽$$+10$$水$$=10\\times 2.5+10\\times 2=45$$（元）．  故选择$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "买 2 瓶汽水和 1 瓶矿泉水一共要花 7 元，买 4 瓶汽水和 3 瓶矿泉水一共要花 16 元，那么买 10 瓶汽水和 10 瓶矿泉水一共要花元． (A) 45 (B) 46 (C) 47",
+      "solution_text": "2 汽 +1 水 =7 ①， 4 汽 +3 水 =16 ②， ② - ① 2 得：水 =2 ，所以汽 =2.5 ， 故： 10 汽 +10 水 =10 2.5+10 2=45 （元）． 故选择 A ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1318",
+        "queId": "30f8077df077407b899c42edc09ce79e",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "45"
+          },
+          {
+            "label": "B",
+            "content": "46"
+          },
+          {
+            "label": "C",
+            "content": "47"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->方程思想"
+        ],
+        "competition_source_list": [
+          "2018年第22届广东世界少年奥林匹克数学竞赛五年级竞赛初赛第2题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:00116",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 116,
+      "split": "zh_test",
+      "source_problem_id": "1f60f5b1402a4cdeb69ef0410e39b75f"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在下图的每个方框中填入一个数字，使得乘法竖式成立．那么，这个算式的乘积是 .\n(A) 837\n(B) 827\n(C) 297\n(D) 397",
+      "problem_plain": "在下图的每个方框中填入一个数字，使得乘法竖式成立．那么，这个算式的乘积是 . (A) 837 (B) 827 (C) 297 (D) 397",
+      "solution_latex": "如图",
+      "solution_plain": "如图"
+    },
+    "answer": {
+      "final_raw": "837",
+      "final_normalized": "837",
+      "candidates": [
+        "837",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "如图"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在下图的每个方框中填入一个数字，使得乘法竖式成立．那么，这个算式的乘积是 . (A) 837 (B) 827 (C) 297 (D) 397",
+      "solution_text": "如图",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "157",
+        "queId": "1f60f5b1402a4cdeb69ef0410e39b75f",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "837"
+          },
+          {
+            "label": "B",
+            "content": "827"
+          },
+          {
+            "label": "C",
+            "content": "297"
+          },
+          {
+            "label": "D",
+            "content": "397"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->逻辑分析->代数逻辑推理"
+        ],
+        "competition_source_list": [
+          "2012年全国迎春杯四年级竞赛初赛第3题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01016",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1016,
+      "split": "zh_test",
+      "source_problem_id": "5939daa9431b40be9bb625925e34e7cf"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "实数$$a$$，$$b$$，$$c$$，$$d$$满足：①$$a+b=c+d$$；②$$a+d\\textless{}b+c$$；③$$c\\textless{}d$$，则$$a$$，$$b$$，$$c$$，$$d$$的大小关系是（~ ）．\n(A) a\\textless{}c\\textless{}d\\textless{}b\n(B) b\\textless{}c\\textless{}d\\textless{}a\n(C) c\\textless{}d\\textless{}a\\textless{}b\n(D) c\\textless{}d\\textless{}b\\textless{}a",
+      "problem_plain": "实数 a ， b ， c ， d 满足：① a+b=c+d ；② a+d b+c ；③ c d ，则 a ， b ， c ， d 的大小关系是（~ ）． (A) a c d b (B) b c d a (C) c d a b (D) c d b a",
+      "solution_latex": "由①，知$$a-d=c-b$$，④  ②$$+$$④，得$$2a\\textless{}2c$$，即$$a\\textless{}c$$，⑤  因为$$c\\textless{}d$$，  所以$$a\\textless{}c\\textless{}d$$，  又由①，知$$b-d=c-a\\textgreater0$$，  所以$$b\\textgreater d$$，  所以$$a\\textless{}c\\textless{}d\\textless{}b$$．\n<p>①$$+$$②得：$$2a+b+d &nbsp;&lt; &nbsp;2c+b+d$$，故$$a &nbsp;&lt; &nbsp;c$$，</p>\n<p>①$$-$$②得：$$b-d&gt;d-b$$，故$$b&gt;d$$，</p>\n<p>又∵$$c &nbsp;&lt; &nbsp;d$$，&there4;$$a &nbsp;&lt; &nbsp;c &nbsp;&lt; &nbsp;d &nbsp;&lt; &nbsp;b$$．</p>\n<p>设$$a=1$$，$$b=6$$，$$c=3$$，$$d=4$$，满足条件，故$$a &nbsp;&lt; &nbsp;c &nbsp;&lt; &nbsp;d &nbsp;&lt; &nbsp;b$$．</p>\n<p>故选$$\\text{A}$$．</p>",
+      "solution_plain": "由①，知 a-d=c-b ，④ ② + ④，得 2a 2c ，即 a c ，⑤ 因为 c d ， 所以 a c d ， 又由①，知 b-d=c-a 0 ， 所以 b d ， 所以 a c d b ． <p>① + ②得： 2a+b+d &nbsp;&lt; &nbsp;2c+b+d ，故 a &nbsp;&lt; &nbsp;c ，</p> <p>① - ②得： b-d&gt;d-b ，故 b&gt;d ，</p> <p>又∵ c &nbsp;&lt; &nbsp;d ，&there4; a &nbsp;&lt; &nbsp;c &nbsp;&lt; &nbsp;d &nbsp;&lt; &nbsp;b ．</p> <p>设 a=1 ， b=6 ， c=3 ， d=4 ，满足条件，故 a &nbsp;&lt; &nbsp;c &nbsp;&lt; &nbsp;d &nbsp;&lt; &nbsp;b ．</p> <p>故选 A ．</p>"
+    },
+    "answer": {
+      "final_raw": "a\\textless{}c\\textless{}d\\textless{}b",
+      "final_normalized": "a\\textless{}c\\textless{}d\\textless{}b",
+      "candidates": [
+        "A",
+        "a\\textless{}c\\textless{}d\\textless{}b"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由①，知$$a-d=c-b$$，④  ②$$+$$④，得$$2a\\textless{}2c$$，即$$a\\textless{}c$$，⑤  因为$$c\\textless{}d$$，  所以$$a\\textless{}c\\textless{}d$$，  又由①，知$$b-d=c-a\\textgreater0$$，  所以$$b\\textgreater d$$，  所以$$a\\textless{}c\\textless{}d\\textless{}b$$．\n<p>①$$+$$②得：$$2a+b+d &nbsp;&lt; &nbsp;2c+b+d$$，故$$a &nbsp;&lt; &nbsp;c$$，</p>\n<p>①$$-$$②得：$$b-d&gt;d-b$$，故$$b&gt;d$$，</p>\n<p>又∵$$c &nbsp;&lt; &nbsp;d$$，&there4;$$a &nbsp;&lt; &nbsp;c &nbsp;&lt; &nbsp;d &nbsp;&lt; &nbsp;b$$．</p>\n<p>设$$a=1$$，$$b=6$$，$$c=3$$，$$d=4$$，满足条件，故$$a &nbsp;&lt; &nbsp;c &nbsp;&lt; &nbsp;d &nbsp;&lt; &nbsp;b$$．</p>\n<p>故选$$\\text{A}$$．</p>"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "实数 a ， b ， c ， d 满足：① a+b=c+d ；② a+d b+c ；③ c d ，则 a ， b ， c ， d 的大小关系是（~ ）． (A) a c d b (B) b c d a (C) c d a b (D) c d b a",
+      "solution_text": "由①，知 a-d=c-b ，④ ② + ④，得 2a 2c ，即 a c ，⑤ 因为 c d ， 所以 a c d ， 又由①，知 b-d=c-a 0 ， 所以 b d ， 所以 a c d b ． <p>① + ②得： 2a+b+d &nbsp;&lt; &nbsp;2c+b+d ，故 a &nbsp;&lt; &nbsp;c ，</p> <p>① - ②得： b-d&gt;d-b ，故 b&gt;d ，</p> <p>又∵ c &nbsp;&lt; &nbsp;d ，&there4; a &nbsp;&lt; &nbsp;c &nbsp;&lt; &nbsp;d &nbsp;&lt; &nbsp;b ．</p> <p>设 a=1 ， b=6 ， c=3 ， d=4 ，满足条件，故 a &nbsp;&lt; &nbsp;c &nbsp;&lt; &nbsp;d &nbsp;&lt; &nbsp;b ．</p> <p>故选 A ．</p>",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "360",
+        "queId": "5939daa9431b40be9bb625925e34e7cf",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "a\\textless{}c\\textless{}d\\textless{}b"
+          },
+          {
+            "label": "B",
+            "content": "b\\textless{}c\\textless{}d\\textless{}a"
+          },
+          {
+            "label": "C",
+            "content": "c\\textless{}d\\textless{}a\\textless{}b"
+          },
+          {
+            "label": "D",
+            "content": "c\\textless{}d\\textless{}b\\textless{}a"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->方程与不等式->不等式（组）->不等式->不等式的性质"
+        ],
+        "competition_source_list": [
+          "2012年第23届全国希望杯初二竞赛复赛第1题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01185",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1185,
+      "split": "zh_test",
+      "source_problem_id": "5acb0d64de0d4721a9d070110cf500fd"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$$a\\textgreater b\\textgreater0$$，则有．\n(A) a+b\\textgreater1\n(B) ab\\textgreater1\n(C) \\frac{a}{b}\\textgreater1\n(D) a-b\\textgreater1",
+      "problem_plain": "已知 a b 0 ，则有． (A) a+b 1 (B) ab 1 (C) a b 1 (D) a-b 1",
+      "solution_latex": "用特殊值法，不妨设$$a=0.4$$，$$b=0.2$$，则$$a+b=0.6 ~\\textless{} ~1$$，可排除（$$\\text{A}$$）；  $$ab=0.08 ~\\textless{} ~1$$，可排除（$$\\text{B}$$）；  $$a-b=0.4-0.2=0.2 ~\\textless{} ~1$$，可排除（$$\\text{D}$$），所以应选（$$\\text{C}$$）．  事实上，$$a\\textgreater0$$，$$b\\textgreater0$$，且$$a\\textgreater b$$，所以$$\\frac{a}{b}\\textgreater1$$成立．  故选$$\\text{C}$$．",
+      "solution_plain": "用特殊值法，不妨设 a=0.4 ， b=0.2 ，则 a+b=0.6 ~ ~1 ，可排除（ A ）； ab=0.08 ~ ~1 ，可排除（ B ）； a-b=0.4-0.2=0.2 ~ ~1 ，可排除（ D ），所以应选（ C ）． 事实上， a 0 ， b 0 ，且 a b ，所以 a b 1 成立． 故选 C ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{a}{b}\\textgreater1",
+      "final_normalized": "\\frac{a}{b}\\textgreater1",
+      "candidates": [
+        "C",
+        "\\frac{a}{b}\\textgreater1"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "用特殊值法，不妨设$$a=0.4$$，$$b=0.2$$，则$$a+b=0.6 ~\\textless{} ~1$$，可排除（$$\\text{A}$$）；  $$ab=0.08 ~\\textless{} ~1$$，可排除（$$\\text{B}$$）；  $$a-b=0.4-0.2=0.2 ~\\textless{} ~1$$，可排除（$$\\text{D}$$），所以应选（$$\\text{C}$$）．  事实上，$$a\\textgreater0$$，$$b\\textgreater0$$，且$$a\\textgreater b$$，所以$$\\frac{a}{b}\\textgreater1$$成立．  故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 a b 0 ，则有． (A) a+b 1 (B) ab 1 (C) a b 1 (D) a-b 1",
+      "solution_text": "用特殊值法，不妨设 a=0.4 ， b=0.2 ，则 a+b=0.6 ~ ~1 ，可排除（ A ）； ab=0.08 ~ ~1 ，可排除（ B ）； a-b=0.4-0.2=0.2 ~ ~1 ，可排除（ D ），所以应选（ C ）． 事实上， a 0 ， b 0 ，且 a b ，所以 a b 1 成立． 故选 C ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "670",
+        "queId": "5acb0d64de0d4721a9d070110cf500fd",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "a+b\\textgreater1"
+          },
+          {
+            "label": "B",
+            "content": "ab\\textgreater1"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{a}{b}\\textgreater1"
+          },
+          {
+            "label": "D",
+            "content": "a-b\\textgreater1"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->方程与不等式->不等式（组）->不等式->不等式的性质"
+        ],
+        "competition_source_list": [
+          "1992年第3届希望杯初二竞赛第1题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01217",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1217,
+      "split": "zh_test",
+      "source_problem_id": "65e5f3af08514a2992bc39531c2dc98a"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "如果方程$$\\left\\textbar3x\\right\\textbar-ax-1=0$$的根是负数，那么$$a$$的取值范围是．\n(A) a\\textgreater-3\n(B) a\\geqslant 3\n(C) a \\textless{} 3\n(D) a\\leqslant -3",
+      "problem_plain": "如果方程 3x -ax-1=0 的根是负数，那么 a 的取值范围是． (A) a -3 (B) a 3 (C) a 3 (D) a -3",
+      "solution_latex": "原方程即$$\\left\\textbar3x\\right\\textbar=ax+1$$．  $$\\left(1\\right)$$若$$a=3$$时，则$$\\left\\textbar3x\\right\\textbar=3x+1$$．  当$$x \\textless{} 0$$时，得$$-3x=3x+1$$．所以$$x=-\\frac{1}{6}$$；  当$$x\\geqslant 0$$时，得$$3x=3x+1$$，不成立．  所以当$$a=3$$时，原方程的根为$$x=-\\frac{1}{6}$$．  $$\\left(2\\right)$$若$$a\\textgreater3$$．  当$$x \\textless{} 0$$时，得$$-3x=ax+1$$，所以$$x=-\\frac{1}{a+3} \\textless{} 0$$；  当$$x\\geqslant 0$$时，得$$3x=ax+1$$，所以$$x=\\frac{1}{3-a} \\textless{} 0$$，矛盾．  所以当$$a\\textgreater3$$时，原方程的解为$$x=-\\frac{1}{a+3} \\textless{} 0$$．  $$\\left(3\\right)$$若$$a \\textless{} 3$$  当$$x\\geqslant 0$$时，得$$3x=ax+1$$，所以$$x=\\frac{1}{3-a}\\textgreater0$$，原方程有正根，与题设矛盾．  综上所述，$$a\\geqslant 3$$时，原方程的根是负数．  所以应选$$\\text{B}$$．",
+      "solution_plain": "原方程即 3x =ax+1 ． (1 ) 若 a=3 时，则 3x =3x+1 ． 当 x 0 时，得 -3x=3x+1 ．所以 x=- 1 6 ； 当 x 0 时，得 3x=3x+1 ，不成立． 所以当 a=3 时，原方程的根为 x=- 1 6 ． (2 ) 若 a 3 ． 当 x 0 时，得 -3x=ax+1 ，所以 x=- 1 a+3 0 ； 当 x 0 时，得 3x=ax+1 ，所以 x= 1 3-a 0 ，矛盾． 所以当 a 3 时，原方程的解为 x=- 1 a+3 0 ． (3 ) 若 a 3 当 x 0 时，得 3x=ax+1 ，所以 x= 1 3-a 0 ，原方程有正根，与题设矛盾． 综上所述， a 3 时，原方程的根是负数． 所以应选 B ．"
+    },
+    "answer": {
+      "final_raw": "a\\geqslant 3",
+      "final_normalized": "a\\geqslant 3",
+      "candidates": [
+        "B",
+        "a\\geqslant 3"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "原方程即$$\\left\\textbar3x\\right\\textbar=ax+1$$．  $$\\left(1\\right)$$若$$a=3$$时，则$$\\left\\textbar3x\\right\\textbar=3x+1$$．  当$$x \\textless{} 0$$时，得$$-3x=3x+1$$．所以$$x=-\\frac{1}{6}$$；  当$$x\\geqslant 0$$时，得$$3x=3x+1$$，不成立．  所以当$$a=3$$时，原方程的根为$$x=-\\frac{1}{6}$$．  $$\\left(2\\right)$$若$$a\\textgreater3$$．  当$$x \\textless{} 0$$时，得$$-3x=ax+1$$，所以$$x=-\\frac{1}{a+3} \\textless{} 0$$；  当$$x\\geqslant 0$$时，得$$3x=ax+1$$，所以$$x=\\frac{1}{3-a} \\textless{} 0$$，矛盾．  所以当$$a\\textgreater3$$时，原方程的解为$$x=-\\frac{1}{a+3} \\textless{} 0$$．  $$\\left(3\\right)$$若$$a \\textless{} 3$$  当$$x\\geqslant 0$$时，得$$3x=ax+1$$，所以$$x=\\frac{1}{3-a}\\textgreater0$$，原方程有正根，与题设矛盾．  综上所述，$$a\\geqslant 3$$时，原方程的根是负数．  所以应选$$\\text{B}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "如果方程 3x -ax-1=0 的根是负数，那么 a 的取值范围是． (A) a -3 (B) a 3 (C) a 3 (D) a -3",
+      "solution_text": "原方程即 3x =ax+1 ． (1 ) 若 a=3 时，则 3x =3x+1 ． 当 x 0 时，得 -3x=3x+1 ．所以 x=- 1 6 ； 当 x 0 时，得 3x=3x+1 ，不成立． 所以当 a=3 时，原方程的根为 x=- 1 6 ． (2 ) 若 a 3 ． 当 x 0 时，得 -3x=ax+1 ，所以 x=- 1 a+3 0 ； 当 x 0 时，得 3x=ax+1 ，所以 x= 1 3-a 0 ，矛盾． 所以当 a 3 时，原方程的解为 x=- 1 a+3 0 ． (3 ) 若 a 3 当 x 0 时，得 3x=ax+1 ，所以 x= 1 3-a 0 ，原方程有正根，与题设矛盾． 综上所述， a 3 时，原方程的根是负数． 所以应选 B ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "937",
+        "queId": "65e5f3af08514a2992bc39531c2dc98a",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "a\\textgreater-3"
+          },
+          {
+            "label": "B",
+            "content": "a\\geqslant 3"
+          },
+          {
+            "label": "C",
+            "content": "a \\textless{} 3"
+          },
+          {
+            "label": "D",
+            "content": "a\\leqslant -3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->运算能力",
+          "课内体系->知识点->方程与不等式->不等式（组）->含参不等式->不等式（组）解的情况确定参数的范围",
+          "课内体系->知识点->方程与不等式->一元一次方程->一元一次方程的相关概念->一元一次方程的解",
+          "课内体系->知识点->方程与不等式->一元一次方程->解一元一次方程"
+        ],
+        "competition_source_list": [
+          "1993年第4届希望杯初二竞赛第10题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01276",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1276,
+      "split": "zh_test",
+      "source_problem_id": "104dc22addc74cd684c45c3444f54fcc"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "如果方程$$\\left\\textbar3x\\right\\textbar-ax-1=0$$的根是负数，那么$$a$$的取值范围是(  )\n(A) a\\textgreater-3\n(B) a\\geqslant 3\n(C) a \\textless{} 3\n(D) a\\leqslant -3",
+      "problem_plain": "如果方程 3x -ax-1=0 的根是负数，那么 a 的取值范围是( ) (A) a -3 (B) a 3 (C) a 3 (D) a -3",
+      "solution_latex": "原方程即$$\\left\\textbar3x\\right\\textbar=ax+1$$．  $$\\left(1\\right)$$若$$a=3$$时，则$$\\left\\textbar3x\\right\\textbar=3x+1$$．  当$$x \\textless{} 0$$时，得$$-3x=3x+1$$．所以$$x=-\\frac{1}{6}$$；  当$$x\\geqslant 0$$时，得$$3x=3x+1$$，不成立．  所以当$$a=3$$时，原方程的根为$$x=-\\frac{1}{6}$$．  $$\\left(2\\right)$$若$$a\\textgreater3$$．  当$$x \\textless{} 0$$时，得$$-3x=ax+1$$，所以$$x=-\\frac{1}{a+3} \\textless{} 0$$；  当$$x\\geqslant 0$$时，得$$3x=ax+1$$，所以$$x=\\frac{1}{3-a} \\textless{} 0$$，矛盾．  所以当$$a\\textgreater3$$时，原方程的解为$$x=-\\frac{1}{a+3} \\textless{} 0$$．  $$\\left(3\\right)$$若$$a \\textless{} 3$$  当$$x\\geqslant 0$$时，得$$3x=ax+1$$，所以$$x=\\frac{1}{3-a}\\textgreater0$$，原方程有正根，与题设矛盾．  综上所述，$$a\\geqslant 3$$时，原方程的根是负数．  所以应选$$\\text{B}$$．",
+      "solution_plain": "原方程即 3x =ax+1 ． (1 ) 若 a=3 时，则 3x =3x+1 ． 当 x 0 时，得 -3x=3x+1 ．所以 x=- 1 6 ； 当 x 0 时，得 3x=3x+1 ，不成立． 所以当 a=3 时，原方程的根为 x=- 1 6 ． (2 ) 若 a 3 ． 当 x 0 时，得 -3x=ax+1 ，所以 x=- 1 a+3 0 ； 当 x 0 时，得 3x=ax+1 ，所以 x= 1 3-a 0 ，矛盾． 所以当 a 3 时，原方程的解为 x=- 1 a+3 0 ． (3 ) 若 a 3 当 x 0 时，得 3x=ax+1 ，所以 x= 1 3-a 0 ，原方程有正根，与题设矛盾． 综上所述， a 3 时，原方程的根是负数． 所以应选 B ．"
+    },
+    "answer": {
+      "final_raw": "a\\geqslant 3",
+      "final_normalized": "a\\geqslant 3",
+      "candidates": [
+        "B",
+        "a\\geqslant 3"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "原方程即$$\\left\\textbar3x\\right\\textbar=ax+1$$．  $$\\left(1\\right)$$若$$a=3$$时，则$$\\left\\textbar3x\\right\\textbar=3x+1$$．  当$$x \\textless{} 0$$时，得$$-3x=3x+1$$．所以$$x=-\\frac{1}{6}$$；  当$$x\\geqslant 0$$时，得$$3x=3x+1$$，不成立．  所以当$$a=3$$时，原方程的根为$$x=-\\frac{1}{6}$$．  $$\\left(2\\right)$$若$$a\\textgreater3$$．  当$$x \\textless{} 0$$时，得$$-3x=ax+1$$，所以$$x=-\\frac{1}{a+3} \\textless{} 0$$；  当$$x\\geqslant 0$$时，得$$3x=ax+1$$，所以$$x=\\frac{1}{3-a} \\textless{} 0$$，矛盾．  所以当$$a\\textgreater3$$时，原方程的解为$$x=-\\frac{1}{a+3} \\textless{} 0$$．  $$\\left(3\\right)$$若$$a \\textless{} 3$$  当$$x\\geqslant 0$$时，得$$3x=ax+1$$，所以$$x=\\frac{1}{3-a}\\textgreater0$$，原方程有正根，与题设矛盾．  综上所述，$$a\\geqslant 3$$时，原方程的根是负数．  所以应选$$\\text{B}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "如果方程 3x -ax-1=0 的根是负数，那么 a 的取值范围是( ) (A) a -3 (B) a 3 (C) a 3 (D) a -3",
+      "solution_text": "原方程即 3x =ax+1 ． (1 ) 若 a=3 时，则 3x =3x+1 ． 当 x 0 时，得 -3x=3x+1 ．所以 x=- 1 6 ； 当 x 0 时，得 3x=3x+1 ，不成立． 所以当 a=3 时，原方程的根为 x=- 1 6 ． (2 ) 若 a 3 ． 当 x 0 时，得 -3x=ax+1 ，所以 x=- 1 a+3 0 ； 当 x 0 时，得 3x=ax+1 ，所以 x= 1 3-a 0 ，矛盾． 所以当 a 3 时，原方程的解为 x=- 1 a+3 0 ． (3 ) 若 a 3 当 x 0 时，得 3x=ax+1 ，所以 x= 1 3-a 0 ，原方程有正根，与题设矛盾． 综上所述， a 3 时，原方程的根是负数． 所以应选 B ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "181",
+        "queId": "104dc22addc74cd684c45c3444f54fcc",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "a\\textgreater-3"
+          },
+          {
+            "label": "B",
+            "content": "a\\geqslant 3"
+          },
+          {
+            "label": "C",
+            "content": "a \\textless{} 3"
+          },
+          {
+            "label": "D",
+            "content": "a\\leqslant -3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->运算能力",
+          "课内体系->知识点->方程与不等式->一元一次方程->解一元一次方程",
+          "课内体系->知识点->方程与不等式->一元一次方程->一元一次方程的相关概念->一元一次方程的解",
+          "课内体系->知识点->方程与不等式->不等式（组）->含参不等式->不等式（组）解的情况确定参数的范围"
+        ],
+        "competition_source_list": [
+          "1993年第4届希望杯初二竞赛第10题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01301",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1301,
+      "split": "zh_test",
+      "source_problem_id": "8aac50a75139269a0151626dc2d352ed"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "若$${{x}_{0}}$$是一元二次方程$$a{{x}^{2}}+bx+c=0(a\\ne 0)$$的根，则判别式$$\\Delta ={{b}^{2}}-4ac$$与平方式$$M={{(2a{{x}_{0}}+b)}^{2}}$$的大小关系是．\n(A) \\Delta \\textgreater M\n(B) \\Delta =M\n(C) \\Delta \\textless{}M\n(D) 不能确定",
+      "problem_plain": "若 x _ 0 是一元二次方程 a x ^ 2 +bx+c=0(a 0) 的根，则判别式 = b ^ 2 -4ac 与平方式 M= (2a x _ 0 +b) ^ 2 的大小关系是． (A) M (B) =M (C) M (D) 不能确定",
+      "solution_latex": "把$${{x}_{0}}$$代入方程$$a{{x}^{2}}+bx+c=0$$中得$$ax_{0}^{2}+b{{x}_{0}}=-c$$，  ∵$${{(2a{{x}_{0}}+b)}^{2}}=4{{a}^{2}}x_{0}^{2}+4ab{{x}_{0}}+{{b}^{2}}$$，  ∴$${{(2a{{x}_{0}}+b)}^{2}}=4a(a{{x}_{0}}^{2}+b{{x}_{0}})+{{b}^{2}}=-4ac+{{b}^{2}}=\\Delta $$，  ∴$$M=\\Delta $$．  故选$$\\text{B}$$．\n<p>∵$$x_0$$是一元二次方程$$a{{x}^{2}}+bx+c=0(a\\ne 0)$$的根，</p>\n<p>&there4;$${{x}_{0}}=\\frac{-b\\pm \\sqrt{{{b}^{2}}-4ac}}{2a}$$，</p>\n<p>&there4;$${{b}^{2}}-4ac={{(2a{{x}_{0}}+b)}^{2}}$$，</p>\n<p>&there4;$$\\Delta =M$$．</p>\n<p>故选$$\\text{B}$$．</p>",
+      "solution_plain": "把 x _ 0 代入方程 a x ^ 2 +bx+c=0 中得 ax_ 0 ^ 2 +b x _ 0 =-c ， ∵ (2a x _ 0 +b) ^ 2 =4 a ^ 2 x_ 0 ^ 2 +4ab x _ 0 + b ^ 2 ， ∴ (2a x _ 0 +b) ^ 2 =4a(a x _ 0 ^ 2 +b x _ 0 )+ b ^ 2 =-4ac+ b ^ 2 = ， ∴ M= ． 故选 B ． <p>∵ x_0 是一元二次方程 a x ^ 2 +bx+c=0(a 0) 的根，</p> <p>&there4; x _ 0 = -b b ^ 2 -4ac 2a ，</p> <p>&there4; b ^ 2 -4ac= (2a x _ 0 +b) ^ 2 ，</p> <p>&there4; =M ．</p> <p>故选 B ．</p>"
+    },
+    "answer": {
+      "final_raw": "\\Delta =M",
+      "final_normalized": "\\Delta =M",
+      "candidates": [
+        "B",
+        "\\Delta =M"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "把$${{x}_{0}}$$代入方程$$a{{x}^{2}}+bx+c=0$$中得$$ax_{0}^{2}+b{{x}_{0}}=-c$$，  ∵$${{(2a{{x}_{0}}+b)}^{2}}=4{{a}^{2}}x_{0}^{2}+4ab{{x}_{0}}+{{b}^{2}}$$，  ∴$${{(2a{{x}_{0}}+b)}^{2}}=4a(a{{x}_{0}}^{2}+b{{x}_{0}})+{{b}^{2}}=-4ac+{{b}^{2}}=\\Delta $$，  ∴$$M=\\Delta $$．  故选$$\\text{B}$$．\n<p>∵$$x_0$$是一元二次方程$$a{{x}^{2}}+bx+c=0(a\\ne 0)$$的根，</p>\n<p>&there4;$${{x}_{0}}=\\frac{-b\\pm \\sqrt{{{b}^{2}}-4ac}}{2a}$$，</p>\n<p>&there4;$${{b}^{2}}-4ac={{(2a{{x}_{0}}+b)}^{2}}$$，</p>\n<p>&there4;$$\\Delta =M$$．</p>\n<p>故选$$\\text{B}$$．</p>"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "若 x _ 0 是一元二次方程 a x ^ 2 +bx+c=0(a 0) 的根，则判别式 = b ^ 2 -4ac 与平方式 M= (2a x _ 0 +b) ^ 2 的大小关系是． (A) M (B) =M (C) M (D) 不能确定",
+      "solution_text": "把 x _ 0 代入方程 a x ^ 2 +bx+c=0 中得 ax_ 0 ^ 2 +b x _ 0 =-c ， ∵ (2a x _ 0 +b) ^ 2 =4 a ^ 2 x_ 0 ^ 2 +4ab x _ 0 + b ^ 2 ， ∴ (2a x _ 0 +b) ^ 2 =4a(a x _ 0 ^ 2 +b x _ 0 )+ b ^ 2 =-4ac+ b ^ 2 = ， ∴ M= ． 故选 B ． <p>∵ x_0 是一元二次方程 a x ^ 2 +bx+c=0(a 0) 的根，</p> <p>&there4; x _ 0 = -b b ^ 2 -4ac 2a ，</p> <p>&there4; b ^ 2 -4ac= (2a x _ 0 +b) ^ 2 ，</p> <p>&there4; =M ．</p> <p>故选 B ．</p>",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1346",
+        "queId": "8aac50a75139269a0151626dc2d352ed",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\Delta \\textgreater M"
+          },
+          {
+            "label": "B",
+            "content": "\\Delta =M"
+          },
+          {
+            "label": "C",
+            "content": "\\Delta \\textless{}M"
+          },
+          {
+            "label": "D",
+            "content": "不能确定"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->方程与不等式->一元二次方程->根的判别式的应用->一元二次方程根的判别式"
+        ],
+        "competition_source_list": [
+          "1992年第9届全国初中数学联赛竞赛第2题",
+          "初三上学期其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01304",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1304,
+      "split": "zh_test",
+      "source_problem_id": "0005bdfa24104b999c91bf403480acf4"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "如果方程$$\\left\\textbar3x\\right\\textbar-ax-1=0$$的根是负数，那么$$a$$的取值范围是．\n(A) a\\textgreater-3\n(B) a\\geqslant 3\n(C) a \\textless{} 3\n(D) a\\leqslant -3",
+      "problem_plain": "如果方程 3x -ax-1=0 的根是负数，那么 a 的取值范围是． (A) a -3 (B) a 3 (C) a 3 (D) a -3",
+      "solution_latex": "原方程即$$\\left\\textbar3x\\right\\textbar=ax+1$$．  $$\\left(1\\right)$$若$$a=3$$，则$$\\left\\textbar3x\\right\\textbar=3x+1$$．  当$$x \\textless{} 0$$时，得$$-3x=3x+1$$．所以$$x=-\\frac{1}{6}$$；  当$$x\\geqslant 0$$时，得$$3x=3x+1$$，不成立．  所以当$$a=3$$时，原方程的根为$$x=-\\frac{1}{6}$$．  $$\\left(2\\right)$$若$$a\\textgreater3$$．  当$$x \\textless{} 0$$时，得$$-3x=ax+1$$，所以$$x=-\\frac{1}{a+3} \\textless{} 0$$；  当$$x\\geqslant 0$$时，得$$3x=ax+1$$，所以$$x=\\frac{1}{3-a} \\textless{} 0$$，矛盾．  所以当$$a\\textgreater3$$时，原方程的解为$$x=-\\frac{1}{a+3} \\textless{} 0$$．  $$\\left(3\\right)$$若$$a \\textless{} 3$$．  当$$x\\geqslant 0$$时，得$$3x=ax+1$$，所以$$x=\\frac{1}{3-a}\\textgreater0$$，原方程有正根，与题设矛盾．  综上所述，$$a\\geqslant 3$$时，原方程的根是负数．  所以应选$$\\text{B}$$．",
+      "solution_plain": "原方程即 3x =ax+1 ． (1 ) 若 a=3 ，则 3x =3x+1 ． 当 x 0 时，得 -3x=3x+1 ．所以 x=- 1 6 ； 当 x 0 时，得 3x=3x+1 ，不成立． 所以当 a=3 时，原方程的根为 x=- 1 6 ． (2 ) 若 a 3 ． 当 x 0 时，得 -3x=ax+1 ，所以 x=- 1 a+3 0 ； 当 x 0 时，得 3x=ax+1 ，所以 x= 1 3-a 0 ，矛盾． 所以当 a 3 时，原方程的解为 x=- 1 a+3 0 ． (3 ) 若 a 3 ． 当 x 0 时，得 3x=ax+1 ，所以 x= 1 3-a 0 ，原方程有正根，与题设矛盾． 综上所述， a 3 时，原方程的根是负数． 所以应选 B ．"
+    },
+    "answer": {
+      "final_raw": "a\\geqslant 3",
+      "final_normalized": "a\\geqslant 3",
+      "candidates": [
+        "B",
+        "a\\geqslant 3"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "原方程即$$\\left\\textbar3x\\right\\textbar=ax+1$$．  $$\\left(1\\right)$$若$$a=3$$，则$$\\left\\textbar3x\\right\\textbar=3x+1$$．  当$$x \\textless{} 0$$时，得$$-3x=3x+1$$．所以$$x=-\\frac{1}{6}$$；  当$$x\\geqslant 0$$时，得$$3x=3x+1$$，不成立．  所以当$$a=3$$时，原方程的根为$$x=-\\frac{1}{6}$$．  $$\\left(2\\right)$$若$$a\\textgreater3$$．  当$$x \\textless{} 0$$时，得$$-3x=ax+1$$，所以$$x=-\\frac{1}{a+3} \\textless{} 0$$；  当$$x\\geqslant 0$$时，得$$3x=ax+1$$，所以$$x=\\frac{1}{3-a} \\textless{} 0$$，矛盾．  所以当$$a\\textgreater3$$时，原方程的解为$$x=-\\frac{1}{a+3} \\textless{} 0$$．  $$\\left(3\\right)$$若$$a \\textless{} 3$$．  当$$x\\geqslant 0$$时，得$$3x=ax+1$$，所以$$x=\\frac{1}{3-a}\\textgreater0$$，原方程有正根，与题设矛盾．  综上所述，$$a\\geqslant 3$$时，原方程的根是负数．  所以应选$$\\text{B}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "如果方程 3x -ax-1=0 的根是负数，那么 a 的取值范围是． (A) a -3 (B) a 3 (C) a 3 (D) a -3",
+      "solution_text": "原方程即 3x =ax+1 ． (1 ) 若 a=3 ，则 3x =3x+1 ． 当 x 0 时，得 -3x=3x+1 ．所以 x=- 1 6 ； 当 x 0 时，得 3x=3x+1 ，不成立． 所以当 a=3 时，原方程的根为 x=- 1 6 ． (2 ) 若 a 3 ． 当 x 0 时，得 -3x=ax+1 ，所以 x=- 1 a+3 0 ； 当 x 0 时，得 3x=ax+1 ，所以 x= 1 3-a 0 ，矛盾． 所以当 a 3 时，原方程的解为 x=- 1 a+3 0 ． (3 ) 若 a 3 ． 当 x 0 时，得 3x=ax+1 ，所以 x= 1 3-a 0 ，原方程有正根，与题设矛盾． 综上所述， a 3 时，原方程的根是负数． 所以应选 B ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "0",
+        "queId": "0005bdfa24104b999c91bf403480acf4",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "a\\textgreater-3"
+          },
+          {
+            "label": "B",
+            "content": "a\\geqslant 3"
+          },
+          {
+            "label": "C",
+            "content": "a \\textless{} 3"
+          },
+          {
+            "label": "D",
+            "content": "a\\leqslant -3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->运算能力",
+          "课内体系->知识点->方程与不等式->不等式（组）->含参不等式->不等式（组）解的情况确定参数的范围",
+          "课内体系->知识点->方程与不等式->一元一次方程->一元一次方程的相关概念->一元一次方程的解",
+          "课内体系->知识点->方程与不等式->一元一次方程->解一元一次方程"
+        ],
+        "competition_source_list": [
+          "1993年第4届希望杯初二竞赛第10题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01355",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1355,
+      "split": "zh_test",
+      "source_problem_id": "4dd6fce1123241cdbdb79df0008a1885"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在平面直角坐标系中，点$$A(a-2,a-1)$$不可能在（~ ）．\n(A) 第一象限\n(B) 第二象限\n(C) 第三象限\n(D) 第四象限",
+      "problem_plain": "在平面直角坐标系中，点 A(a-2,a-1) 不可能在（~ ）． (A) 第一象限 (B) 第二象限 (C) 第三象限 (D) 第四象限",
+      "solution_latex": "∵$$a-2\\textless{}a-1$$，  ∴当$$a-2\\textgreater0$$时，不可能有$$a-1\\textless{}0$$，  ∴点$$A(a-2,a-1)$$不可能在第四象限．",
+      "solution_plain": "∵ a-2 a-1 ， ∴当 a-2 0 时，不可能有 a-1 0 ， ∴点 A(a-2,a-1) 不可能在第四象限．"
+    },
+    "answer": {
+      "final_raw": "第四象限",
+      "final_normalized": "第四象限",
+      "candidates": [
+        "D",
+        "第四象限"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "∵$$a-2\\textless{}a-1$$，  ∴当$$a-2\\textgreater0$$时，不可能有$$a-1\\textless{}0$$，  ∴点$$A(a-2,a-1)$$不可能在第四象限．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在平面直角坐标系中，点 A(a-2,a-1) 不可能在（~ ）． (A) 第一象限 (B) 第二象限 (C) 第三象限 (D) 第四象限",
+      "solution_text": "∵ a-2 a-1 ， ∴当 a-2 0 时，不可能有 a-1 0 ， ∴点 A(a-2,a-1) 不可能在第四象限．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "732",
+        "queId": "4dd6fce1123241cdbdb79df0008a1885",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "第一象限"
+          },
+          {
+            "label": "B",
+            "content": "第二象限"
+          },
+          {
+            "label": "C",
+            "content": "第三象限"
+          },
+          {
+            "label": "D",
+            "content": "第四象限"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->函数->平面直角坐标系->坐标系基础->象限内坐标的特征"
+        ],
+        "competition_source_list": [
+          "2016年第27届全国希望杯初二竞赛复赛第1题4分",
+          "2020~2021学年江西南昌东湖区南昌市第三中学初一下学期期末第6题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01367",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1367,
+      "split": "zh_test",
+      "source_problem_id": "b8a309dcf54642a58978ab8faaa3a4ed"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "下列说法中，正确的是．\n(A) 若$$a\\textgreater0$$，则$$a\\textgreater\\frac{1}{a}\n(B) 若$$a\\textgreater{{a}^{2}}$$，则$$a\\textgreater1$$．\n(C) 若$$0\\textless{}a\\textless{}1$$，则$$a\\textgreater{{a}^{2}}\n(D) 若$$\\left\\textbar{} a \\right\\textbar=a$$，则$$a\\textgreater0",
+      "problem_plain": "下列说法中，正确的是． (A) 若 a 0 ，则 a 1 a (B) 若 a a ^ 2 ，则 a 1 ． (C) 若 0 a 1 ，则 a a ^ 2 (D) 若 a =a ，则 a 0",
+      "solution_latex": "取特殊值．  当$$a=\\frac{1}{2}$$时，$$a\\textless{}\\frac{1}{a}$$，可知$$\\text{A}$$错误；  当$$a=\\frac{1}{2}\\textless{}1$$时，$$\\frac{1}{2}\\textgreater{{\\left( \\frac{1}{2} \\right)}^{2}}=\\frac{1}{4}$$，可知$$\\text{B}$$错误；  当$$a=0$$时，$$\\left\\textbar{} 0 \\right\\textbar=0$$，可知$$\\text{D}$$错误．  故选$$\\text{C}$$．",
+      "solution_plain": "取特殊值． 当 a= 1 2 时， a 1 a ，可知 A 错误； 当 a= 1 2 1 时， 1 2 ( 1 2 ) ^ 2 = 1 4 ，可知 B 错误； 当 a=0 时， 0 =0 ，可知 D 错误． 故选 C ．"
+    },
+    "answer": {
+      "final_raw": "若$$0\\textless{}a\\textless{}1$$，则$$a\\textgreater{{a}^{2}}",
+      "final_normalized": "若$$0\\textless{}a\\textless{}1$$，则$$a\\textgreater{{a}^{2}}",
+      "candidates": [
+        "C",
+        "若$$0\\textless{}a\\textless{}1$$，则$$a\\textgreater{{a}^{2}}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "取特殊值．  当$$a=\\frac{1}{2}$$时，$$a\\textless{}\\frac{1}{a}$$，可知$$\\text{A}$$错误；  当$$a=\\frac{1}{2}\\textless{}1$$时，$$\\frac{1}{2}\\textgreater{{\\left( \\frac{1}{2} \\right)}^{2}}=\\frac{1}{4}$$，可知$$\\text{B}$$错误；  当$$a=0$$时，$$\\left\\textbar{} 0 \\right\\textbar=0$$，可知$$\\text{D}$$错误．  故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "下列说法中，正确的是． (A) 若 a 0 ，则 a 1 a (B) 若 a a ^ 2 ，则 a 1 ． (C) 若 0 a 1 ，则 a a ^ 2 (D) 若 a =a ，则 a 0",
+      "solution_text": "取特殊值． 当 a= 1 2 时， a 1 a ，可知 A 错误； 当 a= 1 2 1 时， 1 2 ( 1 2 ) ^ 2 = 1 4 ，可知 B 错误； 当 a=0 时， 0 =0 ，可知 D 错误． 故选 C ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1488",
+        "queId": "b8a309dcf54642a58978ab8faaa3a4ed",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "若$$a\\textgreater0$$，则$$a\\textgreater\\frac{1}{a}"
+          },
+          {
+            "label": "B",
+            "content": "若$$a\\textgreater{{a}^{2}}$$，则$$a\\textgreater1$$．"
+          },
+          {
+            "label": "C",
+            "content": "若$$0\\textless{}a\\textless{}1$$，则$$a\\textgreater{{a}^{2}}"
+          },
+          {
+            "label": "D",
+            "content": "若$$\\left\\textbar{} a \\right\\textbar=a$$，则$$a\\textgreater0"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->方程与不等式->不等式（组）->不等式->不等式的性质"
+        ],
+        "competition_source_list": [
+          "2013年第24届全国希望杯初二竞赛初赛第3题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01385",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1385,
+      "split": "zh_test",
+      "source_problem_id": "d68b68b59f35484386cdb91bb271b382"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "如果$$x=-1$$是方程$${{x}^{2}}+mx+n=0$$的一个根，那么$$m$$，$$n$$的大小关系是．\n(A) m\\textgreater n\n(B) m=n\n(C) m\\textless{}n\n(D) 不确定的",
+      "problem_plain": "如果 x=-1 是方程 x ^ 2 +mx+n=0 的一个根，那么 m ， n 的大小关系是． (A) m n (B) m=n (C) m n (D) 不确定的",
+      "solution_latex": "因为$$x=-1$$是$${{x}^{2}}+mx+n=0$$的根，  则有$${{(-1)}^{2}}+m\\cdot (-1)+n=0$$，  所以$$m-n=1$$，即$$m\\textgreater n$$．  故选$$\\text{A}$$．",
+      "solution_plain": "因为 x=-1 是 x ^ 2 +mx+n=0 的根， 则有 (-1) ^ 2 +m (-1)+n=0 ， 所以 m-n=1 ，即 m n ． 故选 A ．"
+    },
+    "answer": {
+      "final_raw": "m\\textgreater n",
+      "final_normalized": "m\\textgreater n",
+      "candidates": [
+        "A",
+        "m\\textgreater n"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为$$x=-1$$是$${{x}^{2}}+mx+n=0$$的根，  则有$${{(-1)}^{2}}+m\\cdot (-1)+n=0$$，  所以$$m-n=1$$，即$$m\\textgreater n$$．  故选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "如果 x=-1 是方程 x ^ 2 +mx+n=0 的一个根，那么 m ， n 的大小关系是． (A) m n (B) m=n (C) m n (D) 不确定的",
+      "solution_text": "因为 x=-1 是 x ^ 2 +mx+n=0 的根， 则有 (-1) ^ 2 +m (-1)+n=0 ， 所以 m-n=1 ，即 m n ． 故选 A ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "958",
+        "queId": "d68b68b59f35484386cdb91bb271b382",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "m\\textgreater n"
+          },
+          {
+            "label": "B",
+            "content": "m=n"
+          },
+          {
+            "label": "C",
+            "content": "m\\textless{}n"
+          },
+          {
+            "label": "D",
+            "content": "不确定的"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->方程与不等式->一元二次方程->一元二次方程的基础->由一元二次方程的解求参数的值",
+          "课内体系->知识点->方程与不等式->一元二次方程->一元二次方程的基础->一元二次方程的根"
+        ],
+        "competition_source_list": [
+          "2002年第13届希望杯初一竞赛第1试第5题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01426",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1426,
+      "split": "zh_test",
+      "source_problem_id": "405c85955ae04d6eae0b515fd1391b87"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "某天，黑河凌晨的温度比上午$$9$$点的温度低$$12$$℃，中午$$12$$点的温度比凌晨的温度高$$20$$℃，晚上$$9$$点的温度比中午$$12$$点的温度低$$19$$℃，若当天上午$$9$$点的温度记为$$a$$℃，则当天晚上$$9$$点的温度应记为（~ ）．\n(A) \\left( a-32 \\right)$$℃\n(B) \\left( a-11 \\right)$$℃\n(C) \\left( 32-a \\right)$$℃\n(D) \\left( 11-a \\right)$$℃",
+      "problem_plain": "某天，黑河凌晨的温度比上午 9 点的温度低 12 ℃，中午 12 点的温度比凌晨的温度高 20 ℃，晚上 9 点的温度比中午 12 点的温度低 19 ℃，若当天上午 9 点的温度记为 a ℃，则当天晚上 9 点的温度应记为（~ ）． (A) ( a-32 ) ℃ (B) ( a-11 ) ℃ (C) ( 32-a ) ℃ (D) ( 11-a ) ℃",
+      "solution_latex": "由题意知，上午$$9$$点的温度是$$a$$℃，  凌晨的温度是$$(a-12)$$℃，  中午$$12$$点的温度是$$(a-12)+20=(a+8)$$℃，  晚上$$9$$点的温度是$$(a+8)-19=(a-11)$$℃．",
+      "solution_plain": "由题意知，上午 9 点的温度是 a ℃， 凌晨的温度是 (a-12) ℃， 中午 12 点的温度是 (a-12)+20=(a+8) ℃， 晚上 9 点的温度是 (a+8)-19=(a-11) ℃．"
+    },
+    "answer": {
+      "final_raw": "\\left( a-11 \\right)$$℃",
+      "final_normalized": "\\left( a-11 \\right)$$℃",
+      "candidates": [
+        "B",
+        "\\left( a-11 \\right)$$℃"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由题意知，上午$$9$$点的温度是$$a$$℃，  凌晨的温度是$$(a-12)$$℃，  中午$$12$$点的温度是$$(a-12)+20=(a+8)$$℃，  晚上$$9$$点的温度是$$(a+8)-19=(a-11)$$℃．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "某天，黑河凌晨的温度比上午 9 点的温度低 12 ℃，中午 12 点的温度比凌晨的温度高 20 ℃，晚上 9 点的温度比中午 12 点的温度低 19 ℃，若当天上午 9 点的温度记为 a ℃，则当天晚上 9 点的温度应记为（~ ）． (A) ( a-32 ) ℃ (B) ( a-11 ) ℃ (C) ( 32-a ) ℃ (D) ( 11-a ) ℃",
+      "solution_text": "由题意知，上午 9 点的温度是 a ℃， 凌晨的温度是 (a-12) ℃， 中午 12 点的温度是 (a-12)+20=(a+8) ℃， 晚上 9 点的温度是 (a+8)-19=(a-11) ℃．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "700",
+        "queId": "405c85955ae04d6eae0b515fd1391b87",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\left( a-32 \\right)$$℃"
+          },
+          {
+            "label": "B",
+            "content": "\\left( a-11 \\right)$$℃"
+          },
+          {
+            "label": "C",
+            "content": "\\left( 32-a \\right)$$℃"
+          },
+          {
+            "label": "D",
+            "content": "\\left( 11-a \\right)$$℃"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->式->整式的加减->整式有关的概念->代数式->列代数式",
+          "课内体系->能力->分析和解决问题能力"
+        ],
+        "competition_source_list": [
+          "2013年第24届全国希望杯初一竞赛复赛第2题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01511",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1511,
+      "split": "zh_test",
+      "source_problem_id": "ff8080814d4b1928014d4c0b132f04f3"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "若$$\\frac{x}{2}+\\frac{x}{3}+\\frac{x}{6}=-2015$$，则$$x=$$（~ ）．\n(A) -2015\n(B) -403\n(C) -1\n(D) 1",
+      "problem_plain": "若 x 2 + x 3 + x 6 =-2015 ，则 x= （~ ）． (A) -2015 (B) -403 (C) -1 (D) 1",
+      "solution_latex": "$$\\frac{x}{2}+\\frac{x}{3}+\\frac{x}{6}=-2015$$，  ∴$$\\frac{3+2+1}{6}x=-2015$$，  ∴$$x=-2015$$．",
+      "solution_plain": "x 2 + x 3 + x 6 =-2015 ， ∴ 3+2+1 6 x=-2015 ， ∴ x=-2015 ．"
+    },
+    "answer": {
+      "final_raw": "-2015",
+      "final_normalized": "-2015",
+      "candidates": [
+        "-2015",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$\\frac{x}{2}+\\frac{x}{3}+\\frac{x}{6}=-2015$$，  ∴$$\\frac{3+2+1}{6}x=-2015$$，  ∴$$x=-2015$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "若 x 2 + x 3 + x 6 =-2015 ，则 x= （~ ）． (A) -2015 (B) -403 (C) -1 (D) 1",
+      "solution_text": "x 2 + x 3 + x 6 =-2015 ， ∴ 3+2+1 6 x=-2015 ， ∴ x=-2015 ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1013",
+        "queId": "ff8080814d4b1928014d4c0b132f04f3",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "-2015"
+          },
+          {
+            "label": "B",
+            "content": "-403"
+          },
+          {
+            "label": "C",
+            "content": "-1"
+          },
+          {
+            "label": "D",
+            "content": "1"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->运算能力",
+          "课内体系->知识点->方程与不等式->一元一次方程->解一元一次方程->常规一元一次方程解法"
+        ],
+        "competition_source_list": [
+          "2015年第26届全国希望杯初一竞赛初赛第1题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01556",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1556,
+      "split": "zh_test",
+      "source_problem_id": "8962b7a621384c8086a7e0b3124e4594"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$-1\\textless{}a\\textless{}0$$，$$\\theta =\\arcsin a$$，那么不等式$$\\sin x\\textless{}a$$的解集为（~ ）．\n(A) \\left { x\\textbar2n \\pi +\\theta \\textless{}x\\textless{}\\left( 2n+1 \\right) \\pi -\\theta ,n\\in \\mathbf{Z} \\right }\n(B) \\left { x\\textbar2n \\pi -\\theta \\textless{}x\\textless{}\\left( 2n+1 \\right) \\pi +\\theta ,n\\in \\mathbf{Z} \\right }\n(C) \\left { x\\textbar\\left( 2n-1 \\right) \\pi +\\theta \\textless{}x\\textless{}2n \\pi -\\theta ,n\\in \\mathbf{Z} \\right }\n(D) \\left { x\\textbar\\left( 2n-1 \\right) \\pi- \\theta \\textless{}x\\textless{}2n \\pi +\\theta ,n\\in \\mathbf{Z} \\right }",
+      "problem_plain": "设 -1 a 0 ， = a ，那么不等式 x a 的解集为（~ ）． (A) x 2n + x ( 2n+1 ) - ,n Z (B) x 2n - x ( 2n+1 ) + ,n Z (C) x ( 2n-1 ) + x 2n - ,n Z (D) x ( 2n-1 ) - x 2n + ,n Z",
+      "solution_latex": "∵ $$-1\\textless{}a\\textless{}0$$，  ∴$$\\theta =\\arcsin a\\in \\left( -\\frac{ \\pi }{2},0 \\right)$$．  在区间$$(- \\pi , \\pi )$$中，  满足方程$$\\sin x=a$$的解为：  $$x=- \\pi -\\arcsin a$$或$$x=\\arcsin a$$．  因此，不等式$$\\sin x\\textless{}a$$的解集为：  $$\\left { x\\textbar\\left( 2n-1 \\right) \\pi -\\theta \\textless{}x\\textless{}2n \\pi +\\theta ,n\\in \\mathbf{Z} \\right }$$．  故选$$\\text{D}$$．",
+      "solution_plain": "∵ -1 a 0 ， ∴ = a ( - 2 ,0 ) ． 在区间 (- , ) 中， 满足方程 x=a 的解为： x=- - a 或 x= a ． 因此，不等式 x a 的解集为： x ( 2n-1 ) - x 2n + ,n Z ． 故选 D ．"
+    },
+    "answer": {
+      "final_raw": "\\left { x\\textbar\\left( 2n-1 \\right) \\pi- \\theta \\textless{}x\\textless{}2n \\pi +\\theta ,n\\in \\mathbf{Z} \\right }",
+      "final_normalized": "\\left { x\\textbar\\left( 2n-1 \\right) \\pi- \\theta \\textless{}x\\textless{}2n \\pi +\\theta ,n\\in \\mathbf{Z} \\right }",
+      "candidates": [
+        "D",
+        "\\left { x\\textbar\\left( 2n-1 \\right) \\pi- \\theta \\textless{}x\\textless{}2n \\pi +\\theta ,n\\in \\mathbf{Z} \\right }"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "∵ $$-1\\textless{}a\\textless{}0$$，  ∴$$\\theta =\\arcsin a\\in \\left( -\\frac{ \\pi }{2},0 \\right)$$．  在区间$$(- \\pi , \\pi )$$中，  满足方程$$\\sin x=a$$的解为：  $$x=- \\pi -\\arcsin a$$或$$x=\\arcsin a$$．  因此，不等式$$\\sin x\\textless{}a$$的解集为：  $$\\left { x\\textbar\\left( 2n-1 \\right) \\pi -\\theta \\textless{}x\\textless{}2n \\pi +\\theta ,n\\in \\mathbf{Z} \\right }$$．  故选$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 -1 a 0 ， = a ，那么不等式 x a 的解集为（~ ）． (A) x 2n + x ( 2n+1 ) - ,n Z (B) x 2n - x ( 2n+1 ) + ,n Z (C) x ( 2n-1 ) + x 2n - ,n Z (D) x ( 2n-1 ) - x 2n + ,n Z",
+      "solution_text": "∵ -1 a 0 ， ∴ = a ( - 2 ,0 ) ． 在区间 (- , ) 中， 满足方程 x=a 的解为： x=- - a 或 x= a ． 因此，不等式 x a 的解集为： x ( 2n-1 ) - x 2n + ,n Z ． 故选 D ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "780",
+        "queId": "8962b7a621384c8086a7e0b3124e4594",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\left { x\\textbar2n \\pi +\\theta \\textless{}x\\textless{}\\left( 2n+1 \\right) \\pi -\\theta ,n\\in \\mathbf{Z} \\right }"
+          },
+          {
+            "label": "B",
+            "content": "\\left { x\\textbar2n \\pi -\\theta \\textless{}x\\textless{}\\left( 2n+1 \\right) \\pi +\\theta ,n\\in \\mathbf{Z} \\right }"
+          },
+          {
+            "label": "C",
+            "content": "\\left { x\\textbar\\left( 2n-1 \\right) \\pi +\\theta \\textless{}x\\textless{}2n \\pi -\\theta ,n\\in \\mathbf{Z} \\right }"
+          },
+          {
+            "label": "D",
+            "content": "\\left { x\\textbar\\left( 2n-1 \\right) \\pi- \\theta \\textless{}x\\textless{}2n \\pi +\\theta ,n\\in \\mathbf{Z} \\right }"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->三角函数->反三角函数",
+          "竞赛->知识点->三角函数->三角函数的图像与性质"
+        ],
+        "competition_source_list": [
+          "1986年全国高中数学联赛竞赛一试第1题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01559",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1559,
+      "split": "zh_test",
+      "source_problem_id": "06edbfe2e9b94ee38e0cb9a0b1becc3e"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "若关于$$x$$的不等式$$\\frac{4x}{a}+\\frac{1}{x}\\geqslant 4$$在区间$$\\left[ 1,  2 \\right]$$上恒成立，则实数$$a$$的取值范围是．\n(A) \\left( 0,\\frac{4}{3} \\right]\n(B) \\left( 1,\\frac{4}{3} \\right]\n(C) \\left[ 1,\\frac{4}{3} \\right]\n(D) \\left[ \\frac{16}{7},\\frac{4}{3} \\right]",
+      "problem_plain": "若关于 x 的不等式 4x a + 1 x 4 在区间 [ 1, 2 ] 上恒成立，则实数 a 的取值范围是． (A) ( 0, 4 3 ] (B) ( 1, 4 3 ] (C) [ 1, 4 3 ] (D) [ 16 7 , 4 3 ]",
+      "solution_latex": "取$$x=1$$，得$$\\frac{4}{a}\\geqslant 3$$，可知$$0\\textless{}a\\leqslant \\frac{4}{3}$$，$$a$$是正数．这样原不等式变为  $$a\\leqslant \\frac{4x}{4-\\frac{1}{x}}$$，$$\\forall x\\in \\left[ 1,  2 \\right]$$．  从而只需求函数$$f\\left( x \\right)=\\frac{4x}{4-\\frac{1}{x}}$$在区间$$\\left[ 1,  2 \\right]$$的最小值．易知$${f}'\\left( x \\right)=\\frac{8x\\left( 2x-1 \\right)}{{{\\left( 4x-1 \\right)}^{2}}}$$在$$\\left[ 1,  2 \\right]$$上恒为正数，即$$f\\left( x \\right)$$在$$\\left[ 1,  2 \\right]$$上单调增，故$$f\\left( x \\right)$$的最小值为$$f\\left( 1 \\right)=\\frac{4}{3}$$．",
+      "solution_plain": "取 x=1 ，得 4 a 3 ，可知 0 a 4 3 ， a 是正数．这样原不等式变为 a 4x 4- 1 x ， x [ 1, 2 ] ． 从而只需求函数 f ( x )= 4x 4- 1 x 在区间 [ 1, 2 ] 的最小值．易知 f ' ( x )= 8x ( 2x-1 ) ( 4x-1 ) ^ 2 在 [ 1, 2 ] 上恒为正数，即 f ( x ) 在 [ 1, 2 ] 上单调增，故 f ( x ) 的最小值为 f ( 1 )= 4 3 ．"
+    },
+    "answer": {
+      "final_raw": "\\left( 0,\\frac{4}{3} \\right]",
+      "final_normalized": "\\left( 0,\\frac{4}{3} \\right]",
+      "candidates": [
+        "A",
+        "\\left( 0,\\frac{4}{3} \\right]"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "取$$x=1$$，得$$\\frac{4}{a}\\geqslant 3$$，可知$$0\\textless{}a\\leqslant \\frac{4}{3}$$，$$a$$是正数．这样原不等式变为  $$a\\leqslant \\frac{4x}{4-\\frac{1}{x}}$$，$$\\forall x\\in \\left[ 1,  2 \\right]$$．  从而只需求函数$$f\\left( x \\right)=\\frac{4x}{4-\\frac{1}{x}}$$在区间$$\\left[ 1,  2 \\right]$$的最小值．易知$${f}'\\left( x \\right)=\\frac{8x\\left( 2x-1 \\right)}{{{\\left( 4x-1 \\right)}^{2}}}$$在$$\\left[ 1,  2 \\right]$$上恒为正数，即$$f\\left( x \\right)$$在$$\\left[ 1,  2 \\right]$$上单调增，故$$f\\left( x \\right)$$的最小值为$$f\\left( 1 \\right)=\\frac{4}{3}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "若关于 x 的不等式 4x a + 1 x 4 在区间 [ 1, 2 ] 上恒成立，则实数 a 的取值范围是． (A) ( 0, 4 3 ] (B) ( 1, 4 3 ] (C) [ 1, 4 3 ] (D) [ 16 7 , 4 3 ]",
+      "solution_text": "取 x=1 ，得 4 a 3 ，可知 0 a 4 3 ， a 是正数．这样原不等式变为 a 4x 4- 1 x ， x [ 1, 2 ] ． 从而只需求函数 f ( x )= 4x 4- 1 x 在区间 [ 1, 2 ] 的最小值．易知 f ' ( x )= 8x ( 2x-1 ) ( 4x-1 ) ^ 2 在 [ 1, 2 ] 上恒为正数，即 f ( x ) 在 [ 1, 2 ] 上单调增，故 f ( x ) 的最小值为 f ( 1 )= 4 3 ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "54",
+        "queId": "06edbfe2e9b94ee38e0cb9a0b1becc3e",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\left( 0,\\frac{4}{3} \\right]"
+          },
+          {
+            "label": "B",
+            "content": "\\left( 1,\\frac{4}{3} \\right]"
+          },
+          {
+            "label": "C",
+            "content": "\\left[ 1,\\frac{4}{3} \\right]"
+          },
+          {
+            "label": "D",
+            "content": "\\left[ \\frac{16}{7},\\frac{4}{3} \\right]"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->函数->函数的图像与性质",
+          "竞赛->知识点->函数->函数的概念"
+        ],
+        "competition_source_list": [
+          "2014年天津全国高中数学联赛竞赛初赛第4题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01566",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1566,
+      "split": "zh_test",
+      "source_problem_id": "71a2b5a0bb1f43d785dfd46d80a04edf"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知点$$P(\\sin \\alpha ,\\tan \\alpha )$$在第二象限，则角$$\\alpha $$的终边在（~~~~~~~）\n(A) 第一象限\n(B) 第二象限\n(C) 第三象限\n(D) 第四象限",
+      "problem_plain": "已知点 P( , ) 在第二象限，则角 的终边在（~~~~~~~） (A) 第一象限 (B) 第二象限 (C) 第三象限 (D) 第四象限",
+      "solution_latex": "\\hfill\\break 【分析】\\\\ 利用任意角的三角函数的定义，三角函数在各个象限中的负号，求得角α所在的象限．\\\\ 【详解】\\\\ 解：∵点\\emph{P}（sinα，tanα）在第二象限，\\\\ ∴sinα＜0，tanα＞0，\\\\ 若角α顶点为坐标原点，始边为\\emph{x}轴的非负半轴，则α的终边落在第三象限，\\\\ 故选：C．",
+      "solution_plain": "【分析】 利用任意角的三角函数的定义，三角函数在各个象限中的负号，求得角α所在的象限． 【详解】 解：∵点 P （sinα，tanα）在第二象限， ∴sinα＜0，tanα＞0， 若角α顶点为坐标原点，始边为 x 轴的非负半轴，则α的终边落在第三象限， 故选：C．"
+    },
+    "answer": {
+      "final_raw": "第三象限",
+      "final_normalized": "第三象限",
+      "candidates": [
+        "C",
+        "第三象限"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "\\hfill\\break 【分析】\\\\ 利用任意角的三角函数的定义，三角函数在各个象限中的负号，求得角α所在的象限．\\\\ 【详解】\\\\ 解：∵点\\emph{P}（sinα，tanα）在第二象限，\\\\ ∴sinα＜0，tanα＞0，\\\\ 若角α顶点为坐标原点，始边为\\emph{x}轴的非负半轴，则α的终边落在第三象限，\\\\ 故选：C．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知点 P( , ) 在第二象限，则角 的终边在（~~~~~~~） (A) 第一象限 (B) 第二象限 (C) 第三象限 (D) 第四象限",
+      "solution_text": "【分析】 利用任意角的三角函数的定义，三角函数在各个象限中的负号，求得角α所在的象限． 【详解】 解：∵点 P （sinα，tanα）在第二象限， ∴sinα＜0，tanα＞0， 若角α顶点为坐标原点，始边为 x 轴的非负半轴，则α的终边落在第三象限， 故选：C．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "606",
+        "queId": "71a2b5a0bb1f43d785dfd46d80a04edf",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "第一象限"
+          },
+          {
+            "label": "B",
+            "content": "第二象限"
+          },
+          {
+            "label": "C",
+            "content": "第三象限"
+          },
+          {
+            "label": "D",
+            "content": "第四象限"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->三角函数->三角函数的概念->任意角的三角函数"
+        ],
+        "competition_source_list": [
+          "2021~2022学年福建莆田城厢区莆田第一中学高一下学期开学考试（学科素养能力竞赛）第2~2题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01575",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1575,
+      "split": "zh_test",
+      "source_problem_id": "0bbd8b322dc44081a3028dc82b639df4"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在$$\\triangle ABC$$中，角$$A$$、$$B$$、$$C$$所对的边分别为$$a$$、$$b$$、$$c$$，且$$1+\\frac{\\tan A}{\\tan B}=\\frac{2c}{b}$$，则角$$A$$的大小为．\n(A) \\frac{ \\pi }{6}\n(B) \\frac{ \\pi }{4}\n(C) \\frac{ \\pi }{3}\n(D) \\frac{2 \\pi }{3}",
+      "problem_plain": "在 ABC 中，角 A 、 B 、 C 所对的边分别为 a 、 b 、 c ，且 1+ A B = 2c b ，则角 A 的大小为． (A) 6 (B) 4 (C) 3 (D) 2 3",
+      "solution_latex": "$$1+\\frac{\\tan A}{\\tan B}=\\frac{2c}{b}\\Leftrightarrow 1+\\frac{\\tan A}{\\tan B}=\\frac{2\\sin C}{\\sin B}\\Leftrightarrow \\frac{\\sin B\\cos A+\\sin A\\cos B}{\\sin B\\cos A}=\\frac{2\\sin C}{\\sin B}$$  $$\\Leftrightarrow \\frac{\\sin C}{\\sin B\\cos A}=\\frac{2\\sin C}{\\sin B}\\Leftrightarrow \\cos A=\\frac{1}{2}$$，故角$$A$$为$$\\frac{ \\pi }{3}$$.",
+      "solution_plain": "1+ A B = 2c b 1+ A B = 2 C B B A+ A B B A = 2 C B C B A = 2 C B A= 1 2 ，故角 A 为 3 ."
+    },
+    "answer": {
+      "final_raw": "\\frac{ \\pi }{3}",
+      "final_normalized": "\\frac{ \\pi }{3}",
+      "candidates": [
+        "C",
+        "\\frac{ \\pi }{3}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$1+\\frac{\\tan A}{\\tan B}=\\frac{2c}{b}\\Leftrightarrow 1+\\frac{\\tan A}{\\tan B}=\\frac{2\\sin C}{\\sin B}\\Leftrightarrow \\frac{\\sin B\\cos A+\\sin A\\cos B}{\\sin B\\cos A}=\\frac{2\\sin C}{\\sin B}$$  $$\\Leftrightarrow \\frac{\\sin C}{\\sin B\\cos A}=\\frac{2\\sin C}{\\sin B}\\Leftrightarrow \\cos A=\\frac{1}{2}$$，故角$$A$$为$$\\frac{ \\pi }{3}$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在 ABC 中，角 A 、 B 、 C 所对的边分别为 a 、 b 、 c ，且 1+ A B = 2c b ，则角 A 的大小为． (A) 6 (B) 4 (C) 3 (D) 2 3",
+      "solution_text": "1+ A B = 2c b 1+ A B = 2 C B B A+ A B B A = 2 C B C B A = 2 C B A= 1 2 ，故角 A 为 3 .",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "107",
+        "queId": "0bbd8b322dc44081a3028dc82b639df4",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{ \\pi }{6}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{ \\pi }{4}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{ \\pi }{3}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{2 \\pi }{3}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->三角函数->三角形中的问题->解三角形"
+        ],
+        "competition_source_list": [
+          "2014年黑龙江全国高中数学联赛竞赛初赛第4题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01577",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1577,
+      "split": "zh_test",
+      "source_problem_id": "3fad6f13c6c44fe7a99b326b84ceb350"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知函数$$f\\left( x \\right)=\\left { \\begin{matrix}0,  x\\textless{}0,   \\pi ,  x=0, \\x+1,  x\\textgreater0\\end{matrix} \\right }$$则$$f\\left { f\\left[ f\\left( -1 \\right) \\right] \\right }$$的值为．\n(A) \\pi +1\n(B) 0\n(C) 1\n(D) \\pi",
+      "problem_plain": "已知函数 f ( x )= matrix 0, x 0, , x=0, +1, x 0 matrix 则 f f [ f ( -1 ) ] 的值为． (A) +1 (B) 0 (C) 1 (D)",
+      "solution_latex": "$$f\\left { f\\left[ f\\left( -1 \\right) \\right] \\right }=f\\left( f\\left( 0 \\right) \\right)=f\\left( ~\\pi ~\\right)= \\pi +1$$．",
+      "solution_plain": "f f [ f ( -1 ) ] =f ( f ( 0 ) )=f ( ~ ~ )= +1 ．"
+    },
+    "answer": {
+      "final_raw": "\\pi +1",
+      "final_normalized": "\\pi +1",
+      "candidates": [
+        "A",
+        "\\pi +1"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$f\\left { f\\left[ f\\left( -1 \\right) \\right] \\right }=f\\left( f\\left( 0 \\right) \\right)=f\\left( ~\\pi ~\\right)= \\pi +1$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知函数 f ( x )= matrix 0, x 0, , x=0, +1, x 0 matrix 则 f f [ f ( -1 ) ] 的值为． (A) +1 (B) 0 (C) 1 (D)",
+      "solution_text": "f f [ f ( -1 ) ] =f ( f ( 0 ) )=f ( ~ ~ )= +1 ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "546",
+        "queId": "3fad6f13c6c44fe7a99b326b84ceb350",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\pi +1"
+          },
+          {
+            "label": "B",
+            "content": "0"
+          },
+          {
+            "label": "C",
+            "content": "1"
+          },
+          {
+            "label": "D",
+            "content": "\\pi"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->函数->函数的概念"
+        ],
+        "competition_source_list": [
+          "2014年吉林全国高中数学联赛竞赛初赛第1题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01579",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1579,
+      "split": "zh_test",
+      "source_problem_id": "8fd53b68b70140939f9f9b9c31b1607e"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "若$$\\sin \\left( \\frac{ \\pi }{4}-x \\right)=\\frac{3}{5}$$，则$$\\sin 2x$$的值为．\n(A) \\frac{19}{25}\n(B) \\frac{16}{25}\n(C) \\frac{14}{25}\n(D) \\frac{7}{25}",
+      "problem_plain": "若 ( 4 -x )= 3 5 ，则 2x 的值为． (A) 19 25 (B) 16 25 (C) 14 25 (D) 7 25",
+      "solution_latex": "【方法点睛】  换元法！例：设$$\\frac{\\pi }{4}-x=t$$，则$$x=\\frac{\\pi }{4}-t$$，$$2x=\\frac{\\pi }{2}-2t$$.  。  。  $$\\sin \\left( \\frac{ \\pi }{4}-x \\right)=\\frac{\\sqrt{2}}{2}(\\cos x-\\sin x)=\\frac{3}{5}$$，所以$$\\cos x-\\sin x=\\frac{3\\sqrt{2}}{5}$$，  所以$${{(\\cos x-\\sin x)}^{2}}=1-\\sin 2x=\\frac{18}{25}$$，所以$$\\sin 2x=\\frac{7}{25}$$，故选$$\\text{D}$$．",
+      "solution_plain": "【方法点睛】 换元法！例：设 4 -x=t ，则 x= 4 -t ， 2x= 2 -2t . 。 。 ( 4 -x )= 2 2 ( x- x)= 3 5 ，所以 x- x= 3 2 5 ， 所以 ( x- x) ^ 2 =1- 2x= 18 25 ，所以 2x= 7 25 ，故选 D ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{7}{25}",
+      "final_normalized": "\\frac{7}{25}",
+      "candidates": [
+        "D",
+        "\\frac{7}{25}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "【方法点睛】  换元法！例：设$$\\frac{\\pi }{4}-x=t$$，则$$x=\\frac{\\pi }{4}-t$$，$$2x=\\frac{\\pi }{2}-2t$$.",
+        "。",
+        "。",
+        "$$\\sin \\left( \\frac{ \\pi }{4}-x \\right)=\\frac{\\sqrt{2}}{2}(\\cos x-\\sin x)=\\frac{3}{5}$$，所以$$\\cos x-\\sin x=\\frac{3\\sqrt{2}}{5}$$，  所以$${{(\\cos x-\\sin x)}^{2}}=1-\\sin 2x=\\frac{18}{25}$$，所以$$\\sin 2x=\\frac{7}{25}$$，故选$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "若 ( 4 -x )= 3 5 ，则 2x 的值为． (A) 19 25 (B) 16 25 (C) 14 25 (D) 7 25",
+      "solution_text": "【方法点睛】 换元法！例：设 4 -x=t ，则 x= 4 -t ， 2x= 2 -2t . 。 。 ( 4 -x )= 2 2 ( x- x)= 3 5 ，所以 x- x= 3 2 5 ， 所以 ( x- x) ^ 2 =1- 2x= 18 25 ，所以 2x= 7 25 ，故选 D ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "326",
+        "queId": "8fd53b68b70140939f9f9b9c31b1607e",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{19}{25}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{16}{25}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{14}{25}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{7}{25}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->素养->数学运算",
+          "课内体系->知识点->三角函数->三角恒等变换->和差角公式->两角和与差的正弦->利用正弦和差角公式凑角求值",
+          "课内体系->知识点->三角函数->三角恒等变换->二倍角公式->二倍角的正弦",
+          "课内体系->知识点->三角函数->三角函数的概念->任意角的三角函数->同角三角函数的基本关系式->正余弦和差积相互转化求值"
+        ],
+        "competition_source_list": [
+          "2017~2018学年江西南昌西湖区南昌市第八中学高一上学期期末第10题5分",
+          "2018~2019学年江苏盐城高一上学期期末第5题5分",
+          "2008年黑龙江全国高中数学联赛竞赛初赛第4题5分",
+          "2015年北京海淀区高三三模第4题",
+          "2017~2018学年北京海淀区中央民族大学附属中学高一下学期期中第7题5分",
+          "2018~2019学年广东深圳高一上学期期末高中联考联盟第8题5分",
+          "2018~2019学年浙江杭州江干区杭州第四中学下沙校区高二下学期期中第12题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01634",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1634,
+      "split": "zh_test",
+      "source_problem_id": "d89b91aa16fa498a961bec9eb5def425"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "下列函数中，以$$\\frac{\\pi }{2}$$为最小正周期的偶函数是．\n(A) y=\\sin 2x+\\cos 2x\n(B) y=\\sin 2x\\cos 2x\n(C) y={{\\sin }^{2}}x+\\cos 2x\n(D) y={{\\sin }^{2}}2x-{{\\cos }^{2}}2x",
+      "problem_plain": "下列函数中，以 2 为最小正周期的偶函数是． (A) y= 2x+ 2x (B) y= 2x 2x (C) y= ^ 2 x+ 2x (D) y= ^ 2 2x- ^ 2 2x",
+      "solution_latex": "在$$\\text{A}$$选项中，取$$x=\\frac{\\pi }{4}$$，则$$y=1$$；取$$x=-\\frac{\\pi }{4}$$，则$$y=-1$$，从而$$y$$不是偶函数；在$$\\text{B}$$选项中，$$y=\\frac{1}{2}\\sin 4x$$，它不是偶函数；在$$\\text{C}$$选项中，$$y=\\frac{1+\\cos 2x}{2}$$，它的最小正周期为$$\\pi $$；在$$\\text{D}$$选项中，$$y=-\\cos 4x$$，符合条件．",
+      "solution_plain": "在 A 选项中，取 x= 4 ，则 y=1 ；取 x=- 4 ，则 y=-1 ，从而 y 不是偶函数；在 B 选项中， y= 1 2 4x ，它不是偶函数；在 C 选项中， y= 1+ 2x 2 ，它的最小正周期为 ；在 D 选项中， y=- 4x ，符合条件．"
+    },
+    "answer": {
+      "final_raw": "y={{\\sin }^{2}}2x-{{\\cos }^{2}}2x",
+      "final_normalized": "y={{\\sin }^{2}}2x-{{\\cos }^{2}}2x",
+      "candidates": [
+        "D",
+        "y={{\\sin }^{2}}2x-{{\\cos }^{2}}2x"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "在$$\\text{A}$$选项中，取$$x=\\frac{\\pi }{4}$$，则$$y=1$$；取$$x=-\\frac{\\pi }{4}$$，则$$y=-1$$，从而$$y$$不是偶函数；在$$\\text{B}$$选项中，$$y=\\frac{1}{2}\\sin 4x$$，它不是偶函数；在$$\\text{C}$$选项中，$$y=\\frac{1+\\cos 2x}{2}$$，它的最小正周期为$$\\pi $$；在$$\\text{D}$$选项中，$$y=-\\cos 4x$$，符合条件．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "下列函数中，以 2 为最小正周期的偶函数是． (A) y= 2x+ 2x (B) y= 2x 2x (C) y= ^ 2 x+ 2x (D) y= ^ 2 2x- ^ 2 2x",
+      "solution_text": "在 A 选项中，取 x= 4 ，则 y=1 ；取 x=- 4 ，则 y=-1 ，从而 y 不是偶函数；在 B 选项中， y= 1 2 4x ，它不是偶函数；在 C 选项中， y= 1+ 2x 2 ，它的最小正周期为 ；在 D 选项中， y=- 4x ，符合条件．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1136",
+        "queId": "d89b91aa16fa498a961bec9eb5def425",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "y=\\sin 2x+\\cos 2x"
+          },
+          {
+            "label": "B",
+            "content": "y=\\sin 2x\\cos 2x"
+          },
+          {
+            "label": "C",
+            "content": "y={{\\sin }^{2}}x+\\cos 2x"
+          },
+          {
+            "label": "D",
+            "content": "y={{\\sin }^{2}}2x-{{\\cos }^{2}}2x"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->三角函数->三角函数的图像与性质",
+          "竞赛->知识点->三角函数->三角恒等变换"
+        ],
+        "competition_source_list": [
+          "2009年四川全国高中数学联赛竞赛初赛第1题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01652",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1652,
+      "split": "zh_test",
+      "source_problem_id": "809feba8139f4270a861e952b9584c18"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "若函数$$f(x)={{\\log }_{a}}x(a\\textless0$$且$$a\\ne 1)$$，满足$$f\\left( \\frac{2}{a} \\right)\\textgreater f\\left( \\frac{3}{a} \\right)$$，则$$f\\left( 1-\\frac{1}{x} \\right)\\textgreater1$$的解集是．\n(A) 0\\textless{}x\\textless{}\\frac{1}{a}\n(B) 0\\textless{}x\\textless{}\\frac{1}{1-a}\n(C) 1\\textless{}x\\textless{}\\frac{1}{a}\n(D) 1\\textless{}x\\textless{}\\frac{1}{1-a}",
+      "problem_plain": "若函数 f(x)= _ a x(a 0 且 a 1) ，满足 f ( 2 a ) f ( 3 a ) ，则 f ( 1- 1 x ) 1 的解集是． (A) 0 x 1 a (B) 0 x 1 1-a (C) 1 x 1 a (D) 1 x 1 1-a",
+      "solution_latex": "由$$f\\left( \\frac{2}{a} \\right)={{\\log }_{a}}\\frac{2}{a}\\textgreater f\\left( \\frac{3}{a} \\right)={{\\log }_{a}}\\frac{3}{a}$$，  得$$0\\textless{}a\\textless{}1$$．  所以，原不等式等价于不等式$$0\\textless{}1-\\frac{1}{x}\\textless{}a$$．  解此不等式得$$1\\textless{}x\\textless{}\\frac{1}{1-a}$$．故选$$\\text{D}$$．",
+      "solution_plain": "由 f ( 2 a )= _ a 2 a f ( 3 a )= _ a 3 a ， 得 0 a 1 ． 所以，原不等式等价于不等式 0 1- 1 x a ． 解此不等式得 1 x 1 1-a ．故选 D ．"
+    },
+    "answer": {
+      "final_raw": "1\\textless{}x\\textless{}\\frac{1}{1-a}",
+      "final_normalized": "1\\textless{}x\\textless{}\\frac{1}{1-a}",
+      "candidates": [
+        "1\\textless{}x\\textless{}\\frac{1}{1-a}",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由$$f\\left( \\frac{2}{a} \\right)={{\\log }_{a}}\\frac{2}{a}\\textgreater f\\left( \\frac{3}{a} \\right)={{\\log }_{a}}\\frac{3}{a}$$，  得$$0\\textless{}a\\textless{}1$$．  所以，原不等式等价于不等式$$0\\textless{}1-\\frac{1}{x}\\textless{}a$$．  解此不等式得$$1\\textless{}x\\textless{}\\frac{1}{1-a}$$．故选$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "若函数 f(x)= _ a x(a 0 且 a 1) ，满足 f ( 2 a ) f ( 3 a ) ，则 f ( 1- 1 x ) 1 的解集是． (A) 0 x 1 a (B) 0 x 1 1-a (C) 1 x 1 a (D) 1 x 1 1-a",
+      "solution_text": "由 f ( 2 a )= _ a 2 a f ( 3 a )= _ a 3 a ， 得 0 a 1 ． 所以，原不等式等价于不等式 0 1- 1 x a ． 解此不等式得 1 x 1 1-a ．故选 D ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "824",
+        "queId": "809feba8139f4270a861e952b9584c18",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0\\textless{}x\\textless{}\\frac{1}{a}"
+          },
+          {
+            "label": "B",
+            "content": "0\\textless{}x\\textless{}\\frac{1}{1-a}"
+          },
+          {
+            "label": "C",
+            "content": "1\\textless{}x\\textless{}\\frac{1}{a}"
+          },
+          {
+            "label": "D",
+            "content": "1\\textless{}x\\textless{}\\frac{1}{1-a}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->函数->函数的图像与性质",
+          "竞赛->知识点->函数->基本初等函数"
+        ],
+        "competition_source_list": [
+          "2008年山东全国高中数学联赛竞赛初赛第2题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01666",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1666,
+      "split": "zh_test",
+      "source_problem_id": "417c1be393e8440cb27aa28edf60be6f"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设有三个函数，第一个是$$y=\\varphi \\left( x \\right)$$，它的反函数就是第二个函数，而第三个函数的图象与第二个函数的图象关于直线$$x+y=0$$对称．那么第三个函数是．\n(A) y=-\\varphi \\left( x \\right)\n(B) y=-\\varphi \\left( -x \\right)\n(C) y=-{{\\varphi }^{-1}}\\left( x \\right)\n(D) y=-{{\\varphi }^{-1}}\\left( -x \\right)",
+      "problem_plain": "设有三个函数，第一个是 y= ( x ) ，它的反函数就是第二个函数，而第三个函数的图象与第二个函数的图象关于直线 x+y=0 对称．那么第三个函数是． (A) y=- ( x ) (B) y=- ( -x ) (C) y=- ^ -1 ( x ) (D) y=- ^ -1 ( -x )",
+      "solution_latex": "第一个函数的图象与第二个函数的图象关于$$x-y=0$$对称，第二个函数的图象与第三个函数的图象关于$$x+y=0$$对称，所以第一个函数的图象与第三个函数的图象关于原点对称．",
+      "solution_plain": "第一个函数的图象与第二个函数的图象关于 x-y=0 对称，第二个函数的图象与第三个函数的图象关于 x+y=0 对称，所以第一个函数的图象与第三个函数的图象关于原点对称．"
+    },
+    "answer": {
+      "final_raw": "y=-\\varphi \\left( -x \\right)",
+      "final_normalized": "y=-\\varphi \\left( -x \\right)",
+      "candidates": [
+        "B",
+        "y=-\\varphi \\left( -x \\right)"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "第一个函数的图象与第二个函数的图象关于$$x-y=0$$对称，第二个函数的图象与第三个函数的图象关于$$x+y=0$$对称，所以第一个函数的图象与第三个函数的图象关于原点对称．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设有三个函数，第一个是 y= ( x ) ，它的反函数就是第二个函数，而第三个函数的图象与第二个函数的图象关于直线 x+y=0 对称．那么第三个函数是． (A) y=- ( x ) (B) y=- ( -x ) (C) y=- ^ -1 ( x ) (D) y=- ^ -1 ( -x )",
+      "solution_text": "第一个函数的图象与第二个函数的图象关于 x-y=0 对称，第二个函数的图象与第三个函数的图象关于 x+y=0 对称，所以第一个函数的图象与第三个函数的图象关于原点对称．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "125",
+        "queId": "417c1be393e8440cb27aa28edf60be6f",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "y=-\\varphi \\left( x \\right)"
+          },
+          {
+            "label": "B",
+            "content": "y=-\\varphi \\left( -x \\right)"
+          },
+          {
+            "label": "C",
+            "content": "y=-{{\\varphi }^{-1}}\\left( x \\right)"
+          },
+          {
+            "label": "D",
+            "content": "y=-{{\\varphi }^{-1}}\\left( -x \\right)"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->函数->函数的概念",
+          "竞赛->知识点->函数->函数的图像与性质"
+        ],
+        "competition_source_list": [
+          "1988年全国高中数学联赛竞赛一试第1题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01673",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1673,
+      "split": "zh_test",
+      "source_problem_id": "8af059d43e654b6f9019af9b18dd3812"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$$p:\\sqrt{1+\\sin 2\\alpha }=\\frac{4}{3}$$和$$q:\\left\\textbar{} \\sin \\alpha +\\cos \\alpha \\right\\textbar=\\frac{4}{3}$$．则$$p$$是$$q$$的．\n(A) 充分但不必要条件\n(B) 必要但不充分条件\n(C) 充要条件\n(D) 既不充分也不必要条件",
+      "problem_plain": "已知 p: 1+ 2 = 4 3 和 q: + = 4 3 ．则 p 是 q 的． (A) 充分但不必要条件 (B) 必要但不充分条件 (C) 充要条件 (D) 既不充分也不必要条件",
+      "solution_latex": "因为$$\\sqrt{1+\\sin 2\\alpha }=\\sqrt{{{(\\sin \\alpha +\\cos \\alpha )}^{2}}}=\\left\\textbar{} \\sin \\alpha +\\cos \\alpha \\right\\textbar=\\frac{4}{3}$$，故$$p$$是$$q$$的充要条件．故选$$\\text{C}$$．",
+      "solution_plain": "因为 1+ 2 = ( + ) ^ 2 = + = 4 3 ，故 p 是 q 的充要条件．故选 C ．"
+    },
+    "answer": {
+      "final_raw": "充要条件",
+      "final_normalized": "充要条件",
+      "candidates": [
+        "C",
+        "充要条件"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为$$\\sqrt{1+\\sin 2\\alpha }=\\sqrt{{{(\\sin \\alpha +\\cos \\alpha )}^{2}}}=\\left\\textbar{} \\sin \\alpha +\\cos \\alpha \\right\\textbar=\\frac{4}{3}$$，故$$p$$是$$q$$的充要条件．故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 p: 1+ 2 = 4 3 和 q: + = 4 3 ．则 p 是 q 的． (A) 充分但不必要条件 (B) 必要但不充分条件 (C) 充要条件 (D) 既不充分也不必要条件",
+      "solution_text": "因为 1+ 2 = ( + ) ^ 2 = + = 4 3 ，故 p 是 q 的充要条件．故选 C ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "231",
+        "queId": "8af059d43e654b6f9019af9b18dd3812",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "充分但不必要条件"
+          },
+          {
+            "label": "B",
+            "content": "必要但不充分条件"
+          },
+          {
+            "label": "C",
+            "content": "充要条件"
+          },
+          {
+            "label": "D",
+            "content": "既不充分也不必要条件"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->三角函数->三角恒等变换",
+          "竞赛->知识点->逻辑->常用逻辑用语"
+        ],
+        "competition_source_list": [
+          "2010年四川全国高中数学联赛竞赛初赛第1题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01717",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1717,
+      "split": "zh_test",
+      "source_problem_id": "3cedbba643944cfbbe8dbf3a2d008949"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知函数$$f(x)$$满足对所有的实数$$x$$、$$y$$，都有$$f(x)+f(2x+y)+5xy=f(3x-y)+2{{x}^{2}}+1$$，则$$f(10)$$的值为．\n(A) -49\n(B) -1\n(C) 0\n(D) 25",
+      "problem_plain": "已知函数 f(x) 满足对所有的实数 x 、 y ，都有 f(x)+f(2x+y)+5xy=f(3x-y)+2 x ^ 2 +1 ，则 f(10) 的值为． (A) -49 (B) -1 (C) 0 (D) 25",
+      "solution_latex": "令$$x=10$$，$$y=5$$，得$$f(10)+f(25)+250=f(25)+200+1$$，  所以$$f(10)=-49$$．故选$$\\text{A}$$．",
+      "solution_plain": "令 x=10 ， y=5 ，得 f(10)+f(25)+250=f(25)+200+1 ， 所以 f(10)=-49 ．故选 A ．"
+    },
+    "answer": {
+      "final_raw": "-49",
+      "final_normalized": "-49",
+      "candidates": [
+        "-49",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "令$$x=10$$，$$y=5$$，得$$f(10)+f(25)+250=f(25)+200+1$$，  所以$$f(10)=-49$$．故选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知函数 f(x) 满足对所有的实数 x 、 y ，都有 f(x)+f(2x+y)+5xy=f(3x-y)+2 x ^ 2 +1 ，则 f(10) 的值为． (A) -49 (B) -1 (C) 0 (D) 25",
+      "solution_text": "令 x=10 ， y=5 ，得 f(10)+f(25)+250=f(25)+200+1 ， 所以 f(10)=-49 ．故选 A ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "142",
+        "queId": "3cedbba643944cfbbe8dbf3a2d008949",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "-49"
+          },
+          {
+            "label": "B",
+            "content": "-1"
+          },
+          {
+            "label": "C",
+            "content": "0"
+          },
+          {
+            "label": "D",
+            "content": "25"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->多项式与方程->解方程（组）"
+        ],
+        "competition_source_list": [
+          "2008年福建全国高中数学联赛竞赛初赛第5题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01722",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1722,
+      "split": "zh_test",
+      "source_problem_id": "4fde3c0c8c2449f091d87056540e9192"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知一个角大于$$120{}^{}\\circ $$的三角形的三边长分别为$$m,m+1,m+2$$，则实数$$m$$的取值范围为．\n(A) m\\textgreater1\n(B) 1\\textless{}m\\textless{}\\frac{3}{2}\n(C) \\frac{3}{2}\\textless{}m\\textless{}3\n(D) m\\textgreater3",
+      "problem_plain": "已知一个角大于 120 ^ 的三角形的三边长分别为 m,m+1,m+2 ，则实数 m 的取值范围为． (A) m 1 (B) 1 m 3 2 (C) 3 2 m 3 (D) m 3",
+      "solution_latex": "由题意可知：  $$\\begin{cases}m+(m+1)\\textgreater m+2    {{(m+2)}^{2}}\\textgreater{{m}^{2}}+{{(m+1)}^{2}}+m(m+1) \\end{cases}$$  解得$$1\\textless{}m\\textless{}\\frac{3}{2}$$．",
+      "solution_plain": "由题意可知： cases m+(m+1) m+2 (m+2) ^ 2 m ^ 2 + (m+1) ^ 2 +m(m+1) cases 解得 1 m 3 2 ．"
+    },
+    "answer": {
+      "final_raw": "1\\textless{}m\\textless{}\\frac{3}{2}",
+      "final_normalized": "1\\textless{}m\\textless{}\\frac{3}{2}",
+      "candidates": [
+        "1\\textless{}m\\textless{}\\frac{3}{2}",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由题意可知：  $$\\begin{cases}m+(m+1)\\textgreater m+2    {{(m+2)}^{2}}\\textgreater{{m}^{2}}+{{(m+1)}^{2}}+m(m+1) \\end{cases}$$  解得$$1\\textless{}m\\textless{}\\frac{3}{2}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知一个角大于 120 ^ 的三角形的三边长分别为 m,m+1,m+2 ，则实数 m 的取值范围为． (A) m 1 (B) 1 m 3 2 (C) 3 2 m 3 (D) m 3",
+      "solution_text": "由题意可知： cases m+(m+1) m+2 (m+2) ^ 2 m ^ 2 + (m+1) ^ 2 +m(m+1) cases 解得 1 m 3 2 ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "271",
+        "queId": "4fde3c0c8c2449f091d87056540e9192",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "m\\textgreater1"
+          },
+          {
+            "label": "B",
+            "content": "1\\textless{}m\\textless{}\\frac{3}{2}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{3}{2}\\textless{}m\\textless{}3"
+          },
+          {
+            "label": "D",
+            "content": "m\\textgreater3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->三角函数->三角形中的问题->解三角形"
+        ],
+        "competition_source_list": [
+          "2015年浙江全国高中数学联赛竞赛初赛第2题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01733",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1733,
+      "split": "zh_test",
+      "source_problem_id": "187912903a4d4223a6c0c1c55db13628"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$$f(x)=\\begin{cases}(3-a)x-a,x\\textless{}1    {{\\log }_{a}}x,x\\geqslant 1 \\end{cases}$$在$$(-\\infty ,+\\infty )$$上单调增加，那么$$a$$的取值范围是．\n(A) (0,3)\n(B) \\left( 1,\\frac{3}{2} \\right]\n(C) \\left[ \\frac{3}{2},3 \\right)\n(D) (1,3)",
+      "problem_plain": "已知 f(x)= cases (3-a)x-a,x 1 _ a x,x 1 cases 在 (- ,+ ) 上单调增加，那么 a 的取值范围是． (A) (0,3) (B) ( 1, 3 2 ] (C) [ 3 2 ,3 ) (D) (1,3)",
+      "solution_latex": "由题知$$\\begin{cases}a\\textgreater1    3-a\\textgreater0    {{\\log }_{a}}1\\geqslant \\left( 3-a \\right)\\cdot 1-a \\end{cases}$$，解得$$\\frac{3}{2}\\leqslant a\\textless{}3$$．故选$$\\text{C}$$．",
+      "solution_plain": "由题知 cases a 1 3-a 0 _ a 1 ( 3-a ) 1-a cases ，解得 3 2 a 3 ．故选 C ．"
+    },
+    "answer": {
+      "final_raw": "\\left[ \\frac{3}{2},3 \\right)",
+      "final_normalized": "\\left[ \\frac{3}{2},3 \\right)",
+      "candidates": [
+        "C",
+        "\\left[ \\frac{3}{2},3 \\right)"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由题知$$\\begin{cases}a\\textgreater1    3-a\\textgreater0    {{\\log }_{a}}1\\geqslant \\left( 3-a \\right)\\cdot 1-a \\end{cases}$$，解得$$\\frac{3}{2}\\leqslant a\\textless{}3$$．故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 f(x)= cases (3-a)x-a,x 1 _ a x,x 1 cases 在 (- ,+ ) 上单调增加，那么 a 的取值范围是． (A) (0,3) (B) ( 1, 3 2 ] (C) [ 3 2 ,3 ) (D) (1,3)",
+      "solution_text": "由题知 cases a 1 3-a 0 _ a 1 ( 3-a ) 1-a cases ，解得 3 2 a 3 ．故选 C ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "140",
+        "queId": "187912903a4d4223a6c0c1c55db13628",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "(0,3)"
+          },
+          {
+            "label": "B",
+            "content": "\\left( 1,\\frac{3}{2} \\right]"
+          },
+          {
+            "label": "C",
+            "content": "\\left[ \\frac{3}{2},3 \\right)"
+          },
+          {
+            "label": "D",
+            "content": "(1,3)"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->函数->函数的图像与性质"
+        ],
+        "competition_source_list": [
+          "2008年辽宁全国高中数学联赛竞赛初赛第3题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01764",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1764,
+      "split": "zh_test",
+      "source_problem_id": "f2247ae29f7240e9bbfe8697da3592ce"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$a=\\ln 2$$，$$b=\\lg 3$$，$$c={{\\log }_{3}}2$$，则$$a$$，$$b$$，$$c$$的大小关系是．\n(A) a\\textgreater c\\textgreater b\n(B) a\\textgreater b\\textgreater c\n(C) b\\textgreater c\\textgreater a\n(D) c\\textgreater a\\textgreater b",
+      "problem_plain": "设 a= 2 ， b= 3 ， c= _ 3 2 ，则 a ， b ， c 的大小关系是． (A) a c b (B) a b c (C) b c a (D) c a b",
+      "solution_latex": "因为$$c={{\\log }_{3}}2=\\frac{\\ln 2}{\\ln 3}\\textless{}\\ln 2=a$$，$$2b=\\lg 9\\textless{}1$$，$$2c={{\\log }_{3}}4\\textgreater1\\Rightarrow c\\textgreater b$$，所以$$a\\textgreater c\\textgreater b$$；  故选$$\\text{A}$$．",
+      "solution_plain": "因为 c= _ 3 2= 2 3 2=a ， 2b= 9 1 ， 2c= _ 3 4 1 c b ，所以 a c b ； 故选 A ．"
+    },
+    "answer": {
+      "final_raw": "a\\textgreater c\\textgreater b",
+      "final_normalized": "a\\textgreater c\\textgreater b",
+      "candidates": [
+        "A",
+        "a\\textgreater c\\textgreater b"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为$$c={{\\log }_{3}}2=\\frac{\\ln 2}{\\ln 3}\\textless{}\\ln 2=a$$，$$2b=\\lg 9\\textless{}1$$，$$2c={{\\log }_{3}}4\\textgreater1\\Rightarrow c\\textgreater b$$，所以$$a\\textgreater c\\textgreater b$$；  故选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 a= 2 ， b= 3 ， c= _ 3 2 ，则 a ， b ， c 的大小关系是． (A) a c b (B) a b c (C) b c a (D) c a b",
+      "solution_text": "因为 c= _ 3 2= 2 3 2=a ， 2b= 9 1 ， 2c= _ 3 4 1 c b ，所以 a c b ； 故选 A ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "861",
+        "queId": "f2247ae29f7240e9bbfe8697da3592ce",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "a\\textgreater c\\textgreater b"
+          },
+          {
+            "label": "B",
+            "content": "a\\textgreater b\\textgreater c"
+          },
+          {
+            "label": "C",
+            "content": "b\\textgreater c\\textgreater a"
+          },
+          {
+            "label": "D",
+            "content": "c\\textgreater a\\textgreater b"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->函数->基本初等函数",
+          "课内体系->知识点->基本初等函数->对数函数->对数比大小",
+          "课内体系->知识点->基本初等函数->对数函数->对数函数的图象及性质",
+          "课内体系->知识点->基本初等函数->对数的概念及其运算->换底公式及其变形运用->利用换底公式求值",
+          "课内体系->知识点->基本初等函数->对数的概念及其运算->对数的运算",
+          "课内体系->素养->数学运算"
+        ],
+        "competition_source_list": [
+          "2020年贵州全国高中数学联赛竞赛初赛第2题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01765",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1765,
+      "split": "zh_test",
+      "source_problem_id": "faf0aa885f5f44578d06c352da559b88"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在四个函数$$y=\\sin \\left\\textbar{} x \\right\\textbar,  y=\\cos \\left\\textbar{} x \\right\\textbar,  y=\\left\\textbar{} \\tan x \\right\\textbar,  y=-\\ln \\left\\textbar{} \\sin x \\right\\textbar$$中，以$$ \\pi $$为周期、在$$\\left( 0,\\frac{ \\pi }{2} \\right)$$上单调递减且为偶函数的是\n(A) y=\\sin \\left\\textbar{} x \\right\\textbar\n(B) y=\\cos \\left\\textbar{} x \\right\\textbar\n(C) y=\\left\\textbar{} \\tan x \\right\\textbar\n(D) y=-\\ln \\left\\textbar{} \\sin x \\right\\textbar",
+      "problem_plain": "在四个函数 y= x , y= x , y= x , y=- x 中，以 为周期、在 ( 0, 2 ) 上单调递减且为偶函数的是 (A) y= x (B) y= x (C) y= x (D) y=- x",
+      "solution_latex": "由于$$y=\\sin \\left\\textbar{} x \\right\\textbar$$不是周期函数，故$$A$$错；由于$$y=\\cos \\left\\textbar{} x \\right\\textbar$$是最小正周期为$$2 \\pi $$的周期函数，故$$B$$错；由于$$y=\\left\\textbar{} \\tan x \\right\\textbar$$在$$\\left( 0,\\frac{ \\pi }{2} \\right)$$单调递增，故$$C$$错；函数$$y=-\\ln \\left\\textbar{} \\sin x \\right\\textbar$$符合题设要求．",
+      "solution_plain": "由于 y= x 不是周期函数，故 A 错；由于 y= x 是最小正周期为 2 的周期函数，故 B 错；由于 y= x 在 ( 0, 2 ) 单调递增，故 C 错；函数 y=- x 符合题设要求．"
+    },
+    "answer": {
+      "final_raw": "y=-\\ln \\left\\textbar{} \\sin x \\right\\textbar",
+      "final_normalized": "y=-\\ln \\left\\textbar{} \\sin x \\right\\textbar",
+      "candidates": [
+        "D",
+        "y=-\\ln \\left\\textbar{} \\sin x \\right\\textbar"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由于$$y=\\sin \\left\\textbar{} x \\right\\textbar$$不是周期函数，故$$A$$错；由于$$y=\\cos \\left\\textbar{} x \\right\\textbar$$是最小正周期为$$2 \\pi $$的周期函数，故$$B$$错；由于$$y=\\left\\textbar{} \\tan x \\right\\textbar$$在$$\\left( 0,\\frac{ \\pi }{2} \\right)$$单调递增，故$$C$$错；函数$$y=-\\ln \\left\\textbar{} \\sin x \\right\\textbar$$符合题设要求．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在四个函数 y= x , y= x , y= x , y=- x 中，以 为周期、在 ( 0, 2 ) 上单调递减且为偶函数的是 (A) y= x (B) y= x (C) y= x (D) y=- x",
+      "solution_text": "由于 y= x 不是周期函数，故 A 错；由于 y= x 是最小正周期为 2 的周期函数，故 B 错；由于 y= x 在 ( 0, 2 ) 单调递增，故 C 错；函数 y=- x 符合题设要求．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "663",
+        "queId": "faf0aa885f5f44578d06c352da559b88",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "y=\\sin \\left\\textbar{} x \\right\\textbar"
+          },
+          {
+            "label": "B",
+            "content": "y=\\cos \\left\\textbar{} x \\right\\textbar"
+          },
+          {
+            "label": "C",
+            "content": "y=\\left\\textbar{} \\tan x \\right\\textbar"
+          },
+          {
+            "label": "D",
+            "content": "y=-\\ln \\left\\textbar{} \\sin x \\right\\textbar"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->三角函数->三角函数的图像与性质"
+        ],
+        "competition_source_list": [
+          "2012年湖南全国高中数学联赛竞赛初赛第2题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01792",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1792,
+      "split": "zh_test",
+      "source_problem_id": "2d89fe21674d4b368253d2827f0cd5c8"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$A= {x\\textbar1\\leqslant x\\leqslant 9,x\\in Z }$$，$$B= {(a,b)\\textbar a,b\\in A }$$，定义$$B$$到$$Z$$的映射$$f$$：$$(a,b)\\to ab-a-b$$，则满足$$(ab)\\xrightarrow{f}11$$的有序数对共有．\n(A) 4$$对\n(B) 6$$对\n(C) 8$$对\n(D) 12$$对",
+      "problem_plain": "设 A= x 1 x 9,x Z ， B= (a,b) a,b A ，定义 B 到 Z 的映射 f ： (a,b) ab-a-b ，则满足 (ab) f 11 的有序数对共有． (A) 4 对 (B) 6 对 (C) 8 对 (D) 12 对",
+      "solution_latex": "因为$$f(a,b)=ab-a-b=11$$，  即$$(a-1)(b-1)=2\\times 6=3\\times 4=1\\times 12$$．  则$$\\begin{matrix}\\begin{cases}a-1=2    b-1=6 \\end{cases}\\begin{cases}a-1=6    b-1=2 \\end{cases}\\begin{cases}a-1=3    b-1=4 \\end{cases}    \\begin{cases}a-1=4    b-1=3 \\end{cases}\\begin{cases}a-1=1    b-1=12 \\end{cases}\\begin{cases}a-1=12    b-1=1. \\end{cases}   \\end{matrix}$$  解得符合题设条件的有序数对为$$\\left( 3,7 \\right)$$，$$\\left( 7,3 \\right)$$，$$\\left( 4,5 \\right)$$，$$\\left( 5,4 \\right)$$．  故选$$\\text{A}$$．",
+      "solution_plain": "因为 f(a,b)=ab-a-b=11 ， 即 (a-1)(b-1)=2 6=3 4=1 12 ． 则 matrix cases a-1=2 b-1=6 cases cases a-1=6 b-1=2 cases cases a-1=3 b-1=4 cases cases a-1=4 b-1=3 cases cases a-1=1 b-1=12 cases cases a-1=12 b-1=1. cases matrix 解得符合题设条件的有序数对为 ( 3,7 ) ， ( 7,3 ) ， ( 4,5 ) ， ( 5,4 ) ． 故选 A ．"
+    },
+    "answer": {
+      "final_raw": "4$$对",
+      "final_normalized": "4$$对",
+      "candidates": [
+        "4$$对",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为$$f(a,b)=ab-a-b=11$$，  即$$(a-1)(b-1)=2\\times 6=3\\times 4=1\\times 12$$．  则$$\\begin{matrix}\\begin{cases}a-1=2    b-1=6 \\end{cases}\\begin{cases}a-1=6    b-1=2 \\end{cases}\\begin{cases}a-1=3    b-1=4 \\end{cases}    \\begin{cases}a-1=4    b-1=3 \\end{cases}\\begin{cases}a-1=1    b-1=12 \\end{cases}\\begin{cases}a-1=12    b-1=1.",
+        "\\end{cases}   \\end{matrix}$$  解得符合题设条件的有序数对为$$\\left( 3,7 \\right)$$，$$\\left( 7,3 \\right)$$，$$\\left( 4,5 \\right)$$，$$\\left( 5,4 \\right)$$．  故选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 A= x 1 x 9,x Z ， B= (a,b) a,b A ，定义 B 到 Z 的映射 f ： (a,b) ab-a-b ，则满足 (ab) f 11 的有序数对共有． (A) 4 对 (B) 6 对 (C) 8 对 (D) 12 对",
+      "solution_text": "因为 f(a,b)=ab-a-b=11 ， 即 (a-1)(b-1)=2 6=3 4=1 12 ． 则 matrix cases a-1=2 b-1=6 cases cases a-1=6 b-1=2 cases cases a-1=3 b-1=4 cases cases a-1=4 b-1=3 cases cases a-1=1 b-1=12 cases cases a-1=12 b-1=1. cases matrix 解得符合题设条件的有序数对为 ( 3,7 ) ， ( 7,3 ) ， ( 4,5 ) ， ( 5,4 ) ． 故选 A ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "481",
+        "queId": "2d89fe21674d4b368253d2827f0cd5c8",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4$$对"
+          },
+          {
+            "label": "B",
+            "content": "6$$对"
+          },
+          {
+            "label": "C",
+            "content": "8$$对"
+          },
+          {
+            "label": "D",
+            "content": "12$$对"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->函数->函数的概念"
+        ],
+        "competition_source_list": [
+          "2008年甘肃全国高中数学联赛竞赛初赛第5题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01793",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1793,
+      "split": "zh_test",
+      "source_problem_id": "8f2a468128724e86b9990f77f72d5199"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "如果$$\\triangle ABC$$中，$$A$$、$$B$$为锐角，且$${{\\sin }^{2}}A+{{\\sin }^{2}}B=\\sin C$$，则对$$\\triangle ABC$$的形状描述最准确的是．\n(A) 直角三角形\n(B) 等腰三角形\n(C) 等腰直角三角形\n(D) 以上均不对",
+      "problem_plain": "如果 ABC 中， A 、 B 为锐角，且 ^ 2 A+ ^ 2 B= C ，则对 ABC 的形状描述最准确的是． (A) 直角三角形 (B) 等腰三角形 (C) 等腰直角三角形 (D) 以上均不对",
+      "solution_latex": "$${{\\sin }^{2}}A+{{\\sin }^{2}}B=\\sin C$$  $$\\Leftrightarrow {{\\sin }^{2}}A+{{\\sin }^{2}}B-\\sin A\\cos B-\\cos A\\sin B=0$$  $$\\Leftrightarrow \\sin A\\left( \\sin A-\\cos B \\right)+\\sin B\\left( \\sin B-\\cos A \\right)=0$$  于是当$$A\\textgreater\\frac{ \\pi }{2}-B$$或$$A\\textless{}\\frac{ \\pi }{2}-B$$时，上式均不成立．  因此$$A+B=\\frac{ \\pi }{2}$$．",
+      "solution_plain": "^ 2 A+ ^ 2 B= C ^ 2 A+ ^ 2 B- A B- A B=0 A ( A- B )+ B ( B- A )=0 于是当 A 2 -B 或 A 2 -B 时，上式均不成立． 因此 A+B= 2 ．"
+    },
+    "answer": {
+      "final_raw": "直角三角形",
+      "final_normalized": "直角三角形",
+      "candidates": [
+        "A",
+        "直角三角形"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$${{\\sin }^{2}}A+{{\\sin }^{2}}B=\\sin C$$  $$\\Leftrightarrow {{\\sin }^{2}}A+{{\\sin }^{2}}B-\\sin A\\cos B-\\cos A\\sin B=0$$  $$\\Leftrightarrow \\sin A\\left( \\sin A-\\cos B \\right)+\\sin B\\left( \\sin B-\\cos A \\right)=0$$  于是当$$A\\textgreater\\frac{ \\pi }{2}-B$$或$$A\\textless{}\\frac{ \\pi }{2}-B$$时，上式均不成立．  因此$$A+B=\\frac{ \\pi }{2}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "如果 ABC 中， A 、 B 为锐角，且 ^ 2 A+ ^ 2 B= C ，则对 ABC 的形状描述最准确的是． (A) 直角三角形 (B) 等腰三角形 (C) 等腰直角三角形 (D) 以上均不对",
+      "solution_text": "^ 2 A+ ^ 2 B= C ^ 2 A+ ^ 2 B- A B- A B=0 A ( A- B )+ B ( B- A )=0 于是当 A 2 -B 或 A 2 -B 时，上式均不成立． 因此 A+B= 2 ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1018",
+        "queId": "8f2a468128724e86b9990f77f72d5199",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "直角三角形"
+          },
+          {
+            "label": "B",
+            "content": "等腰三角形"
+          },
+          {
+            "label": "C",
+            "content": "等腰直角三角形"
+          },
+          {
+            "label": "D",
+            "content": "以上均不对"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->三角函数->三角形中的问题->解三角形"
+        ],
+        "competition_source_list": [
+          "2012年天津全国高中数学联赛竞赛初赛第3题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01796",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1796,
+      "split": "zh_test",
+      "source_problem_id": "64cef737172e4761ab485088e5ae5791"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设函数$$f\\left( x \\right)=x{{\\left( x-1 \\right)}^{2}}{{\\left( x-2 \\right)}^{3}}{{\\left( x-3 \\right)}^{4}}$$，则函数$$y=f\\left( x \\right)$$的极大值点为．\n(A) x=0\n(B) x=1\n(C) x=2\n(D) x=3",
+      "problem_plain": "设函数 f ( x )=x ( x-1 ) ^ 2 ( x-2 ) ^ 3 ( x-3 ) ^ 4 ，则函数 y=f ( x ) 的极大值点为． (A) x=0 (B) x=1 (C) x=2 (D) x=3",
+      "solution_latex": "由图象可知$$x=1$$为函数极大值点，$$x=3$$是极小值点，$$x=0{,}2$$不是极值点．",
+      "solution_plain": "由图象可知 x=1 为函数极大值点， x=3 是极小值点， x=0 , 2 不是极值点．"
+    },
+    "answer": {
+      "final_raw": "x=1",
+      "final_normalized": "x=1",
+      "candidates": [
+        "B",
+        "x=1"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由图象可知$$x=1$$为函数极大值点，$$x=3$$是极小值点，$$x=0{,}2$$不是极值点．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设函数 f ( x )=x ( x-1 ) ^ 2 ( x-2 ) ^ 3 ( x-3 ) ^ 4 ，则函数 y=f ( x ) 的极大值点为． (A) x=0 (B) x=1 (C) x=2 (D) x=3",
+      "solution_text": "由图象可知 x=1 为函数极大值点， x=3 是极小值点， x=0 , 2 不是极值点．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "705",
+        "queId": "64cef737172e4761ab485088e5ae5791",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "x=0"
+          },
+          {
+            "label": "B",
+            "content": "x=1"
+          },
+          {
+            "label": "C",
+            "content": "x=2"
+          },
+          {
+            "label": "D",
+            "content": "x=3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->导数模块->导数"
+        ],
+        "competition_source_list": [
+          "2013年浙江全国高中数学联赛竞赛初赛第9题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01808",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1808,
+      "split": "zh_test",
+      "source_problem_id": "0bcaa25b4edf4a8ea55f85dc51b22b3d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "若函数$$f(x)=\\sqrt{3}\\sin (x-\\theta )-\\cos (x-\\theta )$$的图像关于直线$$x=\\frac{ \\pi }{3}$$对称，则$$\\theta $$的值不能是．\n(A) -\\frac{4}{3} \\pi\n(B) -\\frac{ \\pi }{3}\n(C) \\frac{2}{3} \\pi\n(D) \\frac{4}{3} \\pi",
+      "problem_plain": "若函数 f(x)= 3 (x- )- (x- ) 的图像关于直线 x= 3 对称，则 的值不能是． (A) - 4 3 (B) - 3 (C) 2 3 (D) 4 3",
+      "solution_latex": "$$f(x)=2\\sin \\left( x-\\theta -\\frac{ \\pi }{6} \\right)$$",
+      "solution_plain": "f(x)=2 ( x- - 6 )"
+    },
+    "answer": {
+      "final_raw": "\\frac{4}{3} \\pi",
+      "final_normalized": "\\frac{4}{3} \\pi",
+      "candidates": [
+        "D",
+        "\\frac{4}{3} \\pi"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$f(x)=2\\sin \\left( x-\\theta -\\frac{ \\pi }{6} \\right)$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "若函数 f(x)= 3 (x- )- (x- ) 的图像关于直线 x= 3 对称，则 的值不能是． (A) - 4 3 (B) - 3 (C) 2 3 (D) 4 3",
+      "solution_text": "f(x)=2 ( x- - 6 )",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "110",
+        "queId": "0bcaa25b4edf4a8ea55f85dc51b22b3d",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "-\\frac{4}{3} \\pi"
+          },
+          {
+            "label": "B",
+            "content": "-\\frac{ \\pi }{3}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{2}{3} \\pi"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{4}{3} \\pi"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->三角函数->三角函数的图像与性质"
+        ],
+        "competition_source_list": [
+          "2009年第二十届全国希望杯高二竞赛复赛第3题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01843",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1843,
+      "split": "zh_test",
+      "source_problem_id": "9f48e8540de549fd8e5589556c495af9"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "命题$$p$$：若$$a$$，$$b\\in R$$，则$$\\textbar a+b\\textbar\\textless{}1$$是$$\\textbar a\\textbar+\\textbar b\\textbar\\textless{}1$$的充分而不必要条件；命题$$q$$：函数$$y=\\sqrt{\\textbar x+1\\textbar-2}$$的定义域是$$\\left( -\\infty ,-3 \\right]\\cup \\left[ 1,+\\infty \\right)$$，则．\n(A) ``$$p$$或$$q$$''为假命题\n(B) ``$$p$$且$$q$$''为真命题\n(C) p$$为真命题，$$q$$为假命题\n(D) p$$为假命题，$$q$$为真命题",
+      "problem_plain": "命题 p ：若 a ， b R ，则 a+b 1 是 a + b 1 的充分而不必要条件；命题 q ：函数 y= x+1 -2 的定义域是 ( - ,-3 ] [ 1,+ ) ，则． (A) `` p 或 q ''为假命题 (B) `` p 且 q ''为真命题 (C) p 为真命题， q 为假命题 (D) p 为假命题， q 为真命题",
+      "solution_latex": "由于$$\\textbar a+b\\textbar\\leqslant \\textbar a\\textbar+\\textbar b\\textbar$$，  因此$$\\textbar a+b\\textbar\\textless{}1$$是$$\\textbar a\\textbar+\\textbar b\\textbar\\textless{}1$$的必要而不充分条件，  命题$$p$$为假命题；  由$$\\textbar x+1\\textbar-2\\geqslant 0$$，得$$x\\leqslant -3$$或$$\\geqslant 1$$，命题$$q$$为真命题．  故选$$\\text{D}$$．",
+      "solution_plain": "由于 a+b a + b ， 因此 a+b 1 是 a + b 1 的必要而不充分条件， 命题 p 为假命题； 由 x+1 -2 0 ，得 x -3 或 1 ，命题 q 为真命题． 故选 D ．"
+    },
+    "answer": {
+      "final_raw": "p$$为假命题，$$q$$为真命题",
+      "final_normalized": "p$$为假命题，$$q$$为真命题",
+      "candidates": [
+        "D",
+        "p$$为假命题，$$q$$为真命题"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由于$$\\textbar a+b\\textbar\\leqslant \\textbar a\\textbar+\\textbar b\\textbar$$，  因此$$\\textbar a+b\\textbar\\textless{}1$$是$$\\textbar a\\textbar+\\textbar b\\textbar\\textless{}1$$的必要而不充分条件，  命题$$p$$为假命题；  由$$\\textbar x+1\\textbar-2\\geqslant 0$$，得$$x\\leqslant -3$$或$$\\geqslant 1$$，命题$$q$$为真命题．  故选$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "命题 p ：若 a ， b R ，则 a+b 1 是 a + b 1 的充分而不必要条件；命题 q ：函数 y= x+1 -2 的定义域是 ( - ,-3 ] [ 1,+ ) ，则． (A) `` p 或 q ''为假命题 (B) `` p 且 q ''为真命题 (C) p 为真命题， q 为假命题 (D) p 为假命题， q 为真命题",
+      "solution_text": "由于 a+b a + b ， 因此 a+b 1 是 a + b 1 的必要而不充分条件， 命题 p 为假命题； 由 x+1 -2 0 ，得 x -3 或 1 ，命题 q 为真命题． 故选 D ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "781",
+        "queId": "9f48e8540de549fd8e5589556c495af9",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "``$$p$$或$$q$$''为假命题"
+          },
+          {
+            "label": "B",
+            "content": "``$$p$$且$$q$$''为真命题"
+          },
+          {
+            "label": "C",
+            "content": "p$$为真命题，$$q$$为假命题"
+          },
+          {
+            "label": "D",
+            "content": "p$$为假命题，$$q$$为真命题"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->函数->函数的图像与性质",
+          "竞赛->知识点->逻辑->常用逻辑用语"
+        ],
+        "competition_source_list": [
+          "2008年黑龙江全国高中数学联赛竞赛初赛第2题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01872",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1872,
+      "split": "zh_test",
+      "source_problem_id": "d7d7799a14374b52bfc9536508df744c"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "若函数$$y={{\\log }_{a}}\\left( {{x}^{2}}-ax+1 \\right)$$有最小值，则$$a$$的取值范围是~\\uline{~~~~~~~~~~}~\n(A) 1\\textless{}a\\textless{}2\n(B) 1\\lt a\\leqslant2\n(C) a\\gt2\n(D) a\\geqslant2",
+      "problem_plain": "若函数 y= _ a ( x ^ 2 -ax+1 ) 有最小值，则 a 的取值范围是~ ~~~~~~~~~~ ~ (A) 1 a 2 (B) 1 a 2 (C) a 2 (D) a 2",
+      "solution_latex": "因为$${{x}^{2}}-ax+1$$无最大值，所以$$a\\textgreater1$$．函数有最小值，则$${{x}^{2}}-ax+1$$有最小值，$$\\Delta \\textless{}0$$．",
+      "solution_plain": "因为 x ^ 2 -ax+1 无最大值，所以 a 1 ．函数有最小值，则 x ^ 2 -ax+1 有最小值， 0 ．"
+    },
+    "answer": {
+      "final_raw": "1\\textless{}a\\textless{}2",
+      "final_normalized": "1\\textless{}a\\textless{}2",
+      "candidates": [
+        "1\\textless{}a\\textless{}2",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为$${{x}^{2}}-ax+1$$无最大值，所以$$a\\textgreater1$$．函数有最小值，则$${{x}^{2}}-ax+1$$有最小值，$$\\Delta \\textless{}0$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "若函数 y= _ a ( x ^ 2 -ax+1 ) 有最小值，则 a 的取值范围是~ ~~~~~~~~~~ ~ (A) 1 a 2 (B) 1 a 2 (C) a 2 (D) a 2",
+      "solution_text": "因为 x ^ 2 -ax+1 无最大值，所以 a 1 ．函数有最小值，则 x ^ 2 -ax+1 有最小值， 0 ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1079",
+        "queId": "d7d7799a14374b52bfc9536508df744c",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1\\textless{}a\\textless{}2"
+          },
+          {
+            "label": "B",
+            "content": "1\\lt a\\leqslant2"
+          },
+          {
+            "label": "C",
+            "content": "a\\gt2"
+          },
+          {
+            "label": "D",
+            "content": "a\\geqslant2"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->函数->基本初等函数"
+        ],
+        "competition_source_list": [
+          "2015年广东全国高中数学联赛竞赛初赛第3题8分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01882",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1882,
+      "split": "zh_test",
+      "source_problem_id": "461296582a7545138444967466e9720d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在$$\\triangle ABC$$中，$$D$$是$$BC$$边的中点，若$$\\overrightarrow{AD}\\cdot \\overrightarrow{AC}=0$$，则$$\\tan A+2\\tan C$$的值为．\n(A) -\\frac{\\sqrt{3}}{3}\n(B) 0\n(C) \\frac{\\sqrt{3}}{3}\n(D) 1",
+      "problem_plain": "在 ABC 中， D 是 BC 边的中点，若 AD AC =0 ，则 A+2 C 的值为． (A) - 3 3 (B) 0 (C) 3 3 (D) 1",
+      "solution_latex": "取$$AB$$的中点$$E$$，则$$DE//AC$$，$$\\angle ADE=90{}^{}\\circ $$，$$\\angle DAE=A-90{}^{}\\circ $$，  记$$AC=b$$，$$AD=m$$，  则$$\\tan C=\\frac{m}{b}$$，$$\\tan (A-90{}^{}\\circ )=\\frac{b}{2m}$$，  即$$-\\cot A=\\frac{b}{2m}$$，  所以$$\\tan A=\\frac{-2m}{b}$$，  因此$$\\tan A+2\\tan C=0$$，  故选$$\\text{B}$$．",
+      "solution_plain": "取 AB 的中点 E ，则 DE//AC ， ADE=90 ^ ， DAE=A-90 ^ ， 记 AC=b ， AD=m ， 则 C= m b ， (A-90 ^ )= b 2m ， 即 - A= b 2m ， 所以 A= -2m b ， 因此 A+2 C=0 ， 故选 B ．"
+    },
+    "answer": {
+      "final_raw": "0",
+      "final_normalized": "0",
+      "candidates": [
+        "0",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "取$$AB$$的中点$$E$$，则$$DE//AC$$，$$\\angle ADE=90{}^{}\\circ $$，$$\\angle DAE=A-90{}^{}\\circ $$，  记$$AC=b$$，$$AD=m$$，  则$$\\tan C=\\frac{m}{b}$$，$$\\tan (A-90{}^{}\\circ )=\\frac{b}{2m}$$，  即$$-\\cot A=\\frac{b}{2m}$$，  所以$$\\tan A=\\frac{-2m}{b}$$，  因此$$\\tan A+2\\tan C=0$$，  故选$$\\text{B}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在 ABC 中， D 是 BC 边的中点，若 AD AC =0 ，则 A+2 C 的值为． (A) - 3 3 (B) 0 (C) 3 3 (D) 1",
+      "solution_text": "取 AB 的中点 E ，则 DE//AC ， ADE=90 ^ ， DAE=A-90 ^ ， 记 AC=b ， AD=m ， 则 C= m b ， (A-90 ^ )= b 2m ， 即 - A= b 2m ， 所以 A= -2m b ， 因此 A+2 C=0 ， 故选 B ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "119",
+        "queId": "461296582a7545138444967466e9720d",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "-\\frac{\\sqrt{3}}{3}"
+          },
+          {
+            "label": "B",
+            "content": "0"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{\\sqrt{3}}{3}"
+          },
+          {
+            "label": "D",
+            "content": "1"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->复数与平面向量->平面向量的概念与运算",
+          "竞赛->知识点->三角函数->三角恒等变换"
+        ],
+        "competition_source_list": [
+          "2008年山西全国高中数学联赛竞赛初赛第4题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01888",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1888,
+      "split": "zh_test",
+      "source_problem_id": "42d39ff9fb604fb0a6a458915e6546ff"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "函数$$y={{x}^{2}}$$的图象$${{F}_{1}}$$与它按向量$$\\overrightarrow{a}=(m,1)$$平移后的函数图象$${{F}_{2}}$$在$$x=1$$处的切线互相垂直，则实数$$m$$的值为．\n(A) -\\frac{5}{4}\n(B) -\\frac{3}{4}\n(C) \\frac{3}{4}\n(D) \\frac{5}{4}",
+      "problem_plain": "函数 y= x ^ 2 的图象 F _ 1 与它按向量 a =(m,1) 平移后的函数图象 F _ 2 在 x=1 处的切线互相垂直，则实数 m 的值为． (A) - 5 4 (B) - 3 4 (C) 3 4 (D) 5 4",
+      "solution_latex": "因为$${y}'(1)=2$$，故$${{F}_{2}}$$的函数为$$y={{(x-m)}^{2}}-1$$，其在$$x=1$$处的切线的斜率为$${{k}_{2}}=2(1-m)$$，由$$2\\times 2(1-m)=-1$$知$$m=\\frac{5}{4}$$．",
+      "solution_plain": "因为 y '(1)=2 ，故 F _ 2 的函数为 y= (x-m) ^ 2 -1 ，其在 x=1 处的切线的斜率为 k _ 2 =2(1-m) ，由 2 2(1-m)=-1 知 m= 5 4 ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{5}{4}",
+      "final_normalized": "\\frac{5}{4}",
+      "candidates": [
+        "D",
+        "\\frac{5}{4}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为$${y}'(1)=2$$，故$${{F}_{2}}$$的函数为$$y={{(x-m)}^{2}}-1$$，其在$$x=1$$处的切线的斜率为$${{k}_{2}}=2(1-m)$$，由$$2\\times 2(1-m)=-1$$知$$m=\\frac{5}{4}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "函数 y= x ^ 2 的图象 F _ 1 与它按向量 a =(m,1) 平移后的函数图象 F _ 2 在 x=1 处的切线互相垂直，则实数 m 的值为． (A) - 5 4 (B) - 3 4 (C) 3 4 (D) 5 4",
+      "solution_text": "因为 y '(1)=2 ，故 F _ 2 的函数为 y= (x-m) ^ 2 -1 ，其在 x=1 处的切线的斜率为 k _ 2 =2(1-m) ，由 2 2(1-m)=-1 知 m= 5 4 ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "381",
+        "queId": "42d39ff9fb604fb0a6a458915e6546ff",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "-\\frac{5}{4}"
+          },
+          {
+            "label": "B",
+            "content": "-\\frac{3}{4}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{3}{4}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{5}{4}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->导数模块->导数"
+        ],
+        "competition_source_list": [
+          "2009年四川全国高中数学联赛竞赛初赛第3题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01915",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1915,
+      "split": "zh_test",
+      "source_problem_id": "f1921ea19c5c46ca90d2a31d0c5d84f4"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知函数$$f\\left( x \\right)=ax+b\\left( x\\in \\left[ 0,1 \\right] \\right)$$，则``$$a+2b\\textgreater0$$''是``$$f\\left( x \\right)\\textgreater0$$恒成立''的．\n(A) 充分非必要条件\n(B) 必要非充分条件\n(C) 充要条件\n(D) 既不是充分条件，也不是必要条件",
+      "problem_plain": "已知函数 f ( x )=ax+b ( x [ 0,1 ] ) ，则`` a+2b 0 ''是`` f ( x ) 0 恒成立''的． (A) 充分非必要条件 (B) 必要非充分条件 (C) 充要条件 (D) 既不是充分条件，也不是必要条件",
+      "solution_latex": "由题意可知，选$$\\text{B}$$，",
+      "solution_plain": "由题意可知，选 B ，"
+    },
+    "answer": {
+      "final_raw": "必要非充分条件",
+      "final_normalized": "必要非充分条件",
+      "candidates": [
+        "B",
+        "必要非充分条件"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由题意可知，选$$\\text{B}$$，"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知函数 f ( x )=ax+b ( x [ 0,1 ] ) ，则`` a+2b 0 ''是`` f ( x ) 0 恒成立''的． (A) 充分非必要条件 (B) 必要非充分条件 (C) 充要条件 (D) 既不是充分条件，也不是必要条件",
+      "solution_text": "由题意可知，选 B ，",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "619",
+        "queId": "f1921ea19c5c46ca90d2a31d0c5d84f4",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "充分非必要条件"
+          },
+          {
+            "label": "B",
+            "content": "必要非充分条件"
+          },
+          {
+            "label": "C",
+            "content": "充要条件"
+          },
+          {
+            "label": "D",
+            "content": "既不是充分条件，也不是必要条件"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->逻辑->常用逻辑用语"
+        ],
+        "competition_source_list": [
+          "2013年吉林全国高中数学联赛竞赛初赛第3题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01922",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1922,
+      "split": "zh_test",
+      "source_problem_id": "035b17fbcbfe4a3ba0af2cec515a551a"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "函数$$f(x)=\\log _{2}^{(x\\textbar x\\textbar)}$$的单调递增区间是．\n(A) (0,+\\infty )\n(B) (-\\infty ,0)\n(C) (-\\infty ,0)\\cup (0,+\\infty )\n(D) (-\\infty ,+\\infty )",
+      "problem_plain": "函数 f(x)= _ 2 ^ (x x ) 的单调递增区间是． (A) (0,+ ) (B) (- ,0) (C) (- ,0) (0,+ ) (D) (- ,+ )",
+      "solution_latex": "$$f(x)={{\\log }_{2}}^{(x\\textbar x\\textbar)}=2{{\\log }_{2}}x$$，故选$$\\text{A}$$．",
+      "solution_plain": "f(x)= _ 2 ^ (x x ) =2 _ 2 x ，故选 A ．"
+    },
+    "answer": {
+      "final_raw": "(0,+\\infty )",
+      "final_normalized": "(0,+\\infty )",
+      "candidates": [
+        "(0,+\\infty )",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$f(x)={{\\log }_{2}}^{(x\\textbar x\\textbar)}=2{{\\log }_{2}}x$$，故选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "函数 f(x)= _ 2 ^ (x x ) 的单调递增区间是． (A) (0,+ ) (B) (- ,0) (C) (- ,0) (0,+ ) (D) (- ,+ )",
+      "solution_text": "f(x)= _ 2 ^ (x x ) =2 _ 2 x ，故选 A ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "35",
+        "queId": "035b17fbcbfe4a3ba0af2cec515a551a",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "(0,+\\infty )"
+          },
+          {
+            "label": "B",
+            "content": "(-\\infty ,0)"
+          },
+          {
+            "label": "C",
+            "content": "(-\\infty ,0)\\cup (0,+\\infty )"
+          },
+          {
+            "label": "D",
+            "content": "(-\\infty ,+\\infty )"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->函数->函数的图像与性质",
+          "竞赛->知识点->函数->基本初等函数"
+        ],
+        "competition_source_list": [
+          "2008年河南全国高中数学联赛竞赛初赛第1题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01956",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1956,
+      "split": "zh_test",
+      "source_problem_id": "caa7e5f8fd1d470ca80b1dc327a354ae"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$\\alpha \\ne \\frac{k \\pi }{2}(k=0,\\pm 1,\\pm 2,\\cdots )$$，$$T=\\frac{\\sin \\alpha +\\tan\\alpha }{\\cos \\alpha +\\cot\\alpha }$$，则．\n(A) T$$取负值\n(B) T$$取非负值\n(C) T$$取正值\n(D) T$$取值可正可负",
+      "problem_plain": "设 k 2 (k=0, 1, 2, ) ， T= + + ，则． (A) T 取负值 (B) T 取非负值 (C) T 取正值 (D) T 取值可正可负",
+      "solution_latex": "作恒等变形，易得  $$T=\\frac{\\sin \\alpha+\\tan\\alpha}{\\cos \\alpha+\\cot\\alpha}=\\frac{\\tan\\alpha(\\cos \\alpha+1)}{\\cot\\alpha(\\sin \\alpha+1)}=\\frac{{\\cot^{2}}\\alpha(\\cos \\alpha+1)}{\\sin \\alpha+1}\\textgreater0$$  （其中$$\\alpha\\ne \\frac{k \\pi }{2}$$，$$k=0$$，$$\\pm 1$$，$$\\pm 2$$，\\ldots）．",
+      "solution_plain": "作恒等变形，易得 T= + + = ( +1) ( +1) = ^ 2 ( +1) +1 0 （其中 k 2 ， k=0 ， 1 ， 2 ， ）．"
+    },
+    "answer": {
+      "final_raw": "T$$取正值",
+      "final_normalized": "T$$取正值",
+      "candidates": [
+        "C",
+        "T$$取正值"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "作恒等变形，易得  $$T=\\frac{\\sin \\alpha+\\tan\\alpha}{\\cos \\alpha+\\cot\\alpha}=\\frac{\\tan\\alpha(\\cos \\alpha+1)}{\\cot\\alpha(\\sin \\alpha+1)}=\\frac{{\\cot^{2}}\\alpha(\\cos \\alpha+1)}{\\sin \\alpha+1}\\textgreater0$$  （其中$$\\alpha\\ne \\frac{k \\pi }{2}$$，$$k=0$$，$$\\pm 1$$，$$\\pm 2$$，\\ldots）．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 k 2 (k=0, 1, 2, ) ， T= + + ，则． (A) T 取负值 (B) T 取非负值 (C) T 取正值 (D) T 取值可正可负",
+      "solution_text": "作恒等变形，易得 T= + + = ( +1) ( +1) = ^ 2 ( +1) +1 0 （其中 k 2 ， k=0 ， 1 ， 2 ， ）．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1108",
+        "queId": "caa7e5f8fd1d470ca80b1dc327a354ae",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "T$$取负值"
+          },
+          {
+            "label": "B",
+            "content": "T$$取非负值"
+          },
+          {
+            "label": "C",
+            "content": "T$$取正值"
+          },
+          {
+            "label": "D",
+            "content": "T$$取值可正可负"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->三角函数->三角恒等变换"
+        ],
+        "competition_source_list": [
+          "1981年全国高中数学联赛竞赛一试第3题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01977",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1977,
+      "split": "zh_test",
+      "source_problem_id": "4fc5d1877e414591af64dcab072a310f"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "下列函数中，既是奇函数，又是区间$$\\left( -\\infty ,  +\\infty \\right)$$上单调递增的函数为．\n(A) y={{x}^{2}}+x\n(B) y=x+2\\sin x\n(C) y={{x}^{3}}+x\n(D) y=\\tan x",
+      "problem_plain": "下列函数中，既是奇函数，又是区间 ( - , + ) 上单调递增的函数为． (A) y= x ^ 2 +x (B) y=x+2 x (C) y= x ^ 3 +x (D) y= x",
+      "solution_latex": "逐一验证．",
+      "solution_plain": "逐一验证．"
+    },
+    "answer": {
+      "final_raw": "y={{x}^{3}}+x",
+      "final_normalized": "y={{x}^{3}}+x",
+      "candidates": [
+        "C",
+        "y={{x}^{3}}+x"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "逐一验证．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "下列函数中，既是奇函数，又是区间 ( - , + ) 上单调递增的函数为． (A) y= x ^ 2 +x (B) y=x+2 x (C) y= x ^ 3 +x (D) y= x",
+      "solution_text": "逐一验证．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "247",
+        "queId": "4fc5d1877e414591af64dcab072a310f",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "y={{x}^{2}}+x"
+          },
+          {
+            "label": "B",
+            "content": "y=x+2\\sin x"
+          },
+          {
+            "label": "C",
+            "content": "y={{x}^{3}}+x"
+          },
+          {
+            "label": "D",
+            "content": "y=\\tan x"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->函数->函数的图像与性质"
+        ],
+        "competition_source_list": [
+          "2012年浙江全国高中数学联赛竞赛初赛第2题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01993",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1993,
+      "split": "zh_test",
+      "source_problem_id": "38a50050220c4128a26632d7c1586b36"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "对任意实数$$m$$，过函数$$f(x)={{x}^{2}}+mx+1$$图象上的点$$(2,  f(2))$$的切线恒过一定点$$P$$，则点$$P$$的坐标为．\n(A) (0, 3)\n(B) (0, -3)\n(C) \\left( \\frac{3}{2}, 0 \\right)\n(D) \\left( -\\frac{3}{2}, 0 \\right)",
+      "problem_plain": "对任意实数 m ，过函数 f(x)= x ^ 2 +mx+1 图象上的点 (2, f(2)) 的切线恒过一定点 P ，则点 P 的坐标为． (A) (0, 3) (B) (0, -3) (C) ( 3 2 , 0 ) (D) ( - 3 2 , 0 )",
+      "solution_latex": "因为$${f}'(x)=2x+m$$，故$${f}'(2)=4+m$$．于是过$$(2,  f(2))$$的切线方程是：$$y-(5+2m)=(4+m)(x-2)$$，即$$y=(m+4)x-3$$，因此切线方程恒过$$(0,  -3)$$．故选$$\\text{B}$$．",
+      "solution_plain": "因为 f '(x)=2x+m ，故 f '(2)=4+m ．于是过 (2, f(2)) 的切线方程是： y-(5+2m)=(4+m)(x-2) ，即 y=(m+4)x-3 ，因此切线方程恒过 (0, -3) ．故选 B ．"
+    },
+    "answer": {
+      "final_raw": "(0, -3)",
+      "final_normalized": "(0, -3)",
+      "candidates": [
+        "(0, -3)",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为$${f}'(x)=2x+m$$，故$${f}'(2)=4+m$$．于是过$$(2,  f(2))$$的切线方程是：$$y-(5+2m)=(4+m)(x-2)$$，即$$y=(m+4)x-3$$，因此切线方程恒过$$(0,  -3)$$．故选$$\\text{B}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "对任意实数 m ，过函数 f(x)= x ^ 2 +mx+1 图象上的点 (2, f(2)) 的切线恒过一定点 P ，则点 P 的坐标为． (A) (0, 3) (B) (0, -3) (C) ( 3 2 , 0 ) (D) ( - 3 2 , 0 )",
+      "solution_text": "因为 f '(x)=2x+m ，故 f '(2)=4+m ．于是过 (2, f(2)) 的切线方程是： y-(5+2m)=(4+m)(x-2) ，即 y=(m+4)x-3 ，因此切线方程恒过 (0, -3) ．故选 B ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "217",
+        "queId": "38a50050220c4128a26632d7c1586b36",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "(0, 3)"
+          },
+          {
+            "label": "B",
+            "content": "(0, -3)"
+          },
+          {
+            "label": "C",
+            "content": "\\left( \\frac{3}{2}, 0 \\right)"
+          },
+          {
+            "label": "D",
+            "content": "\\left( -\\frac{3}{2}, 0 \\right)"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->导数模块->导数"
+        ],
+        "competition_source_list": [
+          "2010年四川全国高中数学联赛竞赛初赛第6题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_1:01996",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1996,
+      "split": "zh_test",
+      "source_problem_id": "5aff5a51f6094cc29ab0b94129b6e95a"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设函数$$y=f\\left( x \\right)$$对一切实数$$x$$都满足$$f\\left( 3+x \\right)=f\\left( 3-x \\right)$$，且方程$$f\\left( x \\right)=0$$恰有$$6$$个不同的实根，则这$$6$$个实根的和为（~ ）．\n(A) 18\n(B) 12\n(C) 9\n(D) 0",
+      "problem_plain": "设函数 y=f ( x ) 对一切实数 x 都满足 f ( 3+x )=f ( 3-x ) ，且方程 f ( x )=0 恰有 6 个不同的实根，则这 6 个实根的和为（~ ）． (A) 18 (B) 12 (C) 9 (D) 0",
+      "solution_latex": "若$$3+\\alpha $$是$$f(x)=0$$的一个根，则由已知  $$f\\left( 3-\\alpha \\right)=f\\left( 3+\\alpha \\right)=0$$  即$$3-\\alpha $$也是一个根．因此可设方程$$f\\left( x \\right)=0$$的六个根为  $$3{\\pm }{{\\alpha }_{1}}$$，$$3{\\pm }{{\\alpha }_{2}}$$，$$3{\\pm }{{\\alpha }_{3}}$$．  于是它们的和等于$$18$$．",
+      "solution_plain": "若 3+ 是 f(x)=0 的一个根，则由已知 f ( 3- )=f ( 3+ )=0 即 3- 也是一个根．因此可设方程 f ( x )=0 的六个根为 3 _ 1 ， 3 _ 2 ， 3 _ 3 ． 于是它们的和等于 18 ．"
+    },
+    "answer": {
+      "final_raw": "18",
+      "final_normalized": "18",
+      "candidates": [
+        "18",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "若$$3+\\alpha $$是$$f(x)=0$$的一个根，则由已知  $$f\\left( 3-\\alpha \\right)=f\\left( 3+\\alpha \\right)=0$$  即$$3-\\alpha $$也是一个根．因此可设方程$$f\\left( x \\right)=0$$的六个根为  $$3{\\pm }{{\\alpha }_{1}}$$，$$3{\\pm }{{\\alpha }_{2}}$$，$$3{\\pm }{{\\alpha }_{3}}$$．  于是它们的和等于$$18$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设函数 y=f ( x ) 对一切实数 x 都满足 f ( 3+x )=f ( 3-x ) ，且方程 f ( x )=0 恰有 6 个不同的实根，则这 6 个实根的和为（~ ）． (A) 18 (B) 12 (C) 9 (D) 0",
+      "solution_text": "若 3+ 是 f(x)=0 的一个根，则由已知 f ( 3- )=f ( 3+ )=0 即 3- 也是一个根．因此可设方程 f ( x )=0 的六个根为 3 _ 1 ， 3 _ 2 ， 3 _ 3 ． 于是它们的和等于 18 ．",
+      "keywords": [
+        "algebra",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "615",
+        "queId": "5aff5a51f6094cc29ab0b94129b6e95a",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "18"
+          },
+          {
+            "label": "B",
+            "content": "12"
+          },
+          {
+            "label": "C",
+            "content": "9"
+          },
+          {
+            "label": "D",
+            "content": "0"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->函数基础->函数的图像与性质"
+        ],
+        "competition_source_list": [
+          "1991年全国高中数学联赛竞赛一试第4题"
+        ]
+      }
+    }
+  }
+]

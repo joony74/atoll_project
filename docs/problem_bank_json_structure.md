@@ -55,6 +55,11 @@ listing.
 6. Generate Korean tutor explanation, hints, and follow-up practice from the
    normalized record.
 
+Follow-up practice generation policy is tracked in
+`docs/study_problem_generation_policy.md`. That document defines the current
+local template generation behavior and the planned bridge from image-derived
+templates to problem-bank-backed recommendations.
+
 ## Runtime Adapter
 
 The app reads the bank through `app.problem_bank.repository`.

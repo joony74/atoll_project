@@ -1,0 +1,2428 @@
+{
+  "schema_version": "coco_app_corpus_validation.v1",
+  "generated_at": "2026-04-25T22:45:10+00:00",
+  "batch_size": 10,
+  "input_total": 50,
+  "processed_total": 50,
+  "summary": {
+    "total": 50,
+    "ok": 6,
+    "review": 40,
+    "non_problem": 4,
+    "error": 0,
+    "issue_counts": {
+      "answer_missing": 2,
+      "card_needs_review": 10,
+      "card_topic_unknown": 6,
+      "expression_missing": 2,
+      "non_question_image": 4,
+      "ocr_noise_high": 38,
+      "solve_failed": 9,
+      "topic_unknown": 6
+    },
+    "by_band": {
+      "초등": {
+        "review": 40,
+        "ocr_noise_high": 38,
+        "solve_failed": 9,
+        "card_needs_review": 10,
+        "topic_unknown": 6,
+        "card_topic_unknown": 6,
+        "answer_missing": 2,
+        "ok": 6,
+        "expression_missing": 2,
+        "non_problem": 4,
+        "non_question_image": 4
+      }
+    },
+    "by_source_kind": {
+      "pdf_capture": {
+        "review": 40,
+        "ocr_noise_high": 38,
+        "solve_failed": 9,
+        "card_needs_review": 10,
+        "topic_unknown": 6,
+        "card_topic_unknown": 6,
+        "answer_missing": 2,
+        "ok": 6,
+        "expression_missing": 2,
+        "non_problem": 4,
+        "non_question_image": 4
+      }
+    },
+    "by_topic": {
+      "arithmetic": {
+        "review": 14,
+        "ok": 5,
+        "non_problem": 2
+      },
+      "calculus_derivative": {
+        "review": 1
+      },
+      "fraction_ratio": {
+        "review": 1
+      },
+      "geometry": {
+        "review": 2,
+        "non_problem": 2
+      },
+      "linear_equation": {
+        "review": 12
+      },
+      "probability": {
+        "review": 4,
+        "ok": 1
+      },
+      "unknown": {
+        "review": 6
+      }
+    }
+  },
+  "issue_examples": {
+    "answer_missing": [
+      {
+        "index": 40,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r2_c2.png",
+        "problem_text": "8. 가장 작은 수와 가장 큰 수의 합을 구하시오",
+        "expressions": [
+          "7+( |= 14"
+        ],
+        "computed_answer": "",
+        "display_topic": "linear_equation",
+        "source_preview": "8. 가장 작은 수와 가장 큰 수의 합을 구하시오 2 7. ㅣ | 안에 알맞은 수를 써 넣으세요. 7+( |= 14 8. 가장 작은 수와 가장 B AO] HS 구하시오. 7 0 8 9 7.) 안에 알맞은 수를 써 넣으세요. 8. 가장 작은 수와 가장 큰 42] HS 구하시오. 7 6 8 9 7. 안에 알맞은 수를 써 넣으세요. 7+| ]=피 8. 가장 작은 수와 가장 큰 수의 합을 구하...",
+        "error": null
+      },
+      {
+        "index": 58,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r2_c2.png",
+        "problem_text": "8. 가장 작은 수와 가장 큰 수의 YS 구하시오",
+        "expressions": [
+          "9+( |= 12"
+        ],
+        "computed_answer": "",
+        "display_topic": "linear_equation",
+        "source_preview": "8. 가장 작은 수와 가장 큰 수의 YS 구하시오 2 7. ㅣ | 안에 알맞은 수를 써 넣으세요. 9+( |= 12 8. 가장 작은 수와 가장 B AO] HS 구하시오. 0 4 3 9 7. [ | 안에 알맞은 수를 써 넣으세요. 9+| Jew 8. 가장 작은 수와 가장 큰 수의 YS 구하시오. 6 4 3 9 2 7. ㅣ | 안에 알맞은 수를 써 넣으세요. 9+( |= 12 8. 가장 작...",
+        "error": null
+      }
+    ],
+    "card_needs_review": [
+      {
+        "index": 37,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r1_c1.png",
+        "problem_text": "ea) Bee =",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "calculus_derivative",
+        "source_preview": "ea) Bee = ea) Bee = Citas 호 6단원 6099 [38l] 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 9 0\" 10 fo] ae - goo, !3회 6단원. 미분 5 321] 6단원. ea) Bee = Citas 호 6단원 6099 [38l] 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 ...",
+        "error": null
+      },
+      {
+        "index": 40,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r2_c2.png",
+        "problem_text": "8. 가장 작은 수와 가장 큰 수의 합을 구하시오",
+        "expressions": [
+          "7+( |= 14"
+        ],
+        "computed_answer": "",
+        "display_topic": "linear_equation",
+        "source_preview": "8. 가장 작은 수와 가장 큰 수의 합을 구하시오 2 7. ㅣ | 안에 알맞은 수를 써 넣으세요. 7+( |= 14 8. 가장 작은 수와 가장 B AO] HS 구하시오. 7 0 8 9 7.) 안에 알맞은 수를 써 넣으세요. 8. 가장 작은 수와 가장 큰 42] HS 구하시오. 7 6 8 9 7. 안에 알맞은 수를 써 넣으세요. 7+| ]=피 8. 가장 작은 수와 가장 큰 수의 합을 구하...",
+        "error": null
+      },
+      {
+        "index": 51,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r1_c1.png",
+        "problem_text": "단원평가 [3회] 정답",
+        "expressions": [],
+        "computed_answer": "3",
+        "display_topic": "geometry",
+        "source_preview": "단원평가 [3회] 정답 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [3회] 정답 1) (왼쪽부터) 15, 15, 5 2) (위에서부터) 8, 4 3) (위에서부터) 13, 3 | 80 | 4) [21-2] 6단원. 덧셈과 Bk (3) | 6+8 | | 9+4 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [3회] 정답 1) (왼쪽부터) 15, 15, 5 2) (위에서부터) 8, ...",
+        "error": null
+      },
+      {
+        "index": 53,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r3_c1.png",
+        "problem_text": "15) 13-4에 OF",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "15) 13-4에 OF 4) 6 5) 18-4에 O# 6) 9 7) 15개 8) 준서 9) 8개 20) 78 14) 6 15) 13-4에 OF 16) 9 17) 15개 18) 준서 19) 8개 4) 6 5) 18-4에 O# 6) 9 7) 15개 8) 준서 9) 8개 20) 78 14) 6 15) 13-4에 OF 16) 9 17) 15개 18) 준서 19) 8개",
+        "error": null
+      },
+      {
+        "index": 55,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r1_c1.png",
+        "problem_text": "ea) Bee =",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "ea) Bee = fo] 더 = ees! [28] 6단원. 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 7SG 10 ea) Bee = Citas 호 6단원 ane [28] 미운 5 [231] 6단원. fo] 더 = ees! [28] 6단원. 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 7SG 10 ...",
+        "error": null
+      },
+      {
+        "index": 58,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r2_c2.png",
+        "problem_text": "8. 가장 작은 수와 가장 큰 수의 YS 구하시오",
+        "expressions": [
+          "9+( |= 12"
+        ],
+        "computed_answer": "",
+        "display_topic": "linear_equation",
+        "source_preview": "8. 가장 작은 수와 가장 큰 수의 YS 구하시오 2 7. ㅣ | 안에 알맞은 수를 써 넣으세요. 9+( |= 12 8. 가장 작은 수와 가장 B AO] HS 구하시오. 0 4 3 9 7. [ | 안에 알맞은 수를 써 넣으세요. 9+| Jew 8. 가장 작은 수와 가장 큰 수의 YS 구하시오. 6 4 3 9 2 7. ㅣ | 안에 알맞은 수를 써 넣으세요. 9+( |= 12 8. 가장 작...",
+        "error": null
+      },
+      {
+        "index": 65,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r2_c2.png",
+        "problem_text": "ㅣ / , 진우는 조골릿을 7개 가지고 있었는데 예원",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "geometry",
+        "source_preview": "ㅣ / , 진우는 조골릿을 7개 가지고 있었는데 예원 ㅣ / , 진우는 조골릿을 7개 가지고 있었는데 예원 18. 서준이는 빨간색 색종이 8장과 노란 색종이 6장을 가지고 있고, 윤서는 빨간색 색종이 9장 과 노란 색종이 4장을 가지고 있습니다. 색종이 if, 진무는 fake /개 가지고 있었는데 예원 이가 초콜릿 5개를 진우에게 주었습니다. 진우 0장을 가지고 있고, 윤서는 빨간색 색...",
+        "error": null
+      },
+      {
+        "index": 70,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r2_c1.png",
+        "problem_text": "5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다에 OF 12) 6, 6, 6, 6 12) 2 7ER 412A) Q 7FK 트 11) 17, 16, 15, 14 / '작아집니다'에 OF 12\\2 7? 6 톡",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "unknown",
+        "source_preview": "5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다에 OF 12) 6, 6, 6, 6 12) 2 7ER 412A) Q 7FK 트 11) 17, 16, 15, 14 / '작아집니다'에 OF 12\\2 7? 6 톡 5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다...",
+        "error": null
+      },
+      {
+        "index": 71,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r3_c1.png",
+        "problem_text": "15) 12-3에 OF",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "15) 12-3에 OF 그이 은 0 7 으아 1호이 4) 8 5) 12-3에 OF 6) 6 7) 1274 8) 서준 9) 8명 20) 8개 14) 8 15) 12-3에 OF 16) 6 17) 12개 18) 서준 19) 8명 그이 은 0 7 으아 1호이 4) 8 5) 12-3에 OF 6) 6 7) 1274 8) 서준 9) 8명 20) 8개 14) 8 15) 12-3에 OF 16) 6 17...",
+        "error": null
+      },
+      {
+        "index": 73,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r1_c1.png",
+        "problem_text": "ea) Bee =",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "ea) Bee = fo] 더 = ee! [1회] 6단원. 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 5So 10 ea) Bee = Citas 호 6단원 미운 5 131] 6단원. fo] 더 = ee! [1회] 6단원. 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 5So 10 ea) Bee = Ci...",
+        "error": null
+      }
+    ],
+    "card_topic_unknown": [
+      {
+        "index": 38,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r1_c2.png",
+        "problem_text": "덧셈과 밸셈(3) 점수 : 6. 덧셈을 해 보세요. 0101010101 010101010 10101 01 0101 0101010|10 84?=| ㅣ 멋셈과 밸셈(3) 다 이이 | 1 이이 | 01010 | 8+?=| |",
+        "expressions": [],
+        "computed_answer": "0.0101010101010101010101010101010101010",
+        "display_topic": "unknown",
+        "source_preview": "덧셈과 밸셈(3) 점수 : 6. 덧셈을 해 보세요. 0101010101 010101010 10101 01 0101 0101010|10 84?=| ㅣ 멋셈과 밸셈(3) 다 이이 | 1 이이 | 01010 | 8+?=| | 덧셈과 밸셈(3) 점수 : 6. 덧셈을 해 보세요. @0101010101 010101010@ 10101 01 0101 0101010|10@ 84?=| ㅣ 멋셈과 밸셈(3...",
+        "error": null
+      },
+      {
+        "index": 47,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r2_c2.png",
+        "problem_text": "17, 겹시에 현미 과자 6개와 SSR 과자 9개가 18. 준서는 우리나라 우표 7장과 다른 나라 우 표 9장을 모았고, 세하는 우리나라 우표 8장과 다른 나라 우표 7장을 모았습니다. 모은 우표 TL. BAO 현미 과사 0개와 SSA 과자 9개가 ㅣ. 겹시에 현미 과자 0개와 SSR 과자 9개가 다른 나라 우표 TSS 모았습니다. 모은 우표",
+        "expressions": [],
+        "computed_answer": "18.0000000000000",
+        "display_topic": "unknown",
+        "source_preview": "17, 겹시에 현미 과자 6개와 SSR 과자 9개가 18. 준서는 우리나라 우표 7장과 다른 나라 우 표 9장을 모았고, 세하는 우리나라 우표 8장과 다른 나라 우표 7장을 모았습니다. 모은 우표 TL. BAO 현미 과사 0개와 SSA 과자 9개가 ㅣ. 겹시에 현미 과자 0개와 SSR 과자 9개가 다른 나라 우표 TSS 모았습니다. 모은 우표 17, 겹시에 현미 과자 6개와 SSR 과자...",
+        "error": null
+      },
+      {
+        "index": 52,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r2_c1.png",
+        "problem_text": "5) 8 6) 15 7) 7 8) 15 9) 11, 7 10) < 11) 8, 7, 6, 5 12) 9, 8, 7, 6 / '작아집니다' 에 OF 131 66 782 9 131 6 729 131 6 782 0",
+        "expressions": [],
+        "computed_answer": "131667829131672913167820",
+        "display_topic": "unknown",
+        "source_preview": "5) 8 6) 15 7) 7 8) 15 9) 11, 7 10) < 11) 8, 7, 6, 5 12) 9, 8, 7, 6 / '작아집니다' 에 OF 131 66 782 9 131 6 729 131 6 782 0 5) 8 6) 15 7) 7 8) 15 9) 11, 7 10) < 11) 8, 7, 6, 5 12) 9, 8, 7, 6 / '작아집니다' 에 OF 131 66 782 9 131 6...",
+        "error": null
+      },
+      {
+        "index": 67,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r3_c2.png",
+        "problem_text": "19. 운동장에서 있던 학생 15명 중에서 7명이 20. 방문객 14명에게 기념품을 한 개씩 나누어 주려고 합니다. 기념품이 6개 있다면 더 필요한 19. 운동장에서 있던 학생 15명 중에서 ?명이 주려고 합니다. 기념품이 0개 있다면 더 필요한",
+        "expressions": [],
+        "computed_answer": "19.0000000000000",
+        "display_topic": "unknown",
+        "source_preview": "19. 운동장에서 있던 학생 15명 중에서 7명이 20. 방문객 14명에게 기념품을 한 개씩 나누어 주려고 합니다. 기념품이 6개 있다면 더 필요한 19. 운동장에서 있던 학생 15명 중에서 ?명이 주려고 합니다. 기념품이 0개 있다면 더 필요한 19. 운동장에서 있던 학생 15명 중에서 7명이 20. 방문객 14명에게 기념품을 한 개씩 나누어 주려고 합니다. 기념품이 6개 있다면 더 ...",
+        "error": null
+      },
+      {
+        "index": 70,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r2_c1.png",
+        "problem_text": "5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다에 OF 12) 6, 6, 6, 6 12) 2 7ER 412A) Q 7FK 트 11) 17, 16, 15, 14 / '작아집니다'에 OF 12\\2 7? 6 톡",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "unknown",
+        "source_preview": "5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다에 OF 12) 6, 6, 6, 6 12) 2 7ER 412A) Q 7FK 트 11) 17, 16, 15, 14 / '작아집니다'에 OF 12\\2 7? 6 톡 5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다...",
+        "error": null
+      },
+      {
+        "index": 83,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r2_c2.png",
+        "problem_text": "16. 11에서 어떤 수를 BEL] 5가 되었습니다. 17. 윤희는 스티커북에 스티커를 os 붙인 후 5개를 더 붙였습니다. 스티커북에 붙인 스티커 18. 수호는 딸기 7개와 글 0개를 먹었고, 유진 Ale cheol 0기0 고 기고 HSA I-L mu 16. 11에서 어떤 수를 Bei] 5가 되었습니다. 17. 윤희는 스티커북에 스티커를 6개를 붙인 후 18. 수호는 딸기 7개와 글 ...",
+        "expressions": [],
+        "computed_answer": "7206",
+        "display_topic": "unknown",
+        "source_preview": "16. 11에서 어떤 수를 BEL] 5가 되었습니다. 17. 윤희는 스티커북에 스티커를 os 붙인 후 5개를 더 붙였습니다. 스티커북에 붙인 스티커 18. 수호는 딸기 7개와 글 0개를 먹었고, 유진 Ale cheol 0기0 고 기고 HSA I-L mu 16. 11에서 어떤 수를 Bei] 5가 되었습니다. 17. 윤희는 스티커북에 스티커를 6개를 붙인 후 18. 수호는 딸기 7개와 글 ...",
+        "error": null
+      }
+    ],
+    "expression_missing": [
+      {
+        "index": 49,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r3_c2.png",
+        "problem_text": "20. 놀이 공원의 관람 열차에 19명이 타야 출발",
+        "expressions": [],
+        "computed_answer": "20.0000000000000",
+        "display_topic": "geometry",
+        "source_preview": "20. 놀이 공원의 관람 열차에 19명이 타야 출발 19. 혜정이는 글 17개 중에서 9개를 먹었습니 20, 놀이 공원의 관람 열차에 1240] 타야 출발 한다고 합니다. 지금 5명이 타고 있다면 몇 명 20. 놀이 공원의 관람 열차에 19명이 타야 출발 19. 혜정이는 글 17개 중에서 9개를 먹었습니 20, 놀이 공원의 관람 열차에 1240] 타야 출발 한다고 합니다. 지금 5명이 ...",
+        "error": null
+      },
+      {
+        "index": 51,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r1_c1.png",
+        "problem_text": "단원평가 [3회] 정답",
+        "expressions": [],
+        "computed_answer": "3",
+        "display_topic": "geometry",
+        "source_preview": "단원평가 [3회] 정답 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [3회] 정답 1) (왼쪽부터) 15, 15, 5 2) (위에서부터) 8, 4 3) (위에서부터) 13, 3 | 80 | 4) [21-2] 6단원. 덧셈과 Bk (3) | 6+8 | | 9+4 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [3회] 정답 1) (왼쪽부터) 15, 15, 5 2) (위에서부터) 8, ...",
+        "error": null
+      }
+    ],
+    "non_question_image": [
+      {
+        "index": 50,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003.png",
+        "problem_text": "단원평가 [3회] 정답",
+        "expressions": [
+          "8+4 7+7 |"
+        ],
+        "computed_answer": "62",
+        "display_topic": "geometry",
+        "source_preview": "단원평가 [3회] 정답 [초1-21 6. 덧셈과 BCs) [단원평가 3회] https://skai.tistory.com/ 하루공부빔 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [3회] 정답 1) (왼쪽부터) 15, 15, 5 2) (위에서부터) 8, 4 3) (위에서부터) 13, 3 8+4 7+7 | 4) 5) 8 6) 15 7) 7 8) 15 9) 11, 7 10) < [초1-2...",
+        "error": null
+      },
+      {
+        "index": 51,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r1_c1.png",
+        "problem_text": "단원평가 [3회] 정답",
+        "expressions": [],
+        "computed_answer": "3",
+        "display_topic": "geometry",
+        "source_preview": "단원평가 [3회] 정답 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [3회] 정답 1) (왼쪽부터) 15, 15, 5 2) (위에서부터) 8, 4 3) (위에서부터) 13, 3 | 80 | 4) [21-2] 6단원. 덧셈과 Bk (3) | 6+8 | | 9+4 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [3회] 정답 1) (왼쪽부터) 15, 15, 5 2) (위에서부터) 8, ...",
+        "error": null
+      },
+      {
+        "index": 68,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003.png",
+        "problem_text": "단원평가 [2회] 정답",
+        "expressions": [
+          "6+6 5+8",
+          "9+2 7+5"
+        ],
+        "computed_answer": "79",
+        "display_topic": "arithmetic",
+        "source_preview": "단원평가 [2회] 정답 [초1-21 6. 덧셈과 Ws) [단원평가 2회] https://skai.tistory.com/ 하루공부빔 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [2회] 정답 1) (왼쪽부터) 16, 16, 6 2) (위에서부터) 6, 1 3) (위에서부터) 13, 3 6+6 5+8 4) 9+2 7+5 5) 9 6) 15 7) 3 8) 12 9) 15, 6 [초1-21...",
+        "error": null
+      },
+      {
+        "index": 69,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r1_c1.png",
+        "problem_text": "단원평가 [2회] 정답",
+        "expressions": [
+          "6+6 5+8",
+          "9+2 7+5",
+          "| 9+2 |"
+        ],
+        "computed_answer": "79",
+        "display_topic": "arithmetic",
+        "source_preview": "단원평가 [2회] 정답 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [2회] 정답 1) (왼쪽부터) 16, 16, 6 2) (위에서부터) 6. 1 3) (위에서부터) 13, 3 6+6 5+8 4) 9+2 7+5 2) (위에서부터) 6, 1 [21-2] 6단원. 덧셈과 빨셈(3) | 9+2 | [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [2회] 정답 1) (왼쪽부터) 16, 16...",
+        "error": null
+      }
+    ],
+    "ocr_noise_high": [
+      {
+        "index": 36,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001.png",
+        "problem_text": "3. | | 안에 알맞은 수를 써넣으시오. : 8. 가장 작은 수와 가장 큰 수의 Be 구하시오",
+        "expressions": [
+          "answer=7",
+          "14-6=",
+          "2 7+| |=14"
+        ],
+        "computed_answer": "7",
+        "display_topic": "linear_equation",
+        "source_preview": "3. | | 안에 알맞은 수를 써넣으시오. : 8. 가장 작은 수와 가장 큰 수의 Be 구하시오 번 Ae 단원평가 조 1-2 이름 : [3회] 6단원. 덧셈과 밸셈(3) 수 : 1. 10을 이용하여 모으기와 가르기를 한 것입니 ： 6, HHS 해 보세요 다. 빈칸에 알맞은 수를 넣어 보세요. _ _010100101 01010101@0 9 61 - \\ejeje| | | ee ㅣ 10 | ...",
+        "error": null
+      },
+      {
+        "index": 37,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r1_c1.png",
+        "problem_text": "ea) Bee =",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "calculus_derivative",
+        "source_preview": "ea) Bee = ea) Bee = Citas 호 6단원 6099 [38l] 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 9 0\" 10 fo] ae - goo, !3회 6단원. 미분 5 321] 6단원. ea) Bee = Citas 호 6단원 6099 [38l] 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 ...",
+        "error": null
+      },
+      {
+        "index": 38,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r1_c2.png",
+        "problem_text": "덧셈과 밸셈(3) 점수 : 6. 덧셈을 해 보세요. 0101010101 010101010 10101 01 0101 0101010|10 84?=| ㅣ 멋셈과 밸셈(3) 다 이이 | 1 이이 | 01010 | 8+?=| |",
+        "expressions": [],
+        "computed_answer": "0.0101010101010101010101010101010101010",
+        "display_topic": "unknown",
+        "source_preview": "덧셈과 밸셈(3) 점수 : 6. 덧셈을 해 보세요. 0101010101 010101010 10101 01 0101 0101010|10 84?=| ㅣ 멋셈과 밸셈(3) 다 이이 | 1 이이 | 01010 | 8+?=| | 덧셈과 밸셈(3) 점수 : 6. 덧셈을 해 보세요. @0101010101 010101010@ 10101 01 0101 0101010|10@ 84?=| ㅣ 멋셈과 밸셈(3...",
+        "error": null
+      },
+      {
+        "index": 39,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r2_c1.png",
+        "problem_text": "8+ 5=",
+        "expressions": [
+          "8+ 5=",
+          "14-6 =| |",
+          "14-6=[ |",
+          "8+5=|_|"
+        ],
+        "computed_answer": "13",
+        "display_topic": "linear_equation",
+        "source_preview": "8+ 5= 2. | ㅣ 안에 알맞은 수를 써넣으시오. 14-6 =| | 4» 3. | ㅣ 안에 알맞은 48 써넣으시오. 8+5=|_| / 2 | | 2. [ ㅣ 안에 알맞은 수를 써넣으시오 14-6=[ | 3. [ ㅣ 안에 알맞은 수를 써넣으시오 8+ 5= 2 2. [ ㅣ 안에 알맞은 수를 써넣으시오. 3.. [ ㅣ 안에 알맞은 수를 써넣으시오. 2. | ㅣ 안에 알맞은 수를 써넣으시오...",
+        "error": null
+      },
+      {
+        "index": 40,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r2_c2.png",
+        "problem_text": "8. 가장 작은 수와 가장 큰 수의 합을 구하시오",
+        "expressions": [
+          "7+( |= 14"
+        ],
+        "computed_answer": "",
+        "display_topic": "linear_equation",
+        "source_preview": "8. 가장 작은 수와 가장 큰 수의 합을 구하시오 2 7. ㅣ | 안에 알맞은 수를 써 넣으세요. 7+( |= 14 8. 가장 작은 수와 가장 B AO] HS 구하시오. 7 0 8 9 7.) 안에 알맞은 수를 써 넣으세요. 8. 가장 작은 수와 가장 큰 42] HS 구하시오. 7 6 8 9 7. 안에 알맞은 수를 써 넣으세요. 7+| ]=피 8. 가장 작은 수와 가장 큰 수의 합을 구하...",
+        "error": null
+      },
+      {
+        "index": 41,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r3_c1.png",
+        "problem_text": "6+8 9+4",
+        "expressions": [
+          "6+8 9+4",
+          "8+4T+7"
+        ],
+        "computed_answer": "99",
+        "display_topic": "arithmetic",
+        "source_preview": "6+8 9+4 4, 합이 14인 덧셈식을 모두 찾아 색칠해 보세요. 8+4T+7 6+8 9+4 5 . WAS 해 보세요 u-6-[__ | 4, 합이 1491 덧셈식을 모두 찾아 색칠해 보세요. 5 . wale 해 보세요. 0 | 4. 합이 14인 덧셈식을 모두 찾아 색칠해 보세요. 4, 합이 14인 덧셈식을 모두 찾아 색칠해 보세요. 8+4T+7 6+8 9+4 5 . WAS 해 보세요 ...",
+        "error": null
+      },
+      {
+        "index": 43,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002.png",
+        "problem_text": "0 있습니다. 접시에 있는 과자는 모두 몇 개일까",
+        "expressions": [
+          "answer=38",
+          "answer=7",
+          "answer=115",
+          "| |+7=45 11-7 15-8 13-4",
+          "14-4=| | ( )"
+        ],
+        "computed_answer": "38",
+        "display_topic": "arithmetic",
+        "source_preview": "0 있습니다. 접시에 있는 과자는 모두 몇 개일까 [초1-2] 6. 덧셈과 Ha(3) [단원평가 3회] https://skai.tistory.com/ 하루공부방 11. | ] 안에 알맞은 수를 써넣으세요. 15. 계산 결과가 가장 큰 것에 OF 하세요. | |+7=45 11-7 15-8 13-4 | |+7=14 | ]+7=1 +7= 122 16. 18에서 어떤 수를 WEL] 9가 되었습...",
+        "error": null
+      },
+      {
+        "index": 44,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r1_c1.png",
+        "problem_text": "answer=7",
+        "expressions": [
+          "answer=7",
+          "answer=8",
+          "answer=6",
+          "answer=5",
+          "answer=39"
+        ],
+        "computed_answer": "7",
+        "display_topic": "linear_equation",
+        "source_preview": "answer=7 11. [ | 안에 알맞은 수를 써넣으세요. +7=15 | |+7=14 +7=13 +7=12 12. [ | 안에 알맞은 수를 써넣고 알맞은 말에 | ]+7=46 | ]+7=1 | ]+7=12 12. [ 안에 알맞은 수를 써넣고 알맞은 말에 11. | ] 안에 알맞은 수를 써넣으세요. | ]+7=14 12. [ ] 안에 알맞은 수를 써넣고 알맞은 말에 11. [ | 안에 ...",
+        "error": null
+      },
+      {
+        "index": 46,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r2_c1.png",
+        "problem_text": "answer=6",
+        "expressions": [
+          "answer=6",
+          "11-4=|"
+        ],
+        "computed_answer": "6",
+        "display_topic": "linear_equation",
+        "source_preview": "answer=6 u-2=[ | u-3=[_ | u-4=[_ | u-s=[ | > 같은 수에서 1씩 커지는 수를 빼면 차는 1씩 (작아집니다 / 커집니다). 13. | ㅣ 안에 알맞은 수를 써넣으세요. |15-| |=9 > 같은 수에서 1씩 커지는 수를 빠면 13. 안에 알맞은 수를 써넣으세요 15-| ㅣ 11-4=| o> 2S AOA 1씩 커지는 AS 빼면 u-2=[ | u-3=[_ |...",
+        "error": null
+      },
+      {
+        "index": 48,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r3_c1.png",
+        "problem_text": "answer=8",
+        "expressions": [
+          "answer=8",
+          "answer=9",
+          "answer=7",
+          "15-[ _]=7",
+          "15-[ _]=6"
+        ],
+        "computed_answer": "8",
+        "display_topic": "probability",
+        "source_preview": "answer=8 15-| ]|=8 15-[ _]=7 15-[ _]=6 14. 수 카드 중 24S 뽑아 가장 작은 몇십몇을 14. 수 카드 중 2장을 뽑아 가장 작은 몇십몇을 15-[ ]=8 15-| ]|=8 15-[ _]=7 15-[ _]=6 14. 수 카드 중 24S 뽑아 가장 작은 몇십몇을 14. 수 카드 중 2장을 뽑아 가장 작은 몇십몇을 15-[ ]=8",
+        "error": null
+      },
+      {
+        "index": 50,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003.png",
+        "problem_text": "단원평가 [3회] 정답",
+        "expressions": [
+          "8+4 7+7 |"
+        ],
+        "computed_answer": "62",
+        "display_topic": "geometry",
+        "source_preview": "단원평가 [3회] 정답 [초1-21 6. 덧셈과 BCs) [단원평가 3회] https://skai.tistory.com/ 하루공부빔 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [3회] 정답 1) (왼쪽부터) 15, 15, 5 2) (위에서부터) 8, 4 3) (위에서부터) 13, 3 8+4 7+7 | 4) 5) 8 6) 15 7) 7 8) 15 9) 11, 7 10) < [초1-2...",
+        "error": null
+      },
+      {
+        "index": 51,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r1_c1.png",
+        "problem_text": "단원평가 [3회] 정답",
+        "expressions": [],
+        "computed_answer": "3",
+        "display_topic": "geometry",
+        "source_preview": "단원평가 [3회] 정답 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [3회] 정답 1) (왼쪽부터) 15, 15, 5 2) (위에서부터) 8, 4 3) (위에서부터) 13, 3 | 80 | 4) [21-2] 6단원. 덧셈과 Bk (3) | 6+8 | | 9+4 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [3회] 정답 1) (왼쪽부터) 15, 15, 5 2) (위에서부터) 8, ...",
+        "error": null
+      },
+      {
+        "index": 52,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r2_c1.png",
+        "problem_text": "5) 8 6) 15 7) 7 8) 15 9) 11, 7 10) < 11) 8, 7, 6, 5 12) 9, 8, 7, 6 / '작아집니다' 에 OF 131 66 782 9 131 6 729 131 6 782 0",
+        "expressions": [],
+        "computed_answer": "131667829131672913167820",
+        "display_topic": "unknown",
+        "source_preview": "5) 8 6) 15 7) 7 8) 15 9) 11, 7 10) < 11) 8, 7, 6, 5 12) 9, 8, 7, 6 / '작아집니다' 에 OF 131 66 782 9 131 6 729 131 6 782 0 5) 8 6) 15 7) 7 8) 15 9) 11, 7 10) < 11) 8, 7, 6, 5 12) 9, 8, 7, 6 / '작아집니다' 에 OF 131 66 782 9 131 6...",
+        "error": null
+      },
+      {
+        "index": 54,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001.png",
+        "problem_text": "3. ㅣ | 안에 알맞은 수를 써넣으시 8. 가장 작은 수와 가장 큰 수의 합을 구하시오",
+        "expressions": [
+          "answer=3",
+          "1+10",
+          "17-8 ( ) 7+8",
+          "9+| |=12"
+        ],
+        "computed_answer": "3",
+        "display_topic": "arithmetic",
+        "source_preview": "3. ㅣ | 안에 알맞은 수를 써넣으시 8. 가장 작은 수와 가장 큰 수의 합을 구하시오 단원평가 초 1-2 08: | [2회] 6단원. 덧셈과 밸셈(3) at 1. 10을 이용하여 모으기와 가르기를 한 것입니 6, 덧셈을 해 보세요 다. 빈칸에 알맞은 수를 넣어 보세요. eleeee (01010|101@' +3-(_] 2. | ㅣ 안에 알맞은 수를 써넣으시오. : 7 . 7. | | ...",
+        "error": null
+      },
+      {
+        "index": 55,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r1_c1.png",
+        "problem_text": "ea) Bee =",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "ea) Bee = fo] 더 = ees! [28] 6단원. 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 7SG 10 ea) Bee = Citas 호 6단원 ane [28] 미운 5 [231] 6단원. fo] 더 = ees! [28] 6단원. 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 7SG 10 ...",
+        "error": null
+      },
+      {
+        "index": 56,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r1_c2.png",
+        "problem_text": "7+8=| |",
+        "expressions": [
+          "7+8=| |"
+        ],
+        "computed_answer": "15",
+        "display_topic": "arithmetic",
+        "source_preview": "7+8=| | 덧셈과 밸셈(3) 점수 : 6. GAS 해 보세요. 00 여 이이이이이 7+8=| | 6. 덧셈을 해 보세요. @0101010101 010101010@0| ?748=| | @00101010 010101010 덧셈과 밸셈(3) 점수 : 6. GAS 해 보세요. 00 여 이이이이이 7+8=| | 6. 덧셈을 해 보세요. @0101010101 010101010@0| ?748=|...",
+        "error": null
+      },
+      {
+        "index": 57,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r2_c1.png",
+        "problem_text": "7+ 6=",
+        "expressions": [
+          "7+ 6=",
+          "7+ 6ㅋ1 ㅣ",
+          "7+ 6=[_|",
+          "11-5ㅋ |"
+        ],
+        "computed_answer": "13",
+        "display_topic": "linear_equation",
+        "source_preview": "7+ 6= 2. [ ㅣ 안에 알맞은 수를 써넣으시오. 11-5ㅋ | 4 3. 안에 알맞은 수를 써넣으시오. 7+ 6= / 3 3. [ ㅣ 안에 알맞은 수를 써넣으시오. 7+ 6=[_| /\\ 3 [| 2. [ ㅣ 안에 알맞은 +B 써넣으시오. 3. | ㅣ 안에 알맞은 수를 써넣으시오. 7+ 6ㅋ1 ㅣ 2. [ ㅣ 안에 알맞은 수를 써넣으시오. 11-5ㅋ | 4 3. 안에 알맞은 수를 써넣...",
+        "error": null
+      },
+      {
+        "index": 58,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r2_c2.png",
+        "problem_text": "8. 가장 작은 수와 가장 큰 수의 YS 구하시오",
+        "expressions": [
+          "9+( |= 12"
+        ],
+        "computed_answer": "",
+        "display_topic": "linear_equation",
+        "source_preview": "8. 가장 작은 수와 가장 큰 수의 YS 구하시오 2 7. ㅣ | 안에 알맞은 수를 써 넣으세요. 9+( |= 12 8. 가장 작은 수와 가장 B AO] HS 구하시오. 0 4 3 9 7. [ | 안에 알맞은 수를 써 넣으세요. 9+| Jew 8. 가장 작은 수와 가장 큰 수의 YS 구하시오. 6 4 3 9 2 7. ㅣ | 안에 알맞은 수를 써 넣으세요. 9+( |= 12 8. 가장 작...",
+        "error": null
+      },
+      {
+        "index": 59,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r3_c1.png",
+        "problem_text": "6+6 5+8",
+        "expressions": [
+          "6+6 5+8",
+          "9+2 7+5",
+          "17-8=ㅋ| |",
+          "8-8=[ |"
+        ],
+        "computed_answer": "79",
+        "display_topic": "arithmetic",
+        "source_preview": "6+6 5+8 4, 합이 1221 덧셈식을 모두 찾아 색칠해 보세요. 6+6 5+8 9+2 7+5 5. 밸셈을 해 보세요. 17-8=ㅋ| | 4, 합이 1291 덧셈식을 모두 찾아 색칠해 보세요. 5 . was 해 보세요. 8-8=[ | 4. 합이 12인 덧셈식을 모두 찾아 색칠해 보세요. 4, 합이 1221 덧셈식을 모두 찾아 색칠해 보세요. 6+6 5+8 9+2 7+5 5. 밸셈을 ...",
+        "error": null
+      },
+      {
+        "index": 61,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002.png",
+        "problem_text": "- 가 가진 초콜릿은 모두 몇 개일까요?",
+        "expressions": [
+          "14-8 8+6 12-3",
+          "8+9=|",
+          "7+9=|",
+          "6+9=|"
+        ],
+        "computed_answer": "535",
+        "display_topic": "arithmetic",
+        "source_preview": "- 가 가진 초콜릿은 모두 몇 개일까요? [초1-2] 6. 덧셈과 Ha(3) [단원평가 2회] https://skai.tistory.com/ 하루공부방 11. [ ] 안에 알맞은 수를 써넣고 알맞은 말에 15, 계산 결과가 9인 것을 찾아 OF 하세요. 14-8 8+6 12-3 8+9=| 7+9=| 6+9=| - 16. 130) 어떤 AS BWejL] 이 되었습니다. 00=[ | 어떤 ...",
+        "error": null
+      },
+      {
+        "index": 62,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r1_c1.png",
+        "problem_text": "8+9=",
+        "expressions": [
+          "8+9=",
+          "7+9=",
+          "6+9=",
+          "5+9=",
+          "7+9=|"
+        ],
+        "computed_answer": "17",
+        "display_topic": "linear_equation",
+        "source_preview": "8+9= 11. [ ] 안에 알맞은 수를 써넣고 알맞은 말에 8+9= 7+9= 6+9= 5+9= > 14 작아지는 수에 같은 수를 더하면 합은 1씩 (작아집니다 / 커집니다). © 1씩 작아지는 수에 같은 수를 더하면 11. [ | 안에 알맞은 수를 써넣고 알맞은 말에 7+9=| 6+9=| 5+9=| > 1씩 작아지는 수에 같은 수를 더하면 11. [ ] 안에 알맞은 수를 써넣고 알맞은...",
+        "error": null
+      },
+      {
+        "index": 63,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r1_c2.png",
+        "problem_text": "14-8 8+6 12-3",
+        "expressions": [
+          "14-8 8+6 12-3"
+        ],
+        "computed_answer": "535",
+        "display_topic": "arithmetic",
+        "source_preview": "14-8 8+6 12-3 15. 계산 결과가 9인 것을 찾아 OF 하세요. 14-8 8+6 12-3 16. 1304 어떤 수를 WEL] 7이 되었습니다. 16. 13에서 어떤 수를 WEIL] 70] 되었습니다. 16. 13에서 어떤 +S WEL] 7이 되었습니다. 15. 계산 결과가 9인 것을 찾아 OF 하세요. 14-8 8+6 12-3 16. 1304 어떤 수를 WEL] 7이 되었습니...",
+        "error": null
+      },
+      {
+        "index": 64,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r2_c1.png",
+        "problem_text": "answer=8",
+        "expressions": [
+          "answer=8",
+          "11-5=",
+          "14-5=|",
+          "12-6=| |",
+          "13-7=[ |"
+        ],
+        "computed_answer": "8",
+        "display_topic": "linear_equation",
+        "source_preview": "answer=8 12. [ | 안에 알맞은 수를 써넣으세요. 14-5=| 12-6=| | 13-7=[ | 14-8=| | 13. | ㅣ 안에 알맞은 수를 써넣으세요. 14-| ]=6 12. 안에 알맞은 수를 써넣으세요. 11-5= 13, | | 안에 알맞은 수를 써넣으세요. 1 13. [ | 안에 알맞은 AS 써넣으세요. | 14-| |=6 | 12. [ | 안에 알맞은 수를 써넣으세요...",
+        "error": null
+      },
+      {
+        "index": 66,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r3_c1.png",
+        "problem_text": "answer=13",
+        "expressions": [
+          "answer=13",
+          "answer=8",
+          "answer=5",
+          "answer=7",
+          "answer=6"
+        ],
+        "computed_answer": "13",
+        "display_topic": "probability",
+        "source_preview": "answer=13 14-[ ]=1 14-[ ]=6 14-[ ]=9 14, 수 카드 중 2장을 뽑아 가장 작은 wags | 14-| |=7 14-| |=8 14-| |=9 14. 수 카드 중 2장을 뽑아 가장 작은 몇십몇을 14-[ ]=1 14-[ ]=6 14-[ ]=9 14, 수 카드 중 2장을 뽑아 가장 작은 wags | 14-| |=7 14-| |=8 14-| |=9 14. 수 카드...",
+        "error": null
+      },
+      {
+        "index": 68,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003.png",
+        "problem_text": "단원평가 [2회] 정답",
+        "expressions": [
+          "6+6 5+8",
+          "9+2 7+5"
+        ],
+        "computed_answer": "79",
+        "display_topic": "arithmetic",
+        "source_preview": "단원평가 [2회] 정답 [초1-21 6. 덧셈과 Ws) [단원평가 2회] https://skai.tistory.com/ 하루공부빔 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [2회] 정답 1) (왼쪽부터) 16, 16, 6 2) (위에서부터) 6, 1 3) (위에서부터) 13, 3 6+6 5+8 4) 9+2 7+5 5) 9 6) 15 7) 3 8) 12 9) 15, 6 [초1-21...",
+        "error": null
+      },
+      {
+        "index": 69,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r1_c1.png",
+        "problem_text": "단원평가 [2회] 정답",
+        "expressions": [
+          "6+6 5+8",
+          "9+2 7+5",
+          "| 9+2 |"
+        ],
+        "computed_answer": "79",
+        "display_topic": "arithmetic",
+        "source_preview": "단원평가 [2회] 정답 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [2회] 정답 1) (왼쪽부터) 16, 16, 6 2) (위에서부터) 6. 1 3) (위에서부터) 13, 3 6+6 5+8 4) 9+2 7+5 2) (위에서부터) 6, 1 [21-2] 6단원. 덧셈과 빨셈(3) | 9+2 | [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [2회] 정답 1) (왼쪽부터) 16, 16...",
+        "error": null
+      },
+      {
+        "index": 70,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r2_c1.png",
+        "problem_text": "5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다에 OF 12) 6, 6, 6, 6 12) 2 7ER 412A) Q 7FK 트 11) 17, 16, 15, 14 / '작아집니다'에 OF 12\\2 7? 6 톡",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "unknown",
+        "source_preview": "5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다에 OF 12) 6, 6, 6, 6 12) 2 7ER 412A) Q 7FK 트 11) 17, 16, 15, 14 / '작아집니다'에 OF 12\\2 7? 6 톡 5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다...",
+        "error": null
+      },
+      {
+        "index": 72,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001.png",
+        "problem_text": "3. | | 안에 알맞은 수를 써넣으시오. : 8. 가장 작은 수와 가장 큰 수의 합을 구하시오",
+        "expressions": [
+          "15-6=| |"
+        ],
+        "computed_answer": "9",
+        "display_topic": "probability",
+        "source_preview": "3. | | 안에 알맞은 수를 써넣으시오. : 8. 가장 작은 수와 가장 큰 수의 합을 구하시오 ee 단원평가 2 1-2 8 [1회] 6단원. 덧셈과 밸셈(3) 점수 1. 10을 이용하여 모으기와 가르기를 한 것입니 ： 6, HHS 해 보세요 다. Ecol SSE Te Sol 보세요. _ :이이이006 ‘ofofafojo 5 ?7| ~ pt : | 아아아 ㅣ 000 의이이 의의의의 이시...",
+        "error": null
+      },
+      {
+        "index": 73,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r1_c1.png",
+        "problem_text": "ea) Bee =",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "ea) Bee = fo] 더 = ee! [1회] 6단원. 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 5So 10 ea) Bee = Citas 호 6단원 미운 5 131] 6단원. fo] 더 = ee! [1회] 6단원. 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 5So 10 ea) Bee = Ci...",
+        "error": null
+      },
+      {
+        "index": 74,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r1_c2.png",
+        "problem_text": "2.0/0.0dees",
+        "expressions": [
+          "2.0/0.0dees",
+          "5+9=| |"
+        ],
+        "computed_answer": "14",
+        "display_topic": "fraction_ratio",
+        "source_preview": "2.0/0.0dees 6. 덧셈을 해 보세요. 2.0/0.0dees SeS22OBE 이 | 5+9=| [| 덧셈과 WH Ail(3) 점수 : (이이이이이 이이0(ㅇ 5+9=| | 덧셈과 밸셈(3) ae: OJO/O|O 6. 덧셈을 해 보세요. 2.0/0.0dees SeS22OBE 이 | 5+9=| [| 덧셈과 WH Ail(3) 점수 : (이이이이이 이이0(ㅇ 5+9=| | 덧셈과 밸셈(...",
+        "error": null
+      }
+    ],
+    "solve_failed": [
+      {
+        "index": 37,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r1_c1.png",
+        "problem_text": "ea) Bee =",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "calculus_derivative",
+        "source_preview": "ea) Bee = ea) Bee = Citas 호 6단원 6099 [38l] 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 9 0\" 10 fo] ae - goo, !3회 6단원. 미분 5 321] 6단원. ea) Bee = Citas 호 6단원 6099 [38l] 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 ...",
+        "error": null
+      },
+      {
+        "index": 40,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r2_c2.png",
+        "problem_text": "8. 가장 작은 수와 가장 큰 수의 합을 구하시오",
+        "expressions": [
+          "7+( |= 14"
+        ],
+        "computed_answer": "",
+        "display_topic": "linear_equation",
+        "source_preview": "8. 가장 작은 수와 가장 큰 수의 합을 구하시오 2 7. ㅣ | 안에 알맞은 수를 써 넣으세요. 7+( |= 14 8. 가장 작은 수와 가장 B AO] HS 구하시오. 7 0 8 9 7.) 안에 알맞은 수를 써 넣으세요. 8. 가장 작은 수와 가장 큰 42] HS 구하시오. 7 6 8 9 7. 안에 알맞은 수를 써 넣으세요. 7+| ]=피 8. 가장 작은 수와 가장 큰 수의 합을 구하...",
+        "error": null
+      },
+      {
+        "index": 53,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r3_c1.png",
+        "problem_text": "15) 13-4에 OF",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "15) 13-4에 OF 4) 6 5) 18-4에 O# 6) 9 7) 15개 8) 준서 9) 8개 20) 78 14) 6 15) 13-4에 OF 16) 9 17) 15개 18) 준서 19) 8개 4) 6 5) 18-4에 O# 6) 9 7) 15개 8) 준서 9) 8개 20) 78 14) 6 15) 13-4에 OF 16) 9 17) 15개 18) 준서 19) 8개",
+        "error": null
+      },
+      {
+        "index": 55,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r1_c1.png",
+        "problem_text": "ea) Bee =",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "ea) Bee = fo] 더 = ees! [28] 6단원. 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 7SG 10 ea) Bee = Citas 호 6단원 ane [28] 미운 5 [231] 6단원. fo] 더 = ees! [28] 6단원. 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 7SG 10 ...",
+        "error": null
+      },
+      {
+        "index": 58,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r2_c2.png",
+        "problem_text": "8. 가장 작은 수와 가장 큰 수의 YS 구하시오",
+        "expressions": [
+          "9+( |= 12"
+        ],
+        "computed_answer": "",
+        "display_topic": "linear_equation",
+        "source_preview": "8. 가장 작은 수와 가장 큰 수의 YS 구하시오 2 7. ㅣ | 안에 알맞은 수를 써 넣으세요. 9+( |= 12 8. 가장 작은 수와 가장 B AO] HS 구하시오. 0 4 3 9 7. [ | 안에 알맞은 수를 써 넣으세요. 9+| Jew 8. 가장 작은 수와 가장 큰 수의 YS 구하시오. 6 4 3 9 2 7. ㅣ | 안에 알맞은 수를 써 넣으세요. 9+( |= 12 8. 가장 작...",
+        "error": null
+      },
+      {
+        "index": 65,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r2_c2.png",
+        "problem_text": "ㅣ / , 진우는 조골릿을 7개 가지고 있었는데 예원",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "geometry",
+        "source_preview": "ㅣ / , 진우는 조골릿을 7개 가지고 있었는데 예원 ㅣ / , 진우는 조골릿을 7개 가지고 있었는데 예원 18. 서준이는 빨간색 색종이 8장과 노란 색종이 6장을 가지고 있고, 윤서는 빨간색 색종이 9장 과 노란 색종이 4장을 가지고 있습니다. 색종이 if, 진무는 fake /개 가지고 있었는데 예원 이가 초콜릿 5개를 진우에게 주었습니다. 진우 0장을 가지고 있고, 윤서는 빨간색 색...",
+        "error": null
+      },
+      {
+        "index": 70,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r2_c1.png",
+        "problem_text": "5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다에 OF 12) 6, 6, 6, 6 12) 2 7ER 412A) Q 7FK 트 11) 17, 16, 15, 14 / '작아집니다'에 OF 12\\2 7? 6 톡",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "unknown",
+        "source_preview": "5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다에 OF 12) 6, 6, 6, 6 12) 2 7ER 412A) Q 7FK 트 11) 17, 16, 15, 14 / '작아집니다'에 OF 12\\2 7? 6 톡 5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다...",
+        "error": null
+      },
+      {
+        "index": 71,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r3_c1.png",
+        "problem_text": "15) 12-3에 OF",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "15) 12-3에 OF 그이 은 0 7 으아 1호이 4) 8 5) 12-3에 OF 6) 6 7) 1274 8) 서준 9) 8명 20) 8개 14) 8 15) 12-3에 OF 16) 6 17) 12개 18) 서준 19) 8명 그이 은 0 7 으아 1호이 4) 8 5) 12-3에 OF 6) 6 7) 1274 8) 서준 9) 8명 20) 8개 14) 8 15) 12-3에 OF 16) 6 17...",
+        "error": null
+      },
+      {
+        "index": 73,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r1_c1.png",
+        "problem_text": "ea) Bee =",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "arithmetic",
+        "source_preview": "ea) Bee = fo] 더 = ee! [1회] 6단원. 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 5So 10 ea) Bee = Citas 호 6단원 미운 5 131] 6단원. fo] 더 = ee! [1회] 6단원. 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 5So 10 ea) Bee = Ci...",
+        "error": null
+      }
+    ],
+    "topic_unknown": [
+      {
+        "index": 38,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r1_c2.png",
+        "problem_text": "덧셈과 밸셈(3) 점수 : 6. 덧셈을 해 보세요. 0101010101 010101010 10101 01 0101 0101010|10 84?=| ㅣ 멋셈과 밸셈(3) 다 이이 | 1 이이 | 01010 | 8+?=| |",
+        "expressions": [],
+        "computed_answer": "0.0101010101010101010101010101010101010",
+        "display_topic": "unknown",
+        "source_preview": "덧셈과 밸셈(3) 점수 : 6. 덧셈을 해 보세요. 0101010101 010101010 10101 01 0101 0101010|10 84?=| ㅣ 멋셈과 밸셈(3) 다 이이 | 1 이이 | 01010 | 8+?=| | 덧셈과 밸셈(3) 점수 : 6. 덧셈을 해 보세요. @0101010101 010101010@ 10101 01 0101 0101010|10@ 84?=| ㅣ 멋셈과 밸셈(3...",
+        "error": null
+      },
+      {
+        "index": 47,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r2_c2.png",
+        "problem_text": "17, 겹시에 현미 과자 6개와 SSR 과자 9개가 18. 준서는 우리나라 우표 7장과 다른 나라 우 표 9장을 모았고, 세하는 우리나라 우표 8장과 다른 나라 우표 7장을 모았습니다. 모은 우표 TL. BAO 현미 과사 0개와 SSA 과자 9개가 ㅣ. 겹시에 현미 과자 0개와 SSR 과자 9개가 다른 나라 우표 TSS 모았습니다. 모은 우표",
+        "expressions": [],
+        "computed_answer": "18.0000000000000",
+        "display_topic": "unknown",
+        "source_preview": "17, 겹시에 현미 과자 6개와 SSR 과자 9개가 18. 준서는 우리나라 우표 7장과 다른 나라 우 표 9장을 모았고, 세하는 우리나라 우표 8장과 다른 나라 우표 7장을 모았습니다. 모은 우표 TL. BAO 현미 과사 0개와 SSA 과자 9개가 ㅣ. 겹시에 현미 과자 0개와 SSR 과자 9개가 다른 나라 우표 TSS 모았습니다. 모은 우표 17, 겹시에 현미 과자 6개와 SSR 과자...",
+        "error": null
+      },
+      {
+        "index": 52,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r2_c1.png",
+        "problem_text": "5) 8 6) 15 7) 7 8) 15 9) 11, 7 10) < 11) 8, 7, 6, 5 12) 9, 8, 7, 6 / '작아집니다' 에 OF 131 66 782 9 131 6 729 131 6 782 0",
+        "expressions": [],
+        "computed_answer": "131667829131672913167820",
+        "display_topic": "unknown",
+        "source_preview": "5) 8 6) 15 7) 7 8) 15 9) 11, 7 10) < 11) 8, 7, 6, 5 12) 9, 8, 7, 6 / '작아집니다' 에 OF 131 66 782 9 131 6 729 131 6 782 0 5) 8 6) 15 7) 7 8) 15 9) 11, 7 10) < 11) 8, 7, 6, 5 12) 9, 8, 7, 6 / '작아집니다' 에 OF 131 66 782 9 131 6...",
+        "error": null
+      },
+      {
+        "index": 67,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r3_c2.png",
+        "problem_text": "19. 운동장에서 있던 학생 15명 중에서 7명이 20. 방문객 14명에게 기념품을 한 개씩 나누어 주려고 합니다. 기념품이 6개 있다면 더 필요한 19. 운동장에서 있던 학생 15명 중에서 ?명이 주려고 합니다. 기념품이 0개 있다면 더 필요한",
+        "expressions": [],
+        "computed_answer": "19.0000000000000",
+        "display_topic": "unknown",
+        "source_preview": "19. 운동장에서 있던 학생 15명 중에서 7명이 20. 방문객 14명에게 기념품을 한 개씩 나누어 주려고 합니다. 기념품이 6개 있다면 더 필요한 19. 운동장에서 있던 학생 15명 중에서 ?명이 주려고 합니다. 기념품이 0개 있다면 더 필요한 19. 운동장에서 있던 학생 15명 중에서 7명이 20. 방문객 14명에게 기념품을 한 개씩 나누어 주려고 합니다. 기념품이 6개 있다면 더 ...",
+        "error": null
+      },
+      {
+        "index": 70,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r2_c1.png",
+        "problem_text": "5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다에 OF 12) 6, 6, 6, 6 12) 2 7ER 412A) Q 7FK 트 11) 17, 16, 15, 14 / '작아집니다'에 OF 12\\2 7? 6 톡",
+        "expressions": [],
+        "computed_answer": "",
+        "display_topic": "unknown",
+        "source_preview": "5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다에 OF 12) 6, 6, 6, 6 12) 2 7ER 412A) Q 7FK 트 11) 17, 16, 15, 14 / '작아집니다'에 OF 12\\2 7? 6 톡 5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다...",
+        "error": null
+      },
+      {
+        "index": 83,
+        "band": "초등",
+        "grade": 1,
+        "source_kind": "pdf_capture",
+        "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r2_c2.png",
+        "problem_text": "16. 11에서 어떤 수를 BEL] 5가 되었습니다. 17. 윤희는 스티커북에 스티커를 os 붙인 후 5개를 더 붙였습니다. 스티커북에 붙인 스티커 18. 수호는 딸기 7개와 글 0개를 먹었고, 유진 Ale cheol 0기0 고 기고 HSA I-L mu 16. 11에서 어떤 수를 Bei] 5가 되었습니다. 17. 윤희는 스티커북에 스티커를 6개를 붙인 후 18. 수호는 딸기 7개와 글 ...",
+        "expressions": [],
+        "computed_answer": "7206",
+        "display_topic": "unknown",
+        "source_preview": "16. 11에서 어떤 수를 BEL] 5가 되었습니다. 17. 윤희는 스티커북에 스티커를 os 붙인 후 5개를 더 붙였습니다. 스티커북에 붙인 스티커 18. 수호는 딸기 7개와 글 0개를 먹었고, 유진 Ale cheol 0기0 고 기고 HSA I-L mu 16. 11에서 어떤 수를 Bei] 5가 되었습니다. 17. 윤희는 스티커북에 스티커를 6개를 붙인 후 18. 수호는 딸기 7개와 글 ...",
+        "error": null
+      }
+    ]
+  },
+  "results": [
+    {
+      "index": 36,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "linear_equation",
+      "problem_text": "3. | | 안에 알맞은 수를 써넣으시오. : 8. 가장 작은 수와 가장 큰 수의 Be 구하시오",
+      "expressions": [
+        "answer=7",
+        "14-6=",
+        "2 7+| |=14"
+      ],
+      "computed_answer": "7",
+      "matched_choice": "",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "source_preview": "3. | | 안에 알맞은 수를 써넣으시오. : 8. 가장 작은 수와 가장 큰 수의 Be 구하시오 번 Ae 단원평가 조 1-2 이름 : [3회] 6단원. 덧셈과 밸셈(3) 수 : 1. 10을 이용하여 모으기와 가르기를 한 것입니 ： 6, HHS 해 보세요 다. 빈칸에 알맞은 수를 넣어 보세요. _ _010100101 01010101@0 9 61 - \\ejeje| | | ee ㅣ 10 | ...",
+      "elapsed_seconds": 1.939
+    },
+    {
+      "index": 37,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r1_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r1_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r1_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "solve_failed",
+        "card_needs_review"
+      ],
+      "math_topic": "calculus_derivative",
+      "display_topic": "calculus_derivative",
+      "problem_text": "ea) Bee =",
+      "expressions": [],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "ea) Bee = ea) Bee = Citas 호 6단원 6099 [38l] 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 9 0\" 10 fo] ae - goo, !3회 6단원. 미분 5 321] 6단원. ea) Bee = Citas 호 6단원 6099 [38l] 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 ...",
+      "elapsed_seconds": 0.946
+    },
+    {
+      "index": 38,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r1_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r1_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r1_c2.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "topic_unknown",
+        "card_topic_unknown"
+      ],
+      "math_topic": "unknown",
+      "display_topic": "unknown",
+      "problem_text": "덧셈과 밸셈(3) 점수 : 6. 덧셈을 해 보세요. 0101010101 010101010 10101 01 0101 0101010|10 84?=| ㅣ 멋셈과 밸셈(3) 다 이이 | 1 이이 | 01010 | 8+?=| |",
+      "expressions": [],
+      "computed_answer": "0.0101010101010101010101010101010101010",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "verified",
+      "source_preview": "덧셈과 밸셈(3) 점수 : 6. 덧셈을 해 보세요. 0101010101 010101010 10101 01 0101 0101010|10 84?=| ㅣ 멋셈과 밸셈(3) 다 이이 | 1 이이 | 01010 | 8+?=| | 덧셈과 밸셈(3) 점수 : 6. 덧셈을 해 보세요. @0101010101 010101010@ 10101 01 0101 0101010|10@ 84?=| ㅣ 멋셈과 밸셈(3...",
+      "elapsed_seconds": 0.595
+    },
+    {
+      "index": 39,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r2_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r2_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r2_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "linear_equation",
+      "problem_text": "8+ 5=",
+      "expressions": [
+        "8+ 5=",
+        "14-6 =| |",
+        "14-6=[ |",
+        "8+5=|_|"
+      ],
+      "computed_answer": "13",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "needs_review",
+      "source_preview": "8+ 5= 2. | ㅣ 안에 알맞은 수를 써넣으시오. 14-6 =| | 4» 3. | ㅣ 안에 알맞은 48 써넣으시오. 8+5=|_| / 2 | | 2. [ ㅣ 안에 알맞은 수를 써넣으시오 14-6=[ | 3. [ ㅣ 안에 알맞은 수를 써넣으시오 8+ 5= 2 2. [ ㅣ 안에 알맞은 수를 써넣으시오. 3.. [ ㅣ 안에 알맞은 수를 써넣으시오. 2. | ㅣ 안에 알맞은 수를 써넣으시오...",
+      "elapsed_seconds": 0.508
+    },
+    {
+      "index": 40,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r2_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r2_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r2_c2.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "solve_failed",
+        "answer_missing",
+        "card_needs_review"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "linear_equation",
+      "problem_text": "8. 가장 작은 수와 가장 큰 수의 합을 구하시오",
+      "expressions": [
+        "7+( |= 14"
+      ],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "8. 가장 작은 수와 가장 큰 수의 합을 구하시오 2 7. ㅣ | 안에 알맞은 수를 써 넣으세요. 7+( |= 14 8. 가장 작은 수와 가장 B AO] HS 구하시오. 7 0 8 9 7.) 안에 알맞은 수를 써 넣으세요. 8. 가장 작은 수와 가장 큰 42] HS 구하시오. 7 6 8 9 7. 안에 알맞은 수를 써 넣으세요. 7+| ]=피 8. 가장 작은 수와 가장 큰 수의 합을 구하...",
+      "elapsed_seconds": 0.56
+    },
+    {
+      "index": 41,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r3_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r3_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r3_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "6+8 9+4",
+      "expressions": [
+        "6+8 9+4",
+        "8+4T+7"
+      ],
+      "computed_answer": "99",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "verified",
+      "source_preview": "6+8 9+4 4, 합이 14인 덧셈식을 모두 찾아 색칠해 보세요. 8+4T+7 6+8 9+4 5 . WAS 해 보세요 u-6-[__ | 4, 합이 1491 덧셈식을 모두 찾아 색칠해 보세요. 5 . wale 해 보세요. 0 | 4. 합이 14인 덧셈식을 모두 찾아 색칠해 보세요. 4, 합이 14인 덧셈식을 모두 찾아 색칠해 보세요. 8+4T+7 6+8 9+4 5 . WAS 해 보세요 ...",
+      "elapsed_seconds": 0.444
+    },
+    {
+      "index": 42,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r3_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r3_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_001_tile_r3_c2.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "12-3 ( ) A+7",
+      "expressions": [
+        "12-3 ( ) A+7",
+        "12-3 A+7",
+        "+5 -4"
+      ],
+      "computed_answer": "1",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "12-3 ( ) A+7 9. 빈칸에 알맞은 AS 써넣으세요. +5 -4 6 10. 계산 결과를 비교하여 EC 안에 >, =, < 12-3 ( ) A+7 9. 빈칸에 알맞은 수를 써넣으세요. 10. 계산 결과를 비교하여 CE 안에 >, =, < 12-3 @ A+7 9. 빈칸에 알맞은 AS 써넣으세요. +5 -4 6 10. 계산 결과를 비교하여 EC 안에 >, =, < 12-3 ( ) A+...",
+      "elapsed_seconds": 0.51
+    },
+    {
+      "index": 43,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "arithmetic",
+      "problem_text": "0 있습니다. 접시에 있는 과자는 모두 몇 개일까",
+      "expressions": [
+        "answer=38",
+        "answer=7",
+        "answer=115",
+        "| |+7=45 11-7 15-8 13-4",
+        "14-4=| | ( )"
+      ],
+      "computed_answer": "38",
+      "matched_choice": "",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "source_preview": "0 있습니다. 접시에 있는 과자는 모두 몇 개일까 [초1-2] 6. 덧셈과 Ha(3) [단원평가 3회] https://skai.tistory.com/ 하루공부방 11. | ] 안에 알맞은 수를 써넣으세요. 15. 계산 결과가 가장 큰 것에 OF 하세요. | |+7=45 11-7 15-8 13-4 | |+7=14 | ]+7=1 +7= 122 16. 18에서 어떤 수를 WEL] 9가 되었습...",
+      "elapsed_seconds": 3.614
+    },
+    {
+      "index": 44,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r1_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r1_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r1_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "linear_equation",
+      "problem_text": "answer=7",
+      "expressions": [
+        "answer=7",
+        "answer=8",
+        "answer=6",
+        "answer=5",
+        "answer=39"
+      ],
+      "computed_answer": "7",
+      "matched_choice": "",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "source_preview": "answer=7 11. [ | 안에 알맞은 수를 써넣으세요. +7=15 | |+7=14 +7=13 +7=12 12. [ | 안에 알맞은 수를 써넣고 알맞은 말에 | ]+7=46 | ]+7=1 | ]+7=12 12. [ 안에 알맞은 수를 써넣고 알맞은 말에 11. | ] 안에 알맞은 수를 써넣으세요. | ]+7=14 12. [ ] 안에 알맞은 수를 써넣고 알맞은 말에 11. [ | 안에 ...",
+      "elapsed_seconds": 0.567
+    },
+    {
+      "index": 45,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r1_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r1_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r1_c2.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "11-7 15-8 13-4",
+      "expressions": [
+        "11-7 15-8 13-4"
+      ],
+      "computed_answer": "-1521",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "verified",
+      "source_preview": "11-7 15-8 13-4 15. 계산 결과가 가장 큰 것에 OF 하세요. 11-7 15-8 13-4 16. 18에서 어떤 수를 WEL] 9가 되었습니다. 16. 18에서 어떤 수를 WEIL] 9가 되었습니다. 16. 18에서 어떤 수를 WL, 9가 되었습니다. 15. 계산 결과가 가장 큰 것에 OF 하세요. 11-7 15-8 13-4 16. 18에서 어떤 수를 WEL] 9가 되었습니다...",
+      "elapsed_seconds": 0.548
+    },
+    {
+      "index": 46,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r2_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r2_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r2_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "linear_equation",
+      "problem_text": "answer=6",
+      "expressions": [
+        "answer=6",
+        "11-4=|"
+      ],
+      "computed_answer": "6",
+      "matched_choice": "",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "source_preview": "answer=6 u-2=[ | u-3=[_ | u-4=[_ | u-s=[ | > 같은 수에서 1씩 커지는 수를 빼면 차는 1씩 (작아집니다 / 커집니다). 13. | ㅣ 안에 알맞은 수를 써넣으세요. |15-| |=9 > 같은 수에서 1씩 커지는 수를 빠면 13. 안에 알맞은 수를 써넣으세요 15-| ㅣ 11-4=| o> 2S AOA 1씩 커지는 AS 빼면 u-2=[ | u-3=[_ |...",
+      "elapsed_seconds": 0.563
+    },
+    {
+      "index": 47,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r2_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r2_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r2_c2.png",
+      "status": "review",
+      "issues": [
+        "topic_unknown",
+        "card_topic_unknown"
+      ],
+      "math_topic": "unknown",
+      "display_topic": "unknown",
+      "problem_text": "17, 겹시에 현미 과자 6개와 SSR 과자 9개가 18. 준서는 우리나라 우표 7장과 다른 나라 우 표 9장을 모았고, 세하는 우리나라 우표 8장과 다른 나라 우표 7장을 모았습니다. 모은 우표 TL. BAO 현미 과사 0개와 SSA 과자 9개가 ㅣ. 겹시에 현미 과자 0개와 SSR 과자 9개가 다른 나라 우표 TSS 모았습니다. 모은 우표",
+      "expressions": [],
+      "computed_answer": "18.0000000000000",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "verified",
+      "source_preview": "17, 겹시에 현미 과자 6개와 SSR 과자 9개가 18. 준서는 우리나라 우표 7장과 다른 나라 우 표 9장을 모았고, 세하는 우리나라 우표 8장과 다른 나라 우표 7장을 모았습니다. 모은 우표 TL. BAO 현미 과사 0개와 SSA 과자 9개가 ㅣ. 겹시에 현미 과자 0개와 SSR 과자 9개가 다른 나라 우표 TSS 모았습니다. 모은 우표 17, 겹시에 현미 과자 6개와 SSR 과자...",
+      "elapsed_seconds": 0.887
+    },
+    {
+      "index": 48,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r3_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r3_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r3_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "probability",
+      "problem_text": "answer=8",
+      "expressions": [
+        "answer=8",
+        "answer=9",
+        "answer=7",
+        "15-[ _]=7",
+        "15-[ _]=6"
+      ],
+      "computed_answer": "8",
+      "matched_choice": "",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "source_preview": "answer=8 15-| ]|=8 15-[ _]=7 15-[ _]=6 14. 수 카드 중 24S 뽑아 가장 작은 몇십몇을 14. 수 카드 중 2장을 뽑아 가장 작은 몇십몇을 15-[ ]=8 15-| ]|=8 15-[ _]=7 15-[ _]=6 14. 수 카드 중 24S 뽑아 가장 작은 몇십몇을 14. 수 카드 중 2장을 뽑아 가장 작은 몇십몇을 15-[ ]=8",
+      "elapsed_seconds": 0.505
+    },
+    {
+      "index": 49,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r3_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r3_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_002_tile_r3_c2.png",
+      "status": "review",
+      "issues": [
+        "expression_missing"
+      ],
+      "math_topic": "geometry",
+      "display_topic": "geometry",
+      "problem_text": "20. 놀이 공원의 관람 열차에 19명이 타야 출발",
+      "expressions": [],
+      "computed_answer": "20.0000000000000",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "verified",
+      "source_preview": "20. 놀이 공원의 관람 열차에 19명이 타야 출발 19. 혜정이는 글 17개 중에서 9개를 먹었습니 20, 놀이 공원의 관람 열차에 1240] 타야 출발 한다고 합니다. 지금 5명이 타고 있다면 몇 명 20. 놀이 공원의 관람 열차에 19명이 타야 출발 19. 혜정이는 글 17개 중에서 9개를 먹었습니 20, 놀이 공원의 관람 열차에 1240] 타야 출발 한다고 합니다. 지금 5명이 ...",
+      "elapsed_seconds": 0.663
+    },
+    {
+      "index": 50,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003.png",
+      "status": "non_problem",
+      "issues": [
+        "non_question_image",
+        "ocr_noise_high"
+      ],
+      "math_topic": "geometry",
+      "display_topic": "geometry",
+      "problem_text": "단원평가 [3회] 정답",
+      "expressions": [
+        "8+4 7+7 |"
+      ],
+      "computed_answer": "62",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "needs_review",
+      "source_preview": "단원평가 [3회] 정답 [초1-21 6. 덧셈과 BCs) [단원평가 3회] https://skai.tistory.com/ 하루공부빔 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [3회] 정답 1) (왼쪽부터) 15, 15, 5 2) (위에서부터) 8, 4 3) (위에서부터) 13, 3 8+4 7+7 | 4) 5) 8 6) 15 7) 7 8) 15 9) 11, 7 10) < [초1-2...",
+      "elapsed_seconds": 1.521
+    },
+    {
+      "index": 51,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r1_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r1_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r1_c1.png",
+      "status": "non_problem",
+      "issues": [
+        "non_question_image",
+        "ocr_noise_high",
+        "expression_missing",
+        "card_needs_review"
+      ],
+      "math_topic": "geometry",
+      "display_topic": "geometry",
+      "problem_text": "단원평가 [3회] 정답",
+      "expressions": [],
+      "computed_answer": "3",
+      "matched_choice": "3. (위에서부터) 13, 3",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "verified",
+      "source_preview": "단원평가 [3회] 정답 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [3회] 정답 1) (왼쪽부터) 15, 15, 5 2) (위에서부터) 8, 4 3) (위에서부터) 13, 3 | 80 | 4) [21-2] 6단원. 덧셈과 Bk (3) | 6+8 | | 9+4 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [3회] 정답 1) (왼쪽부터) 15, 15, 5 2) (위에서부터) 8, ...",
+      "elapsed_seconds": 0.472
+    },
+    {
+      "index": 52,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r2_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r2_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r2_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "topic_unknown",
+        "card_topic_unknown"
+      ],
+      "math_topic": "unknown",
+      "display_topic": "unknown",
+      "problem_text": "5) 8 6) 15 7) 7 8) 15 9) 11, 7 10) < 11) 8, 7, 6, 5 12) 9, 8, 7, 6 / '작아집니다' 에 OF 131 66 782 9 131 6 729 131 6 782 0",
+      "expressions": [],
+      "computed_answer": "131667829131672913167820",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "verified",
+      "source_preview": "5) 8 6) 15 7) 7 8) 15 9) 11, 7 10) < 11) 8, 7, 6, 5 12) 9, 8, 7, 6 / '작아집니다' 에 OF 131 66 782 9 131 6 729 131 6 782 0 5) 8 6) 15 7) 7 8) 15 9) 11, 7 10) < 11) 8, 7, 6, 5 12) 9, 8, 7, 6 / '작아집니다' 에 OF 131 66 782 9 131 6...",
+      "elapsed_seconds": 0.48
+    },
+    {
+      "index": 53,
+      "case_id": "skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r3_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r3_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]/skai_g1_01_01_초1-2-6.덧셈과_뺄셈(3)_[3회]_page_003_tile_r3_c1.png",
+      "status": "review",
+      "issues": [
+        "solve_failed",
+        "card_needs_review"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "15) 13-4에 OF",
+      "expressions": [],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "15) 13-4에 OF 4) 6 5) 18-4에 O# 6) 9 7) 15개 8) 준서 9) 8개 20) 78 14) 6 15) 13-4에 OF 16) 9 17) 15개 18) 준서 19) 8개 4) 6 5) 18-4에 O# 6) 9 7) 15개 8) 준서 9) 8개 20) 78 14) 6 15) 13-4에 OF 16) 9 17) 15개 18) 준서 19) 8개",
+      "elapsed_seconds": 0.36
+    },
+    {
+      "index": 54,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "arithmetic",
+      "problem_text": "3. ㅣ | 안에 알맞은 수를 써넣으시 8. 가장 작은 수와 가장 큰 수의 합을 구하시오",
+      "expressions": [
+        "answer=3",
+        "1+10",
+        "17-8 ( ) 7+8",
+        "9+| |=12"
+      ],
+      "computed_answer": "3",
+      "matched_choice": "",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "source_preview": "3. ㅣ | 안에 알맞은 수를 써넣으시 8. 가장 작은 수와 가장 큰 수의 합을 구하시오 단원평가 초 1-2 08: | [2회] 6단원. 덧셈과 밸셈(3) at 1. 10을 이용하여 모으기와 가르기를 한 것입니 6, 덧셈을 해 보세요 다. 빈칸에 알맞은 수를 넣어 보세요. eleeee (01010|101@' +3-(_] 2. | ㅣ 안에 알맞은 수를 써넣으시오. : 7 . 7. | | ...",
+      "elapsed_seconds": 1.896
+    },
+    {
+      "index": 55,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r1_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r1_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r1_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "solve_failed",
+        "card_needs_review"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "arithmetic",
+      "problem_text": "ea) Bee =",
+      "expressions": [],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "ea) Bee = fo] 더 = ees! [28] 6단원. 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 7SG 10 ea) Bee = Citas 호 6단원 ane [28] 미운 5 [231] 6단원. fo] 더 = ees! [28] 6단원. 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 7SG 10 ...",
+      "elapsed_seconds": 0.812
+    },
+    {
+      "index": 56,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r1_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r1_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r1_c2.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "7+8=| |",
+      "expressions": [
+        "7+8=| |"
+      ],
+      "computed_answer": "15",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "7+8=| | 덧셈과 밸셈(3) 점수 : 6. GAS 해 보세요. 00 여 이이이이이 7+8=| | 6. 덧셈을 해 보세요. @0101010101 010101010@0| ?748=| | @00101010 010101010 덧셈과 밸셈(3) 점수 : 6. GAS 해 보세요. 00 여 이이이이이 7+8=| | 6. 덧셈을 해 보세요. @0101010101 010101010@0| ?748=|...",
+      "elapsed_seconds": 0.665
+    },
+    {
+      "index": 57,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r2_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r2_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r2_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "linear_equation",
+      "problem_text": "7+ 6=",
+      "expressions": [
+        "7+ 6=",
+        "7+ 6ㅋ1 ㅣ",
+        "7+ 6=[_|",
+        "11-5ㅋ |"
+      ],
+      "computed_answer": "13",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "needs_review",
+      "source_preview": "7+ 6= 2. [ ㅣ 안에 알맞은 수를 써넣으시오. 11-5ㅋ | 4 3. 안에 알맞은 수를 써넣으시오. 7+ 6= / 3 3. [ ㅣ 안에 알맞은 수를 써넣으시오. 7+ 6=[_| /\\ 3 [| 2. [ ㅣ 안에 알맞은 +B 써넣으시오. 3. | ㅣ 안에 알맞은 수를 써넣으시오. 7+ 6ㅋ1 ㅣ 2. [ ㅣ 안에 알맞은 수를 써넣으시오. 11-5ㅋ | 4 3. 안에 알맞은 수를 써넣...",
+      "elapsed_seconds": 0.527
+    },
+    {
+      "index": 58,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r2_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r2_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r2_c2.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "solve_failed",
+        "answer_missing",
+        "card_needs_review"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "linear_equation",
+      "problem_text": "8. 가장 작은 수와 가장 큰 수의 YS 구하시오",
+      "expressions": [
+        "9+( |= 12"
+      ],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "8. 가장 작은 수와 가장 큰 수의 YS 구하시오 2 7. ㅣ | 안에 알맞은 수를 써 넣으세요. 9+( |= 12 8. 가장 작은 수와 가장 B AO] HS 구하시오. 0 4 3 9 7. [ | 안에 알맞은 수를 써 넣으세요. 9+| Jew 8. 가장 작은 수와 가장 큰 수의 YS 구하시오. 6 4 3 9 2 7. ㅣ | 안에 알맞은 수를 써 넣으세요. 9+( |= 12 8. 가장 작...",
+      "elapsed_seconds": 0.396
+    },
+    {
+      "index": 59,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r3_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r3_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r3_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "6+6 5+8",
+      "expressions": [
+        "6+6 5+8",
+        "9+2 7+5",
+        "17-8=ㅋ| |",
+        "8-8=[ |"
+      ],
+      "computed_answer": "79",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "verified",
+      "source_preview": "6+6 5+8 4, 합이 1221 덧셈식을 모두 찾아 색칠해 보세요. 6+6 5+8 9+2 7+5 5. 밸셈을 해 보세요. 17-8=ㅋ| | 4, 합이 1291 덧셈식을 모두 찾아 색칠해 보세요. 5 . was 해 보세요. 8-8=[ | 4. 합이 12인 덧셈식을 모두 찾아 색칠해 보세요. 4, 합이 1221 덧셈식을 모두 찾아 색칠해 보세요. 6+6 5+8 9+2 7+5 5. 밸셈을 ...",
+      "elapsed_seconds": 0.457
+    },
+    {
+      "index": 60,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r3_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r3_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_001_tile_r3_c2.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "17-8 ( ) 7+8",
+      "expressions": [
+        "17-8 ( ) 7+8",
+        "17-8OC) 7+8",
+        "+8 -9"
+      ],
+      "computed_answer": "-1",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "17-8 ( ) 7+8 9. 빈칸에 알맞은 수를 써넣으세요. +8 -9 7 10. 계산 결과를 비교하여 CE 안에 >, =, < 17-8 ( ) 7+8 17-8OC) 7+8 +8 | 9. 빈칸에 알맞은 수를 써넣으세요. +8 -9 7 10. 계산 결과를 비교하여 CE 안에 >, =, < 17-8 ( ) 7+8 17-8OC) 7+8 +8 |",
+      "elapsed_seconds": 0.489
+    },
+    {
+      "index": 61,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "geometry",
+      "display_topic": "arithmetic",
+      "problem_text": "- 가 가진 초콜릿은 모두 몇 개일까요?",
+      "expressions": [
+        "14-8 8+6 12-3",
+        "8+9=|",
+        "7+9=|",
+        "6+9=|"
+      ],
+      "computed_answer": "535",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "verified",
+      "source_preview": "- 가 가진 초콜릿은 모두 몇 개일까요? [초1-2] 6. 덧셈과 Ha(3) [단원평가 2회] https://skai.tistory.com/ 하루공부방 11. [ ] 안에 알맞은 수를 써넣고 알맞은 말에 15, 계산 결과가 9인 것을 찾아 OF 하세요. 14-8 8+6 12-3 8+9=| 7+9=| 6+9=| - 16. 130) 어떤 AS BWejL] 이 되었습니다. 00=[ | 어떤 ...",
+      "elapsed_seconds": 3.667
+    },
+    {
+      "index": 62,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r1_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r1_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r1_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "linear_equation",
+      "problem_text": "8+9=",
+      "expressions": [
+        "8+9=",
+        "7+9=",
+        "6+9=",
+        "5+9=",
+        "7+9=|"
+      ],
+      "computed_answer": "17",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "8+9= 11. [ ] 안에 알맞은 수를 써넣고 알맞은 말에 8+9= 7+9= 6+9= 5+9= > 14 작아지는 수에 같은 수를 더하면 합은 1씩 (작아집니다 / 커집니다). © 1씩 작아지는 수에 같은 수를 더하면 11. [ | 안에 알맞은 수를 써넣고 알맞은 말에 7+9=| 6+9=| 5+9=| > 1씩 작아지는 수에 같은 수를 더하면 11. [ ] 안에 알맞은 수를 써넣고 알맞은...",
+      "elapsed_seconds": 0.611
+    },
+    {
+      "index": 63,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r1_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r1_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r1_c2.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "14-8 8+6 12-3",
+      "expressions": [
+        "14-8 8+6 12-3"
+      ],
+      "computed_answer": "535",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "verified",
+      "source_preview": "14-8 8+6 12-3 15. 계산 결과가 9인 것을 찾아 OF 하세요. 14-8 8+6 12-3 16. 1304 어떤 수를 WEL] 7이 되었습니다. 16. 13에서 어떤 수를 WEIL] 70] 되었습니다. 16. 13에서 어떤 +S WEL] 7이 되었습니다. 15. 계산 결과가 9인 것을 찾아 OF 하세요. 14-8 8+6 12-3 16. 1304 어떤 수를 WEL] 7이 되었습니...",
+      "elapsed_seconds": 0.545
+    },
+    {
+      "index": 64,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r2_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r2_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r2_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "linear_equation",
+      "problem_text": "answer=8",
+      "expressions": [
+        "answer=8",
+        "11-5=",
+        "14-5=|",
+        "12-6=| |",
+        "13-7=[ |"
+      ],
+      "computed_answer": "8",
+      "matched_choice": "",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "source_preview": "answer=8 12. [ | 안에 알맞은 수를 써넣으세요. 14-5=| 12-6=| | 13-7=[ | 14-8=| | 13. | ㅣ 안에 알맞은 수를 써넣으세요. 14-| ]=6 12. 안에 알맞은 수를 써넣으세요. 11-5= 13, | | 안에 알맞은 수를 써넣으세요. 1 13. [ | 안에 알맞은 AS 써넣으세요. | 14-| |=6 | 12. [ | 안에 알맞은 수를 써넣으세요...",
+      "elapsed_seconds": 0.55
+    },
+    {
+      "index": 65,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r2_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r2_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r2_c2.png",
+      "status": "review",
+      "issues": [
+        "solve_failed",
+        "card_needs_review"
+      ],
+      "math_topic": "geometry",
+      "display_topic": "geometry",
+      "problem_text": "ㅣ / , 진우는 조골릿을 7개 가지고 있었는데 예원",
+      "expressions": [],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "ㅣ / , 진우는 조골릿을 7개 가지고 있었는데 예원 ㅣ / , 진우는 조골릿을 7개 가지고 있었는데 예원 18. 서준이는 빨간색 색종이 8장과 노란 색종이 6장을 가지고 있고, 윤서는 빨간색 색종이 9장 과 노란 색종이 4장을 가지고 있습니다. 색종이 if, 진무는 fake /개 가지고 있었는데 예원 이가 초콜릿 5개를 진우에게 주었습니다. 진우 0장을 가지고 있고, 윤서는 빨간색 색...",
+      "elapsed_seconds": 0.836
+    },
+    {
+      "index": 66,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r3_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r3_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r3_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "probability",
+      "problem_text": "answer=13",
+      "expressions": [
+        "answer=13",
+        "answer=8",
+        "answer=5",
+        "answer=7",
+        "answer=6"
+      ],
+      "computed_answer": "13",
+      "matched_choice": "",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "source_preview": "answer=13 14-[ ]=1 14-[ ]=6 14-[ ]=9 14, 수 카드 중 2장을 뽑아 가장 작은 wags | 14-| |=7 14-| |=8 14-| |=9 14. 수 카드 중 2장을 뽑아 가장 작은 몇십몇을 14-[ ]=1 14-[ ]=6 14-[ ]=9 14, 수 카드 중 2장을 뽑아 가장 작은 wags | 14-| |=7 14-| |=8 14-| |=9 14. 수 카드...",
+      "elapsed_seconds": 0.504
+    },
+    {
+      "index": 67,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r3_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r3_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_002_tile_r3_c2.png",
+      "status": "review",
+      "issues": [
+        "topic_unknown",
+        "card_topic_unknown"
+      ],
+      "math_topic": "unknown",
+      "display_topic": "unknown",
+      "problem_text": "19. 운동장에서 있던 학생 15명 중에서 7명이 20. 방문객 14명에게 기념품을 한 개씩 나누어 주려고 합니다. 기념품이 6개 있다면 더 필요한 19. 운동장에서 있던 학생 15명 중에서 ?명이 주려고 합니다. 기념품이 0개 있다면 더 필요한",
+      "expressions": [],
+      "computed_answer": "19.0000000000000",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "verified",
+      "source_preview": "19. 운동장에서 있던 학생 15명 중에서 7명이 20. 방문객 14명에게 기념품을 한 개씩 나누어 주려고 합니다. 기념품이 6개 있다면 더 필요한 19. 운동장에서 있던 학생 15명 중에서 ?명이 주려고 합니다. 기념품이 0개 있다면 더 필요한 19. 운동장에서 있던 학생 15명 중에서 7명이 20. 방문객 14명에게 기념품을 한 개씩 나누어 주려고 합니다. 기념품이 6개 있다면 더 ...",
+      "elapsed_seconds": 0.762
+    },
+    {
+      "index": 68,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003.png",
+      "status": "non_problem",
+      "issues": [
+        "non_question_image",
+        "ocr_noise_high"
+      ],
+      "math_topic": "geometry",
+      "display_topic": "arithmetic",
+      "problem_text": "단원평가 [2회] 정답",
+      "expressions": [
+        "6+6 5+8",
+        "9+2 7+5"
+      ],
+      "computed_answer": "79",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "needs_review",
+      "source_preview": "단원평가 [2회] 정답 [초1-21 6. 덧셈과 Ws) [단원평가 2회] https://skai.tistory.com/ 하루공부빔 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [2회] 정답 1) (왼쪽부터) 16, 16, 6 2) (위에서부터) 6, 1 3) (위에서부터) 13, 3 6+6 5+8 4) 9+2 7+5 5) 9 6) 15 7) 3 8) 12 9) 15, 6 [초1-21...",
+      "elapsed_seconds": 1.452
+    },
+    {
+      "index": 69,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r1_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r1_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r1_c1.png",
+      "status": "non_problem",
+      "issues": [
+        "non_question_image",
+        "ocr_noise_high"
+      ],
+      "math_topic": "geometry",
+      "display_topic": "arithmetic",
+      "problem_text": "단원평가 [2회] 정답",
+      "expressions": [
+        "6+6 5+8",
+        "9+2 7+5",
+        "| 9+2 |"
+      ],
+      "computed_answer": "79",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "needs_review",
+      "source_preview": "단원평가 [2회] 정답 [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [2회] 정답 1) (왼쪽부터) 16, 16, 6 2) (위에서부터) 6. 1 3) (위에서부터) 13, 3 6+6 5+8 4) 9+2 7+5 2) (위에서부터) 6, 1 [21-2] 6단원. 덧셈과 빨셈(3) | 9+2 | [초1-2] 6단원. 덧셈과 밸셈(3) 단원평가 [2회] 정답 1) (왼쪽부터) 16, 16...",
+      "elapsed_seconds": 0.533
+    },
+    {
+      "index": 70,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r2_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r2_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r2_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "solve_failed",
+        "topic_unknown",
+        "card_needs_review",
+        "card_topic_unknown"
+      ],
+      "math_topic": "unknown",
+      "display_topic": "unknown",
+      "problem_text": "5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다에 OF 12) 6, 6, 6, 6 12) 2 7ER 412A) Q 7FK 트 11) 17, 16, 15, 14 / '작아집니다'에 OF 12\\2 7? 6 톡",
+      "expressions": [],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다에 OF 12) 6, 6, 6, 6 12) 2 7ER 412A) Q 7FK 트 11) 17, 16, 15, 14 / '작아집니다'에 OF 12\\2 7? 6 톡 5) 9 6) 15 7) 8 8) 12 9) 15, 6 10) < 11) 17, 16, 15, 14 / '작아집니다...",
+      "elapsed_seconds": 0.5
+    },
+    {
+      "index": 71,
+      "case_id": "skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r3_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r3_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]/skai_g1_02_01_초1-2-6.덧셈과_뺄셈(3)_[2회]_page_003_tile_r3_c1.png",
+      "status": "review",
+      "issues": [
+        "solve_failed",
+        "card_needs_review"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "15) 12-3에 OF",
+      "expressions": [],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "15) 12-3에 OF 그이 은 0 7 으아 1호이 4) 8 5) 12-3에 OF 6) 6 7) 1274 8) 서준 9) 8명 20) 8개 14) 8 15) 12-3에 OF 16) 6 17) 12개 18) 서준 19) 8명 그이 은 0 7 으아 1호이 4) 8 5) 12-3에 OF 6) 6 7) 1274 8) 서준 9) 8명 20) 8개 14) 8 15) 12-3에 OF 16) 6 17...",
+      "elapsed_seconds": 0.412
+    },
+    {
+      "index": 72,
+      "case_id": "skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "probability",
+      "display_topic": "probability",
+      "problem_text": "3. | | 안에 알맞은 수를 써넣으시오. : 8. 가장 작은 수와 가장 큰 수의 합을 구하시오",
+      "expressions": [
+        "15-6=| |"
+      ],
+      "computed_answer": "9",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "3. | | 안에 알맞은 수를 써넣으시오. : 8. 가장 작은 수와 가장 큰 수의 합을 구하시오 ee 단원평가 2 1-2 8 [1회] 6단원. 덧셈과 밸셈(3) 점수 1. 10을 이용하여 모으기와 가르기를 한 것입니 ： 6, HHS 해 보세요 다. Ecol SSE Te Sol 보세요. _ :이이이006 ‘ofofafojo 5 ?7| ~ pt : | 아아아 ㅣ 000 의이이 의의의의 이시...",
+      "elapsed_seconds": 1.935
+    },
+    {
+      "index": 73,
+      "case_id": "skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r1_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r1_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r1_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "solve_failed",
+        "card_needs_review"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "arithmetic",
+      "problem_text": "ea) Bee =",
+      "expressions": [],
+      "computed_answer": "",
+      "matched_choice": "",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "failed",
+      "source_preview": "ea) Bee = fo] 더 = ee! [1회] 6단원. 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 5So 10 ea) Bee = Citas 호 6단원 미운 5 131] 6단원. fo] 더 = ee! [1회] 6단원. 1. 10을 이용하여 모으기와 가르기를 한 것입니 다. 빈칸에 알맞은 수를 넣어 보세요. 5So 10 ea) Bee = Ci...",
+      "elapsed_seconds": 0.83
+    },
+    {
+      "index": 74,
+      "case_id": "skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r1_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r1_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r1_c2.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "fraction_ratio",
+      "display_topic": "fraction_ratio",
+      "problem_text": "2.0/0.0dees",
+      "expressions": [
+        "2.0/0.0dees",
+        "5+9=| |"
+      ],
+      "computed_answer": "14",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "2.0/0.0dees 6. 덧셈을 해 보세요. 2.0/0.0dees SeS22OBE 이 | 5+9=| [| 덧셈과 WH Ail(3) 점수 : (이이이이이 이이0(ㅇ 5+9=| | 덧셈과 밸셈(3) ae: OJO/O|O 6. 덧셈을 해 보세요. 2.0/0.0dees SeS22OBE 이 | 5+9=| [| 덧셈과 WH Ail(3) 점수 : (이이이이이 이이0(ㅇ 5+9=| | 덧셈과 밸셈(...",
+      "elapsed_seconds": 0.691
+    },
+    {
+      "index": 75,
+      "case_id": "skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r2_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r2_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r2_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "arithmetic",
+      "problem_text": "16-9ㅋ=",
+      "expressions": [
+        "16-9ㅋ=",
+        "6+ 55",
+        "16-9ㅋ |"
+      ],
+      "computed_answer": "16/9",
+      "matched_choice": "",
+      "solver_name": "sympy_worker_equation_solver",
+      "validation_status": "needs_review",
+      "source_preview": "16-9ㅋ= 2. [ | 안에 알맞은 수를 써넣으시오. 16-9ㅋ= ZL * [13 3. [ ㅣ 안에 알맞은 수를 써넣으시오 6+ 55 /\\ 4 2.0oN C3 3. -_ 4 | | 2. [ ㅣ 안에 알맞은 수를 써넣으시오. 16-9ㅋ | 2. [ | 안에 알맞은 수를 써넣으시오. 16-9ㅋ= ZL * [13 3. [ ㅣ 안에 알맞은 수를 써넣으시오 6+ 55 /\\ 4 2.0oN C3 ...",
+      "elapsed_seconds": 0.725
+    },
+    {
+      "index": 76,
+      "case_id": "skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r2_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r2_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r2_c2.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "linear_equation",
+      "problem_text": "8. 가장 작은 수와 가장 큰 수의 HS 구하시오",
+      "expressions": [
+        "answer=11",
+        "s+( |=15",
+        "8+[ |= 15"
+      ],
+      "computed_answer": "11",
+      "matched_choice": "",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "source_preview": "8. 가장 작은 수와 가장 큰 수의 HS 구하시오 7. | ㅣ 안에 알맞은 수를 써 넣으세요. 8+[ |= 15 8. 가장 작은 수와 가장 큰 수의 HS 구하시오. 6 7 5 4 s+( |=15 8. 가장 작은 수와 가장 큰 수의 합을 구하시오. 0 7 0 4 7. | ㅣ 안에 알맞은 수를 써 넣으세요. 8+[ |= 15 8. 가장 작은 수와 가장 큰 수의 HS 구하시오. 6 7 5 4...",
+      "elapsed_seconds": 0.355
+    },
+    {
+      "index": 77,
+      "case_id": "skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r3_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r3_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r3_c1.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "8+3 3+8",
+      "expressions": [
+        "8+3 3+8",
+        "5+7 7+6"
+      ],
+      "computed_answer": "49",
+      "matched_choice": "",
+      "solver_name": "direct_numeric_solver",
+      "validation_status": "verified",
+      "source_preview": "8+3 3+8 4, 합이 11인 덧셈식을 모두 찾아 색칠해 보세요. 8+3 3+8 5+7 7+6 5. 밸셈을 해 보세요. s-6=[ ㅣ 4. 합이 11인 덧셈식을 모두 찾아 색칠해 보세요. 5 . WIS 해 보세요. 0 4. 합이 11인 덧셈식을 모두 찾아 색칠해 보세요. ， 4, 합이 11인 덧셈식을 모두 찾아 색칠해 보세요. 8+3 3+8 5+7 7+6 5. 밸셈을 해 보세요. s-...",
+      "elapsed_seconds": 0.445
+    },
+    {
+      "index": 78,
+      "case_id": "skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r3_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r3_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_001_tile_r3_c2.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "16-9 ( ) 5+6",
+      "expressions": [
+        "16-9 ( ) 5+6",
+        "+7 -8"
+      ],
+      "computed_answer": "-1",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "16-9 ( ) 5+6 9, 빈칸에 알맞은 +S 써넣으세요. +7 -8 9 10. 계산 결과를 비교하여 (_) 안에 >, =, < 16-9 ( ) 5+6 J. 빈칸에 알맞은 수를 써넣으세요. 10. 계산 결과를 비교하여 CE 안에 >, =, < J, 빈칸에 알맞은 수를 써넣으세요. 9, 빈칸에 알맞은 +S 써넣으세요. +7 -8 9 10. 계산 결과를 비교하여 (_) 안에 >, =, <...",
+      "elapsed_seconds": 0.56
+    },
+    {
+      "index": 79,
+      "case_id": "skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "geometry",
+      "display_topic": "probability",
+      "problem_text": "15-9=| _ ( )",
+      "expressions": [
+        "15-9=| _ ( )",
+        "15-6=|",
+        "8+6=| | ( ㅣ",
+        "7+6=| |"
+      ],
+      "computed_answer": "6",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "15-9=| _ ( ) [초1-2] 6. 덧셈과 (3) [단원평가 1회] https://skai.tistory.com/ 하루공부방 11. [ ] 안에 알맞은 수를 써넣고 알맞은 말에 ： 14. 수 카드 중 2장을 뽑아 가장 작은 몇십몇을 501 4) 띠 8+6=| | ( ㅣ 7+6=| | 6+6=[_| 15. 계산 결과가 8인 AS 찾아 OF 하세요. > 1씩 작아지는 수에 같은 수를 ...",
+      "elapsed_seconds": 3.797
+    },
+    {
+      "index": 80,
+      "case_id": "skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r1_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r1_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r1_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "linear_equation",
+      "problem_text": "9+6=",
+      "expressions": [
+        "9+6=",
+        "8+6=",
+        "7+6=",
+        "6+6=",
+        "9+6=| |"
+      ],
+      "computed_answer": "15",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "9+6= 11. [ ] 안에 알맞은 수를 써넣고 알맞은 말에 9+6= 8+6= 7+6= 6+6= > 14 작아지는 40] 같은 수를 더하면 합은 1씩 (작아집니다 / 커집니다). 11. | ㅣ 안에 알맞은 수를 써넣고 알맞은 말에 9+6=| | 8+6=| | 7+6=| | 6+6=| | > 14 작아지는 수에 같은 수를 더하면 11. [ | 안에 알맞은 수를 써넣고 알맞은 말에 11. ...",
+      "elapsed_seconds": 0.678
+    },
+    {
+      "index": 81,
+      "case_id": "skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r1_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r1_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r1_c2.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "arithmetic",
+      "display_topic": "probability",
+      "problem_text": "11-6 156-ㅡ 7 7+4",
+      "expressions": [
+        "11-6 156-ㅡ 7 7+4",
+        "11-6 15-7 7+4"
+      ],
+      "computed_answer": "-677",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "11-6 156-ㅡ 7 7+4 14. 수 카드 중 2장을 뽑아 가장 작은 몇십몇을 15. 계산 결과가 8인 것을 찾아 OF 하세요. 11-6 156-ㅡ 7 7+4 11-6 15-7 7+4 14. 수 카드 중 2장을 뽑아 가장 작은 몇십몇을 15. 계산 결과가 8인 것을 찾아 OF 하세요. 11-6 156-ㅡ 7 7+4 11-6 15-7 7+4",
+      "elapsed_seconds": 0.679
+    },
+    {
+      "index": 82,
+      "case_id": "skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r2_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r2_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r2_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "15-7=| _",
+      "expressions": [
+        "15-7=| _",
+        "15-8=| _",
+        "15-9=| _",
+        "15-6=|",
+        "15-9=|"
+      ],
+      "computed_answer": "8",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "15-7=| _ 12. 안에 알맞은 +S 써넣고 알맞은 Bol] 15-6=| 15-7=| _ 15-8=| _ 15-9=| > 같은 수에서 1씩 커지는 수를 빼면 차는 1씩 (작아집니다 / 커집니다). 12. [ | 안에 알맞은 수를 써넣고 알맞은 gol 15-9=| _ = 같은 수에서 1씩 커지는 수를 빠면 12. | ㅣ 안에 알맞은 수를 써넣고 알맞은 Yo > He 수에서 1씩 커지는...",
+      "elapsed_seconds": 0.712
+    },
+    {
+      "index": 83,
+      "case_id": "skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r2_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r2_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r2_c2.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high",
+        "topic_unknown",
+        "card_topic_unknown"
+      ],
+      "math_topic": "unknown",
+      "display_topic": "unknown",
+      "problem_text": "16. 11에서 어떤 수를 BEL] 5가 되었습니다. 17. 윤희는 스티커북에 스티커를 os 붙인 후 5개를 더 붙였습니다. 스티커북에 붙인 스티커 18. 수호는 딸기 7개와 글 0개를 먹었고, 유진 Ale cheol 0기0 고 기고 HSA I-L mu 16. 11에서 어떤 수를 Bei] 5가 되었습니다. 17. 윤희는 스티커북에 스티커를 6개를 붙인 후 18. 수호는 딸기 7개와 글 ...",
+      "expressions": [],
+      "computed_answer": "7206",
+      "matched_choice": "ㄴ [다] (7206) Ta AwWwe HOA, irl 서느",
+      "solver_name": "arithmetic_solver",
+      "validation_status": "verified",
+      "source_preview": "16. 11에서 어떤 수를 BEL] 5가 되었습니다. 17. 윤희는 스티커북에 스티커를 os 붙인 후 5개를 더 붙였습니다. 스티커북에 붙인 스티커 18. 수호는 딸기 7개와 글 0개를 먹었고, 유진 Ale cheol 0기0 고 기고 HSA I-L mu 16. 11에서 어떤 수를 Bei] 5가 되었습니다. 17. 윤희는 스티커북에 스티커를 6개를 붙인 후 18. 수호는 딸기 7개와 글 ...",
+      "elapsed_seconds": 1.246
+    },
+    {
+      "index": 84,
+      "case_id": "skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r3_c1",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r3_c1.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r3_c1.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "linear_equation",
+      "display_topic": "linear_equation",
+      "problem_text": "answer=13",
+      "expressions": [
+        "answer=13",
+        "answer=14",
+        "answer=6",
+        "answer=9",
+        "12- =6"
+      ],
+      "computed_answer": "13",
+      "matched_choice": "",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "source_preview": "answer=13 13. [ | 안에 알맞은 수를 써넣으세요. 19-| ]=6 18-| |=5 18-| |=4 19-| ]=3 12- =6 = =5 12-| |-4 12- =3 13. | | 안에 알맞은 수를 써넣으세요. 13. [ | 안에 알맞은 수를 써넣으세요. 19-| ]=6 18-| |=5 18-| |=4 19-| ]=3 12- =6 = =5 12-| |-4 12- =3 13. ...",
+      "elapsed_seconds": 0.537
+    },
+    {
+      "index": 85,
+      "case_id": "skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r3_c2",
+      "band": "초등",
+      "grade": 1,
+      "source_kind": "pdf_capture",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r3_c2.png",
+      "relative_path": "02.학습문제/05.문제은행/01.초등/1학년/원문PDF캡처/skai/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]/skai_g1_03_01_초1-2-6.덧셈과_뺄셈(3)_[1회]_page_002_tile_r3_c2.png",
+      "status": "review",
+      "issues": [
+        "ocr_noise_high"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "101+19",
+      "expressions": [
+        "101+19"
+      ],
+      "computed_answer": "120",
+      "matched_choice": "",
+      "solver_name": "safe_eval_solver",
+      "validation_status": "verified",
+      "source_preview": "101+19 내 - ~ | 은 ae 0101 \"AW TIT! TN 19. 수진이는 사탕 12개 중에서 5개를 먹었습니 20. 학생 14명에서 연필을 한 자루씩 나누어 주 려고 합니다. 연필이 9자루 있다면 더 필요한 연필은 몇 자루입니까? 그 ster 오노 TES 711 19. 수진이는 사탕 1274 중에서 5가를 먹었습니 기드 호? 보기 은 i 싸번 00 그니 내 - ~ | 은 ae ...",
+      "elapsed_seconds": 1.131
+    }
+  ]
+}

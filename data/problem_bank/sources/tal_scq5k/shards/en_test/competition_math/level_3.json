@@ -1,0 +1,128 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:competition_math:level_3:01984",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1984,
+      "split": "en_test",
+      "source_problem_id": "cc1a73aaa580409e946307a82a412445"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Susan had dinner with her family. She started cooking at $$3:25$$ P.M. and cooked for $2$ hours and $45$ minutes. They finished eating at $8:50$ P.M., how long did they eat?\n(A) 50$$min\n(B) 1$$ h $$50$$ min\n(C) 2$$ h $$50$$ min\n(D) 3$$ h\n(E) 3$$ h $$15$$ min",
+      "problem_plain": "Susan had dinner with her family. She started cooking at 3:25 P.M. and cooked for 2 hours and 45 minutes. They finished eating at 8:50 P.M., how long did they eat? (A) 50 min (B) 1 h 50 min (C) 2 h 50 min (D) 3 h (E) 3 h 15 min",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "2$$ h $$50$$ min",
+      "final_normalized": "2$$ h $$50$$ min",
+      "candidates": [
+        "2$$ h $$50$$ min",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "bus_departure_time_word_problems",
+        "distance_word_problems"
+      ],
+      "tags": [
+        "bus_departure_time_word_problems",
+        "competition_math",
+        "distance_word_problems",
+        "en",
+        "en_test",
+        "level_3",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Susan had dinner with her family. She started cooking at 3:25 P.M. and cooked for 2 hours and 45 minutes. They finished eating at 8:50 P.M., how long did they eat? (A) 50 min (B) 1 h 50 min (C) 2 h 50 min (D) 3 h (E) 3 h 15 min",
+      "solution_text": "",
+      "keywords": [
+        "bus_departure_time_word_problems",
+        "competition_math",
+        "distance_word_problems",
+        "en",
+        "en_test",
+        "level_3",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "7131",
+        "queId": "cc1a73aaa580409e946307a82a412445",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "50$$min"
+          },
+          {
+            "label": "B",
+            "content": "1$$ h $$50$$ min"
+          },
+          {
+            "label": "C",
+            "content": "2$$ h $$50$$ min"
+          },
+          {
+            "label": "D",
+            "content": "3$$ h"
+          },
+          {
+            "label": "E",
+            "content": "3$$ h $$15$$ min"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Distance Word Problems->Bus Departure Time Word Problems"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  }
+]

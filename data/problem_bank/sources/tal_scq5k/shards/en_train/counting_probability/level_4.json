@@ -1,0 +1,2019 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_4:00486",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 486,
+      "split": "en_train",
+      "source_problem_id": "095c9365a11842bd8ec02693f041234d"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A robot is facing south-east.  It makes 58 quarter-turns clockwise, then 93 quarter-turns anti-clockwise.  In which direction is the robot now facing?\n(A) north\n(B) north-east\n(C) north-west\n(D) south-east\n(E) south-west",
+      "problem_plain": "A robot is facing south-east. It makes 58 quarter-turns clockwise, then 93 quarter-turns anti-clockwise. In which direction is the robot now facing? (A) north (B) north-east (C) north-west (D) south-east (E) south-west",
+      "solution_latex": "58 quarter-turn clockwise, 93 quarter-turn anti-clockwise, is the same thing as 35 and 1/4 quarter-turn counterclockwise, 35*1/4=8 turns more than 3/4, so it is facing southwest.",
+      "solution_plain": "58 quarter-turn clockwise, 93 quarter-turn anti-clockwise, is the same thing as 35 and 1/4 quarter-turn counterclockwise, 35*1/4=8 turns more than 3/4, so it is facing southwest."
+    },
+    "answer": {
+      "final_raw": "south-west",
+      "final_normalized": "south-west",
+      "candidates": [
+        "E",
+        "south-west"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "combinations",
+        "counting_modules",
+        "permutations_and_combinations"
+      ],
+      "tags": [
+        "combinations",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "58 quarter-turn clockwise, 93 quarter-turn anti-clockwise, is the same thing as 35 and 1/4 quarter-turn counterclockwise, 35*1/4=8 turns more than 3/4, so it is facing southwest."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A robot is facing south-east. It makes 58 quarter-turns clockwise, then 93 quarter-turns anti-clockwise. In which direction is the robot now facing? (A) north (B) north-east (C) north-west (D) south-east (E) south-west",
+      "solution_text": "58 quarter-turn clockwise, 93 quarter-turn anti-clockwise, is the same thing as 35 and 1/4 quarter-turn counterclockwise, 35*1/4=8 turns more than 3/4, so it is facing southwest.",
+      "keywords": [
+        "combinations",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1269",
+        "queId": "095c9365a11842bd8ec02693f041234d",
+        "difficulty": "3",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "north"
+          },
+          {
+            "label": "B",
+            "content": "north-east"
+          },
+          {
+            "label": "C",
+            "content": "north-west"
+          },
+          {
+            "label": "D",
+            "content": "south-east"
+          },
+          {
+            "label": "E",
+            "content": "south-west"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Permutations and Combinations->Combinations"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_4:00505",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 505,
+      "split": "en_train",
+      "source_problem_id": "0472be3f385843e5a1e6469e31f9df53"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Professor Chang has ten different language books lined up on a bookshelf: three Arabic, three German, and four Spanish. How many ways are there to arrange the ten books on the shelf keeping the Arabic books together and keeping the Spanish books together? (Adapted from $2018$ AMC $8$ Problem, Question \\#$16$)\n(A) 1440\n(B) 2880\n(C) 5760\n(D) 17280\n(E) 34560",
+      "problem_plain": "Professor Chang has ten different language books lined up on a bookshelf: three Arabic, three German, and four Spanish. How many ways are there to arrange the ten books on the shelf keeping the Arabic books together and keeping the Spanish books together? (Adapted from 2018 AMC 8 Problem, Question # 16 ) (A) 1440 (B) 2880 (C) 5760 (D) 17280 (E) 34560",
+      "solution_latex": "Since the three Arabic books and four Spanish books have to be kept together, respectively, we can treat them both as just one book. That means we\\textquotesingle re trying to find the number of ways you can arrange one Arabic book, one Spanish book, and three German books, which is just $\\_5P\\_5$. Now we multiply this product by $\\_3P\\_3\\times \\_4P\\_4$~because there are $\\_3P\\_3$~ways to arrange just three Arabic books, and $\\_4P\\_4$~ways to arrange just four Spanish books. Multiplying all these together, we have the answer $D$.",
+      "solution_plain": "Since the three Arabic books and four Spanish books have to be kept together, respectively, we can treat them both as just one book. That means we re trying to find the number of ways you can arrange one Arabic book, one Spanish book, and three German books, which is just _5P _5 . Now we multiply this product by _3P _3 _4P _4 ~because there are _3P _3 ~ways to arrange just three Arabic books, and _4P _4 ~ways to arrange just four Spanish books. Multiplying all these together, we have the answer D ."
+    },
+    "answer": {
+      "final_raw": "17280",
+      "final_normalized": "17280",
+      "candidates": [
+        "17280",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "counting_modules",
+        "permutations_and_combinations"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Since the three Arabic books and four Spanish books have to be kept together, respectively, we can treat them both as just one book.",
+        "That means we\\textquotesingle re trying to find the number of ways you can arrange one Arabic book, one Spanish book, and three German books, which is just $\\_5P\\_5$.",
+        "Now we multiply this product by $\\_3P\\_3\\times \\_4P\\_4$~because there are $\\_3P\\_3$~ways to arrange just three Arabic books, and $\\_4P\\_4$~ways to arrange just four Spanish books.",
+        "Multiplying all these together, we have the answer $D$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Professor Chang has ten different language books lined up on a bookshelf: three Arabic, three German, and four Spanish. How many ways are there to arrange the ten books on the shelf keeping the Arabic books together and keeping the Spanish books together? (Adapted from 2018 AMC 8 Problem, Question # 16 ) (A) 1440 (B) 2880 (C) 5760 (D) 17280 (E) 34560",
+      "solution_text": "Since the three Arabic books and four Spanish books have to be kept together, respectively, we can treat them both as just one book. That means we re trying to find the number of ways you can arrange one Arabic book, one Spanish book, and three German books, which is just _5P _5 . Now we multiply this product by _3P _3 _4P _4 ~because there are _3P _3 ~ways to arrange just three Arabic books, and _4P _4 ~ways to arrange just four Spanish books. Multiplying all these together, we have the answer D .",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1321",
+        "queId": "0472be3f385843e5a1e6469e31f9df53",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1440"
+          },
+          {
+            "label": "B",
+            "content": "2880"
+          },
+          {
+            "label": "C",
+            "content": "5760"
+          },
+          {
+            "label": "D",
+            "content": "17280"
+          },
+          {
+            "label": "E",
+            "content": "34560"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Permutations and Combinations"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_4:00542",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 542,
+      "split": "en_train",
+      "source_problem_id": "0ca313e40ee74f7ebabdddb18382676c"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Frieda the frog begins a sequence of hops on a $3 \\times 3$ grid of squares, moving one square on each hop and choosing at random the direction of each hop-up, down, left, or right. She does not hop diagonally. When the direction of a hop would take Frieda off the grid, she \"wraps around\" and jumps to the opposite edge. For example if Frieda begins in the center square and makes two hops \"up\", the first hop would place her in the top row middle square, and the second hop would cause Frieda to jump to the opposite edge, landing in the bottom row middle square. Suppose Frieda starts from the center square, makes at most four hops at random, and stops hopping if she lands on a corner square. What is the probability that she reaches a corner square on one of the four hops?\n(A) \\frac{9}{16}\n(B) \\frac{5}{8}\n(C) \\frac{3}{4}\n(D) \\frac{25}{32}\n(E) \\frac{13}{16}",
+      "problem_plain": "Frieda the frog begins a sequence of hops on a 3 3 grid of squares, moving one square on each hop and choosing at random the direction of each hop-up, down, left, or right. She does not hop diagonally. When the direction of a hop would take Frieda off the grid, she \"wraps around\" and jumps to the opposite edge. For example if Frieda begins in the center square and makes two hops \"up\", the first hop would place her in the top row middle square, and the second hop would cause Frieda to jump to the opposite edge, landing in the bottom row middle square. Suppose Frieda starts from the center square, makes at most four hops at random, and stops hopping if she lands on a corner square. What is the probability that she reaches a corner square on one of the four hops? (A) 9 16 (B) 5 8 (C) 3 4 (D) 25 32 (E) 13 16",
+      "solution_latex": "We will use complementary counting. First, the frog can go left with probability $\\frac{1}{4}$. We observe symmetry, so our final answer will be multiplied by $4$ for the $4$ directions, and since $4 \\cdot \\frac{1}{4}=1$, we will ignore the leading probability. From the left, she either goes left to another edge $\\left(\\frac{1}{4}\\right)$ or back to the center $\\left(\\frac{1}{4}\\right)$. Time for some casework.  Case 1: She goes back to the center. Now, she can go in any $4$ directions, and then has $2$ options from that edge. This gives $\\frac{1}{2}$.  Case 2: She goes to another edge (rightmost).  Subcase 1: She goes back to the left edge. She now has $2$ places to go, giving $\\frac{1}{2}$  Subcase 2: She goes to the center. Now any move works. $\\frac{1}{4} \\cdot \\frac{1}{2}+\\frac{1}{4} \\cdot 1=\\frac{1}{8}+\\frac{1}{4}=\\frac{3}{8}$ for this case.  She goes back to the center in Case 1 with probability $\\frac{1}{4}$, and to the right edge with probability $\\frac{1}{4}$ So, our answer is $\\frac{1}{4} \\cdot \\frac{1}{2}+\\frac{1}{4} \\cdot \\frac{3}{8}=\\frac{1}{4}\\left(\\frac{1}{2}+\\frac{3}{8}\\right)=\\frac{1}{4} \\cdot \\frac{7}{8}=\\frac{7}{32}$ But, don\\textquotesingle t forget complementary counting. So, we get $1-\\frac{7}{32}=\\frac{25}{32} \\Longrightarrow D$.",
+      "solution_plain": "We will use complementary counting. First, the frog can go left with probability 1 4 . We observe symmetry, so our final answer will be multiplied by 4 for the 4 directions, and since 4 1 4 =1 , we will ignore the leading probability. From the left, she either goes left to another edge ( 1 4 ) or back to the center ( 1 4 ) . Time for some casework. Case 1: She goes back to the center. Now, she can go in any 4 directions, and then has 2 options from that edge. This gives 1 2 . Case 2: She goes to another edge (rightmost). Subcase 1: She goes back to the left edge. She now has 2 places to go, giving 1 2 Subcase 2: She goes to the center. Now any move works. 1 4 1 2 + 1 4 1= 1 8 + 1 4 = 3 8 for this case. She goes back to the center in Case 1 with probability 1 4 , and to the right edge with probability 1 4 So, our answer is 1 4 1 2 + 1 4 3 8 = 1 4 ( 1 2 + 3 8 )= 1 4 7 8 = 7 32 But, don t forget complementary counting. So, we get 1- 7 32 = 25 32 D ."
+    },
+    "answer": {
+      "final_raw": "\\frac{25}{32}",
+      "final_normalized": "\\frac{25}{32}",
+      "candidates": [
+        "D",
+        "\\frac{25}{32}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "counting_modules"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "We will use complementary counting.",
+        "First, the frog can go left with probability $\\frac{1}{4}$.",
+        "We observe symmetry, so our final answer will be multiplied by $4$ for the $4$ directions, and since $4 \\cdot \\frac{1}{4}=1$, we will ignore the leading probability.",
+        "From the left, she either goes left to another edge $\\left(\\frac{1}{4}\\right)$ or back to the center $\\left(\\frac{1}{4}\\right)$.",
+        "Time for some casework.",
+        "Case 1: She goes back to the center.",
+        "Now, she can go in any $4$ directions, and then has $2$ options from that edge.",
+        "This gives $\\frac{1}{2}$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Frieda the frog begins a sequence of hops on a 3 3 grid of squares, moving one square on each hop and choosing at random the direction of each hop-up, down, left, or right. She does not hop diagonally. When the direction of a hop would take Frieda off the grid, she \"wraps around\" and jumps to the opposite edge. For example if Frieda begins in the center square and makes two hops \"up\", the first hop would place her in the top row middle square, and the second hop would cause Frieda to jump to the opposite edge, landing in the bottom row middle square. Suppose Frieda starts from the center square, makes at most four hops at random, and stops hopping if she lands on a corner square. What is the probability that she reaches a corner square on one of the four hops? (A) 9 16 (B) 5 8 (C) 3 4 (D) 25 32 (E) 13 16",
+      "solution_text": "We will use complementary counting. First, the frog can go left with probability 1 4 . We observe symmetry, so our final answer will be multiplied by 4 for the 4 directions, and since 4 1 4 =1 , we will ignore the leading probability. From the left, she either goes left to another edge ( 1 4 ) or back to the center ( 1 4 ) . Time for some casework. Case 1: She goes back to the center. Now, she can go in any 4 directions, and then has 2 options from that edge. This gives 1 2 . Case 2: She goes to another edge (rightmost). Subcase 1: She goes back to the left edge. She now has 2 places to go, giving 1 2 Subcase 2: She goes to the center. Now any move works. 1 4 1 2 + 1 4 1= 1 8 + 1 4 = 3 8 for this case. She goes back to the center in Case 1 with probability 1 4 , and to the right edge with probability 1 4 So, our answer is 1 4 1 2 + 1 4 3 8 = 1 4 ( 1 2 + 3 8 )= 1 4 7 8 = 7 32 But, don t forget complementary counting. So, we get 1- 7 32 = 25 32 D .",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1416",
+        "queId": "0ca313e40ee74f7ebabdddb18382676c",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{9}{16}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{5}{8}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{3}{4}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{25}{32}"
+          },
+          {
+            "label": "E",
+            "content": "\\frac{13}{16}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_4:00581",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 581,
+      "split": "en_train",
+      "source_problem_id": "46a5c0c7f9034dd48ffc4c59736cb30b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many whole numbers between $$1$$ and $$1000$$ do not contain the digit $$1$$? ($2009$ AMC $8$ Problems, Question \\#$22$)\n(A) 512\n(B) 648\n(C) 720\n(D) 728\n(E) 800",
+      "problem_plain": "How many whole numbers between 1 and 1000 do not contain the digit 1 ? ( 2009 AMC 8 Problems, Question # 22 ) (A) 512 (B) 648 (C) 720 (D) 728 (E) 800",
+      "solution_latex": "One-digit number: $9-1=8$  Two-digit number: $8\\times9=72$  Three-digit number: $8\\times9\\times9=648$  So, there are $8+72+648=728$ numbers that meet the requirements.",
+      "solution_plain": "One-digit number: 9-1=8 Two-digit number: 8 9=72 Three-digit number: 8 9 9=648 So, there are 8+72+648=728 numbers that meet the requirements."
+    },
+    "answer": {
+      "final_raw": "728",
+      "final_normalized": "728",
+      "candidates": [
+        "728",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "counting_modules"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "One-digit number: $9-1=8$  Two-digit number: $8\\times9=72$  Three-digit number: $8\\times9\\times9=648$  So, there are $8+72+648=728$ numbers that meet the requirements."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many whole numbers between 1 and 1000 do not contain the digit 1 ? ( 2009 AMC 8 Problems, Question # 22 ) (A) 512 (B) 648 (C) 720 (D) 728 (E) 800",
+      "solution_text": "One-digit number: 9-1=8 Two-digit number: 8 9=72 Three-digit number: 8 9 9=648 So, there are 8+72+648=728 numbers that meet the requirements.",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1520",
+        "queId": "46a5c0c7f9034dd48ffc4c59736cb30b",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "512"
+          },
+          {
+            "label": "B",
+            "content": "648"
+          },
+          {
+            "label": "C",
+            "content": "720"
+          },
+          {
+            "label": "D",
+            "content": "728"
+          },
+          {
+            "label": "E",
+            "content": "800"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_4:00657",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 657,
+      "split": "en_train",
+      "source_problem_id": "6c1720a33e2e4554bbd467c0594fb8d7"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A box contains $5$ red balls and $3$ white balls that are identical in all aspects except color. One ball is drawn at random from the box and then replaced. The box is then thoroughly shaken so that the balls are arranged at random again and a second ball is drawn randomly from the box. What is the probability of drawing white ball on both draws?\n(A) \\frac{5}{8}\n(B) \\frac{3}{8}\n(C) \\frac{25}{64}\n(D) \\frac{9}{64}",
+      "problem_plain": "A box contains 5 red balls and 3 white balls that are identical in all aspects except color. One ball is drawn at random from the box and then replaced. The box is then thoroughly shaken so that the balls are arranged at random again and a second ball is drawn randomly from the box. What is the probability of drawing white ball on both draws? (A) 5 8 (B) 3 8 (C) 25 64 (D) 9 64",
+      "solution_latex": "$$D$$",
+      "solution_plain": "D"
+    },
+    "answer": {
+      "final_raw": "\\frac{9}{64}",
+      "final_normalized": "\\frac{9}{64}",
+      "candidates": [
+        "D",
+        "\\frac{9}{64}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "counting_modules",
+        "statistics_and_probability"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$D$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A box contains 5 red balls and 3 white balls that are identical in all aspects except color. One ball is drawn at random from the box and then replaced. The box is then thoroughly shaken so that the balls are arranged at random again and a second ball is drawn randomly from the box. What is the probability of drawing white ball on both draws? (A) 5 8 (B) 3 8 (C) 25 64 (D) 9 64",
+      "solution_text": "D",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1712",
+        "queId": "6c1720a33e2e4554bbd467c0594fb8d7",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{5}{8}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{3}{8}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{25}{64}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{9}{64}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Statistics and Probability"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_4:00741",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 741,
+      "split": "en_train",
+      "source_problem_id": "5ae62eda88cc4e72bee25c8bdf4f7ae8"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Moon and Archie played chess competitively. Both of them had same levels of skill. They agreed to play seven games, and the one that win four games first would be the ultimate winner. Now, they have already played three games, and Moon won two games while Archie won one game. What is the probability that Mon be the ultimately winner?\n(A) \\frac{3}{8}\n(B) \\frac{11}{16}\n(C) \\frac{3}{16}\n(D) \\frac{7}{16}",
+      "problem_plain": "Moon and Archie played chess competitively. Both of them had same levels of skill. They agreed to play seven games, and the one that win four games first would be the ultimate winner. Now, they have already played three games, and Moon won two games while Archie won one game. What is the probability that Mon be the ultimately winner? (A) 3 8 (B) 11 16 (C) 3 16 (D) 7 16",
+      "solution_latex": "$$\\rm B$$",
+      "solution_plain": "B"
+    },
+    "answer": {
+      "final_raw": "\\frac{11}{16}",
+      "final_normalized": "\\frac{11}{16}",
+      "candidates": [
+        "B",
+        "\\frac{11}{16}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "counting_modules",
+        "statistics_and_probability"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$\\rm B$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Moon and Archie played chess competitively. Both of them had same levels of skill. They agreed to play seven games, and the one that win four games first would be the ultimate winner. Now, they have already played three games, and Moon won two games while Archie won one game. What is the probability that Mon be the ultimately winner? (A) 3 8 (B) 11 16 (C) 3 16 (D) 7 16",
+      "solution_text": "B",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1904",
+        "queId": "5ae62eda88cc4e72bee25c8bdf4f7ae8",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{3}{8}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{11}{16}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{3}{16}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{7}{16}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Statistics and Probability"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_4:00769",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 769,
+      "split": "en_train",
+      "source_problem_id": "40e1fb4527294322a9284700c2273266"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Professor Chang has nine language books lined up on a bookshelf: two different Arabic books, three different German books, and four different Spanish books. How many ways are there to arrange the nine books on the shelf keeping the Arabic books together and keeping the Spanish books together? ($2018$ AMC $8$ Problem, Question \\#$16$)  $\\textasciitilde$  $\\textasciitilde$  $\\textasciitilde$  \\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}$\\textasciitilde$  \\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}$\\textasciitilde$  \\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}$\\textasciitilde$  \\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}$\\textasciitilde$  \\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}$\\textasciitilde$  \\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}$\\textasciitilde$\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}  \\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}$\\textasciitilde$  \\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}$\\textasciitilde$\n(A) 1440\n(B) 2880\n(C) 5760\n(D) 182440\n(E) 362880",
+      "problem_plain": "Professor Chang has nine language books lined up on a bookshelf: two different Arabic books, three different German books, and four different Spanish books. How many ways are there to arrange the nine books on the shelf keeping the Arabic books together and keeping the Spanish books together? ( 2018 AMC 8 Problem, Question # 16 ) 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt (A) 1440 (B) 2880 (C) 5760 (D) 182440 (E) 362880",
+      "solution_latex": "Since the two Arabic books and four Spanish books have to be kept together, respectively, we can treat them both as just one book. That means we\\textquotesingle re trying to find the number of ways you can arrange one Arabic book, one Spanish book, and three German books, which is just $\\_5P\\_5$. Now we multiply this product by $\\_2P\\_2\\times \\_4P\\_4$~because there are $\\_2P\\_2$~ways to arrange just two Arabic books, and $\\_4P\\_4$~ways to arrange just four Spanish books. Multiplying all these together, we have the answer $C$.",
+      "solution_plain": "Since the two Arabic books and four Spanish books have to be kept together, respectively, we can treat them both as just one book. That means we re trying to find the number of ways you can arrange one Arabic book, one Spanish book, and three German books, which is just _5P _5 . Now we multiply this product by _2P _2 _4P _4 ~because there are _2P _2 ~ways to arrange just two Arabic books, and _4P _4 ~ways to arrange just four Spanish books. Multiplying all these together, we have the answer C ."
+    },
+    "answer": {
+      "final_raw": "5760",
+      "final_normalized": "5760",
+      "candidates": [
+        "5760",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "counting_modules",
+        "permutations_and_combinations"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Since the two Arabic books and four Spanish books have to be kept together, respectively, we can treat them both as just one book.",
+        "That means we\\textquotesingle re trying to find the number of ways you can arrange one Arabic book, one Spanish book, and three German books, which is just $\\_5P\\_5$.",
+        "Now we multiply this product by $\\_2P\\_2\\times \\_4P\\_4$~because there are $\\_2P\\_2$~ways to arrange just two Arabic books, and $\\_4P\\_4$~ways to arrange just four Spanish books.",
+        "Multiplying all these together, we have the answer $C$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Professor Chang has nine language books lined up on a bookshelf: two different Arabic books, three different German books, and four different Spanish books. How many ways are there to arrange the nine books on the shelf keeping the Arabic books together and keeping the Spanish books together? ( 2018 AMC 8 Problem, Question # 16 ) 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt 0pt (A) 1440 (B) 2880 (C) 5760 (D) 182440 (E) 362880",
+      "solution_text": "Since the two Arabic books and four Spanish books have to be kept together, respectively, we can treat them both as just one book. That means we re trying to find the number of ways you can arrange one Arabic book, one Spanish book, and three German books, which is just _5P _5 . Now we multiply this product by _2P _2 _4P _4 ~because there are _2P _2 ~ways to arrange just two Arabic books, and _4P _4 ~ways to arrange just four Spanish books. Multiplying all these together, we have the answer C .",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1967",
+        "queId": "40e1fb4527294322a9284700c2273266",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1440"
+          },
+          {
+            "label": "B",
+            "content": "2880"
+          },
+          {
+            "label": "C",
+            "content": "5760"
+          },
+          {
+            "label": "D",
+            "content": "182440"
+          },
+          {
+            "label": "E",
+            "content": "362880"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Permutations and Combinations"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_4:00812",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 812,
+      "split": "en_train",
+      "source_problem_id": "699f8849ad564ba3a5f1d0be04821892"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A box contains $5$ red balls and $3$ white balls that are identical in all aspects except color. One ball is drawn at random from the box and then replaced. The box is then thoroughly shaken so that the balls are arranged at random again and a second ball is drawn randomly from the box. What is the probability of drawing white ball for both time?\n(A) \\frac{5}{8}\n(B) \\frac{3}{8}\n(C) \\frac{25}{64}\n(D) \\frac{9}{64}",
+      "problem_plain": "A box contains 5 red balls and 3 white balls that are identical in all aspects except color. One ball is drawn at random from the box and then replaced. The box is then thoroughly shaken so that the balls are arranged at random again and a second ball is drawn randomly from the box. What is the probability of drawing white ball for both time? (A) 5 8 (B) 3 8 (C) 25 64 (D) 9 64",
+      "solution_latex": "$$D$$",
+      "solution_plain": "D"
+    },
+    "answer": {
+      "final_raw": "\\frac{9}{64}",
+      "final_normalized": "\\frac{9}{64}",
+      "candidates": [
+        "D",
+        "\\frac{9}{64}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "counting_modules",
+        "statistics_and_probability"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$D$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A box contains 5 red balls and 3 white balls that are identical in all aspects except color. One ball is drawn at random from the box and then replaced. The box is then thoroughly shaken so that the balls are arranged at random again and a second ball is drawn randomly from the box. What is the probability of drawing white ball for both time? (A) 5 8 (B) 3 8 (C) 25 64 (D) 9 64",
+      "solution_text": "D",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2079",
+        "queId": "699f8849ad564ba3a5f1d0be04821892",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{5}{8}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{3}{8}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{25}{64}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{9}{64}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Statistics and Probability"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_4:00857",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 857,
+      "split": "en_train",
+      "source_problem_id": "a4692e728ca74fa89f4d817c332dc301"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Professor Chang has nine different language books lined up on a bookshelf: two Arabic, three German, and four Spanish. How many ways are there to arrange the nine books on the shelf keeping the Arabic books together and keeping the Spanish books together? ($2018$ AMC $8$ Problem, Question \\#$16$)\n(A) 1440\n(B) 2880\n(C) 5760\n(D) 182440\n(E) 362880",
+      "problem_plain": "Professor Chang has nine different language books lined up on a bookshelf: two Arabic, three German, and four Spanish. How many ways are there to arrange the nine books on the shelf keeping the Arabic books together and keeping the Spanish books together? ( 2018 AMC 8 Problem, Question # 16 ) (A) 1440 (B) 2880 (C) 5760 (D) 182440 (E) 362880",
+      "solution_latex": "Since the two Arabic books and four Spanish books have to be kept together, respectively, we can treat them both as just one book. That means we\\textquotesingle re trying to find the number of ways that you can arrange one Arabic book, one Spanish book, and three German books, which is just $\\_5P\\_5$. Now we multiply this product by $\\_2P\\_2\\times \\_4P\\_4$~because there are $\\_2P\\_2$~ways to arrange just two Arabic books, and $\\_4P\\_4$~ways to arrange just four Spanish books. Multiplying all these together, we have the answer $C$.",
+      "solution_plain": "Since the two Arabic books and four Spanish books have to be kept together, respectively, we can treat them both as just one book. That means we re trying to find the number of ways that you can arrange one Arabic book, one Spanish book, and three German books, which is just _5P _5 . Now we multiply this product by _2P _2 _4P _4 ~because there are _2P _2 ~ways to arrange just two Arabic books, and _4P _4 ~ways to arrange just four Spanish books. Multiplying all these together, we have the answer C ."
+    },
+    "answer": {
+      "final_raw": "5760",
+      "final_normalized": "5760",
+      "candidates": [
+        "5760",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "counting_modules",
+        "permutations_and_combinations"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Since the two Arabic books and four Spanish books have to be kept together, respectively, we can treat them both as just one book.",
+        "That means we\\textquotesingle re trying to find the number of ways that you can arrange one Arabic book, one Spanish book, and three German books, which is just $\\_5P\\_5$.",
+        "Now we multiply this product by $\\_2P\\_2\\times \\_4P\\_4$~because there are $\\_2P\\_2$~ways to arrange just two Arabic books, and $\\_4P\\_4$~ways to arrange just four Spanish books.",
+        "Multiplying all these together, we have the answer $C$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Professor Chang has nine different language books lined up on a bookshelf: two Arabic, three German, and four Spanish. How many ways are there to arrange the nine books on the shelf keeping the Arabic books together and keeping the Spanish books together? ( 2018 AMC 8 Problem, Question # 16 ) (A) 1440 (B) 2880 (C) 5760 (D) 182440 (E) 362880",
+      "solution_text": "Since the two Arabic books and four Spanish books have to be kept together, respectively, we can treat them both as just one book. That means we re trying to find the number of ways that you can arrange one Arabic book, one Spanish book, and three German books, which is just _5P _5 . Now we multiply this product by _2P _2 _4P _4 ~because there are _2P _2 ~ways to arrange just two Arabic books, and _4P _4 ~ways to arrange just four Spanish books. Multiplying all these together, we have the answer C .",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2213",
+        "queId": "a4692e728ca74fa89f4d817c332dc301",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1440"
+          },
+          {
+            "label": "B",
+            "content": "2880"
+          },
+          {
+            "label": "C",
+            "content": "5760"
+          },
+          {
+            "label": "D",
+            "content": "182440"
+          },
+          {
+            "label": "E",
+            "content": "362880"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Permutations and Combinations"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_4:00881",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 881,
+      "split": "en_train",
+      "source_problem_id": "78be18a696b54de0bd4c3361c47a299f"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Peter bought a carpet 36dm wide and 60dm long. The figure shows part of this carpet. As seen, the carpet has a small squares contianing either a sun or a moon. You can count that along the width there are nine squares. When the carpet is fully unrolled, how many moons will be seen?  [Insert pic]\n(A) 68\n(B) 67\n(C) 65\n(D) 63\n(E) 60",
+      "problem_plain": "Peter bought a carpet 36dm wide and 60dm long. The figure shows part of this carpet. As seen, the carpet has a small squares contianing either a sun or a moon. You can count that along the width there are nine squares. When the carpet is fully unrolled, how many moons will be seen? [Insert pic] (A) 68 (B) 67 (C) 65 (D) 63 (E) 60",
+      "solution_latex": "Each small square is 36/9 = 4 dm on a side. there are 60/4 = 15 squares along the length.  Both dimensions, 15 and 9, are odd. Also the corners are suns, so there is one more sun than there are moons.  Thus, there are a total of (15 x 9 - 1)/2 = 67 moons in the carpet when fully rolled.",
+      "solution_plain": "Each small square is 36/9 = 4 dm on a side. there are 60/4 = 15 squares along the length. Both dimensions, 15 and 9, are odd. Also the corners are suns, so there is one more sun than there are moons. Thus, there are a total of (15 x 9 - 1)/2 = 67 moons in the carpet when fully rolled."
+    },
+    "answer": {
+      "final_raw": "67",
+      "final_normalized": "67",
+      "candidates": [
+        "67",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "classifying_and_enumerating",
+        "counting_figures_formed_by_grid_points",
+        "counting_modules",
+        "counting_the_number_of_figures"
+      ],
+      "tags": [
+        "classifying_and_enumerating",
+        "counting_figures_formed_by_grid_points",
+        "counting_modules",
+        "counting_probability",
+        "counting_the_number_of_figures",
+        "en",
+        "en_train",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Each small square is 36/9 = 4 dm on a side.",
+        "there are 60/4 = 15 squares along the length.",
+        "Both dimensions, 15 and 9, are odd.",
+        "Also the corners are suns, so there is one more sun than there are moons.",
+        "Thus, there are a total of (15 x 9 - 1)/2 = 67 moons in the carpet when fully rolled."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Peter bought a carpet 36dm wide and 60dm long. The figure shows part of this carpet. As seen, the carpet has a small squares contianing either a sun or a moon. You can count that along the width there are nine squares. When the carpet is fully unrolled, how many moons will be seen? [Insert pic] (A) 68 (B) 67 (C) 65 (D) 63 (E) 60",
+      "solution_text": "Each small square is 36/9 = 4 dm on a side. there are 60/4 = 15 squares along the length. Both dimensions, 15 and 9, are odd. Also the corners are suns, so there is one more sun than there are moons. Thus, there are a total of (15 x 9 - 1)/2 = 67 moons in the carpet when fully rolled.",
+      "keywords": [
+        "classifying_and_enumerating",
+        "counting_figures_formed_by_grid_points",
+        "counting_modules",
+        "counting_probability",
+        "counting_the_number_of_figures",
+        "en",
+        "en_train",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2262",
+        "queId": "78be18a696b54de0bd4c3361c47a299f",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "68"
+          },
+          {
+            "label": "B",
+            "content": "67"
+          },
+          {
+            "label": "C",
+            "content": "65"
+          },
+          {
+            "label": "D",
+            "content": "63"
+          },
+          {
+            "label": "E",
+            "content": "60"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Counting the Number of Figures->Classifying and Enumerating->Counting Figures Formed by Grid Points"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_4:00946",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 946,
+      "split": "en_train",
+      "source_problem_id": "a65eafe014e64617a3346747ac7d190b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Moon and Archie played chess competitively. Both of them are of the same level in terms of skill. They agreed to play in a best-of-seven games, where the one who wins four games first would be the ultimate winner. They have already played three games, with Moon winning two games and Archie winning just one game. What is the probability that Moon will be the ultimate winner?\n(A) \\frac{3}{8}\n(B) \\frac{11}{16}\n(C) \\frac{3}{16}\n(D) \\frac{7}{16}",
+      "problem_plain": "Moon and Archie played chess competitively. Both of them are of the same level in terms of skill. They agreed to play in a best-of-seven games, where the one who wins four games first would be the ultimate winner. They have already played three games, with Moon winning two games and Archie winning just one game. What is the probability that Moon will be the ultimate winner? (A) 3 8 (B) 11 16 (C) 3 16 (D) 7 16",
+      "solution_latex": "$$\\rm B$$",
+      "solution_plain": "B"
+    },
+    "answer": {
+      "final_raw": "\\frac{11}{16}",
+      "final_normalized": "\\frac{11}{16}",
+      "candidates": [
+        "B",
+        "\\frac{11}{16}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "counting_modules",
+        "statistics_and_probability"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$\\rm B$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Moon and Archie played chess competitively. Both of them are of the same level in terms of skill. They agreed to play in a best-of-seven games, where the one who wins four games first would be the ultimate winner. They have already played three games, with Moon winning two games and Archie winning just one game. What is the probability that Moon will be the ultimate winner? (A) 3 8 (B) 11 16 (C) 3 16 (D) 7 16",
+      "solution_text": "B",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2417",
+        "queId": "a65eafe014e64617a3346747ac7d190b",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{3}{8}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{11}{16}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{3}{16}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{7}{16}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Statistics and Probability"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_4:00961",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 961,
+      "split": "en_train",
+      "source_problem_id": "cf23660aa74b4175a1af0dd2f69671a4"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Linda picks $3$ different numbers from $$1-15$$. To make the sum of the three numbers divisible by $3$, how many different groups are there for Linda to pick?\n(A) 100\n(B) 910\n(C) 91\n(D) 155\n(E) 30",
+      "problem_plain": "Linda picks 3 different numbers from 1-15 . To make the sum of the three numbers divisible by 3 , how many different groups are there for Linda to pick? (A) 100 (B) 910 (C) 91 (D) 155 (E) 30",
+      "solution_latex": "Group $A$: $$1$$, $$4$$, $$7$$, $$10$$, $13$;  Group $B$: $$2$$, $$5$$, $$8$$, $$11$$, $$14$$;  Group $C$: $$3$$, $$6$$, $$9$$, $$12$$, $$15$$.  Linda can choose three numbers from the same group, or choose each number from a different group to get the sum she needs.  There are $3\\times\\_5C\\_3+5\\times5\\times5=155$ groups.",
+      "solution_plain": "Group A : 1 , 4 , 7 , 10 , 13 ; Group B : 2 , 5 , 8 , 11 , 14 ; Group C : 3 , 6 , 9 , 12 , 15 . Linda can choose three numbers from the same group, or choose each number from a different group to get the sum she needs. There are 3 _5C _3+5 5 5=155 groups."
+    },
+    "answer": {
+      "final_raw": "155",
+      "final_normalized": "155",
+      "candidates": [
+        "155",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "counting_modules",
+        "permutations_and_combinations"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Group $A$: $$1$$, $$4$$, $$7$$, $$10$$, $13$;  Group $B$: $$2$$, $$5$$, $$8$$, $$11$$, $$14$$;  Group $C$: $$3$$, $$6$$, $$9$$, $$12$$, $$15$$.",
+        "Linda can choose three numbers from the same group, or choose each number from a different group to get the sum she needs.",
+        "There are $3\\times\\_5C\\_3+5\\times5\\times5=155$ groups."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Linda picks 3 different numbers from 1-15 . To make the sum of the three numbers divisible by 3 , how many different groups are there for Linda to pick? (A) 100 (B) 910 (C) 91 (D) 155 (E) 30",
+      "solution_text": "Group A : 1 , 4 , 7 , 10 , 13 ; Group B : 2 , 5 , 8 , 11 , 14 ; Group C : 3 , 6 , 9 , 12 , 15 . Linda can choose three numbers from the same group, or choose each number from a different group to get the sum she needs. There are 3 _5C _3+5 5 5=155 groups.",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2454",
+        "queId": "cf23660aa74b4175a1af0dd2f69671a4",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "100"
+          },
+          {
+            "label": "B",
+            "content": "910"
+          },
+          {
+            "label": "C",
+            "content": "91"
+          },
+          {
+            "label": "D",
+            "content": "155"
+          },
+          {
+            "label": "E",
+            "content": "30"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Permutations and Combinations"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_4:01978",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1978,
+      "split": "en_train",
+      "source_problem_id": "7dcf70fcce944457ad4f979411975a88"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "There are $13$ ping-pong players who will be divided into three teams, and they are going to have a men\\textquotesingle s singles. The rule is that the players in the same team will not play with each other, and each of them only plays one game with each player in other teams. What is the maximum number of games happened in total?\n(A) 23\n(B) 30\n(C) 45\n(D) 56\n(E) 72",
+      "problem_plain": "There are 13 ping-pong players who will be divided into three teams, and they are going to have a men s singles. The rule is that the players in the same team will not play with each other, and each of them only plays one game with each player in other teams. What is the maximum number of games happened in total? (A) 23 (B) 30 (C) 45 (D) 56 (E) 72",
+      "solution_latex": "Dividing the players into three teams as equally as possible can make the maximum number of games. So there are $4$, $4$, and $5$ players in the three teams and they will have $4\\times4+4\\times5+4\\times5=56$ games in total.",
+      "solution_plain": "Dividing the players into three teams as equally as possible can make the maximum number of games. So there are 4 , 4 , and 5 players in the three teams and they will have 4 4+4 5+4 5=56 games in total."
+    },
+    "answer": {
+      "final_raw": "56",
+      "final_normalized": "56",
+      "candidates": [
+        "56",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "combinatorics",
+        "logical_reasoning",
+        "sports_competition"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "logical_reasoning",
+        "single_choice",
+        "sports_competition",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Dividing the players into three teams as equally as possible can make the maximum number of games.",
+        "So there are $4$, $4$, and $5$ players in the three teams and they will have $4\\times4+4\\times5+4\\times5=56$ games in total."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "There are 13 ping-pong players who will be divided into three teams, and they are going to have a men s singles. The rule is that the players in the same team will not play with each other, and each of them only plays one game with each player in other teams. What is the maximum number of games happened in total? (A) 23 (B) 30 (C) 45 (D) 56 (E) 72",
+      "solution_text": "Dividing the players into three teams as equally as possible can make the maximum number of games. So there are 4 , 4 , and 5 players in the three teams and they will have 4 4+4 5+4 5=56 games in total.",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "logical_reasoning",
+        "single_choice",
+        "sports_competition",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "6920",
+        "queId": "7dcf70fcce944457ad4f979411975a88",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "23"
+          },
+          {
+            "label": "B",
+            "content": "30"
+          },
+          {
+            "label": "C",
+            "content": "45"
+          },
+          {
+            "label": "D",
+            "content": "56"
+          },
+          {
+            "label": "E",
+            "content": "72"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Logical Reasoning->Sports Competition"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_4:01996",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1996,
+      "split": "en_train",
+      "source_problem_id": "2bfb196b1710475481304abe48ec99b5"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Teacher wrote $$10$$ non-zero natural numbers in order on the blackboard, where the $$1$$st number is $$16$$, and the sum of any $$3$$ adjacent numbers is $$100$$. The $$8$$th biggest number is~\\uline{~~~~~~~~~~}~.\n(A) 81\n(B) 82\n(C) 83\n(D) 84",
+      "problem_plain": "Teacher wrote 10 non-zero natural numbers in order on the blackboard, where the 1 st number is 16 , and the sum of any 3 adjacent numbers is 100 . The 8 th biggest number is~ ~~~~~~~~~~ ~. (A) 81 (B) 82 (C) 83 (D) 84",
+      "solution_latex": "Let first 10 numbers be $${{a}\\_{1}}$$、$${{a}\\_{2}}$$、$${{a}\\_{3}}$$、$${{a}\\_{4}}$$、$$\\ldots \\ldots $$、$${{a}\\_{10}}$$.  $${{a}\\_{1}}+{{a}\\_{2}}+{{a}\\_{3}}={{a}\\_{2}}+{{a}\\_{3}}+{{a}\\_{4}}$$，$${{a}\\_{1}}={{a}\\_{4}}$$.  Therefore, $${{a}\\_{1}}={{a}\\_{4}}={{a}\\_{7}}={{a}\\_{10}}=16$$，$${{a}\\_{8}}=100-{{a}\\_{10}}-{{a}\\_{9}}=100-16-{{a}\\_{9}}=84-{{a}\\_{9}}$$.  The maximum value of $${{a}\\_{8}}$$ is $$83$$．$$For$$ example：$$16$$、$$83$$、$$1$$、$$16$$、$$83$$、$$1$$、$$16$$、$$83$$、$$1$$、$$16$$．",
+      "solution_plain": "Let first 10 numbers be a _ 1 、 a _ 2 、 a _ 3 、 a _ 4 、 、 a _ 10 . a _ 1 + a _ 2 + a _ 3 = a _ 2 + a _ 3 + a _ 4 ， a _ 1 = a _ 4 . Therefore, a _ 1 = a _ 4 = a _ 7 = a _ 10 =16 ， a _ 8 =100- a _ 10 - a _ 9 =100-16- a _ 9 =84- a _ 9 . The maximum value of a _ 8 is 83 ． For example： 16 、 83 、 1 、 16 、 83 、 1 、 16 、 83 、 1 、 16 ．"
+    },
+    "answer": {
+      "final_raw": "83",
+      "final_normalized": "83",
+      "candidates": [
+        "83",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "combinatorics",
+        "fun_problems_in_math"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "fun_problems_in_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Let first 10 numbers be $${{a}\\_{1}}$$、$${{a}\\_{2}}$$、$${{a}\\_{3}}$$、$${{a}\\_{4}}$$、$$\\ldots \\ldots $$、$${{a}\\_{10}}$$.",
+        "$${{a}\\_{1}}+{{a}\\_{2}}+{{a}\\_{3}}={{a}\\_{2}}+{{a}\\_{3}}+{{a}\\_{4}}$$，$${{a}\\_{1}}={{a}\\_{4}}$$.",
+        "Therefore, $${{a}\\_{1}}={{a}\\_{4}}={{a}\\_{7}}={{a}\\_{10}}=16$$，$${{a}\\_{8}}=100-{{a}\\_{10}}-{{a}\\_{9}}=100-16-{{a}\\_{9}}=84-{{a}\\_{9}}$$.",
+        "The maximum value of $${{a}\\_{8}}$$ is $$83$$．$$For$$ example：$$16$$、$$83$$、$$1$$、$$16$$、$$83$$、$$1$$、$$16$$、$$83$$、$$1$$、$$16$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Teacher wrote 10 non-zero natural numbers in order on the blackboard, where the 1 st number is 16 , and the sum of any 3 adjacent numbers is 100 . The 8 th biggest number is~ ~~~~~~~~~~ ~. (A) 81 (B) 82 (C) 83 (D) 84",
+      "solution_text": "Let first 10 numbers be a _ 1 、 a _ 2 、 a _ 3 、 a _ 4 、 、 a _ 10 . a _ 1 + a _ 2 + a _ 3 = a _ 2 + a _ 3 + a _ 4 ， a _ 1 = a _ 4 . Therefore, a _ 1 = a _ 4 = a _ 7 = a _ 10 =16 ， a _ 8 =100- a _ 10 - a _ 9 =100-16- a _ 9 =84- a _ 9 . The maximum value of a _ 8 is 83 ． For example： 16 、 83 、 1 、 16 、 83 、 1 、 16 、 83 、 1 、 16 ．",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "fun_problems_in_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7066",
+        "queId": "2bfb196b1710475481304abe48ec99b5",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "81"
+          },
+          {
+            "label": "B",
+            "content": "82"
+          },
+          {
+            "label": "C",
+            "content": "83"
+          },
+          {
+            "label": "D",
+            "content": "84"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Fun Problems in Math"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_4:02048",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2048,
+      "split": "en_train",
+      "source_problem_id": "4a2600a01d1c41ec8682fad1e82866c0"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Teacher wrote $$10$$ non-zero natural numbers in sequence on the blackboard, where the $$1$$st number is $$16$$, and the sum of any $$3$$ adjacent numbers is $$100$$. The biggest possibility of the $$8$$th number is~\\uline{~~~~~~~~~~}~.\n(A) 81\n(B) 82\n(C) 83\n(D) 84",
+      "problem_plain": "Teacher wrote 10 non-zero natural numbers in sequence on the blackboard, where the 1 st number is 16 , and the sum of any 3 adjacent numbers is 100 . The biggest possibility of the 8 th number is~ ~~~~~~~~~~ ~. (A) 81 (B) 82 (C) 83 (D) 84",
+      "solution_latex": "Let first 10 numbers be $${{a}\\_{1}}$$、$${{a}\\_{2}}$$、$${{a}\\_{3}}$$、$${{a}\\_{4}}$$、$$\\ldots \\ldots $$、$${{a}\\_{10}}$$.  $${{a}\\_{1}}+{{a}\\_{2}}+{{a}\\_{3}}={{a}\\_{2}}+{{a}\\_{3}}+{{a}\\_{4}}$$，$${{a}\\_{1}}={{a}\\_{4}}$$.  Therefore, $${{a}\\_{1}}={{a}\\_{4}}={{a}\\_{7}}={{a}\\_{10}}=16$$，$${{a}\\_{8}}=100-{{a}\\_{10}}-{{a}\\_{9}}=100-16-{{a}\\_{9}}=84-{{a}\\_{9}}$$.  The maximum value of $${{a}\\_{8}}$$ is $$83$$. For example：$$16$$、$$83$$、$$1$$、$$16$$、$$83$$、$$1$$、$$16$$、$$83$$、$$1$$、$$16$$．",
+      "solution_plain": "Let first 10 numbers be a _ 1 、 a _ 2 、 a _ 3 、 a _ 4 、 、 a _ 10 . a _ 1 + a _ 2 + a _ 3 = a _ 2 + a _ 3 + a _ 4 ， a _ 1 = a _ 4 . Therefore, a _ 1 = a _ 4 = a _ 7 = a _ 10 =16 ， a _ 8 =100- a _ 10 - a _ 9 =100-16- a _ 9 =84- a _ 9 . The maximum value of a _ 8 is 83 . For example： 16 、 83 、 1 、 16 、 83 、 1 、 16 、 83 、 1 、 16 ．"
+    },
+    "answer": {
+      "final_raw": "83",
+      "final_normalized": "83",
+      "candidates": [
+        "83",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "combinatorics",
+        "fun_problems_in_math"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "fun_problems_in_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Let first 10 numbers be $${{a}\\_{1}}$$、$${{a}\\_{2}}$$、$${{a}\\_{3}}$$、$${{a}\\_{4}}$$、$$\\ldots \\ldots $$、$${{a}\\_{10}}$$.",
+        "$${{a}\\_{1}}+{{a}\\_{2}}+{{a}\\_{3}}={{a}\\_{2}}+{{a}\\_{3}}+{{a}\\_{4}}$$，$${{a}\\_{1}}={{a}\\_{4}}$$.",
+        "Therefore, $${{a}\\_{1}}={{a}\\_{4}}={{a}\\_{7}}={{a}\\_{10}}=16$$，$${{a}\\_{8}}=100-{{a}\\_{10}}-{{a}\\_{9}}=100-16-{{a}\\_{9}}=84-{{a}\\_{9}}$$.",
+        "The maximum value of $${{a}\\_{8}}$$ is $$83$$.",
+        "For example：$$16$$、$$83$$、$$1$$、$$16$$、$$83$$、$$1$$、$$16$$、$$83$$、$$1$$、$$16$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Teacher wrote 10 non-zero natural numbers in sequence on the blackboard, where the 1 st number is 16 , and the sum of any 3 adjacent numbers is 100 . The biggest possibility of the 8 th number is~ ~~~~~~~~~~ ~. (A) 81 (B) 82 (C) 83 (D) 84",
+      "solution_text": "Let first 10 numbers be a _ 1 、 a _ 2 、 a _ 3 、 a _ 4 、 、 a _ 10 . a _ 1 + a _ 2 + a _ 3 = a _ 2 + a _ 3 + a _ 4 ， a _ 1 = a _ 4 . Therefore, a _ 1 = a _ 4 = a _ 7 = a _ 10 =16 ， a _ 8 =100- a _ 10 - a _ 9 =100-16- a _ 9 =84- a _ 9 . The maximum value of a _ 8 is 83 . For example： 16 、 83 、 1 、 16 、 83 、 1 、 16 、 83 、 1 、 16 ．",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "fun_problems_in_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7471",
+        "queId": "4a2600a01d1c41ec8682fad1e82866c0",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "81"
+          },
+          {
+            "label": "B",
+            "content": "82"
+          },
+          {
+            "label": "C",
+            "content": "83"
+          },
+          {
+            "label": "D",
+            "content": "84"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Fun Problems in Math"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_4:02099",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2099,
+      "split": "en_train",
+      "source_problem_id": "9c8769716d3244b98fd33b96529a612d"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Basil has several domino tiles, as shown in the figure. He wants to arrange them in a line according to the well-known \"domino rules\": in any two tiles that are next to each other, the squares that touch must have the same number of points. What is the largest number of tiles he can arrange in this way?  [insert picccc]\n(A) 3\n(B) 4\n(C) 5\n(D) 6\n(E) 7",
+      "problem_plain": "Basil has several domino tiles, as shown in the figure. He wants to arrange them in a line according to the well-known \"domino rules\": in any two tiles that are next to each other, the squares that touch must have the same number of points. What is the largest number of tiles he can arrange in this way? [insert picccc] (A) 3 (B) 4 (C) 5 (D) 6 (E) 7",
+      "solution_latex": "One possible configuration for 5 dominoes is shown.  [pic]",
+      "solution_plain": "One possible configuration for 5 dominoes is shown. [pic]"
+    },
+    "answer": {
+      "final_raw": "5",
+      "final_normalized": "5",
+      "candidates": [
+        "5",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "combinatorics",
+        "logical_reasoning"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "One possible configuration for 5 dominoes is shown.",
+        "[pic]"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Basil has several domino tiles, as shown in the figure. He wants to arrange them in a line according to the well-known \"domino rules\": in any two tiles that are next to each other, the squares that touch must have the same number of points. What is the largest number of tiles he can arrange in this way? [insert picccc] (A) 3 (B) 4 (C) 5 (D) 6 (E) 7",
+      "solution_text": "One possible configuration for 5 dominoes is shown. [pic]",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_4",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7782",
+        "queId": "9c8769716d3244b98fd33b96529a612d",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "4"
+          },
+          {
+            "label": "C",
+            "content": "5"
+          },
+          {
+            "label": "D",
+            "content": "6"
+          },
+          {
+            "label": "E",
+            "content": "7"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Logical Reasoning"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  }
+]

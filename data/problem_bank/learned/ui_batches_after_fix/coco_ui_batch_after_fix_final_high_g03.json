@@ -1,0 +1,1331 @@
+{
+  "schema_version": "coco_problem_bank_image_validation_report.v1",
+  "generated_at": "2026-04-25T12:59:43+00:00",
+  "elapsed_seconds": 5.131,
+  "project_root": "/Volumes/마중나 도킹스테이션/atoll_project",
+  "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+  "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+  "options": {
+    "app_register": true,
+    "band": "고등",
+    "clean_generated_images": false,
+    "clear_app_between_items": false,
+    "clear_app_generated": true,
+    "count_per_grade": 100,
+    "difficulty": "",
+    "force": false,
+    "generate": false,
+    "grade": 0,
+    "limit": 10,
+    "loop": false,
+    "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+    "max_cycles": 1,
+    "offset": 50,
+    "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+    "report": "data/problem_bank/learned/ui_batches_after_fix/coco_ui_batch_after_fix_final_high_g03.json",
+    "seed": 20260425,
+    "sleep_seconds": 1.0,
+    "stop_on_failure": false
+  },
+  "selected_count": 10,
+  "cycle_count": 1,
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "error": 0,
+    "by_band": {
+      "고등": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "error": 0
+      }
+    },
+    "by_topic": {
+      "calculus_derivative": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "calculus_integral": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "calculus_limit": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "coordinate_geometry": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "statistics": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      }
+    }
+  },
+  "failures": [],
+  "results": [
+    {
+      "case_id": "high_g03_011",
+      "band": "고등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "calculus_limit",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/수학 II/함수의 극한과 연속/high_g03_011_easy_expression_calculus_limit.png",
+      "expected_answer": "-4",
+      "expected_expression": "2*-2+0",
+      "computed_answer": "-4",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "expression_value_solver",
+      "recognized_problem": "고등 3학년 ㆍ함수의 극한과 연속 ㆍ기본 expression ㆍ028104145 lim x->-2f(x)2| 값을 구하시오",
+      "recognized_expressions": [
+        "2x+0",
+        "x=-2",
+        "lim x->-2f(x)2| ZFS"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.527,
+      "analysis": {
+        "analysis_started_at": 1777121977.9669929,
+        "analysis_finished_at": 1777121978.493765,
+        "structured_problem": {
+          "source_text_candidates": [
+            "고등 3학년 ㆍ함수의 극한과 연속 ㆍ기본 expression ㆍ028104145.\nf(x) = 2x + 0일 때\nlim x->-2f(x)2| 값을 구하시오.\n| 고등 3학년 ㆍ함수의 극한과 AS ㆍ기본 expression : calculus.\nf(x) = 2x + OS 때\nlim x->-2f(x)2| ZFS 구하시오.",
+            "고등 3학년 ㆍ함수의 극한과 연속 ㆍ기본 expression ㆍ028104145.\nf(x) = 2x + 0일 때\nlim x->-2f(x)2| 값을 구하시오.\n| 고등 3학년 ㆍ함수의 극한과 AS ㆍ기본 expression : calculus.\nf(x) = 2x + OS 때\nlim x->-2f(x)2| ZFS 구하시오."
+          ],
+          "normalized_problem_text": "고등 3학년 ㆍ함수의 극한과 연속 ㆍ기본 expression ㆍ028104145 lim x->-2f(x)2| 값을 구하시오",
+          "expressions": [
+            "2x+0",
+            "x=-2",
+            "lim x->-2f(x)2| ZFS"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "calculus_limit",
+          "target_question": "문제 풀이",
+          "confidence": 0.8,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/수학 II/함수의 극한과 연속/high_g03_011_easy_expression_calculus_limit.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "고등 3학년 ㆍ함수의 극한과 연속 ㆍ기본 expression ㆍ028104145.\nf(x) = 2x + 0일 때\nlim x->-2f(x)2| 값을 구하시오.",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 3학년 ㆍ함수의 극한과 연속 ㆍ기본 expression ㆍ028104145.\nf(x) = 2x + 0일 때\nlim x->-2f(x)2| 값을 구하시오.",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 고등 3학년 ㆍ함수의 극한과 AS ㆍ기본 expression : calculus.\nf(x) = 2x + OS 때\nlim x->-2f(x)2| ZFS 구하시오.",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "819f8cffa71b"
+          }
+        },
+        "solve_result": {
+          "solver_name": "expression_value_solver",
+          "computed_answer": "-4",
+          "steps": [
+            "식 2*x+0에 x=-2을 대입했어.",
+            "계산하면 -4야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.82,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 식 2*x+0에 x=-2을 대입했어. 계산하면 -4야. 그래서 정답은 -4야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "고등 3학년 ㆍ함수의 극한과 연속 ㆍ기본 expression ㆍ028104145.\nf(x) = 2x + 0일 때\nlim x->-2f(x)2| 값을 구하시오.\n| 고등 3학년 ㆍ함수의 극한과 AS ㆍ기본 expression : calculus.\nf(x) = 2x + OS 때\nlim x->-2f(x)2| ZFS 구하시오.",
+            "content_text": "고등 3학년 ㆍ함수의 극한과 연속 ㆍ기본 expression ㆍ028104145.\nf(x) = 2x + 0일 때\nlim x->-2f(x)2| 값을 구하시오.\n| 고등 3학년 ㆍ함수의 극한과 AS ㆍ기본 expression : calculus.\nf(x) = 2x + OS 때\nlim x->-2f(x)2| ZFS 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "2x+0",
+              "x=-2",
+              "lim x->-2f(x)2| ZFS"
+            ],
+            "choices": [],
+            "math_topic": "calculus_limit",
+            "question_type": "subjective"
+          },
+          "solver_name": "expression_value_solver",
+          "computed_answer": "-4",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g03_011__72eca993"
+    },
+    {
+      "case_id": "high_g03_012",
+      "band": "고등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "calculus_derivative",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/수학 II/미분/high_g03_012_easy_word_calculus_derivative.png",
+      "expected_answer": "36",
+      "expected_expression": "8*4+ 4",
+      "computed_answer": "36",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "t = 4에서의 순간속도를 구하시오",
+      "recognized_expressions": [
+        "8*4+4"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.501,
+      "analysis": {
+        "analysis_started_at": 1777121978.494236,
+        "analysis_finished_at": 1777121978.995737,
+        "structured_problem": {
+          "source_text_candidates": [
+            "： 고등 3학년 ㆍ미분ㆍ기본 word - calculus_deriv.\n물체의 속도 함수가 vit) = 8t + 4입니다.\nt = 4에서의 순간속도를 구하시오.\n고등 3학년 ㆍ미분ㆍ기본 word ㆍ calculus_deriv",
+            "： 고등 3학년 ㆍ미분ㆍ기본 word - calculus_deriv.\n물체의 속도 함수가 vit) = 8t + 4입니다.\nt = 4에서의 순간속도를 구하시오.\n고등 3학년 ㆍ미분ㆍ기본 word ㆍ calculus_deriv"
+          ],
+          "normalized_problem_text": "t = 4에서의 순간속도를 구하시오",
+          "expressions": [
+            "8*4+4"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "calculus_derivative",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/수학 II/미분/high_g03_012_easy_word_calculus_derivative.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "： 고등 3학년 ㆍ미분ㆍ기본 word - calculus_deriv.\n물체의 속도 함수가 vit) = 8t + 4입니다.\nt = 4에서의 순간속도를 구하시오.",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 3학년 ㆍ미분ㆍ기본 word ㆍ calculus_deriv\n물체의 속도 함수가 vit) = 8t + 4입니다.\nt = 4에서의 순간속도를 구하시오.",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 고등 3학년 ㆍ미분ㆍ기본 word - calculus_deriv.\n물체의 속도 함수가 vit) = 8t + 4입니다.\nt = 4에서의 순간속도를 구하시오.",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "25f1bf204875"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "36",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 36야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 미분 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 36야. 그래서 정답은 36야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "： 고등 3학년 ㆍ미분ㆍ기본 word - calculus_deriv.\n물체의 속도 함수가 vit) = 8t + 4입니다.\nt = 4에서의 순간속도를 구하시오.\n고등 3학년 ㆍ미분ㆍ기본 word ㆍ calculus_deriv",
+            "content_text": "： 고등 3학년 ㆍ미분ㆍ기본 word - calculus_deriv.\n물체의 속도 함수가 vit) = 8t + 4입니다.\nt = 4에서의 순간속도를 구하시오.\n고등 3학년 ㆍ미분ㆍ기본 word ㆍ calculus_deriv",
+            "repaired_text": "",
+            "expressions": [
+              "8*4+4"
+            ],
+            "choices": [],
+            "math_topic": "calculus_derivative",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "36",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g03_012__94f2aace"
+    },
+    {
+      "case_id": "high_g03_013",
+      "band": "고등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "calculus_integral",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/수학 II/적분/high_g03_013_easy_expression_calculus_integral.png",
+      "expected_answer": "32",
+      "expected_expression": "4*8",
+      "computed_answer": "32",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "calculus_numeric_solver",
+      "recognized_problem": "0 <= x <= 8 구간 넓이를 구하시오",
+      "recognized_expressions": [
+        "4*8",
+        "42*8"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.473,
+      "analysis": {
+        "analysis_started_at": 1777121978.9961941,
+        "analysis_finished_at": 1777121979.469162,
+        "structured_problem": {
+          "source_text_candidates": [
+            "고등 3학년 ㆍ적분ㆍ기본 expression ㆍ calculus.\n함수 f(x) = 42] 그래프와 *축 사이의\n0 <= *<= 8 구간 넓이를 구하시오.\nesta ae oe expression - calculus.\n0 <= x <= 8 구간 넓이를 구하시오.",
+            "고등 3학년 ㆍ적분ㆍ기본 expression ㆍ calculus.\n함수 f(x) = 42] 그래프와 *축 사이의\n0 <= *<= 8 구간 넓이를 구하시오.\nesta ae oe expression - calculus.\n0 <= x <= 8 구간 넓이를 구하시오."
+          ],
+          "normalized_problem_text": "0 <= x <= 8 구간 넓이를 구하시오",
+          "expressions": [
+            "4*8",
+            "42*8"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "calculus_integral",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/수학 II/적분/high_g03_013_easy_expression_calculus_integral.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "고등 3학년 ㆍ적분ㆍ기본 expression ㆍ calculus.\n함수 f(x) = 42] 그래프와 *축 사이의\n0 <= *<= 8 구간 넓이를 구하시오.",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 3학년 ㆍ적분ㆍ기본 expression ㆍ calculus.\n함수 f(x) = 42] 그래프와 *축 사이의\n0 <= *<= 8 구간 넓이를 구하시오.",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "esta ae oe expression - calculus.\n함수 f(x) = 42] 그래프와 *축 사이의\n0 <= x <= 8 구간 넓이를 구하시오.",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "478dc2546159"
+          }
+        },
+        "solve_result": {
+          "solver_name": "calculus_numeric_solver",
+          "computed_answer": "32",
+          "steps": [
+            "미분/적분 조건에서 필요한 계산식만 먼저 추렸어.",
+            "계산하면 32야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 적분 문제야. 미분/적분 조건에서 필요한 계산식만 먼저 추렸어. 계산하면 32야. 그래서 정답은 32야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "고등 3학년 ㆍ적분ㆍ기본 expression ㆍ calculus.\n함수 f(x) = 42] 그래프와 *축 사이의\n0 <= *<= 8 구간 넓이를 구하시오.\nesta ae oe expression - calculus.\n0 <= x <= 8 구간 넓이를 구하시오.",
+            "content_text": "고등 3학년 ㆍ적분ㆍ기본 expression ㆍ calculus.\n함수 f(x) = 42] 그래프와 *축 사이의\n0 <= *<= 8 구간 넓이를 구하시오.\nesta ae oe expression - calculus.\n0 <= x <= 8 구간 넓이를 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "4*8",
+              "42*8"
+            ],
+            "choices": [],
+            "math_topic": "calculus_integral",
+            "question_type": "subjective"
+          },
+          "solver_name": "calculus_numeric_solver",
+          "computed_answer": "32",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g03_013__33ef2c2b"
+    },
+    {
+      "case_id": "high_g03_014",
+      "band": "고등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "graph",
+      "topic": "coordinate_geometry",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/기하/벡터와 이차곡선/high_g03_014_easy_graph_coordinate_geometry.png",
+      "expected_answer": "0",
+      "expected_expression": "y=-2x- 2; x=-1",
+      "computed_answer": "0",
+      "matched_choice": "",
+      "validation_status": "needs_review",
+      "solver_name": "function_value_solver",
+      "recognized_problem": "X= -ㄱ1일 때 의 값을 구하시오",
+      "recognized_expressions": [
+        "y=-2x-2",
+        "x=-1"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.65,
+      "analysis": {
+        "analysis_started_at": 1777121979.469568,
+        "analysis_finished_at": 1777121980.1192122,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 고등 3학년 ㆍ벡터와 이차곡선ㆍ기본 graph - coordinate_ge\n오른쪽 직선의 식은 / = -2x - 2입니다,-%-\nX= -ㄱ1일 때 의 값을 구하시오.\n고등 3학년ㆍ벡터와 이차곡선 ㆍ기본 graph - coordinate_ge\n오른쪽 직선의 식은 = -2 - 2입니다.\n*=ㄱ1일 때 의 값을 구하시오.",
+            "| 고등 3학년 ㆍ벡터와 이차곡선ㆍ기본 graph - coordinate_ge\n오른쪽 직선의 식은 / = -2x - 2입니다,-%-\nX= -ㄱ1일 때 의 값을 구하시오.\n고등 3학년ㆍ벡터와 이차곡선 ㆍ기본 graph - coordinate_ge\n오른쪽 직선의 식은 = -2 - 2입니다.\n*=ㄱ1일 때 의 값을 구하시오."
+          ],
+          "normalized_problem_text": "X= -ㄱ1일 때 의 값을 구하시오",
+          "expressions": [
+            "y=-2x-2",
+            "x=-1"
+          ],
+          "choices": [
+            "ㄱ 1일 때 의 값을 구하시오.\n고등 3학년ㆍ벡터와 이차곡선 ㆍ기본 graph - coordinate_ge\n오른쪽 직선의 식은 = -2 - 2입니다.\n*=",
+            "ㄱ 1일 때 의 값을 구하시오."
+          ],
+          "question_type": "multiple_choice",
+          "math_topic": "function",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/기하/벡터와 이차곡선/high_g03_014_easy_graph_coordinate_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 고등 3학년 ㆍ벡터와 이차곡선ㆍ기본 graph - coordinate_ge\n오른쪽 직선의 식은 / = -2x - 2입니다,-%-\nX= -ㄱ1일 때 의 값을 구하시오.",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 3학년ㆍ벡터와 이차곡선 ㆍ기본 graph - coordinate_ge\n오른쪽 직선의 식은 = -2 - 2입니다.\n*=ㄱ1일 때 의 값을 구하시오.",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 고등 3학년 ㆍ벡터와 이차곡선ㆍ기본 graph - coordinate_ge\n오른쪽 직선의 식은 / = -2x - 2입니다,-%-\nX= -ㄱ1일 때 의 값을 구하시오.",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "5f7807eae08f"
+          }
+        },
+        "solve_result": {
+          "solver_name": "function_value_solver",
+          "computed_answer": "0",
+          "steps": [
+            "함수식을 y=-2*x-2 형태로 정리했어.",
+            "x=-1을 대입했어.",
+            "y의 값은 0야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.83,
+          "validation_status": "needs_review",
+          "explanation": "이건 함수 문제야. 함수식을 y=-2*x-2 형태로 정리했어. x=-1을 대입했어. y의 값은 0야. 그래서 정답은 0야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 고등 3학년 ㆍ벡터와 이차곡선ㆍ기본 graph - coordinate_ge\n오른쪽 직선의 식은 / = -2x - 2입니다,-%-\nX= -ㄱ1일 때 의 값을 구하시오.\n고등 3학년ㆍ벡터와 이차곡선 ㆍ기본 graph - coordinate_ge\n오른쪽 직선의 식은 = -2 - 2입니다.\n*=ㄱ1일 때 의 값을 구하시오.",
+            "content_text": "| 고등 3학년 ㆍ벡터와 이차곡선ㆍ기본 graph - coordinate_ge\n오른쪽 직선의 식은 / = -2x - 2입니다,-%-\nX= -ㄱ1일 때 의 값을 구하시오.\n고등 3학년ㆍ벡터와 이차곡선 ㆍ기본 graph - coordinate_ge\n오른쪽 직선의 식은 = -2 - 2입니다.\n*=ㄱ1일 때 의 값을 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "y=-2x-2",
+              "x=-1"
+            ],
+            "choices": [
+              "ㄱ 1일 때 의 값을 구하시오.\n고등 3학년ㆍ벡터와 이차곡선 ㆍ기본 graph - coordinate_ge\n오른쪽 직선의 식은 = -2 - 2입니다.\n*=",
+              "ㄱ 1일 때 의 값을 구하시오."
+            ],
+            "math_topic": "function",
+            "question_type": "multiple_choice"
+          },
+          "solver_name": "function_value_solver",
+          "computed_answer": "0",
+          "validation_status": "needs_review"
+        }
+      },
+      "app_doc_id": "autobank__high_g03_014__4e0f49a3"
+    },
+    {
+      "case_id": "high_g03_015",
+      "band": "고등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/확률과 통계/통계적 추정/high_g03_015_easy_expression_statistics.png",
+      "expected_answer": "92",
+      "expected_expression": "(83+92+93+99+93)/5",
+      "computed_answer": "92",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(83+92+93+99+93)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.456,
+      "analysis": {
+        "analysis_started_at": 1777121980.1196249,
+        "analysis_finished_at": 1777121980.5751832,
+        "structured_problem": {
+          "source_text_candidates": [
+            "고등 3학년 ㆍ통계적 추정ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n83, 92, 93, 99, 93\n. 고등 3학년 ㆍ통계적 추정 ㆍ기본 expression ㆍ statistics",
+            "고등 3학년 ㆍ통계적 추정ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n83, 92, 93, 99, 93\n. 고등 3학년 ㆍ통계적 추정 ㆍ기본 expression ㆍ statistics"
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(83+92+93+99+93)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/확률과 통계/통계적 추정/high_g03_015_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "고등 3학년 ㆍ통계적 추정ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n83, 92, 93, 99, 93",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 3학년 ㆍ통계적 추정ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n83, 92, 93, 99, 93",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ". 고등 3학년 ㆍ통계적 추정 ㆍ기본 expression ㆍ statistics\n다음 자료의 평균을 구하시오.\n83, 92, 93, 99, 93",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "4e3fdd4262dd"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "92",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 92야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 92야. 그래서 정답은 92야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "고등 3학년 ㆍ통계적 추정ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n83, 92, 93, 99, 93\n. 고등 3학년 ㆍ통계적 추정 ㆍ기본 expression ㆍ statistics",
+            "content_text": "고등 3학년 ㆍ통계적 추정ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n83, 92, 93, 99, 93\n. 고등 3학년 ㆍ통계적 추정 ㆍ기본 expression ㆍ statistics",
+            "repaired_text": "",
+            "expressions": [
+              "(83+92+93+99+93)/5"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "92",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g03_015__460f0986"
+    },
+    {
+      "case_id": "high_g03_016",
+      "band": "고등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "calculus_limit",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/수학 II/함수의 극한과 연속/high_g03_016_easy_expression_calculus_limit.png",
+      "expected_answer": "6",
+      "expected_expression": "4*1+2",
+      "computed_answer": "6",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "expression_value_solver",
+      "recognized_problem": "| 고등 3학년 ㆍ함수의 극한과 연속ㆍ기본 expression - calculus lim x->1f(x)2| 값을 구하시오",
+      "recognized_expressions": [
+        "4x+2",
+        "x=1"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.455,
+      "analysis": {
+        "analysis_started_at": 1777121980.57586,
+        "analysis_finished_at": 1777121981.030499,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 고등 3학년 ㆍ함수의 극한과 연속ㆍ기본 expression - calculus.\nf(x) = 4x + 22 때\nlim x->1f(x)2| 값을 구하시오.\n고등 3학년 ㆍ함수의 극한과 연속 ㆍ기본 expression ㆍ calculus.\nf(x) = 4x + 22! 때",
+            "| 고등 3학년 ㆍ함수의 극한과 연속ㆍ기본 expression - calculus.\nf(x) = 4x + 22 때\nlim x->1f(x)2| 값을 구하시오.\n고등 3학년 ㆍ함수의 극한과 연속 ㆍ기본 expression ㆍ calculus.\nf(x) = 4x + 22! 때"
+          ],
+          "normalized_problem_text": "| 고등 3학년 ㆍ함수의 극한과 연속ㆍ기본 expression - calculus lim x->1f(x)2| 값을 구하시오",
+          "expressions": [
+            "4x+2",
+            "x=1"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "calculus_limit",
+          "target_question": "문제 풀이",
+          "confidence": 0.8,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/수학 II/함수의 극한과 연속/high_g03_016_easy_expression_calculus_limit.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 고등 3학년 ㆍ함수의 극한과 연속ㆍ기본 expression - calculus.\nf(x) = 4x + 22 때\nlim x->1f(x)2| 값을 구하시오.",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 3학년 ㆍ함수의 극한과 연속 ㆍ기본 expression ㆍ calculus.\nf(x) = 4x + 22! 때\nlim x->1f(x)2| 값을 구하시오.",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 고등 3학년 ㆍ함수의 극한과 연속ㆍ기본 expression - calculus.\nf(x) = 4x + 22 때\nlim x->1f(x)2| 값을 구하시오.",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "8a949e9219af"
+          }
+        },
+        "solve_result": {
+          "solver_name": "expression_value_solver",
+          "computed_answer": "6",
+          "steps": [
+            "식 4*x+2에 x=1을 대입했어.",
+            "계산하면 6야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.82,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 식 4*x+2에 x=1을 대입했어. 계산하면 6야. 그래서 정답은 6야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 고등 3학년 ㆍ함수의 극한과 연속ㆍ기본 expression - calculus.\nf(x) = 4x + 22 때\nlim x->1f(x)2| 값을 구하시오.\n고등 3학년 ㆍ함수의 극한과 연속 ㆍ기본 expression ㆍ calculus.\nf(x) = 4x + 22! 때",
+            "content_text": "| 고등 3학년 ㆍ함수의 극한과 연속ㆍ기본 expression - calculus.\nf(x) = 4x + 22 때\nlim x->1f(x)2| 값을 구하시오.\n고등 3학년 ㆍ함수의 극한과 연속 ㆍ기본 expression ㆍ calculus.\nf(x) = 4x + 22! 때",
+            "repaired_text": "",
+            "expressions": [
+              "4x+2",
+              "x=1"
+            ],
+            "choices": [],
+            "math_topic": "calculus_limit",
+            "question_type": "subjective"
+          },
+          "solver_name": "expression_value_solver",
+          "computed_answer": "6",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g03_016__cc13dc3a"
+    },
+    {
+      "case_id": "high_g03_017",
+      "band": "고등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "calculus_derivative",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/수학 II/미분/high_g03_017_easy_word_calculus_derivative.png",
+      "expected_answer": "7",
+      "expected_expression": "2*1+ 5",
+      "computed_answer": "7",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "t = 1에서의 순간속도를 구하시오",
+      "recognized_expressions": [
+        "2*1+5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.491,
+      "analysis": {
+        "analysis_started_at": 1777121981.030973,
+        "analysis_finished_at": 1777121981.5220082,
+        "structured_problem": {
+          "source_text_candidates": [
+            "： 고등 3학년 ㆍ미분ㆍ기본 word - calculus_deriv.\n물체의 속도 함수가 v(t) = 2t + 5입니다.\nt = 1에서의 순간속도를 구하시오.\n고등 3학년 ㆍ미분ㆍ기본 word ㆍ calculus_deriv\n물체의 속도 함수가 vit) = 2t + 5입니다.",
+            "： 고등 3학년 ㆍ미분ㆍ기본 word - calculus_deriv.\n물체의 속도 함수가 v(t) = 2t + 5입니다.\nt = 1에서의 순간속도를 구하시오.\n고등 3학년 ㆍ미분ㆍ기본 word ㆍ calculus_deriv\n물체의 속도 함수가 vit) = 2t + 5입니다."
+          ],
+          "normalized_problem_text": "t = 1에서의 순간속도를 구하시오",
+          "expressions": [
+            "2*1+5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "calculus_derivative",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/수학 II/미분/high_g03_017_easy_word_calculus_derivative.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "： 고등 3학년 ㆍ미분ㆍ기본 word - calculus_deriv.\n물체의 속도 함수가 v(t) = 2t + 5입니다.\nt = 1에서의 순간속도를 구하시오.",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 3학년 ㆍ미분ㆍ기본 word ㆍ calculus_deriv\n물체의 속도 함수가 vit) = 2t + 5입니다.\nt = 1에서의 순간속도를 구하시오.",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 고등 3학년 ㆍ미분ㆍ기본 word - calculus_deriv.\n물체의 속도 함수가 v(t) = 2t + 5입니다.\nt = 1에서의 순간속도를 구하시오.",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "d645ad89a2ac"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "7",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 7야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 미분 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 7야. 그래서 정답은 7야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "： 고등 3학년 ㆍ미분ㆍ기본 word - calculus_deriv.\n물체의 속도 함수가 v(t) = 2t + 5입니다.\nt = 1에서의 순간속도를 구하시오.\n고등 3학년 ㆍ미분ㆍ기본 word ㆍ calculus_deriv\n물체의 속도 함수가 vit) = 2t + 5입니다.",
+            "content_text": "： 고등 3학년 ㆍ미분ㆍ기본 word - calculus_deriv.\n물체의 속도 함수가 v(t) = 2t + 5입니다.\nt = 1에서의 순간속도를 구하시오.\n고등 3학년 ㆍ미분ㆍ기본 word ㆍ calculus_deriv\n물체의 속도 함수가 vit) = 2t + 5입니다.",
+            "repaired_text": "",
+            "expressions": [
+              "2*1+5"
+            ],
+            "choices": [],
+            "math_topic": "calculus_derivative",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "7",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g03_017__9f3f80f2"
+    },
+    {
+      "case_id": "high_g03_018",
+      "band": "고등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "calculus_integral",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/수학 II/적분/high_g03_018_easy_expression_calculus_integral.png",
+      "expected_answer": "8",
+      "expected_expression": "1*8",
+      "computed_answer": "8",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "calculus_numeric_solver",
+      "recognized_problem": "0 <=x <= 8 구간 넓이를 구하시오",
+      "recognized_expressions": [
+        "1*8",
+        "12*8"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.452,
+      "analysis": {
+        "analysis_started_at": 1777121981.5224771,
+        "analysis_finished_at": 1777121981.9740102,
+        "structured_problem": {
+          "source_text_candidates": [
+            "고등 3학년 ㆍ적분ㆍ기본 expression ㆍ calculus.\n함수 f(x) = 12] 그래프와 xz 사이의\n0 <=x <= 8 구간 넓이를 구하시오.\n함수 f(x) = 1의 그래프와 *축 사이의",
+            "고등 3학년 ㆍ적분ㆍ기본 expression ㆍ calculus.\n함수 f(x) = 12] 그래프와 xz 사이의\n0 <=x <= 8 구간 넓이를 구하시오.\n함수 f(x) = 1의 그래프와 *축 사이의"
+          ],
+          "normalized_problem_text": "0 <=x <= 8 구간 넓이를 구하시오",
+          "expressions": [
+            "1*8",
+            "12*8"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "calculus_integral",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/수학 II/적분/high_g03_018_easy_expression_calculus_integral.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "고등 3학년 ㆍ적분ㆍ기본 expression ㆍ calculus.\n함수 f(x) = 12] 그래프와 xz 사이의\n0 <=x <= 8 구간 넓이를 구하시오.",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 3학년 ㆍ적분ㆍ기본 expression ㆍ calculus.\n함수 f(x) = 12] 그래프와 xz 사이의\n0 <=x <= 8 구간 넓이를 구하시오.",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "esta ae oe expression « calculus\n함수 f(x) = 1의 그래프와 *축 사이의\n0 <= x <= 8 구간 넓이를 구하시오.",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "72286d264ffe"
+          }
+        },
+        "solve_result": {
+          "solver_name": "calculus_numeric_solver",
+          "computed_answer": "8",
+          "steps": [
+            "미분/적분 조건에서 필요한 계산식만 먼저 추렸어.",
+            "계산하면 8야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 적분 문제야. 미분/적분 조건에서 필요한 계산식만 먼저 추렸어. 계산하면 8야. 그래서 정답은 8야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "고등 3학년 ㆍ적분ㆍ기본 expression ㆍ calculus.\n함수 f(x) = 12] 그래프와 xz 사이의\n0 <=x <= 8 구간 넓이를 구하시오.\n함수 f(x) = 1의 그래프와 *축 사이의",
+            "content_text": "고등 3학년 ㆍ적분ㆍ기본 expression ㆍ calculus.\n함수 f(x) = 12] 그래프와 xz 사이의\n0 <=x <= 8 구간 넓이를 구하시오.\n함수 f(x) = 1의 그래프와 *축 사이의",
+            "repaired_text": "",
+            "expressions": [
+              "1*8",
+              "12*8"
+            ],
+            "choices": [],
+            "math_topic": "calculus_integral",
+            "question_type": "subjective"
+          },
+          "solver_name": "calculus_numeric_solver",
+          "computed_answer": "8",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g03_018__39d8fd30"
+    },
+    {
+      "case_id": "high_g03_019",
+      "band": "고등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "graph",
+      "topic": "coordinate_geometry",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/기하/벡터와 이차곡선/high_g03_019_easy_graph_coordinate_geometry.png",
+      "expected_answer": "3",
+      "expected_expression": "y=3x+ 3",
+      "computed_answer": "3",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "line_slope_solver",
+      "recognized_problem": "이 직선의 기울기를 구하시오",
+      "recognized_expressions": [
+        "y=3x+3",
+        "y=3+3"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.675,
+      "analysis": {
+        "analysis_started_at": 1777121981.97447,
+        "analysis_finished_at": 1777121982.649854,
+        "structured_problem": {
+          "source_text_candidates": [
+            "고등 3학년 ㆍ벡터와 이차곡선 ㆍ기본 18011 ㆍ 0001010216@ 86\n오른쪽 직선의 식은 y= 3 + 3입니다.\n이 직선의 기울기를 구하시오.\n: 고등 3학년 ㆍ벡터와 이차곡선ㆍ기본 raph ㆍ coordinate_ge\n오른쪽 직선의 식은 = 3x + 3입니다.) '",
+            "고등 3학년 ㆍ벡터와 이차곡선 ㆍ기본 18011 ㆍ 0001010216@ 86\n오른쪽 직선의 식은 y= 3 + 3입니다.\n이 직선의 기울기를 구하시오.\n: 고등 3학년 ㆍ벡터와 이차곡선ㆍ기본 raph ㆍ coordinate_ge\n오른쪽 직선의 식은 = 3x + 3입니다.) '"
+          ],
+          "normalized_problem_text": "이 직선의 기울기를 구하시오",
+          "expressions": [
+            "y=3x+3",
+            "y=3+3"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "coordinate_geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/기하/벡터와 이차곡선/high_g03_019_easy_graph_coordinate_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "고등 3학년 ㆍ벡터와 이차곡선 ㆍ기본 18011 ㆍ 0001010216@ 86\n오른쪽 직선의 식은 y= 3 + 3입니다.\n이 직선의 기울기를 구하시오.",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 3학년 ㆍ벡터와 이차곡선 ㆍ기본 18011 ㆍ 0001010216@ 86\n오른쪽 직선의 식은 y= 3 + 3입니다.\n이 직선의 기울기를 구하시오.",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ": 고등 3학년 ㆍ벡터와 이차곡선ㆍ기본 raph ㆍ coordinate_ge\n오른쪽 직선의 식은 = 3x + 3입니다.) '\n이 직선의 기울기를 구하시오.",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "7df281912794"
+          }
+        },
+        "solve_result": {
+          "solver_name": "line_slope_solver",
+          "computed_answer": "3",
+          "steps": [
+            "직선식을 y=3*x+3 형태로 정리했어.",
+            "x의 계수, 즉 기울기는 3야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.83,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 직선식을 y=3*x+3 형태로 정리했어. x의 계수, 즉 기울기는 3야. 그래서 정답은 3야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "고등 3학년 ㆍ벡터와 이차곡선 ㆍ기본 18011 ㆍ 0001010216@ 86\n오른쪽 직선의 식은 y= 3 + 3입니다.\n이 직선의 기울기를 구하시오.\n: 고등 3학년 ㆍ벡터와 이차곡선ㆍ기본 raph ㆍ coordinate_ge\n오른쪽 직선의 식은 = 3x + 3입니다.) '",
+            "content_text": "고등 3학년 ㆍ벡터와 이차곡선 ㆍ기본 18011 ㆍ 0001010216@ 86\n오른쪽 직선의 식은 y= 3 + 3입니다.\n이 직선의 기울기를 구하시오.\n: 고등 3학년 ㆍ벡터와 이차곡선ㆍ기본 raph ㆍ coordinate_ge\n오른쪽 직선의 식은 = 3x + 3입니다.) '",
+            "repaired_text": "",
+            "expressions": [
+              "y=3x+3",
+              "y=3+3"
+            ],
+            "choices": [],
+            "math_topic": "coordinate_geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "line_slope_solver",
+          "computed_answer": "3",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g03_019__39d0e842"
+    },
+    {
+      "case_id": "high_g03_020",
+      "band": "고등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/확률과 통계/통계적 추정/high_g03_020_easy_expression_statistics.png",
+      "expected_answer": "416/5",
+      "expected_expression": "(81+95+71+98+71)/5",
+      "computed_answer": "416/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(81+95+71+98+71)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.447,
+      "analysis": {
+        "analysis_started_at": 1777121982.650388,
+        "analysis_finished_at": 1777121983.096992,
+        "structured_problem": {
+          "source_text_candidates": [
+            "고등 3학년 ㆍ통계적 추정ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n81, 95, 71, 98, 71\n. 고등 3학년 ㆍ통계적 추정 ㆍ기본 expression ㆍ statistics",
+            "고등 3학년 ㆍ통계적 추정ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n81, 95, 71, 98, 71\n. 고등 3학년 ㆍ통계적 추정 ㆍ기본 expression ㆍ statistics"
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(81+95+71+98+71)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/03.고등/3학년/확률과 통계/통계적 추정/high_g03_020_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "고등 3학년 ㆍ통계적 추정ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n81, 95, 71, 98, 71",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 3학년 ㆍ통계적 추정ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n81, 95, 71, 98, 71",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ". 고등 3학년 ㆍ통계적 추정 ㆍ기본 expression ㆍ statistics\n다음 자료의 평균을 구하시오.\n81, 95, 71, 98, 71",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "03ed78f977e0"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "416/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 416/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 416/5야. 그래서 정답은 416/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "고등 3학년 ㆍ통계적 추정ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n81, 95, 71, 98, 71\n. 고등 3학년 ㆍ통계적 추정 ㆍ기본 expression ㆍ statistics",
+            "content_text": "고등 3학년 ㆍ통계적 추정ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n81, 95, 71, 98, 71\n. 고등 3학년 ㆍ통계적 추정 ㆍ기본 expression ㆍ statistics",
+            "repaired_text": "",
+            "expressions": [
+              "(81+95+71+98+71)/5"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "416/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g03_020__67b37085"
+    }
+  ]
+}

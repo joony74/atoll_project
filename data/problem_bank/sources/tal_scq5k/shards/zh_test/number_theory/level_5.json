@@ -1,0 +1,604 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_5:00301",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 301,
+      "split": "zh_test",
+      "source_problem_id": "d8b2b130bcc84a2a989d8bcc958c64fa"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$\\overline{**45}$$，$$\\overline{19*8}$$，$$\\overline{23*1}$$，$$\\overline{3*49}$$，$$\\overline{5*63}$$ are five four-digit numbers, where $$*$$ represents unrecognizable numbers, if one of them is a perfect square number, then this number may be ．  $$\\overline{**45}$$，$$\\overline{19*8}$$，$$\\overline{23*1}$$，$$\\overline{3*49}$$，$$\\overline{5*63}$$是五个四位数，其中$$*$$代表不能辨认的数字，若其中有一个数是完全平方数，那么这个数可能是．\n(A) \\overline{**45}\n(B) \\overline{19*8}\n(C) \\overline{23*1}\n(D) \\overline{3*49}\n(E) \\overline{5*63}",
+      "problem_plain": "**45 ， 19*8 ， 23*1 ， 3*49 ， 5*63 are five four-digit numbers, where * represents unrecognizable numbers, if one of them is a perfect square number, then this number may be ． **45 ， 19*8 ， 23*1 ， 3*49 ， 5*63 是五个四位数，其中 * 代表不能辨认的数字，若其中有一个数是完全平方数，那么这个数可能是． (A) **45 (B) 19*8 (C) 23*1 (D) 3*49 (E) 5*63",
+      "solution_latex": "完全平方数的个位只能为$$0$$、$$1$$、$$4$$、$$5$$、$$6$$、$$9$$，因此排除$$\\text{B}$$选项和$$E$$选项．如果一个完全平方数是  $$5$$的倍数，那么它至少是$$25$$的倍数，因此排除$$\\text{A}$$选项．估算$${{48}^{2}}=2304$$，$${{49}^{2}}=2401$$，排除  $$\\text{C}$$选项．经检验$${{57}^{2}}=3249$$．",
+      "solution_plain": "完全平方数的个位只能为 0 、 1 、 4 、 5 、 6 、 9 ，因此排除 B 选项和 E 选项．如果一个完全平方数是 5 的倍数，那么它至少是 25 的倍数，因此排除 A 选项．估算 48 ^ 2 =2304 ， 49 ^ 2 =2401 ，排除 C 选项．经检验 57 ^ 2 =3249 ．"
+    },
+    "answer": {
+      "final_raw": "\\overline{3*49}",
+      "final_normalized": "\\overline{3*49}",
+      "candidates": [
+        "D",
+        "\\overline{3*49}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_5",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "完全平方数的个位只能为$$0$$、$$1$$、$$4$$、$$5$$、$$6$$、$$9$$，因此排除$$\\text{B}$$选项和$$E$$选项．如果一个完全平方数是  $$5$$的倍数，那么它至少是$$25$$的倍数，因此排除$$\\text{A}$$选项．估算$${{48}^{2}}=2304$$，$${{49}^{2}}=2401$$，排除  $$\\text{C}$$选项．经检验$${{57}^{2}}=3249$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "**45 ， 19*8 ， 23*1 ， 3*49 ， 5*63 are five four-digit numbers, where * represents unrecognizable numbers, if one of them is a perfect square number, then this number may be ． **45 ， 19*8 ， 23*1 ， 3*49 ， 5*63 是五个四位数，其中 * 代表不能辨认的数字，若其中有一个数是完全平方数，那么这个数可能是． (A) **45 (B) 19*8 (C) 23*1 (D) 3*49 (E) 5*63",
+      "solution_text": "完全平方数的个位只能为 0 、 1 、 4 、 5 、 6 、 9 ，因此排除 B 选项和 E 选项．如果一个完全平方数是 5 的倍数，那么它至少是 25 的倍数，因此排除 A 选项．估算 48 ^ 2 =2304 ， 49 ^ 2 =2401 ，排除 C 选项．经检验 57 ^ 2 =3249 ．",
+      "keywords": [
+        "level_5",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "950",
+        "queId": "d8b2b130bcc84a2a989d8bcc958c64fa",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\overline{**45}"
+          },
+          {
+            "label": "B",
+            "content": "\\overline{19*8}"
+          },
+          {
+            "label": "C",
+            "content": "\\overline{23*1}"
+          },
+          {
+            "label": "D",
+            "content": "\\overline{3*49}"
+          },
+          {
+            "label": "E",
+            "content": "\\overline{5*63}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->完全平方数->平方数的尾数特征",
+          "海外竞赛体系->知识点->数论模块->完全平方数"
+        ],
+        "competition_source_list": [
+          "2012年第8届全国新希望杯小学高年级六年级竞赛复赛第6题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_5:00599",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 599,
+      "split": "zh_test",
+      "source_problem_id": "0bcad56b1ca04227b13512edf0b102a6"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$\\overline{**45}$$，$$\\overline{19*8}$$，$$\\overline{23*1}$$，$$\\overline{3*49}$$是四个四位数，其中$$*$$代表不能辨认的数字，若其中有一个数是完全平方数，那么这个数可能是（~ ）．\n(A) \\overline{**45}\n(B) \\overline{19*8}\n(C) \\overline{23*1}\n(D) \\overline{3*49}",
+      "problem_plain": "**45 ， 19*8 ， 23*1 ， 3*49 是四个四位数，其中 * 代表不能辨认的数字，若其中有一个数是完全平方数，那么这个数可能是（~ ）． (A) **45 (B) 19*8 (C) 23*1 (D) 3*49",
+      "solution_latex": "完全平方数的个位只能为$$0$$、$$1$$、$$4$$、$$5$$、$$6$$、$$9$$，因此排除$$B$$选项．如果一个完全平方数是  $$5$$的倍数，那么它至少是$$25$$的倍数，因此排除$$A$$选项．估算$${{48}^{2}}=2304$$，$${{49}^{2}}=2401$$，排除  $$C$$选项．经检验$${{57}^{2}}=3249$$．",
+      "solution_plain": "完全平方数的个位只能为 0 、 1 、 4 、 5 、 6 、 9 ，因此排除 B 选项．如果一个完全平方数是 5 的倍数，那么它至少是 25 的倍数，因此排除 A 选项．估算 48 ^ 2 =2304 ， 49 ^ 2 =2401 ，排除 C 选项．经检验 57 ^ 2 =3249 ．"
+    },
+    "answer": {
+      "final_raw": "\\overline{3*49}",
+      "final_normalized": "\\overline{3*49}",
+      "candidates": [
+        "D",
+        "\\overline{3*49}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_5",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "完全平方数的个位只能为$$0$$、$$1$$、$$4$$、$$5$$、$$6$$、$$9$$，因此排除$$B$$选项．如果一个完全平方数是  $$5$$的倍数，那么它至少是$$25$$的倍数，因此排除$$A$$选项．估算$${{48}^{2}}=2304$$，$${{49}^{2}}=2401$$，排除  $$C$$选项．经检验$${{57}^{2}}=3249$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "**45 ， 19*8 ， 23*1 ， 3*49 是四个四位数，其中 * 代表不能辨认的数字，若其中有一个数是完全平方数，那么这个数可能是（~ ）． (A) **45 (B) 19*8 (C) 23*1 (D) 3*49",
+      "solution_text": "完全平方数的个位只能为 0 、 1 、 4 、 5 、 6 、 9 ，因此排除 B 选项．如果一个完全平方数是 5 的倍数，那么它至少是 25 的倍数，因此排除 A 选项．估算 48 ^ 2 =2304 ， 49 ^ 2 =2401 ，排除 C 选项．经检验 57 ^ 2 =3249 ．",
+      "keywords": [
+        "level_5",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "589",
+        "queId": "0bcad56b1ca04227b13512edf0b102a6",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\overline{**45}"
+          },
+          {
+            "label": "B",
+            "content": "\\overline{19*8}"
+          },
+          {
+            "label": "C",
+            "content": "\\overline{23*1}"
+          },
+          {
+            "label": "D",
+            "content": "\\overline{3*49}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->完全平方数->平方数的尾数特征"
+        ],
+        "competition_source_list": [
+          "2012年第8届全国新希望杯小学高年级六年级竞赛复赛第6题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_5:01037",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1037,
+      "split": "zh_test",
+      "source_problem_id": "7ddfbddac38e4b64892bbb5b28dea406"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$p$$，$$q$$均为大于$$3$$的素数，则使$${{p}^{2}}+5pq+4{{q}^{2}}$$为完全平方数的素数对$$(p,q)$$的个数为．\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
+      "problem_plain": "设 p ， q 均为大于 3 的素数，则使 p ^ 2 +5pq+4 q ^ 2 为完全平方数的素数对 (p,q) 的个数为． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_latex": "设$${{p}^{2}}+5pq+4{{q}^{2}}={{m}^{2}}$$ ($$m$$为自然数)，则$${{(p+2q)}^{2}}+pq={{m}^{2}}$$，即  $$(m-p-2q)(m+p+2q)=pq$$．  由于$$pq$$为素数，且$$m+p+2q\\textgreater p$$，$$m+p+2q\\textgreater q$$，  所以$$m-p-2q=1$$，$$m+p+2q=pq$$，  从而$$pq-2p-4q-1=0$$，即$$(p-4)(q-2)=9$$，  所以，$$(p,q)=(5,11)$$或$$(7,5)$$．  所以，满足条件的素数对$$(p,q)$$的个数为$$2$$．",
+      "solution_plain": "设 p ^ 2 +5pq+4 q ^ 2 = m ^ 2 ( m 为自然数)，则 (p+2q) ^ 2 +pq= m ^ 2 ，即 (m-p-2q)(m+p+2q)=pq ． 由于 pq 为素数，且 m+p+2q p ， m+p+2q q ， 所以 m-p-2q=1 ， m+p+2q=pq ， 从而 pq-2p-4q-1=0 ，即 (p-4)(q-2)=9 ， 所以， (p,q)=(5,11) 或 (7,5) ． 所以，满足条件的素数对 (p,q) 的个数为 2 ．"
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_5",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设$${{p}^{2}}+5pq+4{{q}^{2}}={{m}^{2}}$$ ($$m$$为自然数)，则$${{(p+2q)}^{2}}+pq={{m}^{2}}$$，即  $$(m-p-2q)(m+p+2q)=pq$$．  由于$$pq$$为素数，且$$m+p+2q\\textgreater p$$，$$m+p+2q\\textgreater q$$，  所以$$m-p-2q=1$$，$$m+p+2q=pq$$，  从而$$pq-2p-4q-1=0$$，即$$(p-4)(q-2)=9$$，  所以，$$(p,q)=(5,11)$$或$$(7,5)$$．  所以，满足条件的素数对$$(p,q)$$的个数为$$2$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 p ， q 均为大于 3 的素数，则使 p ^ 2 +5pq+4 q ^ 2 为完全平方数的素数对 (p,q) 的个数为． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_text": "设 p ^ 2 +5pq+4 q ^ 2 = m ^ 2 ( m 为自然数)，则 (p+2q) ^ 2 +pq= m ^ 2 ，即 (m-p-2q)(m+p+2q)=pq ． 由于 pq 为素数，且 m+p+2q p ， m+p+2q q ， 所以 m-p-2q=1 ， m+p+2q=pq ， 从而 pq-2p-4q-1=0 ，即 (p-4)(q-2)=9 ， 所以， (p,q)=(5,11) 或 (7,5) ． 所以，满足条件的素数对 (p,q) 的个数为 2 ．",
+      "keywords": [
+        "level_5",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "231",
+        "queId": "7ddfbddac38e4b64892bbb5b28dea406",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->数论->整除->素数与合数",
+          "课内体系->能力->抽象概括能力",
+          "课内体系->能力->运算能力",
+          "课内体系->知识点->式->因式分解->分组分解法",
+          "课内体系->知识点->式->因式分解->因式分解的应用"
+        ],
+        "competition_source_list": [
+          "2018年全国初中数学联赛竞赛A卷"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_5:01184",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1184,
+      "split": "zh_test",
+      "source_problem_id": "ca8161edc4634467b6f7e98eabf9b56b"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$p$$，$$q$$均为大于$$3$$的素数，则使$${{p}^{2}}+5pq+4{{q}^{2}}$$为完全平方数的素数对$$(p,q)$$的个数为（~ ）．\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
+      "problem_plain": "设 p ， q 均为大于 3 的素数，则使 p ^ 2 +5pq+4 q ^ 2 为完全平方数的素数对 (p,q) 的个数为（~ ）． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_latex": "设$${{p}^{2}}+5pq+4{{q}^{2}}={{m}^{2}}$$ ($$m$$为自然数)，则$${{(p+2q)}^{2}}+pq={{m}^{2}}$$，即  $$(m-p-2q)(m+p+2q)=pq$$．  由于$$pq$$为素数，且$$m+p+2q\\textgreater p$$，$$m+p+2q\\textgreater q$$，  所以$$m-p-2q=1$$，$$m+p+2q=pq$$，  从而$$pq-2p-4q-1=0$$，即$$(p-4)(q-2)=9$$，  所以，$$(p,q)=(5,11)$$或$$(7,5)$$．  所以，满足条件的素数对$$(p,q)$$的个数为$$2$$．",
+      "solution_plain": "设 p ^ 2 +5pq+4 q ^ 2 = m ^ 2 ( m 为自然数)，则 (p+2q) ^ 2 +pq= m ^ 2 ，即 (m-p-2q)(m+p+2q)=pq ． 由于 pq 为素数，且 m+p+2q p ， m+p+2q q ， 所以 m-p-2q=1 ， m+p+2q=pq ， 从而 pq-2p-4q-1=0 ，即 (p-4)(q-2)=9 ， 所以， (p,q)=(5,11) 或 (7,5) ． 所以，满足条件的素数对 (p,q) 的个数为 2 ．"
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_5",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设$${{p}^{2}}+5pq+4{{q}^{2}}={{m}^{2}}$$ ($$m$$为自然数)，则$${{(p+2q)}^{2}}+pq={{m}^{2}}$$，即  $$(m-p-2q)(m+p+2q)=pq$$．  由于$$pq$$为素数，且$$m+p+2q\\textgreater p$$，$$m+p+2q\\textgreater q$$，  所以$$m-p-2q=1$$，$$m+p+2q=pq$$，  从而$$pq-2p-4q-1=0$$，即$$(p-4)(q-2)=9$$，  所以，$$(p,q)=(5,11)$$或$$(7,5)$$．  所以，满足条件的素数对$$(p,q)$$的个数为$$2$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 p ， q 均为大于 3 的素数，则使 p ^ 2 +5pq+4 q ^ 2 为完全平方数的素数对 (p,q) 的个数为（~ ）． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_text": "设 p ^ 2 +5pq+4 q ^ 2 = m ^ 2 ( m 为自然数)，则 (p+2q) ^ 2 +pq= m ^ 2 ，即 (m-p-2q)(m+p+2q)=pq ． 由于 pq 为素数，且 m+p+2q p ， m+p+2q q ， 所以 m-p-2q=1 ， m+p+2q=pq ， 从而 pq-2p-4q-1=0 ，即 (p-4)(q-2)=9 ， 所以， (p,q)=(5,11) 或 (7,5) ． 所以，满足条件的素数对 (p,q) 的个数为 2 ．",
+      "keywords": [
+        "level_5",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1470",
+        "queId": "ca8161edc4634467b6f7e98eabf9b56b",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->抽象概括能力",
+          "课内体系->能力->运算能力",
+          "课内体系->知识点->式->因式分解->因式分解的基础->已知因式分解结果求参数",
+          "课内体系->知识点->式->因式分解->因式分解的应用",
+          "竞赛->知识点->数论->整除->素数与合数"
+        ],
+        "competition_source_list": [
+          "2018年全国初中数学联赛竞赛A卷"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_5:01681",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1681,
+      "split": "zh_test",
+      "source_problem_id": "76b53c7fa14742ebab70ea8244d8c52e"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "对$n$个正整数用\\emph{k}种颜色染色，使得无法从中选出三个不同色的正整数构成等差数列，设\\emph{k}的最大值为$f(n)$，则（~~~~~~~）\n(A) \\log _{3}n\\leq f(n)\\leq \\log _{2}n+1\n(B) \\log _{2}n\\leq f(n)\\leq \\log _{2}n+1\n(C) \\log _{3}n\\leq f(n)\\leq \\log _{2}n\n(D) \\log _{3}n\\leq f(n)\\leq \\log _{3}n+1",
+      "problem_plain": "对 n 个正整数用 k 种颜色染色，使得无法从中选出三个不同色的正整数构成等差数列，设 k 的最大值为 f(n) ，则（~~~~~~~） (A) _ 3 n f(n) _ 2 n+1 (B) _ 2 n f(n) _ 2 n+1 (C) _ 3 n f(n) _ 2 n (D) _ 3 n f(n) _ 3 n+1",
+      "solution_latex": "\\hfill\\break 【分析】\\\\ 利用特例可判断BCD的正误，利用整除性和数学归纳法可判断A的正误.\\\\ 【详解】\\\\ 取$n=4$，则$f(4)=3$，将1234染成$ABBC$即可．因此选项CD错误．\\\\ 下面证明$\\log _{3}n\\leq f(n)\\leq \\log _{2}n+1$．\\\\ 设$v(n,p)$为正整数\\emph{n}中素数\\emph{p}的幂次，即$p^{v(n,p)}\\parallel n$．\\\\ 对于任意的正整数$m(1\\leq m\\leq n)$，将\\emph{m}染成第$v(m,3)+1$种颜色，这样就用了$\\left[\\log _{3}n\\right]+1$种颜色．\\\\ 此时对于任意不同色的正整数\\emph{x}，\\emph{y}，有$v(2x-y,3)=v(2y-x,3)=\\min  {v(x,3),v(y,3) }$，\\\\ 因此$2x-y$和$2y-x$均与\\emph{x}，\\emph{y}之一同色，符合题意．这样就证明了$f(n)\\geq \\left[\\log _{3}n\\right]+1\\textgreater{} \\log _{3}n$．\\\\ 接下来设$2^{k}\\leq n\\textless{} 2^{k+1}\\left(k\\in \\mathbf{N}^{\\ast }\\right)$，则右侧不等式即$f(n)\\leq k+1$．\\\\ 对\\emph{k}进行归纳，应用数学归纳法证明．\\\\ 当$k=1$时，$n=2,3$，此时$f(n)=2$，命题成立．\\\\ 假设命题对$k-1$成立，对已有$1,2,\\cdots ,2^{k}-1$的染色，考虑1，2，\\ldots，\\emph{n}的染色，若其中有两种或两种以上新增的颜色，不妨设为红色和蓝色，且最小的红色数为\\emph{x}，最小的蓝色数为\\emph{y}，且$x\\textless{} y$，则$2^{k}\\leq x\\textless{} y\\leq n\\textless{} 2^{k+1}\\Rightarrow 2x-y\\textgreater{} 0$，\\\\ 考虑正整数$2x-y$，它与异色数对$(x,y)$成等差数列，于是必然与\\emph{x}，\\emph{y}之一同色，但$2x-y\\textless{} x\\textless{} y$，这与之前假设的\\emph{x}，\\emph{y}的最小性矛盾．\\\\ 因此1，2，\\ldots，\\emph{n}的染色至多在之前的基础上增加1种，从而命题得证．\\\\ 综上所述，有$\\log _{3}n\\leq f(n)\\leq \\log _{2}n+1$．\\\\ 接下来考虑$n=9$的情形，此时$f(n)=3$，排除选项B．\\\\ 故选：A.",
+      "solution_plain": "【分析】 利用特例可判断BCD的正误，利用整除性和数学归纳法可判断A的正误. 【详解】 取 n=4 ，则 f(4)=3 ，将1234染成 ABBC 即可．因此选项CD错误． 下面证明 _ 3 n f(n) _ 2 n+1 ． 设 v(n,p) 为正整数 n 中素数 p 的幂次，即 p^ v(n,p) n ． 对于任意的正整数 m(1 m n) ，将 m 染成第 v(m,3)+1 种颜色，这样就用了 [ _ 3 n ]+1 种颜色． 此时对于任意不同色的正整数 x ， y ，有 v(2x-y,3)=v(2y-x,3)= v(x,3),v(y,3) ， 因此 2x-y 和 2y-x 均与 x ， y 之一同色，符合题意．这样就证明了 f(n) [ _ 3 n ]+1 _ 3 n ． 接下来设 2^ k n 2^ k+1 (k N ^ ) ，则右侧不等式即 f(n) k+1 ． 对 k 进行归纳，应用数学归纳法证明． 当 k=1 时， n=2,3 ，此时 f(n)=2 ，命题成立． 假设命题对 k-1 成立，对已有 1,2, ,2^ k -1 的染色，考虑1，2， ， n 的染色，若其中有两种或两种以上新增的颜色，不妨设为红色和蓝色，且最小的红色数为 x ，最小的蓝色数为 y ，且 x y ，则 2^ k x y n 2^ k+1 2x-y 0 ， 考虑正整数 2x-y ，它与异色数对 (x,y) 成等差数列，于是必然与 x ， y 之一同色，但 2x-y x y ，这与之前假设的 x ， y 的最小性矛盾． 因此1，2， ， n 的染色至多在之前的基础上增加1种，从而命题得证． 综上所述，有 _ 3 n f(n) _ 2 n+1 ． 接下来考虑 n=9 的情形，此时 f(n)=3 ，排除选项B． 故选：A."
+    },
+    "answer": {
+      "final_raw": "\\log _{3}n\\leq f(n)\\leq \\log _{2}n+1",
+      "final_normalized": "\\log _{3}n\\leq f(n)\\leq \\log _{2}n+1",
+      "candidates": [
+        "A",
+        "\\log _{3}n\\leq f(n)\\leq \\log _{2}n+1"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [],
+      "tags": [
+        "level_5",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "\\hfill\\break 【分析】\\\\ 利用特例可判断BCD的正误，利用整除性和数学归纳法可判断A的正误.\\\\ 【详解】\\\\ 取$n=4$，则$f(4)=3$，将1234染成$ABBC$即可．因此选项CD错误．\\\\ 下面证明$\\log _{3}n\\leq f(n)\\leq \\log _{2}n+1$．\\\\ 设$v(n,p)$为正整数\\emph{n}中素数\\emph{p}的幂次，即$p^{v(n,p)}\\parallel n$．\\\\ 对于任意的正整数$m(1\\leq m\\leq n)$，将\\emph{m}染成第$v(m,3)+1$种颜色，这样就用了$\\left[\\log _{3}n\\right]+1$种颜色．\\\\ 此时对于任意不同色的正整数\\emph{x}，\\emph{y}，有$v(2x-y,3)=v(2y-x,3)=\\min  {v(x,3),v(y,3) }$，\\\\ 因此$2x-y$和$2y-x$均与\\emph{x}，\\emph{y}之一同色，符合题意．这样就证明了$f(n)\\geq \\left[\\log _{3}n\\right]+1\\textgreater{} \\log _{3}n$．\\\\ 接下来设$2^{k}\\leq n\\textless{} 2^{k+1}\\left(k\\in \\mathbf{N}^{\\ast }\\right)$，则右侧不等式即$f(n)\\leq k+1$．\\\\ 对\\emph{k}进行归纳，应用数学归纳法证明．\\\\ 当$k=1$时，$n=2,3$，此时$f(n)=2$，命题成立．\\\\ 假设命题对$k-1$成立，对已有$1,2,\\cdots ,2^{k}-1$的染色，考虑1，2，\\ldots，\\emph{n}的染色，若其中有两种或两种以上新增的颜色，不妨设为红色和蓝色，且最小的红色数为\\emph{x}，最小的蓝色数为\\emph{y}，且$x\\textless{} y$，则$2^{k}\\leq x\\textless{} y\\leq n\\textless{} 2^{k+1}\\Rightarrow 2x-y\\textgreater{} 0$，\\\\ 考虑正整数$2x-y$，它与异色数对$(x,y)$成等差数列，于是必然与\\emph{x}，\\emph{y}之一同色，但$2x-y\\textless{} x\\textless{} y$，这与之前假设的\\emph{x}，\\emph{y}的最小性矛盾．\\\\ 因此1，2，\\ldots，\\emph{n}的染色至多在之前的基础上增加1种，从而命题得证．\\\\ 综上所述，有$\\log _{3}n\\leq f(n)\\leq \\log _{2}n+1$．\\\\ 接下来考虑$n=9$的情形，此时$f(n)=3$，排除选项B．\\\\ 故选：A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "对 n 个正整数用 k 种颜色染色，使得无法从中选出三个不同色的正整数构成等差数列，设 k 的最大值为 f(n) ，则（~~~~~~~） (A) _ 3 n f(n) _ 2 n+1 (B) _ 2 n f(n) _ 2 n+1 (C) _ 3 n f(n) _ 2 n (D) _ 3 n f(n) _ 3 n+1",
+      "solution_text": "【分析】 利用特例可判断BCD的正误，利用整除性和数学归纳法可判断A的正误. 【详解】 取 n=4 ，则 f(4)=3 ，将1234染成 ABBC 即可．因此选项CD错误． 下面证明 _ 3 n f(n) _ 2 n+1 ． 设 v(n,p) 为正整数 n 中素数 p 的幂次，即 p^ v(n,p) n ． 对于任意的正整数 m(1 m n) ，将 m 染成第 v(m,3)+1 种颜色，这样就用了 [ _ 3 n ]+1 种颜色． 此时对于任意不同色的正整数 x ， y ，有 v(2x-y,3)=v(2y-x,3)= v(x,3),v(y,3) ， 因此 2x-y 和 2y-x 均与 x ， y 之一同色，符合题意．这样就证明了 f(n) [ _ 3 n ]+1 _ 3 n ． 接下来设 2^ k n 2^ k+1 (k N ^ ) ，则右侧不等式即 f(n) k+1 ． 对 k 进行归纳，应用数学归纳法证明． 当 k=1 时， n=2,3 ，此时 f(n)=2 ，命题成立． 假设命题对 k-1 成立，对已有 1,2, ,2^ k -1 的染色，考虑1，2， ， n 的染色，若其中有两种或两种以上新增的颜色，不妨设为红色和蓝色，且最小的红色数为 x ，最小的蓝色数为 y ，且 x y ，则 2^ k x y n 2^ k+1 2x-y 0 ， 考虑正整数 2x-y ，它与异色数对 (x,y) 成等差数列，于是必然与 x ， y 之一同色，但 2x-y x y ，这与之前假设的 x ， y 的最小性矛盾． 因此1，2， ， n 的染色至多在之前的基础上增加1种，从而命题得证． 综上所述，有 _ 3 n f(n) _ 2 n+1 ． 接下来考虑 n=9 的情形，此时 f(n)=3 ，排除选项B． 故选：A.",
+      "keywords": [
+        "level_5",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "694",
+        "queId": "76b53c7fa14742ebab70ea8244d8c52e",
+        "difficulty": "4",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\log _{3}n\\leq f(n)\\leq \\log _{2}n+1"
+          },
+          {
+            "label": "B",
+            "content": "\\log _{2}n\\leq f(n)\\leq \\log _{2}n+1"
+          },
+          {
+            "label": "C",
+            "content": "\\log _{3}n\\leq f(n)\\leq \\log _{2}n"
+          },
+          {
+            "label": "D",
+            "content": "\\log _{3}n\\leq f(n)\\leq \\log _{3}n+1"
+          }
+        ],
+        "knowledge_point_routes": [],
+        "competition_source_list": [
+          "竞赛第16题"
+        ]
+      }
+    }
+  }
+]

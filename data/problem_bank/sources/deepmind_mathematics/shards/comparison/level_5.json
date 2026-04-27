@@ -1,0 +1,1742 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_closest_more:01958",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1958,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_closest_more_01958"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which is the nearest to 1.3?  (a) 9  (b) -3/8  (c) 0  (d) 6  (e) 0.1  (f) -1  (g) -466",
+      "problem_plain": "Which is the nearest to 1.3? (a) 9 (b) -3/8 (c) 0 (d) 6 (e) 0.1 (f) -1 (g) -466",
+      "solution_latex": "e",
+      "solution_plain": "e"
+    },
+    "answer": {
+      "final_raw": "e",
+      "final_normalized": "e",
+      "candidates": [
+        "e"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_closest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which is the nearest to 1.3? (a) 9 (b) -3/8 (c) 0 (d) 6 (e) 0.1 (f) -1 (g) -466",
+      "solution_text": "e",
+      "keywords": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__closest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_closest_more:01959",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1959,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_closest_more_01959"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the closest to -0.05 in -0.4, 0.1, 2, 5, 3/5, 666139, -5/2, 4?",
+      "problem_plain": "What is the closest to -0.05 in -0.4, 0.1, 2, 5, 3/5, 666139, -5/2, 4?",
+      "solution_latex": "0.1",
+      "solution_plain": "0.1"
+    },
+    "answer": {
+      "final_raw": "0.1",
+      "final_normalized": "0.1",
+      "candidates": [
+        "0.1"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "decimal"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_closest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the closest to -0.05 in -0.4, 0.1, 2, 5, 3/5, 666139, -5/2, 4?",
+      "solution_text": "0.1",
+      "keywords": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__closest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_closest_more:01960",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1960,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_closest_more_01960"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which is the nearest to 0?  (a) 0.026  (b) -305  (c) 62/5  (d) -0.2  (e) -4/9  (f) -1/4  (g) 29",
+      "problem_plain": "Which is the nearest to 0? (a) 0.026 (b) -305 (c) 62/5 (d) -0.2 (e) -4/9 (f) -1/4 (g) 29",
+      "solution_latex": "a",
+      "solution_plain": "a"
+    },
+    "answer": {
+      "final_raw": "a",
+      "final_normalized": "a",
+      "candidates": [
+        "a"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_closest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which is the nearest to 0? (a) 0.026 (b) -305 (c) 62/5 (d) -0.2 (e) -4/9 (f) -1/4 (g) 29",
+      "solution_text": "a",
+      "keywords": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__closest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_closest_more:01961",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1961,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_closest_more_01961"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the nearest to -2 in -346, -10, -4, 4/9, 2/3, -4/699, 0.12?",
+      "problem_plain": "What is the nearest to -2 in -346, -10, -4, 4/9, 2/3, -4/699, 0.12?",
+      "solution_latex": "-4/699",
+      "solution_plain": "-4/699"
+    },
+    "answer": {
+      "final_raw": "-4/699",
+      "final_normalized": "-4/699",
+      "candidates": [
+        "-4/699"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_closest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the nearest to -2 in -346, -10, -4, 4/9, 2/3, -4/699, 0.12?",
+      "solution_text": "-4/699",
+      "keywords": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__closest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_closest_more:01962",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1962,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_closest_more_01962"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which is the nearest to 423?  (a) 1  (b) 3/8  (c) -2  (d) 1/3  (e) -5/4  (f) 0.04  (g) -0.06  (h) -7",
+      "problem_plain": "Which is the nearest to 423? (a) 1 (b) 3/8 (c) -2 (d) 1/3 (e) -5/4 (f) 0.04 (g) -0.06 (h) -7",
+      "solution_latex": "a",
+      "solution_plain": "a"
+    },
+    "answer": {
+      "final_raw": "a",
+      "final_normalized": "a",
+      "candidates": [
+        "a"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_closest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which is the nearest to 423? (a) 1 (b) 3/8 (c) -2 (d) 1/3 (e) -5/4 (f) 0.04 (g) -0.06 (h) -7",
+      "solution_text": "a",
+      "keywords": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__closest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_closest_more:01963",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1963,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_closest_more_01963"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which is the nearest to -1?  (a) 38/9  (b) -67028  (c) 1/2  (d) 9  (e) -2  (f) -1/7  (g) 2",
+      "problem_plain": "Which is the nearest to -1? (a) 38/9 (b) -67028 (c) 1/2 (d) 9 (e) -2 (f) -1/7 (g) 2",
+      "solution_latex": "f",
+      "solution_plain": "f"
+    },
+    "answer": {
+      "final_raw": "f",
+      "final_normalized": "f",
+      "candidates": [
+        "f"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_closest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which is the nearest to -1? (a) 38/9 (b) -67028 (c) 1/2 (d) 9 (e) -2 (f) -1/7 (g) 2",
+      "solution_text": "f",
+      "keywords": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__closest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_closest_more:01964",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1964,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_closest_more_01964"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which is the nearest to 2?  (a) -0.4  (b) 4  (c) -2/21  (d) -1/4  (e) 377  (f) -2.2  (g) 9  (h) 1.4",
+      "problem_plain": "Which is the nearest to 2? (a) -0.4 (b) 4 (c) -2/21 (d) -1/4 (e) 377 (f) -2.2 (g) 9 (h) 1.4",
+      "solution_latex": "h",
+      "solution_plain": "h"
+    },
+    "answer": {
+      "final_raw": "h",
+      "final_normalized": "h",
+      "candidates": [
+        "h"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_closest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which is the nearest to 2? (a) -0.4 (b) 4 (c) -2/21 (d) -1/4 (e) 377 (f) -2.2 (g) 9 (h) 1.4",
+      "solution_text": "h",
+      "keywords": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__closest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_closest_more:01965",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1965,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_closest_more_01965"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which is the closest to 1?  (a) 1/7  (b) -3/5936  (c) 1/2  (d) 3  (e) 0.11  (f) -0.2  (g) -5  (h) 2",
+      "problem_plain": "Which is the closest to 1? (a) 1/7 (b) -3/5936 (c) 1/2 (d) 3 (e) 0.11 (f) -0.2 (g) -5 (h) 2",
+      "solution_latex": "c",
+      "solution_plain": "c"
+    },
+    "answer": {
+      "final_raw": "c",
+      "final_normalized": "c",
+      "candidates": [
+        "c"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_closest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which is the closest to 1? (a) 1/7 (b) -3/5936 (c) 1/2 (d) 3 (e) 0.11 (f) -0.2 (g) -5 (h) 2",
+      "solution_text": "c",
+      "keywords": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__closest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_closest_more:01966",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1966,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_closest_more_01966"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which is the nearest to 29/2176?  (a) 1  (b) 7  (c) -33  (d) -0.3  (e) -0.2  (f) 5  (g) -5",
+      "problem_plain": "Which is the nearest to 29/2176? (a) 1 (b) 7 (c) -33 (d) -0.3 (e) -0.2 (f) 5 (g) -5",
+      "solution_latex": "e",
+      "solution_plain": "e"
+    },
+    "answer": {
+      "final_raw": "e",
+      "final_normalized": "e",
+      "candidates": [
+        "e"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_closest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which is the nearest to 29/2176? (a) 1 (b) 7 (c) -33 (d) -0.3 (e) -0.2 (f) 5 (g) -5",
+      "solution_text": "e",
+      "keywords": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__closest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_closest_more:01967",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1967,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_closest_more_01967"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the closest to -2/7 in -3, -10, -40, -2, 300, 25, -4/3?",
+      "problem_plain": "What is the closest to -2/7 in -3, -10, -40, -2, 300, 25, -4/3?",
+      "solution_latex": "-4/3",
+      "solution_plain": "-4/3"
+    },
+    "answer": {
+      "final_raw": "-4/3",
+      "final_normalized": "-4/3",
+      "candidates": [
+        "-4/3"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_closest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the closest to -2/7 in -3, -10, -40, -2, 300, 25, -4/3?",
+      "solution_text": "-4/3",
+      "keywords": [
+        "comparison",
+        "comparison_closest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__closest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_kth_biggest_more:01968",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1968,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_kth_biggest_more_01968"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which is the second biggest value?  (a) 10  (b) -8  (c) -5  (d) -5/2  (e) -0.2388  (f) 0.2  (g) 0.5  (h) -203.1  (i) -2/5",
+      "problem_plain": "Which is the second biggest value? (a) 10 (b) -8 (c) -5 (d) -5/2 (e) -0.2388 (f) 0.2 (g) 0.5 (h) -203.1 (i) -2/5",
+      "solution_latex": "g",
+      "solution_plain": "g"
+    },
+    "answer": {
+      "final_raw": "g",
+      "final_normalized": "g",
+      "candidates": [
+        "g"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_kth_biggest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which is the second biggest value? (a) 10 (b) -8 (c) -5 (d) -5/2 (e) -0.2388 (f) 0.2 (g) 0.5 (h) -203.1 (i) -2/5",
+      "solution_text": "g",
+      "keywords": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__kth_biggest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_kth_biggest_more:01969",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1969,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_kth_biggest_more_01969"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the biggest value in 2070, -3/2, -3/7, -5, -0.12, -3, -1/3, 1.58, 9?",
+      "problem_plain": "What is the biggest value in 2070, -3/2, -3/7, -5, -0.12, -3, -1/3, 1.58, 9?",
+      "solution_latex": "2070",
+      "solution_plain": "2070"
+    },
+    "answer": {
+      "final_raw": "2070",
+      "final_normalized": "2070",
+      "candidates": [
+        "2070"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_kth_biggest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the biggest value in 2070, -3/2, -3/7, -5, -0.12, -3, -1/3, 1.58, 9?",
+      "solution_text": "2070",
+      "keywords": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__kth_biggest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_kth_biggest_more:01970",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1970,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_kth_biggest_more_01970"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which is the third smallest value?  (a) -0.1  (b) 4/13  (c) -3  (d) -4/3  (e) 2/11  (f) 3  (g) 10/11  (h) 2  (i) -17/5  (j) 0.2",
+      "problem_plain": "Which is the third smallest value? (a) -0.1 (b) 4/13 (c) -3 (d) -4/3 (e) 2/11 (f) 3 (g) 10/11 (h) 2 (i) -17/5 (j) 0.2",
+      "solution_latex": "d",
+      "solution_plain": "d"
+    },
+    "answer": {
+      "final_raw": "d",
+      "final_normalized": "d",
+      "candidates": [
+        "d"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_kth_biggest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which is the third smallest value? (a) -0.1 (b) 4/13 (c) -3 (d) -4/3 (e) 2/11 (f) 3 (g) 10/11 (h) 2 (i) -17/5 (j) 0.2",
+      "solution_text": "d",
+      "keywords": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__kth_biggest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_kth_biggest_more:01971",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1971,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_kth_biggest_more_01971"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the third biggest value in -0.5, 0, 1/5, -25, 15, 122, 2/3, 0.03, -0.41?",
+      "problem_plain": "What is the third biggest value in -0.5, 0, 1/5, -25, 15, 122, 2/3, 0.03, -0.41?",
+      "solution_latex": "2/3",
+      "solution_plain": "2/3"
+    },
+    "answer": {
+      "final_raw": "2/3",
+      "final_normalized": "2/3",
+      "candidates": [
+        "2/3"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_kth_biggest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the third biggest value in -0.5, 0, 1/5, -25, 15, 122, 2/3, 0.03, -0.41?",
+      "solution_text": "2/3",
+      "keywords": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__kth_biggest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_kth_biggest_more:01972",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1972,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_kth_biggest_more_01972"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which is the third smallest value?  (a) -4  (b) 14/5  (c) 0.05  (d) 0  (e) 15  (f) 34  (g) -1/9  (h) 0.4  (i) 5  (j) -1",
+      "problem_plain": "Which is the third smallest value? (a) -4 (b) 14/5 (c) 0.05 (d) 0 (e) 15 (f) 34 (g) -1/9 (h) 0.4 (i) 5 (j) -1",
+      "solution_latex": "g",
+      "solution_plain": "g"
+    },
+    "answer": {
+      "final_raw": "g",
+      "final_normalized": "g",
+      "candidates": [
+        "g"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_kth_biggest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which is the third smallest value? (a) -4 (b) 14/5 (c) 0.05 (d) 0 (e) 15 (f) 34 (g) -1/9 (h) 0.4 (i) 5 (j) -1",
+      "solution_text": "g",
+      "keywords": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__kth_biggest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_kth_biggest_more:01973",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1973,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_kth_biggest_more_01973"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the sixth smallest value in -481, 4, -13205, 5, -0.4, -2/9, -0.5, -4, 3/7?",
+      "problem_plain": "What is the sixth smallest value in -481, 4, -13205, 5, -0.4, -2/9, -0.5, -4, 3/7?",
+      "solution_latex": "-2/9",
+      "solution_plain": "-2/9"
+    },
+    "answer": {
+      "final_raw": "-2/9",
+      "final_normalized": "-2/9",
+      "candidates": [
+        "-2/9"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_kth_biggest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the sixth smallest value in -481, 4, -13205, 5, -0.4, -2/9, -0.5, -4, 3/7?",
+      "solution_text": "-2/9",
+      "keywords": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__kth_biggest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_kth_biggest_more:01974",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1974,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_kth_biggest_more_01974"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which is the second smallest value?  (a) -4  (b) 831  (c) 2  (d) -2  (e) 0.4  (f) -747  (g) 4  (h) 0.05  (i) -2/5  (j) -5",
+      "problem_plain": "Which is the second smallest value? (a) -4 (b) 831 (c) 2 (d) -2 (e) 0.4 (f) -747 (g) 4 (h) 0.05 (i) -2/5 (j) -5",
+      "solution_latex": "j",
+      "solution_plain": "j"
+    },
+    "answer": {
+      "final_raw": "j",
+      "final_normalized": "j",
+      "candidates": [
+        "j"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_kth_biggest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which is the second smallest value? (a) -4 (b) 831 (c) 2 (d) -2 (e) 0.4 (f) -747 (g) 4 (h) 0.05 (i) -2/5 (j) -5",
+      "solution_text": "j",
+      "keywords": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__kth_biggest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_kth_biggest_more:01975",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1975,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_kth_biggest_more_01975"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which is the eighth biggest value?  (a) 39  (b) -0.07  (c) 4/3  (d) 7/5  (e) 2  (f) 13  (g) 0  (h) -4  (i) -1  (j) 3/4",
+      "problem_plain": "Which is the eighth biggest value? (a) 39 (b) -0.07 (c) 4/3 (d) 7/5 (e) 2 (f) 13 (g) 0 (h) -4 (i) -1 (j) 3/4",
+      "solution_latex": "b",
+      "solution_plain": "b"
+    },
+    "answer": {
+      "final_raw": "b",
+      "final_normalized": "b",
+      "candidates": [
+        "b"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_kth_biggest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which is the eighth biggest value? (a) 39 (b) -0.07 (c) 4/3 (d) 7/5 (e) 2 (f) 13 (g) 0 (h) -4 (i) -1 (j) 3/4",
+      "solution_text": "b",
+      "keywords": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__kth_biggest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_kth_biggest_more:01976",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1976,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_kth_biggest_more_01976"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the tenth biggest value in -1, -2/9, -5, 2/9, -0.3, 0.1, 1/120, 1/12, 0.2, -444?",
+      "problem_plain": "What is the tenth biggest value in -1, -2/9, -5, 2/9, -0.3, 0.1, 1/120, 1/12, 0.2, -444?",
+      "solution_latex": "-444",
+      "solution_plain": "-444"
+    },
+    "answer": {
+      "final_raw": "-444",
+      "final_normalized": "-444",
+      "candidates": [
+        "-444"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_kth_biggest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the tenth biggest value in -1, -2/9, -5, 2/9, -0.3, 0.1, 1/120, 1/12, 0.2, -444?",
+      "solution_text": "-444",
+      "keywords": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__kth_biggest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:comparison_kth_biggest_more:01977",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1977,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_comparison_kth_biggest_more_01977"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which is the third biggest value?  (a) 4/3  (b) 5  (c) 0.3  (d) 1/7  (e) 0.1352  (f) 2/3  (g) 24/5  (h) 14/57  (i) -3  (j) 1/5",
+      "problem_plain": "Which is the third biggest value? (a) 4/3 (b) 5 (c) 0.3 (d) 1/7 (e) 0.1352 (f) 2/3 (g) 24/5 (h) 14/57 (i) -3 (j) 1/5",
+      "solution_latex": "a",
+      "solution_plain": "a"
+    },
+    "answer": {
+      "final_raw": "a",
+      "final_normalized": "a",
+      "candidates": [
+        "a"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "comparison",
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "comparison_kth_biggest_more"
+      ],
+      "tags": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which is the third biggest value? (a) 4/3 (b) 5 (c) 0.3 (d) 1/7 (e) 0.1352 (f) 2/3 (g) 24/5 (h) 14/57 (i) -3 (j) 1/5",
+      "solution_text": "a",
+      "keywords": [
+        "comparison",
+        "comparison_kth_biggest_more",
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "comparison__kth_biggest_more",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  }
+]

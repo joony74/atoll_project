@@ -1,0 +1,3009 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00035",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 35,
+      "split": "zh_test",
+      "source_problem_id": "d78c585cd0ad42e38a836ee3d80f959d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "甲、乙两车分别从$$A$$、$$B$$两地同时相向开出，$$4$$小时后两车相遇，然后各自继续行驶$$3$$小时，此时甲车距$$B$$地$$10$$千米，乙车距$$A$$地$$80$$千米，那么$$A$$、$$B$$两地相距（  ）千米。\n(A) 350\n(B) 360\n(C) 370\n(D) 380",
+      "problem_plain": "甲、乙两车分别从 A 、 B 两地同时相向开出， 4 小时后两车相遇，然后各自继续行驶 3 小时，此时甲车距 B 地 10 千米，乙车距 A 地 80 千米，那么 A 、 B 两地相距（ ）千米。 (A) 350 (B) 360 (C) 370 (D) 380",
+      "solution_latex": "$$4$$小时甲乙共行了$$AB$$，$$3$$小时甲乙共行了$$\\frac{3}{4}AB$$，$$\\left( 10+80 \\right)\\div \\left( 1-\\frac{3}{4} \\right)=360$$(千米)。",
+      "solution_plain": "4 小时甲乙共行了 AB ， 3 小时甲乙共行了 3 4 AB ， ( 10+80 ) ( 1- 3 4 )=360 (千米)。"
+    },
+    "answer": {
+      "final_raw": "360",
+      "final_normalized": "360",
+      "candidates": [
+        "360",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$4$$小时甲乙共行了$$AB$$，$$3$$小时甲乙共行了$$\\frac{3}{4}AB$$，$$\\left( 10+80 \\right)\\div \\left( 1-\\frac{3}{4} \\right)=360$$(千米)。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "甲、乙两车分别从 A 、 B 两地同时相向开出， 4 小时后两车相遇，然后各自继续行驶 3 小时，此时甲车距 B 地 10 千米，乙车距 A 地 80 千米，那么 A 、 B 两地相距（ ）千米。 (A) 350 (B) 360 (C) 370 (D) 380",
+      "solution_text": "4 小时甲乙共行了 AB ， 3 小时甲乙共行了 3 4 AB ， ( 10+80 ) ( 1- 3 4 )=360 (千米)。",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2304",
+        "queId": "d78c585cd0ad42e38a836ee3d80f959d",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "350"
+          },
+          {
+            "label": "B",
+            "content": "360"
+          },
+          {
+            "label": "C",
+            "content": "370"
+          },
+          {
+            "label": "D",
+            "content": "380"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->行程模块->比例解行程问题->行程中的比例"
+        ],
+        "competition_source_list": [
+          "2011年五年级竞赛创新杯"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00060",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 60,
+      "split": "zh_test",
+      "source_problem_id": "8335b63ae51846ce9aa7d127e2d29705"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "定义新运算：$$a*b=5a-4b$$，则$$3*2*1=$$~\\uline{~~~~~~~~~~}~．\n(A) 6\n(B) 7\n(C) 31\n(D) 35",
+      "problem_plain": "定义新运算： a*b=5a-4b ，则 3*2*1= ~ ~~~~~~~~~~ ~． (A) 6 (B) 7 (C) 31 (D) 35",
+      "solution_latex": "$$3*2=5\\times 3-4\\times 2=7$$，$$7*1=5\\times 7-4\\times 1=31$$．  知识点：直接计算型的定义新运算",
+      "solution_plain": "3*2=5 3-4 2=7 ， 7*1=5 7-4 1=31 ． 知识点：直接计算型的定义新运算"
+    },
+    "answer": {
+      "final_raw": "31",
+      "final_normalized": "31",
+      "candidates": [
+        "31",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$3*2=5\\times 3-4\\times 2=7$$，$$7*1=5\\times 7-4\\times 1=31$$．  知识点：直接计算型的定义新运算"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "定义新运算： a*b=5a-4b ，则 3*2*1= ~ ~~~~~~~~~~ ~． (A) 6 (B) 7 (C) 31 (D) 35",
+      "solution_text": "3*2=5 3-4 2=7 ， 7*1=5 7-4 1=31 ． 知识点：直接计算型的定义新运算",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2611",
+        "queId": "8335b63ae51846ce9aa7d127e2d29705",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "7"
+          },
+          {
+            "label": "C",
+            "content": "31"
+          },
+          {
+            "label": "D",
+            "content": "35"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->拓展思维->计算模块->定义新运算->直接运算型->普通型"
+        ],
+        "competition_source_list": [
+          "2013年第14届上海中环杯小学中年级三年级竞赛初赛第3题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00133",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 133,
+      "split": "zh_test",
+      "source_problem_id": "10bfbcb000654e17a6b37f7de1dfd9b4"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "将分数$$\\frac{22}{7}$$化成小数后，请问应取到小数点后第几位才能使得结果与$$3.14159$$的差最小（不需要做四舍五入且用大数减小数）？\n(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+      "problem_plain": "将分数 22 7 化成小数后，请问应取到小数点后第几位才能使得结果与 3.14159 的差最小（不需要做四舍五入且用大数减小数）？ (A) 1 (B) 2 (C) 3 (D) 4 (E) 5",
+      "solution_latex": "$$\\frac{22}{7}=3.\\overset{\\centerdot }{\\mathop{1}} ,4285\\overset{\\centerdot }{\\mathop{7}} ,$$，逐一取小数点后的数，得到  $$3.14159-3.1=0.04159$$  $$3.14159-3.14=0.00159$$  $$3.142-3.14159=0.00041$$  $$3.1428-3.14159=0.00121$$  $$3.14258-3.14159=0.00126$$  $$\\cdots$$  由上面可知，取到小数后第$$3$$位时结果与$$3.14159$$的差最小．  若取小数点后的数位超过$$3$$，则结果与$$3.14159$$的差不断增大．  故选$$\\text{C}$$．",
+      "solution_plain": "22 7 =3. 1 ,4285 7 , ，逐一取小数点后的数，得到 3.14159-3.1=0.04159 3.14159-3.14=0.00159 3.142-3.14159=0.00041 3.1428-3.14159=0.00121 3.14258-3.14159=0.00126 由上面可知，取到小数后第 3 位时结果与 3.14159 的差最小． 若取小数点后的数位超过 3 ，则结果与 3.14159 的差不断增大． 故选 C ．"
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$\\frac{22}{7}=3.\\overset{\\centerdot }{\\mathop{1}} ,4285\\overset{\\centerdot }{\\mathop{7}} ,$$，逐一取小数点后的数，得到  $$3.14159-3.1=0.04159$$  $$3.14159-3.14=0.00159$$  $$3.142-3.14159=0.00041$$  $$3.1428-3.14159=0.00121$$  $$3.14258-3.14159=0.00126$$  $$\\cdots$$  由上面可知，取到小数后第$$3$$位时结果与$$3.14159$$的差最小．  若取小数点后的数位超过$$3$$，则结果与$$3.14159$$的差不断增大．  故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "将分数 22 7 化成小数后，请问应取到小数点后第几位才能使得结果与 3.14159 的差最小（不需要做四舍五入且用大数减小数）？ (A) 1 (B) 2 (C) 3 (D) 4 (E) 5",
+      "solution_text": "22 7 =3. 1 ,4285 7 , ，逐一取小数点后的数，得到 3.14159-3.1=0.04159 3.14159-3.14=0.00159 3.142-3.14159=0.00041 3.1428-3.14159=0.00121 3.14258-3.14159=0.00126 由上面可知，取到小数后第 3 位时结果与 3.14159 的差最小． 若取小数点后的数位超过 3 ，则结果与 3.14159 的差不断增大． 故选 C ．",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2448",
+        "queId": "10bfbcb000654e17a6b37f7de1dfd9b4",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          },
+          {
+            "label": "E",
+            "content": "5"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->分数->分数基础->分、百、小相互转化"
+        ],
+        "competition_source_list": [
+          "2013年IMAS小学高年级竞赛第一轮检测试题第8题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00259",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 259,
+      "split": "zh_test",
+      "source_problem_id": "0abe165615c04387b2993fe8930f70b3"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "定义两种运算：$$a\\oplus b=a+b-1$$，$$a\\otimes b=ab-1$$。如果$$4\\otimes \\left[ \\left( 6\\oplus x \\right)\\oplus \\left( 3\\otimes 5 \\right) \\right]=79$$，则$$x$$等于（  ）。\n(A) 2\n(B) 1\n(C) 0\n(D) 3",
+      "problem_plain": "定义两种运算： a b=a+b-1 ， a b=ab-1 。如果 4 [ ( 6 x ) ( 3 5 ) ]=79 ，则 x 等于（ ）。 (A) 2 (B) 1 (C) 0 (D) 3",
+      "solution_latex": "$$6\\oplus x=6+x-1=5+x$$；$$3\\otimes 5=3\\times 5-1=14$$；  $$\\left( 5+x \\right)\\oplus 14=5+x+14-1=x+18$$；  $$4\\otimes \\left( 18+x \\right)=4\\times \\left( 18+x \\right)-1=4x+71$$；$$4x+71=79$$，得$$x=2$$。",
+      "solution_plain": "6 x=6+x-1=5+x ； 3 5=3 5-1=14 ； ( 5+x ) 14=5+x+14-1=x+18 ； 4 ( 18+x )=4 ( 18+x )-1=4x+71 ； 4x+71=79 ，得 x=2 。"
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$6\\oplus x=6+x-1=5+x$$；$$3\\otimes 5=3\\times 5-1=14$$；  $$\\left( 5+x \\right)\\oplus 14=5+x+14-1=x+18$$；  $$4\\otimes \\left( 18+x \\right)=4\\times \\left( 18+x \\right)-1=4x+71$$；$$4x+71=79$$，得$$x=2$$。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "定义两种运算： a b=a+b-1 ， a b=ab-1 。如果 4 [ ( 6 x ) ( 3 5 ) ]=79 ，则 x 等于（ ）。 (A) 2 (B) 1 (C) 0 (D) 3",
+      "solution_text": "6 x=6+x-1=5+x ； 3 5=3 5-1=14 ； ( 5+x ) 14=5+x+14-1=x+18 ； 4 ( 18+x )=4 ( 18+x )-1=4x+71 ； 4x+71=79 ，得 x=2 。",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2375",
+        "queId": "0abe165615c04387b2993fe8930f70b3",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "0"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->定义新运算->反解未知数型"
+        ],
+        "competition_source_list": [
+          "2011年六年级竞赛创新杯"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00275",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 275,
+      "split": "zh_test",
+      "source_problem_id": "6bcd9ba048e645c088ec72fe0154a807"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$a\\vee b$$表示$$a$$、$$b$$两个数中取较大的一个，$$a\\wedge b$$表示$$a$$、$$b$$两个数中取较小的一个，则$$\\left( 666\\vee 888 \\right)\\wedge \\left( 777\\vee 555 \\right)$$等于（  ）。\n(A) 555\n(B) 666\n(C) 777\n(D) 888",
+      "problem_plain": "a b 表示 a 、 b 两个数中取较大的一个， a b 表示 a 、 b 两个数中取较小的一个，则 ( 666 888 ) ( 777 555 ) 等于（ ）。 (A) 555 (B) 666 (C) 777 (D) 888",
+      "solution_latex": "$$666\\vee 888$$两个数中取较大的是$$888$$，$$777\\vee 555$$两个数中取较大的是$$777$$，$$888\\wedge 777$$两个数中取较小的是$$777$$。",
+      "solution_plain": "666 888 两个数中取较大的是 888 ， 777 555 两个数中取较大的是 777 ， 888 777 两个数中取较小的是 777 。"
+    },
+    "answer": {
+      "final_raw": "777",
+      "final_normalized": "777",
+      "candidates": [
+        "777",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$666\\vee 888$$两个数中取较大的是$$888$$，$$777\\vee 555$$两个数中取较大的是$$777$$，$$888\\wedge 777$$两个数中取较小的是$$777$$。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "a b 表示 a 、 b 两个数中取较大的一个， a b 表示 a 、 b 两个数中取较小的一个，则 ( 666 888 ) ( 777 555 ) 等于（ ）。 (A) 555 (B) 666 (C) 777 (D) 888",
+      "solution_text": "666 888 两个数中取较大的是 888 ， 777 555 两个数中取较大的是 777 ， 888 777 两个数中取较小的是 777 。",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2551",
+        "queId": "6bcd9ba048e645c088ec72fe0154a807",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "555"
+          },
+          {
+            "label": "B",
+            "content": "666"
+          },
+          {
+            "label": "C",
+            "content": "777"
+          },
+          {
+            "label": "D",
+            "content": "888"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->定义新运算->直接运算型->普通型"
+        ],
+        "competition_source_list": [
+          "2006年走美杯四年级竞赛",
+          "2006年走美杯六年级竞赛",
+          "2006年走美杯五年级竞赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00290",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 290,
+      "split": "zh_test",
+      "source_problem_id": "6a4fa91b249746588f85fdcecb6f907d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "对于两个数字$$a$$、$$b$$，定义新运算：$$a*b=a\\times b+a+b$$，则$$9*11=$$（  ）。\n(A) 99\n(B) 109\n(C) 119\n(D) 129",
+      "problem_plain": "对于两个数字 a 、 b ，定义新运算： a*b=a b+a+b ，则 9*11= （ ）。 (A) 99 (B) 109 (C) 119 (D) 129",
+      "solution_latex": "根据定义，得$$9*11=9\\times 11+9+11=119$$。",
+      "solution_plain": "根据定义，得 9*11=9 11+9+11=119 。"
+    },
+    "answer": {
+      "final_raw": "119",
+      "final_normalized": "119",
+      "candidates": [
+        "119",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "根据定义，得$$9*11=9\\times 11+9+11=119$$。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "对于两个数字 a 、 b ，定义新运算： a*b=a b+a+b ，则 9*11= （ ）。 (A) 99 (B) 109 (C) 119 (D) 129",
+      "solution_text": "根据定义，得 9*11=9 11+9+11=119 。",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2873",
+        "queId": "6a4fa91b249746588f85fdcecb6f907d",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "99"
+          },
+          {
+            "label": "B",
+            "content": "109"
+          },
+          {
+            "label": "C",
+            "content": "119"
+          },
+          {
+            "label": "D",
+            "content": "129"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->定义新运算->直接运算型->普通型"
+        ],
+        "competition_source_list": [
+          "2014年中环杯三年级竞赛初赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00416",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 416,
+      "split": "zh_test",
+      "source_problem_id": "043c9a23518541b3904defe150d75831"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "这个算式要按照什么顺序计算呢．  $$13+1+2+3$$\n(A) 14+2\n(B) 1+2\n(C) 2+3\n(D) 13+3",
+      "problem_plain": "这个算式要按照什么顺序计算呢． 13+1+2+3 (A) 14+2 (B) 1+2 (C) 2+3 (D) 13+3",
+      "solution_latex": "按照从左往右的顺序计算．",
+      "solution_plain": "按照从左往右的顺序计算．"
+    },
+    "answer": {
+      "final_raw": "14+2",
+      "final_normalized": "14+2",
+      "candidates": [
+        "14+2",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "按照从左往右的顺序计算．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "这个算式要按照什么顺序计算呢． 13+1+2+3 (A) 14+2 (B) 1+2 (C) 2+3 (D) 13+3",
+      "solution_text": "按照从左往右的顺序计算．",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2361",
+        "queId": "043c9a23518541b3904defe150d75831",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "14+2"
+          },
+          {
+            "label": "B",
+            "content": "1+2"
+          },
+          {
+            "label": "C",
+            "content": "2+3"
+          },
+          {
+            "label": "D",
+            "content": "13+3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->运算求解"
+        ],
+        "competition_source_list": [
+          "2016年全国学而思杯一年级竞赛样题第1题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00425",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 425,
+      "split": "zh_test",
+      "source_problem_id": "8d28ff15a04e45d5bf990657c4bb3958"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "小王从家到学校只有两种方式可供选择：（$$a$$）步行$$3$$分钟到离家较近的公车站，然后乘$$15$$分钟的公车到学校；（$$b$$）步行$$5$$分钟到离家较近的地铁站，然后乘$$6$$分钟的地铁到离学校较近的地铁站，再步行$$5$$分钟到学校．如果不计等车的时间，请问小王从家到学校至少需要多少分钟？\n(A) 15\n(B) 16\n(C) 17\n(D) 18\n(E) 19",
+      "problem_plain": "小王从家到学校只有两种方式可供选择：（ a ）步行 3 分钟到离家较近的公车站，然后乘 15 分钟的公车到学校；（ b ）步行 5 分钟到离家较近的地铁站，然后乘 6 分钟的地铁到离学校较近的地铁站，再步行 5 分钟到学校．如果不计等车的时间，请问小王从家到学校至少需要多少分钟？ (A) 15 (B) 16 (C) 17 (D) 18 (E) 19",
+      "solution_latex": "从家到学校，若小王选择第一种方式需要$$3+15=18$$分钟，选择第二种方式则需要$$5+6+5=16$$分钟，所以小王从家到学校至少需要$$16$$分钟．故选$$\\text{B}$$．",
+      "solution_plain": "从家到学校，若小王选择第一种方式需要 3+15=18 分钟，选择第二种方式则需要 5+6+5=16 分钟，所以小王从家到学校至少需要 16 分钟．故选 B ．"
+    },
+    "answer": {
+      "final_raw": "16",
+      "final_normalized": "16",
+      "candidates": [
+        "16",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "从家到学校，若小王选择第一种方式需要$$3+15=18$$分钟，选择第二种方式则需要$$5+6+5=16$$分钟，所以小王从家到学校至少需要$$16$$分钟．故选$$\\text{B}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "小王从家到学校只有两种方式可供选择：（ a ）步行 3 分钟到离家较近的公车站，然后乘 15 分钟的公车到学校；（ b ）步行 5 分钟到离家较近的地铁站，然后乘 6 分钟的地铁到离学校较近的地铁站，再步行 5 分钟到学校．如果不计等车的时间，请问小王从家到学校至少需要多少分钟？ (A) 15 (B) 16 (C) 17 (D) 18 (E) 19",
+      "solution_text": "从家到学校，若小王选择第一种方式需要 3+15=18 分钟，选择第二种方式则需要 5+6+5=16 分钟，所以小王从家到学校至少需要 16 分钟．故选 B ．",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2847",
+        "queId": "8d28ff15a04e45d5bf990657c4bb3958",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "15"
+          },
+          {
+            "label": "B",
+            "content": "16"
+          },
+          {
+            "label": "C",
+            "content": "17"
+          },
+          {
+            "label": "D",
+            "content": "18"
+          },
+          {
+            "label": "E",
+            "content": "19"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->整数->整数加减->整数加法运算->加法横式"
+        ],
+        "competition_source_list": [
+          "2013年IMAS小学高年级竞赛第一轮检测试题第3题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00443",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 443,
+      "split": "zh_test",
+      "source_problem_id": "0a98ce343edd48ba9db1840119cacc14"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "小数乘法：$$0.025\\times 0.04$$的结果（不计末尾的$$0$$）的小数位数有（~ ）位．\n(A) 2\n(B) 3\n(C) 4\n(D) 5",
+      "problem_plain": "小数乘法： 0.025 0.04 的结果（不计末尾的 0 ）的小数位数有（~ ）位． (A) 2 (B) 3 (C) 4 (D) 5",
+      "solution_latex": "$$0.025\\times 0.04=0.001$$",
+      "solution_plain": "0.025 0.04=0.001"
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$0.025\\times 0.04=0.001$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "小数乘法： 0.025 0.04 的结果（不计末尾的 0 ）的小数位数有（~ ）位． (A) 2 (B) 3 (C) 4 (D) 5",
+      "solution_text": "0.025 0.04=0.001",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2372",
+        "queId": "0a98ce343edd48ba9db1840119cacc14",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "5"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->小数->小数乘除->小数乘法运算"
+        ],
+        "competition_source_list": [
+          "2018年湖北武汉创新杯小学高年级五年级竞赛初赛数学思维能力等级测试第1题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00511",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 511,
+      "split": "zh_test",
+      "source_problem_id": "3f7c4a26337747359501cf36879da538"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$113\\times 5-37\\times 15$$，这个题目中隐藏的公因数是（  ）。\n(A) 5\n(B) 15\n(C) 37",
+      "problem_plain": "113 5-37 15 ，这个题目中隐藏的公因数是（ ）。 (A) 5 (B) 15 (C) 37",
+      "solution_latex": "略",
+      "solution_plain": "略"
+    },
+    "answer": {
+      "final_raw": "5",
+      "final_normalized": "5",
+      "candidates": [
+        "5",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "略"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "113 5-37 15 ，这个题目中隐藏的公因数是（ ）。 (A) 5 (B) 15 (C) 37",
+      "solution_text": "略",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2653",
+        "queId": "3f7c4a26337747359501cf36879da538",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "5"
+          },
+          {
+            "label": "B",
+            "content": "15"
+          },
+          {
+            "label": "C",
+            "content": "37"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->整数->整数提取公因数->整数构造提取->整数倍数关系"
+        ],
+        "competition_source_list": [
+          "2007年走美杯三年级竞赛初赛",
+          "2007年走美杯四年级竞赛初赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00590",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 590,
+      "split": "zh_test",
+      "source_problem_id": "0ccd52d3177143c1b434d9da63ee1c94"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在算式$$+5=13-2$$中，括号中应填入什么数才能使算式成立？\n(A) 4\n(B) 5\n(C) 6\n(D) 7",
+      "problem_plain": "在算式 +5=13-2 中，括号中应填入什么数才能使算式成立？ (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_latex": "13-2=11；11-5=6",
+      "solution_plain": "13-2=11；11-5=6"
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "13-2=11；11-5=6"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在算式 +5=13-2 中，括号中应填入什么数才能使算式成立？ (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_text": "13-2=11；11-5=6",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2431",
+        "queId": "0ccd52d3177143c1b434d9da63ee1c94",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "7"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->整数->整数加减->整数减法运算->减法横式"
+        ],
+        "competition_source_list": [
+          "2012年IMAS小学中年级竞赛第一轮检测试题第2题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00681",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 681,
+      "split": "zh_test",
+      "source_problem_id": "d026a163717e4dd299c0b6a1c61929f9"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$$a\\times \\frac{5}{4}=b\\times \\frac{6}{7}=c\\times \\frac{4}{9}=d\\times \\frac{8}{8}$$，并且$$a$$、$$b$$、$$c$$、$$d$$都不等于零，那么$$a$$、$$b$$、$$c$$、$$d$$四个数的大小关系是(  )\n(A) a\\textgreater d\\textgreater b\\textgreater c\n(B) b\\textgreater c\\textgreater d\\textgreater a\n(C) c\\textgreater b\\textgreater d\\textgreater a\n(D) c\\textgreater d\\textgreater b\\textgreater a",
+      "problem_plain": "已知 a 5 4 =b 6 7 =c 4 9 =d 8 8 ，并且 a 、 b 、 c 、 d 都不等于零，那么 a 、 b 、 c 、 d 四个数的大小关系是( ) (A) a d b c (B) b c d a (C) c b d a (D) c d b a",
+      "solution_latex": "若$$a\\times \\frac{5}{4}=b\\times \\frac{6}{7}=c\\times \\frac{4}{9}=d\\times \\frac{8}{8}=1$$，  那么$$a=\\frac{4}{5}$$，$$b=\\frac{7}{6}$$，$$c=\\frac{9}{4}$$，$$d=1$$，  显然$$c\\textgreater b\\textgreater d\\textgreater a$$．",
+      "solution_plain": "若 a 5 4 =b 6 7 =c 4 9 =d 8 8 =1 ， 那么 a= 4 5 ， b= 7 6 ， c= 9 4 ， d=1 ， 显然 c b d a ．"
+    },
+    "answer": {
+      "final_raw": "c\\textgreater b\\textgreater d\\textgreater a",
+      "final_normalized": "c\\textgreater b\\textgreater d\\textgreater a",
+      "candidates": [
+        "C",
+        "c\\textgreater b\\textgreater d\\textgreater a"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "若$$a\\times \\frac{5}{4}=b\\times \\frac{6}{7}=c\\times \\frac{4}{9}=d\\times \\frac{8}{8}=1$$，  那么$$a=\\frac{4}{5}$$，$$b=\\frac{7}{6}$$，$$c=\\frac{9}{4}$$，$$d=1$$，  显然$$c\\textgreater b\\textgreater d\\textgreater a$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 a 5 4 =b 6 7 =c 4 9 =d 8 8 ，并且 a 、 b 、 c 、 d 都不等于零，那么 a 、 b 、 c 、 d 四个数的大小关系是( ) (A) a d b c (B) b c d a (C) c b d a (D) c d b a",
+      "solution_text": "若 a 5 4 =b 6 7 =c 4 9 =d 8 8 =1 ， 那么 a= 4 5 ， b= 7 6 ， c= 9 4 ， d=1 ， 显然 c b d a ．",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3109",
+        "queId": "d026a163717e4dd299c0b6a1c61929f9",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "a\\textgreater d\\textgreater b\\textgreater c"
+          },
+          {
+            "label": "B",
+            "content": "b\\textgreater c\\textgreater d\\textgreater a"
+          },
+          {
+            "label": "C",
+            "content": "c\\textgreater b\\textgreater d\\textgreater a"
+          },
+          {
+            "label": "D",
+            "content": "c\\textgreater d\\textgreater b\\textgreater a"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->比较与估算->比较大小综合->分数基准数法"
+        ],
+        "competition_source_list": [
+          "2003年六年级竞赛创新杯",
+          "2003年五年级竞赛创新杯"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00696",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 696,
+      "split": "zh_test",
+      "source_problem_id": "5a3a654aea174b6dabdb761e8e6ce18c"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在算式$$+5=13-2$$中，括号中应填入什么数才能使算式成立？\n(A) 4\n(B) 5\n(C) 6\n(D) 7",
+      "problem_plain": "在算式 +5=13-2 中，括号中应填入什么数才能使算式成立？ (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_latex": "13-2=11；11-5=6",
+      "solution_plain": "13-2=11；11-5=6"
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "13-2=11；11-5=6"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在算式 +5=13-2 中，括号中应填入什么数才能使算式成立？ (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_text": "13-2=11；11-5=6",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2636",
+        "queId": "5a3a654aea174b6dabdb761e8e6ce18c",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "7"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->整数->整数加减->整数减法运算->减法横式"
+        ],
+        "competition_source_list": [
+          "2012年IMAS小学中年级竞赛第一轮检测试题第2题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00713",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 713,
+      "split": "zh_test",
+      "source_problem_id": "c796b0fff44e44d5b9529e695411da42"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "计算：$$30 \\%\\div 1\\frac{2}{5}\\times(\\frac{1}{3}+\\frac{1}{7})=$$~\\uline{~~~~~~~~~~}~．\n(A) \\frac{1}{21}\n(B) \\frac{5}{21}\n(C) \\frac{1}{49}\n(D) \\frac{5}{49}",
+      "problem_plain": "计算： 30 % 1 2 5 ( 1 3 + 1 7 )= ~ ~~~~~~~~~~ ~． (A) 1 21 (B) 5 21 (C) 1 49 (D) 5 49",
+      "solution_latex": "$$30 \\%\\div 1\\frac{2}{5}\\times(\\frac{1}{3}+\\frac{1}{7})=\\frac{3}{10}\\times \\frac{5}{7}\\times \\frac{10}{21}=\\frac{5}{49}$$．",
+      "solution_plain": "30 % 1 2 5 ( 1 3 + 1 7 )= 3 10 5 7 10 21 = 5 49 ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{5}{49}",
+      "final_normalized": "\\frac{5}{49}",
+      "candidates": [
+        "D",
+        "\\frac{5}{49}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$30 \\%\\div 1\\frac{2}{5}\\times(\\frac{1}{3}+\\frac{1}{7})=\\frac{3}{10}\\times \\frac{5}{7}\\times \\frac{10}{21}=\\frac{5}{49}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "计算： 30 % 1 2 5 ( 1 3 + 1 7 )= ~ ~~~~~~~~~~ ~． (A) 1 21 (B) 5 21 (C) 1 49 (D) 5 49",
+      "solution_text": "30 % 1 2 5 ( 1 3 + 1 7 )= 3 10 5 7 10 21 = 5 49 ．",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2606",
+        "queId": "c796b0fff44e44d5b9529e695411da42",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{1}{21}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{5}{21}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{1}{49}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{5}{49}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->分数->分数运算->分数四则混合运算"
+        ],
+        "competition_source_list": [
+          "其它改编自2013年全国希望杯六年级竞赛初赛第1题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00726",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 726,
+      "split": "zh_test",
+      "source_problem_id": "cd93804611e442408ac82d51e56230a4"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "梅森质数是形如``$${{2}^{p}}-1$$''的质数，这里$${{2}^{p}}$$表示$$p$$个$$2$$相乘的积，而且$$p$$也是一个质数．目前用超级计算机已找到了$$51$$个梅森质数，其中第二大的梅森质数是$${{2}^{77232917}}-1$$．以下各数中，能被$$15$$整除的是．\n(A) {{2}^{77232917}}-2\n(B) {{2}^{77232917}}+1\n(C) {{2}^{77232917}}+2\n(D) {{2}^{77232917}}+3",
+      "problem_plain": "梅森质数是形如`` 2 ^ p -1 ''的质数，这里 2 ^ p 表示 p 个 2 相乘的积，而且 p 也是一个质数．目前用超级计算机已找到了 51 个梅森质数，其中第二大的梅森质数是 2 ^ 77232917 -1 ．以下各数中，能被 15 整除的是． (A) 2 ^ 77232917 -2 (B) 2 ^ 77232917 +1 (C) 2 ^ 77232917 +2 (D) 2 ^ 77232917 +3",
+      "solution_latex": "$${{2}^{n}}\\div 3$$的余数周期为$$2$$，$$1$$，  $$77232917\\div 2\\cdots \\cdots 1$$，$${{2}^{77231917}}\\div 3\\cdots \\cdots 2$$，  $${{2}^{n}}\\div 5$$的余数周期为$$2$$，$$4$$，$$3$$，$$1$$．  $$77232917\\div 4\\cdots \\cdots 1$$，$${{2}^{77232917}}\\div 5\\cdots \\cdots 2$$，  $$3\\times 5+2=17$$，$${{2}^{77232917}}\\equiv 17\\equiv 2\\left( \\bmod 15 \\right)$$．  故选$$\\text{A}$$．",
+      "solution_plain": "2 ^ n 3 的余数周期为 2 ， 1 ， 77232917 2 1 ， 2 ^ 77231917 3 2 ， 2 ^ n 5 的余数周期为 2 ， 4 ， 3 ， 1 ． 77232917 4 1 ， 2 ^ 77232917 5 2 ， 3 5+2=17 ， 2 ^ 77232917 17 2 ( 15 ) ． 故选 A ．"
+    },
+    "answer": {
+      "final_raw": "{{2}^{77232917}}-2",
+      "final_normalized": "{{2}^{77232917}}-2",
+      "candidates": [
+        "A",
+        "{{2}^{77232917}}-2"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$${{2}^{n}}\\div 3$$的余数周期为$$2$$，$$1$$，  $$77232917\\div 2\\cdots \\cdots 1$$，$${{2}^{77231917}}\\div 3\\cdots \\cdots 2$$，  $${{2}^{n}}\\div 5$$的余数周期为$$2$$，$$4$$，$$3$$，$$1$$．  $$77232917\\div 4\\cdots \\cdots 1$$，$${{2}^{77232917}}\\div 5\\cdots \\cdots 2$$，  $$3\\times 5+2=17$$，$${{2}^{77232917}}\\equiv 17\\equiv 2\\left( \\bmod 15 \\right)$$．  故选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "梅森质数是形如`` 2 ^ p -1 ''的质数，这里 2 ^ p 表示 p 个 2 相乘的积，而且 p 也是一个质数．目前用超级计算机已找到了 51 个梅森质数，其中第二大的梅森质数是 2 ^ 77232917 -1 ．以下各数中，能被 15 整除的是． (A) 2 ^ 77232917 -2 (B) 2 ^ 77232917 +1 (C) 2 ^ 77232917 +2 (D) 2 ^ 77232917 +3",
+      "solution_text": "2 ^ n 3 的余数周期为 2 ， 1 ， 77232917 2 1 ， 2 ^ 77231917 3 2 ， 2 ^ n 5 的余数周期为 2 ， 4 ， 3 ， 1 ． 77232917 4 1 ， 2 ^ 77232917 5 2 ， 3 5+2=17 ， 2 ^ 77232917 17 2 ( 15 ) ． 故选 A ．",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "880",
+        "queId": "cd93804611e442408ac82d51e56230a4",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "{{2}^{77232917}}-2"
+          },
+          {
+            "label": "B",
+            "content": "{{2}^{77232917}}+1"
+          },
+          {
+            "label": "C",
+            "content": "{{2}^{77232917}}+2"
+          },
+          {
+            "label": "D",
+            "content": "{{2}^{77232917}}+3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->对应思想"
+        ],
+        "competition_source_list": [
+          "2020年希望杯五年级竞赛模拟第29题",
+          "2020年新希望杯五年级竞赛第29题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00729",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 729,
+      "split": "zh_test",
+      "source_problem_id": "80164d6d748643b8ae3bf80b77f5833a"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在算式$$\\square +5=13-6$$中，请问$$\\square $$中应填入什么数才能使算式正确？\n(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+      "problem_plain": "在算式 +5=13-6 中，请问 中应填入什么数才能使算式正确？ (A) 1 (B) 2 (C) 3 (D) 4 (E) 5",
+      "solution_latex": "$$2+5=13-6$$．",
+      "solution_plain": "2+5=13-6 ．"
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$2+5=13-6$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在算式 +5=13-6 中，请问 中应填入什么数才能使算式正确？ (A) 1 (B) 2 (C) 3 (D) 4 (E) 5",
+      "solution_text": "2+5=13-6 ．",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2820",
+        "queId": "80164d6d748643b8ae3bf80b77f5833a",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          },
+          {
+            "label": "E",
+            "content": "5"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->整数->整数加减->整数减法运算->减法横式"
+        ],
+        "competition_source_list": [
+          "2012年IMAS小学中年级竞赛第一轮检测试题第2题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00794",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 794,
+      "split": "zh_test",
+      "source_problem_id": "0e6558655d78415a822ced0404ae124c"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$a\\vee b$$表示$$a$$、$$b$$两个数中取较大的一个，$$a\\wedge b$$表示$$a$$、$$b$$两个数中取较小的一个，则$$\\left( 2006\\vee 2008 \\right)\\wedge \\left( 2007\\vee 2009 \\right)$$等于（  ）。\n(A) 2006\n(B) 2007\n(C) 2008\n(D) 2009",
+      "problem_plain": "a b 表示 a 、 b 两个数中取较大的一个， a b 表示 a 、 b 两个数中取较小的一个，则 ( 2006 2008 ) ( 2007 2009 ) 等于（ ）。 (A) 2006 (B) 2007 (C) 2008 (D) 2009",
+      "solution_latex": "$$2006\\vee 2008$$两个数中取较大的是$$2008$$，$$2007\\vee 2009$$两个数中取较大的是$$2009$$，$$2008\\wedge 2009$$两个数中取较小的是$$2008$$。",
+      "solution_plain": "2006 2008 两个数中取较大的是 2008 ， 2007 2009 两个数中取较大的是 2009 ， 2008 2009 两个数中取较小的是 2008 。"
+    },
+    "answer": {
+      "final_raw": "2008",
+      "final_normalized": "2008",
+      "candidates": [
+        "2008",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$2006\\vee 2008$$两个数中取较大的是$$2008$$，$$2007\\vee 2009$$两个数中取较大的是$$2009$$，$$2008\\wedge 2009$$两个数中取较小的是$$2008$$。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "a b 表示 a 、 b 两个数中取较大的一个， a b 表示 a 、 b 两个数中取较小的一个，则 ( 2006 2008 ) ( 2007 2009 ) 等于（ ）。 (A) 2006 (B) 2007 (C) 2008 (D) 2009",
+      "solution_text": "2006 2008 两个数中取较大的是 2008 ， 2007 2009 两个数中取较大的是 2009 ， 2008 2009 两个数中取较小的是 2008 。",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2356",
+        "queId": "0e6558655d78415a822ced0404ae124c",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2006"
+          },
+          {
+            "label": "B",
+            "content": "2007"
+          },
+          {
+            "label": "C",
+            "content": "2008"
+          },
+          {
+            "label": "D",
+            "content": "2009"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->定义新运算->直接运算型->普通型"
+        ],
+        "competition_source_list": [
+          "2006年走美杯四年级竞赛",
+          "2006年走美杯五年级竞赛",
+          "2006年走美杯六年级竞赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00874",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 874,
+      "split": "zh_test",
+      "source_problem_id": "18fbb2b09b864101bc37de6446b7022f"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "两个一位小数相乘，如果先把它们四舍五入到个位再相乘，其积是51，那么不四舍五入直接用原数相乘，则积最大值与最小值依次为（ ）.\n(A) 59.16， 25.25\n(B) 59.16， 41.25\n(C) 71.96， 25.05\n(D) 71.96， 25.25",
+      "problem_plain": "两个一位小数相乘，如果先把它们四舍五入到个位再相乘，其积是51，那么不四舍五入直接用原数相乘，则积最大值与最小值依次为（ ）. (A) 59.16， 25.25 (B) 59.16， 41.25 (C) 71.96， 25.05 (D) 71.96， 25.25",
+      "solution_latex": "$$51=3\\times 17=1\\times 51$$ 两种情况对应的最大值分别为$$3.4\\times 17.4=59.16$$，$$1.4\\times 51.4=71.96$$;对应的最小值分别为$$2.5\\times 16.5=41.25$$，$$0.5\\times 50.5=25.25$$，对比选项，答案为D.",
+      "solution_plain": "51=3 17=1 51 两种情况对应的最大值分别为 3.4 17.4=59.16 ， 1.4 51.4=71.96 ;对应的最小值分别为 2.5 16.5=41.25 ， 0.5 50.5=25.25 ，对比选项，答案为D."
+    },
+    "answer": {
+      "final_raw": "71.96， 25.25",
+      "final_normalized": "71.96， 25.25",
+      "candidates": [
+        "71.96， 25.25",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$51=3\\times 17=1\\times 51$$ 两种情况对应的最大值分别为$$3.4\\times 17.4=59.16$$，$$1.4\\times 51.4=71.96$$;对应的最小值分别为$$2.5\\times 16.5=41.25$$，$$0.5\\times 50.5=25.25$$，对比选项，答案为D."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "两个一位小数相乘，如果先把它们四舍五入到个位再相乘，其积是51，那么不四舍五入直接用原数相乘，则积最大值与最小值依次为（ ）. (A) 59.16， 25.25 (B) 59.16， 41.25 (C) 71.96， 25.05 (D) 71.96， 25.25",
+      "solution_text": "51=3 17=1 51 两种情况对应的最大值分别为 3.4 17.4=59.16 ， 1.4 51.4=71.96 ;对应的最小值分别为 2.5 16.5=41.25 ， 0.5 50.5=25.25 ，对比选项，答案为D.",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2452",
+        "queId": "18fbb2b09b864101bc37de6446b7022f",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "59.16， 25.25"
+          },
+          {
+            "label": "B",
+            "content": "59.16， 41.25"
+          },
+          {
+            "label": "C",
+            "content": "71.96， 25.05"
+          },
+          {
+            "label": "D",
+            "content": "71.96， 25.25"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->小数->小数四则运算"
+        ],
+        "competition_source_list": [
+          "2011年六年级竞赛创新杯"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:00933",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 933,
+      "split": "zh_test",
+      "source_problem_id": "727d969e22414ac48efa2db2752250c0"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "计算：$$18+9-8=$$~\\uline{~~~~~~~~~~}~．\n(A) 13\n(B) 15\n(C) 17\n(D) 19\n(E) 21",
+      "problem_plain": "计算： 18+9-8= ~ ~~~~~~~~~~ ~． (A) 13 (B) 15 (C) 17 (D) 19 (E) 21",
+      "solution_latex": "$$18+9-8=18-8+9=10+9=19$$．",
+      "solution_plain": "18+9-8=18-8+9=10+9=19 ．"
+    },
+    "answer": {
+      "final_raw": "19",
+      "final_normalized": "19",
+      "candidates": [
+        "19",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "1",
+        "unknown"
+      ],
+      "tags": [
+        "1",
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$18+9-8=18-8+9=10+9=19$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "计算： 18+9-8= ~ ~~~~~~~~~~ ~． (A) 13 (B) 15 (C) 17 (D) 19 (E) 21",
+      "solution_text": "18+9-8=18-8+9=10+9=19 ．",
+      "keywords": [
+        "1",
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2816",
+        "queId": "727d969e22414ac48efa2db2752250c0",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "13"
+          },
+          {
+            "label": "B",
+            "content": "15"
+          },
+          {
+            "label": "C",
+            "content": "17"
+          },
+          {
+            "label": "D",
+            "content": "19"
+          },
+          {
+            "label": "E",
+            "content": "21"
+          }
+        ],
+        "knowledge_point_routes": [
+          "海外竞赛体系->知识点->应用题模块->分百应用题->认识单位1",
+          "拓展思维->拓展思维->计算模块->整数->整数加减->整数加减巧算之凑整法->整数同尾相减"
+        ],
+        "competition_source_list": [
+          "2014年全国学而思杯一年级竞赛第1题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:01051",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1051,
+      "split": "zh_test",
+      "source_problem_id": "64d04678e17648f79c18c08b46edae7a"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一个三角形木架三边长分别是$$75\\text{cm}$$，$$100\\text{cm}$$，$$125\\text{cm}$$，现要做一个与其相似的三角形木架，而只有长为$$40\\text{cm}$$和$$120\\text{cm}$$的两根木条．要求以其中一根为一边，从另一根截下两段作为另两边（允许有余料），则不同的截法有．\n(A) 一种\n(B) 两种\n(C) 三种\n(D) 四种",
+      "problem_plain": "一个三角形木架三边长分别是 75 cm ， 100 cm ， 125 cm ，现要做一个与其相似的三角形木架，而只有长为 40 cm 和 120 cm 的两根木条．要求以其中一根为一边，从另一根截下两段作为另两边（允许有余料），则不同的截法有． (A) 一种 (B) 两种 (C) 三种 (D) 四种",
+      "solution_latex": "由题知新形成的三角形钢架与原三角形钢架相似，则它们的对应边成比例．  （$$1$$）若以$$40\\text{cm}$$的钢筋为三角形一边，去截$$120\\text{cm}$$长的钢筋，且截成两段分别为$$x\\text{cm}$$，$$y\\text{cm}$$，  则有三种情况：  ①以$$40\\text{cm}$$为最长边，则可列得$$\\frac{40}{125}=\\frac{x}{100}=\\frac{y}{75}$$，  解得：$$x=32$$，$$y=24$$，且$$32+24=56\\textless{}120$$，  所以此法可行；  ②以$$40\\text{cm}$$为较长边时，则$$\\frac{x}{125}=\\frac{40}{100}=\\frac{y}{75}$$，  解得：$$x=50$$，$$y=30$$，且$$50+30=80\\textless{}120$$，  所以此法可行；  ③以$$40\\text{cm}$$为最短边，则$$\\frac{x}{125}=\\frac{y}{100}=\\frac{40}{75}$$，  解得：$$x=\\frac{200}{3}$$，$$y=\\frac{160}{3}$$，且$$\\frac{200}{3}+\\frac{160}{3}=120$$，  所以此法可行；  （$$2$$）若以$$120\\text{cm}$$的钢筋为三角形一边，去截$$40\\text{cm}$$长的钢筋，且截成的两段分别为$$x\\text{cm}$$，$$y\\text{cm}$$，  很容易的值$$120$$只能作为最长边，  则$$\\frac{120}{125}=\\frac{x}{100}=\\frac{y}{75}$$，  解得：$$x=96$$，$$y=72$$，  但$$96\\textgreater40$$，$$72\\textgreater40$$，  所以此法不可行．  综上可知只有$$3$$种截法．  故选$$\\text{C}$$．",
+      "solution_plain": "由题知新形成的三角形钢架与原三角形钢架相似，则它们的对应边成比例． （ 1 ）若以 40 cm 的钢筋为三角形一边，去截 120 cm 长的钢筋，且截成两段分别为 x cm ， y cm ， 则有三种情况： ①以 40 cm 为最长边，则可列得 40 125 = x 100 = y 75 ， 解得： x=32 ， y=24 ，且 32+24=56 120 ， 所以此法可行； ②以 40 cm 为较长边时，则 x 125 = 40 100 = y 75 ， 解得： x=50 ， y=30 ，且 50+30=80 120 ， 所以此法可行； ③以 40 cm 为最短边，则 x 125 = y 100 = 40 75 ， 解得： x= 200 3 ， y= 160 3 ，且 200 3 + 160 3 =120 ， 所以此法可行； （ 2 ）若以 120 cm 的钢筋为三角形一边，去截 40 cm 长的钢筋，且截成的两段分别为 x cm ， y cm ， 很容易的值 120 只能作为最长边， 则 120 125 = x 100 = y 75 ， 解得： x=96 ， y=72 ， 但 96 40 ， 72 40 ， 所以此法不可行． 综上可知只有 3 种截法． 故选 C ．"
+    },
+    "answer": {
+      "final_raw": "三种",
+      "final_normalized": "三种",
+      "candidates": [
+        "C",
+        "三种"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由题知新形成的三角形钢架与原三角形钢架相似，则它们的对应边成比例．  （$$1$$）若以$$40\\text{cm}$$的钢筋为三角形一边，去截$$120\\text{cm}$$长的钢筋，且截成两段分别为$$x\\text{cm}$$，$$y\\text{cm}$$，  则有三种情况：  ①以$$40\\text{cm}$$为最长边，则可列得$$\\frac{40}{125}=\\frac{x}{100}=\\frac{y}{75}$$，  解得：$$x=32$$，$$y=24$$，且$$32+24=56\\textless{}120$$，  所以此法可行；  ②以$$40\\text{cm}$$为较长边时，则$$\\frac{x}{125}=\\frac{40}{100}=\\frac{y}{75}$$，  解得：$$x=50$$，$$y=30$$，且$$50+30=80\\textless{}120$$，  所以此法可行；  ③以$$40\\text{cm}$$为最短边，则$$\\frac{x}{125}=\\frac{y}{100}=\\frac{40}{75}$$，  解得：$$x=\\frac{200}{3}$$，$$y=\\frac{160}{3}$$，且$$\\frac{200}{3}+\\frac{160}{3}=120$$，  所以此法可行；  （$$2$$）若以$$120\\text{cm}$$的钢筋为三角形一边，去截$$40\\text{cm}$$长的钢筋，且截成的两段分别为$$x\\text{cm}$$，$$y\\text{cm}$$，  很容易的值$$120$$只能作为最长边，  则$$\\frac{120}{125}=\\frac{x}{100}=\\frac{y}{75}$$，  解得：$$x=96$$，$$y=72$$，  但$$96\\textgreater40$$，$$72\\textgreater40$$，  所以此法不可行．  综上可知只有$$3$$种截法．  故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一个三角形木架三边长分别是 75 cm ， 100 cm ， 125 cm ，现要做一个与其相似的三角形木架，而只有长为 40 cm 和 120 cm 的两根木条．要求以其中一根为一边，从另一根截下两段作为另两边（允许有余料），则不同的截法有． (A) 一种 (B) 两种 (C) 三种 (D) 四种",
+      "solution_text": "由题知新形成的三角形钢架与原三角形钢架相似，则它们的对应边成比例． （ 1 ）若以 40 cm 的钢筋为三角形一边，去截 120 cm 长的钢筋，且截成两段分别为 x cm ， y cm ， 则有三种情况： ①以 40 cm 为最长边，则可列得 40 125 = x 100 = y 75 ， 解得： x=32 ， y=24 ，且 32+24=56 120 ， 所以此法可行； ②以 40 cm 为较长边时，则 x 125 = 40 100 = y 75 ， 解得： x=50 ， y=30 ，且 50+30=80 120 ， 所以此法可行； ③以 40 cm 为最短边，则 x 125 = y 100 = 40 75 ， 解得： x= 200 3 ， y= 160 3 ，且 200 3 + 160 3 =120 ， 所以此法可行； （ 2 ）若以 120 cm 的钢筋为三角形一边，去截 40 cm 长的钢筋，且截成的两段分别为 x cm ， y cm ， 很容易的值 120 只能作为最长边， 则 120 125 = x 100 = y 75 ， 解得： x=96 ， y=72 ， 但 96 40 ， 72 40 ， 所以此法不可行． 综上可知只有 3 种截法． 故选 C ．",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "810",
+        "queId": "64d04678e17648f79c18c08b46edae7a",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "一种"
+          },
+          {
+            "label": "B",
+            "content": "两种"
+          },
+          {
+            "label": "C",
+            "content": "三种"
+          },
+          {
+            "label": "D",
+            "content": "四种"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->三角形->相似三角形->相似三角形的判定->相似三角形的判定-三边对应成比例"
+        ],
+        "competition_source_list": [
+          "2020年第22届浙江宁波余姚市余姚市实验学校初三竞赛（实验杯）第7题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:01062",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1062,
+      "split": "zh_test",
+      "source_problem_id": "1c368f7dd9514054a5326a3aa18b0616"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "下列计算中，正确的是（ ~ ~）．\n(A) {{x}^{2}}+{{x}^{3}}={{x}^{5}}\n(B) {{x}^{4}}-{{x}^{2}}={{x}^{2}}\n(C) {{x}^{2}}\\cdot {{x}^{3}}={{x}^{6}}\n(D) {{x}^{3}}\\div {{x}^{2}}=x",
+      "problem_plain": "下列计算中，正确的是（ ~ ~）． (A) x ^ 2 + x ^ 3 = x ^ 5 (B) x ^ 4 - x ^ 2 = x ^ 2 (C) x ^ 2 x ^ 3 = x ^ 6 (D) x ^ 3 x ^ 2 =x",
+      "solution_latex": "略．",
+      "solution_plain": "略．"
+    },
+    "answer": {
+      "final_raw": "{{x}^{3}}\\div {{x}^{2}}=x",
+      "final_normalized": "{{x}^{3}}\\div {{x}^{2}}=x",
+      "candidates": [
+        "D",
+        "{{x}^{3}}\\div {{x}^{2}}=x"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "略．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "下列计算中，正确的是（ ~ ~）． (A) x ^ 2 + x ^ 3 = x ^ 5 (B) x ^ 4 - x ^ 2 = x ^ 2 (C) x ^ 2 x ^ 3 = x ^ 6 (D) x ^ 3 x ^ 2 =x",
+      "solution_text": "略．",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "70",
+        "queId": "1c368f7dd9514054a5326a3aa18b0616",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "{{x}^{2}}+{{x}^{3}}={{x}^{5}}"
+          },
+          {
+            "label": "B",
+            "content": "{{x}^{4}}-{{x}^{2}}={{x}^{2}}"
+          },
+          {
+            "label": "C",
+            "content": "{{x}^{2}}\\cdot {{x}^{3}}={{x}^{6}}"
+          },
+          {
+            "label": "D",
+            "content": "{{x}^{3}}\\div {{x}^{2}}=x"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->式->整式的乘除->整式的乘除运算->单项式乘单项式",
+          "课内体系->知识点->式->整式的乘除->整式的乘除运算->单项式除以单项式",
+          "课内体系->知识点->式->整式的加减->整式的加减运算->整式加减",
+          "课内体系->能力->运算能力"
+        ],
+        "competition_source_list": [
+          "2016年第27届全国希望杯初一竞赛初赛第1题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:01104",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1104,
+      "split": "zh_test",
+      "source_problem_id": "b6979c93f01f4fc98b4d90db11420609"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "计算：$$1+{{(-2)}^{2}}-\\frac{-4\\times {{(-1)}^{2}}}{4}=$$（~ ~ ~ ）．\n(A) -2\n(B) -1\n(C) 6\n(D) 4",
+      "problem_plain": "计算： 1+ (-2) ^ 2 - -4 (-1) ^ 2 4 = （~ ~ ~ ）． (A) -2 (B) -1 (C) 6 (D) 4",
+      "solution_latex": "$$1+{{(-2)}^{2}}-\\frac{-4\\times {{(-1)}^{2}}}{4}$$  $$=1+4+1$$  $$=6$$．",
+      "solution_plain": "1+ (-2) ^ 2 - -4 (-1) ^ 2 4 =1+4+1 =6 ．"
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$1+{{(-2)}^{2}}-\\frac{-4\\times {{(-1)}^{2}}}{4}$$  $$=1+4+1$$  $$=6$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "计算： 1+ (-2) ^ 2 - -4 (-1) ^ 2 4 = （~ ~ ~ ）． (A) -2 (B) -1 (C) 6 (D) 4",
+      "solution_text": "1+ (-2) ^ 2 - -4 (-1) ^ 2 4 =1+4+1 =6 ．",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1000",
+        "queId": "b6979c93f01f4fc98b4d90db11420609",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "-2"
+          },
+          {
+            "label": "B",
+            "content": "-1"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->数->有理数->有理数基础运算->有理数乘方->含乘方的有理数混合运算",
+          "课内体系->知识点->数->有理数->有理数基础运算->有理数除法->有理数四则混合运算",
+          "课内体系->能力->运算能力"
+        ],
+        "competition_source_list": [
+          "2012年第23届全国希望杯初一竞赛初赛第1题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:01128",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1128,
+      "split": "zh_test",
+      "source_problem_id": "4bd4baf1ede54b679c655d2928e1cfb7"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "计算：$$1+{{(-2)}^{2}}-\\frac{-4\\times {{(-1)}^{2}}}{4}=$$．\n(A) -2\n(B) -1\n(C) 6\n(D) 4",
+      "problem_plain": "计算： 1+ (-2) ^ 2 - -4 (-1) ^ 2 4 = ． (A) -2 (B) -1 (C) 6 (D) 4",
+      "solution_latex": "解：原式=$$1+4-\\frac{-4\\times {1}}{4}$$  $$=1+4+1$$  $$=6$$",
+      "solution_plain": "解：原式= 1+4- -4 1 4 =1+4+1 =6"
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "解：原式=$$1+4-\\frac{-4\\times {1}}{4}$$  $$=1+4+1$$  $$=6$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "计算： 1+ (-2) ^ 2 - -4 (-1) ^ 2 4 = ． (A) -2 (B) -1 (C) 6 (D) 4",
+      "solution_text": "解：原式= 1+4- -4 1 4 =1+4+1 =6",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "424",
+        "queId": "4bd4baf1ede54b679c655d2928e1cfb7",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "-2"
+          },
+          {
+            "label": "B",
+            "content": "-1"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->知识点->数->有理数->有理数的运算->有理数的混合运算",
+          "知识标签->题型->数->有理数->有理数基础运算->题型：有理数四则综合运算"
+        ],
+        "competition_source_list": [
+          "2012年第23届全国希望杯初一竞赛初赛第1题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:01174",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1174,
+      "split": "zh_test",
+      "source_problem_id": "17651554e8374101a614a0a6ba69a019"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "计算：$$41.7-32.8=$$．\n(A) 74.5\n(B) 9.1\n(C) 11.1\n(D) 8.9",
+      "problem_plain": "计算： 41.7-32.8= ． (A) 74.5 (B) 9.1 (C) 11.1 (D) 8.9",
+      "solution_latex": "$$41.7-32.8=41.7-32.7-0.1=9.0-0.1=8.9$$．  故选$$\\text{D}$$．",
+      "solution_plain": "41.7-32.8=41.7-32.7-0.1=9.0-0.1=8.9 ． 故选 D ．"
+    },
+    "answer": {
+      "final_raw": "8.9",
+      "final_normalized": "8.9",
+      "candidates": [
+        "8.9",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "decimal"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$41.7-32.8=41.7-32.7-0.1=9.0-0.1=8.9$$．  故选$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "计算： 41.7-32.8= ． (A) 74.5 (B) 9.1 (C) 11.1 (D) 8.9",
+      "solution_text": "41.7-32.8=41.7-32.7-0.1=9.0-0.1=8.9 ． 故选 D ．",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "38",
+        "queId": "17651554e8374101a614a0a6ba69a019",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "74.5"
+          },
+          {
+            "label": "B",
+            "content": "9.1"
+          },
+          {
+            "label": "C",
+            "content": "11.1"
+          },
+          {
+            "label": "D",
+            "content": "8.9"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->数与式->数的运算->有理数运算问题"
+        ],
+        "competition_source_list": [
+          "1979年竞赛第1题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:prealgebra:level_1:01437",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1437,
+      "split": "zh_test",
+      "source_problem_id": "29bc5b0ade534d539a50476add626117"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "下列计算正确的是（~~~~~~~）\n(A) 3{{x}^{3}}\\cdot 2{{x}^{2}}y=6{{x}^{5}}\n(B) 2{{a}^{2}}\\cdot 3{{a}^{3}}=6{{a}^{5}}\n(C) (-2x)\\cdot \\left( -5{{x}^{2}}y \\right)=-10{{x}^{3}}y\n(D) (-2xy)\\cdot \\left( -3{{x}^{2}}y \\right)=6{{x}^{3}}y",
+      "problem_plain": "下列计算正确的是（~~~~~~~） (A) 3 x ^ 3 2 x ^ 2 y=6 x ^ 5 (B) 2 a ^ 2 3 a ^ 3 =6 a ^ 5 (C) (-2x) ( -5 x ^ 2 y )=-10 x ^ 3 y (D) (-2xy) ( -3 x ^ 2 y )=6 x ^ 3 y",
+      "solution_latex": "\\hfill\\break 【分析】\\\\ 根据单项式乘单项式、同底数幂的运算法则逐一计算即可得出答案．\\\\ 【详解】\\\\ 解：A.$$3{{x}^{3}}\\cdot 2{{x}^{2}}y=6{{x}^{5}}y$$，计算错误，不符合题意；\\\\ B.$$2{{a}^{2}}\\cdot 3{{a}^{3}}=6{{a}^{5}}$$，计算正确，符合题意；\\\\ C.$$(-2x)\\cdot \\left( -5{{x}^{2}}y \\right)=10{{x}^{3}}y$$，计算错误，不符合题意；\\\\ D.$$(-2xy)\\cdot \\left( -3{{x}^{2}}y \\right)=6{{x}^{3}}{{y}^{2}}$$ ，计算错误，不符合题意；\\\\ 故选B．\\\\ 【点睛】\\\\ 本题考查了单项式乘单项式、同底数幂，熟练掌握运算法则是解题的关键．",
+      "solution_plain": "【分析】 根据单项式乘单项式、同底数幂的运算法则逐一计算即可得出答案． 【详解】 解：A. 3 x ^ 3 2 x ^ 2 y=6 x ^ 5 y ，计算错误，不符合题意； B. 2 a ^ 2 3 a ^ 3 =6 a ^ 5 ，计算正确，符合题意； C. (-2x) ( -5 x ^ 2 y )=10 x ^ 3 y ，计算错误，不符合题意； D. (-2xy) ( -3 x ^ 2 y )=6 x ^ 3 y ^ 2 ，计算错误，不符合题意； 故选B． 【点睛】 本题考查了单项式乘单项式、同底数幂，熟练掌握运算法则是解题的关键．"
+    },
+    "answer": {
+      "final_raw": "2{{a}^{2}}\\cdot 3{{a}^{3}}=6{{a}^{5}}",
+      "final_normalized": "2{{a}^{2}}\\cdot 3{{a}^{3}}=6{{a}^{5}}",
+      "candidates": [
+        "2{{a}^{2}}\\cdot 3{{a}^{3}}=6{{a}^{5}}",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "\\hfill\\break 【分析】\\\\ 根据单项式乘单项式、同底数幂的运算法则逐一计算即可得出答案．\\\\ 【详解】\\\\ 解：A.$$3{{x}^{3}}\\cdot 2{{x}^{2}}y=6{{x}^{5}}y$$，计算错误，不符合题意；\\\\ B.$$2{{a}^{2}}\\cdot 3{{a}^{3}}=6{{a}^{5}}$$，计算正确，符合题意；\\\\ C.$$(-2x)\\cdot \\left( -5{{x}^{2}}y \\right)=10{{x}^{3}}y$$，计算错误，不符合题意；\\\\ D.$$(-2xy)\\cdot \\left( -3{{x}^{2}}y \\right)=6{{x}^{3}}{{y}^{2}}$$ ，计算错误，不符合题意；\\\\ 故选B．\\\\ 【点睛】\\\\ 本题考查了单项式乘单项式、同底数幂，熟练掌握运算法则是解题的关键．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "下列计算正确的是（~~~~~~~） (A) 3 x ^ 3 2 x ^ 2 y=6 x ^ 5 (B) 2 a ^ 2 3 a ^ 3 =6 a ^ 5 (C) (-2x) ( -5 x ^ 2 y )=-10 x ^ 3 y (D) (-2xy) ( -3 x ^ 2 y )=6 x ^ 3 y",
+      "solution_text": "【分析】 根据单项式乘单项式、同底数幂的运算法则逐一计算即可得出答案． 【详解】 解：A. 3 x ^ 3 2 x ^ 2 y=6 x ^ 5 y ，计算错误，不符合题意； B. 2 a ^ 2 3 a ^ 3 =6 a ^ 5 ，计算正确，符合题意； C. (-2x) ( -5 x ^ 2 y )=10 x ^ 3 y ，计算错误，不符合题意； D. (-2xy) ( -3 x ^ 2 y )=6 x ^ 3 y ^ 2 ，计算错误，不符合题意； 故选B． 【点睛】 本题考查了单项式乘单项式、同底数幂，熟练掌握运算法则是解题的关键．",
+      "keywords": [
+        "level_1",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "577",
+        "queId": "29bc5b0ade534d539a50476add626117",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3{{x}^{3}}\\cdot 2{{x}^{2}}y=6{{x}^{5}}"
+          },
+          {
+            "label": "B",
+            "content": "2{{a}^{2}}\\cdot 3{{a}^{3}}=6{{a}^{5}}"
+          },
+          {
+            "label": "C",
+            "content": "(-2x)\\cdot \\left( -5{{x}^{2}}y \\right)=-10{{x}^{3}}y"
+          },
+          {
+            "label": "D",
+            "content": "(-2xy)\\cdot \\left( -3{{x}^{2}}y \\right)=6{{x}^{3}}y"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->式->整式的乘除->整式的乘除运算",
+          "课内体系->能力->运算能力"
+        ],
+        "competition_source_list": [
+          "2022~2023学年浙江宁波初三月考（六校强基竞赛）第1题",
+          "2022~2023学年浙江宁波初三月考（六校强基竞赛）第1题",
+          "2021~2022学年黑龙江哈尔滨南岗区哈尔滨市松雷中学校初二上学期期中第4题"
+        ]
+      }
+    }
+  }
+]

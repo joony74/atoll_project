@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import hashlib
+import json
 import re
 from dataclasses import asdict, dataclass
 from functools import lru_cache
+from pathlib import Path
 from typing import Any
 
 from app.engines.parser.math_normalization_profile import profile_summary as math_normalization_profile_summary
@@ -75,6 +77,8 @@ CONTROL_WORDS_PATTERN = re.compile(
 )
 
 GENERATION_SUPPORTED_SUBJECTS = {"arithmetic_word_problem"}
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+EXTERNAL_SOURCE_REGISTRY_PATH = PROJECT_ROOT / "data" / "problem_bank" / "external_math_sources.json"
 
 
 @dataclass(frozen=True)
@@ -162,6 +166,17 @@ def _profile_default() -> tuple[str, int]:
     subject = str(generation.get("default_subject_slug") or "arithmetic_word_problem")
     level = _clamp_level(generation.get("default_level_number"), default=2)
     return subject, level
+
+
+@lru_cache(maxsize=1)
+def _external_source_registry() -> dict[str, Any]:
+    if not EXTERNAL_SOURCE_REGISTRY_PATH.exists():
+        return {"sources": []}
+    try:
+        payload = json.loads(EXTERNAL_SOURCE_REGISTRY_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {"sources": []}
+    return payload if isinstance(payload, dict) else {"sources": []}
 
 
 def _domain_tags(subject_slug: str | None, level_number: int | None = None) -> set[str]:
@@ -428,7 +443,17 @@ def format_learning_engine_status() -> str:
     normalization = math_normalization_profile_summary()
     counts = profile.get("counts") or {}
     domains = profile.get("domains") or {}
-    source_banks = profile.get("source_banks") or list_banks()
+    source_banks = list_banks()
+    registered_external = [
+        source
+        for source in (_external_source_registry().get("sources") or [])
+        if isinstance(source, dict)
+    ]
+    pending_external = [
+        source
+        for source in registered_external
+        if str(source.get("import_status") or "").strip() == "registered_pending_import"
+    ]
     total = int(counts.get("total_records") or 0)
     strategy = str((profile.get("generation") or {}).get("strategy") or "profile_based_selection")
 
@@ -437,6 +462,8 @@ def format_learning_engine_status() -> str:
         "",
         f"- 전체 학습 기준 문항: {total:,}개",
         f"- 연결된 문제은행: {len(source_banks)}개",
+        f"- 등록된 외부 수학 소스: {len(registered_external)}개",
+        f"- 전체 import 대기 소스: {len(pending_external)}개",
         f"- 수식 정규화 학습 문항: {int(normalization.get('total_records') or 0):,}개",
         f"- 런타임 정규화 규칙: {int(normalization.get('runtime_rule_count') or 0):,}개",
         f"- 출제/추천 전략: {strategy}",
@@ -455,6 +482,12 @@ def format_learning_engine_status() -> str:
     for slug, count in top_domains:
         label = SUBJECT_LABELS.get(slug, slug.replace("_", " "))
         lines.append(f"- {label}: {count:,}문항")
+    if pending_external:
+        lines.extend(["", "등록 완료 / import 대기"])
+        for source in pending_external[:6]:
+            name = str(source.get("name") or source.get("bank_id") or "").strip()
+            mode = str(source.get("import_mode") or "").strip()
+            lines.append(f"- {name}: {mode}")
     lines.extend(
         [
             "",
@@ -466,5 +499,6 @@ def format_learning_engine_status() -> str:
 
 def clear_caches() -> None:
     _profile.cache_clear()
+    _external_source_registry.cache_clear()
     clear_repository_caches()
     clear_generator_caches()

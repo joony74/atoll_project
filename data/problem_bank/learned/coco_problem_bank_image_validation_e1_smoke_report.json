@@ -1,0 +1,1203 @@
+{
+  "schema_version": "coco_problem_bank_image_validation_report.v1",
+  "generated_at": "2026-04-25T08:22:27+00:00",
+  "elapsed_seconds": 5.769,
+  "project_root": "/Volumes/마중나 도킹스테이션/atoll_project",
+  "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+  "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+  "options": {
+    "app_register": false,
+    "band": "초등",
+    "clean_generated_images": false,
+    "clear_app_between_items": false,
+    "clear_app_generated": false,
+    "count_per_grade": 100,
+    "difficulty": "",
+    "force": false,
+    "generate": false,
+    "grade": 1,
+    "limit": 15,
+    "loop": false,
+    "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+    "max_cycles": 1,
+    "offset": 0,
+    "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+    "report": "data/problem_bank/learned/coco_problem_bank_image_validation_e1_smoke_report.json",
+    "seed": 20260425,
+    "sleep_seconds": 1.0,
+    "stop_on_failure": true
+  },
+  "selected_count": 15,
+  "cycle_count": 1,
+  "summary": {
+    "total": 8,
+    "passed": 7,
+    "failed": 1,
+    "error": 0,
+    "by_band": {
+      "초등": {
+        "total": 8,
+        "passed": 7,
+        "failed": 1,
+        "error": 0
+      }
+    },
+    "by_topic": {
+      "arithmetic": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "geometry": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "pattern": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "statistics": {
+        "total": 2,
+        "passed": 1,
+        "failed": 1,
+        "error": 0
+      }
+    }
+  },
+  "failures": [
+    {
+      "case_id": "elementary_g01_008",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "statistics",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/자료와 가능성/분류하고 세기/elementary_g01_008_easy_table_statistics.png",
+      "expected_answer": "30",
+      "expected_expression": "43-13",
+      "computed_answer": "",
+      "matched_choice": "",
+      "validation_status": "failed",
+      "solver_name": "arithmetic_solver",
+      "recognized_problem": "아래 표에서 가장 S 값과 가장 작은 값의 차를 구하시오",
+      "recognized_expressions": [],
+      "status": "failed",
+      "error": "",
+      "elapsed_seconds": 1.5,
+      "analysis": {
+        "analysis_started_at": 1777105346.2973561,
+        "analysis_finished_at": 1777105347.797516,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics\n아래 표에서 가장 S 값과 가장 작은 값의 차를 구하시오.\n항목 A B 6 ㅁ\n값 13 22 43 43\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n： 초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics ：\n항목 iA Bc 1]",
+            "초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics\n아래 표에서 가장 S 값과 가장 작은 값의 차를 구하시오.\n항목 A B 6 ㅁ\n값 13 22 43 43\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n： 초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics ：\n항목 iA Bc 1]"
+          ],
+          "normalized_problem_text": "아래 표에서 가장 S 값과 가장 작은 값의 차를 구하시오",
+          "expressions": [],
+          "choices": [
+            "ㅁ 값 13 22 43 43\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n： 초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics ：\n항목 iA Bc 1]"
+          ],
+          "question_type": "multiple_choice",
+          "math_topic": "unknown",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/자료와 가능성/분류하고 세기/elementary_g01_008_easy_table_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics\n아래 표에서 가장 S 값과 가장 작은 값의 차를 구하시오.\n항목 A B 6 ㅁ\n값 13 22 43 43",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\njes fa fe fe ]ㅁ",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics\n아래 표에서 가장 S 값과 가장 작은 값의 차를 구하시오.\n항목 A B 6 ㅁ\n값 13 22 43 43",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics ：\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n항목 iA Bc 1]",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "422badc201ed"
+          }
+        },
+        "solve_result": {
+          "solver_name": "arithmetic_solver",
+          "computed_answer": "",
+          "steps": [],
+          "matched_choice": "",
+          "confidence": 0.0,
+          "validation_status": "failed",
+          "explanation": "문제를 끝까지 풀 만한 정보가 아직 부족해. 문제 문장이나 식을 조금 더 또렷하게 주면 바로 이어서 볼게.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics\n아래 표에서 가장 S 값과 가장 작은 값의 차를 구하시오.\n항목 A B 6 ㅁ\n값 13 22 43 43\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n： 초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics ：\n항목 iA Bc 1]",
+            "content_text": "초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics\n아래 표에서 가장 S 값과 가장 작은 값의 차를 구하시오.\n항목 A B 6 ㅁ\n값 13 22 43 43\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n： 초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics ：\n항목 iA Bc 1]",
+            "repaired_text": "",
+            "expressions": [],
+            "choices": [
+              "ㅁ 값 13 22 43 43\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n： 초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics ：\n항목 iA Bc 1]"
+            ],
+            "math_topic": "unknown",
+            "question_type": "multiple_choice"
+          },
+          "solver_name": "arithmetic_solver",
+          "computed_answer": "",
+          "validation_status": "failed"
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "case_id": "elementary_g01_001",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "arithmetic",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/수와 연산/9까지의 수와 덧셈·뺄셈/elementary_g01_001_easy_expression_arithmetic.png",
+      "expected_answer": "29",
+      "expected_expression": "14+15",
+      "computed_answer": "29",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "14 + 15",
+        "=) 2 71s"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.444,
+      "analysis": {
+        "analysis_started_at": 1777105342.028237,
+        "analysis_finished_at": 1777105342.471997,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 expression ㆍ arithmet\nSo =\n다음 식의 값을 구하시오.\n14 + 15\n| 초등 1학년 ㆍ9까지의 수와 Ae Bas - = expression ㆍ arithmet\n=) 2 71s",
+            "초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 expression ㆍ arithmet\nSo =\n다음 식의 값을 구하시오.\n14 + 15\n| 초등 1학년 ㆍ9까지의 수와 Ae Bas - = expression ㆍ arithmet\n=) 2 71s"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "14 + 15",
+            "=) 2 71s"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/수와 연산/9까지의 수와 덧셈·뺄셈/elementary_g01_001_easy_expression_arithmetic.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 expression ㆍ arithmet\nSo =\n다음 식의 값을 구하시오.\n14 + 15",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 expression ㆍ arithmet\nSo =\n다음 식의 값을 구하시오.\n14 + 15",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 1학년 ㆍ9까지의 수와 Ae Bas - = expression ㆍ arithmet\n=) 2 71s\n14 +15",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "4df8c46c1421"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "29",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 29야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 29야. 그래서 정답은 29야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 expression ㆍ arithmet\nSo =\n다음 식의 값을 구하시오.\n14 + 15\n| 초등 1학년 ㆍ9까지의 수와 Ae Bas - = expression ㆍ arithmet\n=) 2 71s",
+            "content_text": "초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 expression ㆍ arithmet\nSo =\n다음 식의 값을 구하시오.\n14 + 15\n| 초등 1학년 ㆍ9까지의 수와 Ae Bas - = expression ㆍ arithmet\n=) 2 71s",
+            "repaired_text": "",
+            "expressions": [
+              "14 + 15",
+              "=) 2 71s"
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "29",
+          "validation_status": "verified"
+        }
+      }
+    },
+    {
+      "case_id": "elementary_g01_002",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "geometry",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_002_easy_word_geometry.png",
+      "expected_answer": "60",
+      "expected_expression": "10*6",
+      "computed_answer": "60",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "이 밭의 넓이를 구하시오. 600",
+      "recognized_expressions": [
+        "10*6"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.786,
+      "analysis": {
+        "analysis_started_at": 1777105342.472009,
+        "analysis_finished_at": 1777105343.2575512,
+        "structured_problem": {
+          "source_text_candidates": [
+            ". 초등 학년 ㆍ여러 가지 모양과 길이 비교 ㆍ 기본 word - geometry\n가로가 10cm, 세로가 6cme! 직사각형 모양 Bro)\n이 밭의 넓이를 구하시오. 00\n10cm\n초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 word ㆍ geometry\n가로가 10cm, 세로가 6cme! 직사각형 모양 받이\n이 밭의 넓이를 구하시오. een\n가로가 10cm, 세로가 6cme! 직사각형 모양 밭이\n이 밭의 넓이를 구하시오. 600\n10 007",
+            ". 초등 학년 ㆍ여러 가지 모양과 길이 비교 ㆍ 기본 word - geometry\n가로가 10cm, 세로가 6cme! 직사각형 모양 Bro)\n이 밭의 넓이를 구하시오. 00\n10cm\n초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 word ㆍ geometry\n가로가 10cm, 세로가 6cme! 직사각형 모양 받이\n이 밭의 넓이를 구하시오. een\n가로가 10cm, 세로가 6cme! 직사각형 모양 밭이\n이 밭의 넓이를 구하시오. 600\n10 007"
+          ],
+          "normalized_problem_text": "이 밭의 넓이를 구하시오. 600",
+          "expressions": [
+            "10*6"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "probability",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_002_easy_word_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": ". 초등 학년 ㆍ여러 가지 모양과 길이 비교 ㆍ 기본 word - geometry\n가로가 10cm, 세로가 6cme! 직사각형 모양 Bro)\n있습니다. |\n이 밭의 넓이를 구하시오. 00\n10cm",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 word ㆍ geometry\n가로가 10cm, 세로가 6cme! 직사각형 모양 받이\n있습니다.\n이 밭의 넓이를 구하시오. een\n10cm",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 word ㆍ geometry\n가로가 10cm, 세로가 6cme! 직사각형 모양 밭이\n있습니다.\n이 밭의 넓이를 구하시오. 600\n10 007",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ". 초등 학년 ㆍ여러 가지 모양과 길이 비교 ㆍ 기본 word - geometry\n가로가 10cm, 세로가 6cme! 직사각형 모양 Bro)\n있습니다. |\n이 밭의 넓이를 구하시오. 00\n10cm",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "7a3b2b4e7976"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "60",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 60야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 확률 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 60야. 그래서 정답은 60야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": ". 초등 학년 ㆍ여러 가지 모양과 길이 비교 ㆍ 기본 word - geometry\n가로가 10cm, 세로가 6cme! 직사각형 모양 Bro)\n이 밭의 넓이를 구하시오. 00\n10cm\n초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 word ㆍ geometry\n가로가 10cm, 세로가 6cme! 직사각형 모양 받이\n이 밭의 넓이를 구하시오. een\n가로가 10cm, 세로가 6cme! 직사각형 모양 밭이\n이 밭의 넓이를 구하시오. 600\n10 007",
+            "content_text": ". 초등 학년 ㆍ여러 가지 모양과 길이 비교 ㆍ 기본 word - geometry\n가로가 10cm, 세로가 6cme! 직사각형 모양 Bro)\n이 밭의 넓이를 구하시오. 00\n10cm\n초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 word ㆍ geometry\n가로가 10cm, 세로가 6cme! 직사각형 모양 받이\n이 밭의 넓이를 구하시오. een\n가로가 10cm, 세로가 6cme! 직사각형 모양 밭이\n이 밭의 넓이를 구하시오. 600\n10 007",
+            "repaired_text": "",
+            "expressions": [
+              "10*6"
+            ],
+            "choices": [],
+            "math_topic": "probability",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "60",
+          "validation_status": "verified"
+        }
+      }
+    },
+    {
+      "case_id": "elementary_g01_003",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "pattern",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_003_easy_table_pattern.png",
+      "expected_answer": "103",
+      "expected_expression": "42+16+27+18",
+      "computed_answer": "103",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 수량은 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "42+16+27+18"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.962,
+      "analysis": {
+        "analysis_started_at": 1777105343.257559,
+        "analysis_finished_at": 1777105344.219139,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 1학년ㆍ규칙 찾기ㆍ기본 table - pattern\n아래 표의 수량은 모두 몇 개인지 구하시오.\na 42 16 27 18\n항복 0Co |\n： AS 1학년ㆍ규칙 찾기ㆍ기본 table - pattern ：\n아래 표의 SSS 모두 몇 개인지 구하시오.",
+            "초등 1학년ㆍ규칙 찾기ㆍ기본 table - pattern\n아래 표의 수량은 모두 몇 개인지 구하시오.\na 42 16 27 18\n항복 0Co |\n： AS 1학년ㆍ규칙 찾기ㆍ기본 table - pattern ：\n아래 표의 SSS 모두 몇 개인지 구하시오."
+          ],
+          "normalized_problem_text": "아래 표의 수량은 모두 몇 개인지 구하시오",
+          "expressions": [
+            "42+16+27+18"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_003_easy_table_pattern.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 1학년ㆍ규칙 찾기ㆍ기본 table - pattern\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 A B c D\na 42 16 27 18",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년ㆍ규칙 찾기ㆍ기본 table - pattern\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항복 0Co |",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 1학년ㆍ규칙 찾기ㆍ기본 table - pattern\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 A B c D\na 42 16 27 18",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： AS 1학년ㆍ규칙 찾기ㆍ기본 table - pattern ：\n아래 표의 SSS 모두 몇 개인지 구하시오.\nwea ee |ㅁ\nwe ja je jt",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "f9e20bae2b58"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "103",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 103야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 103야. 그래서 정답은 103야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 1학년ㆍ규칙 찾기ㆍ기본 table - pattern\n아래 표의 수량은 모두 몇 개인지 구하시오.\na 42 16 27 18\n항복 0Co |\n： AS 1학년ㆍ규칙 찾기ㆍ기본 table - pattern ：\n아래 표의 SSS 모두 몇 개인지 구하시오.",
+            "content_text": "초등 1학년ㆍ규칙 찾기ㆍ기본 table - pattern\n아래 표의 수량은 모두 몇 개인지 구하시오.\na 42 16 27 18\n항복 0Co |\n： AS 1학년ㆍ규칙 찾기ㆍ기본 table - pattern ：\n아래 표의 SSS 모두 몇 개인지 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "42+16+27+18"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "103",
+          "validation_status": "verified"
+        }
+      }
+    },
+    {
+      "case_id": "elementary_g01_004",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/자료와 가능성/분류하고 세기/elementary_g01_004_easy_expression_statistics.png",
+      "expected_answer": "404/5",
+      "expected_expression": "(85+88+68+75+88)/5",
+      "computed_answer": "404/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(85+88+68+75+88)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.43,
+      "analysis": {
+        "analysis_started_at": 1777105344.219147,
+        "analysis_finished_at": 1777105344.649529,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n85, 88, 68, 75, 88\n“ 초등 1학년 ㆍ분류하고 세기 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.",
+            "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n85, 88, 68, 75, 88\n“ 초등 1학년 ㆍ분류하고 세기 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오."
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(85+88+68+75+88)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/자료와 가능성/분류하고 세기/elementary_g01_004_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n85, 88, 68, 75, 88",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n85, 88, 68, 75, 88",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "“ 초등 1학년 ㆍ분류하고 세기 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n85, 88, 68, 75, 88",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "58e157680797"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "404/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 404/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 404/5야. 그래서 정답은 404/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n85, 88, 68, 75, 88\n“ 초등 1학년 ㆍ분류하고 세기 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.",
+            "content_text": "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n85, 88, 68, 75, 88\n“ 초등 1학년 ㆍ분류하고 세기 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "(85+88+68+75+88)/5"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "404/5",
+          "validation_status": "verified"
+        }
+      }
+    },
+    {
+      "case_id": "elementary_g01_005",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "arithmetic",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/수와 연산/9까지의 수와 덧셈·뺄셈/elementary_g01_005_easy_expression_arithmetic.png",
+      "expected_answer": "85",
+      "expected_expression": "73+12",
+      "computed_answer": "85",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "73 +12"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.448,
+      "analysis": {
+        "analysis_started_at": 1777105344.649537,
+        "analysis_finished_at": 1777105345.097076,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 초등 1학년 ㆍ9까지의 수와 Ae Bas - = expression ㆍ arithmet\n=) © D\n다음 식의 값을 구하시오\n73 +12\n초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 expression ㆍ arithmet\n= 으 =\n다음 식의 값을 구하시오.",
+            "| 초등 1학년 ㆍ9까지의 수와 Ae Bas - = expression ㆍ arithmet\n=) © D\n다음 식의 값을 구하시오\n73 +12\n초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 expression ㆍ arithmet\n= 으 =\n다음 식의 값을 구하시오."
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "73 +12"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/수와 연산/9까지의 수와 덧셈·뺄셈/elementary_g01_005_easy_expression_arithmetic.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 초등 1학년 ㆍ9까지의 수와 Ae Bas - = expression ㆍ arithmet\n=) © D\n다음 식의 값을 구하시오\n73 +12",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 expression ㆍ arithmet\n= 으 =\n다음 식의 값을 구하시오.\n73 + 12",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 1학년 ㆍ9까지의 수와 Ae Bas - = expression ㆍ arithmet\n=) © D\n다음 식의 값을 구하시오\n73 +12",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "6492cf1fa3b9"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "85",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 85야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 85야. 그래서 정답은 85야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 초등 1학년 ㆍ9까지의 수와 Ae Bas - = expression ㆍ arithmet\n=) © D\n다음 식의 값을 구하시오\n73 +12\n초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 expression ㆍ arithmet\n= 으 =\n다음 식의 값을 구하시오.",
+            "content_text": "| 초등 1학년 ㆍ9까지의 수와 Ae Bas - = expression ㆍ arithmet\n=) © D\n다음 식의 값을 구하시오\n73 +12\n초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 expression ㆍ arithmet\n= 으 =\n다음 식의 값을 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "73 +12"
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "85",
+          "validation_status": "verified"
+        }
+      }
+    },
+    {
+      "case_id": "elementary_g01_006",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "geometry",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_006_easy_expression_geometry.png",
+      "expected_answer": "90",
+      "expected_expression": "63+27",
+      "computed_answer": "90",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "63 + 27"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.437,
+      "analysis": {
+        "analysis_started_at": 1777105345.0970829,
+        "analysis_finished_at": 1777105345.533609,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| AS 1학년 ㆍ여러 가지 SOFT 길이 비교ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n63-+ 27\n초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 expression ㆍ geometr\n63 + 27",
+            "| AS 1학년 ㆍ여러 가지 SOFT 길이 비교ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n63-+ 27\n초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 expression ㆍ geometr\n63 + 27"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "63 + 27"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_006_easy_expression_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| AS 1학년 ㆍ여러 가지 SOFT 길이 비교ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n63-+ 27",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n63 + 27",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| AS 1학년 ㆍ여러 가지 SOFT 길이 비교ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n63-+ 27",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "4dab2d1ebdf1"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "90",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 90야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 90야. 그래서 정답은 90야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| AS 1학년 ㆍ여러 가지 SOFT 길이 비교ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n63-+ 27\n초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 expression ㆍ geometr\n63 + 27",
+            "content_text": "| AS 1학년 ㆍ여러 가지 SOFT 길이 비교ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n63-+ 27\n초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 expression ㆍ geometr\n63 + 27",
+            "repaired_text": "",
+            "expressions": [
+              "63 + 27"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "90",
+          "validation_status": "verified"
+        }
+      }
+    },
+    {
+      "case_id": "elementary_g01_007",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "pattern",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_007_easy_word_pattern.png",
+      "expected_answer": "58",
+      "expected_expression": "32+35-9",
+      "computed_answer": "58",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "32+35-9",
+      "recognized_expressions": [
+        "32+35-9"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.764,
+      "analysis": {
+        "analysis_started_at": 1777105345.5336168,
+        "analysis_finished_at": 1777105346.297345,
+        "structured_problem": {
+          "source_text_candidates": [
+            "： AS 1학년ㆍ규칙 찾기ㆍ기본 word - pattern ：\n민지는 스티커를 32장 가지고 있었습니다.\n35장을 더 받고, 그중 9장을 사용했습니다. 남은 스티커는 몇 장인\n초등 1학년ㆍ규칙 찾기ㆍ기본 word - pattern\n민지는 스티커를 328 가지고 있었습니다.\n35장을 더 받고, 그중 9장을 사용했습니다. 남은 스티커는 몇 장온",
+            "： AS 1학년ㆍ규칙 찾기ㆍ기본 word - pattern ：\n민지는 스티커를 32장 가지고 있었습니다.\n35장을 더 받고, 그중 9장을 사용했습니다. 남은 스티커는 몇 장인\n초등 1학년ㆍ규칙 찾기ㆍ기본 word - pattern\n민지는 스티커를 328 가지고 있었습니다.\n35장을 더 받고, 그중 9장을 사용했습니다. 남은 스티커는 몇 장온"
+          ],
+          "normalized_problem_text": "32+35-9",
+          "expressions": [
+            "32+35-9"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_007_easy_word_pattern.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "： AS 1학년ㆍ규칙 찾기ㆍ기본 word - pattern ：\n민지는 스티커를 32장 가지고 있었습니다.\n35장을 더 받고, 그중 9장을 사용했습니다. 남은 스티커는 몇 장인",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년ㆍ규칙 찾기ㆍ기본 word - pattern\n민지는 스티커를 328 가지고 있었습니다.\n35장을 더 받고, 그중 9장을 사용했습니다. 남은 스티커는 몇 장인",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 1학년ㆍ규칙 찾기ㆍ기본 word - pattern\n민지는 스티커를 328 가지고 있었습니다.\n35장을 더 받고, 그중 9장을 사용했습니다. 남은 스티커는 몇 장온\nOo AHI",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： AS 1학년ㆍ규칙 찾기ㆍ기본 word - pattern ：\n민지는 스티커를 32장 가지고 있었습니다.\n35장을 더 받고, 그중 9장을 사용했습니다. 남은 스티커는 몇 장인",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "67295f6623b0"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "58",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 58야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 58야. 그래서 정답은 58야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "： AS 1학년ㆍ규칙 찾기ㆍ기본 word - pattern ：\n민지는 스티커를 32장 가지고 있었습니다.\n35장을 더 받고, 그중 9장을 사용했습니다. 남은 스티커는 몇 장인\n초등 1학년ㆍ규칙 찾기ㆍ기본 word - pattern\n민지는 스티커를 328 가지고 있었습니다.\n35장을 더 받고, 그중 9장을 사용했습니다. 남은 스티커는 몇 장온",
+            "content_text": "： AS 1학년ㆍ규칙 찾기ㆍ기본 word - pattern ：\n민지는 스티커를 32장 가지고 있었습니다.\n35장을 더 받고, 그중 9장을 사용했습니다. 남은 스티커는 몇 장인\n초등 1학년ㆍ규칙 찾기ㆍ기본 word - pattern\n민지는 스티커를 328 가지고 있었습니다.\n35장을 더 받고, 그중 9장을 사용했습니다. 남은 스티커는 몇 장온",
+            "repaired_text": "",
+            "expressions": [
+              "32+35-9"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "58",
+          "validation_status": "verified"
+        }
+      }
+    },
+    {
+      "case_id": "elementary_g01_008",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "statistics",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/자료와 가능성/분류하고 세기/elementary_g01_008_easy_table_statistics.png",
+      "expected_answer": "30",
+      "expected_expression": "43-13",
+      "computed_answer": "",
+      "matched_choice": "",
+      "validation_status": "failed",
+      "solver_name": "arithmetic_solver",
+      "recognized_problem": "아래 표에서 가장 S 값과 가장 작은 값의 차를 구하시오",
+      "recognized_expressions": [],
+      "status": "failed",
+      "error": "",
+      "elapsed_seconds": 1.5,
+      "analysis": {
+        "analysis_started_at": 1777105346.2973561,
+        "analysis_finished_at": 1777105347.797516,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics\n아래 표에서 가장 S 값과 가장 작은 값의 차를 구하시오.\n항목 A B 6 ㅁ\n값 13 22 43 43\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n： 초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics ：\n항목 iA Bc 1]",
+            "초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics\n아래 표에서 가장 S 값과 가장 작은 값의 차를 구하시오.\n항목 A B 6 ㅁ\n값 13 22 43 43\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n： 초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics ：\n항목 iA Bc 1]"
+          ],
+          "normalized_problem_text": "아래 표에서 가장 S 값과 가장 작은 값의 차를 구하시오",
+          "expressions": [],
+          "choices": [
+            "ㅁ 값 13 22 43 43\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n： 초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics ：\n항목 iA Bc 1]"
+          ],
+          "question_type": "multiple_choice",
+          "math_topic": "unknown",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행/01.초등/1학년/자료와 가능성/분류하고 세기/elementary_g01_008_easy_table_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics\n아래 표에서 가장 S 값과 가장 작은 값의 차를 구하시오.\n항목 A B 6 ㅁ\n값 13 22 43 43",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\njes fa fe fe ]ㅁ",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics\n아래 표에서 가장 S 값과 가장 작은 값의 차를 구하시오.\n항목 A B 6 ㅁ\n값 13 22 43 43",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics ：\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n항목 iA Bc 1]",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "422badc201ed"
+          }
+        },
+        "solve_result": {
+          "solver_name": "arithmetic_solver",
+          "computed_answer": "",
+          "steps": [],
+          "matched_choice": "",
+          "confidence": 0.0,
+          "validation_status": "failed",
+          "explanation": "문제를 끝까지 풀 만한 정보가 아직 부족해. 문제 문장이나 식을 조금 더 또렷하게 주면 바로 이어서 볼게.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics\n아래 표에서 가장 S 값과 가장 작은 값의 차를 구하시오.\n항목 A B 6 ㅁ\n값 13 22 43 43\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n： 초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics ：\n항목 iA Bc 1]",
+            "content_text": "초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics\n아래 표에서 가장 S 값과 가장 작은 값의 차를 구하시오.\n항목 A B 6 ㅁ\n값 13 22 43 43\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n： 초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics ：\n항목 iA Bc 1]",
+            "repaired_text": "",
+            "expressions": [],
+            "choices": [
+              "ㅁ 값 13 22 43 43\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n： 초등 1학년ㆍ분류하고 세기ㆍ기본 table - statistics ：\n항목 iA Bc 1]"
+            ],
+            "math_topic": "unknown",
+            "question_type": "multiple_choice"
+          },
+          "solver_name": "arithmetic_solver",
+          "computed_answer": "",
+          "validation_status": "failed"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1365 @@
+{
+  "schema_version": "coco_app_batch_after_fix.v1",
+  "batch_index": 5,
+  "band": "초등",
+  "offset": 40,
+  "doc_ids": [
+    "autobank__elementary_g03_001__19914f30",
+    "autobank__elementary_g03_002__35d2abce",
+    "autobank__elementary_g03_003__b8d3f0f3",
+    "autobank__elementary_g03_004__a1d16ad5",
+    "autobank__elementary_g03_005__9bb8138c",
+    "autobank__elementary_g03_006__4edf4861",
+    "autobank__elementary_g03_007__296efd58",
+    "autobank__elementary_g03_008__e9416d92",
+    "autobank__elementary_g03_009__61f1d403",
+    "autobank__elementary_g03_010__0685010f"
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "error": 0,
+    "by_band": {
+      "초등": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "error": 0
+      }
+    },
+    "by_topic": {
+      "arithmetic": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      },
+      "geometry": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      },
+      "pattern": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "statistics": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      }
+    }
+  },
+  "card_issue_count": 0,
+  "card_issues": [],
+  "state_issue": null,
+  "results": [
+    {
+      "case_id": "elementary_g03_001",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "arithmetic",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/수와 연산/곱셈·나눗셈과 분수/elementary_g03_001_easy_expression_arithmetic.png",
+      "expected_answer": "73",
+      "expected_expression": "41+32",
+      "computed_answer": "73",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "41+ 32"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.423,
+      "analysis": {
+        "analysis_started_at": 1777119447.1926541,
+        "analysis_finished_at": 1777119447.615365,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n(2) =\n다음 식의 값을 구하시오.\n41+ 32\n| 초등 3학년 BALLS Mat 분수 ㆍ기본 expression ㆍ arithmet\n=) © D",
+            "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n(2) =\n다음 식의 값을 구하시오.\n41+ 32\n| 초등 3학년 BALLS Mat 분수 ㆍ기본 expression ㆍ arithmet\n=) © D"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "41+ 32"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/수와 연산/곱셈·나눗셈과 분수/elementary_g03_001_easy_expression_arithmetic.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n(2) =\n다음 식의 값을 구하시오.\n41+ 32",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n(2) =\n다음 식의 값을 구하시오.\n41+ 32",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 3학년 BALLS Mat 분수 ㆍ기본 expression ㆍ arithmet\n=) © D\n41+ 32",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "680b898e2c07"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "73",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 73야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 73야. 그래서 정답은 73야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n(2) =\n다음 식의 값을 구하시오.\n41+ 32\n| 초등 3학년 BALLS Mat 분수 ㆍ기본 expression ㆍ arithmet\n=) © D",
+            "content_text": "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n(2) =\n다음 식의 값을 구하시오.\n41+ 32\n| 초등 3학년 BALLS Mat 분수 ㆍ기본 expression ㆍ arithmet\n=) © D",
+            "repaired_text": "",
+            "expressions": [
+              "41+ 32"
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "73",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_001__19914f30"
+    },
+    {
+      "case_id": "elementary_g03_002",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/도형과 측정/평면도형과 원/elementary_g03_002_easy_word_geometry.png",
+      "expected_answer": "72",
+      "expected_expression": "9*8",
+      "computed_answer": "72",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "이 밭의 넓이를 구하시오. mem",
+      "recognized_expressions": [
+        "9*8",
+        "rectangle_width 9rectangle_height 8rectangle_area 9*8"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.966,
+      "analysis": {
+        "analysis_started_at": 1777119447.6160269,
+        "analysis_finished_at": 1777119448.582344,
+        "structured_problem": {
+          "source_text_candidates": [
+            ": 초등 3학년 -평면도형과 원 ㆍ 기본 word - geometry\n가로가 9cm, 세로가 8cme! 직사각형 모양 받이\n이 밭의 넓이를 구하시오. mem\n9cm\n초등 3학년 ㆍ평면도형과 원ㆍ기본 word ㆍ geometry\n가로가 9cm, 세로가 8cme! 직사각형 모양 밭이\n이 밭의 넓이를 구하시오. ecm\n이 밭의 넓이를 구하시오. em\nrectangle_width 9rectangle_height 8rectangle_area 9*8",
+            ": 초등 3학년 -평면도형과 원 ㆍ 기본 word - geometry\n가로가 9cm, 세로가 8cme! 직사각형 모양 받이\n이 밭의 넓이를 구하시오. mem\n9cm\n초등 3학년 ㆍ평면도형과 원ㆍ기본 word ㆍ geometry\n가로가 9cm, 세로가 8cme! 직사각형 모양 밭이\n이 밭의 넓이를 구하시오. ecm\n이 밭의 넓이를 구하시오. em\nrectangle_width 9rectangle_height 8rectangle_area 9*8"
+          ],
+          "normalized_problem_text": "이 밭의 넓이를 구하시오. mem",
+          "expressions": [
+            "9*8",
+            "rectangle_width 9rectangle_height 8rectangle_area 9*8"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/도형과 측정/평면도형과 원/elementary_g03_002_easy_word_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": ": 초등 3학년 -평면도형과 원 ㆍ 기본 word - geometry\n가로가 9cm, 세로가 8cme! 직사각형 모양 받이\n있습니다. |\n이 밭의 넓이를 구하시오. mem\n9cm",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ평면도형과 원ㆍ기본 word ㆍ geometry\n가로가 9cm, 세로가 8cme! 직사각형 모양 밭이\n있습니다. _」、\n이 밭의 넓이를 구하시오. ecm\n9cm",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ평면도형과 원ㆍ기본 word ㆍ geometry\n가로가 9cm, 세로가 8cme! 직사각형 모양 밭이\n있습니다.\n이 밭의 넓이를 구하시오. em\n9cm",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ": 초등 3학년 -평면도형과 원 ㆍ 기본 word - geometry\n가로가 9cm, 세로가 8cme! 직사각형 모양 받이\n있습니다. |\n이 밭의 넓이를 구하시오. mem\n9cm",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "geometry_metric_reader",
+                    "variant": "rectangle_metric",
+                    "psm": "geometry",
+                    "available": true,
+                    "text": "rectangle_width 9 rectangle_height 8 rectangle_area 9*8",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "856a8245513b"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "72",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 72야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 도형이나 좌표 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 72야. 그래서 정답은 72야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": ": 초등 3학년 -평면도형과 원 ㆍ 기본 word - geometry\n가로가 9cm, 세로가 8cme! 직사각형 모양 받이\n이 밭의 넓이를 구하시오. mem\n9cm\n초등 3학년 ㆍ평면도형과 원ㆍ기본 word ㆍ geometry\n가로가 9cm, 세로가 8cme! 직사각형 모양 밭이\n이 밭의 넓이를 구하시오. ecm\n이 밭의 넓이를 구하시오. em\nrectangle_width 9rectangle_height 8rectangle_area 9*8",
+            "content_text": ": 초등 3학년 -평면도형과 원 ㆍ 기본 word - geometry\n가로가 9cm, 세로가 8cme! 직사각형 모양 받이\n이 밭의 넓이를 구하시오. mem\n9cm\n초등 3학년 ㆍ평면도형과 원ㆍ기본 word ㆍ geometry\n가로가 9cm, 세로가 8cme! 직사각형 모양 밭이\n이 밭의 넓이를 구하시오. ecm\n이 밭의 넓이를 구하시오. em\nrectangle_width 9rectangle_height 8rectangle_area 9*8",
+            "repaired_text": "",
+            "expressions": [
+              "9*8",
+              "rectangle_width 9rectangle_height 8rectangle_area 9*8"
+            ],
+            "choices": [],
+            "math_topic": "geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "72",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_002__35d2abce"
+    },
+    {
+      "case_id": "elementary_g03_003",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "pattern",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/변화와 관계/규칙 배열/elementary_g03_003_easy_table_pattern.png",
+      "expected_answer": "137",
+      "expected_expression": "39+46+38+14",
+      "computed_answer": "137",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 수량은 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "39+46+38+14"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.388,
+      "analysis": {
+        "analysis_started_at": 1777119448.583118,
+        "analysis_finished_at": 1777119449.9712892,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 3학년 ㆍ규칙 배열 ㆍ기본 table - pattern\n아래 표의 수량은 모두 몇 개인지 구하시오.\nat 39 46 38 14\n항복 0 [40000 10000 16010 |\n： 초등 3학년ㆍ규칙 배열ㆍ기본 table - pattern ：\ntable_row_2 39 46 38 14",
+            "초등 3학년 ㆍ규칙 배열 ㆍ기본 table - pattern\n아래 표의 수량은 모두 몇 개인지 구하시오.\nat 39 46 38 14\n항복 0 [40000 10000 16010 |\n： 초등 3학년ㆍ규칙 배열ㆍ기본 table - pattern ：\ntable_row_2 39 46 38 14"
+          ],
+          "normalized_problem_text": "아래 표의 수량은 모두 몇 개인지 구하시오",
+          "expressions": [
+            "39+46+38+14"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/변화와 관계/규칙 배열/elementary_g03_003_easy_table_pattern.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 3학년 ㆍ규칙 배열 ㆍ기본 table - pattern\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 A B C D\nat 39 46 38 14",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ규칙 배열ㆍ기본 table - pattern\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항복 0 [40000 10000 16010 |",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ규칙 배열 ㆍ기본 table - pattern\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 A B C D\nat 39 46 38 14",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 초등 3학년ㆍ규칙 배열ㆍ기본 table - pattern ：\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 fA BC",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 39 46 38 14",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "dc69cabb7ad2"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "137",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 137야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 137야. 그래서 정답은 137야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 3학년 ㆍ규칙 배열 ㆍ기본 table - pattern\n아래 표의 수량은 모두 몇 개인지 구하시오.\nat 39 46 38 14\n항복 0 [40000 10000 16010 |\n： 초등 3학년ㆍ규칙 배열ㆍ기본 table - pattern ：\ntable_row_2 39 46 38 14",
+            "content_text": "초등 3학년 ㆍ규칙 배열 ㆍ기본 table - pattern\n아래 표의 수량은 모두 몇 개인지 구하시오.\nat 39 46 38 14\n항복 0 [40000 10000 16010 |\n： 초등 3학년ㆍ규칙 배열ㆍ기본 table - pattern ：\ntable_row_2 39 46 38 14",
+            "repaired_text": "",
+            "expressions": [
+              "39+46+38+14"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "137",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_003__b8d3f0f3"
+    },
+    {
+      "case_id": "elementary_g03_004",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/자료와 가능성/막대그래프/elementary_g03_004_easy_expression_statistics.png",
+      "expected_answer": "441/5",
+      "expected_expression": "(93+93+100+92+63)/5",
+      "computed_answer": "441/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 SAS 구하시오",
+      "recognized_expressions": [
+        "(93+93+100+92+63)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.472,
+      "analysis": {
+        "analysis_started_at": 1777119449.9722428,
+        "analysis_finished_at": 1777119450.443831,
+        "structured_problem": {
+          "source_text_candidates": [
+            "개 초등 3학년 ㆍ막대그래프 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n93, 93, 100, 92, 63\n초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.",
+            "개 초등 3학년 ㆍ막대그래프 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n93, 93, 100, 92, 63\n초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오."
+          ],
+          "normalized_problem_text": "다음 자료의 SAS 구하시오",
+          "expressions": [
+            "(93+93+100+92+63)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "coordinate_geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/자료와 가능성/막대그래프/elementary_g03_004_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "개 초등 3학년 ㆍ막대그래프 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n93, 93, 100, 92, 63",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.\n93, 93, 100, 92, 63",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "개 초등 3학년 ㆍ막대그래프 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n93, 93, 100, 92, 63",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "1d4ab70db918"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "441/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 441/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 441/5야. 그래서 정답은 441/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "개 초등 3학년 ㆍ막대그래프 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n93, 93, 100, 92, 63\n초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.",
+            "content_text": "개 초등 3학년 ㆍ막대그래프 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n93, 93, 100, 92, 63\n초등 3학년 ㆍ막대그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "(93+93+100+92+63)/5"
+            ],
+            "choices": [],
+            "math_topic": "coordinate_geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "441/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_004__a1d16ad5"
+    },
+    {
+      "case_id": "elementary_g03_005",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "arithmetic",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/수와 연산/곱셈·나눗셈과 분수/elementary_g03_005_easy_expression_arithmetic.png",
+      "expected_answer": "61",
+      "expected_expression": "43+18",
+      "computed_answer": "61",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "43 + 18"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.414,
+      "analysis": {
+        "analysis_started_at": 1777119450.444798,
+        "analysis_finished_at": 1777119450.8592699,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n다음 식의 값을 구하시오.\n43 + 18\n| 초등 3학년 BALLS Mat 분수 ㆍ기본 expression ㆍ arithmet\n=) © D",
+            "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n다음 식의 값을 구하시오.\n43 + 18\n| 초등 3학년 BALLS Mat 분수 ㆍ기본 expression ㆍ arithmet\n=) © D"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "43 + 18"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/수와 연산/곱셈·나눗셈과 분수/elementary_g03_005_easy_expression_arithmetic.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n다음 식의 값을 구하시오.\n43 + 18",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n다음 식의 값을 구하시오.\n43 + 18",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 3학년 BALLS Mat 분수 ㆍ기본 expression ㆍ arithmet\n=) © D\n43 +18",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "59659e2ae503"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "61",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 61야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 61야. 그래서 정답은 61야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n다음 식의 값을 구하시오.\n43 + 18\n| 초등 3학년 BALLS Mat 분수 ㆍ기본 expression ㆍ arithmet\n=) © D",
+            "content_text": "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n다음 식의 값을 구하시오.\n43 + 18\n| 초등 3학년 BALLS Mat 분수 ㆍ기본 expression ㆍ arithmet\n=) © D",
+            "repaired_text": "",
+            "expressions": [
+              "43 + 18"
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "61",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_005__9bb8138c"
+    },
+    {
+      "case_id": "elementary_g03_006",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/도형과 측정/평면도형과 원/elementary_g03_006_easy_expression_geometry.png",
+      "expected_answer": "38",
+      "expected_expression": "29+9",
+      "computed_answer": "38",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "29+9"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.447,
+      "analysis": {
+        "analysis_started_at": 1777119450.860628,
+        "analysis_finished_at": 1777119451.307914,
+        "structured_problem": {
+          "source_text_candidates": [
+            "AS 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n29+9\n초등 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr",
+            "AS 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n29+9\n초등 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "29+9"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/도형과 측정/평면도형과 원/elementary_g03_006_easy_expression_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "AS 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n29+9",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n29+9",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "AS 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n29+9",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "62f5d443d484"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "38",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 38야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 도형이나 좌표 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 38야. 그래서 정답은 38야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "AS 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n29+9\n초등 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr",
+            "content_text": "AS 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n29+9\n초등 3학년 ㆍ평면도형과 원ㆍ기본 expression ㆍ geometr",
+            "repaired_text": "",
+            "expressions": [
+              "29+9"
+            ],
+            "choices": [],
+            "math_topic": "geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "38",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_006__4edf4861"
+    },
+    {
+      "case_id": "elementary_g03_007",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "pattern",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/변화와 관계/규칙 배열/elementary_g03_007_easy_word_pattern.png",
+      "expected_answer": "87",
+      "expected_expression": "59+43-15",
+      "computed_answer": "87",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "59+43-15",
+      "recognized_expressions": [
+        "59+43-15"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.799,
+      "analysis": {
+        "analysis_started_at": 1777119451.308552,
+        "analysis_finished_at": 1777119452.107258,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 초등 3학년ㆍ규칙 배열ㆍ기본 word - pattern ：\n민지는 스티커를 59장 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 BH\n초등 3학년 ㆍ규칙 배열ㆍ기본 word - pattern\n민지는 스티커를 59% 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 as",
+            "| 초등 3학년ㆍ규칙 배열ㆍ기본 word - pattern ：\n민지는 스티커를 59장 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 BH\n초등 3학년 ㆍ규칙 배열ㆍ기본 word - pattern\n민지는 스티커를 59% 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 as"
+          ],
+          "normalized_problem_text": "59+43-15",
+          "expressions": [
+            "59+43-15"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/변화와 관계/규칙 배열/elementary_g03_007_easy_word_pattern.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 초등 3학년ㆍ규칙 배열ㆍ기본 word - pattern ：\n민지는 스티커를 59장 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 BH",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ규칙 배열ㆍ기본 word - pattern\n민지는 스티커를 59% 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 as",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ규칙 배열ㆍ기본 word - pattern\n민지는 스티커를 59% 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 as\nO AEA",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 3학년ㆍ규칙 배열ㆍ기본 word - pattern ：\n민지는 스티커를 59장 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 BH",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "b64e26f93d2f"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "87",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 87야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 87야. 그래서 정답은 87야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 초등 3학년ㆍ규칙 배열ㆍ기본 word - pattern ：\n민지는 스티커를 59장 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 BH\n초등 3학년 ㆍ규칙 배열ㆍ기본 word - pattern\n민지는 스티커를 59% 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 as",
+            "content_text": "| 초등 3학년ㆍ규칙 배열ㆍ기본 word - pattern ：\n민지는 스티커를 59장 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 BH\n초등 3학년 ㆍ규칙 배열ㆍ기본 word - pattern\n민지는 스티커를 59% 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 as",
+            "repaired_text": "",
+            "expressions": [
+              "59+43-15"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "87",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_007__296efd58"
+    },
+    {
+      "case_id": "elementary_g03_008",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/자료와 가능성/막대그래프/elementary_g03_008_easy_table_statistics.png",
+      "expected_answer": "29",
+      "expected_expression": "46-17",
+      "computed_answer": "29",
+      "matched_choice": "",
+      "validation_status": "needs_review",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오",
+      "recognized_expressions": [
+        "46-17"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.391,
+      "analysis": {
+        "analysis_started_at": 1777119452.107965,
+        "analysis_finished_at": 1777119453.4987788,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 3학년 ㆍ막대그래프ㆍ기본 table - statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\nat 46 39 17 22\n： 초등 3학년 ㆍ막대그래프ㆍ기본 table ㆍ statistics ：\n= [| | ]ㅁ\ntable_row_2 46 39 17 22",
+            "초등 3학년 ㆍ막대그래프ㆍ기본 table - statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\nat 46 39 17 22\n： 초등 3학년 ㆍ막대그래프ㆍ기본 table ㆍ statistics ：\n= [| | ]ㅁ\ntable_row_2 46 39 17 22"
+          ],
+          "normalized_problem_text": "아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오",
+          "expressions": [
+            "46-17"
+          ],
+          "choices": [
+            "ㅁ table_row_2 46 39 17 22"
+          ],
+          "question_type": "multiple_choice",
+          "math_topic": "coordinate_geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/자료와 가능성/막대그래프/elementary_g03_008_easy_table_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 3학년 ㆍ막대그래프ㆍ기본 table - statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n항목 A B C D\nat 46 39 17 22",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ막대그래프ㆍ기본 table - statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\neC",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ막대그래프ㆍ기본 table - statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n항목 A B C D\nat 46 39 17 22",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 초등 3학년 ㆍ막대그래프ㆍ기본 table ㆍ statistics ：\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n= [| | ]ㅁ",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 46 39 17 22",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "631faf41836b"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "29",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 29야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "needs_review",
+          "explanation": "이건 수학 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 29야. 그래서 정답은 29야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 3학년 ㆍ막대그래프ㆍ기본 table - statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\nat 46 39 17 22\n： 초등 3학년 ㆍ막대그래프ㆍ기본 table ㆍ statistics ：\n= [| | ]ㅁ\ntable_row_2 46 39 17 22",
+            "content_text": "초등 3학년 ㆍ막대그래프ㆍ기본 table - statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\nat 46 39 17 22\n： 초등 3학년 ㆍ막대그래프ㆍ기본 table ㆍ statistics ：\n= [| | ]ㅁ\ntable_row_2 46 39 17 22",
+            "repaired_text": "",
+            "expressions": [
+              "46-17"
+            ],
+            "choices": [
+              "ㅁ table_row_2 46 39 17 22"
+            ],
+            "math_topic": "coordinate_geometry",
+            "question_type": "multiple_choice"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "29",
+          "validation_status": "needs_review"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_008__e9416d92"
+    },
+    {
+      "case_id": "elementary_g03_009",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "arithmetic",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/수와 연산/곱셈·나눗셈과 분수/elementary_g03_009_easy_expression_arithmetic.png",
+      "expected_answer": "86",
+      "expected_expression": "68+18",
+      "computed_answer": "86",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "68 + 18"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.413,
+      "analysis": {
+        "analysis_started_at": 1777119453.49951,
+        "analysis_finished_at": 1777119453.912996,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n다음 식의 값을 구하시오.\n68 + 18\n| 초등 3학년 BALLS Mat 분수 ㆍ기본 expression ㆍ arithmet\n=) © D",
+            "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n다음 식의 값을 구하시오.\n68 + 18\n| 초등 3학년 BALLS Mat 분수 ㆍ기본 expression ㆍ arithmet\n=) © D"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "68 + 18"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/수와 연산/곱셈·나눗셈과 분수/elementary_g03_009_easy_expression_arithmetic.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n다음 식의 값을 구하시오.\n68 + 18",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n다음 식의 값을 구하시오.\n68 + 18",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 3학년 BALLS Mat 분수 ㆍ기본 expression ㆍ arithmet\n=) © D\n68 + 18",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "0645832f644a"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "86",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 86야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 86야. 그래서 정답은 86야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n다음 식의 값을 구하시오.\n68 + 18\n| 초등 3학년 BALLS Mat 분수 ㆍ기본 expression ㆍ arithmet\n=) © D",
+            "content_text": "초등 3학년ㆍ곱셈ㆍ나늦셈과 분수 ㆍ기본 expression ㆍ arithmet\n다음 식의 값을 구하시오.\n68 + 18\n| 초등 3학년 BALLS Mat 분수 ㆍ기본 expression ㆍ arithmet\n=) © D",
+            "repaired_text": "",
+            "expressions": [
+              "68 + 18"
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "86",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_009__61f1d403"
+    },
+    {
+      "case_id": "elementary_g03_010",
+      "band": "초등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "geometry",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/도형과 측정/평면도형과 원/elementary_g03_010_easy_geometry_geometry.png",
+      "expected_answer": "60",
+      "expected_expression": "12*5",
+      "computed_answer": "60",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "오른쪽 직사각형의 넓이를 구하시오",
+      "recognized_expressions": [
+        "12*5",
+        "rectangle_width 12rectangle_height 5rectangle_area 12*5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.617,
+      "analysis": {
+        "analysis_started_at": 1777119453.9136682,
+        "analysis_finished_at": 1777119454.530626,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 3학년 ㆍ평면도형과 원ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n12 007\n| 초등 3학년 ㆍ평면도형과 원ㆍ기본 geometry - geometry\n12cm\nrectangle_width 12rectangle_height 5rectangle_area 12*5",
+            "초등 3학년 ㆍ평면도형과 원ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n12 007\n| 초등 3학년 ㆍ평면도형과 원ㆍ기본 geometry - geometry\n12cm\nrectangle_width 12rectangle_height 5rectangle_area 12*5"
+          ],
+          "normalized_problem_text": "오른쪽 직사각형의 넓이를 구하시오",
+          "expressions": [
+            "12*5",
+            "rectangle_width 12rectangle_height 5rectangle_area 12*5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/3학년/도형과 측정/평면도형과 원/elementary_g03_010_easy_geometry_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 3학년 ㆍ평면도형과 원ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n| | 더\n12 007",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 3학년 ㆍ평면도형과 원ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n| | 더\n12 007",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 3학년 ㆍ평면도형과 원ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n| 더\n12cm",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "geometry_metric_reader",
+                    "variant": "rectangle_metric",
+                    "psm": "geometry",
+                    "available": true,
+                    "text": "rectangle_width 12 rectangle_height 5 rectangle_area 12*5",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "b50f87f72779"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "60",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 60야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 도형이나 좌표 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 60야. 그래서 정답은 60야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 3학년 ㆍ평면도형과 원ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n12 007\n| 초등 3학년 ㆍ평면도형과 원ㆍ기본 geometry - geometry\n12cm\nrectangle_width 12rectangle_height 5rectangle_area 12*5",
+            "content_text": "초등 3학년 ㆍ평면도형과 원ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n12 007\n| 초등 3학년 ㆍ평면도형과 원ㆍ기본 geometry - geometry\n12cm\nrectangle_width 12rectangle_height 5rectangle_area 12*5",
+            "repaired_text": "",
+            "expressions": [
+              "12*5",
+              "rectangle_width 12rectangle_height 5rectangle_area 12*5"
+            ],
+            "choices": [],
+            "math_topic": "geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "60",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g03_010__0685010f"
+    }
+  ]
+}

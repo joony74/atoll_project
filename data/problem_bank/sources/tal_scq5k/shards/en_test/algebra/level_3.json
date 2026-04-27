@@ -1,0 +1,1384 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_3:00858",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 858,
+      "split": "en_test",
+      "source_problem_id": "f0dfc2ce374c444bb233941d026bf189"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Function $$f$$ is defined for the set of all natural number as follows:  $$f(n)=\\begin{cases}n+5, \\text{when } n \\text{ is odd}\\textbackslash\\textbackslash{} \\dfrac{n}{2}, \\text{when } n \\text{ is even}\\end{cases}$$,  What is the sum of the digits of the odd number $$k$$ if $$f(f(f(k)))=35$$?\n(A) 8\n(B) 9\n(C) 10\n(D) 12\n(E) 15",
+      "problem_plain": "Function f is defined for the set of all natural number as follows: f(n)= cases n+5, when n is odd n 2 , when n is even cases , What is the sum of the digits of the odd number k if f(f(f(k)))=35 ? (A) 8 (B) 9 (C) 10 (D) 12 (E) 15",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "9",
+      "final_normalized": "9",
+      "candidates": [
+        "9",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules",
+        "operations_with_new_definition",
+        "operations_with_new_definition_in_flow_charts"
+      ],
+      "tags": [
+        "algebra",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_3",
+        "operations_with_new_definition",
+        "operations_with_new_definition_in_flow_charts",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Function f is defined for the set of all natural number as follows: f(n)= cases n+5, when n is odd n 2 , when n is even cases , What is the sum of the digits of the odd number k if f(f(f(k)))=35 ? (A) 8 (B) 9 (C) 10 (D) 12 (E) 15",
+      "solution_text": "N/A.",
+      "keywords": [
+        "algebra",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_3",
+        "operations_with_new_definition",
+        "operations_with_new_definition_in_flow_charts",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2911",
+        "queId": "f0dfc2ce374c444bb233941d026bf189",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "8"
+          },
+          {
+            "label": "B",
+            "content": "9"
+          },
+          {
+            "label": "C",
+            "content": "10"
+          },
+          {
+            "label": "D",
+            "content": "12"
+          },
+          {
+            "label": "E",
+            "content": "15"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Operations with New Definition->Operations with New Definition in Flow Charts"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_3:01173",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1173,
+      "split": "en_test",
+      "source_problem_id": "318264e3f539473e81268cbe5cb1447a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the least possible value of $$21x+14y$$, if $$xy=6$$ and $$y\\textgreater0$$?\n(A) 48\n(B) 83.5\n(C) 84\n(D) 96",
+      "problem_plain": "What is the least possible value of 21x+14y , if xy=6 and y 0 ? (A) 48 (B) 83.5 (C) 84 (D) 96",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "84",
+      "final_normalized": "84",
+      "candidates": [
+        "84",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "indefinite_equations",
+        "indeterminate_addition_equations"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "indefinite_equations",
+        "indeterminate_addition_equations",
+        "level_3",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the least possible value of 21x+14y , if xy=6 and y 0 ? (A) 48 (B) 83.5 (C) 84 (D) 96",
+      "solution_text": "N/A.",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "indefinite_equations",
+        "indeterminate_addition_equations",
+        "level_3",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "4077",
+        "queId": "318264e3f539473e81268cbe5cb1447a",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "48"
+          },
+          {
+            "label": "B",
+            "content": "83.5"
+          },
+          {
+            "label": "C",
+            "content": "84"
+          },
+          {
+            "label": "D",
+            "content": "96"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Indefinite Equations->Indeterminate Addition Equations"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_3:01188",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1188,
+      "split": "en_test",
+      "source_problem_id": "e802548b63f14435a3be34b1388394ca"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following equations is a linear equation?\n(A) y=-4x^{6}\n(B) y=13\n(C) y=2x-3h^{3}\n(D) y=\\frac{11}{x}",
+      "problem_plain": "Which of the following equations is a linear equation? (A) y=-4x^ 6 (B) y=13 (C) y=2x-3h^ 3 (D) y= 11 x",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "y=13",
+      "final_normalized": "y=13",
+      "candidates": [
+        "B",
+        "y=13"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "linear_equations_with_one_variable"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_3",
+        "linear_equations_with_one_variable",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following equations is a linear equation? (A) y=-4x^ 6 (B) y=13 (C) y=2x-3h^ 3 (D) y= 11 x",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_3",
+        "linear_equations_with_one_variable",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4147",
+        "queId": "e802548b63f14435a3be34b1388394ca",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "y=-4x^{6}"
+          },
+          {
+            "label": "B",
+            "content": "y=13"
+          },
+          {
+            "label": "C",
+            "content": "y=2x-3h^{3}"
+          },
+          {
+            "label": "D",
+            "content": "y=\\frac{11}{x}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Linear Equations with one Variable"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_3:01202",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1202,
+      "split": "en_test",
+      "source_problem_id": "997a0b5dadaf4124a6fc3303fcad8356"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following equations is a linear equation?\n(A) y=7x^{2}\n(B) y=5x+7\n(C) y=2x+3z^{3}\n(D) y=\\frac{8}{x}",
+      "problem_plain": "Which of the following equations is a linear equation? (A) y=7x^ 2 (B) y=5x+7 (C) y=2x+3z^ 3 (D) y= 8 x",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "y=5x+7",
+      "final_normalized": "y=5x+7",
+      "candidates": [
+        "B",
+        "y=5x+7"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "linear_equations_with_one_variable"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_3",
+        "linear_equations_with_one_variable",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following equations is a linear equation? (A) y=7x^ 2 (B) y=5x+7 (C) y=2x+3z^ 3 (D) y= 8 x",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_3",
+        "linear_equations_with_one_variable",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4201",
+        "queId": "997a0b5dadaf4124a6fc3303fcad8356",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "y=7x^{2}"
+          },
+          {
+            "label": "B",
+            "content": "y=5x+7"
+          },
+          {
+            "label": "C",
+            "content": "y=2x+3z^{3}"
+          },
+          {
+            "label": "D",
+            "content": "y=\\frac{8}{x}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Linear Equations with one Variable"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_3:01233",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1233,
+      "split": "en_test",
+      "source_problem_id": "43e15fbaf0334d5eb77a1975e2280556"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following is an inequality that is always true？\n(A) x \\textgreater{} 1\n(B) 1 \\textless{} -1\n(C) y +1 \\geq 2\n(D) 2 + 1 \\geq 3",
+      "problem_plain": "Which of the following is an inequality that is always true？ (A) x 1 (B) 1 -1 (C) y +1 2 (D) 2 + 1 3",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "2 + 1 \\geq 3",
+      "final_normalized": "2 + 1 \\geq 3",
+      "candidates": [
+        "2 + 1 \\geq 3",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "inequalities"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "inequalities",
+        "level_3",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following is an inequality that is always true？ (A) x 1 (B) 1 -1 (C) y +1 2 (D) 2 + 1 3",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "inequalities",
+        "level_3",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4345",
+        "queId": "43e15fbaf0334d5eb77a1975e2280556",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "x \\textgreater{} 1"
+          },
+          {
+            "label": "B",
+            "content": "1 \\textless{} -1"
+          },
+          {
+            "label": "C",
+            "content": "y +1 \\geq 2"
+          },
+          {
+            "label": "D",
+            "content": "2 + 1 \\geq 3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Inequalities"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_3:01290",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1290,
+      "split": "en_test",
+      "source_problem_id": "375e013077954e488307f19f8da6c097"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Quinn\\textquotesingle s Cupcake shop has a price elasticity of supply of 3.75.  Which of the following statements is the correct interpretation of this price elasticity of supply?\n(A) For every 1\\% increase in price, Quinn will be willing to sell 3.75 more cupcakes\n(B) For every $3.75 increase in price, Quinn will be willing to sell 1\\% more cupcakes\n(C) For every $3.75 increase in price, Quinn will be willing to sell 1 more cupcake\n(D) For every 1\\% increase in price, Quinn will be willing to sell 3.75\\% more cupcakes",
+      "problem_plain": "Quinn s Cupcake shop has a price elasticity of supply of 3.75. Which of the following statements is the correct interpretation of this price elasticity of supply? (A) For every 1 % increase in price, Quinn will be willing to sell 3.75 more cupcakes (B) For every 3.75 increase in price, Quinn will be willing to sell 1 % more cupcakes (C) For every 3.75 increase in price, Quinn will be willing to sell 1 more cupcake (D) For every 1 % increase in price, Quinn will be willing to sell 3.75 % more cupcakes",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "For every 1\\% increase in price, Quinn will be willing to sell 3.75\\% more cupcakes",
+      "final_normalized": "For every 1\\% increase in price, Quinn will be willing to sell 3.75\\% more cupcakes",
+      "candidates": [
+        "D",
+        "For every 1\\% increase in price, Quinn will be willing to sell 3.75\\% more cupcakes"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_3",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Quinn s Cupcake shop has a price elasticity of supply of 3.75. Which of the following statements is the correct interpretation of this price elasticity of supply? (A) For every 1 % increase in price, Quinn will be willing to sell 3.75 more cupcakes (B) For every 3.75 increase in price, Quinn will be willing to sell 1 % more cupcakes (C) For every 3.75 increase in price, Quinn will be willing to sell 1 more cupcake (D) For every 1 % increase in price, Quinn will be willing to sell 3.75 % more cupcakes",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_3",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4549",
+        "queId": "375e013077954e488307f19f8da6c097",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "For every 1\\% increase in price, Quinn will be willing to sell 3.75 more cupcakes"
+          },
+          {
+            "label": "B",
+            "content": "For every $3.75 increase in price, Quinn will be willing to sell 1\\% more cupcakes"
+          },
+          {
+            "label": "C",
+            "content": "For every $3.75 increase in price, Quinn will be willing to sell 1 more cupcake"
+          },
+          {
+            "label": "D",
+            "content": "For every 1\\% increase in price, Quinn will be willing to sell 3.75\\% more cupcakes"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_3:01333",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1333,
+      "split": "en_test",
+      "source_problem_id": "5688915a4fce46b4b42c84bb41913d97"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "If the elasticity of demand for college textbooks is -0.1, and the price of textbooks increases by 20\\%, how much will the quantity demanded change, and in what direction?\n(A) The quantity demanded increases by 2\\%\n(B) The quantity demanded decreases by 20\\%\n(C) The quantity demanded decreases by 2\\%\n(D) The quantity demanded remains the same",
+      "problem_plain": "If the elasticity of demand for college textbooks is -0.1, and the price of textbooks increases by 20 %, how much will the quantity demanded change, and in what direction? (A) The quantity demanded increases by 2 % (B) The quantity demanded decreases by 20 % (C) The quantity demanded decreases by 2 % (D) The quantity demanded remains the same",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "The quantity demanded decreases by 2\\%",
+      "final_normalized": "The quantity demanded decreases by 2\\%",
+      "candidates": [
+        "C",
+        "The quantity demanded decreases by 2\\%"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_3",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "If the elasticity of demand for college textbooks is -0.1, and the price of textbooks increases by 20 %, how much will the quantity demanded change, and in what direction? (A) The quantity demanded increases by 2 % (B) The quantity demanded decreases by 20 % (C) The quantity demanded decreases by 2 % (D) The quantity demanded remains the same",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_3",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4688",
+        "queId": "5688915a4fce46b4b42c84bb41913d97",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "The quantity demanded increases by 2\\%"
+          },
+          {
+            "label": "B",
+            "content": "The quantity demanded decreases by 20\\%"
+          },
+          {
+            "label": "C",
+            "content": "The quantity demanded decreases by 2\\%"
+          },
+          {
+            "label": "D",
+            "content": "The quantity demanded remains the same"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_3:01560",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1560,
+      "split": "en_test",
+      "source_problem_id": "6a9afa1757d9446180515ea24a73106c"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the least possible value of $$21x+14y$$, if $$xy=6$$ and $$y\\textgreater0$$?\n(A) 48\n(B) 83.5\n(C) 84\n(D) 96\n(E) 78",
+      "problem_plain": "What is the least possible value of 21x+14y , if xy=6 and y 0 ? (A) 48 (B) 83.5 (C) 84 (D) 96 (E) 78",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "84",
+      "final_normalized": "84",
+      "candidates": [
+        "84",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "indefinite_equations",
+        "indeterminate_addition_equations"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "indefinite_equations",
+        "indeterminate_addition_equations",
+        "level_3",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the least possible value of 21x+14y , if xy=6 and y 0 ? (A) 48 (B) 83.5 (C) 84 (D) 96 (E) 78",
+      "solution_text": "N/A.",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "indefinite_equations",
+        "indeterminate_addition_equations",
+        "level_3",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "5527",
+        "queId": "6a9afa1757d9446180515ea24a73106c",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "48"
+          },
+          {
+            "label": "B",
+            "content": "83.5"
+          },
+          {
+            "label": "C",
+            "content": "84"
+          },
+          {
+            "label": "D",
+            "content": "96"
+          },
+          {
+            "label": "E",
+            "content": "78"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Indefinite Equations->Indeterminate Addition Equations"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_3:01604",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1604,
+      "split": "en_test",
+      "source_problem_id": "cd8e4814a7f24860b4da08a060965aab"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Fill in the blanks with ``$$+$$'' to make the equation true. (Hint: Two adjacent numbers can form a new number)  $\\textasciitilde$  $$1$$~ ~ ~ ~ ~ $$2$$~ ~ ~ ~~ ~ $$3$$~ ~ ~ ~ ~~$$4$$~ ~ ~ ~ ~$$5$$~ ~ ~ ~ $$6$$ =$$48$$．\n(A) 12+3+45+6=48\n(B) 1+2+3+45+6=48\n(C) 1+23+4+5+6=48\n(D) 1+2+34+5+6=48",
+      "problem_plain": "Fill in the blanks with `` + '' to make the equation true. (Hint: Two adjacent numbers can form a new number) 1 ~ ~ ~ ~ ~ 2 ~ ~ ~ ~~ ~ 3 ~ ~ ~ ~ ~~ 4 ~ ~ ~ ~ ~ 5 ~ ~ ~ ~ 6 = 48 ． (A) 12+3+45+6=48 (B) 1+2+3+45+6=48 (C) 1+23+4+5+6=48 (D) 1+2+34+5+6=48",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "1+2+34+5+6=48",
+      "final_normalized": "1+2+34+5+6=48",
+      "candidates": [
+        "1+2+34+5+6=48",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "inequalities"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "inequalities",
+        "level_3",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Fill in the blanks with `` + '' to make the equation true. (Hint: Two adjacent numbers can form a new number) 1 ~ ~ ~ ~ ~ 2 ~ ~ ~ ~~ ~ 3 ~ ~ ~ ~ ~~ 4 ~ ~ ~ ~ ~ 5 ~ ~ ~ ~ 6 = 48 ． (A) 12+3+45+6=48 (B) 1+2+3+45+6=48 (C) 1+23+4+5+6=48 (D) 1+2+34+5+6=48",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "inequalities",
+        "level_3",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "5673",
+        "queId": "cd8e4814a7f24860b4da08a060965aab",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "12+3+45+6=48"
+          },
+          {
+            "label": "B",
+            "content": "1+2+3+45+6=48"
+          },
+          {
+            "label": "C",
+            "content": "1+23+4+5+6=48"
+          },
+          {
+            "label": "D",
+            "content": "1+2+34+5+6=48"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Inequalities"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_3:01748",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1748,
+      "split": "en_test",
+      "source_problem_id": "c132659cc49a4a8cad5a159036a785d4"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many different real numbers~$x$~satisfy the equation~$(x^{2}-5)^{2}=16$?\n(A) 0\n(B) 1\n(C) 2\n(D) 4\n(E) 8",
+      "problem_plain": "How many different real numbers~ x ~satisfy the equation~ (x^ 2 -5)^ 2 =16 ? (A) 0 (B) 1 (C) 2 (D) 4 (E) 8",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_3",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many different real numbers~ x ~satisfy the equation~ (x^ 2 -5)^ 2 =16 ? (A) 0 (B) 1 (C) 2 (D) 4 (E) 8",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_3",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "6225",
+        "queId": "c132659cc49a4a8cad5a159036a785d4",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          },
+          {
+            "label": "E",
+            "content": "8"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_3:01971",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1971,
+      "split": "en_test",
+      "source_problem_id": "399a02ec97bb4eae9a296df38755d0c5"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "In a card game, there are $$4$$ types of colour cards and $$3$$ functional cards with no colour. If there are $$9$$ red cards, $$16$$ yellow cards, $$8$$ green cards and $$5$$ blue cards, How many cards should I draw to ensure that I get $$5$$ cards in the same colour?\n(A) 16\n(B) 17\n(C) 19\n(D) 20",
+      "problem_plain": "In a card game, there are 4 types of colour cards and 3 functional cards with no colour. If there are 9 red cards, 16 yellow cards, 8 green cards and 5 blue cards, How many cards should I draw to ensure that I get 5 cards in the same colour? (A) 16 (B) 17 (C) 19 (D) 20",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "20",
+      "final_normalized": "20",
+      "candidates": [
+        "20",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "combinatorics",
+        "pigeonhole_principle",
+        "worst_case_in_pigeonhole_principle_problems"
+      ],
+      "tags": [
+        "algebra",
+        "combinatorics",
+        "en",
+        "en_test",
+        "level_3",
+        "pigeonhole_principle",
+        "single_choice",
+        "tal_scq5k",
+        "worst_case_in_pigeonhole_principle_problems"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "In a card game, there are 4 types of colour cards and 3 functional cards with no colour. If there are 9 red cards, 16 yellow cards, 8 green cards and 5 blue cards, How many cards should I draw to ensure that I get 5 cards in the same colour? (A) 16 (B) 17 (C) 19 (D) 20",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "combinatorics",
+        "en",
+        "en_test",
+        "level_3",
+        "pigeonhole_principle",
+        "single_choice",
+        "tal_scq5k",
+        "worst_case_in_pigeonhole_principle_problems"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "7094",
+        "queId": "399a02ec97bb4eae9a296df38755d0c5",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "16"
+          },
+          {
+            "label": "B",
+            "content": "17"
+          },
+          {
+            "label": "C",
+            "content": "19"
+          },
+          {
+            "label": "D",
+            "content": "20"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Pigeonhole Principle->Worst Case in Pigeonhole Principle Problems"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  }
+]

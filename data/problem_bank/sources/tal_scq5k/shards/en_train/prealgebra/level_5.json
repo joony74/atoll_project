@@ -1,0 +1,511 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_5:01152",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1152,
+      "split": "en_train",
+      "source_problem_id": "2661bd89429e4781b774bf3f04b5ee94"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many perfect cubes lie between $2^{2}+1$ and $2^{8}+1$, inclusive? (Adapted from 2018 AMC 8 Problem, Question \\#25)\n(A) 2\n(B) 3\n(C) 4\n(D) 5\n(E) 6",
+      "problem_plain": "How many perfect cubes lie between 2^ 2 +1 and 2^ 8 +1 , inclusive? (Adapted from 2018 AMC 8 Problem, Question #25) (A) 2 (B) 3 (C) 4 (D) 5 (E) 6",
+      "solution_latex": "$2^{2}+1=5$, $2^{8}+1=257$.  $2^{3}=8$, $3^{3}=27$, $4^{3}=64$, $5^{3}=125$, $6^{3}=216$.  Thus, the answer is $5$.",
+      "solution_plain": "2^ 2 +1=5 , 2^ 8 +1=257 . 2^ 3 =8 , 3^ 3 =27 , 4^ 3 =64 , 5^ 3 =125 , 6^ 3 =216 . Thus, the answer is 5 ."
+    },
+    "answer": {
+      "final_raw": "5",
+      "final_normalized": "5",
+      "candidates": [
+        "5",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules",
+        "computing_powers",
+        "exponentiation_of_powers",
+        "power"
+      ],
+      "tags": [
+        "calculation_modules",
+        "computing_powers",
+        "en",
+        "en_train",
+        "exponentiation_of_powers",
+        "level_5",
+        "power",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$2^{2}+1=5$, $2^{8}+1=257$.",
+        "$2^{3}=8$, $3^{3}=27$, $4^{3}=64$, $5^{3}=125$, $6^{3}=216$.",
+        "Thus, the answer is $5$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many perfect cubes lie between 2^ 2 +1 and 2^ 8 +1 , inclusive? (Adapted from 2018 AMC 8 Problem, Question #25) (A) 2 (B) 3 (C) 4 (D) 5 (E) 6",
+      "solution_text": "2^ 2 +1=5 , 2^ 8 +1=257 . 2^ 3 =8 , 3^ 3 =27 , 4^ 3 =64 , 5^ 3 =125 , 6^ 3 =216 . Thus, the answer is 5 .",
+      "keywords": [
+        "calculation_modules",
+        "computing_powers",
+        "en",
+        "en_train",
+        "exponentiation_of_powers",
+        "level_5",
+        "power",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3223",
+        "queId": "2661bd89429e4781b774bf3f04b5ee94",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "5"
+          },
+          {
+            "label": "E",
+            "content": "6"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Power->Computing Powers->Exponentiation of Powers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_5:01559",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1559,
+      "split": "en_train",
+      "source_problem_id": "9a66f27c3add4ac4b4031be8aeefad84"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the median of the following list of 4040 numbers: $$ 1,2,3, \\ldots, 2020,1^{2}, 2^{2}, 3^{2}, \\ldots, 2020^{2}$$? (2020 AMC 10A Problems, Question \\#11)\n(A) 1974.5\n(B) 1975.5\n(C) 1976.5\n(D) 1977.5\n(E) 1978.5",
+      "problem_plain": "What is the median of the following list of 4040 numbers: 1,2,3, , 2020,1^ 2 , 2^ 2 , 3^ 2 , , 2020^ 2 ? (2020 AMC 10A Problems, Question #11) (A) 1974.5 (B) 1975.5 (C) 1976.5 (D) 1977.5 (E) 1978.5",
+      "solution_latex": "We want to know the $2020$-th term and the $2021$-st term to get the median.  We know that $44^{2}=1936$. So, numbers $1^{2}, 2^{2}, \\ldots, 44^{2}$ are in between $1$ and $1936$.  So, the sum of $44$ and $1936$ will result in $1980$ , which means that $1936$ is the $1980$-th number.  Also, notice that $45^{2}=2025$, which is larger than $2021$.  Then the $2020$-th term will be $1936+40=1976$, and similarly the $2021$-th term will be $1977$.  Solving for the median of the two numbers, we get (C) $1976.5$.",
+      "solution_plain": "We want to know the 2020 -th term and the 2021 -st term to get the median. We know that 44^ 2 =1936 . So, numbers 1^ 2 , 2^ 2 , , 44^ 2 are in between 1 and 1936 . So, the sum of 44 and 1936 will result in 1980 , which means that 1936 is the 1980 -th number. Also, notice that 45^ 2 =2025 , which is larger than 2021 . Then the 2020 -th term will be 1936+40=1976 , and similarly the 2021 -th term will be 1977 . Solving for the median of the two numbers, we get (C) 1976.5 ."
+    },
+    "answer": {
+      "final_raw": "1976.5",
+      "final_normalized": "1976.5",
+      "candidates": [
+        "1976.5",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "decimal"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "We want to know the $2020$-th term and the $2021$-st term to get the median.",
+        "We know that $44^{2}=1936$.",
+        "So, numbers $1^{2}, 2^{2}, \\ldots, 44^{2}$ are in between $1$ and $1936$.",
+        "So, the sum of $44$ and $1936$ will result in $1980$ , which means that $1936$ is the $1980$-th number.",
+        "Also, notice that $45^{2}=2025$, which is larger than $2021$.",
+        "Then the $2020$-th term will be $1936+40=1976$, and similarly the $2021$-th term will be $1977$.",
+        "Solving for the median of the two numbers, we get (C) $1976.5$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the median of the following list of 4040 numbers: 1,2,3, , 2020,1^ 2 , 2^ 2 , 3^ 2 , , 2020^ 2 ? (2020 AMC 10A Problems, Question #11) (A) 1974.5 (B) 1975.5 (C) 1976.5 (D) 1977.5 (E) 1978.5",
+      "solution_text": "We want to know the 2020 -th term and the 2021 -st term to get the median. We know that 44^ 2 =1936 . So, numbers 1^ 2 , 2^ 2 , , 44^ 2 are in between 1 and 1936 . So, the sum of 44 and 1936 will result in 1980 , which means that 1936 is the 1980 -th number. Also, notice that 45^ 2 =2025 , which is larger than 2021 . Then the 2020 -th term will be 1936+40=1976 , and similarly the 2021 -th term will be 1977 . Solving for the median of the two numbers, we get (C) 1976.5 .",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "5053",
+        "queId": "9a66f27c3add4ac4b4031be8aeefad84",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1974.5"
+          },
+          {
+            "label": "B",
+            "content": "1975.5"
+          },
+          {
+            "label": "C",
+            "content": "1976.5"
+          },
+          {
+            "label": "D",
+            "content": "1977.5"
+          },
+          {
+            "label": "E",
+            "content": "1978.5"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_5:01718",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1718,
+      "split": "en_train",
+      "source_problem_id": "860465da932d483b9fd8d9c651ca2c12"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Fifteen integers $a\\_1, a\\_2, a\\_3, \\cdots , a\\_{15}$ are arranged in order on a number line. The integers are equally spaced and have the property that  $$ 1 \\leq a\\_1 \\leq 10$$,~~$$13 \\leq a\\_2 \\leq 20$$, and $$241 \\leq a\\_{15} \\leq 250$$.  What is the sum of the digits of $a\\_{14}$?\n(A) 8\n(B) 9\n(C) 10\n(D) 11\n(E) 12",
+      "problem_plain": "Fifteen integers a _1, a _2, a _3, , a _ 15 are arranged in order on a number line. The integers are equally spaced and have the property that 1 a _1 10 ,~~ 13 a _2 20 , and 241 a _ 15 250 . What is the sum of the digits of a _ 14 ? (A) 8 (B) 9 (C) 10 (D) 11 (E) 12",
+      "solution_latex": "A",
+      "solution_plain": "A"
+    },
+    "answer": {
+      "final_raw": "8",
+      "final_normalized": "8",
+      "candidates": [
+        "8",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "A"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Fifteen integers a _1, a _2, a _3, , a _ 15 are arranged in order on a number line. The integers are equally spaced and have the property that 1 a _1 10 ,~~ 13 a _2 20 , and 241 a _ 15 250 . What is the sum of the digits of a _ 14 ? (A) 8 (B) 9 (C) 10 (D) 11 (E) 12",
+      "solution_text": "A",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "5738",
+        "queId": "860465da932d483b9fd8d9c651ca2c12",
+        "difficulty": "4",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "8"
+          },
+          {
+            "label": "B",
+            "content": "9"
+          },
+          {
+            "label": "C",
+            "content": "10"
+          },
+          {
+            "label": "D",
+            "content": "11"
+          },
+          {
+            "label": "E",
+            "content": "12"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:prealgebra:level_5:01923",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1923,
+      "split": "en_train",
+      "source_problem_id": "f94eaacae13c4b6bbcc56cf5e0a7e75f"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "\\textbf{Research indicates that the standard deviation of typical human body temperature is 0.4 degree Celsius (C). which of the following represents the standard deviation of typical human body temperature in degrees Fahrenheit (F), where $$F=\\frac{9}{5}C+32$$?}\n(A) \\frac{9}{5}(0.4)+32\n(B) \\frac{9}{5}(0.4)\n(C) \\frac{9}{5}(0.4)^{2}\n(D) \\frac{9}{5}^{2}(0.4)\n(E) \\frac{9}{5}^{2}(0.4)^{2}",
+      "problem_plain": "Research indicates that the standard deviation of typical human body temperature is 0.4 degree Celsius (C). which of the following represents the standard deviation of typical human body temperature in degrees Fahrenheit (F), where F= 9 5 C+32 ? (A) 9 5 (0.4)+32 (B) 9 5 (0.4) (C) 9 5 (0.4)^ 2 (D) 9 5 ^ 2 (0.4) (E) 9 5 ^ 2 (0.4)^ 2",
+      "solution_latex": "\\textbf{Standard deviation for Y=ax+b is SD(Y)=\\textbar a\\textbar SD(x).}",
+      "solution_plain": "Standard deviation for Y=ax+b is SD(Y)= a SD(x)."
+    },
+    "answer": {
+      "final_raw": "\\frac{9}{5}(0.4)",
+      "final_normalized": "\\frac{9}{5}(0.4)",
+      "candidates": [
+        "B",
+        "\\frac{9}{5}(0.4)"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "\\textbf{Standard deviation for Y=ax+b is SD(Y)=\\textbar a\\textbar SD(x).}"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Research indicates that the standard deviation of typical human body temperature is 0.4 degree Celsius (C). which of the following represents the standard deviation of typical human body temperature in degrees Fahrenheit (F), where F= 9 5 C+32 ? (A) 9 5 (0.4)+32 (B) 9 5 (0.4) (C) 9 5 (0.4)^ 2 (D) 9 5 ^ 2 (0.4) (E) 9 5 ^ 2 (0.4)^ 2",
+      "solution_text": "Standard deviation for Y=ax+b is SD(Y)= a SD(x).",
+      "keywords": [
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "6636",
+        "queId": "f94eaacae13c4b6bbcc56cf5e0a7e75f",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{9}{5}(0.4)+32"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{9}{5}(0.4)"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{9}{5}(0.4)^{2}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{9}{5}^{2}(0.4)"
+          },
+          {
+            "label": "E",
+            "content": "\\frac{9}{5}^{2}(0.4)^{2}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  }
+]

@@ -14,11 +14,18 @@ import time
 from pathlib import Path
 
 import streamlit as st
+import streamlit.components.v1 as components
 
 from app.chat.context_packet import build_study_chat_context_packet as _build_study_chat_context_packet
+from app.chat.internal_search import build_internal_search_panel as _build_internal_search_panel
+from app.chat.internal_search import parse_internal_search_command as _parse_internal_search_command
 from app.chat.llm_slot import maybe_generate_chat_reply as _maybe_generate_chat_reply
 from app.chat.llm_slot import warmup_chat_llm as _warmup_chat_llm
 from app.chat.orchestrator import build_main_chat_reply as _build_main_chat_reply
+from app.chat.practice_image import render_practice_problem_image as _render_practice_problem_image
+from app.chat.recovery_card import build_recovery_message as _build_recovery_card_message
+from app.chat.recovery_card import display_problem_text as _display_problem_text
+from app.chat.study_fast_reply import build_fast_study_reply as _build_fast_study_reply
 from app.chat.state import (
     APP_SUPPORT_DIR,
     DOCS_DIR,
@@ -27,8 +34,11 @@ from app.chat.state import (
     active_chat_mode as _active_chat_mode,
     append_main_message as _append_main_message,
     append_message as _append_message,
+    clear_active_chat_history as _clear_active_chat_history,
     delete_document as _delete_document,
     ensure_dirs as _ensure_dirs,
+    INITIAL_STUDY_CARD_KIND,
+    INITIAL_STUDY_CARD_PREFIX,
     load_all_documents as _load_all_documents,
     load_document as _load_document,
     load_state as _load_state,
@@ -44,6 +54,7 @@ from app.chat.ui import (
     scroll_chat_to_latest as _scroll_chat_to_latest,
 )
 from app.engines.parser.school_math_taxonomy import topic_label as _school_topic_label
+from app.core.multi_problem_segmenter import save_problem_card_images as _save_problem_card_images
 from app.learning_engine import (
     format_learning_engine_status as _format_learning_engine_status,
     generate_learning_problem_record as _generate_learning_problem_record,
@@ -70,11 +81,31 @@ PROMPT_PLACEHOLDER = "자료가 없어도 괜찮아요. 수학 개념이나 문�
 APP_VERSION = str(os.getenv("COCO_APP_VERSION") or "1.0.0").strip() or "1.0.0"
 CHECK_FAULTS_PATH = APP_SUPPORT_DIR / "check_faults.json"
 CAPTURES_DIR = APP_SUPPORT_DIR / "captures"
+PRACTICE_IMAGES_DIR = APP_SUPPORT_DIR / "generated_practice_images"
 OLLAMA_BIN_CANDIDATES = (
     "/opt/homebrew/bin/ollama",
     "/usr/local/bin/ollama",
     "/Applications/Ollama.app/Contents/Resources/ollama",
 )
+DRAG_UPLOAD_TYPES = ("png", "jpg", "jpeg", "webp", "bmp", "tif", "tiff", "pdf")
+CAPTURE_IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".bmp", ".tif", ".tiff"}
+BROKEN_FRACTIONAL_POWER_DISPLAY_RE = re.compile(r"\d+\s*[\*\?]\s*[xX*]\s*\d+\s*[°º?\*]")
+SIMILAR_PROBLEM_PROMPT_RE = re.compile(r"다른\s*문제|비슷한\s*문제|유사\s*문제|한\s*문제\s*더|새\s*문제|문제\s*더")
+SEQUENCE_LOG_PRODUCT_DISPLAY_RE = re.compile(
+    r"sequence_log_product\(base=(?P<base>\d+),start=(?P<start>\d+),increment=(?P<increment>-?\d+),count=(?P<count>\d+)\)"
+)
+UploadItem = tuple[str, str, str]
+UploadResult = UploadItem | list[UploadItem]
+
+
+def _float_env(name: str, default: float) -> float:
+    try:
+        return float(os.getenv(name, str(default)) or default)
+    except (TypeError, ValueError):
+        return default
+
+
+LOCAL_STUDY_REPLY_DELAY_SECONDS = max(0.0, _float_env("COCO_LOCAL_STUDY_REPLY_DELAY_SECONDS", 3.0))
 
 
 def _set_upload_feedback(tone: str, message: str) -> None:
@@ -104,40 +135,140 @@ def _save_uploaded_bytes(file_name: str, data: bytes) -> tuple[str, str, str]:
     return file_hash, safe_name, str(target_path)
 
 
-def _save_uploaded_file(uploaded_file) -> tuple[str, str, str]:
-    data = uploaded_file.getvalue()
-    return _save_uploaded_bytes(str(getattr(uploaded_file, "name", "") or "upload.png"), data)
+def _render_pdf_upload_pages(pdf_path: Path, file_id: str, safe_name: str) -> list[UploadItem]:
+    pdftoppm = shutil.which("pdftoppm")
+    if not pdftoppm:
+        raise RuntimeError("PDF 등록은 pdftoppm 변환 도구가 필요합니다.")
 
-
-def _register_uploaded_document(state: dict, file_id: str, file_name: str, file_path: str) -> None:
-    registered_at = time.time()
-    analysis = _run_analysis(file_path)
-    document_payload = {
-        "doc_id": file_id,
-        "file_name": file_name,
-        "file_path": file_path,
-        "registered_at": registered_at,
-        "created_at": registered_at,
-        "latest_user_query": "",
-        "analysis": analysis,
-    }
-    _persist_document(file_id, file_name, file_path, analysis, registered_at=registered_at)
-    docs = [item for item in state.get("documents", []) if item.get("doc_id") != file_id]
-    docs.insert(
-        0,
-        {
-            "doc_id": file_id,
-            "file_name": file_name,
-            "file_path": file_path,
-            "created_at": registered_at,
-            "registered_at": registered_at,
-            "last_opened_at": registered_at,
-            "latest_user_query": "",
-        },
+    page_dir = UPLOADS_DIR / f"{file_id}_pdf_pages"
+    shutil.rmtree(page_dir, ignore_errors=True)
+    page_dir.mkdir(parents=True, exist_ok=True)
+    prefix = page_dir / "page"
+    result = subprocess.run(
+        [pdftoppm, "-png", "-r", "180", str(pdf_path), str(prefix)],
+        capture_output=True,
+        text=True,
+        timeout=120,
+        check=False,
     )
+    if result.returncode != 0:
+        message = (result.stderr or result.stdout or "").strip()
+        raise RuntimeError(message or "PDF 페이지를 이미지로 변환하지 못했습니다.")
+
+    def _page_number(path: Path) -> int:
+        match = re.search(r"-(\d+)\.png$", path.name)
+        return int(match.group(1)) if match else 0
+
+    rendered_pages = sorted(page_dir.glob("page-*.png"), key=_page_number)
+    if not rendered_pages:
+        raise RuntimeError("PDF에서 변환된 페이지 이미지를 찾지 못했습니다.")
+
+    upload_items: list[UploadItem] = []
+    stem = Path(safe_name).stem or file_id
+    for index, rendered_path in enumerate(rendered_pages, start=1):
+        page_id = f"{file_id}_p{index:03d}"
+        page_name = f"{stem}_p{index:03d}.png"
+        target_path = page_dir / page_name
+        if rendered_path != target_path:
+            rendered_path.replace(target_path)
+        upload_items.append((page_id, page_name, str(target_path)))
+    return upload_items
+
+
+def _save_upload_payload(file_name: str, data: bytes) -> UploadResult:
+    file_id, safe_name, file_path = _save_uploaded_bytes(file_name, data)
+    if Path(safe_name).suffix.lower() == ".pdf":
+        return _render_pdf_upload_pages(Path(file_path), file_id, safe_name)
+    return file_id, safe_name, file_path
+
+
+def _save_uploaded_file(uploaded_file) -> UploadResult:
+    data = uploaded_file.getvalue()
+    return _save_upload_payload(str(getattr(uploaded_file, "name", "") or "upload.png"), data)
+
+
+def _problem_card_uploads(file_id: str, file_name: str, file_path: str) -> list[tuple[str, str, str, dict]]:
+    suffix = Path(str(file_path or "")).suffix.lower()
+    if suffix not in {".png", ".jpg", ".jpeg", ".webp", ".bmp", ".tif", ".tiff"}:
+        return []
+    output_dir = UPLOADS_DIR / f"{file_id}_problem_cards"
+    cards = _save_problem_card_images(
+        file_path,
+        output_dir,
+        base_name=Path(file_name).stem or file_id,
+        minimum_regions=2,
+    )
+    if len(cards) < 2:
+        shutil.rmtree(output_dir, ignore_errors=True)
+        return []
+    uploads: list[tuple[str, str, str, dict]] = []
+    for card in cards:
+        doc_id = f"{file_id}_q{card.index:02d}"
+        child_name = f"{Path(file_name).stem}_문항{card.label}.png"
+        uploads.append(
+            (
+                doc_id,
+                child_name,
+                card.path,
+                {
+                    "parent_doc_id": file_id,
+                    "parent_file_name": file_name,
+                    "parent_file_path": file_path,
+                    "problem_card_index": card.index,
+                    "problem_card_label": card.label,
+                    "problem_card_bbox": list(card.bbox),
+                },
+            )
+        )
+    return uploads
+
+
+def _register_uploaded_document(state: dict, file_id: str, file_name: str, file_path: str) -> int:
+    registered_at = time.time()
+    upload_items = _problem_card_uploads(file_id, file_name, file_path)
+    if not upload_items:
+        upload_items = [(file_id, file_name, file_path, {})]
+
+    registered_doc_ids = {doc_id for doc_id, _, _, _ in upload_items}
+    docs = [item for item in state.get("documents", []) if item.get("doc_id") not in registered_doc_ids]
+    new_docs: list[dict] = []
+    for offset, (doc_id, doc_name, doc_path, segment_metadata) in enumerate(upload_items):
+        analysis = _run_analysis(doc_path)
+        if segment_metadata:
+            analysis["multi_problem_parent"] = segment_metadata
+        item_registered_at = registered_at - offset * 0.001
+        document_payload = {
+            "doc_id": doc_id,
+            "file_name": doc_name,
+            "file_path": doc_path,
+            "registered_at": item_registered_at,
+            "created_at": item_registered_at,
+            "latest_user_query": "",
+            "analysis": analysis,
+        }
+        _persist_document(doc_id, doc_name, doc_path, analysis, registered_at=item_registered_at)
+        new_docs.append(
+            {
+                "doc_id": doc_id,
+                "file_name": doc_name,
+                "file_path": doc_path,
+                "created_at": item_registered_at,
+                "registered_at": item_registered_at,
+                "last_opened_at": item_registered_at,
+                "latest_user_query": "",
+            }
+        )
+        _append_message(
+            state,
+            "assistant",
+            _build_recovery_message(document_payload),
+            doc_id=doc_id,
+            kind=INITIAL_STUDY_CARD_KIND,
+        )
+    docs = [*new_docs, *docs]
     state["documents"] = docs
-    _mark_active_target(state, "study", file_id)
-    _append_message(state, "assistant", _build_recovery_message(document_payload), doc_id=file_id)
+    _mark_active_target(state, "study", new_docs[0]["doc_id"] if new_docs else file_id)
+    return len(new_docs)
 
 
 def _problem_bank_context(state: dict) -> dict:
@@ -305,17 +436,158 @@ def _build_problem_bank_chat_reply(prompt: str, state: dict) -> str | None:
     return None
 
 
+def _mac_screen_capture_access_granted() -> bool | None:
+    if sys.platform != "darwin":
+        return None
+    try:
+        from Quartz import CGPreflightScreenCaptureAccess
+
+        return bool(CGPreflightScreenCaptureAccess())
+    except Exception:
+        return None
+
+
+def _mac_screenshot_search_dirs() -> list[Path]:
+    candidates: list[Path] = []
+    try:
+        result = subprocess.run(
+            ["defaults", "read", "com.apple.screencapture", "location"],
+            capture_output=True,
+            text=True,
+            timeout=2,
+            check=False,
+        )
+        configured = str(result.stdout or "").strip()
+        if result.returncode == 0 and configured:
+            candidates.append(Path(os.path.expandvars(os.path.expanduser(configured))))
+    except Exception:
+        pass
+
+    home = Path.home()
+    candidates.extend([home / "Desktop", home / "Downloads", home / "Pictures"])
+    deduped: list[Path] = []
+    seen: set[str] = set()
+    for candidate in candidates:
+        key = str(candidate)
+        if key in seen or not candidate.exists() or not candidate.is_dir():
+            continue
+        seen.add(key)
+        deduped.append(candidate)
+    return deduped
+
+
+def _snapshot_capture_image_states(search_dirs: list[Path]) -> dict[str, tuple[float, int]]:
+    states: dict[str, tuple[float, int]] = {}
+    for directory in search_dirs:
+        try:
+            for path in directory.iterdir():
+                if not path.is_file() or path.suffix.lower() not in CAPTURE_IMAGE_SUFFIXES:
+                    continue
+                stat = path.stat()
+                states[str(path)] = (float(stat.st_mtime), int(stat.st_size))
+        except Exception:
+            continue
+    return states
+
+
+def _new_capture_candidates(
+    search_dirs: list[Path],
+    baseline: dict[str, tuple[float, int]],
+    started_at: float,
+) -> list[Path]:
+    candidates: list[tuple[float, Path]] = []
+    for directory in search_dirs:
+        try:
+            for path in directory.iterdir():
+                if not path.is_file() or path.suffix.lower() not in CAPTURE_IMAGE_SUFFIXES:
+                    continue
+                stat = path.stat()
+                previous = baseline.get(str(path))
+                if previous and stat.st_mtime <= previous[0] + 0.05 and stat.st_size == previous[1]:
+                    continue
+                if stat.st_mtime < started_at - 2 or stat.st_size <= 0:
+                    continue
+                candidates.append((float(stat.st_mtime), path))
+        except Exception:
+            continue
+    return [path for _, path in sorted(candidates, key=lambda item: item[0], reverse=True)]
+
+
+def _read_stable_file_bytes(path: Path, *, attempts: int = 10, interval: float = 0.15) -> bytes:
+    last_size = -1
+    for _ in range(max(1, attempts)):
+        stat = path.stat()
+        current_size = int(stat.st_size)
+        if current_size > 0 and current_size == last_size:
+            return path.read_bytes()
+        last_size = current_size
+        time.sleep(max(interval, 0.02))
+    return path.read_bytes()
+
+
+def _capture_with_system_screenshot_app(capture_name: str) -> tuple[str, str, str] | None:
+    search_dirs = _mac_screenshot_search_dirs()
+    if not search_dirs:
+        _set_upload_feedback("error", "시스템 캡처 저장 위치를 찾지 못했습니다.")
+        return None
+
+    baseline = _snapshot_capture_image_states(search_dirs)
+    started_at = time.time()
+    screenshot_app = Path("/System/Applications/Utilities/Screenshot.app")
+    open_command = ["open", str(screenshot_app)] if screenshot_app.exists() else ["open", "-a", "Screenshot"]
+    try:
+        result = subprocess.run(
+            open_command,
+            capture_output=True,
+            text=True,
+            timeout=5,
+            check=False,
+        )
+    except Exception as exc:
+        _set_upload_feedback("error", f"시스템 캡처 도구를 열지 못했습니다: {exc}")
+        return None
+
+    if result.returncode != 0:
+        message = str(result.stderr or result.stdout or result.returncode).strip()
+        _set_upload_feedback("error", f"시스템 캡처 도구를 열지 못했습니다: {message}")
+        return None
+
+    timeout = float(os.getenv("COCO_SCREENSHOT_APP_TIMEOUT", "90") or "90")
+    deadline = time.time() + max(timeout, 10.0)
+    while time.time() < deadline:
+        candidates = _new_capture_candidates(search_dirs, baseline, started_at)
+        if candidates:
+            selected = candidates[0]
+            try:
+                data = _read_stable_file_bytes(selected)
+                return _save_uploaded_bytes(capture_name, data)
+            except Exception as exc:
+                _set_upload_feedback("error", f"캡처 파일을 등록하지 못했습니다: {exc}")
+                return None
+        time.sleep(0.35)
+
+    _set_upload_feedback("error", "시스템 캡처가 취소되었거나 저장된 캡처 파일을 찾지 못했습니다.")
+    return None
+
+
 def _capture_screen_selection() -> tuple[str, str, str] | None:
     if sys.platform != "darwin":
         _set_upload_feedback("error", "현재 캡처 등록은 macOS 앱 환경에서만 지원합니다.")
         return None
 
-    capture_bin = shutil.which("screencapture") or "/usr/sbin/screencapture"
     CAPTURES_DIR.mkdir(parents=True, exist_ok=True)
     capture_name = f"capture_{time.strftime('%Y%m%d_%H%M%S')}.png"
     capture_path = CAPTURES_DIR / capture_name
+    capture_mode = str(os.getenv("COCO_CAPTURE_MODE") or "auto").strip().lower()
+    access_granted = _mac_screen_capture_access_granted()
+    if capture_mode in {"screenshot", "screenshot_app", "system"} or (
+        capture_mode == "auto" and access_granted is not True
+    ):
+        _set_upload_feedback("success", "시스템 캡처 도구를 열었습니다. 캡처가 끝나면 자동 등록합니다.")
+        return _capture_with_system_screenshot_app(capture_name)
 
     try:
+        capture_bin = shutil.which("screencapture") or "/usr/sbin/screencapture"
         result = subprocess.run(
             [capture_bin, "-i", str(capture_path)],
             capture_output=True,
@@ -343,13 +615,13 @@ def _capture_screen_selection() -> tuple[str, str, str] | None:
         return None
 
 
-def _choose_local_image_file() -> tuple[str, str, str] | None:
+def _choose_local_image_file() -> UploadResult | None:
     if sys.platform != "darwin":
         _set_upload_feedback("error", "현재 파일 찾기는 macOS 앱 환경에서만 지원합니다.")
         return None
 
     script_lines = [
-        'set chosenFile to choose file with prompt "등록할 이미지를 선택해주세요." of type {"public.image"}',
+        'set chosenFile to choose file with prompt "등록할 이미지 또는 PDF를 선택해주세요." of type {"public.image", "com.adobe.pdf"}',
         "POSIX path of chosenFile",
     ]
     try:
@@ -376,7 +648,7 @@ def _choose_local_image_file() -> tuple[str, str, str] | None:
 
     try:
         data = selected_path.read_bytes()
-        return _save_uploaded_bytes(selected_path.name, data)
+        return _save_upload_payload(selected_path.name, data)
     except Exception as exc:
         _set_upload_feedback("error", f"선택한 파일을 등록하지 못했습니다: {exc}")
         return None
@@ -426,6 +698,14 @@ def _truncate_label(label: str, limit: int = 22) -> str:
     if len(text) <= limit:
         return text
     return f"{text[:limit - 1]}…"
+
+
+def _learning_list_label(item: dict, document: dict | None = None) -> str:
+    loaded = document if isinstance(document, dict) else _load_document(str(item.get("doc_id") or ""))
+    problem_text = _display_problem_text(loaded) if loaded else ""
+    if problem_text:
+        return _truncate_label(problem_text, limit=28)
+    return _truncate_label(item.get("file_name") or item.get("doc_id") or "학습 자료", limit=28)
 
 
 def _status_badge(status: str) -> str:
@@ -627,6 +907,78 @@ def _assistant_render_delay_seconds(answer: str) -> float:
     return 0.35 + (0.05 * length_steps)
 
 
+def _is_similar_problem_prompt(prompt: str) -> bool:
+    normalized = re.sub(r"\s+", "", str(prompt or ""))
+    return bool(normalized and SIMILAR_PROBLEM_PROMPT_RE.search(normalized))
+
+
+def _latest_generated_practice_item(state: dict | None, document: dict | None) -> dict:
+    if not isinstance(state, dict):
+        return {}
+    doc_id = str((document or {}).get("doc_id") or state.get("selected_doc_id") or "").strip()
+    if not doc_id:
+        return {}
+    bucket = state.get("generated_practice_by_doc")
+    if not isinstance(bucket, dict):
+        return {}
+    item = bucket.get(doc_id)
+    if not isinstance(item, dict):
+        return {}
+    if isinstance(item.get("items"), list) and item.get("items"):
+        latest = item["items"][-1]
+        if isinstance(latest, dict):
+            merged = dict(item)
+            merged.update(latest)
+            return merged
+    return dict(item)
+
+
+def _generated_practice_preview_path(prompt: str, state: dict | None, document: dict | None, answer: str) -> str:
+    if not _is_similar_problem_prompt(prompt):
+        return ""
+    if "같은 풀이 기준" not in str(answer or ""):
+        return ""
+    item = _latest_generated_practice_item(state, document)
+    rule_id = str(item.get("rule_id") or "").strip()
+    problem_text = str(item.get("problem_text") or "").strip()
+    if not rule_id or not problem_text:
+        return ""
+    if problem_text not in str(answer or ""):
+        return ""
+    key = str(item.get("doc_id") or (document or {}).get("doc_id") or "").strip()
+    try:
+        return _render_practice_problem_image(rule_id, problem_text, PRACTICE_IMAGES_DIR, key=key)
+    except Exception:
+        return ""
+
+
+def _local_fast_study_reply_used(prompt: str, document: dict | None, answer: str, state: dict | None = None) -> bool:
+    if not document or not str(answer or "").strip():
+        return False
+    if _is_similar_problem_prompt(prompt) and (
+        "같은 풀이 기준" in str(answer)
+        or "먼저 제출된 문제 풀이" in str(answer)
+        or "해당 학습문제를 전부 풀었습니다" in str(answer)
+    ):
+        return True
+    try:
+        return _build_fast_study_reply(prompt, document, state=state, store_generated=False) == answer
+    except Exception:
+        return False
+
+
+def _study_assistant_render_delay_seconds(
+    prompt: str,
+    document: dict | None,
+    answer: str,
+    state: dict | None = None,
+) -> float:
+    base_delay = _assistant_render_delay_seconds(answer)
+    if _local_fast_study_reply_used(prompt, document, answer, state=state):
+        return max(base_delay, LOCAL_STUDY_REPLY_DELAY_SECONDS)
+    return base_delay
+
+
 def _dedupe_text(values: list[str], limit: int = 6) -> list[str]:
     cleaned: list[str] = []
     seen: set[str] = set()
@@ -657,6 +1009,13 @@ def _list_repr(values: list[str], limit: int = 8) -> str:
 
 def _clean_visible_candidate(value: str) -> str:
     text = str(value or "").replace("\\n", " ").replace("\\i", " ")
+    sequence_match = SEQUENCE_LOG_PRODUCT_DISPLAY_RE.fullmatch(text.replace(" ", ""))
+    if sequence_match:
+        base = sequence_match.group("base")
+        start = sequence_match.group("start")
+        increment = sequence_match.group("increment")
+        count = sequence_match.group("count")
+        return f"a1={start}, log_{base}(a_(n+1))={increment}+log_{base}(a_n), a1*...*a{count}={base}^k"
     text = text.replace("@", " ")
     text = re.sub(r"\\[a-zA-Z]+", " ", text)
     text = re.sub(r"\s+", " ", text).strip(" .,:;`'\"")
@@ -667,9 +1026,12 @@ def _clean_visible_candidate(value: str) -> str:
 
 def _visible_candidates(values: list[str], limit: int = 3) -> list[str]:
     candidates: list[str] = []
+    has_repaired_fractional_power = any("^(1/" in _clean_visible_candidate(item) for item in values)
     for raw in values:
         text = _clean_visible_candidate(raw)
         if not text:
+            continue
+        if has_repaired_fractional_power and BROKEN_FRACTIONAL_POWER_DISPLAY_RE.search(text):
             continue
         if re.search(r"[@\\]|(?:19|20)\d{2}", text):
             continue
@@ -733,46 +1095,16 @@ def _analysis_runtime_notes(analysis: dict | None) -> list[str]:
 
 
 def _build_recovery_message(document: dict | None) -> str:
-    if not document:
-        return "업로드한 자료가 아직 없습니다.\n\n이미지를 넣으면 복원된 식 후보와 풀이 단서를 이 영역에 정리해둘게요."
-
-    analysis = document.get("analysis") or {}
-    structured = analysis.get("structured_problem") or {}
-    expressions = [str(item or "") for item in structured.get("expressions") or []]
-    source_candidates = [str(item or "") for item in structured.get("source_text_candidates") or []]
-    function_candidates = _extract_function_candidates(structured)
-    coordinate_candidates = _extract_coordinate_candidates(structured)
-    problem_text = _clean_visible_candidate(str(structured.get("normalized_problem_text") or ""))
-    question_goal = _topic_label(str(structured.get("math_topic") or "unknown").strip() or "unknown")
-    runtime_notes = _analysis_runtime_notes(analysis)
-    visible_expressions = _visible_candidates(expressions or source_candidates)
-    visible_functions = _visible_candidates(function_candidates)
-    visible_coordinates = _visible_candidates(coordinate_candidates)
-
-    lines = [
-        "이미지에서 읽은 내용을 먼저 정리했어요.",
-        "",
-    ]
-    if runtime_notes:
-        lines.extend([f"- 상태: {note}" for note in runtime_notes])
-        lines.append("")
-    if problem_text:
-        lines.append(f"- 읽은 문제: {problem_text}")
-    if visible_expressions:
-        lines.append(f"- 수식 후보: {', '.join(visible_expressions)}")
-    else:
-        lines.append("- 수식 후보: 아직 확실하지 않아 다시 맞춰보는 중입니다.")
-    if visible_functions:
-        lines.append(f"- 함수 후보: {', '.join(visible_functions)}")
-    if visible_coordinates:
-        lines.append(f"- 좌표 후보: {', '.join(visible_coordinates)}")
-    lines.extend([f"- 유형 후보: {question_goal}", "", "이 상태에서 바로 풀이를 이어갈 수 있어요."])
-    return "\n".join(lines)
+    return _build_recovery_card_message(document)
 
 
 def _build_followup_message(document: dict | None, prompt: str, state: dict | None = None) -> str:
     if not document:
         return "파일을 먼저 올려주면 복원된 식, 문제문장, 답 후보를 이 자리에서 바로 같이 정리할게요."
+
+    fast_reply = _build_fast_study_reply(prompt, document, state=state)
+    if fast_reply:
+        return fast_reply
 
     packet = _build_study_chat_context_packet(prompt, document=document, state=state)
     llm_reply = _maybe_generate_chat_reply(packet)
@@ -803,7 +1135,155 @@ def _build_followup_message(document: dict | None, prompt: str, state: dict | No
     return "\n".join(lines)
 
 
-def _render_prompt_input() -> str | None:
+def _is_search_history_message(message: dict) -> bool:
+    content = str((message or {}).get("content") or "").strip()
+    role = str((message or {}).get("role") or "").strip()
+    if role == "user" and _parse_internal_search_command(content) is not None:
+        return True
+    if role == "assistant":
+        if "관련 기록을 찾았어요." in content or "관련 기록을 아직 찾지 못했어요." in content:
+            return "검색 대상은 현재 저장된" in content or "열기](" in content
+    return False
+
+
+def _prune_search_history_messages(state: dict) -> None:
+    state["main_chat_history"] = [
+        item for item in state.get("main_chat_history", []) if not (isinstance(item, dict) and _is_search_history_message(item))
+    ]
+    state["chat_history"] = [
+        item for item in state.get("chat_history", []) if not (isinstance(item, dict) and _is_search_history_message(item))
+    ]
+
+
+def _refresh_search_panel(state: dict) -> None:
+    panel = state.get("search_panel")
+    if not isinstance(panel, dict):
+        return
+    query = str(panel.get("query") or "").strip()
+    if not query:
+        state.pop("search_panel", None)
+        return
+    refreshed = _build_internal_search_panel(f"검색: {query}", state)
+    if refreshed:
+        state["search_panel"] = refreshed
+
+
+def _search_result_button_label(index: int, result: dict) -> str:
+    target = str(result.get("target_label") or "결과 열기").strip()
+    source = str(result.get("source") or "").strip()
+    snippet = re.sub(r"\s+", " ", str(result.get("snippet") or "")).strip()
+    label = f"{index}. {target}"
+    if source:
+        label += f" · {source}"
+    if snippet:
+        label += f" · {snippet}"
+    return _truncate_label(label, limit=86)
+
+
+def _render_search_panel(state: dict) -> None:
+    panel = state.get("search_panel")
+    if not isinstance(panel, dict):
+        return
+
+    query = str(panel.get("query") or "").strip()
+    results = [item for item in panel.get("results") or [] if isinstance(item, dict)]
+    count_text = f"{len(results)}개 결과" if results else "결과 없음"
+    result_lines: list[str] = []
+    for index, result in enumerate(results[:12], start=1):
+        label = html.escape(_search_result_button_label(index, result))
+        target_type = str(result.get("target_type") or "").strip()
+        doc_id = str(result.get("doc_id") or "").strip()
+        key_seed = hashlib.sha1(f"{query}|{index}|{target_type}|{doc_id}".encode("utf-8")).hexdigest()[:10]
+        result_lines.append(
+            f'<a class="search-panel-result" href="#" data-coco-search-action="{key_seed}">{label}</a>'
+        )
+    if not result_lines:
+        result_lines.append(
+            '<div class="search-panel-empty">현재 저장된 메인 채팅, 학습리스트 채팅, 분석 텍스트에서 찾지 못했습니다.</div>'
+        )
+
+    with st.container(key="search_panel"):
+        st.markdown(
+            (
+                '<div class="search-panel-body">'
+                '  <div class="search-panel-summary">'
+                "    <strong>검색이 완료됐습니다.</strong>"
+                f"    <span>{html.escape(query)} · {html.escape(count_text)} · 마우스를 올리면 펼쳐집니다.</span>"
+                "  </div>"
+                f'  <div class="search-panel-results">{"".join(result_lines)}</div>'
+                '  <div class="search-panel-close-row">'
+                '    <a class="search-panel-close-link" href="#" data-coco-search-action="close">닫기</a>'
+                "  </div>"
+                "</div>"
+            ),
+            unsafe_allow_html=True,
+        )
+    with st.container(key="search_panel_actions"):
+        for index, result in enumerate(results[:12], start=1):
+            target_type = str(result.get("target_type") or "").strip()
+            doc_id = str(result.get("doc_id") or "").strip()
+            key_seed = hashlib.sha1(f"{query}|{index}|{target_type}|{doc_id}".encode("utf-8")).hexdigest()[:10]
+            if st.button(f"search-action-{key_seed}", key=f"search_action_{key_seed}"):
+                if target_type == "main":
+                    _mark_active_target(state, "main")
+                elif doc_id:
+                    _mark_active_target(state, "study", doc_id)
+                _save_state(state)
+                st.rerun()
+        if st.button("search-action-close", key="search_action_close"):
+            state.pop("search_panel", None)
+            _save_state(state)
+            st.rerun()
+    _wire_search_panel_actions()
+
+
+def _wire_search_panel_actions() -> None:
+    components.html(
+        """
+        <script>
+        const root = window.parent.document;
+        if (root.body && root.body.dataset.cocoSearchBridgeReady !== '1') {
+          root.body.dataset.cocoSearchBridgeReady = '1';
+
+          const findActionButton = (action) => {
+            const byKey = root.querySelector(`[class*="st-key-search_action_${action}"] button`);
+            if (byKey) return byKey;
+            const expected = action === 'close' ? 'search-action-close' : `search-action-${action}`;
+            const buttons = Array.from(root.querySelectorAll('button'));
+            return buttons.find((button) => (button.textContent || '').trim() === expected) || null;
+          };
+
+          root.addEventListener('click', (event) => {
+            const link = event.target && event.target.closest
+              ? event.target.closest('[data-coco-search-action]')
+              : null;
+            if (!link) return;
+            event.preventDefault();
+            event.stopPropagation();
+            const action = link.getAttribute('data-coco-search-action') || '';
+            if (!action) return;
+            const clickTarget = () => {
+              const target = findActionButton(action);
+              if (target) {
+                target.click();
+                return true;
+              }
+              return false;
+            };
+            if (!clickTarget()) {
+              setTimeout(clickTarget, 80);
+              setTimeout(clickTarget, 220);
+            }
+          }, true);
+        }
+        </script>
+        """,
+        height=0,
+    )
+
+
+def _render_prompt_input(state: dict) -> str | None:
+    _render_search_panel(state)
     with st.container(key="floating_reset_button"):
         if st.button("↻", key="floating_reset", help="대화 초기화"):
             st.session_state["_clear_active_chat_requested"] = True
@@ -813,19 +1293,12 @@ def _render_prompt_input() -> str | None:
 
 
 def _clear_active_chat(state: dict) -> None:
-    if _active_chat_mode(state) == "main":
-        state["main_chat_history"] = []
-    else:
-        selected_doc_id = str(state.get("selected_doc_id") or "").strip()
-        state["chat_history"] = [
-            item
-            for item in state.get("chat_history", [])
-            if str(item.get("doc_id") or "").strip() != selected_doc_id
-        ]
-        for item in state.get("documents", []):
-            if str(item.get("doc_id") or "").strip() == selected_doc_id:
-                item["latest_user_query"] = ""
-                break
+    selected_doc_id = str(state.get("selected_doc_id") or "").strip()
+    selected_document = _load_document(selected_doc_id) if selected_doc_id else None
+    _clear_active_chat_history(
+        state,
+        initial_study_message=_build_recovery_message(selected_document) if selected_document else None,
+    )
 
 
 def _build_main_check_items(state: dict) -> list[dict]:
@@ -941,7 +1414,10 @@ def _build_study_check_items(state: dict, selected: dict | None) -> list[dict]:
     answer_value = str(solved.get("matched_choice") or solved.get("computed_answer") or "").strip()
     steps = [str(item or "").strip() for item in solved.get("steps") or [] if str(item or "").strip()]
     validation_status = str(solved.get("validation_status") or "").strip().lower()
-    solution_ready = bool(answer_value or steps or validation_status in {"verified", "completed", "matched"})
+    solution_failed = validation_status == "failed"
+    solution_ready = (not solution_failed) and bool(answer_value or steps or validation_status in {"verified", "completed", "matched"})
+    if solution_ready and recognized_signals:
+        recognition_ready = True
 
     storage_ok, storage_body = _probe_storage_targets()
     session_ok, session_body = _probe_session_restore()
@@ -949,6 +1425,8 @@ def _build_study_check_items(state: dict, selected: dict | None) -> list[dict]:
 
     warning_count = _count_debug_entries(debug_payload.get("warnings")) + _count_debug_entries(debug_payload.get("errors"))
     if not recognition_ready:
+        warning_count += 1
+    if solution_failed:
         warning_count += 1
 
     file_body = "현재 등록된 학습 자료가 없습니다."
@@ -1111,7 +1589,7 @@ def _render_upload_feedback() -> None:
 
 def _complete_upload_registration(
     state: dict,
-    upload_result: tuple[str, str, str] | None,
+    upload_result: UploadResult | None,
     *,
     success_message: str,
 ) -> bool:
@@ -1119,14 +1597,25 @@ def _complete_upload_registration(
         return False
 
     try:
-        file_id, file_name, file_path = upload_result
-        _register_uploaded_document(state, file_id, file_name, file_path)
+        upload_items = [upload_result] if isinstance(upload_result, tuple) else list(upload_result)
+        if not upload_items:
+            return False
+        registered_count = 0
+        for file_id, file_name, file_path in reversed(upload_items):
+            registered_count += _register_uploaded_document(state, file_id, file_name, file_path)
         _save_state(state)
     except Exception as exc:
         _set_upload_feedback("error", f"이미지를 등록하지 못했습니다: {exc}")
         return False
 
-    _set_upload_feedback("success", success_message)
+    if registered_count > len(upload_items):
+        _set_upload_feedback("success", f"{registered_count}개 문항 카드로 분리해서 등록했습니다.")
+    elif len(upload_items) > 1:
+        _set_upload_feedback("success", f"{registered_count}개 PDF 페이지로 등록했습니다.")
+    elif registered_count > 1:
+        _set_upload_feedback("success", f"{registered_count}개 문항 카드로 분리해서 등록했습니다.")
+    else:
+        _set_upload_feedback("success", success_message)
     return True
 
 
@@ -1197,14 +1686,27 @@ def _render_upload_entry(state: dict) -> None:
                 st.rerun()
 
     with browse_col:
-        with st.container(key="upload_find_button"):
+        with st.container(key="upload_find_card"):
             if st.button(
-                "찾기\n기존 파일을 선택해 등록",
-                key="upload_find_trigger",
-                use_container_width=True,
+                "파일 선택 팝업 열기",
+                key="upload_browse_trigger",
+                use_container_width=False,
             ):
+                _set_upload_feedback("success", "등록할 파일을 선택해주세요.")
                 st.session_state["_pending_browse_request"] = True
                 st.rerun()
+            uploaded_file = st.file_uploader(
+                "이미지 또는 PDF를 드래그해서 등록",
+                type=list(DRAG_UPLOAD_TYPES),
+                accept_multiple_files=False,
+                key=_upload_widget_key("upload_find_card"),
+                label_visibility="collapsed",
+            )
+    _process_uploaded_file(
+        state,
+        uploaded_file,
+        success_message="드래그한 파일을 등록했습니다.",
+    )
 
     _render_upload_feedback()
 
@@ -1212,6 +1714,40 @@ def _render_upload_entry(state: dict) -> None:
         _run_capture_registration(state)
     if st.session_state.pop("_pending_browse_request", False):
         _run_browse_registration(state)
+
+
+def _is_initial_study_card(message: dict) -> bool:
+    if str(message.get("role") or "").strip() != "assistant":
+        return False
+    if str(message.get("kind") or "").strip() == INITIAL_STUDY_CARD_KIND:
+        return True
+    return str(message.get("content") or "").strip().startswith(INITIAL_STUDY_CARD_PREFIX)
+
+
+def _study_card_preview_path(document: dict | None) -> str:
+    path = Path(str((document or {}).get("file_path") or "")).expanduser()
+    if not path.exists() or not path.is_file():
+        return ""
+    if path.suffix.lower() not in {".png", ".jpg", ".jpeg", ".webp", ".bmp", ".gif", ".tif", ".tiff"}:
+        return ""
+    return str(path)
+
+
+def _attach_study_card_previews(messages: list[dict], document: dict | None) -> list[dict]:
+    preview_path = _study_card_preview_path(document)
+    if not preview_path:
+        return messages
+    doc_id = str((document or {}).get("doc_id") or "").strip()
+    decorated: list[dict] = []
+    for message in messages:
+        item = dict(message)
+        if doc_id and str(item.get("doc_id") or "").strip() not in {"", doc_id}:
+            decorated.append(item)
+            continue
+        if _is_initial_study_card(item):
+            item["preview_image_path"] = preview_path
+        decorated.append(item)
+    return decorated
 
 
 def _conversation_from_state(state: dict) -> list[dict]:
@@ -1226,18 +1762,21 @@ def _conversation_from_state(state: dict) -> list[dict]:
         for item in state.get("chat_history", [])
         if isinstance(item, dict) and str(item.get("doc_id") or "").strip() == selected_doc_id
     ]
-    if history:
-        return history[-18:]
-
     document = _load_document(selected_doc_id)
+    if history:
+        return _attach_study_card_previews(history[-18:], document)
     if document:
-        return [
-            {
-                "role": "assistant",
-                "content": _build_recovery_message(document),
-                "doc_id": selected_doc_id,
-            }
-        ]
+        return _attach_study_card_previews(
+            [
+                {
+                    "role": "assistant",
+                    "content": _build_recovery_message(document),
+                    "doc_id": selected_doc_id,
+                    "kind": INITIAL_STUDY_CARD_KIND,
+                }
+            ],
+            document,
+        )
     return []
 
 
@@ -1251,6 +1790,15 @@ def _render_chat_body(state: dict, submitted_prompt: str | None = None) -> None:
         prompt = user_prompt or DEFAULT_USER_PROMPT
         is_problem_bank_prompt = _parse_problem_bank_command(prompt) is not None
         is_learning_engine_prompt = _is_learning_engine_status_prompt(prompt)
+        is_internal_search_prompt = _parse_internal_search_command(prompt) is not None
+        if is_internal_search_prompt:
+            search_panel = _build_internal_search_panel(prompt, state)
+            _prune_search_history_messages(state)
+            if search_panel:
+                state["search_panel"] = search_panel
+            _save_state(state)
+            st.rerun()
+
         if mode == "main" or is_problem_bank_prompt or is_learning_engine_prompt:
             _mark_active_target(state, "main")
             _append_main_message(state, "user", prompt)
@@ -1260,7 +1808,11 @@ def _render_chat_body(state: dict, submitted_prompt: str | None = None) -> None:
             conversation_slot.markdown(_render_conversation(pending_conversation, mode=mode), unsafe_allow_html=True)
             _scroll_chat_to_latest()
             started = time.time()
-            assistant_reply = _build_problem_bank_chat_reply(prompt, state) if (is_problem_bank_prompt or is_learning_engine_prompt) else None
+            assistant_reply = (
+                _build_problem_bank_chat_reply(prompt, state)
+                if (is_problem_bank_prompt or is_learning_engine_prompt)
+                else None
+            )
             if assistant_reply is None:
                 assistant_reply = _build_main_chat_reply(prompt, state=state)
             elapsed = time.time() - started
@@ -1296,10 +1848,21 @@ def _render_chat_body(state: dict, submitted_prompt: str | None = None) -> None:
             started = time.time()
             assistant_reply = _build_followup_message(selected_document, prompt, state=state)
             elapsed = time.time() - started
-            remaining = max(_assistant_render_delay_seconds(assistant_reply) - elapsed, 0.0)
+            remaining = max(
+                _study_assistant_render_delay_seconds(prompt, selected_document, assistant_reply, state=state) - elapsed,
+                0.0,
+            )
             if remaining > 0:
                 time.sleep(remaining)
-            _append_message(state, "assistant", assistant_reply, doc_id=selected_doc_id)
+            generated_preview_path = _generated_practice_preview_path(prompt, state, selected_document, assistant_reply)
+            _append_message(
+                state,
+                "assistant",
+                assistant_reply,
+                doc_id=selected_doc_id,
+                preview_image_path=generated_preview_path,
+                preview_image_label="문제 그림" if generated_preview_path else None,
+            )
 
             if selected_document:
                 selected_document["latest_user_query"] = prompt
@@ -1510,19 +2073,17 @@ def _inject_css() -> None:
           margin: 2px 4px 10px;
         }
 
-        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"],
-        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] {
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] {
           margin: 0 !important;
         }
 
-        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button,
-        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button {
-          min-height: 64px !important;
-          height: 64px !important;
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button {
+          min-height: 58px !important;
+          height: 58px !important;
           width: 100% !important;
           padding: 0 !important;
-          border-radius: 16px !important;
-          border: 1px solid rgba(117, 126, 151, 0.4) !important;
+          border-radius: 14px !important;
+          border: 1px solid rgba(117, 126, 151, 0.34) !important;
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.025) 100%) !important;
           box-shadow: none !important;
           justify-content: center !important;
@@ -1534,11 +2095,8 @@ def _inject_css() -> None:
 
         [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button:hover,
         [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button:focus,
-        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button:active,
-        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button:hover,
-        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button:focus,
-        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button:active {
-          border: 1px solid rgba(143, 156, 185, 0.62) !important;
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button:active {
+          border: 1px solid rgba(143, 156, 185, 0.54) !important;
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
           box-shadow: none !important;
         }
@@ -1548,25 +2106,10 @@ def _inject_css() -> None:
           position: absolute;
           top: 50%;
           left: 50%;
-          width: 28px;
-          height: 28px;
+          width: 24px;
+          height: 24px;
           transform: translate(-50%, -50%);
-          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Cpath d='M9.2 7.4L10.5 5.8C10.8 5.43 11.25 5.2 11.73 5.2H14.27C14.75 5.2 15.2 5.43 15.5 5.8L16.8 7.4H19.15C20.34 7.4 21.3 8.36 21.3 9.55V17.45C21.3 18.64 20.34 19.6 19.15 19.6H6.85C5.66 19.6 4.7 18.64 4.7 17.45V9.55C4.7 8.36 5.66 7.4 6.85 7.4H9.2Z' stroke='%23EDF2FF' stroke-width='1.9' stroke-linejoin='round'/%3E%3Ccircle cx='13' cy='13.5' r='3.55' stroke='%23EDF2FF' stroke-width='1.9'/%3E%3Ccircle cx='18.25' cy='10.55' r='0.9' fill='%23EDF2FF'/%3E%3C/svg%3E");
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: contain;
-          pointer-events: none;
-        }
-
-        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button::before {
-          content: "";
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          width: 28px;
-          height: 28px;
-          transform: translate(-50%, -50%);
-          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Cpath d='M13 6.5V15.7' stroke='%23EDF2FF' stroke-width='1.95' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M8.78 10.72L13 6.5L17.22 10.72' stroke='%23EDF2FF' stroke-width='1.95' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M7.25 18.15V18.9C7.25 19.8 7.98 20.55 8.9 20.55H17.1C18.02 20.55 18.75 19.8 18.75 18.9V18.15' stroke='%23EDF2FF' stroke-width='1.95' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Cpath d='M9.2 7.4L10.5 5.8C10.8 5.43 11.25 5.2 11.73 5.2H14.27C14.75 5.2 15.2 5.43 15.5 5.8L16.8 7.4H19.15C20.34 7.4 21.3 8.36 21.3 9.55V17.45C21.3 18.64 20.34 19.6 19.15 19.6H6.85C5.66 19.6 4.7 18.64 4.7 17.45V9.55C4.7 8.36 5.66 7.4 6.85 7.4H9.2Z' stroke='%23EDF2FF' stroke-width='1.55' stroke-linejoin='round'/%3E%3Ccircle cx='13' cy='13.5' r='3.55' stroke='%23EDF2FF' stroke-width='1.55'/%3E%3Ccircle cx='18.25' cy='10.55' r='0.78' fill='%23EDF2FF'/%3E%3C/svg%3E");
           background-position: center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -1574,9 +2117,7 @@ def _inject_css() -> None:
         }
 
         [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button > div,
-        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button [data-testid="stMarkdownContainer"],
-        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button > div,
-        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button [data-testid="stMarkdownContainer"] {
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button [data-testid="stMarkdownContainer"] {
           width: 100% !important;
           display: flex !important;
           align-items: center !important;
@@ -1587,9 +2128,7 @@ def _inject_css() -> None:
         }
 
         [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button p,
-        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button span,
-        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button p,
-        [data-testid="stSidebar"] [class*="st-key-upload_find_button"] [data-testid="stButton"] button span {
+        [data-testid="stSidebar"] [class*="st-key-upload_option_capture"] [data-testid="stButton"] button span {
           color: transparent !important;
           font-size: 0 !important;
           line-height: 0 !important;
@@ -1675,17 +2214,53 @@ def _inject_css() -> None:
         }
 
         [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"] {
-          min-height: 64px !important;
-          height: 64px !important;
-          border-radius: 16px !important;
-          border: 1px solid rgba(117, 126, 151, 0.4) !important;
+          min-height: 58px !important;
+          height: 58px !important;
+          border-radius: 14px !important;
+          border: 1px solid rgba(117, 126, 151, 0.34) !important;
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.025) 100%) !important;
+        }
+
+        [data-testid="stSidebar"] [class*="st-key-upload_find_card"] {
+          position: relative;
+        }
+
+        [data-testid="stSidebar"] [class*="st-key-upload_browse_trigger"] {
+          position: absolute !important;
+          top: 50% !important;
+          left: 50% !important;
+          width: 44px !important;
+          height: 44px !important;
+          min-height: 44px !important;
+          transform: translate(-50%, -50%) !important;
+          z-index: 6 !important;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+
+        [data-testid="stSidebar"] [class*="st-key-upload_browse_trigger"] [data-testid="stButton"],
+        [data-testid="stSidebar"] [class*="st-key-upload_browse_trigger"] [data-testid="stButton"] > div,
+        [data-testid="stSidebar"] [class*="st-key-upload_browse_trigger"] button {
+          width: 44px !important;
+          height: 44px !important;
+          min-height: 44px !important;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+
+        [data-testid="stSidebar"] [class*="st-key-upload_browse_trigger"] button {
+          border: 0 !important;
+          background: transparent !important;
+          color: transparent !important;
+          box-shadow: none !important;
+          opacity: 0 !important;
+          cursor: pointer !important;
         }
 
         [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"]:hover,
         [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"]:focus,
         [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"]:active {
-          border: 1px solid rgba(143, 156, 185, 0.62) !important;
+          border: 1px solid rgba(143, 156, 185, 0.54) !important;
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
         }
 
@@ -1693,8 +2268,8 @@ def _inject_css() -> None:
         [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"] > div,
         [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"] section > div,
         [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"] section > div > div {
-          min-height: 64px !important;
-          height: 64px !important;
+          min-height: 58px !important;
+          height: 58px !important;
         }
 
         [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"]::before {
@@ -1702,10 +2277,10 @@ def _inject_css() -> None:
           position: absolute;
           top: 50%;
           left: 50%;
-          width: 28px;
-          height: 28px;
+          width: 24px;
+          height: 24px;
           transform: translate(-50%, -50%);
-          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Cpath d='M13 6.5V15.7' stroke='%23EDF2FF' stroke-width='1.95' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M8.78 10.72L13 6.5L17.22 10.72' stroke='%23EDF2FF' stroke-width='1.95' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M7.25 18.15V18.9C7.25 19.8 7.98 20.55 8.9 20.55H17.1C18.02 20.55 18.75 19.8 18.75 18.9V18.15' stroke='%23EDF2FF' stroke-width='1.95' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Cpath d='M13 6.6V15.5' stroke='%23EDF2FF' stroke-width='1.55' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M8.9 10.7L13 6.6L17.1 10.7' stroke='%23EDF2FF' stroke-width='1.55' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M7.35 18.15V18.85C7.35 19.72 8.06 20.45 8.95 20.45H17.05C17.94 20.45 18.65 19.72 18.65 18.85V18.15' stroke='%23EDF2FF' stroke-width='1.55' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
           background-position: center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -1783,9 +2358,22 @@ def _inject_css() -> None:
         }
 
         [data-testid="stFileUploaderDropzone"] svg,
-        [data-testid="stFileUploaderDropzone"] small,
-        [data-testid="stFileUploaderDropzone"] button {
+        [data-testid="stFileUploaderDropzone"] small {
           display: none !important;
+        }
+
+        [data-testid="stFileUploaderDropzone"] button {
+          position: absolute !important;
+          inset: 0 !important;
+          z-index: 2 !important;
+          display: block !important;
+          width: 100% !important;
+          height: 100% !important;
+          min-height: 100% !important;
+          border: 0 !important;
+          opacity: 0 !important;
+          background: transparent !important;
+          cursor: pointer !important;
         }
 
         [data-testid="stFileUploaderDropzone"] p,
@@ -1798,10 +2386,10 @@ def _inject_css() -> None:
           position: absolute;
           top: 50%;
           left: 50%;
-          width: 34px;
-          height: 34px;
+          width: 24px;
+          height: 24px;
           transform: translate(-50%, -50%);
-          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='34' viewBox='0 0 34 34' fill='none'%3E%3Cpath d='M17 8.5V20.5' stroke='%23EDF2FF' stroke-width='2.05' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M11.5 14L17 8.5L22.5 14' stroke='%23EDF2FF' stroke-width='2.05' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M9.5 23.5V24.5C9.5 25.6046 10.3954 26.5 11.5 26.5H22.5C23.6046 26.5 24.5 25.6046 24.5 24.5V23.5' stroke='%23EDF2FF' stroke-width='2.05' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Cpath d='M13 6.6V15.5' stroke='%23EDF2FF' stroke-width='1.55' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M8.9 10.7L13 6.6L17.1 10.7' stroke='%23EDF2FF' stroke-width='1.55' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M7.35 18.15V18.85C7.35 19.72 8.06 20.45 8.95 20.45H17.05C17.94 20.45 18.65 19.72 18.65 18.85V18.15' stroke='%23EDF2FF' stroke-width='1.55' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
           background-position: center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -1880,23 +2468,6 @@ def _inject_css() -> None:
           color: #b4bccb !important;
           box-shadow: inset 5px 0 0 #4b505d !important;
           font-weight: 400 !important;
-          padding-left: 42px !important;
-        }
-
-        [class*="st-key-doc_select_inactive_"] [data-testid="stButton"] button::before {
-          content: "";
-          position: absolute;
-          left: 18px;
-          top: 50%;
-          width: 13px;
-          height: 16px;
-          transform: translateY(-50%);
-          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='16' viewBox='0 0 13 16' fill='none'%3E%3Cpath d='M3 1.25H8.25L11.5 4.5V13.25C11.5 14.0784 10.8284 14.75 10 14.75H3C2.17157 14.75 1.5 14.0784 1.5 13.25V2.75C1.5 1.92157 2.17157 1.25 3 1.25Z' stroke='%2397A0B4' stroke-width='1.3' stroke-linejoin='round'/%3E%3Cpath d='M8 1.5V4.75H11.25' stroke='%2397A0B4' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-          background-repeat: no-repeat;
-          background-size: contain;
-          background-position: center;
-          pointer-events: none;
-          opacity: 0.92;
         }
 
         [class*="st-key-doc_select_active_"] [data-testid="stButton"] button {
@@ -2282,6 +2853,116 @@ def _inject_css() -> None:
           box-shadow: 0 1px 0 rgba(148, 163, 184, 0.08);
         }
 
+        .assistant-card .coco-chat-link {
+          color: #2563eb;
+          font-weight: 700;
+          text-decoration: none;
+          border-bottom: 1px solid rgba(37, 99, 235, 0.28);
+        }
+
+        .assistant-card .coco-chat-link:hover,
+        .assistant-card .coco-chat-link:focus {
+          color: #1d4ed8;
+          border-bottom-color: rgba(29, 78, 216, 0.72);
+        }
+
+        .assistant-card.with-preview {
+          max-width: min(980px, 100%);
+          width: auto;
+          display: grid;
+          grid-template-columns: minmax(360px, 1fr) 230px;
+          gap: 12px;
+          align-items: start;
+          padding: 10px;
+        }
+
+        .assistant-card-body {
+          min-width: 0;
+          padding: 0 2px;
+        }
+
+        .assistant-card-preview {
+          width: 230px;
+          aspect-ratio: 4 / 5;
+          margin: 0;
+          position: relative;
+          overflow: visible;
+          z-index: 2;
+        }
+
+        .assistant-card-preview-frame {
+          width: 100%;
+          height: 100%;
+          border: 1px solid #d7e0ed;
+          border-radius: 12px;
+          overflow: hidden;
+          background: #f8fafc;
+          box-shadow: inset 0 1px 0 rgba(148, 163, 184, 0.16);
+        }
+
+        .assistant-card-preview-frame img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          display: block;
+        }
+
+        .assistant-image-popover {
+          position: fixed;
+          top: clamp(78px, 10vh, 128px);
+          right: clamp(18px, 3vw, 52px);
+          width: min(860px, max(520px, var(--preview-original-width, 520px)), max(320px, calc(100vw - var(--coco-chat-left) - 72px)));
+          height: min(760px, max(360px, var(--preview-original-height, 360px)), calc(100vh - 172px));
+          display: block;
+          visibility: hidden;
+          opacity: 0;
+          padding: 8px;
+          border: 1px solid #cbd7e6;
+          border-radius: 14px;
+          background: rgba(255, 255, 255, 0.98);
+          box-shadow: 0 22px 50px rgba(15, 23, 42, 0.26);
+          pointer-events: none;
+          z-index: 5000;
+          transition: opacity 0.12s ease, visibility 0.12s ease;
+        }
+
+        .assistant-image-pan-frame {
+          width: 100%;
+          height: calc(100% - 24px);
+          overflow: hidden;
+          border-radius: 8px;
+          background: #ffffff;
+          cursor: zoom-in;
+        }
+
+        .assistant-image-popover img {
+          width: min(var(--preview-original-width, 860px), 1200px);
+          min-width: 100%;
+          height: auto;
+          max-width: none;
+          max-height: none;
+          object-fit: initial;
+          display: block;
+          border-radius: 8px;
+          transform: translate3d(var(--pan-x, 0px), var(--pan-y, 0px), 0);
+          transition: transform 0.04s linear;
+          will-change: transform;
+        }
+
+        .assistant-image-popover span {
+          display: block;
+          margin-top: 6px;
+          color: #475569;
+          font-size: 11px;
+          line-height: 1.2;
+          text-align: right;
+        }
+
+        .assistant-card-preview:hover .assistant-image-popover {
+          visibility: visible;
+          opacity: 1;
+        }
+
         .assistant-card.pending-card {
           width: 36px;
           min-width: 36px;
@@ -2351,6 +3032,18 @@ def _inject_css() -> None:
           text-align: center;
           max-width: 520px;
           line-height: 1.7;
+        }
+
+        @media (max-width: 940px) {
+          .assistant-card.with-preview {
+            grid-template-columns: minmax(0, 1fr);
+          }
+
+          .assistant-card-preview {
+            width: 100%;
+            max-height: 260px;
+            aspect-ratio: 16 / 10;
+          }
         }
 
         :root {
@@ -2479,6 +3172,161 @@ div[data-testid="stChatInput"] button {
           opacity: 0 !important;
         }
 
+[class*="st-key-search_panel"] {
+    position: fixed !important;
+    left: var(--coco-chat-left) !important;
+    right: var(--coco-chat-right) !important;
+    width: auto !important;
+    bottom: calc(var(--coco-chat-bottom) + var(--coco-chat-height) + 10px) !important;
+    z-index: 1003 !important;
+    height: 42px !important;
+    max-height: 42px !important;
+    overflow: hidden !important;
+    border-radius: 14px !important;
+    border: 1px solid rgba(148, 163, 184, 0.28) !important;
+    background: rgba(25, 28, 36, 0.96) !important;
+    box-shadow: 0 14px 34px rgba(15, 23, 42, 0.26) !important;
+    padding: 0 12px 10px 12px !important;
+    transition: height 0.16s ease, max-height 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease !important;
+}
+
+[class*="st-key-search_panel"]:hover {
+    height: min(330px, calc(100vh - 170px)) !important;
+    max-height: min(330px, calc(100vh - 170px)) !important;
+    border-color: rgba(147, 197, 253, 0.42) !important;
+    box-shadow: 0 18px 46px rgba(15, 23, 42, 0.34) !important;
+    overflow: hidden !important;
+}
+
+[class*="st-key-search_panel"] .search-panel-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+[class*="st-key-search_panel"] .search-panel-summary {
+    min-height: 40px;
+    height: 40px;
+    flex: 0 0 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #e5e7eb;
+    line-height: 1.2;
+    white-space: nowrap;
+    min-width: 0;
+}
+
+[class*="st-key-search_panel"] .search-panel-summary strong {
+    font-size: 14px;
+    font-weight: 800;
+    flex: 0 0 auto;
+}
+
+[class*="st-key-search_panel"] .search-panel-summary span,
+[class*="st-key-search_panel"] .search-panel-empty {
+    color: #9ca3af;
+    font-size: 13px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+[class*="st-key-search_panel"] .search-panel-empty {
+    padding: 8px 2px 10px;
+}
+
+[class*="st-key-search_panel"] .search-panel-results {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 2px 0 6px;
+}
+
+[class*="st-key-search_panel"] .search-panel-results::-webkit-scrollbar {
+    width: 8px;
+}
+
+[class*="st-key-search_panel"] .search-panel-results::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    background: rgba(148, 163, 184, 0.34);
+}
+
+[class*="st-key-search_panel"] .search-panel-result {
+    min-height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 3px 0;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(148, 163, 184, 0.24);
+    background: rgba(255, 255, 255, 0.05);
+    color: #e5e7eb;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+
+[class*="st-key-search_panel"] .search-panel-result:hover,
+[class*="st-key-search_panel"] .search-panel-result:focus {
+    background: rgba(59, 130, 246, 0.18);
+    border-color: rgba(147, 197, 253, 0.5);
+    color: #ffffff;
+}
+
+[class*="st-key-search_panel"] .search-panel-close-row {
+    flex: 0 0 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+    margin-top: 2px;
+    border-top: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+[class*="st-key-search_panel"] .search-panel-close-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 54px;
+    height: 28px;
+    padding: 0 10px;
+    border-radius: 999px;
+    border: 1px solid rgba(148, 163, 184, 0.28);
+    background: rgba(255, 255, 255, 0.05);
+    color: #e5e7eb;
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+}
+
+[class*="st-key-search_panel"] .search-panel-close-link:hover,
+[class*="st-key-search_panel"] .search-panel-close-link:focus {
+    background: rgba(59, 130, 246, 0.18);
+    border-color: rgba(147, 197, 253, 0.5);
+    color: #ffffff;
+}
+
+[class*="st-key-search_panel_actions"] {
+    position: fixed !important;
+    left: -10000px !important;
+    top: -10000px !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
 [class*="st-key-floating_reset_button"] {
     position: fixed;
     right: 40px;
@@ -2590,6 +3438,8 @@ st.set_page_config(
 
 _ensure_dirs()
 state = _sync_documents(_load_state())
+_prune_search_history_messages(state)
+_refresh_search_panel(state)
 _schedule_main_chat_llm_warmup()
 
 if not st.session_state.get("_recent_target_bootstrapped"):
@@ -2598,6 +3448,21 @@ if not st.session_state.get("_recent_target_bootstrapped"):
 
 if st.query_params.get("chat") == "main":
     _mark_active_target(state, "main")
+    _save_state(state)
+    st.query_params.clear()
+    st.rerun()
+
+doc_query = str(st.query_params.get("doc") or "").strip()
+if doc_query:
+    known_doc_ids = {str(item.get("doc_id") or "").strip() for item in state.get("documents", []) if isinstance(item, dict)}
+    if doc_query in known_doc_ids:
+        _mark_active_target(state, "study", doc_query)
+        _save_state(state)
+    st.query_params.clear()
+    st.rerun()
+
+if st.query_params.get("search_close") == "1":
+    state.pop("search_panel", None)
     _save_state(state)
     st.query_params.clear()
     st.rerun()
@@ -2628,6 +3493,11 @@ with st.sidebar:
     st.markdown('<div class="sidebar-section-title learning-list-title">학습리스트</div>', unsafe_allow_html=True)
     if state.get("documents"):
         is_study_mode = _active_chat_mode(state) == "study"
+        loaded_documents = {
+            str(item.get("doc_id") or ""): _load_document(str(item.get("doc_id") or ""))
+            for item in state.get("documents", [])
+            if str(item.get("doc_id") or "").strip()
+        }
         with st.container(key="doc_live_list"):
             for item in state.get("documents", []):
                 doc_id = item["doc_id"]
@@ -2638,7 +3508,7 @@ with st.sidebar:
                         select_key = f"doc_select_active_{doc_id}" if is_doc_active else f"doc_select_inactive_{doc_id}"
                         with st.container(key=select_key):
                             if st.button(
-                                _truncate_label(item.get("file_name") or doc_id),
+                                _learning_list_label(item, loaded_documents.get(doc_id)),
                                 key=f"select_{doc_id}",
                                 use_container_width=True,
                                 type="primary" if is_doc_active else "secondary",
@@ -2673,5 +3543,5 @@ with st.sidebar:
     selected_for_sidebar = _load_document(state.get("selected_doc_id"))
     _render_check_panel(_build_check_items(state, selected_for_sidebar), state, selected_for_sidebar)
 
-submitted_prompt = _render_prompt_input()
+submitted_prompt = _render_prompt_input(state)
 _render_chat_body(state, submitted_prompt=submitted_prompt)

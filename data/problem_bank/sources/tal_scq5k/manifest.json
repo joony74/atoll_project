@@ -1,0 +1,1002 @@
+{
+  "schema_version": "problem_bank_manifest.v1",
+  "bank_id": "tal_scq5k",
+  "generated_at": "2026-04-25T04:57:08+00:00",
+  "source": {
+    "name": "TAL-SCQ5K",
+    "dataset_id": "math-eval/TAL-SCQ5K",
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K",
+    "license": "MIT",
+    "raw_sources": {
+      "en_train": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "en_test": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "zh_train": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "zh_test": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl"
+    },
+    "notes": "Imported English and Chinese single-choice constructed math competition JSONL files from the public GitHub repository."
+  },
+  "storage": {
+    "format": "json_shards",
+    "encoding": "utf-8",
+    "record_schema": "../../schema/problem_bank_record.schema.json"
+  },
+  "counts": {
+    "total": 10000,
+    "by_subject": {
+      "Algebra": 1093,
+      "Competition Math": 2763,
+      "Counting & Probability": 1583,
+      "Geometry": 239,
+      "Number Theory": 1648,
+      "Prealgebra": 2674
+    },
+    "by_level": {
+      "Level 1": 870,
+      "Level 2": 6426,
+      "Level 3": 2326,
+      "Level 4": 300,
+      "Level 5": 78
+    },
+    "by_split": {
+      "en_test": 2000,
+      "en_train": 3000,
+      "zh_test": 2000,
+      "zh_train": 3000
+    },
+    "by_language": {
+      "en": 5000,
+      "zh": 5000
+    },
+    "answer_missing": 0
+  },
+  "shards": [
+    {
+      "path": "shards/en_test/algebra/level_1.json",
+      "count": 23,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/algebra/level_2.json",
+      "count": 126,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/algebra/level_3.json",
+      "count": 11,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/algebra/level_4.json",
+      "count": 2,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/competition_math/level_2.json",
+      "count": 4,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/competition_math/level_3.json",
+      "count": 1,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/counting_probability/level_1.json",
+      "count": 28,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/counting_probability/level_2.json",
+      "count": 315,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/counting_probability/level_3.json",
+      "count": 28,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/counting_probability/level_4.json",
+      "count": 1,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/counting_probability/level_5.json",
+      "count": 2,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/geometry/level_1.json",
+      "count": 1,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/number_theory/level_1.json",
+      "count": 55,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/number_theory/level_2.json",
+      "count": 379,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/number_theory/level_3.json",
+      "count": 46,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/number_theory/level_4.json",
+      "count": 8,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/number_theory/level_5.json",
+      "count": 18,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/prealgebra/level_1.json",
+      "count": 208,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/prealgebra/level_2.json",
+      "count": 665,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/prealgebra/level_3.json",
+      "count": 49,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/prealgebra/level_4.json",
+      "count": 6,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_test/prealgebra/level_5.json",
+      "count": 24,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "en_test"
+    },
+    {
+      "path": "shards/en_train/algebra/level_1.json",
+      "count": 9,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/algebra/level_2.json",
+      "count": 122,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/algebra/level_3.json",
+      "count": 45,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/algebra/level_4.json",
+      "count": 4,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/algebra/level_5.json",
+      "count": 3,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/competition_math/level_1.json",
+      "count": 11,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/competition_math/level_2.json",
+      "count": 560,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/competition_math/level_3.json",
+      "count": 68,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/competition_math/level_4.json",
+      "count": 2,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/competition_math/level_5.json",
+      "count": 1,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/counting_probability/level_1.json",
+      "count": 41,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/counting_probability/level_2.json",
+      "count": 539,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/counting_probability/level_3.json",
+      "count": 123,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/counting_probability/level_4.json",
+      "count": 16,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/geometry/level_2.json",
+      "count": 6,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/number_theory/level_1.json",
+      "count": 28,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/number_theory/level_2.json",
+      "count": 380,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/number_theory/level_3.json",
+      "count": 73,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/number_theory/level_4.json",
+      "count": 3,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/number_theory/level_5.json",
+      "count": 4,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/prealgebra/level_1.json",
+      "count": 73,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/prealgebra/level_2.json",
+      "count": 704,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/prealgebra/level_3.json",
+      "count": 161,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/prealgebra/level_4.json",
+      "count": 20,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/en_train/prealgebra/level_5.json",
+      "count": 4,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "en_train"
+    },
+    {
+      "path": "shards/zh_test/algebra/level_1.json",
+      "count": 42,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/algebra/level_2.json",
+      "count": 171,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/algebra/level_3.json",
+      "count": 119,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/algebra/level_4.json",
+      "count": 13,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/algebra/level_5.json",
+      "count": 2,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/competition_math/level_1.json",
+      "count": 68,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/competition_math/level_2.json",
+      "count": 478,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/competition_math/level_3.json",
+      "count": 243,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/competition_math/level_4.json",
+      "count": 32,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/competition_math/level_5.json",
+      "count": 3,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/counting_probability/level_1.json",
+      "count": 14,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/counting_probability/level_2.json",
+      "count": 99,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/counting_probability/level_3.json",
+      "count": 71,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/counting_probability/level_4.json",
+      "count": 10,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/counting_probability/level_5.json",
+      "count": 1,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/geometry/level_1.json",
+      "count": 14,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/geometry/level_2.json",
+      "count": 50,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/geometry/level_3.json",
+      "count": 34,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/geometry/level_4.json",
+      "count": 5,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/number_theory/level_1.json",
+      "count": 8,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/number_theory/level_2.json",
+      "count": 123,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/number_theory/level_3.json",
+      "count": 110,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/number_theory/level_4.json",
+      "count": 13,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/number_theory/level_5.json",
+      "count": 5,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/prealgebra/level_1.json",
+      "count": 25,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/prealgebra/level_2.json",
+      "count": 138,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/prealgebra/level_3.json",
+      "count": 99,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/prealgebra/level_4.json",
+      "count": 9,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_test/prealgebra/level_5.json",
+      "count": 1,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "zh_test"
+    },
+    {
+      "path": "shards/zh_train/algebra/level_1.json",
+      "count": 36,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/algebra/level_2.json",
+      "count": 219,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/algebra/level_3.json",
+      "count": 122,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/algebra/level_4.json",
+      "count": 23,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/algebra/level_5.json",
+      "count": 1,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/competition_math/level_1.json",
+      "count": 96,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/competition_math/level_2.json",
+      "count": 713,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/competition_math/level_3.json",
+      "count": 431,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/competition_math/level_4.json",
+      "count": 49,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/competition_math/level_5.json",
+      "count": 3,
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/counting_probability/level_1.json",
+      "count": 14,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/counting_probability/level_2.json",
+      "count": 132,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/counting_probability/level_3.json",
+      "count": 121,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/counting_probability/level_4.json",
+      "count": 26,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/counting_probability/level_5.json",
+      "count": 2,
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/geometry/level_1.json",
+      "count": 21,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/geometry/level_2.json",
+      "count": 60,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/geometry/level_3.json",
+      "count": 42,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/geometry/level_4.json",
+      "count": 6,
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/number_theory/level_1.json",
+      "count": 22,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/number_theory/level_2.json",
+      "count": 179,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/number_theory/level_3.json",
+      "count": 163,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/number_theory/level_4.json",
+      "count": 28,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/number_theory/level_5.json",
+      "count": 3,
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/prealgebra/level_1.json",
+      "count": 33,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/prealgebra/level_2.json",
+      "count": 264,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/prealgebra/level_3.json",
+      "count": 166,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/prealgebra/level_4.json",
+      "count": 24,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "zh_train"
+    },
+    {
+      "path": "shards/zh_train/prealgebra/level_5.json",
+      "count": 1,
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "zh_train"
+    }
+  ],
+  "indexes": {
+    "lightweight": "index/problem_index.json"
+  }
+}

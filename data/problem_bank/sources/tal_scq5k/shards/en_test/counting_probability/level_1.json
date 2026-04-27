@@ -1,0 +1,3451 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:00514",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 514,
+      "split": "en_test",
+      "source_problem_id": "04855117f5d94ceabe39b096b4ec5bbf"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Kathy started doing her homework at $$09:15$$. She used $$2\\text{h }45\\min $$ to complete her homework. Then she took a nap for $$20$$ minutes before she had her lunch, At what time did she have her lunch ? ．\n(A) 10:20\n(B) 11:35\n(C) 12:00\n(D) 12:20",
+      "problem_plain": "Kathy started doing her homework at 09:15 . She used 2 h 45 to complete her homework. Then she took a nap for 20 minutes before she had her lunch, At what time did she have her lunch ? ． (A) 10:20 (B) 11:35 (C) 12:00 (D) 12:20",
+      "solution_latex": "N/A．",
+      "solution_plain": "N/A．"
+    },
+    "answer": {
+      "final_raw": "12:20",
+      "final_normalized": "12:20",
+      "candidates": [
+        "12:20",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_calculation",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_calculation",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Kathy started doing her homework at 09:15 . She used 2 h 45 to complete her homework. Then she took a nap for 20 minutes before she had her lunch, At what time did she have her lunch ? ． (A) 10:20 (B) 11:35 (C) 12:00 (D) 12:20",
+      "solution_text": "N/A．",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_calculation",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1322",
+        "queId": "04855117f5d94ceabe39b096b4ec5bbf",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10:20"
+          },
+          {
+            "label": "B",
+            "content": "11:35"
+          },
+          {
+            "label": "C",
+            "content": "12:00"
+          },
+          {
+            "label": "D",
+            "content": "12:20"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem->Time Calculation"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:00563",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 563,
+      "split": "en_test",
+      "source_problem_id": "70386245aed546c6b5924e76faa3dad8"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Here is a figure with 12 matchsticks.  How many squares are there in the figure?  There are~\\uline{~~~~~~~~~~}~squares.\n(A) 4\n(B) 5\n(C) 6",
+      "problem_plain": "Here is a figure with 12 matchsticks. How many squares are there in the figure? There are~ ~~~~~~~~~~ ~squares. (A) 4 (B) 5 (C) 6",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "5",
+      "final_normalized": "5",
+      "candidates": [
+        "5",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "classifying_and_enumerating",
+        "counting_modules",
+        "counting_regular_figures",
+        "counting_the_number_of_figures"
+      ],
+      "tags": [
+        "classifying_and_enumerating",
+        "counting_modules",
+        "counting_probability",
+        "counting_regular_figures",
+        "counting_the_number_of_figures",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Here is a figure with 12 matchsticks. How many squares are there in the figure? There are~ ~~~~~~~~~~ ~squares. (A) 4 (B) 5 (C) 6",
+      "solution_text": "",
+      "keywords": [
+        "classifying_and_enumerating",
+        "counting_modules",
+        "counting_probability",
+        "counting_regular_figures",
+        "counting_the_number_of_figures",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "1551",
+        "queId": "70386245aed546c6b5924e76faa3dad8",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Counting the Number of Figures->Classifying and Enumerating->Counting Regular Figures"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:00570",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 570,
+      "split": "en_test",
+      "source_problem_id": "7051126243d84e32abfadfff138b25b5"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What sign is missing from this number sentence?  Choose the answer.  $$720\\textasciitilde?\\textasciitilde16 = 45$$\n(A) +\n(B) -\n(C) \\times\n(D) \\div",
+      "problem_plain": "What sign is missing from this number sentence? Choose the answer. 720 ? 16 = 45 (A) + (B) - (C) (D)",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "\\div",
+      "final_normalized": "\\div",
+      "candidates": [
+        "D",
+        "\\div"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "number_puzzles",
+        "number_puzzles_sign_of_operations"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "number_puzzles",
+        "number_puzzles_sign_of_operations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What sign is missing from this number sentence? Choose the answer. 720 ? 16 = 45 (A) + (B) - (C) (D)",
+      "solution_text": "N/A.",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "number_puzzles",
+        "number_puzzles_sign_of_operations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1591",
+        "queId": "7051126243d84e32abfadfff138b25b5",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "+"
+          },
+          {
+            "label": "B",
+            "content": "-"
+          },
+          {
+            "label": "C",
+            "content": "\\times"
+          },
+          {
+            "label": "D",
+            "content": "\\div"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Number Puzzles->Number Puzzles (sign of operations)"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:00626",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 626,
+      "split": "en_test",
+      "source_problem_id": "3c70facb0e024facb0cacea9580fda13"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Boston left his home at $$\\text{11.58 a}\\text{.m}.$$ to meet his friend for lunch at the mall. He took $$\\text{1h 12min}$$ to reach the mall. What time did Boston arrange to meet his friend?\n(A) 10\\text{.46 a}\\text{.m}.\n(B) 10\\text{.46 p}\\text{.m}.\n(C) 1\\text{.10 a}\\text{.m}.\n(D) 1\\text{.10 p}\\text{.m}.",
+      "problem_plain": "Boston left his home at 11.58 a .m . to meet his friend for lunch at the mall. He took 1h 12min to reach the mall. What time did Boston arrange to meet his friend? (A) 10 .46 a .m . (B) 10 .46 p .m . (C) 1 .10 a .m . (D) 1 .10 p .m .",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "1\\text{.10 p}\\text{.m}.",
+      "final_normalized": "1\\text{.10 p}\\text{.m}.",
+      "candidates": [
+        "1\\text{.10 p}\\text{.m}.",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinations",
+        "counting_modules",
+        "permutations_and_combinations"
+      ],
+      "tags": [
+        "combinations",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Boston left his home at 11.58 a .m . to meet his friend for lunch at the mall. He took 1h 12min to reach the mall. What time did Boston arrange to meet his friend? (A) 10 .46 a .m . (B) 10 .46 p .m . (C) 1 .10 a .m . (D) 1 .10 p .m .",
+      "solution_text": "N/A.",
+      "keywords": [
+        "combinations",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1955",
+        "queId": "3c70facb0e024facb0cacea9580fda13",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10\\text{.46 a}\\text{.m}."
+          },
+          {
+            "label": "B",
+            "content": "10\\text{.46 p}\\text{.m}."
+          },
+          {
+            "label": "C",
+            "content": "1\\text{.10 a}\\text{.m}."
+          },
+          {
+            "label": "D",
+            "content": "1\\text{.10 p}\\text{.m}."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Permutations and Combinations->Combinations"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:00627",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 627,
+      "split": "en_test",
+      "source_problem_id": "68d00eab25eb42cfaa977296d161a9b7"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following is the same as $40010\\textasciitilde g$?\n(A) 4.01\\textasciitilde kg\n(B) 40\\textasciitilde kg$ $10\\textasciitilde g\n(C) 40.1\\textasciitilde kg\n(D) 40\\textasciitilde kg$ $100\\textasciitilde g",
+      "problem_plain": "Which of the following is the same as 40010 g ? (A) 4.01 kg (B) 40 kg 10 g (C) 40.1 kg (D) 40 kg 100 g",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "40\\textasciitilde kg$ $10\\textasciitilde g",
+      "final_normalized": "40\\textasciitilde kg$ $10\\textasciitilde g",
+      "candidates": [
+        "40\\textasciitilde kg$ $10\\textasciitilde g",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "inclusion_exclusion_principle"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "inclusion_exclusion_principle",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following is the same as 40010 g ? (A) 4.01 kg (B) 40 kg 10 g (C) 40.1 kg (D) 40 kg 100 g",
+      "solution_text": "",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "inclusion_exclusion_principle",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "1965",
+        "queId": "68d00eab25eb42cfaa977296d161a9b7",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4.01\\textasciitilde kg"
+          },
+          {
+            "label": "B",
+            "content": "40\\textasciitilde kg$ $10\\textasciitilde g"
+          },
+          {
+            "label": "C",
+            "content": "40.1\\textasciitilde kg"
+          },
+          {
+            "label": "D",
+            "content": "40\\textasciitilde kg$ $100\\textasciitilde g"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Inclusion-Exclusion Principle"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:00649",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 649,
+      "split": "en_test",
+      "source_problem_id": "60a191b763004351bb2a01a5d18fc342"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the missing sign in the box?  $8\\square2=16$\n(A) +\n(B) -\n(C) \\times\n(D) \\div",
+      "problem_plain": "What is the missing sign in the box? 8 2=16 (A) + (B) - (C) (D)",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "\\times",
+      "final_normalized": "\\times",
+      "candidates": [
+        "C",
+        "\\times"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinations",
+        "counting_modules",
+        "permutations_and_combinations"
+      ],
+      "tags": [
+        "combinations",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the missing sign in the box? 8 2=16 (A) + (B) - (C) (D)",
+      "solution_text": "N/A.",
+      "keywords": [
+        "combinations",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2069",
+        "queId": "60a191b763004351bb2a01a5d18fc342",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "+"
+          },
+          {
+            "label": "B",
+            "content": "-"
+          },
+          {
+            "label": "C",
+            "content": "\\times"
+          },
+          {
+            "label": "D",
+            "content": "\\div"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Permutations and Combinations->Combinations"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:00651",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 651,
+      "split": "en_test",
+      "source_problem_id": "7713c119e7304a699392e1c4bcf96f5c"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Toss a fair coin three times. What is the probability of getting one head and two tails?\n(A) \\frac{1}{2}\n(B) \\frac{1}{4}\n(C) \\frac{1}{8}\n(D) \\frac{3}{8}",
+      "problem_plain": "Toss a fair coin three times. What is the probability of getting one head and two tails? (A) 1 2 (B) 1 4 (C) 1 8 (D) 3 8",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "\\frac{3}{8}",
+      "final_normalized": "\\frac{3}{8}",
+      "candidates": [
+        "D",
+        "\\frac{3}{8}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_concepts_of_probability",
+        "counting_modules",
+        "questions_involving_probability",
+        "statistics_and_probability"
+      ],
+      "tags": [
+        "basic_concepts_of_probability",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "questions_involving_probability",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Toss a fair coin three times. What is the probability of getting one head and two tails? (A) 1 2 (B) 1 4 (C) 1 8 (D) 3 8",
+      "solution_text": "",
+      "keywords": [
+        "basic_concepts_of_probability",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "questions_involving_probability",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "2074",
+        "queId": "7713c119e7304a699392e1c4bcf96f5c",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{1}{2}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{1}{4}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{1}{8}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{3}{8}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Statistics and Probability->Questions Involving Probability->Basic Concepts of Probability"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:00659",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 659,
+      "split": "en_test",
+      "source_problem_id": "9f667e36128341e88e80e7db2624248a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following expressions is easier to calculate if we do it in order?\n(A) 15+7-5\n(B) 15-5+7",
+      "problem_plain": "Which of the following expressions is easier to calculate if we do it in order? (A) 15+7-5 (B) 15-5+7",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "15-5+7",
+      "final_normalized": "15-5+7",
+      "candidates": [
+        "15-5+7",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following expressions is easier to calculate if we do it in order? (A) 15+7-5 (B) 15-5+7",
+      "solution_text": "",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "2136",
+        "queId": "9f667e36128341e88e80e7db2624248a",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "15+7-5"
+          },
+          {
+            "label": "B",
+            "content": "15-5+7"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:00677",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 677,
+      "split": "en_test",
+      "source_problem_id": "dfb857b120a14d739ff445fc0fcd1ba4"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Toss a fair coin four times. What is the probability of getting four heads?\n(A) \\frac{1}{4}\n(B) \\frac{1}{8}\n(C) \\frac{1}{16}\n(D) \\frac{3}{16}",
+      "problem_plain": "Toss a fair coin four times. What is the probability of getting four heads? (A) 1 4 (B) 1 8 (C) 1 16 (D) 3 16",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "\\frac{1}{16}",
+      "final_normalized": "\\frac{1}{16}",
+      "candidates": [
+        "C",
+        "\\frac{1}{16}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_concepts_of_probability",
+        "counting_modules",
+        "questions_involving_probability",
+        "statistics_and_probability"
+      ],
+      "tags": [
+        "basic_concepts_of_probability",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "questions_involving_probability",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Toss a fair coin four times. What is the probability of getting four heads? (A) 1 4 (B) 1 8 (C) 1 16 (D) 3 16",
+      "solution_text": "",
+      "keywords": [
+        "basic_concepts_of_probability",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "questions_involving_probability",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "2196",
+        "queId": "dfb857b120a14d739ff445fc0fcd1ba4",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{1}{4}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{1}{8}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{1}{16}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{3}{16}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Statistics and Probability->Questions Involving Probability->Basic Concepts of Probability"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:00682",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 682,
+      "split": "en_test",
+      "source_problem_id": "f2512d999a38475e8e9c1bc29c576dc4"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following expressions is easier to calculate if we do it in order?\n(A) 9+5+1\n(B) 9+1+5",
+      "problem_plain": "Which of the following expressions is easier to calculate if we do it in order? (A) 9+5+1 (B) 9+1+5",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "9+1+5",
+      "final_normalized": "9+1+5",
+      "candidates": [
+        "9+1+5",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following expressions is easier to calculate if we do it in order? (A) 9+5+1 (B) 9+1+5",
+      "solution_text": "",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "2243",
+        "queId": "f2512d999a38475e8e9c1bc29c576dc4",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "9+5+1"
+          },
+          {
+            "label": "B",
+            "content": "9+1+5"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:00698",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 698,
+      "split": "en_test",
+      "source_problem_id": "9366d01eaf21454a80918e423ab52b49"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many numbers are there from $$1$$ to $$100$$ are multiples of $$7$$?\n(A) 13\n(B) 14\n(C) 15\n(D) 16\n(E) None of the above",
+      "problem_plain": "How many numbers are there from 1 to 100 are multiples of 7 ? (A) 13 (B) 14 (C) 15 (D) 16 (E) None of the above",
+      "solution_latex": "$$N.A$$",
+      "solution_plain": "N.A"
+    },
+    "answer": {
+      "final_raw": "14",
+      "final_normalized": "14",
+      "candidates": [
+        "14",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "law_of_addition_and_multiplication"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "law_of_addition_and_multiplication",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$N.A$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many numbers are there from 1 to 100 are multiples of 7 ? (A) 13 (B) 14 (C) 15 (D) 16 (E) None of the above",
+      "solution_text": "N.A",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "law_of_addition_and_multiplication",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2330",
+        "queId": "9366d01eaf21454a80918e423ab52b49",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "13"
+          },
+          {
+            "label": "B",
+            "content": "14"
+          },
+          {
+            "label": "C",
+            "content": "15"
+          },
+          {
+            "label": "D",
+            "content": "16"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Law of Addition and Multiplication"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:00716",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 716,
+      "split": "en_test",
+      "source_problem_id": "dc355266e7a64ce385c760aa89421008"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the missing sign in the box?  $$18=3\\square 6$$\n(A) \\times\n(B) -\n(C) +\n(D) \\div",
+      "problem_plain": "What is the missing sign in the box? 18=3 6 (A) (B) - (C) + (D)",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "\\times",
+      "final_normalized": "\\times",
+      "candidates": [
+        "A",
+        "\\times"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "number_puzzles",
+        "number_puzzles_sign_of_operations"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "number_puzzles",
+        "number_puzzles_sign_of_operations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the missing sign in the box? 18=3 6 (A) (B) - (C) + (D)",
+      "solution_text": "N/A.",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "number_puzzles",
+        "number_puzzles_sign_of_operations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2391",
+        "queId": "dc355266e7a64ce385c760aa89421008",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\times"
+          },
+          {
+            "label": "B",
+            "content": "-"
+          },
+          {
+            "label": "C",
+            "content": "+"
+          },
+          {
+            "label": "D",
+            "content": "\\div"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Number Puzzles->Number Puzzles (sign of operations)"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:00725",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 725,
+      "split": "en_test",
+      "source_problem_id": "f803f3b96aff4527a26e3d28642440ce"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Toss a fair coin five times. What is the probability of getting five heads?\n(A) \\frac{1}{5}\n(B) \\frac{3}{8}\n(C) \\frac{1}{16}\n(D) \\frac{1}{32}",
+      "problem_plain": "Toss a fair coin five times. What is the probability of getting five heads? (A) 1 5 (B) 3 8 (C) 1 16 (D) 1 32",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "\\frac{1}{32}",
+      "final_normalized": "\\frac{1}{32}",
+      "candidates": [
+        "D",
+        "\\frac{1}{32}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_concepts_of_probability",
+        "counting_modules",
+        "questions_involving_probability",
+        "statistics_and_probability"
+      ],
+      "tags": [
+        "basic_concepts_of_probability",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "questions_involving_probability",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Toss a fair coin five times. What is the probability of getting five heads? (A) 1 5 (B) 3 8 (C) 1 16 (D) 1 32",
+      "solution_text": "",
+      "keywords": [
+        "basic_concepts_of_probability",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "questions_involving_probability",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "2437",
+        "queId": "f803f3b96aff4527a26e3d28642440ce",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{1}{5}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{3}{8}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{1}{16}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{1}{32}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Statistics and Probability->Questions Involving Probability->Basic Concepts of Probability"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:00746",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 746,
+      "split": "en_test",
+      "source_problem_id": "d8e99418ad18467d91d8320aff82186a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Sort the following names: Tom, Bob, Alice, Liz in alphabetical order. The correct format is .\n(A) Bob, Tom, Alice, Liz\n(B) Tom, Bob, Liz, Alice\n(C) Tom, Liz, Bob, Alice\n(D) Alice, Bob, Liz, Tom",
+      "problem_plain": "Sort the following names: Tom, Bob, Alice, Liz in alphabetical order. The correct format is . (A) Bob, Tom, Alice, Liz (B) Tom, Bob, Liz, Alice (C) Tom, Liz, Bob, Alice (D) Alice, Bob, Liz, Tom",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "Alice, Bob, Liz, Tom",
+      "final_normalized": "Alice, Bob, Liz, Tom",
+      "candidates": [
+        "Alice, Bob, Liz, Tom",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinations",
+        "counting_modules",
+        "permutations_and_combinations"
+      ],
+      "tags": [
+        "combinations",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Sort the following names: Tom, Bob, Alice, Liz in alphabetical order. The correct format is . (A) Bob, Tom, Alice, Liz (B) Tom, Bob, Liz, Alice (C) Tom, Liz, Bob, Alice (D) Alice, Bob, Liz, Tom",
+      "solution_text": "",
+      "keywords": [
+        "combinations",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "2518",
+        "queId": "d8e99418ad18467d91d8320aff82186a",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Bob, Tom, Alice, Liz"
+          },
+          {
+            "label": "B",
+            "content": "Tom, Bob, Liz, Alice"
+          },
+          {
+            "label": "C",
+            "content": "Tom, Liz, Bob, Alice"
+          },
+          {
+            "label": "D",
+            "content": "Alice, Bob, Liz, Tom"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Permutations and Combinations->Combinations"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:00747",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 747,
+      "split": "en_test",
+      "source_problem_id": "c6eb50f567da42078078baae27303722"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "There are $$4$$ different colours of bags available in a stationery shop: blue, red, green and yellow. Angel wants to buy $$3$$ different colour of bags. How many different choices does she have?\n(A) 3\n(B) 4\n(C) 6\n(D) 8\n(E) 10",
+      "problem_plain": "There are 4 different colours of bags available in a stationery shop: blue, red, green and yellow. Angel wants to buy 3 different colour of bags. How many different choices does she have? (A) 3 (B) 4 (C) 6 (D) 8 (E) 10",
+      "solution_latex": "$$N.A$$",
+      "solution_plain": "N.A"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "enumeration",
+        "questions_involving_enumeration"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "enumeration",
+        "level_1",
+        "questions_involving_enumeration",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$N.A$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "There are 4 different colours of bags available in a stationery shop: blue, red, green and yellow. Angel wants to buy 3 different colour of bags. How many different choices does she have? (A) 3 (B) 4 (C) 6 (D) 8 (E) 10",
+      "solution_text": "N.A",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "enumeration",
+        "level_1",
+        "questions_involving_enumeration",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2523",
+        "queId": "c6eb50f567da42078078baae27303722",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "4"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "8"
+          },
+          {
+            "label": "E",
+            "content": "10"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Questions Involving Enumeration->Enumeration"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:00758",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 758,
+      "split": "en_test",
+      "source_problem_id": "fa12eaefcb2848689f02abc658df51f9"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "?\n(A) A\n(B) B\n(C) C\n(D) D",
+      "problem_plain": "? (A) A (B) B (C) C (D) D",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "C",
+      "final_normalized": "C",
+      "candidates": [
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "questions_involving_enumeration"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "questions_involving_enumeration",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "? (A) A (B) B (C) C (D) D",
+      "solution_text": "",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "questions_involving_enumeration",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "2579",
+        "queId": "fa12eaefcb2848689f02abc658df51f9",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "A"
+          },
+          {
+            "label": "B",
+            "content": "B"
+          },
+          {
+            "label": "C",
+            "content": "C"
+          },
+          {
+            "label": "D",
+            "content": "D"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Questions Involving Enumeration"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:01738",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1738,
+      "split": "en_test",
+      "source_problem_id": "aa900ddd27fe4fbca698fb26dc1d4858"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Some children were queueing up outside the classroom. Counting from the front to the back, Chris was $13$\\textsuperscript{th}~in line. Counting from the back to the front, Becky was $10$\\textsuperscript{th}~in line. Chris was in front of Becky, and there were $$12$$ people standing between Chris and Becky. How many people were there in the queue?\n(A) 23\n(B) 25\n(C) 35\n(D) 37",
+      "problem_plain": "Some children were queueing up outside the classroom. Counting from the front to the back, Chris was 13 th ~in line. Counting from the back to the front, Becky was 10 th ~in line. Chris was in front of Becky, and there were 12 people standing between Chris and Becky. How many people were there in the queue? (A) 23 (B) 25 (C) 35 (D) 37",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "35",
+      "final_normalized": "35",
+      "candidates": [
+        "35",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "calculation_modules",
+        "patterns_in_number_sequences",
+        "sequences_and_number_tables"
+      ],
+      "tags": [
+        "calculation_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "patterns_in_number_sequences",
+        "sequences_and_number_tables",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Some children were queueing up outside the classroom. Counting from the front to the back, Chris was 13 th ~in line. Counting from the back to the front, Becky was 10 th ~in line. Chris was in front of Becky, and there were 12 people standing between Chris and Becky. How many people were there in the queue? (A) 23 (B) 25 (C) 35 (D) 37",
+      "solution_text": "N/A.",
+      "keywords": [
+        "calculation_modules",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "patterns_in_number_sequences",
+        "sequences_and_number_tables",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "6175",
+        "queId": "aa900ddd27fe4fbca698fb26dc1d4858",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "23"
+          },
+          {
+            "label": "B",
+            "content": "25"
+          },
+          {
+            "label": "C",
+            "content": "35"
+          },
+          {
+            "label": "D",
+            "content": "37"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Sequences and Number Tables->Patterns in Number Sequences"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:01752",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1752,
+      "split": "en_test",
+      "source_problem_id": "e57f83fbc10c4882acbed9d5857d4d04"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Find the opposite of $$\\textbar-0.\\overline3\\textbar$$:~\\uline{~~~~~~~~~~}~.\n(A) 3\n(B) -3\n(C) \\frac{1}{3}\n(D) -\\frac{1}{3}",
+      "problem_plain": "Find the opposite of -0. 3 :~ ~~~~~~~~~~ ~. (A) 3 (B) -3 (C) 1 3 (D) - 1 3",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "-3",
+      "final_normalized": "-3",
+      "candidates": [
+        "-3",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "mathematical_thoughts"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "mathematical_thoughts",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Find the opposite of -0. 3 :~ ~~~~~~~~~~ ~. (A) 3 (B) -3 (C) 1 3 (D) - 1 3",
+      "solution_text": "",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "mathematical_thoughts",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "6255",
+        "queId": "e57f83fbc10c4882acbed9d5857d4d04",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "-3"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{1}{3}"
+          },
+          {
+            "label": "D",
+            "content": "-\\frac{1}{3}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Mathematical Thoughts"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:01892",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1892,
+      "split": "en_test",
+      "source_problem_id": "013437927a964288b8dcdb668a0d35cf"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "From $1$ to $40$, how many integers can be chosen at most to ensure that no two of chosen numbers sum to $35$?\n(A) 20\n(B) 22\n(C) 23\n(D) 24",
+      "problem_plain": "From 1 to 40 , how many integers can be chosen at most to ensure that no two of chosen numbers sum to 35 ? (A) 20 (B) 22 (C) 23 (D) 24",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "23",
+      "final_normalized": "23",
+      "candidates": [
+        "23",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "constructing_and_proving"
+      ],
+      "tags": [
+        "combinatorics",
+        "constructing_and_proving",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "From 1 to 40 , how many integers can be chosen at most to ensure that no two of chosen numbers sum to 35 ? (A) 20 (B) 22 (C) 23 (D) 24",
+      "solution_text": "",
+      "keywords": [
+        "combinatorics",
+        "constructing_and_proving",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "6761",
+        "queId": "013437927a964288b8dcdb668a0d35cf",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "20"
+          },
+          {
+            "label": "B",
+            "content": "22"
+          },
+          {
+            "label": "C",
+            "content": "23"
+          },
+          {
+            "label": "D",
+            "content": "24"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Constructing and Proving"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:01898",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1898,
+      "split": "en_test",
+      "source_problem_id": "02d5ac6423204f55925ada2bb26f0faa"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Sara, Mary, Linda and Karina are comparing their heights.  (1) Linda says: \"I\\textquotesingle m taller than Karina.\"  (2) Sara says: \"I\\textquotesingle m taller than Linda.\"  (3) Linda is shorter than Mary.  Who is the shortest?\n(A) Sara\n(B) Mary\n(C) Linda\n(D) Karina\n(E) This cannot be determined",
+      "problem_plain": "Sara, Mary, Linda and Karina are comparing their heights. (1) Linda says: \"I m taller than Karina.\" (2) Sara says: \"I m taller than Linda.\" (3) Linda is shorter than Mary. Who is the shortest? (A) Sara (B) Mary (C) Linda (D) Karina (E) This cannot be determined",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "Karina",
+      "final_normalized": "Karina",
+      "candidates": [
+        "D",
+        "Karina"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "logical_reasoning"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Sara, Mary, Linda and Karina are comparing their heights. (1) Linda says: \"I m taller than Karina.\" (2) Sara says: \"I m taller than Linda.\" (3) Linda is shorter than Mary. Who is the shortest? (A) Sara (B) Mary (C) Linda (D) Karina (E) This cannot be determined",
+      "solution_text": "",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "6786",
+        "queId": "02d5ac6423204f55925ada2bb26f0faa",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Sara"
+          },
+          {
+            "label": "B",
+            "content": "Mary"
+          },
+          {
+            "label": "C",
+            "content": "Linda"
+          },
+          {
+            "label": "D",
+            "content": "Karina"
+          },
+          {
+            "label": "E",
+            "content": "This cannot be determined"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Logical Reasoning"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:01924",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1924,
+      "split": "en_test",
+      "source_problem_id": "0f47e28c0e154bf78ea0f73c0d9e159e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Jonathan has $$4$$ regular dice. Each dice has numbers from $$1$$ to $$6$$. Which of the following could not be the sum of the numbers on top of the $$4$$ dice?\n(A) 6\n(B) 11\n(C) 19\n(D) 26\n(E) All the above numbers are possible sum",
+      "problem_plain": "Jonathan has 4 regular dice. Each dice has numbers from 1 to 6 . Which of the following could not be the sum of the numbers on top of the 4 dice? (A) 6 (B) 11 (C) 19 (D) 26 (E) All the above numbers are possible sum",
+      "solution_latex": "$$N.A$$",
+      "solution_plain": "N.A"
+    },
+    "answer": {
+      "final_raw": "26",
+      "final_normalized": "26",
+      "candidates": [
+        "26",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "logical_reasoning"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$N.A$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Jonathan has 4 regular dice. Each dice has numbers from 1 to 6 . Which of the following could not be the sum of the numbers on top of the 4 dice? (A) 6 (B) 11 (C) 19 (D) 26 (E) All the above numbers are possible sum",
+      "solution_text": "N.A",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "6850",
+        "queId": "0f47e28c0e154bf78ea0f73c0d9e159e",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "11"
+          },
+          {
+            "label": "C",
+            "content": "19"
+          },
+          {
+            "label": "D",
+            "content": "26"
+          },
+          {
+            "label": "E",
+            "content": "All the above numbers are possible sum"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Logical Reasoning"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:01925",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1925,
+      "split": "en_test",
+      "source_problem_id": "13baaccd585845748c7049dfda6d42a8"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Bud has six number cards: $\\boxed{1}, \\boxed{2}, \\boxed{3}, \\boxed{7}, \\boxed{8}, \\boxed{9}$.  How many cards can she choose at most to ensure that no two of chosen cards sum to $10$?\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
+      "problem_plain": "Bud has six number cards: 1 , 2 , 3 , 7 , 8 , 9 . How many cards can she choose at most to ensure that no two of chosen cards sum to 10 ? (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "pigeonhole_principle"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "pigeonhole_principle",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Bud has six number cards: 1 , 2 , 3 , 7 , 8 , 9 . How many cards can she choose at most to ensure that no two of chosen cards sum to 10 ? (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_text": "",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "pigeonhole_principle",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "6861",
+        "queId": "13baaccd585845748c7049dfda6d42a8",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Pigeonhole Principle"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:01934",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1934,
+      "split": "en_test",
+      "source_problem_id": "216f556ead8f499381a6ff7d665e7f43"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following points is in Quadrant $III$?\n(A) (5,-5)\n(B) (-5,5)\n(C) (5,5)\n(D) (-5,-5)",
+      "problem_plain": "Which of the following points is in Quadrant III ? (A) (5,-5) (B) (-5,5) (C) (5,5) (D) (-5,-5)",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "(-5,-5)",
+      "final_normalized": "(-5,-5)",
+      "candidates": [
+        "(-5,-5)",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "coordinates",
+        "directions_and_coordinates"
+      ],
+      "tags": [
+        "combinatorics",
+        "coordinates",
+        "counting_probability",
+        "directions_and_coordinates",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following points is in Quadrant III ? (A) (5,-5) (B) (-5,5) (C) (5,5) (D) (-5,-5)",
+      "solution_text": "",
+      "keywords": [
+        "combinatorics",
+        "coordinates",
+        "counting_probability",
+        "directions_and_coordinates",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "6890",
+        "queId": "216f556ead8f499381a6ff7d665e7f43",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "(5,-5)"
+          },
+          {
+            "label": "B",
+            "content": "(-5,5)"
+          },
+          {
+            "label": "C",
+            "content": "(5,5)"
+          },
+          {
+            "label": "D",
+            "content": "(-5,-5)"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Directions and Coordinates->Coordinates"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:01944",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1944,
+      "split": "en_test",
+      "source_problem_id": "112b926101b048b5bb4a3fe74a8190bf"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "From $1$ to $40$, How many integers can be chosen at most to ensure that no two of chosen numbers sum to $35$?\n(A) 20\n(B) 22\n(C) 23\n(D) 24\n(E) 25",
+      "problem_plain": "From 1 to 40 , How many integers can be chosen at most to ensure that no two of chosen numbers sum to 35 ? (A) 20 (B) 22 (C) 23 (D) 24 (E) 25",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "23",
+      "final_normalized": "23",
+      "candidates": [
+        "23",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "constructing_and_proving"
+      ],
+      "tags": [
+        "combinatorics",
+        "constructing_and_proving",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "From 1 to 40 , How many integers can be chosen at most to ensure that no two of chosen numbers sum to 35 ? (A) 20 (B) 22 (C) 23 (D) 24 (E) 25",
+      "solution_text": "",
+      "keywords": [
+        "combinatorics",
+        "constructing_and_proving",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "6948",
+        "queId": "112b926101b048b5bb4a3fe74a8190bf",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "20"
+          },
+          {
+            "label": "B",
+            "content": "22"
+          },
+          {
+            "label": "C",
+            "content": "23"
+          },
+          {
+            "label": "D",
+            "content": "24"
+          },
+          {
+            "label": "E",
+            "content": "25"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Constructing and Proving"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:01955",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1955,
+      "split": "en_test",
+      "source_problem_id": "f106068a12f445db9d233f6171770c75"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Andrew takes $$15$$ minutes to wash up in the morning, $$20$$ minutes to have his breakfast, $$6$$ minutes to pack his school bag, $$8$$ minutes to walk to his friend\\textquotesingle s house before going to the school together. From his friend\\textquotesingle s house to the school, it will need $$26$$ minutes. The school rules require you to arrive at $$8.00 \\rm{a.m.}$$ every morning, what\\textquotesingle s the latest time he needs to leave his house?\n(A) 6.45 \\rm{a.m.}\n(B) 7.00 \\rm{a.m.}\n(C) 7.26 \\rm{a.m.}\n(D) 7.34 \\rm{a.m.}\n(E) None of the above",
+      "problem_plain": "Andrew takes 15 minutes to wash up in the morning, 20 minutes to have his breakfast, 6 minutes to pack his school bag, 8 minutes to walk to his friend s house before going to the school together. From his friend s house to the school, it will need 26 minutes. The school rules require you to arrive at 8.00 a.m. every morning, what s the latest time he needs to leave his house? (A) 6.45 a.m. (B) 7.00 a.m. (C) 7.26 a.m. (D) 7.34 a.m. (E) None of the above",
+      "solution_latex": "$$N.A$$",
+      "solution_plain": "N.A"
+    },
+    "answer": {
+      "final_raw": "7.26 \\rm{a.m.}",
+      "final_normalized": "7.26 \\rm{a.m.}",
+      "candidates": [
+        "7.26 \\rm{a.m.}",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$N.A$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Andrew takes 15 minutes to wash up in the morning, 20 minutes to have his breakfast, 6 minutes to pack his school bag, 8 minutes to walk to his friend s house before going to the school together. From his friend s house to the school, it will need 26 minutes. The school rules require you to arrive at 8.00 a.m. every morning, what s the latest time he needs to leave his house? (A) 6.45 a.m. (B) 7.00 a.m. (C) 7.26 a.m. (D) 7.34 a.m. (E) None of the above",
+      "solution_text": "N.A",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7011",
+        "queId": "f106068a12f445db9d233f6171770c75",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6.45 \\rm{a.m.}"
+          },
+          {
+            "label": "B",
+            "content": "7.00 \\rm{a.m.}"
+          },
+          {
+            "label": "C",
+            "content": "7.26 \\rm{a.m.}"
+          },
+          {
+            "label": "D",
+            "content": "7.34 \\rm{a.m.}"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:01964",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1964,
+      "split": "en_test",
+      "source_problem_id": "426123625aae49df8425b645d2b3e794"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "From $1$ to $40$, how many integers must be chosen at least to ensure that there are two of chosen numbers sum to $35$?\n(A) 21\n(B) 23\n(C) 24\n(D) 25\n(E) 26",
+      "problem_plain": "From 1 to 40 , how many integers must be chosen at least to ensure that there are two of chosen numbers sum to 35 ? (A) 21 (B) 23 (C) 24 (D) 25 (E) 26",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "24",
+      "final_normalized": "24",
+      "candidates": [
+        "24",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "constructing_and_proving"
+      ],
+      "tags": [
+        "combinatorics",
+        "constructing_and_proving",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "From 1 to 40 , how many integers must be chosen at least to ensure that there are two of chosen numbers sum to 35 ? (A) 21 (B) 23 (C) 24 (D) 25 (E) 26",
+      "solution_text": "",
+      "keywords": [
+        "combinatorics",
+        "constructing_and_proving",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "7051",
+        "queId": "426123625aae49df8425b645d2b3e794",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "21"
+          },
+          {
+            "label": "B",
+            "content": "23"
+          },
+          {
+            "label": "C",
+            "content": "24"
+          },
+          {
+            "label": "D",
+            "content": "25"
+          },
+          {
+            "label": "E",
+            "content": "26"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Constructing and Proving"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:01978",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1978,
+      "split": "en_test",
+      "source_problem_id": "54f4553159ad4a45a53a3eadda5b90b0"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Bud returns from the shops at $$2:15$$ pm, $$3$$ hours $$40$$ minutes after she left her hourse. At what time did she leave her house?\n(A) 10:35$$ am\n(B) 11:25$$ am\n(C) 11:35$$ am\n(D) 1:25$$ pm\n(E) 5:55$$ pm",
+      "problem_plain": "Bud returns from the shops at 2:15 pm, 3 hours 40 minutes after she left her hourse. At what time did she leave her house? (A) 10:35 am (B) 11:25 am (C) 11:35 am (D) 1:25 pm (E) 5:55 pm",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "10:35$$ am",
+      "final_normalized": "10:35$$ am",
+      "candidates": [
+        "10:35$$ am",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_calculation",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_calculation",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Bud returns from the shops at 2:15 pm, 3 hours 40 minutes after she left her hourse. At what time did she leave her house? (A) 10:35 am (B) 11:25 am (C) 11:35 am (D) 1:25 pm (E) 5:55 pm",
+      "solution_text": "",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_calculation",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "7121",
+        "queId": "54f4553159ad4a45a53a3eadda5b90b0",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10:35$$ am"
+          },
+          {
+            "label": "B",
+            "content": "11:25$$ am"
+          },
+          {
+            "label": "C",
+            "content": "11:35$$ am"
+          },
+          {
+            "label": "D",
+            "content": "1:25$$ pm"
+          },
+          {
+            "label": "E",
+            "content": "5:55$$ pm"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem->Time Calculation"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:counting_probability:level_1:01998",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1998,
+      "split": "en_test",
+      "source_problem_id": "63171dc3a3d9448c9983a0422c093d1c"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What should 5: 21 a.m. be written in the 24-hour clock?\n(A) 5: 21 a.m.\n(B) 5: 21 p.m.\n(C) 5: 21\n(D) 17: 21",
+      "problem_plain": "What should 5: 21 a.m. be written in the 24-hour clock? (A) 5: 21 a.m. (B) 5: 21 p.m. (C) 5: 21 (D) 17: 21",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "5: 21",
+      "final_normalized": "5: 21",
+      "candidates": [
+        "5: 21",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What should 5: 21 a.m. be written in the 24-hour clock? (A) 5: 21 a.m. (B) 5: 21 p.m. (C) 5: 21 (D) 17: 21",
+      "solution_text": "",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "7209",
+        "queId": "63171dc3a3d9448c9983a0422c093d1c",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "5: 21 a.m."
+          },
+          {
+            "label": "B",
+            "content": "5: 21 p.m."
+          },
+          {
+            "label": "C",
+            "content": "5: 21"
+          },
+          {
+            "label": "D",
+            "content": "17: 21"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  }
+]

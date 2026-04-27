@@ -1,0 +1,1374 @@
+{
+  "schema_version": "coco_problem_bank_image_validation_report.v1",
+  "generated_at": "2026-04-25T11:47:47+00:00",
+  "elapsed_seconds": 8.365,
+  "project_root": "/Volumes/마중나 도킹스테이션/atoll_project",
+  "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+  "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+  "options": {
+    "app_register": true,
+    "band": "고등",
+    "clean_generated_images": false,
+    "clear_app_between_items": false,
+    "clear_app_generated": true,
+    "count_per_grade": 100,
+    "difficulty": "",
+    "force": false,
+    "generate": false,
+    "grade": 0,
+    "limit": 10,
+    "loop": false,
+    "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+    "max_cycles": 1,
+    "offset": 30,
+    "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+    "report": "data/problem_bank/learned/ui_batches/coco_ui_batch_022.json",
+    "seed": 20260425,
+    "sleep_seconds": 1.0,
+    "stop_on_failure": false
+  },
+  "selected_count": 10,
+  "cycle_count": 1,
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "error": 0,
+    "by_band": {
+      "고등": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "error": 0
+      }
+    },
+    "by_topic": {
+      "logarithm": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "sequence": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      },
+      "statistics": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      },
+      "trigonometry": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      }
+    }
+  },
+  "failures": [],
+  "results": [
+    {
+      "case_id": "high_g02_011",
+      "band": "고등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "sequence",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/수학 I/수열/high_g02_011_easy_expression_sequence.png",
+      "expected_answer": "57",
+      "expected_expression": "3+(10-1)*6",
+      "computed_answer": "57",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "제 10항을 구하시오",
+      "recognized_expressions": [
+        "3+(10-1)*6"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.67,
+      "analysis": {
+        "analysis_started_at": 1777117659.355115,
+        "analysis_finished_at": 1777117660.024821,
+        "structured_problem": {
+          "source_text_candidates": [
+            "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 3, 공차가 6입니다.\n제 10항을 구하시오.\n고등 2학년 . 수열 . 기본 expression ㆍ sequenc",
+            "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 3, 공차가 6입니다.\n제 10항을 구하시오.\n고등 2학년 . 수열 . 기본 expression ㆍ sequenc"
+          ],
+          "normalized_problem_text": "제 10항을 구하시오",
+          "expressions": [
+            "3+(10-1)*6"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "sequence",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/수학 I/수열/high_g02_011_easy_expression_sequence.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 3, 공차가 6입니다.\n제 10항을 구하시오.",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 2학년 . 수열 . 기본 expression ㆍ sequenc\n등차수열의 첫째항이 3, 공차가 6입니다.\n제 10항을 구하시오.",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "고등 2학년 . 수열 . 기본 expression ㆍ sequenc\n등차수열의 첫째항이 3, 공차가 6입니다.\n제 10항을 구하시오.",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 3, 공차가 6입니다.\n제 10항을 구하시오.",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "d9175e665a49"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "57",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 57야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 57야. 그래서 정답은 57야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 3, 공차가 6입니다.\n제 10항을 구하시오.\n고등 2학년 . 수열 . 기본 expression ㆍ sequenc",
+            "content_text": "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 3, 공차가 6입니다.\n제 10항을 구하시오.\n고등 2학년 . 수열 . 기본 expression ㆍ sequenc",
+            "repaired_text": "",
+            "expressions": [
+              "3+(10-1)*6"
+            ],
+            "choices": [],
+            "math_topic": "sequence",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "57",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g02_011__53b2c820"
+    },
+    {
+      "case_id": "high_g02_012",
+      "band": "고등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/확률과 통계/확률분포와 자료/high_g02_012_easy_word_statistics.png",
+      "expected_answer": "53",
+      "expected_expression": "49+23-19",
+      "computed_answer": "53",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "49+23-19",
+      "recognized_expressions": [
+        "49+23-19"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.819,
+      "analysis": {
+        "analysis_started_at": 1777117660.0254898,
+        "analysis_finished_at": 1777117660.8448372,
+        "structured_problem": {
+          "source_text_candidates": [
+            "고등 2학년ㆍ확률분포와 자료ㆍ기본 word - statistics\n민지는 스티커를 498 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 RS\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 SS\n： 고등 2학년ㆍ확률분포와 자료ㆍ기본 word : statistics ：\n민지는 스티커를 49장 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 몇 장<",
+            "고등 2학년ㆍ확률분포와 자료ㆍ기본 word - statistics\n민지는 스티커를 498 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 RS\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 SS\n： 고등 2학년ㆍ확률분포와 자료ㆍ기본 word : statistics ：\n민지는 스티커를 49장 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 몇 장<"
+          ],
+          "normalized_problem_text": "49+23-19",
+          "expressions": [
+            "49+23-19"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "probability",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/확률과 통계/확률분포와 자료/high_g02_012_easy_word_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "고등 2학년ㆍ확률분포와 자료ㆍ기본 word - statistics\n민지는 스티커를 498 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 RS",
+                "confidence": 0.72,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 2학년ㆍ확률분포와 자료ㆍ기본 word - statistics\n민지는 스티커를 498 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 SS",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "고등 2학년ㆍ확률분포와 자료ㆍ기본 word - statistics\n민지는 스티커를 498 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 RS",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 고등 2학년ㆍ확률분포와 자료ㆍ기본 word : statistics ：\n민지는 스티커를 49장 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 몇 장<",
+                    "confidence": 0.54
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "9f6a493c31fe"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "53",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 53야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 확률 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 53야. 그래서 정답은 53야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "고등 2학년ㆍ확률분포와 자료ㆍ기본 word - statistics\n민지는 스티커를 498 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 RS\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 SS\n： 고등 2학년ㆍ확률분포와 자료ㆍ기본 word : statistics ：\n민지는 스티커를 49장 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 몇 장<",
+            "content_text": "고등 2학년ㆍ확률분포와 자료ㆍ기본 word - statistics\n민지는 스티커를 498 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 RS\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 SS\n： 고등 2학년ㆍ확률분포와 자료ㆍ기본 word : statistics ：\n민지는 스티커를 49장 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 몇 장<",
+            "repaired_text": "",
+            "expressions": [
+              "49+23-19"
+            ],
+            "choices": [],
+            "math_topic": "probability",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "53",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g02_012__199e90da"
+    },
+    {
+      "case_id": "high_g02_013",
+      "band": "고등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "logarithm",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/수학 I/지수함수와 로그함수/high_g02_013_easy_table_logarithm.png",
+      "expected_answer": "148",
+      "expected_expression": "41+42+19+46",
+      "computed_answer": "148",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 수량은 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "41+42+19+46"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.453,
+      "analysis": {
+        "analysis_started_at": 1777117660.845621,
+        "analysis_finished_at": 1777117662.298841,
+        "structured_problem": {
+          "source_text_candidates": [
+            "： 고등 2학년ㆍ지수함수와 로그함수ㆍ기본 table - logarithm\n아래 표의 수량은 모두 몇 개인지 구하시오.\n할 [49 16 0019 |6\n고등 2학년ㆍ지수함수와 로그함수ㆍ기본 table - logarithm\n아래 표의 수량은 모두 몇 개인지 구하시오,\na 4l 42 19 46\ntable_row_2 4 42 19 46",
+            "： 고등 2학년ㆍ지수함수와 로그함수ㆍ기본 table - logarithm\n아래 표의 수량은 모두 몇 개인지 구하시오.\n할 [49 16 0019 |6\n고등 2학년ㆍ지수함수와 로그함수ㆍ기본 table - logarithm\n아래 표의 수량은 모두 몇 개인지 구하시오,\na 4l 42 19 46\ntable_row_2 4 42 19 46"
+          ],
+          "normalized_problem_text": "아래 표의 수량은 모두 몇 개인지 구하시오",
+          "expressions": [
+            "41+42+19+46"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "logarithm",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/수학 I/지수함수와 로그함수/high_g02_013_easy_table_logarithm.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "： 고등 2학년ㆍ지수함수와 로그함수ㆍ기본 table - logarithm\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 iA BC\n할 [49 16 0019 |6",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 2학년ㆍ지수함수와 로그함수ㆍ기본 table - logarithm\n아래 표의 수량은 모두 몇 개인지 구하시오,\neC",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "고등 2학년ㆍ지수함수와 로그함수 ㆍ기본 table - logarithm\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 A B c D\na 4l 42 19 46",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 고등 2학년ㆍ지수함수와 로그함수ㆍ기본 table - logarithm\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 iA BC\n할 [49 16 0019 |6",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 4 42 19 46",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "b06619512a2e"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "148",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 148야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 148야. 그래서 정답은 148야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "： 고등 2학년ㆍ지수함수와 로그함수ㆍ기본 table - logarithm\n아래 표의 수량은 모두 몇 개인지 구하시오.\n할 [49 16 0019 |6\n고등 2학년ㆍ지수함수와 로그함수ㆍ기본 table - logarithm\n아래 표의 수량은 모두 몇 개인지 구하시오,\na 4l 42 19 46\ntable_row_2 4 42 19 46",
+            "content_text": "： 고등 2학년ㆍ지수함수와 로그함수ㆍ기본 table - logarithm\n아래 표의 수량은 모두 몇 개인지 구하시오.\n할 [49 16 0019 |6\n고등 2학년ㆍ지수함수와 로그함수ㆍ기본 table - logarithm\n아래 표의 수량은 모두 몇 개인지 구하시오,\na 4l 42 19 46\ntable_row_2 4 42 19 46",
+            "repaired_text": "",
+            "expressions": [
+              "41+42+19+46"
+            ],
+            "choices": [],
+            "math_topic": "logarithm",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "148",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g02_013__e51a051d"
+    },
+    {
+      "case_id": "high_g02_014",
+      "band": "고등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "trigonometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/수학 I/삼각함수/high_g02_014_easy_expression_trigonometry.png",
+      "expected_answer": "1",
+      "expected_expression": "sin(pi/6)+sin(pi/6)",
+      "computed_answer": "1",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "trig_solver",
+      "recognized_problem": "다음 삼각함수 값을 구하시오",
+      "recognized_expressions": [
+        "sin(pi/6) + sin(pi/6)"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.108,
+      "analysis": {
+        "analysis_started_at": 1777117662.299556,
+        "analysis_finished_at": 1777117663.407636,
+        "structured_problem": {
+          "source_text_candidates": [
+            "： 고등 2학년ㆍ삼각함수ㆍ기본 expression ㆍ trigonon\n다음 삼각함수 값을 구하시오.\nsin(pi/6) + sin(pi/6)\n고등 2학년ㆍ삼각함수ㆍ기본 expression ㆍ trigonon",
+            "： 고등 2학년ㆍ삼각함수ㆍ기본 expression ㆍ trigonon\n다음 삼각함수 값을 구하시오.\nsin(pi/6) + sin(pi/6)\n고등 2학년ㆍ삼각함수ㆍ기본 expression ㆍ trigonon"
+          ],
+          "normalized_problem_text": "다음 삼각함수 값을 구하시오",
+          "expressions": [
+            "sin(pi/6) + sin(pi/6)"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "trigonometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/수학 I/삼각함수/high_g02_014_easy_expression_trigonometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "： 고등 2학년ㆍ삼각함수ㆍ기본 expression ㆍ trigonon\n다음 삼각함수 값을 구하시오.\nsin(pi/6) + sin(pi/6)",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 2학년ㆍ삼각함수ㆍ기본 expression ㆍ trigonon\n다음 삼각함수 값을 구하시오.\nsin(pi/6) + sin(pi/6)",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 고등 2학년ㆍ삼각함수ㆍ기본 expression ㆍ trigonon\n다음 삼각함수 값을 구하시오.\nsin(pi/6) + sin(pi/6)",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "fbf0775167d4"
+          }
+        },
+        "solve_result": {
+          "solver_name": "trig_solver",
+          "computed_answer": "1",
+          "steps": [
+            "이건 삼각함수 값 문제야.",
+            "단위원의 특수각 값을 각각 읽었어.",
+            "sin(π/6)=1/2, sin(π/6)=1/2 이므로 계산하면 1야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.96,
+          "validation_status": "verified",
+          "explanation": "이건 삼각함수 문제야. 이건 삼각함수 값 문제야. 단위원의 특수각 값을 각각 읽었어. sin(π/6)=1/2, sin(π/6)=1/2 이므로 계산하면 1야. 그래서 정답은 1야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "： 고등 2학년ㆍ삼각함수ㆍ기본 expression ㆍ trigonon\n다음 삼각함수 값을 구하시오.\nsin(pi/6) + sin(pi/6)\n고등 2학년ㆍ삼각함수ㆍ기본 expression ㆍ trigonon",
+            "content_text": "： 고등 2학년ㆍ삼각함수ㆍ기본 expression ㆍ trigonon\n다음 삼각함수 값을 구하시오.\nsin(pi/6) + sin(pi/6)\n고등 2학년ㆍ삼각함수ㆍ기본 expression ㆍ trigonon",
+            "repaired_text": "",
+            "expressions": [
+              "sin(pi/6) + sin(pi/6)"
+            ],
+            "choices": [],
+            "math_topic": "trigonometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "trig_solver",
+          "computed_answer": "1",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g02_014__c8b1e0cb"
+    },
+    {
+      "case_id": "high_g02_015",
+      "band": "고등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "sequence",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/수학 I/수열/high_g02_015_easy_expression_sequence.png",
+      "expected_answer": "56",
+      "expected_expression": "2+(10-1)*6",
+      "computed_answer": "56",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "제 10항을 구하시오",
+      "recognized_expressions": [
+        "2+(10-1)*6"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.635,
+      "analysis": {
+        "analysis_started_at": 1777117663.408185,
+        "analysis_finished_at": 1777117664.0432482,
+        "structured_problem": {
+          "source_text_candidates": [
+            "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 2, 공차가 6입니다.\n제 10항을 구하시오.\n고등 2학년 . 수열 . 기본 expression ㆍ sequenc",
+            "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 2, 공차가 6입니다.\n제 10항을 구하시오.\n고등 2학년 . 수열 . 기본 expression ㆍ sequenc"
+          ],
+          "normalized_problem_text": "제 10항을 구하시오",
+          "expressions": [
+            "2+(10-1)*6"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "sequence",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/수학 I/수열/high_g02_015_easy_expression_sequence.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 2, 공차가 6입니다.\n제 10항을 구하시오.",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 2학년 . 수열 . 기본 expression ㆍ sequenc\n등차수열의 첫째항이 2, 공차가 6입니다.\n제 10항을 구하시오.",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "고등 2학년 . 수열 . 기본 expression ㆍ sequenc\n등차수열의 첫째항이 2, 공차가 6입니다.\n제 10항을 구하시오.",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 2, 공차가 6입니다.\n제 10항을 구하시오.",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "680ad33fef3e"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "56",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 56야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 56야. 그래서 정답은 56야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 2, 공차가 6입니다.\n제 10항을 구하시오.\n고등 2학년 . 수열 . 기본 expression ㆍ sequenc",
+            "content_text": "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 2, 공차가 6입니다.\n제 10항을 구하시오.\n고등 2학년 . 수열 . 기본 expression ㆍ sequenc",
+            "repaired_text": "",
+            "expressions": [
+              "2+(10-1)*6"
+            ],
+            "choices": [],
+            "math_topic": "sequence",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "56",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g02_015__b42a4651"
+    },
+    {
+      "case_id": "high_g02_016",
+      "band": "고등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/확률과 통계/확률분포와 자료/high_g02_016_easy_expression_statistics.png",
+      "expected_answer": "387/5",
+      "expected_expression": "(92+89+67+65+74)/5",
+      "computed_answer": "387/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(92+89+67+65+74)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.445,
+      "analysis": {
+        "analysis_started_at": 1777117664.043805,
+        "analysis_finished_at": 1777117664.488703,
+        "structured_problem": {
+          "source_text_candidates": [
+            "고등 2학년ㆍ확률분포와 자료ㆍ기본 @*[0「655101 ㆍ 5[31151165\n다음 자료의 평균을 구하시오.\n92, 89, 67 65, 74\n개 고등 2학년 ㆍ확률분포와 자료 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n92, 89, 67, 65, 74",
+            "고등 2학년ㆍ확률분포와 자료ㆍ기본 @*[0「655101 ㆍ 5[31151165\n다음 자료의 평균을 구하시오.\n92, 89, 67 65, 74\n개 고등 2학년 ㆍ확률분포와 자료 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n92, 89, 67, 65, 74"
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(92+89+67+65+74)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "probability",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/확률과 통계/확률분포와 자료/high_g02_016_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "고등 2학년ㆍ확률분포와 자료ㆍ기본 @*[0「655101 ㆍ 5[31151165\n다음 자료의 평균을 구하시오.\n92, 89, 67 65, 74",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 2학년ㆍ확률분포와 자료ㆍ기본 @*[0「655101 ㆍ 5[31151165\n다음 자료의 평균을 구하시오.\n92, 89, 67 65, 74",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "개 고등 2학년 ㆍ확률분포와 자료 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n92, 89, 67, 65, 74",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "f48af65c6ab4"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "387/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 387/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 확률 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 387/5야. 그래서 정답은 387/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "고등 2학년ㆍ확률분포와 자료ㆍ기본 @*[0「655101 ㆍ 5[31151165\n다음 자료의 평균을 구하시오.\n92, 89, 67 65, 74\n개 고등 2학년 ㆍ확률분포와 자료 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n92, 89, 67, 65, 74",
+            "content_text": "고등 2학년ㆍ확률분포와 자료ㆍ기본 @*[0「655101 ㆍ 5[31151165\n다음 자료의 평균을 구하시오.\n92, 89, 67 65, 74\n개 고등 2학년 ㆍ확률분포와 자료 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n92, 89, 67, 65, 74",
+            "repaired_text": "",
+            "expressions": [
+              "(92+89+67+65+74)/5"
+            ],
+            "choices": [],
+            "math_topic": "probability",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "387/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g02_016__38c166ce"
+    },
+    {
+      "case_id": "high_g02_017",
+      "band": "고등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "logarithm",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/수학 I/지수함수와 로그함수/high_g02_017_easy_word_logarithm.png",
+      "expected_answer": "66",
+      "expected_expression": "53+25-12",
+      "computed_answer": "66",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "| 고등 2학년ㆍ지수함수와 로그함수ㆍ기본 word - logarithm 고등 2학년ㆍ지수함수와 로그함수ㆍ기본 word - logarithm",
+      "recognized_expressions": [
+        "53+25-12"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.799,
+      "analysis": {
+        "analysis_started_at": 1777117664.489383,
+        "analysis_finished_at": 1777117665.288338,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 고등 2학년ㆍ지수함수와 로그함수ㆍ기본 word - logarithm\n민지는 스티커를 538 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<\n고등 2학년ㆍ지수함수와 로그함수ㆍ기본 word - logarithm\n민지는 스티커를 53장 가지고 있었습니다.",
+            "| 고등 2학년ㆍ지수함수와 로그함수ㆍ기본 word - logarithm\n민지는 스티커를 538 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<\n고등 2학년ㆍ지수함수와 로그함수ㆍ기본 word - logarithm\n민지는 스티커를 53장 가지고 있었습니다."
+          ],
+          "normalized_problem_text": "| 고등 2학년ㆍ지수함수와 로그함수ㆍ기본 word - logarithm 고등 2학년ㆍ지수함수와 로그함수ㆍ기본 word - logarithm",
+          "expressions": [
+            "53+25-12"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "logarithm",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/수학 I/지수함수와 로그함수/high_g02_017_easy_word_logarithm.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 고등 2학년ㆍ지수함수와 로그함수ㆍ기본 word - logarithm\n민지는 스티커를 538 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 2학년ㆍ지수함수와 로그함수ㆍ기본 word - logarithm\n민지는 스티커를 538 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "고등 2학년ㆍ지수함수와 로그함수ㆍ기본 word - logarithm\n민지는 스티커를 53장 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<\nOo AHI",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 고등 2학년ㆍ지수함수와 로그함수ㆍ기본 word - logarithm\n민지는 스티커를 538 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "63d45de1c6c1"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "66",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 66야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 66야. 그래서 정답은 66야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 고등 2학년ㆍ지수함수와 로그함수ㆍ기본 word - logarithm\n민지는 스티커를 538 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<\n고등 2학년ㆍ지수함수와 로그함수ㆍ기본 word - logarithm\n민지는 스티커를 53장 가지고 있었습니다.",
+            "content_text": "| 고등 2학년ㆍ지수함수와 로그함수ㆍ기본 word - logarithm\n민지는 스티커를 538 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<\n고등 2학년ㆍ지수함수와 로그함수ㆍ기본 word - logarithm\n민지는 스티커를 53장 가지고 있었습니다.",
+            "repaired_text": "",
+            "expressions": [
+              "53+25-12"
+            ],
+            "choices": [],
+            "math_topic": "logarithm",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "66",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g02_017__bb208f0f"
+    },
+    {
+      "case_id": "high_g02_018",
+      "band": "고등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "trigonometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/수학 I/삼각함수/high_g02_018_easy_table_trigonometry.png",
+      "expected_answer": "118",
+      "expected_expression": "31+40+20+27",
+      "computed_answer": "118",
+      "matched_choice": "",
+      "validation_status": "needs_review",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 SSS 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "31+40+20+27"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.325,
+      "analysis": {
+        "analysis_started_at": 1777117665.2889202,
+        "analysis_finished_at": 1777117666.61406,
+        "structured_problem": {
+          "source_text_candidates": [
+            "고등 2학년ㆍ삼각함수ㆍ기본 table - trigonometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 31 40 20 27\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 | 18000 160 ]0ㅁ|\n： 고등 2학년ㆍ삼각함수ㆍ기본 table ㆍ trigonometry\n항목 iA Bc 1]\ntable_row_2 31 40 20 2",
+            "고등 2학년ㆍ삼각함수ㆍ기본 table - trigonometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 31 40 20 27\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 | 18000 160 ]0ㅁ|\n： 고등 2학년ㆍ삼각함수ㆍ기본 table ㆍ trigonometry\n항목 iA Bc 1]\ntable_row_2 31 40 20 2"
+          ],
+          "normalized_problem_text": "아래 표의 SSS 모두 몇 개인지 구하시오",
+          "expressions": [
+            "31+40+20+27"
+          ],
+          "choices": [
+            "ㅁ |\n： 고등 2학년ㆍ삼각함수ㆍ기본 table ㆍ trigonometry\n항목 iA Bc 1]\ntable_row_2 31 40 20 2"
+          ],
+          "question_type": "multiple_choice",
+          "math_topic": "trigonometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/수학 I/삼각함수/high_g02_018_easy_table_trigonometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "고등 2학년ㆍ삼각함수ㆍ기본 table - trigonometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B c D\na 31 40 20 27",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 2학년ㆍ삼각함수ㆍ기본 table - trigonometry\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 | 18000 160 ]0ㅁ|",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "고등 2학년ㆍ삼각함수ㆍ기본 table - trigonometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B c D\na 31 40 20 27",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 고등 2학년ㆍ삼각함수ㆍ기본 table ㆍ trigonometry\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 iA Bc 1]",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 31 40 20 2",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "d7592a0ba916"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "118",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 118야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "needs_review",
+          "explanation": "이건 삼각함수 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 118야. 그래서 정답은 118야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "고등 2학년ㆍ삼각함수ㆍ기본 table - trigonometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 31 40 20 27\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 | 18000 160 ]0ㅁ|\n： 고등 2학년ㆍ삼각함수ㆍ기본 table ㆍ trigonometry\n항목 iA Bc 1]\ntable_row_2 31 40 20 2",
+            "content_text": "고등 2학년ㆍ삼각함수ㆍ기본 table - trigonometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 31 40 20 27\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 | 18000 160 ]0ㅁ|\n： 고등 2학년ㆍ삼각함수ㆍ기본 table ㆍ trigonometry\n항목 iA Bc 1]\ntable_row_2 31 40 20 2",
+            "repaired_text": "",
+            "expressions": [
+              "31+40+20+27"
+            ],
+            "choices": [
+              "ㅁ |\n： 고등 2학년ㆍ삼각함수ㆍ기본 table ㆍ trigonometry\n항목 iA Bc 1]\ntable_row_2 31 40 20 2"
+            ],
+            "math_topic": "trigonometry",
+            "question_type": "multiple_choice"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "118",
+          "validation_status": "needs_review"
+        }
+      },
+      "app_doc_id": "autobank__high_g02_018__ebbb6655"
+    },
+    {
+      "case_id": "high_g02_019",
+      "band": "고등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "sequence",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/수학 I/수열/high_g02_019_easy_expression_sequence.png",
+      "expected_answer": "30",
+      "expected_expression": "3+(10-1)*3",
+      "computed_answer": "30",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "제 10항을 구하시오",
+      "recognized_expressions": [
+        "3+(10-1)*3"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.66,
+      "analysis": {
+        "analysis_started_at": 1777117666.614659,
+        "analysis_finished_at": 1777117667.2745569,
+        "structured_problem": {
+          "source_text_candidates": [
+            "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 3, 공차가 3입니다.\n제 10항을 구하시오.\n고등 2학년 . 수열 . 기본 expression ㆍ sequenc",
+            "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 3, 공차가 3입니다.\n제 10항을 구하시오.\n고등 2학년 . 수열 . 기본 expression ㆍ sequenc"
+          ],
+          "normalized_problem_text": "제 10항을 구하시오",
+          "expressions": [
+            "3+(10-1)*3"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "sequence",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/수학 I/수열/high_g02_019_easy_expression_sequence.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 3, 공차가 3입니다.\n제 10항을 구하시오.",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 2학년 . 수열 . 기본 expression ㆍ sequenc\n등차수열의 첫째항이 3, 공차가 3입니다.\n제 10항을 구하시오.",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "고등 2학년 . 수열 . 기본 expression ㆍ sequenc\n등차수열의 첫째항이 3, 공차가 3입니다.\n제 10항을 구하시오.",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 3, 공차가 3입니다.\n제 10항을 구하시오.",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "7bfb37e34ba8"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "30",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 30야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 30야. 그래서 정답은 30야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 3, 공차가 3입니다.\n제 10항을 구하시오.\n고등 2학년 . 수열 . 기본 expression ㆍ sequenc",
+            "content_text": "： 고등 2학년ㆍ수열ㆍ 기본 expression ㆍ sequenc\n등차수열의 첫째항이 3, 공차가 3입니다.\n제 10항을 구하시오.\n고등 2학년 . 수열 . 기본 expression ㆍ sequenc",
+            "repaired_text": "",
+            "expressions": [
+              "3+(10-1)*3"
+            ],
+            "choices": [],
+            "math_topic": "sequence",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "30",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g02_019__0533a702"
+    },
+    {
+      "case_id": "high_g02_020",
+      "band": "고등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/확률과 통계/확률분포와 자료/high_g02_020_easy_expression_statistics.png",
+      "expected_answer": "376/5",
+      "expected_expression": "(90+62+72+74+78)/5",
+      "computed_answer": "376/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(90+62+72+74+78)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.444,
+      "analysis": {
+        "analysis_started_at": 1777117667.275181,
+        "analysis_finished_at": 1777117667.7187681,
+        "structured_problem": {
+          "source_text_candidates": [
+            "고등 2학년ㆍ확률분포와 자료ㆍ기본 @*[0「655101 ㆍ 5[31151165\n다음 자료의 평균을 구하시오.\n90, 62, 72, 74, 78\n개 고등 2학년 ㆍ확률분포와 자료 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.",
+            "고등 2학년ㆍ확률분포와 자료ㆍ기본 @*[0「655101 ㆍ 5[31151165\n다음 자료의 평균을 구하시오.\n90, 62, 72, 74, 78\n개 고등 2학년 ㆍ확률분포와 자료 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오."
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(90+62+72+74+78)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "probability",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/03.고등/2학년/확률과 통계/확률분포와 자료/high_g02_020_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "고등 2학년ㆍ확률분포와 자료ㆍ기본 @*[0「655101 ㆍ 5[31151165\n다음 자료의 평균을 구하시오.\n90, 62, 72, 74, 78",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "고등 2학년ㆍ확률분포와 자료ㆍ기본 @*[0「655101 ㆍ 5[31151165\n다음 자료의 평균을 구하시오.\n90, 62, 72, 74, 78",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "개 고등 2학년 ㆍ확률분포와 자료 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n90, 62, 72, 74, 78",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "49105c544f16"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "376/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 376/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 확률 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 376/5야. 그래서 정답은 376/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "고등 2학년ㆍ확률분포와 자료ㆍ기본 @*[0「655101 ㆍ 5[31151165\n다음 자료의 평균을 구하시오.\n90, 62, 72, 74, 78\n개 고등 2학년 ㆍ확률분포와 자료 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.",
+            "content_text": "고등 2학년ㆍ확률분포와 자료ㆍ기본 @*[0「655101 ㆍ 5[31151165\n다음 자료의 평균을 구하시오.\n90, 62, 72, 74, 78\n개 고등 2학년 ㆍ확률분포와 자료 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "(90+62+72+74+78)/5"
+            ],
+            "choices": [],
+            "math_topic": "probability",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "376/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__high_g02_020__220fc732"
+    }
+  ]
+}

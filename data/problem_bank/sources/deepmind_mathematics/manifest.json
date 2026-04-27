@@ -1,0 +1,360 @@
+{
+  "schema_version": "problem_bank_manifest.v1",
+  "bank_id": "deepmind_mathematics",
+  "generated_at": "2026-04-25T05:38:24+00:00",
+  "source": {
+    "name": "DeepMind Mathematics Dataset",
+    "dataset_id": "google-deepmind/mathematics_dataset",
+    "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+    "license": "Apache-2.0",
+    "raw_sources": {
+      "python_package": "mathematics_dataset==1.0.1"
+    },
+    "notes": "Generated a bounded local sample through the official generator package. Increase --per-module to expand synthetic coverage without storing the full generated corpus."
+  },
+  "storage": {
+    "format": "json_shards",
+    "encoding": "utf-8",
+    "record_schema": "../../schema/problem_bank_record.schema.json"
+  },
+  "counts": {
+    "total": 2028,
+    "per_module": 10,
+    "by_subject": {
+      "Algebra": 289,
+      "Arithmetic": 420,
+      "Comparison": 337,
+      "Measurement": 90,
+      "Numbers": 690,
+      "Polynomials": 102,
+      "Probability": 100
+    },
+    "by_level": {
+      "Level 1": 473,
+      "Level 2": 472,
+      "Level 3": 472,
+      "Level 4": 471,
+      "Level 5": 140
+    },
+    "by_regime": {
+      "extrapolate": 140,
+      "interpolate": 471,
+      "train_easy": 473,
+      "train_hard": 472,
+      "train_medium": 472
+    },
+    "answer_missing": 0,
+    "dropped": 362
+  },
+  "shards": [
+    {
+      "path": "shards/algebra/level_1.json",
+      "count": 70,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "sample"
+    },
+    {
+      "path": "shards/algebra/level_2.json",
+      "count": 70,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "sample"
+    },
+    {
+      "path": "shards/algebra/level_3.json",
+      "count": 69,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "sample"
+    },
+    {
+      "path": "shards/algebra/level_4.json",
+      "count": 70,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "sample"
+    },
+    {
+      "path": "shards/algebra/level_5.json",
+      "count": 10,
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "sample"
+    },
+    {
+      "path": "shards/arithmetic/level_1.json",
+      "count": 90,
+      "subject": "Arithmetic",
+      "subject_slug": "arithmetic",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "sample"
+    },
+    {
+      "path": "shards/arithmetic/level_2.json",
+      "count": 90,
+      "subject": "Arithmetic",
+      "subject_slug": "arithmetic",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "sample"
+    },
+    {
+      "path": "shards/arithmetic/level_3.json",
+      "count": 90,
+      "subject": "Arithmetic",
+      "subject_slug": "arithmetic",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "sample"
+    },
+    {
+      "path": "shards/arithmetic/level_4.json",
+      "count": 90,
+      "subject": "Arithmetic",
+      "subject_slug": "arithmetic",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "sample"
+    },
+    {
+      "path": "shards/arithmetic/level_5.json",
+      "count": 60,
+      "subject": "Arithmetic",
+      "subject_slug": "arithmetic",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "sample"
+    },
+    {
+      "path": "shards/comparison/level_1.json",
+      "count": 80,
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "sample"
+    },
+    {
+      "path": "shards/comparison/level_2.json",
+      "count": 79,
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "sample"
+    },
+    {
+      "path": "shards/comparison/level_3.json",
+      "count": 79,
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "sample"
+    },
+    {
+      "path": "shards/comparison/level_4.json",
+      "count": 79,
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "sample"
+    },
+    {
+      "path": "shards/comparison/level_5.json",
+      "count": 20,
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "sample"
+    },
+    {
+      "path": "shards/measurement/level_1.json",
+      "count": 20,
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "sample"
+    },
+    {
+      "path": "shards/measurement/level_2.json",
+      "count": 20,
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "sample"
+    },
+    {
+      "path": "shards/measurement/level_3.json",
+      "count": 20,
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "sample"
+    },
+    {
+      "path": "shards/measurement/level_4.json",
+      "count": 20,
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "sample"
+    },
+    {
+      "path": "shards/measurement/level_5.json",
+      "count": 10,
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "sample"
+    },
+    {
+      "path": "shards/numbers/level_1.json",
+      "count": 167,
+      "subject": "Numbers",
+      "subject_slug": "numbers",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "sample"
+    },
+    {
+      "path": "shards/numbers/level_2.json",
+      "count": 167,
+      "subject": "Numbers",
+      "subject_slug": "numbers",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "sample"
+    },
+    {
+      "path": "shards/numbers/level_3.json",
+      "count": 169,
+      "subject": "Numbers",
+      "subject_slug": "numbers",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "sample"
+    },
+    {
+      "path": "shards/numbers/level_4.json",
+      "count": 167,
+      "subject": "Numbers",
+      "subject_slug": "numbers",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "sample"
+    },
+    {
+      "path": "shards/numbers/level_5.json",
+      "count": 20,
+      "subject": "Numbers",
+      "subject_slug": "numbers",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "sample"
+    },
+    {
+      "path": "shards/polynomials/level_1.json",
+      "count": 26,
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "sample"
+    },
+    {
+      "path": "shards/polynomials/level_2.json",
+      "count": 26,
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "sample"
+    },
+    {
+      "path": "shards/polynomials/level_3.json",
+      "count": 25,
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "sample"
+    },
+    {
+      "path": "shards/polynomials/level_4.json",
+      "count": 25,
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "sample"
+    },
+    {
+      "path": "shards/probability/level_1.json",
+      "count": 20,
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "split": "sample"
+    },
+    {
+      "path": "shards/probability/level_2.json",
+      "count": 20,
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 2",
+      "level_number": 2,
+      "split": "sample"
+    },
+    {
+      "path": "shards/probability/level_3.json",
+      "count": 20,
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 3",
+      "level_number": 3,
+      "split": "sample"
+    },
+    {
+      "path": "shards/probability/level_4.json",
+      "count": 20,
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "split": "sample"
+    },
+    {
+      "path": "shards/probability/level_5.json",
+      "count": 20,
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "split": "sample"
+    }
+  ],
+  "indexes": {
+    "lightweight": "index/problem_index.json"
+  }
+}

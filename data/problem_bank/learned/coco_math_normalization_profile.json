@@ -1,488 +1,712 @@
 {
   "schema_version": "coco_math_normalization_profile.v1",
-  "generated_at": "2026-04-25T03:36:51+00:00",
+  "generated_at": "2026-04-25T09:33:22+00:00",
   "source": {
     "catalog_path": "data/problem_bank/catalog.json",
-    "total_records": 21292,
+    "total_records": 53320,
     "bank_counts": {
       "competition_math": 12500,
-      "gsm8k": 8792
+      "deepmind_mathematics": 2028,
+      "gsm8k": 8792,
+      "metamathqa": 20000,
+      "tal_scq5k": 10000
     }
   },
   "counts": {
     "latex_commands": {
-      "frac": 37273,
-      "cdot": 14138,
-      "sqrt": 12811,
-      "boxed": 12725,
-      "mathbf": 7026,
-      "begin": 6924,
-      "end": 6924,
-      "circ": 6324,
-      "cos": 5099,
-      "sin": 4756,
-      "left": 4717,
-      "right": 4717,
-      "pi": 4242,
-      "times": 3213,
-      "theta": 2961,
-      "text": 2693,
-      "angle": 2622,
-      "le": 2459,
-      "overline": 2441,
-      "equiv": 1806,
-      "tan": 1640,
-      "dfrac": 1624,
-      "ge": 1558,
-      "triangle": 1556,
-      "pmod": 1399,
-      "log": 1256,
-      "binom": 1142,
-      "dots": 1131,
-      "omega": 1053,
-      "quad": 1030,
-      "alpha": 1014,
-      "Rightarrow": 989,
-      "overrightarrow": 985,
-      "qquad": 975,
-      "pm": 921,
-      "lfloor": 736,
-      "rfloor": 729,
-      "ldots": 612,
-      "sum": 605,
-      "beta": 539,
-      "cdots": 528,
-      "infty": 485,
+      "frac": 70305,
+      "cdot": 21820,
+      "sqrt": 20495,
+      "boxed": 18930,
+      "times": 15756,
+      "right": 14627,
+      "left": 14625,
+      "end": 10263,
+      "begin": 10260,
+      "mathbf": 10033,
+      "text": 9185,
+      "circ": 8725,
+      "cos": 7439,
+      "pi": 7244,
+      "sin": 6991,
+      "theta": 4085,
+      "dfrac": 3716,
+      "div": 3616,
+      "textbar": 3514,
+      "textless": 3467,
+      "overline": 3426,
+      "angle": 3186,
+      "le": 2951,
+      "equiv": 2667,
+      "log": 2580,
+      "cdots": 2478,
+      "tan": 2454,
+      "textgreater": 2378,
+      "triangle": 2123,
+      "pmod": 2094,
+      "ge": 1934,
+      "overrightarrow": 1923,
+      "textbackslash": 1896,
+      "alpha": 1828,
+      "binom": 1735,
+      "textasciitilde": 1601,
+      "pm": 1526,
+      "dots": 1511,
+      "Rightarrow": 1264,
+      "omega": 1264,
+      "quad": 1224,
+      "leqslant": 1194,
+      "ldots": 1138,
+      "qquad": 1065,
+      "beta": 1030,
+      "uline": 1003,
+      "textquotesingle": 999,
+      "lfloor": 974,
+      "rfloor": 967,
+      "infty": 921,
+      "textbf": 896,
+      "geqslant": 737,
+      "sum": 718,
+      "rm": 711,
+      "leq": 702,
+      "in": 578,
+      "hline": 471,
       "tfrac": 446,
-      "div": 435,
-      "textbf": 429,
-      "leq": 399,
-      "hline": 367,
-      "gcd": 336,
-      "cot": 308,
-      "neq": 291,
-      "dotsb": 268,
-      "operatorname": 265,
-      "implies": 248,
-      "dbinom": 240,
-      "bold": 240,
-      "in": 235,
-      "bullet": 220,
-      "dotsm": 218,
-      "choose": 205,
-      "multicolumn": 189
+      "square": 419,
+      "ne": 407
     },
     "normalization_patterns": {
-      "equation": 141775,
-      "arithmetic": 60877,
-      "power": 49036,
-      "fraction": 33420,
-      "function": 6866,
-      "radical": 6054,
-      "trigonometry": 3181,
-      "inequality": 2369,
-      "logarithm": 491
+      "equation": 279383,
+      "arithmetic": 115130,
+      "power": 83049,
+      "fraction": 61469,
+      "function": 12962,
+      "radical": 9856,
+      "trigonometry": 5088,
+      "inequality": 3983,
+      "logarithm": 1103
     },
     "answer_types": {
-      "decimal": 207,
-      "expression": 1464,
-      "fraction": 1967,
-      "integer": 16602,
+      "boolean": 197,
+      "decimal": 879,
+      "expression": 2947,
+      "fraction": 3640,
+      "integer": 41528,
       "list_or_set": 443,
-      "text": 605,
-      "unknown": 4
+      "text": 3681,
+      "unknown": 5
     },
     "expression_shapes": {
-      "N=N": 13292,
-      "N*N=N": 12587,
-      "v=N": 11084,
-      "N+N=N": 8832,
-      "N+N": 8697,
-      "N-N=N": 7774,
-      "N-N": 7541,
-      "v+N": 6547,
-      "N/N=N": 6386,
-      "N/N": 5672,
-      "N*N": 5345,
-      "v-N": 4996,
-      "N^N": 3810,
-      "v=v": 3618,
-      "v^N": 3259,
-      "v+v": 3188,
-      "v^N+N": 2457,
-      "v=(N,N)": 2431,
-      "v-v": 2239,
-      "v^N-N": 2208,
-      "N-v": 2107,
-      "N+N+N=N": 2066,
-      "N+v": 1769,
-      "N+N+N": 1285,
-      "N=": 1240,
-      "N/N*N=N": 1090,
-      "N^N=N": 1085,
-      "N^v": 1017,
-      "v^N=N": 935,
-      "v+N=N": 897,
-      "v+v=N": 809,
-      "N+": 802,
-      "(N)/(N)": 768,
-      "N=v": 766,
-      "N^": 694,
-      "v=-N": 689,
-      "v-N=N": 683,
-      "v={N}": 612,
-      "N/v": 605,
-      "N+N+N+N=N": 595,
-      "-N": 575,
-      "N/N*N": 574,
-      "v<N": 554,
-      "N^N+N": 552,
-      "N*N/N=N": 539,
-      "v^N+v": 511,
-      "N=N^N": 505,
-      "N*v": 501,
-      "v+v+v": 474,
-      "N-": 461,
-      "N-N-N": 453,
-      "v>N": 450,
-      "v=(N,N,N)": 393,
-      "N+N+N+N": 386,
-      "v^N+v^N": 385,
-      "NvN=": 370,
-      "N^N-N": 353,
-      "N-N-N=N": 346,
-      "v=(N)/(N)": 345,
-      "-N+N": 338,
-      "v(N)=N": 319,
-      "v=N^N": 271,
-      "{N}{N}=N": 266,
-      "-N-N": 262,
-      "v=v+v": 255,
-      "N+N={N}": 253,
-      "{(N)/(N)}": 245,
-      "v=N-N": 245,
-      "N^N+N^N": 242,
-      "N*N={N}": 239,
-      "N^N-N^N": 238,
-      "v^v": 229,
-      "-N/N": 228,
-      "v/N": 224,
-      "v-v=N": 221,
-      "v=v+N": 220,
-      "sqrt(N)": 220,
-      "v<=N": 219,
-      "ab=N": 218,
-      "N-N={N}": 217
+      "N=N": 30282,
+      "v=N": 29125,
+      "N*N=N": 20050,
+      "N+N": 14905,
+      "N+N=N": 14665,
+      "N-N=N": 13246,
+      "N-N": 12936,
+      "v+N": 12257,
+      "N/N=N": 9851,
+      "N/N": 9454,
+      "v-N": 8904,
+      "N*N": 7161,
+      "N^N": 6876,
+      "v=v": 5423,
+      "v^N": 5060,
+      "v+v": 4954,
+      "N-v": 4259,
+      "N=": 4167,
+      "v-v": 3790,
+      "v^N+N": 3765,
+      "N+N+N=N": 3759,
+      "N+v": 3491,
+      "v^N-N": 3465,
+      "v+N=N": 2745,
+      "N+": 2609,
+      "v=(N,N)": 2607,
+      "(N)/(N)": 2200,
+      "N=v": 2153,
+      "N^N=N": 2049,
+      "N+N+N": 1984,
+      "N/N*N=N": 1827,
+      "v-N=N": 1813,
+      "N-": 1723,
+      "v^N=N": 1580,
+      "N^v": 1575,
+      "v+v=N": 1542,
+      "N*v": 1363,
+      "v=-N": 1321,
+      "-N": 1084,
+      "N+N+N+N=N": 1084,
+      "v/v": 1053,
+      "N/v": 1037,
+      "v=N/N": 1022,
+      "v={N}": 1014,
+      "N^N+N": 984,
+      "N^": 886,
+      "N=N^N": 853,
+      "v^N+v": 824,
+      "N*N/N=N": 756,
+      "v/N": 754,
+      "v<N": 732,
+      "v+v+v": 713,
+      "N/N*N": 699,
+      "v=N-N": 679,
+      "-N+N": 658,
+      "v>N": 642,
+      "N-N-N": 622,
+      "v^N+v^N": 618,
+      "v=(N)/(N)": 610,
+      "N+N+N+N": 588,
+      "N-N-N=N": 577,
+      "N^N-N": 557,
+      "v-v=N": 538,
+      "NvN=": 535,
+      "-N/N": 524,
+      "=N": 518,
+      "N+v=N": 517,
+      "v(N)=N": 509,
+      "-N-N": 503,
+      "v+N-N=N-N": 494,
+      "N=N+N": 466,
+      "v=N+N": 454,
+      "N^N+N^N": 424,
+      "N*N={N}": 423,
+      "v+v+v=N": 413,
+      "v=v+N": 412,
+      "N+N={N}": 408,
+      "N-v=N": 408,
+      "N*N*N=N": 408,
+      "v=(N,N,N)": 408
     }
   },
   "domains": {
     "algebra": {
       "patterns": {
-        "equation": 18773,
-        "power": 10385,
-        "arithmetic": 10330,
-        "fraction": 3496,
-        "function": 2455,
-        "radical": 1145,
-        "inequality": 298,
-        "logarithm": 130
+        "equation": 44301,
+        "arithmetic": 20672,
+        "power": 18330,
+        "fraction": 8369,
+        "function": 5937,
+        "radical": 2146,
+        "trigonometry": 904,
+        "inequality": 868,
+        "logarithm": 379
       },
       "expression_shapes": {
-        "v=N": 2833,
-        "v+N": 1974,
-        "v-N": 1548,
-        "N=N": 1522,
-        "N+N": 1116,
-        "N-N": 901,
-        "v^N+N": 793,
-        "v^N-N": 722,
-        "v+v": 651,
-        "N^N": 581,
-        "v^N": 578,
-        "v=v": 480,
-        "v-v": 467,
-        "N+v": 332,
-        "v+N=N": 291,
-        "v+v=N": 255,
-        "v=-N": 248,
-        "v-N=N": 239,
-        "v={N}": 238,
-        "N-v": 238,
-        "-N": 217,
-        "N/N": 207,
-        "N^N=N": 190,
-        "N+N=N": 176,
-        "v^N=N": 169,
-        "(N)/(N)": 163,
-        "N-N=N": 151,
-        "N=N^N": 129,
-        "v^N+v": 108,
-        "v+v+v": 105
+        "v=N": 7235,
+        "v+N": 3706,
+        "N=N": 3249,
+        "v-N": 2911,
+        "N+N": 1914,
+        "N-N": 1784,
+        "v+v": 1304,
+        "v=v": 1145,
+        "v^N+N": 1126,
+        "v^N": 1086,
+        "v^N-N": 1075,
+        "v-v": 976,
+        "N^N": 881,
+        "N+v": 714,
+        "N-v": 679,
+        "v+N=N": 637,
+        "v+v=N": 577,
+        "N=v": 550,
+        "v-N=N": 533,
+        "v=-N": 500,
+        "v={N}": 413,
+        "v^N=N": 372,
+        "N/N": 369,
+        "(N)/(N)": 352,
+        "N+N=N": 341,
+        "-N": 328,
+        "N-N=N": 289,
+        "N^N=N": 269,
+        "v-v=N": 213,
+        "v=N-N": 211
+      }
+    },
+    "arithmetic": {
+      "patterns": {
+        "arithmetic": 257,
+        "fraction": 151,
+        "radical": 39
+      },
+      "expression_shapes": {
+        "N/N": 88,
+        "-N/N": 26,
+        "N*v": 26,
+        "-N+N": 22,
+        "N/(-N)": 20,
+        "-N*v": 14,
+        "N+N": 12,
+        "N-N": 11,
+        "-N+v": 8,
+        "-N-N": 7,
+        "-N*N": 7,
+        "N*N": 6,
+        "-N+N*v": 6,
+        "N+v": 6,
+        "-N-v": 5,
+        "N-N*v": 4,
+        "-N*(sqrt(N)+v": 4,
+        "-N*N/N": 3,
+        "N-v": 3,
+        "-N*N*v": 3,
+        "-N*N/(-N)": 3,
+        "N*(sqrt(N)": 3,
+        "-N-N*v": 3,
+        "N/N+(-N)/N": 2,
+        "N/(-N)*N": 2,
+        "N/(N/N)": 2,
+        "-N*(sqrt(N)-N*v": 2,
+        "-N+N+(-N--N)": 2,
+        "-N+(N--N)": 2,
+        "-N+(-N)/(-N)": 2
       }
     },
     "arithmetic_word_problem": {
       "patterns": {
-        "equation": 49433,
-        "arithmetic": 17093,
-        "fraction": 14463,
-        "function": 29,
-        "logarithm": 20,
-        "power": 6,
-        "inequality": 6
+        "equation": 99285,
+        "arithmetic": 34191,
+        "fraction": 25136,
+        "function": 109,
+        "power": 76,
+        "logarithm": 43,
+        "inequality": 21
       },
       "expression_shapes": {
-        "N*N=N": 12055,
-        "N+N=N": 7977,
-        "N-N=N": 6932,
-        "N/N=N": 6094,
-        "N*N": 5314,
-        "N/N": 4502,
-        "N=N": 3917,
-        "N+N": 3854,
-        "N-N": 3306,
-        "N+N+N=N": 1771,
-        "N=": 1238,
-        "N/N*N=N": 1088,
-        "N+": 797,
-        "N+N+N": 793,
-        "N/N*N": 568,
-        "v=N": 542,
-        "N*N/N=N": 534,
-        "N/v": 524,
-        "N-v": 482,
-        "N+N+N+N=N": 479,
-        "N-": 460,
-        "NvN=": 370,
-        "N-N-N=N": 296,
-        "N+N+N+N": 232,
-        "v+N": 170,
-        "N*N=": 158,
-        "N/N=": 137,
-        "N-N-N": 124,
-        "N+N+N+N+N=N": 123,
-        "N*(N/N)=N": 108
+        "N*N=N": 18357,
+        "N+N=N": 12177,
+        "N-N=N": 10866,
+        "N/N=N": 9365,
+        "N=N": 8683,
+        "v=N": 7608,
+        "N/N": 7365,
+        "N*N": 6951,
+        "N+N": 5075,
+        "N=": 4091,
+        "N-N": 4090,
+        "N+N+N=N": 2957,
+        "N+": 2566,
+        "N/N*N=N": 1823,
+        "N-": 1665,
+        "N-v": 1319,
+        "v+N": 1275,
+        "v+N=N": 1060,
+        "N+N+N": 1016,
+        "N/v": 912,
+        "v=N/N": 820,
+        "N+N+N+N=N": 755,
+        "N*N/N=N": 748,
+        "N/N*N": 690,
+        "N*v": 638,
+        "NvN=": 535,
+        "v-N": 504,
+        "v/N": 474,
+        "N-N-N=N": 458,
+        "v+N-N=N-N": 448
+      }
+    },
+    "comparison": {
+      "patterns": {
+        "fraction": 273,
+        "equation": 203,
+        "arithmetic": 128,
+        "power": 10,
+        "inequality": 3,
+        "function": 3
+      },
+      "expression_shapes": {
+        "-N/N": 127,
+        "N/N": 123,
+        "v=N": 31,
+        "v=N-N": 30,
+        "v=-N+N": 18,
+        "-N*v": 16,
+        "v=v": 12,
+        "v=v+N": 11,
+        "v=-N+v": 9,
+        "N*v": 8,
+        "N*v+N": 7,
+        "v=N+N": 6,
+        "v=-N-N": 6,
+        "v=-N-v": 6,
+        "-N*v+N": 6,
+        "N-N*v": 5,
+        "N+N*v": 5,
+        "N-N*v+N": 5,
+        "v=N+v": 4,
+        "v=N/N-N": 4,
+        "-N-N": 4,
+        "N/(-N)": 4,
+        "v=v-N": 4,
+        "-N*v-N": 4,
+        "v=N-v": 3,
+        "v=N/N-v": 3,
+        "-v*v": 3,
+        "N-v": 3,
+        "-N*v-N*v+N": 3,
+        "-N+N": 3
+      }
+    },
+    "competition_math": {
+      "patterns": {
+        "equation": 26092,
+        "power": 10755,
+        "arithmetic": 10198,
+        "fraction": 5127,
+        "radical": 1219,
+        "function": 1015,
+        "trigonometry": 570,
+        "inequality": 549,
+        "logarithm": 121
+      },
+      "expression_shapes": {
+        "N=N": 5101,
+        "v=N": 2385,
+        "N-N": 1845,
+        "N+N": 1713,
+        "v+N": 1100,
+        "N^N": 1091,
+        "v-N": 775,
+        "N+N=N": 768,
+        "N-N=N": 760,
+        "v^N": 622,
+        "N*N=N": 567,
+        "(N)/(N)": 514,
+        "v+v": 491,
+        "v=v": 466,
+        "v^N+N": 426,
+        "N^N=N": 376,
+        "v-v": 373,
+        "N-v": 350,
+        "v^N-N": 340,
+        "N+v": 326,
+        "=N": 213,
+        "N+N+N=N": 208,
+        "N^v": 180,
+        "N+N+N": 156,
+        "v^N=N": 151,
+        "v+v=N": 139,
+        "N=N^N": 138,
+        "N/N": 137,
+        "N=v": 134,
+        "N*N={N}": 121
       }
     },
     "counting_probability": {
       "patterns": {
-        "equation": 5755,
-        "arithmetic": 2060,
-        "power": 1485,
-        "fraction": 1284,
-        "radical": 89,
-        "inequality": 68,
-        "function": 60,
-        "logarithm": 1
+        "equation": 10531,
+        "arithmetic": 3675,
+        "power": 2614,
+        "fraction": 2548,
+        "radical": 104,
+        "inequality": 101,
+        "function": 90,
+        "trigonometry": 5,
+        "logarithm": 2
       },
       "expression_shapes": {
-        "N=N": 1690,
-        "N+N": 415,
-        "v=N": 352,
-        "N^N": 288,
-        "N-N": 281,
-        "{N}{N}=N": 259,
-        "N-v": 191,
-        "N^N=N": 176,
-        "(N)/(N)": 155,
-        "v-N": 144,
-        "N-N=N": 138,
-        "N/N": 135,
-        "N*N=N": 125,
-        "v+N": 113,
-        "v+v": 110,
-        "N+N=N": 97,
-        "v=(N,N)": 80,
-        "N^v": 79,
-        "v^N": 71,
-        "v=v": 63,
-        "N+N+N": 61,
-        "v-v": 59,
-        "{(N)/(N)}": 58,
-        "N+N+N=N": 58,
-        "N-N={N}": 56,
-        "v<N": 52,
-        "{N}=N": 50,
-        "N*N={N}": 47,
-        "N*N*N=N": 47,
-        "N!=N": 46
+        "N=N": 2893,
+        "v=N": 707,
+        "N+N": 683,
+        "N-N": 552,
+        "N^N": 501,
+        "(N)/(N)": 395,
+        "N-v": 314,
+        "N^N=N": 310,
+        "{N}{N}=N": 294,
+        "N+N=N": 272,
+        "N*N=N": 269,
+        "N-N=N": 263,
+        "v-N": 234,
+        "N/N": 222,
+        "v+N": 203,
+        "v/v": 171,
+        "N+N+N=N": 157,
+        "v+v": 141,
+        "N^v": 121,
+        "N+v": 106,
+        "N*N*N=N": 103,
+        "v^N": 102,
+        "v=v": 101,
+        "N+N+N": 87,
+        "{(N)/(N)}": 87,
+        "v=(N,N)": 85,
+        "v-v": 79,
+        "(N)/(N)={(N)/(N)}": 79,
+        "(N)/(N)=(N)/(N)": 74,
+        "N=v": 68
       }
     },
     "geometry": {
       "patterns": {
-        "equation": 13811,
-        "power": 4518,
-        "arithmetic": 4166,
-        "fraction": 3100,
-        "radical": 1438,
-        "trigonometry": 467,
-        "function": 438,
-        "inequality": 57
+        "equation": 19653,
+        "power": 7473,
+        "arithmetic": 6229,
+        "fraction": 4462,
+        "radical": 2116,
+        "trigonometry": 724,
+        "function": 686,
+        "inequality": 149,
+        "logarithm": 29
       },
       "expression_shapes": {
-        "v=(N,N)": 1422,
-        "v=N": 1089,
-        "N=N": 1030,
-        "v=v": 914,
-        "v+v": 519,
-        "N+N": 414,
-        "N-N": 412,
-        "v-v": 321,
-        "N^": 305,
-        "N/N": 299,
-        "N^N": 271,
-        "v^N": 270,
-        "v+N": 264,
-        "N-v": 240,
-        "N^v": 239,
-        "N+v": 197,
-        "v-N": 167,
-        "N*v": 164,
-        "v=(N,N,N)": 164,
-        "N=v": 156,
-        "N-N-N": 155,
-        "ab=N": 121,
-        "bc=N": 117,
-        "v^N=N": 113,
-        "v=(-N,N)": 110,
-        "N+N=N": 109,
-        "N-N=N": 104,
-        "N^N=N": 103,
-        "v=(N,-N)": 103,
-        "v=(v+v)/N": 86
+        "v=N": 1753,
+        "N=N": 1605,
+        "v=(N,N)": 1543,
+        "v=v": 1096,
+        "v+v": 619,
+        "N+N": 608,
+        "N-N": 599,
+        "v-v": 532,
+        "v+N": 511,
+        "v^N": 475,
+        "N^": 378,
+        "N/N": 352,
+        "N^N": 347,
+        "v-N": 337,
+        "N-v": 333,
+        "N+v": 332,
+        "N^v": 277,
+        "v^N=N": 259,
+        "N=v": 242,
+        "N*v": 175,
+        "N+N=N": 170,
+        "v=(N,N,N)": 169,
+        "N-N-N": 165,
+        "v^N+N": 148,
+        "N-N=N": 138,
+        "v^N-N": 138,
+        "ab=N": 132,
+        "N^N=N": 126,
+        "bc=N": 125,
+        "v=(-N,N)": 118
       }
     },
     "intermediate_algebra": {
       "patterns": {
-        "equation": 24987,
-        "power": 18458,
-        "arithmetic": 14109,
-        "fraction": 5181,
-        "function": 3101,
-        "radical": 1972,
-        "inequality": 1419,
-        "logarithm": 298,
-        "trigonometry": 54
+        "equation": 28424,
+        "power": 20870,
+        "arithmetic": 15866,
+        "fraction": 5697,
+        "function": 3363,
+        "radical": 2197,
+        "inequality": 1468,
+        "logarithm": 305,
+        "trigonometry": 71
       },
       "expression_shapes": {
-        "v=N": 3083,
-        "v+N": 2358,
-        "v-N": 2028,
-        "v^N": 1665,
-        "N=N": 1531,
-        "v^N+N": 1315,
-        "N+N": 1279,
-        "v^N-N": 1167,
-        "N-N": 1079,
-        "v+v": 950,
-        "v=v": 859,
-        "N+v": 838,
-        "v-v": 787,
-        "N^N": 588,
-        "N-v": 473,
-        "v^N=N": 466,
-        "v^N+v": 348,
-        "v=-N": 341,
-        "v+N=N": 308,
-        "N=v": 297,
-        "v-N=N": 264,
-        "v^N+v^N": 236,
-        "v(N)=N": 221,
-        "v+v+v": 205,
-        "v=(N)/(N)": 205,
-        "v>N": 188,
-        "N^N+N": 184,
-        "v+v=N": 175,
-        "v<N": 174,
-        "-N": 167
+        "v=N": 3618,
+        "v+N": 2707,
+        "v-N": 2405,
+        "v^N": 1752,
+        "N=N": 1703,
+        "v^N+N": 1556,
+        "v^N-N": 1469,
+        "N+N": 1396,
+        "N-N": 1252,
+        "v+v": 1009,
+        "N+v": 951,
+        "v=v": 923,
+        "v-v": 859,
+        "N^N": 624,
+        "v^N=N": 500,
+        "N-v": 492,
+        "v=-N": 486,
+        "v+N=N": 449,
+        "v-N=N": 402,
+        "v^N+v": 399,
+        "N=v": 336,
+        "v^N+v^N": 237,
+        "v(N)=N": 228,
+        "v=(N)/(N)": 222,
+        "v+v+v": 215,
+        "-N": 204,
+        "v>N": 202,
+        "v+v=N": 200,
+        "N^N+N": 189,
+        "v<N": 187
+      }
+    },
+    "measurement": {
+      "patterns": {
+        "fraction": 8
+      },
+      "expression_shapes": {
+        "N/N": 8
       }
     },
     "number_theory": {
       "patterns": {
-        "equation": 6724,
-        "power": 4786,
-        "arithmetic": 3786,
-        "fraction": 566,
-        "inequality": 147,
-        "function": 91,
-        "radical": 41,
-        "logarithm": 10,
-        "trigonometry": 1
+        "equation": 20835,
+        "power": 11226,
+        "arithmetic": 10112,
+        "fraction": 2183,
+        "function": 833,
+        "radical": 471,
+        "inequality": 426,
+        "logarithm": 186,
+        "trigonometry": 140
       },
       "expression_shapes": {
-        "N^N": 1232,
-        "N=N": 1012,
-        "v=N": 879,
-        "N+N": 668,
-        "v+N": 524,
-        "N-N": 421,
-        "N^N=N": 334,
-        "v-N": 281,
-        "N^v": 235,
-        "N^N+N": 224,
-        "N+N=N": 155,
-        "v+v": 149,
-        "v^N": 148,
-        "N-N=N": 130,
-        "N=N^N": 125,
-        "N*N=N": 100,
-        "N+N+N": 99,
-        "v=v": 85,
-        "N+v": 78,
-        "v<N": 78,
-        "v-v": 77,
-        "N-v": 72,
-        "v={N}": 71,
-        "v^N+N": 70,
-        "N+N+N=N": 57,
-        "N^N-N": 56,
-        "v+v=N": 56,
-        "N+N={N}": 54,
-        "v>N": 51,
-        "N=v": 49
+        "N=N": 2903,
+        "v=N": 2866,
+        "N^N": 2206,
+        "N+N": 1564,
+        "v+N": 1405,
+        "N-N": 936,
+        "v-N": 852,
+        "N^N=N": 625,
+        "N^N+N": 438,
+        "v+v": 433,
+        "N+N=N": 407,
+        "v^N": 392,
+        "N^v": 376,
+        "N-N=N": 317,
+        "v=v": 311,
+        "N+v": 310,
+        "v/v": 283,
+        "N*N=N": 278,
+        "N=N^N": 266,
+        "v-v": 264,
+        "v^N+N": 257,
+        "N-v": 247,
+        "N+N+N": 216,
+        "N=v": 208,
+        "v+N=N": 203,
+        "-N": 197,
+        "v-N=N": 191,
+        "v+v=N": 185,
+        "v^N-N": 182,
+        "N+N+N=N": 170
+      }
+    },
+    "numbers": {
+      "patterns": {
+        "arithmetic": 443,
+        "equation": 303,
+        "fraction": 100,
+        "power": 66,
+        "function": 7
+      },
+      "expression_shapes": {
+        "N/N": 47,
+        "-N*v": 41,
+        "N*v": 36,
+        "v=-N+N": 27,
+        "-N*v-N": 26,
+        "-N/N": 25,
+        "N-N*v": 21,
+        "-N*v+N": 18,
+        "N-N*v-N": 17,
+        "N/(-N)": 15,
+        "N-N*v+N": 14,
+        "N+N*v-N": 14,
+        "v=N+v": 14,
+        "v=N-N": 14,
+        "N+N*v": 13,
+        "v=N": 13,
+        "v=v+N": 13,
+        "N*v-N": 11,
+        "-N*v+N*v": 11,
+        "v=-N+v": 10,
+        "N+N*v+N": 10,
+        "v=v": 10,
+        "v=N-v": 10,
+        "v=-N-v": 8,
+        "-N*v-N*v": 7,
+        "v=v-N": 7,
+        "N-v": 6,
+        "-v-N": 6,
+        "v=N+N": 6,
+        "-N*v+v": 6
+      }
+    },
+    "polynomials": {
+      "patterns": {
+        "fraction": 244,
+        "power": 221,
+        "arithmetic": 183,
+        "equation": 11,
+        "function": 1
+      },
+      "expression_shapes": {
+        "N/N": 65,
+        "-N/N": 47,
+        "N*v": 29,
+        "v^(N/N)": 28,
+        "N-N*v": 19,
+        "v*v": 19,
+        "v^(-N/N)": 19,
+        "-N*v": 12,
+        "v/v": 10,
+        "N-N*v+N": 9,
+        "N-N*v-N": 8,
+        "N*v+N": 8,
+        "-N*v-N": 7,
+        "N+N*v+N": 7,
+        "N+N*v-N": 7,
+        "N+N*v": 7,
+        "N*v-N": 6,
+        "N-v": 4,
+        "v*v*v": 3,
+        "N*v^N+N*v-N": 3,
+        "-N+N": 3,
+        "v^N": 3,
+        "N+v": 2,
+        "v*v^(-N/N)/v": 2,
+        "v+N": 2,
+        "-v-N": 2,
+        "-N*v+N*v": 2,
+        "v=N": 2,
+        "N*v^N+N*v+N": 2,
+        "v/v^N": 2
       }
     },
     "prealgebra": {
       "patterns": {
-        "equation": 8683,
-        "power": 3032,
-        "arithmetic": 2763,
-        "fraction": 1705,
-        "radical": 360,
-        "function": 115,
-        "inequality": 58,
-        "trigonometry": 8
+        "equation": 16136,
+        "arithmetic": 6606,
+        "power": 5042,
+        "fraction": 3455,
+        "radical": 555,
+        "function": 341,
+        "inequality": 82,
+        "trigonometry": 23,
+        "logarithm": 6
       },
       "expression_shapes": {
-        "N=N": 1865,
-        "v=N": 758,
-        "N^N": 503,
-        "N+N": 466,
-        "N-N": 368,
-        "v+N": 295,
+        "N=N": 3420,
+        "N+N": 1447,
+        "v=N": 1359,
+        "N-N": 1087,
+        "N^N": 876,
+        "(N)/(N)": 614,
+        "v+N": 494,
+        "N-N=N": 480,
+        "v/v": 403,
+        "N+N=N": 358,
+        "N*N=N": 356,
+        "N-v": 301,
         "v=(N,N)": 286,
-        "(N)/(N)": 234,
-        "N-N=N": 205,
-        "N-v": 203,
-        "N*N=N": 194,
-        "N^": 182,
-        "N^N=N": 169,
-        "N+N=N": 167,
-        "v=v": 151,
-        "v-N": 147,
-        "N=N^N": 146,
-        "N/N": 117,
-        "N^v": 100,
+        "v-N": 257,
+        "v=v": 234,
+        "N^N=N": 218,
+        "N^": 188,
+        "N^v": 179,
+        "v+v": 174,
+        "v-v": 162,
+        "N=N^N": 160,
+        "v^N": 158,
+        "=N": 157,
+        "N+N+N": 149,
+        "N/N": 120,
+        "N+N+N=N": 109,
+        "N+v": 98,
+        "v+N=N": 95,
         "N*N={N}": 94,
-        "v={N}": 88,
-        "N-N-N": 66,
-        "N*v": 66,
-        "v+v": 64,
-        "N-N={N}": 62,
-        "N/N=N": 62,
-        "v^N": 60,
-        "N+N+N=N": 58,
-        "v+N=N": 57,
-        "N=N*N": 55
+        "-N": 92
       }
     },
     "precalculus": {
@@ -528,6 +752,14 @@
         "v+N=N": 76,
         "v+v+v": 75,
         "-N*v": 74
+      }
+    },
+    "probability": {
+      "patterns": {
+        "fraction": 91
+      },
+      "expression_shapes": {
+        "N/N": 91
       }
     }
   },
@@ -664,1801 +896,1801 @@
       "noisy": "x 2",
       "normalized": "x^2",
       "reason": "power_space",
-      "count": 9357
+      "count": 14403
     },
     {
       "noisy": "x*2",
       "normalized": "x^2",
       "reason": "power_star",
-      "count": 9357
+      "count": 14403
     },
     {
       "noisy": "x°2",
       "normalized": "x^2",
       "reason": "power_degree_mark",
-      "count": 9357
+      "count": 14403
     },
     {
       "noisy": ") 2",
       "normalized": ")^2",
       "reason": "power_space",
-      "count": 4529
+      "count": 7315
     },
     {
       "noisy": ")*2",
       "normalized": ")^2",
       "reason": "power_star",
-      "count": 4529
+      "count": 7315
     },
     {
       "noisy": ")°2",
       "normalized": ")^2",
       "reason": "power_degree_mark",
-      "count": 4529
-    },
-    {
-      "noisy": "y 2",
-      "normalized": "y^2",
-      "reason": "power_space",
-      "count": 2685
-    },
-    {
-      "noisy": "y*2",
-      "normalized": "y^2",
-      "reason": "power_star",
-      "count": 2685
-    },
-    {
-      "noisy": "y°2",
-      "normalized": "y^2",
-      "reason": "power_degree_mark",
-      "count": 2685
+      "count": 7315
     },
     {
       "noisy": "a 2",
       "normalized": "a^2",
       "reason": "power_space",
-      "count": 2590
+      "count": 4097
     },
     {
       "noisy": "a*2",
       "normalized": "a^2",
       "reason": "power_star",
-      "count": 2590
+      "count": 4097
     },
     {
       "noisy": "a°2",
       "normalized": "a^2",
       "reason": "power_degree_mark",
-      "count": 2590
+      "count": 4097
     },
     {
-      "noisy": "b 2",
-      "normalized": "b^2",
+      "noisy": "y 2",
+      "normalized": "y^2",
       "reason": "power_space",
-      "count": 2063
+      "count": 4083
     },
     {
-      "noisy": "b*2",
-      "normalized": "b^2",
+      "noisy": "y*2",
+      "normalized": "y^2",
       "reason": "power_star",
-      "count": 2063
+      "count": 4083
     },
     {
-      "noisy": "b°2",
-      "normalized": "b^2",
+      "noisy": "y°2",
+      "normalized": "y^2",
       "reason": "power_degree_mark",
-      "count": 2063
+      "count": 4083
     },
     {
       "noisy": "2 2",
       "normalized": "2^2",
       "reason": "power_space",
-      "count": 2010
+      "count": 3502
     },
     {
       "noisy": "2*2",
       "normalized": "2^2",
       "reason": "power_star",
-      "count": 2010
+      "count": 3502
     },
     {
       "noisy": "2°2",
       "normalized": "2^2",
       "reason": "power_degree_mark",
-      "count": 2010
+      "count": 3502
     },
     {
-      "noisy": "x 3",
-      "normalized": "x^3",
+      "noisy": "b 2",
+      "normalized": "b^2",
       "reason": "power_space",
-      "count": 2009
+      "count": 3430
     },
     {
-      "noisy": "x*3",
-      "normalized": "x^3",
+      "noisy": "b*2",
+      "normalized": "b^2",
       "reason": "power_star",
-      "count": 2009
+      "count": 3430
     },
     {
-      "noisy": "x°3",
-      "normalized": "x^3",
+      "noisy": "b°2",
+      "normalized": "b^2",
       "reason": "power_degree_mark",
-      "count": 2009
+      "count": 3430
     },
     {
       "noisy": "1 2",
       "normalized": "1/2",
       "reason": "latex_fraction_missing_bar",
-      "count": 1536
+      "count": 2935
     },
     {
       "noisy": "172",
       "normalized": "1/2",
       "reason": "fraction_bar_read_as_7",
-      "count": 1536
+      "count": 2935
+    },
+    {
+      "noisy": "x 3",
+      "normalized": "x^3",
+      "reason": "power_space",
+      "count": 2902
+    },
+    {
+      "noisy": "x*3",
+      "normalized": "x^3",
+      "reason": "power_star",
+      "count": 2902
+    },
+    {
+      "noisy": "x°3",
+      "normalized": "x^3",
+      "reason": "power_degree_mark",
+      "count": 2902
     },
     {
       "noisy": "3 2",
       "normalized": "3^2",
       "reason": "power_space",
-      "count": 1488
+      "count": 2527
     },
     {
       "noisy": "3*2",
       "normalized": "3^2",
       "reason": "power_star",
-      "count": 1488
+      "count": 2527
     },
     {
       "noisy": "3°2",
       "normalized": "3^2",
       "reason": "power_degree_mark",
-      "count": 1488
+      "count": 2527
     },
     {
       "noisy": "√ 3",
       "normalized": "sqrt(3)",
       "reason": "sqrt_spacing",
-      "count": 1210
+      "count": 1826
     },
     {
       "noisy": "? 3",
       "normalized": "sqrt(3)",
       "reason": "sqrt_marker_noise",
-      "count": 1210
+      "count": 1826
     },
     {
       "noisy": "√ 2",
       "normalized": "sqrt(2)",
       "reason": "sqrt_spacing",
-      "count": 1152
+      "count": 1782
     },
     {
       "noisy": "? 2",
       "normalized": "sqrt(2)",
       "reason": "sqrt_marker_noise",
-      "count": 1152
-    },
-    {
-      "noisy": "x 4",
-      "normalized": "x^4",
-      "reason": "power_space",
-      "count": 1121
-    },
-    {
-      "noisy": "x*4",
-      "normalized": "x^4",
-      "reason": "power_star",
-      "count": 1121
-    },
-    {
-      "noisy": "x°4",
-      "normalized": "x^4",
-      "reason": "power_degree_mark",
-      "count": 1121
-    },
-    {
-      "noisy": "r 2",
-      "normalized": "r^2",
-      "reason": "power_space",
-      "count": 1050
-    },
-    {
-      "noisy": "r*2",
-      "normalized": "r^2",
-      "reason": "power_star",
-      "count": 1050
-    },
-    {
-      "noisy": "r°2",
-      "normalized": "r^2",
-      "reason": "power_degree_mark",
-      "count": 1050
-    },
-    {
-      "noisy": "n 2",
-      "normalized": "n^2",
-      "reason": "power_space",
-      "count": 1047
-    },
-    {
-      "noisy": "n*2",
-      "normalized": "n^2",
-      "reason": "power_star",
-      "count": 1047
-    },
-    {
-      "noisy": "n°2",
-      "normalized": "n^2",
-      "reason": "power_degree_mark",
-      "count": 1047
+      "count": 1782
     },
     {
       "noisy": "5 2",
       "normalized": "5^2",
       "reason": "power_space",
-      "count": 1041
+      "count": 1666
     },
     {
       "noisy": "5*2",
       "normalized": "5^2",
       "reason": "power_star",
-      "count": 1041
+      "count": 1666
     },
     {
       "noisy": "5°2",
       "normalized": "5^2",
       "reason": "power_degree_mark",
-      "count": 1041
+      "count": 1666
+    },
+    {
+      "noisy": "r 2",
+      "normalized": "r^2",
+      "reason": "power_space",
+      "count": 1666
+    },
+    {
+      "noisy": "r*2",
+      "normalized": "r^2",
+      "reason": "power_star",
+      "count": 1666
+    },
+    {
+      "noisy": "r°2",
+      "normalized": "r^2",
+      "reason": "power_degree_mark",
+      "count": 1666
+    },
+    {
+      "noisy": "x 4",
+      "normalized": "x^4",
+      "reason": "power_space",
+      "count": 1534
+    },
+    {
+      "noisy": "x*4",
+      "normalized": "x^4",
+      "reason": "power_star",
+      "count": 1534
+    },
+    {
+      "noisy": "x°4",
+      "normalized": "x^4",
+      "reason": "power_degree_mark",
+      "count": 1534
     },
     {
       "noisy": "1 2",
       "normalized": "1^2",
       "reason": "power_space",
-      "count": 872
+      "count": 1529
     },
     {
       "noisy": "1*2",
       "normalized": "1^2",
       "reason": "power_star",
-      "count": 872
+      "count": 1529
     },
     {
       "noisy": "1°2",
       "normalized": "1^2",
       "reason": "power_degree_mark",
-      "count": 872
+      "count": 1529
     },
     {
-      "noisy": "c 2",
-      "normalized": "c^2",
+      "noisy": "n 2",
+      "normalized": "n^2",
       "reason": "power_space",
-      "count": 868
+      "count": 1524
     },
     {
-      "noisy": "c*2",
-      "normalized": "c^2",
+      "noisy": "n*2",
+      "normalized": "n^2",
       "reason": "power_star",
-      "count": 868
+      "count": 1524
     },
     {
-      "noisy": "c°2",
-      "normalized": "c^2",
+      "noisy": "n°2",
+      "normalized": "n^2",
       "reason": "power_degree_mark",
-      "count": 868
-    },
-    {
-      "noisy": "z 2",
-      "normalized": "z^2",
-      "reason": "power_space",
-      "count": 846
-    },
-    {
-      "noisy": "z*2",
-      "normalized": "z^2",
-      "reason": "power_star",
-      "count": 846
-    },
-    {
-      "noisy": "z°2",
-      "normalized": "z^2",
-      "reason": "power_degree_mark",
-      "count": 846
+      "count": 1524
     },
     {
       "noisy": "2 3",
       "normalized": "2^3",
       "reason": "power_space",
-      "count": 841
+      "count": 1511
     },
     {
       "noisy": "2*3",
       "normalized": "2^3",
       "reason": "power_star",
-      "count": 841
+      "count": 1511
     },
     {
       "noisy": "2°3",
       "normalized": "2^3",
       "reason": "power_degree_mark",
-      "count": 841
+      "count": 1511
+    },
+    {
+      "noisy": "c 2",
+      "normalized": "c^2",
+      "reason": "power_space",
+      "count": 1355
+    },
+    {
+      "noisy": "c*2",
+      "normalized": "c^2",
+      "reason": "power_star",
+      "count": 1355
+    },
+    {
+      "noisy": "c°2",
+      "normalized": "c^2",
+      "reason": "power_degree_mark",
+      "count": 1355
     },
     {
       "noisy": "4 2",
       "normalized": "4^2",
       "reason": "power_space",
-      "count": 768
+      "count": 1263
     },
     {
       "noisy": "4*2",
       "normalized": "4^2",
       "reason": "power_star",
-      "count": 768
+      "count": 1263
     },
     {
       "noisy": "4°2",
       "normalized": "4^2",
       "reason": "power_degree_mark",
-      "count": 768
-    },
-    {
-      "noisy": "s 2",
-      "normalized": "s^2",
-      "reason": "power_space",
-      "count": 737
-    },
-    {
-      "noisy": "s*2",
-      "normalized": "s^2",
-      "reason": "power_star",
-      "count": 737
-    },
-    {
-      "noisy": "s°2",
-      "normalized": "s^2",
-      "reason": "power_degree_mark",
-      "count": 737
-    },
-    {
-      "noisy": "0 2",
-      "normalized": "0^2",
-      "reason": "power_space",
-      "count": 686
-    },
-    {
-      "noisy": "0*2",
-      "normalized": "0^2",
-      "reason": "power_star",
-      "count": 686
-    },
-    {
-      "noisy": "0°2",
-      "normalized": "0^2",
-      "reason": "power_degree_mark",
-      "count": 686
-    },
-    {
-      "noisy": ") 3",
-      "normalized": ")^3",
-      "reason": "power_space",
-      "count": 607
-    },
-    {
-      "noisy": ")*3",
-      "normalized": ")^3",
-      "reason": "power_star",
-      "count": 607
-    },
-    {
-      "noisy": ")°3",
-      "normalized": ")^3",
-      "reason": "power_degree_mark",
-      "count": 607
-    },
-    {
-      "noisy": "6 2",
-      "normalized": "6^2",
-      "reason": "power_space",
-      "count": 572
-    },
-    {
-      "noisy": "6*2",
-      "normalized": "6^2",
-      "reason": "power_star",
-      "count": 572
-    },
-    {
-      "noisy": "6°2",
-      "normalized": "6^2",
-      "reason": "power_degree_mark",
-      "count": 572
-    },
-    {
-      "noisy": "t 2",
-      "normalized": "t^2",
-      "reason": "power_space",
-      "count": 572
-    },
-    {
-      "noisy": "t*2",
-      "normalized": "t^2",
-      "reason": "power_star",
-      "count": 572
-    },
-    {
-      "noisy": "t°2",
-      "normalized": "t^2",
-      "reason": "power_degree_mark",
-      "count": 572
+      "count": 1263
     },
     {
       "noisy": "1 3",
       "normalized": "1/3",
       "reason": "latex_fraction_missing_bar",
-      "count": 538
+      "count": 1202
     },
     {
       "noisy": "173",
       "normalized": "1/3",
       "reason": "fraction_bar_read_as_7",
-      "count": 538
+      "count": 1202
     },
     {
-      "noisy": "2 4",
-      "normalized": "2^4",
+      "noisy": "0 2",
+      "normalized": "0^2",
       "reason": "power_space",
-      "count": 532
+      "count": 1160
     },
     {
-      "noisy": "2*4",
-      "normalized": "2^4",
+      "noisy": "0*2",
+      "normalized": "0^2",
       "reason": "power_star",
-      "count": 532
+      "count": 1160
     },
     {
-      "noisy": "2°4",
-      "normalized": "2^4",
+      "noisy": "0°2",
+      "normalized": "0^2",
       "reason": "power_degree_mark",
-      "count": 532
+      "count": 1160
     },
     {
-      "noisy": "7 2",
-      "normalized": "7^2",
+      "noisy": "z 2",
+      "normalized": "z^2",
       "reason": "power_space",
-      "count": 488
+      "count": 1091
     },
     {
-      "noisy": "7*2",
-      "normalized": "7^2",
+      "noisy": "z*2",
+      "normalized": "z^2",
       "reason": "power_star",
-      "count": 488
+      "count": 1091
     },
     {
-      "noisy": "7°2",
-      "normalized": "7^2",
+      "noisy": "z°2",
+      "normalized": "z^2",
       "reason": "power_degree_mark",
-      "count": 488
+      "count": 1091
     },
     {
-      "noisy": "8 2",
-      "normalized": "8^2",
+      "noisy": "s 2",
+      "normalized": "s^2",
       "reason": "power_space",
-      "count": 483
+      "count": 1047
     },
     {
-      "noisy": "8*2",
-      "normalized": "8^2",
+      "noisy": "s*2",
+      "normalized": "s^2",
       "reason": "power_star",
-      "count": 483
+      "count": 1047
     },
     {
-      "noisy": "8°2",
-      "normalized": "8^2",
+      "noisy": "s°2",
+      "normalized": "s^2",
       "reason": "power_degree_mark",
-      "count": 483
+      "count": 1047
     },
     {
-      "noisy": "k 2",
-      "normalized": "k^2",
+      "noisy": ") 3",
+      "normalized": ")^3",
       "reason": "power_space",
-      "count": 474
+      "count": 1007
     },
     {
-      "noisy": "k*2",
-      "normalized": "k^2",
+      "noisy": ")*3",
+      "normalized": ")^3",
       "reason": "power_star",
-      "count": 474
+      "count": 1007
     },
     {
-      "noisy": "k°2",
-      "normalized": "k^2",
+      "noisy": ")°3",
+      "normalized": ")^3",
       "reason": "power_degree_mark",
-      "count": 474
-    },
-    {
-      "noisy": "a 3",
-      "normalized": "a^3",
-      "reason": "power_space",
-      "count": 456
-    },
-    {
-      "noisy": "a*3",
-      "normalized": "a^3",
-      "reason": "power_star",
-      "count": 456
-    },
-    {
-      "noisy": "a°3",
-      "normalized": "a^3",
-      "reason": "power_degree_mark",
-      "count": 456
-    },
-    {
-      "noisy": "3 3",
-      "normalized": "3^3",
-      "reason": "power_space",
-      "count": 454
-    },
-    {
-      "noisy": "3*3",
-      "normalized": "3^3",
-      "reason": "power_star",
-      "count": 454
-    },
-    {
-      "noisy": "3°3",
-      "normalized": "3^3",
-      "reason": "power_degree_mark",
-      "count": 454
+      "count": 1007
     },
     {
       "noisy": "1 4",
       "normalized": "1/4",
       "reason": "latex_fraction_missing_bar",
-      "count": 447
+      "count": 1001
     },
     {
       "noisy": "174",
       "normalized": "1/4",
       "reason": "fraction_bar_read_as_7",
-      "count": 447
+      "count": 1001
     },
     {
-      "noisy": "√ 5",
-      "normalized": "sqrt(5)",
-      "reason": "sqrt_spacing",
-      "count": 395
+      "noisy": "2 4",
+      "normalized": "2^4",
+      "reason": "power_space",
+      "count": 913
     },
     {
-      "noisy": "? 5",
-      "normalized": "sqrt(5)",
-      "reason": "sqrt_marker_noise",
-      "count": 395
+      "noisy": "2*4",
+      "normalized": "2^4",
+      "reason": "power_star",
+      "count": 913
+    },
+    {
+      "noisy": "2°4",
+      "normalized": "2^4",
+      "reason": "power_degree_mark",
+      "count": 913
+    },
+    {
+      "noisy": "6 2",
+      "normalized": "6^2",
+      "reason": "power_space",
+      "count": 862
+    },
+    {
+      "noisy": "6*2",
+      "normalized": "6^2",
+      "reason": "power_star",
+      "count": 862
+    },
+    {
+      "noisy": "6°2",
+      "normalized": "6^2",
+      "reason": "power_degree_mark",
+      "count": 862
+    },
+    {
+      "noisy": "7 2",
+      "normalized": "7^2",
+      "reason": "power_space",
+      "count": 860
+    },
+    {
+      "noisy": "7*2",
+      "normalized": "7^2",
+      "reason": "power_star",
+      "count": 860
+    },
+    {
+      "noisy": "7°2",
+      "normalized": "7^2",
+      "reason": "power_degree_mark",
+      "count": 860
+    },
+    {
+      "noisy": "3 3",
+      "normalized": "3^3",
+      "reason": "power_space",
+      "count": 857
+    },
+    {
+      "noisy": "3*3",
+      "normalized": "3^3",
+      "reason": "power_star",
+      "count": 857
+    },
+    {
+      "noisy": "3°3",
+      "normalized": "3^3",
+      "reason": "power_degree_mark",
+      "count": 857
+    },
+    {
+      "noisy": "t 2",
+      "normalized": "t^2",
+      "reason": "power_space",
+      "count": 823
+    },
+    {
+      "noisy": "t*2",
+      "normalized": "t^2",
+      "reason": "power_star",
+      "count": 823
+    },
+    {
+      "noisy": "t°2",
+      "normalized": "t^2",
+      "reason": "power_degree_mark",
+      "count": 823
     },
     {
       "noisy": "2 3",
       "normalized": "2/3",
       "reason": "latex_fraction_missing_bar",
-      "count": 373
+      "count": 790
     },
     {
       "noisy": "273",
       "normalized": "2/3",
       "reason": "fraction_bar_read_as_7",
-      "count": 373
+      "count": 790
     },
     {
-      "noisy": "b 3",
-      "normalized": "b^3",
+      "noisy": "8 2",
+      "normalized": "8^2",
       "reason": "power_space",
-      "count": 356
+      "count": 784
     },
     {
-      "noisy": "b*3",
-      "normalized": "b^3",
+      "noisy": "8*2",
+      "normalized": "8^2",
       "reason": "power_star",
-      "count": 356
+      "count": 784
     },
     {
-      "noisy": "b°3",
-      "normalized": "b^3",
+      "noisy": "8°2",
+      "normalized": "8^2",
       "reason": "power_degree_mark",
-      "count": 356
+      "count": 784
     },
     {
-      "noisy": "d 2",
-      "normalized": "d^2",
+      "noisy": "√ 5",
+      "normalized": "sqrt(5)",
+      "reason": "sqrt_spacing",
+      "count": 646
+    },
+    {
+      "noisy": "? 5",
+      "normalized": "sqrt(5)",
+      "reason": "sqrt_marker_noise",
+      "count": 646
+    },
+    {
+      "noisy": "a 3",
+      "normalized": "a^3",
       "reason": "power_space",
-      "count": 350
+      "count": 627
     },
     {
-      "noisy": "d*2",
-      "normalized": "d^2",
+      "noisy": "a*3",
+      "normalized": "a^3",
       "reason": "power_star",
-      "count": 350
+      "count": 627
     },
     {
-      "noisy": "d°2",
-      "normalized": "d^2",
+      "noisy": "a°3",
+      "normalized": "a^3",
       "reason": "power_degree_mark",
-      "count": 350
+      "count": 627
     },
     {
-      "noisy": "2 n",
-      "normalized": "2^n",
+      "noisy": "k 2",
+      "normalized": "k^2",
       "reason": "power_space",
-      "count": 346
+      "count": 624
     },
     {
-      "noisy": "2*n",
-      "normalized": "2^n",
+      "noisy": "k*2",
+      "normalized": "k^2",
       "reason": "power_star",
-      "count": 346
+      "count": 624
     },
     {
-      "noisy": "2°n",
-      "normalized": "2^n",
+      "noisy": "k°2",
+      "normalized": "k^2",
       "reason": "power_degree_mark",
-      "count": 346
+      "count": 624
     },
     {
-      "noisy": "z 3",
-      "normalized": "z^3",
+      "noisy": "X 2",
+      "normalized": "X^2",
       "reason": "power_space",
-      "count": 333
+      "count": 600
     },
     {
-      "noisy": "z*3",
-      "normalized": "z^3",
+      "noisy": "X*2",
+      "normalized": "X^2",
       "reason": "power_star",
-      "count": 333
+      "count": 600
     },
     {
-      "noisy": "z°3",
-      "normalized": "z^3",
+      "noisy": "X°2",
+      "normalized": "X^2",
       "reason": "power_degree_mark",
-      "count": 333
-    },
-    {
-      "noisy": "9 2",
-      "normalized": "9^2",
-      "reason": "power_space",
-      "count": 324
-    },
-    {
-      "noisy": "9*2",
-      "normalized": "9^2",
-      "reason": "power_star",
-      "count": 324
-    },
-    {
-      "noisy": "9°2",
-      "normalized": "9^2",
-      "reason": "power_degree_mark",
-      "count": 324
-    },
-    {
-      "noisy": "y 3",
-      "normalized": "y^3",
-      "reason": "power_space",
-      "count": 305
-    },
-    {
-      "noisy": "y*3",
-      "normalized": "y^3",
-      "reason": "power_star",
-      "count": 305
-    },
-    {
-      "noisy": "y°3",
-      "normalized": "y^3",
-      "reason": "power_degree_mark",
-      "count": 305
+      "count": 600
     },
     {
       "noisy": "3 2",
       "normalized": "3/2",
       "reason": "latex_fraction_missing_bar",
-      "count": 299
+      "count": 596
     },
     {
       "noisy": "372",
       "normalized": "3/2",
       "reason": "fraction_bar_read_as_7",
-      "count": 299
+      "count": 596
     },
     {
-      "noisy": "x 5",
-      "normalized": "x^5",
+      "noisy": "9 2",
+      "normalized": "9^2",
       "reason": "power_space",
-      "count": 293
+      "count": 586
     },
     {
-      "noisy": "x*5",
-      "normalized": "x^5",
+      "noisy": "9*2",
+      "normalized": "9^2",
       "reason": "power_star",
-      "count": 293
+      "count": 586
     },
     {
-      "noisy": "x°5",
-      "normalized": "x^5",
+      "noisy": "9°2",
+      "normalized": "9^2",
       "reason": "power_degree_mark",
-      "count": 293
-    },
-    {
-      "noisy": "5 3",
-      "normalized": "5^3",
-      "reason": "power_space",
-      "count": 282
-    },
-    {
-      "noisy": "5*3",
-      "normalized": "5^3",
-      "reason": "power_star",
-      "count": 282
-    },
-    {
-      "noisy": "5°3",
-      "normalized": "5^3",
-      "reason": "power_degree_mark",
-      "count": 282
-    },
-    {
-      "noisy": "f -1",
-      "normalized": "f^-1",
-      "reason": "power_space",
-      "count": 277
-    },
-    {
-      "noisy": "f*-1",
-      "normalized": "f^-1",
-      "reason": "power_star",
-      "count": 277
-    },
-    {
-      "noisy": "f°-1",
-      "normalized": "f^-1",
-      "reason": "power_degree_mark",
-      "count": 277
-    },
-    {
-      "noisy": "2 6",
-      "normalized": "2^6",
-      "reason": "power_space",
-      "count": 261
-    },
-    {
-      "noisy": "2*6",
-      "normalized": "2^6",
-      "reason": "power_star",
-      "count": 261
-    },
-    {
-      "noisy": "2°6",
-      "normalized": "2^6",
-      "reason": "power_degree_mark",
-      "count": 261
+      "count": 586
     },
     {
       "noisy": "3 4",
       "normalized": "3/4",
       "reason": "latex_fraction_missing_bar",
-      "count": 261
+      "count": 537
     },
     {
       "noisy": "374",
       "normalized": "3/4",
       "reason": "fraction_bar_read_as_7",
-      "count": 261
+      "count": 537
     },
     {
-      "noisy": "p 2",
-      "normalized": "p^2",
+      "noisy": "5 3",
+      "normalized": "5^3",
       "reason": "power_space",
-      "count": 260
+      "count": 516
     },
     {
-      "noisy": "p*2",
-      "normalized": "p^2",
+      "noisy": "5*3",
+      "normalized": "5^3",
       "reason": "power_star",
-      "count": 260
+      "count": 516
     },
     {
-      "noisy": "p°2",
-      "normalized": "p^2",
+      "noisy": "5°3",
+      "normalized": "5^3",
       "reason": "power_degree_mark",
-      "count": 260
+      "count": 516
     },
     {
-      "noisy": "0 3",
-      "normalized": "0^3",
+      "noisy": "2 n",
+      "normalized": "2^n",
       "reason": "power_space",
-      "count": 256
+      "count": 508
     },
     {
-      "noisy": "0*3",
-      "normalized": "0^3",
+      "noisy": "2*n",
+      "normalized": "2^n",
       "reason": "power_star",
-      "count": 256
+      "count": 508
     },
     {
-      "noisy": "0°3",
-      "normalized": "0^3",
+      "noisy": "2°n",
+      "normalized": "2^n",
       "reason": "power_degree_mark",
-      "count": 256
+      "count": 508
     },
     {
-      "noisy": "r 3",
-      "normalized": "r^3",
+      "noisy": "b 3",
+      "normalized": "b^3",
       "reason": "power_space",
-      "count": 251
+      "count": 487
     },
     {
-      "noisy": "r*3",
-      "normalized": "r^3",
+      "noisy": "b*3",
+      "normalized": "b^3",
       "reason": "power_star",
-      "count": 251
+      "count": 487
     },
     {
-      "noisy": "r°3",
-      "normalized": "r^3",
+      "noisy": "b°3",
+      "normalized": "b^3",
       "reason": "power_degree_mark",
-      "count": 251
+      "count": 487
     },
     {
-      "noisy": "x 6",
-      "normalized": "x^6",
+      "noisy": "f -1",
+      "normalized": "f^-1",
       "reason": "power_space",
-      "count": 237
+      "count": 486
     },
     {
-      "noisy": "x*6",
-      "normalized": "x^6",
+      "noisy": "f*-1",
+      "normalized": "f^-1",
       "reason": "power_star",
-      "count": 237
+      "count": 486
     },
     {
-      "noisy": "x°6",
-      "normalized": "x^6",
+      "noisy": "f°-1",
+      "normalized": "f^-1",
       "reason": "power_degree_mark",
-      "count": 237
+      "count": 486
     },
     {
       "noisy": "m 2",
       "normalized": "m^2",
       "reason": "power_space",
-      "count": 229
+      "count": 466
     },
     {
       "noisy": "m*2",
       "normalized": "m^2",
       "reason": "power_star",
-      "count": 229
+      "count": 466
     },
     {
       "noisy": "m°2",
       "normalized": "m^2",
       "reason": "power_degree_mark",
-      "count": 229
+      "count": 466
     },
     {
-      "noisy": "3 4",
-      "normalized": "3^4",
+      "noisy": "x 5",
+      "normalized": "x^5",
       "reason": "power_space",
-      "count": 219
+      "count": 440
     },
     {
-      "noisy": "3*4",
-      "normalized": "3^4",
+      "noisy": "x*5",
+      "normalized": "x^5",
       "reason": "power_star",
-      "count": 219
+      "count": 440
     },
     {
-      "noisy": "3°4",
-      "normalized": "3^4",
+      "noisy": "x°5",
+      "normalized": "x^5",
       "reason": "power_degree_mark",
-      "count": 219
+      "count": 440
     },
     {
-      "noisy": "1 x",
-      "normalized": "1/x",
-      "reason": "latex_fraction_missing_bar",
-      "count": 217
-    },
-    {
-      "noisy": "17x",
-      "normalized": "1/x",
-      "reason": "fraction_bar_read_as_7",
-      "count": 217
-    },
-    {
-      "noisy": "z 4",
-      "normalized": "z^4",
+      "noisy": "d 2",
+      "normalized": "d^2",
       "reason": "power_space",
-      "count": 211
+      "count": 436
     },
     {
-      "noisy": "z*4",
-      "normalized": "z^4",
+      "noisy": "d*2",
+      "normalized": "d^2",
       "reason": "power_star",
-      "count": 211
+      "count": 436
     },
     {
-      "noisy": "z°4",
-      "normalized": "z^4",
+      "noisy": "d°2",
+      "normalized": "d^2",
       "reason": "power_degree_mark",
-      "count": 211
+      "count": 436
     },
     {
-      "noisy": "i 2",
-      "normalized": "i^2",
+      "noisy": "y 3",
+      "normalized": "y^3",
       "reason": "power_space",
-      "count": 210
+      "count": 411
     },
     {
-      "noisy": "i*2",
-      "normalized": "i^2",
+      "noisy": "y*3",
+      "normalized": "y^3",
       "reason": "power_star",
-      "count": 210
+      "count": 411
     },
     {
-      "noisy": "i°2",
-      "normalized": "i^2",
+      "noisy": "y°3",
+      "normalized": "y^3",
       "reason": "power_degree_mark",
-      "count": 210
-    },
-    {
-      "noisy": ") 4",
-      "normalized": ")^4",
-      "reason": "power_space",
-      "count": 207
-    },
-    {
-      "noisy": ")*4",
-      "normalized": ")^4",
-      "reason": "power_star",
-      "count": 207
-    },
-    {
-      "noisy": ")°4",
-      "normalized": ")^4",
-      "reason": "power_degree_mark",
-      "count": 207
-    },
-    {
-      "noisy": "4 3",
-      "normalized": "4^3",
-      "reason": "power_space",
-      "count": 204
-    },
-    {
-      "noisy": "4*3",
-      "normalized": "4^3",
-      "reason": "power_star",
-      "count": 204
-    },
-    {
-      "noisy": "4°3",
-      "normalized": "4^3",
-      "reason": "power_degree_mark",
-      "count": 204
-    },
-    {
-      "noisy": "2 5",
-      "normalized": "2^5",
-      "reason": "power_space",
-      "count": 202
-    },
-    {
-      "noisy": "2*5",
-      "normalized": "2^5",
-      "reason": "power_star",
-      "count": 202
-    },
-    {
-      "noisy": "2°5",
-      "normalized": "2^5",
-      "reason": "power_degree_mark",
-      "count": 202
-    },
-    {
-      "noisy": "2 1",
-      "normalized": "2^1",
-      "reason": "power_space",
-      "count": 191
-    },
-    {
-      "noisy": "2*1",
-      "normalized": "2^1",
-      "reason": "power_star",
-      "count": 191
-    },
-    {
-      "noisy": "2°1",
-      "normalized": "2^1",
-      "reason": "power_degree_mark",
-      "count": 191
-    },
-    {
-      "noisy": "√ 6",
-      "normalized": "sqrt(6)",
-      "reason": "sqrt_spacing",
-      "count": 186
-    },
-    {
-      "noisy": "? 6",
-      "normalized": "sqrt(6)",
-      "reason": "sqrt_marker_noise",
-      "count": 186
-    },
-    {
-      "noisy": "2 x",
-      "normalized": "2^x",
-      "reason": "power_space",
-      "count": 182
-    },
-    {
-      "noisy": "2*x",
-      "normalized": "2^x",
-      "reason": "power_star",
-      "count": 182
-    },
-    {
-      "noisy": "2°x",
-      "normalized": "2^x",
-      "reason": "power_degree_mark",
-      "count": 182
+      "count": 411
     },
     {
       "noisy": "1 6",
       "normalized": "1/6",
       "reason": "latex_fraction_missing_bar",
-      "count": 174
+      "count": 409
     },
     {
       "noisy": "176",
       "normalized": "1/6",
       "reason": "fraction_bar_read_as_7",
-      "count": 174
+      "count": 409
     },
     {
-      "noisy": "a 4",
-      "normalized": "a^4",
+      "noisy": "2 5",
+      "normalized": "2^5",
       "reason": "power_space",
-      "count": 172
+      "count": 404
     },
     {
-      "noisy": "a*4",
-      "normalized": "a^4",
+      "noisy": "2*5",
+      "normalized": "2^5",
       "reason": "power_star",
-      "count": 172
+      "count": 404
     },
     {
-      "noisy": "a°4",
-      "normalized": "a^4",
+      "noisy": "2°5",
+      "normalized": "2^5",
       "reason": "power_degree_mark",
-      "count": 172
+      "count": 404
     },
     {
-      "noisy": "n 3",
-      "normalized": "n^3",
+      "noisy": "3 4",
+      "normalized": "3^4",
       "reason": "power_space",
-      "count": 170
+      "count": 403
     },
     {
-      "noisy": "n*3",
-      "normalized": "n^3",
+      "noisy": "3*4",
+      "normalized": "3^4",
       "reason": "power_star",
-      "count": 170
+      "count": 403
     },
     {
-      "noisy": "n°3",
-      "normalized": "n^3",
+      "noisy": "3°4",
+      "normalized": "3^4",
       "reason": "power_degree_mark",
-      "count": 170
-    },
-    {
-      "noisy": "c 3",
-      "normalized": "c^3",
-      "reason": "power_space",
-      "count": 166
-    },
-    {
-      "noisy": "c*3",
-      "normalized": "c^3",
-      "reason": "power_star",
-      "count": 166
-    },
-    {
-      "noisy": "c°3",
-      "normalized": "c^3",
-      "reason": "power_degree_mark",
-      "count": 166
+      "count": 403
     },
     {
       "noisy": "1 5",
       "normalized": "1/5",
       "reason": "latex_fraction_missing_bar",
-      "count": 165
+      "count": 402
     },
     {
       "noisy": "175",
       "normalized": "1/5",
       "reason": "fraction_bar_read_as_7",
-      "count": 165
+      "count": 402
     },
     {
-      "noisy": "0 a",
-      "normalized": "0^a",
+      "noisy": "2 6",
+      "normalized": "2^6",
       "reason": "power_space",
-      "count": 163
+      "count": 396
     },
     {
-      "noisy": "0*a",
-      "normalized": "0^a",
+      "noisy": "2*6",
+      "normalized": "2^6",
       "reason": "power_star",
-      "count": 163
+      "count": 396
     },
     {
-      "noisy": "0°a",
-      "normalized": "0^a",
+      "noisy": "2°6",
+      "normalized": "2^6",
       "reason": "power_degree_mark",
-      "count": 163
+      "count": 396
+    },
+    {
+      "noisy": "z 3",
+      "normalized": "z^3",
+      "reason": "power_space",
+      "count": 391
+    },
+    {
+      "noisy": "z*3",
+      "normalized": "z^3",
+      "reason": "power_star",
+      "count": 391
+    },
+    {
+      "noisy": "z°3",
+      "normalized": "z^3",
+      "reason": "power_degree_mark",
+      "count": 391
+    },
+    {
+      "noisy": "2 1",
+      "normalized": "2^1",
+      "reason": "power_space",
+      "count": 384
+    },
+    {
+      "noisy": "2*1",
+      "normalized": "2^1",
+      "reason": "power_star",
+      "count": 384
+    },
+    {
+      "noisy": "2°1",
+      "normalized": "2^1",
+      "reason": "power_degree_mark",
+      "count": 384
+    },
+    {
+      "noisy": "0 3",
+      "normalized": "0^3",
+      "reason": "power_space",
+      "count": 373
+    },
+    {
+      "noisy": "0*3",
+      "normalized": "0^3",
+      "reason": "power_star",
+      "count": 373
+    },
+    {
+      "noisy": "0°3",
+      "normalized": "0^3",
+      "reason": "power_degree_mark",
+      "count": 373
+    },
+    {
+      "noisy": "1 x",
+      "normalized": "1/x",
+      "reason": "latex_fraction_missing_bar",
+      "count": 372
+    },
+    {
+      "noisy": "17x",
+      "normalized": "1/x",
+      "reason": "fraction_bar_read_as_7",
+      "count": 372
+    },
+    {
+      "noisy": "r 3",
+      "normalized": "r^3",
+      "reason": "power_space",
+      "count": 364
+    },
+    {
+      "noisy": "r*3",
+      "normalized": "r^3",
+      "reason": "power_star",
+      "count": 364
+    },
+    {
+      "noisy": "r°3",
+      "normalized": "r^3",
+      "reason": "power_degree_mark",
+      "count": 364
+    },
+    {
+      "noisy": "p 2",
+      "normalized": "p^2",
+      "reason": "power_space",
+      "count": 361
+    },
+    {
+      "noisy": "p*2",
+      "normalized": "p^2",
+      "reason": "power_star",
+      "count": 361
+    },
+    {
+      "noisy": "p°2",
+      "normalized": "p^2",
+      "reason": "power_degree_mark",
+      "count": 361
+    },
+    {
+      "noisy": ") 4",
+      "normalized": ")^4",
+      "reason": "power_space",
+      "count": 359
+    },
+    {
+      "noisy": ")*4",
+      "normalized": ")^4",
+      "reason": "power_star",
+      "count": 359
+    },
+    {
+      "noisy": ")°4",
+      "normalized": ")^4",
+      "reason": "power_degree_mark",
+      "count": 359
+    },
+    {
+      "noisy": "4 3",
+      "normalized": "4^3",
+      "reason": "power_space",
+      "count": 354
+    },
+    {
+      "noisy": "4*3",
+      "normalized": "4^3",
+      "reason": "power_star",
+      "count": 354
+    },
+    {
+      "noisy": "4°3",
+      "normalized": "4^3",
+      "reason": "power_degree_mark",
+      "count": 354
     },
     {
       "noisy": "4 3",
       "normalized": "4/3",
       "reason": "latex_fraction_missing_bar",
-      "count": 160
+      "count": 350
     },
     {
       "noisy": "473",
       "normalized": "4/3",
       "reason": "fraction_bar_read_as_7",
-      "count": 160
+      "count": 350
     },
     {
-      "noisy": "\\pi 2",
-      "normalized": "\\pi/2",
-      "reason": "latex_fraction_missing_bar",
-      "count": 160
-    },
-    {
-      "noisy": "\\pi72",
-      "normalized": "\\pi/2",
-      "reason": "fraction_bar_read_as_7",
-      "count": 160
-    },
-    {
-      "noisy": "2 8",
-      "normalized": "2^8",
+      "noisy": "2 x",
+      "normalized": "2^x",
       "reason": "power_space",
-      "count": 157
+      "count": 341
     },
     {
-      "noisy": "2*8",
-      "normalized": "2^8",
+      "noisy": "2*x",
+      "normalized": "2^x",
       "reason": "power_star",
-      "count": 157
+      "count": 341
     },
     {
-      "noisy": "2°8",
-      "normalized": "2^8",
+      "noisy": "2°x",
+      "normalized": "2^x",
       "reason": "power_degree_mark",
-      "count": 157
+      "count": 341
     },
     {
-      "noisy": "6 3",
-      "normalized": "6^3",
+      "noisy": "i 2",
+      "normalized": "i^2",
       "reason": "power_space",
-      "count": 152
+      "count": 330
     },
     {
-      "noisy": "6*3",
-      "normalized": "6^3",
+      "noisy": "i*2",
+      "normalized": "i^2",
       "reason": "power_star",
-      "count": 152
+      "count": 330
     },
     {
-      "noisy": "6°3",
-      "normalized": "6^3",
+      "noisy": "i°2",
+      "normalized": "i^2",
       "reason": "power_degree_mark",
-      "count": 152
+      "count": 330
     },
     {
-      "noisy": "w 2",
-      "normalized": "w^2",
+      "noisy": "x 6",
+      "normalized": "x^6",
       "reason": "power_space",
-      "count": 152
+      "count": 326
     },
     {
-      "noisy": "w*2",
-      "normalized": "w^2",
+      "noisy": "x*6",
+      "normalized": "x^6",
       "reason": "power_star",
-      "count": 152
+      "count": 326
     },
     {
-      "noisy": "w°2",
-      "normalized": "w^2",
+      "noisy": "x°6",
+      "normalized": "x^6",
       "reason": "power_degree_mark",
-      "count": 152
-    },
-    {
-      "noisy": "5 4",
-      "normalized": "5^4",
-      "reason": "power_space",
-      "count": 151
-    },
-    {
-      "noisy": "5*4",
-      "normalized": "5^4",
-      "reason": "power_star",
-      "count": 151
-    },
-    {
-      "noisy": "5°4",
-      "normalized": "5^4",
-      "reason": "power_degree_mark",
-      "count": 151
-    },
-    {
-      "noisy": "3 5",
-      "normalized": "3/5",
-      "reason": "latex_fraction_missing_bar",
-      "count": 150
-    },
-    {
-      "noisy": "375",
-      "normalized": "3/5",
-      "reason": "fraction_bar_read_as_7",
-      "count": 150
-    },
-    {
-      "noisy": "1 3",
-      "normalized": "1^3",
-      "reason": "power_space",
-      "count": 144
-    },
-    {
-      "noisy": "1*3",
-      "normalized": "1^3",
-      "reason": "power_star",
-      "count": 144
-    },
-    {
-      "noisy": "1°3",
-      "normalized": "1^3",
-      "reason": "power_degree_mark",
-      "count": 144
-    },
-    {
-      "noisy": "√ 7",
-      "normalized": "sqrt(7)",
-      "reason": "sqrt_spacing",
-      "count": 140
-    },
-    {
-      "noisy": "? 7",
-      "normalized": "sqrt(7)",
-      "reason": "sqrt_marker_noise",
-      "count": 140
-    },
-    {
-      "noisy": "√ x",
-      "normalized": "sqrt(x)",
-      "reason": "sqrt_spacing",
-      "count": 137
-    },
-    {
-      "noisy": "? x",
-      "normalized": "sqrt(x)",
-      "reason": "sqrt_marker_noise",
-      "count": 137
-    },
-    {
-      "noisy": "4 5",
-      "normalized": "4/5",
-      "reason": "latex_fraction_missing_bar",
-      "count": 135
-    },
-    {
-      "noisy": "475",
-      "normalized": "4/5",
-      "reason": "fraction_bar_read_as_7",
-      "count": 135
+      "count": 326
     },
     {
       "noisy": "3 1",
       "normalized": "3^1",
       "reason": "power_space",
-      "count": 135
+      "count": 322
     },
     {
       "noisy": "3*1",
       "normalized": "3^1",
       "reason": "power_star",
-      "count": 135
+      "count": 322
     },
     {
       "noisy": "3°1",
       "normalized": "3^1",
       "reason": "power_degree_mark",
-      "count": 135
+      "count": 322
+    },
+    {
+      "noisy": "√ 6",
+      "normalized": "sqrt(6)",
+      "reason": "sqrt_spacing",
+      "count": 319
+    },
+    {
+      "noisy": "? 6",
+      "normalized": "sqrt(6)",
+      "reason": "sqrt_marker_noise",
+      "count": 319
+    },
+    {
+      "noisy": "3 5",
+      "normalized": "3/5",
+      "reason": "latex_fraction_missing_bar",
+      "count": 298
+    },
+    {
+      "noisy": "375",
+      "normalized": "3/5",
+      "reason": "fraction_bar_read_as_7",
+      "count": 298
+    },
+    {
+      "noisy": "1 3",
+      "normalized": "1^3",
+      "reason": "power_space",
+      "count": 294
+    },
+    {
+      "noisy": "1*3",
+      "normalized": "1^3",
+      "reason": "power_star",
+      "count": 294
+    },
+    {
+      "noisy": "1°3",
+      "normalized": "1^3",
+      "reason": "power_degree_mark",
+      "count": 294
+    },
+    {
+      "noisy": "w 2",
+      "normalized": "w^2",
+      "reason": "power_space",
+      "count": 280
+    },
+    {
+      "noisy": "w*2",
+      "normalized": "w^2",
+      "reason": "power_star",
+      "count": 280
+    },
+    {
+      "noisy": "w°2",
+      "normalized": "w^2",
+      "reason": "power_degree_mark",
+      "count": 280
     },
     {
       "noisy": "2 5",
       "normalized": "2/5",
       "reason": "latex_fraction_missing_bar",
-      "count": 134
+      "count": 271
     },
     {
       "noisy": "275",
       "normalized": "2/5",
       "reason": "fraction_bar_read_as_7",
-      "count": 134
+      "count": 271
     },
     {
-      "noisy": "5 2",
-      "normalized": "5/2",
-      "reason": "latex_fraction_missing_bar",
-      "count": 133
-    },
-    {
-      "noisy": "572",
-      "normalized": "5/2",
-      "reason": "fraction_bar_read_as_7",
-      "count": 133
-    },
-    {
-      "noisy": "B 2",
-      "normalized": "B^2",
+      "noisy": "2 8",
+      "normalized": "2^8",
       "reason": "power_space",
-      "count": 132
+      "count": 270
     },
     {
-      "noisy": "B*2",
-      "normalized": "B^2",
+      "noisy": "2*8",
+      "normalized": "2^8",
       "reason": "power_star",
-      "count": 132
+      "count": 270
     },
     {
-      "noisy": "B°2",
-      "normalized": "B^2",
+      "noisy": "2°8",
+      "normalized": "2^8",
       "reason": "power_degree_mark",
-      "count": 132
+      "count": 270
     },
     {
-      "noisy": "2 10",
-      "normalized": "2^10",
+      "noisy": "6 3",
+      "normalized": "6^3",
       "reason": "power_space",
-      "count": 128
+      "count": 261
     },
     {
-      "noisy": "2*10",
-      "normalized": "2^10",
+      "noisy": "6*3",
+      "normalized": "6^3",
       "reason": "power_star",
-      "count": 128
+      "count": 261
     },
     {
-      "noisy": "2°10",
-      "normalized": "2^10",
+      "noisy": "6°3",
+      "normalized": "6^3",
       "reason": "power_degree_mark",
-      "count": 128
-    },
-    {
-      "noisy": "y 4",
-      "normalized": "y^4",
-      "reason": "power_space",
-      "count": 128
-    },
-    {
-      "noisy": "y*4",
-      "normalized": "y^4",
-      "reason": "power_star",
-      "count": 128
-    },
-    {
-      "noisy": "y°4",
-      "normalized": "y^4",
-      "reason": "power_degree_mark",
-      "count": 128
-    },
-    {
-      "noisy": "e i",
-      "normalized": "e^i",
-      "reason": "power_space",
-      "count": 124
-    },
-    {
-      "noisy": "e*i",
-      "normalized": "e^i",
-      "reason": "power_star",
-      "count": 124
-    },
-    {
-      "noisy": "e°i",
-      "normalized": "e^i",
-      "reason": "power_degree_mark",
-      "count": 124
-    },
-    {
-      "noisy": "s 3",
-      "normalized": "s^3",
-      "reason": "power_space",
-      "count": 123
-    },
-    {
-      "noisy": "s*3",
-      "normalized": "s^3",
-      "reason": "power_star",
-      "count": 123
-    },
-    {
-      "noisy": "s°3",
-      "normalized": "s^3",
-      "reason": "power_degree_mark",
-      "count": 123
-    },
-    {
-      "noisy": "b 4",
-      "normalized": "b^4",
-      "reason": "power_space",
-      "count": 120
-    },
-    {
-      "noisy": "b*4",
-      "normalized": "b^4",
-      "reason": "power_star",
-      "count": 120
-    },
-    {
-      "noisy": "b°4",
-      "normalized": "b^4",
-      "reason": "power_degree_mark",
-      "count": 120
+      "count": 261
     },
     {
       "noisy": "1 8",
       "normalized": "1/8",
       "reason": "latex_fraction_missing_bar",
-      "count": 119
+      "count": 260
     },
     {
       "noisy": "178",
       "normalized": "1/8",
       "reason": "fraction_bar_read_as_7",
-      "count": 119
+      "count": 260
+    },
+    {
+      "noisy": "n 3",
+      "normalized": "n^3",
+      "reason": "power_space",
+      "count": 255
+    },
+    {
+      "noisy": "n*3",
+      "normalized": "n^3",
+      "reason": "power_star",
+      "count": 255
+    },
+    {
+      "noisy": "n°3",
+      "normalized": "n^3",
+      "reason": "power_degree_mark",
+      "count": 255
+    },
+    {
+      "noisy": "a 4",
+      "normalized": "a^4",
+      "reason": "power_space",
+      "count": 247
+    },
+    {
+      "noisy": "a*4",
+      "normalized": "a^4",
+      "reason": "power_star",
+      "count": 247
+    },
+    {
+      "noisy": "a°4",
+      "normalized": "a^4",
+      "reason": "power_degree_mark",
+      "count": 247
+    },
+    {
+      "noisy": "2 10",
+      "normalized": "2^10",
+      "reason": "power_space",
+      "count": 241
+    },
+    {
+      "noisy": "2*10",
+      "normalized": "2^10",
+      "reason": "power_star",
+      "count": 241
+    },
+    {
+      "noisy": "2°10",
+      "normalized": "2^10",
+      "reason": "power_degree_mark",
+      "count": 241
+    },
+    {
+      "noisy": "4 5",
+      "normalized": "4/5",
+      "reason": "latex_fraction_missing_bar",
+      "count": 231
+    },
+    {
+      "noisy": "475",
+      "normalized": "4/5",
+      "reason": "fraction_bar_read_as_7",
+      "count": 231
+    },
+    {
+      "noisy": "5 4",
+      "normalized": "5^4",
+      "reason": "power_space",
+      "count": 231
+    },
+    {
+      "noisy": "5*4",
+      "normalized": "5^4",
+      "reason": "power_star",
+      "count": 231
+    },
+    {
+      "noisy": "5°4",
+      "normalized": "5^4",
+      "reason": "power_degree_mark",
+      "count": 231
+    },
+    {
+      "noisy": "z 4",
+      "normalized": "z^4",
+      "reason": "power_space",
+      "count": 225
+    },
+    {
+      "noisy": "z*4",
+      "normalized": "z^4",
+      "reason": "power_star",
+      "count": 225
+    },
+    {
+      "noisy": "z°4",
+      "normalized": "z^4",
+      "reason": "power_degree_mark",
+      "count": 225
     },
     {
       "noisy": "a b",
       "normalized": "a/b",
       "reason": "latex_fraction_missing_bar",
-      "count": 115
+      "count": 222
     },
     {
       "noisy": "a7b",
       "normalized": "a/b",
       "reason": "fraction_bar_read_as_7",
-      "count": 115
+      "count": 222
+    },
+    {
+      "noisy": "√ x",
+      "normalized": "sqrt(x)",
+      "reason": "sqrt_spacing",
+      "count": 222
+    },
+    {
+      "noisy": "? x",
+      "normalized": "sqrt(x)",
+      "reason": "sqrt_marker_noise",
+      "count": 222
     },
     {
       "noisy": "5 1",
       "normalized": "5^1",
       "reason": "power_space",
-      "count": 115
+      "count": 218
     },
     {
       "noisy": "5*1",
       "normalized": "5^1",
       "reason": "power_star",
-      "count": 115
+      "count": 218
     },
     {
       "noisy": "5°1",
       "normalized": "5^1",
       "reason": "power_degree_mark",
-      "count": 115
+      "count": 218
     },
     {
-      "noisy": "A 2",
-      "normalized": "A^2",
-      "reason": "power_space",
-      "count": 115
-    },
-    {
-      "noisy": "A*2",
-      "normalized": "A^2",
-      "reason": "power_star",
-      "count": 115
-    },
-    {
-      "noisy": "A°2",
-      "normalized": "A^2",
-      "reason": "power_degree_mark",
-      "count": 115
-    },
-    {
-      "noisy": "2 k",
-      "normalized": "2^k",
-      "reason": "power_space",
-      "count": 114
-    },
-    {
-      "noisy": "2*k",
-      "normalized": "2^k",
-      "reason": "power_star",
-      "count": 114
-    },
-    {
-      "noisy": "2°k",
-      "normalized": "2^k",
-      "reason": "power_degree_mark",
-      "count": 114
-    },
-    {
-      "noisy": "3 5",
-      "normalized": "3^5",
-      "reason": "power_space",
-      "count": 113
-    },
-    {
-      "noisy": "3*5",
-      "normalized": "3^5",
-      "reason": "power_star",
-      "count": 113
-    },
-    {
-      "noisy": "3°5",
-      "normalized": "3^5",
-      "reason": "power_degree_mark",
-      "count": 113
-    },
-    {
-      "noisy": "3 6",
-      "normalized": "3^6",
-      "reason": "power_space",
-      "count": 112
-    },
-    {
-      "noisy": "3*6",
-      "normalized": "3^6",
-      "reason": "power_star",
-      "count": 112
-    },
-    {
-      "noisy": "3°6",
-      "normalized": "3^6",
-      "reason": "power_degree_mark",
-      "count": 112
-    },
-    {
-      "noisy": ") n",
-      "normalized": ")^n",
-      "reason": "power_space",
-      "count": 110
-    },
-    {
-      "noisy": ")*n",
-      "normalized": ")^n",
-      "reason": "power_star",
-      "count": 110
-    },
-    {
-      "noisy": ")°n",
-      "normalized": ")^n",
-      "reason": "power_degree_mark",
-      "count": 110
-    },
-    {
-      "noisy": "√ 10",
-      "normalized": "sqrt(10)",
+      "noisy": "√ 7",
+      "normalized": "sqrt(7)",
       "reason": "sqrt_spacing",
-      "count": 110
+      "count": 212
     },
     {
-      "noisy": "? 10",
-      "normalized": "sqrt(10)",
+      "noisy": "? 7",
+      "normalized": "sqrt(7)",
       "reason": "sqrt_marker_noise",
-      "count": 110
+      "count": 212
     },
     {
-      "noisy": "x 7",
-      "normalized": "x^7",
+      "noisy": "c 3",
+      "normalized": "c^3",
       "reason": "power_space",
-      "count": 109
+      "count": 211
     },
     {
-      "noisy": "x*7",
-      "normalized": "x^7",
+      "noisy": "c*3",
+      "normalized": "c^3",
       "reason": "power_star",
-      "count": 109
+      "count": 211
     },
     {
-      "noisy": "x°7",
-      "normalized": "x^7",
+      "noisy": "c°3",
+      "normalized": "c^3",
       "reason": "power_degree_mark",
-      "count": 109
+      "count": 211
     },
     {
-      "noisy": "x 8",
-      "normalized": "x^8",
-      "reason": "power_space",
-      "count": 108
+      "noisy": "1 a",
+      "normalized": "1/a",
+      "reason": "latex_fraction_missing_bar",
+      "count": 208
     },
     {
-      "noisy": "x*8",
-      "normalized": "x^8",
-      "reason": "power_star",
-      "count": 108
-    },
-    {
-      "noisy": "x°8",
-      "normalized": "x^8",
-      "reason": "power_degree_mark",
-      "count": 108
-    },
-    {
-      "noisy": "C 2",
-      "normalized": "C^2",
-      "reason": "power_space",
-      "count": 108
-    },
-    {
-      "noisy": "C*2",
-      "normalized": "C^2",
-      "reason": "power_star",
-      "count": 108
-    },
-    {
-      "noisy": "C°2",
-      "normalized": "C^2",
-      "reason": "power_degree_mark",
-      "count": 108
-    },
-    {
-      "noisy": "h 2",
-      "normalized": "h^2",
-      "reason": "power_space",
-      "count": 107
-    },
-    {
-      "noisy": "h*2",
-      "normalized": "h^2",
-      "reason": "power_star",
-      "count": 107
-    },
-    {
-      "noisy": "h°2",
-      "normalized": "h^2",
-      "reason": "power_degree_mark",
-      "count": 107
-    },
-    {
-      "noisy": "2 7",
-      "normalized": "2^7",
-      "reason": "power_space",
-      "count": 105
-    },
-    {
-      "noisy": "2*7",
-      "normalized": "2^7",
-      "reason": "power_star",
-      "count": 105
-    },
-    {
-      "noisy": "2°7",
-      "normalized": "2^7",
-      "reason": "power_degree_mark",
-      "count": 105
+      "noisy": "17a",
+      "normalized": "1/a",
+      "reason": "fraction_bar_read_as_7",
+      "count": 208
     },
     {
       "noisy": "7 3",
       "normalized": "7^3",
       "reason": "power_space",
-      "count": 105
+      "count": 205
     },
     {
       "noisy": "7*3",
       "normalized": "7^3",
       "reason": "power_star",
-      "count": 105
+      "count": 205
     },
     {
       "noisy": "7°3",
       "normalized": "7^3",
       "reason": "power_degree_mark",
-      "count": 105
+      "count": 205
+    },
+    {
+      "noisy": "3 5",
+      "normalized": "3^5",
+      "reason": "power_space",
+      "count": 203
+    },
+    {
+      "noisy": "3*5",
+      "normalized": "3^5",
+      "reason": "power_star",
+      "count": 203
+    },
+    {
+      "noisy": "3°5",
+      "normalized": "3^5",
+      "reason": "power_degree_mark",
+      "count": 203
+    },
+    {
+      "noisy": "\\pi 2",
+      "normalized": "\\pi/2",
+      "reason": "latex_fraction_missing_bar",
+      "count": 191
+    },
+    {
+      "noisy": "\\pi72",
+      "normalized": "\\pi/2",
+      "reason": "fraction_bar_read_as_7",
+      "count": 191
+    },
+    {
+      "noisy": "5 2",
+      "normalized": "5/2",
+      "reason": "latex_fraction_missing_bar",
+      "count": 189
+    },
+    {
+      "noisy": "572",
+      "normalized": "5/2",
+      "reason": "fraction_bar_read_as_7",
+      "count": 189
+    },
+    {
+      "noisy": "0 a",
+      "normalized": "0^a",
+      "reason": "power_space",
+      "count": 189
+    },
+    {
+      "noisy": "0*a",
+      "normalized": "0^a",
+      "reason": "power_star",
+      "count": 189
+    },
+    {
+      "noisy": "0°a",
+      "normalized": "0^a",
+      "reason": "power_degree_mark",
+      "count": 189
+    },
+    {
+      "noisy": "B 2",
+      "normalized": "B^2",
+      "reason": "power_space",
+      "count": 188
+    },
+    {
+      "noisy": "B*2",
+      "normalized": "B^2",
+      "reason": "power_star",
+      "count": 188
+    },
+    {
+      "noisy": "B°2",
+      "normalized": "B^2",
+      "reason": "power_degree_mark",
+      "count": 188
+    },
+    {
+      "noisy": "1 b",
+      "normalized": "1/b",
+      "reason": "latex_fraction_missing_bar",
+      "count": 184
+    },
+    {
+      "noisy": "17b",
+      "normalized": "1/b",
+      "reason": "fraction_bar_read_as_7",
+      "count": 184
+    },
+    {
+      "noisy": "√ 10",
+      "normalized": "sqrt(10)",
+      "reason": "sqrt_spacing",
+      "count": 183
+    },
+    {
+      "noisy": "? 10",
+      "normalized": "sqrt(10)",
+      "reason": "sqrt_marker_noise",
+      "count": 183
+    },
+    {
+      "noisy": "2 7",
+      "normalized": "2^7",
+      "reason": "power_space",
+      "count": 182
+    },
+    {
+      "noisy": "2*7",
+      "normalized": "2^7",
+      "reason": "power_star",
+      "count": 182
+    },
+    {
+      "noisy": "2°7",
+      "normalized": "2^7",
+      "reason": "power_degree_mark",
+      "count": 182
+    },
+    {
+      "noisy": "3 6",
+      "normalized": "3^6",
+      "reason": "power_space",
+      "count": 181
+    },
+    {
+      "noisy": "3*6",
+      "normalized": "3^6",
+      "reason": "power_star",
+      "count": 181
+    },
+    {
+      "noisy": "3°6",
+      "normalized": "3^6",
+      "reason": "power_degree_mark",
+      "count": 181
+    },
+    {
+      "noisy": "4 4",
+      "normalized": "4^4",
+      "reason": "power_space",
+      "count": 181
+    },
+    {
+      "noisy": "4*4",
+      "normalized": "4^4",
+      "reason": "power_star",
+      "count": 181
+    },
+    {
+      "noisy": "4°4",
+      "normalized": "4^4",
+      "reason": "power_degree_mark",
+      "count": 181
     },
     {
       "noisy": "a n",
       "normalized": "a^n",
       "reason": "power_space",
-      "count": 104
+      "count": 180
     },
     {
       "noisy": "a*n",
       "normalized": "a^n",
       "reason": "power_star",
-      "count": 104
+      "count": 180
     },
     {
       "noisy": "a°n",
       "normalized": "a^n",
       "reason": "power_degree_mark",
-      "count": 104
+      "count": 180
     },
     {
-      "noisy": "2 9",
-      "normalized": "2^9",
+      "noisy": "A 2",
+      "normalized": "A^2",
       "reason": "power_space",
-      "count": 103
+      "count": 178
     },
     {
-      "noisy": "2*9",
-      "normalized": "2^9",
+      "noisy": "A*2",
+      "normalized": "A^2",
       "reason": "power_star",
-      "count": 103
+      "count": 178
     },
     {
-      "noisy": "2°9",
-      "normalized": "2^9",
+      "noisy": "A°2",
+      "normalized": "A^2",
       "reason": "power_degree_mark",
-      "count": 103
+      "count": 178
     },
     {
-      "noisy": "0 4",
-      "normalized": "0^4",
+      "noisy": "y 4",
+      "normalized": "y^4",
       "reason": "power_space",
-      "count": 101
+      "count": 178
     },
     {
-      "noisy": "0*4",
-      "normalized": "0^4",
+      "noisy": "y*4",
+      "normalized": "y^4",
       "reason": "power_star",
-      "count": 101
+      "count": 178
     },
     {
-      "noisy": "0°4",
-      "normalized": "0^4",
+      "noisy": "y°4",
+      "normalized": "y^4",
       "reason": "power_degree_mark",
-      "count": 101
+      "count": 178
     },
     {
-      "noisy": "R 2",
-      "normalized": "R^2",
+      "noisy": "1 10",
+      "normalized": "1/10",
+      "reason": "latex_fraction_missing_bar",
+      "count": 177
+    },
+    {
+      "noisy": "1710",
+      "normalized": "1/10",
+      "reason": "fraction_bar_read_as_7",
+      "count": 177
+    },
+    {
+      "noisy": "5 6",
+      "normalized": "5/6",
+      "reason": "latex_fraction_missing_bar",
+      "count": 176
+    },
+    {
+      "noisy": "576",
+      "normalized": "5/6",
+      "reason": "fraction_bar_read_as_7",
+      "count": 176
+    },
+    {
+      "noisy": ") n",
+      "normalized": ")^n",
       "reason": "power_space",
-      "count": 100
+      "count": 175
     },
     {
-      "noisy": "R*2",
-      "normalized": "R^2",
+      "noisy": ")*n",
+      "normalized": ")^n",
       "reason": "power_star",
-      "count": 100
+      "count": 175
     },
     {
-      "noisy": "R°2",
-      "normalized": "R^2",
+      "noisy": ")°n",
+      "normalized": ")^n",
       "reason": "power_degree_mark",
-      "count": 100
+      "count": 175
+    },
+    {
+      "noisy": "9 3",
+      "normalized": "9^3",
+      "reason": "power_space",
+      "count": 175
+    },
+    {
+      "noisy": "9*3",
+      "normalized": "9^3",
+      "reason": "power_star",
+      "count": 175
+    },
+    {
+      "noisy": "9°3",
+      "normalized": "9^3",
+      "reason": "power_degree_mark",
+      "count": 175
+    },
+    {
+      "noisy": "s 3",
+      "normalized": "s^3",
+      "reason": "power_space",
+      "count": 166
+    },
+    {
+      "noisy": "s*3",
+      "normalized": "s^3",
+      "reason": "power_star",
+      "count": 166
+    },
+    {
+      "noisy": "s°3",
+      "normalized": "s^3",
+      "reason": "power_degree_mark",
+      "count": 166
+    },
+    {
+      "noisy": "b 4",
+      "normalized": "b^4",
+      "reason": "power_space",
+      "count": 165
+    },
+    {
+      "noisy": "b*4",
+      "normalized": "b^4",
+      "reason": "power_star",
+      "count": 165
+    },
+    {
+      "noisy": "b°4",
+      "normalized": "b^4",
+      "reason": "power_degree_mark",
+      "count": 165
     },
     {
       "noisy": "q 2",
       "normalized": "q^2",
       "reason": "power_space",
-      "count": 99
+      "count": 164
     },
     {
       "noisy": "q*2",
       "normalized": "q^2",
       "reason": "power_star",
-      "count": 99
+      "count": 164
     },
     {
       "noisy": "q°2",
       "normalized": "q^2",
       "reason": "power_degree_mark",
-      "count": 99
+      "count": 164
+    },
+    {
+      "noisy": "1 9",
+      "normalized": "1/9",
+      "reason": "latex_fraction_missing_bar",
+      "count": 157
+    },
+    {
+      "noisy": "179",
+      "normalized": "1/9",
+      "reason": "fraction_bar_read_as_7",
+      "count": 157
+    },
+    {
+      "noisy": "2 0",
+      "normalized": "2^0",
+      "reason": "power_space",
+      "count": 154
+    },
+    {
+      "noisy": "2*0",
+      "normalized": "2^0",
+      "reason": "power_star",
+      "count": 154
+    },
+    {
+      "noisy": "2°0",
+      "normalized": "2^0",
+      "reason": "power_degree_mark",
+      "count": 154
+    },
+    {
+      "noisy": "2 k",
+      "normalized": "2^k",
+      "reason": "power_space",
+      "count": 151
+    },
+    {
+      "noisy": "2*k",
+      "normalized": "2^k",
+      "reason": "power_star",
+      "count": 151
+    },
+    {
+      "noisy": "2°k",
+      "normalized": "2^k",
+      "reason": "power_degree_mark",
+      "count": 151
+    },
+    {
+      "noisy": "3 8",
+      "normalized": "3/8",
+      "reason": "latex_fraction_missing_bar",
+      "count": 149
+    },
+    {
+      "noisy": "378",
+      "normalized": "3/8",
+      "reason": "fraction_bar_read_as_7",
+      "count": 149
     }
   ],
   "runtime_rules": [

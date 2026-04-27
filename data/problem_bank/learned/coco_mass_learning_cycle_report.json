@@ -1,0 +1,197 @@
+{
+  "schema_version": "coco_mass_learning_cycle_report.v1",
+  "generated_at": "2026-04-25T09:33:52+00:00",
+  "project_root": "/Volumes/마중나 도킹스테이션/atoll_project",
+  "success": false,
+  "elapsed_seconds": 43.263,
+  "options": {
+    "actual_ocr_layout": "expression",
+    "actual_ocr_limit": 42,
+    "actual_ocr_max_cases": 36,
+    "actual_ocr_per_grade": 3,
+    "deepmind_per_module": 10,
+    "deepmind_seed": 42,
+    "dry_run": false,
+    "keep_going": true,
+    "metamath_limit": 20000,
+    "ocr_max_cases": 180,
+    "ocr_per_bank": 60,
+    "ocr_per_reason": 40,
+    "python": "venv_clean/bin/python",
+    "report": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_mass_learning_cycle_report.json",
+    "skip_actual_ocr": false,
+    "skip_import": true,
+    "skip_ocr_regression": false,
+    "skip_tests": false
+  },
+  "summary": {
+    "step_count": 5,
+    "failed_step_count": 1,
+    "failed_steps": [
+      "Run unit test suite"
+    ],
+    "catalog": {
+      "path": "data/problem_bank/catalog.json",
+      "bank_count": 5,
+      "total_records": 53320,
+      "by_bank": {
+        "competition_math": 12500,
+        "deepmind_mathematics": 2028,
+        "gsm8k": 8792,
+        "metamathqa": 20000,
+        "tal_scq5k": 10000
+      },
+      "updated_at": "2026-04-25T05:38:31+00:00"
+    },
+    "learned": {
+      "problem_generation_profile": {
+        "path": "data/problem_bank/learned/coco_problem_generation_profile.json",
+        "total_records": 53320,
+        "domain_count": 15
+      },
+      "math_normalization_profile": {
+        "path": "data/problem_bank/learned/coco_math_normalization_profile.json",
+        "total_records": 53320,
+        "runtime_rule_count": 120,
+        "ocr_confusion_pair_count": 300
+      },
+      "ocr_regression_cases": {
+        "path": "data/problem_bank/learned/coco_ocr_regression_cases.json",
+        "coverage": {
+          "case_count": 146,
+          "by_reason": {
+            "latex_runtime_rewrite": 30,
+            "log_read_as_108": 27,
+            "log_spacing": 27,
+            "power_degree_mark": 32,
+            "sqrt_spacing": 30
+          },
+          "by_bank": {
+            "competition_math": 50,
+            "deepmind_mathematics": 2,
+            "metamathqa": 50,
+            "tal_scq5k": 44
+          },
+          "by_subject": {
+            "algebra": 127,
+            "counting_probability": 4,
+            "number_theory": 7,
+            "prealgebra": 8
+          }
+        }
+      },
+      "actual_ocr_cases": {
+        "path": "data/problem_bank/learned/coco_ocr_actual_cases.json",
+        "coverage": {
+          "case_count": 28,
+          "pending_count": 8,
+          "by_grade": {
+            "고등1": 2,
+            "고등2": 3,
+            "중등1": 3,
+            "중등3": 2,
+            "초등1": 3,
+            "초등2": 3,
+            "초등3": 3,
+            "초등4": 3,
+            "초등5": 3,
+            "초등6": 3
+          },
+          "by_ocr_source": {
+            "pipeline_raw_text": 28
+          }
+        }
+      }
+    }
+  },
+  "steps": [
+    {
+      "name": "Build problem generation profile",
+      "command": [
+        "venv_clean/bin/python",
+        "scripts/build_problem_generation_profile.py"
+      ],
+      "command_text": "venv_clean/bin/python scripts/build_problem_generation_profile.py",
+      "started_at": "2026-04-25T09:33:09+00:00",
+      "status": "passed",
+      "returncode": 0,
+      "elapsed_seconds": 2.195,
+      "stdout_tail": "profile=/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_generation_profile.json\ntotal_records=53320\ndomains=15\ndefault=arithmetic_word_problem level 2\n",
+      "stderr_tail": ""
+    },
+    {
+      "name": "Build math normalization profile",
+      "command": [
+        "venv_clean/bin/python",
+        "scripts/build_math_normalization_profile.py"
+      ],
+      "command_text": "venv_clean/bin/python scripts/build_math_normalization_profile.py",
+      "started_at": "2026-04-25T09:33:11+00:00",
+      "status": "passed",
+      "returncode": 0,
+      "elapsed_seconds": 10.909,
+      "stdout_tail": "profile=/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_math_normalization_profile.json\ntotal_records=53320\nruntime_rules=120\nocr_confusion_pairs=300\n",
+      "stderr_tail": ""
+    },
+    {
+      "name": "Build OCR normalization regression set",
+      "command": [
+        "venv_clean/bin/python",
+        "scripts/build_ocr_normalization_regression.py",
+        "--max-cases",
+        "180",
+        "--per-reason",
+        "40",
+        "--per-bank",
+        "60"
+      ],
+      "command_text": "venv_clean/bin/python scripts/build_ocr_normalization_regression.py --max-cases 180 --per-reason 40 --per-bank 60",
+      "started_at": "2026-04-25T09:33:22+00:00",
+      "status": "passed",
+      "returncode": 0,
+      "elapsed_seconds": 9.857,
+      "stdout_tail": "output=/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_ocr_regression_cases.json\ncase_count=146\nby_reason={'latex_runtime_rewrite': 30, 'log_read_as_108': 27, 'log_spacing': 27, 'power_degree_mark': 32, 'sqrt_spacing': 30}\nby_bank={'competition_math': 50, 'deepmind_mathematics': 2, 'metamathqa': 50, 'tal_scq5k': 44}\n",
+      "stderr_tail": ""
+    },
+    {
+      "name": "Capture actual OCR regression cases",
+      "command": [
+        "venv_clean/bin/python",
+        "scripts/capture_actual_ocr_regression_cases.py",
+        "--per-grade",
+        "3",
+        "--limit",
+        "42",
+        "--max-cases",
+        "36",
+        "--layout",
+        "expression"
+      ],
+      "command_text": "venv_clean/bin/python scripts/capture_actual_ocr_regression_cases.py --per-grade 3 --limit 42 --max-cases 36 --layout expression",
+      "started_at": "2026-04-25T09:33:32+00:00",
+      "status": "passed",
+      "returncode": 0,
+      "elapsed_seconds": 13.626,
+      "stdout_tail": "output=/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_ocr_actual_cases.json\ncase_count=28\npending_count=8\nby_grade={'고등1': 2, '고등2': 3, '중등1': 3, '중등3': 2, '초등1': 3, '초등2': 3, '초등3': 3, '초등4': 3, '초등5': 3, '초등6': 3}\nby_ocr_source={'pipeline_raw_text': 28}\n",
+      "stderr_tail": ""
+    },
+    {
+      "name": "Run unit test suite",
+      "command": [
+        "venv_clean/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "command_text": "venv_clean/bin/python -m unittest discover -s tests",
+      "started_at": "2026-04-25T09:33:46+00:00",
+      "status": "failed",
+      "returncode": 1,
+      "elapsed_seconds": 6.674,
+      "stdout_tail": "",
+      "stderr_tail": "...............................................................................F...................................\n======================================================================\nFAIL: test_actual_ocr_capture_cases_have_grade_coverage (test_ocr_normalization_regression.OCRNormalizationRegressionTests.test_actual_ocr_capture_cases_have_grade_coverage)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Volumes/마중나 도킹스테이션/atoll_project/tests/test_ocr_normalization_regression.py\", line 56, in test_actual_ocr_capture_cases_have_grade_coverage\n    self.assertGreaterEqual(coverage[\"case_count\"], 30)\nAssertionError: 28 not greater than or equal to 30\n\n----------------------------------------------------------------------\nRan 115 tests in 3.647s\n\nFAILED (failures=1)\n"
+    }
+  ]
+}

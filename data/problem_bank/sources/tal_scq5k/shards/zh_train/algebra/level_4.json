@@ -1,0 +1,2964 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:00213",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 213,
+      "split": "zh_train",
+      "source_problem_id": "43dded80564d4547ae77fb5c842e6c1b"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "袋子中有黑、白两种颜色的棋子，黑子的个数是白子个数的$$2$$倍，每次从袋中同时取出$$3$$个黑子和$$2$$个白子．某次取完后，白子剩下$$1$$个，黑子剩下$$31$$个，则袋中原有黑子~\\uline{~~~~~~~~~~}~个．\n(A) 120\n(B) 119\n(C) 118\n(D) 117",
+      "problem_plain": "袋子中有黑、白两种颜色的棋子，黑子的个数是白子个数的 2 倍，每次从袋中同时取出 3 个黑子和 2 个白子．某次取完后，白子剩下 1 个，黑子剩下 31 个，则袋中原有黑子~ ~~~~~~~~~~ ~个． (A) 120 (B) 119 (C) 118 (D) 117",
+      "solution_latex": "黑子个数$$=$$白子个数$$\\times 2$$；黑子个数$$=$$次数$$\\times 3+31$$，白子个数$$=$$次数$$\\times 2+1$$；  设取的次数为$$x$$次，则白子有($$2x+1$$)个，黑子有($$3x+31$$)个，  由题意得$$2\\times (2x+1)=3x+31$$，  解得$$x=29$$，  则袋子中原有黑子$$3\\times 29+31=118$$（个）．  假设黑子每次取的个数也是白子的$$2$$倍，即黑子每次取$$2\\times2=4$$（个），白子每次取$$2$$个，则：  $$(31-1\\times2)\\div(2\\times2-3)$$  $$=29\\div1$$  $$=29$$（次）  $$3\\times29+31$$  $$=87+31$$  $$=118$$（个）．  答：袋中原有黑子 $$118$$个．",
+      "solution_plain": "黑子个数 = 白子个数 2 ；黑子个数 = 次数 3+31 ，白子个数 = 次数 2+1 ； 设取的次数为 x 次，则白子有( 2x+1 )个，黑子有( 3x+31 )个， 由题意得 2 (2x+1)=3x+31 ， 解得 x=29 ， 则袋子中原有黑子 3 29+31=118 （个）． 假设黑子每次取的个数也是白子的 2 倍，即黑子每次取 2 2=4 （个），白子每次取 2 个，则： (31-1 2) (2 2-3) =29 1 =29 （次） 3 29+31 =87+31 =118 （个）． 答：袋中原有黑子 118 个．"
+    },
+    "answer": {
+      "final_raw": "118",
+      "final_normalized": "118",
+      "candidates": [
+        "118",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "黑子个数$$=$$白子个数$$\\times 2$$；黑子个数$$=$$次数$$\\times 3+31$$，白子个数$$=$$次数$$\\times 2+1$$；  设取的次数为$$x$$次，则白子有($$2x+1$$)个，黑子有($$3x+31$$)个，  由题意得$$2\\times (2x+1)=3x+31$$，  解得$$x=29$$，  则袋子中原有黑子$$3\\times 29+31=118$$（个）．  假设黑子每次取的个数也是白子的$$2$$倍，即黑子每次取$$2\\times2=4$$（个），白子每次取$$2$$个，则：  $$(31-1\\times2)\\div(2\\times2-3)$$  $$=29\\div1$$  $$=29$$（次）  $$3\\times29+31$$  $$=87+31$$  $$=118$$（个）．  答：袋中原有黑子 $$118$$个．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "袋子中有黑、白两种颜色的棋子，黑子的个数是白子个数的 2 倍，每次从袋中同时取出 3 个黑子和 2 个白子．某次取完后，白子剩下 1 个，黑子剩下 31 个，则袋中原有黑子~ ~~~~~~~~~~ ~个． (A) 120 (B) 119 (C) 118 (D) 117",
+      "solution_text": "黑子个数 = 白子个数 2 ；黑子个数 = 次数 3+31 ，白子个数 = 次数 2+1 ； 设取的次数为 x 次，则白子有( 2x+1 )个，黑子有( 3x+31 )个， 由题意得 2 (2x+1)=3x+31 ， 解得 x=29 ， 则袋子中原有黑子 3 29+31=118 （个）． 假设黑子每次取的个数也是白子的 2 倍，即黑子每次取 2 2=4 （个），白子每次取 2 个，则： (31-1 2) (2 2-3) =29 1 =29 （次） 3 29+31 =87+31 =118 （个）． 答：袋中原有黑子 118 个．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1430",
+        "queId": "43dded80564d4547ae77fb5c842e6c1b",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "120"
+          },
+          {
+            "label": "B",
+            "content": "119"
+          },
+          {
+            "label": "C",
+            "content": "118"
+          },
+          {
+            "label": "D",
+            "content": "117"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->拓展思维->应用题模块->列方程解应用题->一元一次方程解应用题"
+        ],
+        "competition_source_list": [
+          "2017年第15届全国希望杯小学中年级四年级竞赛第1试试题第19题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:00934",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 934,
+      "split": "zh_train",
+      "source_problem_id": "66514b59aebd43be92395ef7f85e3f04"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "黑板上有$$1\\sim 2013$$共$$2013$$个数，每次可以擦掉其中两个数，并且写上这两数之和的数字和．已知黑板上剩下四个数，其乘积为$$27$$，那么这四位数的和是（~ ）．\n(A) 10\n(B) 14\n(C) 30\n(D) 18",
+      "problem_plain": "黑板上有 1 2013 共 2013 个数，每次可以擦掉其中两个数，并且写上这两数之和的数字和．已知黑板上剩下四个数，其乘积为 27 ，那么这四位数的和是（~ ）． (A) 10 (B) 14 (C) 30 (D) 18",
+      "solution_latex": "一个数除以$$9$$的余数等于这个数各个数字之和除以$$9$$的余数，每次操作将数的和变为数字和，不改变除以$$9$$的余数，$$1+2+3+\\cdots +2013=2014\\times 2013\\div 2=1007\\times 2013$$，$$1007$$除以$$9$$的余数相同，余数为$$3$$，那么最后剩下的四个数字的和除以$$9$$也是余$$3$$的；将$$27$$拆分成四个数的乘积；$$27=3\\times 3\\times 3\\times 1=3\\times 9\\times 1\\times 1=27\\times 1\\times 1\\times 1$$，和分别为$$10$$，$$14$$，$$30$$，只有$$30$$除以$$9$$余数为$$3$$，所以四个数的和为$$30$$．",
+      "solution_plain": "一个数除以 9 的余数等于这个数各个数字之和除以 9 的余数，每次操作将数的和变为数字和，不改变除以 9 的余数， 1+2+3+ +2013=2014 2013 2=1007 2013 ， 1007 除以 9 的余数相同，余数为 3 ，那么最后剩下的四个数字的和除以 9 也是余 3 的；将 27 拆分成四个数的乘积； 27=3 3 3 1=3 9 1 1=27 1 1 1 ，和分别为 10 ， 14 ， 30 ，只有 30 除以 9 余数为 3 ，所以四个数的和为 30 ．"
+    },
+    "answer": {
+      "final_raw": "30",
+      "final_normalized": "30",
+      "candidates": [
+        "30",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "一个数除以$$9$$的余数等于这个数各个数字之和除以$$9$$的余数，每次操作将数的和变为数字和，不改变除以$$9$$的余数，$$1+2+3+\\cdots +2013=2014\\times 2013\\div 2=1007\\times 2013$$，$$1007$$除以$$9$$的余数相同，余数为$$3$$，那么最后剩下的四个数字的和除以$$9$$也是余$$3$$的；将$$27$$拆分成四个数的乘积；$$27=3\\times 3\\times 3\\times 1=3\\times 9\\times 1\\times 1=27\\times 1\\times 1\\times 1$$，和分别为$$10$$，$$14$$，$$30$$，只有$$30$$除以$$9$$余数为$$3$$，所以四个数的和为$$30$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "黑板上有 1 2013 共 2013 个数，每次可以擦掉其中两个数，并且写上这两数之和的数字和．已知黑板上剩下四个数，其乘积为 27 ，那么这四位数的和是（~ ）． (A) 10 (B) 14 (C) 30 (D) 18",
+      "solution_text": "一个数除以 9 的余数等于这个数各个数字之和除以 9 的余数，每次操作将数的和变为数字和，不改变除以 9 的余数， 1+2+3+ +2013=2014 2013 2=1007 2013 ， 1007 除以 9 的余数相同，余数为 3 ，那么最后剩下的四个数字的和除以 9 也是余 3 的；将 27 拆分成四个数的乘积； 27=3 3 3 1=3 9 1 1=27 1 1 1 ，和分别为 10 ， 14 ， 30 ，只有 30 除以 9 余数为 3 ，所以四个数的和为 30 ．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "558",
+        "queId": "66514b59aebd43be92395ef7f85e3f04",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "14"
+          },
+          {
+            "label": "C",
+            "content": "30"
+          },
+          {
+            "label": "D",
+            "content": "18"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->逻辑分析->代数逻辑推理"
+        ],
+        "competition_source_list": [
+          "2016年创新杯五年级竞赛训练题（一）第6题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:01544",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1544,
+      "split": "zh_train",
+      "source_problem_id": "dd376ed13120437498ae8455d620befe"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "小聪赶着一头猪到山外的生猪收购站去卖．过秤知猪重$$150$$斤，他和收购站的工作人员有如下对话：  收购员：你这头猪肚子这么大有这么重，是不是故意让猪吃了很咸的猪食，然后大量喝水造成的？不收！  小聪：我们家有诚信的家风，绝不会这样！请收购吧，我走了很远的山路猜到这里．  收购员：如果马上收购，猪的重量要打九折，如果你明天早上来，当面再称的重量，收购价提高两成五，两种选择由你来决定！  请帮助小聪做出选择，并说明原因．\n(A) 第一种\n(B) 第二种",
+      "problem_plain": "小聪赶着一头猪到山外的生猪收购站去卖．过秤知猪重 150 斤，他和收购站的工作人员有如下对话： 收购员：你这头猪肚子这么大有这么重，是不是故意让猪吃了很咸的猪食，然后大量喝水造成的？不收！ 小聪：我们家有诚信的家风，绝不会这样！请收购吧，我走了很远的山路猜到这里． 收购员：如果马上收购，猪的重量要打九折，如果你明天早上来，当面再称的重量，收购价提高两成五，两种选择由你来决定！ 请帮助小聪做出选择，并说明原因． (A) 第一种 (B) 第二种",
+      "solution_latex": "设收购价为$$a$$元/斤，则第二天``保本''情况下，猪的重量应为 $$0.9\\times 150a\\div \\left[ a\\left( 1+25 \\% \\right) \\right]=0.9\\times 150a\\div 1.25a=108$$（斤） 就是说，及时猪的重量减轻了$$42$$斤，也能``保本''，也比第一种选择好，根据生活经验可知，一夜之后猪的重量不可能减轻$$42$$斤，所以应该果断选择第二种！",
+      "solution_plain": "设收购价为 a 元/斤，则第二天``保本''情况下，猪的重量应为 0.9 150a [ a ( 1+25 % ) ]=0.9 150a 1.25a=108 （斤） 就是说，及时猪的重量减轻了 42 斤，也能``保本''，也比第一种选择好，根据生活经验可知，一夜之后猪的重量不可能减轻 42 斤，所以应该果断选择第二种！"
+    },
+    "answer": {
+      "final_raw": "第二种",
+      "final_normalized": "第二种",
+      "candidates": [
+        "B",
+        "第二种"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设收购价为$$a$$元/斤，则第二天``保本''情况下，猪的重量应为 $$0.9\\times 150a\\div \\left[ a\\left( 1+25 \\% \\right) \\right]=0.9\\times 150a\\div 1.25a=108$$（斤） 就是说，及时猪的重量减轻了$$42$$斤，也能``保本''，也比第一种选择好，根据生活经验可知，一夜之后猪的重量不可能减轻$$42$$斤，所以应该果断选择第二种！"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "小聪赶着一头猪到山外的生猪收购站去卖．过秤知猪重 150 斤，他和收购站的工作人员有如下对话： 收购员：你这头猪肚子这么大有这么重，是不是故意让猪吃了很咸的猪食，然后大量喝水造成的？不收！ 小聪：我们家有诚信的家风，绝不会这样！请收购吧，我走了很远的山路猜到这里． 收购员：如果马上收购，猪的重量要打九折，如果你明天早上来，当面再称的重量，收购价提高两成五，两种选择由你来决定！ 请帮助小聪做出选择，并说明原因． (A) 第一种 (B) 第二种",
+      "solution_text": "设收购价为 a 元/斤，则第二天``保本''情况下，猪的重量应为 0.9 150a [ a ( 1+25 % ) ]=0.9 150a 1.25a=108 （斤） 就是说，及时猪的重量减轻了 42 斤，也能``保本''，也比第一种选择好，根据生活经验可知，一夜之后猪的重量不可能减轻 42 斤，所以应该果断选择第二种！",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2048",
+        "queId": "dd376ed13120437498ae8455d620befe",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "第一种"
+          },
+          {
+            "label": "B",
+            "content": "第二种"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->应用题模块->列方程解应用题->一元一次方程解应用题->方程法解其他问题"
+        ],
+        "competition_source_list": [
+          "2017年全国希望杯小学高年级五年级竞赛初赛考前100题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02009",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2009,
+      "split": "zh_train",
+      "source_problem_id": "c69c8cf026b14bc1af3e8042e3aa11e2"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "若函数$$y=\\frac{1}{2}({{x}^{2}}-100x+196+\\textbar{{x}^{2}}-100x+196\\textbar)$$，则当自变量$$x$$取$$1$$，$$2$$，$$3$$，$$\\ldots$$，$$100$$这$$100$$个自然数时，函数值的和是．\n(A) 540\n(B) 390\n(C) 194\n(D) 195\n(E) 197",
+      "problem_plain": "若函数 y= 1 2 ( x ^ 2 -100x+196+ x ^ 2 -100x+196 ) ，则当自变量 x 取 1 ， 2 ， 3 ， ， 100 这 100 个自然数时，函数值的和是． (A) 540 (B) 390 (C) 194 (D) 195 (E) 197",
+      "solution_latex": "$${{x}^{2}}-100x+196=(x-2)(x-98)$$，  ∴当$$2\\leqslant x\\leqslant 98$$时，$${{x}^{2}}-100x+196\\textless{}0$$，$$\\textbar{{x}^{2}}-100x+196\\textbar=-({{x}^{2}}-100x+196)$$．  ∴当自变量$$x$$取$$2$$，$$3$$，$$\\ldots$$，$$98$$时，函数值都为$$0$$．  而当$$x$$取$$1$$，$$99$$，$$100$$时，$$\\textbar{{x}^{2}}-100x+196\\textbar={{x}^{2}}-100x+196$$，  故所求的和为：$$y(1)+y(99)+y(100)=390$$，故选择$$\\text{B}$$．",
+      "solution_plain": "x ^ 2 -100x+196=(x-2)(x-98) ， ∴当 2 x 98 时， x ^ 2 -100x+196 0 ， x ^ 2 -100x+196 =-( x ^ 2 -100x+196) ． ∴当自变量 x 取 2 ， 3 ， ， 98 时，函数值都为 0 ． 而当 x 取 1 ， 99 ， 100 时， x ^ 2 -100x+196 = x ^ 2 -100x+196 ， 故所求的和为： y(1)+y(99)+y(100)=390 ，故选择 B ．"
+    },
+    "answer": {
+      "final_raw": "390",
+      "final_normalized": "390",
+      "candidates": [
+        "390",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$${{x}^{2}}-100x+196=(x-2)(x-98)$$，  ∴当$$2\\leqslant x\\leqslant 98$$时，$${{x}^{2}}-100x+196\\textless{}0$$，$$\\textbar{{x}^{2}}-100x+196\\textbar=-({{x}^{2}}-100x+196)$$．  ∴当自变量$$x$$取$$2$$，$$3$$，$$\\ldots$$，$$98$$时，函数值都为$$0$$．  而当$$x$$取$$1$$，$$99$$，$$100$$时，$$\\textbar{{x}^{2}}-100x+196\\textbar={{x}^{2}}-100x+196$$，  故所求的和为：$$y(1)+y(99)+y(100)=390$$，故选择$$\\text{B}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "若函数 y= 1 2 ( x ^ 2 -100x+196+ x ^ 2 -100x+196 ) ，则当自变量 x 取 1 ， 2 ， 3 ， ， 100 这 100 个自然数时，函数值的和是． (A) 540 (B) 390 (C) 194 (D) 195 (E) 197",
+      "solution_text": "x ^ 2 -100x+196=(x-2)(x-98) ， ∴当 2 x 98 时， x ^ 2 -100x+196 0 ， x ^ 2 -100x+196 =-( x ^ 2 -100x+196) ． ∴当自变量 x 取 2 ， 3 ， ， 98 时，函数值都为 0 ． 而当 x 取 1 ， 99 ， 100 时， x ^ 2 -100x+196 = x ^ 2 -100x+196 ， 故所求的和为： y(1)+y(99)+y(100)=390 ，故选择 B ．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1533",
+        "queId": "c69c8cf026b14bc1af3e8042e3aa11e2",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "540"
+          },
+          {
+            "label": "B",
+            "content": "390"
+          },
+          {
+            "label": "C",
+            "content": "194"
+          },
+          {
+            "label": "D",
+            "content": "195"
+          },
+          {
+            "label": "E",
+            "content": "197"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->函数",
+          "竞赛->知识点->函数->二次函数->二次函数应用"
+        ],
+        "competition_source_list": [
+          "1999年第16届全国初中数学联赛竞赛第4题7分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02226",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2226,
+      "split": "zh_train",
+      "source_problem_id": "4f0830a901d84618a08517b3535cf5e7"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$p=\\sqrt[3]{7a+1}+\\sqrt[3]{7b+1}+\\sqrt[3]{7c+1}+\\sqrt[3]{7d+1}$$，其中$$a$$、$$b$$、$$c$$、$$d$$是正实数，且$$a+b+c+d=1$$，则．\n(A) p\\textgreater5\n(B) p\\textless{}5\n(C) p\\textless{}4\n(D) p=5",
+      "problem_plain": "设 p= [3] 7a+1 + [3] 7b+1 + [3] 7c+1 + [3] 7d+1 ，其中 a 、 b 、 c 、 d 是正实数，且 a+b+c+d=1 ，则． (A) p 5 (B) p 5 (C) p 4 (D) p=5",
+      "solution_latex": "∵$$a$$、$$b$$、$$c$$、$$d$$是正实数，且$$a+b+c+d=1$$，  ∴$$0\\textless{}a\\textless{}1$$，  ∴$$a\\textgreater{{a}^{2}}\\textgreater{{a}^{3}}$$，  ∴$$7a+1=a+3a+3a+1\\textgreater{{a}^{3}}+3{{a}^{2}}+3a+1={{(a+1)}^{3}}$$，  ∴$$\\sqrt[3]{7a+1}\\textgreater\\sqrt[3]{{{(a+1)}^{3}}}=a+1$$，  同理$$\\sqrt[3]{7b+1}\\textgreater b+1\\sqrt[3]{7c+1}\\textgreater c+1\\sqrt[3]{7d+1}\\textgreater d+1$$，  ∴$$p=\\sqrt[3]{7a+1}+\\sqrt[3]{7b+1}+\\sqrt[3]{7c+1}+\\sqrt[3]{7d+1}$$，  $$\\textgreater a+1+b+1+c+1+d+1$$，  $$=a+b+c+d+4=5$$，  ∴$$p\\textgreater5$$．",
+      "solution_plain": "∵ a 、 b 、 c 、 d 是正实数，且 a+b+c+d=1 ， ∴ 0 a 1 ， ∴ a a ^ 2 a ^ 3 ， ∴ 7a+1=a+3a+3a+1 a ^ 3 +3 a ^ 2 +3a+1= (a+1) ^ 3 ， ∴ [3] 7a+1 [3] (a+1) ^ 3 =a+1 ， 同理 [3] 7b+1 b+1 [3] 7c+1 c+1 [3] 7d+1 d+1 ， ∴ p= [3] 7a+1 + [3] 7b+1 + [3] 7c+1 + [3] 7d+1 ， a+1+b+1+c+1+d+1 ， =a+b+c+d+4=5 ， ∴ p 5 ．"
+    },
+    "answer": {
+      "final_raw": "p\\textgreater5",
+      "final_normalized": "p\\textgreater5",
+      "candidates": [
+        "A",
+        "p\\textgreater5"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "∵$$a$$、$$b$$、$$c$$、$$d$$是正实数，且$$a+b+c+d=1$$，  ∴$$0\\textless{}a\\textless{}1$$，  ∴$$a\\textgreater{{a}^{2}}\\textgreater{{a}^{3}}$$，  ∴$$7a+1=a+3a+3a+1\\textgreater{{a}^{3}}+3{{a}^{2}}+3a+1={{(a+1)}^{3}}$$，  ∴$$\\sqrt[3]{7a+1}\\textgreater\\sqrt[3]{{{(a+1)}^{3}}}=a+1$$，  同理$$\\sqrt[3]{7b+1}\\textgreater b+1\\sqrt[3]{7c+1}\\textgreater c+1\\sqrt[3]{7d+1}\\textgreater d+1$$，  ∴$$p=\\sqrt[3]{7a+1}+\\sqrt[3]{7b+1}+\\sqrt[3]{7c+1}+\\sqrt[3]{7d+1}$$，  $$\\textgreater a+1+b+1+c+1+d+1$$，  $$=a+b+c+d+4=5$$，  ∴$$p\\textgreater5$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 p= [3] 7a+1 + [3] 7b+1 + [3] 7c+1 + [3] 7d+1 ，其中 a 、 b 、 c 、 d 是正实数，且 a+b+c+d=1 ，则． (A) p 5 (B) p 5 (C) p 4 (D) p=5",
+      "solution_text": "∵ a 、 b 、 c 、 d 是正实数，且 a+b+c+d=1 ， ∴ 0 a 1 ， ∴ a a ^ 2 a ^ 3 ， ∴ 7a+1=a+3a+3a+1 a ^ 3 +3 a ^ 2 +3a+1= (a+1) ^ 3 ， ∴ [3] 7a+1 [3] (a+1) ^ 3 =a+1 ， 同理 [3] 7b+1 b+1 [3] 7c+1 c+1 [3] 7d+1 d+1 ， ∴ p= [3] 7a+1 + [3] 7b+1 + [3] 7c+1 + [3] 7d+1 ， a+1+b+1+c+1+d+1 ， =a+b+c+d+4=5 ， ∴ p 5 ．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "850",
+        "queId": "4f0830a901d84618a08517b3535cf5e7",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "p\\textgreater5"
+          },
+          {
+            "label": "B",
+            "content": "p\\textless{}5"
+          },
+          {
+            "label": "C",
+            "content": "p\\textless{}4"
+          },
+          {
+            "label": "D",
+            "content": "p=5"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->推理论证能力",
+          "课内体系->能力->运算能力",
+          "课内体系->知识点->方程与不等式->不等式（组）->不等式->不等式的性质",
+          "课内体系->知识点->式->因式分解->公式法->利用立方和与立方差公式因式分解",
+          "课内体系->知识点->式->整式的乘除->乘法公式->和与差的立方公式"
+        ],
+        "competition_source_list": [
+          "2010年第21届希望杯初二竞赛第1试第6题",
+          "北京初二上学期单元测试《二次根式的运算》第22题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02282",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2282,
+      "split": "zh_train",
+      "source_problem_id": "6fc13c40b9114d42a80d7f27649f042b"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "某项球类规则达标测验，规定满分$$100$$分，$$60$$分及格，模拟考试与正式考试形式相同，都是$$25$$道选择题，每题答对记$$4$$分，答错或不答记$$0$$分，并规定正式考试中要有$$80$$分的试题就是模拟考试中的原题．假设某人在模拟考试中答对的试题，在正式考试中仍能答对，某人欲在正式考试中确保及格，则他在模拟考试中，至少要得．\n(A) 80$$分\n(B) 76$$分\n(C) 75$$分\n(D) 64$$分",
+      "problem_plain": "某项球类规则达标测验，规定满分 100 分， 60 分及格，模拟考试与正式考试形式相同，都是 25 道选择题，每题答对记 4 分，答错或不答记 0 分，并规定正式考试中要有 80 分的试题就是模拟考试中的原题．假设某人在模拟考试中答对的试题，在正式考试中仍能答对，某人欲在正式考试中确保及格，则他在模拟考试中，至少要得． (A) 80 分 (B) 76 分 (C) 75 分 (D) 64 分",
+      "solution_latex": "设在模拟考试中至少要得$$x$$分，则在模拟考试中至少做对$$\\frac{x}{4}$$道题，  做错或不会做的题至多是$$25-\\frac{x}{4}$$道题．  在正式考试中要出现模拟考试中$$80$$分的试题，即$$\\frac{80}{4}=20$$道题．  如果最坏的可能，即其余$$20$$分题（$$5$$道新题）某人全不会做，  而且模拟考试中$$25-\\frac{x}{4}$$道失分的题又全出现在正式考试试题之中，  并且该生在模拟考试后也没能复习纠错，仍按错误答案在正规考试中失分，  这时该生只能从$$\\frac{80}{4}-(25-\\frac{x}{4})$$道题中取得及格分，  即$$\\left[ \\frac{80}{4}-(25-\\frac{x}{4}) \\right]\\times 4\\geqslant 60$$，解得$$x\\geqslant 80$$．  即某人欲在正式考试中确保及格，则他在模拟考试中至少要得$$80$$分．选$$\\text{A}$$．",
+      "solution_plain": "设在模拟考试中至少要得 x 分，则在模拟考试中至少做对 x 4 道题， 做错或不会做的题至多是 25- x 4 道题． 在正式考试中要出现模拟考试中 80 分的试题，即 80 4 =20 道题． 如果最坏的可能，即其余 20 分题（ 5 道新题）某人全不会做， 而且模拟考试中 25- x 4 道失分的题又全出现在正式考试试题之中， 并且该生在模拟考试后也没能复习纠错，仍按错误答案在正规考试中失分， 这时该生只能从 80 4 -(25- x 4 ) 道题中取得及格分， 即 [ 80 4 -(25- x 4 ) ] 4 60 ，解得 x 80 ． 即某人欲在正式考试中确保及格，则他在模拟考试中至少要得 80 分．选 A ．"
+    },
+    "answer": {
+      "final_raw": "80$$分",
+      "final_normalized": "80$$分",
+      "candidates": [
+        "80$$分",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设在模拟考试中至少要得$$x$$分，则在模拟考试中至少做对$$\\frac{x}{4}$$道题，  做错或不会做的题至多是$$25-\\frac{x}{4}$$道题．  在正式考试中要出现模拟考试中$$80$$分的试题，即$$\\frac{80}{4}=20$$道题．  如果最坏的可能，即其余$$20$$分题（$$5$$道新题）某人全不会做，  而且模拟考试中$$25-\\frac{x}{4}$$道失分的题又全出现在正式考试试题之中，  并且该生在模拟考试后也没能复习纠错，仍按错误答案在正规考试中失分，  这时该生只能从$$\\frac{80}{4}-(25-\\frac{x}{4})$$道题中取得及格分，  即$$\\left[ \\frac{80}{4}-(25-\\frac{x}{4}) \\right]\\times 4\\geqslant 60$$，解得$$x\\geqslant 80$$．  即某人欲在正式考试中确保及格，则他在模拟考试中至少要得$$80$$分．选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "某项球类规则达标测验，规定满分 100 分， 60 分及格，模拟考试与正式考试形式相同，都是 25 道选择题，每题答对记 4 分，答错或不答记 0 分，并规定正式考试中要有 80 分的试题就是模拟考试中的原题．假设某人在模拟考试中答对的试题，在正式考试中仍能答对，某人欲在正式考试中确保及格，则他在模拟考试中，至少要得． (A) 80 分 (B) 76 分 (C) 75 分 (D) 64 分",
+      "solution_text": "设在模拟考试中至少要得 x 分，则在模拟考试中至少做对 x 4 道题， 做错或不会做的题至多是 25- x 4 道题． 在正式考试中要出现模拟考试中 80 分的试题，即 80 4 =20 道题． 如果最坏的可能，即其余 20 分题（ 5 道新题）某人全不会做， 而且模拟考试中 25- x 4 道失分的题又全出现在正式考试试题之中， 并且该生在模拟考试后也没能复习纠错，仍按错误答案在正规考试中失分， 这时该生只能从 80 4 -(25- x 4 ) 道题中取得及格分， 即 [ 80 4 -(25- x 4 ) ] 4 60 ，解得 x 80 ． 即某人欲在正式考试中确保及格，则他在模拟考试中至少要得 80 分．选 A ．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "127",
+        "queId": "6fc13c40b9114d42a80d7f27649f042b",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "80$$分"
+          },
+          {
+            "label": "B",
+            "content": "76$$分"
+          },
+          {
+            "label": "C",
+            "content": "75$$分"
+          },
+          {
+            "label": "D",
+            "content": "64$$分"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->方程与不等式->不等式（组）->不等式组应用->不等式组的其他实际问题"
+        ],
+        "competition_source_list": [
+          "2017~2018学年福建泉州丰泽区泉州实验中学（圣湖校区）初一下学期期中第8题4分",
+          "1995年第6届全国希望杯初一竞赛复赛第10题",
+          "2015~2016学年北京海淀区清华大学附属中学初一下学期期中第10题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02371",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2371,
+      "split": "zh_train",
+      "source_problem_id": "1b9fc74388bb4cfabf154c72482adb77"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$p=\\sqrt[3]{7a+1}+\\sqrt[3]{7b+1}+\\sqrt[3]{7c+1}+\\sqrt[3]{7d+1}$$，其中$$a$$、$$b$$、$$c$$、$$d$$是正实数，并且$$a+b+c+d=1$$，则（~ ）．\n(A) p\\textgreater5\n(B) p\\textless{}5\n(C) p\\textless{}4\n(D) p=5",
+      "problem_plain": "设 p= [3] 7a+1 + [3] 7b+1 + [3] 7c+1 + [3] 7d+1 ，其中 a 、 b 、 c 、 d 是正实数，并且 a+b+c+d=1 ，则（~ ）． (A) p 5 (B) p 5 (C) p 4 (D) p=5",
+      "solution_latex": "∵$$a$$、$$b$$、$$c$$、$$d$$是正实数，且$$a+b+c+d=1$$，  ∴$$0\\textless{}a\\textless{}1$$，  ∴$$a\\textgreater{{a}^{2}}\\textgreater{{a}^{3}}$$，  ∴$$7a+1=a+3a+3a+1\\textgreater{{a}^{3}}+3{{a}^{2}}+3a+1={{(a+1)}^{3}}$$，  ∴$$\\sqrt[3]{7a+1}\\textgreater\\sqrt[3]{{{(a+1)}^{3}}}=a+1$$，  同理$$\\sqrt[3]{7b+1}\\textgreater b+1\\sqrt[3]{7c+1}\\textgreater c+1\\sqrt[3]{7d+1}\\textgreater d+1$$，  ∴$$p=\\sqrt[3]{7a+1}+\\sqrt[3]{7b+1}+\\sqrt[3]{7c+1}+\\sqrt[3]{7d+1}$$，  $$\\textgreater a+1+b+1+c+1+d+1$$，  $$=a+b+c+d+4=5$$，  ∴$$p\\textgreater5$$．",
+      "solution_plain": "∵ a 、 b 、 c 、 d 是正实数，且 a+b+c+d=1 ， ∴ 0 a 1 ， ∴ a a ^ 2 a ^ 3 ， ∴ 7a+1=a+3a+3a+1 a ^ 3 +3 a ^ 2 +3a+1= (a+1) ^ 3 ， ∴ [3] 7a+1 [3] (a+1) ^ 3 =a+1 ， 同理 [3] 7b+1 b+1 [3] 7c+1 c+1 [3] 7d+1 d+1 ， ∴ p= [3] 7a+1 + [3] 7b+1 + [3] 7c+1 + [3] 7d+1 ， a+1+b+1+c+1+d+1 ， =a+b+c+d+4=5 ， ∴ p 5 ．"
+    },
+    "answer": {
+      "final_raw": "p\\textgreater5",
+      "final_normalized": "p\\textgreater5",
+      "candidates": [
+        "A",
+        "p\\textgreater5"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "∵$$a$$、$$b$$、$$c$$、$$d$$是正实数，且$$a+b+c+d=1$$，  ∴$$0\\textless{}a\\textless{}1$$，  ∴$$a\\textgreater{{a}^{2}}\\textgreater{{a}^{3}}$$，  ∴$$7a+1=a+3a+3a+1\\textgreater{{a}^{3}}+3{{a}^{2}}+3a+1={{(a+1)}^{3}}$$，  ∴$$\\sqrt[3]{7a+1}\\textgreater\\sqrt[3]{{{(a+1)}^{3}}}=a+1$$，  同理$$\\sqrt[3]{7b+1}\\textgreater b+1\\sqrt[3]{7c+1}\\textgreater c+1\\sqrt[3]{7d+1}\\textgreater d+1$$，  ∴$$p=\\sqrt[3]{7a+1}+\\sqrt[3]{7b+1}+\\sqrt[3]{7c+1}+\\sqrt[3]{7d+1}$$，  $$\\textgreater a+1+b+1+c+1+d+1$$，  $$=a+b+c+d+4=5$$，  ∴$$p\\textgreater5$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 p= [3] 7a+1 + [3] 7b+1 + [3] 7c+1 + [3] 7d+1 ，其中 a 、 b 、 c 、 d 是正实数，并且 a+b+c+d=1 ，则（~ ）． (A) p 5 (B) p 5 (C) p 4 (D) p=5",
+      "solution_text": "∵ a 、 b 、 c 、 d 是正实数，且 a+b+c+d=1 ， ∴ 0 a 1 ， ∴ a a ^ 2 a ^ 3 ， ∴ 7a+1=a+3a+3a+1 a ^ 3 +3 a ^ 2 +3a+1= (a+1) ^ 3 ， ∴ [3] 7a+1 [3] (a+1) ^ 3 =a+1 ， 同理 [3] 7b+1 b+1 [3] 7c+1 c+1 [3] 7d+1 d+1 ， ∴ p= [3] 7a+1 + [3] 7b+1 + [3] 7c+1 + [3] 7d+1 ， a+1+b+1+c+1+d+1 ， =a+b+c+d+4=5 ， ∴ p 5 ．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "411",
+        "queId": "1b9fc74388bb4cfabf154c72482adb77",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "p\\textgreater5"
+          },
+          {
+            "label": "B",
+            "content": "p\\textless{}5"
+          },
+          {
+            "label": "C",
+            "content": "p\\textless{}4"
+          },
+          {
+            "label": "D",
+            "content": "p=5"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->式->整式的乘除->乘法公式->和与差的立方公式",
+          "课内体系->知识点->式->因式分解->公式法->利用立方和与立方差公式因式分解",
+          "课内体系->知识点->方程与不等式->不等式（组）->不等式->不等式的性质",
+          "课内体系->能力->推理论证能力",
+          "课内体系->能力->运算能力"
+        ],
+        "competition_source_list": [
+          "2010年第21届希望杯初二竞赛第1试第6题",
+          "北京初二上学期单元测试《二次根式的运算》第22题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02569",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2569,
+      "split": "zh_train",
+      "source_problem_id": "e4adc205019e485bbd30705678c30ef7"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$2002-AMC12B-17$$  Andy's lawn has twice as much area as Beth's lawn and three times as much area as Carlos' lawn. Carlos' lawn mower cuts half as fast as Beth's mower and one third as fast as Andy's mower. If they all start to mow their lawns at the same time, who will finish first?  安迪的草坪面积是贝丝草坪的两倍，是卡洛斯草坪的三倍。 卡洛斯的割草机的割草速度是贝丝的割草机的一半，是安迪的割草机的三分之一。 如果他们同时开始修剪草坪，谁会先完成？\n(A) Andy\n(B) Beth\n(C) Carlos\n(D) Andy and Carlos tie for first\n(E) All three tie",
+      "problem_plain": "2002-AMC12B-17 Andy's lawn has twice as much area as Beth's lawn and three times as much area as Carlos' lawn. Carlos' lawn mower cuts half as fast as Beth's mower and one third as fast as Andy's mower. If they all start to mow their lawns at the same time, who will finish first? 安迪的草坪面积是贝丝草坪的两倍，是卡洛斯草坪的三倍。 卡洛斯的割草机的割草速度是贝丝的割草机的一半，是安迪的割草机的三分之一。 如果他们同时开始修剪草坪，谁会先完成？ (A) Andy (B) Beth (C) Carlos (D) Andy and Carlos tie for first (E) All three tie",
+      "solution_latex": "We say Andy\\textquotesingle s lawn has an area of $$x$$. Beth\\textquotesingle s lawn thus has an area of $$\\dfrac{x}{2}$$, and Carlos\\textquotesingle s lawn has an area of $$\\dfrac{x}{3}$$.  We say Andy\\textquotesingle s lawn mower cuts at a speed of $$y$$. Carlos\\textquotesingle s cuts at a speed of $$\\dfrac{y}{3}$$, and Beth\\textquotesingle s cuts at a speed $$\\dfrac{2y}{3}$$.  Each person\\textquotesingle s lawn is cut at a speed of $$\\dfrac{\\rm area}{\\rm rate}$$, so Andy\\textquotesingle s is cut in $$\\dfrac{x}{y}$$ time, as is Carlos\\textquotesingle s. Beth\\textquotesingle s is cut in $$\\dfrac{3}{4}\\times\\dfrac{x}{y}$$, so the first one to finish is Beth.",
+      "solution_plain": "We say Andy s lawn has an area of x . Beth s lawn thus has an area of x 2 , and Carlos s lawn has an area of x 3 . We say Andy s lawn mower cuts at a speed of y . Carlos s cuts at a speed of y 3 , and Beth s cuts at a speed 2y 3 . Each person s lawn is cut at a speed of area rate , so Andy s is cut in x y time, as is Carlos s. Beth s is cut in 3 4 x y , so the first one to finish is Beth."
+    },
+    "answer": {
+      "final_raw": "Beth",
+      "final_normalized": "Beth",
+      "candidates": [
+        "B",
+        "Beth"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "algebra",
+        "amc10_12",
+        "application",
+        "proportion_word_problems",
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "amc10_12",
+        "application",
+        "level_4",
+        "proportion_word_problems",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "We say Andy\\textquotesingle s lawn has an area of $$x$$.",
+        "Beth\\textquotesingle s lawn thus has an area of $$\\dfrac{x}{2}$$, and Carlos\\textquotesingle s lawn has an area of $$\\dfrac{x}{3}$$.",
+        "We say Andy\\textquotesingle s lawn mower cuts at a speed of $$y$$.",
+        "Carlos\\textquotesingle s cuts at a speed of $$\\dfrac{y}{3}$$, and Beth\\textquotesingle s cuts at a speed $$\\dfrac{2y}{3}$$.",
+        "Each person\\textquotesingle s lawn is cut at a speed of $$\\dfrac{\\rm area}{\\rm rate}$$, so Andy\\textquotesingle s is cut in $$\\dfrac{x}{y}$$ time, as is Carlos\\textquotesingle s.",
+        "Beth\\textquotesingle s is cut in $$\\dfrac{3}{4}\\times\\dfrac{x}{y}$$, so the first one to finish is Beth."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2002-AMC12B-17 Andy's lawn has twice as much area as Beth's lawn and three times as much area as Carlos' lawn. Carlos' lawn mower cuts half as fast as Beth's mower and one third as fast as Andy's mower. If they all start to mow their lawns at the same time, who will finish first? 安迪的草坪面积是贝丝草坪的两倍，是卡洛斯草坪的三倍。 卡洛斯的割草机的割草速度是贝丝的割草机的一半，是安迪的割草机的三分之一。 如果他们同时开始修剪草坪，谁会先完成？ (A) Andy (B) Beth (C) Carlos (D) Andy and Carlos tie for first (E) All three tie",
+      "solution_text": "We say Andy s lawn has an area of x . Beth s lawn thus has an area of x 2 , and Carlos s lawn has an area of x 3 . We say Andy s lawn mower cuts at a speed of y . Carlos s cuts at a speed of y 3 , and Beth s cuts at a speed 2y 3 . Each person s lawn is cut at a speed of area rate , so Andy s is cut in x y time, as is Carlos s. Beth s is cut in 3 4 x y , so the first one to finish is Beth.",
+      "keywords": [
+        "algebra",
+        "amc10_12",
+        "application",
+        "level_4",
+        "proportion_word_problems",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "964",
+        "queId": "e4adc205019e485bbd30705678c30ef7",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Andy"
+          },
+          {
+            "label": "B",
+            "content": "Beth"
+          },
+          {
+            "label": "C",
+            "content": "Carlos"
+          },
+          {
+            "label": "D",
+            "content": "Andy and Carlos tie for first"
+          },
+          {
+            "label": "E",
+            "content": "All three tie"
+          }
+        ],
+        "knowledge_point_routes": [
+          "美国AMC10/12->Knowledge Point->Algebra->Application->Proportion Word Problems",
+          "课内体系->知识点->函数的应用->函数的实际应用->分式函数模型"
+        ],
+        "competition_source_list": [
+          "2002年AMC10竞赛B第21题",
+          "2002年AMC12竞赛B第17题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02590",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2590,
+      "split": "zh_train",
+      "source_problem_id": "ea6ebb272dc9469794d3ee1c10b4c1b2"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设等差数列$$ {{{a}_{n}} }$$满足：$$\\frac{{{\\sin }^{2}}{{a}_{3}}-{{\\cos }^{2}}{{a}_{3}}+{{\\cos }^{2}}{{a}_{3}}{{\\cos }^{2}}{{a}_{6}}-{{\\sin }^{2}}{{a}_{3}}{{\\sin }^{2}}{{a}_{6}}}{\\sin ({{a}_{4}}+{{a}_{5}})}=1$$，公差$$d\\in (-1,0)$$，若当且仅当$$n=9$$时数列$$ {{{a}_{n}} }$$的前$$n$$项和$${{S}_{n}}$$取得最大值，则首项$${{a}_{1}}$$的取值范围是．\n(A) (\\frac{7 \\pi }{6},\\frac{4 \\pi }{3})\n(B) (\\frac{4 \\pi }{3},\\frac{3 \\pi }{2})\n(C) [\\frac{7 \\pi }{6},\\frac{4 \\pi }{3}]\n(D) [\\frac{4 \\pi }{3},\\frac{3 \\pi }{2}]",
+      "problem_plain": "设等差数列 a _ n 满足： ^ 2 a _ 3 - ^ 2 a _ 3 + ^ 2 a _ 3 ^ 2 a _ 6 - ^ 2 a _ 3 ^ 2 a _ 6 ( a _ 4 + a _ 5 ) =1 ，公差 d (-1,0) ，若当且仅当 n=9 时数列 a _ n 的前 n 项和 S _ n 取得最大值，则首项 a _ 1 的取值范围是． (A) ( 7 6 , 4 3 ) (B) ( 4 3 , 3 2 ) (C) [ 7 6 , 4 3 ] (D) [ 4 3 , 3 2 ]",
+      "solution_latex": "$${{\\sin }^{2}}{{a}_{3}}-{{\\cos }^{2}}{{a}_{3}}+{{\\cos }^{2}}{{a}_{3}}{{\\cos }^{2}}{{a}_{6}}-{{\\sin }^{2}}{{a}_{3}}{{\\sin }^{2}}{{a}_{6}}={{\\sin }^{2}}{{a}_{3}}-{{\\sin }^{2}}{{a}_{6}}$$，  而$${{\\sin }^{2}}{{a}_{3}}-{{\\sin }^{2}}{{a}_{6}}=\\frac{1-\\cos 2{{a}_{3}}}{2}-\\frac{1-\\cos 2{{a}_{6}}}{2}=\\sin \\left( {{a}_{6}}+{{a}_{3}} \\right)\\sin \\left( {{a}_{3}}-{{a}_{6}} \\right)$$，  所以$$\\sin \\left( {{a}_{3}}-{{a}_{6}} \\right)=1$$，$${{a}_{3}}-{{a}_{6}}=-3d=2k \\pi +\\frac{ \\pi }{2}$$，所以$$d=-\\frac{2}{3}k \\pi -\\frac{ \\pi }{6}$$，$$k\\in \\mathbf{Z}$$．  由$$-1\\textless{}d\\textless{}0$$，可得$$-\\frac{1}{4}\\textless{}k\\textless{}-\\frac{1}{4}+\\frac{3}{2 \\pi }$$，所以$$k=0$$，$$d=-\\frac{ \\pi }{6}$$．  由$${{a}_{9}}\\textgreater0$$，$${{a}_{10}}\\textless{}0$$，可得$$\\begin{cases}{{a}_{1}}+8d\\textgreater0    {{a}_{1}}+9d\\textless{}0 \\end{cases}$$，解得$$\\frac{4}{3} \\pi \\textless{}{{a}_{1}}\\textless{}\\frac{3}{2} \\pi $$．",
+      "solution_plain": "^ 2 a _ 3 - ^ 2 a _ 3 + ^ 2 a _ 3 ^ 2 a _ 6 - ^ 2 a _ 3 ^ 2 a _ 6 = ^ 2 a _ 3 - ^ 2 a _ 6 ， 而 ^ 2 a _ 3 - ^ 2 a _ 6 = 1- 2 a _ 3 2 - 1- 2 a _ 6 2 = ( a _ 6 + a _ 3 ) ( a _ 3 - a _ 6 ) ， 所以 ( a _ 3 - a _ 6 )=1 ， a _ 3 - a _ 6 =-3d=2k + 2 ，所以 d=- 2 3 k - 6 ， k Z ． 由 -1 d 0 ，可得 - 1 4 k - 1 4 + 3 2 ，所以 k=0 ， d=- 6 ． 由 a _ 9 0 ， a _ 10 0 ，可得 cases a _ 1 +8d 0 a _ 1 +9d 0 cases ，解得 4 3 a _ 1 3 2 ．"
+    },
+    "answer": {
+      "final_raw": "(\\frac{4 \\pi }{3},\\frac{3 \\pi }{2})",
+      "final_normalized": "(\\frac{4 \\pi }{3},\\frac{3 \\pi }{2})",
+      "candidates": [
+        "(\\frac{4 \\pi }{3},\\frac{3 \\pi }{2})",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$${{\\sin }^{2}}{{a}_{3}}-{{\\cos }^{2}}{{a}_{3}}+{{\\cos }^{2}}{{a}_{3}}{{\\cos }^{2}}{{a}_{6}}-{{\\sin }^{2}}{{a}_{3}}{{\\sin }^{2}}{{a}_{6}}={{\\sin }^{2}}{{a}_{3}}-{{\\sin }^{2}}{{a}_{6}}$$，  而$${{\\sin }^{2}}{{a}_{3}}-{{\\sin }^{2}}{{a}_{6}}=\\frac{1-\\cos 2{{a}_{3}}}{2}-\\frac{1-\\cos 2{{a}_{6}}}{2}=\\sin \\left( {{a}_{6}}+{{a}_{3}} \\right)\\sin \\left( {{a}_{3}}-{{a}_{6}} \\right)$$，  所以$$\\sin \\left( {{a}_{3}}-{{a}_{6}} \\right)=1$$，$${{a}_{3}}-{{a}_{6}}=-3d=2k \\pi +\\frac{ \\pi }{2}$$，所以$$d=-\\frac{2}{3}k \\pi -\\frac{ \\pi }{6}$$，$$k\\in \\mathbf{Z}$$．  由$$-1\\textless{}d\\textless{}0$$，可得$$-\\frac{1}{4}\\textless{}k\\textless{}-\\frac{1}{4}+\\frac{3}{2 \\pi }$$，所以$$k=0$$，$$d=-\\frac{ \\pi }{6}$$．  由$${{a}_{9}}\\textgreater0$$，$${{a}_{10}}\\textless{}0$$，可得$$\\begin{cases}{{a}_{1}}+8d\\textgreater0    {{a}_{1}}+9d\\textless{}0 \\end{cases}$$，解得$$\\frac{4}{3} \\pi \\textless{}{{a}_{1}}\\textless{}\\frac{3}{2} \\pi $$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设等差数列 a _ n 满足： ^ 2 a _ 3 - ^ 2 a _ 3 + ^ 2 a _ 3 ^ 2 a _ 6 - ^ 2 a _ 3 ^ 2 a _ 6 ( a _ 4 + a _ 5 ) =1 ，公差 d (-1,0) ，若当且仅当 n=9 时数列 a _ n 的前 n 项和 S _ n 取得最大值，则首项 a _ 1 的取值范围是． (A) ( 7 6 , 4 3 ) (B) ( 4 3 , 3 2 ) (C) [ 7 6 , 4 3 ] (D) [ 4 3 , 3 2 ]",
+      "solution_text": "^ 2 a _ 3 - ^ 2 a _ 3 + ^ 2 a _ 3 ^ 2 a _ 6 - ^ 2 a _ 3 ^ 2 a _ 6 = ^ 2 a _ 3 - ^ 2 a _ 6 ， 而 ^ 2 a _ 3 - ^ 2 a _ 6 = 1- 2 a _ 3 2 - 1- 2 a _ 6 2 = ( a _ 6 + a _ 3 ) ( a _ 3 - a _ 6 ) ， 所以 ( a _ 3 - a _ 6 )=1 ， a _ 3 - a _ 6 =-3d=2k + 2 ，所以 d=- 2 3 k - 6 ， k Z ． 由 -1 d 0 ，可得 - 1 4 k - 1 4 + 3 2 ，所以 k=0 ， d=- 6 ． 由 a _ 9 0 ， a _ 10 0 ，可得 cases a _ 1 +8d 0 a _ 1 +9d 0 cases ，解得 4 3 a _ 1 3 2 ．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1114",
+        "queId": "ea6ebb272dc9469794d3ee1c10b4c1b2",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "(\\frac{7 \\pi }{6},\\frac{4 \\pi }{3})"
+          },
+          {
+            "label": "B",
+            "content": "(\\frac{4 \\pi }{3},\\frac{3 \\pi }{2})"
+          },
+          {
+            "label": "C",
+            "content": "[\\frac{7 \\pi }{6},\\frac{4 \\pi }{3}]"
+          },
+          {
+            "label": "D",
+            "content": "[\\frac{4 \\pi }{3},\\frac{3 \\pi }{2}]"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->数列与数学归纳法->数列的概念",
+          "竞赛->知识点->数列与数学归纳法->数列的通项与求和",
+          "竞赛->知识点->数列与数学归纳法->数列的综合应用",
+          "竞赛->知识点->三角函数->三角恒等变换"
+        ],
+        "competition_source_list": [
+          "2015年黑龙江全国高中数学联赛竞赛初赛第12题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02605",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2605,
+      "split": "zh_train",
+      "source_problem_id": "f6b9b9784d824da7b3a44e65a701f3fa"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$$\\theta \\in [\\frac{5 \\pi }{4},\\frac{3 \\pi }{2}]$$，则$$\\sqrt{1-\\sin 2\\theta }-\\sqrt{1+\\sin 2\\theta }$$可化简为．\n(A) 2\\sin \\theta\n(B) -2\\sin \\theta\n(C) -2\\cos \\theta\n(D) 2\\cos \\theta",
+      "problem_plain": "已知 [ 5 4 , 3 2 ] ，则 1- 2 - 1+ 2 可化简为． (A) 2 (B) -2 (C) -2 (D) 2",
+      "solution_latex": "因为$$\\theta \\in [\\frac{5 \\pi }{4},\\frac{3 \\pi }{2}]$$，所以$$\\sqrt{1-\\sin 2\\theta }-\\sqrt{1+\\sin 2\\theta }$$  $$=\\left\\textbar{} \\cos \\theta -\\sin \\theta \\right\\textbar-\\left\\textbar{} \\cos \\theta +\\sin \\theta \\right\\textbar=2\\cos \\theta $$．",
+      "solution_plain": "因为 [ 5 4 , 3 2 ] ，所以 1- 2 - 1+ 2 = - - + =2 ．"
+    },
+    "answer": {
+      "final_raw": "2\\cos \\theta",
+      "final_normalized": "2\\cos \\theta",
+      "candidates": [
+        "2\\cos \\theta",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为$$\\theta \\in [\\frac{5 \\pi }{4},\\frac{3 \\pi }{2}]$$，所以$$\\sqrt{1-\\sin 2\\theta }-\\sqrt{1+\\sin 2\\theta }$$  $$=\\left\\textbar{} \\cos \\theta -\\sin \\theta \\right\\textbar-\\left\\textbar{} \\cos \\theta +\\sin \\theta \\right\\textbar=2\\cos \\theta $$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 [ 5 4 , 3 2 ] ，则 1- 2 - 1+ 2 可化简为． (A) 2 (B) -2 (C) -2 (D) 2",
+      "solution_text": "因为 [ 5 4 , 3 2 ] ，所以 1- 2 - 1+ 2 = - - + =2 ．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "845",
+        "queId": "f6b9b9784d824da7b3a44e65a701f3fa",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2\\sin \\theta"
+          },
+          {
+            "label": "B",
+            "content": "-2\\sin \\theta"
+          },
+          {
+            "label": "C",
+            "content": "-2\\cos \\theta"
+          },
+          {
+            "label": "D",
+            "content": "2\\cos \\theta"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->三角函数->三角恒等变换"
+        ],
+        "competition_source_list": [
+          "2011年浙江全国高中数学联赛竞赛初赛第1题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02664",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2664,
+      "split": "zh_train",
+      "source_problem_id": "2e5763e4951c45078d8657b122e829ad"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "2002AMC12B, 22  For all integers $$n$$ greater than $$1$$, define $$a_{n}=\\frac{1}{\\log _{n}2002}$$.  Let $$b=a_{2}+a_{3}+a_{4}+a_{5}$$ and $$c=a_{10}+a_{11}+a_{12}+a_{13}+a_{14}$$. Then $$b-c$$ equals．  对于大于$$1$$的所有整数$$n$$，定义$$a_{n}=\\frac{1}{\\log _{n}2002}$$。令 $$b=a_{2}+a_{3}+a_{4}+a_{5}$$，$$c=a_{10}+a_{11}+a_{12}+a_{13} +a_{14}$$。则 $$b-c$$ 等于．\n(A) -2\n(B) -1\n(C) \\frac{1}{2002}\n(D) \\frac{1}{1001}\n(E) \\frac{1}{2}",
+      "problem_plain": "2002AMC12B, 22 For all integers n greater than 1 , define a_ n = 1 _ n 2002 . Let b=a_ 2 +a_ 3 +a_ 4 +a_ 5 and c=a_ 10 +a_ 11 +a_ 12 +a_ 13 +a_ 14 . Then b-c equals． 对于大于 1 的所有整数 n ，定义 a_ n = 1 _ n 2002 。令 b=a_ 2 +a_ 3 +a_ 4 +a_ 5 ， c=a_ 10 +a_ 11 +a_ 12 +a_ 13 +a_ 14 。则 b-c 等于． (A) -2 (B) -1 (C) 1 2002 (D) 1 1001 (E) 1 2",
+      "solution_latex": "$\\frac{1}{\\log_a{b}}=\\log_b{a}$",
+      "solution_plain": "1 _a b = _b a"
+    },
+    "answer": {
+      "final_raw": "-1",
+      "final_normalized": "-1",
+      "candidates": [
+        "-1",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "algebra",
+        "amc10_12",
+        "sequence",
+        "sum_of_the_first_n_terms_for_geometric_sequences",
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "amc10_12",
+        "level_4",
+        "sequence",
+        "single_choice",
+        "sum_of_the_first_n_terms_for_geometric_sequences",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$\\frac{1}{\\log_a{b}}=\\log_b{a}$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2002AMC12B, 22 For all integers n greater than 1 , define a_ n = 1 _ n 2002 . Let b=a_ 2 +a_ 3 +a_ 4 +a_ 5 and c=a_ 10 +a_ 11 +a_ 12 +a_ 13 +a_ 14 . Then b-c equals． 对于大于 1 的所有整数 n ，定义 a_ n = 1 _ n 2002 。令 b=a_ 2 +a_ 3 +a_ 4 +a_ 5 ， c=a_ 10 +a_ 11 +a_ 12 +a_ 13 +a_ 14 。则 b-c 等于． (A) -2 (B) -1 (C) 1 2002 (D) 1 1001 (E) 1 2",
+      "solution_text": "1 _a b = _b a",
+      "keywords": [
+        "algebra",
+        "amc10_12",
+        "level_4",
+        "sequence",
+        "single_choice",
+        "sum_of_the_first_n_terms_for_geometric_sequences",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "531",
+        "queId": "2e5763e4951c45078d8657b122e829ad",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "-2"
+          },
+          {
+            "label": "B",
+            "content": "-1"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{1}{2002}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{1}{1001}"
+          },
+          {
+            "label": "E",
+            "content": "\\frac{1}{2}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->基本初等函数->对数的概念及其运算->对数的运算",
+          "美国AMC10/12->Knowledge Point->Algebra->Sequence->Sum of the First n Terms for Geometric Sequences"
+        ],
+        "competition_source_list": [
+          "2002年AMC12竞赛B第22题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02705",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2705,
+      "split": "zh_train",
+      "source_problem_id": "46f55a4b882c492d890533d4f11aabd0"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一个钟在半点时响一次，在整点时，几点钟就响几次．例如，在下午$$1$$点有一次报时，在正午$$12$$点和午夜$$12$$点各有$$12$$次报时．从$$2003$$年$$2$$月$$26$$日上午$$11$$点$$15$$分开始，第$$2003$$次报时将在哪一天发生？\n(A) March $$8\n(B) March $$9\n(C) March $$10\n(D) March $$20\n(E) March $$21",
+      "problem_plain": "一个钟在半点时响一次，在整点时，几点钟就响几次．例如，在下午 1 点有一次报时，在正午 12 点和午夜 12 点各有 12 次报时．从 2003 年 2 月 26 日上午 11 点 15 分开始，第 2003 次报时将在哪一天发生？ (A) March 8 (B) March 9 (C) March 10 (D) March 20 (E) March 21",
+      "solution_latex": "First, find how many chimes will have already happened before midnight (the beginning of the day) of February $$27$$, $$2003$$. $$13$$ half-hours have passed, and the number of chimes according to the hour is $$1+2+3+\\cdots +12$$. The total number of chimes is $$13+78=91$$.  Every day, there will be $$24$$ half-hours and $$2(1+2+3+\\cdots 12)$$ chimes according to the arrow, resulting in $$24+156=180$$ total chimes.  On February $$26$$, the number of chimes that still need to occur is $$2003-91=1912$$. $$1912\\div 180=10\\rm R112$$. Rounding up, it is $$11$$ days past February $$26$$, which is March $$9$$.",
+      "solution_plain": "First, find how many chimes will have already happened before midnight (the beginning of the day) of February 27 , 2003 . 13 half-hours have passed, and the number of chimes according to the hour is 1+2+3+ +12 . The total number of chimes is 13+78=91 . Every day, there will be 24 half-hours and 2(1+2+3+ 12) chimes according to the arrow, resulting in 24+156=180 total chimes. On February 26 , the number of chimes that still need to occur is 2003-91=1912 . 1912 180=10 R112 . Rounding up, it is 11 days past February 26 , which is March 9 ."
+    },
+    "answer": {
+      "final_raw": "March $$9",
+      "final_normalized": "March $$9",
+      "candidates": [
+        "B",
+        "March $$9"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "combination",
+        "reasoning",
+        "recurrence_and_recursion",
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "amc10_12",
+        "combination",
+        "level_4",
+        "reasoning",
+        "recurrence_and_recursion",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "First, find how many chimes will have already happened before midnight (the beginning of the day) of February $$27$$, $$2003$$.",
+        "$$13$$ half-hours have passed, and the number of chimes according to the hour is $$1+2+3+\\cdots +12$$.",
+        "The total number of chimes is $$13+78=91$$.",
+        "Every day, there will be $$24$$ half-hours and $$2(1+2+3+\\cdots 12)$$ chimes according to the arrow, resulting in $$24+156=180$$ total chimes.",
+        "On February $$26$$, the number of chimes that still need to occur is $$2003-91=1912$$.",
+        "$$1912\\div 180=10\\rm R112$$.",
+        "Rounding up, it is $$11$$ days past February $$26$$, which is March $$9$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一个钟在半点时响一次，在整点时，几点钟就响几次．例如，在下午 1 点有一次报时，在正午 12 点和午夜 12 点各有 12 次报时．从 2003 年 2 月 26 日上午 11 点 15 分开始，第 2003 次报时将在哪一天发生？ (A) March 8 (B) March 9 (C) March 10 (D) March 20 (E) March 21",
+      "solution_text": "First, find how many chimes will have already happened before midnight (the beginning of the day) of February 27 , 2003 . 13 half-hours have passed, and the number of chimes according to the hour is 1+2+3+ +12 . The total number of chimes is 13+78=91 . Every day, there will be 24 half-hours and 2(1+2+3+ 12) chimes according to the arrow, resulting in 24+156=180 total chimes. On February 26 , the number of chimes that still need to occur is 2003-91=1912 . 1912 180=10 R112 . Rounding up, it is 11 days past February 26 , which is March 9 .",
+      "keywords": [
+        "algebra",
+        "amc10_12",
+        "combination",
+        "level_4",
+        "reasoning",
+        "recurrence_and_recursion",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "309",
+        "queId": "46f55a4b882c492d890533d4f11aabd0",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "March $$8"
+          },
+          {
+            "label": "B",
+            "content": "March $$9"
+          },
+          {
+            "label": "C",
+            "content": "March $$10"
+          },
+          {
+            "label": "D",
+            "content": "March $$20"
+          },
+          {
+            "label": "E",
+            "content": "March $$21"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->等式与不等式->等式->方程组的解集",
+          "美国AMC10/12->Knowledge Point->Combination->Reasoning->Recurrence and Recursion"
+        ],
+        "competition_source_list": [
+          "2003年AMC10竞赛B第22题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02707",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2707,
+      "split": "zh_train",
+      "source_problem_id": "365fad487d6c4a0fbcdbad340907824b"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$2008-AMC10B-18$$  Bricklayer Brenda would take $$9$$ hours to build a chimney alone, and bricklayer Brandon would take $$10$$ hours to build it alone. When they work together they talk a lot, and their combined output is decreased by $$10$$ bricks per hour. Working together, they build the chimney in $$5$$ hours. How many bricks are in the chimney?  瓦工布伦达单独建造一个烟囱需要花费 9小时，而瓦工布兰登单独建造它需要花费 10小时。 当他们一起工作时，他们会说很多话，他们的总效率每小时减少 10 块砖。 他们一起工作，在 小时内建造了烟囱。 烟囱里有多少块砖？\n(A) 500\n(B) 900\n(C) 950\n(D) 1000\n(E) 1900",
+      "problem_plain": "2008-AMC10B-18 Bricklayer Brenda would take 9 hours to build a chimney alone, and bricklayer Brandon would take 10 hours to build it alone. When they work together they talk a lot, and their combined output is decreased by 10 bricks per hour. Working together, they build the chimney in 5 hours. How many bricks are in the chimney? 瓦工布伦达单独建造一个烟囱需要花费 9小时，而瓦工布兰登单独建造它需要花费 10小时。 当他们一起工作时，他们会说很多话，他们的总效率每小时减少 10 块砖。 他们一起工作，在 小时内建造了烟囱。 烟囱里有多少块砖？ (A) 500 (B) 900 (C) 950 (D) 1000 (E) 1900",
+      "solution_latex": "Let $$x$$ be the number of bricks in the chimney, Using $$d=vt$$, we get $$x=\\left( \\frac{x}{9}+\\frac{x}{10}-10 \\right)\\cdot \\left( 5 \\right)$$. Solving for $$x$$, we get $$900\\Rightarrow \\text{B}$$.",
+      "solution_plain": "Let x be the number of bricks in the chimney, Using d=vt , we get x= ( x 9 + x 10 -10 ) ( 5 ) . Solving for x , we get 900 B ."
+    },
+    "answer": {
+      "final_raw": "900",
+      "final_normalized": "900",
+      "candidates": [
+        "900",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "algebra",
+        "amc10_12",
+        "application",
+        "equation_word_problems",
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "amc10_12",
+        "application",
+        "equation_word_problems",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Let $$x$$ be the number of bricks in the chimney, Using $$d=vt$$, we get $$x=\\left( \\frac{x}{9}+\\frac{x}{10}-10 \\right)\\cdot \\left( 5 \\right)$$.",
+        "Solving for $$x$$, we get $$900\\Rightarrow \\text{B}$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2008-AMC10B-18 Bricklayer Brenda would take 9 hours to build a chimney alone, and bricklayer Brandon would take 10 hours to build it alone. When they work together they talk a lot, and their combined output is decreased by 10 bricks per hour. Working together, they build the chimney in 5 hours. How many bricks are in the chimney? 瓦工布伦达单独建造一个烟囱需要花费 9小时，而瓦工布兰登单独建造它需要花费 10小时。 当他们一起工作时，他们会说很多话，他们的总效率每小时减少 10 块砖。 他们一起工作，在 小时内建造了烟囱。 烟囱里有多少块砖？ (A) 500 (B) 900 (C) 950 (D) 1000 (E) 1900",
+      "solution_text": "Let x be the number of bricks in the chimney, Using d=vt , we get x= ( x 9 + x 10 -10 ) ( 5 ) . Solving for x , we get 900 B .",
+      "keywords": [
+        "algebra",
+        "amc10_12",
+        "application",
+        "equation_word_problems",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "486",
+        "queId": "365fad487d6c4a0fbcdbad340907824b",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "500"
+          },
+          {
+            "label": "B",
+            "content": "900"
+          },
+          {
+            "label": "C",
+            "content": "950"
+          },
+          {
+            "label": "D",
+            "content": "1000"
+          },
+          {
+            "label": "E",
+            "content": "1900"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->等式与不等式->等式->方程组的解集",
+          "美国AMC10/12->Knowledge Point->Algebra->Application->Equation Word Problems"
+        ],
+        "competition_source_list": [
+          "2008年AMC10竞赛B第18题",
+          "2008年AMC12竞赛B第10题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02709",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2709,
+      "split": "zh_train",
+      "source_problem_id": "ee633f00f517474a979807407e6f5502"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "条件甲：$$\\sqrt{1+\\sin \\theta }=a$$．条件乙：$$\\sin \\frac{\\theta }{2}+\\cos \\frac{\\theta }{2}=a$$．则下列（~ ）是正确的．\n(A) 甲是乙的充分必要条件\n(B) 甲是乙的必要条件\n(C) 甲是乙的充分条件\n(D) 甲不是乙的必要条件，也不是充分条件",
+      "problem_plain": "条件甲： 1+ =a ．条件乙： 2 + 2 =a ．则下列（~ ）是正确的． (A) 甲是乙的充分必要条件 (B) 甲是乙的必要条件 (C) 甲是乙的充分条件 (D) 甲不是乙的必要条件，也不是充分条件",
+      "solution_latex": "因为$$\\sqrt{1+\\sin \\theta }=\\sqrt{{{\\sin }^{2}}\\frac{\\theta }{2}+2\\sin \\frac{\\theta }{2}\\cos \\frac{\\theta }{2}+{{\\cos }^{2}}\\frac{\\theta }{2}}=\\sqrt{{{\\left( \\sin \\frac{\\theta }{2}+\\cos \\frac{\\theta }{2} \\right)}^{2}}}=\\left\\textbar{} \\sin \\frac{\\theta }{2}+\\cos \\frac{\\theta }{2} \\right\\textbar$$  所以条件甲等价于：$$\\left\\textbar{} \\sin \\frac{\\theta }{2}+\\cos \\frac{\\theta }{2} \\right\\textbar=a$$．  在条件甲中，易知$$a\\geqslant 0$$，而在条件乙中，$$a$$可能取负值．  所以由条件甲推不出乙，由乙也推不出甲，  即甲不是乙的必要条件，也不是充分条件．",
+      "solution_plain": "因为 1+ = ^ 2 2 +2 2 2 + ^ 2 2 = ( 2 + 2 ) ^ 2 = 2 + 2 所以条件甲等价于： 2 + 2 =a ． 在条件甲中，易知 a 0 ，而在条件乙中， a 可能取负值． 所以由条件甲推不出乙，由乙也推不出甲， 即甲不是乙的必要条件，也不是充分条件．"
+    },
+    "answer": {
+      "final_raw": "甲不是乙的必要条件，也不是充分条件",
+      "final_normalized": "甲不是乙的必要条件，也不是充分条件",
+      "candidates": [
+        "D",
+        "甲不是乙的必要条件，也不是充分条件"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为$$\\sqrt{1+\\sin \\theta }=\\sqrt{{{\\sin }^{2}}\\frac{\\theta }{2}+2\\sin \\frac{\\theta }{2}\\cos \\frac{\\theta }{2}+{{\\cos }^{2}}\\frac{\\theta }{2}}=\\sqrt{{{\\left( \\sin \\frac{\\theta }{2}+\\cos \\frac{\\theta }{2} \\right)}^{2}}}=\\left\\textbar{} \\sin \\frac{\\theta }{2}+\\cos \\frac{\\theta }{2} \\right\\textbar$$  所以条件甲等价于：$$\\left\\textbar{} \\sin \\frac{\\theta }{2}+\\cos \\frac{\\theta }{2} \\right\\textbar=a$$．  在条件甲中，易知$$a\\geqslant 0$$，而在条件乙中，$$a$$可能取负值．  所以由条件甲推不出乙，由乙也推不出甲，  即甲不是乙的必要条件，也不是充分条件．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "条件甲： 1+ =a ．条件乙： 2 + 2 =a ．则下列（~ ）是正确的． (A) 甲是乙的充分必要条件 (B) 甲是乙的必要条件 (C) 甲是乙的充分条件 (D) 甲不是乙的必要条件，也不是充分条件",
+      "solution_text": "因为 1+ = ^ 2 2 +2 2 2 + ^ 2 2 = ( 2 + 2 ) ^ 2 = 2 + 2 所以条件甲等价于： 2 + 2 =a ． 在条件甲中，易知 a 0 ，而在条件乙中， a 可能取负值． 所以由条件甲推不出乙，由乙也推不出甲， 即甲不是乙的必要条件，也不是充分条件．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1056",
+        "queId": "ee633f00f517474a979807407e6f5502",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "甲是乙的充分必要条件"
+          },
+          {
+            "label": "B",
+            "content": "甲是乙的必要条件"
+          },
+          {
+            "label": "C",
+            "content": "甲是乙的充分条件"
+          },
+          {
+            "label": "D",
+            "content": "甲不是乙的必要条件，也不是充分条件"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->三角函数->三角函数的图像与性质",
+          "竞赛->知识点->三角函数->三角恒等变换"
+        ],
+        "competition_source_list": [
+          "2006年上海复旦大学自主招生千分考第16题",
+          "1981年全国高中数学联赛竞赛一试第2题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02717",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2717,
+      "split": "zh_train",
+      "source_problem_id": "ff8080814a85cc99014a89235e00081a"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知集合$$M= {1,2,3 }$$，$$N= {1,2,3,4 }$$，定义函数$$f:M\\to N$$．若点 $$A(1,f(1))$$，$$B(2,f(2))$$，$$C(3,f(3))$$，$$\\Delta ABC$$的外接圆圆心为$$D$$，且$$\\overrightarrow{DA}+\\overrightarrow{DC}=\\lambda \\overrightarrow{DB}(\\lambda\\in R)$$ ，则满足条件的函数$$f(x)$$有（~ ）\n(A) 6$$个\n(B) 10$$个\n(C) 12$$个\n(D) 16$$个",
+      "problem_plain": "已知集合 M= 1,2,3 ， N= 1,2,3,4 ，定义函数 f:M N ．若点 A(1,f(1)) ， B(2,f(2)) ， C(3,f(3)) ， ABC 的外接圆圆心为 D ，且 DA + DC = DB ( R) ，则满足条件的函数 f(x) 有（~ ） (A) 6 个 (B) 10 个 (C) 12 个 (D) 16 个",
+      "solution_latex": "由$$\\overrightarrow{DA}+\\overrightarrow{DC}=\\overrightarrow{\\gamma DB}$$（$$\\gamma \\in \\mathbf{R}$$），分析可得$$\\triangle ABC$$是等腰三角形，  且$$BA=BC$$，必有$$f(1)=f(3)$$，$$f(1)\\ne f(2)$$．  点$$A(1,f(1))$$、当$$f(1)=1=f(3)$$时$$f(2)=2$$、$$3$$、$$4$$，三种情况．  $$f(1)=f(3)=2$$；$$f(2)=1$$、$$3$$、$$4$$，有三种．  $$f(1)=f(3)=3$$；$$f(2)=2$$、$$1$$、$$4$$，有三种．  $$f(1)=f(3)=4$$；$$f(2)=2$$、$$3$$、$$1$$，有三种．  因而满足条件的函数$$f(x)$$有$$12$$种．  故选$$\\text{C}$$．",
+      "solution_plain": "由 DA + DC = DB （ R ），分析可得 ABC 是等腰三角形， 且 BA=BC ，必有 f(1)=f(3) ， f(1) f(2) ． 点 A(1,f(1)) 、当 f(1)=1=f(3) 时 f(2)=2 、 3 、 4 ，三种情况． f(1)=f(3)=2 ； f(2)=1 、 3 、 4 ，有三种． f(1)=f(3)=3 ； f(2)=2 、 1 、 4 ，有三种． f(1)=f(3)=4 ； f(2)=2 、 3 、 1 ，有三种． 因而满足条件的函数 f(x) 有 12 种． 故选 C ．"
+    },
+    "answer": {
+      "final_raw": "12$$个",
+      "final_normalized": "12$$个",
+      "candidates": [
+        "12$$个",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由$$\\overrightarrow{DA}+\\overrightarrow{DC}=\\overrightarrow{\\gamma DB}$$（$$\\gamma \\in \\mathbf{R}$$），分析可得$$\\triangle ABC$$是等腰三角形，  且$$BA=BC$$，必有$$f(1)=f(3)$$，$$f(1)\\ne f(2)$$．  点$$A(1,f(1))$$、当$$f(1)=1=f(3)$$时$$f(2)=2$$、$$3$$、$$4$$，三种情况．  $$f(1)=f(3)=2$$；$$f(2)=1$$、$$3$$、$$4$$，有三种．  $$f(1)=f(3)=3$$；$$f(2)=2$$、$$1$$、$$4$$，有三种．  $$f(1)=f(3)=4$$；$$f(2)=2$$、$$3$$、$$1$$，有三种．  因而满足条件的函数$$f(x)$$有$$12$$种．  故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知集合 M= 1,2,3 ， N= 1,2,3,4 ，定义函数 f:M N ．若点 A(1,f(1)) ， B(2,f(2)) ， C(3,f(3)) ， ABC 的外接圆圆心为 D ，且 DA + DC = DB ( R) ，则满足条件的函数 f(x) 有（~ ） (A) 6 个 (B) 10 个 (C) 12 个 (D) 16 个",
+      "solution_text": "由 DA + DC = DB （ R ），分析可得 ABC 是等腰三角形， 且 BA=BC ，必有 f(1)=f(3) ， f(1) f(2) ． 点 A(1,f(1)) 、当 f(1)=1=f(3) 时 f(2)=2 、 3 、 4 ，三种情况． f(1)=f(3)=2 ； f(2)=1 、 3 、 4 ，有三种． f(1)=f(3)=3 ； f(2)=2 、 1 、 4 ，有三种． f(1)=f(3)=4 ； f(2)=2 、 3 、 1 ，有三种． 因而满足条件的函数 f(x) 有 12 种． 故选 C ．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "831",
+        "queId": "ff8080814a85cc99014a89235e00081a",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6$$个"
+          },
+          {
+            "label": "B",
+            "content": "10$$个"
+          },
+          {
+            "label": "C",
+            "content": "12$$个"
+          },
+          {
+            "label": "D",
+            "content": "16$$个"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->计数原理->两个基本计数原理->分类加法计数原理",
+          "课内体系->知识点->函数的概念与性质->函数的概念及其表示->函数的概念->函数的定义",
+          "课内体系->素养->数学运算"
+        ],
+        "competition_source_list": [
+          "2010年黑龙江全国高中数学联赛竞赛初赛第12题5分",
+          "2020~2021学年广东深圳福田区深圳市高级中学高中部高二下学期期中第8题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02722",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2722,
+      "split": "zh_train",
+      "source_problem_id": "69ad4e8d2c0648f28cd79083e185f5f1"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$2000-AMC10-17$$  Boris has an incredible coin changing machine. When he puts in a quarter, it returns five nickels; when he puts in a nickel, it returns five pennies; and when he puts in a penny, it returns five quarters. Boris starts with just one penny. Which of the following amounts could Boris have after using the machine repeatedly?  鲍里斯有一台令人难以置信的硬币更换机。 当他投入$$25$$美分时，它返回五个$$5$$分币； 当他投入$$1$$个五分硬币时，它返回$$5$$个人$$1$$分硬币； 当他投入一分钱时，它会返回五个$$25$$美分硬币。 鲍里斯从一分钱开始。 鲍里斯在反复使用机器后可能会获得以下哪些金额？\n(A) ＄$$3.63\n(B) ＄$$5.13\n(C) ＄$$6.30\n(D) ＄$$7.45\n(E) ＄$$9.07",
+      "problem_plain": "2000-AMC10-17 Boris has an incredible coin changing machine. When he puts in a quarter, it returns five nickels; when he puts in a nickel, it returns five pennies; and when he puts in a penny, it returns five quarters. Boris starts with just one penny. Which of the following amounts could Boris have after using the machine repeatedly? 鲍里斯有一台令人难以置信的硬币更换机。 当他投入 25 美分时，它返回五个 5 分币； 当他投入 1 个五分硬币时，它返回 5 个人 1 分硬币； 当他投入一分钱时，它会返回五个 25 美分硬币。 鲍里斯从一分钱开始。 鲍里斯在反复使用机器后可能会获得以下哪些金额？ (A) ＄ 3.63 (B) ＄ 5.13 (C) ＄ 6.30 (D) ＄ 7.45 (E) ＄ 9.07",
+      "solution_latex": "Consider what happens each time he puts a coin in. If he puts in a quarter, he gets five nickels back, so the amount of money he has doesn\\textquotesingle t change. Similarly, if he puts a nickel in the machine, he gets five pennies back and the money value doesn\\textquotesingle t change. However, if he puts a penny in, he gets five quarters back, increasing the amount of money he has by~~cents.  This implies that the only possible values, in cents, he can have are the ones one more than a multiple of . Of the choices given, the only one is D",
+      "solution_plain": "Consider what happens each time he puts a coin in. If he puts in a quarter, he gets five nickels back, so the amount of money he has doesn t change. Similarly, if he puts a nickel in the machine, he gets five pennies back and the money value doesn t change. However, if he puts a penny in, he gets five quarters back, increasing the amount of money he has by~~cents. This implies that the only possible values, in cents, he can have are the ones one more than a multiple of . Of the choices given, the only one is D"
+    },
+    "answer": {
+      "final_raw": "＄$$7.45",
+      "final_normalized": "＄$$7.45",
+      "candidates": [
+        "D",
+        "＄$$7.45"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "algebra",
+        "amc10_12",
+        "application",
+        "equation_word_problems",
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "amc10_12",
+        "application",
+        "equation_word_problems",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Consider what happens each time he puts a coin in.",
+        "If he puts in a quarter, he gets five nickels back, so the amount of money he has doesn\\textquotesingle t change.",
+        "Similarly, if he puts a nickel in the machine, he gets five pennies back and the money value doesn\\textquotesingle t change.",
+        "However, if he puts a penny in, he gets five quarters back, increasing the amount of money he has by~~cents.",
+        "This implies that the only possible values, in cents, he can have are the ones one more than a multiple of .",
+        "Of the choices given, the only one is D"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2000-AMC10-17 Boris has an incredible coin changing machine. When he puts in a quarter, it returns five nickels; when he puts in a nickel, it returns five pennies; and when he puts in a penny, it returns five quarters. Boris starts with just one penny. Which of the following amounts could Boris have after using the machine repeatedly? 鲍里斯有一台令人难以置信的硬币更换机。 当他投入 25 美分时，它返回五个 5 分币； 当他投入 1 个五分硬币时，它返回 5 个人 1 分硬币； 当他投入一分钱时，它会返回五个 25 美分硬币。 鲍里斯从一分钱开始。 鲍里斯在反复使用机器后可能会获得以下哪些金额？ (A) ＄ 3.63 (B) ＄ 5.13 (C) ＄ 6.30 (D) ＄ 7.45 (E) ＄ 9.07",
+      "solution_text": "Consider what happens each time he puts a coin in. If he puts in a quarter, he gets five nickels back, so the amount of money he has doesn t change. Similarly, if he puts a nickel in the machine, he gets five pennies back and the money value doesn t change. However, if he puts a penny in, he gets five quarters back, increasing the amount of money he has by~~cents. This implies that the only possible values, in cents, he can have are the ones one more than a multiple of . Of the choices given, the only one is D",
+      "keywords": [
+        "algebra",
+        "amc10_12",
+        "application",
+        "equation_word_problems",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "754",
+        "queId": "69ad4e8d2c0648f28cd79083e185f5f1",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "＄$$3.63"
+          },
+          {
+            "label": "B",
+            "content": "＄$$5.13"
+          },
+          {
+            "label": "C",
+            "content": "＄$$6.30"
+          },
+          {
+            "label": "D",
+            "content": "＄$$7.45"
+          },
+          {
+            "label": "E",
+            "content": "＄$$9.07"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->函数的应用->函数与方程",
+          "美国AMC10/12->Knowledge Point->Algebra->Application->Equation Word Problems"
+        ],
+        "competition_source_list": [
+          "2000年AMC10竞赛第17题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02786",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2786,
+      "split": "zh_train",
+      "source_problem_id": "21dbc6782f2d4d93876e00b4039a4ce8"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "2005AMC12A, 21  How many ordered triples of integers $$(a, b, c)$$, with $$a\\geqslant2$$, $$b\\geqslant1$$, and $$c\\geqslant0$$, satisfy both $$\\log_ab=c^{2005}$$ and $$a+b+c= 2005$$?  有多少个整数 $$(a, b, c)$$ 的有序三元组，其中 $$a\\geqslant2$$、$$b\\geqslant1$$ 和 $$c\\geqslant0$$ 满足 $$\\log_ab =c^{2005}$$ 和 $$a+b+c= 2005$$?\n(A) 0\n(B) 1\n(C) 2\n(D) 3\n(E) 4",
+      "problem_plain": "2005AMC12A, 21 How many ordered triples of integers (a, b, c) , with a 2 , b 1 , and c 0 , satisfy both _ab=c^ 2005 and a+b+c= 2005 ? 有多少个整数 (a, b, c) 的有序三元组，其中 a 2 、 b 1 和 c 0 满足 _ab =c^ 2005 和 a+b+c= 2005 ? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_latex": "由$\\log_a{b}=c^{2005}$可知$b=a^{c\\^{2005}}$.  又由$a+b+c=2005$知$a\\textless2005$, 故$c=0$或$c=1$.  $c=0$时, $b=a^{0}=1$, $a=2005-b-c=2004$.  $c=1$时, $b=a^{1}=a$, 再由$a+b+c=2005$知$(a,b,c)=(1002, 1002, 1)$.  共两种, 选$$\\text{C}$$.",
+      "solution_plain": "由 _a b =c^ 2005 可知 b=a^ c ^ 2005 . 又由 a+b+c=2005 知 a 2005 , 故 c=0 或 c=1 . c=0 时, b=a^ 0 =1 , a=2005-b-c=2004 . c=1 时, b=a^ 1 =a , 再由 a+b+c=2005 知 (a,b,c)=(1002, 1002, 1) . 共两种, 选 C ."
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "algebra",
+        "amc10_12",
+        "calculation",
+        "solve_quadratic_equations",
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "amc10_12",
+        "calculation",
+        "level_4",
+        "single_choice",
+        "solve_quadratic_equations",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由$\\log_a{b}=c^{2005}$可知$b=a^{c\\^{2005}}$.",
+        "又由$a+b+c=2005$知$a\\textless2005$, 故$c=0$或$c=1$.",
+        "$c=0$时, $b=a^{0}=1$, $a=2005-b-c=2004$.",
+        "$c=1$时, $b=a^{1}=a$, 再由$a+b+c=2005$知$(a,b,c)=(1002, 1002, 1)$.",
+        "共两种, 选$$\\text{C}$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2005AMC12A, 21 How many ordered triples of integers (a, b, c) , with a 2 , b 1 , and c 0 , satisfy both _ab=c^ 2005 and a+b+c= 2005 ? 有多少个整数 (a, b, c) 的有序三元组，其中 a 2 、 b 1 和 c 0 满足 _ab =c^ 2005 和 a+b+c= 2005 ? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_text": "由 _a b =c^ 2005 可知 b=a^ c ^ 2005 . 又由 a+b+c=2005 知 a 2005 , 故 c=0 或 c=1 . c=0 时, b=a^ 0 =1 , a=2005-b-c=2004 . c=1 时, b=a^ 1 =a , 再由 a+b+c=2005 知 (a,b,c)=(1002, 1002, 1) . 共两种, 选 C .",
+      "keywords": [
+        "algebra",
+        "amc10_12",
+        "calculation",
+        "level_4",
+        "single_choice",
+        "solve_quadratic_equations",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "200",
+        "queId": "21dbc6782f2d4d93876e00b4039a4ce8",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          },
+          {
+            "label": "E",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "美国AMC10/12->Knowledge Point->Algebra->Calculation->Solve Quadratic Equations",
+          "课内体系->知识点->基本初等函数->对数的概念及其运算->指对化简求值"
+        ],
+        "competition_source_list": [
+          "2005年AMC12竞赛A第21题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02877",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2877,
+      "split": "zh_train",
+      "source_problem_id": "f3c5fe5f1b014af88eeab461ce50add1"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "2008AMC12B, 23  The sum of the base-$$10$$ logarithms of the divisors of $$10^{n}$$ is $$792$$. What is $$n$$?  $$10^{n}$$的所有因数的以$$10$$为底的对数之和是$$792$$. 则$$n$$的值为? ．\n(A) 11\n(B) 12\n(C) 13\n(D) 14\n(E) 15",
+      "problem_plain": "2008AMC12B, 23 The sum of the base- 10 logarithms of the divisors of 10^ n is 792 . What is n ? 10^ n 的所有因数的以 10 为底的对数之和是 792 . 则 n 的值为? ． (A) 11 (B) 12 (C) 13 (D) 14 (E) 15",
+      "solution_latex": "$$792=\\sum_{i=0}^{}n\\sum_{j=0}^{}n\\left(i\\log{2}+j\\log{5}\\right)=\\sum_{i=0}^{}n\\left((n+1)i\\log{2}+\\frac{n(n+1)}{2}\\log{5}\\right)=\\frac{n(n+1)^{2}}{2}(\\log{2}+\\log{5})=\\frac{n(n+1)^{2}}{2}$$, 其中$\\log$指$\\log_{10}$.  于是有$n(n+1)^{2}=1584=2^{4}\\times 3^{2}\\times 11$.  可以看出$11\\textbar n$, 然后如果再有$2^{2}\\textbar n$或$3^{2}\\textbar n$, $(n+1)^{2}$就太小了, 于是只有$n=11$, 选$$\\text{A}$$.",
+      "solution_plain": "792= _ i=0 ^ n _ j=0 ^ n (i 2 +j 5 )= _ i=0 ^ n ((n+1)i 2 + n(n+1) 2 5 )= n(n+1)^ 2 2 ( 2 + 5 )= n(n+1)^ 2 2 , 其中 指 _ 10 . 于是有 n(n+1)^ 2 =1584=2^ 4 3^ 2 11 . 可以看出 11 n , 然后如果再有 2^ 2 n 或 3^ 2 n , (n+1)^ 2 就太小了, 于是只有 n=11 , 选 A ."
+    },
+    "answer": {
+      "final_raw": "11",
+      "final_normalized": "11",
+      "candidates": [
+        "11",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "algebra",
+        "amc10_12",
+        "calculation",
+        "combination",
+        "exponentiation",
+        "reasoning",
+        "simple_logical_reasoning",
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "amc10_12",
+        "calculation",
+        "combination",
+        "exponentiation",
+        "level_4",
+        "reasoning",
+        "simple_logical_reasoning",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$792=\\sum_{i=0}^{}n\\sum_{j=0}^{}n\\left(i\\log{2}+j\\log{5}\\right)=\\sum_{i=0}^{}n\\left((n+1)i\\log{2}+\\frac{n(n+1)}{2}\\log{5}\\right)=\\frac{n(n+1)^{2}}{2}(\\log{2}+\\log{5})=\\frac{n(n+1)^{2}}{2}$$, 其中$\\log$指$\\log_{10}$.",
+        "于是有$n(n+1)^{2}=1584=2^{4}\\times 3^{2}\\times 11$.",
+        "可以看出$11\\textbar n$, 然后如果再有$2^{2}\\textbar n$或$3^{2}\\textbar n$, $(n+1)^{2}$就太小了, 于是只有$n=11$, 选$$\\text{A}$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2008AMC12B, 23 The sum of the base- 10 logarithms of the divisors of 10^ n is 792 . What is n ? 10^ n 的所有因数的以 10 为底的对数之和是 792 . 则 n 的值为? ． (A) 11 (B) 12 (C) 13 (D) 14 (E) 15",
+      "solution_text": "792= _ i=0 ^ n _ j=0 ^ n (i 2 +j 5 )= _ i=0 ^ n ((n+1)i 2 + n(n+1) 2 5 )= n(n+1)^ 2 2 ( 2 + 5 )= n(n+1)^ 2 2 , 其中 指 _ 10 . 于是有 n(n+1)^ 2 =1584=2^ 4 3^ 2 11 . 可以看出 11 n , 然后如果再有 2^ 2 n 或 3^ 2 n , (n+1)^ 2 就太小了, 于是只有 n=11 , 选 A .",
+      "keywords": [
+        "algebra",
+        "amc10_12",
+        "calculation",
+        "combination",
+        "exponentiation",
+        "level_4",
+        "reasoning",
+        "simple_logical_reasoning",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1123",
+        "queId": "f3c5fe5f1b014af88eeab461ce50add1",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "11"
+          },
+          {
+            "label": "B",
+            "content": "12"
+          },
+          {
+            "label": "C",
+            "content": "13"
+          },
+          {
+            "label": "D",
+            "content": "14"
+          },
+          {
+            "label": "E",
+            "content": "15"
+          }
+        ],
+        "knowledge_point_routes": [
+          "美国AMC10/12->Knowledge Point->Algebra->Calculation->Exponentiation",
+          "美国AMC10/12->Knowledge Point->Combination->Reasoning->Simple Logical Reasoning",
+          "课内体系->知识点->基本初等函数->对数的概念及其运算->对数的运算"
+        ],
+        "competition_source_list": [
+          "2008年AMC12竞赛B第23题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02880",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2880,
+      "split": "zh_train",
+      "source_problem_id": "070bed4109b14d0882452921d79e5d2d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "下面的命题中，正确的个数为．  （1） 将函数$$y=4\\sin 2x$$图象向左平移$$\\frac{\\pi }{3}$$个单位得到函数$$y=4\\sin \\left( 2x+\\frac{\\pi }{3} \\right)$$的图象；  （2） 函数$$y=4\\cos (2x+\\varphi )$$图象关于点$$\\left( \\frac{\\pi }{6},0 \\right)$$对称的充要条件是$$\\varphi =k\\pi +\\frac{\\pi }{6}(k\\in Z)$$；  （3） 函数$$y=\\frac{4\\tan x}{1-{{\\tan }^{2}}x}$$的周期为$$\\frac{\\pi }{2}$$；  （4） 化简$$\\sqrt{1+\\sin 2}-\\sqrt{1-\\sin 2}$$等于$$2\\sin 1$$．\n(A) 3\n(B) 2\n(C) 1\n(D) 0",
+      "problem_plain": "下面的命题中，正确的个数为． （1） 将函数 y=4 2x 图象向左平移 3 个单位得到函数 y=4 ( 2x+ 3 ) 的图象； （2） 函数 y=4 (2x+ ) 图象关于点 ( 6 ,0 ) 对称的充要条件是 =k + 6 (k Z) ； （3） 函数 y= 4 x 1- ^ 2 x 的周期为 2 ； （4） 化简 1+ 2 - 1- 2 等于 2 1 ． (A) 3 (B) 2 (C) 1 (D) 0",
+      "solution_latex": "$$y=4\\sin 2x$$向左平移$$\\frac{\\text{ }\\pi }{3}$$个单位，得到$$y=4\\sin 2\\left( x+\\frac{\\text{ }\\pi }{3} \\right)=4\\sin \\left( 2x+\\frac{2}{3}\\text{ }\\pi ~\\right)$$，⑴错；  由$$4\\cos \\left( 2\\cdot \\frac{\\text{ }\\pi }{6}+\\varphi \\right)=0$$，得$$\\frac{\\text{ }\\pi }{3}+\\varphi =k\\text{ }\\pi +\\frac{\\text{ }\\pi }{2}$$，即$$\\varphi =k\\text{ }\\pi +\\frac{\\text{ }\\pi }{6}$$，$$k\\in \\mathbf{Z}$$，⑵对；  $$y=\\frac{4\\tan x}{1-{{\\tan }^{2}}x}=2\\tan 2x$$，但$$x\\ne k\\text{ }\\pi \\pm \\frac{\\text{ }\\pi }{4},k\\text{ }\\pi +\\frac{\\text{ }\\pi }{2}$$，$$y$$不是周期函数，⑶错；  $$\\sqrt{1+\\sin 2}-\\sqrt{1-\\sin 2}=\\sqrt{{{\\left( \\sin 1+\\cos 1 \\right)}^{2}}}-\\sqrt{{{\\left( \\sin 1-\\cos 1 \\right)}^{2}}}=2\\cos 1$$，⑷错．  正确的命题个数只有$$1$$个．",
+      "solution_plain": "y=4 2x 向左平移 3 个单位，得到 y=4 2 ( x+ 3 )=4 ( 2x+ 2 3 ~ ) ，⑴错； 由 4 ( 2 6 + )=0 ，得 3 + =k + 2 ，即 =k + 6 ， k Z ，⑵对； y= 4 x 1- ^ 2 x =2 2x ，但 x k 4 ,k + 2 ， y 不是周期函数，⑶错； 1+ 2 - 1- 2 = ( 1+ 1 ) ^ 2 - ( 1- 1 ) ^ 2 =2 1 ，⑷错． 正确的命题个数只有 1 个．"
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$y=4\\sin 2x$$向左平移$$\\frac{\\text{ }\\pi }{3}$$个单位，得到$$y=4\\sin 2\\left( x+\\frac{\\text{ }\\pi }{3} \\right)=4\\sin \\left( 2x+\\frac{2}{3}\\text{ }\\pi ~\\right)$$，⑴错；  由$$4\\cos \\left( 2\\cdot \\frac{\\text{ }\\pi }{6}+\\varphi \\right)=0$$，得$$\\frac{\\text{ }\\pi }{3}+\\varphi =k\\text{ }\\pi +\\frac{\\text{ }\\pi }{2}$$，即$$\\varphi =k\\text{ }\\pi +\\frac{\\text{ }\\pi }{6}$$，$$k\\in \\mathbf{Z}$$，⑵对；  $$y=\\frac{4\\tan x}{1-{{\\tan }^{2}}x}=2\\tan 2x$$，但$$x\\ne k\\text{ }\\pi \\pm \\frac{\\text{ }\\pi }{4},k\\text{ }\\pi +\\frac{\\text{ }\\pi }{2}$$，$$y$$不是周期函数，⑶错；  $$\\sqrt{1+\\sin 2}-\\sqrt{1-\\sin 2}=\\sqrt{{{\\left( \\sin 1+\\cos 1 \\right)}^{2}}}-\\sqrt{{{\\left( \\sin 1-\\cos 1 \\right)}^{2}}}=2\\cos 1$$，⑷错．  正确的命题个数只有$$1$$个．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "下面的命题中，正确的个数为． （1） 将函数 y=4 2x 图象向左平移 3 个单位得到函数 y=4 ( 2x+ 3 ) 的图象； （2） 函数 y=4 (2x+ ) 图象关于点 ( 6 ,0 ) 对称的充要条件是 =k + 6 (k Z) ； （3） 函数 y= 4 x 1- ^ 2 x 的周期为 2 ； （4） 化简 1+ 2 - 1- 2 等于 2 1 ． (A) 3 (B) 2 (C) 1 (D) 0",
+      "solution_text": "y=4 2x 向左平移 3 个单位，得到 y=4 2 ( x+ 3 )=4 ( 2x+ 2 3 ~ ) ，⑴错； 由 4 ( 2 6 + )=0 ，得 3 + =k + 2 ，即 =k + 6 ， k Z ，⑵对； y= 4 x 1- ^ 2 x =2 2x ，但 x k 4 ,k + 2 ， y 不是周期函数，⑶错； 1+ 2 - 1- 2 = ( 1+ 1 ) ^ 2 - ( 1- 1 ) ^ 2 =2 1 ，⑷错． 正确的命题个数只有 1 个．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "61",
+        "queId": "070bed4109b14d0882452921d79e5d2d",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "1"
+          },
+          {
+            "label": "D",
+            "content": "0"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->三角函数->三角不等式",
+          "竞赛->知识点->三角函数->三角函数的图像与性质",
+          "竞赛->知识点->三角函数->三角恒等变换"
+        ],
+        "competition_source_list": [
+          "2009年黑龙江全国高中数学联赛竞赛初赛第3题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02926",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2926,
+      "split": "zh_train",
+      "source_problem_id": "ee0dbdf123e04a30b7145fc376b73b75"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知非零实数$$x$$，$$y$$，$$z$$满足$$\\frac{x-y}{x+y}\\cdot\\frac{y-z}{y+z}\\cdot\\frac{z-x}{z+x}=\\frac{14}{15}$$．则$$\\frac{y}{x+y}+\\frac{z}{y+z}+\\frac{x}{z+x}$$的值为．\n(A) \\frac{53}{30}\n(B) \\frac{59}{30}\n(C) \\frac{61}{30}\n(D) 前三个答案都不对",
+      "problem_plain": "已知非零实数 x ， y ， z 满足 x-y x+y y-z y+z z-x z+x = 14 15 ．则 y x+y + z y+z + x z+x 的值为． (A) 53 30 (B) 59 30 (C) 61 30 (D) 前三个答案都不对",
+      "solution_latex": "令$$\\frac{y}{x+y}=m$$，$$\\frac{z}{y+z}=n$$，$$\\frac{x}{z+x}=l$$．  则$$\\frac{14}{15}=\\frac{x-y}{x+y}\\cdot\\frac{y-z}{y+z}\\cdot\\frac{z-x}{z+x}=(1-2m)(1-2n)(1-2l )$$．  即$$1-2(m+n+l)+4(mn+nl+lm)-8mnl=\\frac{14}{15}$$．  又$$\\left( {\\frac{1}{m}-1} \\right)\\left( {\\frac{1}{n}-1} \\right)\\left( {\\frac{1}{l}-1} \\right)=\\frac{x}{y}\\cdot\\frac{y}{z}\\cdot\\frac{z}{x}=1$$  $$\\Rightarrow 1-\\left( m+n+l \\right)+\\left( mn+nl+lm \\right)-mnl=mnl$$，  故$$1-2(m+n+l)-4+4(m+n+l)=\\frac{14}{15}$$  $$\\Rightarrow m+n+l=\\frac{59}{30}$$  $$\\Rightarrow \\frac{y}{x+y}+\\frac{z}{y+z}+\\frac{x}{z+x}=\\frac{59}{30}$$．",
+      "solution_plain": "令 y x+y =m ， z y+z =n ， x z+x =l ． 则 14 15 = x-y x+y y-z y+z z-x z+x =(1-2m)(1-2n)(1-2l ) ． 即 1-2(m+n+l)+4(mn+nl+lm)-8mnl= 14 15 ． 又 ( 1 m -1 ) ( 1 n -1 ) ( 1 l -1 )= x y y z z x =1 1- ( m+n+l )+ ( mn+nl+lm )-mnl=mnl ， 故 1-2(m+n+l)-4+4(m+n+l)= 14 15 m+n+l= 59 30 y x+y + z y+z + x z+x = 59 30 ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{59}{30}",
+      "final_normalized": "\\frac{59}{30}",
+      "candidates": [
+        "B",
+        "\\frac{59}{30}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "令$$\\frac{y}{x+y}=m$$，$$\\frac{z}{y+z}=n$$，$$\\frac{x}{z+x}=l$$．  则$$\\frac{14}{15}=\\frac{x-y}{x+y}\\cdot\\frac{y-z}{y+z}\\cdot\\frac{z-x}{z+x}=(1-2m)(1-2n)(1-2l )$$．  即$$1-2(m+n+l)+4(mn+nl+lm)-8mnl=\\frac{14}{15}$$．  又$$\\left( {\\frac{1}{m}-1} \\right)\\left( {\\frac{1}{n}-1} \\right)\\left( {\\frac{1}{l}-1} \\right)=\\frac{x}{y}\\cdot\\frac{y}{z}\\cdot\\frac{z}{x}=1$$  $$\\Rightarrow 1-\\left( m+n+l \\right)+\\left( mn+nl+lm \\right)-mnl=mnl$$，  故$$1-2(m+n+l)-4+4(m+n+l)=\\frac{14}{15}$$  $$\\Rightarrow m+n+l=\\frac{59}{30}$$  $$\\Rightarrow \\frac{y}{x+y}+\\frac{z}{y+z}+\\frac{x}{z+x}=\\frac{59}{30}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知非零实数 x ， y ， z 满足 x-y x+y y-z y+z z-x z+x = 14 15 ．则 y x+y + z y+z + x z+x 的值为． (A) 53 30 (B) 59 30 (C) 61 30 (D) 前三个答案都不对",
+      "solution_text": "令 y x+y =m ， z y+z =n ， x z+x =l ． 则 14 15 = x-y x+y y-z y+z z-x z+x =(1-2m)(1-2n)(1-2l ) ． 即 1-2(m+n+l)+4(mn+nl+lm)-8mnl= 14 15 ． 又 ( 1 m -1 ) ( 1 n -1 ) ( 1 l -1 )= x y y z z x =1 1- ( m+n+l )+ ( mn+nl+lm )-mnl=mnl ， 故 1-2(m+n+l)-4+4(m+n+l)= 14 15 m+n+l= 59 30 y x+y + z y+z + x z+x = 59 30 ．",
+      "keywords": [
+        "algebra",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1001",
+        "queId": "ee0dbdf123e04a30b7145fc376b73b75",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{53}{30}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{59}{30}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{61}{30}"
+          },
+          {
+            "label": "D",
+            "content": "前三个答案都不对"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->方法->换元法",
+          "竞赛->知识点->不等式->换元技巧->代数换元"
+        ],
+        "competition_source_list": [
+          "全国高中数学联赛竞赛模拟一试（十八）第3题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02956",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2956,
+      "split": "zh_train",
+      "source_problem_id": "d2d050a7a846460fac8d79ff6496df35"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "2005AMC12B, 23  Let $$S$$ be the set of ordered triples $$(x, y,z)$$ of real numbers for which $$\\log_{10}(x+y)=z$$ and $$\\log_{10}(x^{2}+y^{2})=z+1$$. There are real numbers $$a$$ and $$b$$ such that for all ordered triples $$(x, y,z)$$ in $$S$$ we have $$x^{3}+y^{3}=a\\cdot10^{3z}+b\\cdot10^{2z}$$. What is the value of $$a+b$$?  令 $$S$$ 为有序实数三元组 $$(x, y,z)$$ 的集合，其中 $$\\log_{10}(x+y)=z$$ 且 $$\\log_{ 10}(x^{2}+y^{2})=z+1$$。 存在实数 $$a$$ 和 $$b$$ ，使得对于 $$S$$ 中的所有有序三元组 $$(x, y,z)$$ ， 有$$x^{3}+y^{} {3}=a\\cdot10^{3z}+b\\cdot10^{2z}$$。 $$a+b$$ 的值是多少？\n(A) \\frac{15}{2}\n(B) \\frac{29}{2}\n(C) 15\n(D) \\frac{39}{2}\n(E) 24",
+      "problem_plain": "2005AMC12B, 23 Let S be the set of ordered triples (x, y,z) of real numbers for which _ 10 (x+y)=z and _ 10 (x^ 2 +y^ 2 )=z+1 . There are real numbers a and b such that for all ordered triples (x, y,z) in S we have x^ 3 +y^ 3 =a 10^ 3z +b 10^ 2z . What is the value of a+b ? 令 S 为有序实数三元组 (x, y,z) 的集合，其中 _ 10 (x+y)=z 且 _ 10 (x^ 2 +y^ 2 )=z+1 。 存在实数 a 和 b ，使得对于 S 中的所有有序三元组 (x, y,z) ， 有 x^ 3 +y^ 3 =a 10^ 3z +b 10^ 2z 。 a+b 的值是多少？ (A) 15 2 (B) 29 2 (C) 15 (D) 39 2 (E) 24",
+      "solution_latex": "这题主要考代数变形.  由题意, $x+y=10^{}z$, $x^{2}+y^{2}=10^{z+1}$.  由此可得$xy=\\frac{(x+y)^{2}-(x^{2}+y^{2})}{2}=\\frac{1}{2}10^{2z}-5\\times 10^{}z$.  代入$x^{3}+y^{3}=(x+y)(x^{2}-xy+y^{2})$, 得  $x^{3}+y^{3}=10^{}z(10\\times 10^{}z-\\frac{1}{2}10^{2z}+5\\times 10^{}z)=-\\frac{1}{2}10^{3z}+15\\times 10^{2z}$.  故$a+b=15-\\frac{1}{2}=\\frac{29}{2}$, 选$$\\text{B}$$.",
+      "solution_plain": "这题主要考代数变形. 由题意, x+y=10^ z , x^ 2 +y^ 2 =10^ z+1 . 由此可得 xy= (x+y)^ 2 -(x^ 2 +y^ 2 ) 2 = 1 2 10^ 2z -5 10^ z . 代入 x^ 3 +y^ 3 =(x+y)(x^ 2 -xy+y^ 2 ) , 得 x^ 3 +y^ 3 =10^ z(10 10^ z- 1 2 10^ 2z +5 10^ z)=- 1 2 10^ 3z +15 10^ 2z . 故 a+b=15- 1 2 = 29 2 , 选 B ."
+    },
+    "answer": {
+      "final_raw": "\\frac{29}{2}",
+      "final_normalized": "\\frac{29}{2}",
+      "candidates": [
+        "B",
+        "\\frac{29}{2}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "algebra",
+        "amc10_12",
+        "calculation",
+        "exponentiation",
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "amc10_12",
+        "calculation",
+        "exponentiation",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "这题主要考代数变形.",
+        "由题意, $x+y=10^{}z$, $x^{2}+y^{2}=10^{z+1}$.",
+        "由此可得$xy=\\frac{(x+y)^{2}-(x^{2}+y^{2})}{2}=\\frac{1}{2}10^{2z}-5\\times 10^{}z$.",
+        "代入$x^{3}+y^{3}=(x+y)(x^{2}-xy+y^{2})$, 得  $x^{3}+y^{3}=10^{}z(10\\times 10^{}z-\\frac{1}{2}10^{2z}+5\\times 10^{}z)=-\\frac{1}{2}10^{3z}+15\\times 10^{2z}$.",
+        "故$a+b=15-\\frac{1}{2}=\\frac{29}{2}$, 选$$\\text{B}$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2005AMC12B, 23 Let S be the set of ordered triples (x, y,z) of real numbers for which _ 10 (x+y)=z and _ 10 (x^ 2 +y^ 2 )=z+1 . There are real numbers a and b such that for all ordered triples (x, y,z) in S we have x^ 3 +y^ 3 =a 10^ 3z +b 10^ 2z . What is the value of a+b ? 令 S 为有序实数三元组 (x, y,z) 的集合，其中 _ 10 (x+y)=z 且 _ 10 (x^ 2 +y^ 2 )=z+1 。 存在实数 a 和 b ，使得对于 S 中的所有有序三元组 (x, y,z) ， 有 x^ 3 +y^ 3 =a 10^ 3z +b 10^ 2z 。 a+b 的值是多少？ (A) 15 2 (B) 29 2 (C) 15 (D) 39 2 (E) 24",
+      "solution_text": "这题主要考代数变形. 由题意, x+y=10^ z , x^ 2 +y^ 2 =10^ z+1 . 由此可得 xy= (x+y)^ 2 -(x^ 2 +y^ 2 ) 2 = 1 2 10^ 2z -5 10^ z . 代入 x^ 3 +y^ 3 =(x+y)(x^ 2 -xy+y^ 2 ) , 得 x^ 3 +y^ 3 =10^ z(10 10^ z- 1 2 10^ 2z +5 10^ z)=- 1 2 10^ 3z +15 10^ 2z . 故 a+b=15- 1 2 = 29 2 , 选 B .",
+      "keywords": [
+        "algebra",
+        "amc10_12",
+        "calculation",
+        "exponentiation",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1026",
+        "queId": "d2d050a7a846460fac8d79ff6496df35",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{15}{2}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{29}{2}"
+          },
+          {
+            "label": "C",
+            "content": "15"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{39}{2}"
+          },
+          {
+            "label": "E",
+            "content": "24"
+          }
+        ],
+        "knowledge_point_routes": [
+          "美国AMC10/12->Knowledge Point->Algebra->Calculation->Exponentiation",
+          "课内体系->知识点->基本初等函数->实数指数幂运算"
+        ],
+        "competition_source_list": [
+          "2005年AMC12竞赛B第23题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02957",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2957,
+      "split": "zh_train",
+      "source_problem_id": "3a0b481eb63c41a2a5a530aff1ff7fd3"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$2000-AMC12-13$$  One morning each member of Angela's family drank an $$8$$-ounce mixture of coffee with milk. The amounts of coffee and milk varied from cup to cup, but were never zero. Angela drank a quarter of the total amount of milk and a sixth of the total amount of coffee. How many people are in the family?   一天早上，$$Angela$$ 的每个家庭成员都喝了 8 美元一盎司的咖啡加牛奶混合物。 咖啡和牛奶的量因杯子而异，但从未为零。 安吉拉喝了牛奶总量的四分之一，咖啡总量的六分之一。 家里有多少人？\n(A) 3\n(B) 4\n(C) 5\n(D) 6\n(E) 7",
+      "problem_plain": "2000-AMC12-13 One morning each member of Angela's family drank an 8 -ounce mixture of coffee with milk. The amounts of coffee and milk varied from cup to cup, but were never zero. Angela drank a quarter of the total amount of milk and a sixth of the total amount of coffee. How many people are in the family? 一天早上， Angela 的每个家庭成员都喝了 8 美元一盎司的咖啡加牛奶混合物。 咖啡和牛奶的量因杯子而异，但从未为零。 安吉拉喝了牛奶总量的四分之一，咖啡总量的六分之一。 家里有多少人？ (A) 3 (B) 4 (C) 5 (D) 6 (E) 7",
+      "solution_latex": "Let $$c$$ be the total amount of coffee, $$m$$ of milk, and $$p$$ the number of people in the family. Then each person drinks the same total amount of coffee and milk ($$8$$ ounces), so $$\\left(\\frac{c}{6}+\\frac{m}{4} \\right)p=c+m$$. Regrouping, we get $$2c(6-p)=3m(p-4)$$. Since both $$c$$, $$m$$ are positive, it follows that $$6-p$$ and $$p-4$$ are also positive, which is only possible when $$p=5$$ ($$\\text{C}$$).  One could notice that (since there are only two components to the mixture) Angela must have more than her \"fair share\" of milk and less then her \"fair share\" of coffee in order to ensure that everyone has $$8$$ ounces. The \"fair share\" is $$\\frac{1}{p}$$. So,  $$\\frac{1}{6}\\textless\\frac{1}{p}\\textless\\frac{1}{4}$$  Which requires that $$p$$ be $$p=5$$ ($$\\text{C}$$), since $$p$$ is a whole number.  Again, let $$c$$, $$m$$, sand $$p$$ be the total amount of coffee, total amount of milk, and number of people in the family, respectively. Then the total amount that is drunk is $$8p$$, and also $$c+m$$. Thus, $$c+m=8p$$, so $$m=8p-c$$ and $$c=8p-m$$.  We also know that the amount Angela drank, which is is $$\\frac{c}{6}+\\frac{m}{4}$$, equal to $$8$$ ounces,  thus $$\\frac{c}{6}+\\frac{m}{4}=8$$. Rearranging gives $$24p-c=96$$. Now notice that $$c\\textgreater0$$ (by the problem statement).  In addition, $$m\\textgreater0$$ so $$c=8p-m\\textless8p$$. Therefore, $$0\\textless c\\textless8p$$ ,and so We know that so $$24p\\textgreater24p-c\\textgreater16p$$. We know that $$24p-c=96$$, so $$24p\\textgreater96\\textgreater16p$$. From the leftmost inequality, we get $$p\\textgreater4$$, and from the rightmost inequality, we get $$p\\textless6$$. The only possible value of $$p$$ is $$p=5$$ ($$\\text{C}$$).  Let $$c$$, $$m$$, and $$p$$ be the total amount of coffee, total amount of milk, and number of people in the family, respectively. $$c$$ and $$m$$ obviously can\\textquotesingle t be $$0$$. We know $$\\frac{c}{6}+\\frac{m}{4}=8$$ or $$3c+2m=96$$ and $$c+m=8p$$ or $$2c+2m=16p$$. Then, $$(2c+2m)+c=16p+c=96$$. Because $$16p$$ and $$96$$ are both divisible by $$16$$, $$c$$ must also be divisible by $$16$$. Let $$c=16k$$. Now, $$3(16k)+2m=2m=48k+2m=96k$$ can\\textquotesingle t be $$0$$, otherwise $$c$$ is $$0$$, and $$k$$ can\\textquotesingle t be $$2$$, otherwise $$m$$ is $$0$$. Therefore $$k$$ must be $$1$$, $$c=16$$ and $$m=24$$. $$c+m=16+24=40=8p$$. Therefore, $$p=5$$ ($$\\text{C}$$).  Let $$m$$,$$c$$ be the total amounts of milk and coffee, respectively. In order to know the number of people, we first need to find the total amount of mixture $$t=m+c$$. We are given that $$\\frac{m}{4}+\\frac{c}{6}=8$$. Multiplying the equation by $$4$$ to get $$m+\\frac{2}{3}x=(m+c)-\\frac{1}{3}c=t-\\frac{1}{3}c=32$$. Since $$\\frac{1}{3}m\\textgreater0$$, we have $$t\\textgreater32$$.~ Now multiplying the equation by $$6$$ to get $$\\frac{3}{2}m+c=(m+c)+\\frac{1}{3}m=t+\\frac{1}{3}m=48$$. Since, $$\\frac{1}{3}m\\textgreater0$$, we have $$t\\textless48$$. Thus, $$32\\textless t\\textless48$$.  Since $$t$$ is a multiple of $$8$$, the only possible value for in that range is $$40$$. Therefore, there are $$\\frac{40}{8}=5$$ people in Angela\\textquotesingle s family. ($$\\text{C}$$).",
+      "solution_plain": "Let c be the total amount of coffee, m of milk, and p the number of people in the family. Then each person drinks the same total amount of coffee and milk ( 8 ounces), so ( c 6 + m 4 )p=c+m . Regrouping, we get 2c(6-p)=3m(p-4) . Since both c , m are positive, it follows that 6-p and p-4 are also positive, which is only possible when p=5 ( C ). One could notice that (since there are only two components to the mixture) Angela must have more than her \"fair share\" of milk and less then her \"fair share\" of coffee in order to ensure that everyone has 8 ounces. The \"fair share\" is 1 p . So, 1 6 1 p 1 4 Which requires that p be p=5 ( C ), since p is a whole number. Again, let c , m , sand p be the total amount of coffee, total amount of milk, and number of people in the family, respectively. Then the total amount that is drunk is 8p , and also c+m . Thus, c+m=8p , so m=8p-c and c=8p-m . We also know that the amount Angela drank, which is is c 6 + m 4 , equal to 8 ounces, thus c 6 + m 4 =8 . Rearranging gives 24p-c=96 . Now notice that c 0 (by the problem statement). In addition, m 0 so c=8p-m 8p . Therefore, 0 c 8p ,and so We know that so 24p 24p-c 16p . We know that 24p-c=96 , so 24p 96 16p . From the leftmost inequality, we get p 4 , and from the rightmost inequality, we get p 6 . The only possible value of p is p=5 ( C ). Let c , m , and p be the total amount of coffee, total amount of milk, and number of people in the family, respectively. c and m obviously can t be 0 . We know c 6 + m 4 =8 or 3c+2m=96 and c+m=8p or 2c+2m=16p . Then, (2c+2m)+c=16p+c=96 . Because 16p and 96 are both divisible by 16 , c must also be divisible by 16 . Let c=16k . Now, 3(16k)+2m=2m=48k+2m=96k can t be 0 , otherwise c is 0 , and k can t be 2 , otherwise m is 0 . Therefore k must be 1 , c=16 and m=24 . c+m=16+24=40=8p . Therefore, p=5 ( C ). Let m , c be the total amounts of milk and coffee, respectively. In order to know the number of people, we first need to find the total amount of mixture t=m+c . We are given that m 4 + c 6 =8 . Multiplying the equation by 4 to get m+ 2 3 x=(m+c)- 1 3 c=t- 1 3 c=32 . Since 1 3 m 0 , we have t 32 .~ Now multiplying the equation by 6 to get 3 2 m+c=(m+c)+ 1 3 m=t+ 1 3 m=48 . Since, 1 3 m 0 , we have t 48 . Thus, 32 t 48 . Since t is a multiple of 8 , the only possible value for in that range is 40 . Therefore, there are 40 8 =5 people in Angela s family. ( C )."
+    },
+    "answer": {
+      "final_raw": "5",
+      "final_normalized": "5",
+      "candidates": [
+        "5",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "algebra",
+        "amc10_12",
+        "application",
+        "linear_function_word_problems",
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "amc10_12",
+        "application",
+        "level_4",
+        "linear_function_word_problems",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Let $$c$$ be the total amount of coffee, $$m$$ of milk, and $$p$$ the number of people in the family.",
+        "Then each person drinks the same total amount of coffee and milk ($$8$$ ounces), so $$\\left(\\frac{c}{6}+\\frac{m}{4} \\right)p=c+m$$.",
+        "Regrouping, we get $$2c(6-p)=3m(p-4)$$.",
+        "Since both $$c$$, $$m$$ are positive, it follows that $$6-p$$ and $$p-4$$ are also positive, which is only possible when $$p=5$$ ($$\\text{C}$$).",
+        "One could notice that (since there are only two components to the mixture) Angela must have more than her \"fair share\" of milk and less then her \"fair share\" of coffee in order to ensure that everyone has $$8$$ ounces.",
+        "The \"fair share\" is $$\\frac{1}{p}$$.",
+        "So,  $$\\frac{1}{6}\\textless\\frac{1}{p}\\textless\\frac{1}{4}$$  Which requires that $$p$$ be $$p=5$$ ($$\\text{C}$$), since $$p$$ is a whole number.",
+        "Again, let $$c$$, $$m$$, sand $$p$$ be the total amount of coffee, total amount of milk, and number of people in the family, respectively."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2000-AMC12-13 One morning each member of Angela's family drank an 8 -ounce mixture of coffee with milk. The amounts of coffee and milk varied from cup to cup, but were never zero. Angela drank a quarter of the total amount of milk and a sixth of the total amount of coffee. How many people are in the family? 一天早上， Angela 的每个家庭成员都喝了 8 美元一盎司的咖啡加牛奶混合物。 咖啡和牛奶的量因杯子而异，但从未为零。 安吉拉喝了牛奶总量的四分之一，咖啡总量的六分之一。 家里有多少人？ (A) 3 (B) 4 (C) 5 (D) 6 (E) 7",
+      "solution_text": "Let c be the total amount of coffee, m of milk, and p the number of people in the family. Then each person drinks the same total amount of coffee and milk ( 8 ounces), so ( c 6 + m 4 )p=c+m . Regrouping, we get 2c(6-p)=3m(p-4) . Since both c , m are positive, it follows that 6-p and p-4 are also positive, which is only possible when p=5 ( C ). One could notice that (since there are only two components to the mixture) Angela must have more than her \"fair share\" of milk and less then her \"fair share\" of coffee in order to ensure that everyone has 8 ounces. The \"fair share\" is 1 p . So, 1 6 1 p 1 4 Which requires that p be p=5 ( C ), since p is a whole number. Again, let c , m , sand p be the total amount of coffee, total amount of milk, and number of people in the family, respectively. Then the total amount that is drunk is 8p , and also c+m . Thus, c+m=8p , so m=8p-c and c=8p-m . We also know that the amount Angela drank, which is is c 6 + m 4 , equal to 8 ounces, thus c 6 + m 4 =8 . Rearranging gives 24p-c=96 . Now notice that c 0 (by the problem statement). In addition, m 0 so c=8p-m 8p . Therefore, 0 c 8p ,and so We know that so 24p 24p-c 16p . We know that 24p-c=96 , so 24p 96 16p . From the leftmost inequality, we get p 4 , and from the rightmost inequality, we get p 6 . The only possible value of p is p=5 ( C ). Let c , m , and p be the total amount of coffee, total amount of milk, and number of people in the family, respectively. c and m obviously can t be 0 . We know c 6 + m 4 =8 or 3c+2m=96 and c+m=8p or 2c+2m=16p . Then, (2c+2m)+c=16p+c=96 . Because 16p and 96 are both divisible by 16 , c must also be divisible by 16 . Let c=16k . Now, 3(16k)+2m=2m=48k+2m=96k can t be 0 , otherwise c is 0 , and k can t be 2 , otherwise m is 0 . Therefore k must be 1 , c=16 and m=24 . c+m=16+24=40=8p . Therefore, p=5 ( C ). Let m , c be the total amounts of milk and coffee, respectively. In order to know the number of people, we first need to find the total amount of mixture t=m+c . We are given that m 4 + c 6 =8 . Multiplying the equation by 4 to get m+ 2 3 x=(m+c)- 1 3 c=t- 1 3 c=32 . Since 1 3 m 0 , we have t 32 .~ Now multiplying the equation by 6 to get 3 2 m+c=(m+c)+ 1 3 m=t+ 1 3 m=48 . Since, 1 3 m 0 , we have t 48 . Thus, 32 t 48 . Since t is a multiple of 8 , the only possible value for in that range is 40 . Therefore, there are 40 8 =5 people in Angela s family. ( C ).",
+      "keywords": [
+        "algebra",
+        "amc10_12",
+        "application",
+        "level_4",
+        "linear_function_word_problems",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "410",
+        "queId": "3a0b481eb63c41a2a5a530aff1ff7fd3",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "4"
+          },
+          {
+            "label": "C",
+            "content": "5"
+          },
+          {
+            "label": "D",
+            "content": "6"
+          },
+          {
+            "label": "E",
+            "content": "7"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->等式与不等式->等式->方程组的解集",
+          "美国AMC10/12->Knowledge Point->Algebra->Application->Linear Function Word Problems"
+        ],
+        "competition_source_list": [
+          "2000年AMC12竞赛第13题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:algebra:level_4:02975",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2975,
+      "split": "zh_train",
+      "source_problem_id": "1af001605a7a41b7bf5f56dee30ec628"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$2009-AMC10A-20$$  Andrea and Lauren are $$20$$ kilometers apart. They bike toward one another with Andrea traveling three times as fast as Lauren, and the distance between them decreasing at a rate of~ $$1$$ kilometer per minute. After $$5$$ minutes, Andrea stops biking because of a flat tire and waits for Lauren. After how many minutes from the time they started to bike does Lauren reach Andrea?  安德里亚和劳伦相距 20 公里。 他们骑自行车相向而行，$$Andrea$$ 的速度是 Lauren 的三倍，而且他们之间的距离以每分钟 1 公里的速度减少。 5 分钟后，安德里亚因为轮胎漏气而停止骑自行车并等待劳伦。 在他们开始骑自行车几分钟后，劳伦与安德里亚相遇？\n(A) 20\n(B) 30\n(C) 55\n(D) 65\n(E) 80",
+      "problem_plain": "2009-AMC10A-20 Andrea and Lauren are 20 kilometers apart. They bike toward one another with Andrea traveling three times as fast as Lauren, and the distance between them decreasing at a rate of~ 1 kilometer per minute. After 5 minutes, Andrea stops biking because of a flat tire and waits for Lauren. After how many minutes from the time they started to bike does Lauren reach Andrea? 安德里亚和劳伦相距 20 公里。 他们骑自行车相向而行， Andrea 的速度是 Lauren 的三倍，而且他们之间的距离以每分钟 1 公里的速度减少。 5 分钟后，安德里亚因为轮胎漏气而停止骑自行车并等待劳伦。 在他们开始骑自行车几分钟后，劳伦与安德里亚相遇？ (A) 20 (B) 30 (C) 55 (D) 65 (E) 80",
+      "solution_latex": "Let their speeds in kilometers per hour be $$v_A$$ and $$v_L$$. We know that $$vA=3vL$$ and that $$v_A+v_L=60$$. (The second equation follows from the fact that $$1\\rm km/min=60\\rm km/h)$$. This solves to $$v_A=45$$ and $$v_L=15$$.  As the distance decreases at a rate of $$1$$ kilometer per minute, after $$5$$ minutes the distance between them will be $$20-5=15$$ kilometers.  From this point on, only~ Lauren will be riding her bike. As there are $$15$$ kilometers remaining and $$vL=15$$, she will need exactly an hour to get to Andrea. Therefore the total time in minutes is $$5+60= 65$$.  Because the speed of Andrea is $$3$$ times as fast as Lauren and the distance between them is decreasing at a rate of $$1$$ kilometer per minute, Andrea\\textquotesingle s speed is $$\\dfrac{3}{4}\\rm km/min$$,and Lauen\\textquotesingle s $$\\dfrac{1}{4}\\rm km/min$$. Therefore, after $$5$$ minutes, Andrea will have biked $$\\dfrac{3}{4}\\cdot 5= \\dfrac{15}{4}\\rm km$$. In all, Lauren will have to bike $$20- \\dfrac{15}{4}= \\dfrac{80}{4}- \\dfrac{15}{4}= \\dfrac{65}{4}\\rm km$$. Because her speed is$$\\dfrac{1}{4}\\rm km/\\min$$, the time elapsed will be$$\\dfrac{65}{\\dfrac{4}{\\dfrac{1}{4}}}=\\left( \\rm D\\right)65$$.",
+      "solution_plain": "Let their speeds in kilometers per hour be v_A and v_L . We know that vA=3vL and that v_A+v_L=60 . (The second equation follows from the fact that 1 km/min=60 km/h) . This solves to v_A=45 and v_L=15 . As the distance decreases at a rate of 1 kilometer per minute, after 5 minutes the distance between them will be 20-5=15 kilometers. From this point on, only~ Lauren will be riding her bike. As there are 15 kilometers remaining and vL=15 , she will need exactly an hour to get to Andrea. Therefore the total time in minutes is 5+60= 65 . Because the speed of Andrea is 3 times as fast as Lauren and the distance between them is decreasing at a rate of 1 kilometer per minute, Andrea s speed is 3 4 km/min ,and Lauen s 1 4 km/min . Therefore, after 5 minutes, Andrea will have biked 3 4 5= 15 4 km . In all, Lauren will have to bike 20- 15 4 = 80 4 - 15 4 = 65 4 km . Because her speed is 1 4 km/ , the time elapsed will be 65 4 1 4 = ( D )65 ."
+    },
+    "answer": {
+      "final_raw": "65",
+      "final_normalized": "65",
+      "candidates": [
+        "65",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "algebra",
+        "amc10_12",
+        "application",
+        "equation_word_problems",
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "amc10_12",
+        "application",
+        "equation_word_problems",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Let their speeds in kilometers per hour be $$v_A$$ and $$v_L$$.",
+        "We know that $$vA=3vL$$ and that $$v_A+v_L=60$$.",
+        "(The second equation follows from the fact that $$1\\rm km/min=60\\rm km/h)$$.",
+        "This solves to $$v_A=45$$ and $$v_L=15$$.",
+        "As the distance decreases at a rate of $$1$$ kilometer per minute, after $$5$$ minutes the distance between them will be $$20-5=15$$ kilometers.",
+        "From this point on, only~ Lauren will be riding her bike.",
+        "As there are $$15$$ kilometers remaining and $$vL=15$$, she will need exactly an hour to get to Andrea.",
+        "Therefore the total time in minutes is $$5+60= 65$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2009-AMC10A-20 Andrea and Lauren are 20 kilometers apart. They bike toward one another with Andrea traveling three times as fast as Lauren, and the distance between them decreasing at a rate of~ 1 kilometer per minute. After 5 minutes, Andrea stops biking because of a flat tire and waits for Lauren. After how many minutes from the time they started to bike does Lauren reach Andrea? 安德里亚和劳伦相距 20 公里。 他们骑自行车相向而行， Andrea 的速度是 Lauren 的三倍，而且他们之间的距离以每分钟 1 公里的速度减少。 5 分钟后，安德里亚因为轮胎漏气而停止骑自行车并等待劳伦。 在他们开始骑自行车几分钟后，劳伦与安德里亚相遇？ (A) 20 (B) 30 (C) 55 (D) 65 (E) 80",
+      "solution_text": "Let their speeds in kilometers per hour be v_A and v_L . We know that vA=3vL and that v_A+v_L=60 . (The second equation follows from the fact that 1 km/min=60 km/h) . This solves to v_A=45 and v_L=15 . As the distance decreases at a rate of 1 kilometer per minute, after 5 minutes the distance between them will be 20-5=15 kilometers. From this point on, only~ Lauren will be riding her bike. As there are 15 kilometers remaining and vL=15 , she will need exactly an hour to get to Andrea. Therefore the total time in minutes is 5+60= 65 . Because the speed of Andrea is 3 times as fast as Lauren and the distance between them is decreasing at a rate of 1 kilometer per minute, Andrea s speed is 3 4 km/min ,and Lauen s 1 4 km/min . Therefore, after 5 minutes, Andrea will have biked 3 4 5= 15 4 km . In all, Lauren will have to bike 20- 15 4 = 80 4 - 15 4 = 65 4 km . Because her speed is 1 4 km/ , the time elapsed will be 65 4 1 4 = ( D )65 .",
+      "keywords": [
+        "algebra",
+        "amc10_12",
+        "application",
+        "equation_word_problems",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "313",
+        "queId": "1af001605a7a41b7bf5f56dee30ec628",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "20"
+          },
+          {
+            "label": "B",
+            "content": "30"
+          },
+          {
+            "label": "C",
+            "content": "55"
+          },
+          {
+            "label": "D",
+            "content": "65"
+          },
+          {
+            "label": "E",
+            "content": "80"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->等式与不等式->等式->方程组的解集",
+          "美国AMC10/12->Knowledge Point->Algebra->Application->Equation Word Problems"
+        ],
+        "competition_source_list": [
+          "2009年AMC10竞赛A第20题"
+        ]
+      }
+    }
+  }
+]

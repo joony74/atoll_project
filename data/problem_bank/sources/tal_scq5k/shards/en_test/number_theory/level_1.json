@@ -1,0 +1,6772 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00002",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 2,
+      "split": "en_test",
+      "source_problem_id": "014525d9deb6476abff3817cfdd10423"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The $$7$$-digit number $$\\overline{123P688}$$ is divisible by $$8$$. How many possible values are there for $$P$$?\n(A) 3\n(B) 5\n(C) 6\n(D) 9\n(E) 10",
+      "problem_plain": "The 7 -digit number 123P688 is divisible by 8 . How many possible values are there for P ? (A) 3 (B) 5 (C) 6 (D) 9 (E) 10",
+      "solution_latex": "$$N.A$$",
+      "solution_plain": "N.A"
+    },
+    "answer": {
+      "final_raw": "10",
+      "final_normalized": "10",
+      "candidates": [
+        "10",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$N.A$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The 7 -digit number 123P688 is divisible by 8 . How many possible values are there for P ? (A) 3 (B) 5 (C) 6 (D) 9 (E) 10",
+      "solution_text": "N.A",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "14",
+        "queId": "014525d9deb6476abff3817cfdd10423",
+        "difficulty": "0",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "9"
+          },
+          {
+            "label": "E",
+            "content": "10"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00003",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 3,
+      "split": "en_test",
+      "source_problem_id": "0553053821bd4614aad7145eab4a8f0a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the value of the digit $7$ in the number $32.679$?\n(A) seven hundred\n(B) \\emph{seventy}\n(C) seven tenths\n(D) seven hundredths\n(E) seven thousandths",
+      "problem_plain": "What is the value of the digit 7 in the number 32.679 ? (A) seven hundred (B) seventy (C) seven tenths (D) seven hundredths (E) seven thousandths",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "seven hundredths",
+      "final_normalized": "seven hundredths",
+      "candidates": [
+        "D",
+        "seven hundredths"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases",
+        "understanding_numbers_and_digits"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases",
+        "single_choice",
+        "tal_scq5k",
+        "understanding_numbers_and_digits"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the value of the digit 7 in the number 32.679 ? (A) seven hundred (B) seventy (C) seven tenths (D) seven hundredths (E) seven thousandths",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases",
+        "single_choice",
+        "tal_scq5k",
+        "understanding_numbers_and_digits"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "18",
+        "queId": "0553053821bd4614aad7145eab4a8f0a",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "seven hundred"
+          },
+          {
+            "label": "B",
+            "content": "\\emph{seventy}"
+          },
+          {
+            "label": "C",
+            "content": "seven tenths"
+          },
+          {
+            "label": "D",
+            "content": "seven hundredths"
+          },
+          {
+            "label": "E",
+            "content": "seven thousandths"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Place Value and Number Bases->Numbers->Understanding Numbers and Digits"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00008",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 8,
+      "split": "en_test",
+      "source_problem_id": "09d19724b73a46abbb7517770006ba0e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "$$1$$\n(A) 1\n(B) 2",
+      "problem_plain": "1 (A) 1 (B) 2",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "1 (A) 1 (B) 2",
+      "solution_text": "",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "30",
+        "queId": "09d19724b73a46abbb7517770006ba0e",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00013",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 13,
+      "split": "en_test",
+      "source_problem_id": "02f1e8ccc71a4ec4ba6f7e0eeb635259"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate quickly  $100\\div5\\div5$~=．\n(A) 100\\div（5\\times5）\n(B) 100\\div（5-5）\n(C) 100\\div（5\\div5）\n(D) 100\\div（5+5）",
+      "problem_plain": "Calculate quickly 100 5 5 ~=． (A) 100 （5 5） (B) 100 （5-5） (C) 100 （5 5） (D) 100 （5+5）",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "100\\div（5\\times5）",
+      "final_normalized": "100\\div（5\\times5）",
+      "candidates": [
+        "100\\div（5\\times5）",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate quickly 100 5 5 ~=． (A) 100 （5 5） (B) 100 （5-5） (C) 100 （5 5） (D) 100 （5+5）",
+      "solution_text": "",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "39",
+        "queId": "02f1e8ccc71a4ec4ba6f7e0eeb635259",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "100\\div（5\\times5）"
+          },
+          {
+            "label": "B",
+            "content": "100\\div（5-5）"
+          },
+          {
+            "label": "C",
+            "content": "100\\div（5\\div5）"
+          },
+          {
+            "label": "D",
+            "content": "100\\div（5+5）"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00017",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 17,
+      "split": "en_test",
+      "source_problem_id": "040991e4019e4970b9fb59d783a02a0a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Is $$1234$$ divisible by $$11$$ ?\n(A) Yes\n(B) No",
+      "problem_plain": "Is 1234 divisible by 11 ? (A) Yes (B) No",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "No",
+      "final_normalized": "No",
+      "candidates": [
+        "B",
+        "No"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Is 1234 divisible by 11 ? (A) Yes (B) No",
+      "solution_text": "",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "52",
+        "queId": "040991e4019e4970b9fb59d783a02a0a",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Yes"
+          },
+          {
+            "label": "B",
+            "content": "No"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00025",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 25,
+      "split": "en_test",
+      "source_problem_id": "0714d85f492949e49fa0a3acc45e2522"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Find the difference in the values of digit $$4$$ in $$4100$$ and $$8340$$.\n(A) 3006\n(B) 3060\n(C) 3600\n(D) 3960",
+      "problem_plain": "Find the difference in the values of digit 4 in 4100 and 8340 . (A) 3006 (B) 3060 (C) 3600 (D) 3960",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "3960",
+      "final_normalized": "3960",
+      "candidates": [
+        "3960",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Find the difference in the values of digit 4 in 4100 and 8340 . (A) 3006 (B) 3060 (C) 3600 (D) 3960",
+      "solution_text": "N/A.",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "69",
+        "queId": "0714d85f492949e49fa0a3acc45e2522",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3006"
+          },
+          {
+            "label": "B",
+            "content": "3060"
+          },
+          {
+            "label": "C",
+            "content": "3600"
+          },
+          {
+            "label": "D",
+            "content": "3960"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Place Value and Number Bases->Numbers"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00047",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 47,
+      "split": "en_test",
+      "source_problem_id": "0bd168b511b54917b130fab88b2a1259"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which one of the following is an odd number?\n(A) 352\n(B) 134\n(C) 96\n(D) 647\n(E) 770",
+      "problem_plain": "Which one of the following is an odd number? (A) 352 (B) 134 (C) 96 (D) 647 (E) 770",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "647",
+      "final_normalized": "647",
+      "candidates": [
+        "647",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "understanding_odd_and_even_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k",
+        "understanding_odd_and_even_numbers"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which one of the following is an odd number? (A) 352 (B) 134 (C) 96 (D) 647 (E) 770",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k",
+        "understanding_odd_and_even_numbers"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "128",
+        "queId": "0bd168b511b54917b130fab88b2a1259",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "352"
+          },
+          {
+            "label": "B",
+            "content": "134"
+          },
+          {
+            "label": "C",
+            "content": "96"
+          },
+          {
+            "label": "D",
+            "content": "647"
+          },
+          {
+            "label": "E",
+            "content": "770"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Odd and Even Numbers->Understanding Odd and Even Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00053",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 53,
+      "split": "en_test",
+      "source_problem_id": "8f6736e9c21743efa96bcf28393218d3"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate quickly  $100\\div5\\div5$~=．\n(A) 100\\div（5\\times5）\n(B) 100\\div（5-5）\n(C) 100\\div（5\\div5）\n(D) 100\\div（5+5）",
+      "problem_plain": "Calculate quickly 100 5 5 ~=． (A) 100 （5 5） (B) 100 （5-5） (C) 100 （5 5） (D) 100 （5+5）",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "100\\div（5\\times5）",
+      "final_normalized": "100\\div（5\\times5）",
+      "candidates": [
+        "100\\div（5\\times5）",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate quickly 100 5 5 ~=． (A) 100 （5 5） (B) 100 （5-5） (C) 100 （5 5） (D) 100 （5+5）",
+      "solution_text": "N/A.",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "147",
+        "queId": "8f6736e9c21743efa96bcf28393218d3",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "100\\div（5\\times5）"
+          },
+          {
+            "label": "B",
+            "content": "100\\div（5-5）"
+          },
+          {
+            "label": "C",
+            "content": "100\\div（5\\div5）"
+          },
+          {
+            "label": "D",
+            "content": "100\\div（5+5）"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00059",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 59,
+      "split": "en_test",
+      "source_problem_id": "fa37ad73794446bfba30b9cf17f2ec82"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following is not a multiple of $6$?\n(A) (49+35)\\times 6\n(B) (49-35)\\times 42\n(C) 24\\times 12-1\n(D) 35\\times 6+48",
+      "problem_plain": "Which of the following is not a multiple of 6 ? (A) (49+35) 6 (B) (49-35) 42 (C) 24 12-1 (D) 35 6+48",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "24\\times 12-1",
+      "final_normalized": "24\\times 12-1",
+      "candidates": [
+        "24\\times 12-1",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "prime_and_composite_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following is not a multiple of 6 ? (A) (49+35) 6 (B) (49-35) 42 (C) 24 12-1 (D) 35 6+48",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "156",
+        "queId": "fa37ad73794446bfba30b9cf17f2ec82",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "(49+35)\\times 6"
+          },
+          {
+            "label": "B",
+            "content": "(49-35)\\times 42"
+          },
+          {
+            "label": "C",
+            "content": "24\\times 12-1"
+          },
+          {
+            "label": "D",
+            "content": "35\\times 6+48"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime and Composite Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00060",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 60,
+      "split": "en_test",
+      "source_problem_id": "2175335b2fdc46bfadd9d0c5ca7a1844"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The value of the side of a square is a prime number and which of the following statements is true?\n(A) The value of its area is a prime number\n(B) The value of its area is a composite number\n(C) It can not be determined whether the value of its area is a prime number or not.",
+      "problem_plain": "The value of the side of a square is a prime number and which of the following statements is true? (A) The value of its area is a prime number (B) The value of its area is a composite number (C) It can not be determined whether the value of its area is a prime number or not.",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "The value of its area is a composite number",
+      "final_normalized": "The value of its area is a composite number",
+      "candidates": [
+        "B",
+        "The value of its area is a composite number"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "prime_and_composite_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The value of the side of a square is a prime number and which of the following statements is true? (A) The value of its area is a prime number (B) The value of its area is a composite number (C) It can not be determined whether the value of its area is a prime number or not.",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "159",
+        "queId": "2175335b2fdc46bfadd9d0c5ca7a1844",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "The value of its area is a prime number"
+          },
+          {
+            "label": "B",
+            "content": "The value of its area is a composite number"
+          },
+          {
+            "label": "C",
+            "content": "It can not be determined whether the value of its area is a prime number or not."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime and Composite Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00117",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 117,
+      "split": "en_test",
+      "source_problem_id": "50084446e6264f949a043ad2555793ff"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which answer is \\textbf{NOT} a square number?\n(A) 72\n(B) 49\n(C) 81\n(D) 64\n(E) 169",
+      "problem_plain": "Which answer is NOT a square number? (A) 72 (B) 49 (C) 81 (D) 64 (E) 169",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "72",
+      "final_normalized": "72",
+      "candidates": [
+        "72",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_applications_of_square_numbers",
+        "number_theory_modules",
+        "perfect_square_numbers"
+      ],
+      "tags": [
+        "basic_applications_of_square_numbers",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "perfect_square_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which answer is NOT a square number? (A) 72 (B) 49 (C) 81 (D) 64 (E) 169",
+      "solution_text": "N/A.",
+      "keywords": [
+        "basic_applications_of_square_numbers",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "perfect_square_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "296",
+        "queId": "50084446e6264f949a043ad2555793ff",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "72"
+          },
+          {
+            "label": "B",
+            "content": "49"
+          },
+          {
+            "label": "C",
+            "content": "81"
+          },
+          {
+            "label": "D",
+            "content": "64"
+          },
+          {
+            "label": "E",
+            "content": "169"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Perfect Square Numbers->Basic Applications of Square Numbers"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00121",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 121,
+      "split": "en_test",
+      "source_problem_id": "3954b2174a434ad8b480005b051835aa"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "One class is on PE class. If each row is $12$ people, the last row is $8$ people. If each row is $15$ people, the last row is $11$ people. Two student of the class were sick and absent from the PE class. How many students are there in the class?\n(A) 48\n(B) 58\n(C) 45\n(D) 36\n(E) 64",
+      "problem_plain": "One class is on PE class. If each row is 12 people, the last row is 8 people. If each row is 15 people, the last row is 11 people. Two student of the class were sick and absent from the PE class. How many students are there in the class? (A) 48 (B) 58 (C) 45 (D) 36 (E) 64",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "58",
+      "final_normalized": "58",
+      "candidates": [
+        "58",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "One class is on PE class. If each row is 12 people, the last row is 8 people. If each row is 15 people, the last row is 11 people. Two student of the class were sick and absent from the PE class. How many students are there in the class? (A) 48 (B) 58 (C) 45 (D) 36 (E) 64",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "304",
+        "queId": "3954b2174a434ad8b480005b051835aa",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "48"
+          },
+          {
+            "label": "B",
+            "content": "58"
+          },
+          {
+            "label": "C",
+            "content": "45"
+          },
+          {
+            "label": "D",
+            "content": "36"
+          },
+          {
+            "label": "E",
+            "content": "64"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00123",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 123,
+      "split": "en_test",
+      "source_problem_id": "5017758a519b4d2eb3fb954ef74e9dc1"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The characteristic of numbers that are divisible by $$9$$ is．\n(A) Last digit is divisible by $$9$$.\n(B) Last two digits are divisible by $$9$$.\n(C) The sum of digits is divisible by $$3$$.\n(D) The sum of digits is divisible by $$9$$.",
+      "problem_plain": "The characteristic of numbers that are divisible by 9 is． (A) Last digit is divisible by 9 . (B) Last two digits are divisible by 9 . (C) The sum of digits is divisible by 3 . (D) The sum of digits is divisible by 9 .",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "The sum of digits is divisible by $$9$$.",
+      "final_normalized": "The sum of digits is divisible by $$9$$.",
+      "candidates": [
+        "D",
+        "The sum of digits is divisible by $$9$$."
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The characteristic of numbers that are divisible by 9 is． (A) Last digit is divisible by 9 . (B) Last two digits are divisible by 9 . (C) The sum of digits is divisible by 3 . (D) The sum of digits is divisible by 9 .",
+      "solution_text": "",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "309",
+        "queId": "5017758a519b4d2eb3fb954ef74e9dc1",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Last digit is divisible by $$9$$."
+          },
+          {
+            "label": "B",
+            "content": "Last two digits are divisible by $$9$$."
+          },
+          {
+            "label": "C",
+            "content": "The sum of digits is divisible by $$3$$."
+          },
+          {
+            "label": "D",
+            "content": "The sum of digits is divisible by $$9$$."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00175",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 175,
+      "split": "en_test",
+      "source_problem_id": "c785109371ee49548589ac90704a8899"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate quickly:  $92\\div4$~=．\n(A) 100\\div4-8\\div4\n(B) 100\\div4+8\\div4\n(C) 92\\div4+8\\div4",
+      "problem_plain": "Calculate quickly: 92 4 ~=． (A) 100 4-8 4 (B) 100 4+8 4 (C) 92 4+8 4",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "100\\div4-8\\div4",
+      "final_normalized": "100\\div4-8\\div4",
+      "candidates": [
+        "100\\div4-8\\div4",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate quickly: 92 4 ~=． (A) 100 4-8 4 (B) 100 4+8 4 (C) 92 4+8 4",
+      "solution_text": "",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "420",
+        "queId": "c785109371ee49548589ac90704a8899",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "100\\div4-8\\div4"
+          },
+          {
+            "label": "B",
+            "content": "100\\div4+8\\div4"
+          },
+          {
+            "label": "C",
+            "content": "92\\div4+8\\div4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00206",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 206,
+      "split": "en_test",
+      "source_problem_id": "3ef192faefad4e69b48d4c8beebda367"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of these statements is always true?\n(A) If there are at least two twos in a number then it must be a multiple of two.\n(B) If a number ends in five then it must be a multiple of $25$.\n(C) If the last two digits in a number are a multiple of four then the number must be a multiple of four.\n(D) If a number is an even number then it must be a multiple of $4$.\n(E) If the sum of all the digits in a number is a multiple of five then the number must be a multiple of five.",
+      "problem_plain": "Which of these statements is always true? (A) If there are at least two twos in a number then it must be a multiple of two. (B) If a number ends in five then it must be a multiple of 25 . (C) If the last two digits in a number are a multiple of four then the number must be a multiple of four. (D) If a number is an even number then it must be a multiple of 4 . (E) If the sum of all the digits in a number is a multiple of five then the number must be a multiple of five.",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "If the last two digits in a number are a multiple of four then the number must be a multiple of four.",
+      "final_normalized": "If the last two digits in a number are a multiple of four then the number must be a multiple of four.",
+      "candidates": [
+        "C",
+        "If the last two digits in a number are a multiple of four then the number must be a multiple of four."
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_concepts_of_factors_and_multiples",
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "basic_concepts_of_factors_and_multiples",
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of these statements is always true? (A) If there are at least two twos in a number then it must be a multiple of two. (B) If a number ends in five then it must be a multiple of 25 . (C) If the last two digits in a number are a multiple of four then the number must be a multiple of four. (D) If a number is an even number then it must be a multiple of 4 . (E) If the sum of all the digits in a number is a multiple of five then the number must be a multiple of five.",
+      "solution_text": "",
+      "keywords": [
+        "basic_concepts_of_factors_and_multiples",
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "482",
+        "queId": "3ef192faefad4e69b48d4c8beebda367",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "If there are at least two twos in a number then it must be a multiple of two."
+          },
+          {
+            "label": "B",
+            "content": "If a number ends in five then it must be a multiple of $25$."
+          },
+          {
+            "label": "C",
+            "content": "If the last two digits in a number are a multiple of four then the number must be a multiple of four."
+          },
+          {
+            "label": "D",
+            "content": "If a number is an even number then it must be a multiple of $4$."
+          },
+          {
+            "label": "E",
+            "content": "If the sum of all the digits in a number is a multiple of five then the number must be a multiple of five."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples->Basic Concepts of Factors and Multiples"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00212",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 212,
+      "split": "en_test",
+      "source_problem_id": "5ea278a06b35469e97acce8b164abcc9"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following is not a prime number?\n(A) 43\n(B) 41\n(C) 39\n(D) 37",
+      "problem_plain": "Which of the following is not a prime number? (A) 43 (B) 41 (C) 39 (D) 37",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "39",
+      "final_normalized": "39",
+      "candidates": [
+        "39",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "prime_and_composite_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following is not a prime number? (A) 43 (B) 41 (C) 39 (D) 37",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "498",
+        "queId": "5ea278a06b35469e97acce8b164abcc9",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "43"
+          },
+          {
+            "label": "B",
+            "content": "41"
+          },
+          {
+            "label": "C",
+            "content": "39"
+          },
+          {
+            "label": "D",
+            "content": "37"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime and Composite Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00216",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 216,
+      "split": "en_test",
+      "source_problem_id": "32073977632749149dee743cee08e017"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Find the largest whole number between $$76$$ and $$91$$ that is divisible by $$4$$ and $$5$$.\n(A) 20\n(B) 80\n(C) 85\n(D) 90\n(E) None of the above",
+      "problem_plain": "Find the largest whole number between 76 and 91 that is divisible by 4 and 5 . (A) 20 (B) 80 (C) 85 (D) 90 (E) None of the above",
+      "solution_latex": "$$N.A$$",
+      "solution_plain": "N.A"
+    },
+    "answer": {
+      "final_raw": "80",
+      "final_normalized": "80",
+      "candidates": [
+        "80",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$N.A$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Find the largest whole number between 76 and 91 that is divisible by 4 and 5 . (A) 20 (B) 80 (C) 85 (D) 90 (E) None of the above",
+      "solution_text": "N.A",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "511",
+        "queId": "32073977632749149dee743cee08e017",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "20"
+          },
+          {
+            "label": "B",
+            "content": "80"
+          },
+          {
+            "label": "C",
+            "content": "85"
+          },
+          {
+            "label": "D",
+            "content": "90"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00218",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 218,
+      "split": "en_test",
+      "source_problem_id": "3adaa2646719450c8a32777eb97777a4"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many months of the year have exactly $$30$$ days?\n(A) 4\n(B) 5\n(C) 12\n(D) 11\n(E) None of the above",
+      "problem_plain": "How many months of the year have exactly 30 days? (A) 4 (B) 5 (C) 12 (D) 11 (E) None of the above",
+      "solution_latex": "$$N.A$$",
+      "solution_plain": "N.A"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "remainder_problems"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$N.A$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many months of the year have exactly 30 days? (A) 4 (B) 5 (C) 12 (D) 11 (E) None of the above",
+      "solution_text": "N.A",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "517",
+        "queId": "3adaa2646719450c8a32777eb97777a4",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "12"
+          },
+          {
+            "label": "D",
+            "content": "11"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Remainder Problems"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00219",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 219,
+      "split": "en_test",
+      "source_problem_id": "29ad8819bace4ae9bbd223d9d5aeb94e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "what is odd number?\n(A) 0,2,4,6,8\n(B) 1,3,5,7,9",
+      "problem_plain": "what is odd number? (A) 0,2,4,6,8 (B) 1,3,5,7,9",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "1,3,5,7,9",
+      "final_normalized": "1,3,5,7,9",
+      "candidates": [
+        "1,3,5,7,9",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "odd_and_even_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "what is odd number? (A) 0,2,4,6,8 (B) 1,3,5,7,9",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "518",
+        "queId": "29ad8819bace4ae9bbd223d9d5aeb94e",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0,2,4,6,8"
+          },
+          {
+            "label": "B",
+            "content": "1,3,5,7,9"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Odd and Even Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00234",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 234,
+      "split": "en_test",
+      "source_problem_id": "cc662f558a4d48c1bcfebc7cc4d14b07"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "$GCF(24,36)=$\n(A) 6\n(B) 12\n(C) 24\n(D) 36",
+      "problem_plain": "GCF(24,36)= (A) 6 (B) 12 (C) 24 (D) 36",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "12",
+      "final_normalized": "12",
+      "candidates": [
+        "12",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "common_factors_and_common_multiples",
+        "common_factors_and_the_greatest_common_factors",
+        "factors_and_multiples",
+        "number_theory_modules",
+        "the_greatest_common_factor_of_two_numbers"
+      ],
+      "tags": [
+        "common_factors_and_common_multiples",
+        "common_factors_and_the_greatest_common_factors",
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k",
+        "the_greatest_common_factor_of_two_numbers"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "GCF(24,36)= (A) 6 (B) 12 (C) 24 (D) 36",
+      "solution_text": "",
+      "keywords": [
+        "common_factors_and_common_multiples",
+        "common_factors_and_the_greatest_common_factors",
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k",
+        "the_greatest_common_factor_of_two_numbers"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "556",
+        "queId": "cc662f558a4d48c1bcfebc7cc4d14b07",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "12"
+          },
+          {
+            "label": "C",
+            "content": "24"
+          },
+          {
+            "label": "D",
+            "content": "36"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples->Common Factors and Common Multiples->Common Factors and the Greatest Common Factors->The Greatest Common Factor of Two Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00244",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 244,
+      "split": "en_test",
+      "source_problem_id": "c34159428dd3448db2b8e5c83ad7dfd0"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The sum of 2 SAME digits is ODD or EVEN?\n(A) Odd\n(B) Even",
+      "problem_plain": "The sum of 2 SAME digits is ODD or EVEN? (A) Odd (B) Even",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "Even",
+      "final_normalized": "Even",
+      "candidates": [
+        "B",
+        "Even"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "odd_and_even_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The sum of 2 SAME digits is ODD or EVEN? (A) Odd (B) Even",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "600",
+        "queId": "c34159428dd3448db2b8e5c83ad7dfd0",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Odd"
+          },
+          {
+            "label": "B",
+            "content": "Even"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Odd and Even Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00245",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 245,
+      "split": "en_test",
+      "source_problem_id": "def03d23aed14714bfe9cd2f2609ceb2"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A two-digit number can be divided by both $$3$$ and $$5$$. It is also an even numebr. How many such numbers are there?\n(A) 3\n(B) 30\n(C) 6\n(D) 43\n(E) None of the above",
+      "problem_plain": "A two-digit number can be divided by both 3 and 5 . It is also an even numebr. How many such numbers are there? (A) 3 (B) 30 (C) 6 (D) 43 (E) None of the above",
+      "solution_latex": "$$N.A$$",
+      "solution_plain": "N.A"
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "common_factors_and_common_multiples",
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "common_factors_and_common_multiples",
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$N.A$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A two-digit number can be divided by both 3 and 5 . It is also an even numebr. How many such numbers are there? (A) 3 (B) 30 (C) 6 (D) 43 (E) None of the above",
+      "solution_text": "N.A",
+      "keywords": [
+        "common_factors_and_common_multiples",
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "601",
+        "queId": "def03d23aed14714bfe9cd2f2609ceb2",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "30"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "43"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples->Common Factors and Common Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00248",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 248,
+      "split": "en_test",
+      "source_problem_id": "cc7ea9f74e0042afaae2d75cf1f2bcd1"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Find the smallest prime number that is greater than $90$.\n(A) 93\n(B) 96\n(C) 97\n(D) 99",
+      "problem_plain": "Find the smallest prime number that is greater than 90 . (A) 93 (B) 96 (C) 97 (D) 99",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "97",
+      "final_normalized": "97",
+      "candidates": [
+        "97",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "prime_and_composite_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Find the smallest prime number that is greater than 90 . (A) 93 (B) 96 (C) 97 (D) 99",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "605",
+        "queId": "cc7ea9f74e0042afaae2d75cf1f2bcd1",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "93"
+          },
+          {
+            "label": "B",
+            "content": "96"
+          },
+          {
+            "label": "C",
+            "content": "97"
+          },
+          {
+            "label": "D",
+            "content": "99"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime and Composite Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00271",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 271,
+      "split": "en_test",
+      "source_problem_id": "8c4f7ba315874982943af50e115539c9"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate quickly  $1000\\div8$ =．\n(A) 5\n(B) 25\n(C) 125",
+      "problem_plain": "Calculate quickly 1000 8 =． (A) 5 (B) 25 (C) 125",
+      "solution_latex": "N/A",
+      "solution_plain": "N/A"
+    },
+    "answer": {
+      "final_raw": "125",
+      "final_normalized": "125",
+      "candidates": [
+        "125",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate quickly 1000 8 =． (A) 5 (B) 25 (C) 125",
+      "solution_text": "N/A",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "665",
+        "queId": "8c4f7ba315874982943af50e115539c9",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "5"
+          },
+          {
+            "label": "B",
+            "content": "25"
+          },
+          {
+            "label": "C",
+            "content": "125"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00277",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 277,
+      "split": "en_test",
+      "source_problem_id": "71f404113bff499b8a7ce49d66e99869"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "?\n(A) a\n(B) b\n(C) c\n(D) d\n(E) e\n(F) f",
+      "problem_plain": "? (A) a (B) b (C) c (D) d (E) e (F) f",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "b",
+      "final_normalized": "b",
+      "candidates": [
+        "B",
+        "b"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "? (A) a (B) b (C) c (D) d (E) e (F) f",
+      "solution_text": "",
+      "keywords": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "679",
+        "queId": "71f404113bff499b8a7ce49d66e99869",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "a"
+          },
+          {
+            "label": "B",
+            "content": "b"
+          },
+          {
+            "label": "C",
+            "content": "c"
+          },
+          {
+            "label": "D",
+            "content": "d"
+          },
+          {
+            "label": "E",
+            "content": "e"
+          },
+          {
+            "label": "F",
+            "content": "f"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders->Divisibility Rules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00279",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 279,
+      "split": "en_test",
+      "source_problem_id": "57064d2e909f4dff8f92ae31b1d79833"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many factors are there?\n(A) 2\n(B) 4\n(C) 8\n(D) 9",
+      "problem_plain": "How many factors are there? (A) 2 (B) 4 (C) 8 (D) 9",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "9",
+      "final_normalized": "9",
+      "candidates": [
+        "9",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "prime_factorization"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_factorization",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many factors are there? (A) 2 (B) 4 (C) 8 (D) 9",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_factorization",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "690",
+        "queId": "57064d2e909f4dff8f92ae31b1d79833",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "4"
+          },
+          {
+            "label": "C",
+            "content": "8"
+          },
+          {
+            "label": "D",
+            "content": "9"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime Factorization"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00282",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 282,
+      "split": "en_test",
+      "source_problem_id": "7b2b65de10c34932b93a8f9f0cb48f0c"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The least whole number whose digits add up to $$82$$ hasdigits.\n(A) 11\n(B) 10\n(C) 9\n(D) 8",
+      "problem_plain": "The least whole number whose digits add up to 82 hasdigits. (A) 11 (B) 10 (C) 9 (D) 8",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "10",
+      "final_normalized": "10",
+      "candidates": [
+        "10",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The least whole number whose digits add up to 82 hasdigits. (A) 11 (B) 10 (C) 9 (D) 8",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "705",
+        "queId": "7b2b65de10c34932b93a8f9f0cb48f0c",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "11"
+          },
+          {
+            "label": "B",
+            "content": "10"
+          },
+          {
+            "label": "C",
+            "content": "9"
+          },
+          {
+            "label": "D",
+            "content": "8"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00286",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 286,
+      "split": "en_test",
+      "source_problem_id": "4a0630d0582d49988b1fc7880e04eacd"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "In the $$3$$-digit number $$2M4$$ is divisible by $$6$$, what is the smallest value of the digit $$M$$?\n(A) 0\n(B) 3\n(C) 6\n(D) 9\n(E) None of the above",
+      "problem_plain": "In the 3 -digit number 2M4 is divisible by 6 , what is the smallest value of the digit M ? (A) 0 (B) 3 (C) 6 (D) 9 (E) None of the above",
+      "solution_latex": "$$N.A$$",
+      "solution_plain": "N.A"
+    },
+    "answer": {
+      "final_raw": "0",
+      "final_normalized": "0",
+      "candidates": [
+        "0",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$N.A$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "In the 3 -digit number 2M4 is divisible by 6 , what is the smallest value of the digit M ? (A) 0 (B) 3 (C) 6 (D) 9 (E) None of the above",
+      "solution_text": "N.A",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "714",
+        "queId": "4a0630d0582d49988b1fc7880e04eacd",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "9"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00290",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 290,
+      "split": "en_test",
+      "source_problem_id": "7238728442bc48ccaf2dff361be72ac5"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following is a factor of $21$?\n(A) 9\n(B) 7\n(C) 5\n(D) 4",
+      "problem_plain": "Which of the following is a factor of 21 ? (A) 9 (B) 7 (C) 5 (D) 4",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "7",
+      "final_normalized": "7",
+      "candidates": [
+        "7",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "prime_and_composite_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following is a factor of 21 ? (A) 9 (B) 7 (C) 5 (D) 4",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "722",
+        "queId": "7238728442bc48ccaf2dff361be72ac5",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "9"
+          },
+          {
+            "label": "B",
+            "content": "7"
+          },
+          {
+            "label": "C",
+            "content": "5"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime and Composite Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00297",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 297,
+      "split": "en_test",
+      "source_problem_id": "a828d3d17a5b4503b215cc085818fcf1"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following is a factor of 36?\n(A) 2\\times18\n(B) 2\\times16\n(C) 4\\times5\n(D) 6\\times5",
+      "problem_plain": "Which of the following is a factor of 36? (A) 2 18 (B) 2 16 (C) 4 5 (D) 6 5",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "2\\times18",
+      "final_normalized": "2\\times18",
+      "candidates": [
+        "2\\times18",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following is a factor of 36? (A) 2 18 (B) 2 16 (C) 4 5 (D) 6 5",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "744",
+        "queId": "a828d3d17a5b4503b215cc085818fcf1",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2\\times18"
+          },
+          {
+            "label": "B",
+            "content": "2\\times16"
+          },
+          {
+            "label": "C",
+            "content": "4\\times5"
+          },
+          {
+            "label": "D",
+            "content": "6\\times5"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00301",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 301,
+      "split": "en_test",
+      "source_problem_id": "d61a9a1fbfa44cf2b4cd47db6eb1360b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "In the number $2.369$ what does the $6$ mean?\n(A) 6\n(B) \\dfrac{6}{1000}\n(C) \\dfrac{6}{10}\n(D) \\dfrac{6}{100}",
+      "problem_plain": "In the number 2.369 what does the 6 mean? (A) 6 (B) 6 1000 (C) 6 10 (D) 6 100",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "\\dfrac{6}{100}",
+      "final_normalized": "\\dfrac{6}{100}",
+      "candidates": [
+        "D",
+        "\\dfrac{6}{100}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases",
+        "understanding_numbers_and_digits"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases",
+        "single_choice",
+        "tal_scq5k",
+        "understanding_numbers_and_digits"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "In the number 2.369 what does the 6 mean? (A) 6 (B) 6 1000 (C) 6 10 (D) 6 100",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases",
+        "single_choice",
+        "tal_scq5k",
+        "understanding_numbers_and_digits"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "756",
+        "queId": "d61a9a1fbfa44cf2b4cd47db6eb1360b",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "\\dfrac{6}{1000}"
+          },
+          {
+            "label": "C",
+            "content": "\\dfrac{6}{10}"
+          },
+          {
+            "label": "D",
+            "content": "\\dfrac{6}{100}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Place Value and Number Bases->Numbers->Understanding Numbers and Digits"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00308",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 308,
+      "split": "en_test",
+      "source_problem_id": "c86392ca7da44e73915d3a9b10e3e622"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate quickly:  $92\\div4$~=．\n(A) 100\\div4-8\\div4\n(B) 100\\div4+8\\div4\n(C) 92\\div4+8\\div4",
+      "problem_plain": "Calculate quickly: 92 4 ~=． (A) 100 4-8 4 (B) 100 4+8 4 (C) 92 4+8 4",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "100\\div4-8\\div4",
+      "final_normalized": "100\\div4-8\\div4",
+      "candidates": [
+        "100\\div4-8\\div4",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate quickly: 92 4 ~=． (A) 100 4-8 4 (B) 100 4+8 4 (C) 92 4+8 4",
+      "solution_text": "N/A.",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "775",
+        "queId": "c86392ca7da44e73915d3a9b10e3e622",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "100\\div4-8\\div4"
+          },
+          {
+            "label": "B",
+            "content": "100\\div4+8\\div4"
+          },
+          {
+            "label": "C",
+            "content": "92\\div4+8\\div4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00318",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 318,
+      "split": "en_test",
+      "source_problem_id": "654128a1b65140f5998e6e0fec9ecb13"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "$$9 132 500 = 9 000 000+132 000+$$$\\square$  What is the missing number in the box?\n(A) 32500\n(B) 3250\n(C) 2500\n(D) 500",
+      "problem_plain": "9 132 500 = 9 000 000+132 000+ What is the missing number in the box? (A) 32500 (B) 3250 (C) 2500 (D) 500",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "500",
+      "final_normalized": "500",
+      "candidates": [
+        "500",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "applying_the_principle_of_place_value",
+        "number_theory_modules",
+        "place_value_and_number_bases"
+      ],
+      "tags": [
+        "applying_the_principle_of_place_value",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "9 132 500 = 9 000 000+132 000+ What is the missing number in the box? (A) 32500 (B) 3250 (C) 2500 (D) 500",
+      "solution_text": "",
+      "keywords": [
+        "applying_the_principle_of_place_value",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "801",
+        "queId": "654128a1b65140f5998e6e0fec9ecb13",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "32500"
+          },
+          {
+            "label": "B",
+            "content": "3250"
+          },
+          {
+            "label": "C",
+            "content": "2500"
+          },
+          {
+            "label": "D",
+            "content": "500"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Place Value and Number Bases->Applying the Principle of Place Value"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00326",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 326,
+      "split": "en_test",
+      "source_problem_id": "6e5cbcdfaef2457bad83bcc98766e358"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "$LCM[8,12]=$\n(A) 4\n(B) 24\n(C) 48\n(D) 96",
+      "problem_plain": "LCM[8,12]= (A) 4 (B) 24 (C) 48 (D) 96",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "24",
+      "final_normalized": "24",
+      "candidates": [
+        "24",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "common_factors_and_common_multiples",
+        "common_multiples_and_least_common_multiples",
+        "factors_and_multiples",
+        "least_common_multiple_of_two_numbers",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "common_factors_and_common_multiples",
+        "common_multiples_and_least_common_multiples",
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "least_common_multiple_of_two_numbers",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "LCM[8,12]= (A) 4 (B) 24 (C) 48 (D) 96",
+      "solution_text": "",
+      "keywords": [
+        "common_factors_and_common_multiples",
+        "common_multiples_and_least_common_multiples",
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "least_common_multiple_of_two_numbers",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "814",
+        "queId": "6e5cbcdfaef2457bad83bcc98766e358",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "24"
+          },
+          {
+            "label": "C",
+            "content": "48"
+          },
+          {
+            "label": "D",
+            "content": "96"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples->Common Factors and Common Multiples->Common Multiples and Least Common Multiples->Least Common Multiple of Two Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00329",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 329,
+      "split": "en_test",
+      "source_problem_id": "7beb660d41b441a79ef1c1ada22d735a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Eight days after the day before yesterday is Friday. Which day of the week is tomorrow?\n(A) Friday\n(B) Saturday\n(C) Sunday\n(D) Thursday\n(E) None of the above",
+      "problem_plain": "Eight days after the day before yesterday is Friday. Which day of the week is tomorrow? (A) Friday (B) Saturday (C) Sunday (D) Thursday (E) None of the above",
+      "solution_latex": "$$N.A$$",
+      "solution_plain": "N.A"
+    },
+    "answer": {
+      "final_raw": "Sunday",
+      "final_normalized": "Sunday",
+      "candidates": [
+        "C",
+        "Sunday"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "remainder_problems"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$N.A$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Eight days after the day before yesterday is Friday. Which day of the week is tomorrow? (A) Friday (B) Saturday (C) Sunday (D) Thursday (E) None of the above",
+      "solution_text": "N.A",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "818",
+        "queId": "7beb660d41b441a79ef1c1ada22d735a",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Friday"
+          },
+          {
+            "label": "B",
+            "content": "Saturday"
+          },
+          {
+            "label": "C",
+            "content": "Sunday"
+          },
+          {
+            "label": "D",
+            "content": "Thursday"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Remainder Problems"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00331",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 331,
+      "split": "en_test",
+      "source_problem_id": "80753afd28154aa0a299d5a9a42d385b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Is $$123$$ divisible by $$11$$? If not, what is the remainder? ．\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
+      "problem_plain": "Is 123 divisible by 11 ? If not, what is the remainder? ． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "congruence",
+        "number_theory_modules",
+        "remainder_problems"
+      ],
+      "tags": [
+        "congruence",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Is 123 divisible by 11 ? If not, what is the remainder? ． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_text": "",
+      "keywords": [
+        "congruence",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "821",
+        "queId": "80753afd28154aa0a299d5a9a42d385b",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Remainder Problems->Congruence"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00342",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 342,
+      "split": "en_test",
+      "source_problem_id": "967336324985477e8a10c81b0fb8dd80"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which is \\textbf{NOT} a square number?\n(A) 49\n(B) 59\n(C) 64\n(D) 81\n(E) 16",
+      "problem_plain": "Which is NOT a square number? (A) 49 (B) 59 (C) 64 (D) 81 (E) 16",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "59",
+      "final_normalized": "59",
+      "candidates": [
+        "59",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_applications_of_square_numbers",
+        "number_theory_modules",
+        "perfect_square_numbers"
+      ],
+      "tags": [
+        "basic_applications_of_square_numbers",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "perfect_square_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which is NOT a square number? (A) 49 (B) 59 (C) 64 (D) 81 (E) 16",
+      "solution_text": "N/A.",
+      "keywords": [
+        "basic_applications_of_square_numbers",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "perfect_square_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "852",
+        "queId": "967336324985477e8a10c81b0fb8dd80",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "49"
+          },
+          {
+            "label": "B",
+            "content": "59"
+          },
+          {
+            "label": "C",
+            "content": "64"
+          },
+          {
+            "label": "D",
+            "content": "81"
+          },
+          {
+            "label": "E",
+            "content": "16"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Perfect Square Numbers->Basic Applications of Square Numbers"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00357",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 357,
+      "split": "en_test",
+      "source_problem_id": "8a0b8c0898e4405ca49d978d1d177dce"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate quickly  $1000\\div8$ =．\n(A) 5\n(B) 25\n(C) 125",
+      "problem_plain": "Calculate quickly 1000 8 =． (A) 5 (B) 25 (C) 125",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "125",
+      "final_normalized": "125",
+      "candidates": [
+        "125",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate quickly 1000 8 =． (A) 5 (B) 25 (C) 125",
+      "solution_text": "",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "893",
+        "queId": "8a0b8c0898e4405ca49d978d1d177dce",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "5"
+          },
+          {
+            "label": "B",
+            "content": "25"
+          },
+          {
+            "label": "C",
+            "content": "125"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00358",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 358,
+      "split": "en_test",
+      "source_problem_id": "7c92cf2ae2724464b6e7166d4cdb999b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "96 has~\\uline{~~~~~~~~~~}~factors.\n(A) 10\n(B) 12\n(C) 14\n(D) 16",
+      "problem_plain": "96 has~ ~~~~~~~~~~ ~factors. (A) 10 (B) 12 (C) 14 (D) 16",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "12",
+      "final_normalized": "12",
+      "candidates": [
+        "12",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "96 has~ ~~~~~~~~~~ ~factors. (A) 10 (B) 12 (C) 14 (D) 16",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "895",
+        "queId": "7c92cf2ae2724464b6e7166d4cdb999b",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "12"
+          },
+          {
+            "label": "C",
+            "content": "14"
+          },
+          {
+            "label": "D",
+            "content": "16"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00360",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 360,
+      "split": "en_test",
+      "source_problem_id": "8db3ede17834489eb29bbed9f95a1fcc"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "?\n(A) A\n(B) B\n(C) C\n(D) D",
+      "problem_plain": "? (A) A (B) B (C) C (D) D",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "B",
+      "final_normalized": "B",
+      "candidates": [
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "? (A) A (B) B (C) C (D) D",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "899",
+        "queId": "8db3ede17834489eb29bbed9f95a1fcc",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "A"
+          },
+          {
+            "label": "B",
+            "content": "B"
+          },
+          {
+            "label": "C",
+            "content": "C"
+          },
+          {
+            "label": "D",
+            "content": "D"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00390",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 390,
+      "split": "en_test",
+      "source_problem_id": "cde7cfa1072d4412be0e04398b54339c"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate quickly:  $92\\div4$~=．\n(A) 100\\div4-8\\div4\n(B) 100\\div4+8\\div4\n(C) 92\\div4+8\\div4",
+      "problem_plain": "Calculate quickly: 92 4 ~=． (A) 100 4-8 4 (B) 100 4+8 4 (C) 92 4+8 4",
+      "solution_latex": "N/A",
+      "solution_plain": "N/A"
+    },
+    "answer": {
+      "final_raw": "100\\div4-8\\div4",
+      "final_normalized": "100\\div4-8\\div4",
+      "candidates": [
+        "100\\div4-8\\div4",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate quickly: 92 4 ~=． (A) 100 4-8 4 (B) 100 4+8 4 (C) 92 4+8 4",
+      "solution_text": "N/A",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "984",
+        "queId": "cde7cfa1072d4412be0e04398b54339c",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "100\\div4-8\\div4"
+          },
+          {
+            "label": "B",
+            "content": "100\\div4+8\\div4"
+          },
+          {
+            "label": "C",
+            "content": "92\\div4+8\\div4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00391",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 391,
+      "split": "en_test",
+      "source_problem_id": "8ea3b058caf94d0193c3f3254f6907fe"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The month of December of a certain calendar year has exactly $$5$$ Saturdays and $$4$$ Sundays. On which day of the week does the first day of December fall?\n(A) Monday\n(B) Tuesday\n(C) Wednesday\n(D) Thursday\n(E) None of the above",
+      "problem_plain": "The month of December of a certain calendar year has exactly 5 Saturdays and 4 Sundays. On which day of the week does the first day of December fall? (A) Monday (B) Tuesday (C) Wednesday (D) Thursday (E) None of the above",
+      "solution_latex": "$$N.A$$",
+      "solution_plain": "N.A"
+    },
+    "answer": {
+      "final_raw": "Thursday",
+      "final_normalized": "Thursday",
+      "candidates": [
+        "D",
+        "Thursday"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "remainder_problems"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$N.A$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The month of December of a certain calendar year has exactly 5 Saturdays and 4 Sundays. On which day of the week does the first day of December fall? (A) Monday (B) Tuesday (C) Wednesday (D) Thursday (E) None of the above",
+      "solution_text": "N.A",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "985",
+        "queId": "8ea3b058caf94d0193c3f3254f6907fe",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Monday"
+          },
+          {
+            "label": "B",
+            "content": "Tuesday"
+          },
+          {
+            "label": "C",
+            "content": "Wednesday"
+          },
+          {
+            "label": "D",
+            "content": "Thursday"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Remainder Problems"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00421",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 421,
+      "split": "en_test",
+      "source_problem_id": "dc0c9c161143407f918d5ef246f20108"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which answer is \\textbf{NOT} a square number?\n(A) 1\n(B) 4\n(C) 8\n(D) 49\n(E) 100",
+      "problem_plain": "Which answer is NOT a square number? (A) 1 (B) 4 (C) 8 (D) 49 (E) 100",
+      "solution_latex": "N/A.  Revise from (GL Assessment book$$2$$《Paper $$4$$》 $$6$$ years Question \\#$$9$$)",
+      "solution_plain": "N/A. Revise from (GL Assessment book 2 《Paper 4 》 6 years Question # 9 )"
+    },
+    "answer": {
+      "final_raw": "8",
+      "final_normalized": "8",
+      "candidates": [
+        "8",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_applications_of_square_numbers",
+        "number_theory_modules",
+        "perfect_square_numbers"
+      ],
+      "tags": [
+        "basic_applications_of_square_numbers",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "perfect_square_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A.",
+        "Revise from (GL Assessment book$$2$$《Paper $$4$$》 $$6$$ years Question \\#$$9$$)"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which answer is NOT a square number? (A) 1 (B) 4 (C) 8 (D) 49 (E) 100",
+      "solution_text": "N/A. Revise from (GL Assessment book 2 《Paper 4 》 6 years Question # 9 )",
+      "keywords": [
+        "basic_applications_of_square_numbers",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "perfect_square_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1063",
+        "queId": "dc0c9c161143407f918d5ef246f20108",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "4"
+          },
+          {
+            "label": "C",
+            "content": "8"
+          },
+          {
+            "label": "D",
+            "content": "49"
+          },
+          {
+            "label": "E",
+            "content": "100"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Perfect Square Numbers->Basic Applications of Square Numbers"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00423",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 423,
+      "split": "en_test",
+      "source_problem_id": "bc56d67cf6e44df39487bb82ccf9ae4b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The five-digit number $$25M48$$ is a multiple of $$9$$. What digit does $$M$$ represent?\n(A) 9\n(B) 8\n(C) 7\n(D) 6\n(E) None of the above",
+      "problem_plain": "The five-digit number 25M48 is a multiple of 9 . What digit does M represent? (A) 9 (B) 8 (C) 7 (D) 6 (E) None of the above",
+      "solution_latex": "$$N.A$$",
+      "solution_plain": "N.A"
+    },
+    "answer": {
+      "final_raw": "8",
+      "final_normalized": "8",
+      "candidates": [
+        "8",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$N.A$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The five-digit number 25M48 is a multiple of 9 . What digit does M represent? (A) 9 (B) 8 (C) 7 (D) 6 (E) None of the above",
+      "solution_text": "N.A",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1071",
+        "queId": "bc56d67cf6e44df39487bb82ccf9ae4b",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "9"
+          },
+          {
+            "label": "B",
+            "content": "8"
+          },
+          {
+            "label": "C",
+            "content": "7"
+          },
+          {
+            "label": "D",
+            "content": "6"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00434",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 434,
+      "split": "en_test",
+      "source_problem_id": "9d16c07dbf024f54979534fd12c7effc"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Twenty-eight is the same as．\n(A) 2$$ tens\n(B) 28$$ tens\n(C) 2$$ tens $$8$$ ones\n(D) 20$$ tens $$8$$ ones",
+      "problem_plain": "Twenty-eight is the same as． (A) 2 tens (B) 28 tens (C) 2 tens 8 ones (D) 20 tens 8 ones",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "2$$ tens $$8$$ ones",
+      "final_normalized": "2$$ tens $$8$$ ones",
+      "candidates": [
+        "2$$ tens $$8$$ ones",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Twenty-eight is the same as． (A) 2 tens (B) 28 tens (C) 2 tens 8 ones (D) 20 tens 8 ones",
+      "solution_text": "N/A.",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1089",
+        "queId": "9d16c07dbf024f54979534fd12c7effc",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2$$ tens"
+          },
+          {
+            "label": "B",
+            "content": "28$$ tens"
+          },
+          {
+            "label": "C",
+            "content": "2$$ tens $$8$$ ones"
+          },
+          {
+            "label": "D",
+            "content": "20$$ tens $$8$$ ones"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Place Value and Number Bases->Numbers"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00442",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 442,
+      "split": "en_test",
+      "source_problem_id": "f3184fc749ce4f81bb05cefcf7d024a6"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many multiples of $$3$$ are there between $$13$$ and $$101$$?\n(A) 29\n(B) 30\n(C) 31\n(D) 32\n(E) 33",
+      "problem_plain": "How many multiples of 3 are there between 13 and 101 ? (A) 29 (B) 30 (C) 31 (D) 32 (E) 33",
+      "solution_latex": "$$N.A$$",
+      "solution_plain": "N.A"
+    },
+    "answer": {
+      "final_raw": "29",
+      "final_normalized": "29",
+      "candidates": [
+        "29",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$N.A$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many multiples of 3 are there between 13 and 101 ? (A) 29 (B) 30 (C) 31 (D) 32 (E) 33",
+      "solution_text": "N.A",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1105",
+        "queId": "f3184fc749ce4f81bb05cefcf7d024a6",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "29"
+          },
+          {
+            "label": "B",
+            "content": "30"
+          },
+          {
+            "label": "C",
+            "content": "31"
+          },
+          {
+            "label": "D",
+            "content": "32"
+          },
+          {
+            "label": "E",
+            "content": "33"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00448",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 448,
+      "split": "en_test",
+      "source_problem_id": "fc62c1fbe83342479319695ff8d2633c"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "?\n(A) A\n(B) B\n(C) C\n(D) D",
+      "problem_plain": "? (A) A (B) B (C) C (D) D",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "B",
+      "final_normalized": "B",
+      "candidates": [
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "? (A) A (B) B (C) C (D) D",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "1119",
+        "queId": "fc62c1fbe83342479319695ff8d2633c",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "A"
+          },
+          {
+            "label": "B",
+            "content": "B"
+          },
+          {
+            "label": "C",
+            "content": "C"
+          },
+          {
+            "label": "D",
+            "content": "D"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00450",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 450,
+      "split": "en_test",
+      "source_problem_id": "bcb845e14fa646a2ab746c5a566a6a8c"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which one of the following is an odd number?\n(A) 642\n(B) 426\n(C) 52\n(D) 321\n(E) 488",
+      "problem_plain": "Which one of the following is an odd number? (A) 642 (B) 426 (C) 52 (D) 321 (E) 488",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "321",
+      "final_normalized": "321",
+      "candidates": [
+        "321",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "odd_and_even_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which one of the following is an odd number? (A) 642 (B) 426 (C) 52 (D) 321 (E) 488",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "1123",
+        "queId": "bcb845e14fa646a2ab746c5a566a6a8c",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "642"
+          },
+          {
+            "label": "B",
+            "content": "426"
+          },
+          {
+            "label": "C",
+            "content": "52"
+          },
+          {
+            "label": "D",
+            "content": "321"
+          },
+          {
+            "label": "E",
+            "content": "488"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Odd and Even Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00457",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 457,
+      "split": "en_test",
+      "source_problem_id": "b3fb6f81ba044074be20fa25af5928e3"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate quickly  $100\\div5\\div5$~=．\n(A) 100\\div（5\\times5）\n(B) 100\\div（5-5）\n(C) 100\\div（5\\div5）\n(D) 100\\div（5+5）",
+      "problem_plain": "Calculate quickly 100 5 5 ~=． (A) 100 （5 5） (B) 100 （5-5） (C) 100 （5 5） (D) 100 （5+5）",
+      "solution_latex": "N/A",
+      "solution_plain": "N/A"
+    },
+    "answer": {
+      "final_raw": "100\\div（5\\times5）",
+      "final_normalized": "100\\div（5\\times5）",
+      "candidates": [
+        "100\\div（5\\times5）",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate quickly 100 5 5 ~=． (A) 100 （5 5） (B) 100 （5-5） (C) 100 （5 5） (D) 100 （5+5）",
+      "solution_text": "N/A",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1140",
+        "queId": "b3fb6f81ba044074be20fa25af5928e3",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "100\\div（5\\times5）"
+          },
+          {
+            "label": "B",
+            "content": "100\\div（5-5）"
+          },
+          {
+            "label": "C",
+            "content": "100\\div（5\\div5）"
+          },
+          {
+            "label": "D",
+            "content": "100\\div（5+5）"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00464",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 464,
+      "split": "en_test",
+      "source_problem_id": "dcafc34a38c54cda8ae73d368ed90cfe"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The four-digit number $$\\overline{764Z}$$ is divisible by $$9$$. What is the value for $$Z$$?\n(A) 0\n(B) 1\n(C) 2\n(D) 3\n(E) 4",
+      "problem_plain": "The four-digit number 764Z is divisible by 9 . What is the value for Z ? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_latex": "$$N.A$$",
+      "solution_plain": "N.A"
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$N.A$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The four-digit number 764Z is divisible by 9 . What is the value for Z ? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_text": "N.A",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1157",
+        "queId": "dcafc34a38c54cda8ae73d368ed90cfe",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          },
+          {
+            "label": "E",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00475",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 475,
+      "split": "en_test",
+      "source_problem_id": "fd031122990c477fb37bb677c06dbe0b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following is not a prime number?\n(A) 43\n(B) 41\n(C) 39\n(D) 37",
+      "problem_plain": "Which of the following is not a prime number? (A) 43 (B) 41 (C) 39 (D) 37",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "39",
+      "final_normalized": "39",
+      "candidates": [
+        "39",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "prime_and_composite_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following is not a prime number? (A) 43 (B) 41 (C) 39 (D) 37",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "1178",
+        "queId": "fd031122990c477fb37bb677c06dbe0b",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "43"
+          },
+          {
+            "label": "B",
+            "content": "41"
+          },
+          {
+            "label": "C",
+            "content": "39"
+          },
+          {
+            "label": "D",
+            "content": "37"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime and Composite Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00477",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 477,
+      "split": "en_test",
+      "source_problem_id": "e1963481493a48a4b786f7f4013b0224"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A $$4$$-digit number $$\\overline{56\\square3}$$ is divisible by $$9$$, find the number in the $$\\square$$.\n(A) 3\n(B) 4\n(C) 5\n(D) 6\n(E) None of the above",
+      "problem_plain": "A 4 -digit number 56 3 is divisible by 9 , find the number in the . (A) 3 (B) 4 (C) 5 (D) 6 (E) None of the above",
+      "solution_latex": "$$N.A$$",
+      "solution_plain": "N.A"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$N.A$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A 4 -digit number 56 3 is divisible by 9 , find the number in the . (A) 3 (B) 4 (C) 5 (D) 6 (E) None of the above",
+      "solution_text": "N.A",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1184",
+        "queId": "e1963481493a48a4b786f7f4013b0224",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "4"
+          },
+          {
+            "label": "C",
+            "content": "5"
+          },
+          {
+            "label": "D",
+            "content": "6"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00482",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 482,
+      "split": "en_test",
+      "source_problem_id": "d42f7769fa0740ca911403175002767f"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Is $$1234$$ divisible by $$11$$? If not, what is the remainder? ．\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
+      "problem_plain": "Is 1234 divisible by 11 ? If not, what is the remainder? ． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "congruence",
+        "number_theory_modules",
+        "remainder_problems"
+      ],
+      "tags": [
+        "congruence",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Is 1234 divisible by 11 ? If not, what is the remainder? ． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_text": "",
+      "keywords": [
+        "congruence",
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "1198",
+        "queId": "d42f7769fa0740ca911403175002767f",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Remainder Problems->Congruence"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00489",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 489,
+      "split": "en_test",
+      "source_problem_id": "cffb695ef30a4367ab5eff5ea85dfa48"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following number is a multiple of $2$?\n(A) 1\n(B) 3\n(C) 10\n(D) 13",
+      "problem_plain": "Which of the following number is a multiple of 2 ? (A) 1 (B) 3 (C) 10 (D) 13",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "10",
+      "final_normalized": "10",
+      "candidates": [
+        "10",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "prime_and_composite_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following number is a multiple of 2 ? (A) 1 (B) 3 (C) 10 (D) 13",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "1218",
+        "queId": "cffb695ef30a4367ab5eff5ea85dfa48",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "10"
+          },
+          {
+            "label": "D",
+            "content": "13"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime and Composite Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_1:00502",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 502,
+      "split": "en_test",
+      "source_problem_id": "de3e5b8a042f491dab8e3f905466c58c"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the value of the digit $1$ in the number $6543.2109$.\n(A) t\\emph{e}n\n(B) one tenth\n(C) one hundred\n(D) one hundredth\n(E) One thousandth",
+      "problem_plain": "What is the value of the digit 1 in the number 6543.2109 . (A) t e n (B) one tenth (C) one hundred (D) one hundredth (E) One thousandth",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "one hundredth",
+      "final_normalized": "one hundredth",
+      "candidates": [
+        "D",
+        "one hundredth"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "place_value_and_number_bases"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the value of the digit 1 in the number 6543.2109 . (A) t e n (B) one tenth (C) one hundred (D) one hundredth (E) One thousandth",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "1251",
+        "queId": "de3e5b8a042f491dab8e3f905466c58c",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "t\\emph{e}n"
+          },
+          {
+            "label": "B",
+            "content": "one tenth"
+          },
+          {
+            "label": "C",
+            "content": "one hundred"
+          },
+          {
+            "label": "D",
+            "content": "one hundredth"
+          },
+          {
+            "label": "E",
+            "content": "One thousandth"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Place Value and Number Bases"
+        ],
+        "competition_source_list": []
+      }
+    }
+  }
+]

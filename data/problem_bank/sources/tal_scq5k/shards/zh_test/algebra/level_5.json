@@ -1,0 +1,248 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_5:01540",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1540,
+      "split": "zh_test",
+      "source_problem_id": "a8b83fb0c1df49f0a2e2631d28605adc"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "小王沿街匀速行走，发现每隔$$6$$分钟从背后驶过一辆$$18$$路公交车，每隔$$3$$分钟从迎面驶来一辆$$18$$路公交车．假设每辆$$18$$路公交车行驶速度相同，而且$$18$$路公交车总站每隔固定时间发一辆车，那么发车间隔的时间是分钟．\n(A) 2\n(B) 3\n(C) 6\n(D) 4",
+      "problem_plain": "小王沿街匀速行走，发现每隔 6 分钟从背后驶过一辆 18 路公交车，每隔 3 分钟从迎面驶来一辆 18 路公交车．假设每辆 18 路公交车行驶速度相同，而且 18 路公交车总站每隔固定时间发一辆车，那么发车间隔的时间是分钟． (A) 2 (B) 3 (C) 6 (D) 4",
+      "solution_latex": "设$$18$$路公交车的速度是$$x$$米/分，小王行走的速度是$$y$$米/分，同向行驶的相邻两车的间距为$$s$$米．  每隔$$6$$分钟从背后开过一辆$$18$$路公交车，则  $$6x-6y=s$$．①  每隔$$3$$分钟从迎面驶来一辆$$18$$路公交车，则  $$3x+3y=s$$．②  由①②得，$$s=4x$$，所以$$\\frac{s}{x}=4$$.  即$$18$$路公交车总站发车间隔的时间是$$4$$分钟．",
+      "solution_plain": "设 18 路公交车的速度是 x 米/分，小王行走的速度是 y 米/分，同向行驶的相邻两车的间距为 s 米． 每隔 6 分钟从背后开过一辆 18 路公交车，则 6x-6y=s ．① 每隔 3 分钟从迎面驶来一辆 18 路公交车，则 3x+3y=s ．② 由①②得， s=4x ，所以 s x =4 . 即 18 路公交车总站发车间隔的时间是 4 分钟．"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设$$18$$路公交车的速度是$$x$$米/分，小王行走的速度是$$y$$米/分，同向行驶的相邻两车的间距为$$s$$米．  每隔$$6$$分钟从背后开过一辆$$18$$路公交车，则  $$6x-6y=s$$．①  每隔$$3$$分钟从迎面驶来一辆$$18$$路公交车，则  $$3x+3y=s$$．②  由①②得，$$s=4x$$，所以$$\\frac{s}{x}=4$$.",
+        "即$$18$$路公交车总站发车间隔的时间是$$4$$分钟．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "小王沿街匀速行走，发现每隔 6 分钟从背后驶过一辆 18 路公交车，每隔 3 分钟从迎面驶来一辆 18 路公交车．假设每辆 18 路公交车行驶速度相同，而且 18 路公交车总站每隔固定时间发一辆车，那么发车间隔的时间是分钟． (A) 2 (B) 3 (C) 6 (D) 4",
+      "solution_text": "设 18 路公交车的速度是 x 米/分，小王行走的速度是 y 米/分，同向行驶的相邻两车的间距为 s 米． 每隔 6 分钟从背后开过一辆 18 路公交车，则 6x-6y=s ．① 每隔 3 分钟从迎面驶来一辆 18 路公交车，则 3x+3y=s ．② 由①②得， s=4x ，所以 s x =4 . 即 18 路公交车总站发车间隔的时间是 4 分钟．",
+      "keywords": [
+        "algebra",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "942",
+        "queId": "a8b83fb0c1df49f0a2e2631d28605adc",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->方程与不等式->二元一次方程（组）->二元一次方程组应用题->二元一次方程组的行程问题"
+        ],
+        "competition_source_list": [
+          "2008年竞赛第7题6分",
+          "2016~2017学年福建泉州南安市南安市实验中学初一下学期期中第16题4分",
+          "2018~2019学年浙江杭州西湖区杭州市之江实验中学初一下学期期末第18题4分",
+          "2016~2017学年10月河南郑州二七区郑州实验外国语中学初一上学期月考第11题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:algebra:level_5:01704",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1704,
+      "split": "zh_test",
+      "source_problem_id": "804738ee337040308734bf73a86c788a"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$a={{\\text{e}}^{0.2}}-1,b=\\ln 1.2,c=\\tan 0.2$，其中$\\text{e}=2.71828\\cdots $为自然对数的底数，则（~~~~~~~）\n(A) c\\textgreater a\\textgreater b\n(B) a\\textgreater c\\textgreater b\n(C) b\\textgreater a\\textgreater c\n(D) a\\textgreater b\\textgreater c",
+      "problem_plain": "已知 a= e ^ 0.2 -1,b= 1.2,c= 0.2 ，其中 e =2.71828 为自然对数的底数，则（~~~~~~~） (A) c a b (B) a c b (C) b a c (D) a b c",
+      "solution_latex": "\\hfill\\break 【分析】\\\\ 观察$a={{\\text{e}}^{0.2}}-1,b=\\ln 1.2,c=\\tan 0.2$，发现都含有$0.2$，把$0.2$换成$x$，自变量在$(0,1)$或其子集范围内构造函数，利用导数证明其单调性，比较$a,b,c$的大小.\\\\ 【详解】\\\\ 令$f(x)={{\\text{e}}^{x}}-1-\\tan x=\\frac{\\cos x{{\\text{e}}^{x}}-\\cos x-\\sin x}{\\cos x}$，$0\\textless{} x\\textless{} \\frac{\\pi }{4}$，\\\\ 令$g(x)=\\cos x{{\\text{e}}^{x}}-\\cos x-\\sin x$，${g}\\textquotesingle(x)=(-\\sin x+\\cos x){{\\text{e}}^{x}}+\\sin x-\\cos x=({{\\text{e}}^{x}}-1)\\cdot (\\cos x-\\sin x)$，\\\\ 当$0\\textless{} x\\textless{} \\frac{\\pi }{4}$时，${g}\\textquotesingle(x)\\textgreater0$，$g(x)$单调递增，\\\\ 又$g(0)=1-1=0$，所以$g(x)\\textgreater0$，又$\\cos x\\textgreater0$，\\\\ 所以$f(x)\\textgreater0$，在$(0,\\frac{\\pi }{4})$成立，所以$f(0.2)\\textgreater0$即$a\\textgreater c$，\\\\ 令$h(x)=\\ln (x+1)-x$，${h}\\textquotesingle(x)=\\frac{1}{x+1}-1=\\frac{-x}{x+1}$，$h(x)$在$x\\in (0,\\frac{\\pi }{2})$为减函数，所以$h(x)\\textless{} h(0)=0$，即$\\ln (x+1)\\textless{} x$，\\\\ 令$m(x)=x-\\tan x$，${m}\\textquotesingle(x)=1-\\frac{1}{{{\\cos }^{2}}x}$，$m(x)$在$x\\in (0,\\frac{\\pi }{2})$为减函数，所以$m(x)\\textless{} m(0)=0$，即$x\\textless{} \\tan x$，\\\\ 所以$\\ln (x+1)\\textless{} x\\textless{} \\tan x$，$x\\in (0,\\frac{\\pi }{2})$成立，\\\\ 令$x=0.2$，则上式变为$\\ln (0.2+1)\\textless{} 0.2\\textless{} \\tan 0.2$，所以$b\\textless{} 0.2\\textless{} c$\\\\ 所以$b\\textless{} c$，\\\\ 所以$b\\textless{} c\\textless{} a$.\\\\ 故答案为：B.\\\\ 【点睛】\\\\ 比较大小题目，是高考的热点，也是难点，通过观察和构造函数是基本的解题要求，难点在于构造后的证明，需要平时多积累常见的结论，达到深入理解，举一反三，融会贯通.",
+      "solution_plain": "【分析】 观察 a= e ^ 0.2 -1,b= 1.2,c= 0.2 ，发现都含有 0.2 ，把 0.2 换成 x ，自变量在 (0,1) 或其子集范围内构造函数，利用导数证明其单调性，比较 a,b,c 的大小. 【详解】 令 f(x)= e ^ x -1- x= x e ^ x - x- x x ， 0 x 4 ， 令 g(x)= x e ^ x - x- x ， g (x)=(- x+ x) e ^ x + x- x=( e ^ x -1) ( x- x) ， 当 0 x 4 时， g (x) 0 ， g(x) 单调递增， 又 g(0)=1-1=0 ，所以 g(x) 0 ，又 x 0 ， 所以 f(x) 0 ，在 (0, 4 ) 成立，所以 f(0.2) 0 即 a c ， 令 h(x)= (x+1)-x ， h (x)= 1 x+1 -1= -x x+1 ， h(x) 在 x (0, 2 ) 为减函数，所以 h(x) h(0)=0 ，即 (x+1) x ， 令 m(x)=x- x ， m (x)=1- 1 ^ 2 x ， m(x) 在 x (0, 2 ) 为减函数，所以 m(x) m(0)=0 ，即 x x ， 所以 (x+1) x x ， x (0, 2 ) 成立， 令 x=0.2 ，则上式变为 (0.2+1) 0.2 0.2 ，所以 b 0.2 c 所以 b c ， 所以 b c a . 故答案为：B. 【点睛】 比较大小题目，是高考的热点，也是难点，通过观察和构造函数是基本的解题要求，难点在于构造后的证明，需要平时多积累常见的结论，达到深入理解，举一反三，融会贯通."
+    },
+    "answer": {
+      "final_raw": "a\\textgreater c\\textgreater b",
+      "final_normalized": "a\\textgreater c\\textgreater b",
+      "candidates": [
+        "B",
+        "a\\textgreater c\\textgreater b"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "algebra",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "\\hfill\\break 【分析】\\\\ 观察$a={{\\text{e}}^{0.2}}-1,b=\\ln 1.2,c=\\tan 0.2$，发现都含有$0.2$，把$0.2$换成$x$，自变量在$(0,1)$或其子集范围内构造函数，利用导数证明其单调性，比较$a,b,c$的大小.\\\\ 【详解】\\\\ 令$f(x)={{\\text{e}}^{x}}-1-\\tan x=\\frac{\\cos x{{\\text{e}}^{x}}-\\cos x-\\sin x}{\\cos x}$，$0\\textless{} x\\textless{} \\frac{\\pi }{4}$，\\\\ 令$g(x)=\\cos x{{\\text{e}}^{x}}-\\cos x-\\sin x$，${g}\\textquotesingle(x)=(-\\sin x+\\cos x){{\\text{e}}^{x}}+\\sin x-\\cos x=({{\\text{e}}^{x}}-1)\\cdot (\\cos x-\\sin x)$，\\\\ 当$0\\textless{} x\\textless{} \\frac{\\pi }{4}$时，${g}\\textquotesingle(x)\\textgreater0$，$g(x)$单调递增，\\\\ 又$g(0)=1-1=0$，所以$g(x)\\textgreater0$，又$\\cos x\\textgreater0$，\\\\ 所以$f(x)\\textgreater0$，在$(0,\\frac{\\pi }{4})$成立，所以$f(0.2)\\textgreater0$即$a\\textgreater c$，\\\\ 令$h(x)=\\ln (x+1)-x$，${h}\\textquotesingle(x)=\\frac{1}{x+1}-1=\\frac{-x}{x+1}$，$h(x)$在$x\\in (0,\\frac{\\pi }{2})$为减函数，所以$h(x)\\textless{} h(0)=0$，即$\\ln (x+1)\\textless{} x$，\\\\ 令$m(x)=x-\\tan x$，${m}\\textquotesingle(x)=1-\\frac{1}{{{\\cos }^{2}}x}$，$m(x)$在$x\\in (0,\\frac{\\pi }{2})$为减函数，所以$m(x)\\textless{} m(0)=0$，即$x\\textless{} \\tan x$，\\\\ 所以$\\ln (x+1)\\textless{} x\\textless{} \\tan x$，$x\\in (0,\\frac{\\pi }{2})$成立，\\\\ 令$x=0.2$，则上式变为$\\ln (0.2+1)\\textless{} 0.2\\textless{} \\tan 0.2$，所以$b\\textless{} 0.2\\textless{} c$\\\\ 所以$b\\textless{} c$，\\\\ 所以$b\\textless{} c\\textless{} a$.\\\\ 故答案为：B.\\\\ 【点睛】\\\\ 比较大小题目，是高考的热点，也是难点，通过观察和构造函数是基本的解题要求，难点在于构造后的证明，需要平时多积累常见的结论，达到深入理解，举一反三，融会贯通."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 a= e ^ 0.2 -1,b= 1.2,c= 0.2 ，其中 e =2.71828 为自然对数的底数，则（~~~~~~~） (A) c a b (B) a c b (C) b a c (D) a b c",
+      "solution_text": "【分析】 观察 a= e ^ 0.2 -1,b= 1.2,c= 0.2 ，发现都含有 0.2 ，把 0.2 换成 x ，自变量在 (0,1) 或其子集范围内构造函数，利用导数证明其单调性，比较 a,b,c 的大小. 【详解】 令 f(x)= e ^ x -1- x= x e ^ x - x- x x ， 0 x 4 ， 令 g(x)= x e ^ x - x- x ， g (x)=(- x+ x) e ^ x + x- x=( e ^ x -1) ( x- x) ， 当 0 x 4 时， g (x) 0 ， g(x) 单调递增， 又 g(0)=1-1=0 ，所以 g(x) 0 ，又 x 0 ， 所以 f(x) 0 ，在 (0, 4 ) 成立，所以 f(0.2) 0 即 a c ， 令 h(x)= (x+1)-x ， h (x)= 1 x+1 -1= -x x+1 ， h(x) 在 x (0, 2 ) 为减函数，所以 h(x) h(0)=0 ，即 (x+1) x ， 令 m(x)=x- x ， m (x)=1- 1 ^ 2 x ， m(x) 在 x (0, 2 ) 为减函数，所以 m(x) m(0)=0 ，即 x x ， 所以 (x+1) x x ， x (0, 2 ) 成立， 令 x=0.2 ，则上式变为 (0.2+1) 0.2 0.2 ，所以 b 0.2 c 所以 b c ， 所以 b c a . 故答案为：B. 【点睛】 比较大小题目，是高考的热点，也是难点，通过观察和构造函数是基本的解题要求，难点在于构造后的证明，需要平时多积累常见的结论，达到深入理解，举一反三，融会贯通.",
+      "keywords": [
+        "algebra",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "771",
+        "queId": "804738ee337040308734bf73a86c788a",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "c\\textgreater a\\textgreater b"
+          },
+          {
+            "label": "B",
+            "content": "a\\textgreater c\\textgreater b"
+          },
+          {
+            "label": "C",
+            "content": "b\\textgreater a\\textgreater c"
+          },
+          {
+            "label": "D",
+            "content": "a\\textgreater b\\textgreater c"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->基本初等函数",
+          "课内体系->知识点->三角函数->三角函数的图象与性质"
+        ],
+        "competition_source_list": [
+          "2023年陕西榆林绥德县实验中学高三上学期高考模拟（第四次模拟）第12题",
+          "2022~2023学年9月辽宁高三上学期月考（名校联盟）第8题",
+          "2022年湖南湘西吉首市竞赛（第一届中小学生教师解题大赛）第8题",
+          "2022年四川成都青羊区四川省成都市石室中学高三上学期高考模拟理科（一诊模拟）第12题"
+        ]
+      }
+    }
+  }
+]

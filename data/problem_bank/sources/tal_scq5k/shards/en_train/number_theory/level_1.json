@@ -1,0 +1,3455 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00059",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 59,
+      "split": "en_train",
+      "source_problem_id": "667e06a7e6d846bfb88f90807a8b2943"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Find the smallest whole number between $$14$$ and $$40$$ that is divisible by $$3$$ and by $$4$$.\n(A) 12\n(B) 16\n(C) 18\n(D) 24\n(E) 36",
+      "problem_plain": "Find the smallest whole number between 14 and 40 that is divisible by 3 and by 4 . (A) 12 (B) 16 (C) 18 (D) 24 (E) 36",
+      "solution_latex": "Multiple of $$3$$ and $$4$$ also a multiple of $$12$$.  $$12, 24, 36, 48, \\cdots $$  Smallest multiple between $$14$$ and $$40$$ is $$24$$.",
+      "solution_plain": "Multiple of 3 and 4 also a multiple of 12 . 12, 24, 36, 48, Smallest multiple between 14 and 40 is 24 ."
+    },
+    "answer": {
+      "final_raw": "24",
+      "final_normalized": "24",
+      "candidates": [
+        "24",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "common_factors_and_common_multiples",
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "common_factors_and_common_multiples",
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Multiple of $$3$$ and $$4$$ also a multiple of $$12$$.",
+        "$$12, 24, 36, 48, \\cdots $$  Smallest multiple between $$14$$ and $$40$$ is $$24$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Find the smallest whole number between 14 and 40 that is divisible by 3 and by 4 . (A) 12 (B) 16 (C) 18 (D) 24 (E) 36",
+      "solution_text": "Multiple of 3 and 4 also a multiple of 12 . 12, 24, 36, 48, Smallest multiple between 14 and 40 is 24 .",
+      "keywords": [
+        "common_factors_and_common_multiples",
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "142",
+        "queId": "667e06a7e6d846bfb88f90807a8b2943",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "12"
+          },
+          {
+            "label": "B",
+            "content": "16"
+          },
+          {
+            "label": "C",
+            "content": "18"
+          },
+          {
+            "label": "D",
+            "content": "24"
+          },
+          {
+            "label": "E",
+            "content": "36"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples->Common Factors and Common Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00071",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 71,
+      "split": "en_train",
+      "source_problem_id": "0d671eddbe1b4961bdcf1b01bff92fc7"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The values of length and width of a rectangle are both prime numbers. If the area of that rectangle is $10$, what is its perimeter?\n(A) 5\n(B) 7\n(C) 10\n(D) 14",
+      "problem_plain": "The values of length and width of a rectangle are both prime numbers. If the area of that rectangle is 10 , what is its perimeter? (A) 5 (B) 7 (C) 10 (D) 14",
+      "solution_latex": "$10=2\\times 5$,  the length is $5$ and the width is $2$.  $(2+5)\\times 2=14$.",
+      "solution_plain": "10=2 5 , the length is 5 and the width is 2 . (2+5) 2=14 ."
+    },
+    "answer": {
+      "final_raw": "14",
+      "final_normalized": "14",
+      "candidates": [
+        "14",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "prime_and_composite_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$10=2\\times 5$,  the length is $5$ and the width is $2$.",
+        "$(2+5)\\times 2=14$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The values of length and width of a rectangle are both prime numbers. If the area of that rectangle is 10 , what is its perimeter? (A) 5 (B) 7 (C) 10 (D) 14",
+      "solution_text": "10=2 5 , the length is 5 and the width is 2 . (2+5) 2=14 .",
+      "keywords": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "184",
+        "queId": "0d671eddbe1b4961bdcf1b01bff92fc7",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "5"
+          },
+          {
+            "label": "B",
+            "content": "7"
+          },
+          {
+            "label": "C",
+            "content": "10"
+          },
+          {
+            "label": "D",
+            "content": "14"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime and Composite Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00075",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 75,
+      "split": "en_train",
+      "source_problem_id": "8add4bcaf8434eef8f27b437bfbb419b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following is a multiple of $8$?\n(A) 18\n(B) 24\n(C) 28\n(D) 30",
+      "problem_plain": "Which of the following is a multiple of 8 ? (A) 18 (B) 24 (C) 28 (D) 30",
+      "solution_latex": "$3\\times 8=24$, so $24$ is a multiple of $8$.",
+      "solution_plain": "3 8=24 , so 24 is a multiple of 8 ."
+    },
+    "answer": {
+      "final_raw": "24",
+      "final_normalized": "24",
+      "candidates": [
+        "24",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$3\\times 8=24$, so $24$ is a multiple of $8$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following is a multiple of 8 ? (A) 18 (B) 24 (C) 28 (D) 30",
+      "solution_text": "3 8=24 , so 24 is a multiple of 8 .",
+      "keywords": [
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "195",
+        "queId": "8add4bcaf8434eef8f27b437bfbb419b",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "18"
+          },
+          {
+            "label": "B",
+            "content": "24"
+          },
+          {
+            "label": "C",
+            "content": "28"
+          },
+          {
+            "label": "D",
+            "content": "30"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00078",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 78,
+      "split": "en_train",
+      "source_problem_id": "267e5f616b95459fb521f47f4b9b7441"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following is an odd number？\n(A) 490\n(B) 558\n(C) 36\n(D) 627\n(E) 452",
+      "problem_plain": "Which of the following is an odd number？ (A) 490 (B) 558 (C) 36 (D) 627 (E) 452",
+      "solution_latex": "Odd numbers end with 1, 3, 5, 7, 9",
+      "solution_plain": "Odd numbers end with 1, 3, 5, 7, 9"
+    },
+    "answer": {
+      "final_raw": "627",
+      "final_normalized": "627",
+      "candidates": [
+        "627",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "odd_and_even_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Odd numbers end with 1, 3, 5, 7, 9"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following is an odd number？ (A) 490 (B) 558 (C) 36 (D) 627 (E) 452",
+      "solution_text": "Odd numbers end with 1, 3, 5, 7, 9",
+      "keywords": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "209",
+        "queId": "267e5f616b95459fb521f47f4b9b7441",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "490"
+          },
+          {
+            "label": "B",
+            "content": "558"
+          },
+          {
+            "label": "C",
+            "content": "36"
+          },
+          {
+            "label": "D",
+            "content": "627"
+          },
+          {
+            "label": "E",
+            "content": "452"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Odd and Even Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00082",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 82,
+      "split": "en_train",
+      "source_problem_id": "6b618b1c1aaa4a3084ab66b4afd5636e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The product of two whole numbers is $$5$$. What is the sum of these two numbers?\n(A) 10\n(B) 6\n(C) 5\n(D) 4\n(E) None of the above",
+      "problem_plain": "The product of two whole numbers is 5 . What is the sum of these two numbers? (A) 10 (B) 6 (C) 5 (D) 4 (E) None of the above",
+      "solution_latex": "If the product of two whole numbers is $$5$$, then one of the numbers is $$5$$ and the other is $$1$$. Their sum is $$6$$.",
+      "solution_plain": "If the product of two whole numbers is 5 , then one of the numbers is 5 and the other is 1 . Their sum is 6 ."
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_concepts_of_factors_and_multiples",
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "basic_concepts_of_factors_and_multiples",
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "If the product of two whole numbers is $$5$$, then one of the numbers is $$5$$ and the other is $$1$$.",
+        "Their sum is $$6$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The product of two whole numbers is 5 . What is the sum of these two numbers? (A) 10 (B) 6 (C) 5 (D) 4 (E) None of the above",
+      "solution_text": "If the product of two whole numbers is 5 , then one of the numbers is 5 and the other is 1 . Their sum is 6 .",
+      "keywords": [
+        "basic_concepts_of_factors_and_multiples",
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "218",
+        "queId": "6b618b1c1aaa4a3084ab66b4afd5636e",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "6"
+          },
+          {
+            "label": "C",
+            "content": "5"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples->Basic Concepts of Factors and Multiples"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00144",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 144,
+      "split": "en_train",
+      "source_problem_id": "5e2030e626f745468a91ab3f9adaf899"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "In Walmart, apples are sold in pack of eight. How many apples will you get, if you buy five packs?\n(A) 32\n(B) 40\n(C) 48\n(D) 56",
+      "problem_plain": "In Walmart, apples are sold in pack of eight. How many apples will you get, if you buy five packs? (A) 32 (B) 40 (C) 48 (D) 56",
+      "solution_latex": "$5\\times 8=40$.",
+      "solution_plain": "5 8=40 ."
+    },
+    "answer": {
+      "final_raw": "40",
+      "final_normalized": "40",
+      "candidates": [
+        "40",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$5\\times 8=40$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "In Walmart, apples are sold in pack of eight. How many apples will you get, if you buy five packs? (A) 32 (B) 40 (C) 48 (D) 56",
+      "solution_text": "5 8=40 .",
+      "keywords": [
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "389",
+        "queId": "5e2030e626f745468a91ab3f9adaf899",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "32"
+          },
+          {
+            "label": "B",
+            "content": "40"
+          },
+          {
+            "label": "C",
+            "content": "48"
+          },
+          {
+            "label": "D",
+            "content": "56"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00190",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 190,
+      "split": "en_train",
+      "source_problem_id": "367207bff5af417fb82e757ef26a2f93"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Miss Angel want to pack some candy for her students. She has a total of $$104$$ pieces of candy. Each of the goody bag will contain $$7$$ pieces of candy. In order to ensure all her students get a full bag of candy, how many more pieces of candy she needed?\n(A) 0\n(B) 1\n(C) 2\n(D) 3\n(E) 4",
+      "problem_plain": "Miss Angel want to pack some candy for her students. She has a total of 104 pieces of candy. Each of the goody bag will contain 7 pieces of candy. In order to ensure all her students get a full bag of candy, how many more pieces of candy she needed? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_latex": "$$104\\div7=14R6$$",
+      "solution_plain": "104 7=14R6"
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$104\\div7=14R6$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Miss Angel want to pack some candy for her students. She has a total of 104 pieces of candy. Each of the goody bag will contain 7 pieces of candy. In order to ensure all her students get a full bag of candy, how many more pieces of candy she needed? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_text": "104 7=14R6",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "516",
+        "queId": "367207bff5af417fb82e757ef26a2f93",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          },
+          {
+            "label": "E",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00202",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 202,
+      "split": "en_train",
+      "source_problem_id": "43ec0f56dfdd4992bf3ab63daffb140f"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following is a composite number?\n(A) 59\n(B) 61\n(C) 63\n(D) 67",
+      "problem_plain": "Which of the following is a composite number? (A) 59 (B) 61 (C) 63 (D) 67",
+      "solution_latex": "$63$ is a composite number.",
+      "solution_plain": "63 is a composite number."
+    },
+    "answer": {
+      "final_raw": "63",
+      "final_normalized": "63",
+      "candidates": [
+        "63",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "prime_and_composite_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$63$ is a composite number."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following is a composite number? (A) 59 (B) 61 (C) 63 (D) 67",
+      "solution_text": "63 is a composite number.",
+      "keywords": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "547",
+        "queId": "43ec0f56dfdd4992bf3ab63daffb140f",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "59"
+          },
+          {
+            "label": "B",
+            "content": "61"
+          },
+          {
+            "label": "C",
+            "content": "63"
+          },
+          {
+            "label": "D",
+            "content": "67"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime and Composite Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00221",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 221,
+      "split": "en_train",
+      "source_problem_id": "839e166836fb4da990f3922e436d76e6"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A two-digit prime number is still prime when the digits of its first and tenth digits are exchanged. There are  such prime numbers.\n(A) 6\n(B) 7\n(C) 8\n(D) 9",
+      "problem_plain": "A two-digit prime number is still prime when the digits of its first and tenth digits are exchanged. There are such prime numbers. (A) 6 (B) 7 (C) 8 (D) 9",
+      "solution_latex": "$$11$$，$$13$$，$$17$$，$$31$$，$$37$$，$$71$$，$$73$$，$$79$$，$$97$$．",
+      "solution_plain": "11 ， 13 ， 17 ， 31 ， 37 ， 71 ， 73 ， 79 ， 97 ．"
+    },
+    "answer": {
+      "final_raw": "9",
+      "final_normalized": "9",
+      "candidates": [
+        "9",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$11$$，$$13$$，$$17$$，$$31$$，$$37$$，$$71$$，$$73$$，$$79$$，$$97$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A two-digit prime number is still prime when the digits of its first and tenth digits are exchanged. There are such prime numbers. (A) 6 (B) 7 (C) 8 (D) 9",
+      "solution_text": "11 ， 13 ， 17 ， 31 ， 37 ， 71 ， 73 ， 79 ， 97 ．",
+      "keywords": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "579",
+        "queId": "839e166836fb4da990f3922e436d76e6",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "7"
+          },
+          {
+            "label": "C",
+            "content": "8"
+          },
+          {
+            "label": "D",
+            "content": "9"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00231",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 231,
+      "split": "en_train",
+      "source_problem_id": "5a9f067862ad466b8516c36bce658b8b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following numbers is not prime?\n(A) 13\n(B) 19\n(C) 89\n(D) 93",
+      "problem_plain": "Which of the following numbers is not prime? (A) 13 (B) 19 (C) 89 (D) 93",
+      "solution_latex": "$$93=31\\times 3$$ , its factors are $1$，$31$，$3$，$93$．",
+      "solution_plain": "93=31 3 , its factors are 1 ， 31 ， 3 ， 93 ．"
+    },
+    "answer": {
+      "final_raw": "93",
+      "final_normalized": "93",
+      "candidates": [
+        "93",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "determining_prime_and_composite_numbers",
+        "number_theory_modules",
+        "prime_and_composite_numbers"
+      ],
+      "tags": [
+        "determining_prime_and_composite_numbers",
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$93=31\\times 3$$ , its factors are $1$，$31$，$3$，$93$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following numbers is not prime? (A) 13 (B) 19 (C) 89 (D) 93",
+      "solution_text": "93=31 3 , its factors are 1 ， 31 ， 3 ， 93 ．",
+      "keywords": [
+        "determining_prime_and_composite_numbers",
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "596",
+        "queId": "5a9f067862ad466b8516c36bce658b8b",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "13"
+          },
+          {
+            "label": "B",
+            "content": "19"
+          },
+          {
+            "label": "C",
+            "content": "89"
+          },
+          {
+            "label": "D",
+            "content": "93"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime and Composite Numbers->Determining Prime and Composite Numbers"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00233",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 233,
+      "split": "en_train",
+      "source_problem_id": "fabee4e3dd6240d3b1e6b55192cb4ae8"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following is not a factor of $48$?\n(A) 8\n(B) 12\n(C) 14\n(D) 16",
+      "problem_plain": "Which of the following is not a factor of 48 ? (A) 8 (B) 12 (C) 14 (D) 16",
+      "solution_latex": "$14$ can not divide $48$.",
+      "solution_plain": "14 can not divide 48 ."
+    },
+    "answer": {
+      "final_raw": "14",
+      "final_normalized": "14",
+      "candidates": [
+        "14",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$14$ can not divide $48$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following is not a factor of 48 ? (A) 8 (B) 12 (C) 14 (D) 16",
+      "solution_text": "14 can not divide 48 .",
+      "keywords": [
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "604",
+        "queId": "fabee4e3dd6240d3b1e6b55192cb4ae8",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "8"
+          },
+          {
+            "label": "B",
+            "content": "12"
+          },
+          {
+            "label": "C",
+            "content": "14"
+          },
+          {
+            "label": "D",
+            "content": "16"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00250",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 250,
+      "split": "en_train",
+      "source_problem_id": "7ac01a3bb1194ff7b78925d0d02f7485"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following has an odd number of whole-number factors?\n(A) 47\n(B) 48\n(C) 49\n(D) 50",
+      "problem_plain": "Which of the following has an odd number of whole-number factors? (A) 47 (B) 48 (C) 49 (D) 50",
+      "solution_latex": "The whole-number factors of $$49$$ are $$1$$, $$7$$, and $$49$$.",
+      "solution_plain": "The whole-number factors of 49 are 1 , 7 , and 49 ."
+    },
+    "answer": {
+      "final_raw": "49",
+      "final_normalized": "49",
+      "candidates": [
+        "49",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "understanding_odd_and_even_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k",
+        "understanding_odd_and_even_numbers"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "The whole-number factors of $$49$$ are $$1$$, $$7$$, and $$49$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following has an odd number of whole-number factors? (A) 47 (B) 48 (C) 49 (D) 50",
+      "solution_text": "The whole-number factors of 49 are 1 , 7 , and 49 .",
+      "keywords": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k",
+        "understanding_odd_and_even_numbers"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "640",
+        "queId": "7ac01a3bb1194ff7b78925d0d02f7485",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "47"
+          },
+          {
+            "label": "B",
+            "content": "48"
+          },
+          {
+            "label": "C",
+            "content": "49"
+          },
+          {
+            "label": "D",
+            "content": "50"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Odd and Even Numbers->Understanding Odd and Even Numbers"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00261",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 261,
+      "split": "en_train",
+      "source_problem_id": "68d281debfa344ca90d42e8daaf20953"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following number is a multiple of $9$?\n(A) 234\n(B) 136\n(C) 256\n(D) 418",
+      "problem_plain": "Which of the following number is a multiple of 9 ? (A) 234 (B) 136 (C) 256 (D) 418",
+      "solution_latex": "$2+3+4=9$, so $234$ is divisible by 9.",
+      "solution_plain": "2+3+4=9 , so 234 is divisible by 9."
+    },
+    "answer": {
+      "final_raw": "234",
+      "final_normalized": "234",
+      "candidates": [
+        "234",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$2+3+4=9$, so $234$ is divisible by 9."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following number is a multiple of 9 ? (A) 234 (B) 136 (C) 256 (D) 418",
+      "solution_text": "2+3+4=9 , so 234 is divisible by 9.",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "670",
+        "queId": "68d281debfa344ca90d42e8daaf20953",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "234"
+          },
+          {
+            "label": "B",
+            "content": "136"
+          },
+          {
+            "label": "C",
+            "content": "256"
+          },
+          {
+            "label": "D",
+            "content": "418"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00265",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 265,
+      "split": "en_train",
+      "source_problem_id": "454bba4a33824efab618378ac8426ce0"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A two-digit prime number is still prime when the digits of its first and tenth digits are exchanged. There are  such prime numbers.\n(A) 6\n(B) 7\n(C) 8\n(D) 9\n(E) 10",
+      "problem_plain": "A two-digit prime number is still prime when the digits of its first and tenth digits are exchanged. There are such prime numbers. (A) 6 (B) 7 (C) 8 (D) 9 (E) 10",
+      "solution_latex": "$$11$$，$$13$$，$$17$$，$$31$$，$$37$$，$$71$$，$$73$$，$$79$$，$$97$$．",
+      "solution_plain": "11 ， 13 ， 17 ， 31 ， 37 ， 71 ， 73 ， 79 ， 97 ．"
+    },
+    "answer": {
+      "final_raw": "9",
+      "final_normalized": "9",
+      "candidates": [
+        "9",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$11$$，$$13$$，$$17$$，$$31$$，$$37$$，$$71$$，$$73$$，$$79$$，$$97$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A two-digit prime number is still prime when the digits of its first and tenth digits are exchanged. There are such prime numbers. (A) 6 (B) 7 (C) 8 (D) 9 (E) 10",
+      "solution_text": "11 ， 13 ， 17 ， 31 ， 37 ， 71 ， 73 ， 79 ， 97 ．",
+      "keywords": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "677",
+        "queId": "454bba4a33824efab618378ac8426ce0",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "7"
+          },
+          {
+            "label": "C",
+            "content": "8"
+          },
+          {
+            "label": "D",
+            "content": "9"
+          },
+          {
+            "label": "E",
+            "content": "10"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00268",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 268,
+      "split": "en_train",
+      "source_problem_id": "9ec72666d4f5427bb1ae52f1facdc562"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following cases can\\textquotesingle t make an even number?\n(A) An odd number$$+$$An even number\n(B) An even number$$+$$An even number\n(C) An odd number$$+$$An odd number",
+      "problem_plain": "Which of the following cases can t make an even number? (A) An odd number + An even number (B) An even number + An even number (C) An odd number + An odd number",
+      "solution_latex": "The sum of an odd number and an even number is always an odd~ number. The sum of two numbers which are both even or both odd is always an even number.",
+      "solution_plain": "The sum of an odd number and an even number is always an odd~ number. The sum of two numbers which are both even or both odd is always an even number."
+    },
+    "answer": {
+      "final_raw": "An odd number$$+$$An even number",
+      "final_normalized": "An odd number$$+$$An even number",
+      "candidates": [
+        "A",
+        "An odd number$$+$$An even number"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "multiplication_rules_of_odd_and_even_numbers",
+        "number_theory_modules",
+        "odd_and_even_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "level_1",
+        "multiplication_rules_of_odd_and_even_numbers",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "The sum of an odd number and an even number is always an odd~ number.",
+        "The sum of two numbers which are both even or both odd is always an even number."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following cases can t make an even number? (A) An odd number + An even number (B) An even number + An even number (C) An odd number + An odd number",
+      "solution_text": "The sum of an odd number and an even number is always an odd~ number. The sum of two numbers which are both even or both odd is always an even number.",
+      "keywords": [
+        "en",
+        "en_train",
+        "level_1",
+        "multiplication_rules_of_odd_and_even_numbers",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "687",
+        "queId": "9ec72666d4f5427bb1ae52f1facdc562",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "An odd number$$+$$An even number"
+          },
+          {
+            "label": "B",
+            "content": "An even number$$+$$An even number"
+          },
+          {
+            "label": "C",
+            "content": "An odd number$$+$$An odd number"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Odd and Even Numbers->Multiplication Rules of Odd and Even Numbers"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00285",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 285,
+      "split": "en_train",
+      "source_problem_id": "9a54586b8cc94a149968bab4a6f05882"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following has an odd number of whole-number factors?\n(A) 47\n(B) 48\n(C) 49\n(D) 50",
+      "problem_plain": "Which of the following has an odd number of whole-number factors? (A) 47 (B) 48 (C) 49 (D) 50",
+      "solution_latex": "The whole-number factors of $$49$$ are $$1$$, $$7$$, and $$49$$.",
+      "solution_plain": "The whole-number factors of 49 are 1 , 7 , and 49 ."
+    },
+    "answer": {
+      "final_raw": "49",
+      "final_normalized": "49",
+      "candidates": [
+        "49",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "understanding_odd_and_even_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k",
+        "understanding_odd_and_even_numbers"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "The whole-number factors of $$49$$ are $$1$$, $$7$$, and $$49$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following has an odd number of whole-number factors? (A) 47 (B) 48 (C) 49 (D) 50",
+      "solution_text": "The whole-number factors of 49 are 1 , 7 , and 49 .",
+      "keywords": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k",
+        "understanding_odd_and_even_numbers"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "723",
+        "queId": "9a54586b8cc94a149968bab4a6f05882",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "47"
+          },
+          {
+            "label": "B",
+            "content": "48"
+          },
+          {
+            "label": "C",
+            "content": "49"
+          },
+          {
+            "label": "D",
+            "content": "50"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Odd and Even Numbers->Understanding Odd and Even Numbers"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00308",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 308,
+      "split": "en_train",
+      "source_problem_id": "fb2116a38e1d43b4b0d4112385fbfc78"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Fill in the blank:~\\uline{~~~~~~~~~~}~is $$4$$ tens $$5$$ ones greater than $$2$$ tens $$7$$ ones.\n(A) 18\n(B) 28\n(C) 62\n(D) 72\n(E) None of the above",
+      "problem_plain": "Fill in the blank:~ ~~~~~~~~~~ ~is 4 tens 5 ones greater than 2 tens 7 ones. (A) 18 (B) 28 (C) 62 (D) 72 (E) None of the above",
+      "solution_latex": "$$4$$ tens $$5$$ ones: $$45$$  $$2$$ tens $$7$$ ones: $$27$$  Greater than: $$45 + 27 = 72$$",
+      "solution_plain": "4 tens 5 ones: 45 2 tens 7 ones: 27 Greater than: 45 + 27 = 72"
+    },
+    "answer": {
+      "final_raw": "72",
+      "final_normalized": "72",
+      "candidates": [
+        "72",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$4$$ tens $$5$$ ones: $$45$$  $$2$$ tens $$7$$ ones: $$27$$  Greater than: $$45 + 27 = 72$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Fill in the blank:~ ~~~~~~~~~~ ~is 4 tens 5 ones greater than 2 tens 7 ones. (A) 18 (B) 28 (C) 62 (D) 72 (E) None of the above",
+      "solution_text": "4 tens 5 ones: 45 2 tens 7 ones: 27 Greater than: 45 + 27 = 72",
+      "keywords": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "781",
+        "queId": "fb2116a38e1d43b4b0d4112385fbfc78",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "18"
+          },
+          {
+            "label": "B",
+            "content": "28"
+          },
+          {
+            "label": "C",
+            "content": "62"
+          },
+          {
+            "label": "D",
+            "content": "72"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00313",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 313,
+      "split": "en_train",
+      "source_problem_id": "57ef80c87c11442c8e95d5e2e44b702b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "An unknown number is an odd number greater than $$50$$ but less than $$100$$. The number is a multiple of $$3$$ and $$7$$. What is the value of the unknown number?\n(A) 63\n(B) 77\n(C) 84\n(D) 91\n(E) None of the above",
+      "problem_plain": "An unknown number is an odd number greater than 50 but less than 100 . The number is a multiple of 3 and 7 . What is the value of the unknown number? (A) 63 (B) 77 (C) 84 (D) 91 (E) None of the above",
+      "solution_latex": "A multiple of $$3$$ and $$7$$ also a multiple of $$21$$  $$21\\times3=63$$  $$21\\times4=even$$  $$21\\times5=105$$, exceed  Thus, only $$63$$",
+      "solution_plain": "A multiple of 3 and 7 also a multiple of 21 21 3=63 21 4=even 21 5=105 , exceed Thus, only 63"
+    },
+    "answer": {
+      "final_raw": "63",
+      "final_normalized": "63",
+      "candidates": [
+        "63",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "common_factors_and_common_multiples",
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "common_factors_and_common_multiples",
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "A multiple of $$3$$ and $$7$$ also a multiple of $$21$$  $$21\\times3=63$$  $$21\\times4=even$$  $$21\\times5=105$$, exceed  Thus, only $$63$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "An unknown number is an odd number greater than 50 but less than 100 . The number is a multiple of 3 and 7 . What is the value of the unknown number? (A) 63 (B) 77 (C) 84 (D) 91 (E) None of the above",
+      "solution_text": "A multiple of 3 and 7 also a multiple of 21 21 3=63 21 4=even 21 5=105 , exceed Thus, only 63",
+      "keywords": [
+        "common_factors_and_common_multiples",
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "798",
+        "queId": "57ef80c87c11442c8e95d5e2e44b702b",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "63"
+          },
+          {
+            "label": "B",
+            "content": "77"
+          },
+          {
+            "label": "C",
+            "content": "84"
+          },
+          {
+            "label": "D",
+            "content": "91"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples->Common Factors and Common Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00328",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 328,
+      "split": "en_train",
+      "source_problem_id": "65d98809332c4aec8056d40cdc5c7f30"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following is a factor of $30$ ?\n(A) 6\n(B) 7\n(C) 8\n(D) 9",
+      "problem_plain": "Which of the following is a factor of 30 ? (A) 6 (B) 7 (C) 8 (D) 9",
+      "solution_latex": "$30=5 \\times 6$.",
+      "solution_plain": "30=5 6 ."
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$30=5 \\times 6$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following is a factor of 30 ? (A) 6 (B) 7 (C) 8 (D) 9",
+      "solution_text": "30=5 6 .",
+      "keywords": [
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "850",
+        "queId": "65d98809332c4aec8056d40cdc5c7f30",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "7"
+          },
+          {
+            "label": "C",
+            "content": "8"
+          },
+          {
+            "label": "D",
+            "content": "9"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00366",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 366,
+      "split": "en_train",
+      "source_problem_id": "f2678528cfbd417698a5fef343f9ab60"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following is not a multiple of $12$?\n(A) 24\n(B) 32\n(C) 36\n(D) 48",
+      "problem_plain": "Which of the following is not a multiple of 12 ? (A) 24 (B) 32 (C) 36 (D) 48",
+      "solution_latex": "$32$ can not be divided by $12$.",
+      "solution_plain": "32 can not be divided by 12 ."
+    },
+    "answer": {
+      "final_raw": "32",
+      "final_normalized": "32",
+      "candidates": [
+        "32",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$32$ can not be divided by $12$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following is not a multiple of 12 ? (A) 24 (B) 32 (C) 36 (D) 48",
+      "solution_text": "32 can not be divided by 12 .",
+      "keywords": [
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "949",
+        "queId": "f2678528cfbd417698a5fef343f9ab60",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "24"
+          },
+          {
+            "label": "B",
+            "content": "32"
+          },
+          {
+            "label": "C",
+            "content": "36"
+          },
+          {
+            "label": "D",
+            "content": "48"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00372",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 372,
+      "split": "en_train",
+      "source_problem_id": "cdcae6fd83f0446cbd240e1c8f4c344d"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the number between $$37$$ and $$49$$ is exactly divisible by both $$3$$ and $$4$$?\n(A) 39\n(B) 40\n(C) 42\n(D) 45\n(E) 48",
+      "problem_plain": "What is the number between 37 and 49 is exactly divisible by both 3 and 4 ? (A) 39 (B) 40 (C) 42 (D) 45 (E) 48",
+      "solution_latex": "Common multiple of $$12$$.",
+      "solution_plain": "Common multiple of 12 ."
+    },
+    "answer": {
+      "final_raw": "48",
+      "final_normalized": "48",
+      "candidates": [
+        "48",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Common multiple of $$12$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the number between 37 and 49 is exactly divisible by both 3 and 4 ? (A) 39 (B) 40 (C) 42 (D) 45 (E) 48",
+      "solution_text": "Common multiple of 12 .",
+      "keywords": [
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "966",
+        "queId": "cdcae6fd83f0446cbd240e1c8f4c344d",
+        "difficulty": "0",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "39"
+          },
+          {
+            "label": "B",
+            "content": "40"
+          },
+          {
+            "label": "C",
+            "content": "42"
+          },
+          {
+            "label": "D",
+            "content": "45"
+          },
+          {
+            "label": "E",
+            "content": "48"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00378",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 378,
+      "split": "en_train",
+      "source_problem_id": "e01cab5de3724f4c88c3c25501af312a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the total value of all the odd numbers between $$34$$ and $$42$$?\n(A) 35\n(B) 72\n(C) 111\n(D) 152\n(E) None of the above",
+      "problem_plain": "What is the total value of all the odd numbers between 34 and 42 ? (A) 35 (B) 72 (C) 111 (D) 152 (E) None of the above",
+      "solution_latex": "$$35+37+39+41=152$$",
+      "solution_plain": "35+37+39+41=152"
+    },
+    "answer": {
+      "final_raw": "152",
+      "final_normalized": "152",
+      "candidates": [
+        "152",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "understanding_odd_and_even_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k",
+        "understanding_odd_and_even_numbers"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$35+37+39+41=152$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the total value of all the odd numbers between 34 and 42 ? (A) 35 (B) 72 (C) 111 (D) 152 (E) None of the above",
+      "solution_text": "35+37+39+41=152",
+      "keywords": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k",
+        "understanding_odd_and_even_numbers"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "976",
+        "queId": "e01cab5de3724f4c88c3c25501af312a",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "35"
+          },
+          {
+            "label": "B",
+            "content": "72"
+          },
+          {
+            "label": "C",
+            "content": "111"
+          },
+          {
+            "label": "D",
+            "content": "152"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Odd and Even Numbers->Understanding Odd and Even Numbers"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00408",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 408,
+      "split": "en_train",
+      "source_problem_id": "bc528659dd6041b5a314e2a4022df617"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The greatest common factor is smallest for which of the following pairs of numbers?\n(A) 4$$ \\& $$18\n(B) 5$$ \\&~$$25\n(C) 6$$ \\&~$$33\n(D) 8$$ \\&~$$35",
+      "problem_plain": "The greatest common factor is smallest for which of the following pairs of numbers? (A) 4 & 18 (B) 5 &~ 25 (C) 6 &~ 33 (D) 8 &~ 35",
+      "solution_latex": "The greatest common factors of the $$4$$ pairs of numbers are $$2$$, $$5$$, $$3$$, and $$1$$, respectively.",
+      "solution_plain": "The greatest common factors of the 4 pairs of numbers are 2 , 5 , 3 , and 1 , respectively."
+    },
+    "answer": {
+      "final_raw": "8$$ \\&~$$35",
+      "final_normalized": "8$$ \\&~$$35",
+      "candidates": [
+        "8$$ \\&~$$35",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_concepts_of_factors_and_multiples",
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "basic_concepts_of_factors_and_multiples",
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "The greatest common factors of the $$4$$ pairs of numbers are $$2$$, $$5$$, $$3$$, and $$1$$, respectively."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The greatest common factor is smallest for which of the following pairs of numbers? (A) 4 & 18 (B) 5 &~ 25 (C) 6 &~ 33 (D) 8 &~ 35",
+      "solution_text": "The greatest common factors of the 4 pairs of numbers are 2 , 5 , 3 , and 1 , respectively.",
+      "keywords": [
+        "basic_concepts_of_factors_and_multiples",
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1069",
+        "queId": "bc528659dd6041b5a314e2a4022df617",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4$$ \\& $$18"
+          },
+          {
+            "label": "B",
+            "content": "5$$ \\&~$$25"
+          },
+          {
+            "label": "C",
+            "content": "6$$ \\&~$$33"
+          },
+          {
+            "label": "D",
+            "content": "8$$ \\&~$$35"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples->Basic Concepts of Factors and Multiples"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00410",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 410,
+      "split": "en_train",
+      "source_problem_id": "e53cd823fbfe4c2983ee4844678ac72b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A two-digit prime number is still a prime number when its first and tenth digits are exchanged. There aresuch prime numbers.\n(A) 6\n(B) 7\n(C) 8\n(D) 9\n(E) 10",
+      "problem_plain": "A two-digit prime number is still a prime number when its first and tenth digits are exchanged. There aresuch prime numbers. (A) 6 (B) 7 (C) 8 (D) 9 (E) 10",
+      "solution_latex": "$$11$$，$$13$$，$$17$$，$$31$$，$$37$$，$$71$$，$$73$$，$$79$$，$$97$$．",
+      "solution_plain": "11 ， 13 ， 17 ， 31 ， 37 ， 71 ， 73 ， 79 ， 97 ．"
+    },
+    "answer": {
+      "final_raw": "9",
+      "final_normalized": "9",
+      "candidates": [
+        "9",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$11$$，$$13$$，$$17$$，$$31$$，$$37$$，$$71$$，$$73$$，$$79$$，$$97$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A two-digit prime number is still a prime number when its first and tenth digits are exchanged. There aresuch prime numbers. (A) 6 (B) 7 (C) 8 (D) 9 (E) 10",
+      "solution_text": "11 ， 13 ， 17 ， 31 ， 37 ， 71 ， 73 ， 79 ， 97 ．",
+      "keywords": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1079",
+        "queId": "e53cd823fbfe4c2983ee4844678ac72b",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "7"
+          },
+          {
+            "label": "C",
+            "content": "8"
+          },
+          {
+            "label": "D",
+            "content": "9"
+          },
+          {
+            "label": "E",
+            "content": "10"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00440",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 440,
+      "split": "en_train",
+      "source_problem_id": "dcbdd91f061745bebdfaacf9a0f387cb"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The greatest common factor of $$23$$ and $$24$$ is．\n(A) 20\n(B) 12\n(C) 2\n(D) 1",
+      "problem_plain": "The greatest common factor of 23 and 24 is． (A) 20 (B) 12 (C) 2 (D) 1",
+      "solution_latex": "The only common factor of any two consecutive whole numbers is $$1$$.",
+      "solution_plain": "The only common factor of any two consecutive whole numbers is 1 ."
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "common_factors_and_common_multiples",
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "common_factors_and_common_multiples",
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "The only common factor of any two consecutive whole numbers is $$1$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The greatest common factor of 23 and 24 is． (A) 20 (B) 12 (C) 2 (D) 1",
+      "solution_text": "The only common factor of any two consecutive whole numbers is 1 .",
+      "keywords": [
+        "common_factors_and_common_multiples",
+        "en",
+        "en_train",
+        "factors_and_multiples",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1161",
+        "queId": "dcbdd91f061745bebdfaacf9a0f387cb",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "20"
+          },
+          {
+            "label": "B",
+            "content": "12"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "1"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples->Common Factors and Common Multiples"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00450",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 450,
+      "split": "en_train",
+      "source_problem_id": "cb0291b682974c899411cce6b762942a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following is not a composite number?\n(A) 45\n(B) 47\n(C) 49\n(D) 51",
+      "problem_plain": "Which of the following is not a composite number? (A) 45 (B) 47 (C) 49 (D) 51",
+      "solution_latex": "$47$ is a prime number.",
+      "solution_plain": "47 is a prime number."
+    },
+    "answer": {
+      "final_raw": "47",
+      "final_normalized": "47",
+      "candidates": [
+        "47",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "prime_and_composite_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$47$ is a prime number."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following is not a composite number? (A) 45 (B) 47 (C) 49 (D) 51",
+      "solution_text": "47 is a prime number.",
+      "keywords": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1187",
+        "queId": "cb0291b682974c899411cce6b762942a",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "45"
+          },
+          {
+            "label": "B",
+            "content": "47"
+          },
+          {
+            "label": "C",
+            "content": "49"
+          },
+          {
+            "label": "D",
+            "content": "51"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime and Composite Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00463",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 463,
+      "split": "en_train",
+      "source_problem_id": "c6e1baf21dbb470ebeb08c54b17fbbd0"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many numbers listed below are positive?  $$23$$, $$32$$, $$-56$$, $$-98$$, $$7$$\n(A) 0\n(B) 1\n(C) 2\n(D) 3",
+      "problem_plain": "How many numbers listed below are positive? 23 , 32 , -56 , -98 , 7 (A) 0 (B) 1 (C) 2 (D) 3",
+      "solution_latex": "$$23$$, $$32$$, and $$7$$ are positive; $$-56$$, $$-98$$ are negative.",
+      "solution_plain": "23 , 32 , and 7 are positive; -56 , -98 are negative."
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$23$$, $$32$$, and $$7$$ are positive; $$-56$$, $$-98$$ are negative."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many numbers listed below are positive? 23 , 32 , -56 , -98 , 7 (A) 0 (B) 1 (C) 2 (D) 3",
+      "solution_text": "23 , 32 , and 7 are positive; -56 , -98 are negative.",
+      "keywords": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1213",
+        "queId": "c6e1baf21dbb470ebeb08c54b17fbbd0",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Place Value and Number Bases->Numbers"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:number_theory:level_1:00474",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 474,
+      "split": "en_train",
+      "source_problem_id": "f04c4a3226374614ac0de3892acb8ee9"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following is an even number?\n(A) 321\n(B) 489\n(C) 644\n(D) 25",
+      "problem_plain": "Which of the following is an even number? (A) 321 (B) 489 (C) 644 (D) 25",
+      "solution_latex": "even numbers end with 0,2,4,6,8",
+      "solution_plain": "even numbers end with 0,2,4,6,8"
+    },
+    "answer": {
+      "final_raw": "644",
+      "final_normalized": "644",
+      "candidates": [
+        "644",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "number_theory_modules",
+        "odd_and_even_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "even numbers end with 0,2,4,6,8"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following is an even number? (A) 321 (B) 489 (C) 644 (D) 25",
+      "solution_text": "even numbers end with 0,2,4,6,8",
+      "keywords": [
+        "en",
+        "en_train",
+        "level_1",
+        "number_theory",
+        "number_theory_modules",
+        "odd_and_even_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1243",
+        "queId": "f04c4a3226374614ac0de3892acb8ee9",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "321"
+          },
+          {
+            "label": "B",
+            "content": "489"
+          },
+          {
+            "label": "C",
+            "content": "644"
+          },
+          {
+            "label": "D",
+            "content": "25"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Odd and Even Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  }
+]

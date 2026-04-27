@@ -1,0 +1,1367 @@
+{
+  "schema_version": "coco_app_batch_after_fix.v1",
+  "batch_index": 11,
+  "band": "초등",
+  "offset": 100,
+  "doc_ids": [
+    "autobank__elementary_g06_001__1f549954",
+    "autobank__elementary_g06_002__fbe352bb",
+    "autobank__elementary_g06_003__11be0c76",
+    "autobank__elementary_g06_004__19e63cd1",
+    "autobank__elementary_g06_005__da235262",
+    "autobank__elementary_g06_006__cbb10458",
+    "autobank__elementary_g06_007__8f09f0c8",
+    "autobank__elementary_g06_008__aa5dbbca",
+    "autobank__elementary_g06_009__dcca2bb3",
+    "autobank__elementary_g06_010__86560fae"
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "error": 0,
+    "by_band": {
+      "초등": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "error": 0
+      }
+    },
+    "by_topic": {
+      "fraction_ratio": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      },
+      "function": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "geometry": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      },
+      "statistics": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      }
+    }
+  },
+  "card_issue_count": 0,
+  "card_issues": [],
+  "state_issue": null,
+  "results": [
+    {
+      "case_id": "elementary_g06_001",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "fraction_ratio",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/수와 연산/분수·소수의 나눗셈/elementary_g06_001_easy_expression_fraction_ratio.png",
+      "expected_answer": "7/8",
+      "expected_expression": "1/2+3/8",
+      "computed_answer": "7/8",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "1/2 + 3/8",
+      "recognized_expressions": [
+        "1/2 + 3/8"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.428,
+      "analysis": {
+        "analysis_started_at": 1777119492.498044,
+        "analysis_finished_at": 1777119492.9263842,
+        "structured_problem": {
+          "source_text_candidates": [
+            ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n1/2 + 3/8\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 expression ㆍ fraction",
+            ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n1/2 + 3/8\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 expression ㆍ fraction"
+          ],
+          "normalized_problem_text": "1/2 + 3/8",
+          "expressions": [
+            "1/2 + 3/8"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/수와 연산/분수·소수의 나눗셈/elementary_g06_001_easy_expression_fraction_ratio.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n다음 분수 ALS 하시오.\n1/2 + 3/8",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 expression ㆍ fraction\n다음 분수 AAS 하시오.\n1/2 + 3/8",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n다음 분수 ALS 하시오.\n1/2 + 3/8",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "593958baf93b"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "7/8",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 7/8야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 7/8야. 그래서 정답은 7/8야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n1/2 + 3/8\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 expression ㆍ fraction",
+            "content_text": ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n1/2 + 3/8\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 expression ㆍ fraction",
+            "repaired_text": "",
+            "expressions": [
+              "1/2 + 3/8"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "7/8",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_001__1f549954"
+    },
+    {
+      "case_id": "elementary_g06_002",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/도형과 측정/원과 입체도형/elementary_g06_002_easy_word_geometry.png",
+      "expected_answer": "99",
+      "expected_expression": "11*9",
+      "computed_answer": "99",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "이 밭의 넓이를 구하시오. 30",
+      "recognized_expressions": [
+        "11*9",
+        "rectangle_width 11rectangle_height 9rectangle_area 11*9"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.719,
+      "analysis": {
+        "analysis_started_at": 1777119492.926959,
+        "analysis_finished_at": 1777119493.646421,
+        "structured_problem": {
+          "source_text_candidates": [
+            ". 초등 6학년 ㆍ원과 입체도형 ㆍ기본 word - geometry\n가로가 11 07, 세로가 9cme! 직사각형 모양 받이\n이 밭의 넓이를 구하시오. em\n11007\n초등 6학년ㆍ원과 입체도형ㆍ기본 word - geometry\n가로가 11cm, 세로가 9cme! 직사각형 모양 받이\n이 밭의 넓이를 구하시오. 30\n11cm\nrectangle_width 11rectangle_height 9rectangle_area 11*9",
+            ". 초등 6학년 ㆍ원과 입체도형 ㆍ기본 word - geometry\n가로가 11 07, 세로가 9cme! 직사각형 모양 받이\n이 밭의 넓이를 구하시오. em\n11007\n초등 6학년ㆍ원과 입체도형ㆍ기본 word - geometry\n가로가 11cm, 세로가 9cme! 직사각형 모양 받이\n이 밭의 넓이를 구하시오. 30\n11cm\nrectangle_width 11rectangle_height 9rectangle_area 11*9"
+          ],
+          "normalized_problem_text": "이 밭의 넓이를 구하시오. 30",
+          "expressions": [
+            "11*9",
+            "rectangle_width 11rectangle_height 9rectangle_area 11*9"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/도형과 측정/원과 입체도형/elementary_g06_002_easy_word_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": ". 초등 6학년 ㆍ원과 입체도형 ㆍ기본 word - geometry\n가로가 11 07, 세로가 9cme! 직사각형 모양 받이\n있습니다. |\n이 밭의 넓이를 구하시오. em\n11007",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ원과 입체도형ㆍ기본 word - geometry\n가로가 11cm, 세로가 9cme! 직사각형 모양 받이\n있습니다. _」、\n이 밭의 넓이를 구하시오. 30\n11cm",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ". 초등 6학년 ㆍ원과 입체도형 ㆍ기본 word - geometry\n가로가 11 07, 세로가 9cme! 직사각형 모양 받이\n있습니다. |\n이 밭의 넓이를 구하시오. em\n11007",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "geometry_metric_reader",
+                    "variant": "rectangle_metric",
+                    "psm": "geometry",
+                    "available": true,
+                    "text": "rectangle_width 11 rectangle_height 9 rectangle_area 11*9",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "af595708250a"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "99",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 99야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 도형이나 좌표 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 99야. 그래서 정답은 99야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": ". 초등 6학년 ㆍ원과 입체도형 ㆍ기본 word - geometry\n가로가 11 07, 세로가 9cme! 직사각형 모양 받이\n이 밭의 넓이를 구하시오. em\n11007\n초등 6학년ㆍ원과 입체도형ㆍ기본 word - geometry\n가로가 11cm, 세로가 9cme! 직사각형 모양 받이\n이 밭의 넓이를 구하시오. 30\n11cm\nrectangle_width 11rectangle_height 9rectangle_area 11*9",
+            "content_text": ". 초등 6학년 ㆍ원과 입체도형 ㆍ기본 word - geometry\n가로가 11 07, 세로가 9cme! 직사각형 모양 받이\n이 밭의 넓이를 구하시오. em\n11007\n초등 6학년ㆍ원과 입체도형ㆍ기본 word - geometry\n가로가 11cm, 세로가 9cme! 직사각형 모양 받이\n이 밭의 넓이를 구하시오. 30\n11cm\nrectangle_width 11rectangle_height 9rectangle_area 11*9",
+            "repaired_text": "",
+            "expressions": [
+              "11*9",
+              "rectangle_width 11rectangle_height 9rectangle_area 11*9"
+            ],
+            "choices": [],
+            "math_topic": "geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "99",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_002__fbe352bb"
+    },
+    {
+      "case_id": "elementary_g06_003",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "function",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/변화와 관계/비례식과 비율/elementary_g06_003_easy_table_function.png",
+      "expected_answer": "6",
+      "expected_expression": "y=2x+ 2; x=2",
+      "computed_answer": "6",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "* = 2일 때 의 값을 구하시오",
+      "recognized_expressions": [
+        "answer=6",
+        "x=2"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.392,
+      "analysis": {
+        "analysis_started_at": 1777119493.647121,
+        "analysis_finished_at": 1777119495.038669,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 6학년 ㆍ비례식과 비율 ㆍ기본 table ㆍ function\n아래 표는 일차함수 / = ax + 『의 일부입니다.\nx = 2일 때 \\의 값을 구하시오.\n* 1 2 3 4\n4 6 8 10\n: 초등 6학년 ㆍ비례식과 비율 ㆍ 기본 table «function -\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 2일 때 의 값을 구하시오.\nyo 4Bt\ntable_row_1 1 2 3\ntable_row_2 4 6 8 10",
+            "초등 6학년 ㆍ비례식과 비율 ㆍ기본 table ㆍ function\n아래 표는 일차함수 / = ax + 『의 일부입니다.\nx = 2일 때 \\의 값을 구하시오.\n* 1 2 3 4\n4 6 8 10\n: 초등 6학년 ㆍ비례식과 비율 ㆍ 기본 table «function -\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 2일 때 의 값을 구하시오.\nyo 4Bt\ntable_row_1 1 2 3\ntable_row_2 4 6 8 10"
+          ],
+          "normalized_problem_text": "* = 2일 때 의 값을 구하시오",
+          "expressions": [
+            "answer=6",
+            "x=2"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "function",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/변화와 관계/비례식과 비율/elementary_g06_003_easy_table_function.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 6학년 ㆍ비례식과 비율 ㆍ기본 table ㆍ function\n아래 표는 일차함수 / = ax + 『의 일부입니다.\nx = 2일 때 \\의 값을 구하시오.\n* 1 2 3 4\n4 6 8 10",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년 ㆍ비례식과 비율 ㆍ기본 table ㆍ function\n아래 표는 일차함수 / = ax + 『의 일부입니다.\nx = 2일 때 \\의 값을 구하시오.\nyo iA et",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 6학년 ㆍ비례식과 비율 ㆍ기본 table ㆍ function\n아래 표는 일차함수 / = ax + 『의 일부입니다.\nx = 2일 때 \\의 값을 구하시오.\n* 1 2 3 4\n4 6 8 10",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ": 초등 6학년 ㆍ비례식과 비율 ㆍ 기본 table «function -\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 2일 때 의 값을 구하시오.\nyo 4Bt",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_1 1 2 3\ntable_row_2 4 6 8 10",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "f41c5925724e"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "6",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 6야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 함수 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 6야. 그래서 정답은 6야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 6학년 ㆍ비례식과 비율 ㆍ기본 table ㆍ function\n아래 표는 일차함수 / = ax + 『의 일부입니다.\nx = 2일 때 \\의 값을 구하시오.\n* 1 2 3 4\n4 6 8 10\n: 초등 6학년 ㆍ비례식과 비율 ㆍ 기본 table «function -\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 2일 때 의 값을 구하시오.\nyo 4Bt\ntable_row_1 1 2 3\ntable_row_2 4 6 8 10",
+            "content_text": "초등 6학년 ㆍ비례식과 비율 ㆍ기본 table ㆍ function\n아래 표는 일차함수 / = ax + 『의 일부입니다.\nx = 2일 때 \\의 값을 구하시오.\n* 1 2 3 4\n4 6 8 10\n: 초등 6학년 ㆍ비례식과 비율 ㆍ 기본 table «function -\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 2일 때 의 값을 구하시오.\nyo 4Bt\ntable_row_1 1 2 3\ntable_row_2 4 6 8 10",
+            "repaired_text": "",
+            "expressions": [
+              "answer=6",
+              "x=2"
+            ],
+            "choices": [],
+            "math_topic": "function",
+            "question_type": "subjective"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "6",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_003__11be0c76"
+    },
+    {
+      "case_id": "elementary_g06_004",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/자료와 가능성/여러 그래프와 가능성/elementary_g06_004_easy_expression_statistics.png",
+      "expected_answer": "416/5",
+      "expected_expression": "(97+97+71+91+60)/5",
+      "computed_answer": "416/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(97+97+71+91+60)/5",
+        "(97+71+91+60)/4"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.494,
+      "analysis": {
+        "analysis_started_at": 1777119495.0401988,
+        "analysis_finished_at": 1777119495.53427,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n97 97, 71, 91, 60\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression ㆍ statistics\n97 97 71, 91, 60",
+            "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n97 97, 71, 91, 60\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression ㆍ statistics\n97 97 71, 91, 60"
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(97+97+71+91+60)/5",
+            "(97+71+91+60)/4"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/자료와 가능성/여러 그래프와 가능성/elementary_g06_004_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n97 97, 71, 91, 60",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n97 97, 71, 91, 60",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression ㆍ statistics\n다음 자료의 평균을 구하시오.\n97 97 71, 91, 60",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "76343cf7609e"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "416/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 416/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 416/5야. 그래서 정답은 416/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n97 97, 71, 91, 60\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression ㆍ statistics\n97 97 71, 91, 60",
+            "content_text": "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n97 97, 71, 91, 60\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 expression ㆍ statistics\n97 97 71, 91, 60",
+            "repaired_text": "",
+            "expressions": [
+              "(97+97+71+91+60)/5",
+              "(97+71+91+60)/4"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "416/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_004__19e63cd1"
+    },
+    {
+      "case_id": "elementary_g06_005",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "fraction_ratio",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/수와 연산/분수·소수의 나눗셈/elementary_g06_005_easy_expression_fraction_ratio.png",
+      "expected_answer": "5/8",
+      "expected_expression": "1/4+3/8",
+      "computed_answer": "5/8",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "1/4 + 3/8",
+      "recognized_expressions": [
+        "1/4 + 3/8"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.427,
+      "analysis": {
+        "analysis_started_at": 1777119495.535219,
+        "analysis_finished_at": 1777119495.9618628,
+        "structured_problem": {
+          "source_text_candidates": [
+            ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n1/4 + 3/8\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 expression ㆍ fraction",
+            ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n1/4 + 3/8\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 expression ㆍ fraction"
+          ],
+          "normalized_problem_text": "1/4 + 3/8",
+          "expressions": [
+            "1/4 + 3/8"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/수와 연산/분수·소수의 나눗셈/elementary_g06_005_easy_expression_fraction_ratio.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n다음 분수 ALS 하시오.\n1/4 + 3/8",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 expression ㆍ fraction\n다음 분수 AAS 하시오.\n1/4 + 3/8",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n다음 분수 ALS 하시오.\n1/4 + 3/8",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "0eecf3b95eeb"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "5/8",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 5/8야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 5/8야. 그래서 정답은 5/8야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n1/4 + 3/8\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 expression ㆍ fraction",
+            "content_text": ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n1/4 + 3/8\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 expression ㆍ fraction",
+            "repaired_text": "",
+            "expressions": [
+              "1/4 + 3/8"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "5/8",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_005__da235262"
+    },
+    {
+      "case_id": "elementary_g06_006",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/도형과 측정/원과 입체도형/elementary_g06_006_easy_expression_geometry.png",
+      "expected_answer": "38",
+      "expected_expression": "28+10",
+      "computed_answer": "38",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "28 +10"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.436,
+      "analysis": {
+        "analysis_started_at": 1777119495.962508,
+        "analysis_finished_at": 1777119496.398282,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n28 +10\n초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr",
+            "| 초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n28 +10\n초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "28 +10"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/도형과 측정/원과 입체도형/elementary_g06_006_easy_expression_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n28 +10",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n28 +10",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n28 +10",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "de06a6215c78"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "38",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 38야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 도형이나 좌표 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 38야. 그래서 정답은 38야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n28 +10\n초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr",
+            "content_text": "| 초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n28 +10\n초등 6학년ㆍ원과 입체도형ㆍ기본 expression ㆍ geometr",
+            "repaired_text": "",
+            "expressions": [
+              "28 +10"
+            ],
+            "choices": [],
+            "math_topic": "geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "38",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_006__cbb10458"
+    },
+    {
+      "case_id": "elementary_g06_007",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "function",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/변화와 관계/비례식과 비율/elementary_g06_007_easy_word_function.png",
+      "expected_answer": "12",
+      "expected_expression": "y=4x+ 8;x=1",
+      "computed_answer": "12",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "function_value_solver",
+      "recognized_problem": "*=1일 때 전체 개수를 식 / = 4x + 8로 구하시오",
+      "recognized_expressions": [
+        "y=4x+8",
+        "x=1"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.577,
+      "analysis": {
+        "analysis_started_at": 1777119496.3990028,
+        "analysis_finished_at": 1777119496.975649,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 6학년 ㆍ비례식과 비율 ㆍ기본 word ㆍ1400000\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 8개가 더 Qi\n*=1일 때 전체 개수를 식 / = 4x + 8로 구하시오.\n| 초등 6학년ㆍ비례식과 비율ㆍ기본 word - function ：\n한 묶음에 4개씩 들어 있는 물건이 xSS 있고, 날개 8개가 더 QW",
+            "초등 6학년 ㆍ비례식과 비율 ㆍ기본 word ㆍ1400000\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 8개가 더 Qi\n*=1일 때 전체 개수를 식 / = 4x + 8로 구하시오.\n| 초등 6학년ㆍ비례식과 비율ㆍ기본 word - function ：\n한 묶음에 4개씩 들어 있는 물건이 xSS 있고, 날개 8개가 더 QW"
+          ],
+          "normalized_problem_text": "*=1일 때 전체 개수를 식 / = 4x + 8로 구하시오",
+          "expressions": [
+            "y=4x+8",
+            "x=1"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "function",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/변화와 관계/비례식과 비율/elementary_g06_007_easy_word_function.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 6학년 ㆍ비례식과 비율 ㆍ기본 word ㆍ1400000\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 8개가 더 Qi\n*=1일 때 전체 개수를 식 / = 4x + 8로 구하시오.",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년 ㆍ비례식과 비율 ㆍ기본 word ㆍ1400000\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 8개가 더 Qi\n*=1일 때 전체 개수를 식 / = 4x + 8로 구하시오.",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 6학년ㆍ비례식과 비율ㆍ기본 word - function ：\n한 묶음에 4개씩 들어 있는 물건이 xSS 있고, 날개 8개가 더 QW\n*=1일 때 전체 개수를 식 / = 4x + 8로 구하시오.",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "e685ba176a69"
+          }
+        },
+        "solve_result": {
+          "solver_name": "function_value_solver",
+          "computed_answer": "12",
+          "steps": [
+            "함수식을 y=4*x+8 형태로 정리했어.",
+            "x=1을 대입했어.",
+            "y의 값은 12야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.83,
+          "validation_status": "verified",
+          "explanation": "이건 함수 문제야. 함수식을 y=4*x+8 형태로 정리했어. x=1을 대입했어. y의 값은 12야. 그래서 정답은 12야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 6학년 ㆍ비례식과 비율 ㆍ기본 word ㆍ1400000\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 8개가 더 Qi\n*=1일 때 전체 개수를 식 / = 4x + 8로 구하시오.\n| 초등 6학년ㆍ비례식과 비율ㆍ기본 word - function ：\n한 묶음에 4개씩 들어 있는 물건이 xSS 있고, 날개 8개가 더 QW",
+            "content_text": "초등 6학년 ㆍ비례식과 비율 ㆍ기본 word ㆍ1400000\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 8개가 더 Qi\n*=1일 때 전체 개수를 식 / = 4x + 8로 구하시오.\n| 초등 6학년ㆍ비례식과 비율ㆍ기본 word - function ：\n한 묶음에 4개씩 들어 있는 물건이 xSS 있고, 날개 8개가 더 QW",
+            "repaired_text": "",
+            "expressions": [
+              "y=4x+8",
+              "x=1"
+            ],
+            "choices": [],
+            "math_topic": "function",
+            "question_type": "subjective"
+          },
+          "solver_name": "function_value_solver",
+          "computed_answer": "12",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_007__8f09f0c8"
+    },
+    {
+      "case_id": "elementary_g06_008",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/자료와 가능성/여러 그래프와 가능성/elementary_g06_008_easy_table_statistics.png",
+      "expected_answer": "14",
+      "expected_expression": "36-22",
+      "computed_answer": "14",
+      "matched_choice": "",
+      "validation_status": "needs_review",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오",
+      "recognized_expressions": [
+        "36-22"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.444,
+      "analysis": {
+        "analysis_started_at": 1777119496.976848,
+        "analysis_finished_at": 1777119498.421264,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 table ㆍ statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n항목 ^ B 6 ㅁ\n값 36 31 22 31\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 table - statistics ：\ntable_row_2 36 31 22 31",
+            "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 table ㆍ statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n항목 ^ B 6 ㅁ\n값 36 31 22 31\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 table - statistics ：\ntable_row_2 36 31 22 31"
+          ],
+          "normalized_problem_text": "아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오",
+          "expressions": [
+            "36-22"
+          ],
+          "choices": [
+            "ㅁ 값 36 31 22 31\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 table - statistics ：\ntable_row_2 36 31 22 31"
+          ],
+          "question_type": "multiple_choice",
+          "math_topic": "coordinate_geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/자료와 가능성/여러 그래프와 가능성/elementary_g06_008_easy_table_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 table ㆍ statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n항목 ^ B 6 ㅁ\n값 36 31 22 31",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년 ㆍ여러 그래프와 가능성 ㆍ기본 table ㆍ statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\neC",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 table ㆍ statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n항목 ^ B 6 ㅁ\n값 36 31 22 31",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 table - statistics ：\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\nes ABC",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 36 31 22 31",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "41981160f877"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "14",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 14야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "needs_review",
+          "explanation": "이건 수학 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 14야. 그래서 정답은 14야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 table ㆍ statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n항목 ^ B 6 ㅁ\n값 36 31 22 31\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 table - statistics ：\ntable_row_2 36 31 22 31",
+            "content_text": "초등 6학년ㆍ여러 그래프와 가능성ㆍ기본 table ㆍ statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n항목 ^ B 6 ㅁ\n값 36 31 22 31\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 table - statistics ：\ntable_row_2 36 31 22 31",
+            "repaired_text": "",
+            "expressions": [
+              "36-22"
+            ],
+            "choices": [
+              "ㅁ 값 36 31 22 31\n： AS 6학년ㆍ여러 그래프와 가능성ㆍ기본 table - statistics ：\ntable_row_2 36 31 22 31"
+            ],
+            "math_topic": "coordinate_geometry",
+            "question_type": "multiple_choice"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "14",
+          "validation_status": "needs_review"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_008__aa5dbbca"
+    },
+    {
+      "case_id": "elementary_g06_009",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "fraction_ratio",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/수와 연산/분수·소수의 나눗셈/elementary_g06_009_easy_expression_fraction_ratio.png",
+      "expected_answer": "7/12",
+      "expected_expression": "1/6+5/12",
+      "computed_answer": "7/12",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "1/6 + 5/12",
+      "recognized_expressions": [
+        "1/6 + 5/12"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.45,
+      "analysis": {
+        "analysis_started_at": 1777119498.422051,
+        "analysis_finished_at": 1777119498.872138,
+        "structured_problem": {
+          "source_text_candidates": [
+            ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n1/6 + 5/12\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 expression ㆍ fraction",
+            ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n1/6 + 5/12\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 expression ㆍ fraction"
+          ],
+          "normalized_problem_text": "1/6 + 5/12",
+          "expressions": [
+            "1/6 + 5/12"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/수와 연산/분수·소수의 나눗셈/elementary_g06_009_easy_expression_fraction_ratio.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n다음 분수 ALS 하시오.\n1/6 + 5/12",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 expression ㆍ fraction\n다음 분수 AAS 하시오.\n1/6 + 5/12",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n다음 분수 ALS 하시오.\n1/6 + 5/12",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "5014771f965e"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "7/12",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 7/12야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 7/12야. 그래서 정답은 7/12야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n1/6 + 5/12\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 expression ㆍ fraction",
+            "content_text": ": 초등 6학년 ㆍ 분수-소수의 Ligeal ㆍ 기본 expression ㆍ fraction_\n1/6 + 5/12\n초등 6학년ㆍ분수ㆍ소수의 나늦셈ㆍ기본 expression ㆍ fraction",
+            "repaired_text": "",
+            "expressions": [
+              "1/6 + 5/12"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "7/12",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_009__dcca2bb3"
+    },
+    {
+      "case_id": "elementary_g06_010",
+      "band": "초등",
+      "grade": 6,
+      "difficulty": "easy",
+      "layout": "geometry",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/도형과 측정/원과 입체도형/elementary_g06_010_easy_geometry_geometry.png",
+      "expected_answer": "52",
+      "expected_expression": "13*4",
+      "computed_answer": "52",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "오른쪽 직사각형의 넓이를 구하시오",
+      "recognized_expressions": [
+        "13*4",
+        "rectangle_width 13rectangle_height 4rectangle_area 13*4"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.8,
+      "analysis": {
+        "analysis_started_at": 1777119498.872882,
+        "analysis_finished_at": 1777119499.673234,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 초등 6학년ㆍ원과 입체도형ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n13cm\n초등 6학년ㆍ원과 입체도형ㆍ기본 geometry « geometry\n초등 6학년 ㆍ원과 입체도형 ㆍ기본 Beometry ㆍ geometry\n4 07\nrectangle_width 13rectangle_height 4rectangle_area 13*4",
+            "| 초등 6학년ㆍ원과 입체도형ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n13cm\n초등 6학년ㆍ원과 입체도형ㆍ기본 geometry « geometry\n초등 6학년 ㆍ원과 입체도형 ㆍ기본 Beometry ㆍ geometry\n4 07\nrectangle_width 13rectangle_height 4rectangle_area 13*4"
+          ],
+          "normalized_problem_text": "오른쪽 직사각형의 넓이를 구하시오",
+          "expressions": [
+            "13*4",
+            "rectangle_width 13rectangle_height 4rectangle_area 13*4"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/6학년/도형과 측정/원과 입체도형/elementary_g06_010_easy_geometry_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 초등 6학년ㆍ원과 입체도형ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n| 더\n13cm",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 6학년ㆍ원과 입체도형ㆍ기본 geometry « geometry\n오른쪽 직사각형의 넓이를 구하시오.\n| | 더\n13cm",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 6학년 ㆍ원과 입체도형 ㆍ기본 Beometry ㆍ geometry\n오른쪽 직사각형의 넓이를 구하시오.\n4 07\n13cm",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 6학년ㆍ원과 입체도형ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n| 더\n13cm",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "geometry_metric_reader",
+                    "variant": "rectangle_metric",
+                    "psm": "geometry",
+                    "available": true,
+                    "text": "rectangle_width 13 rectangle_height 4 rectangle_area 13*4",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "a1fe87db1a96"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "52",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 52야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 도형이나 좌표 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 52야. 그래서 정답은 52야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 초등 6학년ㆍ원과 입체도형ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n13cm\n초등 6학년ㆍ원과 입체도형ㆍ기본 geometry « geometry\n초등 6학년 ㆍ원과 입체도형 ㆍ기본 Beometry ㆍ geometry\n4 07\nrectangle_width 13rectangle_height 4rectangle_area 13*4",
+            "content_text": "| 초등 6학년ㆍ원과 입체도형ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n13cm\n초등 6학년ㆍ원과 입체도형ㆍ기본 geometry « geometry\n초등 6학년 ㆍ원과 입체도형 ㆍ기본 Beometry ㆍ geometry\n4 07\nrectangle_width 13rectangle_height 4rectangle_area 13*4",
+            "repaired_text": "",
+            "expressions": [
+              "13*4",
+              "rectangle_width 13rectangle_height 4rectangle_area 13*4"
+            ],
+            "choices": [],
+            "math_topic": "geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "52",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g06_010__86560fae"
+    }
+  ]
+}

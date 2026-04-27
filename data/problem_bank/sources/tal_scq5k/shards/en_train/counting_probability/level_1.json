@@ -1,0 +1,5124 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00519",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 519,
+      "split": "en_train",
+      "source_problem_id": "a1f027b73aee480abb4342a10b3a9c6b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Amy picks some number cards as shown below:  $13, 20, 14, 15, 19, 20, 20, 19, 19, 15, 19, 19, 20, 13, 15$.  What is the difference between their mode and median?\n(A) 0\n(B) 1\n(C) 2\n(D) 19\n(E) 20",
+      "problem_plain": "Amy picks some number cards as shown below: 13, 20, 14, 15, 19, 20, 20, 19, 19, 15, 19, 19, 20, 13, 15 . What is the difference between their mode and median? (A) 0 (B) 1 (C) 2 (D) 19 (E) 20",
+      "solution_latex": "She picks two $13$s, one $14$, three $15$s, five $19$s, and four $20$s.  The mode is $19.$  The median is $19.$  Thus, their difference should be $0.$",
+      "solution_plain": "She picks two 13 s, one 14 , three 15 s, five 19 s, and four 20 s. The mode is 19. The median is 19. Thus, their difference should be 0."
+    },
+    "answer": {
+      "final_raw": "0",
+      "final_normalized": "0",
+      "candidates": [
+        "0",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "statistics_and_probability"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "She picks two $13$s, one $14$, three $15$s, five $19$s, and four $20$s.",
+        "The mode is $19.$  The median is $19.$  Thus, their difference should be $0.$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Amy picks some number cards as shown below: 13, 20, 14, 15, 19, 20, 20, 19, 19, 15, 19, 19, 20, 13, 15 . What is the difference between their mode and median? (A) 0 (B) 1 (C) 2 (D) 19 (E) 20",
+      "solution_text": "She picks two 13 s, one 14 , three 15 s, five 19 s, and four 20 s. The mode is 19. The median is 19. Thus, their difference should be 0.",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1356",
+        "queId": "a1f027b73aee480abb4342a10b3a9c6b",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "19"
+          },
+          {
+            "label": "E",
+            "content": "20"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Statistics and Probability"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00543",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 543,
+      "split": "en_train",
+      "source_problem_id": "1d05c438ac4040049c28585c96adf293"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate the value of 7 + 16 + 34 + 45 + 50 - 6 - 15 - 4 - 7\n(A) 70\n(B) 120\n(C) 127\n(D) 124\n(E) None of the above",
+      "problem_plain": "Calculate the value of 7 + 16 + 34 + 45 + 50 - 6 - 15 - 4 - 7 (A) 70 (B) 120 (C) 127 (D) 124 (E) None of the above",
+      "solution_latex": "7-7 + 16-6 + 34-4 + 45-15 +50  = 0+10+30+30+50  = 120",
+      "solution_plain": "7-7 + 16-6 + 34-4 + 45-15 +50 = 0+10+30+30+50 = 120"
+    },
+    "answer": {
+      "final_raw": "120",
+      "final_normalized": "120",
+      "candidates": [
+        "120",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "law_of_addition",
+        "law_of_addition_and_multiplication"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "law_of_addition",
+        "law_of_addition_and_multiplication",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "7-7 + 16-6 + 34-4 + 45-15 +50  = 0+10+30+30+50  = 120"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate the value of 7 + 16 + 34 + 45 + 50 - 6 - 15 - 4 - 7 (A) 70 (B) 120 (C) 127 (D) 124 (E) None of the above",
+      "solution_text": "7-7 + 16-6 + 34-4 + 45-15 +50 = 0+10+30+30+50 = 120",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "law_of_addition",
+        "law_of_addition_and_multiplication",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1417",
+        "queId": "1d05c438ac4040049c28585c96adf293",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "70"
+          },
+          {
+            "label": "B",
+            "content": "120"
+          },
+          {
+            "label": "C",
+            "content": "127"
+          },
+          {
+            "label": "D",
+            "content": "124"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Law of Addition and Multiplication->Law of Addition"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00582",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 582,
+      "split": "en_train",
+      "source_problem_id": "19f895820c764ca6b019a9ca5da7e2fa"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The product of the formula \"$486\\times$~\\uline{~~~~~~~~~~}~$5$ = $7$~\\uline{~~~~~~~~~~}~$90$\" is~\\uline{~~~~~~~~~~}~.\n(A) 7190\n(B) 7290\n(C) 7390\n(D) 7490",
+      "problem_plain": "The product of the formula \" 486 ~ ~~~~~~~~~~ ~ 5 = 7 ~ ~~~~~~~~~~ ~ 90 \" is~ ~~~~~~~~~~ ~. (A) 7190 (B) 7290 (C) 7390 (D) 7490",
+      "solution_latex": "$486\\times 15 = 7290$",
+      "solution_plain": "486 15 = 7290"
+    },
+    "answer": {
+      "final_raw": "7290",
+      "final_normalized": "7290",
+      "candidates": [
+        "7290",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "number_puzzles",
+        "number_puzzles_horizontal_forms"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "number_puzzles",
+        "number_puzzles_horizontal_forms",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$486\\times 15 = 7290$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The product of the formula \" 486 ~ ~~~~~~~~~~ ~ 5 = 7 ~ ~~~~~~~~~~ ~ 90 \" is~ ~~~~~~~~~~ ~. (A) 7190 (B) 7290 (C) 7390 (D) 7490",
+      "solution_text": "486 15 = 7290",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "number_puzzles",
+        "number_puzzles_horizontal_forms",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1521",
+        "queId": "19f895820c764ca6b019a9ca5da7e2fa",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "7190"
+          },
+          {
+            "label": "B",
+            "content": "7290"
+          },
+          {
+            "label": "C",
+            "content": "7390"
+          },
+          {
+            "label": "D",
+            "content": "7490"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Number Puzzles->Number Puzzles (horizontal forms)"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00593",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 593,
+      "split": "en_train",
+      "source_problem_id": "5db9d87e4de24a34b7b2782d4397e7ed"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "April wants to split $$6$$ identical sweets into $$2$$ identical containers. How many different ways can she do so if a container can be empty?\n(A) 2\n(B) 3\n(C) 4\n(D) 6",
+      "problem_plain": "April wants to split 6 identical sweets into 2 identical containers. How many different ways can she do so if a container can be empty? (A) 2 (B) 3 (C) 4 (D) 6",
+      "solution_latex": "$$6=0+6$$  $$6=1+5$$  $$6=2+4$$  $$6=3+3$$",
+      "solution_plain": "6=0+6 6=1+5 6=2+4 6=3+3"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "enumeration",
+        "questions_involving_enumeration"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "enumeration",
+        "level_1",
+        "questions_involving_enumeration",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$6=0+6$$  $$6=1+5$$  $$6=2+4$$  $$6=3+3$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "April wants to split 6 identical sweets into 2 identical containers. How many different ways can she do so if a container can be empty? (A) 2 (B) 3 (C) 4 (D) 6",
+      "solution_text": "6=0+6 6=1+5 6=2+4 6=3+3",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "enumeration",
+        "level_1",
+        "questions_involving_enumeration",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1545",
+        "queId": "5db9d87e4de24a34b7b2782d4397e7ed",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "6"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Questions Involving Enumeration->Enumeration"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00627",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 627,
+      "split": "en_train",
+      "source_problem_id": "b4e3317cfb8b4449a3a5d4fe5aae6904"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the value of the following sum?  $$902+804+700+609+508+403+307+201+106$$\n(A) 4450\n(B) 4540\n(C) 4500\n(D) 4505\n(E) None of the above",
+      "problem_plain": "What is the value of the following sum? 902+804+700+609+508+403+307+201+106 (A) 4450 (B) 4540 (C) 4500 (D) 4505 (E) None of the above",
+      "solution_latex": "simple math calculation",
+      "solution_plain": "simple math calculation"
+    },
+    "answer": {
+      "final_raw": "4540",
+      "final_normalized": "4540",
+      "candidates": [
+        "4540",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "law_of_addition",
+        "law_of_addition_and_multiplication"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "law_of_addition",
+        "law_of_addition_and_multiplication",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "simple math calculation"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the value of the following sum? 902+804+700+609+508+403+307+201+106 (A) 4450 (B) 4540 (C) 4500 (D) 4505 (E) None of the above",
+      "solution_text": "simple math calculation",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "law_of_addition",
+        "law_of_addition_and_multiplication",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1632",
+        "queId": "b4e3317cfb8b4449a3a5d4fe5aae6904",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4450"
+          },
+          {
+            "label": "B",
+            "content": "4540"
+          },
+          {
+            "label": "C",
+            "content": "4500"
+          },
+          {
+            "label": "D",
+            "content": "4505"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Law of Addition and Multiplication->Law of Addition"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00649",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 649,
+      "split": "en_train",
+      "source_problem_id": "3a06acae6d3e47d6b367cc69d386d382"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The time twelve thousand and twelve hours after $$7$$ A.M. is．\n(A) 1$$ A.M.\n(B) 7$$ P.M.\n(C) 7$$ A.M.\n(D) 7$$ P.M.",
+      "problem_plain": "The time twelve thousand and twelve hours after 7 A.M. is． (A) 1 A.M. (B) 7 P.M. (C) 7 A.M. (D) 7 P.M.",
+      "solution_latex": "Divide $$12012\\div24$$ to get remainder $$12$$. $$12$$ hours after $$7$$ A.M. is $$7$$ P.M.",
+      "solution_plain": "Divide 12012 24 to get remainder 12 . 12 hours after 7 A.M. is 7 P.M."
+    },
+    "answer": {
+      "final_raw": "7$$ P.M.",
+      "final_normalized": "7$$ P.M.",
+      "candidates": [
+        "7$$ P.M.",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_calculation",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_calculation",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Divide $$12012\\div24$$ to get remainder $$12$$.",
+        "$$12$$ hours after $$7$$ A.M.",
+        "is $$7$$ P.M."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The time twelve thousand and twelve hours after 7 A.M. is． (A) 1 A.M. (B) 7 P.M. (C) 7 A.M. (D) 7 P.M.",
+      "solution_text": "Divide 12012 24 to get remainder 12 . 12 hours after 7 A.M. is 7 P.M.",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_calculation",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1692",
+        "queId": "3a06acae6d3e47d6b367cc69d386d382",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1$$ A.M."
+          },
+          {
+            "label": "B",
+            "content": "7$$ P.M."
+          },
+          {
+            "label": "C",
+            "content": "7$$ A.M."
+          },
+          {
+            "label": "D",
+            "content": "7$$ P.M."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem->Time Calculation"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00708",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 708,
+      "split": "en_train",
+      "source_problem_id": "b54e7c5761fa4231b5ff1f2d5f787381"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Wendy wrote all the whole numbers from $$13$$ to $$78$$ on her paper. How many times did she write all the digit \"$$3$$ on her paper?\n(A) 7\n(B) 10\n(C) 16\n(D) 17\n(E) 18",
+      "problem_plain": "Wendy wrote all the whole numbers from 13 to 78 on her paper. How many times did she write all the digit \" 3 on her paper? (A) 7 (B) 10 (C) 16 (D) 17 (E) 18",
+      "solution_latex": "Ones: $$13, 23, 33, 43, 53, 63, 73$$  Tens: $$30, 31, 32, 33, 34, 35, 36, 37, 38, 39$$",
+      "solution_plain": "Ones: 13, 23, 33, 43, 53, 63, 73 Tens: 30, 31, 32, 33, 34, 35, 36, 37, 38, 39"
+    },
+    "answer": {
+      "final_raw": "17",
+      "final_normalized": "17",
+      "candidates": [
+        "17",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "enumeration",
+        "questions_involving_enumeration"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "enumeration",
+        "level_1",
+        "questions_involving_enumeration",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Ones: $$13, 23, 33, 43, 53, 63, 73$$  Tens: $$30, 31, 32, 33, 34, 35, 36, 37, 38, 39$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Wendy wrote all the whole numbers from 13 to 78 on her paper. How many times did she write all the digit \" 3 on her paper? (A) 7 (B) 10 (C) 16 (D) 17 (E) 18",
+      "solution_text": "Ones: 13, 23, 33, 43, 53, 63, 73 Tens: 30, 31, 32, 33, 34, 35, 36, 37, 38, 39",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "enumeration",
+        "level_1",
+        "questions_involving_enumeration",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1830",
+        "queId": "b54e7c5761fa4231b5ff1f2d5f787381",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "7"
+          },
+          {
+            "label": "B",
+            "content": "10"
+          },
+          {
+            "label": "C",
+            "content": "16"
+          },
+          {
+            "label": "D",
+            "content": "17"
+          },
+          {
+            "label": "E",
+            "content": "18"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Questions Involving Enumeration->Enumeration"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00733",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 733,
+      "split": "en_train",
+      "source_problem_id": "3bb5487fc7e549b6881a25b8bcc090c5"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate the value of $$7 + 16 + 34 + 45 + 50 - 6 - 15 - 4 - 7$$.\n(A) 70\n(B) 120\n(C) 127\n(D) 124\n(E) None of the above",
+      "problem_plain": "Calculate the value of 7 + 16 + 34 + 45 + 50 - 6 - 15 - 4 - 7 . (A) 70 (B) 120 (C) 127 (D) 124 (E) None of the above",
+      "solution_latex": "$$7-7 + 16-6 + 34-4 + 45-15 +50$$  $$= 0+10+30+30+50$$  $$= 120$$",
+      "solution_plain": "7-7 + 16-6 + 34-4 + 45-15 +50 = 0+10+30+30+50 = 120"
+    },
+    "answer": {
+      "final_raw": "120",
+      "final_normalized": "120",
+      "candidates": [
+        "120",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "law_of_addition",
+        "law_of_addition_and_multiplication"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "law_of_addition",
+        "law_of_addition_and_multiplication",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$7-7 + 16-6 + 34-4 + 45-15 +50$$  $$= 0+10+30+30+50$$  $$= 120$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate the value of 7 + 16 + 34 + 45 + 50 - 6 - 15 - 4 - 7 . (A) 70 (B) 120 (C) 127 (D) 124 (E) None of the above",
+      "solution_text": "7-7 + 16-6 + 34-4 + 45-15 +50 = 0+10+30+30+50 = 120",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "law_of_addition",
+        "law_of_addition_and_multiplication",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1884",
+        "queId": "3bb5487fc7e549b6881a25b8bcc090c5",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "70"
+          },
+          {
+            "label": "B",
+            "content": "120"
+          },
+          {
+            "label": "C",
+            "content": "127"
+          },
+          {
+            "label": "D",
+            "content": "124"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Law of Addition and Multiplication->Law of Addition"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00735",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 735,
+      "split": "en_train",
+      "source_problem_id": "48dec6f093ed42d58db5f970b6a29abe"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Nick wants to bake a cake that consists of only $$1$$ flavour and $$1$$ topping. He gets to choose from $$3$$ different flavours and $$3$$ different toppings. How many different kinds of cake can he make?\n(A) 3\n(B) 6\n(C) 9\n(D) 12\n(E) None of the above",
+      "problem_plain": "Nick wants to bake a cake that consists of only 1 flavour and 1 topping. He gets to choose from 3 different flavours and 3 different toppings. How many different kinds of cake can he make? (A) 3 (B) 6 (C) 9 (D) 12 (E) None of the above",
+      "solution_latex": "$$3\\times3=9$$",
+      "solution_plain": "3 3=9"
+    },
+    "answer": {
+      "final_raw": "9",
+      "final_normalized": "9",
+      "candidates": [
+        "9",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "enumeration",
+        "questions_involving_enumeration"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "enumeration",
+        "level_1",
+        "questions_involving_enumeration",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$3\\times3=9$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Nick wants to bake a cake that consists of only 1 flavour and 1 topping. He gets to choose from 3 different flavours and 3 different toppings. How many different kinds of cake can he make? (A) 3 (B) 6 (C) 9 (D) 12 (E) None of the above",
+      "solution_text": "3 3=9",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "enumeration",
+        "level_1",
+        "questions_involving_enumeration",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1890",
+        "queId": "48dec6f093ed42d58db5f970b6a29abe",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "6"
+          },
+          {
+            "label": "C",
+            "content": "9"
+          },
+          {
+            "label": "D",
+            "content": "12"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Questions Involving Enumeration->Enumeration"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00768",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 768,
+      "split": "en_train",
+      "source_problem_id": "7f8d7b08b9b147259bd74bea73ddfb83"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the value of the following sum?  $$902+804+700+609+508+403+307+201+106$$\n(A) 4450\n(B) 4540\n(C) 4500\n(D) 4505\n(E) None of the above",
+      "problem_plain": "What is the value of the following sum? 902+804+700+609+508+403+307+201+106 (A) 4450 (B) 4540 (C) 4500 (D) 4505 (E) None of the above",
+      "solution_latex": "simple math calculation",
+      "solution_plain": "simple math calculation"
+    },
+    "answer": {
+      "final_raw": "4540",
+      "final_normalized": "4540",
+      "candidates": [
+        "4540",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "law_of_addition",
+        "law_of_addition_and_multiplication"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "law_of_addition",
+        "law_of_addition_and_multiplication",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "simple math calculation"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the value of the following sum? 902+804+700+609+508+403+307+201+106 (A) 4450 (B) 4540 (C) 4500 (D) 4505 (E) None of the above",
+      "solution_text": "simple math calculation",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "law_of_addition",
+        "law_of_addition_and_multiplication",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1966",
+        "queId": "7f8d7b08b9b147259bd74bea73ddfb83",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4450"
+          },
+          {
+            "label": "B",
+            "content": "4540"
+          },
+          {
+            "label": "C",
+            "content": "4500"
+          },
+          {
+            "label": "D",
+            "content": "4505"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Law of Addition and Multiplication->Law of Addition"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00819",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 819,
+      "split": "en_train",
+      "source_problem_id": "a8621f87be1c4768ae4ed142fce037f1"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "There are some two-digit numbers. The sum of the digits in the tens place and the ones place is 7. How many such numbers are there?\n(A) 7\n(B) 6\n(C) 5\n(D) 4",
+      "problem_plain": "There are some two-digit numbers. The sum of the digits in the tens place and the ones place is 7. How many such numbers are there? (A) 7 (B) 6 (C) 5 (D) 4",
+      "solution_latex": "16,25,34,43,52,61,70",
+      "solution_plain": "16,25,34,43,52,61,70"
+    },
+    "answer": {
+      "final_raw": "7",
+      "final_normalized": "7",
+      "candidates": [
+        "7",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "enumeration",
+        "questions_involving_enumeration"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "enumeration",
+        "level_1",
+        "questions_involving_enumeration",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "16,25,34,43,52,61,70"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "There are some two-digit numbers. The sum of the digits in the tens place and the ones place is 7. How many such numbers are there? (A) 7 (B) 6 (C) 5 (D) 4",
+      "solution_text": "16,25,34,43,52,61,70",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "enumeration",
+        "level_1",
+        "questions_involving_enumeration",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2093",
+        "queId": "a8621f87be1c4768ae4ed142fce037f1",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "7"
+          },
+          {
+            "label": "B",
+            "content": "6"
+          },
+          {
+            "label": "C",
+            "content": "5"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Questions Involving Enumeration->Enumeration"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00853",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 853,
+      "split": "en_train",
+      "source_problem_id": "bb1d4016e3284296aed97a8de5afeab0"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Nini has $$6$$ identical balls and she wants to place them into $$3$$ identical baskets. How many different ways can she do so? (The baskets cannot be empty.)\n(A) 2\n(B) 3\n(C) 4\n(D) 10",
+      "problem_plain": "Nini has 6 identical balls and she wants to place them into 3 identical baskets. How many different ways can she do so? (The baskets cannot be empty.) (A) 2 (B) 3 (C) 4 (D) 10",
+      "solution_latex": "Since the balls and baskets are all identical, the order does not matter.  $$6=1+1+4$$  $$6=1+2+3$$  $$6=2+2+2$$  So, there are $3$ ways to place them.",
+      "solution_plain": "Since the balls and baskets are all identical, the order does not matter. 6=1+1+4 6=1+2+3 6=2+2+2 So, there are 3 ways to place them."
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "enumeration",
+        "questions_involving_enumeration"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "enumeration",
+        "level_1",
+        "questions_involving_enumeration",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Since the balls and baskets are all identical, the order does not matter.",
+        "$$6=1+1+4$$  $$6=1+2+3$$  $$6=2+2+2$$  So, there are $3$ ways to place them."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Nini has 6 identical balls and she wants to place them into 3 identical baskets. How many different ways can she do so? (The baskets cannot be empty.) (A) 2 (B) 3 (C) 4 (D) 10",
+      "solution_text": "Since the balls and baskets are all identical, the order does not matter. 6=1+1+4 6=1+2+3 6=2+2+2 So, there are 3 ways to place them.",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "enumeration",
+        "level_1",
+        "questions_involving_enumeration",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2202",
+        "queId": "bb1d4016e3284296aed97a8de5afeab0",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "10"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Questions Involving Enumeration->Enumeration"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00910",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 910,
+      "split": "en_train",
+      "source_problem_id": "a55b24a987114aa5a2ee64e4f5a0418e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The correct information James can get from the statement \"there is a $11\\textbackslash\\%$ chance that it will rain tomorrow in Los Angeles\"~is~\\uline{~~~~~~~~~~}~.\n(A) It will rain $11\\textbackslash\\%$ of the time tomorrow in Los Angeles.\n(B) It will rain in $11\\textbackslash\\%$ of the regions in Los Angeles tomorrow.\n(C) It will definitely rain tomorrow in Los Angeles.\n(D) The probability of raining in Los Angeles is high.\n(E) The probability of raining in Los Angeles is low.",
+      "problem_plain": "The correct information James can get from the statement \"there is a 11 % chance that it will rain tomorrow in Los Angeles\"~is~ ~~~~~~~~~~ ~. (A) It will rain 11 % of the time tomorrow in Los Angeles. (B) It will rain in 11 % of the regions in Los Angeles tomorrow. (C) It will definitely rain tomorrow in Los Angeles. (D) The probability of raining in Los Angeles is high. (E) The probability of raining in Los Angeles is low.",
+      "solution_latex": "It is less likely to rain tomorrow in Los Angeles.",
+      "solution_plain": "It is less likely to rain tomorrow in Los Angeles."
+    },
+    "answer": {
+      "final_raw": "The probability of raining in Los Angeles is low.",
+      "final_normalized": "The probability of raining in Los Angeles is low.",
+      "candidates": [
+        "E",
+        "The probability of raining in Los Angeles is low."
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "statistics_and_probability"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "It is less likely to rain tomorrow in Los Angeles."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The correct information James can get from the statement \"there is a 11 % chance that it will rain tomorrow in Los Angeles\"~is~ ~~~~~~~~~~ ~. (A) It will rain 11 % of the time tomorrow in Los Angeles. (B) It will rain in 11 % of the regions in Los Angeles tomorrow. (C) It will definitely rain tomorrow in Los Angeles. (D) The probability of raining in Los Angeles is high. (E) The probability of raining in Los Angeles is low.",
+      "solution_text": "It is less likely to rain tomorrow in Los Angeles.",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2332",
+        "queId": "a55b24a987114aa5a2ee64e4f5a0418e",
+        "difficulty": "0",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "It will rain $11\\textbackslash\\%$ of the time tomorrow in Los Angeles."
+          },
+          {
+            "label": "B",
+            "content": "It will rain in $11\\textbackslash\\%$ of the regions in Los Angeles tomorrow."
+          },
+          {
+            "label": "C",
+            "content": "It will definitely rain tomorrow in Los Angeles."
+          },
+          {
+            "label": "D",
+            "content": "The probability of raining in Los Angeles is high."
+          },
+          {
+            "label": "E",
+            "content": "The probability of raining in Los Angeles is low."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Statistics and Probability"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00912",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 912,
+      "split": "en_train",
+      "source_problem_id": "ce16f4810a404d9092b07c6bba10d330"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Amy picks some numbers as shown below:  $13, 20, 14, 15, 19, 20, 20, 19, 19, 15, 19, 19, 20, 13, 15$.  What is the difference between their mode and median?\n(A) 0\n(B) 1\n(C) 2\n(D) 19\n(E) 20",
+      "problem_plain": "Amy picks some numbers as shown below: 13, 20, 14, 15, 19, 20, 20, 19, 19, 15, 19, 19, 20, 13, 15 . What is the difference between their mode and median? (A) 0 (B) 1 (C) 2 (D) 19 (E) 20",
+      "solution_latex": "She picks two $13$s, one $14$, three $15$s, five $19$s, and four $20$s.  The mode is $19.$  The median is $19.$  Thus, their difference should be $0.$",
+      "solution_plain": "She picks two 13 s, one 14 , three 15 s, five 19 s, and four 20 s. The mode is 19. The median is 19. Thus, their difference should be 0."
+    },
+    "answer": {
+      "final_raw": "0",
+      "final_normalized": "0",
+      "candidates": [
+        "0",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "statistics_and_probability"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "She picks two $13$s, one $14$, three $15$s, five $19$s, and four $20$s.",
+        "The mode is $19.$  The median is $19.$  Thus, their difference should be $0.$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Amy picks some numbers as shown below: 13, 20, 14, 15, 19, 20, 20, 19, 19, 15, 19, 19, 20, 13, 15 . What is the difference between their mode and median? (A) 0 (B) 1 (C) 2 (D) 19 (E) 20",
+      "solution_text": "She picks two 13 s, one 14 , three 15 s, five 19 s, and four 20 s. The mode is 19. The median is 19. Thus, their difference should be 0.",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2335",
+        "queId": "ce16f4810a404d9092b07c6bba10d330",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "19"
+          },
+          {
+            "label": "E",
+            "content": "20"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Statistics and Probability"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00943",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 943,
+      "split": "en_train",
+      "source_problem_id": "af43aa09c7134446b78f5960fc214021"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The correct information James can get from the statement ``there is a $11\\textbackslash\\%$ chance that it will rain tomorrow in Los Angeles'' is~\\uline{~~~~~~~~~~}~.\n(A) It will rain $11\\textbackslash\\%$ of the time tomorrow in Los Angeles.\n(B) It will rain in $11\\textbackslash\\%$ of the regions in Los Angeles tomorrow.\n(C) It will definitely rain tomorrow in Los Angeles.\n(D) The probability of raining in Los Angeles is high.\n(E) The probability of raining in Los Angeles is low.",
+      "problem_plain": "The correct information James can get from the statement ``there is a 11 % chance that it will rain tomorrow in Los Angeles'' is~ ~~~~~~~~~~ ~. (A) It will rain 11 % of the time tomorrow in Los Angeles. (B) It will rain in 11 % of the regions in Los Angeles tomorrow. (C) It will definitely rain tomorrow in Los Angeles. (D) The probability of raining in Los Angeles is high. (E) The probability of raining in Los Angeles is low.",
+      "solution_latex": "It is less likely to rain tomorrow in Los Angeles.",
+      "solution_plain": "It is less likely to rain tomorrow in Los Angeles."
+    },
+    "answer": {
+      "final_raw": "The probability of raining in Los Angeles is low.",
+      "final_normalized": "The probability of raining in Los Angeles is low.",
+      "candidates": [
+        "E",
+        "The probability of raining in Los Angeles is low."
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "counting_modules",
+        "statistics_and_probability"
+      ],
+      "tags": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "It is less likely to rain tomorrow in Los Angeles."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The correct information James can get from the statement ``there is a 11 % chance that it will rain tomorrow in Los Angeles'' is~ ~~~~~~~~~~ ~. (A) It will rain 11 % of the time tomorrow in Los Angeles. (B) It will rain in 11 % of the regions in Los Angeles tomorrow. (C) It will definitely rain tomorrow in Los Angeles. (D) The probability of raining in Los Angeles is high. (E) The probability of raining in Los Angeles is low.",
+      "solution_text": "It is less likely to rain tomorrow in Los Angeles.",
+      "keywords": [
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "statistics_and_probability",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2414",
+        "queId": "af43aa09c7134446b78f5960fc214021",
+        "difficulty": "0",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "It will rain $11\\textbackslash\\%$ of the time tomorrow in Los Angeles."
+          },
+          {
+            "label": "B",
+            "content": "It will rain in $11\\textbackslash\\%$ of the regions in Los Angeles tomorrow."
+          },
+          {
+            "label": "C",
+            "content": "It will definitely rain tomorrow in Los Angeles."
+          },
+          {
+            "label": "D",
+            "content": "The probability of raining in Los Angeles is high."
+          },
+          {
+            "label": "E",
+            "content": "The probability of raining in Los Angeles is low."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Statistics and Probability"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00945",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 945,
+      "split": "en_train",
+      "source_problem_id": "e580d20ee3e447eeb3fea060defb06b3"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What time is $$11999$$ hours after $$3$$ P.M.?\n(A) 2$$ A.M.\n(B) 2$$ P.M.\n(C) 4$$ A.M.\n(D) 4$$ P.M.",
+      "problem_plain": "What time is 11999 hours after 3 P.M.? (A) 2 A.M. (B) 2 P.M. (C) 4 A.M. (D) 4 P.M.",
+      "solution_latex": "$$12000$$ hours after $$3$$ P.M. is $$3$$ P.M. $$11999$$ hours after $$3$$ P.M is $$2$$ P.M.",
+      "solution_plain": "12000 hours after 3 P.M. is 3 P.M. 11999 hours after 3 P.M is 2 P.M."
+    },
+    "answer": {
+      "final_raw": "2$$ P.M.",
+      "final_normalized": "2$$ P.M.",
+      "candidates": [
+        "2$$ P.M.",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinations",
+        "counting_modules",
+        "permutations_and_combinations"
+      ],
+      "tags": [
+        "combinations",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$12000$$ hours after $$3$$ P.M.",
+        "is $$3$$ P.M.",
+        "$$11999$$ hours after $$3$$ P.M is $$2$$ P.M."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What time is 11999 hours after 3 P.M.? (A) 2 A.M. (B) 2 P.M. (C) 4 A.M. (D) 4 P.M.",
+      "solution_text": "12000 hours after 3 P.M. is 3 P.M. 11999 hours after 3 P.M is 2 P.M.",
+      "keywords": [
+        "combinations",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2416",
+        "queId": "e580d20ee3e447eeb3fea060defb06b3",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2$$ A.M."
+          },
+          {
+            "label": "B",
+            "content": "2$$ P.M."
+          },
+          {
+            "label": "C",
+            "content": "4$$ A.M."
+          },
+          {
+            "label": "D",
+            "content": "4$$ P.M."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Permutations and Combinations->Combinations"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:00948",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 948,
+      "split": "en_train",
+      "source_problem_id": "dc6dcb8d42a748ae8d20fbb83b097956"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Sandy, Sam, and Steve are observing a cat in the distance. The cat is eating something but it\\textquotesingle s hard to tell what it is.  Sandy says:\"The cat is eating fish.\"  Sam says:\"I agree with Sandy!\"  Steve says: \"The cat is eating meat.\"  Then they come closer and realize only one of them guessed right.  The cat is eating .\n(A) meat\n(B) fish\n(C) Not certain",
+      "problem_plain": "Sandy, Sam, and Steve are observing a cat in the distance. The cat is eating something but it s hard to tell what it is. Sandy says:\"The cat is eating fish.\" Sam says:\"I agree with Sandy!\" Steve says: \"The cat is eating meat.\" Then they come closer and realize only one of them guessed right. The cat is eating . (A) meat (B) fish (C) Not certain",
+      "solution_latex": "We can directly find that Sandy\\textquotesingle s point and Sam\\textquotesingle s point are identical,so both of them tell lies.Therefore, Steve tells the truth.",
+      "solution_plain": "We can directly find that Sandy s point and Sam s point are identical,so both of them tell lies.Therefore, Steve tells the truth."
+    },
+    "answer": {
+      "final_raw": "meat",
+      "final_normalized": "meat",
+      "candidates": [
+        "A",
+        "meat"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinations",
+        "counting_modules",
+        "permutations_and_combinations"
+      ],
+      "tags": [
+        "combinations",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "We can directly find that Sandy\\textquotesingle s point and Sam\\textquotesingle s point are identical,so both of them tell lies.Therefore, Steve tells the truth."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Sandy, Sam, and Steve are observing a cat in the distance. The cat is eating something but it s hard to tell what it is. Sandy says:\"The cat is eating fish.\" Sam says:\"I agree with Sandy!\" Steve says: \"The cat is eating meat.\" Then they come closer and realize only one of them guessed right. The cat is eating . (A) meat (B) fish (C) Not certain",
+      "solution_text": "We can directly find that Sandy s point and Sam s point are identical,so both of them tell lies.Therefore, Steve tells the truth.",
+      "keywords": [
+        "combinations",
+        "counting_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "permutations_and_combinations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2419",
+        "queId": "dc6dcb8d42a748ae8d20fbb83b097956",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "meat"
+          },
+          {
+            "label": "B",
+            "content": "fish"
+          },
+          {
+            "label": "C",
+            "content": "Not certain"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Counting Modules->Permutations and Combinations->Combinations"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:01704",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1704,
+      "split": "en_train",
+      "source_problem_id": "815c6566fc81438cbf1242bbd47632a0"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Bruce is a talented writer and graphic artist who enjoys both types of work equally. Instead of earning 45,000 dollars as a writer, Bruce now earns 25,000 dollars in accounting profits as a graphic artist using the same computer equipment he would have used as a writer. What is Bruce\\textquotesingle s economic profit from choosing to work as a graphic artist?\n(A) -45,000 dollars\n(B) -20,000 dollars\n(C) 20,000 dollars\n(D) 45,000 dollars\n(E) 70,000 dollars",
+      "problem_plain": "Bruce is a talented writer and graphic artist who enjoys both types of work equally. Instead of earning 45,000 dollars as a writer, Bruce now earns 25,000 dollars in accounting profits as a graphic artist using the same computer equipment he would have used as a writer. What is Bruce s economic profit from choosing to work as a graphic artist? (A) -45,000 dollars (B) -20,000 dollars (C) 20,000 dollars (D) 45,000 dollars (E) 70,000 dollars",
+      "solution_latex": "Economic profit = total revenue - economic costs = total revenue - (explicit costs + implicit costs)",
+      "solution_plain": "Economic profit = total revenue - economic costs = total revenue - (explicit costs + implicit costs)"
+    },
+    "answer": {
+      "final_raw": "-20,000 dollars",
+      "final_normalized": "-20,000 dollars",
+      "candidates": [
+        "-20,000 dollars",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Economic profit = total revenue - economic costs = total revenue - (explicit costs + implicit costs)"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Bruce is a talented writer and graphic artist who enjoys both types of work equally. Instead of earning 45,000 dollars as a writer, Bruce now earns 25,000 dollars in accounting profits as a graphic artist using the same computer equipment he would have used as a writer. What is Bruce s economic profit from choosing to work as a graphic artist? (A) -45,000 dollars (B) -20,000 dollars (C) 20,000 dollars (D) 45,000 dollars (E) 70,000 dollars",
+      "solution_text": "Economic profit = total revenue - economic costs = total revenue - (explicit costs + implicit costs)",
+      "keywords": [
+        "calculation_modules",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "5669",
+        "queId": "815c6566fc81438cbf1242bbd47632a0",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "-45,000 dollars"
+          },
+          {
+            "label": "B",
+            "content": "-20,000 dollars"
+          },
+          {
+            "label": "C",
+            "content": "20,000 dollars"
+          },
+          {
+            "label": "D",
+            "content": "45,000 dollars"
+          },
+          {
+            "label": "E",
+            "content": "70,000 dollars"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:01950",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1950,
+      "split": "en_train",
+      "source_problem_id": "2093112e13cb4f58a29d7a06e93bf9ec"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "If the day before yesterday was Sunday. How many days are there from today until Sunday?\n(A) 2\n(B) 3\n(C) 4\n(D) 5\n(E) 6",
+      "problem_plain": "If the day before yesterday was Sunday. How many days are there from today until Sunday? (A) 2 (B) 3 (C) 4 (D) 5 (E) 6",
+      "solution_latex": "Before yesterday: Sunday  Yesterday: Monday  Today: Tuesday  From Tuesday to Sunday, we have $$5$$ days based on the information given in the question.",
+      "solution_plain": "Before yesterday: Sunday Yesterday: Monday Today: Tuesday From Tuesday to Sunday, we have 5 days based on the information given in the question."
+    },
+    "answer": {
+      "final_raw": "5",
+      "final_normalized": "5",
+      "candidates": [
+        "5",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "logical_reasoning"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Before yesterday: Sunday  Yesterday: Monday  Today: Tuesday  From Tuesday to Sunday, we have $$5$$ days based on the information given in the question."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "If the day before yesterday was Sunday. How many days are there from today until Sunday? (A) 2 (B) 3 (C) 4 (D) 5 (E) 6",
+      "solution_text": "Before yesterday: Sunday Yesterday: Monday Today: Tuesday From Tuesday to Sunday, we have 5 days based on the information given in the question.",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "6758",
+        "queId": "2093112e13cb4f58a29d7a06e93bf9ec",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "5"
+          },
+          {
+            "label": "E",
+            "content": "6"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Logical Reasoning"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:01957",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1957,
+      "split": "en_train",
+      "source_problem_id": "05dae4e7e0144dc3ac9f95562a85c206"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many months of the year have exactly $$31$$ days?\n(A) 4\n(B) 5\n(C) 6\n(D) 7\n(E) 12",
+      "problem_plain": "How many months of the year have exactly 31 days? (A) 4 (B) 5 (C) 6 (D) 7 (E) 12",
+      "solution_latex": "March, May, July, August, October and December.",
+      "solution_plain": "March, May, July, August, October and December."
+    },
+    "answer": {
+      "final_raw": "7",
+      "final_normalized": "7",
+      "candidates": [
+        "7",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "logical_reasoning"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "March, May, July, August, October and December."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many months of the year have exactly 31 days? (A) 4 (B) 5 (C) 6 (D) 7 (E) 12",
+      "solution_text": "March, May, July, August, October and December.",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "6782",
+        "queId": "05dae4e7e0144dc3ac9f95562a85c206",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "7"
+          },
+          {
+            "label": "E",
+            "content": "12"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Logical Reasoning"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:01958",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1958,
+      "split": "en_train",
+      "source_problem_id": "03252e73c95a4cc1b418712fa21fd71a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A certain play has three $30$-minute parts and two intermission among them. The play started at $8:30$ and ended at $10:15$. How many minutes long were the intermissions in total? (Adapted from 2010 Math Kangaroo Problem, Level 1-2, Question \\#19)\n(A) 10\n(B) 15\n(C) 20\n(D) 25",
+      "problem_plain": "A certain play has three 30 -minute parts and two intermission among them. The play started at 8:30 and ended at 10:15 . How many minutes long were the intermissions in total? (Adapted from 2010 Math Kangaroo Problem, Level 1-2, Question #19) (A) 10 (B) 15 (C) 20 (D) 25",
+      "solution_latex": "From $8:30$ to $10:15$ = $1$ hr $45$ min, $1$ hr $45$ min = $105$ min, three $30$-minute parts = $90$ min, $105 - 90$ = $15$ min.",
+      "solution_plain": "From 8:30 to 10:15 = 1 hr 45 min, 1 hr 45 min = 105 min, three 30 -minute parts = 90 min, 105 - 90 = 15 min."
+    },
+    "answer": {
+      "final_raw": "15",
+      "final_normalized": "15",
+      "candidates": [
+        "15",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "From $8:30$ to $10:15$ = $1$ hr $45$ min, $1$ hr $45$ min = $105$ min, three $30$-minute parts = $90$ min, $105 - 90$ = $15$ min."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A certain play has three 30 -minute parts and two intermission among them. The play started at 8:30 and ended at 10:15 . How many minutes long were the intermissions in total? (Adapted from 2010 Math Kangaroo Problem, Level 1-2, Question #19) (A) 10 (B) 15 (C) 20 (D) 25",
+      "solution_text": "From 8:30 to 10:15 = 1 hr 45 min, 1 hr 45 min = 105 min, three 30 -minute parts = 90 min, 105 - 90 = 15 min.",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "6789",
+        "queId": "03252e73c95a4cc1b418712fa21fd71a",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "15"
+          },
+          {
+            "label": "C",
+            "content": "20"
+          },
+          {
+            "label": "D",
+            "content": "25"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:01961",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1961,
+      "split": "en_train",
+      "source_problem_id": "2a2dc71f2c1a48bdb5852cbd43eefbab"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A certain play has three $30$-minute parts and two intermissions among them. The play started at $8:30$ AM and ended at $10:15$ AM. How many minutes long were the intermissions in total?\n(A) 10\n(B) 15\n(C) 20\n(D) 25",
+      "problem_plain": "A certain play has three 30 -minute parts and two intermissions among them. The play started at 8:30 AM and ended at 10:15 AM. How many minutes long were the intermissions in total? (A) 10 (B) 15 (C) 20 (D) 25",
+      "solution_latex": "From $8:30$ to $10:15$ = $1$ hr $45$ min, $1$ hr $45$ min = $105$ min, three $30$-minute parts = $90$ min, $105 - 90$ = $15$ min.",
+      "solution_plain": "From 8:30 to 10:15 = 1 hr 45 min, 1 hr 45 min = 105 min, three 30 -minute parts = 90 min, 105 - 90 = 15 min."
+    },
+    "answer": {
+      "final_raw": "15",
+      "final_normalized": "15",
+      "candidates": [
+        "15",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "From $8:30$ to $10:15$ = $1$ hr $45$ min, $1$ hr $45$ min = $105$ min, three $30$-minute parts = $90$ min, $105 - 90$ = $15$ min."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A certain play has three 30 -minute parts and two intermissions among them. The play started at 8:30 AM and ended at 10:15 AM. How many minutes long were the intermissions in total? (A) 10 (B) 15 (C) 20 (D) 25",
+      "solution_text": "From 8:30 to 10:15 = 1 hr 45 min, 1 hr 45 min = 105 min, three 30 -minute parts = 90 min, 105 - 90 = 15 min.",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "6836",
+        "queId": "2a2dc71f2c1a48bdb5852cbd43eefbab",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "15"
+          },
+          {
+            "label": "C",
+            "content": "20"
+          },
+          {
+            "label": "D",
+            "content": "25"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:01990",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1990,
+      "split": "en_train",
+      "source_problem_id": "be0c928869ad4587828252e0ef1f407f"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A certain play has three $30$-minute parts and two intermissions among them. The play started at $8:30$ AM and ended at $10:15$ AM. How long did the commercials last for in total?\n(A) 10 min\n(B) 15 min\n(C) 20 min\n(D) 25 min",
+      "problem_plain": "A certain play has three 30 -minute parts and two intermissions among them. The play started at 8:30 AM and ended at 10:15 AM. How long did the commercials last for in total? (A) 10 min (B) 15 min (C) 20 min (D) 25 min",
+      "solution_latex": "From $8:30$ to $10:15$ = $1$ hr $45$ min, $1$ hr $45$ min = $105$ min, three $30$-minute parts = $90$ min, $105 - 90$ = $15$ min.",
+      "solution_plain": "From 8:30 to 10:15 = 1 hr 45 min, 1 hr 45 min = 105 min, three 30 -minute parts = 90 min, 105 - 90 = 15 min."
+    },
+    "answer": {
+      "final_raw": "15 min",
+      "final_normalized": "15 min",
+      "candidates": [
+        "15 min",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "From $8:30$ to $10:15$ = $1$ hr $45$ min, $1$ hr $45$ min = $105$ min, three $30$-minute parts = $90$ min, $105 - 90$ = $15$ min."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A certain play has three 30 -minute parts and two intermissions among them. The play started at 8:30 AM and ended at 10:15 AM. How long did the commercials last for in total? (A) 10 min (B) 15 min (C) 20 min (D) 25 min",
+      "solution_text": "From 8:30 to 10:15 = 1 hr 45 min, 1 hr 45 min = 105 min, three 30 -minute parts = 90 min, 105 - 90 = 15 min.",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7028",
+        "queId": "be0c928869ad4587828252e0ef1f407f",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10 min"
+          },
+          {
+            "label": "B",
+            "content": "15 min"
+          },
+          {
+            "label": "C",
+            "content": "20 min"
+          },
+          {
+            "label": "D",
+            "content": "25 min"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:01998",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1998,
+      "split": "en_train",
+      "source_problem_id": "54cba88f95334157ae1ae28dcb018080"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Light Bulb A lights up every $$15$$ minutes while Light Bulb B lights up every $$20$$ minutes. Both light bulbs lit up at the same time at $$8.30$$ a.m.  By noon, how many more times would both light bulbs have lit up at the same time?\n(A) 2\n(B) 3\n(C) 4\n(D) 5",
+      "problem_plain": "Light Bulb A lights up every 15 minutes while Light Bulb B lights up every 20 minutes. Both light bulbs lit up at the same time at 8.30 a.m. By noon, how many more times would both light bulbs have lit up at the same time? (A) 2 (B) 3 (C) 4 (D) 5",
+      "solution_latex": "The LCM of $$15$$ and $$20$$ is $$60$$.  Both light bulbs will light up at the same time every $$60$$ minutes, at $$9.30$$ a.m., $$10.30$$ a.m. and $$11.30$$ a.m. (total of $$3$$ times).",
+      "solution_plain": "The LCM of 15 and 20 is 60 . Both light bulbs will light up at the same time every 60 minutes, at 9.30 a.m., 10.30 a.m. and 11.30 a.m. (total of 3 times)."
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "The LCM of $$15$$ and $$20$$ is $$60$$.",
+        "Both light bulbs will light up at the same time every $$60$$ minutes, at $$9.30$$ a.m., $$10.30$$ a.m.",
+        "and $$11.30$$ a.m.",
+        "(total of $$3$$ times)."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Light Bulb A lights up every 15 minutes while Light Bulb B lights up every 20 minutes. Both light bulbs lit up at the same time at 8.30 a.m. By noon, how many more times would both light bulbs have lit up at the same time? (A) 2 (B) 3 (C) 4 (D) 5",
+      "solution_text": "The LCM of 15 and 20 is 60 . Both light bulbs will light up at the same time every 60 minutes, at 9.30 a.m., 10.30 a.m. and 11.30 a.m. (total of 3 times).",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7080",
+        "queId": "54cba88f95334157ae1ae28dcb018080",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "5"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02003",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2003,
+      "split": "en_train",
+      "source_problem_id": "4bc51a0a3df5449581f73286be1ceaed"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "From $1$ to $23$, how many integers can be chosen at most to ensure that no two of chosen numbers differ by $4$?\n(A) 9\n(B) 10\n(C) 11\n(D) 12",
+      "problem_plain": "From 1 to 23 , how many integers can be chosen at most to ensure that no two of chosen numbers differ by 4 ? (A) 9 (B) 10 (C) 11 (D) 12",
+      "solution_latex": "$1, 5, 9, 13, 17, 21$  $2, 6, 10, 14, 18, 22$  $3, 7, 11, 15, 19, 23$  $4, 8, 12, 16, 20$",
+      "solution_plain": "1, 5, 9, 13, 17, 21 2, 6, 10, 14, 18, 22 3, 7, 11, 15, 19, 23 4, 8, 12, 16, 20"
+    },
+    "answer": {
+      "final_raw": "12",
+      "final_normalized": "12",
+      "candidates": [
+        "12",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "constructing_and_proving"
+      ],
+      "tags": [
+        "combinatorics",
+        "constructing_and_proving",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$1, 5, 9, 13, 17, 21$  $2, 6, 10, 14, 18, 22$  $3, 7, 11, 15, 19, 23$  $4, 8, 12, 16, 20$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "From 1 to 23 , how many integers can be chosen at most to ensure that no two of chosen numbers differ by 4 ? (A) 9 (B) 10 (C) 11 (D) 12",
+      "solution_text": "1, 5, 9, 13, 17, 21 2, 6, 10, 14, 18, 22 3, 7, 11, 15, 19, 23 4, 8, 12, 16, 20",
+      "keywords": [
+        "combinatorics",
+        "constructing_and_proving",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7107",
+        "queId": "4bc51a0a3df5449581f73286be1ceaed",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "9"
+          },
+          {
+            "label": "B",
+            "content": "10"
+          },
+          {
+            "label": "C",
+            "content": "11"
+          },
+          {
+            "label": "D",
+            "content": "12"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Constructing and Proving"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02008",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2008,
+      "split": "en_train",
+      "source_problem_id": "b9aa2a9d45f44254b02d73bd48c76cf8"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many minutes are there in one week?\n(A) 7\\times24\n(B) 7\\times 2\\times 12\n(C) 7\\times 12 \\times 60\n(D) 7\\times 2 \\times 12 \\times 60\n(E) None of the above",
+      "problem_plain": "How many minutes are there in one week? (A) 7 24 (B) 7 2 12 (C) 7 12 60 (D) 7 2 12 60 (E) None of the above",
+      "solution_latex": "One week $$7$$ days.  $$24$$ hours per day.  $$60$$ minutes per hour.",
+      "solution_plain": "One week 7 days. 24 hours per day. 60 minutes per hour."
+    },
+    "answer": {
+      "final_raw": "7\\times 2 \\times 12 \\times 60",
+      "final_normalized": "7\\times 2 \\times 12 \\times 60",
+      "candidates": [
+        "7\\times 2 \\times 12 \\times 60",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "One week $$7$$ days.",
+        "$$24$$ hours per day.",
+        "$$60$$ minutes per hour."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many minutes are there in one week? (A) 7 24 (B) 7 2 12 (C) 7 12 60 (D) 7 2 12 60 (E) None of the above",
+      "solution_text": "One week 7 days. 24 hours per day. 60 minutes per hour.",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7176",
+        "queId": "b9aa2a9d45f44254b02d73bd48c76cf8",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "7\\times24"
+          },
+          {
+            "label": "B",
+            "content": "7\\times 2\\times 12"
+          },
+          {
+            "label": "C",
+            "content": "7\\times 12 \\times 60"
+          },
+          {
+            "label": "D",
+            "content": "7\\times 2 \\times 12 \\times 60"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02015",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2015,
+      "split": "en_train",
+      "source_problem_id": "6319041259e74549b3bccf638b9f9c5e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A certain play has two $$45$$-minute parts and an intermission between them. The play started at $$10:50$$ and ended at $$12:40$$. How many minutes long was the intermission?\n(A) 10\n(B) 15\n(C) 20\n(D) 25",
+      "problem_plain": "A certain play has two 45 -minute parts and an intermission between them. The play started at 10:50 and ended at 12:40 . How many minutes long was the intermission? (A) 10 (B) 15 (C) 20 (D) 25",
+      "solution_latex": "From $$10:50$$ to $$12:40$$ = $$1$$ h $$50$$ min, $$1$$ h $$50$$ min = $$110$$ min, two $$45$$-minute parts = $$90$$ min, and $$110 - 90 = 20$$ min.",
+      "solution_plain": "From 10:50 to 12:40 = 1 h 50 min, 1 h 50 min = 110 min, two 45 -minute parts = 90 min, and 110 - 90 = 20 min."
+    },
+    "answer": {
+      "final_raw": "20",
+      "final_normalized": "20",
+      "candidates": [
+        "20",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "From $$10:50$$ to $$12:40$$ = $$1$$ h $$50$$ min, $$1$$ h $$50$$ min = $$110$$ min, two $$45$$-minute parts = $$90$$ min, and $$110 - 90 = 20$$ min."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A certain play has two 45 -minute parts and an intermission between them. The play started at 10:50 and ended at 12:40 . How many minutes long was the intermission? (A) 10 (B) 15 (C) 20 (D) 25",
+      "solution_text": "From 10:50 to 12:40 = 1 h 50 min, 1 h 50 min = 110 min, two 45 -minute parts = 90 min, and 110 - 90 = 20 min.",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7212",
+        "queId": "6319041259e74549b3bccf638b9f9c5e",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "15"
+          },
+          {
+            "label": "C",
+            "content": "20"
+          },
+          {
+            "label": "D",
+            "content": "25"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02022",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2022,
+      "split": "en_train",
+      "source_problem_id": "9e348306d77e438d8dab7c6c0eb6da2d"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Grace was going to meet her friends at the bus station. Right now, it is $8:40$. Grace arrived at the bus station half an hour ago. The trip from her home to the station was $1$ hour long. What time did Grace depart toward the bus station?\n(A) 7:20\n(B) 7:10\n(C) 7:50\n(D) 8:10",
+      "problem_plain": "Grace was going to meet her friends at the bus station. Right now, it is 8:40 . Grace arrived at the bus station half an hour ago. The trip from her home to the station was 1 hour long. What time did Grace depart toward the bus station? (A) 7:20 (B) 7:10 (C) 7:50 (D) 8:10",
+      "solution_latex": "Grace arrived at the bus station at $8:10$, and the trip was $1$ hour long, so she departed at $7:10$.",
+      "solution_plain": "Grace arrived at the bus station at 8:10 , and the trip was 1 hour long, so she departed at 7:10 ."
+    },
+    "answer": {
+      "final_raw": "7:10",
+      "final_normalized": "7:10",
+      "candidates": [
+        "7:10",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Grace arrived at the bus station at $8:10$, and the trip was $1$ hour long, so she departed at $7:10$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Grace was going to meet her friends at the bus station. Right now, it is 8:40 . Grace arrived at the bus station half an hour ago. The trip from her home to the station was 1 hour long. What time did Grace depart toward the bus station? (A) 7:20 (B) 7:10 (C) 7:50 (D) 8:10",
+      "solution_text": "Grace arrived at the bus station at 8:10 , and the trip was 1 hour long, so she departed at 7:10 .",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7272",
+        "queId": "9e348306d77e438d8dab7c6c0eb6da2d",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "7:20"
+          },
+          {
+            "label": "B",
+            "content": "7:10"
+          },
+          {
+            "label": "C",
+            "content": "7:50"
+          },
+          {
+            "label": "D",
+            "content": "8:10"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02026",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2026,
+      "split": "en_train",
+      "source_problem_id": "440def6c64b648f28dadf550fd8188b1"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A certain play has three $30$-minute parts and two intermissions among them. The play started at $8:30$ AM and ended at $10:15$ AM. How long did the intermissions last for in total?\n(A) 10 min\n(B) 15 min\n(C) 20 min\n(D) 25 min",
+      "problem_plain": "A certain play has three 30 -minute parts and two intermissions among them. The play started at 8:30 AM and ended at 10:15 AM. How long did the intermissions last for in total? (A) 10 min (B) 15 min (C) 20 min (D) 25 min",
+      "solution_latex": "From $8:30$ to $10:15$ = $1$ hr $45$ min, $1$ hr $45$ min = $105$ min, three $30$-minute parts = $90$ min, $105 - 90$ = $15$ min.",
+      "solution_plain": "From 8:30 to 10:15 = 1 hr 45 min, 1 hr 45 min = 105 min, three 30 -minute parts = 90 min, 105 - 90 = 15 min."
+    },
+    "answer": {
+      "final_raw": "15 min",
+      "final_normalized": "15 min",
+      "candidates": [
+        "15 min",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "From $8:30$ to $10:15$ = $1$ hr $45$ min, $1$ hr $45$ min = $105$ min, three $30$-minute parts = $90$ min, $105 - 90$ = $15$ min."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A certain play has three 30 -minute parts and two intermissions among them. The play started at 8:30 AM and ended at 10:15 AM. How long did the intermissions last for in total? (A) 10 min (B) 15 min (C) 20 min (D) 25 min",
+      "solution_text": "From 8:30 to 10:15 = 1 hr 45 min, 1 hr 45 min = 105 min, three 30 -minute parts = 90 min, 105 - 90 = 15 min.",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7299",
+        "queId": "440def6c64b648f28dadf550fd8188b1",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10 min"
+          },
+          {
+            "label": "B",
+            "content": "15 min"
+          },
+          {
+            "label": "C",
+            "content": "20 min"
+          },
+          {
+            "label": "D",
+            "content": "25 min"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02030",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2030,
+      "split": "en_train",
+      "source_problem_id": "9e628a2fc5f24d70bb2751113efbfdce"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Four friends are competing in a math competition. They are Andy, Bob, Cindy and Daisy.  The organiser of the competition told you that:  ($$1$$) Andy performed better than Bob.  ($$2$$) Cindy\\textquotesingle s score is higher than Andy\\textquotesingle s score.  ($$3$$) Daisy\\textquotesingle s score is lower than two of her friends.  Arrange their scores in descending order.\n(A) Andy, Bob, Cindy, Daisy\n(B) Andy, Cindy, Daisy, Bob\n(C) Cindy, Andy, Daisy, Bob\n(D) Cindy, Andy, Bob, Daisy\n(E) None of the above",
+      "problem_plain": "Four friends are competing in a math competition. They are Andy, Bob, Cindy and Daisy. The organiser of the competition told you that: ( 1 ) Andy performed better than Bob. ( 2 ) Cindy s score is higher than Andy s score. ( 3 ) Daisy s score is lower than two of her friends. Arrange their scores in descending order. (A) Andy, Bob, Cindy, Daisy (B) Andy, Cindy, Daisy, Bob (C) Cindy, Andy, Daisy, Bob (D) Cindy, Andy, Bob, Daisy (E) None of the above",
+      "solution_latex": "The score from highest to lower:  First -\\/-\\textgreater{} Cindy  Second -\\/-\\textgreater{} Andy  Thrid -\\/-\\textgreater{} Daisy  Fourth -\\/-\\textgreater{} Bob",
+      "solution_plain": "The score from highest to lower: First - /- Cindy Second - /- Andy Thrid - /- Daisy Fourth - /- Bob"
+    },
+    "answer": {
+      "final_raw": "Cindy, Andy, Daisy, Bob",
+      "final_normalized": "Cindy, Andy, Daisy, Bob",
+      "candidates": [
+        "C",
+        "Cindy, Andy, Daisy, Bob"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "logical_reasoning"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "The score from highest to lower:  First -\\/-\\textgreater{} Cindy  Second -\\/-\\textgreater{} Andy  Thrid -\\/-\\textgreater{} Daisy  Fourth -\\/-\\textgreater{} Bob"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Four friends are competing in a math competition. They are Andy, Bob, Cindy and Daisy. The organiser of the competition told you that: ( 1 ) Andy performed better than Bob. ( 2 ) Cindy s score is higher than Andy s score. ( 3 ) Daisy s score is lower than two of her friends. Arrange their scores in descending order. (A) Andy, Bob, Cindy, Daisy (B) Andy, Cindy, Daisy, Bob (C) Cindy, Andy, Daisy, Bob (D) Cindy, Andy, Bob, Daisy (E) None of the above",
+      "solution_text": "The score from highest to lower: First - /- Cindy Second - /- Andy Thrid - /- Daisy Fourth - /- Bob",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7329",
+        "queId": "9e628a2fc5f24d70bb2751113efbfdce",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Andy, Bob, Cindy, Daisy"
+          },
+          {
+            "label": "B",
+            "content": "Andy, Cindy, Daisy, Bob"
+          },
+          {
+            "label": "C",
+            "content": "Cindy, Andy, Daisy, Bob"
+          },
+          {
+            "label": "D",
+            "content": "Cindy, Andy, Bob, Daisy"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Logical Reasoning"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02055",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2055,
+      "split": "en_train",
+      "source_problem_id": "7291e285338a46cea0f2db5b9ca4439b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Four friends are competing in a math competition. They are Andy, Bob, Cindy and Daisy.  The organiser of the competition told you that:  ($$1$$) Andy performed better than Bob.  ($$2$$) Cindy\\textquotesingle s score is higher than Andy\\textquotesingle s score.  ($$3$$) Daisy\\textquotesingle s score is lower than two of her friends.  Rank them from the highest to the lowest.\n(A) Andy, Bob, Cindy, Daisy\n(B) Andy, Cindy, Daisy, Bob\n(C) Cindy, Andy, Daisy, Bob\n(D) Cindy, Andy, Bob, Daisy\n(E) None of the above",
+      "problem_plain": "Four friends are competing in a math competition. They are Andy, Bob, Cindy and Daisy. The organiser of the competition told you that: ( 1 ) Andy performed better than Bob. ( 2 ) Cindy s score is higher than Andy s score. ( 3 ) Daisy s score is lower than two of her friends. Rank them from the highest to the lowest. (A) Andy, Bob, Cindy, Daisy (B) Andy, Cindy, Daisy, Bob (C) Cindy, Andy, Daisy, Bob (D) Cindy, Andy, Bob, Daisy (E) None of the above",
+      "solution_latex": "The score from highest to lower:  First -\\/-\\textgreater{} Cindy  Second -\\/-\\textgreater{} Andy  Thrid -\\/-\\textgreater{} Daisy  Fourth -\\/-\\textgreater{} Bob",
+      "solution_plain": "The score from highest to lower: First - /- Cindy Second - /- Andy Thrid - /- Daisy Fourth - /- Bob"
+    },
+    "answer": {
+      "final_raw": "Cindy, Andy, Daisy, Bob",
+      "final_normalized": "Cindy, Andy, Daisy, Bob",
+      "candidates": [
+        "C",
+        "Cindy, Andy, Daisy, Bob"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "logical_reasoning"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "The score from highest to lower:  First -\\/-\\textgreater{} Cindy  Second -\\/-\\textgreater{} Andy  Thrid -\\/-\\textgreater{} Daisy  Fourth -\\/-\\textgreater{} Bob"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Four friends are competing in a math competition. They are Andy, Bob, Cindy and Daisy. The organiser of the competition told you that: ( 1 ) Andy performed better than Bob. ( 2 ) Cindy s score is higher than Andy s score. ( 3 ) Daisy s score is lower than two of her friends. Rank them from the highest to the lowest. (A) Andy, Bob, Cindy, Daisy (B) Andy, Cindy, Daisy, Bob (C) Cindy, Andy, Daisy, Bob (D) Cindy, Andy, Bob, Daisy (E) None of the above",
+      "solution_text": "The score from highest to lower: First - /- Cindy Second - /- Andy Thrid - /- Daisy Fourth - /- Bob",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7523",
+        "queId": "7291e285338a46cea0f2db5b9ca4439b",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Andy, Bob, Cindy, Daisy"
+          },
+          {
+            "label": "B",
+            "content": "Andy, Cindy, Daisy, Bob"
+          },
+          {
+            "label": "C",
+            "content": "Cindy, Andy, Daisy, Bob"
+          },
+          {
+            "label": "D",
+            "content": "Cindy, Andy, Bob, Daisy"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Logical Reasoning"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02061",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2061,
+      "split": "en_train",
+      "source_problem_id": "df78d39d224144ea95717e47a4850603"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "If you need $$6$$ minutes to cook $$2$$ eggs, you will need  minutes to cook $$4$$ eggs in a pot. (The pot can hold $$4$$ eggs.)\n(A) 5\n(B) 6\n(C) 11\n(D) 12",
+      "problem_plain": "If you need 6 minutes to cook 2 eggs, you will need minutes to cook 4 eggs in a pot. (The pot can hold 4 eggs.) (A) 5 (B) 6 (C) 11 (D) 12",
+      "solution_latex": "It takes $$6$$ minutes to cook a $$2$$ raw egg, and of course a $$4$$ raw egg will be cooked in a pot, and it will still take $$6$$ minutes to cook. So choose $$\\text{B}$$.",
+      "solution_plain": "It takes 6 minutes to cook a 2 raw egg, and of course a 4 raw egg will be cooked in a pot, and it will still take 6 minutes to cook. So choose B ."
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "planning",
+        "strategies_and_operations"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "planning",
+        "single_choice",
+        "strategies_and_operations",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "It takes $$6$$ minutes to cook a $$2$$ raw egg, and of course a $$4$$ raw egg will be cooked in a pot, and it will still take $$6$$ minutes to cook.",
+        "So choose $$\\text{B}$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "If you need 6 minutes to cook 2 eggs, you will need minutes to cook 4 eggs in a pot. (The pot can hold 4 eggs.) (A) 5 (B) 6 (C) 11 (D) 12",
+      "solution_text": "It takes 6 minutes to cook a 2 raw egg, and of course a 4 raw egg will be cooked in a pot, and it will still take 6 minutes to cook. So choose B .",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "planning",
+        "single_choice",
+        "strategies_and_operations",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7560",
+        "queId": "df78d39d224144ea95717e47a4850603",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "5"
+          },
+          {
+            "label": "B",
+            "content": "6"
+          },
+          {
+            "label": "C",
+            "content": "11"
+          },
+          {
+            "label": "D",
+            "content": "12"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Strategies and Operations->Planning"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02062",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2062,
+      "split": "en_train",
+      "source_problem_id": "dae4734d9c524fc3b94ea6d4f53205c6"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Four friends are competing in a math competition. They are Andy, Bob, Cindy and Daisy.  The organiser of the competition told you that:  ($$1$$) Andy performed better than Bob.  ($$2$$) Cindy\\textquotesingle s score is higher than Andy\\textquotesingle s score.  ($$3$$) Daisy\\textquotesingle s score is lower than two of her friends.  Rank them from the highest to the lowest.\n(A) Andy, Bob, Cindy, Daisy\n(B) Andy, Cindy, Daisy, Bob\n(C) Cindy, Andy, Daisy, Bob\n(D) Cindy, Andy, Bob, Daisy\n(E) None of the above",
+      "problem_plain": "Four friends are competing in a math competition. They are Andy, Bob, Cindy and Daisy. The organiser of the competition told you that: ( 1 ) Andy performed better than Bob. ( 2 ) Cindy s score is higher than Andy s score. ( 3 ) Daisy s score is lower than two of her friends. Rank them from the highest to the lowest. (A) Andy, Bob, Cindy, Daisy (B) Andy, Cindy, Daisy, Bob (C) Cindy, Andy, Daisy, Bob (D) Cindy, Andy, Bob, Daisy (E) None of the above",
+      "solution_latex": "The score from highest to lower:  First -\\/-\\textgreater{} Cindy  Second -\\/-\\textgreater{} Andy  Thrid -\\/-\\textgreater{} Daisy  Fourth -\\/-\\textgreater{} Bob",
+      "solution_plain": "The score from highest to lower: First - /- Cindy Second - /- Andy Thrid - /- Daisy Fourth - /- Bob"
+    },
+    "answer": {
+      "final_raw": "Cindy, Andy, Daisy, Bob",
+      "final_normalized": "Cindy, Andy, Daisy, Bob",
+      "candidates": [
+        "C",
+        "Cindy, Andy, Daisy, Bob"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "logical_reasoning"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "The score from highest to lower:  First -\\/-\\textgreater{} Cindy  Second -\\/-\\textgreater{} Andy  Thrid -\\/-\\textgreater{} Daisy  Fourth -\\/-\\textgreater{} Bob"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Four friends are competing in a math competition. They are Andy, Bob, Cindy and Daisy. The organiser of the competition told you that: ( 1 ) Andy performed better than Bob. ( 2 ) Cindy s score is higher than Andy s score. ( 3 ) Daisy s score is lower than two of her friends. Rank them from the highest to the lowest. (A) Andy, Bob, Cindy, Daisy (B) Andy, Cindy, Daisy, Bob (C) Cindy, Andy, Daisy, Bob (D) Cindy, Andy, Bob, Daisy (E) None of the above",
+      "solution_text": "The score from highest to lower: First - /- Cindy Second - /- Andy Thrid - /- Daisy Fourth - /- Bob",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7562",
+        "queId": "dae4734d9c524fc3b94ea6d4f53205c6",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Andy, Bob, Cindy, Daisy"
+          },
+          {
+            "label": "B",
+            "content": "Andy, Cindy, Daisy, Bob"
+          },
+          {
+            "label": "C",
+            "content": "Cindy, Andy, Daisy, Bob"
+          },
+          {
+            "label": "D",
+            "content": "Cindy, Andy, Bob, Daisy"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Logical Reasoning"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02072",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2072,
+      "split": "en_train",
+      "source_problem_id": "9220b5b802044337852c68fe46e8298e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Grace was going to meet her friends at the bus station. Right now, it is $8:20$. Grace arrived at the bus station half an hour ago. The trip from her home to the station was $1$ hour long. What time did Grace depart toward the bus station?\n(A) 7:20\n(B) 6:50\n(C) 7:50\n(D) 8:50",
+      "problem_plain": "Grace was going to meet her friends at the bus station. Right now, it is 8:20 . Grace arrived at the bus station half an hour ago. The trip from her home to the station was 1 hour long. What time did Grace depart toward the bus station? (A) 7:20 (B) 6:50 (C) 7:50 (D) 8:50",
+      "solution_latex": "Grace arrived at the bus station at $7:50$, and the trip was $1$ hour long, so she departed at $6:50$.",
+      "solution_plain": "Grace arrived at the bus station at 7:50 , and the trip was 1 hour long, so she departed at 6:50 ."
+    },
+    "answer": {
+      "final_raw": "6:50",
+      "final_normalized": "6:50",
+      "candidates": [
+        "6:50",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Grace arrived at the bus station at $7:50$, and the trip was $1$ hour long, so she departed at $6:50$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Grace was going to meet her friends at the bus station. Right now, it is 8:20 . Grace arrived at the bus station half an hour ago. The trip from her home to the station was 1 hour long. What time did Grace depart toward the bus station? (A) 7:20 (B) 6:50 (C) 7:50 (D) 8:50",
+      "solution_text": "Grace arrived at the bus station at 7:50 , and the trip was 1 hour long, so she departed at 6:50 .",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7632",
+        "queId": "9220b5b802044337852c68fe46e8298e",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "7:20"
+          },
+          {
+            "label": "B",
+            "content": "6:50"
+          },
+          {
+            "label": "C",
+            "content": "7:50"
+          },
+          {
+            "label": "D",
+            "content": "8:50"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02077",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2077,
+      "split": "en_train",
+      "source_problem_id": "a48b341d0e194ece93f480ac24ca84ab"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A certain play has two $30$-minute parts and one intermission among them. The play started at $8:00$ and ended at $9:15$. How many minutes long were the intermission? (Adapted from 2010 Math Kangaroo Problem, Level 1-2, Question \\#19)\n(A) 10\n(B) 15\n(C) 20\n(D) 25",
+      "problem_plain": "A certain play has two 30 -minute parts and one intermission among them. The play started at 8:00 and ended at 9:15 . How many minutes long were the intermission? (Adapted from 2010 Math Kangaroo Problem, Level 1-2, Question #19) (A) 10 (B) 15 (C) 20 (D) 25",
+      "solution_latex": "From $8:00$ to $9:15$ = $1$ h $15$ min, $1$ h $15$ min = $75$ min, two $30$-minute parts = $60$ min, $75 - 60$ = $15$ min.",
+      "solution_plain": "From 8:00 to 9:15 = 1 h 15 min, 1 h 15 min = 75 min, two 30 -minute parts = 60 min, 75 - 60 = 15 min."
+    },
+    "answer": {
+      "final_raw": "15",
+      "final_normalized": "15",
+      "candidates": [
+        "15",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "From $8:00$ to $9:15$ = $1$ h $15$ min, $1$ h $15$ min = $75$ min, two $30$-minute parts = $60$ min, $75 - 60$ = $15$ min."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A certain play has two 30 -minute parts and one intermission among them. The play started at 8:00 and ended at 9:15 . How many minutes long were the intermission? (Adapted from 2010 Math Kangaroo Problem, Level 1-2, Question #19) (A) 10 (B) 15 (C) 20 (D) 25",
+      "solution_text": "From 8:00 to 9:15 = 1 h 15 min, 1 h 15 min = 75 min, two 30 -minute parts = 60 min, 75 - 60 = 15 min.",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7668",
+        "queId": "a48b341d0e194ece93f480ac24ca84ab",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "15"
+          },
+          {
+            "label": "C",
+            "content": "20"
+          },
+          {
+            "label": "D",
+            "content": "25"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02079",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2079,
+      "split": "en_train",
+      "source_problem_id": "9278bd8836594889b36535a8562e84fa"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A school has two classes in the morning, each class continues $$45$$ minutes, and there is a break between classes. The first class starts at $$10:00$$, and the second class ends at $$12:00$$. How long does the courseware rest?\n(A) 10\n(B) 15\n(C) 20\n(D) 30\n(E) 35",
+      "problem_plain": "A school has two classes in the morning, each class continues 45 minutes, and there is a break between classes. The first class starts at 10:00 , and the second class ends at 12:00 . How long does the courseware rest? (A) 10 (B) 15 (C) 20 (D) 30 (E) 35",
+      "solution_latex": "From $$10:00$$ to $$12:00$$ = $$2$$ h = $$120$$ min, two $$45$$-minute parts = $$90$$ min, and $$120 - 90 = 30$$ min.",
+      "solution_plain": "From 10:00 to 12:00 = 2 h = 120 min, two 45 -minute parts = 90 min, and 120 - 90 = 30 min."
+    },
+    "answer": {
+      "final_raw": "30",
+      "final_normalized": "30",
+      "candidates": [
+        "30",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "From $$10:00$$ to $$12:00$$ = $$2$$ h = $$120$$ min, two $$45$$-minute parts = $$90$$ min, and $$120 - 90 = 30$$ min."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A school has two classes in the morning, each class continues 45 minutes, and there is a break between classes. The first class starts at 10:00 , and the second class ends at 12:00 . How long does the courseware rest? (A) 10 (B) 15 (C) 20 (D) 30 (E) 35",
+      "solution_text": "From 10:00 to 12:00 = 2 h = 120 min, two 45 -minute parts = 90 min, and 120 - 90 = 30 min.",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7678",
+        "queId": "9278bd8836594889b36535a8562e84fa",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "15"
+          },
+          {
+            "label": "C",
+            "content": "20"
+          },
+          {
+            "label": "D",
+            "content": "30"
+          },
+          {
+            "label": "E",
+            "content": "35"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02092",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2092,
+      "split": "en_train",
+      "source_problem_id": "e95baf5c19084439a9756d333322b356"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Vera leaves home at $$9.15$$ a.m. to walk to Derek's house, which takes her $$25$$ minutes. Carl leaves his house $$5$$ minutes after Vera but only takes $$6$$ minutes to get to Derek's house.  When Carl arrives, how long will he and Derek have to wait for Vera to arrive?\n(A) 11$$ min\n(B) 14$$ min\n(C) 21$$ min\n(D) 24$$ min",
+      "problem_plain": "Vera leaves home at 9.15 a.m. to walk to Derek's house, which takes her 25 minutes. Carl leaves his house 5 minutes after Vera but only takes 6 minutes to get to Derek's house. When Carl arrives, how long will he and Derek have to wait for Vera to arrive? (A) 11 min (B) 14 min (C) 21 min (D) 24 min",
+      "solution_latex": "Vera will arrive at $$9.40$$ a.m.  Carl will leave at $$9.20$$ a.m. and arrive at $$9.26$$ a.m.  So, Carl and Derek will have to wait for $$14$$ min.",
+      "solution_plain": "Vera will arrive at 9.40 a.m. Carl will leave at 9.20 a.m. and arrive at 9.26 a.m. So, Carl and Derek will have to wait for 14 min."
+    },
+    "answer": {
+      "final_raw": "14$$ min",
+      "final_normalized": "14$$ min",
+      "candidates": [
+        "14$$ min",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Vera will arrive at $$9.40$$ a.m.",
+        "Carl will leave at $$9.20$$ a.m.",
+        "and arrive at $$9.26$$ a.m.",
+        "So, Carl and Derek will have to wait for $$14$$ min."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Vera leaves home at 9.15 a.m. to walk to Derek's house, which takes her 25 minutes. Carl leaves his house 5 minutes after Vera but only takes 6 minutes to get to Derek's house. When Carl arrives, how long will he and Derek have to wait for Vera to arrive? (A) 11 min (B) 14 min (C) 21 min (D) 24 min",
+      "solution_text": "Vera will arrive at 9.40 a.m. Carl will leave at 9.20 a.m. and arrive at 9.26 a.m. So, Carl and Derek will have to wait for 14 min.",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7744",
+        "queId": "e95baf5c19084439a9756d333322b356",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "11$$ min"
+          },
+          {
+            "label": "B",
+            "content": "14$$ min"
+          },
+          {
+            "label": "C",
+            "content": "21$$ min"
+          },
+          {
+            "label": "D",
+            "content": "24$$ min"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02100",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2100,
+      "split": "en_train",
+      "source_problem_id": "ffe5dfecf5fa4c55a1dc51dcb5a20b4b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A school has three classes in the morning, and there is a $$15$$-minutes break between each two classes. Each class is of the same length. The first class starts at $$9:45 $$, and the third class ends at $$12:00 $$. How long is each class?\n(A) 25\n(B) 30\n(C) 35\n(D) 40\n(E) 45",
+      "problem_plain": "A school has three classes in the morning, and there is a 15 -minutes break between each two classes. Each class is of the same length. The first class starts at 9:45 , and the third class ends at 12:00 . How long is each class? (A) 25 (B) 30 (C) 35 (D) 40 (E) 45",
+      "solution_latex": "From $$9:45$$ to $$12:00$$ = $$2$$ h $$15$$m = $$135$$ min, two $$15$$-minute parts = $$30$$ min, and $$135 - 30 = 105$$ min. $$105\\div3=35$$min",
+      "solution_plain": "From 9:45 to 12:00 = 2 h 15 m = 135 min, two 15 -minute parts = 30 min, and 135 - 30 = 105 min. 105 3=35 min"
+    },
+    "answer": {
+      "final_raw": "35",
+      "final_normalized": "35",
+      "candidates": [
+        "35",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "From $$9:45$$ to $$12:00$$ = $$2$$ h $$15$$m = $$135$$ min, two $$15$$-minute parts = $$30$$ min, and $$135 - 30 = 105$$ min.",
+        "$$105\\div3=35$$min"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A school has three classes in the morning, and there is a 15 -minutes break between each two classes. Each class is of the same length. The first class starts at 9:45 , and the third class ends at 12:00 . How long is each class? (A) 25 (B) 30 (C) 35 (D) 40 (E) 45",
+      "solution_text": "From 9:45 to 12:00 = 2 h 15 m = 135 min, two 15 -minute parts = 30 min, and 135 - 30 = 105 min. 105 3=35 min",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7783",
+        "queId": "ffe5dfecf5fa4c55a1dc51dcb5a20b4b",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "25"
+          },
+          {
+            "label": "B",
+            "content": "30"
+          },
+          {
+            "label": "C",
+            "content": "35"
+          },
+          {
+            "label": "D",
+            "content": "40"
+          },
+          {
+            "label": "E",
+            "content": "45"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02110",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2110,
+      "split": "en_train",
+      "source_problem_id": "c577f21c39b6449c9c83f3cf13fe61d1"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Jack, Rebecca, Dustin and Steve write down one number, respectively, which are $44$, $85$, $72$ and $39$.Both Jack\\textquotesingle s and Dustin\\textquotesingle s numbers are odd. Both Jack\\textquotesingle s and Steve\\textquotesingle s numbers are more than $60$. What number is written by Rebecca?\n(A) 44\n(B) 85\n(C) 72\n(D) 39\n(E) Impossible to determine",
+      "problem_plain": "Jack, Rebecca, Dustin and Steve write down one number, respectively, which are 44 , 85 , 72 and 39 .Both Jack s and Dustin s numbers are odd. Both Jack s and Steve s numbers are more than 60 . What number is written by Rebecca? (A) 44 (B) 85 (C) 72 (D) 39 (E) Impossible to determine",
+      "solution_latex": "Eliminate odd numbers and numbers more than $60$, so the only number left is $44$.",
+      "solution_plain": "Eliminate odd numbers and numbers more than 60 , so the only number left is 44 ."
+    },
+    "answer": {
+      "final_raw": "44",
+      "final_normalized": "44",
+      "candidates": [
+        "44",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "logical_reasoning"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Eliminate odd numbers and numbers more than $60$, so the only number left is $44$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Jack, Rebecca, Dustin and Steve write down one number, respectively, which are 44 , 85 , 72 and 39 .Both Jack s and Dustin s numbers are odd. Both Jack s and Steve s numbers are more than 60 . What number is written by Rebecca? (A) 44 (B) 85 (C) 72 (D) 39 (E) Impossible to determine",
+      "solution_text": "Eliminate odd numbers and numbers more than 60 , so the only number left is 44 .",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "logical_reasoning",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7828",
+        "queId": "c577f21c39b6449c9c83f3cf13fe61d1",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "44"
+          },
+          {
+            "label": "B",
+            "content": "85"
+          },
+          {
+            "label": "C",
+            "content": "72"
+          },
+          {
+            "label": "D",
+            "content": "39"
+          },
+          {
+            "label": "E",
+            "content": "Impossible to determine"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Logical Reasoning"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02125",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2125,
+      "split": "en_train",
+      "source_problem_id": "f425c85b93394731a1d7b6b7b063df1c"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A certain play has three $30$-minute parts and two intermission among them. The play started at $8:30$ and ended at $10:15$. How many minutes long were the intermissions in total?\n(A) 10\n(B) 15\n(C) 20\n(D) 25",
+      "problem_plain": "A certain play has three 30 -minute parts and two intermission among them. The play started at 8:30 and ended at 10:15 . How many minutes long were the intermissions in total? (A) 10 (B) 15 (C) 20 (D) 25",
+      "solution_latex": "From $8:30$ to $10:15$ = $1$ hr $45$ min, $1$ hr $45$ min = $105$ min, three $30$-minute parts = $90$ min, $105 - 90$ = $15$ min.",
+      "solution_plain": "From 8:30 to 10:15 = 1 hr 45 min, 1 hr 45 min = 105 min, three 30 -minute parts = 90 min, 105 - 90 = 15 min."
+    },
+    "answer": {
+      "final_raw": "15",
+      "final_normalized": "15",
+      "candidates": [
+        "15",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "time_problem"
+      ],
+      "tags": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "From $8:30$ to $10:15$ = $1$ hr $45$ min, $1$ hr $45$ min = $105$ min, three $30$-minute parts = $90$ min, $105 - 90$ = $15$ min."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A certain play has three 30 -minute parts and two intermission among them. The play started at 8:30 and ended at 10:15 . How many minutes long were the intermissions in total? (A) 10 (B) 15 (C) 20 (D) 25",
+      "solution_text": "From 8:30 to 10:15 = 1 hr 45 min, 1 hr 45 min = 105 min, three 30 -minute parts = 90 min, 105 - 90 = 15 min.",
+      "keywords": [
+        "combinatorics",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "time_problem"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7936",
+        "queId": "f425c85b93394731a1d7b6b7b063df1c",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "15"
+          },
+          {
+            "label": "C",
+            "content": "20"
+          },
+          {
+            "label": "D",
+            "content": "25"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Time Problem"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:counting_probability:level_1:02128",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2128,
+      "split": "en_train",
+      "source_problem_id": "f94e5095fed648a0af370b4e2e6c710d"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "From $1$ to $30$, how many integers can be chosen at most to ensure that no two of chosen numbers sum to $36$?\n(A) 15\n(B) 16\n(C) 17\n(D) 18\n(E) 19",
+      "problem_plain": "From 1 to 30 , how many integers can be chosen at most to ensure that no two of chosen numbers sum to 36 ? (A) 15 (B) 16 (C) 17 (D) 18 (E) 19",
+      "solution_latex": "1, 2, 3, 4, 5, 18→ 6  $30-5-1=24$, $24\\div2=12$  $$6+12=18$$",
+      "solution_plain": "1, 2, 3, 4, 5, 18→ 6 30-5-1=24 , 24 2=12 6+12=18"
+    },
+    "answer": {
+      "final_raw": "18",
+      "final_normalized": "18",
+      "candidates": [
+        "18",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "combinatorics",
+        "constructing_and_proving"
+      ],
+      "tags": [
+        "combinatorics",
+        "constructing_and_proving",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "1, 2, 3, 4, 5, 18→ 6  $30-5-1=24$, $24\\div2=12$  $$6+12=18$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "From 1 to 30 , how many integers can be chosen at most to ensure that no two of chosen numbers sum to 36 ? (A) 15 (B) 16 (C) 17 (D) 18 (E) 19",
+      "solution_text": "1, 2, 3, 4, 5, 18→ 6 30-5-1=24 , 24 2=12 6+12=18",
+      "keywords": [
+        "combinatorics",
+        "constructing_and_proving",
+        "counting_probability",
+        "en",
+        "en_train",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "7966",
+        "queId": "f94e5095fed648a0af370b4e2e6c710d",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "15"
+          },
+          {
+            "label": "B",
+            "content": "16"
+          },
+          {
+            "label": "C",
+            "content": "17"
+          },
+          {
+            "label": "D",
+            "content": "18"
+          },
+          {
+            "label": "E",
+            "content": "19"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Constructing and Proving"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  }
+]

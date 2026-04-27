@@ -1,0 +1,3872 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00029",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 29,
+      "split": "zh_test",
+      "source_problem_id": "e0104824ea8d4eca8bc742d4b1eaab57"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在小镇大学里，学生们的专业是音乐、美术，或两者．如果有$$500$$个学生是音乐专业，$$600$$个学生是美术专业，$$300$$个学生是音乐和美术专业，那么大学里有多少个学生？\n(A) 500\n(B) 800\n(C) 1000\n(D) 1400",
+      "problem_plain": "在小镇大学里，学生们的专业是音乐、美术，或两者．如果有 500 个学生是音乐专业， 600 个学生是美术专业， 300 个学生是音乐和美术专业，那么大学里有多少个学生？ (A) 500 (B) 800 (C) 1000 (D) 1400",
+      "solution_latex": "$$500+600-300=800$$个．",
+      "solution_plain": "500+600-300=800 个．"
+    },
+    "answer": {
+      "final_raw": "800",
+      "final_normalized": "800",
+      "candidates": [
+        "800",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$500+600-300=800$$个．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在小镇大学里，学生们的专业是音乐、美术，或两者．如果有 500 个学生是音乐专业， 600 个学生是美术专业， 300 个学生是音乐和美术专业，那么大学里有多少个学生？ (A) 500 (B) 800 (C) 1000 (D) 1400",
+      "solution_text": "500+600-300=800 个．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3395",
+        "queId": "e0104824ea8d4eca8bc742d4b1eaab57",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "500"
+          },
+          {
+            "label": "B",
+            "content": "800"
+          },
+          {
+            "label": "C",
+            "content": "1000"
+          },
+          {
+            "label": "D",
+            "content": "1400"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->逻辑分析"
+        ],
+        "competition_source_list": [
+          "2016年全国美国数学大联盟杯小学中年级三年级竞赛初赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00033",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 33,
+      "split": "zh_test",
+      "source_problem_id": "f4e55db9c8c34573ad31f0878c67a685"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "甲、乙两人从$$A$$地，丙从$$B$$地同时出发，相向而行．当甲、丙相遇时，乙刚好走了全程的$$\\frac{1}{5}$$；此时甲立即掉头向$$\\text{A}$$地行走，乙、丙仍按原方向行走．当甲、乙相遇时，丙距离$$B$$地$$336$$米；三人继续行走，当乙、丙相遇时，甲恰好回到$$A$$地．那么，$$A$$、$$B$$两地之间的距离是米．\n(A) 480\n(B) 560\n(C) 720\n(D) 840\n(E) 1080",
+      "problem_plain": "甲、乙两人从 A 地，丙从 B 地同时出发，相向而行．当甲、丙相遇时，乙刚好走了全程的 1 5 ；此时甲立即掉头向 A 地行走，乙、丙仍按原方向行走．当甲、乙相遇时，丙距离 B 地 336 米；三人继续行走，当乙、丙相遇时，甲恰好回到 A 地．那么， A 、 B 两地之间的距离是米． (A) 480 (B) 560 (C) 720 (D) 840 (E) 1080",
+      "solution_latex": "此类行程题，速度比最重要，注意到甲往返路程相同，而最后乙丙正好相遇．则在甲丙相遇时．乙丙应合走了全程的一半，则在此时刻三人路程比为$$7:2:3$$，即$${{v}_{甲}}:{{v}_{乙}}:{{v}_{丙}}=7:2:3$$，所以甲乙相遇时．丙走了全程的$$\\frac{3}{10}+\\left( \\frac{7}{10}-\\frac{1}{5} \\right) \\times \\frac{3}{7+2}=\\frac{7}{15}$$，$$336\\div \\frac{7}{15}=720$$．",
+      "solution_plain": "此类行程题，速度比最重要，注意到甲往返路程相同，而最后乙丙正好相遇．则在甲丙相遇时．乙丙应合走了全程的一半，则在此时刻三人路程比为 7:2:3 ，即 v _ 甲 : v _ 乙 : v _ 丙 =7:2:3 ，所以甲乙相遇时．丙走了全程的 3 10 + ( 7 10 - 1 5 ) 3 7+2 = 7 15 ， 336 7 15 =720 ．"
+    },
+    "answer": {
+      "final_raw": "720",
+      "final_normalized": "720",
+      "candidates": [
+        "720",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "1",
+        "unknown"
+      ],
+      "tags": [
+        "1",
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "此类行程题，速度比最重要，注意到甲往返路程相同，而最后乙丙正好相遇．则在甲丙相遇时．乙丙应合走了全程的一半，则在此时刻三人路程比为$$7:2:3$$，即$${{v}_{甲}}:{{v}_{乙}}:{{v}_{丙}}=7:2:3$$，所以甲乙相遇时．丙走了全程的$$\\frac{3}{10}+\\left( \\frac{7}{10}-\\frac{1}{5} \\right) \\times \\frac{3}{7+2}=\\frac{7}{15}$$，$$336\\div \\frac{7}{15}=720$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "甲、乙两人从 A 地，丙从 B 地同时出发，相向而行．当甲、丙相遇时，乙刚好走了全程的 1 5 ；此时甲立即掉头向 A 地行走，乙、丙仍按原方向行走．当甲、乙相遇时，丙距离 B 地 336 米；三人继续行走，当乙、丙相遇时，甲恰好回到 A 地．那么， A 、 B 两地之间的距离是米． (A) 480 (B) 560 (C) 720 (D) 840 (E) 1080",
+      "solution_text": "此类行程题，速度比最重要，注意到甲往返路程相同，而最后乙丙正好相遇．则在甲丙相遇时．乙丙应合走了全程的一半，则在此时刻三人路程比为 7:2:3 ，即 v _ 甲 : v _ 乙 : v _ 丙 =7:2:3 ，所以甲乙相遇时．丙走了全程的 3 10 + ( 7 10 - 1 5 ) 3 7+2 = 7 15 ， 336 7 15 =720 ．",
+      "keywords": [
+        "1",
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2104",
+        "queId": "f4e55db9c8c34573ad31f0878c67a685",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "480"
+          },
+          {
+            "label": "B",
+            "content": "560"
+          },
+          {
+            "label": "C",
+            "content": "720"
+          },
+          {
+            "label": "D",
+            "content": "840"
+          },
+          {
+            "label": "E",
+            "content": "1080"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->构造模型->模型思想",
+          "Overseas Competition->知识点->应用题模块->分百应用题->认识单位1"
+        ],
+        "competition_source_list": [
+          "2015年北京学而思杯五年级竞赛A卷第16题",
+          "2015年全国学而思杯五年级竞赛A卷第16题",
+          "2015年浙江杭州学而思杯五年级竞赛A卷第10题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00050",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 50,
+      "split": "zh_test",
+      "source_problem_id": "c28f29ea6d464bdbbbdc2e5b00857d94"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "请从一个$$1 \\sim 9$$（缺$$8$$）这八个自然数中不重复地用这些数字构造出四个两位质数，并求出它们的和是．\n(A) 190\n(B) 217\n(C) 127\n(D) 无法构造",
+      "problem_plain": "请从一个 1 9 （缺 8 ）这八个自然数中不重复地用这些数字构造出四个两位质数，并求出它们的和是． (A) 190 (B) 217 (C) 127 (D) 无法构造",
+      "solution_latex": "我们知道所有的偶数都是合数，除了$$5$$以外，个位为$$5$$的数也都是合数，这$$8$$个数中只有$$1$$、$$3$$、$$5$$、$$7$$、$$9$$放在个位才有可能是质数，所以十位上只能是$$2$$、$$4$$、$$5$$、$$6$$．这四个两位数的和是$$\\left( 2+4+5+6 \\right)\\times 10+1+3+7+9=190$$．",
+      "solution_plain": "我们知道所有的偶数都是合数，除了 5 以外，个位为 5 的数也都是合数，这 8 个数中只有 1 、 3 、 5 、 7 、 9 放在个位才有可能是质数，所以十位上只能是 2 、 4 、 5 、 6 ．这四个两位数的和是 ( 2+4+5+6 ) 10+1+3+7+9=190 ．"
+    },
+    "answer": {
+      "final_raw": "190",
+      "final_normalized": "190",
+      "candidates": [
+        "190",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "我们知道所有的偶数都是合数，除了$$5$$以外，个位为$$5$$的数也都是合数，这$$8$$个数中只有$$1$$、$$3$$、$$5$$、$$7$$、$$9$$放在个位才有可能是质数，所以十位上只能是$$2$$、$$4$$、$$5$$、$$6$$．这四个两位数的和是$$\\left( 2+4+5+6 \\right)\\times 10+1+3+7+9=190$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "请从一个 1 9 （缺 8 ）这八个自然数中不重复地用这些数字构造出四个两位质数，并求出它们的和是． (A) 190 (B) 217 (C) 127 (D) 无法构造",
+      "solution_text": "我们知道所有的偶数都是合数，除了 5 以外，个位为 5 的数也都是合数，这 8 个数中只有 1 、 3 、 5 、 7 、 9 放在个位才有可能是质数，所以十位上只能是 2 、 4 、 5 、 6 ．这四个两位数的和是 ( 2+4+5+6 ) 10+1+3+7+9=190 ．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "620",
+        "queId": "c28f29ea6d464bdbbbdc2e5b00857d94",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "190"
+          },
+          {
+            "label": "B",
+            "content": "217"
+          },
+          {
+            "label": "C",
+            "content": "127"
+          },
+          {
+            "label": "D",
+            "content": "无法构造"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->逻辑分析"
+        ],
+        "competition_source_list": [
+          "2016年全国世奥赛竞赛A卷第11题",
+          "2016年第16届世奥赛六年级竞赛决赛第11题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00056",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 56,
+      "split": "zh_test",
+      "source_problem_id": "6c4651e5bb144e398cde849279391cfb"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一辆汽车从甲地出发到$$300$$千米外的乙地去，前$$120$$千米的平均速度为$$40$$千米/时，要想使这辆汽车从甲地到乙地的平均速度为$$50$$千米/时，剩下的路程应以~\\uline{~~~~~~~~~~}~千米/时行驶．\n(A) 75\n(B) 60\n(C) 45\n(D) 30",
+      "problem_plain": "一辆汽车从甲地出发到 300 千米外的乙地去，前 120 千米的平均速度为 40 千米/时，要想使这辆汽车从甲地到乙地的平均速度为 50 千米/时，剩下的路程应以~ ~~~~~~~~~~ ~千米/时行驶． (A) 75 (B) 60 (C) 45 (D) 30",
+      "solution_latex": "剩下的路程为：$$300-120=180$$（千米），计划总时间为：$$300÷50=6$$（小时），前$$120$$千米已用去$$120÷40=3（$$小时），所以剩下路程的速度为： $$（300-120）÷（6-3）=60$$（千米/时）．",
+      "solution_plain": "剩下的路程为： 300-120=180 （千米），计划总时间为： 300÷50=6 （小时），前 120 千米已用去 120÷40=3（ 小时），所以剩下路程的速度为： （300-120）÷（6-3）=60 （千米/时）．"
+    },
+    "answer": {
+      "final_raw": "60",
+      "final_normalized": "60",
+      "candidates": [
+        "60",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "剩下的路程为：$$300-120=180$$（千米），计划总时间为：$$300÷50=6$$（小时），前$$120$$千米已用去$$120÷40=3（$$小时），所以剩下路程的速度为： $$（300-120）÷（6-3）=60$$（千米/时）．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一辆汽车从甲地出发到 300 千米外的乙地去，前 120 千米的平均速度为 40 千米/时，要想使这辆汽车从甲地到乙地的平均速度为 50 千米/时，剩下的路程应以~ ~~~~~~~~~~ ~千米/时行驶． (A) 75 (B) 60 (C) 45 (D) 30",
+      "solution_text": "剩下的路程为： 300-120=180 （千米），计划总时间为： 300÷50=6 （小时），前 120 千米已用去 120÷40=3（ 小时），所以剩下路程的速度为： （300-120）÷（6-3）=60 （千米/时）．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2212",
+        "queId": "6c4651e5bb144e398cde849279391cfb",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "75"
+          },
+          {
+            "label": "B",
+            "content": "60"
+          },
+          {
+            "label": "C",
+            "content": "45"
+          },
+          {
+            "label": "D",
+            "content": "30"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->数学思想->转化与化归的思想"
+        ],
+        "competition_source_list": [
+          "其它改编题",
+          "2018年第8届北京学而思综合能力诊断五年级竞赛年度教学质量监测第10题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00066",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 66,
+      "split": "zh_test",
+      "source_problem_id": "ff8080814518d52401451908239902f4"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "甲、乙两人比赛折返跑，同时从$$A$$出发，到达$$B$$点后，立即返回，先回到$$A$$点的人获胜．甲先到达$$B$$点，在距离$$B$$点$$24$$米的地方遇到乙．相遇后，甲的速度减为原来的一半，乙的速度保持不变．在距离终点$$48$$米的地方，乙追上甲．那么，当乙到达终点时，甲距离终点还有（~~~~ ）米．\n(A) 6\n(B) 8\n(C) 12\n(D) 16",
+      "problem_plain": "甲、乙两人比赛折返跑，同时从 A 出发，到达 B 点后，立即返回，先回到 A 点的人获胜．甲先到达 B 点，在距离 B 点 24 米的地方遇到乙．相遇后，甲的速度减为原来的一半，乙的速度保持不变．在距离终点 48 米的地方，乙追上甲．那么，当乙到达终点时，甲距离终点还有（~~~~ ）米． (A) 6 (B) 8 (C) 12 (D) 16",
+      "solution_latex": "注意到第一次遇到时乙走了一个全程少$$24$$米，而两次加起来，乙一共走了两个全程少$$48$$米，则第二次遇到时乙也是走了一个全程少$$24$$米，而乙的速度不变，所以两人这两次相遇追及时间是相同的，而甲两次的路程分别为全程多$$24$$米和全程少$$72$$米，两次甲的路程差了$$96$$米，速度比$$2:1$$，则路程比$$2:1$$，说明甲第二次走了$$96$$米，乙走了$$96+24\\times 2=144$$米，甲乙速度比$$2:3$$，所以乙走完剩下的$$48$$米时甲应该只走了$$48\\div3\\times 2=32$$米，剩$$16$$米．",
+      "solution_plain": "注意到第一次遇到时乙走了一个全程少 24 米，而两次加起来，乙一共走了两个全程少 48 米，则第二次遇到时乙也是走了一个全程少 24 米，而乙的速度不变，所以两人这两次相遇追及时间是相同的，而甲两次的路程分别为全程多 24 米和全程少 72 米，两次甲的路程差了 96 米，速度比 2:1 ，则路程比 2:1 ，说明甲第二次走了 96 米，乙走了 96+24 2=144 米，甲乙速度比 2:3 ，所以乙走完剩下的 48 米时甲应该只走了 48 3 2=32 米，剩 16 米．"
+    },
+    "answer": {
+      "final_raw": "16",
+      "final_normalized": "16",
+      "candidates": [
+        "16",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "注意到第一次遇到时乙走了一个全程少$$24$$米，而两次加起来，乙一共走了两个全程少$$48$$米，则第二次遇到时乙也是走了一个全程少$$24$$米，而乙的速度不变，所以两人这两次相遇追及时间是相同的，而甲两次的路程分别为全程多$$24$$米和全程少$$72$$米，两次甲的路程差了$$96$$米，速度比$$2:1$$，则路程比$$2:1$$，说明甲第二次走了$$96$$米，乙走了$$96+24\\times 2=144$$米，甲乙速度比$$2:3$$，所以乙走完剩下的$$48$$米时甲应该只走了$$48\\div3\\times 2=32$$米，剩$$16$$米．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "甲、乙两人比赛折返跑，同时从 A 出发，到达 B 点后，立即返回，先回到 A 点的人获胜．甲先到达 B 点，在距离 B 点 24 米的地方遇到乙．相遇后，甲的速度减为原来的一半，乙的速度保持不变．在距离终点 48 米的地方，乙追上甲．那么，当乙到达终点时，甲距离终点还有（~~~~ ）米． (A) 6 (B) 8 (C) 12 (D) 16",
+      "solution_text": "注意到第一次遇到时乙走了一个全程少 24 米，而两次加起来，乙一共走了两个全程少 48 米，则第二次遇到时乙也是走了一个全程少 24 米，而乙的速度不变，所以两人这两次相遇追及时间是相同的，而甲两次的路程分别为全程多 24 米和全程少 72 米，两次甲的路程差了 96 米，速度比 2:1 ，则路程比 2:1 ，说明甲第二次走了 96 米，乙走了 96+24 2=144 米，甲乙速度比 2:3 ，所以乙走完剩下的 48 米时甲应该只走了 48 3 2=32 米，剩 16 米．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2248",
+        "queId": "ff8080814518d52401451908239902f4",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "8"
+          },
+          {
+            "label": "C",
+            "content": "12"
+          },
+          {
+            "label": "D",
+            "content": "16"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->转化与化归的思想"
+        ],
+        "competition_source_list": [
+          "2014年全国迎春杯五年级竞赛初赛第13题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00096",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 96,
+      "split": "zh_test",
+      "source_problem_id": "5e9a64a9d40e444781e5d75506989551"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "从$$1$$，$$2$$，$$3$$，$$4$$，$$\\cdots$$，$$15$$，$$16$$这十六个自然数中，任取出$$n$$个数，其中必有这样的两个数：一个是另一个的$$3$$倍，则$$n$$最小是~\\uline{~~~~~~~~~~}~．\n(A) 11\n(B) 12\n(C) 13\n(D) 14",
+      "problem_plain": "从 1 ， 2 ， 3 ， 4 ， ， 15 ， 16 这十六个自然数中，任取出 n 个数，其中必有这样的两个数：一个是另一个的 3 倍，则 n 最小是~ ~~~~~~~~~~ ~． (A) 11 (B) 12 (C) 13 (D) 14",
+      "solution_latex": "有$$3$$倍关系的数放入一组：（$$1$$，$$3$$，$$9$$）、（$$2$$，$$6$$）、（$$4$$，$$12$$）、（$$5$$，$$15$$），  其余$$7$$个数每个数放入一组，第一组最多取$$2$$个（$$1$$和$$9$$），其余每组最多只能取$$1$$个，  因此最多取$$12$$个保证没有$$3$$倍关系，再多取一个就可以保证有一个数是另一个数的$$3$$倍．",
+      "solution_plain": "有 3 倍关系的数放入一组：（ 1 ， 3 ， 9 ）、（ 2 ， 6 ）、（ 4 ， 12 ）、（ 5 ， 15 ）， 其余 7 个数每个数放入一组，第一组最多取 2 个（ 1 和 9 ），其余每组最多只能取 1 个， 因此最多取 12 个保证没有 3 倍关系，再多取一个就可以保证有一个数是另一个数的 3 倍．"
+    },
+    "answer": {
+      "final_raw": "13",
+      "final_normalized": "13",
+      "candidates": [
+        "13",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "有$$3$$倍关系的数放入一组：（$$1$$，$$3$$，$$9$$）、（$$2$$，$$6$$）、（$$4$$，$$12$$）、（$$5$$，$$15$$），  其余$$7$$个数每个数放入一组，第一组最多取$$2$$个（$$1$$和$$9$$），其余每组最多只能取$$1$$个，  因此最多取$$12$$个保证没有$$3$$倍关系，再多取一个就可以保证有一个数是另一个数的$$3$$倍．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "从 1 ， 2 ， 3 ， 4 ， ， 15 ， 16 这十六个自然数中，任取出 n 个数，其中必有这样的两个数：一个是另一个的 3 倍，则 n 最小是~ ~~~~~~~~~~ ~． (A) 11 (B) 12 (C) 13 (D) 14",
+      "solution_text": "有 3 倍关系的数放入一组：（ 1 ， 3 ， 9 ）、（ 2 ， 6 ）、（ 4 ， 12 ）、（ 5 ， 15 ）， 其余 7 个数每个数放入一组，第一组最多取 2 个（ 1 和 9 ），其余每组最多只能取 1 个， 因此最多取 12 个保证没有 3 倍关系，再多取一个就可以保证有一个数是另一个数的 3 倍．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "210",
+        "queId": "5e9a64a9d40e444781e5d75506989551",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "11"
+          },
+          {
+            "label": "B",
+            "content": "12"
+          },
+          {
+            "label": "C",
+            "content": "13"
+          },
+          {
+            "label": "D",
+            "content": "14"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->整体思想"
+        ],
+        "competition_source_list": [
+          "2012年全国希望杯六年级竞赛初赛第17题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00107",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 107,
+      "split": "zh_test",
+      "source_problem_id": "ab49bc9989f4475aa8e6ef037237443b"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有$$2012$$名学生排成一行，从左向右依次编成$$1$$，$$2$$，\\ldots，$$2012$$号．第一次从左向右``$$1$$，$$2$$''报数，凡报到$$2$$的学生留下；从第二次起，每次都是让留下的学生从左向右``$$1$$，$$2$$，$$3$$''报数，凡报到$$3$$的学生留下，直到只留下$$1$$名学生．请问这名最后留下的学生编号是？\n(A) 1279\n(B) 1458\n(C) 2000",
+      "problem_plain": "有 2012 名学生排成一行，从左向右依次编成 1 ， 2 ， ， 2012 号．第一次从左向右`` 1 ， 2 ''报数，凡报到 2 的学生留下；从第二次起，每次都是让留下的学生从左向右`` 1 ， 2 ， 3 ''报数，凡报到 3 的学生留下，直到只留下 1 名学生．请问这名最后留下的学生编号是？ (A) 1279 (B) 1458 (C) 2000",
+      "solution_latex": "第一次报数后留下：$$2$$、$$4$$、$$6$$、\\ldots\\ldots（$$2$$的倍数）；  第二次报数后留下：$$6$$、$$12$$、$$18$$、\\ldots\\ldots（$$6=2\\times 3$$的倍数）；  第三次报数后留下：$$18$$、$$36$$、$$54$$、\\ldots\\ldots（$$18=2\\times {{3}^{2}}$$的倍数）；  第四次报数后留下：$$54$$、$$108$$、$$162$$、\\ldots\\ldots（$$54=2\\times {{3}^{3}}$$的倍数）；  第五次报数后留下：$$162$$、$$324$$、$$486$$、\\ldots\\ldots（$$162=2\\times {{3}^{4}}$$的倍数）；  第六次报数后留下：$$486$$、$$972$$、$$1458$$、\\ldots\\ldots（$$486=2\\times {{3}^{5}}$$的倍数）；  第七次报数后留下：$$1458$$（$$1458=2\\times {{3}^{6}}$$的倍数）；  即最后留下的学生编号是$$1458$$．  或者可以按照规律，最后留下的学生的编号是$$2\\times {{3}^{n}}$$，$$n$$要尽可能大；  取$$n=6$$，可得最后留下的学生编号是$$2\\times {{3}^{6}}=1458$$．",
+      "solution_plain": "第一次报数后留下： 2 、 4 、 6 、 （ 2 的倍数）； 第二次报数后留下： 6 、 12 、 18 、 （ 6=2 3 的倍数）； 第三次报数后留下： 18 、 36 、 54 、 （ 18=2 3 ^ 2 的倍数）； 第四次报数后留下： 54 、 108 、 162 、 （ 54=2 3 ^ 3 的倍数）； 第五次报数后留下： 162 、 324 、 486 、 （ 162=2 3 ^ 4 的倍数）； 第六次报数后留下： 486 、 972 、 1458 、 （ 486=2 3 ^ 5 的倍数）； 第七次报数后留下： 1458 （ 1458=2 3 ^ 6 的倍数）； 即最后留下的学生编号是 1458 ． 或者可以按照规律，最后留下的学生的编号是 2 3 ^ n ， n 要尽可能大； 取 n=6 ，可得最后留下的学生编号是 2 3 ^ 6 =1458 ．"
+    },
+    "answer": {
+      "final_raw": "1458",
+      "final_normalized": "1458",
+      "candidates": [
+        "1458",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "第一次报数后留下：$$2$$、$$4$$、$$6$$、\\ldots\\ldots（$$2$$的倍数）；  第二次报数后留下：$$6$$、$$12$$、$$18$$、\\ldots\\ldots（$$6=2\\times 3$$的倍数）；  第三次报数后留下：$$18$$、$$36$$、$$54$$、\\ldots\\ldots（$$18=2\\times {{3}^{2}}$$的倍数）；  第四次报数后留下：$$54$$、$$108$$、$$162$$、\\ldots\\ldots（$$54=2\\times {{3}^{3}}$$的倍数）；  第五次报数后留下：$$162$$、$$324$$、$$486$$、\\ldots\\ldots（$$162=2\\times {{3}^{4}}$$的倍数）；  第六次报数后留下：$$486$$、$$972$$、$$1458$$、\\ldots\\ldots（$$486=2\\times {{3}^{5}}$$的倍数）；  第七次报数后留下：$$1458$$（$$1458=2\\times {{3}^{6}}$$的倍数）；  即最后留下的学生编号是$$1458$$．  或者可以按照规律，最后留下的学生的编号是$$2\\times {{3}^{n}}$$，$$n$$要尽可能大；  取$$n=6$$，可得最后留下的学生编号是$$2\\times {{3}^{6}}=1458$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有 2012 名学生排成一行，从左向右依次编成 1 ， 2 ， ， 2012 号．第一次从左向右`` 1 ， 2 ''报数，凡报到 2 的学生留下；从第二次起，每次都是让留下的学生从左向右`` 1 ， 2 ， 3 ''报数，凡报到 3 的学生留下，直到只留下 1 名学生．请问这名最后留下的学生编号是？ (A) 1279 (B) 1458 (C) 2000",
+      "solution_text": "第一次报数后留下： 2 、 4 、 6 、 （ 2 的倍数）； 第二次报数后留下： 6 、 12 、 18 、 （ 6=2 3 的倍数）； 第三次报数后留下： 18 、 36 、 54 、 （ 18=2 3 ^ 2 的倍数）； 第四次报数后留下： 54 、 108 、 162 、 （ 54=2 3 ^ 3 的倍数）； 第五次报数后留下： 162 、 324 、 486 、 （ 162=2 3 ^ 4 的倍数）； 第六次报数后留下： 486 、 972 、 1458 、 （ 486=2 3 ^ 5 的倍数）； 第七次报数后留下： 1458 （ 1458=2 3 ^ 6 的倍数）； 即最后留下的学生编号是 1458 ． 或者可以按照规律，最后留下的学生的编号是 2 3 ^ n ， n 要尽可能大； 取 n=6 ，可得最后留下的学生编号是 2 3 ^ 6 =1458 ．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "591",
+        "queId": "ab49bc9989f4475aa8e6ef037237443b",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1279"
+          },
+          {
+            "label": "B",
+            "content": "1458"
+          },
+          {
+            "label": "C",
+            "content": "2000"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->课内知识点->数学广角->推理->解决简单逻辑推理问题"
+        ],
+        "competition_source_list": [
+          "2013年第12届上海小机灵杯小学中年级四年级竞赛初赛第18题8分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00160",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 160,
+      "split": "zh_test",
+      "source_problem_id": "e5fcc7aa09e1464ea2ab9da72ef108b2"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在等式$$\\frac{1}{18}+\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=1$$中，符号$$x$$，$$y$$，$$z$$分别代表三个不同的自然数，那么，这三个数的和为~\\uline{~~~~~~~~~~}~．\n(A) 12\n(B) 14\n(C) 16\n(D) 18",
+      "problem_plain": "在等式 1 18 + 1 x + 1 y + 1 z =1 中，符号 x ， y ， z 分别代表三个不同的自然数，那么，这三个数的和为~ ~~~~~~~~~~ ~． (A) 12 (B) 14 (C) 16 (D) 18",
+      "solution_latex": "首先估算，若没有$$\\frac{1}{2}$$，则三个分数最大为：$$\\frac{1}{3}+\\frac{1}{4}+\\frac{1}{5}+\\frac{1}{18}\\textless{}1$$，则必有$$\\frac{1}{2}$$，依次类推，当有$$\\frac {1}{3}$$时，满足题目条件，原式$$=\\frac {1}{18}+\\frac {1}{2}+\\frac {1}{3}+\\frac {1}{z}=1$$，解得$$z=9$$，则$$x+y+z=2+3+9=14$$．",
+      "solution_plain": "首先估算，若没有 1 2 ，则三个分数最大为： 1 3 + 1 4 + 1 5 + 1 18 1 ，则必有 1 2 ，依次类推，当有 1 3 时，满足题目条件，原式 = 1 18 + 1 2 + 1 3 + 1 z =1 ，解得 z=9 ，则 x+y+z=2+3+9=14 ．"
+    },
+    "answer": {
+      "final_raw": "14",
+      "final_normalized": "14",
+      "candidates": [
+        "14",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "首先估算，若没有$$\\frac{1}{2}$$，则三个分数最大为：$$\\frac{1}{3}+\\frac{1}{4}+\\frac{1}{5}+\\frac{1}{18}\\textless{}1$$，则必有$$\\frac{1}{2}$$，依次类推，当有$$\\frac {1}{3}$$时，满足题目条件，原式$$=\\frac {1}{18}+\\frac {1}{2}+\\frac {1}{3}+\\frac {1}{z}=1$$，解得$$z=9$$，则$$x+y+z=2+3+9=14$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在等式 1 18 + 1 x + 1 y + 1 z =1 中，符号 x ， y ， z 分别代表三个不同的自然数，那么，这三个数的和为~ ~~~~~~~~~~ ~． (A) 12 (B) 14 (C) 16 (D) 18",
+      "solution_text": "首先估算，若没有 1 2 ，则三个分数最大为： 1 3 + 1 4 + 1 5 + 1 18 1 ，则必有 1 2 ，依次类推，当有 1 3 时，满足题目条件，原式 = 1 18 + 1 2 + 1 3 + 1 z =1 ，解得 z=9 ，则 x+y+z=2+3+9=14 ．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3065",
+        "queId": "e5fcc7aa09e1464ea2ab9da72ef108b2",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "12"
+          },
+          {
+            "label": "B",
+            "content": "14"
+          },
+          {
+            "label": "C",
+            "content": "16"
+          },
+          {
+            "label": "D",
+            "content": "18"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->逻辑分析"
+        ],
+        "competition_source_list": [
+          "2017年第15届湖北武汉创新杯五年级竞赛决赛第16题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00216",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 216,
+      "split": "zh_test",
+      "source_problem_id": "2c03993b08a94a73af3428cd810057ea"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$a\\ne 2$$，在下列结论中，（~ ）是错误结论．\n(A) 2x+3=ax-3$$和$$\\left( 2x+3 \\right)\\left( {{m}^{2}}+1 \\right)=\\left( ax-3 \\right)\\left( {{m}^{2}}+1 \\right)$$是同解方程\n(B) 2x+3=ax-3$$和$$2\\left( 2x+3 \\right)+{{m}^{2}}-1=2\\left( ax-3 \\right)+{{m}^{2}}+1$$是同解方程\n(C) 2x+3=ax-3$$和$$2\\left( 2x+3 \\right)\\left( {{m}^{2}}-1 \\right)=2\\left( ax-3 \\right)\\left( {{m}^{2}}-1 \\right)$$是同解方程\n(D) 2x+3=ax-3$$和$$\\left( a-2 \\right)x=6$$是同解方程",
+      "problem_plain": "设 a 2 ，在下列结论中，（~ ）是错误结论． (A) 2x+3=ax-3 和 ( 2x+3 ) ( m ^ 2 +1 )= ( ax-3 ) ( m ^ 2 +1 ) 是同解方程 (B) 2x+3=ax-3 和 2 ( 2x+3 )+ m ^ 2 -1=2 ( ax-3 )+ m ^ 2 +1 是同解方程 (C) 2x+3=ax-3 和 2 ( 2x+3 ) ( m ^ 2 -1 )=2 ( ax-3 ) ( m ^ 2 -1 ) 是同解方程 (D) 2x+3=ax-3 和 ( a-2 )x=6 是同解方程",
+      "solution_latex": "对于任何$$m$$的值，$${{m}^{2}}+1$$都不等于$$0$$，由原理二，（$$\\text{A}$$）正确；由原理一和二，$$\\text{B}$$）正确；由原理一，（$$\\text{D}$$）正确；当$$m=1$$时，$${{m}^{2}}-1=0$$，所以（$$\\text{C}$$）是错误结论．",
+      "solution_plain": "对于任何 m 的值， m ^ 2 +1 都不等于 0 ，由原理二，（ A ）正确；由原理一和二， B ）正确；由原理一，（ D ）正确；当 m=1 时， m ^ 2 -1=0 ，所以（ C ）是错误结论．"
+    },
+    "answer": {
+      "final_raw": "2x+3=ax-3$$和$$2\\left( 2x+3 \\right)\\left( {{m}^{2}}-1 \\right)=2\\left( ax-3 \\right)\\left( {{m}^{2}}-1 \\right)$$是同解方程",
+      "final_normalized": "2x+3=ax-3$$和$$2\\left( 2x+3 \\right)\\left( {{m}^{2}}-1 \\right)=2\\left( ax-3 \\right)\\left( {{m}^{2}}-1 \\right)$$是同解方程",
+      "candidates": [
+        "2x+3=ax-3$$和$$2\\left( 2x+3 \\right)\\left( {{m}^{2}}-1 \\right)=2\\left( ax-3 \\right)\\left( {{m}^{2}}-1 \\right)$$是同解方程",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "对于任何$$m$$的值，$${{m}^{2}}+1$$都不等于$$0$$，由原理二，（$$\\text{A}$$）正确；由原理一和二，$$\\text{B}$$）正确；由原理一，（$$\\text{D}$$）正确；当$$m=1$$时，$${{m}^{2}}-1=0$$，所以（$$\\text{C}$$）是错误结论．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 a 2 ，在下列结论中，（~ ）是错误结论． (A) 2x+3=ax-3 和 ( 2x+3 ) ( m ^ 2 +1 )= ( ax-3 ) ( m ^ 2 +1 ) 是同解方程 (B) 2x+3=ax-3 和 2 ( 2x+3 )+ m ^ 2 -1=2 ( ax-3 )+ m ^ 2 +1 是同解方程 (C) 2x+3=ax-3 和 2 ( 2x+3 ) ( m ^ 2 -1 )=2 ( ax-3 ) ( m ^ 2 -1 ) 是同解方程 (D) 2x+3=ax-3 和 ( a-2 )x=6 是同解方程",
+      "solution_text": "对于任何 m 的值， m ^ 2 +1 都不等于 0 ，由原理二，（ A ）正确；由原理一和二， B ）正确；由原理一，（ D ）正确；当 m=1 时， m ^ 2 -1=0 ，所以（ C ）是错误结论．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2538",
+        "queId": "2c03993b08a94a73af3428cd810057ea",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2x+3=ax-3$$和$$\\left( 2x+3 \\right)\\left( {{m}^{2}}+1 \\right)=\\left( ax-3 \\right)\\left( {{m}^{2}}+1 \\right)$$是同解方程"
+          },
+          {
+            "label": "B",
+            "content": "2x+3=ax-3$$和$$2\\left( 2x+3 \\right)+{{m}^{2}}-1=2\\left( ax-3 \\right)+{{m}^{2}}+1$$是同解方程"
+          },
+          {
+            "label": "C",
+            "content": "2x+3=ax-3$$和$$2\\left( 2x+3 \\right)\\left( {{m}^{2}}-1 \\right)=2\\left( ax-3 \\right)\\left( {{m}^{2}}-1 \\right)$$是同解方程"
+          },
+          {
+            "label": "D",
+            "content": "2x+3=ax-3$$和$$\\left( a-2 \\right)x=6$$是同解方程"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->运算求解"
+        ],
+        "competition_source_list": [
+          "2017年全国华杯赛小学高年级竞赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00247",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 247,
+      "split": "zh_test",
+      "source_problem_id": "ff8080814518d52401451b56a194069d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "甲、乙两人玩拿火柴棍游戏，桌上共有$$10$$根火柴棍，谁取走最后一根谁胜．甲每次可以取走$$1$$根、$$3$$根或$$4$$根（只能取恰好的数量，如果最后剩$$2$$根火柴棍，甲只能取$$1$$根），乙每次可以取$$1$$根或$$2$$根．如果甲先取，那么甲为了取胜，第一次应（ ~ ~ ~）．\n(A) 取$$1$$根\n(B) 取$$3$$根\n(C) ~取$$4$$根\n(D) 无论怎么取都无法获胜",
+      "problem_plain": "甲、乙两人玩拿火柴棍游戏，桌上共有 10 根火柴棍，谁取走最后一根谁胜．甲每次可以取走 1 根、 3 根或 4 根（只能取恰好的数量，如果最后剩 2 根火柴棍，甲只能取 1 根），乙每次可以取 1 根或 2 根．如果甲先取，那么甲为了取胜，第一次应（ ~ ~ ~）． (A) 取 1 根 (B) 取 3 根 (C) ~取 4 根 (D) 无论怎么取都无法获胜",
+      "solution_latex": "无论甲怎么走，乙只要让最后火柴棒剩两根，甲这时只能取$$1$$根，乙胜．在这之前只要保证火柴剩下$$5$$根，甲取$$1$$根，则乙取$$2$$根，剩$$2$$根，乙胜；或者甲取$$3$$根，乙取$$2$$根，乙胜；或者甲取$$4$$根，乙取$$1$$根，乙胜．所以甲无论怎么取都无法获胜．",
+      "solution_plain": "无论甲怎么走，乙只要让最后火柴棒剩两根，甲这时只能取 1 根，乙胜．在这之前只要保证火柴剩下 5 根，甲取 1 根，则乙取 2 根，剩 2 根，乙胜；或者甲取 3 根，乙取 2 根，乙胜；或者甲取 4 根，乙取 1 根，乙胜．所以甲无论怎么取都无法获胜．"
+    },
+    "answer": {
+      "final_raw": "无论怎么取都无法获胜",
+      "final_normalized": "无论怎么取都无法获胜",
+      "candidates": [
+        "D",
+        "无论怎么取都无法获胜"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "无论甲怎么走，乙只要让最后火柴棒剩两根，甲这时只能取$$1$$根，乙胜．在这之前只要保证火柴剩下$$5$$根，甲取$$1$$根，则乙取$$2$$根，剩$$2$$根，乙胜；或者甲取$$3$$根，乙取$$2$$根，乙胜；或者甲取$$4$$根，乙取$$1$$根，乙胜．所以甲无论怎么取都无法获胜．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "甲、乙两人玩拿火柴棍游戏，桌上共有 10 根火柴棍，谁取走最后一根谁胜．甲每次可以取走 1 根、 3 根或 4 根（只能取恰好的数量，如果最后剩 2 根火柴棍，甲只能取 1 根），乙每次可以取 1 根或 2 根．如果甲先取，那么甲为了取胜，第一次应（ ~ ~ ~）． (A) 取 1 根 (B) 取 3 根 (C) ~取 4 根 (D) 无论怎么取都无法获胜",
+      "solution_text": "无论甲怎么走，乙只要让最后火柴棒剩两根，甲这时只能取 1 根，乙胜．在这之前只要保证火柴剩下 5 根，甲取 1 根，则乙取 2 根，剩 2 根，乙胜；或者甲取 3 根，乙取 2 根，乙胜；或者甲取 4 根，乙取 1 根，乙胜．所以甲无论怎么取都无法获胜．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "292",
+        "queId": "ff8080814518d52401451b56a194069d",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "取$$1$$根"
+          },
+          {
+            "label": "B",
+            "content": "取$$3$$根"
+          },
+          {
+            "label": "C",
+            "content": "~取$$4$$根"
+          },
+          {
+            "label": "D",
+            "content": "无论怎么取都无法获胜"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->整体思想"
+        ],
+        "competition_source_list": [
+          "2014年全国迎春杯三年级竞赛复赛第15题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00533",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 533,
+      "split": "zh_test",
+      "source_problem_id": "ff80808146dc29ee0146e1142409079c"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在下列四个算式中：$$\\overline{AB}\\div \\overline{CD}=2$$，$$E\\times F=0$$，$$G-H=1$$，$$I+J=4$$，$$A\\sim J$$代表$$0$ $9$$中的不同数字，那么两位数$$\\overline{AB}$$不可能是（~ ~ ~ ~）．\n(A) 54\n(B) 58\n(C) 92\n(D) 96",
+      "problem_plain": "在下列四个算式中： AB CD =2 ， E F=0 ， G-H=1 ， I+J=4 ， A J 代表 0 9 中的不同数字，那么两位数 AB 不可能是（~ ~ ~ ~）． (A) 54 (B) 58 (C) 92 (D) 96",
+      "solution_latex": "首先可以确定的是$$E\\times F=0$$，$$\\Rightarrow$$ $$E$$，$$F$$中必有一个是$$0$$．那么$$I+J=4$$，$$\\Rightarrow I$$，$$J$$只能为$$1$$，$$3$$；此时剩下的数字还有$$2$$，$$4$$，$$5$$，$$6$$，$$7$$，$$8$$，$$9$$．$$G-H=1$$，$$\\Rightarrow$$ $$G$$，$$H$$相差$$1$$；讨论如下  若$$\\overline{AB}=54\\Rightarrow \\overline{CD}=27$$，那么$$G$$，$$H$$为$$8$$，$$9$$  若$$\\overline{AB}=58\\Rightarrow \\overline{CD}=29$$，那么$$G$$，$$H$$为$$6$$，$$7$$  若$$\\overline{AB}=92\\Rightarrow \\overline{CD}=46$$，那么$$G$$，$$H$$为$$7$$，$$8$$  若$$\\overline{AB}=96\\Rightarrow \\overline{CD}=48$$，此时$$G$$，$$H$$无法取值．所以$$\\overline{AB}\\ne96$$，选D．",
+      "solution_plain": "首先可以确定的是 E F=0 ， E ， F 中必有一个是 0 ．那么 I+J=4 ， I ， J 只能为 1 ， 3 ；此时剩下的数字还有 2 ， 4 ， 5 ， 6 ， 7 ， 8 ， 9 ． G-H=1 ， G ， H 相差 1 ；讨论如下 若 AB =54 CD =27 ，那么 G ， H 为 8 ， 9 若 AB =58 CD =29 ，那么 G ， H 为 6 ， 7 若 AB =92 CD =46 ，那么 G ， H 为 7 ， 8 若 AB =96 CD =48 ，此时 G ， H 无法取值．所以 AB 96 ，选D．"
+    },
+    "answer": {
+      "final_raw": "96",
+      "final_normalized": "96",
+      "candidates": [
+        "96",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "首先可以确定的是$$E\\times F=0$$，$$\\Rightarrow$$ $$E$$，$$F$$中必有一个是$$0$$．那么$$I+J=4$$，$$\\Rightarrow I$$，$$J$$只能为$$1$$，$$3$$；此时剩下的数字还有$$2$$，$$4$$，$$5$$，$$6$$，$$7$$，$$8$$，$$9$$．$$G-H=1$$，$$\\Rightarrow$$ $$G$$，$$H$$相差$$1$$；讨论如下  若$$\\overline{AB}=54\\Rightarrow \\overline{CD}=27$$，那么$$G$$，$$H$$为$$8$$，$$9$$  若$$\\overline{AB}=58\\Rightarrow \\overline{CD}=29$$，那么$$G$$，$$H$$为$$6$$，$$7$$  若$$\\overline{AB}=92\\Rightarrow \\overline{CD}=46$$，那么$$G$$，$$H$$为$$7$$，$$8$$  若$$\\overline{AB}=96\\Rightarrow \\overline{CD}=48$$，此时$$G$$，$$H$$无法取值．所以$$\\overline{AB}\\ne96$$，选D．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在下列四个算式中： AB CD =2 ， E F=0 ， G-H=1 ， I+J=4 ， A J 代表 0 9 中的不同数字，那么两位数 AB 不可能是（~ ~ ~ ~）． (A) 54 (B) 58 (C) 92 (D) 96",
+      "solution_text": "首先可以确定的是 E F=0 ， E ， F 中必有一个是 0 ．那么 I+J=4 ， I ， J 只能为 1 ， 3 ；此时剩下的数字还有 2 ， 4 ， 5 ， 6 ， 7 ， 8 ， 9 ． G-H=1 ， G ， H 相差 1 ；讨论如下 若 AB =54 CD =27 ，那么 G ， H 为 8 ， 9 若 AB =58 CD =29 ，那么 G ， H 为 6 ， 7 若 AB =92 CD =46 ，那么 G ， H 为 7 ， 8 若 AB =96 CD =48 ，此时 G ， H 无法取值．所以 AB 96 ，选D．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "798",
+        "queId": "ff80808146dc29ee0146e1142409079c",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "54"
+          },
+          {
+            "label": "B",
+            "content": "58"
+          },
+          {
+            "label": "C",
+            "content": "92"
+          },
+          {
+            "label": "D",
+            "content": "96"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->逐步调整思想"
+        ],
+        "competition_source_list": [
+          "2014年全国华杯赛小学高年级竞赛初赛B卷第2题",
+          "2016年吉林长春二道区吉大附中力旺实验小学小升初第5题2分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00618",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 618,
+      "split": "zh_test",
+      "source_problem_id": "dd1bf592d1d444dfa0a2cd857be0321c"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "甲乙二人相距$$30$$米面对面站好．两人玩``石头、剪子、布''．胜者向前走$$3$$米，负者向后退$$2$$米．平局两人各向前走$$1$$米．玩了$$15$$局后，甲距出发点$$17$$米，乙距出发点$$2$$米．甲胜了~\\uline{~~~~~~~~~~}~次．\n(A) 5\n(B) 6\n(C) 7\n(D) 8\n(E) 9",
+      "problem_plain": "甲乙二人相距 30 米面对面站好．两人玩``石头、剪子、布''．胜者向前走 3 米，负者向后退 2 米．平局两人各向前走 1 米．玩了 15 局后，甲距出发点 17 米，乙距出发点 2 米．甲胜了~ ~~~~~~~~~~ ~次． (A) 5 (B) 6 (C) 7 (D) 8 (E) 9",
+      "solution_latex": "（$$1$$）有胜有负的局，两人距离缩短$$1$$米；平局两人距离缩短$$2$$米．$$15$$局后两人之间的距离缩短$$15$$ \\textasciitilde{} $$30$$米．（$$2$$）如果两人最后的效果都是后退，两人之间的距离会变大，与（$$1$$）矛盾．（$$3$$）如果两人最后的效果是``一人前进，另一人后退''，两人距离会缩短$$15$$米．但如果两人距离缩短$$15$$米，只能是$$15$$局都是``胜负局''．假设甲$$15$$局都是胜者，他会前进$$45$$米，每把一次``胜者''换成一次``负者''，他会少前进$$5$$米．$$45$$减去多少个$$5$$都不可能等于$$17$$．这种情况不成立．（$$4$$）如果两人最后的效果是都向前进，两人的距离缩短$$19$$米．假设$$15$$局都是``胜负局''，两人之间距离缩短$$15$$米，每把一局``胜负局''换成平局，两人之间距离多缩短$$1$$米．由``鸡兔同笼''法求出，``胜负局''有$$11$$局，平局有$$4$$局．（$$5$$）$$4$$局平局中甲前进了$$4$$米．假设甲其余$$11$$局都是胜者，他一共前进$$33+4=37$$米．每把一局胜局改为败局，他会后退$$5$$米，改$$4$$局，他一共前进$$37-20=17$$米．（$$6$$）验算：甲$$7$$胜$$4$$平$$4$$败，前进$$21+4-8=17$$米；乙$$4$$胜$$7$$败$$4$$平，前进$$12+4-14=2$$米．",
+      "solution_plain": "（ 1 ）有胜有负的局，两人距离缩短 1 米；平局两人距离缩短 2 米． 15 局后两人之间的距离缩短 15 30 米．（ 2 ）如果两人最后的效果都是后退，两人之间的距离会变大，与（ 1 ）矛盾．（ 3 ）如果两人最后的效果是``一人前进，另一人后退''，两人距离会缩短 15 米．但如果两人距离缩短 15 米，只能是 15 局都是``胜负局''．假设甲 15 局都是胜者，他会前进 45 米，每把一次``胜者''换成一次``负者''，他会少前进 5 米． 45 减去多少个 5 都不可能等于 17 ．这种情况不成立．（ 4 ）如果两人最后的效果是都向前进，两人的距离缩短 19 米．假设 15 局都是``胜负局''，两人之间距离缩短 15 米，每把一局``胜负局''换成平局，两人之间距离多缩短 1 米．由``鸡兔同笼''法求出，``胜负局''有 11 局，平局有 4 局．（ 5 ） 4 局平局中甲前进了 4 米．假设甲其余 11 局都是胜者，他一共前进 33+4=37 米．每把一局胜局改为败局，他会后退 5 米，改 4 局，他一共前进 37-20=17 米．（ 6 ）验算：甲 7 胜 4 平 4 败，前进 21+4-8=17 米；乙 4 胜 7 败 4 平，前进 12+4-14=2 米．"
+    },
+    "answer": {
+      "final_raw": "7",
+      "final_normalized": "7",
+      "candidates": [
+        "7",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "（$$1$$）有胜有负的局，两人距离缩短$$1$$米；平局两人距离缩短$$2$$米．$$15$$局后两人之间的距离缩短$$15$$ \\textasciitilde{} $$30$$米．（$$2$$）如果两人最后的效果都是后退，两人之间的距离会变大，与（$$1$$）矛盾．（$$3$$）如果两人最后的效果是``一人前进，另一人后退''，两人距离会缩短$$15$$米．但如果两人距离缩短$$15$$米，只能是$$15$$局都是``胜负局''．假设甲$$15$$局都是胜者，他会前进$$45$$米，每把一次``胜者''换成一次``负者''，他会少前进$$5$$米．$$45$$减去多少个$$5$$都不可能等于$$17$$．这种情况不成立．（$$4$$）如果两人最后的效果是都向前进，两人的距离缩短$$19$$米．假设$$15$$局都是``胜负局''，两人之间距离缩短$$15$$米，每把一局``胜负局''换成平局，两人之间距离多缩短$$1$$米．由``鸡兔同笼''法求出，``胜负局''有$$11$$局，平局有$$4$$局．（$$5$$）$$4$$局平局中甲前进了$$4$$米．假设甲其余$$11$$局都是胜者，他一共前进$$33+4=37$$米．每把一局胜局改为败局，他会后退$$5$$米，改$$4$$局，他一共前进$$37-20=17$$米．（$$6$$）验算：甲$$7$$胜$$4$$平$$4$$败，前进$$21+4-8=17$$米；乙$$4$$胜$$7$$败$$4$$平，前进$$12+4-14=2$$米．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "甲乙二人相距 30 米面对面站好．两人玩``石头、剪子、布''．胜者向前走 3 米，负者向后退 2 米．平局两人各向前走 1 米．玩了 15 局后，甲距出发点 17 米，乙距出发点 2 米．甲胜了~ ~~~~~~~~~~ ~次． (A) 5 (B) 6 (C) 7 (D) 8 (E) 9",
+      "solution_text": "（ 1 ）有胜有负的局，两人距离缩短 1 米；平局两人距离缩短 2 米． 15 局后两人之间的距离缩短 15 30 米．（ 2 ）如果两人最后的效果都是后退，两人之间的距离会变大，与（ 1 ）矛盾．（ 3 ）如果两人最后的效果是``一人前进，另一人后退''，两人距离会缩短 15 米．但如果两人距离缩短 15 米，只能是 15 局都是``胜负局''．假设甲 15 局都是胜者，他会前进 45 米，每把一次``胜者''换成一次``负者''，他会少前进 5 米． 45 减去多少个 5 都不可能等于 17 ．这种情况不成立．（ 4 ）如果两人最后的效果是都向前进，两人的距离缩短 19 米．假设 15 局都是``胜负局''，两人之间距离缩短 15 米，每把一局``胜负局''换成平局，两人之间距离多缩短 1 米．由``鸡兔同笼''法求出，``胜负局''有 11 局，平局有 4 局．（ 5 ） 4 局平局中甲前进了 4 米．假设甲其余 11 局都是胜者，他一共前进 33+4=37 米．每把一局胜局改为败局，他会后退 5 米，改 4 局，他一共前进 37-20=17 米．（ 6 ）验算：甲 7 胜 4 平 4 败，前进 21+4-8=17 米；乙 4 胜 7 败 4 平，前进 12+4-14=2 米．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2039",
+        "queId": "dd1bf592d1d444dfa0a2cd857be0321c",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "5"
+          },
+          {
+            "label": "B",
+            "content": "6"
+          },
+          {
+            "label": "C",
+            "content": "7"
+          },
+          {
+            "label": "D",
+            "content": "8"
+          },
+          {
+            "label": "E",
+            "content": "9"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->应用题模块->鸡兔同笼问题->假设法解鸡兔同笼->基本型->变型题",
+          "Overseas Competition->知识点->应用题模块->鸡兔同笼问题"
+        ],
+        "competition_source_list": [
+          "2012年全国迎春杯四年级竞赛初赛第9题",
+          "2019年湖南长沙雨花区中雅培粹中学小升初（2）第10题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00670",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 670,
+      "split": "zh_test",
+      "source_problem_id": "76975059cf524957a99e36c55ad70ef9"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一条道路上有$$20$$盏路灯，为了节省用电，又不影响照明，现关闭其中的$$8$$盏路灯，要求道路两端的路灯不能关闭，相邻的路灯不能都关闭．那么关闭路灯有种不同的方式．\n(A) 100\n(B) 150\n(C) 165\n(D) 185",
+      "problem_plain": "一条道路上有 20 盏路灯，为了节省用电，又不影响照明，现关闭其中的 8 盏路灯，要求道路两端的路灯不能关闭，相邻的路灯不能都关闭．那么关闭路灯有种不同的方式． (A) 100 (B) 150 (C) 165 (D) 185",
+      "solution_latex": "由题干可得出有：$$20-8=12$$盏路灯是打开状态，  $$12$$盏开着的路灯中间有$$11$$个空档（两端不能放关闭的路灯），  把$$8$$盏关闭的路灯分别放入这$$11$$个空档中（每个空档只能放$$1$$盏）的方法有：  $$\\left( 11\\times 10\\times 9\\times 8\\times 7\\times 6\\times 5\\times 4 \\right)\\div \\left( 8\\times 7\\times 6\\times 5\\times 4\\times 3\\times 2 \\right)=165$$（种）．  故选：$$\\text{C}$$．",
+      "solution_plain": "由题干可得出有： 20-8=12 盏路灯是打开状态， 12 盏开着的路灯中间有 11 个空档（两端不能放关闭的路灯）， 把 8 盏关闭的路灯分别放入这 11 个空档中（每个空档只能放 1 盏）的方法有： ( 11 10 9 8 7 6 5 4 ) ( 8 7 6 5 4 3 2 )=165 （种）． 故选： C ．"
+    },
+    "answer": {
+      "final_raw": "165",
+      "final_normalized": "165",
+      "candidates": [
+        "165",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由题干可得出有：$$20-8=12$$盏路灯是打开状态，  $$12$$盏开着的路灯中间有$$11$$个空档（两端不能放关闭的路灯），  把$$8$$盏关闭的路灯分别放入这$$11$$个空档中（每个空档只能放$$1$$盏）的方法有：  $$\\left( 11\\times 10\\times 9\\times 8\\times 7\\times 6\\times 5\\times 4 \\right)\\div \\left( 8\\times 7\\times 6\\times 5\\times 4\\times 3\\times 2 \\right)=165$$（种）．  故选：$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一条道路上有 20 盏路灯，为了节省用电，又不影响照明，现关闭其中的 8 盏路灯，要求道路两端的路灯不能关闭，相邻的路灯不能都关闭．那么关闭路灯有种不同的方式． (A) 100 (B) 150 (C) 165 (D) 185",
+      "solution_text": "由题干可得出有： 20-8=12 盏路灯是打开状态， 12 盏开着的路灯中间有 11 个空档（两端不能放关闭的路灯）， 把 8 盏关闭的路灯分别放入这 11 个空档中（每个空档只能放 1 盏）的方法有： ( 11 10 9 8 7 6 5 4 ) ( 8 7 6 5 4 3 2 )=165 （种）． 故选： C ．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3322",
+        "queId": "76975059cf524957a99e36c55ad70ef9",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "100"
+          },
+          {
+            "label": "B",
+            "content": "150"
+          },
+          {
+            "label": "C",
+            "content": "165"
+          },
+          {
+            "label": "D",
+            "content": "185"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->公式记忆->符号化数学原理"
+        ],
+        "competition_source_list": [
+          "2020年第24届YMO六年级竞赛决赛第6题3分",
+          "2019年第24届YMO六年级竞赛决赛第6题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00699",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 699,
+      "split": "zh_test",
+      "source_problem_id": "da556eb4ba3a4ecd9565736d0009b7e1"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$$a$$，$$b$$，$$c$$是三个自然数，且$$a$$与$$b$$的最小公倍数是$$60$$，$$a$$与$$c$$的最小公倍数是$$270$$．求$$b$$与$$c$$的最小公倍数是多少？\n(A) 540\n(B) 108\n(C) A$$,$$B$$都对\n(D) A$$,$$B$$都不对",
+      "problem_plain": "已知 a ， b ， c 是三个自然数，且 a 与 b 的最小公倍数是 60 ， a 与 c 的最小公倍数是 270 ．求 b 与 c 的最小公倍数是多少？ (A) 540 (B) 108 (C) A , B 都对 (D) A , B 都不对",
+      "solution_latex": "如果$$b$$不是$${{2}^{2}}$$的倍数，因为$$\\left[ \\text{a,b} \\right]={{2}^{2}}\\times 3\\times 5$$，则$$a$$一定是$${{2}^{2}}$$的倍数．由此可知$$\\left[ \\text{a,c} \\right]$$一定是$${{2}^{2}}$$的倍数，但是$$\\left[ \\text{a,c} \\right]={{2}^{2}}\\times 3\\times 5$$不是$${{2}^{2}}$$的倍数．所以$$b$$是$${{2}^{2}}$$的倍数．同理可得$$c$$是$${{3}^{3}}$$的倍数，所以$$\\left[ \\text{b,c} \\right]={{2}^{2}}\\cdot {{3}^{3}}$$整除．  因为$$\\left[ \\text{a,b} \\right]=60$$，$$\\left[ \\text{a,c} \\right]=270$$，所以$$60$$是$$b$$的倍数，$$270$$是$$c$$的倍数，所以$$b$$，$$c$$的最小公倍数$$\\left[ \\text{b,c} \\right]$$是$$\\left[ 60,270 \\right]$$的约数．因为$$\\left[ 60,270 \\right]={{2}^{2}}\\cdot 3\\cdot 5$$，所以$$\\left[ \\text{b,c} \\right]={{2}^{2}}\\cdot 3\\cdot 5$$=540，或$$\\left[ \\text{b,c} \\right]={{2}^{2}}\\cdot 3$$=108．  当$$a=1$$,b=60,c=270时，$$\\left[ \\text{a,c} \\right]=60$$，$$\\left[ \\text{a,c} \\right]=270$$，$$\\left[ \\text{b,c} \\right]=540$$；  当$$a=5$$,b=12,c=54时，$$\\left[ \\text{a,c} \\right]=60$$，$$\\left[ \\text{a,c} \\right]=270$$，$$\\left[ \\text{b,c} \\right]=108$$．",
+      "solution_plain": "如果 b 不是 2 ^ 2 的倍数，因为 [ a,b ]= 2 ^ 2 3 5 ，则 a 一定是 2 ^ 2 的倍数．由此可知 [ a,c ] 一定是 2 ^ 2 的倍数，但是 [ a,c ]= 2 ^ 2 3 5 不是 2 ^ 2 的倍数．所以 b 是 2 ^ 2 的倍数．同理可得 c 是 3 ^ 3 的倍数，所以 [ b,c ]= 2 ^ 2 3 ^ 3 整除． 因为 [ a,b ]=60 ， [ a,c ]=270 ，所以 60 是 b 的倍数， 270 是 c 的倍数，所以 b ， c 的最小公倍数 [ b,c ] 是 [ 60,270 ] 的约数．因为 [ 60,270 ]= 2 ^ 2 3 5 ，所以 [ b,c ]= 2 ^ 2 3 5 =540，或 [ b,c ]= 2 ^ 2 3 =108． 当 a=1 ,b=60,c=270时， [ a,c ]=60 ， [ a,c ]=270 ， [ b,c ]=540 ； 当 a=5 ,b=12,c=54时， [ a,c ]=60 ， [ a,c ]=270 ， [ b,c ]=108 ．"
+    },
+    "answer": {
+      "final_raw": "A$$,$$B$$都对",
+      "final_normalized": "A$$,$$B$$都对",
+      "candidates": [
+        "A$$,$$B$$都对",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "如果$$b$$不是$${{2}^{2}}$$的倍数，因为$$\\left[ \\text{a,b} \\right]={{2}^{2}}\\times 3\\times 5$$，则$$a$$一定是$${{2}^{2}}$$的倍数．由此可知$$\\left[ \\text{a,c} \\right]$$一定是$${{2}^{2}}$$的倍数，但是$$\\left[ \\text{a,c} \\right]={{2}^{2}}\\times 3\\times 5$$不是$${{2}^{2}}$$的倍数．所以$$b$$是$${{2}^{2}}$$的倍数．同理可得$$c$$是$${{3}^{3}}$$的倍数，所以$$\\left[ \\text{b,c} \\right]={{2}^{2}}\\cdot {{3}^{3}}$$整除．  因为$$\\left[ \\text{a,b} \\right]=60$$，$$\\left[ \\text{a,c} \\right]=270$$，所以$$60$$是$$b$$的倍数，$$270$$是$$c$$的倍数，所以$$b$$，$$c$$的最小公倍数$$\\left[ \\text{b,c} \\right]$$是$$\\left[ 60,270 \\right]$$的约数．因为$$\\left[ 60,270 \\right]={{2}^{2}}\\cdot 3\\cdot 5$$，所以$$\\left[ \\text{b,c} \\right]={{2}^{2}}\\cdot 3\\cdot 5$$=540，或$$\\left[ \\text{b,c} \\right]={{2}^{2}}\\cdot 3$$=108．  当$$a=1$$,b=60,c=270时，$$\\left[ \\text{a,c} \\right]=60$$，$$\\left[ \\text{a,c} \\right]=270$$，$$\\left[ \\text{b,c} \\right]=540$$；  当$$a=5$$,b=12,c=54时，$$\\left[ \\text{a,c} \\right]=60$$，$$\\left[ \\text{a,c} \\right]=270$$，$$\\left[ \\text{b,c} \\right]=108$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 a ， b ， c 是三个自然数，且 a 与 b 的最小公倍数是 60 ， a 与 c 的最小公倍数是 270 ．求 b 与 c 的最小公倍数是多少？ (A) 540 (B) 108 (C) A , B 都对 (D) A , B 都不对",
+      "solution_text": "如果 b 不是 2 ^ 2 的倍数，因为 [ a,b ]= 2 ^ 2 3 5 ，则 a 一定是 2 ^ 2 的倍数．由此可知 [ a,c ] 一定是 2 ^ 2 的倍数，但是 [ a,c ]= 2 ^ 2 3 5 不是 2 ^ 2 的倍数．所以 b 是 2 ^ 2 的倍数．同理可得 c 是 3 ^ 3 的倍数，所以 [ b,c ]= 2 ^ 2 3 ^ 3 整除． 因为 [ a,b ]=60 ， [ a,c ]=270 ，所以 60 是 b 的倍数， 270 是 c 的倍数，所以 b ， c 的最小公倍数 [ b,c ] 是 [ 60,270 ] 的约数．因为 [ 60,270 ]= 2 ^ 2 3 5 ，所以 [ b,c ]= 2 ^ 2 3 5 =540，或 [ b,c ]= 2 ^ 2 3 =108． 当 a=1 ,b=60,c=270时， [ a,c ]=60 ， [ a,c ]=270 ， [ b,c ]=540 ； 当 a=5 ,b=12,c=54时， [ a,c ]=60 ， [ a,c ]=270 ， [ b,c ]=108 ．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "735",
+        "queId": "da556eb4ba3a4ecd9565736d0009b7e1",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "540"
+          },
+          {
+            "label": "B",
+            "content": "108"
+          },
+          {
+            "label": "C",
+            "content": "A$$,$$B$$都对"
+          },
+          {
+            "label": "D",
+            "content": "A$$,$$B$$都不对"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->课内知识点->数的认识->数的特征->倍数->最小公倍数"
+        ],
+        "competition_source_list": [
+          "2009年第14届全国华杯赛竞赛复赛第11题",
+          "2016年浙江杭州五年级模拟考试卓学一周一练12第3题",
+          "2009年全国华杯赛竞赛复赛第11题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00760",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 760,
+      "split": "zh_test",
+      "source_problem_id": "b7fb3072396b4cbca2bb8466bf88c574"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "小朋友玩游戏，老师让小朋友们站成一排，并从第一位开始依照$$1$$、$$2$$、$$3$$循环报数，最后一位小朋友报的数是$$2$$，请问这一派可能共有多少位小朋友？\n(A) 24\n(B) 25\n(C) 26\n(D) 27\n(E) 28",
+      "problem_plain": "小朋友玩游戏，老师让小朋友们站成一排，并从第一位开始依照 1 、 2 、 3 循环报数，最后一位小朋友报的数是 2 ，请问这一派可能共有多少位小朋友？ (A) 24 (B) 25 (C) 26 (D) 27 (E) 28",
+      "solution_latex": "由题意可知这一派同学的人数除以$$3$$后所得的余数是$$2$$，在各个选项中只有选项$$\\text{C}$$符合要求．  故选$$\\text{C}$$．",
+      "solution_plain": "由题意可知这一派同学的人数除以 3 后所得的余数是 2 ，在各个选项中只有选项 C 符合要求． 故选 C ．"
+    },
+    "answer": {
+      "final_raw": "26",
+      "final_normalized": "26",
+      "candidates": [
+        "26",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由题意可知这一派同学的人数除以$$3$$后所得的余数是$$2$$，在各个选项中只有选项$$\\text{C}$$符合要求．  故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "小朋友玩游戏，老师让小朋友们站成一排，并从第一位开始依照 1 、 2 、 3 循环报数，最后一位小朋友报的数是 2 ，请问这一派可能共有多少位小朋友？ (A) 24 (B) 25 (C) 26 (D) 27 (E) 28",
+      "solution_text": "由题意可知这一派同学的人数除以 3 后所得的余数是 2 ，在各个选项中只有选项 C 符合要求． 故选 C ．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3023",
+        "queId": "b7fb3072396b4cbca2bb8466bf88c574",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "24"
+          },
+          {
+            "label": "B",
+            "content": "25"
+          },
+          {
+            "label": "C",
+            "content": "26"
+          },
+          {
+            "label": "D",
+            "content": "27"
+          },
+          {
+            "label": "E",
+            "content": "28"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->运算求解"
+        ],
+        "competition_source_list": [
+          "2014年IMAS小学中年级竞赛第一轮检测试题第18题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00804",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 804,
+      "split": "zh_test",
+      "source_problem_id": "97b95831a49e4df3ad37232022356c84"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有一个$$12$$级的楼梯．某人每次能登上$$1$$级或$$2$$级或$$3$$级，现在他要从地面登上第$$12$$级，有种不同的方式．\n(A) 149\n(B) 244\n(C) 264\n(D) 274",
+      "problem_plain": "有一个 12 级的楼梯．某人每次能登上 1 级或 2 级或 3 级，现在他要从地面登上第 12 级，有种不同的方式． (A) 149 (B) 244 (C) 264 (D) 274",
+      "solution_latex": "设第$$n$$级有$${{a}_{n}}$$种登的方式，  则第$$n-3$$，$$n-2$$，$$n-1$$级再分别登$$3$$，$$2$$，$$1$$级可到第$$n$$级，  则$${{a}_{n}}={{a}_{n-3}}+{{a}_{n-2}}+{{a}_{n-1}}$$，  而$${{a}_{1}}=1$$，$${{a}_{2}}=1+1=2$$，$${{a}_{3}}=1+1+2=4$$，  故$${{a}_{4}}=1+2+4=7$$，  $${{a}_{5}}=2+4+7=13$$，  $${{a}_{6}}=4+7+13=24$$，  $${{a}_{7}}=7+13+24=44$$，  $${{a}_{8}}=13+24+44=81$$，  $${{a}_{9}}=24+44+81=149$$，  $${{a}_{10}}=44+81+149=274$$．  故选：$$\\text{D}$$．",
+      "solution_plain": "设第 n 级有 a _ n 种登的方式， 则第 n-3 ， n-2 ， n-1 级再分别登 3 ， 2 ， 1 级可到第 n 级， 则 a _ n = a _ n-3 + a _ n-2 + a _ n-1 ， 而 a _ 1 =1 ， a _ 2 =1+1=2 ， a _ 3 =1+1+2=4 ， 故 a _ 4 =1+2+4=7 ， a _ 5 =2+4+7=13 ， a _ 6 =4+7+13=24 ， a _ 7 =7+13+24=44 ， a _ 8 =13+24+44=81 ， a _ 9 =24+44+81=149 ， a _ 10 =44+81+149=274 ． 故选： D ．"
+    },
+    "answer": {
+      "final_raw": "274",
+      "final_normalized": "274",
+      "candidates": [
+        "274",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设第$$n$$级有$${{a}_{n}}$$种登的方式，  则第$$n-3$$，$$n-2$$，$$n-1$$级再分别登$$3$$，$$2$$，$$1$$级可到第$$n$$级，  则$${{a}_{n}}={{a}_{n-3}}+{{a}_{n-2}}+{{a}_{n-1}}$$，  而$${{a}_{1}}=1$$，$${{a}_{2}}=1+1=2$$，$${{a}_{3}}=1+1+2=4$$，  故$${{a}_{4}}=1+2+4=7$$，  $${{a}_{5}}=2+4+7=13$$，  $${{a}_{6}}=4+7+13=24$$，  $${{a}_{7}}=7+13+24=44$$，  $${{a}_{8}}=13+24+44=81$$，  $${{a}_{9}}=24+44+81=149$$，  $${{a}_{10}}=44+81+149=274$$．  故选：$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有一个 12 级的楼梯．某人每次能登上 1 级或 2 级或 3 级，现在他要从地面登上第 12 级，有种不同的方式． (A) 149 (B) 244 (C) 264 (D) 274",
+      "solution_text": "设第 n 级有 a _ n 种登的方式， 则第 n-3 ， n-2 ， n-1 级再分别登 3 ， 2 ， 1 级可到第 n 级， 则 a _ n = a _ n-3 + a _ n-2 + a _ n-1 ， 而 a _ 1 =1 ， a _ 2 =1+1=2 ， a _ 3 =1+1+2=4 ， 故 a _ 4 =1+2+4=7 ， a _ 5 =2+4+7=13 ， a _ 6 =4+7+13=24 ， a _ 7 =7+13+24=44 ， a _ 8 =13+24+44=81 ， a _ 9 =24+44+81=149 ， a _ 10 =44+81+149=274 ． 故选： D ．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "442",
+        "queId": "97b95831a49e4df3ad37232022356c84",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "149"
+          },
+          {
+            "label": "B",
+            "content": "244"
+          },
+          {
+            "label": "C",
+            "content": "264"
+          },
+          {
+            "label": "D",
+            "content": "274"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->逻辑分析"
+        ],
+        "competition_source_list": [
+          "2019年第24届YMO六年级竞赛决赛第7题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00828",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 828,
+      "split": "zh_test",
+      "source_problem_id": "fe4db4bd53f140829a475987fba39d57"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "艾迪同学在$$2017$$年$$4$$月$$1$$日养了一盆仙人掌，但是粗心的艾迪总是会忘了给仙人掌浇水，每周日和周一才记得给仙人掌浇水．如果一个月内浇仙人掌的天数少于$$9$$天，仙人掌就会退化变成仙人球．已知$$2017$$年$$4$$月$$1$$日是周六，那么在~\\uline{~~~~~~~~~~}~月，仙人掌会因为浇水天数不够而退化成仙人球．\n(A) 6\n(B) 7\n(C) 8\n(D) 9\n(E) 10",
+      "problem_plain": "艾迪同学在 2017 年 4 月 1 日养了一盆仙人掌，但是粗心的艾迪总是会忘了给仙人掌浇水，每周日和周一才记得给仙人掌浇水．如果一个月内浇仙人掌的天数少于 9 天，仙人掌就会退化变成仙人球．已知 2017 年 4 月 1 日是周六，那么在~ ~~~~~~~~~~ ~月，仙人掌会因为浇水天数不够而退化成仙人球． (A) 6 (B) 7 (C) 8 (D) 9 (E) 10",
+      "solution_latex": "$$4$$月份有$$30$$天，$$30=7\\times 4+2$$，$$4$$月$$1$$日是周六，则$$4$$月$$30$$日是周日，所以$$4$$月份有$$5$$个周日，$$4$$个周一，浇水的天数等于$$9$$天，不会退化成仙人球；$$5$$月份有$$31$$天，$$31=7\\times 4+3$$，$$5$$月$$1$$日是周一，则$$5$$月$$31$$日是周三，所以$$5$$月份有$$4$$个周日，$$5$$个周一，浇水的天数等于$$9$$天，不会退化成仙人球；$$6$$月份有$$30$$天，$$30=7\\times 4+2$$，$$6$$月$$1$$日是周四，则$$6$$月$$30$$日是周五，所以$$6$$月份有$$4$$个周日，$$4$$个周一，浇水的天数小于$$9$$天，所以会退化成仙人球．  $$4$$月份有$$30$$天，每个星期有$$7$$天，  又因为$$4$$月$$1$$日是周六，  所以$$4$$月的每一个星期周期都是以周六开始，周五结束，  这样的周期共有$$30\\div7=4$$（个）$$\\cdots\\cdots2$$（天），  则$$4$$月$$30$$日是周五往后数两天，则为周日，  所以$$4$$月份有$$5$$个周日，$$4$$个周一，浇水的天数等于$$9$$天，不会退化成仙人球．  $$5$$月份有$$31$$天，$$5$$月$$1$$日是周一，每个周期从周一开始，周日结束，  这样的周期有$$31\\div7=4$$（个）$$\\cdots\\cdots3$$（天），  则$$5$$月$$31$$日是周日往后数$$3$$天，为周三，  所以$$5$$月份有$$4$$个周日，$$5$$个周一，浇水的天数等于$$9$$天，不会退化成仙人球．  $$6$$月份有$$30$$天，$$6$$月$$1$$日是周四，每个周期从周四开始周三结束，  这样的周期有$$30\\div7=4$$（个）$$\\cdots\\cdots2$$（天），  则$$6$$月$$30$$日是周三往后数$$2$$天，是周五，  所以$$6$$月份有$$4$$个周日，$$4$$个周一，浇水的天数小于$$9$$天，所以会退化成仙人球．",
+      "solution_plain": "4 月份有 30 天， 30=7 4+2 ， 4 月 1 日是周六，则 4 月 30 日是周日，所以 4 月份有 5 个周日， 4 个周一，浇水的天数等于 9 天，不会退化成仙人球； 5 月份有 31 天， 31=7 4+3 ， 5 月 1 日是周一，则 5 月 31 日是周三，所以 5 月份有 4 个周日， 5 个周一，浇水的天数等于 9 天，不会退化成仙人球； 6 月份有 30 天， 30=7 4+2 ， 6 月 1 日是周四，则 6 月 30 日是周五，所以 6 月份有 4 个周日， 4 个周一，浇水的天数小于 9 天，所以会退化成仙人球． 4 月份有 30 天，每个星期有 7 天， 又因为 4 月 1 日是周六， 所以 4 月的每一个星期周期都是以周六开始，周五结束， 这样的周期共有 30 7=4 （个） 2 （天）， 则 4 月 30 日是周五往后数两天，则为周日， 所以 4 月份有 5 个周日， 4 个周一，浇水的天数等于 9 天，不会退化成仙人球． 5 月份有 31 天， 5 月 1 日是周一，每个周期从周一开始，周日结束， 这样的周期有 31 7=4 （个） 3 （天）， 则 5 月 31 日是周日往后数 3 天，为周三， 所以 5 月份有 4 个周日， 5 个周一，浇水的天数等于 9 天，不会退化成仙人球． 6 月份有 30 天， 6 月 1 日是周四，每个周期从周四开始周三结束， 这样的周期有 30 7=4 （个） 2 （天）， 则 6 月 30 日是周三往后数 2 天，是周五， 所以 6 月份有 4 个周日， 4 个周一，浇水的天数小于 9 天，所以会退化成仙人球．"
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$4$$月份有$$30$$天，$$30=7\\times 4+2$$，$$4$$月$$1$$日是周六，则$$4$$月$$30$$日是周日，所以$$4$$月份有$$5$$个周日，$$4$$个周一，浇水的天数等于$$9$$天，不会退化成仙人球；$$5$$月份有$$31$$天，$$31=7\\times 4+3$$，$$5$$月$$1$$日是周一，则$$5$$月$$31$$日是周三，所以$$5$$月份有$$4$$个周日，$$5$$个周一，浇水的天数等于$$9$$天，不会退化成仙人球；$$6$$月份有$$30$$天，$$30=7\\times 4+2$$，$$6$$月$$1$$日是周四，则$$6$$月$$30$$日是周五，所以$$6$$月份有$$4$$个周日，$$4$$个周一，浇水的天数小于$$9$$天，所以会退化成仙人球．  $$4$$月份有$$30$$天，每个星期有$$7$$天，  又因为$$4$$月$$1$$日是周六，  所以$$4$$月的每一个星期周期都是以周六开始，周五结束，  这样的周期共有$$30\\div7=4$$（个）$$\\cdots\\cdots2$$（天），  则$$4$$月$$30$$日是周五往后数两天，则为周日，  所以$$4$$月份有$$5$$个周日，$$4$$个周一，浇水的天数等于$$9$$天，不会退化成仙人球．  $$5$$月份有$$31$$天，$$5$$月$$1$$日是周一，每个周期从周一开始，周日结束，  这样的周期有$$31\\div7=4$$（个）$$\\cdots\\cdots3$$（天），  则$$5$$月$$31$$日是周日往后数$$3$$天，为周三，  所以$$5$$月份有$$4$$个周日，$$5$$个周一，浇水的天数等于$$9$$天，不会退化成仙人球．  $$6$$月份有$$30$$天，$$6$$月$$1$$日是周四，每个周期从周四开始周三结束，  这样的周期有$$30\\div7=4$$（个）$$\\cdots\\cdots2$$（天），  则$$6$$月$$30$$日是周三往后数$$2$$天，是周五，  所以$$6$$月份有$$4$$个周日，$$4$$个周一，浇水的天数小于$$9$$天，所以会退化成仙人球．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "艾迪同学在 2017 年 4 月 1 日养了一盆仙人掌，但是粗心的艾迪总是会忘了给仙人掌浇水，每周日和周一才记得给仙人掌浇水．如果一个月内浇仙人掌的天数少于 9 天，仙人掌就会退化变成仙人球．已知 2017 年 4 月 1 日是周六，那么在~ ~~~~~~~~~~ ~月，仙人掌会因为浇水天数不够而退化成仙人球． (A) 6 (B) 7 (C) 8 (D) 9 (E) 10",
+      "solution_text": "4 月份有 30 天， 30=7 4+2 ， 4 月 1 日是周六，则 4 月 30 日是周日，所以 4 月份有 5 个周日， 4 个周一，浇水的天数等于 9 天，不会退化成仙人球； 5 月份有 31 天， 31=7 4+3 ， 5 月 1 日是周一，则 5 月 31 日是周三，所以 5 月份有 4 个周日， 5 个周一，浇水的天数等于 9 天，不会退化成仙人球； 6 月份有 30 天， 30=7 4+2 ， 6 月 1 日是周四，则 6 月 30 日是周五，所以 6 月份有 4 个周日， 4 个周一，浇水的天数小于 9 天，所以会退化成仙人球． 4 月份有 30 天，每个星期有 7 天， 又因为 4 月 1 日是周六， 所以 4 月的每一个星期周期都是以周六开始，周五结束， 这样的周期共有 30 7=4 （个） 2 （天）， 则 4 月 30 日是周五往后数两天，则为周日， 所以 4 月份有 5 个周日， 4 个周一，浇水的天数等于 9 天，不会退化成仙人球． 5 月份有 31 天， 5 月 1 日是周一，每个周期从周一开始，周日结束， 这样的周期有 31 7=4 （个） 3 （天）， 则 5 月 31 日是周日往后数 3 天，为周三， 所以 5 月份有 4 个周日， 5 个周一，浇水的天数等于 9 天，不会退化成仙人球． 6 月份有 30 天， 6 月 1 日是周四，每个周期从周四开始周三结束， 这样的周期有 30 7=4 （个） 2 （天）， 则 6 月 30 日是周三往后数 2 天，是周五， 所以 6 月份有 4 个周日， 4 个周一，浇水的天数小于 9 天，所以会退化成仙人球．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2115",
+        "queId": "fe4db4bd53f140829a475987fba39d57",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "7"
+          },
+          {
+            "label": "C",
+            "content": "8"
+          },
+          {
+            "label": "D",
+            "content": "9"
+          },
+          {
+            "label": "E",
+            "content": "10"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->知识点->应用题模块->周期问题",
+          "拓展思维->思想->逐步调整思想"
+        ],
+        "competition_source_list": [
+          "2017年全国小学低年级二年级其它思维创新大通关第8讲周期问题第15题",
+          "2017年第11届北京学而思综合能力诊断二年级竞赛第14题",
+          "2017年第11届北京学而思杯小学低年级二年级竞赛第14题12分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00851",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 851,
+      "split": "zh_test",
+      "source_problem_id": "656817c7e2d24e62ba282187304d9c82"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一个五位数$$\\overline{ABCDE}$$是$$2014$$的倍数，并且$$\\overline{CDE}$$恰好有$$16$$个因数，则$$\\overline{ABCDE}$$的最小值是．\n(A) 10070\n(B) 16112\n(C) 22154\n(D) 24168",
+      "problem_plain": "一个五位数 ABCDE 是 2014 的倍数，并且 CDE 恰好有 16 个因数，则 ABCDE 的最小值是． (A) 10070 (B) 16112 (C) 22154 (D) 24168",
+      "solution_latex": "最值问题从极端情况出发，既是五位数又是$$2014$$的倍数，最小为$$10070$$；所以$$\\overline{ABCDE}=2014\\times k$$，且$$\\overline{CDE}$$有$$16$$个因数，$$2014\\times k=2014\\times 5+2014\\times n=10070+2014n$$，因此$$\\overline{CDE}=70+14n$$．要求当$$\\overline{CDE}$$有$$16$$个因数时，$$n$$的最小值是几，$$\\overline{CDE}=14\\left( n+5 \\right)=2\\times 7\\times \\left( n+5 \\right)$$从小到大发现$$n=7$$时满足条件，此时$$\\overline{CDE}={{2}^{3}}\\times 3\\times 7$$一共有$$16$$个因数，此时最小值为$$2014\\times \\left( 5+7 \\right)=24168$$．  最值问题从极端情况出发，既是五位数又是$$2014$$的倍数，最小为$$10070$$；  约数个数逆应用，$$16=16=8\\times 2=4\\times 4=4\\times 2\\times 2=2\\times 2\\times 2\\times 2$$，分解质因数后指数可能是（ $$15 $$），（$$7$$，$$1$$），（$$3$$，$$3$$），（$$3$$，$$1$$，$$1$$ ），（$$1$$，$$1$$，$$1$$，$$1$$ ）这几组．  $$10070$$，$$70=2\\times 5\\times 7$$，舍  $$12084$$，$$84={{2}^{2}}\\times 3\\times 7$$，舍  $$14098$$，$$98={{2}^{{}}}\\times {{7}^{2}}$$，舍  $$16112$$，$$112={{2}^{4}}\\times 7$$，舍  $$18126$$，$$126=2\\times {{3}^{2}}\\times 7$$，舍  $$20140$$，$$140={{2}^{2}}\\times 5\\times 7$$，舍  $$22154$$，$$154=2\\times 7\\times 11$$，舍  $$24168$$，$$168={{2}^{3}}\\times 3\\times 7$$，符合  $$\\overline{ABCDE}$$最小为$$24168$$．",
+      "solution_plain": "最值问题从极端情况出发，既是五位数又是 2014 的倍数，最小为 10070 ；所以 ABCDE =2014 k ，且 CDE 有 16 个因数， 2014 k=2014 5+2014 n=10070+2014n ，因此 CDE =70+14n ．要求当 CDE 有 16 个因数时， n 的最小值是几， CDE =14 ( n+5 )=2 7 ( n+5 ) 从小到大发现 n=7 时满足条件，此时 CDE = 2 ^ 3 3 7 一共有 16 个因数，此时最小值为 2014 ( 5+7 )=24168 ． 最值问题从极端情况出发，既是五位数又是 2014 的倍数，最小为 10070 ； 约数个数逆应用， 16=16=8 2=4 4=4 2 2=2 2 2 2 ，分解质因数后指数可能是（ 15 ），（ 7 ， 1 ），（ 3 ， 3 ），（ 3 ， 1 ， 1 ），（ 1 ， 1 ， 1 ， 1 ）这几组． 10070 ， 70=2 5 7 ，舍 12084 ， 84= 2 ^ 2 3 7 ，舍 14098 ， 98= 2 ^ 7 ^ 2 ，舍 16112 ， 112= 2 ^ 4 7 ，舍 18126 ， 126=2 3 ^ 2 7 ，舍 20140 ， 140= 2 ^ 2 5 7 ，舍 22154 ， 154=2 7 11 ，舍 24168 ， 168= 2 ^ 3 3 7 ，符合 ABCDE 最小为 24168 ．"
+    },
+    "answer": {
+      "final_raw": "24168",
+      "final_normalized": "24168",
+      "candidates": [
+        "24168",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "最值问题从极端情况出发，既是五位数又是$$2014$$的倍数，最小为$$10070$$；所以$$\\overline{ABCDE}=2014\\times k$$，且$$\\overline{CDE}$$有$$16$$个因数，$$2014\\times k=2014\\times 5+2014\\times n=10070+2014n$$，因此$$\\overline{CDE}=70+14n$$．要求当$$\\overline{CDE}$$有$$16$$个因数时，$$n$$的最小值是几，$$\\overline{CDE}=14\\left( n+5 \\right)=2\\times 7\\times \\left( n+5 \\right)$$从小到大发现$$n=7$$时满足条件，此时$$\\overline{CDE}={{2}^{3}}\\times 3\\times 7$$一共有$$16$$个因数，此时最小值为$$2014\\times \\left( 5+7 \\right)=24168$$．  最值问题从极端情况出发，既是五位数又是$$2014$$的倍数，最小为$$10070$$；  约数个数逆应用，$$16=16=8\\times 2=4\\times 4=4\\times 2\\times 2=2\\times 2\\times 2\\times 2$$，分解质因数后指数可能是（ $$15 $$），（$$7$$，$$1$$），（$$3$$，$$3$$），（$$3$$，$$1$$，$$1$$ ），（$$1$$，$$1$$，$$1$$，$$1$$ ）这几组．  $$10070$$，$$70=2\\times 5\\times 7$$，舍  $$12084$$，$$84={{2}^{2}}\\times 3\\times 7$$，舍  $$14098$$，$$98={{2}^{{}}}\\times {{7}^{2}}$$，舍  $$16112$$，$$112={{2}^{4}}\\times 7$$，舍  $$18126$$，$$126=2\\times {{3}^{2}}\\times 7$$，舍  $$20140$$，$$140={{2}^{2}}\\times 5\\times 7$$，舍  $$22154$$，$$154=2\\times 7\\times 11$$，舍  $$24168$$，$$168={{2}^{3}}\\times 3\\times 7$$，符合  $$\\overline{ABCDE}$$最小为$$24168$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一个五位数 ABCDE 是 2014 的倍数，并且 CDE 恰好有 16 个因数，则 ABCDE 的最小值是． (A) 10070 (B) 16112 (C) 22154 (D) 24168",
+      "solution_text": "最值问题从极端情况出发，既是五位数又是 2014 的倍数，最小为 10070 ；所以 ABCDE =2014 k ，且 CDE 有 16 个因数， 2014 k=2014 5+2014 n=10070+2014n ，因此 CDE =70+14n ．要求当 CDE 有 16 个因数时， n 的最小值是几， CDE =14 ( n+5 )=2 7 ( n+5 ) 从小到大发现 n=7 时满足条件，此时 CDE = 2 ^ 3 3 7 一共有 16 个因数，此时最小值为 2014 ( 5+7 )=24168 ． 最值问题从极端情况出发，既是五位数又是 2014 的倍数，最小为 10070 ； 约数个数逆应用， 16=16=8 2=4 4=4 2 2=2 2 2 2 ，分解质因数后指数可能是（ 15 ），（ 7 ， 1 ），（ 3 ， 3 ），（ 3 ， 1 ， 1 ），（ 1 ， 1 ， 1 ， 1 ）这几组． 10070 ， 70=2 5 7 ，舍 12084 ， 84= 2 ^ 2 3 7 ，舍 14098 ， 98= 2 ^ 7 ^ 2 ，舍 16112 ， 112= 2 ^ 4 7 ，舍 18126 ， 126=2 3 ^ 2 7 ，舍 20140 ， 140= 2 ^ 2 5 7 ，舍 22154 ， 154=2 7 11 ，舍 24168 ， 168= 2 ^ 3 3 7 ，符合 ABCDE 最小为 24168 ．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "832",
+        "queId": "656817c7e2d24e62ba282187304d9c82",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10070"
+          },
+          {
+            "label": "B",
+            "content": "16112"
+          },
+          {
+            "label": "C",
+            "content": "22154"
+          },
+          {
+            "label": "D",
+            "content": "24168"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->逻辑分析"
+        ],
+        "competition_source_list": [
+          "2014年第15届上海中环杯小学高年级五年级竞赛初赛第18题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00886",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 886,
+      "split": "zh_test",
+      "source_problem_id": "40f04cd536fc45e4bafb14cc2e68d6a6"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "数学家维纳是控制论的创始人．在他获得哈佛大学博士学位的授予仪式上，有人看他一脸稚气的样子，好奇地询问他的年龄．维纳的回答很有趣，他说：``我的年龄的立方是一个四位数，年龄的四次方是一个六位数，这两个数刚好把$$0-9$$这$$10$$个数字全都用上了，不重也不漏．''那么，维纳这一年~\\uline{~~~~~~~~~~}~岁．\n(A) 10\n(B) 12\n(C) 14\n(D) 16\n(E) 18",
+      "problem_plain": "数学家维纳是控制论的创始人．在他获得哈佛大学博士学位的授予仪式上，有人看他一脸稚气的样子，好奇地询问他的年龄．维纳的回答很有趣，他说：``我的年龄的立方是一个四位数，年龄的四次方是一个六位数，这两个数刚好把 0-9 这 10 个数字全都用上了，不重也不漏．''那么，维纳这一年~ ~~~~~~~~~~ ~岁． (A) 10 (B) 12 (C) 14 (D) 16 (E) 18",
+      "solution_latex": "此题的关键是他的年龄的立方是一个四位数，年龄的四次方是一个六位数．由于立方是四位数，四次方是六位数，所以年龄的范围大致应在$$17$$到$$22$$之间，所以，符合题意的只有$$18$$．",
+      "solution_plain": "此题的关键是他的年龄的立方是一个四位数，年龄的四次方是一个六位数．由于立方是四位数，四次方是六位数，所以年龄的范围大致应在 17 到 22 之间，所以，符合题意的只有 18 ．"
+    },
+    "answer": {
+      "final_raw": "18",
+      "final_normalized": "18",
+      "candidates": [
+        "18",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "此题的关键是他的年龄的立方是一个四位数，年龄的四次方是一个六位数．由于立方是四位数，四次方是六位数，所以年龄的范围大致应在$$17$$到$$22$$之间，所以，符合题意的只有$$18$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "数学家维纳是控制论的创始人．在他获得哈佛大学博士学位的授予仪式上，有人看他一脸稚气的样子，好奇地询问他的年龄．维纳的回答很有趣，他说：``我的年龄的立方是一个四位数，年龄的四次方是一个六位数，这两个数刚好把 0-9 这 10 个数字全都用上了，不重也不漏．''那么，维纳这一年~ ~~~~~~~~~~ ~岁． (A) 10 (B) 12 (C) 14 (D) 16 (E) 18",
+      "solution_text": "此题的关键是他的年龄的立方是一个四位数，年龄的四次方是一个六位数．由于立方是四位数，四次方是六位数，所以年龄的范围大致应在 17 到 22 之间，所以，符合题意的只有 18 ．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "776",
+        "queId": "40f04cd536fc45e4bafb14cc2e68d6a6",
+        "difficulty": "3",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "12"
+          },
+          {
+            "label": "C",
+            "content": "14"
+          },
+          {
+            "label": "D",
+            "content": "16"
+          },
+          {
+            "label": "E",
+            "content": "18"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->对应思想"
+        ],
+        "competition_source_list": [
+          "2011年全国希望杯五年级竞赛初赛第13题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00903",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 903,
+      "split": "zh_test",
+      "source_problem_id": "23ac701fab8344269b7bfdeb4157749c"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一个箱子里面装有十颗白球和十颗黑球，小明按照以下规则玩游戏：每一次他可选择两种方式之一进行操作：（$$a$$）从箱子里拿出一个白球和一个黑球放置在箱子外；（$$b$$）如果箱子外有黑球，从箱子里拿出一个白球放置在箱子外并从箱子外已取出的球中拿出一个黑球放回箱子里．游戏刚开始时，箱子外面没有球，请问经过$$6$$次操作后，小明算了以下箱子外面的球数之总数．请问小明所算的球数共有多少种可能的值？\n(A) 2\n(B) 3\n(C) 4\n(D) 5\n(E) 6",
+      "problem_plain": "一个箱子里面装有十颗白球和十颗黑球，小明按照以下规则玩游戏：每一次他可选择两种方式之一进行操作：（ a ）从箱子里拿出一个白球和一个黑球放置在箱子外；（ b ）如果箱子外有黑球，从箱子里拿出一个白球放置在箱子外并从箱子外已取出的球中拿出一个黑球放回箱子里．游戏刚开始时，箱子外面没有球，请问经过 6 次操作后，小明算了以下箱子外面的球数之总数．请问小明所算的球数共有多少种可能的值？ (A) 2 (B) 3 (C) 4 (D) 5 (E) 6",
+      "solution_latex": "因为白球每次都拿出一个，所以箱子外面不同球数的情况由黑球决定．  由游戏的规则可知，如果进行六次（$$a$$）操作则箱子外面有$$6$$个黑球；  如果进行五次（$$a$$）操作一次（$$b$$）操作则箱子外面有$$4$$个黑球；  如果进行四次（$$a$$）操作二次（$$b$$）操作则箱子外面有$$2$$个黑球；  如果进行三次（$$a$$）操作三次（$$b$$）操作则箱子外面有$$0$$个黑球．  不可能进行三次以上（$$b$$）操作，否则箱子外没有足够的黑球，所以箱子外面的球数有$$6$$、$$8$$、$$10$$、$$12$$四种可能，故选$$C$$．",
+      "solution_plain": "因为白球每次都拿出一个，所以箱子外面不同球数的情况由黑球决定． 由游戏的规则可知，如果进行六次（ a ）操作则箱子外面有 6 个黑球； 如果进行五次（ a ）操作一次（ b ）操作则箱子外面有 4 个黑球； 如果进行四次（ a ）操作二次（ b ）操作则箱子外面有 2 个黑球； 如果进行三次（ a ）操作三次（ b ）操作则箱子外面有 0 个黑球． 不可能进行三次以上（ b ）操作，否则箱子外没有足够的黑球，所以箱子外面的球数有 6 、 8 、 10 、 12 四种可能，故选 C ．"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为白球每次都拿出一个，所以箱子外面不同球数的情况由黑球决定．  由游戏的规则可知，如果进行六次（$$a$$）操作则箱子外面有$$6$$个黑球；  如果进行五次（$$a$$）操作一次（$$b$$）操作则箱子外面有$$4$$个黑球；  如果进行四次（$$a$$）操作二次（$$b$$）操作则箱子外面有$$2$$个黑球；  如果进行三次（$$a$$）操作三次（$$b$$）操作则箱子外面有$$0$$个黑球．  不可能进行三次以上（$$b$$）操作，否则箱子外没有足够的黑球，所以箱子外面的球数有$$6$$、$$8$$、$$10$$、$$12$$四种可能，故选$$C$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一个箱子里面装有十颗白球和十颗黑球，小明按照以下规则玩游戏：每一次他可选择两种方式之一进行操作：（ a ）从箱子里拿出一个白球和一个黑球放置在箱子外；（ b ）如果箱子外有黑球，从箱子里拿出一个白球放置在箱子外并从箱子外已取出的球中拿出一个黑球放回箱子里．游戏刚开始时，箱子外面没有球，请问经过 6 次操作后，小明算了以下箱子外面的球数之总数．请问小明所算的球数共有多少种可能的值？ (A) 2 (B) 3 (C) 4 (D) 5 (E) 6",
+      "solution_text": "因为白球每次都拿出一个，所以箱子外面不同球数的情况由黑球决定． 由游戏的规则可知，如果进行六次（ a ）操作则箱子外面有 6 个黑球； 如果进行五次（ a ）操作一次（ b ）操作则箱子外面有 4 个黑球； 如果进行四次（ a ）操作二次（ b ）操作则箱子外面有 2 个黑球； 如果进行三次（ a ）操作三次（ b ）操作则箱子外面有 0 个黑球． 不可能进行三次以上（ b ）操作，否则箱子外没有足够的黑球，所以箱子外面的球数有 6 、 8 、 10 、 12 四种可能，故选 C ．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3222",
+        "queId": "23ac701fab8344269b7bfdeb4157749c",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "5"
+          },
+          {
+            "label": "E",
+            "content": "6"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->整体思想"
+        ],
+        "competition_source_list": [
+          "2013年IMAS小学高年级竞赛第一轮检测试题第14题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00964",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 964,
+      "split": "zh_test",
+      "source_problem_id": "58ef207bdc0041a388c88d7ebd42cc24"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有一种数，是以法国数学家梅森的名字命名的，它们就是形如$$2^{n}-1$$($$n$$为质数）的梅森数，当梅森数是质数时就叫梅森质数，是合数时就叫梅森合数，例如：$$2^{2}-1=3$$就是第一个梅森质数．第一个梅森合数是．\n(A) 4\n(B) 15\n(C) 127\n(D) 2047",
+      "problem_plain": "有一种数，是以法国数学家梅森的名字命名的，它们就是形如 2^ n -1 ( n 为质数）的梅森数，当梅森数是质数时就叫梅森质数，是合数时就叫梅森合数，例如： 2^ 2 -1=3 就是第一个梅森质数．第一个梅森合数是． (A) 4 (B) 15 (C) 127 (D) 2047",
+      "solution_latex": "选项$$\\rm A$$：$$2^{n}-1=4$$，$$n$$无整数解；  选项$$\\rm B$$：$$2^{n}-1=15$$，$$n$$为$$4$$，但$$\\text{n}$$不是质数，故舍去；  选项$$\\rm C$$：$$2^{n}-1=127$$，$$n$$为$$7$$，$$127$$不是合数，故舍去；  选项$$\\rm D$$：$$2^{n}-1=2047$$，$$n$$为$$11$$，$$n$$为质数，且$$2047=23\\times 89$$，是合数，满足条件．\n<p>枚举$$n=2$$、$$3$$、$$5$$、$$7$$、$11\\cdots$ 当$$n=11$$时首次满足要求，$2^{11}-1=2047=23\\times89$，是合数.</p>",
+      "solution_plain": "选项 A ： 2^ n -1=4 ， n 无整数解； 选项 B ： 2^ n -1=15 ， n 为 4 ，但 n 不是质数，故舍去； 选项 C ： 2^ n -1=127 ， n 为 7 ， 127 不是合数，故舍去； 选项 D ： 2^ n -1=2047 ， n 为 11 ， n 为质数，且 2047=23 89 ，是合数，满足条件． <p>枚举 n=2 、 3 、 5 、 7 、 11 当 n=11 时首次满足要求， 2^ 11 -1=2047=23 89 ，是合数.</p>"
+    },
+    "answer": {
+      "final_raw": "2047",
+      "final_normalized": "2047",
+      "candidates": [
+        "2047",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "选项$$\\rm A$$：$$2^{n}-1=4$$，$$n$$无整数解；  选项$$\\rm B$$：$$2^{n}-1=15$$，$$n$$为$$4$$，但$$\\text{n}$$不是质数，故舍去；  选项$$\\rm C$$：$$2^{n}-1=127$$，$$n$$为$$7$$，$$127$$不是合数，故舍去；  选项$$\\rm D$$：$$2^{n}-1=2047$$，$$n$$为$$11$$，$$n$$为质数，且$$2047=23\\times 89$$，是合数，满足条件．\n<p>枚举$$n=2$$、$$3$$、$$5$$、$$7$$、$11\\cdots$ 当$$n=11$$时首次满足要求，$2^{11}-1=2047=23\\times89$，是合数.</p>"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有一种数，是以法国数学家梅森的名字命名的，它们就是形如 2^ n -1 ( n 为质数）的梅森数，当梅森数是质数时就叫梅森质数，是合数时就叫梅森合数，例如： 2^ 2 -1=3 就是第一个梅森质数．第一个梅森合数是． (A) 4 (B) 15 (C) 127 (D) 2047",
+      "solution_text": "选项 A ： 2^ n -1=4 ， n 无整数解； 选项 B ： 2^ n -1=15 ， n 为 4 ，但 n 不是质数，故舍去； 选项 C ： 2^ n -1=127 ， n 为 7 ， 127 不是合数，故舍去； 选项 D ： 2^ n -1=2047 ， n 为 11 ， n 为质数，且 2047=23 89 ，是合数，满足条件． <p>枚举 n=2 、 3 、 5 、 7 、 11 当 n=11 时首次满足要求， 2^ 11 -1=2047=23 89 ，是合数.</p>",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "635",
+        "queId": "58ef207bdc0041a388c88d7ebd42cc24",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "15"
+          },
+          {
+            "label": "C",
+            "content": "127"
+          },
+          {
+            "label": "D",
+            "content": "2047"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->逻辑分析"
+        ],
+        "competition_source_list": [
+          "2016年第21届全国华杯赛小学高年级竞赛初赛B卷第2题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00972",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 972,
+      "split": "zh_test",
+      "source_problem_id": "ff8080814518d5240145192bf4320578"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "老师把某个两位数的六个不同因数分别告诉了$$A\\sim F$$六个聪明诚实的同学．  $$A$$和$$B$$同时说：``我知道这个数是多少了．''  $$C$$和$$D$$同时说：``听了他们两人的话，我也知道这个两位数是多少了．''  $$E$$：``听了他们的话，我知道我的数一定比$$F$$的大．''  $$F$$：``我拿的数的大小在$$C$$和$$D$$之间．''  那么六个人拿的数之和是．\n(A) 141\n(B) 152\n(C) 171\n(D) 175",
+      "problem_plain": "老师把某个两位数的六个不同因数分别告诉了 A F 六个聪明诚实的同学． A 和 B 同时说：``我知道这个数是多少了．'' C 和 D 同时说：``听了他们两人的话，我也知道这个两位数是多少了．'' E ：``听了他们的话，我知道我的数一定比 F 的大．'' F ：``我拿的数的大小在 C 和 D 之间．'' 那么六个人拿的数之和是． (A) 141 (B) 152 (C) 171 (D) 175",
+      "solution_latex": "（1）这个数的因数个数肯定不低于$$6$$个（假定这个数为$$N$$，且拿到的$$6$$个数从大到小分别是$$ABCDEF$$ ）  （2）有两个人同时第一时间知道结果，这说明以下几个问题：  第一种情况：有一个人知道了最后的结果，这个结果是怎么知道的呢？很简单，他拿到的因数在$$50\\sim 99$$之间（也就是说$$A$$ 的$$2$$倍是$$3$$位数，所以$$A$$其实就是$$N$$）  第二种情况：有一个人拿到的不是最后结果，但是具备以下条件：  这个数的约数少于$$6$$个，比如：有人拿到$$36$$，单他不能断定$$N$$究竟是$$36$$还是$$72$$．  这个数小于$$50$$，不然这个数就只能也是$$N$$了．  这个数大于$$33$$，比如：有人拿到$$29$$，那么他不能断定$$N$$ 是$$58$$还是$$87$$；这里有个特例是$$27$$，因为$$27\\times 2=54$$，因数个数不少于$$6$$个；$$27\\times 3=81$$，因数个数少于$$6$$个，所以如果拿到$$27$$可以判断$$N$$只能为$$54$$）  这个数还不能是是质数，不然不存在含有这个因数的两位数．  最关键的是，这两人的数是$$2$$倍关系  但是上述内容并不完全正确，需要注意还有一些``奇葩''数：$$17$$、$$19$$、$$23$$也能顺利通过第一轮．  因此，这两个人拿到的数有如下可能：  （$$54$$，$$27$$）（$$68$$，$$34$$）（$$70$$，$$35$$）（$$76$$，$$38$$）（$$78$$，$$39$$）（$$92$$，$$46$$）（$$98$$，$$49$$）  （3）为了对比清晰，我们再来把上面所有的情况的因数都列举出来：  （$$54$$，$$27$$，$$18$$，$$9$$，$$6$$，$$3$$，$$2$$，$$1$$）  （$$68$$，$$34$$，$$17$$，$$4$$，$$2$$，$$1$$）（$$\\times$$）  （$$70$$，$$35$$，$$14$$，$$10$$，$$7$$，$$5$$，$$2$$，$$1$$）  （$$76$$，$$38$$，$$19$$，$$4$$，$$2$$，$$1$$）（$$\\times$$）  （$$78$$，$$39$$，$$26$$，$$13$$，$$6$$，$$3$$，$$2$$，$$1$$）  （$$92$$，$$46$$，$$23$$，$$4$$，$$2$$，$$1$$）（$$\\times$$）  （$$98$$，$$49$$，$$14$$，$$7$$，$$2$$，$$1$$）  对于第一轮通过的数，我们用红色标注，所以$$N$$不能是$$68$$、$$76$$、$$92$$中的任意一个．  之后在考虑第二轮需要通过的两个数．  用紫色标注的$$6$$、$$3$$、$$2$$、$$1$$，因为重复使用，如果出现了也不能判断$$N$$是多少，所以不能作为第二轮通过的数．  用绿色标注的$$14$$和$$7$$也不能作为第二轮通过的数，这样$$N$$也不是$$98$$．  那么通过第二轮的数只有黑色的数．  所以$$N$$ 只能是$$54$$、$$70$$、$$78$$中的一个．  我们再来观察可能满足$$E$$和$$F$$所说的内容：  （$$54$$，$$27$$，$$18$$，$$9$$，$$6$$，$$3$$，$$2$$，$$1$$）  （$$70$$，$$35$$，$$14$$，$$10$$，$$7$$，$$5$$，$$2$$，$$1$$）  （$$78$$，$$39$$，$$26$$，$$13$$，$$6$$，$$3$$，$$2$$，$$1$$）  因为$$F$$说他的数在$$C$$和$$D$$之间，我们发现上面的数据只有当$$N=70$$的时候，$$F=7$$，在$$CD$$$$(10$$和$$5)$$之间，是唯一满足条件的一种情况．  又因为$$E$$ 确定自己比$$F$$的大，那么他拿到的数一定是该组中剩余数里最大的．所以$$E$$拿到的是$$14$$（$$N=70$$ ）．  所以$$N=70$$，六个人拿的数之和为：$$70+35+14+10+7+5=141$$．",
+      "solution_plain": "（1）这个数的因数个数肯定不低于 6 个（假定这个数为 N ，且拿到的 6 个数从大到小分别是 ABCDEF ） （2）有两个人同时第一时间知道结果，这说明以下几个问题： 第一种情况：有一个人知道了最后的结果，这个结果是怎么知道的呢？很简单，他拿到的因数在 50 99 之间（也就是说 A 的 2 倍是 3 位数，所以 A 其实就是 N ） 第二种情况：有一个人拿到的不是最后结果，但是具备以下条件： 这个数的约数少于 6 个，比如：有人拿到 36 ，单他不能断定 N 究竟是 36 还是 72 ． 这个数小于 50 ，不然这个数就只能也是 N 了． 这个数大于 33 ，比如：有人拿到 29 ，那么他不能断定 N 是 58 还是 87 ；这里有个特例是 27 ，因为 27 2=54 ，因数个数不少于 6 个； 27 3=81 ，因数个数少于 6 个，所以如果拿到 27 可以判断 N 只能为 54 ） 这个数还不能是是质数，不然不存在含有这个因数的两位数． 最关键的是，这两人的数是 2 倍关系 但是上述内容并不完全正确，需要注意还有一些``奇葩''数： 17 、 19 、 23 也能顺利通过第一轮． 因此，这两个人拿到的数有如下可能： （ 54 ， 27 ）（ 68 ， 34 ）（ 70 ， 35 ）（ 76 ， 38 ）（ 78 ， 39 ）（ 92 ， 46 ）（ 98 ， 49 ） （3）为了对比清晰，我们再来把上面所有的情况的因数都列举出来： （ 54 ， 27 ， 18 ， 9 ， 6 ， 3 ， 2 ， 1 ） （ 68 ， 34 ， 17 ， 4 ， 2 ， 1 ）（ ） （ 70 ， 35 ， 14 ， 10 ， 7 ， 5 ， 2 ， 1 ） （ 76 ， 38 ， 19 ， 4 ， 2 ， 1 ）（ ） （ 78 ， 39 ， 26 ， 13 ， 6 ， 3 ， 2 ， 1 ） （ 92 ， 46 ， 23 ， 4 ， 2 ， 1 ）（ ） （ 98 ， 49 ， 14 ， 7 ， 2 ， 1 ） 对于第一轮通过的数，我们用红色标注，所以 N 不能是 68 、 76 、 92 中的任意一个． 之后在考虑第二轮需要通过的两个数． 用紫色标注的 6 、 3 、 2 、 1 ，因为重复使用，如果出现了也不能判断 N 是多少，所以不能作为第二轮通过的数． 用绿色标注的 14 和 7 也不能作为第二轮通过的数，这样 N 也不是 98 ． 那么通过第二轮的数只有黑色的数． 所以 N 只能是 54 、 70 、 78 中的一个． 我们再来观察可能满足 E 和 F 所说的内容： （ 54 ， 27 ， 18 ， 9 ， 6 ， 3 ， 2 ， 1 ） （ 70 ， 35 ， 14 ， 10 ， 7 ， 5 ， 2 ， 1 ） （ 78 ， 39 ， 26 ， 13 ， 6 ， 3 ， 2 ， 1 ） 因为 F 说他的数在 C 和 D 之间，我们发现上面的数据只有当 N=70 的时候， F=7 ，在 CD (10 和 5) 之间，是唯一满足条件的一种情况． 又因为 E 确定自己比 F 的大，那么他拿到的数一定是该组中剩余数里最大的．所以 E 拿到的是 14 （ N=70 ）． 所以 N=70 ，六个人拿的数之和为： 70+35+14+10+7+5=141 ．"
+    },
+    "answer": {
+      "final_raw": "141",
+      "final_normalized": "141",
+      "candidates": [
+        "141",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "（1）这个数的因数个数肯定不低于$$6$$个（假定这个数为$$N$$，且拿到的$$6$$个数从大到小分别是$$ABCDEF$$ ）  （2）有两个人同时第一时间知道结果，这说明以下几个问题：  第一种情况：有一个人知道了最后的结果，这个结果是怎么知道的呢？很简单，他拿到的因数在$$50\\sim 99$$之间（也就是说$$A$$ 的$$2$$倍是$$3$$位数，所以$$A$$其实就是$$N$$）  第二种情况：有一个人拿到的不是最后结果，但是具备以下条件：  这个数的约数少于$$6$$个，比如：有人拿到$$36$$，单他不能断定$$N$$究竟是$$36$$还是$$72$$．  这个数小于$$50$$，不然这个数就只能也是$$N$$了．  这个数大于$$33$$，比如：有人拿到$$29$$，那么他不能断定$$N$$ 是$$58$$还是$$87$$；这里有个特例是$$27$$，因为$$27\\times 2=54$$，因数个数不少于$$6$$个；$$27\\times 3=81$$，因数个数少于$$6$$个，所以如果拿到$$27$$可以判断$$N$$只能为$$54$$）  这个数还不能是是质数，不然不存在含有这个因数的两位数．  最关键的是，这两人的数是$$2$$倍关系  但是上述内容并不完全正确，需要注意还有一些``奇葩''数：$$17$$、$$19$$、$$23$$也能顺利通过第一轮．  因此，这两个人拿到的数有如下可能：  （$$54$$，$$27$$）（$$68$$，$$34$$）（$$70$$，$$35$$）（$$76$$，$$38$$）（$$78$$，$$39$$）（$$92$$，$$46$$）（$$98$$，$$49$$）  （3）为了对比清晰，我们再来把上面所有的情况的因数都列举出来：  （$$54$$，$$27$$，$$18$$，$$9$$，$$6$$，$$3$$，$$2$$，$$1$$）  （$$68$$，$$34$$，$$17$$，$$4$$，$$2$$，$$1$$）（$$\\times$$）  （$$70$$，$$35$$，$$14$$，$$10$$，$$7$$，$$5$$，$$2$$，$$1$$）  （$$76$$，$$38$$，$$19$$，$$4$$，$$2$$，$$1$$）（$$\\times$$）  （$$78$$，$$39$$，$$26$$，$$13$$，$$6$$，$$3$$，$$2$$，$$1$$）  （$$92$$，$$46$$，$$23$$，$$4$$，$$2$$，$$1$$）（$$\\times$$）  （$$98$$，$$49$$，$$14$$，$$7$$，$$2$$，$$1$$）  对于第一轮通过的数，我们用红色标注，所以$$N$$不能是$$68$$、$$76$$、$$92$$中的任意一个．  之后在考虑第二轮需要通过的两个数．  用紫色标注的$$6$$、$$3$$、$$2$$、$$1$$，因为重复使用，如果出现了也不能判断$$N$$是多少，所以不能作为第二轮通过的数．  用绿色标注的$$14$$和$$7$$也不能作为第二轮通过的数，这样$$N$$也不是$$98$$．  那么通过第二轮的数只有黑色的数．  所以$$N$$ 只能是$$54$$、$$70$$、$$78$$中的一个．  我们再来观察可能满足$$E$$和$$F$$所说的内容：  （$$54$$，$$27$$，$$18$$，$$9$$，$$6$$，$$3$$，$$2$$，$$1$$）  （$$70$$，$$35$$，$$14$$，$$10$$，$$7$$，$$5$$，$$2$$，$$1$$）  （$$78$$，$$39$$，$$26$$，$$13$$，$$6$$，$$3$$，$$2$$，$$1$$）  因为$$F$$说他的数在$$C$$和$$D$$之间，我们发现上面的数据只有当$$N=70$$的时候，$$F=7$$，在$$CD$$$$(10$$和$$5)$$之间，是唯一满足条件的一种情况．  又因为$$E$$ 确定自己比$$F$$的大，那么他拿到的数一定是该组中剩余数里最大的．所以$$E$$拿到的是$$14$$（$$N=70$$ ）．  所以$$N=70$$，六个人拿的数之和为：$$70+35+14+10+7+5=141$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "老师把某个两位数的六个不同因数分别告诉了 A F 六个聪明诚实的同学． A 和 B 同时说：``我知道这个数是多少了．'' C 和 D 同时说：``听了他们两人的话，我也知道这个两位数是多少了．'' E ：``听了他们的话，我知道我的数一定比 F 的大．'' F ：``我拿的数的大小在 C 和 D 之间．'' 那么六个人拿的数之和是． (A) 141 (B) 152 (C) 171 (D) 175",
+      "solution_text": "（1）这个数的因数个数肯定不低于 6 个（假定这个数为 N ，且拿到的 6 个数从大到小分别是 ABCDEF ） （2）有两个人同时第一时间知道结果，这说明以下几个问题： 第一种情况：有一个人知道了最后的结果，这个结果是怎么知道的呢？很简单，他拿到的因数在 50 99 之间（也就是说 A 的 2 倍是 3 位数，所以 A 其实就是 N ） 第二种情况：有一个人拿到的不是最后结果，但是具备以下条件： 这个数的约数少于 6 个，比如：有人拿到 36 ，单他不能断定 N 究竟是 36 还是 72 ． 这个数小于 50 ，不然这个数就只能也是 N 了． 这个数大于 33 ，比如：有人拿到 29 ，那么他不能断定 N 是 58 还是 87 ；这里有个特例是 27 ，因为 27 2=54 ，因数个数不少于 6 个； 27 3=81 ，因数个数少于 6 个，所以如果拿到 27 可以判断 N 只能为 54 ） 这个数还不能是是质数，不然不存在含有这个因数的两位数． 最关键的是，这两人的数是 2 倍关系 但是上述内容并不完全正确，需要注意还有一些``奇葩''数： 17 、 19 、 23 也能顺利通过第一轮． 因此，这两个人拿到的数有如下可能： （ 54 ， 27 ）（ 68 ， 34 ）（ 70 ， 35 ）（ 76 ， 38 ）（ 78 ， 39 ）（ 92 ， 46 ）（ 98 ， 49 ） （3）为了对比清晰，我们再来把上面所有的情况的因数都列举出来： （ 54 ， 27 ， 18 ， 9 ， 6 ， 3 ， 2 ， 1 ） （ 68 ， 34 ， 17 ， 4 ， 2 ， 1 ）（ ） （ 70 ， 35 ， 14 ， 10 ， 7 ， 5 ， 2 ， 1 ） （ 76 ， 38 ， 19 ， 4 ， 2 ， 1 ）（ ） （ 78 ， 39 ， 26 ， 13 ， 6 ， 3 ， 2 ， 1 ） （ 92 ， 46 ， 23 ， 4 ， 2 ， 1 ）（ ） （ 98 ， 49 ， 14 ， 7 ， 2 ， 1 ） 对于第一轮通过的数，我们用红色标注，所以 N 不能是 68 、 76 、 92 中的任意一个． 之后在考虑第二轮需要通过的两个数． 用紫色标注的 6 、 3 、 2 、 1 ，因为重复使用，如果出现了也不能判断 N 是多少，所以不能作为第二轮通过的数． 用绿色标注的 14 和 7 也不能作为第二轮通过的数，这样 N 也不是 98 ． 那么通过第二轮的数只有黑色的数． 所以 N 只能是 54 、 70 、 78 中的一个． 我们再来观察可能满足 E 和 F 所说的内容： （ 54 ， 27 ， 18 ， 9 ， 6 ， 3 ， 2 ， 1 ） （ 70 ， 35 ， 14 ， 10 ， 7 ， 5 ， 2 ， 1 ） （ 78 ， 39 ， 26 ， 13 ， 6 ， 3 ， 2 ， 1 ） 因为 F 说他的数在 C 和 D 之间，我们发现上面的数据只有当 N=70 的时候， F=7 ，在 CD (10 和 5) 之间，是唯一满足条件的一种情况． 又因为 E 确定自己比 F 的大，那么他拿到的数一定是该组中剩余数里最大的．所以 E 拿到的是 14 （ N=70 ）． 所以 N=70 ，六个人拿的数之和为： 70+35+14+10+7+5=141 ．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3314",
+        "queId": "ff8080814518d5240145192bf4320578",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "141"
+          },
+          {
+            "label": "B",
+            "content": "152"
+          },
+          {
+            "label": "C",
+            "content": "171"
+          },
+          {
+            "label": "D",
+            "content": "175"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->枚举思想"
+        ],
+        "competition_source_list": [
+          "2014年全国迎春杯六年级竞赛复赛第15题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:00982",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 982,
+      "split": "zh_test",
+      "source_problem_id": "ebe64fadbebb41aaad24c993d99c6e06"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "小朋友玩游戏，老师让小朋友们站成一排，并从第一位开始依照$$1$$、$$2$$、$$3$$循环报数，最后一位小朋友报的数是$$2$$，请问这一排可能共有多少位小朋友？\n(A) 24\n(B) 25\n(C) 26\n(D) 27\n(E) 28",
+      "problem_plain": "小朋友玩游戏，老师让小朋友们站成一排，并从第一位开始依照 1 、 2 、 3 循环报数，最后一位小朋友报的数是 2 ，请问这一排可能共有多少位小朋友？ (A) 24 (B) 25 (C) 26 (D) 27 (E) 28",
+      "solution_latex": "由题意可知这一派同学的人数除以$$3$$后所得的余数是$$2$$，在各个选项中只有选项$$\\text{C}$$符合要求．  故选$$\\text{C}$$．",
+      "solution_plain": "由题意可知这一派同学的人数除以 3 后所得的余数是 2 ，在各个选项中只有选项 C 符合要求． 故选 C ．"
+    },
+    "answer": {
+      "final_raw": "26",
+      "final_normalized": "26",
+      "candidates": [
+        "26",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由题意可知这一派同学的人数除以$$3$$后所得的余数是$$2$$，在各个选项中只有选项$$\\text{C}$$符合要求．  故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "小朋友玩游戏，老师让小朋友们站成一排，并从第一位开始依照 1 、 2 、 3 循环报数，最后一位小朋友报的数是 2 ，请问这一排可能共有多少位小朋友？ (A) 24 (B) 25 (C) 26 (D) 27 (E) 28",
+      "solution_text": "由题意可知这一派同学的人数除以 3 后所得的余数是 2 ，在各个选项中只有选项 C 符合要求． 故选 C ．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3119",
+        "queId": "ebe64fadbebb41aaad24c993d99c6e06",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "24"
+          },
+          {
+            "label": "B",
+            "content": "25"
+          },
+          {
+            "label": "C",
+            "content": "26"
+          },
+          {
+            "label": "D",
+            "content": "27"
+          },
+          {
+            "label": "E",
+            "content": "28"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->运算求解"
+        ],
+        "competition_source_list": [
+          "2014年IMAS小学中年级竞赛第一轮检测试题第18题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:01020",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1020,
+      "split": "zh_test",
+      "source_problem_id": "7a8c6842feba4eedba64e52075db3b05"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "黑板上写有$$1$$，$$\\frac{1}{2}$$，$$\\cdots$$，$$\\frac{1}{100}$$共$$100$$个数字，每次操作先从黑板上的数中选取两个数$$a$$，$$b$$，然后删去$$a$$，$$b$$，并在黑板上写上数$$a+b+ab$$，则经过$$99$$次操作后黑板上剩下的数是．\n(A) 2012\n(B) 101\n(C) 100\n(D) 99",
+      "problem_plain": "黑板上写有 1 ， 1 2 ， ， 1 100 共 100 个数字，每次操作先从黑板上的数中选取两个数 a ， b ，然后删去 a ， b ，并在黑板上写上数 a+b+ab ，则经过 99 次操作后黑板上剩下的数是． (A) 2012 (B) 101 (C) 100 (D) 99",
+      "solution_latex": "由$$a+b+ab+1=(a+1)(b+1)$$得，每次操作前和操作后，黑板上的每个数加$$1$$后的乘积不变，  设经过$$99$$次操作后黑板上剩下的数为$$x$$，  则$$x+1=(1+1)( \\frac{1}{2}+1)(\\frac{1}{3}+1)\\cdots (\\frac{1}{100}+1)$$，  解得$$x=100$$．",
+      "solution_plain": "由 a+b+ab+1=(a+1)(b+1) 得，每次操作前和操作后，黑板上的每个数加 1 后的乘积不变， 设经过 99 次操作后黑板上剩下的数为 x ， 则 x+1=(1+1)( 1 2 +1)( 1 3 +1) ( 1 100 +1) ， 解得 x=100 ．"
+    },
+    "answer": {
+      "final_raw": "100",
+      "final_normalized": "100",
+      "candidates": [
+        "100",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由$$a+b+ab+1=(a+1)(b+1)$$得，每次操作前和操作后，黑板上的每个数加$$1$$后的乘积不变，  设经过$$99$$次操作后黑板上剩下的数为$$x$$，  则$$x+1=(1+1)( \\frac{1}{2}+1)(\\frac{1}{3}+1)\\cdots (\\frac{1}{100}+1)$$，  解得$$x=100$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "黑板上写有 1 ， 1 2 ， ， 1 100 共 100 个数字，每次操作先从黑板上的数中选取两个数 a ， b ，然后删去 a ， b ，并在黑板上写上数 a+b+ab ，则经过 99 次操作后黑板上剩下的数是． (A) 2012 (B) 101 (C) 100 (D) 99",
+      "solution_text": "由 a+b+ab+1=(a+1)(b+1) 得，每次操作前和操作后，黑板上的每个数加 1 后的乘积不变， 设经过 99 次操作后黑板上剩下的数为 x ， 则 x+1=(1+1)( 1 2 +1)( 1 3 +1) ( 1 100 +1) ， 解得 x=100 ．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "653",
+        "queId": "7a8c6842feba4eedba64e52075db3b05",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2012"
+          },
+          {
+            "label": "B",
+            "content": "101"
+          },
+          {
+            "label": "C",
+            "content": "100"
+          },
+          {
+            "label": "D",
+            "content": "99"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->题型->式->因式分解->因式分解综合应用",
+          "知识标签->知识点->式->因式分解->因式分解：其他方法"
+        ],
+        "competition_source_list": [
+          "2016年山东青岛竞赛二中杯",
+          "初二其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:01592",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1592,
+      "split": "zh_test",
+      "source_problem_id": "3a7747dfacce408fa554b6f72c28d6f1"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "2005AMC12A, 19  A faulty car odometer proceeds from digit $$3$$ to digit $$5$$, always skipping the digit $$4$$, regardless of position. If the odometer now reads $$002005$$, how many miles has the car actually traveled?  一个有故障的汽车里程表，它会从数字$$3$$ ，越过数字$$4$$，直接跳到数字$$5$$，在每一位上都是如此。 如果里程表现在显示$$002005$$，汽车实际行驶了多少英里？\n(A) 1404\n(B) 1462\n(C) 1604\n(D) 1605\n(E) 1804",
+      "problem_plain": "2005AMC12A, 19 A faulty car odometer proceeds from digit 3 to digit 5 , always skipping the digit 4 , regardless of position. If the odometer now reads 002005 , how many miles has the car actually traveled? 一个有故障的汽车里程表，它会从数字 3 ，越过数字 4 ，直接跳到数字 5 ，在每一位上都是如此。 如果里程表现在显示 002005 ，汽车实际行驶了多少英里？ (A) 1404 (B) 1462 (C) 1604 (D) 1605 (E) 1804",
+      "solution_latex": "这实际上是一个考察进制的题。  在这个错误的里程表上，每位上可取的数字从$0 9$变成了$0, 1, 2, 3, 5, 6, 7, 8, 9$，也就是从$$10$$个变成了$$9$$个。因此这是一个$$9$$进制里程表，它每一位上的$0, 1, 2, 3, 5, 6, 7, 8, 9$，分别对应$$9$$进制中的$0, 1, 2, 3, 4, 5, 6, 7, 8$。  那么，实际里程数$=2004_9=4+2\\times 9^{3}=1462$（注意里程表上的$$5$$对应的是$$9$$进制的4），选$$\\text{B}$$。",
+      "solution_plain": "这实际上是一个考察进制的题。 在这个错误的里程表上，每位上可取的数字从 0 9 变成了 0, 1, 2, 3, 5, 6, 7, 8, 9 ，也就是从 10 个变成了 9 个。因此这是一个 9 进制里程表，它每一位上的 0, 1, 2, 3, 5, 6, 7, 8, 9 ，分别对应 9 进制中的 0, 1, 2, 3, 4, 5, 6, 7, 8 。 那么，实际里程数 =2004_9=4+2 9^ 3 =1462 （注意里程表上的 5 对应的是 9 进制的4），选 B 。"
+    },
+    "answer": {
+      "final_raw": "1462",
+      "final_normalized": "1462",
+      "candidates": [
+        "1462",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "combination",
+        "reasoning",
+        "simple_logical_reasoning",
+        "unknown"
+      ],
+      "tags": [
+        "amc10_12",
+        "combination",
+        "competition_math",
+        "level_4",
+        "reasoning",
+        "simple_logical_reasoning",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "这实际上是一个考察进制的题。",
+        "在这个错误的里程表上，每位上可取的数字从$0 9$变成了$0, 1, 2, 3, 5, 6, 7, 8, 9$，也就是从$$10$$个变成了$$9$$个。因此这是一个$$9$$进制里程表，它每一位上的$0, 1, 2, 3, 5, 6, 7, 8, 9$，分别对应$$9$$进制中的$0, 1, 2, 3, 4, 5, 6, 7, 8$。",
+        "那么，实际里程数$=2004_9=4+2\\times 9^{3}=1462$（注意里程表上的$$5$$对应的是$$9$$进制的4），选$$\\text{B}$$。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2005AMC12A, 19 A faulty car odometer proceeds from digit 3 to digit 5 , always skipping the digit 4 , regardless of position. If the odometer now reads 002005 , how many miles has the car actually traveled? 一个有故障的汽车里程表，它会从数字 3 ，越过数字 4 ，直接跳到数字 5 ，在每一位上都是如此。 如果里程表现在显示 002005 ，汽车实际行驶了多少英里？ (A) 1404 (B) 1462 (C) 1604 (D) 1605 (E) 1804",
+      "solution_text": "这实际上是一个考察进制的题。 在这个错误的里程表上，每位上可取的数字从 0 9 变成了 0, 1, 2, 3, 5, 6, 7, 8, 9 ，也就是从 10 个变成了 9 个。因此这是一个 9 进制里程表，它每一位上的 0, 1, 2, 3, 5, 6, 7, 8, 9 ，分别对应 9 进制中的 0, 1, 2, 3, 4, 5, 6, 7, 8 。 那么，实际里程数 =2004_9=4+2 9^ 3 =1462 （注意里程表上的 5 对应的是 9 进制的4），选 B 。",
+      "keywords": [
+        "amc10_12",
+        "combination",
+        "competition_math",
+        "level_4",
+        "reasoning",
+        "simple_logical_reasoning",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "465",
+        "queId": "3a7747dfacce408fa554b6f72c28d6f1",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1404"
+          },
+          {
+            "label": "B",
+            "content": "1462"
+          },
+          {
+            "label": "C",
+            "content": "1604"
+          },
+          {
+            "label": "D",
+            "content": "1605"
+          },
+          {
+            "label": "E",
+            "content": "1804"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->算法与框图->算法案例->进位制",
+          "美国AMC10/12->Knowledge Point->Combination->Reasoning->Simple Logical Reasoning"
+        ],
+        "competition_source_list": [
+          "2005年AMC12竞赛A第19题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:01691",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1691,
+      "split": "zh_test",
+      "source_problem_id": "19a4c6c21fa641edbba71ee830d23b50"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知复数$$z=1-\\text{i}$$，则$$\\frac{{{z}^{2}}-2z}{z-1}=$$．\n(A) -2\\text{i}\n(B) 2\\text{i}\n(C) 2\n(D) -2",
+      "problem_plain": "已知复数 z=1- i ，则 z ^ 2 -2z z-1 = ． (A) -2 i (B) 2 i (C) 2 (D) -2",
+      "solution_latex": "$$\\frac{{{z}^{2}}-2z}{z-1}=\\frac{{{\\left( z-1 \\right)}^{2}}-1}{z-1}=z-1-\\frac{1}{z-1}=-\\text{i}-\\frac{1}{-\\text{i}}=-\\text{i}-\\text{i}=-2\\text{i}$$",
+      "solution_plain": "z ^ 2 -2z z-1 = ( z-1 ) ^ 2 -1 z-1 =z-1- 1 z-1 =- i - 1 - i =- i - i =-2 i"
+    },
+    "answer": {
+      "final_raw": "-2\\text{i}",
+      "final_normalized": "-2\\text{i}",
+      "candidates": [
+        "-2\\text{i}",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$\\frac{{{z}^{2}}-2z}{z-1}=\\frac{{{\\left( z-1 \\right)}^{2}}-1}{z-1}=z-1-\\frac{1}{z-1}=-\\text{i}-\\frac{1}{-\\text{i}}=-\\text{i}-\\text{i}=-2\\text{i}$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知复数 z=1- i ，则 z ^ 2 -2z z-1 = ． (A) -2 i (B) 2 i (C) 2 (D) -2",
+      "solution_text": "z ^ 2 -2z z-1 = ( z-1 ) ^ 2 -1 z-1 =z-1- 1 z-1 =- i - 1 - i =- i - i =-2 i",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "243",
+        "queId": "19a4c6c21fa641edbba71ee830d23b50",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "-2\\text{i}"
+          },
+          {
+            "label": "B",
+            "content": "2\\text{i}"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "-2"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->复数与平面向量->复数的概念与运算"
+        ],
+        "competition_source_list": [
+          "2009年黑龙江全国高中数学联赛竞赛初赛第1题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:01708",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1708,
+      "split": "zh_test",
+      "source_problem_id": "3e79a005afef4ce7aa4404ea5980d4e9"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在$${\\triangle }ABC$$中，$$\\overrightarrow{BC}\\cdot \\overrightarrow{BA}=\\overrightarrow{CB}\\cdot \\overrightarrow{CA}$$，则$${\\triangle }ABC$$是．\n(A) 等腰三角形\n(B) 直角三角形\n(C) 等腰直角三角形\n(D) 以上均不对",
+      "problem_plain": "在 ABC 中， BC BA = CB CA ，则 ABC 是． (A) 等腰三角形 (B) 直角三角形 (C) 等腰直角三角形 (D) 以上均不对",
+      "solution_latex": "所给数量积等式可转化为$$\\overrightarrow{BC}\\cdot \\left( \\overrightarrow{AB}+\\overrightarrow{AC} \\right)=0$$．若记$$BC$$的中点为$$D$$，$$\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AD}$$，从而$$\\overrightarrow{BC}\\cdot \\overrightarrow{AD}=0$$．这表明$$BC$$与中线$$AD$$垂直，因此$$\\triangle ABC$$是等腰三角形．",
+      "solution_plain": "所给数量积等式可转化为 BC ( AB + AC )=0 ．若记 BC 的中点为 D ， AB + AC =2 AD ，从而 BC AD =0 ．这表明 BC 与中线 AD 垂直，因此 ABC 是等腰三角形．"
+    },
+    "answer": {
+      "final_raw": "等腰三角形",
+      "final_normalized": "等腰三角形",
+      "candidates": [
+        "A",
+        "等腰三角形"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "所给数量积等式可转化为$$\\overrightarrow{BC}\\cdot \\left( \\overrightarrow{AB}+\\overrightarrow{AC} \\right)=0$$．若记$$BC$$的中点为$$D$$，$$\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AD}$$，从而$$\\overrightarrow{BC}\\cdot \\overrightarrow{AD}=0$$．这表明$$BC$$与中线$$AD$$垂直，因此$$\\triangle ABC$$是等腰三角形．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在 ABC 中， BC BA = CB CA ，则 ABC 是． (A) 等腰三角形 (B) 直角三角形 (C) 等腰直角三角形 (D) 以上均不对",
+      "solution_text": "所给数量积等式可转化为 BC ( AB + AC )=0 ．若记 BC 的中点为 D ， AB + AC =2 AD ，从而 BC AD =0 ．这表明 BC 与中线 AD 垂直，因此 ABC 是等腰三角形．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "407",
+        "queId": "3e79a005afef4ce7aa4404ea5980d4e9",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "等腰三角形"
+          },
+          {
+            "label": "B",
+            "content": "直角三角形"
+          },
+          {
+            "label": "C",
+            "content": "等腰直角三角形"
+          },
+          {
+            "label": "D",
+            "content": "以上均不对"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->复数与平面向量->平面向量的应用",
+          "竞赛->知识点->复数与平面向量->平面向量的概念与运算"
+        ],
+        "competition_source_list": [
+          "2013年天津全国高中数学联赛竞赛初赛第3题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:01756",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1756,
+      "split": "zh_test",
+      "source_problem_id": "c1ea6dcb536640d1ac11a265dccb555b"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$S= {1,2,3,\\cdots ,2020 }$，集合\\emph{T}是\\emph{S}的\\emph{n}元子集，且其中任意两个元素互质，对任意符合要求的集合\\emph{T}，均至少包含一个质数，则\\emph{n}的最小值为（~~~~~~~）\n(A) 15\n(B) 16\n(C) 17\n(D) 18",
+      "problem_plain": "设 S= 1,2,3, ,2020 ，集合 T 是 S 的 n 元子集，且其中任意两个元素互质，对任意符合要求的集合 T ，均至少包含一个质数，则 n 的最小值为（~~~~~~~） (A) 15 (B) 16 (C) 17 (D) 18",
+      "solution_latex": "\\hfill\\break 【分析】\\\\ 先根据特例可得$n\\geq 16$，再证明对任意$A\\subseteq S,n=\\textbar{} A\\textbar{} =16$，\\emph{A}中任意两数互质，则\\emph{A}中必存在一个质数，从而可得正确的选项.\\\\ 【详解】\\\\ 首先，我们有$n\\geq 16$．\\\\ 事实上，取集合$A_{0}=\\left {1,2^{2},3^{2},5^{2},\\cdots ,41^{2},43^{2}\\right }$，\\\\ 其元素，除1以外，均为不超过43的素数的平方，则$A_{0}\\subseteq S,\\left\\textbar{} A_{0}\\right\\textbar{} =15,A_{0}$中任意两数互质，但其中无质数，这表明$n\\geq 16$．\\\\ 其次，我们证明：对任意$A\\subseteq S,n=\\textbar{} A\\textbar{} =16$，\\emph{A}中任意两数互质，则\\emph{A}中必存在一个质数.利用反证法，假设\\emph{A}中无质数，记$A=\\left {a_{1},a_{2},\\cdots ,a_{16}\\right }$，分两种情况讨论：\\\\ \\textbf{情形一}~~~若$1\\not\\in A$，则$a_{1},a_{2},\\cdots ,a_{16}$均为合数，\\\\ 又因为$\\left(a_{i},a_{j}\\right)=1(1\\leq i\\textless{} j\\leq 16)$，所以$a_{i}$与$a_{j}$的质因数均不相同，\\\\ 设$a_{i}$的最小质因数为$p_{i}$，不妨设$p_{1}\\textless{} p_{2}\\textless{} \\cdots \\textless{} p_{16}$，则\\\\ $a_{1}\\geq {p}_{1}^{2}\\geq 2^{2}$，\\\\ $a_{2}\\geq {p}_{2}^{2}\\geq 3^{2}$，\\\\ \\ldots，\\\\ $a_{15}\\geq {p}_{15}^{2}\\geq 47^{2}\\textgreater{} 2020$，\\\\ 矛盾．\\\\ \\textbf{情形二}~~~若$1\\in A$，则不妨设$a_{16}=1,a_{1},\\cdots ,a_{15}$均为合数，同情形一所设，同理有\\\\ $a_{1}\\geq {p}_{1}^{2}\\geq 2^{2}$，\\\\ $a_{2}\\geq {p}_{2}^{2}\\geq 3^{2}$，\\\\ \\ldots，\\\\ $a_{15}\\geq {p}_{15}^{2}\\geq 47^{2}\\textgreater{} 2020$，\\\\ 矛盾．\\\\ 综上所述，反设不成立，从而\\emph{A}中必有质数，即$n=\\textbar{} A\\textbar{} =16$时结论成立，\\\\ 因此所求\\emph{n}的最小值为16．\\\\ 故选：B.",
+      "solution_plain": "【分析】 先根据特例可得 n 16 ，再证明对任意 A S,n= A =16 ， A 中任意两数互质，则 A 中必存在一个质数，从而可得正确的选项. 【详解】 首先，我们有 n 16 ． 事实上，取集合 A_ 0 = 1,2^ 2 ,3^ 2 ,5^ 2 , ,41^ 2 ,43^ 2 ， 其元素，除1以外，均为不超过43的素数的平方，则 A_ 0 S, A_ 0 =15,A_ 0 中任意两数互质，但其中无质数，这表明 n 16 ． 其次，我们证明：对任意 A S,n= A =16 ， A 中任意两数互质，则 A 中必存在一个质数.利用反证法，假设 A 中无质数，记 A= a_ 1 ,a_ 2 , ,a_ 16 ，分两种情况讨论： 情形一 ~~~若 1 A ，则 a_ 1 ,a_ 2 , ,a_ 16 均为合数， 又因为 (a_ i ,a_ j )=1(1 i j 16) ，所以 a_ i 与 a_ j 的质因数均不相同， 设 a_ i 的最小质因数为 p_ i ，不妨设 p_ 1 p_ 2 p_ 16 ，则 a_ 1 p _ 1 ^ 2 2^ 2 ， a_ 2 p _ 2 ^ 2 3^ 2 ， ， a_ 15 p _ 15 ^ 2 47^ 2 2020 ， 矛盾． 情形二 ~~~若 1 A ，则不妨设 a_ 16 =1,a_ 1 , ,a_ 15 均为合数，同情形一所设，同理有 a_ 1 p _ 1 ^ 2 2^ 2 ， a_ 2 p _ 2 ^ 2 3^ 2 ， ， a_ 15 p _ 15 ^ 2 47^ 2 2020 ， 矛盾． 综上所述，反设不成立，从而 A 中必有质数，即 n= A =16 时结论成立， 因此所求 n 的最小值为16． 故选：B."
+    },
+    "answer": {
+      "final_raw": "16",
+      "final_normalized": "16",
+      "candidates": [
+        "16",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "\\hfill\\break 【分析】\\\\ 先根据特例可得$n\\geq 16$，再证明对任意$A\\subseteq S,n=\\textbar{} A\\textbar{} =16$，\\emph{A}中任意两数互质，则\\emph{A}中必存在一个质数，从而可得正确的选项.\\\\ 【详解】\\\\ 首先，我们有$n\\geq 16$．\\\\ 事实上，取集合$A_{0}=\\left {1,2^{2},3^{2},5^{2},\\cdots ,41^{2},43^{2}\\right }$，\\\\ 其元素，除1以外，均为不超过43的素数的平方，则$A_{0}\\subseteq S,\\left\\textbar{} A_{0}\\right\\textbar{} =15,A_{0}$中任意两数互质，但其中无质数，这表明$n\\geq 16$．\\\\ 其次，我们证明：对任意$A\\subseteq S,n=\\textbar{} A\\textbar{} =16$，\\emph{A}中任意两数互质，则\\emph{A}中必存在一个质数.利用反证法，假设\\emph{A}中无质数，记$A=\\left {a_{1},a_{2},\\cdots ,a_{16}\\right }$，分两种情况讨论：\\\\ \\textbf{情形一}~~~若$1\\not\\in A$，则$a_{1},a_{2},\\cdots ,a_{16}$均为合数，\\\\ 又因为$\\left(a_{i},a_{j}\\right)=1(1\\leq i\\textless{} j\\leq 16)$，所以$a_{i}$与$a_{j}$的质因数均不相同，\\\\ 设$a_{i}$的最小质因数为$p_{i}$，不妨设$p_{1}\\textless{} p_{2}\\textless{} \\cdots \\textless{} p_{16}$，则\\\\ $a_{1}\\geq {p}_{1}^{2}\\geq 2^{2}$，\\\\ $a_{2}\\geq {p}_{2}^{2}\\geq 3^{2}$，\\\\ \\ldots，\\\\ $a_{15}\\geq {p}_{15}^{2}\\geq 47^{2}\\textgreater{} 2020$，\\\\ 矛盾．\\\\ \\textbf{情形二}~~~若$1\\in A$，则不妨设$a_{16}=1,a_{1},\\cdots ,a_{15}$均为合数，同情形一所设，同理有\\\\ $a_{1}\\geq {p}_{1}^{2}\\geq 2^{2}$，\\\\ $a_{2}\\geq {p}_{2}^{2}\\geq 3^{2}$，\\\\ \\ldots，\\\\ $a_{15}\\geq {p}_{15}^{2}\\geq 47^{2}\\textgreater{} 2020$，\\\\ 矛盾．\\\\ 综上所述，反设不成立，从而\\emph{A}中必有质数，即$n=\\textbar{} A\\textbar{} =16$时结论成立，\\\\ 因此所求\\emph{n}的最小值为16．\\\\ 故选：B."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 S= 1,2,3, ,2020 ，集合 T 是 S 的 n 元子集，且其中任意两个元素互质，对任意符合要求的集合 T ，均至少包含一个质数，则 n 的最小值为（~~~~~~~） (A) 15 (B) 16 (C) 17 (D) 18",
+      "solution_text": "【分析】 先根据特例可得 n 16 ，再证明对任意 A S,n= A =16 ， A 中任意两数互质，则 A 中必存在一个质数，从而可得正确的选项. 【详解】 首先，我们有 n 16 ． 事实上，取集合 A_ 0 = 1,2^ 2 ,3^ 2 ,5^ 2 , ,41^ 2 ,43^ 2 ， 其元素，除1以外，均为不超过43的素数的平方，则 A_ 0 S, A_ 0 =15,A_ 0 中任意两数互质，但其中无质数，这表明 n 16 ． 其次，我们证明：对任意 A S,n= A =16 ， A 中任意两数互质，则 A 中必存在一个质数.利用反证法，假设 A 中无质数，记 A= a_ 1 ,a_ 2 , ,a_ 16 ，分两种情况讨论： 情形一 ~~~若 1 A ，则 a_ 1 ,a_ 2 , ,a_ 16 均为合数， 又因为 (a_ i ,a_ j )=1(1 i j 16) ，所以 a_ i 与 a_ j 的质因数均不相同， 设 a_ i 的最小质因数为 p_ i ，不妨设 p_ 1 p_ 2 p_ 16 ，则 a_ 1 p _ 1 ^ 2 2^ 2 ， a_ 2 p _ 2 ^ 2 3^ 2 ， ， a_ 15 p _ 15 ^ 2 47^ 2 2020 ， 矛盾． 情形二 ~~~若 1 A ，则不妨设 a_ 16 =1,a_ 1 , ,a_ 15 均为合数，同情形一所设，同理有 a_ 1 p _ 1 ^ 2 2^ 2 ， a_ 2 p _ 2 ^ 2 3^ 2 ， ， a_ 15 p _ 15 ^ 2 47^ 2 2020 ， 矛盾． 综上所述，反设不成立，从而 A 中必有质数，即 n= A =16 时结论成立， 因此所求 n 的最小值为16． 故选：B.",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1125",
+        "queId": "c1ea6dcb536640d1ac11a265dccb555b",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "15"
+          },
+          {
+            "label": "B",
+            "content": "16"
+          },
+          {
+            "label": "C",
+            "content": "17"
+          },
+          {
+            "label": "D",
+            "content": "18"
+          }
+        ],
+        "knowledge_point_routes": [],
+        "competition_source_list": [
+          "竞赛第22题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:01771",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1771,
+      "split": "zh_test",
+      "source_problem_id": "186c6d96383d4a34ae0d4be37566315f"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设命题$$P$$：关于$$x$$的不等式$${{a}_{1}}{{x}^{2}}+{{b}_{1}}x+c{{}_{1}}\\textgreater0$$与$${{a}_{2}}{{x}^{2}}+{{b}_{2}}x+{{c}_{2}}\\textgreater0$$的解集相同；命题$$Q:\\frac{{{a}_{1}}}{{{a}_{2}}}=\\frac{{{b}_{1}}}{{{b}_{2}}}=\\frac{{{c}_{1}}}{{{c}_{2}}}$$．则命题$$Q$$是命题$$P$$的．\n(A) 充要条件\n(B) 充分不必要条件\n(C) 必要不充分条件\n(D) 既不充分也不必要条件",
+      "problem_plain": "设命题 P ：关于 x 的不等式 a _ 1 x ^ 2 + b _ 1 x+c _ 1 0 与 a _ 2 x ^ 2 + b _ 2 x+ c _ 2 0 的解集相同；命题 Q: a _ 1 a _ 2 = b _ 1 b _ 2 = c _ 1 c _ 2 ．则命题 Q 是命题 P 的． (A) 充要条件 (B) 充分不必要条件 (C) 必要不充分条件 (D) 既不充分也不必要条件",
+      "solution_latex": "当两个不等式为$${{x}^{2}}+x+1\\textgreater0$$和$${{x}^{2}}+x+2\\textgreater0$$时，显然解集相同，但$$Q$$不成立；  反之，当$$Q$$成立，取$$\\frac{{{a}_{1}}}{{{a}_{2}}}=\\frac{{{b}_{1}}}{{{b}_{2}}}=\\frac{{{c}_{1}}}{{{c}_{2}}}=-1$$，显然两个不等式解集不同．  因此，$$Q$$既不是$$P$$的充分条件也不是必要条件．",
+      "solution_plain": "当两个不等式为 x ^ 2 +x+1 0 和 x ^ 2 +x+2 0 时，显然解集相同，但 Q 不成立； 反之，当 Q 成立，取 a _ 1 a _ 2 = b _ 1 b _ 2 = c _ 1 c _ 2 =-1 ，显然两个不等式解集不同． 因此， Q 既不是 P 的充分条件也不是必要条件．"
+    },
+    "answer": {
+      "final_raw": "既不充分也不必要条件",
+      "final_normalized": "既不充分也不必要条件",
+      "candidates": [
+        "D",
+        "既不充分也不必要条件"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "当两个不等式为$${{x}^{2}}+x+1\\textgreater0$$和$${{x}^{2}}+x+2\\textgreater0$$时，显然解集相同，但$$Q$$不成立；  反之，当$$Q$$成立，取$$\\frac{{{a}_{1}}}{{{a}_{2}}}=\\frac{{{b}_{1}}}{{{b}_{2}}}=\\frac{{{c}_{1}}}{{{c}_{2}}}=-1$$，显然两个不等式解集不同．  因此，$$Q$$既不是$$P$$的充分条件也不是必要条件．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设命题 P ：关于 x 的不等式 a _ 1 x ^ 2 + b _ 1 x+c _ 1 0 与 a _ 2 x ^ 2 + b _ 2 x+ c _ 2 0 的解集相同；命题 Q: a _ 1 a _ 2 = b _ 1 b _ 2 = c _ 1 c _ 2 ．则命题 Q 是命题 P 的． (A) 充要条件 (B) 充分不必要条件 (C) 必要不充分条件 (D) 既不充分也不必要条件",
+      "solution_text": "当两个不等式为 x ^ 2 +x+1 0 和 x ^ 2 +x+2 0 时，显然解集相同，但 Q 不成立； 反之，当 Q 成立，取 a _ 1 a _ 2 = b _ 1 b _ 2 = c _ 1 c _ 2 =-1 ，显然两个不等式解集不同． 因此， Q 既不是 P 的充分条件也不是必要条件．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "134",
+        "queId": "186c6d96383d4a34ae0d4be37566315f",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "充要条件"
+          },
+          {
+            "label": "B",
+            "content": "充分不必要条件"
+          },
+          {
+            "label": "C",
+            "content": "必要不充分条件"
+          },
+          {
+            "label": "D",
+            "content": "既不充分也不必要条件"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->逻辑->逻辑推理",
+          "竞赛->知识点->逻辑->常用逻辑用语",
+          "竞赛->知识点->不等式->不等式的证明",
+          "竞赛->知识点->不等式->不等式的解法"
+        ],
+        "competition_source_list": [
+          "2009年黑龙江全国高中数学联赛竞赛初赛第4题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:01886",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1886,
+      "split": "zh_test",
+      "source_problem_id": "45562866995248aaafe34e08d0f0018d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知不等式$${{m}^{2}}+({{\\cos }^{2}}\\theta -5)m+4{{\\sin }^{2}}\\theta \\geqslant 0$$恒成立，则实数$$m$$的取值范围是．\n(A) 0\\leqslant m\\leqslant 4\n(B) 1\\leqslant m\\leqslant 4\n(C) m\\geqslant 4$$或$$x\\leqslant 0\n(D) m\\geqslant 1$$或$$m\\leqslant 0",
+      "problem_plain": "已知不等式 m ^ 2 +( ^ 2 -5)m+4 ^ 2 0 恒成立，则实数 m 的取值范围是． (A) 0 m 4 (B) 1 m 4 (C) m 4 或 x 0 (D) m 1 或 m 0",
+      "solution_latex": "$${{m}^{2}}+({{\\cos }^{2}}\\theta -5)m+4{{\\sin }^{2}}\\theta ={{m}^{2}}+\\left( -4-{{\\sin }^{2}}\\theta \\right)m+4{{\\sin }^{2}}\\theta =\\left( m-4 \\right)\\left( m-{{\\sin }^{2}}\\theta \\right)\\geqslant 0$$，  所以$$m\\geqslant 4$$或$$m\\leqslant {{\\sin }^{2}}\\theta $$恒成立，则$$m\\geqslant 4$$或$$m\\leqslant 0$$．",
+      "solution_plain": "m ^ 2 +( ^ 2 -5)m+4 ^ 2 = m ^ 2 + ( -4- ^ 2 )m+4 ^ 2 = ( m-4 ) ( m- ^ 2 ) 0 ， 所以 m 4 或 m ^ 2 恒成立，则 m 4 或 m 0 ．"
+    },
+    "answer": {
+      "final_raw": "m\\geqslant 4$$或$$x\\leqslant 0",
+      "final_normalized": "m\\geqslant 4$$或$$x\\leqslant 0",
+      "candidates": [
+        "C",
+        "m\\geqslant 4$$或$$x\\leqslant 0"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$${{m}^{2}}+({{\\cos }^{2}}\\theta -5)m+4{{\\sin }^{2}}\\theta ={{m}^{2}}+\\left( -4-{{\\sin }^{2}}\\theta \\right)m+4{{\\sin }^{2}}\\theta =\\left( m-4 \\right)\\left( m-{{\\sin }^{2}}\\theta \\right)\\geqslant 0$$，  所以$$m\\geqslant 4$$或$$m\\leqslant {{\\sin }^{2}}\\theta $$恒成立，则$$m\\geqslant 4$$或$$m\\leqslant 0$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知不等式 m ^ 2 +( ^ 2 -5)m+4 ^ 2 0 恒成立，则实数 m 的取值范围是． (A) 0 m 4 (B) 1 m 4 (C) m 4 或 x 0 (D) m 1 或 m 0",
+      "solution_text": "m ^ 2 +( ^ 2 -5)m+4 ^ 2 = m ^ 2 + ( -4- ^ 2 )m+4 ^ 2 = ( m-4 ) ( m- ^ 2 ) 0 ， 所以 m 4 或 m ^ 2 恒成立，则 m 4 或 m 0 ．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "661",
+        "queId": "45562866995248aaafe34e08d0f0018d",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0\\leqslant m\\leqslant 4"
+          },
+          {
+            "label": "B",
+            "content": "1\\leqslant m\\leqslant 4"
+          },
+          {
+            "label": "C",
+            "content": "m\\geqslant 4$$或$$x\\leqslant 0"
+          },
+          {
+            "label": "D",
+            "content": "m\\geqslant 1$$或$$m\\leqslant 0"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->不等式->不等式的解法"
+        ],
+        "competition_source_list": [
+          "2009年黑龙江全国高中数学联赛竞赛初赛第7题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:01941",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1941,
+      "split": "zh_test",
+      "source_problem_id": "2a60f9ff5ad44ae383964c61ee98d25a"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "考虑集合$$S=\\left { 1  ,2  ,\\cdots ,  10 \\right }$$的所有非空子集，若一个非空子集中的偶数的数目不少于奇数的数目，称这个子集是``好子集''，则``好子集''的数目有个．\n(A) 631\n(B) 633\n(C) 635\n(D) 637",
+      "problem_plain": "考虑集合 S= 1 ,2 , , 10 的所有非空子集，若一个非空子集中的偶数的数目不少于奇数的数目，称这个子集是``好子集''，则``好子集''的数目有个． (A) 631 (B) 633 (C) 635 (D) 637",
+      "solution_latex": "方法一：设一个``好子集''中有$$i\\left( i=1,2,3,4,5 \\right)$$个偶数，则奇数的数目可以有$$j=0,1,\\cdots ,i$$个，因此``好子集''的数目为  $$\\sum\\limits_{i=1}^{5}{\\left( \\text{C}_{5}^{i}\\sum\\limits_{j=0}^{i}{\\text{C}_{5}^{j}} \\right)}=\\text{C}_{5}^{1}\\left( \\text{C}_{5}^{0}+\\text{C}_{5}^{1} \\right)+\\text{C}_{5}^{2}\\left( \\text{C}_{5}^{0}+\\text{C}_{5}^{1}+\\text{C}_{5}^{2} \\right)$$  $$+\\text{C}_{5}^{3}\\left( \\text{C}_{5}^{0}+\\text{C}_{5}^{1}+\\text{C}_{5}^{2}+\\text{C}_{5}^{3} \\right)$$  $$+\\text{C}_{5}^{4}\\left( \\text{C}_{5}^{0}+\\text{C}_{5}^{1}+\\text{C}_{5}^{2}+\\text{C}_{5}^{3}+\\text{C}_{5}^{4} \\right)$$  $$+\\text{C}_{5}^{5}\\left( \\text{C}_{5}^{0}+\\text{C}_{5}^{1}+\\text{C}_{5}^{2}+\\text{C}_{5}^{3}+\\text{C}_{5}^{4}+\\text{C}_{5}^{5} \\right)=637$$.  故选$$\\text{D}$$．  方法二：$$S$$的非空子集共有$${{2}^{10}}-1=1023$$（个），根据子集中偶数与奇数个数的多少可为三类：（1）偶数多于奇数；（2）奇数多于偶数；（3）奇数与偶数个数相等．由于$$S$$中的$$10$$个元素偶数与奇数的个数相等，所以（1）、（2）的子集数相等．现考虑第三类，分别考虑含有$$2$$、$$4$$、$$6$$、$$8$$、$$10$$个元素子集的数目，则共有子集数为$$\\text{C}_{5}^{1}\\cdot \\text{C}_{5}^{1}+\\text{C}_{5}^{2}\\cdot \\text{C}_{5}^{2}+\\text{C}_{5}^{3}\\cdot \\text{C}_{5}^{3}+\\text{C}_{5}^{4}\\cdot \\text{C}_{5}^{4}+1=251$$．  所以，第一类子集数为$$\\frac{1}{2}(1023-251)=386$$．  因此，``好子集''的数目为$$386+251=637$$（个）．故选$$\\text{D}$$．",
+      "solution_plain": "方法一：设一个``好子集''中有 i ( i=1,2,3,4,5 ) 个偶数，则奇数的数目可以有 j=0,1, ,i 个，因此``好子集''的数目为 _ i=1 ^ 5 ( C _ 5 ^ i _ j=0 ^ i C _ 5 ^ j ) = C _ 5 ^ 1 ( C _ 5 ^ 0 + C _ 5 ^ 1 )+ C _ 5 ^ 2 ( C _ 5 ^ 0 + C _ 5 ^ 1 + C _ 5 ^ 2 ) + C _ 5 ^ 3 ( C _ 5 ^ 0 + C _ 5 ^ 1 + C _ 5 ^ 2 + C _ 5 ^ 3 ) + C _ 5 ^ 4 ( C _ 5 ^ 0 + C _ 5 ^ 1 + C _ 5 ^ 2 + C _ 5 ^ 3 + C _ 5 ^ 4 ) + C _ 5 ^ 5 ( C _ 5 ^ 0 + C _ 5 ^ 1 + C _ 5 ^ 2 + C _ 5 ^ 3 + C _ 5 ^ 4 + C _ 5 ^ 5 )=637 . 故选 D ． 方法二： S 的非空子集共有 2 ^ 10 -1=1023 （个），根据子集中偶数与奇数个数的多少可为三类：（1）偶数多于奇数；（2）奇数多于偶数；（3）奇数与偶数个数相等．由于 S 中的 10 个元素偶数与奇数的个数相等，所以（1）、（2）的子集数相等．现考虑第三类，分别考虑含有 2 、 4 、 6 、 8 、 10 个元素子集的数目，则共有子集数为 C _ 5 ^ 1 C _ 5 ^ 1 + C _ 5 ^ 2 C _ 5 ^ 2 + C _ 5 ^ 3 C _ 5 ^ 3 + C _ 5 ^ 4 C _ 5 ^ 4 +1=251 ． 所以，第一类子集数为 1 2 (1023-251)=386 ． 因此，``好子集''的数目为 386+251=637 （个）．故选 D ．"
+    },
+    "answer": {
+      "final_raw": "637",
+      "final_normalized": "637",
+      "candidates": [
+        "637",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "方法一：设一个``好子集''中有$$i\\left( i=1,2,3,4,5 \\right)$$个偶数，则奇数的数目可以有$$j=0,1,\\cdots ,i$$个，因此``好子集''的数目为  $$\\sum\\limits_{i=1}^{5}{\\left( \\text{C}_{5}^{i}\\sum\\limits_{j=0}^{i}{\\text{C}_{5}^{j}} \\right)}=\\text{C}_{5}^{1}\\left( \\text{C}_{5}^{0}+\\text{C}_{5}^{1} \\right)+\\text{C}_{5}^{2}\\left( \\text{C}_{5}^{0}+\\text{C}_{5}^{1}+\\text{C}_{5}^{2} \\right)$$  $$+\\text{C}_{5}^{3}\\left( \\text{C}_{5}^{0}+\\text{C}_{5}^{1}+\\text{C}_{5}^{2}+\\text{C}_{5}^{3} \\right)$$  $$+\\text{C}_{5}^{4}\\left( \\text{C}_{5}^{0}+\\text{C}_{5}^{1}+\\text{C}_{5}^{2}+\\text{C}_{5}^{3}+\\text{C}_{5}^{4} \\right)$$  $$+\\text{C}_{5}^{5}\\left( \\text{C}_{5}^{0}+\\text{C}_{5}^{1}+\\text{C}_{5}^{2}+\\text{C}_{5}^{3}+\\text{C}_{5}^{4}+\\text{C}_{5}^{5} \\right)=637$$.",
+        "故选$$\\text{D}$$．  方法二：$$S$$的非空子集共有$${{2}^{10}}-1=1023$$（个），根据子集中偶数与奇数个数的多少可为三类：（1）偶数多于奇数；（2）奇数多于偶数；（3）奇数与偶数个数相等．由于$$S$$中的$$10$$个元素偶数与奇数的个数相等，所以（1）、（2）的子集数相等．现考虑第三类，分别考虑含有$$2$$、$$4$$、$$6$$、$$8$$、$$10$$个元素子集的数目，则共有子集数为$$\\text{C}_{5}^{1}\\cdot \\text{C}_{5}^{1}+\\text{C}_{5}^{2}\\cdot \\text{C}_{5}^{2}+\\text{C}_{5}^{3}\\cdot \\text{C}_{5}^{3}+\\text{C}_{5}^{4}\\cdot \\text{C}_{5}^{4}+1=251$$．  所以，第一类子集数为$$\\frac{1}{2}(1023-251)=386$$．  因此，``好子集''的数目为$$386+251=637$$（个）．故选$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "考虑集合 S= 1 ,2 , , 10 的所有非空子集，若一个非空子集中的偶数的数目不少于奇数的数目，称这个子集是``好子集''，则``好子集''的数目有个． (A) 631 (B) 633 (C) 635 (D) 637",
+      "solution_text": "方法一：设一个``好子集''中有 i ( i=1,2,3,4,5 ) 个偶数，则奇数的数目可以有 j=0,1, ,i 个，因此``好子集''的数目为 _ i=1 ^ 5 ( C _ 5 ^ i _ j=0 ^ i C _ 5 ^ j ) = C _ 5 ^ 1 ( C _ 5 ^ 0 + C _ 5 ^ 1 )+ C _ 5 ^ 2 ( C _ 5 ^ 0 + C _ 5 ^ 1 + C _ 5 ^ 2 ) + C _ 5 ^ 3 ( C _ 5 ^ 0 + C _ 5 ^ 1 + C _ 5 ^ 2 + C _ 5 ^ 3 ) + C _ 5 ^ 4 ( C _ 5 ^ 0 + C _ 5 ^ 1 + C _ 5 ^ 2 + C _ 5 ^ 3 + C _ 5 ^ 4 ) + C _ 5 ^ 5 ( C _ 5 ^ 0 + C _ 5 ^ 1 + C _ 5 ^ 2 + C _ 5 ^ 3 + C _ 5 ^ 4 + C _ 5 ^ 5 )=637 . 故选 D ． 方法二： S 的非空子集共有 2 ^ 10 -1=1023 （个），根据子集中偶数与奇数个数的多少可为三类：（1）偶数多于奇数；（2）奇数多于偶数；（3）奇数与偶数个数相等．由于 S 中的 10 个元素偶数与奇数的个数相等，所以（1）、（2）的子集数相等．现考虑第三类，分别考虑含有 2 、 4 、 6 、 8 、 10 个元素子集的数目，则共有子集数为 C _ 5 ^ 1 C _ 5 ^ 1 + C _ 5 ^ 2 C _ 5 ^ 2 + C _ 5 ^ 3 C _ 5 ^ 3 + C _ 5 ^ 4 C _ 5 ^ 4 +1=251 ． 所以，第一类子集数为 1 2 (1023-251)=386 ． 因此，``好子集''的数目为 386+251=637 （个）．故选 D ．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "115",
+        "queId": "2a60f9ff5ad44ae383964c61ee98d25a",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "631"
+          },
+          {
+            "label": "B",
+            "content": "633"
+          },
+          {
+            "label": "C",
+            "content": "635"
+          },
+          {
+            "label": "D",
+            "content": "637"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->集合->集合的概念与运算"
+        ],
+        "competition_source_list": [
+          "2008年天津全国高中数学联赛竞赛初赛第5题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_4:01988",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1988,
+      "split": "zh_test",
+      "source_problem_id": "a752a03819ef42b482094c26a94fd74a"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知虚数$$z$$满足$${{z}^{3}}+1=0$$，$$z\\ne -1$$．则$${{\\left( \\frac{z}{z-1} \\right)}^{2018}}+{{\\left( \\frac{1}{z-1} \\right)}^{2018}}=$$~\\uline{~~~~~~~~~~}~．\n(A) 1\n(B) -1\n(C) z\n(D) -z",
+      "problem_plain": "已知虚数 z 满足 z ^ 3 +1=0 ， z -1 ．则 ( z z-1 ) ^ 2018 + ( 1 z-1 ) ^ 2018 = ~ ~~~~~~~~~~ ~． (A) 1 (B) -1 (C) z (D) -z",
+      "solution_latex": "由$${{z}^{3}}+1=0$$  $$\\Rightarrow \\left( z+1 \\right)\\left( {{z}^{2}}-z+1 \\right)=0$$  $$\\Rightarrow {{z}^{2}}-z+1=0$$，  则$${{\\left( \\frac{z}{z-1} \\right)}^{2018}}+{{\\left( \\frac{1}{z-1} \\right)}^{2018}}$$  $$=\\frac{{{z}^{2018}}+1}{{{\\left( {{z}^{2}} \\right)}^{2018}}}=\\frac{{{z}^{2}}+1}{{{z}^{4}}}=\\frac{{{z}^{2}}+1}{-z}=-1$$．",
+      "solution_plain": "由 z ^ 3 +1=0 ( z+1 ) ( z ^ 2 -z+1 )=0 z ^ 2 -z+1=0 ， 则 ( z z-1 ) ^ 2018 + ( 1 z-1 ) ^ 2018 = z ^ 2018 +1 ( z ^ 2 ) ^ 2018 = z ^ 2 +1 z ^ 4 = z ^ 2 +1 -z =-1 ．"
+    },
+    "answer": {
+      "final_raw": "-1",
+      "final_normalized": "-1",
+      "candidates": [
+        "-1",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由$${{z}^{3}}+1=0$$  $$\\Rightarrow \\left( z+1 \\right)\\left( {{z}^{2}}-z+1 \\right)=0$$  $$\\Rightarrow {{z}^{2}}-z+1=0$$，  则$${{\\left( \\frac{z}{z-1} \\right)}^{2018}}+{{\\left( \\frac{1}{z-1} \\right)}^{2018}}$$  $$=\\frac{{{z}^{2018}}+1}{{{\\left( {{z}^{2}} \\right)}^{2018}}}=\\frac{{{z}^{2}}+1}{{{z}^{4}}}=\\frac{{{z}^{2}}+1}{-z}=-1$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知虚数 z 满足 z ^ 3 +1=0 ， z -1 ．则 ( z z-1 ) ^ 2018 + ( 1 z-1 ) ^ 2018 = ~ ~~~~~~~~~~ ~． (A) 1 (B) -1 (C) z (D) -z",
+      "solution_text": "由 z ^ 3 +1=0 ( z+1 ) ( z ^ 2 -z+1 )=0 z ^ 2 -z+1=0 ， 则 ( z z-1 ) ^ 2018 + ( 1 z-1 ) ^ 2018 = z ^ 2018 +1 ( z ^ 2 ) ^ 2018 = z ^ 2 +1 z ^ 4 = z ^ 2 +1 -z =-1 ．",
+      "keywords": [
+        "competition_math",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "476",
+        "queId": "a752a03819ef42b482094c26a94fd74a",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "-1"
+          },
+          {
+            "label": "C",
+            "content": "z"
+          },
+          {
+            "label": "D",
+            "content": "-z"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->复数与平面向量->复数的概念与运算",
+          "课内体系->知识点->复数->复数的运算"
+        ],
+        "competition_source_list": [
+          "2018年浙江竞赛第5题8分"
+        ]
+      }
+    }
+  }
+]

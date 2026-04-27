@@ -1,0 +1,530 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:algebra:level_4:01234",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1234,
+      "split": "en_train",
+      "source_problem_id": "592e9f729f374ddeaea3da4042ae046a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Points $A$ and $B$ are 10 units apart. Points $B$ and $C$ are 4 units apart. Points $C$ and $D$ are 3 units apart. If $A$ and $D$ are as close as possible, then the number of units between them is ．(1996 AJHSME, Question 8)\n(A) 0\n(B) 3\n(C) 9\n(D) 11\n(E) 17",
+      "problem_plain": "Points A and B are 10 units apart. Points B and C are 4 units apart. Points C and D are 3 units apart. If A and D are as close as possible, then the number of units between them is ．(1996 AJHSME, Question 8) (A) 0 (B) 3 (C) 9 (D) 11 (E) 17",
+      "solution_latex": "If $A B=10$ and $B C=4$, then $(10-4) \\leq A C \\leq(10+4)$ by the triangle inequality. In the triangle inequality, the equality is only reached when the \"triangle\" $A B C$ is really a degenerate triangle, and $A B C$ are collinear. Simplifying, this means the smallest value $A C$ can be is 6 . Applying the triangle inequality on $A C D$ with $A C=6$ and $C D=3$, we know that $6-3 \\leq A D \\leq 6+3$ when $A C$ is minimized. If $A C$ were larger, then $A D$ could be larger, but we want the smallest $A D$ possible, and not the largest. Thus, $A D$ must be at least 3 , but cannot be smaller than 3 . Therefore, $B$ is the answer.",
+      "solution_plain": "If A B=10 and B C=4 , then (10-4) A C (10+4) by the triangle inequality. In the triangle inequality, the equality is only reached when the \"triangle\" A B C is really a degenerate triangle, and A B C are collinear. Simplifying, this means the smallest value A C can be is 6 . Applying the triangle inequality on A C D with A C=6 and C D=3 , we know that 6-3 A D 6+3 when A C is minimized. If A C were larger, then A D could be larger, but we want the smallest A D possible, and not the largest. Thus, A D must be at least 3 , but cannot be smaller than 3 . Therefore, B is the answer."
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "inequalities"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "inequalities",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "If $A B=10$ and $B C=4$, then $(10-4) \\leq A C \\leq(10+4)$ by the triangle inequality.",
+        "In the triangle inequality, the equality is only reached when the \"triangle\" $A B C$ is really a degenerate triangle, and $A B C$ are collinear.",
+        "Simplifying, this means the smallest value $A C$ can be is 6 .",
+        "Applying the triangle inequality on $A C D$ with $A C=6$ and $C D=3$, we know that $6-3 \\leq A D \\leq 6+3$ when $A C$ is minimized.",
+        "If $A C$ were larger, then $A D$ could be larger, but we want the smallest $A D$ possible, and not the largest.",
+        "Thus, $A D$ must be at least 3 , but cannot be smaller than 3 .",
+        "Therefore, $B$ is the answer."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Points A and B are 10 units apart. Points B and C are 4 units apart. Points C and D are 3 units apart. If A and D are as close as possible, then the number of units between them is ．(1996 AJHSME, Question 8) (A) 0 (B) 3 (C) 9 (D) 11 (E) 17",
+      "solution_text": "If A B=10 and B C=4 , then (10-4) A C (10+4) by the triangle inequality. In the triangle inequality, the equality is only reached when the \"triangle\" A B C is really a degenerate triangle, and A B C are collinear. Simplifying, this means the smallest value A C can be is 6 . Applying the triangle inequality on A C D with A C=6 and C D=3 , we know that 6-3 A D 6+3 when A C is minimized. If A C were larger, then A D could be larger, but we want the smallest A D possible, and not the largest. Thus, A D must be at least 3 , but cannot be smaller than 3 . Therefore, B is the answer.",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "inequalities",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3593",
+        "queId": "592e9f729f374ddeaea3da4042ae046a",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "9"
+          },
+          {
+            "label": "D",
+            "content": "11"
+          },
+          {
+            "label": "E",
+            "content": "17"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Inequalities"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:algebra:level_4:01361",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1361,
+      "split": "en_train",
+      "source_problem_id": "94e99e694b3442318ed50091af2f248d"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The sum of the first $m$ positive odd integers is $212$ more than the sum of the first $n$ positive even integers. What is the sum of all possible values of $n$?\n(A) 255\n(B) 256\n(C) 257\n(D) 258\n(E) 259",
+      "problem_plain": "The sum of the first m positive odd integers is 212 more than the sum of the first n positive even integers. What is the sum of all possible values of n ? (A) 255 (B) 256 (C) 257 (D) 258 (E) 259",
+      "solution_latex": "The sum of the first $m$ odd integers is given by $m^{2}$. The sum of the first $n$ even integers is given by $n(n+1)$. Thus, $m^{2}=n^{2}+n+212$. Since we want to solve for $n$, rearrange as a quadratic equation: $n^{2}+n+\\left(212-m^{2}\\right)=0$. Use the quadratic formula: $n=\\frac{-1+\\sqrt{1-4\\left(212-m^{2}\\right)}}{2}$. Since $n$ is clearly an integer, $1-4\\left(212-m^{2}\\right)=4 m^{2}-847$ must be not only a perfect square, but also an odd perfect square for $n$ to be an integer.  Let $x=\\sqrt{4 m^{2}-847}$; note that this means $n=\\frac{-1+x}{2}$. It can be rewritten as $x^{2}=4 m^{2}-847$, so $4 m^{2}-x^{2}=847$. Factoring the left side by using the difference of squares, we get $(2 m+x)(2 m-x)=847=7 \\cdot 11^{2}$. Our goal is to find possible values for $x$, then use the equation above to find $n$. The difference between the factors is $(2 m+x)-(2 m-x)=2 m+x-2 m+x=2 x$. We have three pairs of factors, $847 \\cdot 1,121 \\cdot 7$, and $77 \\cdot 11$. The differences between these factors are 846,114 , and 66 - those are all possible values for $2 x$. Thus the possibilities for $x$ are $423$, $57$, and $33$. Now plug in these values into the equation $n=\\frac{-1+x}{2}$, so $n$ can equal $211$, $28$, or $16$, hence the answer is $255$.",
+      "solution_plain": "The sum of the first m odd integers is given by m^ 2 . The sum of the first n even integers is given by n(n+1) . Thus, m^ 2 =n^ 2 +n+212 . Since we want to solve for n , rearrange as a quadratic equation: n^ 2 +n+ (212-m^ 2 )=0 . Use the quadratic formula: n= -1+ 1-4 (212-m^ 2 ) 2 . Since n is clearly an integer, 1-4 (212-m^ 2 )=4 m^ 2 -847 must be not only a perfect square, but also an odd perfect square for n to be an integer. Let x= 4 m^ 2 -847 ; note that this means n= -1+x 2 . It can be rewritten as x^ 2 =4 m^ 2 -847 , so 4 m^ 2 -x^ 2 =847 . Factoring the left side by using the difference of squares, we get (2 m+x)(2 m-x)=847=7 11^ 2 . Our goal is to find possible values for x , then use the equation above to find n . The difference between the factors is (2 m+x)-(2 m-x)=2 m+x-2 m+x=2 x . We have three pairs of factors, 847 1,121 7 , and 77 11 . The differences between these factors are 846,114 , and 66 - those are all possible values for 2 x . Thus the possibilities for x are 423 , 57 , and 33 . Now plug in these values into the equation n= -1+x 2 , so n can equal 211 , 28 , or 16 , hence the answer is 255 ."
+    },
+    "answer": {
+      "final_raw": "255",
+      "final_normalized": "255",
+      "candidates": [
+        "255",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "unary_quadratic_equations"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unary_quadratic_equations"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "The sum of the first $m$ odd integers is given by $m^{2}$.",
+        "The sum of the first $n$ even integers is given by $n(n+1)$.",
+        "Thus, $m^{2}=n^{2}+n+212$.",
+        "Since we want to solve for $n$, rearrange as a quadratic equation: $n^{2}+n+\\left(212-m^{2}\\right)=0$.",
+        "Use the quadratic formula: $n=\\frac{-1+\\sqrt{1-4\\left(212-m^{2}\\right)}}{2}$.",
+        "Since $n$ is clearly an integer, $1-4\\left(212-m^{2}\\right)=4 m^{2}-847$ must be not only a perfect square, but also an odd perfect square for $n$ to be an integer.",
+        "Let $x=\\sqrt{4 m^{2}-847}$; note that this means $n=\\frac{-1+x}{2}$.",
+        "It can be rewritten as $x^{2}=4 m^{2}-847$, so $4 m^{2}-x^{2}=847$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The sum of the first m positive odd integers is 212 more than the sum of the first n positive even integers. What is the sum of all possible values of n ? (A) 255 (B) 256 (C) 257 (D) 258 (E) 259",
+      "solution_text": "The sum of the first m odd integers is given by m^ 2 . The sum of the first n even integers is given by n(n+1) . Thus, m^ 2 =n^ 2 +n+212 . Since we want to solve for n , rearrange as a quadratic equation: n^ 2 +n+ (212-m^ 2 )=0 . Use the quadratic formula: n= -1+ 1-4 (212-m^ 2 ) 2 . Since n is clearly an integer, 1-4 (212-m^ 2 )=4 m^ 2 -847 must be not only a perfect square, but also an odd perfect square for n to be an integer. Let x= 4 m^ 2 -847 ; note that this means n= -1+x 2 . It can be rewritten as x^ 2 =4 m^ 2 -847 , so 4 m^ 2 -x^ 2 =847 . Factoring the left side by using the difference of squares, we get (2 m+x)(2 m-x)=847=7 11^ 2 . Our goal is to find possible values for x , then use the equation above to find n . The difference between the factors is (2 m+x)-(2 m-x)=2 m+x-2 m+x=2 x . We have three pairs of factors, 847 1,121 7 , and 77 11 . The differences between these factors are 846,114 , and 66 - those are all possible values for 2 x . Thus the possibilities for x are 423 , 57 , and 33 . Now plug in these values into the equation n= -1+x 2 , so n can equal 211 , 28 , or 16 , hence the answer is 255 .",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unary_quadratic_equations"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "4235",
+        "queId": "94e99e694b3442318ed50091af2f248d",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "255"
+          },
+          {
+            "label": "B",
+            "content": "256"
+          },
+          {
+            "label": "C",
+            "content": "257"
+          },
+          {
+            "label": "D",
+            "content": "258"
+          },
+          {
+            "label": "E",
+            "content": "259"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Unary Quadratic Equations"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:algebra:level_4:01533",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1533,
+      "split": "en_train",
+      "source_problem_id": "e3d4f71980834ae8bb5f25023a69417d"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let $p, q$, and $r$ be the distinct roots of the polynomial $x^{3}-22 x^{2}+80 x-67$. It is given that there exist real numbers $A, B$, and $C$ such that $$ \\frac{1}{s^{3}-22 s^{2}+80 s-67}=\\frac{A}{s-p}+\\frac{B}{s-q}+\\frac{C}{s-r} $$ for all $s \\notin\\textbackslash{p, q, r\\textbackslash}$. What is $\\frac{1}{A}+\\frac{1}{B}+\\frac{1}{C}$?\n(A) 243\n(B) 244\n(C) 245\n(D) 246\n(E) 247",
+      "problem_plain": "Let p, q , and r be the distinct roots of the polynomial x^ 3 -22 x^ 2 +80 x-67 . It is given that there exist real numbers A, B , and C such that 1 s^ 3 -22 s^ 2 +80 s-67 = A s-p + B s-q + C s-r for all s p, q, r . What is 1 A + 1 B + 1 C ? (A) 243 (B) 244 (C) 245 (D) 246 (E) 247",
+      "solution_latex": "Multiplying both sides by $(s-p)(s-q)(s-r)$ yields $$ 1=A(s-q)(s-r)+B(s-p)(s-r)+C(s-p)(s-q) $$ As this is a polynomial identity, and it is true for infinitely many $s$, it must be true for all $s$ (since a polynomial with infinitely many roots must in fact be the constant polynomial 0$)$. This means we can plug in $s=p$ to find that $\\frac{1}{A}=(p-q)(p-r)$. Similarly, we can find $\\frac{1}{B}=(q-p)(q-r)$ and $\\frac{1}{C}=(r-p)(r-q)$. Summing them up, we get that $$ \\frac{1}{A}+\\frac{1}{B}+\\frac{1}{C}=p^{2}+q^{2}+r^{2}-p q-q r-p r $$ By Vieta\\textquotesingle s Formulas, we know that $p^{2}+q^{2}+r^{2}=(p+q+r)^{2}-2(p q+q r+p r)=324$ and $p q+q r+p r=80$. Thus the answer is $324-80=$ 244 .",
+      "solution_plain": "Multiplying both sides by (s-p)(s-q)(s-r) yields 1=A(s-q)(s-r)+B(s-p)(s-r)+C(s-p)(s-q) As this is a polynomial identity, and it is true for infinitely many s , it must be true for all s (since a polynomial with infinitely many roots must in fact be the constant polynomial 0 ) . This means we can plug in s=p to find that 1 A =(p-q)(p-r) . Similarly, we can find 1 B =(q-p)(q-r) and 1 C =(r-p)(r-q) . Summing them up, we get that 1 A + 1 B + 1 C =p^ 2 +q^ 2 +r^ 2 -p q-q r-p r By Vieta s Formulas, we know that p^ 2 +q^ 2 +r^ 2 =(p+q+r)^ 2 -2(p q+q r+p r)=324 and p q+q r+p r=80 . Thus the answer is 324-80= 244 ."
+    },
+    "answer": {
+      "final_raw": "244",
+      "final_normalized": "244",
+      "candidates": [
+        "244",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "proportional_equations"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "proportional_equations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Multiplying both sides by $(s-p)(s-q)(s-r)$ yields $$ 1=A(s-q)(s-r)+B(s-p)(s-r)+C(s-p)(s-q) $$ As this is a polynomial identity, and it is true for infinitely many $s$, it must be true for all $s$ (since a polynomial with infinitely many roots must in fact be the constant polynomial 0$)$.",
+        "This means we can plug in $s=p$ to find that $\\frac{1}{A}=(p-q)(p-r)$.",
+        "Similarly, we can find $\\frac{1}{B}=(q-p)(q-r)$ and $\\frac{1}{C}=(r-p)(r-q)$.",
+        "Summing them up, we get that $$ \\frac{1}{A}+\\frac{1}{B}+\\frac{1}{C}=p^{2}+q^{2}+r^{2}-p q-q r-p r $$ By Vieta\\textquotesingle s Formulas, we know that $p^{2}+q^{2}+r^{2}=(p+q+r)^{2}-2(p q+q r+p r)=324$ and $p q+q r+p r=80$.",
+        "Thus the answer is $324-80=$ 244 ."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let p, q , and r be the distinct roots of the polynomial x^ 3 -22 x^ 2 +80 x-67 . It is given that there exist real numbers A, B , and C such that 1 s^ 3 -22 s^ 2 +80 s-67 = A s-p + B s-q + C s-r for all s p, q, r . What is 1 A + 1 B + 1 C ? (A) 243 (B) 244 (C) 245 (D) 246 (E) 247",
+      "solution_text": "Multiplying both sides by (s-p)(s-q)(s-r) yields 1=A(s-q)(s-r)+B(s-p)(s-r)+C(s-p)(s-q) As this is a polynomial identity, and it is true for infinitely many s , it must be true for all s (since a polynomial with infinitely many roots must in fact be the constant polynomial 0 ) . This means we can plug in s=p to find that 1 A =(p-q)(p-r) . Similarly, we can find 1 B =(q-p)(q-r) and 1 C =(r-p)(r-q) . Summing them up, we get that 1 A + 1 B + 1 C =p^ 2 +q^ 2 +r^ 2 -p q-q r-p r By Vieta s Formulas, we know that p^ 2 +q^ 2 +r^ 2 =(p+q+r)^ 2 -2(p q+q r+p r)=324 and p q+q r+p r=80 . Thus the answer is 324-80= 244 .",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_train",
+        "level_4",
+        "proportional_equations",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "4940",
+        "queId": "e3d4f71980834ae8bb5f25023a69417d",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "243"
+          },
+          {
+            "label": "B",
+            "content": "244"
+          },
+          {
+            "label": "C",
+            "content": "245"
+          },
+          {
+            "label": "D",
+            "content": "246"
+          },
+          {
+            "label": "E",
+            "content": "247"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Proportional Equations"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_train:algebra:level_4:02373",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2373,
+      "split": "en_train",
+      "source_problem_id": "6749543a4c4e483eaa09c7465aa1dfba"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "There is an equation with all integers in the upper squares, and the answer on the right side is only the approximation of $$\\frac{\\square }{3}+\\frac{\\square }{5}+\\frac{\\square }{7}\\approx 1.16$$ after rounding off. The numbers in each of the three upper squares of the equation are~\\uline{~~~~~~~~~~}~in order.\n(A) 1,2,3\n(B) 1,3,5\n(C) 1,4,3\n(D) 2,1,2\n(E) 2,3,5",
+      "problem_plain": "There is an equation with all integers in the upper squares, and the answer on the right side is only the approximation of 3 + 5 + 7 1.16 after rounding off. The numbers in each of the three upper squares of the equation are~ ~~~~~~~~~~ ~in order. (A) 1,2,3 (B) 1,3,5 (C) 1,4,3 (D) 2,1,2 (E) 2,3,5",
+      "solution_latex": "NA",
+      "solution_plain": "NA"
+    },
+    "answer": {
+      "final_raw": "1,2,3",
+      "final_normalized": "1,2,3",
+      "candidates": [
+        "1,2,3",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "equation_word_problems",
+        "word_problem_modules"
+      ],
+      "tags": [
+        "algebra",
+        "en",
+        "en_train",
+        "equation_word_problems",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "NA"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "There is an equation with all integers in the upper squares, and the answer on the right side is only the approximation of 3 + 5 + 7 1.16 after rounding off. The numbers in each of the three upper squares of the equation are~ ~~~~~~~~~~ ~in order. (A) 1,2,3 (B) 1,3,5 (C) 1,4,3 (D) 2,1,2 (E) 2,3,5",
+      "solution_text": "NA",
+      "keywords": [
+        "algebra",
+        "en",
+        "en_train",
+        "equation_word_problems",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "word_problem_modules"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "8864",
+        "queId": "6749543a4c4e483eaa09c7465aa1dfba",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1,2,3"
+          },
+          {
+            "label": "B",
+            "content": "1,3,5"
+          },
+          {
+            "label": "C",
+            "content": "1,4,3"
+          },
+          {
+            "label": "D",
+            "content": "2,1,2"
+          },
+          {
+            "label": "E",
+            "content": "2,3,5"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Word Problem Modules->Equation Word Problems"
+        ],
+        "competition_source_list": []
+      }
+    }
+  }
+]

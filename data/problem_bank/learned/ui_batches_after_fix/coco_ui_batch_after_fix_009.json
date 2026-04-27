@@ -1,0 +1,1372 @@
+{
+  "schema_version": "coco_app_batch_after_fix.v1",
+  "batch_index": 9,
+  "band": "초등",
+  "offset": 80,
+  "doc_ids": [
+    "autobank__elementary_g05_001__780f0c8c",
+    "autobank__elementary_g05_002__8c9ec6af",
+    "autobank__elementary_g05_003__b88026c3",
+    "autobank__elementary_g05_004__56d35d86",
+    "autobank__elementary_g05_005__5b89fbb6",
+    "autobank__elementary_g05_006__621260e3",
+    "autobank__elementary_g05_007__f0c572c7",
+    "autobank__elementary_g05_008__4c2cc87e",
+    "autobank__elementary_g05_009__d8bc7b37",
+    "autobank__elementary_g05_010__6a20fbd2"
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "error": 0,
+    "by_band": {
+      "초등": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "error": 0
+      }
+    },
+    "by_topic": {
+      "fraction_ratio": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      },
+      "function": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "geometry": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      },
+      "statistics": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      }
+    }
+  },
+  "card_issue_count": 0,
+  "card_issues": [],
+  "state_issue": null,
+  "results": [
+    {
+      "case_id": "elementary_g05_001",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "fraction_ratio",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/수와 연산/약수와 배수·분수의 계산/elementary_g05_001_easy_expression_fraction_ratio.png",
+      "expected_answer": "17/12",
+      "expected_expression": "5/4+1/6",
+      "computed_answer": "17/12",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "5/4 + 1/6",
+      "recognized_expressions": [
+        "5/4 + 1/6"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.46,
+      "analysis": {
+        "analysis_started_at": 1777119477.9313788,
+        "analysis_finished_at": 1777119478.391712,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| AS 5학년 ㆍ약수와 배수분수의 계산ㆍ기본 expression - fraction_\n5/4 + 1/6\n초등 5학년 ㆍ약수와 배수ㆍ분수의 계산ㆍ기본 expression ㆍ fraction",
+            "| AS 5학년 ㆍ약수와 배수분수의 계산ㆍ기본 expression - fraction_\n5/4 + 1/6\n초등 5학년 ㆍ약수와 배수ㆍ분수의 계산ㆍ기본 expression ㆍ fraction"
+          ],
+          "normalized_problem_text": "5/4 + 1/6",
+          "expressions": [
+            "5/4 + 1/6"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/수와 연산/약수와 배수·분수의 계산/elementary_g05_001_easy_expression_fraction_ratio.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| AS 5학년 ㆍ약수와 배수분수의 계산ㆍ기본 expression - fraction_\n다음 분수 ALS 하시오.\n5/4 + 1/6",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 5학년 ㆍ약수와 배수ㆍ분수의 계산ㆍ기본 expression ㆍ fraction\n다음 분수 AAS 하시오.\n5/4 + 1/6",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| AS 5학년 ㆍ약수와 배수분수의 계산ㆍ기본 expression - fraction_\n다음 분수 ALS 하시오.\n5/4 + 1/6",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "799b01689090"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "17/12",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 17/12야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 17/12야. 그래서 정답은 17/12야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| AS 5학년 ㆍ약수와 배수분수의 계산ㆍ기본 expression - fraction_\n5/4 + 1/6\n초등 5학년 ㆍ약수와 배수ㆍ분수의 계산ㆍ기본 expression ㆍ fraction",
+            "content_text": "| AS 5학년 ㆍ약수와 배수분수의 계산ㆍ기본 expression - fraction_\n5/4 + 1/6\n초등 5학년 ㆍ약수와 배수ㆍ분수의 계산ㆍ기본 expression ㆍ fraction",
+            "repaired_text": "",
+            "expressions": [
+              "5/4 + 1/6"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "17/12",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_001__780f0c8c"
+    },
+    {
+      "case_id": "elementary_g05_002",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/도형과 측정/다각형의 둘레와 넓이/elementary_g05_002_easy_word_geometry.png",
+      "expected_answer": "36",
+      "expected_expression": "9*4",
+      "computed_answer": "36",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "이 밭의 넓이를 구하시오. 400",
+      "recognized_expressions": [
+        "9*4",
+        "rectangle_width 9rectangle_height 4rectangle_area 9*4"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.697,
+      "analysis": {
+        "analysis_started_at": 1777119478.392376,
+        "analysis_finished_at": 1777119479.089113,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 5학년 ㆍ다각형의 둘러와 넓이 ㆍ기본 word - geometry\n가로가 9cm, 세로가 4cme! 직사각형 모양 밭이\n이 밭의 넓이를 구하시오. 400\n9 007\n: 초등 5학년 ㆍ다각형의 Salat 넓이 ㆍ기본 word - geometry\n가로가 9cm, 세로가 4cmOl 직사각형 모양 Bro]\n이 밭의 넓이를 구하시오. fem\n9cm\nrectangle_width 9rectangle_height 4rectangle_area 9*4",
+            "초등 5학년 ㆍ다각형의 둘러와 넓이 ㆍ기본 word - geometry\n가로가 9cm, 세로가 4cme! 직사각형 모양 밭이\n이 밭의 넓이를 구하시오. 400\n9 007\n: 초등 5학년 ㆍ다각형의 Salat 넓이 ㆍ기본 word - geometry\n가로가 9cm, 세로가 4cmOl 직사각형 모양 Bro]\n이 밭의 넓이를 구하시오. fem\n9cm\nrectangle_width 9rectangle_height 4rectangle_area 9*4"
+          ],
+          "normalized_problem_text": "이 밭의 넓이를 구하시오. 400",
+          "expressions": [
+            "9*4",
+            "rectangle_width 9rectangle_height 4rectangle_area 9*4"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/도형과 측정/다각형의 둘레와 넓이/elementary_g05_002_easy_word_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 5학년 ㆍ다각형의 둘러와 넓이 ㆍ기본 word - geometry\n가로가 9cm, 세로가 4cme! 직사각형 모양 밭이\n있습니다. _」、\n이 밭의 넓이를 구하시오. 400\n9 007",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 5학년 ㆍ다각형의 둘러와 넓이 ㆍ기본 word - geometry\n가로가 9cm, 세로가 4cme! 직사각형 모양 밭이\n있습니다. _」、\n이 밭의 넓이를 구하시오. 400\n9 007",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ": 초등 5학년 ㆍ다각형의 Salat 넓이 ㆍ기본 word - geometry\n가로가 9cm, 세로가 4cmOl 직사각형 모양 Bro]\n있습니다. |\n이 밭의 넓이를 구하시오. fem\n9cm",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "geometry_metric_reader",
+                    "variant": "rectangle_metric",
+                    "psm": "geometry",
+                    "available": true,
+                    "text": "rectangle_width 9 rectangle_height 4 rectangle_area 9*4",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "9c7914b292e3"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "36",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 36야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 도형이나 좌표 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 36야. 그래서 정답은 36야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 5학년 ㆍ다각형의 둘러와 넓이 ㆍ기본 word - geometry\n가로가 9cm, 세로가 4cme! 직사각형 모양 밭이\n이 밭의 넓이를 구하시오. 400\n9 007\n: 초등 5학년 ㆍ다각형의 Salat 넓이 ㆍ기본 word - geometry\n가로가 9cm, 세로가 4cmOl 직사각형 모양 Bro]\n이 밭의 넓이를 구하시오. fem\n9cm\nrectangle_width 9rectangle_height 4rectangle_area 9*4",
+            "content_text": "초등 5학년 ㆍ다각형의 둘러와 넓이 ㆍ기본 word - geometry\n가로가 9cm, 세로가 4cme! 직사각형 모양 밭이\n이 밭의 넓이를 구하시오. 400\n9 007\n: 초등 5학년 ㆍ다각형의 Salat 넓이 ㆍ기본 word - geometry\n가로가 9cm, 세로가 4cmOl 직사각형 모양 Bro]\n이 밭의 넓이를 구하시오. fem\n9cm\nrectangle_width 9rectangle_height 4rectangle_area 9*4",
+            "repaired_text": "",
+            "expressions": [
+              "9*4",
+              "rectangle_width 9rectangle_height 4rectangle_area 9*4"
+            ],
+            "choices": [],
+            "math_topic": "geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "36",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_002__8c9ec6af"
+    },
+    {
+      "case_id": "elementary_g05_003",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "function",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/변화와 관계/대응 관계와 비/elementary_g05_003_easy_table_function.png",
+      "expected_answer": "1",
+      "expected_expression": "y=-2x+ 7; x=3",
+      "computed_answer": "1",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "* = 3일 때 의 값을 구하시오",
+      "recognized_expressions": [
+        "answer=1",
+        "x=3",
+        "table_row_2 5 3 1 -1",
+        "5 3 1 -1"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.223,
+      "analysis": {
+        "analysis_started_at": 1777119479.089833,
+        "analysis_finished_at": 1777119480.312783,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 5학년 ㆍ대응 관계와 비ㆍ기본 table - function\n아래 표는 일차함수 y = ax + bO| 일부입니다.\nx - 3일 때 의 2 구하시오\n* 1 2 3 4\n5 3 1 -1\n아래 표는 일차함수 / = ax + #의 일부입니다.\n* = 3일 때 \\의 값을 구하시오.\n: 초등 5학년 ㆍ 대응 관계와 비 ㆍ 기본 table «function -\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 3일 때 의 값을 구하시오.\ntable_row_1 1 2 3\ntable_row_2 5 3 1 -1",
+            "초등 5학년 ㆍ대응 관계와 비ㆍ기본 table - function\n아래 표는 일차함수 y = ax + bO| 일부입니다.\nx - 3일 때 의 2 구하시오\n* 1 2 3 4\n5 3 1 -1\n아래 표는 일차함수 / = ax + #의 일부입니다.\n* = 3일 때 \\의 값을 구하시오.\n: 초등 5학년 ㆍ 대응 관계와 비 ㆍ 기본 table «function -\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 3일 때 의 값을 구하시오.\ntable_row_1 1 2 3\ntable_row_2 5 3 1 -1"
+          ],
+          "normalized_problem_text": "* = 3일 때 의 값을 구하시오",
+          "expressions": [
+            "answer=1",
+            "x=3",
+            "table_row_2 5 3 1 -1",
+            "5 3 1 -1"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "function",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/변화와 관계/대응 관계와 비/elementary_g05_003_easy_table_function.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 5학년 ㆍ대응 관계와 비ㆍ기본 table - function\n아래 표는 일차함수 y = ax + bO| 일부입니다.\nx - 3일 때 의 2 구하시오\n* 1 2 3 4\n5 3 1 -1",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 5학년 ㆍ대응 관계와 비 ㆍ기본 table - function\n아래 표는 일차함수 / = ax + #의 일부입니다.\n* = 3일 때 \\의 값을 구하시오.",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 5학년 ㆍ대응 관계와 비ㆍ기본 table - function\n아래 표는 일차함수 y = ax + bO| 일부입니다.\nx - 3일 때 의 2 구하시오\n* 1 2 3 4\n5 3 1 -1",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ": 초등 5학년 ㆍ 대응 관계와 비 ㆍ 기본 table «function -\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 3일 때 의 값을 구하시오.\nyo Be",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_1 1 2 3\ntable_row_2 5 3 1 -1",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "95e5685790ee"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "1",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 1야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 함수 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 1야. 그래서 정답은 1야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 5학년 ㆍ대응 관계와 비ㆍ기본 table - function\n아래 표는 일차함수 y = ax + bO| 일부입니다.\nx - 3일 때 의 2 구하시오\n* 1 2 3 4\n5 3 1 -1\n아래 표는 일차함수 / = ax + #의 일부입니다.\n* = 3일 때 \\의 값을 구하시오.\n: 초등 5학년 ㆍ 대응 관계와 비 ㆍ 기본 table «function -\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 3일 때 의 값을 구하시오.\ntable_row_1 1 2 3\ntable_row_2 5 3 1 -1",
+            "content_text": "초등 5학년 ㆍ대응 관계와 비ㆍ기본 table - function\n아래 표는 일차함수 y = ax + bO| 일부입니다.\nx - 3일 때 의 2 구하시오\n* 1 2 3 4\n5 3 1 -1\n아래 표는 일차함수 / = ax + #의 일부입니다.\n* = 3일 때 \\의 값을 구하시오.\n: 초등 5학년 ㆍ 대응 관계와 비 ㆍ 기본 table «function -\n아래 HE 일차함수 / = ax + #의 일부입니다.\n* = 3일 때 의 값을 구하시오.\ntable_row_1 1 2 3\ntable_row_2 5 3 1 -1",
+            "repaired_text": "",
+            "expressions": [
+              "answer=1",
+              "x=3",
+              "table_row_2 5 3 1 -1",
+              "5 3 1 -1"
+            ],
+            "choices": [],
+            "math_topic": "function",
+            "question_type": "subjective"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "1",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_003__b88026c3"
+    },
+    {
+      "case_id": "elementary_g05_004",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/자료와 가능성/평균과 가능성/elementary_g05_004_easy_expression_statistics.png",
+      "expected_answer": "397/5",
+      "expected_expression": "(63+88+67+99+80)/5",
+      "computed_answer": "397/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(63+88+67+99+80)/5",
+        "63, 88, 6/99, 80"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.475,
+      "analysis": {
+        "analysis_started_at": 1777119480.314585,
+        "analysis_finished_at": 1777119480.790028,
+        "structured_problem": {
+          "source_text_candidates": [
+            "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n63, 88, 6/99, 80\n초등 OSHA ㆍ평균과 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n63, 88, 67, 99, 80",
+            "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n63, 88, 6/99, 80\n초등 OSHA ㆍ평균과 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n63, 88, 67, 99, 80"
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(63+88+67+99+80)/5",
+            "63, 88, 6/99, 80"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/자료와 가능성/평균과 가능성/elementary_g05_004_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n63, 88, 6/99, 80",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 OSHA ㆍ평균과 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n63, 88, 67, 99, 80",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n63, 88, 6/99, 80",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "565bfaa525b1"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "397/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 397/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 397/5야. 그래서 정답은 397/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n63, 88, 6/99, 80\n초등 OSHA ㆍ평균과 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n63, 88, 67, 99, 80",
+            "content_text": "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n63, 88, 6/99, 80\n초등 OSHA ㆍ평균과 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n63, 88, 67, 99, 80",
+            "repaired_text": "",
+            "expressions": [
+              "(63+88+67+99+80)/5",
+              "63, 88, 6/99, 80"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "397/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_004__56d35d86"
+    },
+    {
+      "case_id": "elementary_g05_005",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "fraction_ratio",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/수와 연산/약수와 배수·분수의 계산/elementary_g05_005_easy_expression_fraction_ratio.png",
+      "expected_answer": "13/30",
+      "expected_expression": "1/10+1/3",
+      "computed_answer": "13/30",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "1/10 + 1/3",
+      "recognized_expressions": [
+        "1/10 + 1/3"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.444,
+      "analysis": {
+        "analysis_started_at": 1777119480.790766,
+        "analysis_finished_at": 1777119481.234986,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| AS 5학년 ㆍ약수와 Wp Sl Al ㆍ기본 expression ㆍ fraction\n1/10 + 1/3\n초등 5학년 ㆍ약수와 배수ㆍ분수의 계산ㆍ기본 expression ㆍ fraction",
+            "| AS 5학년 ㆍ약수와 Wp Sl Al ㆍ기본 expression ㆍ fraction\n1/10 + 1/3\n초등 5학년 ㆍ약수와 배수ㆍ분수의 계산ㆍ기본 expression ㆍ fraction"
+          ],
+          "normalized_problem_text": "1/10 + 1/3",
+          "expressions": [
+            "1/10 + 1/3"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/수와 연산/약수와 배수·분수의 계산/elementary_g05_005_easy_expression_fraction_ratio.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| AS 5학년 ㆍ약수와 Wp Sl Al ㆍ기본 expression ㆍ fraction\n다음 분수 ALS 하시오.\n1/10 + 1/3",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 5학년 ㆍ약수와 배수ㆍ분수의 계산ㆍ기본 expression ㆍ fraction\n다음 분수 AAS 하시오.\n1/10 + 1/3",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| AS 5학년 ㆍ약수와 Wp Sl Al ㆍ기본 expression ㆍ fraction\n다음 분수 ALS 하시오.\n1/10 + 1/3",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "a25fad3e7bed"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "13/30",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 13/30야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 13/30야. 그래서 정답은 13/30야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| AS 5학년 ㆍ약수와 Wp Sl Al ㆍ기본 expression ㆍ fraction\n1/10 + 1/3\n초등 5학년 ㆍ약수와 배수ㆍ분수의 계산ㆍ기본 expression ㆍ fraction",
+            "content_text": "| AS 5학년 ㆍ약수와 Wp Sl Al ㆍ기본 expression ㆍ fraction\n1/10 + 1/3\n초등 5학년 ㆍ약수와 배수ㆍ분수의 계산ㆍ기본 expression ㆍ fraction",
+            "repaired_text": "",
+            "expressions": [
+              "1/10 + 1/3"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "13/30",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_005__5b89fbb6"
+    },
+    {
+      "case_id": "elementary_g05_006",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/도형과 측정/다각형의 둘레와 넓이/elementary_g05_006_easy_expression_geometry.png",
+      "expected_answer": "64",
+      "expected_expression": "55+9",
+      "computed_answer": "64",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "55 +9"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.461,
+      "analysis": {
+        "analysis_started_at": 1777119481.2358038,
+        "analysis_finished_at": 1777119481.696384,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\noO =\n다음 식의 값을 구하시오.\n55 +9\n초등 OSA ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr",
+            "| 초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\noO =\n다음 식의 값을 구하시오.\n55 +9\n초등 OSA ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "55 +9"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/도형과 측정/다각형의 둘레와 넓이/elementary_g05_006_easy_expression_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\noO =\n다음 식의 값을 구하시오.\n55 +9",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 OSA ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n55 + 9",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\noO =\n다음 식의 값을 구하시오.\n55 +9",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "c0800a07d0c9"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "64",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 64야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 64야. 그래서 정답은 64야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\noO =\n다음 식의 값을 구하시오.\n55 +9\n초등 OSA ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr",
+            "content_text": "| 초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\noO =\n다음 식의 값을 구하시오.\n55 +9\n초등 OSA ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr",
+            "repaired_text": "",
+            "expressions": [
+              "55 +9"
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "64",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_006__621260e3"
+    },
+    {
+      "case_id": "elementary_g05_007",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "function",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/변화와 관계/대응 관계와 비/elementary_g05_007_easy_word_function.png",
+      "expected_answer": "8",
+      "expected_expression": "y=4x+ 0;x=2",
+      "computed_answer": "8",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "function_value_solver",
+      "recognized_problem": "x = 2일 때 전체 개수를 식 = 4x + 0로 구하시오",
+      "recognized_expressions": [
+        "y=4x+0",
+        "x=2"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.589,
+      "analysis": {
+        "analysis_started_at": 1777119481.697026,
+        "analysis_finished_at": 1777119482.286453,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 5학년 ㆍ대응 관계와 비 ㆍ 기본 \\000ㆍ1400000\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 0개가 더 있:\nx = 2일 때 전체 개수를 식 = 4x + 0로 구하시오.\n： 초등 5학년 - HS 관계와 비ㆍ기본 word - function ：\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 0개가 더 Vl",
+            "초등 5학년 ㆍ대응 관계와 비 ㆍ 기본 \\000ㆍ1400000\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 0개가 더 있:\nx = 2일 때 전체 개수를 식 = 4x + 0로 구하시오.\n： 초등 5학년 - HS 관계와 비ㆍ기본 word - function ：\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 0개가 더 Vl"
+          ],
+          "normalized_problem_text": "x = 2일 때 전체 개수를 식 = 4x + 0로 구하시오",
+          "expressions": [
+            "y=4x+0",
+            "x=2"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "function",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/변화와 관계/대응 관계와 비/elementary_g05_007_easy_word_function.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 5학년 ㆍ대응 관계와 비 ㆍ 기본 \\000ㆍ1400000\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 0개가 더 있:\nx = 2일 때 전체 개수를 식 = 4x + 0로 구하시오.",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 5학년 ㆍ대응 관계와 비 ㆍ 기본 \\000ㆍ1400000\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 0개가 더 있:\nx = 2일 때 전체 개수를 식 = 4x + 0로 구하시오.",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 초등 5학년 - HS 관계와 비ㆍ기본 word - function ：\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 0개가 더 Vl\nx= 2일 때 전체 개수를 식 = 4x + 0로 구하시오.",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "b8a2811dd3e2"
+          }
+        },
+        "solve_result": {
+          "solver_name": "function_value_solver",
+          "computed_answer": "8",
+          "steps": [
+            "함수식을 y=4*x+0 형태로 정리했어.",
+            "x=2을 대입했어.",
+            "y의 값은 8야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.83,
+          "validation_status": "verified",
+          "explanation": "이건 함수 문제야. 함수식을 y=4*x+0 형태로 정리했어. x=2을 대입했어. y의 값은 8야. 그래서 정답은 8야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 5학년 ㆍ대응 관계와 비 ㆍ 기본 \\000ㆍ1400000\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 0개가 더 있:\nx = 2일 때 전체 개수를 식 = 4x + 0로 구하시오.\n： 초등 5학년 - HS 관계와 비ㆍ기본 word - function ：\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 0개가 더 Vl",
+            "content_text": "초등 5학년 ㆍ대응 관계와 비 ㆍ 기본 \\000ㆍ1400000\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 0개가 더 있:\nx = 2일 때 전체 개수를 식 = 4x + 0로 구하시오.\n： 초등 5학년 - HS 관계와 비ㆍ기본 word - function ：\n한 묶음에 4개씩 들어 있는 물건이 *묶음 있고, 날개 0개가 더 Vl",
+            "repaired_text": "",
+            "expressions": [
+              "y=4x+0",
+              "x=2"
+            ],
+            "choices": [],
+            "math_topic": "function",
+            "question_type": "subjective"
+          },
+          "solver_name": "function_value_solver",
+          "computed_answer": "8",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_007__f0c572c7"
+    },
+    {
+      "case_id": "elementary_g05_008",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/자료와 가능성/평균과 가능성/elementary_g05_008_easy_table_statistics.png",
+      "expected_answer": "14",
+      "expected_expression": "41-27",
+      "computed_answer": "14",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오",
+      "recognized_expressions": [
+        "41-27",
+        "(31+27+41+34+31+34)/6"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.446,
+      "analysis": {
+        "analysis_started_at": 1777119482.287715,
+        "analysis_finished_at": 1777119483.73375,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 OSHA ㆍ평균과 가능성ㆍ기본 table - statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\nat 31 27Al 34\n： 초등 5학년ㆍ평균과 가능성ㆍ기본 table - statistics ：\n항목 iA Bc 1]\ntable_row_2 31 2 4 34",
+            "초등 OSHA ㆍ평균과 가능성ㆍ기본 table - statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\nat 31 27Al 34\n： 초등 5학년ㆍ평균과 가능성ㆍ기본 table - statistics ：\n항목 iA Bc 1]\ntable_row_2 31 2 4 34"
+          ],
+          "normalized_problem_text": "아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오",
+          "expressions": [
+            "41-27",
+            "(31+27+41+34+31+34)/6"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/자료와 가능성/평균과 가능성/elementary_g05_008_easy_table_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 OSHA ㆍ평균과 가능성ㆍ기본 table - statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n항목 A B C D\nat 31 27Al 34",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 OSHA ㆍ평균과 가능성ㆍ기본 table - statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\njes fa fe fe ]ㅁ",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 OSHA ㆍ평균과 가능성ㆍ기본 table - statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n항목 A B C D\nat 31 27Al 34",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 초등 5학년ㆍ평균과 가능성ㆍ기본 table - statistics ：\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\n항목 iA Bc 1]",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 31 2 4 34",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "f3fe87528f08"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "14",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 14야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 14야. 그래서 정답은 14야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 OSHA ㆍ평균과 가능성ㆍ기본 table - statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\nat 31 27Al 34\n： 초등 5학년ㆍ평균과 가능성ㆍ기본 table - statistics ：\n항목 iA Bc 1]\ntable_row_2 31 2 4 34",
+            "content_text": "초등 OSHA ㆍ평균과 가능성ㆍ기본 table - statistics\n아래 표에서 가장 큰 값과 가장 작은 값의 차를 구하시오.\nat 31 27Al 34\n： 초등 5학년ㆍ평균과 가능성ㆍ기본 table - statistics ：\n항목 iA Bc 1]\ntable_row_2 31 2 4 34",
+            "repaired_text": "",
+            "expressions": [
+              "41-27",
+              "(31+27+41+34+31+34)/6"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "14",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_008__4c2cc87e"
+    },
+    {
+      "case_id": "elementary_g05_009",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "fraction_ratio",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/수와 연산/약수와 배수·분수의 계산/elementary_g05_009_easy_expression_fraction_ratio.png",
+      "expected_answer": "1/2",
+      "expected_expression": "1/4+1/4",
+      "computed_answer": "1/2",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "1/4 + 1/4",
+      "recognized_expressions": [
+        "1/4 + 1/4"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.457,
+      "analysis": {
+        "analysis_started_at": 1777119483.7349691,
+        "analysis_finished_at": 1777119484.192116,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| AS 5학년 ㆍ약수와 배수분수의 계산ㆍ기본 expression - fraction_\n1/4 + 1/4\n초등 5학년 ㆍ약수와 배수ㆍ분수의 계산ㆍ기본 expression ㆍ fraction",
+            "| AS 5학년 ㆍ약수와 배수분수의 계산ㆍ기본 expression - fraction_\n1/4 + 1/4\n초등 5학년 ㆍ약수와 배수ㆍ분수의 계산ㆍ기본 expression ㆍ fraction"
+          ],
+          "normalized_problem_text": "1/4 + 1/4",
+          "expressions": [
+            "1/4 + 1/4"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/수와 연산/약수와 배수·분수의 계산/elementary_g05_009_easy_expression_fraction_ratio.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| AS 5학년 ㆍ약수와 배수분수의 계산ㆍ기본 expression - fraction_\n다음 분수 ALS 하시오.\n1/4 + 1/4",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 5학년 ㆍ약수와 배수ㆍ분수의 계산ㆍ기본 expression ㆍ fraction\n다음 분수 AAS 하시오.\n1/4 + 1/4",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| AS 5학년 ㆍ약수와 배수분수의 계산ㆍ기본 expression - fraction_\n다음 분수 ALS 하시오.\n1/4 + 1/4",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "97068d034f27"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "1/2",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 1/2야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 1/2야. 그래서 정답은 1/2야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| AS 5학년 ㆍ약수와 배수분수의 계산ㆍ기본 expression - fraction_\n1/4 + 1/4\n초등 5학년 ㆍ약수와 배수ㆍ분수의 계산ㆍ기본 expression ㆍ fraction",
+            "content_text": "| AS 5학년 ㆍ약수와 배수분수의 계산ㆍ기본 expression - fraction_\n1/4 + 1/4\n초등 5학년 ㆍ약수와 배수ㆍ분수의 계산ㆍ기본 expression ㆍ fraction",
+            "repaired_text": "",
+            "expressions": [
+              "1/4 + 1/4"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "1/2",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_009__d8bc7b37"
+    },
+    {
+      "case_id": "elementary_g05_010",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "geometry",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/도형과 측정/다각형의 둘레와 넓이/elementary_g05_010_easy_geometry_geometry.png",
+      "expected_answer": "56",
+      "expected_expression": "7*8",
+      "computed_answer": "56",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "오른쪽 직사각형의 HOS 구하시오",
+      "recognized_expressions": [
+        "7*8",
+        "rectangle_width 7rectangle_height 8rectangle_area 7*8"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.843,
+      "analysis": {
+        "analysis_started_at": 1777119484.1927822,
+        "analysis_finished_at": 1777119485.035891,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 geometry ㆍ geometry\n= 혀이 Ho|2a=\n오른쪽 직사각형의 HOS 구하시오.\n7cm\n초등 SSA ㆍ다각형의 둘레와 넓이ㆍ기본 geometry ㆍ86010611\n오른쪽 직사각형의 넓이를 구하시오.\n7007\n80070\nrectangle_width 7rectangle_height 8rectangle_area 7*8",
+            "초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 geometry ㆍ geometry\n= 혀이 Ho|2a=\n오른쪽 직사각형의 HOS 구하시오.\n7cm\n초등 SSA ㆍ다각형의 둘레와 넓이ㆍ기본 geometry ㆍ86010611\n오른쪽 직사각형의 넓이를 구하시오.\n7007\n80070\nrectangle_width 7rectangle_height 8rectangle_area 7*8"
+          ],
+          "normalized_problem_text": "오른쪽 직사각형의 HOS 구하시오",
+          "expressions": [
+            "7*8",
+            "rectangle_width 7rectangle_height 8rectangle_area 7*8"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "function",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/도형과 측정/다각형의 둘레와 넓이/elementary_g05_010_easy_geometry_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 geometry ㆍ geometry\n= 혀이 Ho|2a=\n오른쪽 직사각형의 HOS 구하시오.\n| 더\n7cm",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 SSA ㆍ다각형의 둘레와 넓이ㆍ기본 geometry ㆍ86010611\n오른쪽 직사각형의 넓이를 구하시오.\n| | 더\n7007",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 SSA ㆍ다각형의 둘레와 넓이ㆍ기본 geometry ㆍ86010611\n오른쪽 직사각형의 넓이를 구하시오.\n80070\n7007",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 geometry ㆍ geometry\n= 혀이 Ho|2a=\n오른쪽 직사각형의 HOS 구하시오.\n| 더\n7cm",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "geometry_metric_reader",
+                    "variant": "rectangle_metric",
+                    "psm": "geometry",
+                    "available": true,
+                    "text": "rectangle_width 7 rectangle_height 8 rectangle_area 7*8",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "c9498933294a"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "56",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 56야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 함수 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 56야. 그래서 정답은 56야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 geometry ㆍ geometry\n= 혀이 Ho|2a=\n오른쪽 직사각형의 HOS 구하시오.\n7cm\n초등 SSA ㆍ다각형의 둘레와 넓이ㆍ기본 geometry ㆍ86010611\n오른쪽 직사각형의 넓이를 구하시오.\n7007\n80070\nrectangle_width 7rectangle_height 8rectangle_area 7*8",
+            "content_text": "초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 geometry ㆍ geometry\n= 혀이 Ho|2a=\n오른쪽 직사각형의 HOS 구하시오.\n7cm\n초등 SSA ㆍ다각형의 둘레와 넓이ㆍ기본 geometry ㆍ86010611\n오른쪽 직사각형의 넓이를 구하시오.\n7007\n80070\nrectangle_width 7rectangle_height 8rectangle_area 7*8",
+            "repaired_text": "",
+            "expressions": [
+              "7*8",
+              "rectangle_width 7rectangle_height 8rectangle_area 7*8"
+            ],
+            "choices": [],
+            "math_topic": "function",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "56",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_010__6a20fbd2"
+    }
+  ]
+}

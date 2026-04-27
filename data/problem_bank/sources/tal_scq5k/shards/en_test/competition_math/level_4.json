@@ -1,0 +1,494 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:competition_math:level_4:01334",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1334,
+      "split": "en_test",
+      "source_problem_id": "9e91003c32ae40ee956a51f02f550771"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The weight of adult male grizzly bears living in the wild in the continental United States is approximately normally distributed with a mean of 500 pounds and a standard deviation of 50 pounds. The weight of adult female grizzly bears is approximately normally distributed with a mean of 300 pounds and a standard deviation of 40 pounds. Approximately, what would be the weight of female grizzly bear with the same standardized score (z-score) as a male grizzly bear with weight of 530 pounds?\n(A) 276~pounds~\n(B) 324~pounds\n(C) 330 pounds\n(D) 340 pounds\n(E) 530 pounds",
+      "problem_plain": "The weight of adult male grizzly bears living in the wild in the continental United States is approximately normally distributed with a mean of 500 pounds and a standard deviation of 50 pounds. The weight of adult female grizzly bears is approximately normally distributed with a mean of 300 pounds and a standard deviation of 40 pounds. Approximately, what would be the weight of female grizzly bear with the same standardized score (z-score) as a male grizzly bear with weight of 530 pounds? (A) 276~pounds~ (B) 324~pounds (C) 330 pounds (D) 340 pounds (E) 530 pounds",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "324~pounds",
+      "final_normalized": "324~pounds",
+      "candidates": [
+        "324~pounds",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "competition_math",
+        "en",
+        "en_test",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The weight of adult male grizzly bears living in the wild in the continental United States is approximately normally distributed with a mean of 500 pounds and a standard deviation of 50 pounds. The weight of adult female grizzly bears is approximately normally distributed with a mean of 300 pounds and a standard deviation of 40 pounds. Approximately, what would be the weight of female grizzly bear with the same standardized score (z-score) as a male grizzly bear with weight of 530 pounds? (A) 276~pounds~ (B) 324~pounds (C) 330 pounds (D) 340 pounds (E) 530 pounds",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "competition_math",
+        "en",
+        "en_test",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:52:18+00:00",
+      "updated_at": "2026-04-25T04:52:18+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4692",
+        "queId": "9e91003c32ae40ee956a51f02f550771",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "276~pounds~"
+          },
+          {
+            "label": "B",
+            "content": "324~pounds"
+          },
+          {
+            "label": "C",
+            "content": "330 pounds"
+          },
+          {
+            "label": "D",
+            "content": "340 pounds"
+          },
+          {
+            "label": "E",
+            "content": "530 pounds"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:competition_math:level_4:01535",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1535,
+      "split": "en_test",
+      "source_problem_id": "9b1328b29a884a778b176fd0c87dc7aa"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "You are going to create a 95\\% confidence interval fora population proportion and want the margin of error to be no more than 0.05. Historical data indicate that the population proportionis about 0.7. What is the minimum size random sample you need to construct this interval?\n(A) 385\n(B) 322\n(C) 274\n(D) 275\n(E) 323",
+      "problem_plain": "You are going to create a 95 % confidence interval fora population proportion and want the margin of error to be no more than 0.05. Historical data indicate that the population proportionis about 0.7. What is the minimum size random sample you need to construct this interval? (A) 385 (B) 322 (C) 274 (D) 275 (E) 323",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "323",
+      "final_normalized": "323",
+      "candidates": [
+        "323",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "competition_math",
+        "en",
+        "en_test",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "You are going to create a 95 % confidence interval fora population proportion and want the margin of error to be no more than 0.05. Historical data indicate that the population proportionis about 0.7. What is the minimum size random sample you need to construct this interval? (A) 385 (B) 322 (C) 274 (D) 275 (E) 323",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "competition_math",
+        "en",
+        "en_test",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:52:18+00:00",
+      "updated_at": "2026-04-25T04:52:18+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "5471",
+        "queId": "9b1328b29a884a778b176fd0c87dc7aa",
+        "difficulty": "3",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "385"
+          },
+          {
+            "label": "B",
+            "content": "322"
+          },
+          {
+            "label": "C",
+            "content": "274"
+          },
+          {
+            "label": "D",
+            "content": "275"
+          },
+          {
+            "label": "E",
+            "content": "323"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:competition_math:level_4:01559",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1559,
+      "split": "en_test",
+      "source_problem_id": "96a383067ba74b11863066ca87f45264"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A state study on labor reported that one-third of full-time teachers in the state also worked part time at another job. For those teachers, the average number of hours worked per week at the part-time job was 13. After an increase in state teacher salaries, a random sample of 400 teachers who worked part time at another job was selected. The average number of hours worked per week at the part-time job for the teachers in the sample was 12.5 with standard deviation 6.5 hours. Is there convincing statistical evidence. at the level of a = 0.05, that the average number of hours worked per week at part-time jobs decreased after the salary increase?\n(A) No. The p-value of the appropriate test is greater than 0.05.\n(B) No. The p-value of the appropriate test is less than 0.05.\n(C) Yes. The p-value of the appropriate test is greater than 0.05.\n(D) Yes. The p-value of the appropriate test is less than 0.05.\n(E) Not enough information is given to determine whether there is convincing statistical evidence.",
+      "problem_plain": "A state study on labor reported that one-third of full-time teachers in the state also worked part time at another job. For those teachers, the average number of hours worked per week at the part-time job was 13. After an increase in state teacher salaries, a random sample of 400 teachers who worked part time at another job was selected. The average number of hours worked per week at the part-time job for the teachers in the sample was 12.5 with standard deviation 6.5 hours. Is there convincing statistical evidence. at the level of a = 0.05, that the average number of hours worked per week at part-time jobs decreased after the salary increase? (A) No. The p-value of the appropriate test is greater than 0.05. (B) No. The p-value of the appropriate test is less than 0.05. (C) Yes. The p-value of the appropriate test is greater than 0.05. (D) Yes. The p-value of the appropriate test is less than 0.05. (E) Not enough information is given to determine whether there is convincing statistical evidence.",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "No. The p-value of the appropriate test is greater than 0.05.",
+      "final_normalized": "No. The p-value of the appropriate test is greater than 0.05.",
+      "candidates": [
+        "A",
+        "No. The p-value of the appropriate test is greater than 0.05."
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "competition_math",
+        "en",
+        "en_test",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A state study on labor reported that one-third of full-time teachers in the state also worked part time at another job. For those teachers, the average number of hours worked per week at the part-time job was 13. After an increase in state teacher salaries, a random sample of 400 teachers who worked part time at another job was selected. The average number of hours worked per week at the part-time job for the teachers in the sample was 12.5 with standard deviation 6.5 hours. Is there convincing statistical evidence. at the level of a = 0.05, that the average number of hours worked per week at part-time jobs decreased after the salary increase? (A) No. The p-value of the appropriate test is greater than 0.05. (B) No. The p-value of the appropriate test is less than 0.05. (C) Yes. The p-value of the appropriate test is greater than 0.05. (D) Yes. The p-value of the appropriate test is less than 0.05. (E) Not enough information is given to determine whether there is convincing statistical evidence.",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "competition_math",
+        "en",
+        "en_test",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:52:18+00:00",
+      "updated_at": "2026-04-25T04:52:18+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "5524",
+        "queId": "96a383067ba74b11863066ca87f45264",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "No. The p-value of the appropriate test is greater than 0.05."
+          },
+          {
+            "label": "B",
+            "content": "No. The p-value of the appropriate test is less than 0.05."
+          },
+          {
+            "label": "C",
+            "content": "Yes. The p-value of the appropriate test is greater than 0.05."
+          },
+          {
+            "label": "D",
+            "content": "Yes. The p-value of the appropriate test is less than 0.05."
+          },
+          {
+            "label": "E",
+            "content": "Not enough information is given to determine whether there is convincing statistical evidence."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:competition_math:level_4:01758",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1758,
+      "split": "en_test",
+      "source_problem_id": "cee6ee3712a74b649d338abe51e7035f"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A distribution of test scores can be described as N(77, 8). If the distribution is represented as X, which of the following answer choices would be equivalent to P(X \\textless{} 65)?\n(A) P(X\\textgreater65)\n(B) P(X\\textgreater85)\n(C) P(65\\textless X\\textgreater89)\n(D) 1-P(X\\textgreater89)\n(E) P(X\\textgreater89)",
+      "problem_plain": "A distribution of test scores can be described as N(77, 8). If the distribution is represented as X, which of the following answer choices would be equivalent to P(X 65)? (A) P(X 65) (B) P(X 85) (C) P(65 X 89) (D) 1-P(X 89) (E) P(X 89)",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "P(X\\textgreater89)",
+      "final_normalized": "P(X\\textgreater89)",
+      "candidates": [
+        "E",
+        "P(X\\textgreater89)"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "calculation_modules"
+      ],
+      "tags": [
+        "calculation_modules",
+        "competition_math",
+        "en",
+        "en_test",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A distribution of test scores can be described as N(77, 8). If the distribution is represented as X, which of the following answer choices would be equivalent to P(X 65)? (A) P(X 65) (B) P(X 85) (C) P(65 X 89) (D) 1-P(X 89) (E) P(X 89)",
+      "solution_text": "",
+      "keywords": [
+        "calculation_modules",
+        "competition_math",
+        "en",
+        "en_test",
+        "level_4",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:52:18+00:00",
+      "updated_at": "2026-04-25T04:52:18+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "6285",
+        "queId": "cee6ee3712a74b649d338abe51e7035f",
+        "difficulty": "3",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "P(X\\textgreater65)"
+          },
+          {
+            "label": "B",
+            "content": "P(X\\textgreater85)"
+          },
+          {
+            "label": "C",
+            "content": "P(65\\textless X\\textgreater89)"
+          },
+          {
+            "label": "D",
+            "content": "1-P(X\\textgreater89)"
+          },
+          {
+            "label": "E",
+            "content": "P(X\\textgreater89)"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  }
+]

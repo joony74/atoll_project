@@ -1,0 +1,250 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_5:00015",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 15,
+      "split": "zh_train",
+      "source_problem_id": "4707e9d5d2d74e44aac6e679ac412bbb"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "黑板上一共写了$$10100$$个数字，包括$$2018$$个$$1$$，$$2019$$个$$2$$，$$2020$$个$$3$$，$$2021$$个$$4$$，$$2022$$个$$5$$．每次操作都擦去其中$$4$$个不同的数字并写上一个第$$5$$种数字（例如擦去$$1$$、$$2$$、$$3$$、$$4$$各$$1$$个，写上$$1$$个$$5$$；或者擦去$$2$$、$$3$$、$$4$$、$$5$$各一个，写上一个$$1$$；\\ldots）；如果经过有限次操作后，黑板上恰好剩下了两个数字，那么这两个数字的乘积是~\\uline{~~~~~~~~~~}~．\n(A) 2\n(B) 6\n(C) 8\n(D) 12\n(E) 以上都不正确",
+      "problem_plain": "黑板上一共写了 10100 个数字，包括 2018 个 1 ， 2019 个 2 ， 2020 个 3 ， 2021 个 4 ， 2022 个 5 ．每次操作都擦去其中 4 个不同的数字并写上一个第 5 种数字（例如擦去 1 、 2 、 3 、 4 各 1 个，写上 1 个 5 ；或者擦去 2 、 3 、 4 、 5 各一个，写上一个 1 ； ）；如果经过有限次操作后，黑板上恰好剩下了两个数字，那么这两个数字的乘积是~ ~~~~~~~~~~ ~． (A) 2 (B) 6 (C) 8 (D) 12 (E) 以上都不正确",
+      "solution_latex": "每次操作，每个数字个数的奇偶性都会变化．$$1$$、$$3$$、$$5$$原来都是偶数个，它们的个数奇偶性永远保持一致；$$2$$、$$4$$原来都是奇数个，它们的个数奇偶性也永远保持一致，而且和$$1$$、$$3$$、$$5$$的个数奇偶性不同$$.$$ 最后剩下$$2$$个数字，只能是$$2$$和$$4$$，乘积为$$8$$，答案选$$\\text{C}$$.",
+      "solution_plain": "每次操作，每个数字个数的奇偶性都会变化． 1 、 3 、 5 原来都是偶数个，它们的个数奇偶性永远保持一致； 2 、 4 原来都是奇数个，它们的个数奇偶性也永远保持一致，而且和 1 、 3 、 5 的个数奇偶性不同 . 最后剩下 2 个数字，只能是 2 和 4 ，乘积为 8 ，答案选 C ."
+    },
+    "answer": {
+      "final_raw": "8",
+      "final_normalized": "8",
+      "candidates": [
+        "8",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "每次操作，每个数字个数的奇偶性都会变化．$$1$$、$$3$$、$$5$$原来都是偶数个，它们的个数奇偶性永远保持一致；$$2$$、$$4$$原来都是奇数个，它们的个数奇偶性也永远保持一致，而且和$$1$$、$$3$$、$$5$$的个数奇偶性不同$$.$$ 最后剩下$$2$$个数字，只能是$$2$$和$$4$$，乘积为$$8$$，答案选$$\\text{C}$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "黑板上一共写了 10100 个数字，包括 2018 个 1 ， 2019 个 2 ， 2020 个 3 ， 2021 个 4 ， 2022 个 5 ．每次操作都擦去其中 4 个不同的数字并写上一个第 5 种数字（例如擦去 1 、 2 、 3 、 4 各 1 个，写上 1 个 5 ；或者擦去 2 、 3 、 4 、 5 各一个，写上一个 1 ； ）；如果经过有限次操作后，黑板上恰好剩下了两个数字，那么这两个数字的乘积是~ ~~~~~~~~~~ ~． (A) 2 (B) 6 (C) 8 (D) 12 (E) 以上都不正确",
+      "solution_text": "每次操作，每个数字个数的奇偶性都会变化． 1 、 3 、 5 原来都是偶数个，它们的个数奇偶性永远保持一致； 2 、 4 原来都是奇数个，它们的个数奇偶性也永远保持一致，而且和 1 、 3 、 5 的个数奇偶性不同 . 最后剩下 2 个数字，只能是 2 和 4 ，乘积为 8 ，答案选 C .",
+      "keywords": [
+        "counting_probability",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "145",
+        "queId": "4707e9d5d2d74e44aac6e679ac412bbb",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "6"
+          },
+          {
+            "label": "C",
+            "content": "8"
+          },
+          {
+            "label": "D",
+            "content": "12"
+          },
+          {
+            "label": "E",
+            "content": "以上都不正确"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->知识点->组合模块->构造与论证",
+          "拓展思维->拓展思维->组合模块->操作与策略->操作问题->数字操作"
+        ],
+        "competition_source_list": [
+          "2010年迎春杯六年级竞赛复赛",
+          "六年级其它",
+          "2010年迎春杯五年级竞赛复赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:counting_probability:level_5:01095",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1095,
+      "split": "zh_train",
+      "source_problem_id": "d9aed025a8f64c03adef18393280886d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "某足球联赛积分规则如下：每队赛$$30$$场，胜一场得$$3$$分，平一场得$$1$$分，负一场得$$0$$分．在$$2013$$赛季中，希望队以总积分$$77$$分位居积分榜首位，且负的场数比平的场数少，则这个赛季该队共胜了（~ ）场比赛．\n(A) 22\n(B) 24\n(C) 23\n(D) 25",
+      "problem_plain": "某足球联赛积分规则如下：每队赛 30 场，胜一场得 3 分，平一场得 1 分，负一场得 0 分．在 2013 赛季中，希望队以总积分 77 分位居积分榜首位，且负的场数比平的场数少，则这个赛季该队共胜了（~ ）场比赛． (A) 22 (B) 24 (C) 23 (D) 25",
+      "solution_latex": "设胜了$$x$$场，平$$y$$场，负$$\\left( 30-x-y \\right)$$  有$$3x+y=77$$  $$30-\\left( x+y \\right)\\textless{}y$$，则$$x=24$$  选$$\\text{B}$$．",
+      "solution_plain": "设胜了 x 场，平 y 场，负 ( 30-x-y ) 有 3x+y=77 30- ( x+y ) y ，则 x=24 选 B ．"
+    },
+    "answer": {
+      "final_raw": "24",
+      "final_normalized": "24",
+      "candidates": [
+        "24",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "3_1_0",
+        "unknown"
+      ],
+      "tags": [
+        "3_1_0",
+        "counting_probability",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设胜了$$x$$场，平$$y$$场，负$$\\left( 30-x-y \\right)$$  有$$3x+y=77$$  $$30-\\left( x+y \\right)\\textless{}y$$，则$$x=24$$  选$$\\text{B}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "某足球联赛积分规则如下：每队赛 30 场，胜一场得 3 分，平一场得 1 分，负一场得 0 分．在 2013 赛季中，希望队以总积分 77 分位居积分榜首位，且负的场数比平的场数少，则这个赛季该队共胜了（~ ）场比赛． (A) 22 (B) 24 (C) 23 (D) 25",
+      "solution_text": "设胜了 x 场，平 y 场，负 ( 30-x-y ) 有 3x+y=77 30- ( x+y ) y ，则 x=24 选 B ．",
+      "keywords": [
+        "3_1_0",
+        "counting_probability",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "74",
+        "queId": "d9aed025a8f64c03adef18393280886d",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "22"
+          },
+          {
+            "label": "B",
+            "content": "24"
+          },
+          {
+            "label": "C",
+            "content": "23"
+          },
+          {
+            "label": "D",
+            "content": "25"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->逻辑推理->体育比赛->3-1-0 积分制"
+        ],
+        "competition_source_list": [
+          "2014年第10届全国新希望杯小学高年级六年级竞赛复赛第6题4分"
+        ]
+      }
+    }
+  }
+]

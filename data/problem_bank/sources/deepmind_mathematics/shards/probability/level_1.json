@@ -1,0 +1,1742 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_level_set:00453",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 453,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_level_set_00453"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Four letters picked without replacement from {n: 3, o: 1, e: 3, h: 1, c: 8, b: 3}. Give prob of picking 1 o, 1 c and 2 b.",
+      "problem_plain": "Four letters picked without replacement from {n: 3, o: 1, e: 3, h: 1, c: 8, b: 3}. Give prob of picking 1 o, 1 c and 2 b.",
+      "solution_latex": "2/323",
+      "solution_plain": "2/323"
+    },
+    "answer": {
+      "final_raw": "2/323",
+      "final_normalized": "2/323",
+      "candidates": [
+        "2/323"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_level_set"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Four letters picked without replacement from {n: 3, o: 1, e: 3, h: 1, c: 8, b: 3}. Give prob of picking 1 o, 1 c and 2 b.",
+      "solution_text": "2/323",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_level_set",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_level_set:00454",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 454,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_level_set_00454"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Three letters picked without replacement from {r: 2, w: 1, j: 3, h: 1, m: 1, d: 5}. Give prob of picking 1 j, 1 w and 1 h.",
+      "problem_plain": "Three letters picked without replacement from {r: 2, w: 1, j: 3, h: 1, m: 1, d: 5}. Give prob of picking 1 j, 1 w and 1 h.",
+      "solution_latex": "3/286",
+      "solution_plain": "3/286"
+    },
+    "answer": {
+      "final_raw": "3/286",
+      "final_normalized": "3/286",
+      "candidates": [
+        "3/286"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_level_set"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Three letters picked without replacement from {r: 2, w: 1, j: 3, h: 1, m: 1, d: 5}. Give prob of picking 1 j, 1 w and 1 h.",
+      "solution_text": "3/286",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_level_set",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_level_set:00455",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 455,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_level_set_00455"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate prob of picking 2 v when two letters picked without replacement from vvvvvvvxvxv.",
+      "problem_plain": "Calculate prob of picking 2 v when two letters picked without replacement from vvvvvvvxvxv.",
+      "solution_latex": "36/55",
+      "solution_plain": "36/55"
+    },
+    "answer": {
+      "final_raw": "36/55",
+      "final_normalized": "36/55",
+      "candidates": [
+        "36/55"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_level_set"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate prob of picking 2 v when two letters picked without replacement from vvvvvvvxvxv.",
+      "solution_text": "36/55",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_level_set",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_level_set:00456",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 456,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_level_set_00456"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate prob of picking 2 z when two letters picked without replacement from {t: 2, k: 2, z: 3, u: 6}.",
+      "problem_plain": "Calculate prob of picking 2 z when two letters picked without replacement from {t: 2, k: 2, z: 3, u: 6}.",
+      "solution_latex": "1/26",
+      "solution_plain": "1/26"
+    },
+    "answer": {
+      "final_raw": "1/26",
+      "final_normalized": "1/26",
+      "candidates": [
+        "1/26"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_level_set"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate prob of picking 2 z when two letters picked without replacement from {t: 2, k: 2, z: 3, u: 6}.",
+      "solution_text": "1/26",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_level_set",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_level_set:00457",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 457,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_level_set_00457"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Two letters picked without replacement from ekbweeffeeek. What is prob of picking 1 b and 1 k?",
+      "problem_plain": "Two letters picked without replacement from ekbweeffeeek. What is prob of picking 1 b and 1 k?",
+      "solution_latex": "1/33",
+      "solution_plain": "1/33"
+    },
+    "answer": {
+      "final_raw": "1/33",
+      "final_normalized": "1/33",
+      "candidates": [
+        "1/33"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_level_set"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Two letters picked without replacement from ekbweeffeeek. What is prob of picking 1 b and 1 k?",
+      "solution_text": "1/33",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_level_set",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_level_set:00458",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 458,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_level_set_00458"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is prob of picking 3 a when three letters picked without replacement from aaaa?",
+      "problem_plain": "What is prob of picking 3 a when three letters picked without replacement from aaaa?",
+      "solution_latex": "1",
+      "solution_plain": "1"
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_level_set"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is prob of picking 3 a when three letters picked without replacement from aaaa?",
+      "solution_text": "1",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_level_set",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_level_set:00459",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 459,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_level_set_00459"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is prob of picking 3 s when three letters picked without replacement from szzzzzzkzzkzssskksz?",
+      "problem_plain": "What is prob of picking 3 s when three letters picked without replacement from szzzzzzkzzkzssskksz?",
+      "solution_latex": "10/969",
+      "solution_plain": "10/969"
+    },
+    "answer": {
+      "final_raw": "10/969",
+      "final_normalized": "10/969",
+      "candidates": [
+        "10/969"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_level_set"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is prob of picking 3 s when three letters picked without replacement from szzzzzzkzzkzssskksz?",
+      "solution_text": "10/969",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_level_set",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_level_set:00460",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 460,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_level_set_00460"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Three letters picked without replacement from ogoonnojogfn. What is prob of picking 1 f, 1 o and 1 g?",
+      "problem_plain": "Three letters picked without replacement from ogoonnojogfn. What is prob of picking 1 f, 1 o and 1 g?",
+      "solution_latex": "1/22",
+      "solution_plain": "1/22"
+    },
+    "answer": {
+      "final_raw": "1/22",
+      "final_normalized": "1/22",
+      "candidates": [
+        "1/22"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_level_set"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Three letters picked without replacement from ogoonnojogfn. What is prob of picking 1 f, 1 o and 1 g?",
+      "solution_text": "1/22",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_level_set",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_level_set:00461",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 461,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_level_set_00461"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Two letters picked without replacement from {h: 4, t: 10}. Give prob of picking 1 t and 1 h.",
+      "problem_plain": "Two letters picked without replacement from {h: 4, t: 10}. Give prob of picking 1 t and 1 h.",
+      "solution_latex": "40/91",
+      "solution_plain": "40/91"
+    },
+    "answer": {
+      "final_raw": "40/91",
+      "final_normalized": "40/91",
+      "candidates": [
+        "40/91"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_level_set"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Two letters picked without replacement from {h: 4, t: 10}. Give prob of picking 1 t and 1 h.",
+      "solution_text": "40/91",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_level_set",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_level_set:00462",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 462,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_level_set_00462"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate prob of picking 1 b and 1 k when two letters picked without replacement from kisbn.",
+      "problem_plain": "Calculate prob of picking 1 b and 1 k when two letters picked without replacement from kisbn.",
+      "solution_latex": "1/10",
+      "solution_plain": "1/10"
+    },
+    "answer": {
+      "final_raw": "1/10",
+      "final_normalized": "1/10",
+      "candidates": [
+        "1/10"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_level_set"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate prob of picking 1 b and 1 k when two letters picked without replacement from kisbn.",
+      "solution_text": "1/10",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_level_set",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_level_set",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_sequence:00463",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 463,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_sequence_00463"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is prob of sequence bbc when three letters picked without replacement from {b: 10, c: 9}?",
+      "problem_plain": "What is prob of sequence bbc when three letters picked without replacement from {b: 10, c: 9}?",
+      "solution_latex": "45/323",
+      "solution_plain": "45/323"
+    },
+    "answer": {
+      "final_raw": "45/323",
+      "final_normalized": "45/323",
+      "candidates": [
+        "45/323"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_sequence"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is prob of sequence bbc when three letters picked without replacement from {b: 10, c: 9}?",
+      "solution_text": "45/323",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_sequence",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_sequence:00464",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 464,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_sequence_00464"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Two letters picked without replacement from {t: 2, u: 1, a: 5, v: 1}. Give prob of sequence vt.",
+      "problem_plain": "Two letters picked without replacement from {t: 2, u: 1, a: 5, v: 1}. Give prob of sequence vt.",
+      "solution_latex": "1/36",
+      "solution_plain": "1/36"
+    },
+    "answer": {
+      "final_raw": "1/36",
+      "final_normalized": "1/36",
+      "candidates": [
+        "1/36"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_sequence"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Two letters picked without replacement from {t: 2, u: 1, a: 5, v: 1}. Give prob of sequence vt.",
+      "solution_text": "1/36",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_sequence",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_sequence:00465",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 465,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_sequence_00465"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is prob of sequence wz when two letters picked without replacement from wzwwr?",
+      "problem_plain": "What is prob of sequence wz when two letters picked without replacement from wzwwr?",
+      "solution_latex": "3/20",
+      "solution_plain": "3/20"
+    },
+    "answer": {
+      "final_raw": "3/20",
+      "final_normalized": "3/20",
+      "candidates": [
+        "3/20"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_sequence"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is prob of sequence wz when two letters picked without replacement from wzwwr?",
+      "solution_text": "3/20",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_sequence",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_sequence:00466",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 466,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_sequence_00466"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Four letters picked without replacement from {t: 7, z: 2, s: 5, a: 1, b: 3}. What is prob of sequence zbzs?",
+      "problem_plain": "Four letters picked without replacement from {t: 7, z: 2, s: 5, a: 1, b: 3}. What is prob of sequence zbzs?",
+      "solution_latex": "1/2448",
+      "solution_plain": "1/2448"
+    },
+    "answer": {
+      "final_raw": "1/2448",
+      "final_normalized": "1/2448",
+      "candidates": [
+        "1/2448"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_sequence"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Four letters picked without replacement from {t: 7, z: 2, s: 5, a: 1, b: 3}. What is prob of sequence zbzs?",
+      "solution_text": "1/2448",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_sequence",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_sequence:00467",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 467,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_sequence_00467"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Two letters picked without replacement from lll. Give prob of sequence ll.",
+      "problem_plain": "Two letters picked without replacement from lll. Give prob of sequence ll.",
+      "solution_latex": "1",
+      "solution_plain": "1"
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_sequence"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Two letters picked without replacement from lll. Give prob of sequence ll.",
+      "solution_text": "1",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_sequence",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_sequence:00468",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 468,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_sequence_00468"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Four letters picked without replacement from ttttwtwtttwvwww. What is prob of sequence vvww?",
+      "problem_plain": "Four letters picked without replacement from ttttwtwtttwvwww. What is prob of sequence vvww?",
+      "solution_latex": "0",
+      "solution_plain": "0"
+    },
+    "answer": {
+      "final_raw": "0",
+      "final_normalized": "0",
+      "candidates": [
+        "0"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_sequence"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Four letters picked without replacement from ttttwtwtttwvwww. What is prob of sequence vvww?",
+      "solution_text": "0",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_sequence",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_sequence:00469",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 469,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_sequence_00469"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate prob of sequence rz when two letters picked without replacement from crzdrrdceezez.",
+      "problem_plain": "Calculate prob of sequence rz when two letters picked without replacement from crzdrrdceezez.",
+      "solution_latex": "3/52",
+      "solution_plain": "3/52"
+    },
+    "answer": {
+      "final_raw": "3/52",
+      "final_normalized": "3/52",
+      "candidates": [
+        "3/52"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_sequence"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate prob of sequence rz when two letters picked without replacement from crzdrrdceezez.",
+      "solution_text": "3/52",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_sequence",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_sequence:00470",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 470,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_sequence_00470"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Four letters picked without replacement from vsksssdskdko. Give prob of sequence odsd.",
+      "problem_plain": "Four letters picked without replacement from vsksssdskdko. Give prob of sequence odsd.",
+      "solution_latex": "1/1188",
+      "solution_plain": "1/1188"
+    },
+    "answer": {
+      "final_raw": "1/1188",
+      "final_normalized": "1/1188",
+      "candidates": [
+        "1/1188"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_sequence"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Four letters picked without replacement from vsksssdskdko. Give prob of sequence odsd.",
+      "solution_text": "1/1188",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_sequence",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_sequence:00471",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 471,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_sequence_00471"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is prob of sequence rjj when three letters picked without replacement from jjrj?",
+      "problem_plain": "What is prob of sequence rjj when three letters picked without replacement from jjrj?",
+      "solution_latex": "1/4",
+      "solution_plain": "1/4"
+    },
+    "answer": {
+      "final_raw": "1/4",
+      "final_normalized": "1/4",
+      "candidates": [
+        "1/4"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_sequence"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is prob of sequence rjj when three letters picked without replacement from jjrj?",
+      "solution_text": "1/4",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_sequence",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_easy:probability_swr_p_sequence:00472",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 472,
+      "split": "train_easy",
+      "source_problem_id": "train_easy_probability_swr_p_sequence_00472"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate prob of sequence cqzq when four letters picked without replacement from zzcococqcozco.",
+      "problem_plain": "Calculate prob of sequence cqzq when four letters picked without replacement from zzcococqcozco.",
+      "solution_latex": "0",
+      "solution_plain": "0"
+    },
+    "answer": {
+      "final_raw": "0",
+      "final_normalized": "0",
+      "candidates": [
+        "0"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary_middle",
+      "concepts": [
+        "probability_swr_p_sequence"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate prob of sequence cqzq when four letters picked without replacement from zzcococqcozco.",
+      "solution_text": "0",
+      "keywords": [
+        "deepmind_mathematics",
+        "level_1",
+        "probability",
+        "probability_swr_p_sequence",
+        "train_easy"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_easy",
+        "module_name": "probability__swr_p_sequence",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "schema_version": "coco_external_math_sources.v1",
+  "updated_at": "2026-04-25T05:38:31+00:00",
+  "sources": [
+    {
+      "bank_id": "deepmind_mathematics",
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "import_status": "sample_imported",
+      "import_mode": "generator_adapter",
+      "expected_scale": "very_large_generated",
+      "language": "en",
+      "school_bands": [
+        "elementary",
+        "middle",
+        "high"
+      ],
+      "domains": [
+        "algebra",
+        "arithmetic",
+        "calculus",
+        "comparison",
+        "measurement",
+        "numbers",
+        "polynomials",
+        "probability"
+      ],
+      "integration_role": [
+        "expression_template_mining",
+        "solver_regression_generation",
+        "normalization_pattern_training"
+      ],
+      "notes": "Code-first generator dataset. Full data should be generated or sampled through a dedicated adapter instead of committed wholesale.",
+      "imported_total": 2028,
+      "per_module_sample": 10,
+      "imported_at": "2026-04-25T05:38:24+00:00"
+    },
+    {
+      "bank_id": "metamathqa",
+      "name": "MetaMathQA",
+      "dataset_id": "meta-math/MetaMathQA",
+      "source_url": "https://github.com/meta-math/MetaMath",
+      "dataset_url": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+      "license": "MIT",
+      "import_status": "sample_imported",
+      "import_mode": "streaming_json_array_adapter",
+      "expected_scale": "large_instruction_cot",
+      "language": "en",
+      "school_bands": [
+        "middle",
+        "high"
+      ],
+      "domains": [
+        "algebra",
+        "arithmetic_word_problem",
+        "competition_math",
+        "cot_reasoning"
+      ],
+      "integration_role": [
+        "solution_step_template_mining",
+        "question_rewrite_pattern_training",
+        "cot_style_reference"
+      ],
+      "notes": "Repository points to HuggingFace loading via datasets.load_dataset('meta-math/MetaMathQA'). Import should be sampled and normalized before use.",
+      "imported_total": 20000,
+      "sample_limit": 20000,
+      "imported_at": "2026-04-25T05:38:16+00:00"
+    },
+    {
+      "bank_id": "tal_scq5k",
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://github.com/math-eval/TAL-SCQ5K",
+      "dataset_url": "https://huggingface.co/datasets/math-eval/TAL-SCQ5K",
+      "license": "MIT",
+      "import_status": "imported",
+      "import_mode": "jsonl_adapter",
+      "expected_scale": "10000_multiple_choice",
+      "language": "en,zh",
+      "school_bands": [
+        "elementary",
+        "middle",
+        "high"
+      ],
+      "domains": [
+        "competition_math",
+        "number_theory",
+        "geometry",
+        "algebra",
+        "multiple_choice"
+      ],
+      "integration_role": [
+        "multiple_choice_template_mining",
+        "latex_question_normalization",
+        "answer_choice_mapping_training"
+      ],
+      "notes": "Contains English and Chinese single-choice competition math subsets with detailed solution steps and standard text-mode LaTeX.",
+      "imported_total": 10000,
+      "imported_at": "2026-04-25T04:57:08+00:00"
+    }
+  ]
+}

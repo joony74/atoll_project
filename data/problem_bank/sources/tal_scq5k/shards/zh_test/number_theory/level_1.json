@@ -1,0 +1,959 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_1:00125",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 125,
+      "split": "zh_test",
+      "source_problem_id": "0a9c74bbf7ea4becb2051ff36e9d9a3f"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知十位数$$\\overline{1a2a3a4a5a}$$能被$$11$$整除，则$$a=$$（  ）。\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
+      "problem_plain": "已知十位数 1a2a3a4a5a 能被 11 整除，则 a= （ ）。 (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_latex": "根据能被$$11$$整除的数的特征可得．奇数位上的数字之和：$$a+a+a+a+a=5a$$，偶数位上的数字之和：$$5+4+3+2+1=15$$，因为$$\\textbar5a-15\\textbar=11n$$，$$n$$为整数；当$$n=0$$时，$$a=3$$，当$$n\\text{\\textgreater}0$$时，$$a$$没有小于$$10$$的整数解，所以$$a=3$$．",
+      "solution_plain": "根据能被 11 整除的数的特征可得．奇数位上的数字之和： a+a+a+a+a=5a ，偶数位上的数字之和： 5+4+3+2+1=15 ，因为 5a-15 =11n ， n 为整数；当 n=0 时， a=3 ，当 n 0 时， a 没有小于 10 的整数解，所以 a=3 ．"
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "根据能被$$11$$整除的数的特征可得．奇数位上的数字之和：$$a+a+a+a+a=5a$$，偶数位上的数字之和：$$5+4+3+2+1=15$$，因为$$\\textbar5a-15\\textbar=11n$$，$$n$$为整数；当$$n=0$$时，$$a=3$$，当$$n\\text{\\textgreater}0$$时，$$a$$没有小于$$10$$的整数解，所以$$a=3$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知十位数 1a2a3a4a5a 能被 11 整除，则 a= （ ）。 (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_text": "根据能被 11 整除的数的特征可得．奇数位上的数字之和： a+a+a+a+a=5a ，偶数位上的数字之和： 5+4+3+2+1=15 ，因为 5a-15 =11n ， n 为整数；当 n=0 时， a=3 ，当 n 0 时， a 没有小于 10 的整数解，所以 a=3 ．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "574",
+        "queId": "0a9c74bbf7ea4becb2051ff36e9d9a3f",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->整除->整除特征->基础复合数字的整除特征"
+        ],
+        "competition_source_list": [
+          "2011年五年级竞赛创新杯"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_1:00334",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 334,
+      "split": "zh_test",
+      "source_problem_id": "e47d4add013c48bf8f581a451c0fbd84"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "四个不同的质数之和为$$31$$，其中最小的质数是（  ）。\n(A) 2\n(B) 3\n(C) 5\n(D) 7",
+      "problem_plain": "四个不同的质数之和为 31 ，其中最小的质数是（ ）。 (A) 2 (B) 3 (C) 5 (D) 7",
+      "solution_latex": "这四个数的和为$$31$$是奇数，那么这四个数不可能都为奇数。即这四个数中含有偶数，又偶数中质数只有$$2$$，且$$2$$为最小的质数，故这四个数中最小的质数为$$2$$，故选A。",
+      "solution_plain": "这四个数的和为 31 是奇数，那么这四个数不可能都为奇数。即这四个数中含有偶数，又偶数中质数只有 2 ，且 2 为最小的质数，故这四个数中最小的质数为 2 ，故选A。"
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "2",
+        "unknown"
+      ],
+      "tags": [
+        "2",
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "这四个数的和为$$31$$是奇数，那么这四个数不可能都为奇数。即这四个数中含有偶数，又偶数中质数只有$$2$$，且$$2$$为最小的质数，故这四个数中最小的质数为$$2$$，故选A。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "四个不同的质数之和为 31 ，其中最小的质数是（ ）。 (A) 2 (B) 3 (C) 5 (D) 7",
+      "solution_text": "这四个数的和为 31 是奇数，那么这四个数不可能都为奇数。即这四个数中含有偶数，又偶数中质数只有 2 ，且 2 为最小的质数，故这四个数中最小的质数为 2 ，故选A。",
+      "keywords": [
+        "2",
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "881",
+        "queId": "e47d4add013c48bf8f581a451c0fbd84",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "5"
+          },
+          {
+            "label": "D",
+            "content": "7"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->质数与合数->特殊质数运用->特殊质数2"
+        ],
+        "competition_source_list": [
+          "2005年第3届创新杯六年级竞赛复赛第1题",
+          "2005年六年级竞赛创新杯"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_1:00372",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 372,
+      "split": "zh_test",
+      "source_problem_id": "e61760829176455f8e004c6c101a2103"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设a是一个满足下列条件的最大的正整数:使得a除64的余数是4，用a除155的余数是5，用a除187的余数是7.则$$a=$$(  ).\n(A) 10\n(B) 15\n(C) 30\n(D) 60",
+      "problem_plain": "设a是一个满足下列条件的最大的正整数:使得a除64的余数是4，用a除155的余数是5，用a除187的余数是7.则 a= ( ). (A) 10 (B) 15 (C) 30 (D) 60",
+      "solution_latex": "$$a\\left\\textbar{} 60 \\right.$$，$$a\\left\\textbar{} 150 \\right.$$，$$a\\left\\textbar{} 180 \\right.$$，$$\\left( 60，150，180 \\right)=30$$",
+      "solution_plain": "a 60 . ， a 150 . ， a 180 . ， ( 60，150，180 )=30"
+    },
+    "answer": {
+      "final_raw": "30",
+      "final_normalized": "30",
+      "candidates": [
+        "30",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$a\\left\\textbar{} 60 \\right.$$，$$a\\left\\textbar{} 150 \\right.$$，$$a\\left\\textbar{} 180 \\right.$$，$$\\left( 60，150，180 \\right)=30$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设a是一个满足下列条件的最大的正整数:使得a除64的余数是4，用a除155的余数是5，用a除187的余数是7.则 a= ( ). (A) 10 (B) 15 (C) 30 (D) 60",
+      "solution_text": "a 60 . ， a 150 . ， a 180 . ， ( 60，150，180 )=30",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "946",
+        "queId": "e61760829176455f8e004c6c101a2103",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "15"
+          },
+          {
+            "label": "C",
+            "content": "30"
+          },
+          {
+            "label": "D",
+            "content": "60"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->余数问题->余数的性质->余数的可加性"
+        ],
+        "competition_source_list": [
+          "2011年五年级竞赛创新杯"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_1:00593",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 593,
+      "split": "zh_test",
+      "source_problem_id": "c467d018330d44cb93f174b04cdea3d8"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "陈老师按小奥、小林、小匹、小克这个顺序派发$$20$$粒糖果给这$$4$$位小朋友，每次一粒，那么最后一次糖会派给哪位小朋友？\n(A) 小奥\n(B) 小林\n(C) 小匹\n(D) 小克",
+      "problem_plain": "陈老师按小奥、小林、小匹、小克这个顺序派发 20 粒糖果给这 4 位小朋友，每次一粒，那么最后一次糖会派给哪位小朋友？ (A) 小奥 (B) 小林 (C) 小匹 (D) 小克",
+      "solution_latex": "小克$$20$$颗糖发放给$$4$$个小朋友，每发完一次就少$$4$$个糖，$$20=4+4+4+4+4$$．  $$20$$颗糖刚好可以发$$5$$个轮回，最后一颗糖刚好发到小克，所以答案是小克．",
+      "solution_plain": "小克 20 颗糖发放给 4 个小朋友，每发完一次就少 4 个糖， 20=4+4+4+4+4 ． 20 颗糖刚好可以发 5 个轮回，最后一颗糖刚好发到小克，所以答案是小克．"
+    },
+    "answer": {
+      "final_raw": "小克",
+      "final_normalized": "小克",
+      "candidates": [
+        "D",
+        "小克"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "小克$$20$$颗糖发放给$$4$$个小朋友，每发完一次就少$$4$$个糖，$$20=4+4+4+4+4$$．  $$20$$颗糖刚好可以发$$5$$个轮回，最后一颗糖刚好发到小克，所以答案是小克．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "陈老师按小奥、小林、小匹、小克这个顺序派发 20 粒糖果给这 4 位小朋友，每次一粒，那么最后一次糖会派给哪位小朋友？ (A) 小奥 (B) 小林 (C) 小匹 (D) 小克",
+      "solution_text": "小克 20 颗糖发放给 4 个小朋友，每发完一次就少 4 个糖， 20=4+4+4+4+4 ． 20 颗糖刚好可以发 5 个轮回，最后一颗糖刚好发到小克，所以答案是小克．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2900",
+        "queId": "c467d018330d44cb93f174b04cdea3d8",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "小奥"
+          },
+          {
+            "label": "B",
+            "content": "小林"
+          },
+          {
+            "label": "C",
+            "content": "小匹"
+          },
+          {
+            "label": "D",
+            "content": "小克"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->课内知识点->数与运算->数的运算的实际应用（应用题）->整数的简单实际问题->加法的实际应用"
+        ],
+        "competition_source_list": [
+          "2019年华夏杯一年级竞赛复赛（华南赛区）第16题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_1:01046",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1046,
+      "split": "zh_test",
+      "source_problem_id": "c9a76894bebd47dcadbb5d91e8de571f"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "将长为$$12$$的线段截成长度为整数的三段，使它们成为一个三角形的三边，则构成的三角形．\n(A) 不可能是等腰三角形\n(B) 不可能是直角三角形\n(C) 不可能是等边三角形\n(D) 不可能是钝角三角形",
+      "problem_plain": "将长为 12 的线段截成长度为整数的三段，使它们成为一个三角形的三边，则构成的三角形． (A) 不可能是等腰三角形 (B) 不可能是直角三角形 (C) 不可能是等边三角形 (D) 不可能是钝角三角形",
+      "solution_latex": "可以构成的三角形的三条边长分别为$$3$$，$$4$$，$$5$$（直角三角形）；$$4$$，$$4$$，$$4$$（等边三角形）；$$5$$，$$5$$，$$2$$（等腰三角形）．  故选$$\\text{D}$$．",
+      "solution_plain": "可以构成的三角形的三条边长分别为 3 ， 4 ， 5 （直角三角形）； 4 ， 4 ， 4 （等边三角形）； 5 ， 5 ， 2 （等腰三角形）． 故选 D ．"
+    },
+    "answer": {
+      "final_raw": "不可能是钝角三角形",
+      "final_normalized": "不可能是钝角三角形",
+      "candidates": [
+        "D",
+        "不可能是钝角三角形"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "可以构成的三角形的三条边长分别为$$3$$，$$4$$，$$5$$（直角三角形）；$$4$$，$$4$$，$$4$$（等边三角形）；$$5$$，$$5$$，$$2$$（等腰三角形）．  故选$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "将长为 12 的线段截成长度为整数的三段，使它们成为一个三角形的三边，则构成的三角形． (A) 不可能是等腰三角形 (B) 不可能是直角三角形 (C) 不可能是等边三角形 (D) 不可能是钝角三角形",
+      "solution_text": "可以构成的三角形的三条边长分别为 3 ， 4 ， 5 （直角三角形）； 4 ， 4 ， 4 （等边三角形）； 5 ， 5 ， 2 （等腰三角形）． 故选 D ．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1351",
+        "queId": "c9a76894bebd47dcadbb5d91e8de571f",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "不可能是等腰三角形"
+          },
+          {
+            "label": "B",
+            "content": "不可能是直角三角形"
+          },
+          {
+            "label": "C",
+            "content": "不可能是等边三角形"
+          },
+          {
+            "label": "D",
+            "content": "不可能是钝角三角形"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->三角形->特殊三角形->等腰三角形"
+        ],
+        "competition_source_list": [
+          "2003年第14届希望杯初二竞赛第2试第8题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_1:01236",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1236,
+      "split": "zh_test",
+      "source_problem_id": "25d8eca34fbb44599e9282cf439ded04"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有如下四个命题：①最大的负数是$$-1$$；②最大的负整数是$$-1$$；③最小的整数是$$1$$；④最小的正整数是$$1$$；其中真命题有个．\n(A) 1$$个\n(B) 2$$个\n(C) 3$$个\n(D) 4$$个",
+      "problem_plain": "有如下四个命题：①最大的负数是 -1 ；②最大的负整数是 -1 ；③最小的整数是 1 ；④最小的正整数是 1 ；其中真命题有个． (A) 1 个 (B) 2 个 (C) 3 个 (D) 4 个",
+      "solution_latex": "$$-0.1$$大于$$-1$$，所以①不正确；整数包括负整数，显然整数没有下界，所以③不正确．正整数自$$1$$开始，$$1$$，$$2$$，$$3$$，\\ldots，所以④正确；同样，②正确．",
+      "solution_plain": "-0.1 大于 -1 ，所以①不正确；整数包括负整数，显然整数没有下界，所以③不正确．正整数自 1 开始， 1 ， 2 ， 3 ， ，所以④正确；同样，②正确．"
+    },
+    "answer": {
+      "final_raw": "2$$个",
+      "final_normalized": "2$$个",
+      "candidates": [
+        "2$$个",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$-0.1$$大于$$-1$$，所以①不正确；整数包括负整数，显然整数没有下界，所以③不正确．正整数自$$1$$开始，$$1$$，$$2$$，$$3$$，\\ldots，所以④正确；同样，②正确．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有如下四个命题：①最大的负数是 -1 ；②最大的负整数是 -1 ；③最小的整数是 1 ；④最小的正整数是 1 ；其中真命题有个． (A) 1 个 (B) 2 个 (C) 3 个 (D) 4 个",
+      "solution_text": "-0.1 大于 -1 ，所以①不正确；整数包括负整数，显然整数没有下界，所以③不正确．正整数自 1 开始， 1 ， 2 ， 3 ， ，所以④正确；同样，②正确．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "142",
+        "queId": "25d8eca34fbb44599e9282cf439ded04",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1$$个"
+          },
+          {
+            "label": "B",
+            "content": "2$$个"
+          },
+          {
+            "label": "C",
+            "content": "3$$个"
+          },
+          {
+            "label": "D",
+            "content": "4$$个"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->运算能力",
+          "课内体系->知识点->数->有理数->有理数的概念及分类->有理数的分类"
+        ],
+        "competition_source_list": [
+          "2006年第11届华杯赛初一竞赛初赛第2题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_1:01607",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1607,
+      "split": "zh_test",
+      "source_problem_id": "3b598794b5e44138ab026807160ca741"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$$[x]$$表示不超过$$x$$的最大整数，则$$\\left[ {{\\log }_{2}}1 \\right]+\\left[ {{\\log }_{2}}2 \\right]+\\left[ {{\\log }_{2}}3 \\right]+\\cdots +\\left[ {{\\log }_{2}}2009 \\right]$$的值为．\n(A) 18054\n(B) 18044\n(C) 17954\n(D) 17944",
+      "problem_plain": "已知 [x] 表示不超过 x 的最大整数，则 [ _ 2 1 ]+ [ _ 2 2 ]+ [ _ 2 3 ]+ + [ _ 2 2009 ] 的值为． (A) 18054 (B) 18044 (C) 17954 (D) 17944",
+      "solution_latex": "根据题意，当$${{2}^{k}}\\leqslant n\\textless{}{{2}^{k+1}}$$时，$$[{{\\log }_{2}}n]=k\\left( k\\in N \\right)$$，于是  $$M=0\\cdot \\left( {{2}^{1}}-{{2}^{0}} \\right)+1\\cdot \\left( {{2}^{2}}-{{2}^{1}} \\right)+2\\cdot \\left( {{2}^{3}}-{{2}^{2}} \\right)+\\cdots +9\\cdot \\left( {{2}^{10}}-{{2}^{9}} \\right)+10\\cdot \\left( 2009-{{2}^{10}}+1 \\right)=18054$$．",
+      "solution_plain": "根据题意，当 2 ^ k n 2 ^ k+1 时， [ _ 2 n]=k ( k N ) ，于是 M=0 ( 2 ^ 1 - 2 ^ 0 )+1 ( 2 ^ 2 - 2 ^ 1 )+2 ( 2 ^ 3 - 2 ^ 2 )+ +9 ( 2 ^ 10 - 2 ^ 9 )+10 ( 2009- 2 ^ 10 +1 )=18054 ．"
+    },
+    "answer": {
+      "final_raw": "18054",
+      "final_normalized": "18054",
+      "candidates": [
+        "18054",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "根据题意，当$${{2}^{k}}\\leqslant n\\textless{}{{2}^{k+1}}$$时，$$[{{\\log }_{2}}n]=k\\left( k\\in N \\right)$$，于是  $$M=0\\cdot \\left( {{2}^{1}}-{{2}^{0}} \\right)+1\\cdot \\left( {{2}^{2}}-{{2}^{1}} \\right)+2\\cdot \\left( {{2}^{3}}-{{2}^{2}} \\right)+\\cdots +9\\cdot \\left( {{2}^{10}}-{{2}^{9}} \\right)+10\\cdot \\left( 2009-{{2}^{10}}+1 \\right)=18054$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 [x] 表示不超过 x 的最大整数，则 [ _ 2 1 ]+ [ _ 2 2 ]+ [ _ 2 3 ]+ + [ _ 2 2009 ] 的值为． (A) 18054 (B) 18044 (C) 17954 (D) 17944",
+      "solution_text": "根据题意，当 2 ^ k n 2 ^ k+1 时， [ _ 2 n]=k ( k N ) ，于是 M=0 ( 2 ^ 1 - 2 ^ 0 )+1 ( 2 ^ 2 - 2 ^ 1 )+2 ( 2 ^ 3 - 2 ^ 2 )+ +9 ( 2 ^ 10 - 2 ^ 9 )+10 ( 2009- 2 ^ 10 +1 )=18054 ．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "548",
+        "queId": "3b598794b5e44138ab026807160ca741",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "18054"
+          },
+          {
+            "label": "B",
+            "content": "18044"
+          },
+          {
+            "label": "C",
+            "content": "17954"
+          },
+          {
+            "label": "D",
+            "content": "17944"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->数论模块->取整函数->取整函数的定义与性质"
+        ],
+        "competition_source_list": [
+          "2009年高二竞赛广州市第4题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_1:01946",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1946,
+      "split": "zh_test",
+      "source_problem_id": "76701479256948889e95c62ab79b03dd"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$z$$是复数，$$a(z)$$表示满足$${{z}^{n}}=1$$的最小正整数$$n$$，则对虚数单位$$\\text{i},\\alpha (\\text{i})=$$．\n(A) 8\n(B) 6\n(C) 4\n(D) 2",
+      "problem_plain": "设 z 是复数， a(z) 表示满足 z ^ n =1 的最小正整数 n ，则对虚数单位 i , ( i )= ． (A) 8 (B) 6 (C) 4 (D) 2",
+      "solution_latex": "因为$${{\\text{i}}^{1}}=1, {{\\text{i}}^{2}}=-1, {{\\text{i}}^{3}}=-1, {{\\text{i}}^{4}}=1$$，所以满足$${{z}^{n}}=1$$的最小正整数$$n=4$$．故选$$\\text{C}$$．",
+      "solution_plain": "因为 i ^ 1 =1, i ^ 2 =-1, i ^ 3 =-1, i ^ 4 =1 ，所以满足 z ^ n =1 的最小正整数 n=4 ．故选 C ．"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为$${{\\text{i}}^{1}}=1, {{\\text{i}}^{2}}=-1, {{\\text{i}}^{3}}=-1, {{\\text{i}}^{4}}=1$$，所以满足$${{z}^{n}}=1$$的最小正整数$$n=4$$．故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 z 是复数， a(z) 表示满足 z ^ n =1 的最小正整数 n ，则对虚数单位 i , ( i )= ． (A) 8 (B) 6 (C) 4 (D) 2",
+      "solution_text": "因为 i ^ 1 =1, i ^ 2 =-1, i ^ 3 =-1, i ^ 4 =1 ，所以满足 z ^ n =1 的最小正整数 n=4 ．故选 C ．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "646",
+        "queId": "76701479256948889e95c62ab79b03dd",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "8"
+          },
+          {
+            "label": "B",
+            "content": "6"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "2"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->复数与平面向量->复数的应用"
+        ],
+        "competition_source_list": [
+          "2009年湖南全国高中数学联赛竞赛初赛第1题5分"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,647 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_4:00043",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 43,
+      "split": "zh_test",
+      "source_problem_id": "28789c3b14ce4bf88baebef09b72edfd"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一块均匀生长的草地按照$$1:2:3$$的面积比分成三块．一群牛先用$$12$$天时间吃完了第一块草地的草，接着又用$$48$$天吃完了第二块草地的草．此时，这群牛需要（~ ）天能够吃完第三块草地的草．\n(A) 216\n(B) 288\n(C) 324\n(D) 396",
+      "problem_plain": "一块均匀生长的草地按照 1:2:3 的面积比分成三块．一群牛先用 12 天时间吃完了第一块草地的草，接着又用 48 天吃完了第二块草地的草．此时，这群牛需要（~ ）天能够吃完第三块草地的草． (A) 216 (B) 288 (C) 324 (D) 396",
+      "solution_latex": "设$$1$$份草地原有草量为$$x$$，每天生长量为$$y$$，第三块草地需要$$n$$天吃完．  根据牛每天吃的草量相等可得：  $$\\frac{x+12y}{12}=\\frac{2x+2\\left( 12y+48y \\right)}{48}$$  解得$$x=36y$$，这群牛的每天吃草量为$$4y$$．  故第三块草地的等量关系为$$\\frac{3x+3\\left( 12y+48y+ny \\right)}{4y}=n$$，解得$$n=288$$．",
+      "solution_plain": "设 1 份草地原有草量为 x ，每天生长量为 y ，第三块草地需要 n 天吃完． 根据牛每天吃的草量相等可得： x+12y 12 = 2x+2 ( 12y+48y ) 48 解得 x=36y ，这群牛的每天吃草量为 4y ． 故第三块草地的等量关系为 3x+3 ( 12y+48y+ny ) 4y =n ，解得 n=288 ．"
+    },
+    "answer": {
+      "final_raw": "288",
+      "final_normalized": "288",
+      "candidates": [
+        "288",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设$$1$$份草地原有草量为$$x$$，每天生长量为$$y$$，第三块草地需要$$n$$天吃完．  根据牛每天吃的草量相等可得：  $$\\frac{x+12y}{12}=\\frac{2x+2\\left( 12y+48y \\right)}{48}$$  解得$$x=36y$$，这群牛的每天吃草量为$$4y$$．  故第三块草地的等量关系为$$\\frac{3x+3\\left( 12y+48y+ny \\right)}{4y}=n$$，解得$$n=288$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一块均匀生长的草地按照 1:2:3 的面积比分成三块．一群牛先用 12 天时间吃完了第一块草地的草，接着又用 48 天吃完了第二块草地的草．此时，这群牛需要（~ ）天能够吃完第三块草地的草． (A) 216 (B) 288 (C) 324 (D) 396",
+      "solution_text": "设 1 份草地原有草量为 x ，每天生长量为 y ，第三块草地需要 n 天吃完． 根据牛每天吃的草量相等可得： x+12y 12 = 2x+2 ( 12y+48y ) 48 解得 x=36y ，这群牛的每天吃草量为 4y ． 故第三块草地的等量关系为 3x+3 ( 12y+48y+ny ) 4y =n ，解得 n=288 ．",
+      "keywords": [
+        "geometry",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1336",
+        "queId": "28789c3b14ce4bf88baebef09b72edfd",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "216"
+          },
+          {
+            "label": "B",
+            "content": "288"
+          },
+          {
+            "label": "C",
+            "content": "324"
+          },
+          {
+            "label": "D",
+            "content": "396"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->逻辑分析"
+        ],
+        "competition_source_list": [
+          "2016年创新杯六年级竞赛训练题（二）第4题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_4:01593",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1593,
+      "split": "zh_test",
+      "source_problem_id": "dee39d21357141729241365d8855db1b"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "2002年$$AMC10$$竞赛$$A$$第$$19$$题  Spot\\textquotesingle s doghouse has a regular hexagonal base that measures one yard on each side. He is tethered to a vertex with a two-yard rope. What is the area, in square yards, of the region outside of the doghouse that Spot can reach?  Spot 的狗窝有一个规则的六边形底座，每边长一码。 他被一根两码长的绳子拴在一个顶点上。 Spot 可以到达的狗窝外区域的面积是多少平方码？\n(A) \\frac {2\\pi }3\n(B) 2\\pi\n(C) \\frac {5\\pi }2\n(D) \\frac {8\\pi} 3\n(E) 3\\pi",
+      "problem_plain": "2002年 AMC10 竞赛 A 第 19 题 Spot s doghouse has a regular hexagonal base that measures one yard on each side. He is tethered to a vertex with a two-yard rope. What is the area, in square yards, of the region outside of the doghouse that Spot can reach? Spot 的狗窝有一个规则的六边形底座，每边长一码。 他被一根两码长的绳子拴在一个顶点上。 Spot 可以到达的狗窝外区域的面积是多少平方码？ (A) 2 3 (B) 2 (C) 5 2 (D) 8 3 (E) 3",
+      "solution_latex": "Part of what Spot can reach is $$\\frac {240}{360}=\\frac 23$$ of a circle with radius $$2$$, which gives him $$\\frac {8\\pi }3$$. He can also reach two $$\\frac {60}{360}$$ parts of a unit circle, which combines to give $$\\frac {\\pi }3$$. The total area is then $$3\\pi $$, which gives $$\\rm E$$.  Note   We can clearly see that the area must be more than $$\\frac {8\\pi }3$$, and the only such answer is $$\\rm E$$.",
+      "solution_plain": "Part of what Spot can reach is 240 360 = 23 of a circle with radius 2 , which gives him 8 3 . He can also reach two 60 360 parts of a unit circle, which combines to give 3 . The total area is then 3 , which gives E . Note We can clearly see that the area must be more than 8 3 , and the only such answer is E ."
+    },
+    "answer": {
+      "final_raw": "3\\pi",
+      "final_normalized": "3\\pi",
+      "candidates": [
+        "3\\pi",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "calculation_of_plane_geometry",
+        "geometry",
+        "regular_polygon",
+        "unknown"
+      ],
+      "tags": [
+        "amc10_12",
+        "calculation_of_plane_geometry",
+        "geometry",
+        "level_4",
+        "regular_polygon",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Part of what Spot can reach is $$\\frac {240}{360}=\\frac 23$$ of a circle with radius $$2$$, which gives him $$\\frac {8\\pi }3$$.",
+        "He can also reach two $$\\frac {60}{360}$$ parts of a unit circle, which combines to give $$\\frac {\\pi }3$$.",
+        "The total area is then $$3\\pi $$, which gives $$\\rm E$$.",
+        "Note   We can clearly see that the area must be more than $$\\frac {8\\pi }3$$, and the only such answer is $$\\rm E$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2002年 AMC10 竞赛 A 第 19 题 Spot s doghouse has a regular hexagonal base that measures one yard on each side. He is tethered to a vertex with a two-yard rope. What is the area, in square yards, of the region outside of the doghouse that Spot can reach? Spot 的狗窝有一个规则的六边形底座，每边长一码。 他被一根两码长的绳子拴在一个顶点上。 Spot 可以到达的狗窝外区域的面积是多少平方码？ (A) 2 3 (B) 2 (C) 5 2 (D) 8 3 (E) 3",
+      "solution_text": "Part of what Spot can reach is 240 360 = 23 of a circle with radius 2 , which gives him 8 3 . He can also reach two 60 360 parts of a unit circle, which combines to give 3 . The total area is then 3 , which gives E . Note We can clearly see that the area must be more than 8 3 , and the only such answer is E .",
+      "keywords": [
+        "amc10_12",
+        "calculation_of_plane_geometry",
+        "geometry",
+        "level_4",
+        "regular_polygon",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "543",
+        "queId": "dee39d21357141729241365d8855db1b",
+        "difficulty": "3",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac {2\\pi }3"
+          },
+          {
+            "label": "B",
+            "content": "2\\pi"
+          },
+          {
+            "label": "C",
+            "content": "\\frac {5\\pi }2"
+          },
+          {
+            "label": "D",
+            "content": "\\frac {8\\pi} 3"
+          },
+          {
+            "label": "E",
+            "content": "3\\pi"
+          }
+        ],
+        "knowledge_point_routes": [
+          "美国AMC10/12->Knowledge Point->Geometry->Calculation of Plane Geometry->Regular Polygon",
+          "课内体系->知识点->三角函数->三角函数的概念->任意角与弧度制->弧长公式与扇形面积"
+        ],
+        "competition_source_list": [
+          "2002年AMC10竞赛A第19题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_4:01753",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1753,
+      "split": "zh_test",
+      "source_problem_id": "32c5e5251351456a80092f0f9a942705"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "若集合：$${{S}_{1}}=\\left { \\left( x,  y \\right)\\textbar\\lg \\left( 1+{{x}^{2}}+{{y}^{2}} \\right)\\leqslant 1+\\lg \\left( x+y \\right) \\right }$$，$${{S}_{2}}=\\left { \\left( x,  y \\right)\\textbar\\lg \\left( 2+{{x}^{2}}+{{y}^{2}} \\right)\\leqslant 2+\\lg \\left( x+y \\right) \\right }$$，则$${{S}_{2}}$$的面积与$${{S}_{1}}$$的面积比为\n(A) 99:1\n(B) 100:1\n(C) 101:1\n(D) 102:1",
+      "problem_plain": "若集合： S _ 1 = ( x, y ) ( 1+ x ^ 2 + y ^ 2 ) 1+ ( x+y ) ， S _ 2 = ( x, y ) ( 2+ x ^ 2 + y ^ 2 ) 2+ ( x+y ) ，则 S _ 2 的面积与 S _ 1 的面积比为 (A) 99:1 (B) 100:1 (C) 101:1 (D) 102:1",
+      "solution_latex": "$${{S}_{1}}$$表示圆内部（包括圆周）：$${{\\left( x-5 \\right)}^{2}}+{{\\left( y-5 \\right)}^{2}}\\leqslant 49$$，面积为$$49 \\pi $$．$${{S}_{2}}$$表示圆内部（包括圆周）：$${{\\left( x-50 \\right)}^{2}}+{{\\left( y-50 \\right)}^{2}}\\leqslant 4998$$，面积为$$4998 \\pi $$．因此，面积比为$$102:1$$．",
+      "solution_plain": "S _ 1 表示圆内部（包括圆周）： ( x-5 ) ^ 2 + ( y-5 ) ^ 2 49 ，面积为 49 ． S _ 2 表示圆内部（包括圆周）： ( x-50 ) ^ 2 + ( y-50 ) ^ 2 4998 ，面积为 4998 ．因此，面积比为 102:1 ．"
+    },
+    "answer": {
+      "final_raw": "102:1",
+      "final_normalized": "102:1",
+      "candidates": [
+        "102:1",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$${{S}_{1}}$$表示圆内部（包括圆周）：$${{\\left( x-5 \\right)}^{2}}+{{\\left( y-5 \\right)}^{2}}\\leqslant 49$$，面积为$$49 \\pi $$．$${{S}_{2}}$$表示圆内部（包括圆周）：$${{\\left( x-50 \\right)}^{2}}+{{\\left( y-50 \\right)}^{2}}\\leqslant 4998$$，面积为$$4998 \\pi $$．因此，面积比为$$102:1$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "若集合： S _ 1 = ( x, y ) ( 1+ x ^ 2 + y ^ 2 ) 1+ ( x+y ) ， S _ 2 = ( x, y ) ( 2+ x ^ 2 + y ^ 2 ) 2+ ( x+y ) ，则 S _ 2 的面积与 S _ 1 的面积比为 (A) 99:1 (B) 100:1 (C) 101:1 (D) 102:1",
+      "solution_text": "S _ 1 表示圆内部（包括圆周）： ( x-5 ) ^ 2 + ( y-5 ) ^ 2 49 ，面积为 49 ． S _ 2 表示圆内部（包括圆周）： ( x-50 ) ^ 2 + ( y-50 ) ^ 2 4998 ，面积为 4998 ．因此，面积比为 102:1 ．",
+      "keywords": [
+        "geometry",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "552",
+        "queId": "32c5e5251351456a80092f0f9a942705",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "99:1"
+          },
+          {
+            "label": "B",
+            "content": "100:1"
+          },
+          {
+            "label": "C",
+            "content": "101:1"
+          },
+          {
+            "label": "D",
+            "content": "102:1"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->直线和圆的方程->圆与方程->圆的标准方程与一般方程->圆的标准方程问题",
+          "课内体系->知识点->基本初等函数->对数函数->对数方程和对数不等式",
+          "课内体系->思想->数形结合思想",
+          "课内体系->素养->数学运算",
+          "课内体系->素养->直观想象"
+        ],
+        "competition_source_list": [
+          "2012年吉林全国高中数学联赛竞赛初赛第2题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_4:01758",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1758,
+      "split": "zh_test",
+      "source_problem_id": "57d2a605248b4f4598a48c2b9389a4ef"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "2009年$$AMC10$$竞赛$$A$$第$$19$$题  Circle $$A$$ has radius $$100$$. Circle $$B$$ has an integer radius $$r\\textless{} 100$$ and remains internally tangent to circle $$A$$ as it rolls once around the circumference of circle $$A$$. The two circles have the same points of tangency at the beginning and end of circle $$B\\textquotesingle\\rm s$$ trip. How many possible values can $$r$$ have?  圆 $$A$$ 的半径为 $$100$$。 圆 $$B$$ 有一个整数半径 $$r\\textless{} 100$$ 并且在它绕圆 $$A$$ 的圆周滚动一次时保持与圆 $$A$$ 内切。 这两个圆在圆 $$B$$ 轨迹的起点和终点具有相同的切点。 $$r$$ 可以有多少个可能的值？\n(A) 4\n(B) 8\n(C) 9\n(D) 50\n(E) 90",
+      "problem_plain": "2009年 AMC10 竞赛 A 第 19 题 Circle A has radius 100 . Circle B has an integer radius r 100 and remains internally tangent to circle A as it rolls once around the circumference of circle A . The two circles have the same points of tangency at the beginning and end of circle B s trip. How many possible values can r have? 圆 A 的半径为 100 。 圆 B 有一个整数半径 r 100 并且在它绕圆 A 的圆周滚动一次时保持与圆 A 内切。 这两个圆在圆 B 轨迹的起点和终点具有相同的切点。 r 可以有多少个可能的值？ (A) 4 (B) 8 (C) 9 (D) 50 (E) 90",
+      "solution_latex": "The circumference of circle $$A$$ is $$200\\pi$$ , and the circumference of circle $$B$$ with radius r is $$2r\\pi$$. Since circle $$B$$ makes a complete revolution and ends up on the same point, the circumference of $$A$$ must be a multiple of the circumference of $$B$$, therefore the quotient must be an integer. Thus, $$\\dfrac{200 \\pi}{2 \\pi \\cdot r}= \\dfrac{100}{r}$$. Therefore $$r$$ must then be a factor of $$100$$, excluding $$100$$ (because then circle $$B$$ would be the same size as circle $$A$$). $$100 =2^{2}\\cdot5^{2}$$. Therefore $$100$$ has $$(2+1)\\cdot (2+1)$$ factors*. But you need to subtract $$1$$ from $$9$$, in order to exclude $$100$$. Therefore the answer is $$8$$.",
+      "solution_plain": "The circumference of circle A is 200 , and the circumference of circle B with radius r is 2r . Since circle B makes a complete revolution and ends up on the same point, the circumference of A must be a multiple of the circumference of B , therefore the quotient must be an integer. Thus, 200 2 r = 100 r . Therefore r must then be a factor of 100 , excluding 100 (because then circle B would be the same size as circle A ). 100 =2^ 2 5^ 2 . Therefore 100 has (2+1) (2+1) factors*. But you need to subtract 1 from 9 , in order to exclude 100 . Therefore the answer is 8 ."
+    },
+    "answer": {
+      "final_raw": "8",
+      "final_normalized": "8",
+      "candidates": [
+        "8",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "calculation_of_plane_geometry",
+        "circle",
+        "geometry",
+        "unknown"
+      ],
+      "tags": [
+        "amc10_12",
+        "calculation_of_plane_geometry",
+        "circle",
+        "geometry",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "The circumference of circle $$A$$ is $$200\\pi$$ , and the circumference of circle $$B$$ with radius r is $$2r\\pi$$.",
+        "Since circle $$B$$ makes a complete revolution and ends up on the same point, the circumference of $$A$$ must be a multiple of the circumference of $$B$$, therefore the quotient must be an integer.",
+        "Thus, $$\\dfrac{200 \\pi}{2 \\pi \\cdot r}= \\dfrac{100}{r}$$.",
+        "Therefore $$r$$ must then be a factor of $$100$$, excluding $$100$$ (because then circle $$B$$ would be the same size as circle $$A$$).",
+        "$$100 =2^{2}\\cdot5^{2}$$.",
+        "Therefore $$100$$ has $$(2+1)\\cdot (2+1)$$ factors*.",
+        "But you need to subtract $$1$$ from $$9$$, in order to exclude $$100$$.",
+        "Therefore the answer is $$8$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2009年 AMC10 竞赛 A 第 19 题 Circle A has radius 100 . Circle B has an integer radius r 100 and remains internally tangent to circle A as it rolls once around the circumference of circle A . The two circles have the same points of tangency at the beginning and end of circle B s trip. How many possible values can r have? 圆 A 的半径为 100 。 圆 B 有一个整数半径 r 100 并且在它绕圆 A 的圆周滚动一次时保持与圆 A 内切。 这两个圆在圆 B 轨迹的起点和终点具有相同的切点。 r 可以有多少个可能的值？ (A) 4 (B) 8 (C) 9 (D) 50 (E) 90",
+      "solution_text": "The circumference of circle A is 200 , and the circumference of circle B with radius r is 2r . Since circle B makes a complete revolution and ends up on the same point, the circumference of A must be a multiple of the circumference of B , therefore the quotient must be an integer. Thus, 200 2 r = 100 r . Therefore r must then be a factor of 100 , excluding 100 (because then circle B would be the same size as circle A ). 100 =2^ 2 5^ 2 . Therefore 100 has (2+1) (2+1) factors*. But you need to subtract 1 from 9 , in order to exclude 100 . Therefore the answer is 8 .",
+      "keywords": [
+        "amc10_12",
+        "calculation_of_plane_geometry",
+        "circle",
+        "geometry",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "744",
+        "queId": "57d2a605248b4f4598a48c2b9389a4ef",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "8"
+          },
+          {
+            "label": "C",
+            "content": "9"
+          },
+          {
+            "label": "D",
+            "content": "50"
+          },
+          {
+            "label": "E",
+            "content": "90"
+          }
+        ],
+        "knowledge_point_routes": [
+          "美国AMC10/12->Knowledge Point->Geometry->Calculation of Plane Geometry->Circle",
+          "课内体系->知识点->直线和圆的方程->圆与方程"
+        ],
+        "competition_source_list": [
+          "2009年AMC10竞赛A第19题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_4:01997",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1997,
+      "split": "zh_test",
+      "source_problem_id": "9b038e0fc6da4b68abc4b4b44da0ad71"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知球的半径为$$2$$，球面上的三个大圆所在的平面两两垂直，则以三个大圆的交点为顶点的八面体的体积为．\n(A) \\frac{16}{3}\n(B) \\frac{32}{3}\n(C) \\frac{64}{3}\n(D) 32",
+      "problem_plain": "已知球的半径为 2 ，球面上的三个大圆所在的平面两两垂直，则以三个大圆的交点为顶点的八面体的体积为． (A) 16 3 (B) 32 3 (C) 64 3 (D) 32",
+      "solution_latex": "$$\\frac{1}{3}\\cdot \\left( 4\\cdot 4\\cdot \\frac{1}{2} \\right)\\cdot 2\\times 2=\\frac{32}{3}$$．",
+      "solution_plain": "1 3 ( 4 4 1 2 ) 2 2= 32 3 ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{32}{3}",
+      "final_normalized": "\\frac{32}{3}",
+      "candidates": [
+        "B",
+        "\\frac{32}{3}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$\\frac{1}{3}\\cdot \\left( 4\\cdot 4\\cdot \\frac{1}{2} \\right)\\cdot 2\\times 2=\\frac{32}{3}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知球的半径为 2 ，球面上的三个大圆所在的平面两两垂直，则以三个大圆的交点为顶点的八面体的体积为． (A) 16 3 (B) 32 3 (C) 64 3 (D) 32",
+      "solution_text": "1 3 ( 4 4 1 2 ) 2 2= 32 3 ．",
+      "keywords": [
+        "geometry",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "835",
+        "queId": "9b038e0fc6da4b68abc4b4b44da0ad71",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{16}{3}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{32}{3}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{64}{3}"
+          },
+          {
+            "label": "D",
+            "content": "32"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->思想->数形结合思想",
+          "课内体系->知识点->立体几何初步->基本立体图形->空间几何体的体积、表面积->组合体求体积、表面积问题",
+          "课内体系->知识点->立体几何初步->基本立体图形->空间几何体的体积、表面积->空间几何体的体积",
+          "课内体系->知识点->立体几何初步->基本立体图形->空间几何体的概念->圆柱、圆锥、圆台和球的结构特征",
+          "课内体系->知识点->立体几何初步->基本立体图形->空间几何体的概念->空间几何体的内切球、外接球问题",
+          "课内体系->素养->直观想象",
+          "课内体系->素养->数学运算"
+        ],
+        "competition_source_list": [
+          "2011年黑龙江全国高中数学联赛竞赛初赛第11题5分"
+        ]
+      }
+    }
+  }
+]

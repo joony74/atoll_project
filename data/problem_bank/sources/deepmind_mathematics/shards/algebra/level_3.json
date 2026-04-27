@@ -1,0 +1,6005 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d:00945",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 945,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_00945"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 154*q + 1124 + 9711 = -43*q for q.",
+      "problem_plain": "Solve 154*q + 1124 + 9711 = -43*q for q.",
+      "solution_latex": "-55",
+      "solution_plain": "-55"
+    },
+    "answer": {
+      "final_raw": "-55",
+      "final_normalized": "-55",
+      "candidates": [
+        "-55"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 154*q + 1124 + 9711 = -43*q for q.",
+      "solution_text": "-55",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d:00946",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 946,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_00946"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 67581 = -1168*k + 2926*k + 2535 for k.",
+      "problem_plain": "Solve 67581 = -1168*k + 2926*k + 2535 for k.",
+      "solution_latex": "37",
+      "solution_plain": "37"
+    },
+    "answer": {
+      "final_raw": "37",
+      "final_normalized": "37",
+      "candidates": [
+        "37"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 67581 = -1168*k + 2926*k + 2535 for k.",
+      "solution_text": "37",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d:00947",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 947,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_00947"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve -58562 = -738*b - 1134*b + 64990 for b.",
+      "problem_plain": "Solve -58562 = -738*b - 1134*b + 64990 for b.",
+      "solution_latex": "66",
+      "solution_plain": "66"
+    },
+    "answer": {
+      "final_raw": "66",
+      "final_normalized": "66",
+      "candidates": [
+        "66"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve -58562 = -738*b - 1134*b + 64990 for b.",
+      "solution_text": "66",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d:00948",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 948,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_00948"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 605 - 424 = 381*z + 2104 + 13317 for z.",
+      "problem_plain": "Solve 605 - 424 = 381*z + 2104 + 13317 for z.",
+      "solution_latex": "-40",
+      "solution_plain": "-40"
+    },
+    "answer": {
+      "final_raw": "-40",
+      "final_normalized": "-40",
+      "candidates": [
+        "-40"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 605 - 424 = 381*z + 2104 + 13317 for z.",
+      "solution_text": "-40",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d:00949",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 949,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_00949"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 0 = 104*q + 170*q - 526*q - 641*q + 8037 for q.",
+      "problem_plain": "Solve 0 = 104*q + 170*q - 526*q - 641*q + 8037 for q.",
+      "solution_latex": "9",
+      "solution_plain": "9"
+    },
+    "answer": {
+      "final_raw": "9",
+      "final_normalized": "9",
+      "candidates": [
+        "9"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 0 = 104*q + 170*q - 526*q - 641*q + 8037 for q.",
+      "solution_text": "9",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d:00950",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 950,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_00950"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 221*w - 367 - 227 - 69 = 0 for w.",
+      "problem_plain": "Solve 221*w - 367 - 227 - 69 = 0 for w.",
+      "solution_latex": "3",
+      "solution_plain": "3"
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 221*w - 367 - 227 - 69 = 0 for w.",
+      "solution_text": "3",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d:00951",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 951,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_00951"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve -132*i - 77*i - 1399 = -74*i - 8689 for i.",
+      "problem_plain": "Solve -132*i - 77*i - 1399 = -74*i - 8689 for i.",
+      "solution_latex": "54",
+      "solution_plain": "54"
+    },
+    "answer": {
+      "final_raw": "54",
+      "final_normalized": "54",
+      "candidates": [
+        "54"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve -132*i - 77*i - 1399 = -74*i - 8689 for i.",
+      "solution_text": "54",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d:00952",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 952,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_00952"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 22*u - 56*u = -85*u - 72 + 21 for u.",
+      "problem_plain": "Solve 22*u - 56*u = -85*u - 72 + 21 for u.",
+      "solution_latex": "-1",
+      "solution_plain": "-1"
+    },
+    "answer": {
+      "final_raw": "-1",
+      "final_normalized": "-1",
+      "candidates": [
+        "-1"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 22*u - 56*u = -85*u - 72 + 21 for u.",
+      "solution_text": "-1",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d:00953",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 953,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_00953"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 515*z + 9494 = 224*z - 2146 for z.",
+      "problem_plain": "Solve 515*z + 9494 = 224*z - 2146 for z.",
+      "solution_latex": "-40",
+      "solution_plain": "-40"
+    },
+    "answer": {
+      "final_raw": "-40",
+      "final_normalized": "-40",
+      "candidates": [
+        "-40"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 515*z + 9494 = 224*z - 2146 for z.",
+      "solution_text": "-40",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d:00954",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 954,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_00954"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 115600 = 45427*u - 52227*u for u.",
+      "problem_plain": "Solve 115600 = 45427*u - 52227*u for u.",
+      "solution_latex": "-17",
+      "solution_plain": "-17"
+    },
+    "answer": {
+      "final_raw": "-17",
+      "final_normalized": "-17",
+      "candidates": [
+        "-17"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 115600 = 45427*u - 52227*u for u.",
+      "solution_text": "-17",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d_composed:00955",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 955,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_composed_00955"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let k(g) = -5*g. Let b be k(1). Let a be 9 - (b - -5) - (4 - -1). Solve a*w - 15*w + 44 = 0 for w.",
+      "problem_plain": "Let k(g) = -5*g. Let b be k(1). Let a be 9 - (b - -5) - (4 - -1). Solve a*w - 15*w + 44 = 0 for w.",
+      "solution_latex": "4",
+      "solution_plain": "4"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let k(g) = -5*g. Let b be k(1). Let a be 9 - (b - -5) - (4 - -1). Solve a*w - 15*w + 44 = 0 for w.",
+      "solution_text": "4",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d_composed:00956",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 956,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_composed_00956"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let s(o) = 59*o**3 - 2*o**2 - 29*o + 30. Let n be s(1). Solve -n*x = -65*x - 7 for x.",
+      "problem_plain": "Let s(o) = 59*o^3 - 2*o^2 - 29*o + 30. Let n be s(1). Solve -n*x = -65*x - 7 for x.",
+      "solution_latex": "-1",
+      "solution_plain": "-1"
+    },
+    "answer": {
+      "final_raw": "-1",
+      "final_normalized": "-1",
+      "candidates": [
+        "-1"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let s(o) = 59*o^3 - 2*o^2 - 29*o + 30. Let n be s(1). Solve -n*x = -65*x - 7 for x.",
+      "solution_text": "-1",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d_composed:00957",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 957,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_composed_00957"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let v be (-36)/(-10)*(-7350)/(-245). Solve -f = 35*f + v for f.",
+      "problem_plain": "Let v be (-36)/(-10)*(-7350)/(-245). Solve -f = 35*f + v for f.",
+      "solution_latex": "-3",
+      "solution_plain": "-3"
+    },
+    "answer": {
+      "final_raw": "-3",
+      "final_normalized": "-3",
+      "candidates": [
+        "-3"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let v be (-36)/(-10)*(-7350)/(-245). Solve -f = 35*f + v for f.",
+      "solution_text": "-3",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d_composed:00958",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 958,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_composed_00958"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let p be 390/260 + ((-3)/(-2) - 3). Solve p = 192*d - 183*d - 54 for d.",
+      "problem_plain": "Let p be 390/260 + ((-3)/(-2) - 3). Solve p = 192*d - 183*d - 54 for d.",
+      "solution_latex": "6",
+      "solution_plain": "6"
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let p be 390/260 + ((-3)/(-2) - 3). Solve p = 192*d - 183*d - 54 for d.",
+      "solution_text": "6",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d_composed:00959",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 959,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_composed_00959"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let n be 293*(-5 + 5 - -1) + 16/4. Solve n*l = 293*l - 16 for l.",
+      "problem_plain": "Let n be 293*(-5 + 5 - -1) + 16/4. Solve n*l = 293*l - 16 for l.",
+      "solution_latex": "-4",
+      "solution_plain": "-4"
+    },
+    "answer": {
+      "final_raw": "-4",
+      "final_normalized": "-4",
+      "candidates": [
+        "-4"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let n be 293*(-5 + 5 - -1) + 16/4. Solve n*l = 293*l - 16 for l.",
+      "solution_text": "-4",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d_composed:00960",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 960,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_composed_00960"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let q(f) = 12*f**2 + 206*f + 38. Let x be q(-17). Solve 24*o - x*o = -80 for o.",
+      "problem_plain": "Let q(f) = 12*f^2 + 206*f + 38. Let x be q(-17). Solve 24*o - x*o = -80 for o.",
+      "solution_latex": "-4",
+      "solution_plain": "-4"
+    },
+    "answer": {
+      "final_raw": "-4",
+      "final_normalized": "-4",
+      "candidates": [
+        "-4"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let q(f) = 12*f^2 + 206*f + 38. Let x be q(-17). Solve 24*o - x*o = -80 for o.",
+      "solution_text": "-4",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d_composed:00961",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 961,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_composed_00961"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let t be (1/2)/((-38)/(-304)). Let m be (5 - 104/16)*t/(-6). Solve 7*d - 8 = -m for d.",
+      "problem_plain": "Let t be (1/2)/((-38)/(-304)). Let m be (5 - 104/16)*t/(-6). Solve 7*d - 8 = -m for d.",
+      "solution_latex": "1",
+      "solution_plain": "1"
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let t be (1/2)/((-38)/(-304)). Let m be (5 - 104/16)*t/(-6). Solve 7*d - 8 = -m for d.",
+      "solution_text": "1",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d_composed:00962",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 962,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_composed_00962"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Suppose -f + 2*f - k = 35, k = -3*f + 89. Let o = -26 + f. Suppose -r + 39 = 5*a, -r - 35 = -o*a - 6*r. Solve -m = -3*m + a for m.",
+      "problem_plain": "Suppose -f + 2*f - k = 35, k = -3*f + 89. Let o = -26 + f. Suppose -r + 39 = 5*a, -r - 35 = -o*a - 6*r. Solve -m = -3*m + a for m.",
+      "solution_latex": "4",
+      "solution_plain": "4"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Suppose -f + 2*f - k = 35, k = -3*f + 89. Let o = -26 + f. Suppose -r + 39 = 5*a, -r - 35 = -o*a - 6*r. Solve -m = -3*m + a for m.",
+      "solution_text": "4",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_1d_composed:00963",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 963,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_1d_composed_00963"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Suppose -9*s + 9 = -12*s. Let m be 312/10 + s + (-6)/30. Solve 3*a = -19 + m for a.",
+      "problem_plain": "Suppose -9*s + 9 = -12*s. Let m be 312/10 + s + (-6)/30. Solve 3*a = -19 + m for a.",
+      "solution_latex": "3",
+      "solution_plain": "3"
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_1d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Suppose -9*s + 9 = -12*s. Let m be 312/10 + s + (-6)/30. Solve 3*a = -19 + m for a.",
+      "solution_text": "3",
+      "keywords": [
+        "algebra",
+        "algebra_linear_1d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_1d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d:00964",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 964,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_00964"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 13*w - 25*w - k = 63, -48 = -2*w + 2*k for w.",
+      "problem_plain": "Solve 13*w - 25*w - k = 63, -48 = -2*w + 2*k for w.",
+      "solution_latex": "-3",
+      "solution_plain": "-3"
+    },
+    "answer": {
+      "final_raw": "-3",
+      "final_normalized": "-3",
+      "candidates": [
+        "-3"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 13*w - 25*w - k = 63, -48 = -2*w + 2*k for w.",
+      "solution_text": "-3",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d:00965",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 965,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_00965"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 0 = 5*i + s - 1841 + 1507, -2*i - 7*s + 127 = 0 for i.",
+      "problem_plain": "Solve 0 = 5*i + s - 1841 + 1507, -2*i - 7*s + 127 = 0 for i.",
+      "solution_latex": "67",
+      "solution_plain": "67"
+    },
+    "answer": {
+      "final_raw": "67",
+      "final_normalized": "67",
+      "candidates": [
+        "67"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 0 = 5*i + s - 1841 + 1507, -2*i - 7*s + 127 = 0 for i.",
+      "solution_text": "67",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d:00966",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 966,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_00966"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 6*h - 5 = 5*b, 0 = 130*h - 125*h - 25 for b.",
+      "problem_plain": "Solve 6*h - 5 = 5*b, 0 = 130*h - 125*h - 25 for b.",
+      "solution_latex": "5",
+      "solution_plain": "5"
+    },
+    "answer": {
+      "final_raw": "5",
+      "final_normalized": "5",
+      "candidates": [
+        "5"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 6*h - 5 = 5*b, 0 = 130*h - 125*h - 25 for b.",
+      "solution_text": "5",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d:00967",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 967,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_00967"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 10*r = 2*i + i - 33, 5*r - 56935 + 56952 = 2*i for i.",
+      "problem_plain": "Solve 10*r = 2*i + i - 33, 5*r - 56935 + 56952 = 2*i for i.",
+      "solution_latex": "1",
+      "solution_plain": "1"
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 10*r = 2*i + i - 33, 5*r - 56935 + 56952 = 2*i for i.",
+      "solution_text": "1",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d:00968",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 968,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_00968"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 0 = 4*d - 3*b - 67, -2*d - 589 = -2*b - 633 for d.",
+      "problem_plain": "Solve 0 = 4*d - 3*b - 67, -2*d - 589 = -2*b - 633 for d.",
+      "solution_latex": "1",
+      "solution_plain": "1"
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 0 = 4*d - 3*b - 67, -2*d - 589 = -2*b - 633 for d.",
+      "solution_text": "1",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d:00969",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 969,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_00969"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 9*x = 11*x - 2*z + 82, 26*x - 31*x - 205 = -z for x.",
+      "problem_plain": "Solve 9*x = 11*x - 2*z + 82, 26*x - 31*x - 205 = -z for x.",
+      "solution_latex": "-41",
+      "solution_plain": "-41"
+    },
+    "answer": {
+      "final_raw": "-41",
+      "final_normalized": "-41",
+      "candidates": [
+        "-41"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 9*x = 11*x - 2*z + 82, 26*x - 31*x - 205 = -z for x.",
+      "solution_text": "-41",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d:00970",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 970,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_00970"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 70796*o - 70801*o + 124 = i - 3*i, -114 = -3*i - 5*o for i.",
+      "problem_plain": "Solve 70796*o - 70801*o + 124 = i - 3*i, -114 = -3*i - 5*o for i.",
+      "solution_latex": "-2",
+      "solution_plain": "-2"
+    },
+    "answer": {
+      "final_raw": "-2",
+      "final_normalized": "-2",
+      "candidates": [
+        "-2"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 70796*o - 70801*o + 124 = i - 3*i, -114 = -3*i - 5*o for i.",
+      "solution_text": "-2",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d:00971",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 971,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_00971"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 4*q - 8 = -d, -2*d - 1648*q = -1645*q - 11 for d.",
+      "problem_plain": "Solve 4*q - 8 = -d, -2*d - 1648*q = -1645*q - 11 for d.",
+      "solution_latex": "4",
+      "solution_plain": "4"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 4*q - 8 = -d, -2*d - 1648*q = -1645*q - 11 for d.",
+      "solution_text": "4",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d:00972",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 972,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_00972"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 2081*l - 5*v - 230 = 2083*l, 16*l + 16 = -2*v for l.",
+      "problem_plain": "Solve 2081*l - 5*v - 230 = 2083*l, 16*l + 16 = -2*v for l.",
+      "solution_latex": "5",
+      "solution_plain": "5"
+    },
+    "answer": {
+      "final_raw": "5",
+      "final_normalized": "5",
+      "candidates": [
+        "5"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 2081*l - 5*v - 230 = 2083*l, 16*l + 16 = -2*v for l.",
+      "solution_text": "5",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d:00973",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 973,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_00973"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve 0 = y + 22*f - 74*f - 144, f - 31 = 2*y - 113 for y.",
+      "problem_plain": "Solve 0 = y + 22*f - 74*f - 144, f - 31 = 2*y - 113 for y.",
+      "solution_latex": "40",
+      "solution_plain": "40"
+    },
+    "answer": {
+      "final_raw": "40",
+      "final_normalized": "40",
+      "candidates": [
+        "40"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve 0 = y + 22*f - 74*f - 144, f - 31 = 2*y - 113 for y.",
+      "solution_text": "40",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d_composed:00974",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 974,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_composed_00974"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Suppose -l = -4*l + 81. Let c = 35 - l. Suppose -u + 1 + 0 = 2*q, 2*u - c = -2*q. Solve -2*p - 22 = 4*k - k, p - 3*k = u for p.",
+      "problem_plain": "Suppose -l = -4*l + 81. Let c = 35 - l. Suppose -u + 1 + 0 = 2*q, 2*u - c = -2*q. Solve -2*p - 22 = 4*k - k, p - 3*k = u for p.",
+      "solution_latex": "-5",
+      "solution_plain": "-5"
+    },
+    "answer": {
+      "final_raw": "-5",
+      "final_normalized": "-5",
+      "candidates": [
+        "-5"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Suppose -l = -4*l + 81. Let c = 35 - l. Suppose -u + 1 + 0 = 2*q, 2*u - c = -2*q. Solve -2*p - 22 = 4*k - k, p - 3*k = u for p.",
+      "solution_text": "-5",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d_composed:00975",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 975,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_composed_00975"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let s(c) = -c**3 + 43*c**2 - 45*c + 129. Suppose 3*m + 219 = 5*o, 5*o + 2*m - 262 = -58. Let a be s(o). Solve a*f + 25 = -5*p, 3*p = f - 9 - 6 for p.",
+      "problem_plain": "Let s(c) = -c^3 + 43*c^2 - 45*c + 129. Suppose 3*m + 219 = 5*o, 5*o + 2*m - 262 = -58. Let a be s(o). Solve a*f + 25 = -5*p, 3*p = f - 9 - 6 for p.",
+      "solution_latex": "-5",
+      "solution_plain": "-5"
+    },
+    "answer": {
+      "final_raw": "-5",
+      "final_normalized": "-5",
+      "candidates": [
+        "-5"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let s(c) = -c^3 + 43*c^2 - 45*c + 129. Suppose 3*m + 219 = 5*o, 5*o + 2*m - 262 = -58. Let a be s(o). Solve a*f + 25 = -5*p, 3*p = f - 9 - 6 for p.",
+      "solution_text": "-5",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d_composed:00976",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 976,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_composed_00976"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Suppose -3*r + 6*r = -189. Suppose -3*p + 4*g = -0*g + 191, -3*p - 2*g = 197. Let t = r - p. Solve t*o + l = o, 0 = 4*o + 2*l + 6 for o.",
+      "problem_plain": "Suppose -3*r + 6*r = -189. Suppose -3*p + 4*g = -0*g + 191, -3*p - 2*g = 197. Let t = r - p. Solve t*o + l = o, 0 = 4*o + 2*l + 6 for o.",
+      "solution_latex": "-3",
+      "solution_plain": "-3"
+    },
+    "answer": {
+      "final_raw": "-3",
+      "final_normalized": "-3",
+      "candidates": [
+        "-3"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Suppose -3*r + 6*r = -189. Suppose -3*p + 4*g = -0*g + 191, -3*p - 2*g = 197. Let t = r - p. Solve t*o + l = o, 0 = 4*o + 2*l + 6 for o.",
+      "solution_text": "-3",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d_composed:00977",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 977,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_composed_00977"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let y be -1 + (0 - 2) + 6. Let t = -1411 - -1416. Solve -t*j - y*i = -i - 13, -5*j - i = -9 for j.",
+      "problem_plain": "Let y be -1 + (0 - 2) + 6. Let t = -1411 - -1416. Solve -t*j - y*i = -i - 13, -5*j - i = -9 for j.",
+      "solution_latex": "1",
+      "solution_plain": "1"
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let y be -1 + (0 - 2) + 6. Let t = -1411 - -1416. Solve -t*j - y*i = -i - 13, -5*j - i = -9 for j.",
+      "solution_text": "1",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d_composed:00978",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 978,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_composed_00978"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let d be -1*-1*(32 - 19). Solve r = d*n + n - 2, 2 = -r for n.",
+      "problem_plain": "Let d be -1*-1*(32 - 19). Solve r = d*n + n - 2, 2 = -r for n.",
+      "solution_latex": "0",
+      "solution_plain": "0"
+    },
+    "answer": {
+      "final_raw": "0",
+      "final_normalized": "0",
+      "candidates": [
+        "0"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let d be -1*-1*(32 - 19). Solve r = d*n + n - 2, 2 = -r for n.",
+      "solution_text": "0",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d_composed:00979",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 979,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_composed_00979"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let o(b) = b**3 - 13*b**2 - 10*b - 294. Let t be o(15). Solve -4*u + 18 = 2*v, v + 12*u = 11*u + t for v.",
+      "problem_plain": "Let o(b) = b^3 - 13*b^2 - 10*b - 294. Let t be o(15). Solve -4*u + 18 = 2*v, v + 12*u = 11*u + t for v.",
+      "solution_latex": "3",
+      "solution_plain": "3"
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let o(b) = b^3 - 13*b^2 - 10*b - 294. Let t be o(15). Solve -4*u + 18 = 2*v, v + 12*u = 11*u + t for v.",
+      "solution_text": "3",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d_composed:00980",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 980,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_composed_00980"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let x be ((-112)/84)/(2/36). Let p(n) = n**2 + 25*n + 34. Let m be p(x). Solve 4*t - m = 2*o, -4*t + 1 = -4*o - 15 for t.",
+      "problem_plain": "Let x be ((-112)/84)/(2/36). Let p(n) = n^2 + 25*n + 34. Let m be p(x). Solve 4*t - m = 2*o, -4*t + 1 = -4*o - 15 for t.",
+      "solution_latex": "1",
+      "solution_plain": "1"
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let x be ((-112)/84)/(2/36). Let p(n) = n^2 + 25*n + 34. Let m be p(x). Solve 4*t - m = 2*o, -4*t + 1 = -4*o - 15 for t.",
+      "solution_text": "1",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_linear_2d_composed:00981",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 981,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_linear_2d_composed_00981"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Suppose -2*p + 3*p - 1 = 2*s, 0 = 5*p + 25. Let n be -1*(s/(-5) + 56/(-10)). Let i be 3*1 + 2/(-2). Solve -3*k + 2*l = i, -k - l - 4*l + n = 0 for k.",
+      "problem_plain": "Suppose -2*p + 3*p - 1 = 2*s, 0 = 5*p + 25. Let n be -1*(s/(-5) + 56/(-10)). Let i be 3*1 + 2/(-2). Solve -3*k + 2*l = i, -k - l - 4*l + n = 0 for k.",
+      "solution_latex": "0",
+      "solution_plain": "0"
+    },
+    "answer": {
+      "final_raw": "0",
+      "final_normalized": "0",
+      "candidates": [
+        "0"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_linear_2d_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_linear_2d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Suppose -2*p + 3*p - 1 = 2*s, 0 = 5*p + 25. Let n be -1*(s/(-5) + 56/(-10)). Let i be 3*1 + 2/(-2). Solve -3*k + 2*l = i, -k - l - 4*l + n = 0 for k.",
+      "solution_text": "0",
+      "keywords": [
+        "algebra",
+        "algebra_linear_2d_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__linear_2d_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_polynomial_roots:00982",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 982,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_polynomial_roots_00982"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Find z such that -2*z**4/11 + 48958*z**3/11 + 2107926*z**2/11 + 23687370*z/11 + 21628404/11 = 0.",
+      "problem_plain": "Find z such that -2*z^4/11 + 48958*z^3/11 + 2107926*z^2/11 + 23687370*z/11 + 21628404/11 = 0.",
+      "solution_latex": "-21, -1, 24522",
+      "solution_plain": "-21, -1, 24522"
+    },
+    "answer": {
+      "final_raw": "-21, -1, 24522",
+      "final_normalized": "-21, -1, 24522",
+      "candidates": [
+        "-21, -1, 24522"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_polynomial_roots"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Find z such that -2*z^4/11 + 48958*z^3/11 + 2107926*z^2/11 + 23687370*z/11 + 21628404/11 = 0.",
+      "solution_text": "-21, -1, 24522",
+      "keywords": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__polynomial_roots",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_polynomial_roots:00983",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 983,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_polynomial_roots_00983"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve -3*l**3/8 - 1293*l**2 + 2194353*l/2 - 209976030 = 0.",
+      "problem_plain": "Solve -3*l^3/8 - 1293*l^2 + 2194353*l/2 - 209976030 = 0.",
+      "solution_latex": "-4180, 366",
+      "solution_plain": "-4180, 366"
+    },
+    "answer": {
+      "final_raw": "-4180, 366",
+      "final_normalized": "-4180, 366",
+      "candidates": [
+        "-4180, 366"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_polynomial_roots"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve -3*l^3/8 - 1293*l^2 + 2194353*l/2 - 209976030 = 0.",
+      "solution_text": "-4180, 366",
+      "keywords": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__polynomial_roots",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_polynomial_roots:00984",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 984,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_polynomial_roots_00984"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Factor -f**2/6 - 3848459*f/2.",
+      "problem_plain": "Factor -f^2/6 - 3848459*f/2.",
+      "solution_latex": "-f*(f + 11545377)/6",
+      "solution_plain": "-f*(f + 11545377)/6"
+    },
+    "answer": {
+      "final_raw": "-f*(f + 11545377)/6",
+      "final_normalized": "-f*(f + 11545377)/6",
+      "candidates": [
+        "-f*(f + 11545377)/6"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_polynomial_roots"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Factor -f^2/6 - 3848459*f/2.",
+      "solution_text": "-f*(f + 11545377)/6",
+      "keywords": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__polynomial_roots",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_polynomial_roots:00985",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 985,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_polynomial_roots_00985"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is v in 80*v**3/13 - 358158*v**2/13 - 367194*v/13 - 8956/13 = 0?",
+      "problem_plain": "What is v in 80*v^3/13 - 358158*v^2/13 - 367194*v/13 - 8956/13 = 0?",
+      "solution_latex": "-1, -1/40, 4478",
+      "solution_plain": "-1, -1/40, 4478"
+    },
+    "answer": {
+      "final_raw": "-1, -1/40, 4478",
+      "final_normalized": "-1, -1/40, 4478",
+      "candidates": [
+        "-1, -1/40, 4478"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_polynomial_roots"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is v in 80*v^3/13 - 358158*v^2/13 - 367194*v/13 - 8956/13 = 0?",
+      "solution_text": "-1, -1/40, 4478",
+      "keywords": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__polynomial_roots",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_polynomial_roots:00986",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 986,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_polynomial_roots_00986"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Solve -l**3/2 - 8080815*l**2/2 + 32323273*l/2 - 24242457/2 = 0.",
+      "problem_plain": "Solve -l^3/2 - 8080815*l^2/2 + 32323273*l/2 - 24242457/2 = 0.",
+      "solution_latex": "-8080819, 1, 3",
+      "solution_plain": "-8080819, 1, 3"
+    },
+    "answer": {
+      "final_raw": "-8080819, 1, 3",
+      "final_normalized": "-8080819, 1, 3",
+      "candidates": [
+        "-8080819, 1, 3"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_polynomial_roots"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Solve -l^3/2 - 8080815*l^2/2 + 32323273*l/2 - 24242457/2 = 0.",
+      "solution_text": "-8080819, 1, 3",
+      "keywords": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__polynomial_roots",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_polynomial_roots:00987",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 987,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_polynomial_roots_00987"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is t in 5*t**2 + 4985915*t - 299172900 = 0?",
+      "problem_plain": "What is t in 5*t^2 + 4985915*t - 299172900 = 0?",
+      "solution_latex": "-997243, 60",
+      "solution_plain": "-997243, 60"
+    },
+    "answer": {
+      "final_raw": "-997243, 60",
+      "final_normalized": "-997243, 60",
+      "candidates": [
+        "-997243, 60"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_polynomial_roots"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is t in 5*t^2 + 4985915*t - 299172900 = 0?",
+      "solution_text": "-997243, 60",
+      "keywords": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__polynomial_roots",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_polynomial_roots:00988",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 988,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_polynomial_roots_00988"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Suppose -6*w**4/7 + 24812*w**3/3 - 12258686*w**2/21 - 11053156*w/21 + 459744/7 = 0. Calculate w.",
+      "problem_plain": "Suppose -6*w^4/7 + 24812*w^3/3 - 12258686*w^2/21 - 11053156*w/21 + 459744/7 = 0. Calculate w.",
+      "solution_latex": "-1, 1/9, 72, 9578",
+      "solution_plain": "-1, 1/9, 72, 9578"
+    },
+    "answer": {
+      "final_raw": "-1, 1/9, 72, 9578",
+      "final_normalized": "-1, 1/9, 72, 9578",
+      "candidates": [
+        "-1, 1/9, 72, 9578"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_polynomial_roots"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Suppose -6*w^4/7 + 24812*w^3/3 - 12258686*w^2/21 - 11053156*w/21 + 459744/7 = 0. Calculate w.",
+      "solution_text": "-1, 1/9, 72, 9578",
+      "keywords": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__polynomial_roots",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_polynomial_roots:00989",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 989,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_polynomial_roots_00989"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Factor -o**2/4 - 2334273*o/2 - 4668545/4.",
+      "problem_plain": "Factor -o^2/4 - 2334273*o/2 - 4668545/4.",
+      "solution_latex": "-(o + 1)*(o + 4668545)/4",
+      "solution_plain": "-(o + 1)*(o + 4668545)/4"
+    },
+    "answer": {
+      "final_raw": "-(o + 1)*(o + 4668545)/4",
+      "final_normalized": "-(o + 1)*(o + 4668545)/4",
+      "candidates": [
+        "-(o + 1)*(o + 4668545)/4"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_polynomial_roots"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Factor -o^2/4 - 2334273*o/2 - 4668545/4.",
+      "solution_text": "-(o + 1)*(o + 4668545)/4",
+      "keywords": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__polynomial_roots",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_polynomial_roots:00990",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 990,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_polynomial_roots_00990"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is p in -8*p**4/19 - 9224*p**3/19 - 2656698*p**2/19 - 2649784*p/19 - 661870/19 = 0?",
+      "problem_plain": "What is p in -8*p^4/19 - 9224*p^3/19 - 2656698*p^2/19 - 2649784*p/19 - 661870/19 = 0?",
+      "solution_latex": "-605, -547, -1/2",
+      "solution_plain": "-605, -547, -1/2"
+    },
+    "answer": {
+      "final_raw": "-605, -547, -1/2",
+      "final_normalized": "-605, -547, -1/2",
+      "candidates": [
+        "-605, -547, -1/2"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_polynomial_roots"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is p in -8*p^4/19 - 9224*p^3/19 - 2656698*p^2/19 - 2649784*p/19 - 661870/19 = 0?",
+      "solution_text": "-605, -547, -1/2",
+      "keywords": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__polynomial_roots",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_polynomial_roots:00991",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 991,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_polynomial_roots_00991"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Suppose -2012*y**5/9 + 19450*y**4/3 + 1954*y**3/9 - 19450*y**2/3 + 58*y/9 = 0. Calculate y.",
+      "problem_plain": "Suppose -2012*y^5/9 + 19450*y^4/3 + 1954*y^3/9 - 19450*y^2/3 + 58*y/9 = 0. Calculate y.",
+      "solution_latex": "-1, 0, 1/1006, 1, 29",
+      "solution_plain": "-1, 0, 1/1006, 1, 29"
+    },
+    "answer": {
+      "final_raw": "-1, 0, 1/1006, 1, 29",
+      "final_normalized": "-1, 0, 1/1006, 1, 29",
+      "candidates": [
+        "-1, 0, 1/1006, 1, 29"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_polynomial_roots"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Suppose -2012*y^5/9 + 19450*y^4/3 + 1954*y^3/9 - 19450*y^2/3 + 58*y/9 = 0. Calculate y.",
+      "solution_text": "-1, 0, 1/1006, 1, 29",
+      "keywords": [
+        "algebra",
+        "algebra_polynomial_roots",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__polynomial_roots",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_polynomial_roots_composed:00992",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 992,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_polynomial_roots_composed_00992"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let u(m) = 15*m**4 - 1270*m**3 + 2520*m**2 + 15*m + 5. Let l(v) = 7*v**4 - 636*v**3 + 1260*v**2 + 6*v + 2. Let x(r) = 5*l(r) - 2*u(r). Factor x(q).",
+      "problem_plain": "Let u(m) = 15*m^4 - 1270*m^3 + 2520*m^2 + 15*m + 5. Let l(v) = 7*v^4 - 636*v^3 + 1260*v^2 + 6*v + 2. Let x(r) = 5*l(r) - 2*u(r). Factor x(q).",
+      "solution_latex": "5*q**2*(q - 126)*(q - 2)",
+      "solution_plain": "5*q^2*(q - 126)*(q - 2)"
+    },
+    "answer": {
+      "final_raw": "5*q**2*(q - 126)*(q - 2)",
+      "final_normalized": "5*q**2*(q - 126)*(q - 2)",
+      "candidates": [
+        "5*q**2*(q - 126)*(q - 2)"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_polynomial_roots_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_polynomial_roots_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let u(m) = 15*m^4 - 1270*m^3 + 2520*m^2 + 15*m + 5. Let l(v) = 7*v^4 - 636*v^3 + 1260*v^2 + 6*v + 2. Let x(r) = 5*l(r) - 2*u(r). Factor x(q).",
+      "solution_text": "5*q^2*(q - 126)*(q - 2)",
+      "keywords": [
+        "algebra",
+        "algebra_polynomial_roots_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__polynomial_roots_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_polynomial_roots_composed:00993",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 993,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_polynomial_roots_composed_00993"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Suppose -4*y + 224 = 3*m, -3*m + 9*y = 4*y - 206. Suppose 38*n - 20*n - m = 0. Factor -5/2*b**2 - 45/4*b**5 - 65/4*b**3 + 0*b + 0 - 30*b**n.",
+      "problem_plain": "Suppose -4*y + 224 = 3*m, -3*m + 9*y = 4*y - 206. Suppose 38*n - 20*n - m = 0. Factor -5/2*b^2 - 45/4*b^5 - 65/4*b^3 + 0*b + 0 - 30*b^n.",
+      "solution_latex": "-5*b**2*(b + 2)*(3*b + 1)**2/4",
+      "solution_plain": "-5*b^2*(b + 2)*(3*b + 1)^2/4"
+    },
+    "answer": {
+      "final_raw": "-5*b**2*(b + 2)*(3*b + 1)**2/4",
+      "final_normalized": "-5*b**2*(b + 2)*(3*b + 1)**2/4",
+      "candidates": [
+        "-5*b**2*(b + 2)*(3*b + 1)**2/4"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_polynomial_roots_composed"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_polynomial_roots_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Suppose -4*y + 224 = 3*m, -3*m + 9*y = 4*y - 206. Suppose 38*n - 20*n - m = 0. Factor -5/2*b^2 - 45/4*b^5 - 65/4*b^3 + 0*b + 0 - 30*b^n.",
+      "solution_text": "-5*b^2*(b + 2)*(3*b + 1)^2/4",
+      "keywords": [
+        "algebra",
+        "algebra_polynomial_roots_composed",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__polynomial_roots_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_next_term:00994",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 994,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_next_term_00994"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the next term in -24445, -24122, -23679, -23116, -22433?",
+      "problem_plain": "What is the next term in -24445, -24122, -23679, -23116, -22433?",
+      "solution_latex": "-21630",
+      "solution_plain": "-21630"
+    },
+    "answer": {
+      "final_raw": "-21630",
+      "final_normalized": "-21630",
+      "candidates": [
+        "-21630"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_next_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the next term in -24445, -24122, -23679, -23116, -22433?",
+      "solution_text": "-21630",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_next_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_next_term:00995",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 995,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_next_term_00995"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the next term in -455518, -911053, -1366600, -1822159?",
+      "problem_plain": "What is the next term in -455518, -911053, -1366600, -1822159?",
+      "solution_latex": "-2277730",
+      "solution_plain": "-2277730"
+    },
+    "answer": {
+      "final_raw": "-2277730",
+      "final_normalized": "-2277730",
+      "candidates": [
+        "-2277730"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_next_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the next term in -455518, -911053, -1366600, -1822159?",
+      "solution_text": "-2277730",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_next_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_next_term:00996",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 996,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_next_term_00996"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the next term in 57313, 57337, 57361?",
+      "problem_plain": "What is the next term in 57313, 57337, 57361?",
+      "solution_latex": "57385",
+      "solution_plain": "57385"
+    },
+    "answer": {
+      "final_raw": "57385",
+      "final_normalized": "57385",
+      "candidates": [
+        "57385"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_next_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the next term in 57313, 57337, 57361?",
+      "solution_text": "57385",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_next_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_next_term:00997",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 997,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_next_term_00997"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the next term in 462876, 925167, 1387448, 1849713, 2311956, 2774171, 3236352?",
+      "problem_plain": "What is the next term in 462876, 925167, 1387448, 1849713, 2311956, 2774171, 3236352?",
+      "solution_latex": "3698493",
+      "solution_plain": "3698493"
+    },
+    "answer": {
+      "final_raw": "3698493",
+      "final_normalized": "3698493",
+      "candidates": [
+        "3698493"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_next_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the next term in 462876, 925167, 1387448, 1849713, 2311956, 2774171, 3236352?",
+      "solution_text": "3698493",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_next_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_next_term:00998",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 998,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_next_term_00998"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the next term in -174127, -174125, -174121, -174115, -174107?",
+      "problem_plain": "What is the next term in -174127, -174125, -174121, -174115, -174107?",
+      "solution_latex": "-174097",
+      "solution_plain": "-174097"
+    },
+    "answer": {
+      "final_raw": "-174097",
+      "final_normalized": "-174097",
+      "candidates": [
+        "-174097"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_next_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the next term in -174127, -174125, -174121, -174115, -174107?",
+      "solution_text": "-174097",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_next_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_next_term:00999",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 999,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_next_term_00999"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What comes next: -8771, -17712, -26721, -35786, -44895, -54036?",
+      "problem_plain": "What comes next: -8771, -17712, -26721, -35786, -44895, -54036?",
+      "solution_latex": "-63197",
+      "solution_plain": "-63197"
+    },
+    "answer": {
+      "final_raw": "-63197",
+      "final_normalized": "-63197",
+      "candidates": [
+        "-63197"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_next_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What comes next: -8771, -17712, -26721, -35786, -44895, -54036?",
+      "solution_text": "-63197",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_next_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_next_term:01000",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1000,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_next_term_01000"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the next term in 4670, 978, -5170, -13768, -24810?",
+      "problem_plain": "What is the next term in 4670, 978, -5170, -13768, -24810?",
+      "solution_latex": "-38290",
+      "solution_plain": "-38290"
+    },
+    "answer": {
+      "final_raw": "-38290",
+      "final_normalized": "-38290",
+      "candidates": [
+        "-38290"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_next_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the next term in 4670, 978, -5170, -13768, -24810?",
+      "solution_text": "-38290",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_next_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_next_term:01001",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1001,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_next_term_01001"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the next term in -12930, -13284, -13872, -14694?",
+      "problem_plain": "What is the next term in -12930, -13284, -13872, -14694?",
+      "solution_latex": "-15750",
+      "solution_plain": "-15750"
+    },
+    "answer": {
+      "final_raw": "-15750",
+      "final_normalized": "-15750",
+      "candidates": [
+        "-15750"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_next_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the next term in -12930, -13284, -13872, -14694?",
+      "solution_text": "-15750",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_next_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_next_term:01002",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1002,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_next_term_01002"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What comes next: 1928333, 3857080, 5785827?",
+      "problem_plain": "What comes next: 1928333, 3857080, 5785827?",
+      "solution_latex": "7714574",
+      "solution_plain": "7714574"
+    },
+    "answer": {
+      "final_raw": "7714574",
+      "final_normalized": "7714574",
+      "candidates": [
+        "7714574"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_next_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What comes next: 1928333, 3857080, 5785827?",
+      "solution_text": "7714574",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_next_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_next_term:01003",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1003,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_next_term_01003"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What comes next: 8855, 36595, 83217, 148721, 233107, 336375?",
+      "problem_plain": "What comes next: 8855, 36595, 83217, 148721, 233107, 336375?",
+      "solution_latex": "458525",
+      "solution_plain": "458525"
+    },
+    "answer": {
+      "final_raw": "458525",
+      "final_normalized": "458525",
+      "candidates": [
+        "458525"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_next_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What comes next: 8855, 36595, 83217, 148721, 233107, 336375?",
+      "solution_text": "458525",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_next_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_next_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_nth_term:01004",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1004,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_nth_term_01004"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the s'th term of 137612, 137467, 137322, 137177, 137032?",
+      "problem_plain": "What is the s'th term of 137612, 137467, 137322, 137177, 137032?",
+      "solution_latex": "137757 - 145*s",
+      "solution_plain": "137757 - 145*s"
+    },
+    "answer": {
+      "final_raw": "137757 - 145*s",
+      "final_normalized": "137757 - 145*s",
+      "candidates": [
+        "137757 - 145*s"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_nth_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the s'th term of 137612, 137467, 137322, 137177, 137032?",
+      "solution_text": "137757 - 145*s",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_nth_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_nth_term:01005",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1005,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_nth_term_01005"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the k'th term of -15800, -31523, -47122, -62549, -77756, -92695, -107318, -121577?",
+      "problem_plain": "What is the k'th term of -15800, -31523, -47122, -62549, -77756, -92695, -107318, -121577?",
+      "solution_latex": "8*k**3 + 14*k**2 - 15821*k - 1",
+      "solution_plain": "8*k^3 + 14*k^2 - 15821*k - 1"
+    },
+    "answer": {
+      "final_raw": "8*k**3 + 14*k**2 - 15821*k - 1",
+      "final_normalized": "8*k**3 + 14*k**2 - 15821*k - 1",
+      "candidates": [
+        "8*k**3 + 14*k**2 - 15821*k - 1"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_nth_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the k'th term of -15800, -31523, -47122, -62549, -77756, -92695, -107318, -121577?",
+      "solution_text": "8*k^3 + 14*k^2 - 15821*k - 1",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_nth_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_nth_term:01006",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1006,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_nth_term_01006"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the u'th term of -21324, -21259, -21194?",
+      "problem_plain": "What is the u'th term of -21324, -21259, -21194?",
+      "solution_latex": "65*u - 21389",
+      "solution_plain": "65*u - 21389"
+    },
+    "answer": {
+      "final_raw": "65*u - 21389",
+      "final_normalized": "65*u - 21389",
+      "candidates": [
+        "65*u - 21389"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_nth_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the u'th term of -21324, -21259, -21194?",
+      "solution_text": "65*u - 21389",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_nth_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_nth_term:01007",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1007,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_nth_term_01007"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the b'th term of 3257072, 3257101, 3257150, 3257219, 3257308, 3257417?",
+      "problem_plain": "What is the b'th term of 3257072, 3257101, 3257150, 3257219, 3257308, 3257417?",
+      "solution_latex": "10*b**2 - b + 3257063",
+      "solution_plain": "10*b^2 - b + 3257063"
+    },
+    "answer": {
+      "final_raw": "10*b**2 - b + 3257063",
+      "final_normalized": "10*b**2 - b + 3257063",
+      "candidates": [
+        "10*b**2 - b + 3257063"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_nth_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the b'th term of 3257072, 3257101, 3257150, 3257219, 3257308, 3257417?",
+      "solution_text": "10*b^2 - b + 3257063",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_nth_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_nth_term:01008",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1008,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_nth_term_01008"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the q'th term of 20581379, 82325515, 185232407, 329302055?",
+      "problem_plain": "What is the q'th term of 20581379, 82325515, 185232407, 329302055?",
+      "solution_latex": "20581378*q**2 + 2*q - 1",
+      "solution_plain": "20581378*q^2 + 2*q - 1"
+    },
+    "answer": {
+      "final_raw": "20581378*q**2 + 2*q - 1",
+      "final_normalized": "20581378*q**2 + 2*q - 1",
+      "candidates": [
+        "20581378*q**2 + 2*q - 1"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_nth_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the q'th term of 20581379, 82325515, 185232407, 329302055?",
+      "solution_text": "20581378*q^2 + 2*q - 1",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_nth_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_nth_term:01009",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1009,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_nth_term_01009"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the t'th term of -15008606, -15008607, -15008608?",
+      "problem_plain": "What is the t'th term of -15008606, -15008607, -15008608?",
+      "solution_latex": "-t - 15008605",
+      "solution_plain": "-t - 15008605"
+    },
+    "answer": {
+      "final_raw": "-t - 15008605",
+      "final_normalized": "-t - 15008605",
+      "candidates": [
+        "-t - 15008605"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_nth_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the t'th term of -15008606, -15008607, -15008608?",
+      "solution_text": "-t - 15008605",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_nth_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_nth_term:01010",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1010,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_nth_term_01010"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the f'th term of 24501910, 49003817, 73505724, 98007631?",
+      "problem_plain": "What is the f'th term of 24501910, 49003817, 73505724, 98007631?",
+      "solution_latex": "24501907*f + 3",
+      "solution_plain": "24501907*f + 3"
+    },
+    "answer": {
+      "final_raw": "24501907*f + 3",
+      "final_normalized": "24501907*f + 3",
+      "candidates": [
+        "24501907*f + 3"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_nth_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the f'th term of 24501910, 49003817, 73505724, 98007631?",
+      "solution_text": "24501907*f + 3",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_nth_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_nth_term:01011",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1011,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_nth_term_01011"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the j'th term of 2631, 2669, 2755, 2901, 3119, 3421, 3819?",
+      "problem_plain": "What is the j'th term of 2631, 2669, 2755, 2901, 3119, 3421, 3819?",
+      "solution_latex": "2*j**3 + 12*j**2 - 12*j + 2629",
+      "solution_plain": "2*j^3 + 12*j^2 - 12*j + 2629"
+    },
+    "answer": {
+      "final_raw": "2*j**3 + 12*j**2 - 12*j + 2629",
+      "final_normalized": "2*j**3 + 12*j**2 - 12*j + 2629",
+      "candidates": [
+        "2*j**3 + 12*j**2 - 12*j + 2629"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_nth_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the j'th term of 2631, 2669, 2755, 2901, 3119, 3421, 3819?",
+      "solution_text": "2*j^3 + 12*j^2 - 12*j + 2629",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_nth_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_nth_term:01012",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1012,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_nth_term_01012"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the y'th term of -706, -1394, -2552, -4180, -6278?",
+      "problem_plain": "What is the y'th term of -706, -1394, -2552, -4180, -6278?",
+      "solution_latex": "-235*y**2 + 17*y - 488",
+      "solution_plain": "-235*y^2 + 17*y - 488"
+    },
+    "answer": {
+      "final_raw": "-235*y**2 + 17*y - 488",
+      "final_normalized": "-235*y**2 + 17*y - 488",
+      "candidates": [
+        "-235*y**2 + 17*y - 488"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_nth_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the y'th term of -706, -1394, -2552, -4180, -6278?",
+      "solution_text": "-235*y^2 + 17*y - 488",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_nth_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:train_hard:algebra_sequence_nth_term:01013",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1013,
+      "split": "train_hard",
+      "source_problem_id": "train_hard_algebra_sequence_nth_term_01013"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the f'th term of -94609, -189240, -283893, -378568, -473265, -567984?",
+      "problem_plain": "What is the f'th term of -94609, -189240, -283893, -378568, -473265, -567984?",
+      "solution_latex": "-11*f**2 - 94598*f",
+      "solution_plain": "-11*f^2 - 94598*f"
+    },
+    "answer": {
+      "final_raw": "-11*f**2 - 94598*f",
+      "final_normalized": "-11*f**2 - 94598*f",
+      "candidates": [
+        "-11*f**2 - 94598*f"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "algebra",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle_high",
+      "concepts": [
+        "algebra_sequence_nth_term"
+      ],
+      "tags": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the f'th term of -94609, -189240, -283893, -378568, -473265, -567984?",
+      "solution_text": "-11*f^2 - 94598*f",
+      "keywords": [
+        "algebra",
+        "algebra_sequence_nth_term",
+        "deepmind_mathematics",
+        "level_3",
+        "train_hard"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "train_hard",
+        "module_name": "algebra__sequence_nth_term",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  }
+]

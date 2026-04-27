@@ -1,0 +1,975 @@
+{
+  "schema_version": "coco_ocr_actual_cases.v1",
+  "generated_at": "2026-04-25T09:34:52+00:00",
+  "source": {
+    "manifest_path": "data/learning_test/school_math_bank_manifest.json",
+    "selected_records": 60,
+    "elapsed_seconds": 20.861,
+    "layout_filter": "expression"
+  },
+  "coverage": {
+    "case_count": 46,
+    "pending_count": 14,
+    "by_grade": {
+      "고등1": 4,
+      "고등2": 3,
+      "중등1": 5,
+      "중등2": 1,
+      "중등3": 3,
+      "초등1": 5,
+      "초등2": 5,
+      "초등3": 5,
+      "초등4": 5,
+      "초등5": 5,
+      "초등6": 5
+    },
+    "by_ocr_source": {
+      "pipeline_raw_text": 46
+    }
+  },
+  "cases": [
+    {
+      "case_id": "actual_ocr_0001",
+      "source": "school_math_bank_image",
+      "problem_id": "high_g01_003",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/03.고등/1학년/high_g01_003_easy_expression.png",
+      "band": "고등",
+      "grade": 1,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다항식 f(x) = 3x*2 + -3x + 1에서\nf(-5)2| 값을 구하시오.",
+      "expected_contains": "3x^2 + -3x + 1",
+      "normalized_preview": "다항식 f(x) = 3x^2 + -3x + 1에서 f(-5)2| 값을 구하시오."
+    },
+    {
+      "case_id": "actual_ocr_0002",
+      "source": "school_math_bank_image",
+      "problem_id": "high_g01_006",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/03.고등/1학년/high_g01_006_easy_expression.png",
+      "band": "고등",
+      "grade": 1,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다항식 f(x) = 1x*2 + 6x + 8에서\n(5)2| 값을 구하시오.\nf(5)2| 값을 구하시오.",
+      "expected_contains": "1x^2 + 6x + 8",
+      "normalized_preview": "다항식 f(x) = 1x^2 + 6x + 8에서 (5)2| 값을 구하시오. f(5)2| 값을 구하시오."
+    },
+    {
+      "case_id": "actual_ocr_0003",
+      "source": "school_math_bank_image",
+      "problem_id": "high_g01_008",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/03.고등/1학년/high_g01_008_easy_expression.png",
+      "band": "고등",
+      "grade": 1,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\nsqrt(64) + 5^2",
+      "expected_contains": "sqrt(64) + 5^2",
+      "normalized_preview": "다음 식의 값을 구하시오. sqrt(64) + 5^2"
+    },
+    {
+      "case_id": "actual_ocr_0004",
+      "source": "school_math_bank_image",
+      "problem_id": "high_g01_011",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/03.고등/1학년/high_g01_011_easy_expression.png",
+      "band": "고등",
+      "grade": 1,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\nsqrt(25) + 4^2",
+      "expected_contains": "sqrt(25) + 4^2",
+      "normalized_preview": "다음 식의 값을 구하시오. sqrt(25) + 4^2"
+    },
+    {
+      "case_id": "actual_ocr_0005",
+      "source": "school_math_bank_image",
+      "problem_id": "high_g02_001",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/03.고등/2학년/high_g02_001_easy_expression.png",
+      "band": "고등",
+      "grade": 2,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 삼각함수 값을 구하시오.\ntan(pi/4) + cos(pi/3)",
+      "expected_contains": "tan(pi/4) + cos(pi/3)",
+      "normalized_preview": "다음 삼각함수 값을 구하시오. tan(pi/4) + cos(pi/3)"
+    },
+    {
+      "case_id": "actual_ocr_0006",
+      "source": "school_math_bank_image",
+      "problem_id": "high_g02_003",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/03.고등/2학년/high_g02_003_easy_expression.png",
+      "band": "고등",
+      "grade": 2,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 로그의 값을 구하시오.\n108_.5(25)\nlog _5(25)",
+      "expected_contains": "log_5(25)",
+      "normalized_preview": "다음 로그의 값을 구하시오. log_5(25) log_5(25)"
+    },
+    {
+      "case_id": "actual_ocr_0007",
+      "source": "school_math_bank_image",
+      "problem_id": "high_g02_006",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/03.고등/2학년/high_g02_006_easy_expression.png",
+      "band": "고등",
+      "grade": 2,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 로그의 값을 구하시오.\nlog 3(27)\nlog_3(27)",
+      "expected_contains": "log_3(27)",
+      "normalized_preview": "다음 로그의 값을 구하시오. log_3(27) log_3(27)"
+    },
+    {
+      "case_id": "actual_ocr_0008",
+      "source": "school_math_bank_image",
+      "problem_id": "middle_g01_001",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/02.중등/1학년/middle_g01_001_easy_expression.png",
+      "band": "중등",
+      "grade": 1,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 방정식을 푸시오.\n4Ax+1/=1\n4x+17=1",
+      "expected_contains": "4x + 17 = 1",
+      "normalized_preview": "다음 방정식을 푸시오. 4x+17=1 4x+17=1"
+    },
+    {
+      "case_id": "actual_ocr_0009",
+      "source": "school_math_bank_image",
+      "problem_id": "middle_g01_003",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/02.중등/1학년/middle_g01_003_easy_expression.png",
+      "band": "중등",
+      "grade": 1,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 방정식을 푸시오.\n3*+-3=-2/\n다음 방정식을 FAL.\n3x + -3 = -27",
+      "expected_contains": "3x + -3 = -27",
+      "normalized_preview": "다음 방정식을 푸시오. 3*+-3=-27 다음 방정식을 FAL. 3x + -3 = -27"
+    },
+    {
+      "case_id": "actual_ocr_0010",
+      "source": "school_math_bank_image",
+      "problem_id": "middle_g01_006",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/02.중등/1학년/middle_g01_006_easy_expression.png",
+      "band": "중등",
+      "grade": 1,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 방정식을 푸시오.\n= 2 ㄱ르 ㄱ\n3x +12 = 48\n다음 방정식을 FAL.\n다음 방정식을 FAQ.\n3*+12=48",
+      "expected_contains": "3x + 12 = 48",
+      "normalized_preview": "다음 방정식을 푸시오. = 2 ㄱ르 ㄱ 3x +12 = 48 다음 방정식을 FAL. 다음 방정식을 FAQ. 3*+12=48"
+    },
+    {
+      "case_id": "actual_ocr_0011",
+      "source": "school_math_bank_image",
+      "problem_id": "middle_g01_008",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/02.중등/1학년/middle_g01_008_easy_expression.png",
+      "band": "중등",
+      "grade": 1,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 방정식을 푸시오.\n4*+-3=13\n다음 방정식을 FAL.\n4x + -3 = 13",
+      "expected_contains": "4x + -3 = 13",
+      "normalized_preview": "다음 방정식을 푸시오. 4*+-3=13 다음 방정식을 FAL. 4x + -3 = 13"
+    },
+    {
+      "case_id": "actual_ocr_0012",
+      "source": "school_math_bank_image",
+      "problem_id": "middle_g01_011",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/02.중등/1학년/middle_g01_011_easy_expression.png",
+      "band": "중등",
+      "grade": 1,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 방정식을 푸시오.\n4*+-1 = 11\n다음 방정식을 FAL.\n4x+-1=11\nAx+-1=11",
+      "expected_contains": "4x + -1 = 11",
+      "normalized_preview": "다음 방정식을 푸시오. 4*+-1 = 11 다음 방정식을 FAL. 4x+-1=11 Ax+-1=11"
+    },
+    {
+      "case_id": "actual_ocr_0013",
+      "source": "school_math_bank_image",
+      "problem_id": "middle_g02_008",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/02.중등/2학년/middle_g02_008_easy_expression.png",
+      "band": "중등",
+      "grade": 2,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "일차함수 y = 2x + -2에서\nX= 3일 때 \\의 값을 구하시오.\n일차함수 / = 2x + -2에서\n* = 3일 때 의 AS 구하시오.",
+      "expected_contains": "y = 2x + -2",
+      "normalized_preview": "일차함수 y = 2x + -2에서 X= 3일 때 \\의 값을 구하시오. 일차함수 / = 2x + -2에서 * = 3일 때 의 AS 구하시오."
+    },
+    {
+      "case_id": "actual_ocr_0014",
+      "source": "school_math_bank_image",
+      "problem_id": "middle_g03_003",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/02.중등/3학년/middle_g03_003_easy_expression.png",
+      "band": "중등",
+      "grade": 3,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\nsqrt(4) + 2",
+      "expected_contains": "sqrt(4) + 2",
+      "normalized_preview": "다음 식의 값을 구하시오. sqrt(4) + 2"
+    },
+    {
+      "case_id": "actual_ocr_0015",
+      "source": "school_math_bank_image",
+      "problem_id": "middle_g03_006",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/02.중등/3학년/middle_g03_006_easy_expression.png",
+      "band": "중등",
+      "grade": 3,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\nsqrt(49) + 6\nsaqrt(49) + 6",
+      "expected_contains": "sqrt(49) + 6",
+      "normalized_preview": "다음 식의 값을 구하시오. sqrt(49) + 6 saqrt(49) + 6"
+    },
+    {
+      "case_id": "actual_ocr_0016",
+      "source": "school_math_bank_image",
+      "problem_id": "middle_g03_008",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/02.중등/3학년/middle_g03_008_easy_expression.png",
+      "band": "중등",
+      "grade": 3,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\nsqrt(9 + 16)",
+      "expected_contains": "sqrt(9 + 16)",
+      "normalized_preview": "다음 식의 값을 구하시오. sqrt(9 + 16)"
+    },
+    {
+      "case_id": "actual_ocr_0017",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g01_001",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/1학년/elementary_g01_001_easy_expression.png",
+      "band": "초등",
+      "grade": 1,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n23+12=?",
+      "expected_contains": "23 + 12",
+      "normalized_preview": "다음 식의 값을 구하시오. 23+12=?"
+    },
+    {
+      "case_id": "actual_ocr_0018",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g01_003",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/1학년/elementary_g01_003_easy_expression.png",
+      "band": "초등",
+      "grade": 1,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n14 + 26 =?",
+      "expected_contains": "14 + 26",
+      "normalized_preview": "다음 식의 값을 구하시오. 14 + 26 =?"
+    },
+    {
+      "case_id": "actual_ocr_0019",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g01_006",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/1학년/elementary_g01_006_easy_expression.png",
+      "band": "초등",
+      "grade": 1,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n54 - 10 = ?",
+      "expected_contains": "54 - 10",
+      "normalized_preview": "다음 식의 값을 구하시오. 54 - 10 = ?"
+    },
+    {
+      "case_id": "actual_ocr_0020",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g01_008",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/1학년/elementary_g01_008_easy_expression.png",
+      "band": "초등",
+      "grade": 1,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n39 - 24 = ?",
+      "expected_contains": "39 - 24",
+      "normalized_preview": "다음 식의 값을 구하시오. 39 - 24 = ?"
+    },
+    {
+      "case_id": "actual_ocr_0021",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g01_011",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/1학년/elementary_g01_011_easy_expression.png",
+      "band": "초등",
+      "grade": 1,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n37+13=?",
+      "expected_contains": "37 + 13",
+      "normalized_preview": "다음 식의 값을 구하시오. 37+13=?"
+    },
+    {
+      "case_id": "actual_ocr_0022",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g02_001",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/2학년/elementary_g02_001_easy_expression.png",
+      "band": "초등",
+      "grade": 2,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n61+ 25 = ?",
+      "expected_contains": "61 + 25",
+      "normalized_preview": "다음 식의 값을 구하시오. 61+ 25 = ?"
+    },
+    {
+      "case_id": "actual_ocr_0023",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g02_003",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/2학년/elementary_g02_003_easy_expression.png",
+      "band": "초등",
+      "grade": 2,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n76 + 15 = ?",
+      "expected_contains": "76 + 15",
+      "normalized_preview": "다음 식의 값을 구하시오. 76 + 15 = ?"
+    },
+    {
+      "case_id": "actual_ocr_0024",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g02_006",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/2학년/elementary_g02_006_easy_expression.png",
+      "band": "초등",
+      "grade": 2,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n47-30 =?",
+      "expected_contains": "47 - 30",
+      "normalized_preview": "다음 식의 값을 구하시오. 47-30 =?"
+    },
+    {
+      "case_id": "actual_ocr_0025",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g02_008",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/2학년/elementary_g02_008_easy_expression.png",
+      "band": "초등",
+      "grade": 2,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n31-14=?",
+      "expected_contains": "31 - 14",
+      "normalized_preview": "다음 식의 값을 구하시오. 31-14=?"
+    },
+    {
+      "case_id": "actual_ocr_0026",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g02_011",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/2학년/elementary_g02_011_easy_expression.png",
+      "band": "초등",
+      "grade": 2,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n52 + 31 = ?",
+      "expected_contains": "52 + 31",
+      "normalized_preview": "다음 식의 값을 구하시오. 52 + 31 = ?"
+    },
+    {
+      "case_id": "actual_ocr_0027",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g03_001",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/3학년/elementary_g03_001_easy_expression.png",
+      "band": "초등",
+      "grade": 3,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n44/4=?",
+      "expected_contains": "44 / 4",
+      "normalized_preview": "다음 식의 값을 구하시오. 44/4=?"
+    },
+    {
+      "case_id": "actual_ocr_0028",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g03_003",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/3학년/elementary_g03_003_easy_expression.png",
+      "band": "초등",
+      "grade": 3,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n8”29=07\n8*29=?",
+      "expected_contains": "8 * 29",
+      "normalized_preview": "다음 식의 값을 구하시오. 8*29=07 8*29=?"
+    },
+    {
+      "case_id": "actual_ocr_0029",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g03_006",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/3학년/elementary_g03_006_easy_expression.png",
+      "band": "초등",
+      "grade": 3,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n5 * 29 = ?",
+      "expected_contains": "5 * 29",
+      "normalized_preview": "다음 식의 값을 구하시오. 5 * 29 = ?"
+    },
+    {
+      "case_id": "actual_ocr_0030",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g03_008",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/3학년/elementary_g03_008_easy_expression.png",
+      "band": "초등",
+      "grade": 3,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 aS 구하시오.\n2/6 + 3/6 = ?\n다음 식의 값을 구하시오.",
+      "expected_contains": "2/6 + 3/6",
+      "normalized_preview": "다음 식의 aS 구하시오. 2/6 + 3/6 = ? 다음 식의 값을 구하시오."
+    },
+    {
+      "case_id": "actual_ocr_0031",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g03_011",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/3학년/elementary_g03_011_easy_expression.png",
+      "band": "초등",
+      "grade": 3,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 aS 구하시오.\n2/6 + 2/6 = ?\n다음 식의 값을 구하시오.",
+      "expected_contains": "2/6 + 2/6",
+      "normalized_preview": "다음 식의 aS 구하시오. 2/6 + 2/6 = ? 다음 식의 값을 구하시오."
+    },
+    {
+      "case_id": "actual_ocr_0032",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g04_001",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/4학년/elementary_g04_001_easy_expression.png",
+      "band": "초등",
+      "grade": 4,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n90/5=?",
+      "expected_contains": "90 / 5",
+      "normalized_preview": "다음 식의 값을 구하시오. 90/5=?"
+    },
+    {
+      "case_id": "actual_ocr_0033",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g04_003",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/4학년/elementary_g04_003_easy_expression.png",
+      "band": "초등",
+      "grade": 4,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n6*30=?",
+      "expected_contains": "6 * 30",
+      "normalized_preview": "다음 식의 값을 구하시오. 6*30=?"
+    },
+    {
+      "case_id": "actual_ocr_0034",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g04_006",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/4학년/elementary_g04_006_easy_expression.png",
+      "band": "초등",
+      "grade": 4,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n4*1/=?\n4*17=?",
+      "expected_contains": "4 * 17",
+      "normalized_preview": "다음 식의 값을 구하시오. 4*17=? 4*17=?"
+    },
+    {
+      "case_id": "actual_ocr_0035",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g04_008",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/4학년/elementary_g04_008_easy_expression.png",
+      "band": "초등",
+      "grade": 4,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n2/8 + 5/8 = ?",
+      "expected_contains": "2/8 + 5/8",
+      "normalized_preview": "다음 식의 값을 구하시오. 2/8 + 5/8 = ?"
+    },
+    {
+      "case_id": "actual_ocr_0036",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g04_011",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/4학년/elementary_g04_011_easy_expression.png",
+      "band": "초등",
+      "grade": 4,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "다음 식의 값을 구하시오.\n4/8 + 3/8 =?",
+      "expected_contains": "4/8 + 3/8",
+      "normalized_preview": "다음 식의 값을 구하시오. 4/8 + 3/8 =?"
+    },
+    {
+      "case_id": "actual_ocr_0037",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g05_001",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/5학년/elementary_g05_001_easy_expression.png",
+      "band": "초등",
+      "grade": 5,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "1900 * 25/100 =?",
+      "expected_contains": "1900 * 25 / 100",
+      "normalized_preview": "1900 * 25/100 =?"
+    },
+    {
+      "case_id": "actual_ocr_0038",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g05_003",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/5학년/elementary_g05_003_easy_expression.png",
+      "band": "초등",
+      "grade": 5,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "(83 + 79 + 89) / 3 = ?",
+      "expected_contains": "(83 + 79 + 89) / 3",
+      "normalized_preview": "(83 + 79 + 89) / 3 = ?"
+    },
+    {
+      "case_id": "actual_ocr_0039",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g05_006",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/5학년/elementary_g05_006_easy_expression.png",
+      "band": "초등",
+      "grade": 5,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "12*12 =?",
+      "expected_contains": "12 * 12",
+      "normalized_preview": "12*12 =?"
+    },
+    {
+      "case_id": "actual_ocr_0040",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g05_008",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/5학년/elementary_g05_008_easy_expression.png",
+      "band": "초등",
+      "grade": 5,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "2/3 + 1/6 = ?",
+      "expected_contains": "2/3 + 1/6",
+      "normalized_preview": "2/3 + 1/6 = ?"
+    },
+    {
+      "case_id": "actual_ocr_0041",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g05_011",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/5학년/elementary_g05_011_easy_expression.png",
+      "band": "초등",
+      "grade": 5,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "(91+ 91+ 94) / 3 = ?",
+      "expected_contains": "(91 + 91 + 94) / 3",
+      "normalized_preview": "(91+ 91+ 94) / 3 = ?"
+    },
+    {
+      "case_id": "actual_ocr_0042",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g06_001",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/6학년/elementary_g06_001_easy_expression.png",
+      "band": "초등",
+      "grade": 6,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "2200 * 30/100 =?",
+      "expected_contains": "2200 * 30 / 100",
+      "normalized_preview": "2200 * 30/100 =?"
+    },
+    {
+      "case_id": "actual_ocr_0043",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g06_003",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/6학년/elementary_g06_003_easy_expression.png",
+      "band": "초등",
+      "grade": 6,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "(86 + 85+ 88) / 3 = ?",
+      "expected_contains": "(86 + 85 + 88) / 3",
+      "normalized_preview": "(86 + 85+ 88) / 3 = ?"
+    },
+    {
+      "case_id": "actual_ocr_0044",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g06_006",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/6학년/elementary_g06_006_easy_expression.png",
+      "band": "초등",
+      "grade": 6,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "11*10 =?",
+      "expected_contains": "11 * 10",
+      "normalized_preview": "11*10 =?"
+    },
+    {
+      "case_id": "actual_ocr_0045",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g06_008",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/6학년/elementary_g06_008_easy_expression.png",
+      "band": "초등",
+      "grade": 6,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "5/12 + 1/3 = ?",
+      "expected_contains": "5/12 + 1/3",
+      "normalized_preview": "5/12 + 1/3 = ?"
+    },
+    {
+      "case_id": "actual_ocr_0046",
+      "source": "school_math_bank_image",
+      "problem_id": "elementary_g06_011",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/01.초등/6학년/elementary_g06_011_easy_expression.png",
+      "band": "초등",
+      "grade": 6,
+      "layout": "expression",
+      "difficulty": "easy",
+      "ocr_source": "pipeline_raw_text",
+      "noisy_text": "(69 + 95 + 63) / 3 = ?",
+      "expected_contains": "(69 + 95 + 63) / 3",
+      "normalized_preview": "(69 + 95 + 63) / 3 = ?"
+    }
+  ],
+  "pending_cases": [
+    {
+      "problem_id": "high_g01_001",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/03.고등/1학년/high_g01_001_easy_expression.png",
+      "expected_expression": "5+(6-1)*6",
+      "candidate_count": 3,
+      "candidate_previews": [
+        {
+          "ocr_source": "pipeline_raw_text",
+          "text": "등차수열의 첫째항이 5, 공차가 6입니다.\n제 6항을 구하시오.\n등차수열으 첫째항이 5, 공차가 6입니다.",
+          "normalized": "등차수열의 첫째항이 5, 공차가 6입니다. 제 6항을 구하시오. 등차수열으 첫째항이 5, 공차가 6입니다."
+        },
+        {
+          "ocr_source": "tesseract_selected",
+          "text": "등차수열의 첫째항이 5, 공차가 6입니다.\n제 6항을 구하시오.",
+          "normalized": "등차수열의 첫째항이 5, 공차가 6입니다. 제 6항을 구하시오."
+        },
+        {
+          "ocr_source": "tesseract_pass_2_original_table",
+          "text": "등차수열으 첫째항이 5, 공차가 6입니다.",
+          "normalized": "등차수열으 첫째항이 5, 공차가 6입니다."
+        }
+      ]
+    },
+    {
+      "problem_id": "high_g02_008",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/03.고등/2학년/high_g02_008_easy_expression.png",
+      "expected_expression": "9/23",
+      "candidate_count": 3,
+      "candidate_previews": [
+        {
+          "ocr_source": "pipeline_raw_text",
+          "text": "공 23개 중 빨간 공이 9개입니다\n임의로 하나를 뽑을 때 빨간 공일 확률은?\n공 23개 중 빨간 공이 9개입니다.",
+          "normalized": "공 23개 중 빨간 공이 9개입니다 임의로 하나를 뽑을 때 빨간 공일 확률은? 공 23개 중 빨간 공이 9개입니다."
+        },
+        {
+          "ocr_source": "tesseract_selected",
+          "text": "공 23개 중 빨간 공이 9개입니다\n임의로 하나를 뽑을 때 빨간 공일 확률은?",
+          "normalized": "공 23개 중 빨간 공이 9개입니다 임의로 하나를 뽑을 때 빨간 공일 확률은?"
+        },
+        {
+          "ocr_source": "tesseract_pass_1_original",
+          "text": "공 23개 중 빨간 공이 9개입니다.\n임의로 하나를 뽑을 때 빨간 공일 확률은?",
+          "normalized": "공 23개 중 빨간 공이 9개입니다. 임의로 하나를 뽑을 때 빨간 공일 확률은?"
+        }
+      ]
+    },
+    {
+      "problem_id": "high_g02_011",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/03.고등/2학년/high_g02_011_easy_expression.png",
+      "expected_expression": "22/40",
+      "candidate_count": 3,
+      "candidate_previews": [
+        {
+          "ocr_source": "pipeline_raw_text",
+          "text": "공 40개 중 빨간 공이 22개입니다.\n임의로 하나를 뽑을 때 빨간 aot 확률은?\n임의로 하나를 뽑을 때 빨간 공일 확률은?",
+          "normalized": "공 40개 중 빨간 공이 22개입니다. 임의로 하나를 뽑을 때 빨간 aot 확률은? 임의로 하나를 뽑을 때 빨간 공일 확률은?"
+        },
+        {
+          "ocr_source": "tesseract_selected",
+          "text": "공 40개 중 빨간 공이 22개입니다.\n임의로 하나를 뽑을 때 빨간 aot 확률은?",
+          "normalized": "공 40개 중 빨간 공이 22개입니다. 임의로 하나를 뽑을 때 빨간 aot 확률은?"
+        },
+        {
+          "ocr_source": "tesseract_pass_1_original",
+          "text": "공 40개 중 빨간 공이 22개입니다.\n임의로 하나를 뽑을 때 빨간 공일 확률은?",
+          "normalized": "공 40개 중 빨간 공이 22개입니다. 임의로 하나를 뽑을 때 빨간 공일 확률은?"
+        }
+      ]
+    },
+    {
+      "problem_id": "high_g03_001",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/03.고등/3학년/high_g03_001_easy_expression.png",
+      "expected_expression": "2*4",
+      "candidate_count": 2,
+      "candidate_previews": [
+        {
+          "ocr_source": "pipeline_raw_text",
+          "text": "함수 f(x) = 2의 그래프와 xB 사이의\n0 <=x <= 4 구간 넓이를 구하시오.",
+          "normalized": "함수 f(x) = 2의 그래프와 xB 사이의 0 <=x <= 4 구간 넓이를 구하시오."
+        },
+        {
+          "ocr_source": "tesseract_pass_2_preprocessed",
+          "text": "0 <=x <= 4 구간 넓이를 구하시오.",
+          "normalized": "0 <=x <= 4 구간 넓이를 구하시오."
+        }
+      ]
+    },
+    {
+      "problem_id": "high_g03_003",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/03.고등/3학년/high_g03_003_easy_expression.png",
+      "expected_expression": "2*6*-2+-5",
+      "candidate_count": 1,
+      "candidate_previews": [
+        {
+          "ocr_source": "pipeline_raw_text",
+          "text": "f(x) = 6x*2 + -5>*일 때\nf'(-2)2| 값을 구하시오.",
+          "normalized": "f(x) = 6x^2 + -5>*일 때 f'(-2)2| 값을 구하시오."
+        }
+      ]
+    },
+    {
+      "problem_id": "high_g03_006",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/03.고등/3학년/high_g03_006_easy_expression.png",
+      "expected_expression": "2*4*2+3",
+      "candidate_count": 3,
+      "candidate_previews": [
+        {
+          "ocr_source": "pipeline_raw_text",
+          "text": "f(x) = 4x*2 + 3>*일 때\nF'(2)2| 값을 구하시오.\nf(x) = 4x*2 + 3*일 때\nf'(2)2| 값을 구하시오.",
+          "normalized": "f(x) = 4x^2 + 3>*일 때 F'(2)2| 값을 구하시오. f(x) = 4x^2 + 3*일 때 f'(2)2| 값을 구하시오."
+        },
+        {
+          "ocr_source": "tesseract_selected",
+          "text": "f(x) = 4x*2 + 3>*일 때\nF'(2)2| 값을 구하시오.",
+          "normalized": "f(x) = 4x^2 + 3>*일 때 F'(2)2| 값을 구하시오."
+        },
+        {
+          "ocr_source": "tesseract_pass_1_original",
+          "text": "f(x) = 4x*2 + 3*일 때\nf'(2)2| 값을 구하시오.",
+          "normalized": "f(x) = 4x^2 + 3*일 때 f'(2)2| 값을 구하시오."
+        }
+      ]
+    },
+    {
+      "problem_id": "high_g03_008",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/03.고등/3학년/high_g03_008_easy_expression.png",
+      "expected_expression": "(81+70+97+96+98)/5",
+      "candidate_count": 3,
+      "candidate_previews": [
+        {
+          "ocr_source": "pipeline_raw_text",
+          "text": "다음 자료의 평균을 구하시오.\n81, 70, 97 96, 98\n81, 70, 97, 96, 98",
+          "normalized": "다음 자료의 평균을 구하시오. 81, 70, 97 96, 98 81, 70, 97, 96, 98"
+        },
+        {
+          "ocr_source": "tesseract_selected",
+          "text": "다음 자료의 평균을 구하시오.\n81, 70, 97 96, 98",
+          "normalized": "다음 자료의 평균을 구하시오. 81, 70, 97 96, 98"
+        },
+        {
+          "ocr_source": "tesseract_pass_1_original",
+          "text": "다음 자료의 평균을 구하시오.\n81, 70, 97, 96, 98",
+          "normalized": "다음 자료의 평균을 구하시오. 81, 70, 97, 96, 98"
+        }
+      ]
+    },
+    {
+      "problem_id": "high_g03_011",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/03.고등/3학년/high_g03_011_easy_expression.png",
+      "expected_expression": "(78+68+82+66+80)/5",
+      "candidate_count": 3,
+      "candidate_previews": [
+        {
+          "ocr_source": "pipeline_raw_text",
+          "text": "다음 자료의 평균을 구하시오.\n78, 68, 82, 66, 80\n78, 68, 82. 66, 80",
+          "normalized": "다음 자료의 평균을 구하시오. 78, 68, 82, 66, 80 78, 68, 82. 66, 80"
+        },
+        {
+          "ocr_source": "tesseract_selected",
+          "text": "다음 자료의 평균을 구하시오.\n78, 68, 82, 66, 80",
+          "normalized": "다음 자료의 평균을 구하시오. 78, 68, 82, 66, 80"
+        },
+        {
+          "ocr_source": "tesseract_pass_1_original",
+          "text": "다음 자료의 평균을 구하시오.\n78, 68, 82. 66, 80",
+          "normalized": "다음 자료의 평균을 구하시오. 78, 68, 82. 66, 80"
+        }
+      ]
+    },
+    {
+      "problem_id": "middle_g02_001",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/02.중등/2학년/middle_g02_001_easy_expression.png",
+      "expected_expression": "y = 4x + 9",
+      "candidate_count": 3,
+      "candidate_previews": [
+        {
+          "ocr_source": "pipeline_raw_text",
+          "text": "일차함수 / = 4x + 9에서\nx= 0일 때 의 값을 구하시오.\n일차함수 / = 4* + 9에서\nx = 0일 때 \\의 AS 구하시오.",
+          "normalized": "일차함수 / = 4x + 9에서 x= 0일 때 의 값을 구하시오. 일차함수 / = 4* + 9에서 x = 0일 때 \\의 AS 구하시오."
+        },
+        {
+          "ocr_source": "tesseract_selected",
+          "text": "일차함수 / = 4x + 9에서\nx= 0일 때 의 값을 구하시오.",
+          "normalized": "일차함수 / = 4x + 9에서 x= 0일 때 의 값을 구하시오."
+        },
+        {
+          "ocr_source": "tesseract_pass_1_original",
+          "text": "일차함수 / = 4* + 9에서\nx = 0일 때 \\의 AS 구하시오.",
+          "normalized": "일차함수 / = 4* + 9에서 x = 0일 때 \\의 AS 구하시오."
+        }
+      ]
+    },
+    {
+      "problem_id": "middle_g02_003",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/02.중등/2학년/middle_g02_003_easy_expression.png",
+      "expected_expression": "y = 5x + -1",
+      "candidate_count": 3,
+      "candidate_previews": [
+        {
+          "ocr_source": "pipeline_raw_text",
+          "text": "일차함수 / = 5x + -1에서\nX= 8일 때 yO] KS 구하시오.\n일차함수 = 5x + -1에서\nx = BS 때 \\의 값을 구하시오.",
+          "normalized": "일차함수 / = 5x + -1에서 X= 8일 때 yO] KS 구하시오. 일차함수 = 5x + -1에서 x = BS 때 \\의 값을 구하시오."
+        },
+        {
+          "ocr_source": "tesseract_selected",
+          "text": "일차함수 / = 5x + -1에서\nX= 8일 때 yO] KS 구하시오.",
+          "normalized": "일차함수 / = 5x + -1에서 X= 8일 때 yO] KS 구하시오."
+        },
+        {
+          "ocr_source": "tesseract_pass_1_original",
+          "text": "일차함수 = 5x + -1에서\nx = BS 때 \\의 값을 구하시오.",
+          "normalized": "일차함수 = 5x + -1에서 x = BS 때 \\의 값을 구하시오."
+        }
+      ]
+    },
+    {
+      "problem_id": "middle_g02_006",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/02.중등/2학년/middle_g02_006_easy_expression.png",
+      "expected_expression": "y = 3x + 6",
+      "candidate_count": 3,
+      "candidate_previews": [
+        {
+          "ocr_source": "pipeline_raw_text",
+          "text": "일차함수 / = 3x + 6에서\nx = -5일 때 의 값을 구하시오.\nx = -5일 때 \\의 AS 구하시오.",
+          "normalized": "일차함수 / = 3x + 6에서 x = -5일 때 의 값을 구하시오. x = -5일 때 \\의 AS 구하시오."
+        },
+        {
+          "ocr_source": "tesseract_selected",
+          "text": "일차함수 / = 3x + 6에서\nx = -5일 때 의 값을 구하시오.",
+          "normalized": "일차함수 / = 3x + 6에서 x = -5일 때 의 값을 구하시오."
+        },
+        {
+          "ocr_source": "tesseract_pass_1_original",
+          "text": "일차함수 / = 3x + 6에서\nx = -5일 때 \\의 AS 구하시오.",
+          "normalized": "일차함수 / = 3x + 6에서 x = -5일 때 \\의 AS 구하시오."
+        }
+      ]
+    },
+    {
+      "problem_id": "middle_g02_011",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/02.중등/2학년/middle_g02_011_easy_expression.png",
+      "expected_expression": "y = 4x + 7",
+      "candidate_count": 3,
+      "candidate_previews": [
+        {
+          "ocr_source": "pipeline_raw_text",
+          "text": "일차함수 = 4x + 7에서\nx = -2일 때 의 AS 구하시오.\n일차함수 / = 4x + 7에서\nx = -2일 때 \\의 값을 구하시오.",
+          "normalized": "일차함수 = 4x + 7에서 x = -2일 때 의 AS 구하시오. 일차함수 / = 4x + 7에서 x = -2일 때 \\의 값을 구하시오."
+        },
+        {
+          "ocr_source": "tesseract_selected",
+          "text": "일차함수 = 4x + 7에서\nx = -2일 때 의 AS 구하시오.",
+          "normalized": "일차함수 = 4x + 7에서 x = -2일 때 의 AS 구하시오."
+        },
+        {
+          "ocr_source": "tesseract_pass_1_original",
+          "text": "일차함수 / = 4x + 7에서\nx = -2일 때 \\의 값을 구하시오.",
+          "normalized": "일차함수 / = 4x + 7에서 x = -2일 때 \\의 값을 구하시오."
+        }
+      ]
+    },
+    {
+      "problem_id": "middle_g03_001",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/02.중등/3학년/middle_g03_001_easy_expression.png",
+      "expected_expression": "x^2 + 2x = 8",
+      "candidate_count": 3,
+      "candidate_previews": [
+        {
+          "ocr_source": "pipeline_raw_text",
+          "text": "다음 식의 값을 구하시오.\n*2+2=8\n*2+2<=8",
+          "normalized": "다음 식의 값을 구하시오. *2+2=8 *2+2<=8"
+        },
+        {
+          "ocr_source": "tesseract_selected",
+          "text": "다음 식의 값을 구하시오.\n*2+2=8",
+          "normalized": "다음 식의 값을 구하시오. *2+2=8"
+        },
+        {
+          "ocr_source": "tesseract_pass_1_original",
+          "text": "다음 식의 값을 구하시오.\n*2+2<=8",
+          "normalized": "다음 식의 값을 구하시오. *2+2<=8"
+        }
+      ]
+    },
+    {
+      "problem_id": "middle_g03_011",
+      "image_path": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/02.중등/3학년/middle_g03_011_easy_expression.png",
+      "expected_expression": "sqrt(9 + 16)",
+      "candidate_count": 1,
+      "candidate_previews": [
+        {
+          "ocr_source": "pipeline_raw_text",
+          "text": "다음 식의 값을 구하시오.\nsqrt(9 + 16)",
+          "normalized": "다음 식의 값을 구하시오. sqrt(9 + 16)"
+        }
+      ]
+    }
+  ]
+}

@@ -6,11 +6,6 @@ from fractions import Fraction
 
 from app.models.problem_schema import ProblemSchema
 
-try:
-    import sympy as sp
-except Exception:
-    sp = None
-
 
 TRIG_TABLE = {
     ("cos", "0"): "1",
@@ -124,6 +119,10 @@ def solve(problem: ProblemSchema) -> dict:
     expression = re.sub(r"\s+", "", expression)
 
     answer = ""
+    try:
+        import sympy as sp
+    except Exception:
+        sp = None
     if sp is not None:
         try:
             answer = _format_sympy_answer(sp.simplify(sp.sympify(expression)))

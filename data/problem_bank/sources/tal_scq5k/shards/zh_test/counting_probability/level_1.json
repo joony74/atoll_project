@@ -1,0 +1,1672 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_1:00682",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 682,
+      "split": "zh_test",
+      "source_problem_id": "cb63199c4b4c483b935b740a99f37b1c"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "星期天，许多帮助妈妈做一些家务。已知做各项家务花的时间为：叠被子$$3$$分钟，洗碗$$8$$分钟，用洗衣机洗衣服$$30$$分钟，晾衣服$$5$$分钟。为了节约时间，上面哪些事情可以同时做？（  ）\n(A) 叠被子、洗碗\n(B) 用洗衣机洗衣服、晾衣服\n(C) 用洗衣机洗衣服、洗碗",
+      "problem_plain": "星期天，许多帮助妈妈做一些家务。已知做各项家务花的时间为：叠被子 3 分钟，洗碗 8 分钟，用洗衣机洗衣服 30 分钟，晾衣服 5 分钟。为了节约时间，上面哪些事情可以同时做？（ ） (A) 叠被子、洗碗 (B) 用洗衣机洗衣服、晾衣服 (C) 用洗衣机洗衣服、洗碗",
+      "solution_latex": "解：合理利用空闲时间。",
+      "solution_plain": "解：合理利用空闲时间。"
+    },
+    "answer": {
+      "final_raw": "用洗衣机洗衣服、洗碗",
+      "final_normalized": "用洗衣机洗衣服、洗碗",
+      "candidates": [
+        "C",
+        "用洗衣机洗衣服、洗碗"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "解：合理利用空闲时间。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "星期天，许多帮助妈妈做一些家务。已知做各项家务花的时间为：叠被子 3 分钟，洗碗 8 分钟，用洗衣机洗衣服 30 分钟，晾衣服 5 分钟。为了节约时间，上面哪些事情可以同时做？（ ） (A) 叠被子、洗碗 (B) 用洗衣机洗衣服、晾衣服 (C) 用洗衣机洗衣服、洗碗",
+      "solution_text": "解：合理利用空闲时间。",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "521",
+        "queId": "cb63199c4b4c483b935b740a99f37b1c",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "叠被子、洗碗"
+          },
+          {
+            "label": "B",
+            "content": "用洗衣机洗衣服、晾衣服"
+          },
+          {
+            "label": "C",
+            "content": "用洗衣机洗衣服、洗碗"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->操作与策略->统筹规划->简单时间统筹问题->时间总和问题"
+        ],
+        "competition_source_list": [
+          "2013年中环杯三年级竞赛决赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_1:00692",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 692,
+      "split": "zh_test",
+      "source_problem_id": "848827c2654e41468925e2fd7bf4cdf7"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "音乐课上，聪聪坐在音乐教室的第$$4$$列、第$$2$$行，用数对表示是$$(3,1)$$，明明坐在聪聪正后方的第一个位置上，明明的位置用数对表示是．\n(A) \\left( 3,2 \\right)\n(B) (4,1)\n(C) (4,2)\n(D) (5,2)",
+      "problem_plain": "音乐课上，聪聪坐在音乐教室的第 4 列、第 2 行，用数对表示是 (3,1) ，明明坐在聪聪正后方的第一个位置上，明明的位置用数对表示是． (A) ( 3,2 ) (B) (4,1) (C) (4,2) (D) (5,2)",
+      "solution_latex": "聪聪的正后方的第一个位置和聪聪的列数相同，行数加一，所以表示为$$\\left( 3,2 \\right)$$．  故选$$\\text{A}$$．",
+      "solution_plain": "聪聪的正后方的第一个位置和聪聪的列数相同，行数加一，所以表示为 ( 3,2 ) ． 故选 A ．"
+    },
+    "answer": {
+      "final_raw": "\\left( 3,2 \\right)",
+      "final_normalized": "\\left( 3,2 \\right)",
+      "candidates": [
+        "A",
+        "\\left( 3,2 \\right)"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "聪聪的正后方的第一个位置和聪聪的列数相同，行数加一，所以表示为$$\\left( 3,2 \\right)$$．  故选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "音乐课上，聪聪坐在音乐教室的第 4 列、第 2 行，用数对表示是 (3,1) ，明明坐在聪聪正后方的第一个位置上，明明的位置用数对表示是． (A) ( 3,2 ) (B) (4,1) (C) (4,2) (D) (5,2)",
+      "solution_text": "聪聪的正后方的第一个位置和聪聪的列数相同，行数加一，所以表示为 ( 3,2 ) ． 故选 A ．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "320",
+        "queId": "848827c2654e41468925e2fd7bf4cdf7",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\left( 3,2 \\right)"
+          },
+          {
+            "label": "B",
+            "content": "(4,1)"
+          },
+          {
+            "label": "C",
+            "content": "(4,2)"
+          },
+          {
+            "label": "D",
+            "content": "(5,2)"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->方向与坐标->坐标"
+        ],
+        "competition_source_list": [
+          "2016年全国小学生数学学习能力测评五年级竞赛复赛第7题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_1:00830",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 830,
+      "split": "zh_test",
+      "source_problem_id": "14184379e93746be8d0d4aef7d614ea3"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "连接武汉与广州的高铁，中途只停六个车站，那么应该印制（  ）种车票。\n(A) 30\n(B) 42\n(C) 56\n(D) 60",
+      "problem_plain": "连接武汉与广州的高铁，中途只停六个车站，那么应该印制（ ）种车票。 (A) 30 (B) 42 (C) 56 (D) 60",
+      "solution_latex": "加上首尾两站共$$8$$个站，共有$$\\text{C}_{8}^{2}=28$$（种）组合，考虑车票的次序共有$$28\\times 2=56$$（种）。",
+      "solution_plain": "加上首尾两站共 8 个站，共有 C _ 8 ^ 2 =28 （种）组合，考虑车票的次序共有 28 2=56 （种）。"
+    },
+    "answer": {
+      "final_raw": "56",
+      "final_normalized": "56",
+      "candidates": [
+        "56",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "加上首尾两站共$$8$$个站，共有$$\\text{C}_{8}^{2}=28$$（种）组合，考虑车票的次序共有$$28\\times 2=56$$（种）。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "连接武汉与广州的高铁，中途只停六个车站，那么应该印制（ ）种车票。 (A) 30 (B) 42 (C) 56 (D) 60",
+      "solution_text": "加上首尾两站共 8 个站，共有 C _ 8 ^ 2 =28 （种）组合，考虑车票的次序共有 28 2=56 （种）。",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3165",
+        "queId": "14184379e93746be8d0d4aef7d614ea3",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "30"
+          },
+          {
+            "label": "B",
+            "content": "42"
+          },
+          {
+            "label": "C",
+            "content": "56"
+          },
+          {
+            "label": "D",
+            "content": "60"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计数模块->排列组合->组合->组合的基本运算"
+        ],
+        "competition_source_list": [
+          "2011年六年级竞赛创新杯"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_1:00946",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 946,
+      "split": "zh_test",
+      "source_problem_id": "90fcb64478ef49fdb8a9fe7106d80cd8"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$5$$个人围坐在一张圆桌旁就餐，有（  ）种不同的坐法。（如果某种排法可以通过旋转得到另一种排法，那么这两种排法算作同一种）\n(A) 22\n(B) 24\n(C) 26",
+      "problem_plain": "5 个人围坐在一张圆桌旁就餐，有（ ）种不同的坐法。（如果某种排法可以通过旋转得到另一种排法，那么这两种排法算作同一种） (A) 22 (B) 24 (C) 26",
+      "solution_latex": "圆桌可以旋转，先固定$$1$$人，剩下的$$4$$人进行全排列即可，所以有$$1\\times\\text{A}_{\\text{4}}^{\\text{4}}=1\\times4\\times3\\times2\\times1=24$$（种）。  故选：B。",
+      "solution_plain": "圆桌可以旋转，先固定 1 人，剩下的 4 人进行全排列即可，所以有 1 A _ 4 ^ 4 =1 4 3 2 1=24 （种）。 故选：B。"
+    },
+    "answer": {
+      "final_raw": "24",
+      "final_normalized": "24",
+      "candidates": [
+        "24",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "圆桌可以旋转，先固定$$1$$人，剩下的$$4$$人进行全排列即可，所以有$$1\\times\\text{A}_{\\text{4}}^{\\text{4}}=1\\times4\\times3\\times2\\times1=24$$（种）。",
+        "故选：B。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "5 个人围坐在一张圆桌旁就餐，有（ ）种不同的坐法。（如果某种排法可以通过旋转得到另一种排法，那么这两种排法算作同一种） (A) 22 (B) 24 (C) 26",
+      "solution_text": "圆桌可以旋转，先固定 1 人，剩下的 4 人进行全排列即可，所以有 1 A _ 4 ^ 4 =1 4 3 2 1=24 （种）。 故选：B。",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3316",
+        "queId": "90fcb64478ef49fdb8a9fe7106d80cd8",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "22"
+          },
+          {
+            "label": "B",
+            "content": "24"
+          },
+          {
+            "label": "C",
+            "content": "26"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计数模块->排列组合->排列->排列的基本应用"
+        ],
+        "competition_source_list": [
+          "2014年走美杯五年级竞赛初赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_1:00957",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 957,
+      "split": "zh_test",
+      "source_problem_id": "ae581a583c684dac8abc25530462747a"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在$$1829$$年法国盲人路易布莱尔发明了点字，他是由一个框内的$$6$$个凸或者不凸的点组成，以凸点数的多少和位置的不同，代表不同的符号，因此可以变化组成（~ ）个不同的符号（没有任何凸点就不计数），这已成为现代国际上普遍采用的盲文形式．\n(A) 6\n(B) 31\n(C) 63\n(D) 64",
+      "problem_plain": "在 1829 年法国盲人路易布莱尔发明了点字，他是由一个框内的 6 个凸或者不凸的点组成，以凸点数的多少和位置的不同，代表不同的符号，因此可以变化组成（~ ）个不同的符号（没有任何凸点就不计数），这已成为现代国际上普遍采用的盲文形式． (A) 6 (B) 31 (C) 63 (D) 64",
+      "solution_latex": "由于没有任何凸点就不计数，则不同的符号有$${{2}^{6}}-1=63$$个．",
+      "solution_plain": "由于没有任何凸点就不计数，则不同的符号有 2 ^ 6 -1=63 个．"
+    },
+    "answer": {
+      "final_raw": "63",
+      "final_normalized": "63",
+      "candidates": [
+        "63",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由于没有任何凸点就不计数，则不同的符号有$${{2}^{6}}-1=63$$个．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在 1829 年法国盲人路易布莱尔发明了点字，他是由一个框内的 6 个凸或者不凸的点组成，以凸点数的多少和位置的不同，代表不同的符号，因此可以变化组成（~ ）个不同的符号（没有任何凸点就不计数），这已成为现代国际上普遍采用的盲文形式． (A) 6 (B) 31 (C) 63 (D) 64",
+      "solution_text": "由于没有任何凸点就不计数，则不同的符号有 2 ^ 6 -1=63 个．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3412",
+        "queId": "ae581a583c684dac8abc25530462747a",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "31"
+          },
+          {
+            "label": "C",
+            "content": "63"
+          },
+          {
+            "label": "D",
+            "content": "64"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计数模块->加乘原理->乘法原理->物品搭配"
+        ],
+        "competition_source_list": [
+          "2016年全国世奥赛五年级竞赛A卷第7题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_1:01065",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1065,
+      "split": "zh_test",
+      "source_problem_id": "0c78d5b15aea42d9977c8de3ee6a0d05"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "甲、乙、丙、丁四人进行射击测试，每人$$10$$次射击的平均成绩恰好都是$$9.2$$环，方差分别是$$S_{甲}^{2}=0.56$$，$$S_{乙}^{2}=0.45$$，$$S_{丙}^{2}=0.50$$，$$S_{丁}^{2}=0.60$$，则成绩最稳定的是．\n(A) 甲\n(B) 乙\n(C) 丙\n(D) 丁",
+      "problem_plain": "甲、乙、丙、丁四人进行射击测试，每人 10 次射击的平均成绩恰好都是 9.2 环，方差分别是 S_ 甲 ^ 2 =0.56 ， S_ 乙 ^ 2 =0.45 ， S_ 丙 ^ 2 =0.50 ， S_ 丁 ^ 2 =0.60 ，则成绩最稳定的是． (A) 甲 (B) 乙 (C) 丙 (D) 丁",
+      "solution_latex": "由题意得：  $$S_{乙}^{2}\\textless{}S_{丙}^{2}\\textless{}S_{甲}^{2}\\textless{}S_{丁}^{2}$$，  ∴最稳定的是乙．  选$$\\text{B}$$．",
+      "solution_plain": "由题意得： S_ 乙 ^ 2 S_ 丙 ^ 2 S_ 甲 ^ 2 S_ 丁 ^ 2 ， ∴最稳定的是乙． 选 B ．"
+    },
+    "answer": {
+      "final_raw": "乙",
+      "final_normalized": "乙",
+      "candidates": [
+        "B",
+        "乙"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由题意得：  $$S_{乙}^{2}\\textless{}S_{丙}^{2}\\textless{}S_{甲}^{2}\\textless{}S_{丁}^{2}$$，  ∴最稳定的是乙．  选$$\\text{B}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "甲、乙、丙、丁四人进行射击测试，每人 10 次射击的平均成绩恰好都是 9.2 环，方差分别是 S_ 甲 ^ 2 =0.56 ， S_ 乙 ^ 2 =0.45 ， S_ 丙 ^ 2 =0.50 ， S_ 丁 ^ 2 =0.60 ，则成绩最稳定的是． (A) 甲 (B) 乙 (C) 丙 (D) 丁",
+      "solution_text": "由题意得： S_ 乙 ^ 2 S_ 丙 ^ 2 S_ 甲 ^ 2 S_ 丁 ^ 2 ， ∴最稳定的是乙． 选 B ．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "160",
+        "queId": "0c78d5b15aea42d9977c8de3ee6a0d05",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "甲"
+          },
+          {
+            "label": "B",
+            "content": "乙"
+          },
+          {
+            "label": "C",
+            "content": "丙"
+          },
+          {
+            "label": "D",
+            "content": "丁"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->数据处理能力",
+          "课内体系->知识点->统计与概率->数据的分析->方差"
+        ],
+        "competition_source_list": [
+          "2018~2019学年湖北宜昌初三下学期期中（东部）第7题",
+          "2019年广东惠州惠城区光正实验学校初二竞赛第10题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_1:01563",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1563,
+      "split": "zh_test",
+      "source_problem_id": "5f318f2c0b074d529808650f8ba3bb1f"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有下列调查方式：  ①学校为了解高一学生的数学学习情况，从每班抽$$2$$人进行座谈；  ②一次数学竞赛中，某班有$$15$$人在$$100$$分以上，$$35$$人在$$90\\sim 100$$分，$$10$$人低于$$90$$分．现在从中抽取$$12$$人座谈了解情况；  ③运动会中工作人员为参加$$400\\text{m}$$比赛的$$6$$名同学公平安排跑道．  就这三个调查方式，最合适的抽样方法依次为．\n(A) 分层抽样，系统抽样，简单随机抽样\n(B) 系统抽样，系统抽样，简单随机抽样\n(C) 分层抽样，简单随机抽样，简单随机抽样\n(D) 系统抽样，分层抽样，简单随机抽样",
+      "problem_plain": "有下列调查方式： ①学校为了解高一学生的数学学习情况，从每班抽 2 人进行座谈； ②一次数学竞赛中，某班有 15 人在 100 分以上， 35 人在 90 100 分， 10 人低于 90 分．现在从中抽取 12 人座谈了解情况； ③运动会中工作人员为参加 400 m 比赛的 6 名同学公平安排跑道． 就这三个调查方式，最合适的抽样方法依次为． (A) 分层抽样，系统抽样，简单随机抽样 (B) 系统抽样，系统抽样，简单随机抽样 (C) 分层抽样，简单随机抽样，简单随机抽样 (D) 系统抽样，分层抽样，简单随机抽样",
+      "solution_latex": "在①中，因为总体已经按班级进行分组，故适合于系统抽样；  在②中，因为总体形成差异明显的三个层次，故适合于分层抽样；  在③中，因为总体单元数较少，故适合于简单随机抽样．  故选：$$\\text{D}$$．",
+      "solution_plain": "在①中，因为总体已经按班级进行分组，故适合于系统抽样； 在②中，因为总体形成差异明显的三个层次，故适合于分层抽样； 在③中，因为总体单元数较少，故适合于简单随机抽样． 故选： D ．"
+    },
+    "answer": {
+      "final_raw": "系统抽样，分层抽样，简单随机抽样",
+      "final_normalized": "系统抽样，分层抽样，简单随机抽样",
+      "candidates": [
+        "D",
+        "系统抽样，分层抽样，简单随机抽样"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "在①中，因为总体已经按班级进行分组，故适合于系统抽样；  在②中，因为总体形成差异明显的三个层次，故适合于分层抽样；  在③中，因为总体单元数较少，故适合于简单随机抽样．  故选：$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有下列调查方式： ①学校为了解高一学生的数学学习情况，从每班抽 2 人进行座谈； ②一次数学竞赛中，某班有 15 人在 100 分以上， 35 人在 90 100 分， 10 人低于 90 分．现在从中抽取 12 人座谈了解情况； ③运动会中工作人员为参加 400 m 比赛的 6 名同学公平安排跑道． 就这三个调查方式，最合适的抽样方法依次为． (A) 分层抽样，系统抽样，简单随机抽样 (B) 系统抽样，系统抽样，简单随机抽样 (C) 分层抽样，简单随机抽样，简单随机抽样 (D) 系统抽样，分层抽样，简单随机抽样",
+      "solution_text": "在①中，因为总体已经按班级进行分组，故适合于系统抽样； 在②中，因为总体形成差异明显的三个层次，故适合于分层抽样； 在③中，因为总体单元数较少，故适合于简单随机抽样． 故选： D ．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "576",
+        "queId": "5f318f2c0b074d529808650f8ba3bb1f",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "分层抽样，系统抽样，简单随机抽样"
+          },
+          {
+            "label": "B",
+            "content": "系统抽样，系统抽样，简单随机抽样"
+          },
+          {
+            "label": "C",
+            "content": "分层抽样，简单随机抽样，简单随机抽样"
+          },
+          {
+            "label": "D",
+            "content": "系统抽样，分层抽样，简单随机抽样"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->素养->数据分析",
+          "课内体系->知识点->统计与概率->统计->随机抽样->系统抽样",
+          "课内体系->知识点->统计与概率->统计->随机抽样->分层随机抽样",
+          "课内体系->知识点->统计与概率->统计->随机抽样->简单随机抽样"
+        ],
+        "competition_source_list": [
+          "2017~2018学年福建漳州东山县福建省东山第二中学高二上学期期中文科第1题5分",
+          "2020~2021学年河北石家庄新华区石家庄市第二中学高二上学期期中（竞赛班）第9题3分",
+          "2017~2018学年5月江西南昌东湖区南昌市第十中学高一下学期月考文科第3题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_1:01635",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1635,
+      "split": "zh_test",
+      "source_problem_id": "be223a5254084ded948c13fcf8222361"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "甲、乙、丙三人一起玩``剪刀、石头、布''的游戏．每一局甲、乙、丙同时出``剪刀、石头、布''中的一种手势，且是相互独立的．设在一局中甲赢的人数为$$\\xi $$，则随机变量$$\\xi $$的数学期望$$E\\xi $$的值为．\n(A) \\frac{1}{3}\n(B) \\frac{4}{9}\n(C) \\frac{2}{3}\n(D) 1",
+      "problem_plain": "甲、乙、丙三人一起玩``剪刀、石头、布''的游戏．每一局甲、乙、丙同时出``剪刀、石头、布''中的一种手势，且是相互独立的．设在一局中甲赢的人数为 ，则随机变量 的数学期望 E 的值为． (A) 1 3 (B) 4 9 (C) 2 3 (D) 1",
+      "solution_latex": "$$P(\\xi =0)=\\frac{3\\times 4}{27}=\\frac{4}{9}$$,$$P(\\xi =1)=\\frac{3\\times 4}{27}=\\frac{4}{9}$$,$$P(\\xi =2)=\\frac{3\\times 1}{27}=\\frac{1}{9}$$,  于是$$E\\xi =\\frac{4}{9}\\times 0+\\frac{4}{9}\\times 1+\\frac{1}{9}\\times 2=\\frac{2}{3}$$.",
+      "solution_plain": "P( =0)= 3 4 27 = 4 9 , P( =1)= 3 4 27 = 4 9 , P( =2)= 3 1 27 = 1 9 , 于是 E = 4 9 0+ 4 9 1+ 1 9 2= 2 3 ."
+    },
+    "answer": {
+      "final_raw": "\\frac{2}{3}",
+      "final_normalized": "\\frac{2}{3}",
+      "candidates": [
+        "C",
+        "\\frac{2}{3}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$P(\\xi =0)=\\frac{3\\times 4}{27}=\\frac{4}{9}$$,$$P(\\xi =1)=\\frac{3\\times 4}{27}=\\frac{4}{9}$$,$$P(\\xi =2)=\\frac{3\\times 1}{27}=\\frac{1}{9}$$,  于是$$E\\xi =\\frac{4}{9}\\times 0+\\frac{4}{9}\\times 1+\\frac{1}{9}\\times 2=\\frac{2}{3}$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "甲、乙、丙三人一起玩``剪刀、石头、布''的游戏．每一局甲、乙、丙同时出``剪刀、石头、布''中的一种手势，且是相互独立的．设在一局中甲赢的人数为 ，则随机变量 的数学期望 E 的值为． (A) 1 3 (B) 4 9 (C) 2 3 (D) 1",
+      "solution_text": "P( =0)= 3 4 27 = 4 9 , P( =1)= 3 4 27 = 4 9 , P( =2)= 3 1 27 = 1 9 , 于是 E = 4 9 0+ 4 9 1+ 1 9 2= 2 3 .",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "320",
+        "queId": "be223a5254084ded948c13fcf8222361",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{1}{3}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{4}{9}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{2}{3}"
+          },
+          {
+            "label": "D",
+            "content": "1"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->排列组合与概率->概率初步"
+        ],
+        "competition_source_list": [
+          "2011年四川全国高中数学联赛竞赛初赛第3题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_1:01723",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1723,
+      "split": "zh_test",
+      "source_problem_id": "1691bd50694c473c9e62e694d052a6d8"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$${{\\left( {{x}^{2}}-\\frac{1}{x} \\right)}^{n}}$$的展开式中，常数项为$$15$$，则$$n$$的值为．\n(A) 3\n(B) 6\n(C) 9\n(D) 12",
+      "problem_plain": "( x ^ 2 - 1 x ) ^ n 的展开式中，常数项为 15 ，则 n 的值为． (A) 3 (B) 6 (C) 9 (D) 12",
+      "solution_latex": "$${{\\left( {{x}^{2}}-\\frac{1}{x} \\right)}^{n}}$$的展开式中，常数项为$$15$$，则$$\\text{C}_{n}^{k}{{\\left( {{x}^{2}} \\right)}^{k}}{{\\left( -\\frac{1}{x} \\right)}^{n-k}}=15$$，其中$$2k+k-n=0$$，即$$k=\\frac{n}{3}$$，所以$$n$$应被$$3$$整除，由此得$$\\text{C}_{n}^{\\frac{n}{3}}=15$$．当$$n=3$$时，$$\\text{C}_{3}^{1}=3\\ne 15$$，当$$n=6$$时，$$\\text{C}_{6}^{2}=15$$．",
+      "solution_plain": "( x ^ 2 - 1 x ) ^ n 的展开式中，常数项为 15 ，则 C _ n ^ k ( x ^ 2 ) ^ k ( - 1 x ) ^ n-k =15 ，其中 2k+k-n=0 ，即 k= n 3 ，所以 n 应被 3 整除，由此得 C _ n ^ n 3 =15 ．当 n=3 时， C _ 3 ^ 1 =3 15 ，当 n=6 时， C _ 6 ^ 2 =15 ．"
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$${{\\left( {{x}^{2}}-\\frac{1}{x} \\right)}^{n}}$$的展开式中，常数项为$$15$$，则$$\\text{C}_{n}^{k}{{\\left( {{x}^{2}} \\right)}^{k}}{{\\left( -\\frac{1}{x} \\right)}^{n-k}}=15$$，其中$$2k+k-n=0$$，即$$k=\\frac{n}{3}$$，所以$$n$$应被$$3$$整除，由此得$$\\text{C}_{n}^{\\frac{n}{3}}=15$$．当$$n=3$$时，$$\\text{C}_{3}^{1}=3\\ne 15$$，当$$n=6$$时，$$\\text{C}_{6}^{2}=15$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "( x ^ 2 - 1 x ) ^ n 的展开式中，常数项为 15 ，则 n 的值为． (A) 3 (B) 6 (C) 9 (D) 12",
+      "solution_text": "( x ^ 2 - 1 x ) ^ n 的展开式中，常数项为 15 ，则 C _ n ^ k ( x ^ 2 ) ^ k ( - 1 x ) ^ n-k =15 ，其中 2k+k-n=0 ，即 k= n 3 ，所以 n 应被 3 整除，由此得 C _ n ^ n 3 =15 ．当 n=3 时， C _ 3 ^ 1 =3 15 ，当 n=6 时， C _ 6 ^ 2 =15 ．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "291",
+        "queId": "1691bd50694c473c9e62e694d052a6d8",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "6"
+          },
+          {
+            "label": "C",
+            "content": "9"
+          },
+          {
+            "label": "D",
+            "content": "12"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->排列组合与概率->二项式定理及其应用"
+        ],
+        "competition_source_list": [
+          "2012年山东全国高中数学联赛竞赛初赛第3题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_1:01746",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1746,
+      "split": "zh_test",
+      "source_problem_id": "37105bc046fb47ffb61d5a0fd0a1fc3c"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "对于简单随机抽样，每个个体每次被抽到的机会．\n(A) 相等\n(B) 不相等\n(C) 无法确定\n(D) 与抽取的次数有关",
+      "problem_plain": "对于简单随机抽样，每个个体每次被抽到的机会． (A) 相等 (B) 不相等 (C) 无法确定 (D) 与抽取的次数有关",
+      "solution_latex": "根据简单随机抽样的定义可得，每个个体被抽到的机会都是相等的．  故选$$\\text{A}$$．",
+      "solution_plain": "根据简单随机抽样的定义可得，每个个体被抽到的机会都是相等的． 故选 A ．"
+    },
+    "answer": {
+      "final_raw": "相等",
+      "final_normalized": "相等",
+      "candidates": [
+        "A",
+        "相等"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "根据简单随机抽样的定义可得，每个个体被抽到的机会都是相等的．  故选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "对于简单随机抽样，每个个体每次被抽到的机会． (A) 相等 (B) 不相等 (C) 无法确定 (D) 与抽取的次数有关",
+      "solution_text": "根据简单随机抽样的定义可得，每个个体被抽到的机会都是相等的． 故选 A ．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "549",
+        "queId": "37105bc046fb47ffb61d5a0fd0a1fc3c",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "相等"
+          },
+          {
+            "label": "B",
+            "content": "不相等"
+          },
+          {
+            "label": "C",
+            "content": "无法确定"
+          },
+          {
+            "label": "D",
+            "content": "与抽取的次数有关"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->素养->逻辑推理",
+          "课内体系->知识点->统计与概率->统计->随机抽样->简单随机抽样"
+        ],
+        "competition_source_list": [
+          "2020~2021学年河北石家庄新华区石家庄市第二中学高二上学期期中（竞赛班）第1题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_1:01797",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1797,
+      "split": "zh_test",
+      "source_problem_id": "b0abaeb3143b4998a66e13b676199760"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "由一个正方体的三个顶点所能构成的正三角形的个数为（~ ）．\n(A) 4\n(B) 8\n(C) 12\n(D) 24",
+      "problem_plain": "由一个正方体的三个顶点所能构成的正三角形的个数为（~ ）． (A) 4 (B) 8 (C) 12 (D) 24",
+      "solution_latex": "在公有一个项点的三个两两互相垂直的面上，各有一对角线共同组成唯一的正三角形，这样在正三角形和顶点之间建立了一一对应，而正方体共有$$8$$个顶点，所以恰好有$$8$$个正三角形．",
+      "solution_plain": "在公有一个项点的三个两两互相垂直的面上，各有一对角线共同组成唯一的正三角形，这样在正三角形和顶点之间建立了一一对应，而正方体共有 8 个顶点，所以恰好有 8 个正三角形．"
+    },
+    "answer": {
+      "final_raw": "8",
+      "final_normalized": "8",
+      "candidates": [
+        "8",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "在公有一个项点的三个两两互相垂直的面上，各有一对角线共同组成唯一的正三角形，这样在正三角形和顶点之间建立了一一对应，而正方体共有$$8$$个顶点，所以恰好有$$8$$个正三角形．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "由一个正方体的三个顶点所能构成的正三角形的个数为（~ ）． (A) 4 (B) 8 (C) 12 (D) 24",
+      "solution_text": "在公有一个项点的三个两两互相垂直的面上，各有一对角线共同组成唯一的正三角形，这样在正三角形和顶点之间建立了一一对应，而正方体共有 8 个顶点，所以恰好有 8 个正三角形．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "519",
+        "queId": "b0abaeb3143b4998a66e13b676199760",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "8"
+          },
+          {
+            "label": "C",
+            "content": "12"
+          },
+          {
+            "label": "D",
+            "content": "24"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->排列组合与概率->两个基本计数原理"
+        ],
+        "competition_source_list": [
+          "1991年全国高中数学联赛竞赛一试第1题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_1:01848",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1848,
+      "split": "zh_test",
+      "source_problem_id": "9e123702d484420886b7fa1d2ef02fae"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "甲、乙两人之间进行一场打完$$7$$局的比赛（每局无平局），则比赛结果出现甲比乙为$$4$$ : $$3$$的概率是．\n(A) \\frac{35}{128}\n(B) \\frac{5}{16}\n(C) \\frac{4}{7}\n(D) \\frac{5}{8}",
+      "problem_plain": "甲、乙两人之间进行一场打完 7 局的比赛（每局无平局），则比赛结果出现甲比乙为 4 : 3 的概率是． (A) 35 128 (B) 5 16 (C) 4 7 (D) 5 8",
+      "solution_latex": "符合条件的概率为$$\\frac{C_{7}^{4}}{{{2}^{7}}}=\\frac{35}{128}$$．",
+      "solution_plain": "符合条件的概率为 C_ 7 ^ 4 2 ^ 7 = 35 128 ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{35}{128}",
+      "final_normalized": "\\frac{35}{128}",
+      "candidates": [
+        "A",
+        "\\frac{35}{128}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "符合条件的概率为$$\\frac{C_{7}^{4}}{{{2}^{7}}}=\\frac{35}{128}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "甲、乙两人之间进行一场打完 7 局的比赛（每局无平局），则比赛结果出现甲比乙为 4 : 3 的概率是． (A) 35 128 (B) 5 16 (C) 4 7 (D) 5 8",
+      "solution_text": "符合条件的概率为 C_ 7 ^ 4 2 ^ 7 = 35 128 ．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "472",
+        "queId": "9e123702d484420886b7fa1d2ef02fae",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{35}{128}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{5}{16}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{4}{7}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{5}{8}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->排列组合与概率->排列与组合",
+          "竞赛->知识点->排列组合与概率->概率初步"
+        ],
+        "competition_source_list": [
+          "2009年四川全国高中数学联赛竞赛初赛第2题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_1:01855",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1855,
+      "split": "zh_test",
+      "source_problem_id": "d89b16b3f1364fec9d5d00ee1e26619f"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "抛两个各面上分别标有$$1$$，$$2$$，$$3$$，$$4$$，$$5$$，$$6$$的均匀的正方体玩具，``向上的两个数之和为$$3$$''的概率是．\n(A) \\frac{1}{3}\n(B) \\frac{1}{6}\n(C) \\frac{1}{36}\n(D) \\frac{1}{18}",
+      "problem_plain": "抛两个各面上分别标有 1 ， 2 ， 3 ， 4 ， 5 ， 6 的均匀的正方体玩具，``向上的两个数之和为 3 ''的概率是． (A) 1 3 (B) 1 6 (C) 1 36 (D) 1 18",
+      "solution_latex": "总的基本事件的个数为$$6\\times 6=36$$种，``向上的两个数之和为$$3$$''的基本事件有$$\\left( 1,2 \\right)$$和$$\\left( 2,1 \\right)$$两种，  由古典概型知概率为$$P=\\frac{2}{36}=\\frac{1}{18}$$  故选：$$\\text{D}$$．",
+      "solution_plain": "总的基本事件的个数为 6 6=36 种，``向上的两个数之和为 3 ''的基本事件有 ( 1,2 ) 和 ( 2,1 ) 两种， 由古典概型知概率为 P= 2 36 = 1 18 故选： D ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{1}{18}",
+      "final_normalized": "\\frac{1}{18}",
+      "candidates": [
+        "D",
+        "\\frac{1}{18}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "总的基本事件的个数为$$6\\times 6=36$$种，``向上的两个数之和为$$3$$''的基本事件有$$\\left( 1,2 \\right)$$和$$\\left( 2,1 \\right)$$两种，  由古典概型知概率为$$P=\\frac{2}{36}=\\frac{1}{18}$$  故选：$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "抛两个各面上分别标有 1 ， 2 ， 3 ， 4 ， 5 ， 6 的均匀的正方体玩具，``向上的两个数之和为 3 ''的概率是． (A) 1 3 (B) 1 6 (C) 1 36 (D) 1 18",
+      "solution_text": "总的基本事件的个数为 6 6=36 种，``向上的两个数之和为 3 ''的基本事件有 ( 1,2 ) 和 ( 2,1 ) 两种， 由古典概型知概率为 P= 2 36 = 1 18 故选： D ．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1135",
+        "queId": "d89b16b3f1364fec9d5d00ee1e26619f",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{1}{3}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{1}{6}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{1}{36}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{1}{18}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->统计与概率->概率->事件与概率->事件与基本事件空间->基本事件与基本事件空间",
+          "课内体系->知识点->统计与概率->概率->事件与概率->古典概型",
+          "课内体系->素养->数学运算"
+        ],
+        "competition_source_list": [
+          "2009年竞赛珠海市第11题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_1:01876",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1876,
+      "split": "zh_test",
+      "source_problem_id": "8faabed1166544d89535e6ab1242e775"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在$$5$$件产品中有$$4$$件正品、$$1$$件次品．从中任取$$2$$件，记其中含正品的个数为随机变量$$\\xi $$，则$$\\xi $$的数学期望$$E\\xi $$是．\n(A) \\frac{6}{5}\n(B) \\frac{7}{5}\n(C) \\frac{8}{5}\n(D) \\frac{9}{5}",
+      "problem_plain": "在 5 件产品中有 4 件正品、 1 件次品．从中任取 2 件，记其中含正品的个数为随机变量 ，则 的数学期望 E 是． (A) 6 5 (B) 7 5 (C) 8 5 (D) 9 5",
+      "solution_latex": "数学期望是：$$1\\times \\frac{\\text{C}_{4}^{1}}{\\text{C}_{5}^{2}}+2\\times \\frac{\\text{C}_{4}^{2}}{\\text{C}_{5}^{2}}=\\frac{8}{5}$$．故选$$\\text{C}$$．",
+      "solution_plain": "数学期望是： 1 C _ 4 ^ 1 C _ 5 ^ 2 +2 C _ 4 ^ 2 C _ 5 ^ 2 = 8 5 ．故选 C ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{8}{5}",
+      "final_normalized": "\\frac{8}{5}",
+      "candidates": [
+        "C",
+        "\\frac{8}{5}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "数学期望是：$$1\\times \\frac{\\text{C}_{4}^{1}}{\\text{C}_{5}^{2}}+2\\times \\frac{\\text{C}_{4}^{2}}{\\text{C}_{5}^{2}}=\\frac{8}{5}$$．故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在 5 件产品中有 4 件正品、 1 件次品．从中任取 2 件，记其中含正品的个数为随机变量 ，则 的数学期望 E 是． (A) 6 5 (B) 7 5 (C) 8 5 (D) 9 5",
+      "solution_text": "数学期望是： 1 C _ 4 ^ 1 C _ 5 ^ 2 +2 C _ 4 ^ 2 C _ 5 ^ 2 = 8 5 ．故选 C ．",
+      "keywords": [
+        "counting_probability",
+        "level_1",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "269",
+        "queId": "8faabed1166544d89535e6ab1242e775",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{6}{5}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{7}{5}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{8}{5}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{9}{5}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->排列组合与概率->排列与组合"
+        ],
+        "competition_source_list": [
+          "2010年四川全国高中数学联赛竞赛初赛第2题5分"
+        ]
+      }
+    }
+  }
+]

@@ -1,6 +1,6 @@
 {
   "schema_version": "coco_problem_generation_profile.v1",
-  "generated_at": "2026-04-24T18:52:12+00:00",
+  "generated_at": "2026-04-25T09:33:11+00:00",
   "source_banks": [
     {
       "bank_id": "competition_math",
@@ -9,178 +9,700 @@
       "license": "MIT"
     },
     {
+      "bank_id": "deepmind_mathematics",
+      "name": "DeepMind Mathematics Dataset",
+      "total": 2028,
+      "license": "Apache-2.0"
+    },
+    {
       "bank_id": "gsm8k",
       "name": "GSM8K",
       "total": 8792,
       "license": "MIT"
+    },
+    {
+      "bank_id": "metamathqa",
+      "name": "MetaMathQA",
+      "total": 20000,
+      "license": "MIT"
+    },
+    {
+      "bank_id": "tal_scq5k",
+      "name": "TAL-SCQ5K",
+      "total": 10000,
+      "license": "MIT"
     }
   ],
   "counts": {
-    "total_records": 21292,
+    "total_records": 53320,
     "by_bank": {
       "competition_math": 12500,
-      "gsm8k": 8792
+      "deepmind_mathematics": 2028,
+      "gsm8k": 8792,
+      "metamathqa": 20000,
+      "tal_scq5k": 10000
     },
     "by_domain": {
-      "algebra": 2931,
-      "arithmetic_word_problem": 8792,
-      "counting_probability": 1245,
-      "geometry": 1349,
-      "intermediate_algebra": 2198,
-      "number_theory": 1409,
-      "prealgebra": 2076,
-      "precalculus": 1292
+      "algebra": 6464,
+      "arithmetic": 420,
+      "arithmetic_word_problem": 20907,
+      "comparison": 337,
+      "competition_math": 5743,
+      "counting_probability": 3138,
+      "geometry": 2196,
+      "intermediate_algebra": 2576,
+      "measurement": 90,
+      "number_theory": 4515,
+      "numbers": 690,
+      "polynomials": 102,
+      "prealgebra": 4750,
+      "precalculus": 1292,
+      "probability": 100
     }
   },
   "domains": {
     "algebra": {
       "subject": "Algebra",
       "subject_slug": "algebra",
-      "count": 2931,
+      "count": 6464,
       "levels": {
         "1": {
-          "count": 313,
+          "count": 493,
           "top_tags": {
-            "algebra": 313,
+            "algebra": 493,
+            "level_1": 493,
             "equations": 313,
             "functions": 313,
-            "level_1": 313
+            "single_choice": 110,
+            "tal_scq5k": 110,
+            "zh": 78,
+            "unknown": 77,
+            "deepmind_mathematics": 70,
+            "train_easy": 70,
+            "zh_test": 42,
+            "zh_train": 36,
+            "en": 32,
+            "calculation_modules": 30,
+            "basic_concepts_of_equation": 28,
+            "en_test": 23,
+            "algebraic_expressions": 18,
+            "equivalent_substitution": 18
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "unknown": 77,
+            "calculation_modules": 30,
+            "basic_concepts_of_equation": 28,
+            "algebraic_expressions": 18,
+            "equivalent_substitution": 18,
+            "algebra_linear_1d": 10,
+            "algebra_linear_2d": 10,
+            "algebra_linear_2d_composed": 10,
+            "algebra_polynomial_roots": 10,
+            "algebra_sequence_next_term": 10,
+            "algebra_sequence_nth_term": 10,
+            "algebra_linear_1d_composed": 9,
+            "inequalities": 4,
+            "linear_equations_with_one_variable": 2,
+            "algebra_polynomial_roots_composed": 1,
+            "computing_powers": 1,
+            "exponentiation_of_powers": 1,
+            "power": 1
+          },
           "answer_type_counts": {
             "decimal": 3,
-            "expression": 13,
-            "fraction": 10,
-            "integer": 277,
+            "expression": 61,
+            "fraction": 32,
+            "integer": 340,
             "list_or_set": 2,
-            "text": 8
+            "text": 55
           },
           "step_count_histogram": {
-            "0": 313
+            "0": 400,
+            "1": 89,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "6": 1
           },
-          "quality_review_count": 0
+          "quality_review_count": 17
         },
         "2": {
-          "count": 541,
+          "count": 1249,
           "top_tags": {
-            "algebra": 541,
-            "equations": 541,
+            "algebra": 1249,
+            "level_2": 1249,
+            "single_choice": 638,
+            "tal_scq5k": 638,
+            "equations": 544,
             "functions": 541,
-            "level_2": 541
+            "zh": 390,
+            "unknown": 388,
+            "en": 248,
+            "zh_train": 219,
+            "calculation_modules": 200,
+            "zh_test": 171,
+            "basic_concepts_of_equation": 168,
+            "en_test": 126,
+            "en_train": 122,
+            "equivalent_substitution": 99,
+            "deepmind_mathematics": 70,
+            "train_medium": 70
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "unknown": 388,
+            "calculation_modules": 200,
+            "basic_concepts_of_equation": 168,
+            "equivalent_substitution": 99,
+            "algebraic_expressions": 66,
+            "equation_word_problems": 42,
+            "word_problem_modules": 36,
+            "inequalities": 23,
+            "word_problems_for_linear_equations_with_one_variable": 16,
+            "linear_equations_with_one_variable": 14,
+            "algebra": 13,
+            "algebra_linear_1d": 10,
+            "algebra_linear_2d": 10,
+            "algebra_polynomial_roots": 10,
+            "algebra_sequence_next_term": 10,
+            "algebra_sequence_nth_term": 10,
+            "combinatorics": 10,
+            "number_puzzles": 10
+          },
           "answer_type_counts": {
-            "decimal": 6,
-            "expression": 41,
-            "fraction": 51,
-            "integer": 421,
+            "decimal": 14,
+            "expression": 211,
+            "fraction": 136,
+            "integer": 709,
             "list_or_set": 7,
-            "text": 15
+            "text": 172
           },
           "step_count_histogram": {
-            "0": 541
+            "0": 692,
+            "1": 471,
+            "2": 53,
+            "3": 9,
+            "4": 7,
+            "5": 6,
+            "6": 2,
+            "7": 4,
+            "8": 5
           },
-          "quality_review_count": 0
+          "quality_review_count": 81
         },
         "3": {
-          "count": 653,
+          "count": 2242,
           "top_tags": {
-            "algebra": 653,
+            "algebra": 2242,
+            "level_3": 2242,
+            "cot_reasoning": 1223,
+            "metamathqa": 1223,
             "equations": 653,
             "functions": 653,
-            "level_3": 653
+            "math_sv": 361,
+            "math_ansaug": 317,
+            "single_choice": 297,
+            "tal_scq5k": 297,
+            "math_fobar": 275,
+            "math_rephrased": 270,
+            "zh": 241,
+            "unknown": 237,
+            "zh_train": 122,
+            "zh_test": 119,
+            "deepmind_mathematics": 69,
+            "train_hard": 69
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "algebra": 1231,
+            "math_sv": 361,
+            "math_ansaug": 317,
+            "math_fobar": 275,
+            "math_rephrased": 270,
+            "unknown": 237,
+            "calculation_modules": 53,
+            "basic_concepts_of_equation": 48,
+            "inequalities": 25,
+            "algebra_linear_1d": 10,
+            "algebra_linear_2d": 10,
+            "algebra_polynomial_roots": 10,
+            "algebra_sequence_next_term": 10,
+            "algebra_sequence_nth_term": 10,
+            "algebra_linear_1d_composed": 9,
+            "amc10_12": 9,
+            "algebra_linear_2d_composed": 8,
+            "equation_word_problems": 6
+          },
           "answer_type_counts": {
-            "decimal": 10,
-            "expression": 49,
-            "fraction": 76,
-            "integer": 461,
+            "decimal": 51,
+            "expression": 122,
+            "fraction": 164,
+            "integer": 1737,
             "list_or_set": 25,
-            "text": 30,
+            "text": 141,
             "unknown": 2
           },
           "step_count_histogram": {
-            "0": 653
+            "0": 733,
+            "1": 253,
+            "2": 57,
+            "3": 87,
+            "4": 135,
+            "5": 93,
+            "6": 88,
+            "7": 62,
+            "8": 69,
+            "9": 48,
+            "10": 617
+          },
+          "quality_review_count": 10
+        },
+        "4": {
+          "count": 1721,
+          "top_tags": {
+            "algebra": 1721,
+            "level_4": 1721,
+            "cot_reasoning": 928,
+            "metamathqa": 928,
+            "equations": 681,
+            "functions": 681,
+            "math_ansaug": 293,
+            "math_fobar": 247,
+            "math_rephrased": 241,
+            "math_sv": 147,
+            "deepmind_mathematics": 70,
+            "interpolate": 70,
+            "single_choice": 42,
+            "tal_scq5k": 42,
+            "zh": 36,
+            "unknown": 35,
+            "zh_train": 23,
+            "amc10_12": 14
+          },
+          "top_concepts": {
+            "algebra": 938,
+            "math_ansaug": 293,
+            "math_fobar": 247,
+            "math_rephrased": 241,
+            "math_sv": 147,
+            "unknown": 35,
+            "amc10_12": 14,
+            "algebra_linear_1d": 10,
+            "algebra_linear_2d": 10,
+            "algebra_linear_2d_composed": 10,
+            "algebra_polynomial_roots": 10,
+            "algebra_sequence_next_term": 10,
+            "algebra_sequence_nth_term": 10,
+            "algebra_linear_1d_composed": 9,
+            "basic_concepts_of_equation": 5,
+            "calculation_modules": 5,
+            "combination": 5,
+            "reasoning": 5
+          },
+          "answer_type_counts": {
+            "decimal": 31,
+            "expression": 77,
+            "fraction": 207,
+            "integer": 1298,
+            "list_or_set": 28,
+            "text": 80
+          },
+          "step_count_histogram": {
+            "0": 754,
+            "1": 29,
+            "2": 17,
+            "3": 51,
+            "4": 67,
+            "5": 67,
+            "6": 75,
+            "7": 58,
+            "8": 63,
+            "9": 54,
+            "10": 486
           },
           "quality_review_count": 2
         },
-        "4": {
-          "count": 681,
-          "top_tags": {
-            "algebra": 681,
-            "equations": 681,
-            "functions": 681,
-            "level_4": 681
-          },
-          "top_concepts": {},
-          "answer_type_counts": {
-            "decimal": 18,
-            "expression": 38,
-            "fraction": 104,
-            "integer": 464,
-            "list_or_set": 28,
-            "text": 29
-          },
-          "step_count_histogram": {
-            "0": 681
-          },
-          "quality_review_count": 0
-        },
         "5": {
-          "count": 743,
+          "count": 759,
           "top_tags": {
-            "algebra": 743,
+            "algebra": 759,
+            "level_5": 759,
             "equations": 743,
             "functions": 743,
-            "level_5": 743
+            "algebra_polynomial_roots_big": 10,
+            "deepmind_mathematics": 10,
+            "extrapolate": 10,
+            "single_choice": 6,
+            "tal_scq5k": 6,
+            "calculation_modules": 3,
+            "en": 3,
+            "en_train": 3,
+            "unknown": 3,
+            "zh": 3,
+            "zh_test": 2,
+            "addition_and_subtraction_of_equations": 1,
+            "basic_concepts_of_equation": 1,
+            "equivalent_substitution": 1
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "algebra_polynomial_roots_big": 10,
+            "calculation_modules": 3,
+            "unknown": 3,
+            "addition_and_subtraction_of_equations": 1,
+            "basic_concepts_of_equation": 1,
+            "equivalent_substitution": 1
+          },
           "answer_type_counts": {
             "decimal": 18,
-            "expression": 78,
+            "expression": 82,
             "fraction": 120,
-            "integer": 459,
+            "integer": 464,
             "list_or_set": 41,
-            "text": 27
+            "text": 34
           },
           "step_count_histogram": {
-            "0": 743
+            "0": 753,
+            "1": 1,
+            "2": 2,
+            "8": 3
           },
           "quality_review_count": 0
         }
       },
       "top_tags": {
-        "algebra": 2931,
-        "equations": 2931,
+        "algebra": 6464,
+        "equations": 2934,
         "functions": 2931,
-        "level_5": 743,
-        "level_4": 681,
-        "level_3": 653,
-        "level_2": 541,
-        "level_1": 313
+        "level_3": 2242,
+        "cot_reasoning": 2151,
+        "metamathqa": 2151,
+        "level_4": 1721,
+        "level_2": 1249,
+        "single_choice": 1093,
+        "tal_scq5k": 1093,
+        "level_5": 759,
+        "zh": 748,
+        "unknown": 740,
+        "math_ansaug": 610,
+        "math_fobar": 522,
+        "math_rephrased": 511,
+        "math_sv": 508,
+        "level_1": 493,
+        "zh_train": 401,
+        "zh_test": 347,
+        "en": 345,
+        "calculation_modules": 291,
+        "deepmind_mathematics": 289,
+        "basic_concepts_of_equation": 250
       },
-      "top_concepts": {},
+      "top_concepts": {
+        "algebra": 2182,
+        "unknown": 740,
+        "math_ansaug": 610,
+        "math_fobar": 522,
+        "math_rephrased": 511,
+        "math_sv": 508,
+        "calculation_modules": 291,
+        "basic_concepts_of_equation": 250,
+        "equivalent_substitution": 124,
+        "algebraic_expressions": 89,
+        "inequalities": 53,
+        "equation_word_problems": 53,
+        "algebra_linear_1d": 40,
+        "algebra_linear_2d": 40,
+        "algebra_polynomial_roots": 40,
+        "algebra_sequence_next_term": 40,
+        "algebra_sequence_nth_term": 40,
+        "word_problem_modules": 40,
+        "algebra_linear_1d_composed": 36,
+        "algebra_linear_2d_composed": 36,
+        "amc10_12": 33,
+        "application": 20,
+        "linear_equations_with_one_variable": 18,
+        "word_problems_for_linear_equations_with_one_variable": 16
+      },
       "answer_type_counts": {
-        "decimal": 55,
-        "expression": 219,
-        "fraction": 361,
-        "integer": 2082,
+        "decimal": 117,
+        "expression": 553,
+        "fraction": 659,
+        "integer": 4548,
         "list_or_set": 103,
-        "text": 109,
+        "text": 482,
         "unknown": 2
       },
       "grade_band_counts": {
-        "advanced": 2931
+        "advanced": 2931,
+        "elementary": 748,
+        "elementary_middle": 140,
+        "high": 934,
+        "middle": 339,
+        "middle_high": 1372
       },
       "source_bank_counts": {
-        "competition_math": 2931
+        "competition_math": 2931,
+        "deepmind_mathematics": 289,
+        "metamathqa": 2151,
+        "tal_scq5k": 1093
+      }
+    },
+    "arithmetic": {
+      "subject": "Arithmetic",
+      "subject_slug": "arithmetic",
+      "count": 420,
+      "levels": {
+        "1": {
+          "count": 90,
+          "top_tags": {
+            "arithmetic": 90,
+            "deepmind_mathematics": 90,
+            "level_1": 90,
+            "train_easy": 90,
+            "arithmetic_add_or_sub": 10,
+            "arithmetic_add_or_sub_in_base": 10,
+            "arithmetic_add_sub_multiple": 10,
+            "arithmetic_div": 10,
+            "arithmetic_mixed": 10,
+            "arithmetic_mul": 10,
+            "arithmetic_mul_div_multiple": 10,
+            "arithmetic_nearest_integer_root": 10,
+            "arithmetic_simplify_surd": 10
+          },
+          "top_concepts": {
+            "arithmetic_add_or_sub": 10,
+            "arithmetic_add_or_sub_in_base": 10,
+            "arithmetic_add_sub_multiple": 10,
+            "arithmetic_div": 10,
+            "arithmetic_mixed": 10,
+            "arithmetic_mul": 10,
+            "arithmetic_mul_div_multiple": 10,
+            "arithmetic_nearest_integer_root": 10,
+            "arithmetic_simplify_surd": 10
+          },
+          "answer_type_counts": {
+            "decimal": 13,
+            "expression": 10,
+            "fraction": 19,
+            "integer": 47,
+            "text": 1
+          },
+          "step_count_histogram": {
+            "0": 90
+          },
+          "quality_review_count": 0
+        },
+        "2": {
+          "count": 90,
+          "top_tags": {
+            "arithmetic": 90,
+            "deepmind_mathematics": 90,
+            "level_2": 90,
+            "train_medium": 90,
+            "arithmetic_add_or_sub": 10,
+            "arithmetic_add_or_sub_in_base": 10,
+            "arithmetic_add_sub_multiple": 10,
+            "arithmetic_div": 10,
+            "arithmetic_mixed": 10,
+            "arithmetic_mul": 10,
+            "arithmetic_mul_div_multiple": 10,
+            "arithmetic_nearest_integer_root": 10,
+            "arithmetic_simplify_surd": 10
+          },
+          "top_concepts": {
+            "arithmetic_add_or_sub": 10,
+            "arithmetic_add_or_sub_in_base": 10,
+            "arithmetic_add_sub_multiple": 10,
+            "arithmetic_div": 10,
+            "arithmetic_mixed": 10,
+            "arithmetic_mul": 10,
+            "arithmetic_mul_div_multiple": 10,
+            "arithmetic_nearest_integer_root": 10,
+            "arithmetic_simplify_surd": 10
+          },
+          "answer_type_counts": {
+            "decimal": 16,
+            "expression": 9,
+            "fraction": 14,
+            "integer": 49,
+            "text": 2
+          },
+          "step_count_histogram": {
+            "0": 90
+          },
+          "quality_review_count": 0
+        },
+        "3": {
+          "count": 90,
+          "top_tags": {
+            "arithmetic": 90,
+            "deepmind_mathematics": 90,
+            "level_3": 90,
+            "train_hard": 90,
+            "arithmetic_add_or_sub": 10,
+            "arithmetic_add_or_sub_in_base": 10,
+            "arithmetic_add_sub_multiple": 10,
+            "arithmetic_div": 10,
+            "arithmetic_mixed": 10,
+            "arithmetic_mul": 10,
+            "arithmetic_mul_div_multiple": 10,
+            "arithmetic_nearest_integer_root": 10,
+            "arithmetic_simplify_surd": 10
+          },
+          "top_concepts": {
+            "arithmetic_add_or_sub": 10,
+            "arithmetic_add_or_sub_in_base": 10,
+            "arithmetic_add_sub_multiple": 10,
+            "arithmetic_div": 10,
+            "arithmetic_mixed": 10,
+            "arithmetic_mul": 10,
+            "arithmetic_mul_div_multiple": 10,
+            "arithmetic_nearest_integer_root": 10,
+            "arithmetic_simplify_surd": 10
+          },
+          "answer_type_counts": {
+            "decimal": 13,
+            "expression": 9,
+            "fraction": 14,
+            "integer": 51,
+            "text": 3
+          },
+          "step_count_histogram": {
+            "0": 90
+          },
+          "quality_review_count": 0
+        },
+        "4": {
+          "count": 90,
+          "top_tags": {
+            "arithmetic": 90,
+            "deepmind_mathematics": 90,
+            "interpolate": 90,
+            "level_4": 90,
+            "arithmetic_add_or_sub": 10,
+            "arithmetic_add_or_sub_in_base": 10,
+            "arithmetic_add_sub_multiple": 10,
+            "arithmetic_div": 10,
+            "arithmetic_mixed": 10,
+            "arithmetic_mul": 10,
+            "arithmetic_mul_div_multiple": 10,
+            "arithmetic_nearest_integer_root": 10,
+            "arithmetic_simplify_surd": 10
+          },
+          "top_concepts": {
+            "arithmetic_add_or_sub": 10,
+            "arithmetic_add_or_sub_in_base": 10,
+            "arithmetic_add_sub_multiple": 10,
+            "arithmetic_div": 10,
+            "arithmetic_mixed": 10,
+            "arithmetic_mul": 10,
+            "arithmetic_mul_div_multiple": 10,
+            "arithmetic_nearest_integer_root": 10,
+            "arithmetic_simplify_surd": 10
+          },
+          "answer_type_counts": {
+            "decimal": 9,
+            "expression": 10,
+            "fraction": 12,
+            "integer": 56,
+            "text": 3
+          },
+          "step_count_histogram": {
+            "0": 90
+          },
+          "quality_review_count": 0
+        },
+        "5": {
+          "count": 60,
+          "top_tags": {
+            "arithmetic": 60,
+            "deepmind_mathematics": 60,
+            "extrapolate": 60,
+            "level_5": 60,
+            "arithmetic_add_or_sub_big": 10,
+            "arithmetic_add_sub_multiple_longer": 10,
+            "arithmetic_div_big": 10,
+            "arithmetic_mixed_longer": 10,
+            "arithmetic_mul_big": 10,
+            "arithmetic_mul_div_multiple_longer": 10
+          },
+          "top_concepts": {
+            "arithmetic_add_or_sub_big": 10,
+            "arithmetic_add_sub_multiple_longer": 10,
+            "arithmetic_div_big": 10,
+            "arithmetic_mixed_longer": 10,
+            "arithmetic_mul_big": 10,
+            "arithmetic_mul_div_multiple_longer": 10
+          },
+          "answer_type_counts": {
+            "decimal": 14,
+            "fraction": 6,
+            "integer": 40
+          },
+          "step_count_histogram": {
+            "0": 60
+          },
+          "quality_review_count": 0
+        }
+      },
+      "top_tags": {
+        "arithmetic": 420,
+        "deepmind_mathematics": 420,
+        "level_1": 90,
+        "train_easy": 90,
+        "level_2": 90,
+        "train_medium": 90,
+        "level_3": 90,
+        "train_hard": 90,
+        "interpolate": 90,
+        "level_4": 90,
+        "extrapolate": 60,
+        "level_5": 60,
+        "arithmetic_add_or_sub": 40,
+        "arithmetic_add_or_sub_in_base": 40,
+        "arithmetic_add_sub_multiple": 40,
+        "arithmetic_div": 40,
+        "arithmetic_mixed": 40,
+        "arithmetic_mul": 40,
+        "arithmetic_mul_div_multiple": 40,
+        "arithmetic_nearest_integer_root": 40,
+        "arithmetic_simplify_surd": 40,
+        "arithmetic_add_or_sub_big": 10,
+        "arithmetic_add_sub_multiple_longer": 10,
+        "arithmetic_div_big": 10
+      },
+      "top_concepts": {
+        "arithmetic_add_or_sub": 40,
+        "arithmetic_add_or_sub_in_base": 40,
+        "arithmetic_add_sub_multiple": 40,
+        "arithmetic_div": 40,
+        "arithmetic_mixed": 40,
+        "arithmetic_mul": 40,
+        "arithmetic_mul_div_multiple": 40,
+        "arithmetic_nearest_integer_root": 40,
+        "arithmetic_simplify_surd": 40,
+        "arithmetic_add_or_sub_big": 10,
+        "arithmetic_add_sub_multiple_longer": 10,
+        "arithmetic_div_big": 10,
+        "arithmetic_mixed_longer": 10,
+        "arithmetic_mul_big": 10,
+        "arithmetic_mul_div_multiple_longer": 10
+      },
+      "answer_type_counts": {
+        "decimal": 65,
+        "expression": 38,
+        "fraction": 65,
+        "integer": 243,
+        "text": 9
+      },
+      "grade_band_counts": {
+        "elementary_middle": 180,
+        "middle_high": 240
+      },
+      "source_bank_counts": {
+        "deepmind_mathematics": 420
       }
     },
     "arithmetic_word_problem": {
       "subject": "Arithmetic Word Problems",
       "subject_slug": "arithmetic_word_problem",
-      "count": 8792,
+      "count": 20907,
       "levels": {
         "1": {
           "count": 564,
@@ -215,33 +737,38 @@
           "quality_review_count": 0
         },
         "2": {
-          "count": 3243,
+          "count": 14052,
           "top_tags": {
+            "level_2": 14052,
+            "arithmetic_word_problem": 10809,
+            "cot_reasoning": 10809,
+            "grade_school_math": 10809,
+            "metamathqa": 10809,
+            "gsm_rephrased": 3735,
+            "gsm_ansaug": 3707,
             "arithmetic": 3243,
             "elementary": 3243,
             "gsm8k": 3243,
-            "level_2": 3243,
             "word_problem": 3243,
             "train": 2766,
             "multiplication": 2568,
             "addition": 2167,
+            "gsm_fobar": 1750,
             "division": 1706,
             "subtraction": 1659,
-            "fraction": 1305,
-            "rate": 1165,
-            "money": 853,
-            "test": 477,
-            "percent": 230,
-            "decimal": 141,
-            "unit_conversion": 112,
-            "ratio": 40
+            "gsm_sv": 1617
           },
           "top_concepts": {
+            "arithmetic_word_problem": 10809,
+            "gsm_rephrased": 3735,
+            "gsm_ansaug": 3707,
             "arithmetic": 3243,
             "multiplication": 2568,
             "addition": 2167,
+            "gsm_fobar": 1750,
             "division": 1706,
             "subtraction": 1659,
+            "gsm_sv": 1617,
             "fraction": 1305,
             "rate": 1165,
             "money": 853,
@@ -252,22 +779,30 @@
             "algebra_equation": 3
           },
           "answer_type_counts": {
-            "integer": 3243
+            "decimal": 59,
+            "integer": 13993
           },
           "step_count_histogram": {
-            "2": 1486,
-            "3": 1455,
-            "4": 302
+            "1": 11,
+            "2": 2381,
+            "3": 3437,
+            "4": 2187,
+            "5": 1247,
+            "6": 1009,
+            "7": 760,
+            "8": 507,
+            "9": 403,
+            "10": 2110
           },
           "quality_review_count": 0
         },
         "3": {
-          "count": 3149,
+          "count": 4455,
           "top_tags": {
+            "level_3": 4455,
             "arithmetic": 3149,
             "elementary_middle": 3149,
             "gsm8k": 3149,
-            "level_3": 3149,
             "word_problem": 3149,
             "multiplication": 2763,
             "train": 2692,
@@ -276,12 +811,12 @@
             "fraction": 2016,
             "subtraction": 1846,
             "rate": 1834,
+            "arithmetic_word_problem": 1306,
+            "cot_reasoning": 1306,
+            "grade_school_math": 1306,
+            "metamathqa": 1306,
             "money": 1138,
-            "percent": 494,
-            "unit_conversion": 484,
-            "test": 457,
-            "decimal": 453,
-            "ratio": 92
+            "percent": 494
           },
           "top_concepts": {
             "arithmetic": 3149,
@@ -291,22 +826,32 @@
             "fraction": 2016,
             "subtraction": 1846,
             "rate": 1834,
+            "arithmetic_word_problem": 1306,
             "money": 1138,
             "percent": 494,
             "unit_conversion": 484,
             "decimal": 453,
+            "gsm_sv": 392,
+            "gsm_rephrased": 332,
+            "gsm_ansaug": 315,
+            "gsm_fobar": 267,
             "ratio": 92,
             "algebra_equation": 68
           },
           "answer_type_counts": {
-            "integer": 3149
+            "decimal": 32,
+            "integer": 4423
           },
           "step_count_histogram": {
-            "2": 235,
-            "3": 1004,
-            "4": 1358,
-            "5": 508,
-            "6": 44
+            "2": 259,
+            "3": 1104,
+            "4": 1502,
+            "5": 639,
+            "6": 173,
+            "7": 107,
+            "8": 58,
+            "9": 73,
+            "10": 540
           },
           "quality_review_count": 0
         },
@@ -414,6 +959,11 @@
         }
       },
       "top_tags": {
+        "level_2": 14052,
+        "arithmetic_word_problem": 12115,
+        "cot_reasoning": 12115,
+        "grade_school_math": 12115,
+        "metamathqa": 12115,
         "arithmetic": 8792,
         "gsm8k": 8792,
         "word_problem": 8792,
@@ -424,22 +974,18 @@
         "subtraction": 5009,
         "fraction": 4680,
         "elementary_middle": 4522,
+        "level_3": 4455,
         "rate": 4242,
+        "gsm_rephrased": 4067,
+        "gsm_ansaug": 4022,
         "elementary": 3807,
-        "level_2": 3243,
-        "level_3": 3149,
         "money": 2985,
-        "level_4": 1373,
-        "test": 1319,
-        "percent": 1199,
-        "unit_conversion": 1097,
-        "decimal": 1093,
-        "level_1": 564,
-        "level_5": 463,
-        "middle": 463,
-        "algebra_equation": 269
+        "gsm_fobar": 2017,
+        "gsm_sv": 2009,
+        "level_4": 1373
       },
       "top_concepts": {
+        "arithmetic_word_problem": 12115,
         "arithmetic": 8792,
         "multiplication": 7421,
         "addition": 6482,
@@ -447,7 +993,11 @@
         "subtraction": 5009,
         "fraction": 4680,
         "rate": 4242,
+        "gsm_rephrased": 4067,
+        "gsm_ansaug": 4022,
         "money": 2985,
+        "gsm_fobar": 2017,
+        "gsm_sv": 2009,
         "percent": 1199,
         "unit_conversion": 1097,
         "decimal": 1093,
@@ -455,167 +1005,1006 @@
         "ratio": 235
       },
       "answer_type_counts": {
-        "integer": 8792
+        "decimal": 91,
+        "integer": 20816
       },
       "grade_band_counts": {
         "elementary": 3807,
         "elementary_middle": 4522,
-        "middle": 463
+        "middle": 463,
+        "middle_high": 12115
       },
       "source_bank_counts": {
-        "gsm8k": 8792
+        "gsm8k": 8792,
+        "metamathqa": 12115
       }
     },
-    "counting_probability": {
-      "subject": "Counting & Probability",
-      "subject_slug": "counting_probability",
-      "count": 1245,
+    "comparison": {
+      "subject": "Comparison",
+      "subject_slug": "comparison",
+      "count": 337,
       "levels": {
         "1": {
-          "count": 89,
+          "count": 80,
           "top_tags": {
-            "combinatorics": 89,
-            "counting": 89,
-            "counting_probability": 89,
-            "level_1": 89,
-            "probability": 89
+            "comparison": 80,
+            "deepmind_mathematics": 80,
+            "level_1": 80,
+            "train_easy": 80,
+            "comparison_closest": 10,
+            "comparison_closest_composed": 10,
+            "comparison_kth_biggest": 10,
+            "comparison_kth_biggest_composed": 10,
+            "comparison_pair": 10,
+            "comparison_pair_composed": 10,
+            "comparison_sort": 10,
+            "comparison_sort_composed": 10
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "comparison_closest": 10,
+            "comparison_closest_composed": 10,
+            "comparison_kth_biggest": 10,
+            "comparison_kth_biggest_composed": 10,
+            "comparison_pair": 10,
+            "comparison_pair_composed": 10,
+            "comparison_sort": 10,
+            "comparison_sort_composed": 10
+          },
           "answer_type_counts": {
-            "fraction": 18,
-            "integer": 68,
-            "list_or_set": 2,
-            "text": 1
+            "boolean": 10,
+            "decimal": 9,
+            "expression": 1,
+            "fraction": 5,
+            "integer": 10,
+            "text": 45
           },
           "step_count_histogram": {
-            "0": 89
+            "0": 80
           },
           "quality_review_count": 0
         },
         "2": {
-          "count": 220,
+          "count": 79,
           "top_tags": {
-            "combinatorics": 220,
-            "counting": 220,
-            "counting_probability": 220,
-            "level_2": 220,
-            "probability": 220
+            "comparison": 79,
+            "deepmind_mathematics": 79,
+            "level_2": 79,
+            "train_medium": 79,
+            "comparison_closest": 10,
+            "comparison_closest_composed": 10,
+            "comparison_kth_biggest": 10,
+            "comparison_kth_biggest_composed": 10,
+            "comparison_pair": 10,
+            "comparison_sort": 10,
+            "comparison_sort_composed": 10,
+            "comparison_pair_composed": 9
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "comparison_closest": 10,
+            "comparison_closest_composed": 10,
+            "comparison_kth_biggest": 10,
+            "comparison_kth_biggest_composed": 10,
+            "comparison_pair": 10,
+            "comparison_sort": 10,
+            "comparison_sort_composed": 10,
+            "comparison_pair_composed": 9
+          },
           "answer_type_counts": {
-            "decimal": 4,
+            "boolean": 10,
+            "decimal": 1,
             "expression": 3,
-            "fraction": 29,
-            "integer": 163,
-            "list_or_set": 9,
-            "text": 12
+            "fraction": 7,
+            "integer": 9,
+            "text": 49
           },
           "step_count_histogram": {
-            "0": 220
+            "0": 79
           },
           "quality_review_count": 0
         },
         "3": {
-          "count": 260,
+          "count": 79,
           "top_tags": {
-            "combinatorics": 260,
-            "counting": 260,
-            "counting_probability": 260,
-            "level_3": 260,
-            "probability": 260
+            "comparison": 79,
+            "deepmind_mathematics": 79,
+            "level_3": 79,
+            "train_hard": 79,
+            "comparison_closest": 10,
+            "comparison_closest_composed": 10,
+            "comparison_kth_biggest": 10,
+            "comparison_kth_biggest_composed": 10,
+            "comparison_pair": 10,
+            "comparison_pair_composed": 10,
+            "comparison_sort": 10,
+            "comparison_sort_composed": 9
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "comparison_closest": 10,
+            "comparison_closest_composed": 10,
+            "comparison_kth_biggest": 10,
+            "comparison_kth_biggest_composed": 10,
+            "comparison_pair": 10,
+            "comparison_pair_composed": 10,
+            "comparison_sort": 10,
+            "comparison_sort_composed": 9
+          },
           "answer_type_counts": {
-            "decimal": 4,
-            "expression": 5,
-            "fraction": 68,
-            "integer": 149,
-            "list_or_set": 13,
-            "text": 21
+            "boolean": 7,
+            "decimal": 13,
+            "expression": 2,
+            "fraction": 3,
+            "integer": 13,
+            "text": 41
           },
           "step_count_histogram": {
-            "0": 260
+            "0": 79
           },
           "quality_review_count": 0
         },
         "4": {
-          "count": 277,
+          "count": 79,
           "top_tags": {
-            "combinatorics": 277,
-            "counting": 277,
-            "counting_probability": 277,
-            "level_4": 277,
-            "probability": 277
+            "comparison": 79,
+            "deepmind_mathematics": 79,
+            "interpolate": 79,
+            "level_4": 79,
+            "comparison_closest": 10,
+            "comparison_closest_composed": 10,
+            "comparison_kth_biggest": 10,
+            "comparison_pair": 10,
+            "comparison_pair_composed": 10,
+            "comparison_sort": 10,
+            "comparison_sort_composed": 10,
+            "comparison_kth_biggest_composed": 9
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "comparison_closest": 10,
+            "comparison_closest_composed": 10,
+            "comparison_kth_biggest": 10,
+            "comparison_pair": 10,
+            "comparison_pair_composed": 10,
+            "comparison_sort": 10,
+            "comparison_sort_composed": 10,
+            "comparison_kth_biggest_composed": 9
+          },
           "answer_type_counts": {
-            "decimal": 7,
-            "expression": 2,
-            "fraction": 89,
-            "integer": 150,
-            "list_or_set": 8,
-            "text": 21
+            "boolean": 10,
+            "decimal": 3,
+            "expression": 1,
+            "fraction": 5,
+            "integer": 11,
+            "text": 49
           },
           "step_count_histogram": {
-            "0": 277
+            "0": 79
           },
           "quality_review_count": 0
         },
         "5": {
-          "count": 399,
+          "count": 20,
           "top_tags": {
-            "combinatorics": 399,
-            "counting": 399,
-            "counting_probability": 399,
-            "level_5": 399,
-            "probability": 399
+            "comparison": 20,
+            "deepmind_mathematics": 20,
+            "extrapolate": 20,
+            "level_5": 20,
+            "comparison_closest_more": 10,
+            "comparison_kth_biggest_more": 10
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "comparison_closest_more": 10,
+            "comparison_kth_biggest_more": 10
+          },
           "answer_type_counts": {
-            "decimal": 6,
-            "expression": 1,
-            "fraction": 112,
-            "integer": 243,
-            "list_or_set": 7,
-            "text": 30
+            "decimal": 1,
+            "fraction": 4,
+            "integer": 2,
+            "text": 13
           },
           "step_count_histogram": {
-            "0": 399
+            "0": 20
           },
           "quality_review_count": 0
         }
       },
       "top_tags": {
-        "combinatorics": 1245,
-        "counting": 1245,
-        "counting_probability": 1245,
-        "probability": 1245,
-        "level_5": 399,
-        "level_4": 277,
-        "level_3": 260,
-        "level_2": 220,
-        "level_1": 89
+        "comparison": 337,
+        "deepmind_mathematics": 337,
+        "level_1": 80,
+        "train_easy": 80,
+        "level_2": 79,
+        "train_medium": 79,
+        "level_3": 79,
+        "train_hard": 79,
+        "interpolate": 79,
+        "level_4": 79,
+        "comparison_closest": 40,
+        "comparison_closest_composed": 40,
+        "comparison_kth_biggest": 40,
+        "comparison_pair": 40,
+        "comparison_sort": 40,
+        "comparison_kth_biggest_composed": 39,
+        "comparison_pair_composed": 39,
+        "comparison_sort_composed": 39,
+        "extrapolate": 20,
+        "level_5": 20,
+        "comparison_closest_more": 10,
+        "comparison_kth_biggest_more": 10
       },
-      "top_concepts": {},
+      "top_concepts": {
+        "comparison_closest": 40,
+        "comparison_closest_composed": 40,
+        "comparison_kth_biggest": 40,
+        "comparison_pair": 40,
+        "comparison_sort": 40,
+        "comparison_kth_biggest_composed": 39,
+        "comparison_pair_composed": 39,
+        "comparison_sort_composed": 39,
+        "comparison_closest_more": 10,
+        "comparison_kth_biggest_more": 10
+      },
       "answer_type_counts": {
-        "decimal": 21,
-        "expression": 11,
-        "fraction": 316,
-        "integer": 773,
-        "list_or_set": 39,
-        "text": 85
+        "boolean": 37,
+        "decimal": 27,
+        "expression": 7,
+        "fraction": 24,
+        "integer": 45,
+        "text": 197
       },
       "grade_band_counts": {
-        "advanced": 1245
+        "elementary_middle": 159,
+        "middle_high": 178
       },
       "source_bank_counts": {
-        "competition_math": 1245
+        "deepmind_mathematics": 337
+      }
+    },
+    "competition_math": {
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "count": 5743,
+      "levels": {
+        "1": {
+          "count": 175,
+          "top_tags": {
+            "competition_math": 175,
+            "level_1": 175,
+            "single_choice": 175,
+            "tal_scq5k": 175,
+            "zh": 164,
+            "unknown": 160,
+            "zh_train": 96,
+            "zh_test": 68,
+            "en": 11,
+            "en_train": 11,
+            "word_problem_modules": 11,
+            "1": 5,
+            "questions_involving_sum_difference_and_multiples": 2,
+            "applying_addition_and_subtraction": 2,
+            "interval_problems": 1,
+            "age_problems": 1,
+            "problems_of_sum_and_multiple": 1,
+            "chicken_rabbit_problems": 1
+          },
+          "top_concepts": {
+            "unknown": 160,
+            "word_problem_modules": 11,
+            "1": 5,
+            "questions_involving_sum_difference_and_multiples": 2,
+            "applying_addition_and_subtraction": 2,
+            "interval_problems": 1,
+            "age_problems": 1,
+            "problems_of_sum_and_multiple": 1,
+            "chicken_rabbit_problems": 1,
+            "solving_chicken_rabbit_problems_by_using_hypothesis": 1,
+            "simple_addition_and_subtraction": 1,
+            "0": 1
+          },
+          "answer_type_counts": {
+            "decimal": 3,
+            "expression": 22,
+            "fraction": 10,
+            "integer": 69,
+            "text": 71
+          },
+          "step_count_histogram": {
+            "1": 164,
+            "2": 7,
+            "3": 4
+          },
+          "quality_review_count": 0
+        },
+        "2": {
+          "count": 1755,
+          "top_tags": {
+            "competition_math": 1755,
+            "level_2": 1755,
+            "single_choice": 1755,
+            "tal_scq5k": 1755,
+            "zh": 1191,
+            "unknown": 1169,
+            "zh_train": 713,
+            "en": 564,
+            "en_train": 560,
+            "word_problem_modules": 547,
+            "zh_test": 478,
+            "periodic_problems": 91,
+            "unitary_method_problems": 75,
+            "periodic_problems_of_time": 73,
+            "questions_involving_sum_difference_and_multiples": 47,
+            "applying_addition_and_subtraction": 45,
+            "age_problems": 43,
+            "average_problems": 42
+          },
+          "top_concepts": {
+            "unknown": 1169,
+            "word_problem_modules": 547,
+            "periodic_problems": 91,
+            "unitary_method_problems": 75,
+            "periodic_problems_of_time": 73,
+            "questions_involving_sum_difference_and_multiples": 47,
+            "applying_addition_and_subtraction": 45,
+            "age_problems": 43,
+            "average_problems": 42,
+            "interval_problems": 33,
+            "finding_the_total_value_using_unitary_method": 28,
+            "1": 26,
+            "simple_addition_and_subtraction": 23,
+            "word_problems_in_economics": 21,
+            "applying_multiplication_and_division": 21,
+            "problems_involving_sum_and_difference": 19,
+            "basic_relationships_in_age_problems": 18,
+            "work_word_problems": 18
+          },
+          "answer_type_counts": {
+            "decimal": 20,
+            "expression": 205,
+            "fraction": 75,
+            "integer": 1038,
+            "text": 417
+          },
+          "step_count_histogram": {
+            "0": 2,
+            "1": 1440,
+            "2": 179,
+            "3": 78,
+            "4": 30,
+            "5": 11,
+            "6": 7,
+            "7": 5,
+            "8": 3
+          },
+          "quality_review_count": 2
+        },
+        "3": {
+          "count": 743,
+          "top_tags": {
+            "competition_math": 743,
+            "level_3": 743,
+            "single_choice": 743,
+            "tal_scq5k": 743,
+            "zh": 674,
+            "unknown": 664,
+            "zh_train": 431,
+            "zh_test": 243,
+            "en": 69,
+            "en_train": 68,
+            "word_problem_modules": 65,
+            "1": 21,
+            "periodic_problems": 17,
+            "average_problems": 8,
+            "age_problems": 8,
+            "periodic_problems_of_time": 8,
+            "snail_climbing_out_of_well_problems": 8,
+            "questions_involving_sum_difference_and_multiples": 7
+          },
+          "top_concepts": {
+            "unknown": 664,
+            "word_problem_modules": 65,
+            "1": 21,
+            "periodic_problems": 17,
+            "average_problems": 8,
+            "age_problems": 8,
+            "periodic_problems_of_time": 8,
+            "snail_climbing_out_of_well_problems": 8,
+            "questions_involving_sum_difference_and_multiples": 7,
+            "distance_word_problems": 4,
+            "newton_s_problem_of_cows_and_fields": 3,
+            "sums_and_multiples_in_age_problems": 3,
+            "problems_of_sum_and_multiple": 3,
+            "n": 3,
+            "bus_departure_time_word_problems": 2,
+            "clock_problems": 2,
+            "finding_the_order_of_one_character": 2,
+            "problems_involving_queuing": 2
+          },
+          "answer_type_counts": {
+            "decimal": 15,
+            "expression": 70,
+            "fraction": 54,
+            "integer": 415,
+            "text": 189
+          },
+          "step_count_histogram": {
+            "0": 1,
+            "1": 663,
+            "2": 47,
+            "3": 11,
+            "4": 12,
+            "5": 3,
+            "6": 4,
+            "8": 2
+          },
+          "quality_review_count": 1
+        },
+        "4": {
+          "count": 1775,
+          "top_tags": {
+            "competition_math": 1775,
+            "level_4": 1775,
+            "cot_reasoning": 1692,
+            "metamathqa": 1692,
+            "math_ansaug": 1016,
+            "math_rephrased": 676,
+            "single_choice": 83,
+            "tal_scq5k": 83,
+            "zh": 81,
+            "unknown": 79,
+            "zh_train": 49,
+            "zh_test": 32,
+            "en": 2,
+            "en_train": 2,
+            "word_problem_modules": 2,
+            "periodic_problems": 1,
+            "periodic_problems_of_time": 1,
+            "1": 1
+          },
+          "top_concepts": {
+            "competition_math": 1692,
+            "math_ansaug": 1016,
+            "math_rephrased": 676,
+            "unknown": 79,
+            "word_problem_modules": 2,
+            "periodic_problems": 1,
+            "periodic_problems_of_time": 1,
+            "1": 1,
+            "amc10_12": 1,
+            "combination": 1,
+            "reasoning": 1,
+            "simple_logical_reasoning": 1
+          },
+          "answer_type_counts": {
+            "decimal": 77,
+            "expression": 55,
+            "fraction": 31,
+            "integer": 1553,
+            "text": 58,
+            "unknown": 1
+          },
+          "step_count_histogram": {
+            "1": 170,
+            "2": 340,
+            "3": 374,
+            "4": 324,
+            "5": 221,
+            "6": 105,
+            "7": 75,
+            "8": 44,
+            "9": 35,
+            "10": 87
+          },
+          "quality_review_count": 1
+        },
+        "5": {
+          "count": 1295,
+          "top_tags": {
+            "competition_math": 1295,
+            "level_5": 1295,
+            "cot_reasoning": 1288,
+            "metamathqa": 1288,
+            "math_ansaug": 800,
+            "math_rephrased": 488,
+            "single_choice": 7,
+            "tal_scq5k": 7,
+            "unknown": 6,
+            "zh": 6,
+            "zh_test": 3,
+            "zh_train": 3,
+            "en": 1,
+            "en_train": 1,
+            "finding_the_height_in_snail_climbing_out_of_wall_problems_completed": 1,
+            "periodic_problems": 1,
+            "snail_climbing_out_of_well_problems": 1,
+            "word_problem_modules": 1
+          },
+          "top_concepts": {
+            "competition_math": 1288,
+            "math_ansaug": 800,
+            "math_rephrased": 488,
+            "unknown": 6,
+            "finding_the_height_in_snail_climbing_out_of_wall_problems_completed": 1,
+            "periodic_problems": 1,
+            "snail_climbing_out_of_well_problems": 1,
+            "word_problem_modules": 1
+          },
+          "answer_type_counts": {
+            "decimal": 14,
+            "expression": 113,
+            "fraction": 255,
+            "integer": 863,
+            "text": 50
+          },
+          "step_count_histogram": {
+            "1": 45,
+            "2": 127,
+            "3": 221,
+            "4": 218,
+            "5": 203,
+            "6": 141,
+            "7": 128,
+            "8": 62,
+            "9": 43,
+            "10": 107
+          },
+          "quality_review_count": 0
+        }
+      },
+      "top_tags": {
+        "competition_math": 5743,
+        "cot_reasoning": 2980,
+        "metamathqa": 2980,
+        "single_choice": 2763,
+        "tal_scq5k": 2763,
+        "zh": 2116,
+        "unknown": 2078,
+        "math_ansaug": 1816,
+        "level_4": 1775,
+        "level_2": 1755,
+        "level_5": 1295,
+        "zh_train": 1292,
+        "math_rephrased": 1164,
+        "zh_test": 824,
+        "level_3": 743,
+        "en": 647,
+        "en_train": 642,
+        "word_problem_modules": 626,
+        "level_1": 175,
+        "periodic_problems": 110,
+        "periodic_problems_of_time": 82,
+        "unitary_method_problems": 77,
+        "questions_involving_sum_difference_and_multiples": 56,
+        "1": 53
+      },
+      "top_concepts": {
+        "competition_math": 2980,
+        "unknown": 2078,
+        "math_ansaug": 1816,
+        "math_rephrased": 1164,
+        "word_problem_modules": 626,
+        "periodic_problems": 110,
+        "periodic_problems_of_time": 82,
+        "unitary_method_problems": 77,
+        "questions_involving_sum_difference_and_multiples": 56,
+        "1": 53,
+        "age_problems": 52,
+        "average_problems": 50,
+        "applying_addition_and_subtraction": 47,
+        "interval_problems": 35,
+        "finding_the_total_value_using_unitary_method": 29,
+        "simple_addition_and_subtraction": 24,
+        "word_problems_in_economics": 23,
+        "applying_multiplication_and_division": 21,
+        "basic_relationships_in_age_problems": 20,
+        "work_word_problems": 20,
+        "problems_involving_sum_and_difference": 19,
+        "distance_word_problems": 18,
+        "problems_of_sum_and_multiple": 18,
+        "chicken_rabbit_problems": 18
+      },
+      "answer_type_counts": {
+        "decimal": 129,
+        "expression": 465,
+        "fraction": 425,
+        "integer": 3938,
+        "text": 785,
+        "unknown": 1
+      },
+      "grade_band_counts": {
+        "elementary": 1930,
+        "high": 2987,
+        "middle": 826
+      },
+      "source_bank_counts": {
+        "metamathqa": 2980,
+        "tal_scq5k": 2763
+      }
+    },
+    "counting_probability": {
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "count": 3138,
+      "levels": {
+        "1": {
+          "count": 186,
+          "top_tags": {
+            "counting_probability": 186,
+            "level_1": 186,
+            "combinatorics": 128,
+            "single_choice": 97,
+            "tal_scq5k": 97,
+            "counting": 89,
+            "probability": 89,
+            "en": 69,
+            "en_train": 41,
+            "en_test": 28,
+            "counting_modules": 28,
+            "unknown": 28,
+            "zh": 28,
+            "time_problem": 19,
+            "zh_test": 14,
+            "zh_train": 14,
+            "logical_reasoning": 8,
+            "statistics_and_probability": 7
+          },
+          "top_concepts": {
+            "combinatorics": 39,
+            "counting_modules": 28,
+            "unknown": 28,
+            "time_problem": 19,
+            "logical_reasoning": 8,
+            "statistics_and_probability": 7,
+            "questions_involving_enumeration": 7,
+            "enumeration": 6,
+            "combinations": 5,
+            "permutations_and_combinations": 5,
+            "law_of_addition_and_multiplication": 5,
+            "constructing_and_proving": 5,
+            "law_of_addition": 4,
+            "time_calculation": 3,
+            "number_puzzles": 3,
+            "basic_concepts_of_probability": 3,
+            "questions_involving_probability": 3,
+            "number_puzzles_sign_of_operations": 2
+          },
+          "answer_type_counts": {
+            "expression": 7,
+            "fraction": 26,
+            "integer": 116,
+            "list_or_set": 2,
+            "text": 35
+          },
+          "step_count_histogram": {
+            "0": 107,
+            "1": 67,
+            "2": 6,
+            "3": 3,
+            "4": 2,
+            "8": 1
+          },
+          "quality_review_count": 18
+        },
+        "2": {
+          "count": 1305,
+          "top_tags": {
+            "counting_probability": 1305,
+            "level_2": 1305,
+            "single_choice": 1085,
+            "tal_scq5k": 1085,
+            "en": 854,
+            "en_train": 539,
+            "counting_modules": 525,
+            "combinatorics": 518,
+            "en_test": 315,
+            "zh": 231,
+            "unknown": 227,
+            "counting": 221,
+            "probability": 220,
+            "statistics_and_probability": 140,
+            "permutations_and_combinations": 136,
+            "zh_train": 132,
+            "combinations": 130,
+            "law_of_addition_and_multiplication": 99
+          },
+          "top_concepts": {
+            "counting_modules": 525,
+            "combinatorics": 298,
+            "unknown": 227,
+            "statistics_and_probability": 140,
+            "permutations_and_combinations": 136,
+            "combinations": 130,
+            "law_of_addition_and_multiplication": 99,
+            "time_problem": 98,
+            "logical_reasoning": 71,
+            "time_calculation": 56,
+            "inclusion_exclusion_principle": 47,
+            "questions_involving_probability": 38,
+            "questions_involving_enumeration": 34,
+            "strategies_and_operations": 27,
+            "fun_problems_in_math": 24,
+            "number_puzzles": 23,
+            "basic_concepts_of_probability": 23,
+            "calculation_modules": 23
+          },
+          "answer_type_counts": {
+            "decimal": 31,
+            "expression": 103,
+            "fraction": 107,
+            "integer": 696,
+            "list_or_set": 9,
+            "text": 359
+          },
+          "step_count_histogram": {
+            "0": 375,
+            "1": 645,
+            "2": 107,
+            "3": 63,
+            "4": 63,
+            "5": 21,
+            "6": 7,
+            "7": 7,
+            "8": 17
+          },
+          "quality_review_count": 155
+        },
+        "3": {
+          "count": 603,
+          "top_tags": {
+            "counting_probability": 603,
+            "level_3": 603,
+            "single_choice": 343,
+            "tal_scq5k": 343,
+            "combinatorics": 315,
+            "counting": 260,
+            "probability": 260,
+            "zh": 192,
+            "unknown": 190,
+            "en": 151,
+            "en_train": 123,
+            "zh_train": 121,
+            "counting_modules": 84,
+            "zh_test": 71,
+            "permutations_and_combinations": 30,
+            "en_test": 28,
+            "statistics_and_probability": 21,
+            "combinations": 16
+          },
+          "top_concepts": {
+            "unknown": 190,
+            "counting_modules": 84,
+            "combinatorics": 55,
+            "permutations_and_combinations": 30,
+            "statistics_and_probability": 21,
+            "combinations": 16,
+            "questions_involving_enumeration": 14,
+            "calculation_modules": 13,
+            "strategies_and_operations": 11,
+            "logical_reasoning": 9,
+            "time_problem": 9,
+            "questions_involving_probability": 8,
+            "pigeonhole_principle": 7,
+            "operational_problem": 7,
+            "inclusion_exclusion_principle": 6,
+            "enumeration": 6,
+            "basic_concepts_of_probability": 6,
+            "2_1_0": 6
+          },
+          "answer_type_counts": {
+            "decimal": 13,
+            "expression": 28,
+            "fraction": 93,
+            "integer": 340,
+            "list_or_set": 13,
+            "text": 116
+          },
+          "step_count_histogram": {
+            "0": 277,
+            "1": 218,
+            "2": 25,
+            "3": 25,
+            "4": 13,
+            "5": 23,
+            "6": 1,
+            "7": 4,
+            "8": 17
+          },
+          "quality_review_count": 17
+        },
+        "4": {
+          "count": 475,
+          "top_tags": {
+            "counting_probability": 475,
+            "level_4": 475,
+            "combinatorics": 281,
+            "counting": 277,
+            "probability": 277,
+            "cot_reasoning": 145,
+            "metamathqa": 145,
+            "math_ansaug": 65,
+            "math_rephrased": 53,
+            "single_choice": 53,
+            "tal_scq5k": 53,
+            "zh": 36,
+            "unknown": 35,
+            "zh_train": 26,
+            "math_sv": 19,
+            "en": 17,
+            "en_train": 16,
+            "counting_modules": 12
+          },
+          "top_concepts": {
+            "counting_probability": 145,
+            "math_ansaug": 65,
+            "math_rephrased": 53,
+            "unknown": 35,
+            "math_sv": 19,
+            "counting_modules": 12,
+            "math_fobar": 8,
+            "permutations_and_combinations": 5,
+            "amc10_12": 5,
+            "combination": 5,
+            "statistics_and_probability": 4,
+            "combinatorics": 4,
+            "probability_calculation": 4,
+            "logical_reasoning": 2,
+            "fun_problems_in_math": 2,
+            "1": 2,
+            "classical_models_of_probabilities": 2,
+            "geometric_models_of_probabilities": 2
+          },
+          "answer_type_counts": {
+            "decimal": 17,
+            "expression": 3,
+            "fraction": 183,
+            "integer": 236,
+            "list_or_set": 8,
+            "text": 28
+          },
+          "step_count_histogram": {
+            "0": 278,
+            "1": 36,
+            "2": 24,
+            "3": 35,
+            "4": 27,
+            "5": 15,
+            "6": 14,
+            "7": 9,
+            "8": 3,
+            "9": 10,
+            "10": 24
+          },
+          "quality_review_count": 1
+        },
+        "5": {
+          "count": 569,
+          "top_tags": {
+            "counting_probability": 569,
+            "level_5": 569,
+            "combinatorics": 399,
+            "counting": 399,
+            "probability": 399,
+            "cot_reasoning": 165,
+            "metamathqa": 165,
+            "math_ansaug": 73,
+            "math_rephrased": 46,
+            "math_fobar": 40,
+            "math_sv": 6,
+            "single_choice": 5,
+            "tal_scq5k": 5,
+            "unknown": 3,
+            "zh": 3,
+            "calculation_modules": 2,
+            "en": 2,
+            "en_test": 2
+          },
+          "top_concepts": {
+            "counting_probability": 165,
+            "math_ansaug": 73,
+            "math_rephrased": 46,
+            "math_fobar": 40,
+            "math_sv": 6,
+            "unknown": 3,
+            "calculation_modules": 2,
+            "3_1_0": 2
+          },
+          "answer_type_counts": {
+            "decimal": 20,
+            "expression": 2,
+            "fraction": 208,
+            "integer": 302,
+            "list_or_set": 7,
+            "text": 30
+          },
+          "step_count_histogram": {
+            "0": 401,
+            "1": 4,
+            "2": 15,
+            "3": 23,
+            "4": 27,
+            "5": 16,
+            "6": 12,
+            "7": 13,
+            "8": 5,
+            "9": 2,
+            "10": 51
+          },
+          "quality_review_count": 2
+        }
+      },
+      "top_tags": {
+        "counting_probability": 3138,
+        "combinatorics": 1641,
+        "single_choice": 1583,
+        "tal_scq5k": 1583,
+        "level_2": 1305,
+        "counting": 1246,
+        "probability": 1245,
+        "en": 1093,
+        "en_train": 719,
+        "counting_modules": 649,
+        "level_3": 603,
+        "level_5": 569,
+        "zh": 490,
+        "unknown": 483,
+        "level_4": 475,
+        "en_test": 374,
+        "cot_reasoning": 310,
+        "metamathqa": 310,
+        "zh_train": 295,
+        "zh_test": 195,
+        "level_1": 186,
+        "permutations_and_combinations": 176,
+        "statistics_and_probability": 172,
+        "combinations": 152
+      },
+      "top_concepts": {
+        "counting_modules": 649,
+        "unknown": 483,
+        "combinatorics": 396,
+        "counting_probability": 310,
+        "permutations_and_combinations": 176,
+        "statistics_and_probability": 172,
+        "combinations": 152,
+        "math_ansaug": 138,
+        "time_problem": 126,
+        "law_of_addition_and_multiplication": 109,
+        "math_rephrased": 99,
+        "logical_reasoning": 90,
+        "time_calculation": 59,
+        "questions_involving_enumeration": 55,
+        "inclusion_exclusion_principle": 54,
+        "questions_involving_probability": 49,
+        "math_fobar": 48,
+        "calculation_modules": 41,
+        "strategies_and_operations": 39,
+        "enumeration": 34,
+        "basic_concepts_of_probability": 32,
+        "number_puzzles": 30,
+        "fun_problems_in_math": 29,
+        "math_sv": 25
+      },
+      "answer_type_counts": {
+        "decimal": 81,
+        "expression": 143,
+        "fraction": 617,
+        "integer": 1690,
+        "list_or_set": 39,
+        "text": 568
+      },
+      "grade_band_counts": {
+        "advanced": 1245,
+        "elementary": 1182,
+        "high": 315,
+        "middle": 396
+      },
+      "source_bank_counts": {
+        "competition_math": 1245,
+        "metamathqa": 310,
+        "tal_scq5k": 1583
       }
     },
     "geometry": {
       "subject": "Geometry",
       "subject_slug": "geometry",
-      "count": 1349,
+      "count": 2196,
       "levels": {
         "0": {
           "count": 2,
@@ -634,140 +2023,342 @@
           "quality_review_count": 2
         },
         "1": {
-          "count": 79,
+          "count": 115,
           "top_tags": {
+            "geometry": 115,
+            "level_1": 115,
             "diagram": 79,
-            "geometry": 79,
-            "level_1": 79
+            "single_choice": 36,
+            "tal_scq5k": 36,
+            "unknown": 35,
+            "zh": 35,
+            "zh_train": 21,
+            "zh_test": 14,
+            "en": 1,
+            "en_test": 1,
+            "geometry_modules": 1,
+            "knowing_graphs": 1,
+            "objects_with_straight_sides": 1,
+            "amc10_12": 1,
+            "calculation_of_plane_geometry": 1,
+            "quadrilateral": 1
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "unknown": 35,
+            "geometry_modules": 1,
+            "knowing_graphs": 1,
+            "objects_with_straight_sides": 1,
+            "amc10_12": 1,
+            "calculation_of_plane_geometry": 1,
+            "geometry": 1,
+            "quadrilateral": 1
+          },
           "answer_type_counts": {
-            "decimal": 1,
-            "expression": 8,
-            "fraction": 3,
-            "integer": 64,
-            "text": 3
+            "decimal": 2,
+            "expression": 19,
+            "fraction": 9,
+            "integer": 71,
+            "text": 14
           },
           "step_count_histogram": {
-            "0": 79
+            "0": 79,
+            "1": 35,
+            "3": 1
           },
           "quality_review_count": 0
         },
         "2": {
-          "count": 182,
+          "count": 298,
           "top_tags": {
+            "geometry": 298,
+            "level_2": 298,
             "diagram": 182,
-            "geometry": 182,
-            "level_2": 182
+            "single_choice": 116,
+            "tal_scq5k": 116,
+            "zh": 110,
+            "unknown": 109,
+            "zh_train": 60,
+            "zh_test": 50,
+            "en": 6,
+            "en_train": 6,
+            "word_problem_modules": 4,
+            "geometry_modules": 2,
+            "knowing_graphs": 2,
+            "objects_with_straight_sides": 2,
+            "tile_word_problems": 2,
+            "word_problems_combined_with_geometry": 2,
+            "amc8": 2
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "unknown": 109,
+            "word_problem_modules": 4,
+            "geometry_modules": 2,
+            "knowing_graphs": 2,
+            "objects_with_straight_sides": 2,
+            "tile_word_problems": 2,
+            "word_problems_combined_with_geometry": 2,
+            "amc8": 2,
+            "amc10_12": 2,
+            "knowing_the_base": 1,
+            "solving_problems_involving_fractions_and_percentages": 1,
+            "finding_the_total_value_using_unitary_method": 1,
+            "unitary_method_problems": 1,
+            "calculation_of_plane_geometry": 1,
+            "circle": 1,
+            "geometry": 1,
+            "combination": 1,
+            "dyeing_and_covering": 1
+          },
           "answer_type_counts": {
-            "decimal": 4,
-            "expression": 26,
-            "fraction": 26,
-            "integer": 93,
+            "decimal": 6,
+            "expression": 42,
+            "fraction": 64,
+            "integer": 114,
             "list_or_set": 10,
-            "text": 23
+            "text": 62
           },
           "step_count_histogram": {
-            "0": 182
+            "0": 182,
+            "1": 104,
+            "2": 5,
+            "3": 3,
+            "4": 2,
+            "5": 1,
+            "7": 1
           },
           "quality_review_count": 0
         },
         "3": {
-          "count": 231,
+          "count": 307,
           "top_tags": {
+            "geometry": 307,
+            "level_3": 307,
             "diagram": 231,
-            "geometry": 231,
-            "level_3": 231
+            "single_choice": 76,
+            "tal_scq5k": 76,
+            "zh": 76,
+            "unknown": 75,
+            "zh_train": 42,
+            "zh_test": 34,
+            "amc10_12": 5,
+            "calculation_of_plane_geometry": 4,
+            "regular_polygon": 2,
+            "circle": 2,
+            "amc8": 1,
+            "geometric_theorem": 1,
+            "shapes_with_straight_sides": 1,
+            "basic_analytic_geometry": 1,
+            "curves_and_equations": 1
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "unknown": 75,
+            "geometry": 6,
+            "amc10_12": 5,
+            "calculation_of_plane_geometry": 4,
+            "regular_polygon": 2,
+            "circle": 2,
+            "amc8": 1,
+            "geometric_theorem": 1,
+            "shapes_with_straight_sides": 1,
+            "basic_analytic_geometry": 1,
+            "curves_and_equations": 1
+          },
           "answer_type_counts": {
             "decimal": 10,
-            "expression": 38,
-            "fraction": 51,
-            "integer": 107,
+            "expression": 54,
+            "fraction": 63,
+            "integer": 128,
             "list_or_set": 1,
-            "text": 24
+            "text": 51
           },
           "step_count_histogram": {
-            "0": 231
+            "0": 231,
+            "1": 67,
+            "2": 3,
+            "3": 1,
+            "6": 2,
+            "7": 1,
+            "8": 2
           },
           "quality_review_count": 0
         },
         "4": {
-          "count": 302,
+          "count": 546,
           "top_tags": {
+            "geometry": 546,
+            "level_4": 546,
             "diagram": 302,
-            "geometry": 302,
-            "level_4": 302
+            "cot_reasoning": 233,
+            "metamathqa": 233,
+            "math_ansaug": 134,
+            "math_rephrased": 63,
+            "math_sv": 21,
+            "math_fobar": 15,
+            "single_choice": 11,
+            "tal_scq5k": 11,
+            "unknown": 11,
+            "zh": 11,
+            "zh_train": 6,
+            "zh_test": 5,
+            "amc10_12": 3,
+            "calculation_of_plane_geometry": 3,
+            "circle": 2
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "geometry": 236,
+            "math_ansaug": 134,
+            "math_rephrased": 63,
+            "math_sv": 21,
+            "math_fobar": 15,
+            "unknown": 11,
+            "amc10_12": 3,
+            "calculation_of_plane_geometry": 3,
+            "circle": 2,
+            "regular_polygon": 1
+          },
           "answer_type_counts": {
-            "decimal": 16,
-            "expression": 61,
-            "fraction": 55,
-            "integer": 127,
+            "decimal": 23,
+            "expression": 62,
+            "fraction": 65,
+            "integer": 309,
             "list_or_set": 7,
-            "text": 36
+            "text": 80
           },
           "step_count_histogram": {
-            "0": 302
+            "0": 302,
+            "1": 10,
+            "2": 22,
+            "3": 32,
+            "4": 37,
+            "5": 37,
+            "6": 24,
+            "7": 12,
+            "8": 15,
+            "9": 12,
+            "10": 43
           },
           "quality_review_count": 0
         },
         "5": {
-          "count": 553,
+          "count": 928,
           "top_tags": {
+            "geometry": 928,
+            "level_5": 928,
             "diagram": 553,
-            "geometry": 553,
-            "level_5": 553
+            "cot_reasoning": 375,
+            "metamathqa": 375,
+            "math_ansaug": 183,
+            "math_rephrased": 121,
+            "math_fobar": 43,
+            "math_sv": 28
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "geometry": 375,
+            "math_ansaug": 183,
+            "math_rephrased": 121,
+            "math_fobar": 43,
+            "math_sv": 28
+          },
           "answer_type_counts": {
-            "decimal": 15,
-            "expression": 97,
-            "fraction": 102,
-            "integer": 308,
+            "decimal": 25,
+            "expression": 126,
+            "fraction": 145,
+            "integer": 567,
             "list_or_set": 7,
-            "text": 24
+            "text": 58
           },
           "step_count_histogram": {
-            "0": 553
+            "0": 554,
+            "1": 2,
+            "2": 6,
+            "3": 27,
+            "4": 39,
+            "5": 78,
+            "6": 35,
+            "7": 37,
+            "8": 18,
+            "9": 17,
+            "10": 115
           },
           "quality_review_count": 0
         }
       },
       "top_tags": {
+        "geometry": 2196,
         "diagram": 1349,
-        "geometry": 1349,
-        "level_5": 553,
-        "level_4": 302,
-        "level_3": 231,
-        "level_2": 182,
-        "level_1": 79,
-        "level_0": 2
+        "level_5": 928,
+        "cot_reasoning": 608,
+        "metamathqa": 608,
+        "level_4": 546,
+        "math_ansaug": 317,
+        "level_3": 307,
+        "level_2": 298,
+        "single_choice": 239,
+        "tal_scq5k": 239,
+        "zh": 232,
+        "unknown": 230,
+        "math_rephrased": 184,
+        "zh_train": 129,
+        "level_1": 115,
+        "zh_test": 103,
+        "math_fobar": 58,
+        "math_sv": 49,
+        "amc10_12": 11,
+        "calculation_of_plane_geometry": 9,
+        "en": 7,
+        "en_train": 6,
+        "circle": 5
       },
-      "top_concepts": {},
+      "top_concepts": {
+        "geometry": 619,
+        "math_ansaug": 317,
+        "unknown": 230,
+        "math_rephrased": 184,
+        "math_fobar": 58,
+        "math_sv": 49,
+        "amc10_12": 11,
+        "calculation_of_plane_geometry": 9,
+        "circle": 5,
+        "word_problem_modules": 4,
+        "geometry_modules": 3,
+        "knowing_graphs": 3,
+        "objects_with_straight_sides": 3,
+        "amc8": 3,
+        "regular_polygon": 3,
+        "tile_word_problems": 2,
+        "word_problems_combined_with_geometry": 2,
+        "knowing_the_base": 1,
+        "solving_problems_involving_fractions_and_percentages": 1,
+        "finding_the_total_value_using_unitary_method": 1,
+        "unitary_method_problems": 1,
+        "combination": 1,
+        "dyeing_and_covering": 1,
+        "reasoning": 1
+      },
       "answer_type_counts": {
-        "decimal": 46,
-        "expression": 230,
-        "fraction": 237,
-        "integer": 701,
+        "decimal": 66,
+        "expression": 303,
+        "fraction": 346,
+        "integer": 1191,
         "list_or_set": 25,
-        "text": 110
+        "text": 265
       },
       "grade_band_counts": {
-        "advanced": 1349
+        "advanced": 1349,
+        "elementary": 152,
+        "high": 608,
+        "middle": 87
       },
       "source_bank_counts": {
-        "competition_math": 1349
+        "competition_math": 1349,
+        "metamathqa": 608,
+        "tal_scq5k": 239
       }
     },
     "intermediate_algebra": {
       "subject": "Intermediate Algebra",
       "subject_slug": "intermediate_algebra",
-      "count": 2198,
+      "count": 2576,
       "levels": {
         "1": {
           "count": 110,
@@ -813,45 +2404,88 @@
           "quality_review_count": 0
         },
         "3": {
-          "count": 496,
+          "count": 565,
           "top_tags": {
+            "intermediate_algebra": 565,
+            "level_3": 565,
             "equations": 496,
-            "intermediate_algebra": 496,
-            "level_3": 496,
-            "polynomials": 496
+            "polynomials": 496,
+            "cot_reasoning": 69,
+            "metamathqa": 69,
+            "math_ansaug": 36,
+            "math_rephrased": 25,
+            "math_sv": 5,
+            "math_fobar": 3
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "intermediate_algebra": 69,
+            "math_ansaug": 36,
+            "math_rephrased": 25,
+            "math_sv": 5,
+            "math_fobar": 3
+          },
           "answer_type_counts": {
+            "decimal": 1,
             "expression": 84,
             "fraction": 70,
-            "integer": 279,
+            "integer": 340,
             "list_or_set": 44,
-            "text": 19
+            "text": 26
           },
           "step_count_histogram": {
-            "0": 496
+            "0": 496,
+            "2": 2,
+            "3": 21,
+            "4": 12,
+            "5": 9,
+            "6": 7,
+            "7": 4,
+            "8": 2,
+            "9": 2,
+            "10": 10
           },
           "quality_review_count": 0
         },
         "4": {
-          "count": 588,
+          "count": 897,
           "top_tags": {
+            "intermediate_algebra": 897,
+            "level_4": 897,
             "equations": 588,
-            "intermediate_algebra": 588,
-            "level_4": 588,
-            "polynomials": 588
+            "polynomials": 588,
+            "cot_reasoning": 309,
+            "metamathqa": 309,
+            "math_ansaug": 155,
+            "math_rephrased": 101,
+            "math_fobar": 34,
+            "math_sv": 19
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "intermediate_algebra": 309,
+            "math_ansaug": 155,
+            "math_rephrased": 101,
+            "math_fobar": 34,
+            "math_sv": 19
+          },
           "answer_type_counts": {
-            "decimal": 3,
-            "expression": 91,
-            "fraction": 100,
-            "integer": 318,
+            "decimal": 4,
+            "expression": 124,
+            "fraction": 132,
+            "integer": 546,
             "list_or_set": 58,
-            "text": 18
+            "text": 33
           },
           "step_count_histogram": {
-            "0": 588
+            "0": 588,
+            "2": 12,
+            "3": 21,
+            "4": 40,
+            "5": 40,
+            "6": 44,
+            "7": 19,
+            "8": 17,
+            "9": 13,
+            "10": 103
           },
           "quality_review_count": 0
         },
@@ -879,312 +2513,1388 @@
         }
       },
       "top_tags": {
+        "intermediate_algebra": 2576,
         "equations": 2198,
-        "intermediate_algebra": 2198,
         "polynomials": 2198,
+        "level_4": 897,
         "level_5": 709,
-        "level_4": 588,
-        "level_3": 496,
+        "level_3": 565,
+        "cot_reasoning": 378,
+        "metamathqa": 378,
         "level_2": 295,
-        "level_1": 110
+        "math_ansaug": 191,
+        "math_rephrased": 126,
+        "level_1": 110,
+        "math_fobar": 37,
+        "math_sv": 24
       },
-      "top_concepts": {},
+      "top_concepts": {
+        "intermediate_algebra": 378,
+        "math_ansaug": 191,
+        "math_rephrased": 126,
+        "math_fobar": 37,
+        "math_sv": 24
+      },
       "answer_type_counts": {
-        "decimal": 5,
-        "expression": 379,
-        "fraction": 409,
-        "integer": 1180,
+        "decimal": 7,
+        "expression": 412,
+        "fraction": 441,
+        "integer": 1469,
         "list_or_set": 163,
-        "text": 62
+        "text": 84
       },
       "grade_band_counts": {
-        "advanced": 2198
+        "advanced": 2198,
+        "high": 309,
+        "middle_high": 69
       },
       "source_bank_counts": {
-        "competition_math": 2198
+        "competition_math": 2198,
+        "metamathqa": 378
+      }
+    },
+    "measurement": {
+      "subject": "Measurement",
+      "subject_slug": "measurement",
+      "count": 90,
+      "levels": {
+        "1": {
+          "count": 20,
+          "top_tags": {
+            "deepmind_mathematics": 20,
+            "level_1": 20,
+            "measurement": 20,
+            "train_easy": 20,
+            "measurement_conversion": 10,
+            "measurement_time": 10
+          },
+          "top_concepts": {
+            "measurement_conversion": 10,
+            "measurement_time": 10
+          },
+          "answer_type_counts": {
+            "decimal": 4,
+            "integer": 12,
+            "text": 4
+          },
+          "step_count_histogram": {
+            "0": 20
+          },
+          "quality_review_count": 0
+        },
+        "2": {
+          "count": 20,
+          "top_tags": {
+            "deepmind_mathematics": 20,
+            "level_2": 20,
+            "measurement": 20,
+            "train_medium": 20,
+            "measurement_conversion": 10,
+            "measurement_time": 10
+          },
+          "top_concepts": {
+            "measurement_conversion": 10,
+            "measurement_time": 10
+          },
+          "answer_type_counts": {
+            "decimal": 5,
+            "integer": 10,
+            "text": 5
+          },
+          "step_count_histogram": {
+            "0": 20
+          },
+          "quality_review_count": 0
+        },
+        "3": {
+          "count": 20,
+          "top_tags": {
+            "deepmind_mathematics": 20,
+            "level_3": 20,
+            "measurement": 20,
+            "train_hard": 20,
+            "measurement_conversion": 10,
+            "measurement_time": 10
+          },
+          "top_concepts": {
+            "measurement_conversion": 10,
+            "measurement_time": 10
+          },
+          "answer_type_counts": {
+            "decimal": 3,
+            "integer": 12,
+            "text": 5
+          },
+          "step_count_histogram": {
+            "0": 20
+          },
+          "quality_review_count": 0
+        },
+        "4": {
+          "count": 20,
+          "top_tags": {
+            "deepmind_mathematics": 20,
+            "interpolate": 20,
+            "level_4": 20,
+            "measurement": 20,
+            "measurement_conversion": 10,
+            "measurement_time": 10
+          },
+          "top_concepts": {
+            "measurement_conversion": 10,
+            "measurement_time": 10
+          },
+          "answer_type_counts": {
+            "decimal": 4,
+            "integer": 10,
+            "text": 6
+          },
+          "step_count_histogram": {
+            "0": 20
+          },
+          "quality_review_count": 0
+        },
+        "5": {
+          "count": 10,
+          "top_tags": {
+            "deepmind_mathematics": 10,
+            "extrapolate": 10,
+            "level_5": 10,
+            "measurement": 10,
+            "measurement_conversion": 10
+          },
+          "top_concepts": {
+            "measurement_conversion": 10
+          },
+          "answer_type_counts": {
+            "decimal": 8,
+            "integer": 2
+          },
+          "step_count_histogram": {
+            "0": 10
+          },
+          "quality_review_count": 0
+        }
+      },
+      "top_tags": {
+        "deepmind_mathematics": 90,
+        "measurement": 90,
+        "measurement_conversion": 50,
+        "measurement_time": 40,
+        "level_1": 20,
+        "train_easy": 20,
+        "level_2": 20,
+        "train_medium": 20,
+        "level_3": 20,
+        "train_hard": 20,
+        "interpolate": 20,
+        "level_4": 20,
+        "extrapolate": 10,
+        "level_5": 10
+      },
+      "top_concepts": {
+        "measurement_conversion": 50,
+        "measurement_time": 40
+      },
+      "answer_type_counts": {
+        "decimal": 24,
+        "integer": 46,
+        "text": 20
+      },
+      "grade_band_counts": {
+        "elementary_middle": 40,
+        "middle_high": 50
+      },
+      "source_bank_counts": {
+        "deepmind_mathematics": 90
       }
     },
     "number_theory": {
       "subject": "Number Theory",
       "subject_slug": "number_theory",
-      "count": 1409,
+      "count": 4515,
       "levels": {
         "1": {
-          "count": 77,
+          "count": 190,
           "top_tags": {
+            "level_1": 190,
+            "number_theory": 190,
+            "single_choice": 113,
+            "tal_scq5k": 113,
+            "en": 83,
+            "number_theory_modules": 83,
             "integers": 77,
-            "level_1": 77,
             "modular_arithmetic": 77,
-            "number_theory": 77
+            "en_test": 55,
+            "unknown": 30,
+            "zh": 30,
+            "en_train": 28,
+            "zh_train": 22,
+            "division_without_remainders": 20,
+            "factors_and_multiples": 19,
+            "prime_and_composite_numbers": 11,
+            "odd_and_even_numbers": 10,
+            "zh_test": 8
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "number_theory_modules": 83,
+            "unknown": 30,
+            "division_without_remainders": 20,
+            "factors_and_multiples": 19,
+            "prime_and_composite_numbers": 11,
+            "odd_and_even_numbers": 10,
+            "place_value_and_number_bases": 7,
+            "common_factors_and_common_multiples": 6,
+            "numbers": 5,
+            "remainder_problems": 5,
+            "understanding_odd_and_even_numbers": 4,
+            "basic_applications_of_square_numbers": 3,
+            "perfect_square_numbers": 3,
+            "basic_concepts_of_factors_and_multiples": 3,
+            "understanding_numbers_and_digits": 2,
+            "congruence": 2,
+            "common_factors_and_the_greatest_common_factors": 1,
+            "the_greatest_common_factor_of_two_numbers": 1
+          },
           "answer_type_counts": {
-            "expression": 2,
-            "fraction": 2,
-            "integer": 72,
-            "text": 1
+            "expression": 5,
+            "fraction": 3,
+            "integer": 147,
+            "text": 35
           },
           "step_count_histogram": {
-            "0": 77
+            "0": 111,
+            "1": 74,
+            "2": 5
+          },
+          "quality_review_count": 34
+        },
+        "2": {
+          "count": 1284,
+          "top_tags": {
+            "level_2": 1284,
+            "number_theory": 1284,
+            "single_choice": 1061,
+            "tal_scq5k": 1061,
+            "en": 759,
+            "number_theory_modules": 757,
+            "en_train": 380,
+            "en_test": 379,
+            "zh": 302,
+            "unknown": 297,
+            "integers": 223,
+            "modular_arithmetic": 223,
+            "zh_train": 179,
+            "factors_and_multiples": 124,
+            "zh_test": 123,
+            "place_value_and_number_bases": 92,
+            "division_without_remainders": 85,
+            "remainder_problems": 82
+          },
+          "top_concepts": {
+            "number_theory_modules": 757,
+            "unknown": 297,
+            "factors_and_multiples": 124,
+            "place_value_and_number_bases": 92,
+            "division_without_remainders": 85,
+            "remainder_problems": 82,
+            "prime_factorization": 65,
+            "odd_and_even_numbers": 62,
+            "common_factors_and_common_multiples": 58,
+            "divisibility_rules": 58,
+            "prime_and_composite_numbers": 52,
+            "perfect_square_numbers": 48,
+            "numbers": 44,
+            "basic_concepts_of_factors_and_multiples": 44,
+            "basic_applications_of_square_numbers": 36,
+            "questions_involving_divisions_with_remainders": 31,
+            "applying_the_principle_of_place_value": 29,
+            "determining_prime_and_composite_numbers": 28
+          },
+          "answer_type_counts": {
+            "decimal": 8,
+            "expression": 53,
+            "fraction": 27,
+            "integer": 960,
+            "list_or_set": 2,
+            "text": 234
+          },
+          "step_count_histogram": {
+            "0": 356,
+            "1": 760,
+            "2": 69,
+            "3": 39,
+            "4": 18,
+            "5": 15,
+            "6": 17,
+            "7": 3,
+            "8": 7
+          },
+          "quality_review_count": 133
+        },
+        "3": {
+          "count": 705,
+          "top_tags": {
+            "level_3": 705,
+            "number_theory": 705,
+            "single_choice": 392,
+            "tal_scq5k": 392,
+            "integers": 313,
+            "modular_arithmetic": 313,
+            "zh": 273,
+            "unknown": 267,
+            "zh_train": 163,
+            "en": 119,
+            "number_theory_modules": 119,
+            "zh_test": 110,
+            "en_train": 73,
+            "en_test": 46,
+            "division_without_remainders": 25,
+            "factors_and_multiples": 21,
+            "remainder_problems": 17,
+            "prime_factorization": 14
+          },
+          "top_concepts": {
+            "unknown": 267,
+            "number_theory_modules": 119,
+            "division_without_remainders": 25,
+            "factors_and_multiples": 21,
+            "remainder_problems": 17,
+            "prime_factorization": 14,
+            "divisibility_rules": 13,
+            "place_value_and_number_bases": 12,
+            "applying_prime_factorization": 10,
+            "chinese_remainder_theorem": 9,
+            "prime_and_composite_numbers": 8,
+            "odd_and_even_numbers": 8,
+            "applying_the_properties_of_dividing_without_remainders": 7,
+            "perfect_square_numbers": 6,
+            "applying_the_principle_of_place_value": 6,
+            "the_number_of_zeros_at_the_end_of_a_product": 5,
+            "maximum_minimum_problems_of_division_without_remainders": 5,
+            "questions_involving_applying_place_value_principle": 3
+          },
+          "answer_type_counts": {
+            "decimal": 3,
+            "expression": 26,
+            "fraction": 16,
+            "integer": 559,
+            "list_or_set": 4,
+            "text": 97
+          },
+          "step_count_histogram": {
+            "0": 342,
+            "1": 278,
+            "2": 38,
+            "3": 12,
+            "4": 18,
+            "5": 4,
+            "6": 5,
+            "7": 2,
+            "8": 6
+          },
+          "quality_review_count": 29
+        },
+        "4": {
+          "count": 1237,
+          "top_tags": {
+            "level_4": 1237,
+            "number_theory": 1237,
+            "cot_reasoning": 856,
+            "metamathqa": 856,
+            "math_ansaug": 393,
+            "integers": 329,
+            "modular_arithmetic": 329,
+            "math_rephrased": 292,
+            "math_sv": 94,
+            "math_fobar": 77,
+            "single_choice": 52,
+            "tal_scq5k": 52,
+            "zh": 41,
+            "unknown": 40,
+            "zh_train": 28,
+            "zh_test": 13,
+            "en": 11,
+            "number_theory_modules": 11
+          },
+          "top_concepts": {
+            "number_theory": 858,
+            "math_ansaug": 393,
+            "math_rephrased": 292,
+            "math_sv": 94,
+            "math_fobar": 77,
+            "unknown": 40,
+            "number_theory_modules": 11,
+            "factors_and_multiples": 5,
+            "remainder_problems": 3,
+            "divisibility_rules": 2,
+            "division_without_remainders": 2,
+            "questions_involving_properties_of_dividing_without_remainders": 2,
+            "amc10_12": 2,
+            "aliquot_theory": 1,
+            "divisibility_rules_of_certain_numbers_2_3_5_9_11": 1,
+            "2": 1,
+            "gaussian_function": 1
+          },
+          "answer_type_counts": {
+            "decimal": 6,
+            "expression": 8,
+            "fraction": 7,
+            "integer": 1147,
+            "list_or_set": 5,
+            "text": 64
+          },
+          "step_count_histogram": {
+            "0": 336,
+            "1": 57,
+            "2": 80,
+            "3": 116,
+            "4": 123,
+            "5": 112,
+            "6": 66,
+            "7": 58,
+            "8": 40,
+            "9": 37,
+            "10": 212
+          },
+          "quality_review_count": 6
+        },
+        "5": {
+          "count": 1099,
+          "top_tags": {
+            "level_5": 1099,
+            "number_theory": 1099,
+            "cot_reasoning": 602,
+            "metamathqa": 602,
+            "integers": 467,
+            "modular_arithmetic": 467,
+            "math_ansaug": 288,
+            "math_rephrased": 198,
+            "math_fobar": 62,
+            "math_sv": 54,
+            "single_choice": 30,
+            "tal_scq5k": 30,
+            "en": 22,
+            "number_theory_modules": 22,
+            "en_test": 18,
+            "zh": 8,
+            "unknown": 7,
+            "zh_test": 5
+          },
+          "top_concepts": {
+            "number_theory": 602,
+            "math_ansaug": 288,
+            "math_rephrased": 198,
+            "math_fobar": 62,
+            "math_sv": 54,
+            "number_theory_modules": 22,
+            "unknown": 7,
+            "congruence": 2,
+            "remainder_problems": 2,
+            "perfect_square_numbers": 1
+          },
+          "answer_type_counts": {
+            "decimal": 3,
+            "expression": 20,
+            "fraction": 29,
+            "integer": 1003,
+            "list_or_set": 5,
+            "text": 37,
+            "unknown": 2
+          },
+          "step_count_histogram": {
+            "0": 485,
+            "1": 15,
+            "2": 21,
+            "3": 50,
+            "4": 68,
+            "5": 85,
+            "6": 66,
+            "7": 55,
+            "8": 38,
+            "9": 28,
+            "10": 188
+          },
+          "quality_review_count": 20
+        }
+      },
+      "top_tags": {
+        "number_theory": 4515,
+        "single_choice": 1648,
+        "tal_scq5k": 1648,
+        "cot_reasoning": 1458,
+        "metamathqa": 1458,
+        "integers": 1409,
+        "modular_arithmetic": 1409,
+        "level_2": 1284,
+        "level_4": 1237,
+        "level_5": 1099,
+        "en": 994,
+        "number_theory_modules": 992,
+        "level_3": 705,
+        "math_ansaug": 681,
+        "zh": 654,
+        "unknown": 641,
+        "en_test": 506,
+        "math_rephrased": 490,
+        "en_train": 488,
+        "zh_train": 395,
+        "zh_test": 259,
+        "level_1": 190,
+        "factors_and_multiples": 169,
+        "math_sv": 148
+      },
+      "top_concepts": {
+        "number_theory": 1465,
+        "number_theory_modules": 992,
+        "math_ansaug": 681,
+        "unknown": 641,
+        "math_rephrased": 490,
+        "factors_and_multiples": 169,
+        "math_sv": 148,
+        "math_fobar": 139,
+        "division_without_remainders": 132,
+        "place_value_and_number_bases": 111,
+        "remainder_problems": 109,
+        "odd_and_even_numbers": 80,
+        "prime_factorization": 80,
+        "divisibility_rules": 74,
+        "prime_and_composite_numbers": 71,
+        "common_factors_and_common_multiples": 67,
+        "perfect_square_numbers": 58,
+        "numbers": 51,
+        "basic_concepts_of_factors_and_multiples": 49,
+        "basic_applications_of_square_numbers": 39,
+        "applying_the_principle_of_place_value": 36,
+        "questions_involving_divisions_with_remainders": 31,
+        "determining_prime_and_composite_numbers": 30,
+        "characteristics_of_remainder": 29
+      },
+      "answer_type_counts": {
+        "decimal": 20,
+        "expression": 112,
+        "fraction": 82,
+        "integer": 3816,
+        "list_or_set": 16,
+        "text": 467,
+        "unknown": 2
+      },
+      "grade_band_counts": {
+        "advanced": 1409,
+        "elementary": 1174,
+        "high": 1488,
+        "middle": 444
+      },
+      "source_bank_counts": {
+        "competition_math": 1409,
+        "metamathqa": 1458,
+        "tal_scq5k": 1648
+      }
+    },
+    "numbers": {
+      "subject": "Numbers",
+      "subject_slug": "numbers",
+      "count": 690,
+      "levels": {
+        "1": {
+          "count": 167,
+          "top_tags": {
+            "deepmind_mathematics": 167,
+            "level_1": 167,
+            "numbers": 167,
+            "train_easy": 167,
+            "numbers_base_conversion": 10,
+            "numbers_div_remainder": 10,
+            "numbers_gcd": 10,
+            "numbers_gcd_composed": 10,
+            "numbers_is_factor": 10,
+            "numbers_is_factor_composed": 10,
+            "numbers_is_prime": 10,
+            "numbers_is_prime_composed": 10,
+            "numbers_lcm": 10,
+            "numbers_lcm_composed": 10,
+            "numbers_list_prime_factors": 10,
+            "numbers_place_value": 10,
+            "numbers_place_value_composed": 10,
+            "numbers_round_number": 10
+          },
+          "top_concepts": {
+            "numbers_base_conversion": 10,
+            "numbers_div_remainder": 10,
+            "numbers_gcd": 10,
+            "numbers_gcd_composed": 10,
+            "numbers_is_factor": 10,
+            "numbers_is_factor_composed": 10,
+            "numbers_is_prime": 10,
+            "numbers_is_prime_composed": 10,
+            "numbers_lcm": 10,
+            "numbers_lcm_composed": 10,
+            "numbers_list_prime_factors": 10,
+            "numbers_place_value": 10,
+            "numbers_place_value_composed": 10,
+            "numbers_round_number": 10,
+            "numbers_div_remainder_composed": 9,
+            "numbers_list_prime_factors_composed": 9,
+            "numbers_round_number_composed": 9
+          },
+          "answer_type_counts": {
+            "boolean": 40,
+            "decimal": 10,
+            "integer": 103,
+            "text": 14
+          },
+          "step_count_histogram": {
+            "0": 167
           },
           "quality_review_count": 0
         },
         "2": {
-          "count": 223,
+          "count": 167,
           "top_tags": {
-            "integers": 223,
-            "level_2": 223,
-            "modular_arithmetic": 223,
-            "number_theory": 223
+            "deepmind_mathematics": 167,
+            "level_2": 167,
+            "numbers": 167,
+            "train_medium": 167,
+            "numbers_base_conversion": 10,
+            "numbers_div_remainder": 10,
+            "numbers_gcd": 10,
+            "numbers_is_factor": 10,
+            "numbers_is_factor_composed": 10,
+            "numbers_is_prime": 10,
+            "numbers_is_prime_composed": 10,
+            "numbers_lcm": 10,
+            "numbers_list_prime_factors": 10,
+            "numbers_list_prime_factors_composed": 10,
+            "numbers_place_value": 10,
+            "numbers_place_value_composed": 10,
+            "numbers_round_number": 10,
+            "numbers_round_number_composed": 10
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "numbers_base_conversion": 10,
+            "numbers_div_remainder": 10,
+            "numbers_gcd": 10,
+            "numbers_is_factor": 10,
+            "numbers_is_factor_composed": 10,
+            "numbers_is_prime": 10,
+            "numbers_is_prime_composed": 10,
+            "numbers_lcm": 10,
+            "numbers_list_prime_factors": 10,
+            "numbers_list_prime_factors_composed": 10,
+            "numbers_place_value": 10,
+            "numbers_place_value_composed": 10,
+            "numbers_round_number": 10,
+            "numbers_round_number_composed": 10,
+            "numbers_div_remainder_composed": 9,
+            "numbers_gcd_composed": 9,
+            "numbers_lcm_composed": 9
+          },
           "answer_type_counts": {
-            "decimal": 3,
-            "expression": 8,
-            "fraction": 7,
-            "integer": 197,
-            "list_or_set": 2,
-            "text": 6
+            "boolean": 40,
+            "decimal": 6,
+            "integer": 104,
+            "text": 17
           },
           "step_count_histogram": {
-            "0": 223
+            "0": 167
           },
           "quality_review_count": 0
         },
         "3": {
-          "count": 313,
+          "count": 169,
           "top_tags": {
-            "integers": 313,
-            "level_3": 313,
-            "modular_arithmetic": 313,
-            "number_theory": 313
+            "deepmind_mathematics": 169,
+            "level_3": 169,
+            "numbers": 169,
+            "train_hard": 169,
+            "numbers_base_conversion": 10,
+            "numbers_div_remainder": 10,
+            "numbers_div_remainder_composed": 10,
+            "numbers_gcd": 10,
+            "numbers_gcd_composed": 10,
+            "numbers_is_factor": 10,
+            "numbers_is_factor_composed": 10,
+            "numbers_is_prime": 10,
+            "numbers_is_prime_composed": 10,
+            "numbers_lcm": 10,
+            "numbers_lcm_composed": 10,
+            "numbers_list_prime_factors": 10,
+            "numbers_list_prime_factors_composed": 10,
+            "numbers_place_value": 10
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "numbers_base_conversion": 10,
+            "numbers_div_remainder": 10,
+            "numbers_div_remainder_composed": 10,
+            "numbers_gcd": 10,
+            "numbers_gcd_composed": 10,
+            "numbers_is_factor": 10,
+            "numbers_is_factor_composed": 10,
+            "numbers_is_prime": 10,
+            "numbers_is_prime_composed": 10,
+            "numbers_lcm": 10,
+            "numbers_lcm_composed": 10,
+            "numbers_list_prime_factors": 10,
+            "numbers_list_prime_factors_composed": 10,
+            "numbers_place_value": 10,
+            "numbers_round_number": 10,
+            "numbers_round_number_composed": 10,
+            "numbers_place_value_composed": 9
+          },
           "answer_type_counts": {
-            "decimal": 3,
-            "expression": 11,
-            "fraction": 5,
-            "integer": 262,
-            "list_or_set": 4,
-            "text": 28
+            "boolean": 40,
+            "decimal": 13,
+            "integer": 97,
+            "text": 19
           },
           "step_count_histogram": {
-            "0": 313
+            "0": 169
           },
           "quality_review_count": 0
         },
         "4": {
-          "count": 329,
+          "count": 167,
           "top_tags": {
-            "integers": 329,
-            "level_4": 329,
-            "modular_arithmetic": 329,
-            "number_theory": 329
+            "deepmind_mathematics": 167,
+            "interpolate": 167,
+            "level_4": 167,
+            "numbers": 167,
+            "numbers_base_conversion": 10,
+            "numbers_div_remainder": 10,
+            "numbers_div_remainder_composed": 10,
+            "numbers_gcd": 10,
+            "numbers_gcd_composed": 10,
+            "numbers_is_factor": 10,
+            "numbers_is_factor_composed": 10,
+            "numbers_is_prime": 10,
+            "numbers_is_prime_composed": 10,
+            "numbers_lcm": 10,
+            "numbers_list_prime_factors": 10,
+            "numbers_list_prime_factors_composed": 10,
+            "numbers_place_value": 10,
+            "numbers_place_value_composed": 10
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "numbers_base_conversion": 10,
+            "numbers_div_remainder": 10,
+            "numbers_div_remainder_composed": 10,
+            "numbers_gcd": 10,
+            "numbers_gcd_composed": 10,
+            "numbers_is_factor": 10,
+            "numbers_is_factor_composed": 10,
+            "numbers_is_prime": 10,
+            "numbers_is_prime_composed": 10,
+            "numbers_lcm": 10,
+            "numbers_list_prime_factors": 10,
+            "numbers_list_prime_factors_composed": 10,
+            "numbers_place_value": 10,
+            "numbers_place_value_composed": 10,
+            "numbers_round_number": 10,
+            "numbers_lcm_composed": 9,
+            "numbers_round_number_composed": 8
+          },
           "answer_type_counts": {
-            "decimal": 1,
-            "expression": 2,
-            "fraction": 4,
-            "integer": 287,
-            "list_or_set": 5,
-            "text": 30
+            "boolean": 40,
+            "decimal": 8,
+            "integer": 97,
+            "text": 22
           },
           "step_count_histogram": {
-            "0": 329
+            "0": 167
           },
           "quality_review_count": 0
         },
         "5": {
-          "count": 467,
+          "count": 20,
           "top_tags": {
-            "integers": 467,
-            "level_5": 467,
-            "modular_arithmetic": 467,
-            "number_theory": 467
+            "deepmind_mathematics": 20,
+            "extrapolate": 20,
+            "level_5": 20,
+            "numbers": 20,
+            "numbers_place_value_big": 10,
+            "numbers_round_number_big": 10
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "numbers_place_value_big": 10,
+            "numbers_round_number_big": 10
+          },
           "answer_type_counts": {
-            "expression": 8,
-            "fraction": 8,
-            "integer": 436,
-            "list_or_set": 5,
-            "text": 8,
-            "unknown": 2
+            "decimal": 9,
+            "integer": 11
           },
           "step_count_histogram": {
-            "0": 467
+            "0": 20
           },
-          "quality_review_count": 2
+          "quality_review_count": 0
         }
       },
       "top_tags": {
-        "integers": 1409,
-        "modular_arithmetic": 1409,
-        "number_theory": 1409,
-        "level_5": 467,
-        "level_4": 329,
-        "level_3": 313,
-        "level_2": 223,
-        "level_1": 77
+        "deepmind_mathematics": 690,
+        "numbers": 690,
+        "level_3": 169,
+        "train_hard": 169,
+        "level_1": 167,
+        "train_easy": 167,
+        "level_2": 167,
+        "train_medium": 167,
+        "interpolate": 167,
+        "level_4": 167,
+        "numbers_base_conversion": 40,
+        "numbers_div_remainder": 40,
+        "numbers_gcd": 40,
+        "numbers_is_factor": 40,
+        "numbers_is_factor_composed": 40,
+        "numbers_is_prime": 40,
+        "numbers_is_prime_composed": 40,
+        "numbers_lcm": 40,
+        "numbers_list_prime_factors": 40,
+        "numbers_place_value": 40,
+        "numbers_round_number": 40,
+        "numbers_gcd_composed": 39,
+        "numbers_list_prime_factors_composed": 39,
+        "numbers_place_value_composed": 39
       },
-      "top_concepts": {},
+      "top_concepts": {
+        "numbers_base_conversion": 40,
+        "numbers_div_remainder": 40,
+        "numbers_gcd": 40,
+        "numbers_is_factor": 40,
+        "numbers_is_factor_composed": 40,
+        "numbers_is_prime": 40,
+        "numbers_is_prime_composed": 40,
+        "numbers_lcm": 40,
+        "numbers_list_prime_factors": 40,
+        "numbers_place_value": 40,
+        "numbers_round_number": 40,
+        "numbers_gcd_composed": 39,
+        "numbers_list_prime_factors_composed": 39,
+        "numbers_place_value_composed": 39,
+        "numbers_div_remainder_composed": 38,
+        "numbers_lcm_composed": 38,
+        "numbers_round_number_composed": 37,
+        "numbers_place_value_big": 10,
+        "numbers_round_number_big": 10
+      },
       "answer_type_counts": {
-        "decimal": 7,
-        "expression": 31,
-        "fraction": 26,
-        "integer": 1254,
-        "list_or_set": 16,
-        "text": 73,
-        "unknown": 2
+        "boolean": 160,
+        "decimal": 46,
+        "integer": 412,
+        "text": 72
       },
       "grade_band_counts": {
-        "advanced": 1409
+        "elementary_middle": 334,
+        "middle_high": 356
       },
       "source_bank_counts": {
-        "competition_math": 1409
+        "deepmind_mathematics": 690
+      }
+    },
+    "polynomials": {
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "count": 102,
+      "levels": {
+        "1": {
+          "count": 26,
+          "top_tags": {
+            "deepmind_mathematics": 26,
+            "level_1": 26,
+            "polynomials": 26,
+            "train_easy": 26,
+            "polynomials_evaluate": 10,
+            "polynomials_simplify_power": 10,
+            "polynomials_evaluate_composed": 6
+          },
+          "top_concepts": {
+            "polynomials_evaluate": 10,
+            "polynomials_simplify_power": 10,
+            "polynomials_evaluate_composed": 6
+          },
+          "answer_type_counts": {
+            "expression": 10,
+            "integer": 16
+          },
+          "step_count_histogram": {
+            "0": 26
+          },
+          "quality_review_count": 0
+        },
+        "2": {
+          "count": 26,
+          "top_tags": {
+            "deepmind_mathematics": 26,
+            "level_2": 26,
+            "polynomials": 26,
+            "train_medium": 26,
+            "polynomials_evaluate": 10,
+            "polynomials_simplify_power": 10,
+            "polynomials_evaluate_composed": 6
+          },
+          "top_concepts": {
+            "polynomials_evaluate": 10,
+            "polynomials_simplify_power": 10,
+            "polynomials_evaluate_composed": 6
+          },
+          "answer_type_counts": {
+            "expression": 10,
+            "integer": 16
+          },
+          "step_count_histogram": {
+            "0": 26
+          },
+          "quality_review_count": 0
+        },
+        "3": {
+          "count": 25,
+          "top_tags": {
+            "deepmind_mathematics": 25,
+            "level_3": 25,
+            "polynomials": 25,
+            "train_hard": 25,
+            "polynomials_evaluate": 10,
+            "polynomials_simplify_power": 10,
+            "polynomials_evaluate_composed": 5
+          },
+          "top_concepts": {
+            "polynomials_evaluate": 10,
+            "polynomials_simplify_power": 10,
+            "polynomials_evaluate_composed": 5
+          },
+          "answer_type_counts": {
+            "expression": 10,
+            "integer": 15
+          },
+          "step_count_histogram": {
+            "0": 25
+          },
+          "quality_review_count": 0
+        },
+        "4": {
+          "count": 25,
+          "top_tags": {
+            "deepmind_mathematics": 25,
+            "interpolate": 25,
+            "level_4": 25,
+            "polynomials": 25,
+            "polynomials_evaluate": 10,
+            "polynomials_simplify_power": 10,
+            "polynomials_evaluate_composed": 5
+          },
+          "top_concepts": {
+            "polynomials_evaluate": 10,
+            "polynomials_simplify_power": 10,
+            "polynomials_evaluate_composed": 5
+          },
+          "answer_type_counts": {
+            "expression": 10,
+            "integer": 15
+          },
+          "step_count_histogram": {
+            "0": 25
+          },
+          "quality_review_count": 0
+        }
+      },
+      "top_tags": {
+        "deepmind_mathematics": 102,
+        "polynomials": 102,
+        "polynomials_evaluate": 40,
+        "polynomials_simplify_power": 40,
+        "level_1": 26,
+        "train_easy": 26,
+        "level_2": 26,
+        "train_medium": 26,
+        "level_3": 25,
+        "train_hard": 25,
+        "interpolate": 25,
+        "level_4": 25,
+        "polynomials_evaluate_composed": 22
+      },
+      "top_concepts": {
+        "polynomials_evaluate": 40,
+        "polynomials_simplify_power": 40,
+        "polynomials_evaluate_composed": 22
+      },
+      "answer_type_counts": {
+        "expression": 40,
+        "integer": 62
+      },
+      "grade_band_counts": {
+        "elementary_middle": 52,
+        "middle_high": 50
+      },
+      "source_bank_counts": {
+        "deepmind_mathematics": 102
       }
     },
     "prealgebra": {
       "subject": "Prealgebra",
       "subject_slug": "prealgebra",
-      "count": 2076,
+      "count": 4750,
       "levels": {
         "1": {
-          "count": 212,
+          "count": 551,
           "top_tags": {
+            "level_1": 551,
+            "prealgebra": 551,
+            "single_choice": 339,
+            "tal_scq5k": 339,
+            "en": 281,
+            "calculation_modules": 271,
             "arithmetic": 212,
-            "level_1": 212,
-            "prealgebra": 212,
-            "ratios": 212
+            "ratios": 212,
+            "en_test": 208,
+            "en_train": 73,
+            "unknown": 58,
+            "zh": 58,
+            "whole_numbers": 53,
+            "zh_train": 33,
+            "decimals": 32,
+            "zh_test": 25,
+            "fractions": 21,
+            "whole_numbers_multiplication_and_division": 20
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "calculation_modules": 271,
+            "unknown": 58,
+            "whole_numbers": 53,
+            "decimals": 32,
+            "fractions": 21,
+            "whole_numbers_multiplication_and_division": 20,
+            "sequences_and_number_tables": 16,
+            "basic_understanding_of_decimals": 16,
+            "whole_numbers_addition_and_subtraction": 12,
+            "word_problem_modules": 11,
+            "patterns_in_number_sequences": 9,
+            "unit_conversion": 9,
+            "percentages_word_problems": 9,
+            "solving_problems_involving_fractions_and_percentages": 9,
+            "ratios_and_proportions": 8,
+            "basic_understanding_of_fractions": 7,
+            "comparing_ordering_and_estimating": 7,
+            "arithmetic_sequences": 6
+          },
           "answer_type_counts": {
-            "decimal": 4,
-            "expression": 10,
-            "fraction": 23,
-            "integer": 164,
+            "decimal": 28,
+            "expression": 41,
+            "fraction": 41,
+            "integer": 335,
             "list_or_set": 3,
-            "text": 8
+            "text": 103
           },
           "step_count_histogram": {
-            "0": 212
+            "0": 372,
+            "1": 152,
+            "2": 19,
+            "3": 5,
+            "4": 2,
+            "5": 1
           },
-          "quality_review_count": 0
+          "quality_review_count": 160
         },
         "2": {
-          "count": 506,
+          "count": 2277,
           "top_tags": {
+            "level_2": 2277,
+            "prealgebra": 2277,
+            "single_choice": 1771,
+            "tal_scq5k": 1771,
+            "en": 1369,
+            "calculation_modules": 1238,
+            "en_train": 704,
+            "en_test": 665,
             "arithmetic": 506,
-            "level_2": 506,
-            "prealgebra": 506,
-            "ratios": 506
+            "ratios": 506,
+            "zh": 402,
+            "unknown": 399,
+            "whole_numbers": 301,
+            "zh_train": 264,
+            "fractions": 140,
+            "zh_test": 138,
+            "word_problem_modules": 131,
+            "sequences_and_number_tables": 115
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "calculation_modules": 1238,
+            "unknown": 399,
+            "whole_numbers": 301,
+            "fractions": 140,
+            "word_problem_modules": 131,
+            "sequences_and_number_tables": 115,
+            "decimals": 103,
+            "whole_numbers_multiplication_and_division": 98,
+            "whole_numbers_addition_and_subtraction": 84,
+            "ratios_and_proportions": 82,
+            "mixed_operations": 57,
+            "solving_problems_involving_fractions_and_percentages": 56,
+            "basic_understanding_of_decimals": 53,
+            "comparing_ordering_and_estimating": 52,
+            "arithmetic_sequences": 52,
+            "patterns_in_number_sequences": 47,
+            "operations_of_fractions": 44,
+            "unit_conversion": 43
+          },
           "answer_type_counts": {
-            "decimal": 24,
-            "expression": 36,
-            "fraction": 47,
-            "integer": 375,
+            "decimal": 111,
+            "expression": 219,
+            "fraction": 234,
+            "integer": 1306,
             "list_or_set": 4,
-            "text": 20
+            "text": 403
           },
           "step_count_histogram": {
-            "0": 506
+            "0": 800,
+            "1": 1239,
+            "2": 124,
+            "3": 50,
+            "4": 35,
+            "5": 12,
+            "6": 6,
+            "7": 4,
+            "8": 7
           },
-          "quality_review_count": 0
+          "quality_review_count": 294
         },
         "3": {
-          "count": 475,
+          "count": 950,
           "top_tags": {
+            "level_3": 950,
+            "prealgebra": 950,
             "arithmetic": 475,
-            "level_3": 475,
-            "prealgebra": 475,
-            "ratios": 475
+            "ratios": 475,
+            "single_choice": 475,
+            "tal_scq5k": 475,
+            "unknown": 265,
+            "zh": 265,
+            "en": 210,
+            "calculation_modules": 171,
+            "zh_train": 166,
+            "en_train": 161,
+            "zh_test": 99,
+            "en_test": 49,
+            "word_problem_modules": 40,
+            "solving_problems_involving_fractions_and_percentages": 36,
+            "percentages_word_problems": 27,
+            "fractions": 19
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "unknown": 265,
+            "calculation_modules": 171,
+            "word_problem_modules": 40,
+            "solving_problems_involving_fractions_and_percentages": 36,
+            "percentages_word_problems": 27,
+            "fractions": 19,
+            "sequences_and_number_tables": 12,
+            "whole_numbers": 11,
+            "arithmetic_sequences": 8,
+            "ratios_and_proportions": 7,
+            "power": 6,
+            "operations_with_new_definition": 6,
+            "percentage_calculation": 6,
+            "comparing_ordering_and_estimating": 5,
+            "whole_numbers_addition_and_subtraction": 4,
+            "finding_patterns": 3,
+            "computing_powers": 3,
+            "finding_the_base": 3
+          },
           "answer_type_counts": {
-            "decimal": 16,
-            "expression": 35,
-            "fraction": 34,
-            "integer": 352,
+            "decimal": 36,
+            "expression": 85,
+            "fraction": 91,
+            "integer": 627,
             "list_or_set": 7,
-            "text": 31
+            "text": 104
           },
           "step_count_histogram": {
-            "0": 475
+            "0": 519,
+            "1": 328,
+            "2": 34,
+            "3": 30,
+            "4": 14,
+            "5": 6,
+            "6": 12,
+            "7": 3,
+            "8": 4
           },
-          "quality_review_count": 0
+          "quality_review_count": 44
         },
         "4": {
-          "count": 438,
+          "count": 497,
           "top_tags": {
+            "level_4": 497,
+            "prealgebra": 497,
             "arithmetic": 438,
-            "level_4": 438,
-            "prealgebra": 438,
-            "ratios": 438
+            "ratios": 438,
+            "single_choice": 59,
+            "tal_scq5k": 59,
+            "unknown": 33,
+            "zh": 33,
+            "en": 26,
+            "zh_train": 24,
+            "calculation_modules": 21,
+            "en_train": 20,
+            "zh_test": 9,
+            "en_test": 6,
+            "word_problem_modules": 5,
+            "concentration_problems": 3,
+            "fractions": 2,
+            "money_calculation": 2
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "unknown": 33,
+            "calculation_modules": 21,
+            "word_problem_modules": 5,
+            "concentration_problems": 3,
+            "fractions": 2,
+            "money_calculation": 2,
+            "word_problems_in_economics": 2,
+            "amc10_12": 2,
+            "combination": 2,
+            "information_migration_new_definition": 2,
+            "reasoning": 2,
+            "operations_with_new_definition": 1,
+            "adding_and_subtracting_within_10000": 1,
+            "addition_and_subtraction_of_whole_numbers": 1,
+            "operations_of_numbers": 1,
+            "overseas_in_curriculum": 1,
+            "subtraction_of_3_digit_numbers": 1,
+            "whole_numbers": 1
+          },
           "answer_type_counts": {
             "decimal": 10,
-            "expression": 51,
-            "fraction": 56,
-            "integer": 284,
+            "expression": 58,
+            "fraction": 65,
+            "integer": 323,
             "list_or_set": 13,
-            "text": 24
+            "text": 28
           },
           "step_count_histogram": {
-            "0": 438
+            "0": 444,
+            "1": 40,
+            "2": 6,
+            "3": 5,
+            "5": 1,
+            "8": 1
           },
-          "quality_review_count": 0
+          "quality_review_count": 6
         },
         "5": {
-          "count": 445,
+          "count": 475,
           "top_tags": {
+            "level_5": 475,
+            "prealgebra": 475,
             "arithmetic": 445,
-            "level_5": 445,
-            "prealgebra": 445,
-            "ratios": 445
+            "ratios": 445,
+            "single_choice": 30,
+            "tal_scq5k": 30,
+            "calculation_modules": 28,
+            "en": 28,
+            "en_test": 24,
+            "en_train": 4,
+            "unknown": 2,
+            "zh": 2,
+            "operations_with_new_definition": 1,
+            "operations_with_new_definition_in_flow_charts": 1,
+            "computing_powers": 1,
+            "exponentiation_of_powers": 1,
+            "power": 1,
+            "zh_test": 1
           },
-          "top_concepts": {},
+          "top_concepts": {
+            "calculation_modules": 28,
+            "unknown": 2,
+            "operations_with_new_definition": 1,
+            "operations_with_new_definition_in_flow_charts": 1,
+            "computing_powers": 1,
+            "exponentiation_of_powers": 1,
+            "power": 1
+          },
           "answer_type_counts": {
-            "decimal": 18,
-            "expression": 65,
-            "fraction": 59,
-            "integer": 265,
+            "decimal": 20,
+            "expression": 74,
+            "fraction": 60,
+            "integer": 272,
             "list_or_set": 6,
-            "text": 32
+            "text": 43
           },
           "step_count_histogram": {
-            "0": 445
+            "0": 469,
+            "1": 4,
+            "3": 1,
+            "7": 1
           },
-          "quality_review_count": 0
+          "quality_review_count": 24
         }
       },
       "top_tags": {
+        "prealgebra": 4750,
+        "single_choice": 2674,
+        "tal_scq5k": 2674,
+        "level_2": 2277,
         "arithmetic": 2076,
-        "prealgebra": 2076,
         "ratios": 2076,
-        "level_2": 506,
-        "level_3": 475,
-        "level_5": 445,
-        "level_4": 438,
-        "level_1": 212
+        "en": 1914,
+        "calculation_modules": 1729,
+        "en_train": 962,
+        "en_test": 952,
+        "level_3": 950,
+        "zh": 760,
+        "unknown": 757,
+        "level_1": 551,
+        "level_4": 497,
+        "zh_train": 488,
+        "level_5": 475,
+        "whole_numbers": 366,
+        "zh_test": 272,
+        "word_problem_modules": 187,
+        "fractions": 182,
+        "sequences_and_number_tables": 143,
+        "decimals": 137,
+        "whole_numbers_multiplication_and_division": 120
       },
-      "top_concepts": {},
+      "top_concepts": {
+        "calculation_modules": 1729,
+        "unknown": 757,
+        "whole_numbers": 366,
+        "word_problem_modules": 187,
+        "fractions": 182,
+        "sequences_and_number_tables": 143,
+        "decimals": 137,
+        "whole_numbers_multiplication_and_division": 120,
+        "whole_numbers_addition_and_subtraction": 101,
+        "solving_problems_involving_fractions_and_percentages": 101,
+        "ratios_and_proportions": 97,
+        "basic_understanding_of_decimals": 69,
+        "arithmetic_sequences": 66,
+        "comparing_ordering_and_estimating": 64,
+        "mixed_operations": 63,
+        "patterns_in_number_sequences": 57,
+        "unit_conversion": 54,
+        "percentages_word_problems": 51,
+        "power": 49,
+        "operations_of_fractions": 48,
+        "comparing_and_ordering": 45,
+        "operations_with_new_definition": 41,
+        "computing_powers": 39,
+        "concentration_problems": 37
+      },
       "answer_type_counts": {
-        "decimal": 72,
-        "expression": 197,
-        "fraction": 219,
-        "integer": 1440,
+        "decimal": 205,
+        "expression": 477,
+        "fraction": 491,
+        "integer": 2863,
         "list_or_set": 33,
-        "text": 115
+        "text": 681
       },
       "grade_band_counts": {
-        "advanced": 2076
+        "advanced": 2076,
+        "elementary": 2110,
+        "high": 30,
+        "middle": 534
       },
       "source_bank_counts": {
-        "competition_math": 2076
+        "competition_math": 2076,
+        "tal_scq5k": 2674
       }
     },
     "precalculus": {
@@ -1323,6 +4033,161 @@
       },
       "source_bank_counts": {
         "competition_math": 1292
+      }
+    },
+    "probability": {
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "count": 100,
+      "levels": {
+        "1": {
+          "count": 20,
+          "top_tags": {
+            "deepmind_mathematics": 20,
+            "level_1": 20,
+            "probability": 20,
+            "train_easy": 20,
+            "probability_swr_p_level_set": 10,
+            "probability_swr_p_sequence": 10
+          },
+          "top_concepts": {
+            "probability_swr_p_level_set": 10,
+            "probability_swr_p_sequence": 10
+          },
+          "answer_type_counts": {
+            "fraction": 16,
+            "integer": 4
+          },
+          "step_count_histogram": {
+            "0": 20
+          },
+          "quality_review_count": 0
+        },
+        "2": {
+          "count": 20,
+          "top_tags": {
+            "deepmind_mathematics": 20,
+            "level_2": 20,
+            "probability": 20,
+            "train_medium": 20,
+            "probability_swr_p_level_set": 10,
+            "probability_swr_p_sequence": 10
+          },
+          "top_concepts": {
+            "probability_swr_p_level_set": 10,
+            "probability_swr_p_sequence": 10
+          },
+          "answer_type_counts": {
+            "fraction": 18,
+            "integer": 2
+          },
+          "step_count_histogram": {
+            "0": 20
+          },
+          "quality_review_count": 0
+        },
+        "3": {
+          "count": 20,
+          "top_tags": {
+            "deepmind_mathematics": 20,
+            "level_3": 20,
+            "probability": 20,
+            "train_hard": 20,
+            "probability_swr_p_level_set": 10,
+            "probability_swr_p_sequence": 10
+          },
+          "top_concepts": {
+            "probability_swr_p_level_set": 10,
+            "probability_swr_p_sequence": 10
+          },
+          "answer_type_counts": {
+            "fraction": 20
+          },
+          "step_count_histogram": {
+            "0": 20
+          },
+          "quality_review_count": 0
+        },
+        "4": {
+          "count": 20,
+          "top_tags": {
+            "deepmind_mathematics": 20,
+            "interpolate": 20,
+            "level_4": 20,
+            "probability": 20,
+            "probability_swr_p_level_set": 10,
+            "probability_swr_p_sequence": 10
+          },
+          "top_concepts": {
+            "probability_swr_p_level_set": 10,
+            "probability_swr_p_sequence": 10
+          },
+          "answer_type_counts": {
+            "fraction": 20
+          },
+          "step_count_histogram": {
+            "0": 20
+          },
+          "quality_review_count": 0
+        },
+        "5": {
+          "count": 20,
+          "top_tags": {
+            "deepmind_mathematics": 20,
+            "extrapolate": 20,
+            "level_5": 20,
+            "probability": 20,
+            "probability_swr_p_level_set_more_samples": 10,
+            "probability_swr_p_sequence_more_samples": 10
+          },
+          "top_concepts": {
+            "probability_swr_p_level_set_more_samples": 10,
+            "probability_swr_p_sequence_more_samples": 10
+          },
+          "answer_type_counts": {
+            "fraction": 17,
+            "integer": 3
+          },
+          "step_count_histogram": {
+            "0": 20
+          },
+          "quality_review_count": 0
+        }
+      },
+      "top_tags": {
+        "deepmind_mathematics": 100,
+        "probability": 100,
+        "probability_swr_p_level_set": 40,
+        "probability_swr_p_sequence": 40,
+        "level_1": 20,
+        "train_easy": 20,
+        "level_2": 20,
+        "train_medium": 20,
+        "level_3": 20,
+        "train_hard": 20,
+        "interpolate": 20,
+        "level_4": 20,
+        "extrapolate": 20,
+        "level_5": 20,
+        "probability_swr_p_level_set_more_samples": 10,
+        "probability_swr_p_sequence_more_samples": 10
+      },
+      "top_concepts": {
+        "probability_swr_p_level_set": 40,
+        "probability_swr_p_sequence": 40,
+        "probability_swr_p_level_set_more_samples": 10,
+        "probability_swr_p_sequence_more_samples": 10
+      },
+      "answer_type_counts": {
+        "fraction": 91,
+        "integer": 9
+      },
+      "grade_band_counts": {
+        "elementary_middle": 40,
+        "middle_high": 60
+      },
+      "source_bank_counts": {
+        "deepmind_mathematics": 100
       }
     }
   },

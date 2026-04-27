@@ -1,0 +1,1355 @@
+{
+  "schema_version": "coco_problem_bank_image_validation_report.v1",
+  "generated_at": "2026-04-25T11:41:59+00:00",
+  "elapsed_seconds": 7.104,
+  "project_root": "/Volumes/마중나 도킹스테이션/atoll_project",
+  "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+  "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+  "options": {
+    "app_register": true,
+    "band": "중등",
+    "clean_generated_images": false,
+    "clear_app_between_items": false,
+    "clear_app_generated": true,
+    "count_per_grade": 100,
+    "difficulty": "",
+    "force": false,
+    "generate": false,
+    "grade": 0,
+    "limit": 10,
+    "loop": false,
+    "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+    "max_cycles": 1,
+    "offset": 40,
+    "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+    "report": "data/problem_bank/learned/ui_batches/coco_ui_batch_017.json",
+    "seed": 20260425,
+    "sleep_seconds": 1.0,
+    "stop_on_failure": false
+  },
+  "selected_count": 10,
+  "cycle_count": 1,
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "error": 0,
+    "by_band": {
+      "중등": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "error": 0
+      }
+    },
+    "by_topic": {
+      "geometry": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "quadratic": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "quadratic_function": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "radical_power": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "statistics": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      }
+    }
+  },
+  "failures": [],
+  "results": [
+    {
+      "case_id": "middle_g03_001",
+      "band": "중등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "radical_power",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/수와 연산/제곱근과 실수/middle_g03_001_easy_expression_radical_power.png",
+      "expected_answer": "13",
+      "expected_expression": "sqrt(36)+7",
+      "computed_answer": "13",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "sqrt(36) + 7"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.475,
+      "analysis": {
+        "analysis_started_at": 1777117311.994551,
+        "analysis_finished_at": 1777117312.469298,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 중등 3학년 ㆍ제곱근과 실수ㆍ기본 expression - radical_p\n다음 식의 값을 구하시오.\nsqrt(36) + 7\n중등 3학년 ㆍ제곱근과 실수 ㆍ기본 expression ㆍ radical_p",
+            "| 중등 3학년 ㆍ제곱근과 실수ㆍ기본 expression - radical_p\n다음 식의 값을 구하시오.\nsqrt(36) + 7\n중등 3학년 ㆍ제곱근과 실수 ㆍ기본 expression ㆍ radical_p"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "sqrt(36) + 7"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "radical_power",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/수와 연산/제곱근과 실수/middle_g03_001_easy_expression_radical_power.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 중등 3학년 ㆍ제곱근과 실수ㆍ기본 expression - radical_p\n다음 식의 값을 구하시오.\nsqrt(36) + 7",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 3학년 ㆍ제곱근과 실수 ㆍ기본 expression ㆍ radical_p\n다음 식의 값을 구하시오.\nsqrt(36) + 7",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 중등 3학년 ㆍ제곱근과 실수ㆍ기본 expression - radical_p\n다음 식의 값을 구하시오.\nsqrt(36) + 7",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "a67fab7f6d82"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "13",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 13야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 13야. 그래서 정답은 13야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 중등 3학년 ㆍ제곱근과 실수ㆍ기본 expression - radical_p\n다음 식의 값을 구하시오.\nsqrt(36) + 7\n중등 3학년 ㆍ제곱근과 실수 ㆍ기본 expression ㆍ radical_p",
+            "content_text": "| 중등 3학년 ㆍ제곱근과 실수ㆍ기본 expression - radical_p\n다음 식의 값을 구하시오.\nsqrt(36) + 7\n중등 3학년 ㆍ제곱근과 실수 ㆍ기본 expression ㆍ radical_p",
+            "repaired_text": "",
+            "expressions": [
+              "sqrt(36) + 7"
+            ],
+            "choices": [],
+            "math_topic": "radical_power",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "13",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g03_001__53576118"
+    },
+    {
+      "case_id": "middle_g03_002",
+      "band": "중등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "quadratic",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/변화와 관계/다항식과 이차방정식/middle_g03_002_easy_word_quadratic.png",
+      "expected_answer": "54",
+      "expected_expression": "45+27-18",
+      "computed_answer": "54",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "45+27-18",
+      "recognized_expressions": [
+        "45+27-18"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.799,
+      "analysis": {
+        "analysis_started_at": 1777117312.4698,
+        "analysis_finished_at": 1777117313.269019,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 중등 3학년ㆍ다항식과 이차방정식ㆍ기본 word - quadratic -\n민지는 스티커를 45장 가지고 있었습니다.\n27장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Sas\n중등 3학년 ㆍ다항식과 이차방정식ㆍ기본 word - quadratic\n민지는 AAS 458 가지고 있었습니다.\n27장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 장'\n27장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Ra",
+            "| 중등 3학년ㆍ다항식과 이차방정식ㆍ기본 word - quadratic -\n민지는 스티커를 45장 가지고 있었습니다.\n27장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Sas\n중등 3학년 ㆍ다항식과 이차방정식ㆍ기본 word - quadratic\n민지는 AAS 458 가지고 있었습니다.\n27장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 장'\n27장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Ra"
+          ],
+          "normalized_problem_text": "45+27-18",
+          "expressions": [
+            "45+27-18"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "quadratic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/변화와 관계/다항식과 이차방정식/middle_g03_002_easy_word_quadratic.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 중등 3학년ㆍ다항식과 이차방정식ㆍ기본 word - quadratic -\n민지는 스티커를 45장 가지고 있었습니다.\n27장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Sas",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 3학년 ㆍ다항식과 이차방정식ㆍ기본 word - quadratic\n민지는 AAS 458 가지고 있었습니다.\n27장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 장'",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "중등 3학년 ㆍ다항식과 이차방정식ㆍ기본 word - quadratic\n민지는 AAS 458 가지고 있었습니다.\n27장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Ra",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 중등 3학년ㆍ다항식과 이차방정식ㆍ기본 word - quadratic -\n민지는 스티커를 45장 가지고 있었습니다.\n27장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Sas",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "3f604b547117"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "54",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 54야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 이차방정식 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 54야. 그래서 정답은 54야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 중등 3학년ㆍ다항식과 이차방정식ㆍ기본 word - quadratic -\n민지는 스티커를 45장 가지고 있었습니다.\n27장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Sas\n중등 3학년 ㆍ다항식과 이차방정식ㆍ기본 word - quadratic\n민지는 AAS 458 가지고 있었습니다.\n27장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 장'\n27장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Ra",
+            "content_text": "| 중등 3학년ㆍ다항식과 이차방정식ㆍ기본 word - quadratic -\n민지는 스티커를 45장 가지고 있었습니다.\n27장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Sas\n중등 3학년 ㆍ다항식과 이차방정식ㆍ기본 word - quadratic\n민지는 AAS 458 가지고 있었습니다.\n27장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 장'\n27장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 Ra",
+            "repaired_text": "",
+            "expressions": [
+              "45+27-18"
+            ],
+            "choices": [],
+            "math_topic": "quadratic",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "54",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g03_002__b6f064e9"
+    },
+    {
+      "case_id": "middle_g03_003",
+      "band": "중등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "quadratic_function",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/변화와 관계/이차함수와 그래프/middle_g03_003_easy_table_quadratic_function.png",
+      "expected_answer": "137",
+      "expected_expression": "39+46+38+14",
+      "computed_answer": "137",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 SSS 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "39+46+38+14"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.378,
+      "analysis": {
+        "analysis_started_at": 1777117313.269577,
+        "analysis_finished_at": 1777117314.647538,
+        "structured_problem": {
+          "source_text_candidates": [
+            "중등 3학년 ㆍ이차함수와 그래프 ㆍ기본 table - quadratic_func\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 39 46 38 14\n| 중등 3학년ㆍ이차함수와 그래프ㆍ기본 table - quadratic_func\n아래 표의 수량은 모두 B 개인지 구하시오.\nesa BC 10\ntable_row_2 39 46 38 14",
+            "중등 3학년 ㆍ이차함수와 그래프 ㆍ기본 table - quadratic_func\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 39 46 38 14\n| 중등 3학년ㆍ이차함수와 그래프ㆍ기본 table - quadratic_func\n아래 표의 수량은 모두 B 개인지 구하시오.\nesa BC 10\ntable_row_2 39 46 38 14"
+          ],
+          "normalized_problem_text": "아래 표의 SSS 모두 몇 개인지 구하시오",
+          "expressions": [
+            "39+46+38+14"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "coordinate_geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/변화와 관계/이차함수와 그래프/middle_g03_003_easy_table_quadratic_function.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "중등 3학년 ㆍ이차함수와 그래프 ㆍ기본 table - quadratic_func\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B c D\na 39 46 38 14",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 3학년 ㆍ이차함수와 그래프 ㆍ기본 table - quadratic_func\n아래 표의 SSS 모두 몇 개인지 구하시오.\neC",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "중등 3학년 ㆍ이차함수와 그래프 ㆍ기본 table - quadratic_func\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B c D\na 39 46 38 14",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 중등 3학년ㆍ이차함수와 그래프ㆍ기본 table - quadratic_func\n아래 표의 수량은 모두 B 개인지 구하시오.\nesa BC 10",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 39 46 38 14",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "38fa92a79173"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "137",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 137야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 137야. 그래서 정답은 137야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "중등 3학년 ㆍ이차함수와 그래프 ㆍ기본 table - quadratic_func\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 39 46 38 14\n| 중등 3학년ㆍ이차함수와 그래프ㆍ기본 table - quadratic_func\n아래 표의 수량은 모두 B 개인지 구하시오.\nesa BC 10\ntable_row_2 39 46 38 14",
+            "content_text": "중등 3학년 ㆍ이차함수와 그래프 ㆍ기본 table - quadratic_func\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 39 46 38 14\n| 중등 3학년ㆍ이차함수와 그래프ㆍ기본 table - quadratic_func\n아래 표의 수량은 모두 B 개인지 구하시오.\nesa BC 10\ntable_row_2 39 46 38 14",
+            "repaired_text": "",
+            "expressions": [
+              "39+46+38+14"
+            ],
+            "choices": [],
+            "math_topic": "coordinate_geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "137",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g03_003__e61df6f8"
+    },
+    {
+      "case_id": "middle_g03_004",
+      "band": "중등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/도형과 측정/피타고라스와 삼각비/middle_g03_004_easy_expression_geometry.png",
+      "expected_answer": "116",
+      "expected_expression": "78+38",
+      "computed_answer": "116",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "78 + 38"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.464,
+      "analysis": {
+        "analysis_started_at": 1777117314.6481469,
+        "analysis_finished_at": 1777117315.111706,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n78 + 38\n중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr",
+            "| 중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n78 + 38\n중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "78 + 38"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/도형과 측정/피타고라스와 삼각비/middle_g03_004_easy_expression_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n78 + 38",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n78+ 38",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n78 + 38",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "e3a9b001cce0"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "116",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 116야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 116야. 그래서 정답은 116야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n78 + 38\n중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr",
+            "content_text": "| 중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n78 + 38\n중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr",
+            "repaired_text": "",
+            "expressions": [
+              "78 + 38"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "116",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g03_004__54a0d1df"
+    },
+    {
+      "case_id": "middle_g03_005",
+      "band": "중등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/자료와 가능성/대푯값과 산포도/middle_g03_005_easy_expression_statistics.png",
+      "expected_answer": "392/5",
+      "expected_expression": "(75+97+73+85+62)/5",
+      "computed_answer": "392/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(75+97+73+85+62)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.439,
+      "analysis": {
+        "analysis_started_at": 1777117315.11244,
+        "analysis_finished_at": 1777117315.551096,
+        "structured_problem": {
+          "source_text_candidates": [
+            ": 중등 3학년ㆍ대풋값과 산포도ㆍ기본 expression - statistic:\n다음 자료의 SAS 구하시오.\n75, 97, 73, 85, 62\n중등 3학년 ㆍ대풋값과 산포도ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.",
+            ": 중등 3학년ㆍ대풋값과 산포도ㆍ기본 expression - statistic:\n다음 자료의 SAS 구하시오.\n75, 97, 73, 85, 62\n중등 3학년 ㆍ대풋값과 산포도ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오."
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(75+97+73+85+62)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/자료와 가능성/대푯값과 산포도/middle_g03_005_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": ": 중등 3학년ㆍ대풋값과 산포도ㆍ기본 expression - statistic:\n다음 자료의 SAS 구하시오.\n75, 97, 73, 85, 62",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 3학년 ㆍ대풋값과 산포도ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n75, 97, 73, 85, 62",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ": 중등 3학년ㆍ대풋값과 산포도ㆍ기본 expression - statistic:\n다음 자료의 SAS 구하시오.\n75, 97, 73, 85, 62",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "1a800ce1c76c"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "392/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 392/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 392/5야. 그래서 정답은 392/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": ": 중등 3학년ㆍ대풋값과 산포도ㆍ기본 expression - statistic:\n다음 자료의 SAS 구하시오.\n75, 97, 73, 85, 62\n중등 3학년 ㆍ대풋값과 산포도ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.",
+            "content_text": ": 중등 3학년ㆍ대풋값과 산포도ㆍ기본 expression - statistic:\n다음 자료의 SAS 구하시오.\n75, 97, 73, 85, 62\n중등 3학년 ㆍ대풋값과 산포도ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "(75+97+73+85+62)/5"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "392/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g03_005__82ec9150"
+    },
+    {
+      "case_id": "middle_g03_006",
+      "band": "중등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "radical_power",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/수와 연산/제곱근과 실수/middle_g03_006_easy_expression_radical_power.png",
+      "expected_answer": "7",
+      "expected_expression": "sqrt(25)+2",
+      "computed_answer": "7",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "sqrt(25) + 2"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.441,
+      "analysis": {
+        "analysis_started_at": 1777117315.551619,
+        "analysis_finished_at": 1777117315.9929988,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 중등 3학년 ㆍ제곱근과 실수ㆍ기본 expression - radical_p\n다음 식의 값을 구하시오.\nsqrt(25) + 2\n중등 3학년 ㆍ제곱근과 실수 ㆍ기본 expression ㆍ radical_p",
+            "| 중등 3학년 ㆍ제곱근과 실수ㆍ기본 expression - radical_p\n다음 식의 값을 구하시오.\nsqrt(25) + 2\n중등 3학년 ㆍ제곱근과 실수 ㆍ기본 expression ㆍ radical_p"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "sqrt(25) + 2"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "radical_power",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/수와 연산/제곱근과 실수/middle_g03_006_easy_expression_radical_power.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 중등 3학년 ㆍ제곱근과 실수ㆍ기본 expression - radical_p\n다음 식의 값을 구하시오.\nsqrt(25) + 2",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 3학년 ㆍ제곱근과 실수 ㆍ기본 expression ㆍ radical_p\n다음 식의 값을 구하시오.\nsqrt(25) + 2",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 중등 3학년 ㆍ제곱근과 실수ㆍ기본 expression - radical_p\n다음 식의 값을 구하시오.\nsqrt(25) + 2",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "570b259b5730"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "7",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 7야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 7야. 그래서 정답은 7야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 중등 3학년 ㆍ제곱근과 실수ㆍ기본 expression - radical_p\n다음 식의 값을 구하시오.\nsqrt(25) + 2\n중등 3학년 ㆍ제곱근과 실수 ㆍ기본 expression ㆍ radical_p",
+            "content_text": "| 중등 3학년 ㆍ제곱근과 실수ㆍ기본 expression - radical_p\n다음 식의 값을 구하시오.\nsqrt(25) + 2\n중등 3학년 ㆍ제곱근과 실수 ㆍ기본 expression ㆍ radical_p",
+            "repaired_text": "",
+            "expressions": [
+              "sqrt(25) + 2"
+            ],
+            "choices": [],
+            "math_topic": "radical_power",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "7",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g03_006__39e2d873"
+    },
+    {
+      "case_id": "middle_g03_007",
+      "band": "중등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "quadratic",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/변화와 관계/다항식과 이차방정식/middle_g03_007_easy_word_quadratic.png",
+      "expected_answer": "87",
+      "expected_expression": "59+43-15",
+      "computed_answer": "87",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "59+43-15",
+      "recognized_expressions": [
+        "59+43-15"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.842,
+      "analysis": {
+        "analysis_started_at": 1777117315.99359,
+        "analysis_finished_at": 1777117316.835438,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 중등 3학년ㆍ다항식과 이차방정식ㆍ기본 word - quadratic |\n민지는 스티커를 59장 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 Bh\n중등 3학년 ㆍ다항식과 이차방정식ㆍ기본 word - quadratic\n민지는 스티커를 598 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 RS\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 장'",
+            "| 중등 3학년ㆍ다항식과 이차방정식ㆍ기본 word - quadratic |\n민지는 스티커를 59장 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 Bh\n중등 3학년 ㆍ다항식과 이차방정식ㆍ기본 word - quadratic\n민지는 스티커를 598 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 RS\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 장'"
+          ],
+          "normalized_problem_text": "59+43-15",
+          "expressions": [
+            "59+43-15"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "quadratic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/변화와 관계/다항식과 이차방정식/middle_g03_007_easy_word_quadratic.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 중등 3학년ㆍ다항식과 이차방정식ㆍ기본 word - quadratic |\n민지는 스티커를 59장 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 Bh",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 3학년 ㆍ다항식과 이차방정식ㆍ기본 word - quadratic\n민지는 스티커를 598 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 RS",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "중등 3학년 ㆍ다항식과 이차방정식ㆍ기본 word - quadratic\n민지는 스티커를 598 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 장'",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 중등 3학년ㆍ다항식과 이차방정식ㆍ기본 word - quadratic |\n민지는 스티커를 59장 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 Bh",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "f9afa76f5a34"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "87",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 87야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 이차방정식 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 87야. 그래서 정답은 87야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 중등 3학년ㆍ다항식과 이차방정식ㆍ기본 word - quadratic |\n민지는 스티커를 59장 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 Bh\n중등 3학년 ㆍ다항식과 이차방정식ㆍ기본 word - quadratic\n민지는 스티커를 598 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 RS\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 장'",
+            "content_text": "| 중등 3학년ㆍ다항식과 이차방정식ㆍ기본 word - quadratic |\n민지는 스티커를 59장 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 Bh\n중등 3학년 ㆍ다항식과 이차방정식ㆍ기본 word - quadratic\n민지는 스티커를 598 가지고 있었습니다.\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 RS\n43장을 더 받고, 그중 15장을 사용했습니다. 남은 스티커는 몇 장'",
+            "repaired_text": "",
+            "expressions": [
+              "59+43-15"
+            ],
+            "choices": [],
+            "math_topic": "quadratic",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "87",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g03_007__0b998809"
+    },
+    {
+      "case_id": "middle_g03_008",
+      "band": "중등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "quadratic_function",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/변화와 관계/이차함수와 그래프/middle_g03_008_easy_table_quadratic_function.png",
+      "expected_answer": "124",
+      "expected_expression": "46+39+17+22",
+      "computed_answer": "124",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 SSS 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "46+39+17+22"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.354,
+      "analysis": {
+        "analysis_started_at": 1777117316.83602,
+        "analysis_finished_at": 1777117318.190294,
+        "structured_problem": {
+          "source_text_candidates": [
+            "중등 3학년 ㆍ이차함수와 그래프 ㆍ기본 table - quadratic_func\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 46 39 17 22\n| 중등 3학년ㆍ이차함수와 그래프ㆍ기본 table - quadratic_func\n아래 표의 수량은 모두 B 개인지 구하시오.\nesa BC 10\ntable_row_2 46 39 17 22",
+            "중등 3학년 ㆍ이차함수와 그래프 ㆍ기본 table - quadratic_func\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 46 39 17 22\n| 중등 3학년ㆍ이차함수와 그래프ㆍ기본 table - quadratic_func\n아래 표의 수량은 모두 B 개인지 구하시오.\nesa BC 10\ntable_row_2 46 39 17 22"
+          ],
+          "normalized_problem_text": "아래 표의 SSS 모두 몇 개인지 구하시오",
+          "expressions": [
+            "46+39+17+22"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "coordinate_geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/변화와 관계/이차함수와 그래프/middle_g03_008_easy_table_quadratic_function.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "중등 3학년 ㆍ이차함수와 그래프 ㆍ기본 table - quadratic_func\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B c D\na 46 39 17 22",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 3학년 ㆍ이차함수와 그래프 ㆍ기본 table - quadratic_func\n아래 표의 SSS 모두 몇 개인지 구하시오.\neC",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "중등 3학년 ㆍ이차함수와 그래프 ㆍ기본 table - quadratic_func\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B c D\na 46 39 17 22",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 중등 3학년ㆍ이차함수와 그래프ㆍ기본 table - quadratic_func\n아래 표의 수량은 모두 B 개인지 구하시오.\nesa BC 10",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 46 39 17 22",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "2e15ac43c18f"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "124",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 124야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 124야. 그래서 정답은 124야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "중등 3학년 ㆍ이차함수와 그래프 ㆍ기본 table - quadratic_func\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 46 39 17 22\n| 중등 3학년ㆍ이차함수와 그래프ㆍ기본 table - quadratic_func\n아래 표의 수량은 모두 B 개인지 구하시오.\nesa BC 10\ntable_row_2 46 39 17 22",
+            "content_text": "중등 3학년 ㆍ이차함수와 그래프 ㆍ기본 table - quadratic_func\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 46 39 17 22\n| 중등 3학년ㆍ이차함수와 그래프ㆍ기본 table - quadratic_func\n아래 표의 수량은 모두 B 개인지 구하시오.\nesa BC 10\ntable_row_2 46 39 17 22",
+            "repaired_text": "",
+            "expressions": [
+              "46+39+17+22"
+            ],
+            "choices": [],
+            "math_topic": "coordinate_geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "124",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g03_008__5fbbf7c3"
+    },
+    {
+      "case_id": "middle_g03_009",
+      "band": "중등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/도형과 측정/피타고라스와 삼각비/middle_g03_009_easy_expression_geometry.png",
+      "expected_answer": "86",
+      "expected_expression": "68+18",
+      "computed_answer": "86",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "68 + 18"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.465,
+      "analysis": {
+        "analysis_started_at": 1777117318.190851,
+        "analysis_finished_at": 1777117318.6561868,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n68 + 18\n중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr",
+            "| 중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n68 + 18\n중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "68 + 18"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/도형과 측정/피타고라스와 삼각비/middle_g03_009_easy_expression_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n68 + 18",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n68 + 18",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n68 + 18",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "45be756ca82a"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "86",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 86야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 86야. 그래서 정답은 86야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n68 + 18\n중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr",
+            "content_text": "| 중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n68 + 18\n중등 3학년 ㆍ피타고라스와 삼각비ㆍ기본 expression ㆍ geometr",
+            "repaired_text": "",
+            "expressions": [
+              "68 + 18"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "86",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g03_009__338e9894"
+    },
+    {
+      "case_id": "middle_g03_010",
+      "band": "중등",
+      "grade": 3,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/자료와 가능성/대푯값과 산포도/middle_g03_010_easy_expression_statistics.png",
+      "expected_answer": "398/5",
+      "expected_expression": "(88+67+79+83+81)/5",
+      "computed_answer": "398/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(88+67+79+83+81)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.441,
+      "analysis": {
+        "analysis_started_at": 1777117318.656804,
+        "analysis_finished_at": 1777117319.0973911,
+        "structured_problem": {
+          "source_text_candidates": [
+            ": 중등 3학년ㆍ대풋값과 산포도ㆍ기본 expression - statistic:\n다음 자료의 SAS 구하시오.\n88, 67 79, 83, 81\n중등 3학년 ㆍ대풋값과 산포도ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n88, 67, 79, 83, 81",
+            ": 중등 3학년ㆍ대풋값과 산포도ㆍ기본 expression - statistic:\n다음 자료의 SAS 구하시오.\n88, 67 79, 83, 81\n중등 3학년 ㆍ대풋값과 산포도ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n88, 67, 79, 83, 81"
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(88+67+79+83+81)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/3학년/자료와 가능성/대푯값과 산포도/middle_g03_010_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": ": 중등 3학년ㆍ대풋값과 산포도ㆍ기본 expression - statistic:\n다음 자료의 SAS 구하시오.\n88, 67 79, 83, 81",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 3학년 ㆍ대풋값과 산포도ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n88, 67, 79, 83, 81",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ": 중등 3학년ㆍ대풋값과 산포도ㆍ기본 expression - statistic:\n다음 자료의 SAS 구하시오.\n88, 67 79, 83, 81",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "f0a0f55269c5"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "398/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 398/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 398/5야. 그래서 정답은 398/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": ": 중등 3학년ㆍ대풋값과 산포도ㆍ기본 expression - statistic:\n다음 자료의 SAS 구하시오.\n88, 67 79, 83, 81\n중등 3학년 ㆍ대풋값과 산포도ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n88, 67, 79, 83, 81",
+            "content_text": ": 중등 3학년ㆍ대풋값과 산포도ㆍ기본 expression - statistic:\n다음 자료의 SAS 구하시오.\n88, 67 79, 83, 81\n중등 3학년 ㆍ대풋값과 산포도ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n88, 67, 79, 83, 81",
+            "repaired_text": "",
+            "expressions": [
+              "(88+67+79+83+81)/5"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "398/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g03_010__382d83a4"
+    }
+  ]
+}

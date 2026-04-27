@@ -1,0 +1,2177 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_evaluate:01843",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1843,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_evaluate_01843"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let s(b) = 3*b**2 + 50*b + 608. Determine s(-17).",
+      "problem_plain": "Let s(b) = 3*b^2 + 50*b + 608. Determine s(-17).",
+      "solution_latex": "625",
+      "solution_plain": "625"
+    },
+    "answer": {
+      "final_raw": "625",
+      "final_normalized": "625",
+      "candidates": [
+        "625"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_evaluate"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let s(b) = 3*b^2 + 50*b + 608. Determine s(-17).",
+      "solution_text": "625",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__evaluate",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_evaluate:01844",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1844,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_evaluate_01844"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let y(d) = -3*d**2 - 264*d + 71. Determine y(-87).",
+      "problem_plain": "Let y(d) = -3*d^2 - 264*d + 71. Determine y(-87).",
+      "solution_latex": "332",
+      "solution_plain": "332"
+    },
+    "answer": {
+      "final_raw": "332",
+      "final_normalized": "332",
+      "candidates": [
+        "332"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_evaluate"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let y(d) = -3*d^2 - 264*d + 71. Determine y(-87).",
+      "solution_text": "332",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__evaluate",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_evaluate:01845",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1845,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_evaluate_01845"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let n(m) = 666*m**2 - 13321*m + 14. Give n(20).",
+      "problem_plain": "Let n(m) = 666*m^2 - 13321*m + 14. Give n(20).",
+      "solution_latex": "-6",
+      "solution_plain": "-6"
+    },
+    "answer": {
+      "final_raw": "-6",
+      "final_normalized": "-6",
+      "candidates": [
+        "-6"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_evaluate"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let n(m) = 666*m^2 - 13321*m + 14. Give n(20).",
+      "solution_text": "-6",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__evaluate",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_evaluate:01846",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1846,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_evaluate_01846"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let j(t) = 2750 - 152*t. Determine j(17).",
+      "problem_plain": "Let j(t) = 2750 - 152*t. Determine j(17).",
+      "solution_latex": "166",
+      "solution_plain": "166"
+    },
+    "answer": {
+      "final_raw": "166",
+      "final_normalized": "166",
+      "candidates": [
+        "166"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_evaluate"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let j(t) = 2750 - 152*t. Determine j(17).",
+      "solution_text": "166",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__evaluate",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_evaluate:01847",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1847,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_evaluate_01847"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let k(w) = 145*w + 1634. Calculate k(-12).",
+      "problem_plain": "Let k(w) = 145*w + 1634. Calculate k(-12).",
+      "solution_latex": "-106",
+      "solution_plain": "-106"
+    },
+    "answer": {
+      "final_raw": "-106",
+      "final_normalized": "-106",
+      "candidates": [
+        "-106"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_evaluate"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let k(w) = 145*w + 1634. Calculate k(-12).",
+      "solution_text": "-106",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__evaluate",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_evaluate:01848",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1848,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_evaluate_01848"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let q(f) = f**3 - 35*f**2 + 3*f - 7. Give q(35).",
+      "problem_plain": "Let q(f) = f^3 - 35*f^2 + 3*f - 7. Give q(35).",
+      "solution_latex": "98",
+      "solution_plain": "98"
+    },
+    "answer": {
+      "final_raw": "98",
+      "final_normalized": "98",
+      "candidates": [
+        "98"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_evaluate"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let q(f) = f^3 - 35*f^2 + 3*f - 7. Give q(35).",
+      "solution_text": "98",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__evaluate",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_evaluate:01849",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1849,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_evaluate_01849"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let d(w) = 4761 - 186*w. Determine d(24).",
+      "problem_plain": "Let d(w) = 4761 - 186*w. Determine d(24).",
+      "solution_latex": "297",
+      "solution_plain": "297"
+    },
+    "answer": {
+      "final_raw": "297",
+      "final_normalized": "297",
+      "candidates": [
+        "297"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_evaluate"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let d(w) = 4761 - 186*w. Determine d(24).",
+      "solution_text": "297",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__evaluate",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_evaluate:01850",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1850,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_evaluate_01850"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let r(i) = -3*i**3 + 119*i**2 - 517*i - 17. Give r(5).",
+      "problem_plain": "Let r(i) = -3*i^3 + 119*i^2 - 517*i - 17. Give r(5).",
+      "solution_latex": "-2",
+      "solution_plain": "-2"
+    },
+    "answer": {
+      "final_raw": "-2",
+      "final_normalized": "-2",
+      "candidates": [
+        "-2"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_evaluate"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let r(i) = -3*i^3 + 119*i^2 - 517*i - 17. Give r(5).",
+      "solution_text": "-2",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__evaluate",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_evaluate:01851",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1851,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_evaluate_01851"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let q(z) = -173*z**3 - 4673*z**2 - 56*z - 56. Give q(-27).",
+      "problem_plain": "Let q(z) = -173*z^3 - 4673*z^2 - 56*z - 56. Give q(-27).",
+      "solution_latex": "-2",
+      "solution_plain": "-2"
+    },
+    "answer": {
+      "final_raw": "-2",
+      "final_normalized": "-2",
+      "candidates": [
+        "-2"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_evaluate"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let q(z) = -173*z^3 - 4673*z^2 - 56*z - 56. Give q(-27).",
+      "solution_text": "-2",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__evaluate",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_evaluate:01852",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1852,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_evaluate_01852"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let w(b) = -b**2 + 29*b + 10. Determine w(23).",
+      "problem_plain": "Let w(b) = -b^2 + 29*b + 10. Determine w(23).",
+      "solution_latex": "148",
+      "solution_plain": "148"
+    },
+    "answer": {
+      "final_raw": "148",
+      "final_normalized": "148",
+      "candidates": [
+        "148"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_evaluate"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let w(b) = -b^2 + 29*b + 10. Determine w(23).",
+      "solution_text": "148",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__evaluate",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_evaluate_composed:01853",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1853,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_evaluate_composed_01853"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let y = -57 + 107. Let o = -54 + y. Let g(i) = i + 4. Give g(o).",
+      "problem_plain": "Let y = -57 + 107. Let o = -54 + y. Let g(i) = i + 4. Give g(o).",
+      "solution_latex": "0",
+      "solution_plain": "0"
+    },
+    "answer": {
+      "final_raw": "0",
+      "final_normalized": "0",
+      "candidates": [
+        "0"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_evaluate_composed"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate_composed"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let y = -57 + 107. Let o = -54 + y. Let g(i) = i + 4. Give g(o).",
+      "solution_text": "0",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate_composed"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__evaluate_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_evaluate_composed:01854",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1854,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_evaluate_composed_01854"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let g(h) = 3 - h. Suppose 0 = -2*b, 2*b - 36 = 3*a - 3*b. Let i(z) = -6*z - 69. Let s be i(a). Give g(s).",
+      "problem_plain": "Let g(h) = 3 - h. Suppose 0 = -2*b, 2*b - 36 = 3*a - 3*b. Let i(z) = -6*z - 69. Let s be i(a). Give g(s).",
+      "solution_latex": "0",
+      "solution_plain": "0"
+    },
+    "answer": {
+      "final_raw": "0",
+      "final_normalized": "0",
+      "candidates": [
+        "0"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_evaluate_composed"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate_composed"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let g(h) = 3 - h. Suppose 0 = -2*b, 2*b - 36 = 3*a - 3*b. Let i(z) = -6*z - 69. Let s be i(a). Give g(s).",
+      "solution_text": "0",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate_composed"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__evaluate_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_evaluate_composed:01855",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1855,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_evaluate_composed_01855"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let h(m) = 2*m - 4. Suppose 4*z - 56 + 0 = -5*x, 0 = -5*z + 2*x + 37. Suppose 0 = -z*f + 17*f + 40. Give h(f).",
+      "problem_plain": "Let h(m) = 2*m - 4. Suppose 4*z - 56 + 0 = -5*x, 0 = -5*z + 2*x + 37. Suppose 0 = -z*f + 17*f + 40. Give h(f).",
+      "solution_latex": "-14",
+      "solution_plain": "-14"
+    },
+    "answer": {
+      "final_raw": "-14",
+      "final_normalized": "-14",
+      "candidates": [
+        "-14"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_evaluate_composed"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate_composed"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let h(m) = 2*m - 4. Suppose 4*z - 56 + 0 = -5*x, 0 = -5*z + 2*x + 37. Suppose 0 = -z*f + 17*f + 40. Give h(f).",
+      "solution_text": "-14",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate_composed"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__evaluate_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_evaluate_composed:01856",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1856,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_evaluate_composed_01856"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let s = 867 + -861. Let j(o) = o**3 - 7*o**2 + 6*o - 9. What is j(s)?",
+      "problem_plain": "Let s = 867 + -861. Let j(o) = o^3 - 7*o^2 + 6*o - 9. What is j(s)?",
+      "solution_latex": "-9",
+      "solution_plain": "-9"
+    },
+    "answer": {
+      "final_raw": "-9",
+      "final_normalized": "-9",
+      "candidates": [
+        "-9"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_evaluate_composed"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate_composed"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let s = 867 + -861. Let j(o) = o^3 - 7*o^2 + 6*o - 9. What is j(s)?",
+      "solution_text": "-9",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate_composed"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__evaluate_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_evaluate_composed:01857",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1857,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_evaluate_composed_01857"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let g(y) = 5*y + 24. Suppose -53*d + 102*d = -490. What is g(d)?",
+      "problem_plain": "Let g(y) = 5*y + 24. Suppose -53*d + 102*d = -490. What is g(d)?",
+      "solution_latex": "-26",
+      "solution_plain": "-26"
+    },
+    "answer": {
+      "final_raw": "-26",
+      "final_normalized": "-26",
+      "candidates": [
+        "-26"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_evaluate_composed"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate_composed"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let g(y) = 5*y + 24. Suppose -53*d + 102*d = -490. What is g(d)?",
+      "solution_text": "-26",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_evaluate_composed"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__evaluate_composed",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_simplify_power:01858",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1858,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_simplify_power_01858"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Simplify ((d**0/(((d**(5/6)*d)/d)/d*d))/(d*d**(-1/3)*d**(-2/5)))/((d*d/(d**(-1)/d)*d)/(d*d**(-1/2)/d)*d**(-4)*d**(2/3)) assuming d is positive.",
+      "problem_plain": "Simplify ((d^0/(((d^(5/6)*d)/d)/d*d))/(d*d^(-1/3)*d^(-2/5)))/((d*d/(d^(-1)/d)*d)/(d*d^(-1/2)/d)*d^(-4)*d^(2/3)) assuming d is positive.",
+      "solution_latex": "d**(-49/15)",
+      "solution_plain": "d^(-49/15)"
+    },
+    "answer": {
+      "final_raw": "d**(-49/15)",
+      "final_normalized": "d**(-49/15)",
+      "candidates": [
+        "d**(-49/15)"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_simplify_power"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Simplify ((d^0/(((d^(5/6)*d)/d)/d*d))/(d*d^(-1/3)*d^(-2/5)))/((d*d/(d^(-1)/d)*d)/(d*d^(-1/2)/d)*d^(-4)*d^(2/3)) assuming d is positive.",
+      "solution_text": "d^(-49/15)",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__simplify_power",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_simplify_power:01859",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1859,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_simplify_power_01859"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Simplify (s**(-1)*s**4)/(s**3/((s/s**(1/3))/s))*(s**(-2/9)*s*s**(-5))/(s**(-2/7)/(s*s**(1/5)*s)) assuming s is positive.",
+      "problem_plain": "Simplify (s^(-1)*s^4)/(s^3/((s/s^(1/3))/s))*(s^(-2/9)*s*s^(-5))/(s^(-2/7)/(s*s^(1/5)*s)) assuming s is positive.",
+      "solution_latex": "s**(-652/315)",
+      "solution_plain": "s^(-652/315)"
+    },
+    "answer": {
+      "final_raw": "s**(-652/315)",
+      "final_normalized": "s**(-652/315)",
+      "candidates": [
+        "s**(-652/315)"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_simplify_power"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Simplify (s^(-1)*s^4)/(s^3/((s/s^(1/3))/s))*(s^(-2/9)*s*s^(-5))/(s^(-2/7)/(s*s^(1/5)*s)) assuming s is positive.",
+      "solution_text": "s^(-652/315)",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__simplify_power",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_simplify_power:01860",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1860,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_simplify_power_01860"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Simplify (g**(2/3)/g**(-50))/((g/g**(-1/4)*g*(g/g**(-3)*g)/g)/(g**(-2/3)*g*(g/g**2)/g*g)) assuming g is positive.",
+      "problem_plain": "Simplify (g^(2/3)/g^(-50))/((g/g^(-1/4)*g*(g/g^(-3)*g)/g)/(g^(-2/3)*g*(g/g^2)/g*g)) assuming g is positive.",
+      "solution_latex": "g**(175/4)",
+      "solution_plain": "g^(175/4)"
+    },
+    "answer": {
+      "final_raw": "g**(175/4)",
+      "final_normalized": "g**(175/4)",
+      "candidates": [
+        "g**(175/4)"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_simplify_power"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Simplify (g^(2/3)/g^(-50))/((g/g^(-1/4)*g*(g/g^(-3)*g)/g)/(g^(-2/3)*g*(g/g^2)/g*g)) assuming g is positive.",
+      "solution_text": "g^(175/4)",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__simplify_power",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_simplify_power:01861",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1861,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_simplify_power_01861"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Simplify (a**6)**5*((a*a*a**(-5)*a)/a**(1/2))**(2/69) assuming a is positive.",
+      "problem_plain": "Simplify (a^6)^5*((a*a*a^(-5)*a)/a^(1/2))^(2/69) assuming a is positive.",
+      "solution_latex": "a**(2065/69)",
+      "solution_plain": "a^(2065/69)"
+    },
+    "answer": {
+      "final_raw": "a**(2065/69)",
+      "final_normalized": "a**(2065/69)",
+      "candidates": [
+        "a**(2065/69)"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_simplify_power"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Simplify (a^6)^5*((a*a*a^(-5)*a)/a^(1/2))^(2/69) assuming a is positive.",
+      "solution_text": "a^(2065/69)",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__simplify_power",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_simplify_power:01862",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1862,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_simplify_power_01862"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Simplify (((k/((k**(3/7)/k)/k))/k)**(2/27)/(k**14/(k**14/k)))**6 assuming k is positive.",
+      "problem_plain": "Simplify (((k/((k^(3/7)/k)/k))/k)^(2/27)/(k^14/(k^14/k)))^6 assuming k is positive.",
+      "solution_latex": "k**(-334/63)",
+      "solution_plain": "k^(-334/63)"
+    },
+    "answer": {
+      "final_raw": "k**(-334/63)",
+      "final_normalized": "k**(-334/63)",
+      "candidates": [
+        "k**(-334/63)"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_simplify_power"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Simplify (((k/((k^(3/7)/k)/k))/k)^(2/27)/(k^14/(k^14/k)))^6 assuming k is positive.",
+      "solution_text": "k^(-334/63)",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__simplify_power",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_simplify_power:01863",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1863,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_simplify_power_01863"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Simplify ((n/(n/n**(-2/7)))**(-27/7)/((n**10*n)/(((n*n/(n**12*n*n)*n)/n)/n)))**44 assuming n is positive.",
+      "problem_plain": "Simplify ((n/(n/n^(-2/7)))^(-27/7)/((n^10*n)/(((n*n/(n^12*n*n)*n)/n)/n)))^44 assuming n is positive.",
+      "solution_latex": "n**(-49368/49)",
+      "solution_plain": "n^(-49368/49)"
+    },
+    "answer": {
+      "final_raw": "n**(-49368/49)",
+      "final_normalized": "n**(-49368/49)",
+      "candidates": [
+        "n**(-49368/49)"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_simplify_power"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Simplify ((n/(n/n^(-2/7)))^(-27/7)/((n^10*n)/(((n*n/(n^12*n*n)*n)/n)/n)))^44 assuming n is positive.",
+      "solution_text": "n^(-49368/49)",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__simplify_power",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_simplify_power:01864",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1864,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_simplify_power_01864"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Simplify (((k/(k*k**(2/15))*k)/k**(5/6))/(k**2/k**9))**(14/11) assuming k is positive.",
+      "problem_plain": "Simplify (((k/(k*k^(2/15))*k)/k^(5/6))/(k^2/k^9))^(14/11) assuming k is positive.",
+      "solution_latex": "k**(1477/165)",
+      "solution_plain": "k^(1477/165)"
+    },
+    "answer": {
+      "final_raw": "k**(1477/165)",
+      "final_normalized": "k**(1477/165)",
+      "candidates": [
+        "k**(1477/165)"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_simplify_power"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Simplify (((k/(k*k^(2/15))*k)/k^(5/6))/(k^2/k^9))^(14/11) assuming k is positive.",
+      "solution_text": "k^(1477/165)",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__simplify_power",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_simplify_power:01865",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1865,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_simplify_power_01865"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Simplify (v**(-2/11)*v**11)/(v**(2/3)*v**(1/3))**(-41) assuming v is positive.",
+      "problem_plain": "Simplify (v^(-2/11)*v^11)/(v^(2/3)*v^(1/3))^(-41) assuming v is positive.",
+      "solution_latex": "v**(570/11)",
+      "solution_plain": "v^(570/11)"
+    },
+    "answer": {
+      "final_raw": "v**(570/11)",
+      "final_normalized": "v**(570/11)",
+      "candidates": [
+        "v**(570/11)"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_simplify_power"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Simplify (v^(-2/11)*v^11)/(v^(2/3)*v^(1/3))^(-41) assuming v is positive.",
+      "solution_text": "v^(570/11)",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__simplify_power",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_simplify_power:01866",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1866,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_simplify_power_01866"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Simplify (n*n/(n**(-2/13)*n*n)*n*n**(2/11)*n**(-5/6)*n*n/(n**(-3/7)*n*n))**(-36) assuming n is positive.",
+      "problem_plain": "Simplify (n*n/(n^(-2/13)*n*n)*n*n^(2/11)*n^(-5/6)*n*n/(n^(-3/7)*n*n))^(-36) assuming n is positive.",
+      "solution_latex": "n**(-33546/1001)",
+      "solution_plain": "n^(-33546/1001)"
+    },
+    "answer": {
+      "final_raw": "n**(-33546/1001)",
+      "final_normalized": "n**(-33546/1001)",
+      "candidates": [
+        "n**(-33546/1001)"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_simplify_power"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Simplify (n*n/(n^(-2/13)*n*n)*n*n^(2/11)*n^(-5/6)*n*n/(n^(-3/7)*n*n))^(-36) assuming n is positive.",
+      "solution_text": "n^(-33546/1001)",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__simplify_power",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:interpolate:polynomials_simplify_power:01867",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 1867,
+      "split": "interpolate",
+      "source_problem_id": "interpolate_polynomials_simplify_power_01867"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Simplify (y*y/(y*y**(-1/5)*y)*y*y/(y**(1/5)/y))**(-30)/(y**(1/4)*y*y**(-5))**(-49) assuming y is positive.",
+      "problem_plain": "Simplify (y*y/(y*y^(-1/5)*y)*y*y/(y^(1/5)/y))^(-30)/(y^(1/4)*y*y^(-5))^(-49) assuming y is positive.",
+      "solution_latex": "y**(-1095/4)",
+      "solution_plain": "y^(-1095/4)"
+    },
+    "answer": {
+      "final_raw": "y**(-1095/4)",
+      "final_normalized": "y**(-1095/4)",
+      "candidates": [
+        "y**(-1095/4)"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "polynomials",
+      "subject": "Polynomials",
+      "subject_slug": "polynomials",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle_high",
+      "concepts": [
+        "polynomials_simplify_power"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Simplify (y*y/(y*y^(-1/5)*y)*y*y/(y^(1/5)/y))^(-30)/(y^(1/4)*y*y^(-5))^(-49) assuming y is positive.",
+      "solution_text": "y^(-1095/4)",
+      "keywords": [
+        "deepmind_mathematics",
+        "interpolate",
+        "level_4",
+        "polynomials",
+        "polynomials_simplify_power"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "interpolate",
+        "module_name": "polynomials__simplify_power",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  }
+]

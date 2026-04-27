@@ -1,0 +1,1393 @@
+{
+  "schema_version": "coco_problem_bank_image_validation_report.v1",
+  "generated_at": "2026-04-25T11:32:15+00:00",
+  "elapsed_seconds": 7.879,
+  "project_root": "/Volumes/마중나 도킹스테이션/atoll_project",
+  "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+  "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+  "options": {
+    "app_register": true,
+    "band": "초등",
+    "clean_generated_images": false,
+    "clear_app_between_items": false,
+    "clear_app_generated": true,
+    "count_per_grade": 100,
+    "difficulty": "",
+    "force": false,
+    "generate": false,
+    "grade": 0,
+    "limit": 10,
+    "loop": false,
+    "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+    "max_cycles": 1,
+    "offset": 70,
+    "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+    "report": "data/problem_bank/learned/ui_batches/coco_ui_batch_008.json",
+    "seed": 20260425,
+    "sleep_seconds": 1.0,
+    "stop_on_failure": false
+  },
+  "selected_count": 10,
+  "cycle_count": 1,
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "error": 0,
+    "by_band": {
+      "초등": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "error": 0
+      }
+    },
+    "by_topic": {
+      "fraction_ratio": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "geometry": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "pattern": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      },
+      "statistics": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      }
+    }
+  },
+  "failures": [],
+  "results": [
+    {
+      "case_id": "elementary_g04_011",
+      "band": "초등",
+      "grade": 4,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "pattern",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/변화와 관계/규칙과 대응 관계/elementary_g04_011_easy_expression_pattern.png",
+      "expected_answer": "32",
+      "expected_expression": "25+7",
+      "computed_answer": "32",
+      "matched_choice": "",
+      "validation_status": "needs_review",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "answer=32",
+      "recognized_expressions": [
+        "answer=32",
+        "=10 ="
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.691,
+      "analysis": {
+        "analysis_started_at": 1777116727.144192,
+        "analysis_finished_at": 1777116727.834898,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍㅁ02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 Malo.\n4, 11, 18, 25, 0\n| AS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 AB 쓰시오.\n4 11, 18, 25, 니",
+            "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍㅁ02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 Malo.\n4, 11, 18, 25, 0\n| AS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 AB 쓰시오.\n4 11, 18, 25, 니"
+          ],
+          "normalized_problem_text": "answer=32",
+          "expressions": [
+            "answer=32",
+            "=10 ="
+          ],
+          "choices": [
+            "ㅁ 02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 Malo.\n4, 11, 18, 25, 0\n| AS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 AB 쓰시오.\n4 11, 18, 25, 니"
+          ],
+          "question_type": "multiple_choice",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/변화와 관계/규칙과 대응 관계/elementary_g04_011_easy_expression_pattern.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍㅁ02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 Malo.\n4, 11, 18, 25, 0",
+                "confidence": 0.72,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍㅁ02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 Malo.\n4, 11, 18, 25, 0",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍㅁ02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 Malo.\n4, 11, 18, 25, 0",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| AS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 AB 쓰시오.\n4 11, 18, 25, 니",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "eda1f32abe8d"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "32",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 32야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "needs_review",
+          "explanation": "이건 방정식 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 32야. 그래서 정답은 32야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍㅁ02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 Malo.\n4, 11, 18, 25, 0\n| AS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 AB 쓰시오.\n4 11, 18, 25, 니",
+            "content_text": "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍㅁ02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 Malo.\n4, 11, 18, 25, 0\n| AS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 AB 쓰시오.\n4 11, 18, 25, 니",
+            "repaired_text": "",
+            "expressions": [
+              "answer=32",
+              "=10 ="
+            ],
+            "choices": [
+              "ㅁ 02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 Malo.\n4, 11, 18, 25, 0\n| AS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 AB 쓰시오.\n4 11, 18, 25, 니"
+            ],
+            "math_topic": "linear_equation",
+            "question_type": "multiple_choice"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "32",
+          "validation_status": "needs_review"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g04_011__5328dd3c"
+    },
+    {
+      "case_id": "elementary_g04_012",
+      "band": "초등",
+      "grade": 4,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/자료와 가능성/꺾은선그래프/elementary_g04_012_easy_word_statistics.png",
+      "expected_answer": "98",
+      "expected_expression": "80+36-18",
+      "computed_answer": "98",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "초등 4학년ㆍ꺼은선그래프ㆍ기본 word ㆍ statistics",
+      "recognized_expressions": [
+        "80+36-18"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.763,
+      "analysis": {
+        "analysis_started_at": 1777116727.835412,
+        "analysis_finished_at": 1777116728.598712,
+        "structured_problem": {
+          "source_text_candidates": [
+            "： 초등 4S - ASME 7S word - statistics ：\n민지는 스티커를 80장 가지고 있었습니다.\n36장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 장\n초등 4st - ASM TaD 7| word - statistics\n36장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 장'\n초등 4학년ㆍ꺼은선그래프ㆍ기본 word ㆍ statistics\n민지는 스티커를 808 가지고 있었습니다.\n36장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 A",
+            "： 초등 4S - ASME 7S word - statistics ：\n민지는 스티커를 80장 가지고 있었습니다.\n36장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 장\n초등 4st - ASM TaD 7| word - statistics\n36장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 장'\n초등 4학년ㆍ꺼은선그래프ㆍ기본 word ㆍ statistics\n민지는 스티커를 808 가지고 있었습니다.\n36장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 A"
+          ],
+          "normalized_problem_text": "초등 4학년ㆍ꺼은선그래프ㆍ기본 word ㆍ statistics",
+          "expressions": [
+            "80+36-18"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "coordinate_geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/자료와 가능성/꺾은선그래프/elementary_g04_012_easy_word_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "： 초등 4S - ASME 7S word - statistics ：\n민지는 스티커를 80장 가지고 있었습니다.\n36장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 장",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 4st - ASM TaD 7| word - statistics\n민지는 스티커를 80장 가지고 있었습니다.\n36장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 장'",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 4학년ㆍ꺼은선그래프ㆍ기본 word ㆍ statistics\n민지는 스티커를 808 가지고 있었습니다.\n36장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 A",
+                    "confidence": 0.52
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 초등 4S - ASME 7S word - statistics ：\n민지는 스티커를 80장 가지고 있었습니다.\n36장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 장",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "e0e9f3ef7168"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "98",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 98야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 98야. 그래서 정답은 98야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "： 초등 4S - ASME 7S word - statistics ：\n민지는 스티커를 80장 가지고 있었습니다.\n36장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 장\n초등 4st - ASM TaD 7| word - statistics\n36장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 장'\n초등 4학년ㆍ꺼은선그래프ㆍ기본 word ㆍ statistics\n민지는 스티커를 808 가지고 있었습니다.\n36장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 A",
+            "content_text": "： 초등 4S - ASME 7S word - statistics ：\n민지는 스티커를 80장 가지고 있었습니다.\n36장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 장\n초등 4st - ASM TaD 7| word - statistics\n36장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 장'\n초등 4학년ㆍ꺼은선그래프ㆍ기본 word ㆍ statistics\n민지는 스티커를 808 가지고 있었습니다.\n36장을 더 받고, 그중 18장을 사용했습니다. 남은 스티커는 몇 A",
+            "repaired_text": "",
+            "expressions": [
+              "80+36-18"
+            ],
+            "choices": [],
+            "math_topic": "coordinate_geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "98",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g04_012__32593851"
+    },
+    {
+      "case_id": "elementary_g04_013",
+      "band": "초등",
+      "grade": 4,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "fraction_ratio",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/수와 연산/큰 수와 분수·소수 계산/elementary_g04_013_easy_table_fraction_ratio.png",
+      "expected_answer": "89",
+      "expected_expression": "33+13+31+12",
+      "computed_answer": "89",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 SSS 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "33+13+31+12"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.402,
+      "analysis": {
+        "analysis_started_at": 1777116728.599262,
+        "analysis_finished_at": 1777116730.001308,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\nA 33 13 31 12\n초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\n7 초등 4학년 ㆍ큰 수와 분수-소수 계산 ㆍ기본 table ㆍ fraction_ratio\n아래 표의 SAS 모두 B 개인지 구하시오.\ntable_row_2 33 13 31 12",
+            "초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\nA 33 13 31 12\n초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\n7 초등 4학년 ㆍ큰 수와 분수-소수 계산 ㆍ기본 table ㆍ fraction_ratio\n아래 표의 SAS 모두 B 개인지 구하시오.\ntable_row_2 33 13 31 12"
+          ],
+          "normalized_problem_text": "아래 표의 SSS 모두 몇 개인지 구하시오",
+          "expressions": [
+            "33+13+31+12"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/수와 연산/큰 수와 분수·소수 계산/elementary_g04_013_easy_table_fraction_ratio.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B 의 D\nA 33 13 31 12",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\neC",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B 의 D\nA 33 13 31 12",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "7 초등 4학년 ㆍ큰 수와 분수-소수 계산 ㆍ기본 table ㆍ fraction_ratio\n아래 표의 SAS 모두 B 개인지 구하시오.\n항목 iA BC",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 33 13 31 12",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "3898ecf9afd6"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "89",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 89야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 89야. 그래서 정답은 89야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\nA 33 13 31 12\n초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\n7 초등 4학년 ㆍ큰 수와 분수-소수 계산 ㆍ기본 table ㆍ fraction_ratio\n아래 표의 SAS 모두 B 개인지 구하시오.\ntable_row_2 33 13 31 12",
+            "content_text": "초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\nA 33 13 31 12\n초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\n7 초등 4학년 ㆍ큰 수와 분수-소수 계산 ㆍ기본 table ㆍ fraction_ratio\n아래 표의 SAS 모두 B 개인지 구하시오.\ntable_row_2 33 13 31 12",
+            "repaired_text": "",
+            "expressions": [
+              "33+13+31+12"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "89",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g04_013__48064739"
+    },
+    {
+      "case_id": "elementary_g04_014",
+      "band": "초등",
+      "grade": 4,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/도형과 측정/각도와 삼각형·사각형/elementary_g04_014_easy_expression_geometry.png",
+      "expected_answer": "116",
+      "expected_expression": "76+40",
+      "computed_answer": "116",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "/6+ 40",
+        "76 + 40"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.5,
+      "analysis": {
+        "analysis_started_at": 1777116730.001857,
+        "analysis_finished_at": 1777116730.5018291,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 초등 4학년ㆍ각도와 Atzted-ApZted . 7] expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n/6+ 40\n초등 4학년ㆍ각도와 삼각형사각형ㆍ기본 expression ㆍ geometr\n76 + 40",
+            "| 초등 4학년ㆍ각도와 Atzted-ApZted . 7] expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n/6+ 40\n초등 4학년ㆍ각도와 삼각형사각형ㆍ기본 expression ㆍ geometr\n76 + 40"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "/6+ 40",
+            "76 + 40"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/도형과 측정/각도와 삼각형·사각형/elementary_g04_014_easy_expression_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 초등 4학년ㆍ각도와 Atzted-ApZted . 7] expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n/6+ 40",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 4학년ㆍ각도와 삼각형사각형ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n76 + 40",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 4학년ㆍ각도와 Atzted-ApZted . 7] expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n/6+ 40",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "e9cbb5c04f22"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "116",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 116야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 도형이나 좌표 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 116야. 그래서 정답은 116야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 초등 4학년ㆍ각도와 Atzted-ApZted . 7] expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n/6+ 40\n초등 4학년ㆍ각도와 삼각형사각형ㆍ기본 expression ㆍ geometr\n76 + 40",
+            "content_text": "| 초등 4학년ㆍ각도와 Atzted-ApZted . 7] expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n/6+ 40\n초등 4학년ㆍ각도와 삼각형사각형ㆍ기본 expression ㆍ geometr\n76 + 40",
+            "repaired_text": "",
+            "expressions": [
+              "/6+ 40",
+              "76 + 40"
+            ],
+            "choices": [],
+            "math_topic": "geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "116",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g04_014__5e8ab213"
+    },
+    {
+      "case_id": "elementary_g04_015",
+      "band": "초등",
+      "grade": 4,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "pattern",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/변화와 관계/규칙과 대응 관계/elementary_g04_015_easy_expression_pattern.png",
+      "expected_answer": "14",
+      "expected_expression": "11+3",
+      "computed_answer": "14",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "answer=14",
+      "recognized_expressions": [
+        "answer=14",
+        "=-10 ="
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.688,
+      "analysis": {
+        "analysis_started_at": 1777116730.502378,
+        "analysis_finished_at": 1777116731.190346,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍ pattern\n=-10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIO.\n2,5, 8, 11, O\nAS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nr/o x Oo A &\n규칙을 찾아 빈칸에 알맞은 AB 쓰시오.\n2.5,8,11",
+            "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍ pattern\n=-10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIO.\n2,5, 8, 11, O\nAS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nr/o x Oo A &\n규칙을 찾아 빈칸에 알맞은 AB 쓰시오.\n2.5,8,11"
+          ],
+          "normalized_problem_text": "answer=14",
+          "expressions": [
+            "answer=14",
+            "=-10 ="
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/변화와 관계/규칙과 대응 관계/elementary_g04_015_easy_expression_pattern.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍ pattern\n=-10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIO.\n2,5, 8, 11, O",
+                "confidence": 0.72,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍ pattern\n=-10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIO.\n2,5, 8, 11, O",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍ pattern\n=-10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIO.\n2,5, 8, 11, O",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "AS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nr/o x Oo A &\n규칙을 찾아 빈칸에 알맞은 AB 쓰시오.\n2.5,8,11",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "ccc69c492573"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "14",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 14야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 14야. 그래서 정답은 14야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍ pattern\n=-10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIO.\n2,5, 8, 11, O\nAS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nr/o x Oo A &\n규칙을 찾아 빈칸에 알맞은 AB 쓰시오.\n2.5,8,11",
+            "content_text": "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍ pattern\n=-10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIO.\n2,5, 8, 11, O\nAS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nr/o x Oo A &\n규칙을 찾아 빈칸에 알맞은 AB 쓰시오.\n2.5,8,11",
+            "repaired_text": "",
+            "expressions": [
+              "answer=14",
+              "=-10 ="
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "14",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g04_015__9649cb5d"
+    },
+    {
+      "case_id": "elementary_g04_016",
+      "band": "초등",
+      "grade": 4,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/자료와 가능성/꺾은선그래프/elementary_g04_016_easy_expression_statistics.png",
+      "expected_answer": "407/5",
+      "expected_expression": "(87+75+72+73+100)/5",
+      "computed_answer": "407/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(87+75+72+73+100)/5",
+        "(75+72+73+100)/4"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.453,
+      "analysis": {
+        "analysis_started_at": 1777116731.190868,
+        "analysis_finished_at": 1777116731.6435351,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 ASA - HOM aYD - 7] expression - statistic:\n다음 자료의 평균을 구하시오.\n87 75, 72, 73, 100\n다음 자료의 SAS 구하시오.",
+            "초등 ASA - HOM aYD - 7] expression - statistic:\n다음 자료의 평균을 구하시오.\n87 75, 72, 73, 100\n다음 자료의 SAS 구하시오."
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(87+75+72+73+100)/5",
+            "(75+72+73+100)/4"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/자료와 가능성/꺾은선그래프/elementary_g04_016_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 ASA - HOM aYD - 7] expression - statistic:\n다음 자료의 평균을 구하시오.\n87 75, 72, 73, 100",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 ASA - HOM aYD - 7] expression - statistic:\n다음 자료의 평균을 구하시오.\n87 75, 72, 73, 100",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "“ 초등 ASA. WOMAN ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n87 75, 72, 73, 100",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "6414fd371039"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "407/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 407/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 407/5야. 그래서 정답은 407/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 ASA - HOM aYD - 7] expression - statistic:\n다음 자료의 평균을 구하시오.\n87 75, 72, 73, 100\n다음 자료의 SAS 구하시오.",
+            "content_text": "초등 ASA - HOM aYD - 7] expression - statistic:\n다음 자료의 평균을 구하시오.\n87 75, 72, 73, 100\n다음 자료의 SAS 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "(87+75+72+73+100)/5",
+              "(75+72+73+100)/4"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "407/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g04_016__f9d43892"
+    },
+    {
+      "case_id": "elementary_g04_017",
+      "band": "초등",
+      "grade": 4,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "fraction_ratio",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/수와 연산/큰 수와 분수·소수 계산/elementary_g04_017_easy_word_fraction_ratio.png",
+      "expected_answer": "102",
+      "expected_expression": "69+43-10",
+      "computed_answer": "102",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "69+43-10",
+      "recognized_expressions": [
+        "69+43-10"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.758,
+      "analysis": {
+        "analysis_started_at": 1777116731.644038,
+        "analysis_finished_at": 1777116732.4021912,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 word - fraction_ratio\n민지는 AEAS 698 가지고 있었습니다.\n43장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장\n초등 4학년ㆍ큰 수와 BAA 계산 ㆍ기본 word - fraction_ratio\n민지는 스티커를 698 가지고 있었습니다.\n초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 word : fraction_ratio\n민지는 AEA S 69% 가지고 있었습니다.",
+            "| 초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 word - fraction_ratio\n민지는 AEAS 698 가지고 있었습니다.\n43장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장\n초등 4학년ㆍ큰 수와 BAA 계산 ㆍ기본 word - fraction_ratio\n민지는 스티커를 698 가지고 있었습니다.\n초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 word : fraction_ratio\n민지는 AEA S 69% 가지고 있었습니다."
+          ],
+          "normalized_problem_text": "69+43-10",
+          "expressions": [
+            "69+43-10"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/수와 연산/큰 수와 분수·소수 계산/elementary_g04_017_easy_word_fraction_ratio.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 word - fraction_ratio\n민지는 AEAS 698 가지고 있었습니다.\n43장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 4학년ㆍ큰 수와 BAA 계산 ㆍ기본 word - fraction_ratio\n민지는 스티커를 698 가지고 있었습니다.\n43장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 word : fraction_ratio\n민지는 AEA S 69% 가지고 있었습니다.\n43장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장",
+                    "confidence": 0.52
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 word - fraction_ratio\n민지는 AEAS 698 가지고 있었습니다.\n43장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "d5de0db2c85a"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "102",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 102야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 102야. 그래서 정답은 102야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 word - fraction_ratio\n민지는 AEAS 698 가지고 있었습니다.\n43장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장\n초등 4학년ㆍ큰 수와 BAA 계산 ㆍ기본 word - fraction_ratio\n민지는 스티커를 698 가지고 있었습니다.\n초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 word : fraction_ratio\n민지는 AEA S 69% 가지고 있었습니다.",
+            "content_text": "| 초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 word - fraction_ratio\n민지는 AEAS 698 가지고 있었습니다.\n43장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장\n초등 4학년ㆍ큰 수와 BAA 계산 ㆍ기본 word - fraction_ratio\n민지는 스티커를 698 가지고 있었습니다.\n초등 4학년ㆍ큰 수와 분수ㆍ소수 계산ㆍ기본 word : fraction_ratio\n민지는 AEA S 69% 가지고 있었습니다.",
+            "repaired_text": "",
+            "expressions": [
+              "69+43-10"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "102",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g04_017__f7841cb4"
+    },
+    {
+      "case_id": "elementary_g04_018",
+      "band": "초등",
+      "grade": 4,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/도형과 측정/각도와 삼각형·사각형/elementary_g04_018_easy_table_geometry.png",
+      "expected_answer": "100",
+      "expected_expression": "24+23+22+31",
+      "computed_answer": "100",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 수량은 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "24+23+22+31"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.476,
+      "analysis": {
+        "analysis_started_at": 1777116732.402803,
+        "analysis_finished_at": 1777116733.879203,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 4학년ㆍ각도와 삼각형사각형ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오.\na 24 23 22 31\n| BS 4학년ㆍ각도와 삼각형사각형ㆍ기본 table - geometry |\n아래 표의 SSS 모두 몇 개인지 구하시오.\ntable_row_2 24 23 22 31",
+            "초등 4학년ㆍ각도와 삼각형사각형ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오.\na 24 23 22 31\n| BS 4학년ㆍ각도와 삼각형사각형ㆍ기본 table - geometry |\n아래 표의 SSS 모두 몇 개인지 구하시오.\ntable_row_2 24 23 22 31"
+          ],
+          "normalized_problem_text": "아래 표의 수량은 모두 몇 개인지 구하시오",
+          "expressions": [
+            "24+23+22+31"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/도형과 측정/각도와 삼각형·사각형/elementary_g04_018_easy_table_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 4학년ㆍ각도와 삼각형사각형ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 A B c D\na 24 23 22 31",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 4학년ㆍ각도와 삼각형사각형ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오.\neC",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 4학년ㆍ각도와 삼각형사각형ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 A B c D\na 24 23 22 31",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| BS 4학년ㆍ각도와 삼각형사각형ㆍ기본 table - geometry |\n아래 표의 SSS 모두 몇 개인지 구하시오.\nesta BC",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 24 23 22 31",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "ddeb06987a10"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "100",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 100야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 도형이나 좌표 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 100야. 그래서 정답은 100야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 4학년ㆍ각도와 삼각형사각형ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오.\na 24 23 22 31\n| BS 4학년ㆍ각도와 삼각형사각형ㆍ기본 table - geometry |\n아래 표의 SSS 모두 몇 개인지 구하시오.\ntable_row_2 24 23 22 31",
+            "content_text": "초등 4학년ㆍ각도와 삼각형사각형ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오.\na 24 23 22 31\n| BS 4학년ㆍ각도와 삼각형사각형ㆍ기본 table - geometry |\n아래 표의 SSS 모두 몇 개인지 구하시오.\ntable_row_2 24 23 22 31",
+            "repaired_text": "",
+            "expressions": [
+              "24+23+22+31"
+            ],
+            "choices": [],
+            "math_topic": "geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "100",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g04_018__74805161"
+    },
+    {
+      "case_id": "elementary_g04_019",
+      "band": "초등",
+      "grade": 4,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "pattern",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/변화와 관계/규칙과 대응 관계/elementary_g04_019_easy_expression_pattern.png",
+      "expected_answer": "24",
+      "expected_expression": "19+5",
+      "computed_answer": "24",
+      "matched_choice": "",
+      "validation_status": "needs_review",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "answer=24",
+      "recognized_expressions": [
+        "answer=24",
+        "=10 ="
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.689,
+      "analysis": {
+        "analysis_started_at": 1777116733.879856,
+        "analysis_finished_at": 1777116734.568893,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍㅁ02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIO.\n4, 9 14, 19O\n| AS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n4914 19 0",
+            "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍㅁ02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIO.\n4, 9 14, 19O\n| AS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n4914 19 0"
+          ],
+          "normalized_problem_text": "answer=24",
+          "expressions": [
+            "answer=24",
+            "=10 ="
+          ],
+          "choices": [
+            "ㅁ 02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIO.\n4, 9 14, 19O\n| AS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n4914 19 0"
+          ],
+          "question_type": "multiple_choice",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/변화와 관계/규칙과 대응 관계/elementary_g04_019_easy_expression_pattern.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍㅁ02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIO.\n4, 9 14, 19O",
+                "confidence": 0.72,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍㅁ02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIO.\n4, 9 14, 19O",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍㅁ02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIO.\n4, 9 14, 19O",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| AS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n4914 19 0",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "8d7368ec7a98"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "24",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 24야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "needs_review",
+          "explanation": "이건 방정식 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 24야. 그래서 정답은 24야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍㅁ02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIO.\n4, 9 14, 19O\n| AS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n4914 19 0",
+            "content_text": "초등 4학년ㆍ규칙과 대응 관계ㆍ기본 expression ㆍㅁ02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIO.\n4, 9 14, 19O\n| AS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n4914 19 0",
+            "repaired_text": "",
+            "expressions": [
+              "answer=24",
+              "=10 ="
+            ],
+            "choices": [
+              "ㅁ 02607\n=10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIO.\n4, 9 14, 19O\n| AS 4학년ㆍ규칙과 대응 관계ㆍ기본 expression - pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n4914 19 0"
+            ],
+            "math_topic": "linear_equation",
+            "question_type": "multiple_choice"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "24",
+          "validation_status": "needs_review"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g04_019__4ffba1fd"
+    },
+    {
+      "case_id": "elementary_g04_020",
+      "band": "초등",
+      "grade": 4,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/자료와 가능성/꺾은선그래프/elementary_g04_020_easy_expression_statistics.png",
+      "expected_answer": "351/5",
+      "expected_expression": "(62+62+75+81+71)/5",
+      "computed_answer": "351/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(62+62+75+81+71)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.453,
+      "analysis": {
+        "analysis_started_at": 1777116734.5694652,
+        "analysis_finished_at": 1777116735.02207,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 ASA - HOM aYD - 7] expression - statistic:\n다음 자료의 평균을 구하시오.\n62, 62, 75, 81, 71\n개 초등 ASA. WOMAN ㆍ기본 expression - statistics",
+            "초등 ASA - HOM aYD - 7] expression - statistic:\n다음 자료의 평균을 구하시오.\n62, 62, 75, 81, 71\n개 초등 ASA. WOMAN ㆍ기본 expression - statistics"
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(62+62+75+81+71)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "sequence",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/4학년/자료와 가능성/꺾은선그래프/elementary_g04_020_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 ASA - HOM aYD - 7] expression - statistic:\n다음 자료의 평균을 구하시오.\n62, 62, 75, 81, 71",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 ASA - HOM aYD - 7] expression - statistic:\n다음 자료의 평균을 구하시오.\n62, 62, 75, 81, 71",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "개 초등 ASA. WOMAN ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n62, 62, 75, 81, 71",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "50b2e948d7d0"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "351/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 351/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 351/5야. 그래서 정답은 351/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 ASA - HOM aYD - 7] expression - statistic:\n다음 자료의 평균을 구하시오.\n62, 62, 75, 81, 71\n개 초등 ASA. WOMAN ㆍ기본 expression - statistics",
+            "content_text": "초등 ASA - HOM aYD - 7] expression - statistic:\n다음 자료의 평균을 구하시오.\n62, 62, 75, 81, 71\n개 초등 ASA. WOMAN ㆍ기본 expression - statistics",
+            "repaired_text": "",
+            "expressions": [
+              "(62+62+75+81+71)/5"
+            ],
+            "choices": [],
+            "math_topic": "sequence",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "351/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g04_020__04d1f2ba"
+    }
+  ]
+}

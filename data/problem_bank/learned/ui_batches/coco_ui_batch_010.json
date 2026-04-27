@@ -1,0 +1,1370 @@
+{
+  "schema_version": "coco_problem_bank_image_validation_report.v1",
+  "generated_at": "2026-04-25T11:34:32+00:00",
+  "elapsed_seconds": 7.466,
+  "project_root": "/Volumes/마중나 도킹스테이션/atoll_project",
+  "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+  "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+  "options": {
+    "app_register": true,
+    "band": "초등",
+    "clean_generated_images": false,
+    "clear_app_between_items": false,
+    "clear_app_generated": true,
+    "count_per_grade": 100,
+    "difficulty": "",
+    "force": false,
+    "generate": false,
+    "grade": 0,
+    "limit": 10,
+    "loop": false,
+    "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+    "max_cycles": 1,
+    "offset": 90,
+    "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+    "report": "data/problem_bank/learned/ui_batches/coco_ui_batch_010.json",
+    "seed": 20260425,
+    "sleep_seconds": 1.0,
+    "stop_on_failure": false
+  },
+  "selected_count": 10,
+  "cycle_count": 1,
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "error": 0,
+    "by_band": {
+      "초등": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "error": 0
+      }
+    },
+    "by_topic": {
+      "fraction_ratio": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "function": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      },
+      "geometry": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "statistics": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      }
+    }
+  },
+  "failures": [],
+  "results": [
+    {
+      "case_id": "elementary_g05_011",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "function",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/변화와 관계/대응 관계와 비/elementary_g05_011_easy_expression_function.png",
+      "expected_answer": "45",
+      "expected_expression": "16+29",
+      "computed_answer": "45",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "16 + 29",
+        "0 ) -"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.464,
+      "analysis": {
+        "analysis_started_at": 1777116864.9397209,
+        "analysis_finished_at": 1777116865.4033449,
+        "structured_problem": {
+          "source_text_candidates": [
+            ". 초등 5학년 ㆍ대응 관계와 비 ㆍ기본 expression ㆍ function\n\"0 ) -\n다음 식의 값을 구하시오.\n16 + 29\n초등 5학년 ㆍ대응 관계와 비ㆍ기본 expression ㆍ function",
+            ". 초등 5학년 ㆍ대응 관계와 비 ㆍ기본 expression ㆍ function\n\"0 ) -\n다음 식의 값을 구하시오.\n16 + 29\n초등 5학년 ㆍ대응 관계와 비ㆍ기본 expression ㆍ function"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "16 + 29",
+            "0 ) -"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/변화와 관계/대응 관계와 비/elementary_g05_011_easy_expression_function.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": ". 초등 5학년 ㆍ대응 관계와 비 ㆍ기본 expression ㆍ function\n\"0 ) -\n다음 식의 값을 구하시오.\n16 + 29",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 5학년 ㆍ대응 관계와 비ㆍ기본 expression ㆍ function\n다음 식의 값을 구하시오.\n16 + 29",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ". 초등 5학년 ㆍ대응 관계와 비 ㆍ기본 expression ㆍ function\n\"0 ) -\n다음 식의 값을 구하시오.\n16 + 29",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "e3639e718281"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "45",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 45야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 45야. 그래서 정답은 45야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": ". 초등 5학년 ㆍ대응 관계와 비 ㆍ기본 expression ㆍ function\n\"0 ) -\n다음 식의 값을 구하시오.\n16 + 29\n초등 5학년 ㆍ대응 관계와 비ㆍ기본 expression ㆍ function",
+            "content_text": ". 초등 5학년 ㆍ대응 관계와 비 ㆍ기본 expression ㆍ function\n\"0 ) -\n다음 식의 값을 구하시오.\n16 + 29\n초등 5학년 ㆍ대응 관계와 비ㆍ기본 expression ㆍ function",
+            "repaired_text": "",
+            "expressions": [
+              "16 + 29",
+              "0 ) -"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "45",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_011__07cc014f"
+    },
+    {
+      "case_id": "elementary_g05_012",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/자료와 가능성/평균과 가능성/elementary_g05_012_easy_word_statistics.png",
+      "expected_answer": "31",
+      "expected_expression": "35+19-23",
+      "computed_answer": "31",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "35+19-23",
+      "recognized_expressions": [
+        "35+19-23",
+        "(354+19+23+23+35+19+23)/7"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.854,
+      "analysis": {
+        "analysis_started_at": 1777116865.40389,
+        "analysis_finished_at": 1777116866.2581608,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 OSHA ㆍ평균과 가능성ㆍ기본 word - statistics\n민지는 스티커를 354 가지고 있었습니다.\n19장을 더 받고, 그중 23장을 사용했습니다. 남은 스티커는 Se\nlogs 더 받고, 그중 23장을 사용했습니다. 남은 스티커는 SS\n： 초등 5학년 ㆍ평균과 가능성ㆍ기본 \\0[0statistics ：\n민지는 스티커를 35장 가지고 있었습니다.\n19장을 더 받고, 그중 23장을 사용했습니다. 남은 스티커는 Ba",
+            "초등 OSHA ㆍ평균과 가능성ㆍ기본 word - statistics\n민지는 스티커를 354 가지고 있었습니다.\n19장을 더 받고, 그중 23장을 사용했습니다. 남은 스티커는 Se\nlogs 더 받고, 그중 23장을 사용했습니다. 남은 스티커는 SS\n： 초등 5학년 ㆍ평균과 가능성ㆍ기본 \\0[0statistics ：\n민지는 스티커를 35장 가지고 있었습니다.\n19장을 더 받고, 그중 23장을 사용했습니다. 남은 스티커는 Ba"
+          ],
+          "normalized_problem_text": "35+19-23",
+          "expressions": [
+            "35+19-23",
+            "(354+19+23+23+35+19+23)/7"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/자료와 가능성/평균과 가능성/elementary_g05_012_easy_word_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 OSHA ㆍ평균과 가능성ㆍ기본 word - statistics\n민지는 스티커를 354 가지고 있었습니다.\n19장을 더 받고, 그중 23장을 사용했습니다. 남은 스티커는 Se",
+                "confidence": 0.6799999999999999,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 OSHA ㆍ평균과 가능성ㆍ기본 word - statistics\n민지는 스티커를 354 가지고 있었습니다.\n19장을 더 받고, 그중 23장을 사용했습니다. 남은 스티커는 Se",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 OSHA ㆍ평균과 가능성ㆍ기본 word - statistics\n민지는 스티커를 354 가지고 있었습니다.\nlogs 더 받고, 그중 23장을 사용했습니다. 남은 스티커는 SS",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 초등 5학년 ㆍ평균과 가능성ㆍ기본 \\0[0statistics ：\n민지는 스티커를 35장 가지고 있었습니다.\n19장을 더 받고, 그중 23장을 사용했습니다. 남은 스티커는 Ba",
+                    "confidence": 0.54
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "3494bdc3f68a"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "31",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 31야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 31야. 그래서 정답은 31야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 OSHA ㆍ평균과 가능성ㆍ기본 word - statistics\n민지는 스티커를 354 가지고 있었습니다.\n19장을 더 받고, 그중 23장을 사용했습니다. 남은 스티커는 Se\nlogs 더 받고, 그중 23장을 사용했습니다. 남은 스티커는 SS\n： 초등 5학년 ㆍ평균과 가능성ㆍ기본 \\0[0statistics ：\n민지는 스티커를 35장 가지고 있었습니다.\n19장을 더 받고, 그중 23장을 사용했습니다. 남은 스티커는 Ba",
+            "content_text": "초등 OSHA ㆍ평균과 가능성ㆍ기본 word - statistics\n민지는 스티커를 354 가지고 있었습니다.\n19장을 더 받고, 그중 23장을 사용했습니다. 남은 스티커는 Se\nlogs 더 받고, 그중 23장을 사용했습니다. 남은 스티커는 SS\n： 초등 5학년 ㆍ평균과 가능성ㆍ기본 \\0[0statistics ：\n민지는 스티커를 35장 가지고 있었습니다.\n19장을 더 받고, 그중 23장을 사용했습니다. 남은 스티커는 Ba",
+            "repaired_text": "",
+            "expressions": [
+              "35+19-23",
+              "(354+19+23+23+35+19+23)/7"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "31",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_012__3d24a6ce"
+    },
+    {
+      "case_id": "elementary_g05_013",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "fraction_ratio",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/수와 연산/약수와 배수·분수의 계산/elementary_g05_013_easy_table_fraction_ratio.png",
+      "expected_answer": "122",
+      "expected_expression": "32+36+35+19",
+      "computed_answer": "122",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 수량은 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "32+36+35+19"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.494,
+      "analysis": {
+        "analysis_started_at": 1777116866.258692,
+        "analysis_finished_at": 1777116867.753079,
+        "structured_problem": {
+          "source_text_candidates": [
+            "7 초등 5학년 ㆍ약수와 배수-분수의 계산 ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\nwe 32 136 0135 0000 19\n아래 표의 수량은 모두 몇 개인지 구하시오,\n초등 5학년ㆍ약수와 배수ㆍ분수의 계산 ㆍ기본 table ㆍ fraction_ratio\na 32 36 35 19\ntable_row_2 32 36 35 19",
+            "7 초등 5학년 ㆍ약수와 배수-분수의 계산 ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\nwe 32 136 0135 0000 19\n아래 표의 수량은 모두 몇 개인지 구하시오,\n초등 5학년ㆍ약수와 배수ㆍ분수의 계산 ㆍ기본 table ㆍ fraction_ratio\na 32 36 35 19\ntable_row_2 32 36 35 19"
+          ],
+          "normalized_problem_text": "아래 표의 수량은 모두 몇 개인지 구하시오",
+          "expressions": [
+            "32+36+35+19"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/수와 연산/약수와 배수·분수의 계산/elementary_g05_013_easy_table_fraction_ratio.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "7 초등 5학년 ㆍ약수와 배수-분수의 계산 ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 iA BC\nwe 32 136 0135 0000 19",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 OSHA ㆍ약수와 배수ㆍ분수의 계산 ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오,\neC",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 5학년ㆍ약수와 배수ㆍ분수의 계산 ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 A B c D\na 32 36 35 19",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "7 초등 5학년 ㆍ약수와 배수-분수의 계산 ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 iA BC\nwe 32 136 0135 0000 19",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 32 36 35 19",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "9f88996c6125"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "122",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 122야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 122야. 그래서 정답은 122야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "7 초등 5학년 ㆍ약수와 배수-분수의 계산 ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\nwe 32 136 0135 0000 19\n아래 표의 수량은 모두 몇 개인지 구하시오,\n초등 5학년ㆍ약수와 배수ㆍ분수의 계산 ㆍ기본 table ㆍ fraction_ratio\na 32 36 35 19\ntable_row_2 32 36 35 19",
+            "content_text": "7 초등 5학년 ㆍ약수와 배수-분수의 계산 ㆍ기본 table ㆍ fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\nwe 32 136 0135 0000 19\n아래 표의 수량은 모두 몇 개인지 구하시오,\n초등 5학년ㆍ약수와 배수ㆍ분수의 계산 ㆍ기본 table ㆍ fraction_ratio\na 32 36 35 19\ntable_row_2 32 36 35 19",
+            "repaired_text": "",
+            "expressions": [
+              "32+36+35+19"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "122",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_013__2c5ad7cd"
+    },
+    {
+      "case_id": "elementary_g05_014",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/도형과 측정/다각형의 둘레와 넓이/elementary_g05_014_easy_expression_geometry.png",
+      "expected_answer": "110",
+      "expected_expression": "88+22",
+      "computed_answer": "110",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "88 + 22"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.462,
+      "analysis": {
+        "analysis_started_at": 1777116867.7536,
+        "analysis_finished_at": 1777116868.215399,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\n© =.\n다음 식의 값을 구하시오.\n88 + 22\n초등 OSA ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\n(2) =",
+            "초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\n© =.\n다음 식의 값을 구하시오.\n88 + 22\n초등 OSA ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\n(2) ="
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "88 + 22"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/도형과 측정/다각형의 둘레와 넓이/elementary_g05_014_easy_expression_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\n© =.\n다음 식의 값을 구하시오.\n88 + 22",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 OSA ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\n(2) =\n다음 식의 값을 구하시오.\n88 + 22",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\n© =.\n다음 식의 값을 구하시오.\n88 + 22",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "6b54e1eee79c"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "110",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 110야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 110야. 그래서 정답은 110야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\n© =.\n다음 식의 값을 구하시오.\n88 + 22\n초등 OSA ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\n(2) =",
+            "content_text": "초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\n© =.\n다음 식의 값을 구하시오.\n88 + 22\n초등 OSA ㆍ다각형의 둘레와 넓이ㆍ기본 expression ㆍ geometr\n(2) =",
+            "repaired_text": "",
+            "expressions": [
+              "88 + 22"
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "110",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_014__56f1b7cb"
+    },
+    {
+      "case_id": "elementary_g05_015",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "function",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/변화와 관계/대응 관계와 비/elementary_g05_015_easy_expression_function.png",
+      "expected_answer": "119",
+      "expected_expression": "87+32",
+      "computed_answer": "119",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "87 + 32",
+        "0 ) -"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.435,
+      "analysis": {
+        "analysis_started_at": 1777116868.216207,
+        "analysis_finished_at": 1777116868.651635,
+        "structured_problem": {
+          "source_text_candidates": [
+            ". 초등 5학년 ㆍ대응 관계와 비 ㆍ기본 expression ㆍ function\n\"0 ) -\n다음 식의 값을 구하시오.\n87 + 32\n초등 5학년 ㆍ대응 관계와 비ㆍ기본 expression ㆍ function",
+            ". 초등 5학년 ㆍ대응 관계와 비 ㆍ기본 expression ㆍ function\n\"0 ) -\n다음 식의 값을 구하시오.\n87 + 32\n초등 5학년 ㆍ대응 관계와 비ㆍ기본 expression ㆍ function"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "87 + 32",
+            "0 ) -"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/변화와 관계/대응 관계와 비/elementary_g05_015_easy_expression_function.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": ". 초등 5학년 ㆍ대응 관계와 비 ㆍ기본 expression ㆍ function\n\"0 ) -\n다음 식의 값을 구하시오.\n87 + 32",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 5학년 ㆍ대응 관계와 비ㆍ기본 expression ㆍ function\n다음 식의 값을 구하시오.\n87 + 32",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ". 초등 5학년 ㆍ대응 관계와 비 ㆍ기본 expression ㆍ function\n\"0 ) -\n다음 식의 값을 구하시오.\n87 + 32",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "7adbaee54bb9"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "119",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 119야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 119야. 그래서 정답은 119야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": ". 초등 5학년 ㆍ대응 관계와 비 ㆍ기본 expression ㆍ function\n\"0 ) -\n다음 식의 값을 구하시오.\n87 + 32\n초등 5학년 ㆍ대응 관계와 비ㆍ기본 expression ㆍ function",
+            "content_text": ". 초등 5학년 ㆍ대응 관계와 비 ㆍ기본 expression ㆍ function\n\"0 ) -\n다음 식의 값을 구하시오.\n87 + 32\n초등 5학년 ㆍ대응 관계와 비ㆍ기본 expression ㆍ function",
+            "repaired_text": "",
+            "expressions": [
+              "87 + 32",
+              "0 ) -"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "119",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_015__bebb3f48"
+    },
+    {
+      "case_id": "elementary_g05_016",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/자료와 가능성/평균과 가능성/elementary_g05_016_easy_expression_statistics.png",
+      "expected_answer": "424/5",
+      "expected_expression": "(86+60+79+100+99)/5",
+      "computed_answer": "424/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(86+60+79+100+99)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.449,
+      "analysis": {
+        "analysis_started_at": 1777116868.6521668,
+        "analysis_finished_at": 1777116869.101644,
+        "structured_problem": {
+          "source_text_candidates": [
+            "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n86, 60, 79 100, 99\n초등 OSHA ㆍ평균과 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n86, 60, 79, 100, 99",
+            "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n86, 60, 79 100, 99\n초등 OSHA ㆍ평균과 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n86, 60, 79, 100, 99"
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(86+60+79+100+99)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/자료와 가능성/평균과 가능성/elementary_g05_016_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n86, 60, 79 100, 99",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 OSHA ㆍ평균과 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n86, 60, 79, 100, 99",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n86, 60, 79 100, 99",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "c144df4543fa"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "424/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 424/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 424/5야. 그래서 정답은 424/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n86, 60, 79 100, 99\n초등 OSHA ㆍ평균과 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n86, 60, 79, 100, 99",
+            "content_text": "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n86, 60, 79 100, 99\n초등 OSHA ㆍ평균과 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n86, 60, 79, 100, 99",
+            "repaired_text": "",
+            "expressions": [
+              "(86+60+79+100+99)/5"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "424/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_016__d23dea03"
+    },
+    {
+      "case_id": "elementary_g05_017",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "fraction_ratio",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/수와 연산/약수와 배수·분수의 계산/elementary_g05_017_easy_word_fraction_ratio.png",
+      "expected_answer": "71",
+      "expected_expression": "52+41-22",
+      "computed_answer": "71",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "52+41-22",
+      "recognized_expressions": [
+        "52+41-22"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.841,
+      "analysis": {
+        "analysis_started_at": 1777116869.1021938,
+        "analysis_finished_at": 1777116869.943229,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| AS SSA ㆍ약수와 Wp Ol AA WE word - fraction_ratio\n민지는 AEAS 52장 가지고 있었습니다.\n41장을 더 받고, 그중 HS 사용했습니다. 남은 스티커는 몇 장\n초등 OSHA ㆍ약수와 배수ㆍ분수의 계산 ㆍ기본 word - fraction_ratio\n민지는 스티커를 52장 가지고 있었습니다.\nMSs 더 받고, 그중 22장을 사용했습니다. 남은 스티커는 몇 ay\n초등 5학년 ㆍ약수와 배수ㆍ분수의 계산 ㆍ기본 word : fraction_ratio\n민지는 스티커를 528 가지고 있었습니다.\n41장을 더 받고, 그중 22장을 사용했습니다. 남은 스티커는 몇 장'",
+            "| AS SSA ㆍ약수와 Wp Ol AA WE word - fraction_ratio\n민지는 AEAS 52장 가지고 있었습니다.\n41장을 더 받고, 그중 HS 사용했습니다. 남은 스티커는 몇 장\n초등 OSHA ㆍ약수와 배수ㆍ분수의 계산 ㆍ기본 word - fraction_ratio\n민지는 스티커를 52장 가지고 있었습니다.\nMSs 더 받고, 그중 22장을 사용했습니다. 남은 스티커는 몇 ay\n초등 5학년 ㆍ약수와 배수ㆍ분수의 계산 ㆍ기본 word : fraction_ratio\n민지는 스티커를 528 가지고 있었습니다.\n41장을 더 받고, 그중 22장을 사용했습니다. 남은 스티커는 몇 장'"
+          ],
+          "normalized_problem_text": "52+41-22",
+          "expressions": [
+            "52+41-22"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "fraction_ratio",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/수와 연산/약수와 배수·분수의 계산/elementary_g05_017_easy_word_fraction_ratio.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| AS SSA ㆍ약수와 Wp Ol AA WE word - fraction_ratio\n민지는 AEAS 52장 가지고 있었습니다.\n41장을 더 받고, 그중 HS 사용했습니다. 남은 스티커는 몇 장",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 OSHA ㆍ약수와 배수ㆍ분수의 계산 ㆍ기본 word - fraction_ratio\n민지는 스티커를 52장 가지고 있었습니다.\nMSs 더 받고, 그중 22장을 사용했습니다. 남은 스티커는 몇 ay",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 5학년 ㆍ약수와 배수ㆍ분수의 계산 ㆍ기본 word : fraction_ratio\n민지는 스티커를 528 가지고 있었습니다.\n41장을 더 받고, 그중 22장을 사용했습니다. 남은 스티커는 몇 장'",
+                    "confidence": 0.52
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| AS SSA ㆍ약수와 Wp Ol AA WE word - fraction_ratio\n민지는 AEAS 52장 가지고 있었습니다.\n41장을 더 받고, 그중 HS 사용했습니다. 남은 스티커는 몇 장",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "87819c0684e4"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "71",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 71야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 71야. 그래서 정답은 71야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| AS SSA ㆍ약수와 Wp Ol AA WE word - fraction_ratio\n민지는 AEAS 52장 가지고 있었습니다.\n41장을 더 받고, 그중 HS 사용했습니다. 남은 스티커는 몇 장\n초등 OSHA ㆍ약수와 배수ㆍ분수의 계산 ㆍ기본 word - fraction_ratio\n민지는 스티커를 52장 가지고 있었습니다.\nMSs 더 받고, 그중 22장을 사용했습니다. 남은 스티커는 몇 ay\n초등 5학년 ㆍ약수와 배수ㆍ분수의 계산 ㆍ기본 word : fraction_ratio\n민지는 스티커를 528 가지고 있었습니다.\n41장을 더 받고, 그중 22장을 사용했습니다. 남은 스티커는 몇 장'",
+            "content_text": "| AS SSA ㆍ약수와 Wp Ol AA WE word - fraction_ratio\n민지는 AEAS 52장 가지고 있었습니다.\n41장을 더 받고, 그중 HS 사용했습니다. 남은 스티커는 몇 장\n초등 OSHA ㆍ약수와 배수ㆍ분수의 계산 ㆍ기본 word - fraction_ratio\n민지는 스티커를 52장 가지고 있었습니다.\nMSs 더 받고, 그중 22장을 사용했습니다. 남은 스티커는 몇 ay\n초등 5학년 ㆍ약수와 배수ㆍ분수의 계산 ㆍ기본 word : fraction_ratio\n민지는 스티커를 528 가지고 있었습니다.\n41장을 더 받고, 그중 22장을 사용했습니다. 남은 스티커는 몇 장'",
+            "repaired_text": "",
+            "expressions": [
+              "52+41-22"
+            ],
+            "choices": [],
+            "math_topic": "fraction_ratio",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "71",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_017__87acd8f3"
+    },
+    {
+      "case_id": "elementary_g05_018",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/도형과 측정/다각형의 둘레와 넓이/elementary_g05_018_easy_table_geometry.png",
+      "expected_answer": "116",
+      "expected_expression": "31+28+12+45",
+      "computed_answer": "116",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 SSS 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "31+28+12+45"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.352,
+      "analysis": {
+        "analysis_started_at": 1777116869.943882,
+        "analysis_finished_at": 1777116871.295896,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 SSA ㆍ다각형의 둘레와 넓이ㆍ기본 table - geometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 31 28 12 45\n“= [ke ei\n： 초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 table - geometry ：\n아래 표의 수량은 모두 몇 개인지 구하시오.\ntable_row_2 31 28 12 45",
+            "초등 SSA ㆍ다각형의 둘레와 넓이ㆍ기본 table - geometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 31 28 12 45\n“= [ke ei\n： 초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 table - geometry ：\n아래 표의 수량은 모두 몇 개인지 구하시오.\ntable_row_2 31 28 12 45"
+          ],
+          "normalized_problem_text": "아래 표의 SSS 모두 몇 개인지 구하시오",
+          "expressions": [
+            "31+28+12+45"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/도형과 측정/다각형의 둘레와 넓이/elementary_g05_018_easy_table_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 SSA ㆍ다각형의 둘레와 넓이ㆍ기본 table - geometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B c D\na 31 28 12 45",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 SSA ㆍ다각형의 둘레와 넓이ㆍ기본 table - geometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\n“= [ke ei",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 SSA ㆍ다각형의 둘레와 넓이ㆍ기본 table - geometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B c D\na 31 28 12 45",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 table - geometry ：\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 fA BC",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 31 28 12 45",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "9eb31cd25374"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "116",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 116야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 도형이나 좌표 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 116야. 그래서 정답은 116야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 SSA ㆍ다각형의 둘레와 넓이ㆍ기본 table - geometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 31 28 12 45\n“= [ke ei\n： 초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 table - geometry ：\n아래 표의 수량은 모두 몇 개인지 구하시오.\ntable_row_2 31 28 12 45",
+            "content_text": "초등 SSA ㆍ다각형의 둘레와 넓이ㆍ기본 table - geometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 31 28 12 45\n“= [ke ei\n： 초등 5학년ㆍ다각형의 둘레와 넓이ㆍ기본 table - geometry ：\n아래 표의 수량은 모두 몇 개인지 구하시오.\ntable_row_2 31 28 12 45",
+            "repaired_text": "",
+            "expressions": [
+              "31+28+12+45"
+            ],
+            "choices": [],
+            "math_topic": "geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "116",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_018__b92be181"
+    },
+    {
+      "case_id": "elementary_g05_019",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "graph",
+      "topic": "function",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/변화와 관계/대응 관계와 비/elementary_g05_019_easy_graph_function.png",
+      "expected_answer": "-8",
+      "expected_expression": "y=2x- 4; x=-2",
+      "computed_answer": "-8",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "function_value_solver",
+      "recognized_problem": "x=-2 때 y의 값을 구하시오",
+      "recognized_expressions": [
+        "y=2x-4",
+        "x=-2",
+        "y=2*-4",
+        "y=2x-",
+        "x=-221"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.654,
+      "analysis": {
+        "analysis_started_at": 1777116871.29652,
+        "analysis_finished_at": 1777116871.950326,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 5학년 ㆍ대응 관계와 비ㆍ기본 graph - functign\n오른쪽 직선의 식은 y= 2“ - 4입니다. ㆍ\nx =-221 때 \\의 값을 구하시오.\n| 초등 OSHA ㆍ대응 관계와 비ㆍ기본 graph - functign |\n오른쪽 직선의 식은 y= 2x-AQLCh ye\nx = -2일 때 \\의 값을 구하시오.",
+            "초등 5학년 ㆍ대응 관계와 비ㆍ기본 graph - functign\n오른쪽 직선의 식은 y= 2“ - 4입니다. ㆍ\nx =-221 때 \\의 값을 구하시오.\n| 초등 OSHA ㆍ대응 관계와 비ㆍ기본 graph - functign |\n오른쪽 직선의 식은 y= 2x-AQLCh ye\nx = -2일 때 \\의 값을 구하시오."
+          ],
+          "normalized_problem_text": "x=-2 때 y의 값을 구하시오",
+          "expressions": [
+            "y=2x-4",
+            "x=-2",
+            "y=2*-4",
+            "y=2x-",
+            "x=-221"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "function",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/변화와 관계/대응 관계와 비/elementary_g05_019_easy_graph_function.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 5학년 ㆍ대응 관계와 비ㆍ기본 graph - functign\n오른쪽 직선의 식은 y= 2“ - 4입니다. ㆍ\nx =-221 때 \\의 값을 구하시오.",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 5학년 ㆍ대응 관계와 비ㆍ기본 graph - functign\n오른쪽 직선의 식은 y= 2“ - 4입니다. ㆍ\nx =-221 때 \\의 값을 구하시오.",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 OSHA ㆍ대응 관계와 비ㆍ기본 graph - functign |\n오른쪽 직선의 식은 y= 2x-AQLCh ye\nx = -2일 때 \\의 값을 구하시오.",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "13b9ef9b9a65"
+          }
+        },
+        "solve_result": {
+          "solver_name": "function_value_solver",
+          "computed_answer": "-8",
+          "steps": [
+            "함수식을 y=2*x-4 형태로 정리했어.",
+            "x=-2을 대입했어.",
+            "y의 값은 -8야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.83,
+          "validation_status": "verified",
+          "explanation": "이건 함수 문제야. 함수식을 y=2*x-4 형태로 정리했어. x=-2을 대입했어. y의 값은 -8야. 그래서 정답은 -8야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 5학년 ㆍ대응 관계와 비ㆍ기본 graph - functign\n오른쪽 직선의 식은 y= 2“ - 4입니다. ㆍ\nx =-221 때 \\의 값을 구하시오.\n| 초등 OSHA ㆍ대응 관계와 비ㆍ기본 graph - functign |\n오른쪽 직선의 식은 y= 2x-AQLCh ye\nx = -2일 때 \\의 값을 구하시오.",
+            "content_text": "초등 5학년 ㆍ대응 관계와 비ㆍ기본 graph - functign\n오른쪽 직선의 식은 y= 2“ - 4입니다. ㆍ\nx =-221 때 \\의 값을 구하시오.\n| 초등 OSHA ㆍ대응 관계와 비ㆍ기본 graph - functign |\n오른쪽 직선의 식은 y= 2x-AQLCh ye\nx = -2일 때 \\의 값을 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "y=2x-4",
+              "x=-2",
+              "y=2*-4",
+              "y=2x-",
+              "x=-221"
+            ],
+            "choices": [],
+            "math_topic": "function",
+            "question_type": "subjective"
+          },
+          "solver_name": "function_value_solver",
+          "computed_answer": "-8",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_019__e7609167"
+    },
+    {
+      "case_id": "elementary_g05_020",
+      "band": "초등",
+      "grade": 5,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/자료와 가능성/평균과 가능성/elementary_g05_020_easy_expression_statistics.png",
+      "expected_answer": "379/5",
+      "expected_expression": "(98+68+76+62+75)/5",
+      "computed_answer": "379/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(98+68+76+62+75)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.454,
+      "analysis": {
+        "analysis_started_at": 1777116871.9509308,
+        "analysis_finished_at": 1777116872.4048982,
+        "structured_problem": {
+          "source_text_candidates": [
+            "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n98, 68, 76, 62, 75\n초등 OSHA ㆍ평균과 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.",
+            "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n98, 68, 76, 62, 75\n초등 OSHA ㆍ평균과 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오."
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(98+68+76+62+75)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/5학년/자료와 가능성/평균과 가능성/elementary_g05_020_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n98, 68, 76, 62, 75",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 OSHA ㆍ평균과 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n98, 68, 76, 62, 75",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n98, 68, 76, 62, 75",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "14bd95369dfc"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "379/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 379/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 379/5야. 그래서 정답은 379/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n98, 68, 76, 62, 75\n초등 OSHA ㆍ평균과 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.",
+            "content_text": "개 초등 5한년 ㆍ평균과 가능성 ㆍ기본 expression - statistics\n다음 자료의 SAS 구하시오.\n98, 68, 76, 62, 75\n초등 OSHA ㆍ평균과 가능성ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "(98+68+76+62+75)/5"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "379/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g05_020__785e4384"
+    }
+  ]
+}

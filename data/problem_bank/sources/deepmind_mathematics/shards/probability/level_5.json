@@ -1,0 +1,1742 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_level_set_more_samples:02008",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2008,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_level_set_more_samples_02008"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Five letters picked without replacement from djnnjjjmjnmjdj. Give prob of picking 2 n, 1 d and 2 m.",
+      "problem_plain": "Five letters picked without replacement from djnnjjjmjnmjdj. Give prob of picking 2 n, 1 d and 2 m.",
+      "solution_latex": "3/1001",
+      "solution_plain": "3/1001"
+    },
+    "answer": {
+      "final_raw": "3/1001",
+      "final_normalized": "3/1001",
+      "candidates": [
+        "3/1001"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_level_set_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Five letters picked without replacement from djnnjjjmjnmjdj. Give prob of picking 2 n, 1 d and 2 m.",
+      "solution_text": "3/1001",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_level_set_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_level_set_more_samples:02009",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2009,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_level_set_more_samples_02009"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate prob of picking 5 c when five letters picked without replacement from {h: 3, c: 6}.",
+      "problem_plain": "Calculate prob of picking 5 c when five letters picked without replacement from {h: 3, c: 6}.",
+      "solution_latex": "1/21",
+      "solution_plain": "1/21"
+    },
+    "answer": {
+      "final_raw": "1/21",
+      "final_normalized": "1/21",
+      "candidates": [
+        "1/21"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_level_set_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate prob of picking 5 c when five letters picked without replacement from {h: 3, c: 6}.",
+      "solution_text": "1/21",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_level_set_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_level_set_more_samples:02010",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2010,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_level_set_more_samples_02010"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Five letters picked without replacement from jbprppbbpbppp. What is prob of picking 2 p and 3 j?",
+      "problem_plain": "Five letters picked without replacement from jbprppbbpbppp. What is prob of picking 2 p and 3 j?",
+      "solution_latex": "0",
+      "solution_plain": "0"
+    },
+    "answer": {
+      "final_raw": "0",
+      "final_normalized": "0",
+      "candidates": [
+        "0"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_level_set_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Five letters picked without replacement from jbprppbbpbppp. What is prob of picking 2 p and 3 j?",
+      "solution_text": "0",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_level_set_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_level_set_more_samples:02011",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2011,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_level_set_more_samples_02011"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Five letters picked without replacement from kkkkckk. What is prob of picking 1 c and 4 k?",
+      "problem_plain": "Five letters picked without replacement from kkkkckk. What is prob of picking 1 c and 4 k?",
+      "solution_latex": "5/7",
+      "solution_plain": "5/7"
+    },
+    "answer": {
+      "final_raw": "5/7",
+      "final_normalized": "5/7",
+      "candidates": [
+        "5/7"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_level_set_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Five letters picked without replacement from kkkkckk. What is prob of picking 1 c and 4 k?",
+      "solution_text": "5/7",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_level_set_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_level_set_more_samples:02012",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2012,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_level_set_more_samples_02012"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Five letters picked without replacement from bnnbbbmb. Give prob of picking 5 b.",
+      "problem_plain": "Five letters picked without replacement from bnnbbbmb. Give prob of picking 5 b.",
+      "solution_latex": "1/56",
+      "solution_plain": "1/56"
+    },
+    "answer": {
+      "final_raw": "1/56",
+      "final_normalized": "1/56",
+      "candidates": [
+        "1/56"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_level_set_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Five letters picked without replacement from bnnbbbmb. Give prob of picking 5 b.",
+      "solution_text": "1/56",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_level_set_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_level_set_more_samples:02013",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2013,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_level_set_more_samples_02013"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Five letters picked without replacement from {w: 2, x: 7, s: 4}. Give prob of picking 1 w, 1 x and 3 s.",
+      "problem_plain": "Five letters picked without replacement from {w: 2, x: 7, s: 4}. Give prob of picking 1 w, 1 x and 3 s.",
+      "solution_latex": "56/1287",
+      "solution_plain": "56/1287"
+    },
+    "answer": {
+      "final_raw": "56/1287",
+      "final_normalized": "56/1287",
+      "candidates": [
+        "56/1287"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_level_set_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Five letters picked without replacement from {w: 2, x: 7, s: 4}. Give prob of picking 1 w, 1 x and 3 s.",
+      "solution_text": "56/1287",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_level_set_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_level_set_more_samples:02014",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2014,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_level_set_more_samples_02014"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate prob of picking 2 r and 3 j when five letters picked without replacement from {i: 3, j: 7, r: 3}.",
+      "problem_plain": "Calculate prob of picking 2 r and 3 j when five letters picked without replacement from {i: 3, j: 7, r: 3}.",
+      "solution_latex": "35/429",
+      "solution_plain": "35/429"
+    },
+    "answer": {
+      "final_raw": "35/429",
+      "final_normalized": "35/429",
+      "candidates": [
+        "35/429"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_level_set_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate prob of picking 2 r and 3 j when five letters picked without replacement from {i: 3, j: 7, r: 3}.",
+      "solution_text": "35/429",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_level_set_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_level_set_more_samples:02015",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2015,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_level_set_more_samples_02015"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate prob of picking 1 n and 4 j when five letters picked without replacement from jjjjjn.",
+      "problem_plain": "Calculate prob of picking 1 n and 4 j when five letters picked without replacement from jjjjjn.",
+      "solution_latex": "5/6",
+      "solution_plain": "5/6"
+    },
+    "answer": {
+      "final_raw": "5/6",
+      "final_normalized": "5/6",
+      "candidates": [
+        "5/6"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_level_set_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate prob of picking 1 n and 4 j when five letters picked without replacement from jjjjjn.",
+      "solution_text": "5/6",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_level_set_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_level_set_more_samples:02016",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2016,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_level_set_more_samples_02016"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is prob of picking 4 g and 1 h when five letters picked without replacement from {s: 3, h: 1, w: 5, g: 9}?",
+      "problem_plain": "What is prob of picking 4 g and 1 h when five letters picked without replacement from {s: 3, h: 1, w: 5, g: 9}?",
+      "solution_latex": "1/68",
+      "solution_plain": "1/68"
+    },
+    "answer": {
+      "final_raw": "1/68",
+      "final_normalized": "1/68",
+      "candidates": [
+        "1/68"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_level_set_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is prob of picking 4 g and 1 h when five letters picked without replacement from {s: 3, h: 1, w: 5, g: 9}?",
+      "solution_text": "1/68",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_level_set_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_level_set_more_samples:02017",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2017,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_level_set_more_samples_02017"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate prob of picking 2 w and 3 c when five letters picked without replacement from cwccccccccccwcccccc.",
+      "problem_plain": "Calculate prob of picking 2 w and 3 c when five letters picked without replacement from cwccccccccccwcccccc.",
+      "solution_latex": "10/171",
+      "solution_plain": "10/171"
+    },
+    "answer": {
+      "final_raw": "10/171",
+      "final_normalized": "10/171",
+      "candidates": [
+        "10/171"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_level_set_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate prob of picking 2 w and 3 c when five letters picked without replacement from cwccccccccccwcccccc.",
+      "solution_text": "10/171",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_level_set_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_level_set_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_sequence_more_samples:02018",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2018,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_sequence_more_samples_02018"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Five letters picked without replacement from peexeeeeepepeeeep. Give prob of sequence ppeep.",
+      "problem_plain": "Five letters picked without replacement from peexeeeeepepeeeep. Give prob of sequence ppeep.",
+      "solution_latex": "33/7735",
+      "solution_plain": "33/7735"
+    },
+    "answer": {
+      "final_raw": "33/7735",
+      "final_normalized": "33/7735",
+      "candidates": [
+        "33/7735"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_sequence_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Five letters picked without replacement from peexeeeeepepeeeep. Give prob of sequence ppeep.",
+      "solution_text": "33/7735",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_sequence_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_sequence_more_samples:02019",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2019,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_sequence_more_samples_02019"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate prob of sequence jqjjo when five letters picked without replacement from {o: 7, i: 4, j: 6, q: 3}.",
+      "problem_plain": "Calculate prob of sequence jqjjo when five letters picked without replacement from {o: 7, i: 4, j: 6, q: 3}.",
+      "solution_latex": "7/5168",
+      "solution_plain": "7/5168"
+    },
+    "answer": {
+      "final_raw": "7/5168",
+      "final_normalized": "7/5168",
+      "candidates": [
+        "7/5168"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_sequence_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate prob of sequence jqjjo when five letters picked without replacement from {o: 7, i: 4, j: 6, q: 3}.",
+      "solution_text": "7/5168",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_sequence_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_sequence_more_samples:02020",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2020,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_sequence_more_samples_02020"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Five letters picked without replacement from {x: 10, a: 2, f: 4}. Give prob of sequence xfxaf.",
+      "problem_plain": "Five letters picked without replacement from {x: 10, a: 2, f: 4}. Give prob of sequence xfxaf.",
+      "solution_latex": "3/728",
+      "solution_plain": "3/728"
+    },
+    "answer": {
+      "final_raw": "3/728",
+      "final_normalized": "3/728",
+      "candidates": [
+        "3/728"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_sequence_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Five letters picked without replacement from {x: 10, a: 2, f: 4}. Give prob of sequence xfxaf.",
+      "solution_text": "3/728",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_sequence_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_sequence_more_samples:02021",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2021,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_sequence_more_samples_02021"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate prob of sequence etbzt when five letters picked without replacement from eeteqtztqqnqb.",
+      "problem_plain": "Calculate prob of sequence etbzt when five letters picked without replacement from eeteqtztqqnqb.",
+      "solution_latex": "1/8580",
+      "solution_plain": "1/8580"
+    },
+    "answer": {
+      "final_raw": "1/8580",
+      "final_normalized": "1/8580",
+      "candidates": [
+        "1/8580"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_sequence_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate prob of sequence etbzt when five letters picked without replacement from eeteqtztqqnqb.",
+      "solution_text": "1/8580",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_sequence_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_sequence_more_samples:02022",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2022,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_sequence_more_samples_02022"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is prob of sequence ttddm when five letters picked without replacement from lltndlllnnlmdlllmtlm?",
+      "problem_plain": "What is prob of sequence ttddm when five letters picked without replacement from lltndlllnnlmdlllmtlm?",
+      "solution_latex": "1/155040",
+      "solution_plain": "1/155040"
+    },
+    "answer": {
+      "final_raw": "1/155040",
+      "final_normalized": "1/155040",
+      "candidates": [
+        "1/155040"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_sequence_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is prob of sequence ttddm when five letters picked without replacement from lltndlllnnlmdlllmtlm?",
+      "solution_text": "1/155040",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_sequence_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_sequence_more_samples:02023",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2023,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_sequence_more_samples_02023"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is prob of sequence nmnmn when five letters picked without replacement from nnmnnnnnmn?",
+      "problem_plain": "What is prob of sequence nmnmn when five letters picked without replacement from nnmnnnnnmn?",
+      "solution_latex": "1/45",
+      "solution_plain": "1/45"
+    },
+    "answer": {
+      "final_raw": "1/45",
+      "final_normalized": "1/45",
+      "candidates": [
+        "1/45"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_sequence_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is prob of sequence nmnmn when five letters picked without replacement from nnmnnnnnmn?",
+      "solution_text": "1/45",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_sequence_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_sequence_more_samples:02024",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2024,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_sequence_more_samples_02024"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Five letters picked without replacement from tjjjtjjtjjjjjjjtjjjj. Give prob of sequence tjjtj.",
+      "problem_plain": "Five letters picked without replacement from tjjjtjjtjjjjjjjtjjjj. Give prob of sequence tjjtj.",
+      "solution_latex": "7/323",
+      "solution_plain": "7/323"
+    },
+    "answer": {
+      "final_raw": "7/323",
+      "final_normalized": "7/323",
+      "candidates": [
+        "7/323"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_sequence_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Five letters picked without replacement from tjjjtjjtjjjjjjjtjjjj. Give prob of sequence tjjtj.",
+      "solution_text": "7/323",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_sequence_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_sequence_more_samples:02025",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2025,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_sequence_more_samples_02025"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is prob of sequence jjjjj when five letters picked without replacement from {j: 7}?",
+      "problem_plain": "What is prob of sequence jjjjj when five letters picked without replacement from {j: 7}?",
+      "solution_latex": "1",
+      "solution_plain": "1"
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_sequence_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is prob of sequence jjjjj when five letters picked without replacement from {j: 7}?",
+      "solution_text": "1",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_sequence_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_sequence_more_samples:02026",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2026,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_sequence_more_samples_02026"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is prob of sequence lpzzz when five letters picked without replacement from lzllllplllnllzllnlz?",
+      "problem_plain": "What is prob of sequence lpzzz when five letters picked without replacement from lzllllplllnllzllnlz?",
+      "solution_latex": "13/232560",
+      "solution_plain": "13/232560"
+    },
+    "answer": {
+      "final_raw": "13/232560",
+      "final_normalized": "13/232560",
+      "candidates": [
+        "13/232560"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_sequence_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is prob of sequence lpzzz when five letters picked without replacement from lzllllplllnllzllnlz?",
+      "solution_text": "13/232560",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_sequence_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "deepmind_mathematics:extrapolate:probability_swr_p_sequence_more_samples:02027",
+    "source": {
+      "name": "DeepMind Mathematics Dataset",
+      "dataset_id": "google-deepmind/mathematics_dataset",
+      "source_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "license": "Apache-2.0",
+      "original_index": 2027,
+      "split": "extrapolate",
+      "source_problem_id": "extrapolate_probability_swr_p_sequence_more_samples_02027"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Calculate prob of sequence mmmmm when five letters picked without replacement from mmmmmmmm.",
+      "problem_plain": "Calculate prob of sequence mmmmm when five letters picked without replacement from mmmmmmmm.",
+      "solution_latex": "1",
+      "solution_plain": "1"
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1"
+      ],
+      "extraction_method": "generator_answer",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "probability",
+      "subject": "Probability",
+      "subject_slug": "probability",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "middle_high",
+      "concepts": [
+        "probability_swr_p_sequence_more_samples"
+      ],
+      "tags": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "structure": {
+      "format": "generated_question_answer_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": false,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Calculate prob of sequence mmmmm when five letters picked without replacement from mmmmmmmm.",
+      "solution_text": "1",
+      "keywords": [
+        "deepmind_mathematics",
+        "extrapolate",
+        "level_5",
+        "probability",
+        "probability_swr_p_sequence_more_samples"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T05:38:24+00:00",
+      "updated_at": "2026-04-25T05:38:24+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "deepmind_mathematics": {
+        "regime": "extrapolate",
+        "module_name": "probability__swr_p_sequence_more_samples",
+        "generator_version": "mathematics_dataset==1.0.1"
+      }
+    }
+  }
+]

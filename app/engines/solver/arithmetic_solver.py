@@ -2,20 +2,31 @@ from __future__ import annotations
 
 import re
 
-try:
-    import sympy as sp
-except Exception:  # pragma: no cover
-    sp = None
-
 from app.models.problem_schema import ProblemSchema
 
 
+def _looks_like_calculation(candidate: str) -> bool:
+    compact = str(candidate or "").strip()
+    if not compact:
+        return False
+    if re.fullmatch(r"[-+]?\d+(?:\.\d+)?", compact):
+        return False
+    return bool(re.search(r"(?:\d|\))\s*[+\-*/]\s*(?:\d|\()", compact))
+
+
 def solve(problem: ProblemSchema) -> dict:
+    try:
+        import sympy as sp
+    except Exception:  # pragma: no cover
+        sp = None
     if sp is None:
+        return {"computed_answer": "", "steps": [], "confidence": 0.0}
+    has_expression_candidates = bool(problem.expressions)
+    if not has_expression_candidates and not re.search(r"\d\s*[+\-*/^]\s*\d", problem.normalized_problem_text or ""):
         return {"computed_answer": "", "steps": [], "confidence": 0.0}
     text = " ".join(problem.expressions or [problem.normalized_problem_text])
     text = text.replace(" ", "").replace("^", "**")
-    candidates = re.findall(r"[\d()+\-*/*.]+", text)
+    candidates = [candidate for candidate in re.findall(r"[\d()+\-*/*.]+", text) if _looks_like_calculation(candidate)]
     expression = max(candidates, key=len) if candidates else ""
     if not expression:
         return {"computed_answer": "", "steps": [], "confidence": 0.0}

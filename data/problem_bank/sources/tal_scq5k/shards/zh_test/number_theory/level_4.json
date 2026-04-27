@@ -1,0 +1,1587 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_4:00051",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 51,
+      "split": "zh_test",
+      "source_problem_id": "aef6d8010e2149ba972ba8b3d243939f"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "将 $$1，$$2$$，$$3$$，$$ \\ldots\\ldots 依次写下去组成一个数$$12345678910111213$$ ···．如果写到某个自然数时，所组成的数恰好第一次能被 $$225$$ 整除，那么这个组成的数的各位数字之和是~\\uline{~~~~~~~~~~}~．\n(A) 1053\n(B) 1054\n(C) 1055\n(D) 1056\n(E) 1057",
+      "problem_plain": "将 1， 2 ， 3 ， 依次写下去组成一个数 12345678910111213 ···．如果写到某个自然数时，所组成的数恰好第一次能被 225 整除，那么这个组成的数的各位数字之和是~ ~~~~~~~~~~ ~． (A) 1053 (B) 1054 (C) 1055 (D) 1056 (E) 1057",
+      "solution_latex": "$$225=9\\times 25$$  这个数能被 $$225$$ 整除，所以这个数能被 $$9$$ 和 $$25$$ 整除  这个数能被 $$9$$ 整除，则这个数的末两位能被 $$25$$ 整除，然后开始枚举，  ①写到 $$25$$ 时，利用乱切法，$$\\left( 1+25 \\right)\\times 25\\div 2=13\\times 25$$不能被 $$9$$ 整除，不符合．  ②写到 $$50$$ 时，利用乱切法，$$\\left( 1+50 \\right)\\times 50\\div 2=51\\times 25$$不能被 $$9$$ 整除，不符合．  ③写到 $$75$$ 时，利用乱切法，$$\\left( 1+75 \\right)\\times 75\\div 2=38\\times 25$$ 不能被 $$9$$ 整除，不符合．  ④写到 $$100$$ 时，利用乱切法，$$\\left( 1+100 \\right)\\times 100\\div 2=101\\times 50$$ 不能被 $$9$$ 整除，不符合．  ⑤写到 $$125$$ 时，利用乱切法，$$\\left( 1+125 \\right)\\times 125\\div 2=63\\times 125$$能被 $$9$$ 整除，符合．  所以写到 $$125$$ 时，所组成的数能被 $$225$$ 整除．  $$1\\sim 99$$ ：变成$$0\\sim 99$$ ，则数码和为$$\\left( 9+9 \\right)\\times 50=900$$ ．  $$100\\sim 125$$ ：  $$1\\times 26+1\\times 10+2\\times 6+\\left( 1+2+\\cdots \\cdots +9 \\right)\\times 2+1+2+3+4+5$$  $$=26+10+12+5\\times 9\\times 2+3\\times 5$$  $$=26+10+12+90+15$$  $$=153$$  所以$$900+153=1053$$ ．  这个组成的数的各位数字之和是 $$1053$$ ．",
+      "solution_plain": "225=9 25 这个数能被 225 整除，所以这个数能被 9 和 25 整除 这个数能被 9 整除，则这个数的末两位能被 25 整除，然后开始枚举， ①写到 25 时，利用乱切法， ( 1+25 ) 25 2=13 25 不能被 9 整除，不符合． ②写到 50 时，利用乱切法， ( 1+50 ) 50 2=51 25 不能被 9 整除，不符合． ③写到 75 时，利用乱切法， ( 1+75 ) 75 2=38 25 不能被 9 整除，不符合． ④写到 100 时，利用乱切法， ( 1+100 ) 100 2=101 50 不能被 9 整除，不符合． ⑤写到 125 时，利用乱切法， ( 1+125 ) 125 2=63 125 能被 9 整除，符合． 所以写到 125 时，所组成的数能被 225 整除． 1 99 ：变成 0 99 ，则数码和为 ( 9+9 ) 50=900 ． 100 125 ： 1 26+1 10+2 6+ ( 1+2+ +9 ) 2+1+2+3+4+5 =26+10+12+5 9 2+3 5 =26+10+12+90+15 =153 所以 900+153=1053 ． 这个组成的数的各位数字之和是 1053 ．"
+    },
+    "answer": {
+      "final_raw": "1053",
+      "final_normalized": "1053",
+      "candidates": [
+        "1053",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$225=9\\times 25$$  这个数能被 $$225$$ 整除，所以这个数能被 $$9$$ 和 $$25$$ 整除  这个数能被 $$9$$ 整除，则这个数的末两位能被 $$25$$ 整除，然后开始枚举，  ①写到 $$25$$ 时，利用乱切法，$$\\left( 1+25 \\right)\\times 25\\div 2=13\\times 25$$不能被 $$9$$ 整除，不符合．  ②写到 $$50$$ 时，利用乱切法，$$\\left( 1+50 \\right)\\times 50\\div 2=51\\times 25$$不能被 $$9$$ 整除，不符合．  ③写到 $$75$$ 时，利用乱切法，$$\\left( 1+75 \\right)\\times 75\\div 2=38\\times 25$$ 不能被 $$9$$ 整除，不符合．  ④写到 $$100$$ 时，利用乱切法，$$\\left( 1+100 \\right)\\times 100\\div 2=101\\times 50$$ 不能被 $$9$$ 整除，不符合．  ⑤写到 $$125$$ 时，利用乱切法，$$\\left( 1+125 \\right)\\times 125\\div 2=63\\times 125$$能被 $$9$$ 整除，符合．  所以写到 $$125$$ 时，所组成的数能被 $$225$$ 整除．  $$1\\sim 99$$ ：变成$$0\\sim 99$$ ，则数码和为$$\\left( 9+9 \\right)\\times 50=900$$ ．  $$100\\sim 125$$ ：  $$1\\times 26+1\\times 10+2\\times 6+\\left( 1+2+\\cdots \\cdots +9 \\right)\\times 2+1+2+3+4+5$$  $$=26+10+12+5\\times 9\\times 2+3\\times 5$$  $$=26+10+12+90+15$$  $$=153$$  所以$$900+153=1053$$ ．  这个组成的数的各位数字之和是 $$1053$$ ．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "将 1， 2 ， 3 ， 依次写下去组成一个数 12345678910111213 ···．如果写到某个自然数时，所组成的数恰好第一次能被 225 整除，那么这个组成的数的各位数字之和是~ ~~~~~~~~~~ ~． (A) 1053 (B) 1054 (C) 1055 (D) 1056 (E) 1057",
+      "solution_text": "225=9 25 这个数能被 225 整除，所以这个数能被 9 和 25 整除 这个数能被 9 整除，则这个数的末两位能被 25 整除，然后开始枚举， ①写到 25 时，利用乱切法， ( 1+25 ) 25 2=13 25 不能被 9 整除，不符合． ②写到 50 时，利用乱切法， ( 1+50 ) 50 2=51 25 不能被 9 整除，不符合． ③写到 75 时，利用乱切法， ( 1+75 ) 75 2=38 25 不能被 9 整除，不符合． ④写到 100 时，利用乱切法， ( 1+100 ) 100 2=101 50 不能被 9 整除，不符合． ⑤写到 125 时，利用乱切法， ( 1+125 ) 125 2=63 125 能被 9 整除，符合． 所以写到 125 时，所组成的数能被 225 整除． 1 99 ：变成 0 99 ，则数码和为 ( 9+9 ) 50=900 ． 100 125 ： 1 26+1 10+2 6+ ( 1+2+ +9 ) 2+1+2+3+4+5 =26+10+12+5 9 2+3 5 =26+10+12+90+15 =153 所以 900+153=1053 ． 这个组成的数的各位数字之和是 1053 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3429",
+        "queId": "aef6d8010e2149ba972ba8b3d243939f",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1053"
+          },
+          {
+            "label": "B",
+            "content": "1054"
+          },
+          {
+            "label": "C",
+            "content": "1055"
+          },
+          {
+            "label": "D",
+            "content": "1056"
+          },
+          {
+            "label": "E",
+            "content": "1057"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->知识点->计数模块",
+          "拓展思维->能力->数据处理"
+        ],
+        "competition_source_list": [
+          "2017年全国亚太杯四年级竞赛初赛第28题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_4:00327",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 327,
+      "split": "zh_test",
+      "source_problem_id": "c9a9ba6106854825b2c85b382851eecd"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$$98$$个互不相同的质数$$p_{1}^{2}$$，$$p_{2}^{2}$$，$$p_{3}^{2}$$，$$\\cdots$$，$$p_{98}^{2}$$，记$$N=p_{1}^{2}+p_{2}^{2}+\\cdots +p_{98}^{2}$$，问：$$N$$被$$3$$除的余数是多少？\n(A) 0\n(B) 1\n(C) 2\n(D) 1或2",
+      "problem_plain": "已知 98 个互不相同的质数 p_ 1 ^ 2 ， p_ 2 ^ 2 ， p_ 3 ^ 2 ， ， p_ 98 ^ 2 ，记 N=p_ 1 ^ 2 +p_ 2 ^ 2 + +p_ 98 ^ 2 ，问： N 被 3 除的余数是多少？ (A) 0 (B) 1 (C) 2 (D) 1或2",
+      "solution_latex": "（1）如果这些质数中不含质数$$3$$，那么这些数平方被$$3$$除的余数就是$$1$$，所以$$N$$被$$3$$除的余数就是$$98$$被$$3$$除的余数，是$$2$$；  （2）如果有$$3$$，那么这些数的平方除以$$3$$余数是$$1$$，所以$$N$$被$$3$$除的余数就是剩下$$97$$个数除以$$3$$的余数，是$$1$$．  根据余数的可乘性：  若一个数除以$$3$$余$$0$$，则其平方除以$$3$$也余$$0$$；  若一个数除以$$3$$余$$1$$，则其平方除以$$3$$也余$$1$$；  若一个数除以$$3$$余$$2$$，则其平方除以$$3$$余$$1$$；  即一个平方数除以$$3$$的余数只可能是$$0$$或$$1$$．  若则$$98$$个质数中不含质数$$3$$，则每个质数都不是$$3$$的倍数，那么每个质数的平方除以$$3$$均余$$1$$，根据余数的可加性，$$98$$除以$$3$$余$$2$$，则$$N$$除以$$3$$余$$2$$；若这$$98$$个质数中含有$$3$$，则$$97$$除以$$3$$余$$1$$，$$N$$除以$$3$$也余$$1$$．  综上，$$N$$被$$3$$除的余数可能是$$1$$或$$2$$．",
+      "solution_plain": "（1）如果这些质数中不含质数 3 ，那么这些数平方被 3 除的余数就是 1 ，所以 N 被 3 除的余数就是 98 被 3 除的余数，是 2 ； （2）如果有 3 ，那么这些数的平方除以 3 余数是 1 ，所以 N 被 3 除的余数就是剩下 97 个数除以 3 的余数，是 1 ． 根据余数的可乘性： 若一个数除以 3 余 0 ，则其平方除以 3 也余 0 ； 若一个数除以 3 余 1 ，则其平方除以 3 也余 1 ； 若一个数除以 3 余 2 ，则其平方除以 3 余 1 ； 即一个平方数除以 3 的余数只可能是 0 或 1 ． 若则 98 个质数中不含质数 3 ，则每个质数都不是 3 的倍数，那么每个质数的平方除以 3 均余 1 ，根据余数的可加性， 98 除以 3 余 2 ，则 N 除以 3 余 2 ；若这 98 个质数中含有 3 ，则 97 除以 3 余 1 ， N 除以 3 也余 1 ． 综上， N 被 3 除的余数可能是 1 或 2 ．"
+    },
+    "answer": {
+      "final_raw": "1或2",
+      "final_normalized": "1或2",
+      "candidates": [
+        "1或2",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "（1）如果这些质数中不含质数$$3$$，那么这些数平方被$$3$$除的余数就是$$1$$，所以$$N$$被$$3$$除的余数就是$$98$$被$$3$$除的余数，是$$2$$；  （2）如果有$$3$$，那么这些数的平方除以$$3$$余数是$$1$$，所以$$N$$被$$3$$除的余数就是剩下$$97$$个数除以$$3$$的余数，是$$1$$．  根据余数的可乘性：  若一个数除以$$3$$余$$0$$，则其平方除以$$3$$也余$$0$$；  若一个数除以$$3$$余$$1$$，则其平方除以$$3$$也余$$1$$；  若一个数除以$$3$$余$$2$$，则其平方除以$$3$$余$$1$$；  即一个平方数除以$$3$$的余数只可能是$$0$$或$$1$$．  若则$$98$$个质数中不含质数$$3$$，则每个质数都不是$$3$$的倍数，那么每个质数的平方除以$$3$$均余$$1$$，根据余数的可加性，$$98$$除以$$3$$余$$2$$，则$$N$$除以$$3$$余$$2$$；若这$$98$$个质数中含有$$3$$，则$$97$$除以$$3$$余$$1$$，$$N$$除以$$3$$也余$$1$$．  综上，$$N$$被$$3$$除的余数可能是$$1$$或$$2$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 98 个互不相同的质数 p_ 1 ^ 2 ， p_ 2 ^ 2 ， p_ 3 ^ 2 ， ， p_ 98 ^ 2 ，记 N=p_ 1 ^ 2 +p_ 2 ^ 2 + +p_ 98 ^ 2 ，问： N 被 3 除的余数是多少？ (A) 0 (B) 1 (C) 2 (D) 1或2",
+      "solution_text": "（1）如果这些质数中不含质数 3 ，那么这些数平方被 3 除的余数就是 1 ，所以 N 被 3 除的余数就是 98 被 3 除的余数，是 2 ； （2）如果有 3 ，那么这些数的平方除以 3 余数是 1 ，所以 N 被 3 除的余数就是剩下 97 个数除以 3 的余数，是 1 ． 根据余数的可乘性： 若一个数除以 3 余 0 ，则其平方除以 3 也余 0 ； 若一个数除以 3 余 1 ，则其平方除以 3 也余 1 ； 若一个数除以 3 余 2 ，则其平方除以 3 余 1 ； 即一个平方数除以 3 的余数只可能是 0 或 1 ． 若则 98 个质数中不含质数 3 ，则每个质数都不是 3 的倍数，那么每个质数的平方除以 3 均余 1 ，根据余数的可加性， 98 除以 3 余 2 ，则 N 除以 3 余 2 ；若这 98 个质数中含有 3 ，则 97 除以 3 余 1 ， N 除以 3 也余 1 ． 综上， N 被 3 除的余数可能是 1 或 2 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "913",
+        "queId": "c9a9ba6106854825b2c85b382851eecd",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "1或2"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->拓展思维->数论模块->余数问题->余数的性质->余数的可乘性"
+        ],
+        "competition_source_list": [
+          "2012年全国华杯赛小学高年级竞赛复赛A卷第12题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_4:00485",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 485,
+      "split": "zh_test",
+      "source_problem_id": "59715768e4534b2b962e792c824f0b0b"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "某地水费的收费标准为：如果每月用水量不超过$$15$$吨，那么按每吨$$2.5$$元收费；如果超过$$15$$吨，那么超过部分每吨再多收$$0.5$$元，如果某个月李老师家比洪老师家多交了$$10.5$$元的水费，且两家的用水量均为整数吨，那么李老师家这个月的用水量为~\\uline{~~~~~~~~~~}~吨．\n(A) 15\n(B) 16\n(C) 17\n(D) 18",
+      "problem_plain": "某地水费的收费标准为：如果每月用水量不超过 15 吨，那么按每吨 2.5 元收费；如果超过 15 吨，那么超过部分每吨再多收 0.5 元，如果某个月李老师家比洪老师家多交了 10.5 元的水费，且两家的用水量均为整数吨，那么李老师家这个月的用水量为~ ~~~~~~~~~~ ~吨． (A) 15 (B) 16 (C) 17 (D) 18",
+      "solution_latex": "设李老师家用水$$x$$吨，洪老师家用水$$y$$吨，由$$10.5\\div 2.5=4.2$$，$$10.5\\div 3=3.5$$可以知道$$x$$，$$y$$必有$$x\\textgreater15$$，$$y\\textless{}15$$，那么$$15\\times 2.5+\\left( x-15 \\right)\\times 3-y\\times 2.5=10.5$$，$$6x-5y=36$$．$$x=16$$，$$y=12$$．",
+      "solution_plain": "设李老师家用水 x 吨，洪老师家用水 y 吨，由 10.5 2.5=4.2 ， 10.5 3=3.5 可以知道 x ， y 必有 x 15 ， y 15 ，那么 15 2.5+ ( x-15 ) 3-y 2.5=10.5 ， 6x-5y=36 ． x=16 ， y=12 ．"
+    },
+    "answer": {
+      "final_raw": "16",
+      "final_normalized": "16",
+      "candidates": [
+        "16",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设李老师家用水$$x$$吨，洪老师家用水$$y$$吨，由$$10.5\\div 2.5=4.2$$，$$10.5\\div 3=3.5$$可以知道$$x$$，$$y$$必有$$x\\textgreater15$$，$$y\\textless{}15$$，那么$$15\\times 2.5+\\left( x-15 \\right)\\times 3-y\\times 2.5=10.5$$，$$6x-5y=36$$．$$x=16$$，$$y=12$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "某地水费的收费标准为：如果每月用水量不超过 15 吨，那么按每吨 2.5 元收费；如果超过 15 吨，那么超过部分每吨再多收 0.5 元，如果某个月李老师家比洪老师家多交了 10.5 元的水费，且两家的用水量均为整数吨，那么李老师家这个月的用水量为~ ~~~~~~~~~~ ~吨． (A) 15 (B) 16 (C) 17 (D) 18",
+      "solution_text": "设李老师家用水 x 吨，洪老师家用水 y 吨，由 10.5 2.5=4.2 ， 10.5 3=3.5 可以知道 x ， y 必有 x 15 ， y 15 ，那么 15 2.5+ ( x-15 ) 3-y 2.5=10.5 ， 6x-5y=36 ． x=16 ， y=12 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1296",
+        "queId": "59715768e4534b2b962e792c824f0b0b",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "15"
+          },
+          {
+            "label": "B",
+            "content": "16"
+          },
+          {
+            "label": "C",
+            "content": "17"
+          },
+          {
+            "label": "D",
+            "content": "18"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->对应思想"
+        ],
+        "competition_source_list": [
+          "2015年第11届全国新希望杯小学高年级六年级竞赛复赛第11题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_4:00603",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 603,
+      "split": "zh_test",
+      "source_problem_id": "ff80808147248448014724de1a560131"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知正整数$$A$$分解质因数可以写成$$A={{2}^{\\alpha }}\\times {{3}^{\\beta }}\\times {{5}^{\\gamma }}$$，其中$$\\alpha $$、$$\\beta $$、$$\\gamma $$是自然数．如果$$A$$的二分之一是完全平方数，$$A$$的三分之一是完全立方数，$$A$$的五分之一是某个自然数的五次方，那么$$\\alpha +\\beta +\\gamma $$的最小值是（~ ~ ~ ~）．\n(A) 10\n(B) 17\n(C) 23\n(D) 31",
+      "problem_plain": "已知正整数 A 分解质因数可以写成 A= 2 ^ 3 ^ 5 ^ ，其中 、 、 是自然数．如果 A 的二分之一是完全平方数， A 的三分之一是完全立方数， A 的五分之一是某个自然数的五次方，那么 + + 的最小值是（~ ~ ~ ~）． (A) 10 (B) 17 (C) 23 (D) 31",
+      "solution_latex": "根据``$$A$$的二分之一是完全平方数''可以知道，$$\\alpha -1$$、$$\\beta $$、$$\\gamma $$都是$$2$$的倍数．  根据``$$A$$的三分之一是完全立方数''可以知道，$$\\alpha $$、$$\\beta -1$$、$$\\gamma $$都是$$3$$的倍数．  根据``$$A$$的五分之一是某个自然数的五次方''可以知道，$$\\alpha $$、$$\\beta $$、$$\\gamma -1$$都是$$5$$的倍数．  同时满足三个条件的$$\\alpha $$的最小值恰好是$$\\left[ 3,5 \\right]=15$$；$$\\beta $$的最小值恰好是$$\\left[2,5 \\right]=10$$；$$\\gamma $$的最小值恰好是$$\\left[ 2,3 \\right]=6$$．  所以，$$\\alpha +\\beta +\\gamma $$的最小值是$$15+10+6=31$$．",
+      "solution_plain": "根据`` A 的二分之一是完全平方数''可以知道， -1 、 、 都是 2 的倍数． 根据`` A 的三分之一是完全立方数''可以知道， 、 -1 、 都是 3 的倍数． 根据`` A 的五分之一是某个自然数的五次方''可以知道， 、 、 -1 都是 5 的倍数． 同时满足三个条件的 的最小值恰好是 [ 3,5 ]=15 ； 的最小值恰好是 [2,5 ]=10 ； 的最小值恰好是 [ 2,3 ]=6 ． 所以， + + 的最小值是 15+10+6=31 ．"
+    },
+    "answer": {
+      "final_raw": "31",
+      "final_normalized": "31",
+      "candidates": [
+        "31",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "根据``$$A$$的二分之一是完全平方数''可以知道，$$\\alpha -1$$、$$\\beta $$、$$\\gamma $$都是$$2$$的倍数．  根据``$$A$$的三分之一是完全立方数''可以知道，$$\\alpha $$、$$\\beta -1$$、$$\\gamma $$都是$$3$$的倍数．  根据``$$A$$的五分之一是某个自然数的五次方''可以知道，$$\\alpha $$、$$\\beta $$、$$\\gamma -1$$都是$$5$$的倍数．  同时满足三个条件的$$\\alpha $$的最小值恰好是$$\\left[ 3,5 \\right]=15$$；$$\\beta $$的最小值恰好是$$\\left[2,5 \\right]=10$$；$$\\gamma $$的最小值恰好是$$\\left[ 2,3 \\right]=6$$．  所以，$$\\alpha +\\beta +\\gamma $$的最小值是$$15+10+6=31$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知正整数 A 分解质因数可以写成 A= 2 ^ 3 ^ 5 ^ ，其中 、 、 是自然数．如果 A 的二分之一是完全平方数， A 的三分之一是完全立方数， A 的五分之一是某个自然数的五次方，那么 + + 的最小值是（~ ~ ~ ~）． (A) 10 (B) 17 (C) 23 (D) 31",
+      "solution_text": "根据`` A 的二分之一是完全平方数''可以知道， -1 、 、 都是 2 的倍数． 根据`` A 的三分之一是完全立方数''可以知道， 、 -1 、 都是 3 的倍数． 根据`` A 的五分之一是某个自然数的五次方''可以知道， 、 、 -1 都是 5 的倍数． 同时满足三个条件的 的最小值恰好是 [ 3,5 ]=15 ； 的最小值恰好是 [2,5 ]=10 ； 的最小值恰好是 [ 2,3 ]=6 ． 所以， + + 的最小值是 15+10+6=31 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "807",
+        "queId": "ff80808147248448014724de1a560131",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "17"
+          },
+          {
+            "label": "C",
+            "content": "23"
+          },
+          {
+            "label": "D",
+            "content": "31"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->分解质因数->分解质因数（式）"
+        ],
+        "competition_source_list": [
+          "2013年全国华杯赛小学高年级竞赛初赛C卷第4题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_4:00711",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 711,
+      "split": "zh_test",
+      "source_problem_id": "7b0bb563f95d48b2b341df44ff07439a"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "乘积$$1\\times 2\\times 3\\times 4\\times 5\\times \\cdots \\cdots \\times 49\\times 50$$可以简记为$$50$$！，读作$$50$$的阶乘，这个乘积能被$$3$$整除，如果把这个乘积去反复除以$$3$$，直到不能被$$3$$整除为止，从第一次除以$$3$$开始算共可除以$$3$$次．\n(A) 21\n(B) 22\n(C) 23\n(D) 24",
+      "problem_plain": "乘积 1 2 3 4 5 49 50 可以简记为 50 ！，读作 50 的阶乘，这个乘积能被 3 整除，如果把这个乘积去反复除以 3 ，直到不能被 3 整除为止，从第一次除以 3 开始算共可除以 3 次． (A) 21 (B) 22 (C) 23 (D) 24",
+      "solution_latex": "这是分解质因数的方法（一直除到商比质因数$$3$$小为止）：  $$50\\div 3=16\\cdots 2$$；$$16\\div 3=5\\cdots 1$$；$$5\\div 3=1\\cdots 2$$．  把商求和得$$16+5+1=22$$．  其他质因数的指数也可用这种方法．常见的题目就是求阶乘的尾零个数．",
+      "solution_plain": "这是分解质因数的方法（一直除到商比质因数 3 小为止）： 50 3=16 2 ； 16 3=5 1 ； 5 3=1 2 ． 把商求和得 16+5+1=22 ． 其他质因数的指数也可用这种方法．常见的题目就是求阶乘的尾零个数．"
+    },
+    "answer": {
+      "final_raw": "22",
+      "final_normalized": "22",
+      "candidates": [
+        "22",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "这是分解质因数的方法（一直除到商比质因数$$3$$小为止）：  $$50\\div 3=16\\cdots 2$$；$$16\\div 3=5\\cdots 1$$；$$5\\div 3=1\\cdots 2$$．  把商求和得$$16+5+1=22$$．  其他质因数的指数也可用这种方法．常见的题目就是求阶乘的尾零个数．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "乘积 1 2 3 4 5 49 50 可以简记为 50 ！，读作 50 的阶乘，这个乘积能被 3 整除，如果把这个乘积去反复除以 3 ，直到不能被 3 整除为止，从第一次除以 3 开始算共可除以 3 次． (A) 21 (B) 22 (C) 23 (D) 24",
+      "solution_text": "这是分解质因数的方法（一直除到商比质因数 3 小为止）： 50 3=16 2 ； 16 3=5 1 ； 5 3=1 2 ． 把商求和得 16+5+1=22 ． 其他质因数的指数也可用这种方法．常见的题目就是求阶乘的尾零个数．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "777",
+        "queId": "7b0bb563f95d48b2b341df44ff07439a",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "21"
+          },
+          {
+            "label": "B",
+            "content": "22"
+          },
+          {
+            "label": "C",
+            "content": "23"
+          },
+          {
+            "label": "D",
+            "content": "24"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->分解质因数->分解质因数（式）"
+        ],
+        "competition_source_list": [
+          "2014年第26届广东广州五羊杯六年级竞赛第6题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_4:00738",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 738,
+      "split": "zh_test",
+      "source_problem_id": "cd1af5d3b4274e2fb3bfc07231fd49ff"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "运动会连续开了$$n$$天，一共发了$$m$$枚奖章．第一天发一枚以及剩下$$(m-1)$$枚的$$\\frac{1}{7}$$，第二天发$$2$$枚以及发后剩下的$$\\frac{1}{7}$$，以后每天都按此规律发奖章，在最后一天即第$$n$$天发了剩下的$$n$$枚奖章，那么运动会一共发了枚奖章．\n(A) 25\n(B) 36\n(C) 49\n(D) 64",
+      "problem_plain": "运动会连续开了 n 天，一共发了 m 枚奖章．第一天发一枚以及剩下 (m-1) 枚的 1 7 ，第二天发 2 枚以及发后剩下的 1 7 ，以后每天都按此规律发奖章，在最后一天即第 n 天发了剩下的 n 枚奖章，那么运动会一共发了枚奖章． (A) 25 (B) 36 (C) 49 (D) 64",
+      "solution_latex": "倒数第二天发了$$n-1$$枚和余下的$$\\frac{1}{7}$$，那么最后一天发的$$n$$枚就是余下的$$\\frac{6}{7}$$，可以看出$$n$$是$$6$$的倍数，进一步尝试发现，当$$n=6$$时，依次逆推可得，每天都发$$6$$枚奖章，运动会$$6$$天开完，恰好符合题目要求．所以一共发了$$36$$枚奖章．",
+      "solution_plain": "倒数第二天发了 n-1 枚和余下的 1 7 ，那么最后一天发的 n 枚就是余下的 6 7 ，可以看出 n 是 6 的倍数，进一步尝试发现，当 n=6 时，依次逆推可得，每天都发 6 枚奖章，运动会 6 天开完，恰好符合题目要求．所以一共发了 36 枚奖章．"
+    },
+    "answer": {
+      "final_raw": "36",
+      "final_normalized": "36",
+      "candidates": [
+        "36",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "倒数第二天发了$$n-1$$枚和余下的$$\\frac{1}{7}$$，那么最后一天发的$$n$$枚就是余下的$$\\frac{6}{7}$$，可以看出$$n$$是$$6$$的倍数，进一步尝试发现，当$$n=6$$时，依次逆推可得，每天都发$$6$$枚奖章，运动会$$6$$天开完，恰好符合题目要求．所以一共发了$$36$$枚奖章．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "运动会连续开了 n 天，一共发了 m 枚奖章．第一天发一枚以及剩下 (m-1) 枚的 1 7 ，第二天发 2 枚以及发后剩下的 1 7 ，以后每天都按此规律发奖章，在最后一天即第 n 天发了剩下的 n 枚奖章，那么运动会一共发了枚奖章． (A) 25 (B) 36 (C) 49 (D) 64",
+      "solution_text": "倒数第二天发了 n-1 枚和余下的 1 7 ，那么最后一天发的 n 枚就是余下的 6 7 ，可以看出 n 是 6 的倍数，进一步尝试发现，当 n=6 时，依次逆推可得，每天都发 6 枚奖章，运动会 6 天开完，恰好符合题目要求．所以一共发了 36 枚奖章．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1722",
+        "queId": "cd1af5d3b4274e2fb3bfc07231fd49ff",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "25"
+          },
+          {
+            "label": "B",
+            "content": "36"
+          },
+          {
+            "label": "C",
+            "content": "49"
+          },
+          {
+            "label": "D",
+            "content": "64"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->因数与倍数->因数与倍数基础"
+        ],
+        "competition_source_list": [
+          "2015年全国迎春杯六年级竞赛网校模拟第7题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_4:00847",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 847,
+      "split": "zh_test",
+      "source_problem_id": "6c262160590b430ca363d63c2c95df74"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "对于两个整数$$a$$、$$b$$，若它们除以整数$$m$$所得的余数相等，则称$$a$$、$$b$$对于模$$m$$同余，记作$$a\\equiv b\\left( modm \\right)$$，如：$$11\\equiv 3\\left( mod4 \\right)$$，$$14\\equiv 19\\left( mod5 \\right)$$．已知$$p$$是小于$$2013$$的自然数，且$$p\\equiv 2013\\left( mod9 \\right)$$，则$$p$$的取值共有（~ ）．\n(A) 222$$个\n(B) 223$$个\n(C) 224$$个\n(D) 225$$个",
+      "problem_plain": "对于两个整数 a 、 b ，若它们除以整数 m 所得的余数相等，则称 a 、 b 对于模 m 同余，记作 a b ( modm ) ，如： 11 3 ( mod4 ) ， 14 19 ( mod5 ) ．已知 p 是小于 2013 的自然数，且 p 2013 ( mod9 ) ，则 p 的取值共有（~ ）． (A) 222 个 (B) 223 个 (C) 224 个 (D) 225 个",
+      "solution_latex": "$$p\\equiv 2013\\equiv 6\\left( \\bmod 9 \\right)$$ $$2013\\div 9=223\\cdots\\cdots 6$$ 即$$2013=223\\times 9+6$$ ∴ $$ p=a\\times 9+6$$ 且$$a\\textless{}223$$，因此共有$$223$$种情况（$$a$$可以为$$0$$）．",
+      "solution_plain": "p 2013 6 ( 9 ) 2013 9=223 6 即 2013=223 9+6 ∴ p=a 9+6 且 a 223 ，因此共有 223 种情况（ a 可以为 0 ）．"
+    },
+    "answer": {
+      "final_raw": "223$$个",
+      "final_normalized": "223$$个",
+      "candidates": [
+        "223$$个",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$p\\equiv 2013\\equiv 6\\left( \\bmod 9 \\right)$$ $$2013\\div 9=223\\cdots\\cdots 6$$ 即$$2013=223\\times 9+6$$ ∴ $$ p=a\\times 9+6$$ 且$$a\\textless{}223$$，因此共有$$223$$种情况（$$a$$可以为$$0$$）．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "对于两个整数 a 、 b ，若它们除以整数 m 所得的余数相等，则称 a 、 b 对于模 m 同余，记作 a b ( modm ) ，如： 11 3 ( mod4 ) ， 14 19 ( mod5 ) ．已知 p 是小于 2013 的自然数，且 p 2013 ( mod9 ) ，则 p 的取值共有（~ ）． (A) 222 个 (B) 223 个 (C) 224 个 (D) 225 个",
+      "solution_text": "p 2013 6 ( 9 ) 2013 9=223 6 即 2013=223 9+6 ∴ p=a 9+6 且 a 223 ，因此共有 223 种情况（ a 可以为 0 ）．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "692",
+        "queId": "6c262160590b430ca363d63c2c95df74",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "222$$个"
+          },
+          {
+            "label": "B",
+            "content": "223$$个"
+          },
+          {
+            "label": "C",
+            "content": "224$$个"
+          },
+          {
+            "label": "D",
+            "content": "225$$个"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->枚举思想"
+        ],
+        "competition_source_list": [
+          "2013年第9届全国新希望杯小学高年级六年级竞赛复赛第6题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_4:01034",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1034,
+      "split": "zh_test",
+      "source_problem_id": "097ea9a4eb794bb3930c7c1dad30837c"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知直角三角形的边长均为整数，周长为$$30$$，则它的外接圆的面积为．\n(A) \\frac{121}{4} \\pi\n(B) \\frac{169}{4} \\pi\n(C) \\frac{225}{4} \\pi\n(D) 以上答案都不对",
+      "problem_plain": "已知直角三角形的边长均为整数，周长为 30 ，则它的外接圆的面积为． (A) 121 4 (B) 169 4 (C) 225 4 (D) 以上答案都不对",
+      "solution_latex": "设直角三角形的三边长分别为$$a$$，$$b$$，$$c$$（$$a\\leqslant b\\textless{}c$$），则$$a+b+c=30$$．  显然，三角形的外接圆的直径即为斜边长$$c$$，下面先求$$c$$的值．  由$$a\\leqslant b\\textless{}c$$及$$a+b+c=30$$得$$30=a+b+c\\textless{}3c$$，  所以$$c\\textgreater10$$．  由$$a+b\\textgreater c$$及$$a+b+c=30$$得$$30=a+b+c\\textgreater2c$$，  所以$$c\\textless{}15$$．  又因为$$c$$为整数，  所以$$11\\leqslant c\\leqslant 14$$．  根据勾股定理可得$${{a}^{2}}+{{b}^{2}}={{c}^{2}}$$，  把$$c=30-a-b$$代入，化简得$$ab-30(a+b)+450=0$$，  所以$$(30-a)(30-b)=450=2\\times {{3}^{2}}\\times {{5}^{2}}$$，  因为$$a$$，$$b$$均为整数且$$a\\leqslant b$$，  所以只可能是$$\\begin{cases}30-a={{5}^{2}}    30-b=2\\times {{3}^{2}} \\end{cases}$$，解得$$\\begin{cases}a=5    b=12 \\end{cases}$$，  所以，直角三角形的斜边长$$c=13$$，三角形的外接圆的面积为$$\\frac{169}{4} \\pi $$．",
+      "solution_plain": "设直角三角形的三边长分别为 a ， b ， c （ a b c ），则 a+b+c=30 ． 显然，三角形的外接圆的直径即为斜边长 c ，下面先求 c 的值． 由 a b c 及 a+b+c=30 得 30=a+b+c 3c ， 所以 c 10 ． 由 a+b c 及 a+b+c=30 得 30=a+b+c 2c ， 所以 c 15 ． 又因为 c 为整数， 所以 11 c 14 ． 根据勾股定理可得 a ^ 2 + b ^ 2 = c ^ 2 ， 把 c=30-a-b 代入，化简得 ab-30(a+b)+450=0 ， 所以 (30-a)(30-b)=450=2 3 ^ 2 5 ^ 2 ， 因为 a ， b 均为整数且 a b ， 所以只可能是 cases 30-a= 5 ^ 2 30-b=2 3 ^ 2 cases ，解得 cases a=5 b=12 cases ， 所以，直角三角形的斜边长 c=13 ，三角形的外接圆的面积为 169 4 ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{169}{4} \\pi",
+      "final_normalized": "\\frac{169}{4} \\pi",
+      "candidates": [
+        "B",
+        "\\frac{169}{4} \\pi"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设直角三角形的三边长分别为$$a$$，$$b$$，$$c$$（$$a\\leqslant b\\textless{}c$$），则$$a+b+c=30$$．  显然，三角形的外接圆的直径即为斜边长$$c$$，下面先求$$c$$的值．  由$$a\\leqslant b\\textless{}c$$及$$a+b+c=30$$得$$30=a+b+c\\textless{}3c$$，  所以$$c\\textgreater10$$．  由$$a+b\\textgreater c$$及$$a+b+c=30$$得$$30=a+b+c\\textgreater2c$$，  所以$$c\\textless{}15$$．  又因为$$c$$为整数，  所以$$11\\leqslant c\\leqslant 14$$．  根据勾股定理可得$${{a}^{2}}+{{b}^{2}}={{c}^{2}}$$，  把$$c=30-a-b$$代入，化简得$$ab-30(a+b)+450=0$$，  所以$$(30-a)(30-b)=450=2\\times {{3}^{2}}\\times {{5}^{2}}$$，  因为$$a$$，$$b$$均为整数且$$a\\leqslant b$$，  所以只可能是$$\\begin{cases}30-a={{5}^{2}}    30-b=2\\times {{3}^{2}} \\end{cases}$$，解得$$\\begin{cases}a=5    b=12 \\end{cases}$$，  所以，直角三角形的斜边长$$c=13$$，三角形的外接圆的面积为$$\\frac{169}{4} \\pi $$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知直角三角形的边长均为整数，周长为 30 ，则它的外接圆的面积为． (A) 121 4 (B) 169 4 (C) 225 4 (D) 以上答案都不对",
+      "solution_text": "设直角三角形的三边长分别为 a ， b ， c （ a b c ），则 a+b+c=30 ． 显然，三角形的外接圆的直径即为斜边长 c ，下面先求 c 的值． 由 a b c 及 a+b+c=30 得 30=a+b+c 3c ， 所以 c 10 ． 由 a+b c 及 a+b+c=30 得 30=a+b+c 2c ， 所以 c 15 ． 又因为 c 为整数， 所以 11 c 14 ． 根据勾股定理可得 a ^ 2 + b ^ 2 = c ^ 2 ， 把 c=30-a-b 代入，化简得 ab-30(a+b)+450=0 ， 所以 (30-a)(30-b)=450=2 3 ^ 2 5 ^ 2 ， 因为 a ， b 均为整数且 a b ， 所以只可能是 cases 30-a= 5 ^ 2 30-b=2 3 ^ 2 cases ，解得 cases a=5 b=12 cases ， 所以，直角三角形的斜边长 c=13 ，三角形的外接圆的面积为 169 4 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "19",
+        "queId": "097ea9a4eb794bb3930c7c1dad30837c",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{121}{4} \\pi"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{169}{4} \\pi"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{225}{4} \\pi"
+          },
+          {
+            "label": "D",
+            "content": "以上答案都不对"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->圆->圆与多边形->正多边形与圆",
+          "课内体系->知识点->三角形->勾股定理及应用->勾股定理基础->勾股定理的证明",
+          "课内体系->知识点->三角形->勾股定理及应用->勾股定理应用->勾股定理的综合应用"
+        ],
+        "competition_source_list": [
+          "2012年全国全国初中数学联赛初一竞赛",
+          "2012年第29届全国全国初中数学联赛竞赛A卷第11题20分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_4:01260",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1260,
+      "split": "zh_test",
+      "source_problem_id": "444c09087fbf48bf9615dfaf066585e8"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知直角三角形的边长均为整数，周长为$$30$$，则它的外接圆的面积为．\n(A) \\frac{121}{4} \\pi\n(B) \\frac{169}{4} \\pi\n(C) \\frac{225}{4} \\pi\n(D) 以上答案都不对",
+      "problem_plain": "已知直角三角形的边长均为整数，周长为 30 ，则它的外接圆的面积为． (A) 121 4 (B) 169 4 (C) 225 4 (D) 以上答案都不对",
+      "solution_latex": "设直角三角形的三边长分别为$$a$$，$$b$$，$$c$$（$$a\\leqslant b\\textless{}c$$），则$$a+b+c=30$$．  显然，三角形的外接圆的直径即为斜边长$$c$$，下面先求$$c$$的值．  由$$a\\leqslant b\\textless{}c$$及$$a+b+c=30$$得$$30=a+b+c\\textless{}3c$$，  所以$$c\\textgreater10$$．  由$$a+b\\textgreater c$$及$$a+b+c=30$$得$$30=a+b+c\\textgreater2c$$，  所以$$c\\textless{}15$$．  又因为$$c$$为整数，  所以$$11\\leqslant c\\leqslant 14$$．  根据勾股定理可得$${{a}^{2}}+{{b}^{2}}={{c}^{2}}$$，  把$$c=30-a-b$$代入，化简得$$ab-30(a+b)+450=0$$，  所以$$(30-a)(30-b)=450=2\\times {{3}^{2}}\\times {{5}^{2}}$$，  因为$$a$$，$$b$$均为整数且$$a\\leqslant b$$，  所以只可能是$$\\begin{cases}30-a={{5}^{2}}    30-b=2\\times {{3}^{2}} \\end{cases}$$，解得$$\\begin{cases}a=5    b=12 \\end{cases}$$，  所以，直角三角形的斜边长$$c=13$$，三角形的外接圆的面积为$$\\frac{169}{4} \\pi $$．",
+      "solution_plain": "设直角三角形的三边长分别为 a ， b ， c （ a b c ），则 a+b+c=30 ． 显然，三角形的外接圆的直径即为斜边长 c ，下面先求 c 的值． 由 a b c 及 a+b+c=30 得 30=a+b+c 3c ， 所以 c 10 ． 由 a+b c 及 a+b+c=30 得 30=a+b+c 2c ， 所以 c 15 ． 又因为 c 为整数， 所以 11 c 14 ． 根据勾股定理可得 a ^ 2 + b ^ 2 = c ^ 2 ， 把 c=30-a-b 代入，化简得 ab-30(a+b)+450=0 ， 所以 (30-a)(30-b)=450=2 3 ^ 2 5 ^ 2 ， 因为 a ， b 均为整数且 a b ， 所以只可能是 cases 30-a= 5 ^ 2 30-b=2 3 ^ 2 cases ，解得 cases a=5 b=12 cases ， 所以，直角三角形的斜边长 c=13 ，三角形的外接圆的面积为 169 4 ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{169}{4} \\pi",
+      "final_normalized": "\\frac{169}{4} \\pi",
+      "candidates": [
+        "B",
+        "\\frac{169}{4} \\pi"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设直角三角形的三边长分别为$$a$$，$$b$$，$$c$$（$$a\\leqslant b\\textless{}c$$），则$$a+b+c=30$$．  显然，三角形的外接圆的直径即为斜边长$$c$$，下面先求$$c$$的值．  由$$a\\leqslant b\\textless{}c$$及$$a+b+c=30$$得$$30=a+b+c\\textless{}3c$$，  所以$$c\\textgreater10$$．  由$$a+b\\textgreater c$$及$$a+b+c=30$$得$$30=a+b+c\\textgreater2c$$，  所以$$c\\textless{}15$$．  又因为$$c$$为整数，  所以$$11\\leqslant c\\leqslant 14$$．  根据勾股定理可得$${{a}^{2}}+{{b}^{2}}={{c}^{2}}$$，  把$$c=30-a-b$$代入，化简得$$ab-30(a+b)+450=0$$，  所以$$(30-a)(30-b)=450=2\\times {{3}^{2}}\\times {{5}^{2}}$$，  因为$$a$$，$$b$$均为整数且$$a\\leqslant b$$，  所以只可能是$$\\begin{cases}30-a={{5}^{2}}    30-b=2\\times {{3}^{2}} \\end{cases}$$，解得$$\\begin{cases}a=5    b=12 \\end{cases}$$，  所以，直角三角形的斜边长$$c=13$$，三角形的外接圆的面积为$$\\frac{169}{4} \\pi $$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知直角三角形的边长均为整数，周长为 30 ，则它的外接圆的面积为． (A) 121 4 (B) 169 4 (C) 225 4 (D) 以上答案都不对",
+      "solution_text": "设直角三角形的三边长分别为 a ， b ， c （ a b c ），则 a+b+c=30 ． 显然，三角形的外接圆的直径即为斜边长 c ，下面先求 c 的值． 由 a b c 及 a+b+c=30 得 30=a+b+c 3c ， 所以 c 10 ． 由 a+b c 及 a+b+c=30 得 30=a+b+c 2c ， 所以 c 15 ． 又因为 c 为整数， 所以 11 c 14 ． 根据勾股定理可得 a ^ 2 + b ^ 2 = c ^ 2 ， 把 c=30-a-b 代入，化简得 ab-30(a+b)+450=0 ， 所以 (30-a)(30-b)=450=2 3 ^ 2 5 ^ 2 ， 因为 a ， b 均为整数且 a b ， 所以只可能是 cases 30-a= 5 ^ 2 30-b=2 3 ^ 2 cases ，解得 cases a=5 b=12 cases ， 所以，直角三角形的斜边长 c=13 ，三角形的外接圆的面积为 169 4 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "645",
+        "queId": "444c09087fbf48bf9615dfaf066585e8",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{121}{4} \\pi"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{169}{4} \\pi"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{225}{4} \\pi"
+          },
+          {
+            "label": "D",
+            "content": "以上答案都不对"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->三角形->勾股定理及应用->勾股定理基础->勾股定理的证明",
+          "课内体系->知识点->三角形->勾股定理及应用->勾股定理应用->勾股定理的综合应用",
+          "课内体系->知识点->圆->圆与多边形->正多边形与圆"
+        ],
+        "competition_source_list": [
+          "2012年第29届全国全国初中数学联赛竞赛A卷第11题20分",
+          "2012年全国全国初中数学联赛初一竞赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_4:01296",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1296,
+      "split": "zh_test",
+      "source_problem_id": "009577e8481c4333b912dbe924e56bbd"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$n$$是小于$$100$$的正整数且使$$5{{n}^{2}}+3n-5$$是$$15$$的倍数，则符合条件的所有正整数$$n$$的和是．\n(A) 285\n(B) 350\n(C) 540\n(D) 635",
+      "problem_plain": "设 n 是小于 100 的正整数且使 5 n ^ 2 +3n-5 是 15 的倍数，则符合条件的所有正整数 n 的和是． (A) 285 (B) 350 (C) 540 (D) 635",
+      "solution_latex": "∵$$5{{n}^{2}}+3n-5$$是$$15$$的倍数，  ∴$$5\\textbar(5{{n}^{2}}+3n-5)$$，  ∴$$5\\textbar3n$$，  ∴$$5\\textbar n$$．  设$$n=5m$$（$$m$$是正整数），  则$$5{{n}^{2}}+3n-5=125{{m}^{2}}+15m-5=120{{m}^{2}}+15m+5({{m}^{2}}-1)$$．  又∵$$5{{n}^{2}}+3n-5$$是$$15$$的倍数，  ∴$${{m}^{2}}-1$$是$$3$$的倍数，  ∴$$m=3k+1$$或$$m=3k+2$$，其中$$k$$是非负整数，  ∴$$n=5(3k+1)=15k+5$$或$$n=5(3k+2)=15k+10$$，其中$$k$$是非负整数，  ∴符合条件的所有正整数$$n$$的和为  $$(5+20+35+50+65+80+95)+(10+25+40+55+70+85)=635$$．",
+      "solution_plain": "∵ 5 n ^ 2 +3n-5 是 15 的倍数， ∴ 5 (5 n ^ 2 +3n-5) ， ∴ 5 3n ， ∴ 5 n ． 设 n=5m （ m 是正整数）， 则 5 n ^ 2 +3n-5=125 m ^ 2 +15m-5=120 m ^ 2 +15m+5( m ^ 2 -1) ． 又∵ 5 n ^ 2 +3n-5 是 15 的倍数， ∴ m ^ 2 -1 是 3 的倍数， ∴ m=3k+1 或 m=3k+2 ，其中 k 是非负整数， ∴ n=5(3k+1)=15k+5 或 n=5(3k+2)=15k+10 ，其中 k 是非负整数， ∴符合条件的所有正整数 n 的和为 (5+20+35+50+65+80+95)+(10+25+40+55+70+85)=635 ．"
+    },
+    "answer": {
+      "final_raw": "635",
+      "final_normalized": "635",
+      "candidates": [
+        "635",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "∵$$5{{n}^{2}}+3n-5$$是$$15$$的倍数，  ∴$$5\\textbar(5{{n}^{2}}+3n-5)$$，  ∴$$5\\textbar3n$$，  ∴$$5\\textbar n$$．  设$$n=5m$$（$$m$$是正整数），  则$$5{{n}^{2}}+3n-5=125{{m}^{2}}+15m-5=120{{m}^{2}}+15m+5({{m}^{2}}-1)$$．  又∵$$5{{n}^{2}}+3n-5$$是$$15$$的倍数，  ∴$${{m}^{2}}-1$$是$$3$$的倍数，  ∴$$m=3k+1$$或$$m=3k+2$$，其中$$k$$是非负整数，  ∴$$n=5(3k+1)=15k+5$$或$$n=5(3k+2)=15k+10$$，其中$$k$$是非负整数，  ∴符合条件的所有正整数$$n$$的和为  $$(5+20+35+50+65+80+95)+(10+25+40+55+70+85)=635$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 n 是小于 100 的正整数且使 5 n ^ 2 +3n-5 是 15 的倍数，则符合条件的所有正整数 n 的和是． (A) 285 (B) 350 (C) 540 (D) 635",
+      "solution_text": "∵ 5 n ^ 2 +3n-5 是 15 的倍数， ∴ 5 (5 n ^ 2 +3n-5) ， ∴ 5 3n ， ∴ 5 n ． 设 n=5m （ m 是正整数）， 则 5 n ^ 2 +3n-5=125 m ^ 2 +15m-5=120 m ^ 2 +15m+5( m ^ 2 -1) ． 又∵ 5 n ^ 2 +3n-5 是 15 的倍数， ∴ m ^ 2 -1 是 3 的倍数， ∴ m=3k+1 或 m=3k+2 ，其中 k 是非负整数， ∴ n=5(3k+1)=15k+5 或 n=5(3k+2)=15k+10 ，其中 k 是非负整数， ∴符合条件的所有正整数 n 的和为 (5+20+35+50+65+80+95)+(10+25+40+55+70+85)=635 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "9",
+        "queId": "009577e8481c4333b912dbe924e56bbd",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "285"
+          },
+          {
+            "label": "B",
+            "content": "350"
+          },
+          {
+            "label": "C",
+            "content": "540"
+          },
+          {
+            "label": "D",
+            "content": "635"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->数论->整除->整除的概念与基本性质",
+          "竞赛->知识点->数论->同余->剩余系及其应用",
+          "课内体系->能力->运算能力",
+          "课内体系->知识点->数->有理数->有理数基础运算->有理数除法->有理数四则混合运算"
+        ],
+        "competition_source_list": [
+          "2015年第32届全国全国初中数学联赛竞赛A卷第6题7分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_4:01449",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1449,
+      "split": "zh_test",
+      "source_problem_id": "7f53c5256f5f421ab2ed0a8dde10f63d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "以$$x$$为未知数的方程$$2007x+2007a+2008b=0$$（$$a$$，$$b$$为有理数，且$$b\\textgreater0$$）有正整数解，则$$ab$$是．\n(A) 负数\n(B) 非负数\n(C) 正数\n(D) 零",
+      "problem_plain": "以 x 为未知数的方程 2007x+2007a+2008b=0 （ a ， b 为有理数，且 b 0 ）有正整数解，则 ab 是． (A) 负数 (B) 非负数 (C) 正数 (D) 零",
+      "solution_latex": "方程两边同乘$$b$$得：  $$2007bx+2007ab+2008{{b}^{2}}=0$$，  ∴$$ab=-\\frac{2007bx+2008{{b}^{2}}}{2007}$$，  ∵$$b\\textgreater0$$，是$$x$$为正整数，  ∴$$ab\\textless{}0$$，为负数．  所以选$$\\text{A}$$．",
+      "solution_plain": "方程两边同乘 b 得： 2007bx+2007ab+2008 b ^ 2 =0 ， ∴ ab=- 2007bx+2008 b ^ 2 2007 ， ∵ b 0 ，是 x 为正整数， ∴ ab 0 ，为负数． 所以选 A ．"
+    },
+    "answer": {
+      "final_raw": "负数",
+      "final_normalized": "负数",
+      "candidates": [
+        "A",
+        "负数"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "方程两边同乘$$b$$得：  $$2007bx+2007ab+2008{{b}^{2}}=0$$，  ∴$$ab=-\\frac{2007bx+2008{{b}^{2}}}{2007}$$，  ∵$$b\\textgreater0$$，是$$x$$为正整数，  ∴$$ab\\textless{}0$$，为负数．  所以选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "以 x 为未知数的方程 2007x+2007a+2008b=0 （ a ， b 为有理数，且 b 0 ）有正整数解，则 ab 是． (A) 负数 (B) 非负数 (C) 正数 (D) 零",
+      "solution_text": "方程两边同乘 b 得： 2007bx+2007ab+2008 b ^ 2 =0 ， ∴ ab=- 2007bx+2008 b ^ 2 2007 ， ∵ b 0 ，是 x 为正整数， ∴ ab 0 ，为负数． 所以选 A ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "701",
+        "queId": "7f53c5256f5f421ab2ed0a8dde10f63d",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "负数"
+          },
+          {
+            "label": "B",
+            "content": "非负数"
+          },
+          {
+            "label": "C",
+            "content": "正数"
+          },
+          {
+            "label": "D",
+            "content": "零"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->推理论证能力",
+          "课内体系->知识点->方程与不等式->一元一次方程->一元一次方程的相关概念->由一元一次方程的解求参数的值",
+          "课内体系->知识点->方程与不等式->一元一次方程->一元一次方程的相关概念->一元一次方程的解"
+        ],
+        "competition_source_list": [
+          "2007年第18届希望杯初一竞赛初赛第9题4分",
+          "初一上学期单元测试《一元一次方程》第17题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_4:01543",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1543,
+      "split": "zh_test",
+      "source_problem_id": "6a337fb8ff5c41588e54b80b74b0e018"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知关于$$x$$的方程$${{x}^{2}}-6x-4{{n}^{2}}-32n=0$$的根都是整数，则整数$$n$$的值为．\n(A) 10$$或$$-18\n(B) 0$$或$$-8\n(C) 10$$或$$-18$$或$$0$$或$$-8\n(D) 以上都不对",
+      "problem_plain": "已知关于 x 的方程 x ^ 2 -6x-4 n ^ 2 -32n=0 的根都是整数，则整数 n 的值为． (A) 10 或 -18 (B) 0 或 -8 (C) 10 或 -18 或 0 或 -8 (D) 以上都不对",
+      "solution_latex": "利用求根公式得到$$x=3\\pm \\sqrt{4{{n}^{2}}+32n+9}$$，  为使$$x$$为整数，只要求$$4{{n}^{2}}+32n+9={{k}^{2}}$$$$\\left( k\\geqslant 0 \\right)$$，（这种方法在处理完全平方数的问题中很常用）  配方得到$${{\\left( 2n+8 \\right)}^{2}}-{{k}^{2}}=55$$，  即$$\\left( 2n+8+k \\right)\\left( 2n+8-k \\right)=55$$，  考虑到$$k$$是非负的，所以$$2n+8+k=55$$或$$11$$或$$-1$$或$$-5$$，  对应的$$2n+8-k=1$$或$$5$$或$$-55$$或$$-11$$．  得到$$n=10$$或$$0$$或$$-18$$或$$-8$$．  由题方程$${{x}^{2}}-6x-4{{n}^{2}}-32n=0$$的根都是整数，  则$${{b}^{2}}-4ac=36-4(-4{{n}^{2}}-32n)=4(4{{n}^{2}}+32n+9)$$为一个完全平方数，  所以$$4{{n}^{2}}+32n+9$$为一个完全平方数，  不妨设$$4{{n}^{2}}+32n+9={{k}^{2}}$$$$(k\\geqslant 0)$$，（这种方法在处理完全平方数的问题中很常用）  配方得到$${{(2n+8)}^{2}}-{{k}^{2}}=55$$，  即$$(2n+8+k)(2n+8-k)=55$$，考虑到$$k$$是非负的，  所以$$2n+8+k=55$$或$$11$$或$$-1$$或$$-5$$，  对应的$$2n+8-k=1$$或$$5$$或$$-55$$或$$-11$$．得到$$n=10$$或$$0$$或$$-18$$或$$-8$$．",
+      "solution_plain": "利用求根公式得到 x=3 4 n ^ 2 +32n+9 ， 为使 x 为整数，只要求 4 n ^ 2 +32n+9= k ^ 2 ( k 0 ) ，（这种方法在处理完全平方数的问题中很常用） 配方得到 ( 2n+8 ) ^ 2 - k ^ 2 =55 ， 即 ( 2n+8+k ) ( 2n+8-k )=55 ， 考虑到 k 是非负的，所以 2n+8+k=55 或 11 或 -1 或 -5 ， 对应的 2n+8-k=1 或 5 或 -55 或 -11 ． 得到 n=10 或 0 或 -18 或 -8 ． 由题方程 x ^ 2 -6x-4 n ^ 2 -32n=0 的根都是整数， 则 b ^ 2 -4ac=36-4(-4 n ^ 2 -32n)=4(4 n ^ 2 +32n+9) 为一个完全平方数， 所以 4 n ^ 2 +32n+9 为一个完全平方数， 不妨设 4 n ^ 2 +32n+9= k ^ 2 (k 0) ，（这种方法在处理完全平方数的问题中很常用） 配方得到 (2n+8) ^ 2 - k ^ 2 =55 ， 即 (2n+8+k)(2n+8-k)=55 ，考虑到 k 是非负的， 所以 2n+8+k=55 或 11 或 -1 或 -5 ， 对应的 2n+8-k=1 或 5 或 -55 或 -11 ．得到 n=10 或 0 或 -18 或 -8 ．"
+    },
+    "answer": {
+      "final_raw": "10$$或$$-18$$或$$0$$或$$-8",
+      "final_normalized": "10$$或$$-18$$或$$0$$或$$-8",
+      "candidates": [
+        "10$$或$$-18$$或$$0$$或$$-8",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "利用求根公式得到$$x=3\\pm \\sqrt{4{{n}^{2}}+32n+9}$$，  为使$$x$$为整数，只要求$$4{{n}^{2}}+32n+9={{k}^{2}}$$$$\\left( k\\geqslant 0 \\right)$$，（这种方法在处理完全平方数的问题中很常用）  配方得到$${{\\left( 2n+8 \\right)}^{2}}-{{k}^{2}}=55$$，  即$$\\left( 2n+8+k \\right)\\left( 2n+8-k \\right)=55$$，  考虑到$$k$$是非负的，所以$$2n+8+k=55$$或$$11$$或$$-1$$或$$-5$$，  对应的$$2n+8-k=1$$或$$5$$或$$-55$$或$$-11$$．  得到$$n=10$$或$$0$$或$$-18$$或$$-8$$．  由题方程$${{x}^{2}}-6x-4{{n}^{2}}-32n=0$$的根都是整数，  则$${{b}^{2}}-4ac=36-4(-4{{n}^{2}}-32n)=4(4{{n}^{2}}+32n+9)$$为一个完全平方数，  所以$$4{{n}^{2}}+32n+9$$为一个完全平方数，  不妨设$$4{{n}^{2}}+32n+9={{k}^{2}}$$$$(k\\geqslant 0)$$，（这种方法在处理完全平方数的问题中很常用）  配方得到$${{(2n+8)}^{2}}-{{k}^{2}}=55$$，  即$$(2n+8+k)(2n+8-k)=55$$，考虑到$$k$$是非负的，  所以$$2n+8+k=55$$或$$11$$或$$-1$$或$$-5$$，  对应的$$2n+8-k=1$$或$$5$$或$$-55$$或$$-11$$．得到$$n=10$$或$$0$$或$$-18$$或$$-8$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知关于 x 的方程 x ^ 2 -6x-4 n ^ 2 -32n=0 的根都是整数，则整数 n 的值为． (A) 10 或 -18 (B) 0 或 -8 (C) 10 或 -18 或 0 或 -8 (D) 以上都不对",
+      "solution_text": "利用求根公式得到 x=3 4 n ^ 2 +32n+9 ， 为使 x 为整数，只要求 4 n ^ 2 +32n+9= k ^ 2 ( k 0 ) ，（这种方法在处理完全平方数的问题中很常用） 配方得到 ( 2n+8 ) ^ 2 - k ^ 2 =55 ， 即 ( 2n+8+k ) ( 2n+8-k )=55 ， 考虑到 k 是非负的，所以 2n+8+k=55 或 11 或 -1 或 -5 ， 对应的 2n+8-k=1 或 5 或 -55 或 -11 ． 得到 n=10 或 0 或 -18 或 -8 ． 由题方程 x ^ 2 -6x-4 n ^ 2 -32n=0 的根都是整数， 则 b ^ 2 -4ac=36-4(-4 n ^ 2 -32n)=4(4 n ^ 2 +32n+9) 为一个完全平方数， 所以 4 n ^ 2 +32n+9 为一个完全平方数， 不妨设 4 n ^ 2 +32n+9= k ^ 2 (k 0) ，（这种方法在处理完全平方数的问题中很常用） 配方得到 (2n+8) ^ 2 - k ^ 2 =55 ， 即 (2n+8+k)(2n+8-k)=55 ，考虑到 k 是非负的， 所以 2n+8+k=55 或 11 或 -1 或 -5 ， 对应的 2n+8-k=1 或 5 或 -55 或 -11 ．得到 n=10 或 0 或 -18 或 -8 ．",
+      "keywords": [
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "926",
+        "queId": "6a337fb8ff5c41588e54b80b74b0e018",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10$$或$$-18"
+          },
+          {
+            "label": "B",
+            "content": "0$$或$$-8"
+          },
+          {
+            "label": "C",
+            "content": "10$$或$$-18$$或$$0$$或$$-8"
+          },
+          {
+            "label": "D",
+            "content": "以上都不对"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->方程与不等式->一元二次方程->根的判别式的应用->由一元二次方程根的情况确定参数",
+          "课内体系->知识点->方程与不等式->一元二次方程->根与系数的关系->一元二次方程根与系数的关系"
+        ],
+        "competition_source_list": [
+          "2004年第21届全国初中数学联赛竞赛第1题",
+          "2004年第21届全国初中数学联赛竞赛（第二试A）第1题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:number_theory:level_4:01600",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1600,
+      "split": "zh_test",
+      "source_problem_id": "4311f632409641c790f5cca3decba15e"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "2017 AMC10B P23  Let $$N=123456789101112\\ldots 4344$$ be the $$79$$-digit number that is formed by writing the integers from $$1$$ to $$44$$ in order, one after the other. What is the remainder when $$N$$ is divided by $$45$$?  设$N=123456789101112\\ldots 4344$$是$79$位数，由$$1$$至$$44$$的整数依次写成。当$N$除以$$45$$时，余数是多少？\n(A) 1\n(B) 4\n(C) 9\n(D) 18\n(E) 44",
+      "problem_plain": "2017 AMC10B P23 Let N=123456789101112 4344 be the 79 -digit number that is formed by writing the integers from 1 to 44 in order, one after the other. What is the remainder when N is divided by 45 ? 设 N=123456789101112 4344 是 79 位数，由 1 至 44 的整数依次写成。当 N 除以 45 时，余数是多少？ (A) 1 (B) 4 (C) 9 (D) 18 (E) 44",
+      "solution_latex": "We only need to find the remainders of N when divided by $$5$$and $$9$$ to determine the answer. By inspection，$$N=4$$ (mod$$5$$)，$$The$$ remainder when Nis divided  by $$9$$is$$1+2+3+4+\\ldots +1+0+1+1+1+2+\\ldots +4+3+4+4$$，but  $$sin c{{e}^{10=1(mod9)}}$$，$$we$$ can also write this  $$a{{s}^{1+2+3+\\cdots +10+11+12+\\cdots 43+44=\\frac{44\\cdot 45}{2}=22\\cdot 45}}$$，$$which$$ has a remairder of 0 rod$$9$$. Therefoer，$$by$$ inspection，$$the$$ answer is ($$\\text{C}$$)$$9$$  Note：$$the$$ sum of the digits or N is$$270$$.  Noting the solution above，$$we$$ try to find the sum of the digits to figure out its remainder when divided by$$9$$. From1thru$$9$$，$$the$$ sum is$$45$$，$$10$$ thru$$19$$，$$the$$ sum is$$55$$，$$20$$ thru$$29$$is$$65$$，and$$30$$thru$$39$$is$$75$$．$$Thus$$ the sum of the digits is$$45+55+65+75+4+5+6+7+8=240+30=270$$，$$and$$ thus N is divisible by$$9$$. Now.refer to the above solution $$^{N=4\\left( mod5 \\right)}an{{d}^{ N=0\\left( mod9 \\right)}}$$From this information，$$we$$ can conclude this information, we can conclude that $$^{N\\equiv 54 \\left( mod 5 \\right)}and{{ }^{N\\equiv 54\\left( mod 9 \\right)}}$$.  Therefore $$^{N=54\\left( md 45 \\right)}an{{d}^{N=9\\left( md 45 \\right)}}$$ so the remainder is ($$\\text{C}$$)$$9$$.  Because a number is equivalent to the sum of its digits modulo$$9$$，$$we$$ have that $$^{N\\equiv 1+2+3+4+5+\\cdots +44\\equiv \\frac{44\\times 45}{2}\\equiv 0(mod9)}$$Furthemore，$$we$$ see that $$N-9$$ends in the digt$$5$$and thus is divisible by$$5$$，$$so$$ $$N-9$$is divisible by$$45$$，$$meaning$$ the remainder is($$\\text{C}$$)$$9$$.",
+      "solution_plain": "We only need to find the remainders of N when divided by 5 and 9 to determine the answer. By inspection， N=4 (mod 5 )， The remainder when Nis divided by 9 is 1+2+3+4+ +1+0+1+1+1+2+ +4+3+4+4 ，but sin c e ^ 10=1(mod9) ， we can also write this a s ^ 1+2+3+ +10+11+12+ 43+44= 44 45 2 =22 45 ， which has a remairder of 0 rod 9 . Therefoer， by inspection， the answer is ( C ) 9 Note： the sum of the digits or N is 270 . Noting the solution above， we try to find the sum of the digits to figure out its remainder when divided by 9 . From1thru 9 ， the sum is 45 ， 10 thru 19 ， the sum is 55 ， 20 thru 29 is 65 ，and 30 thru 39 is 75 ． Thus the sum of the digits is 45+55+65+75+4+5+6+7+8=240+30=270 ， and thus N is divisible by 9 . Now.refer to the above solution ^ N=4 ( mod5 ) an d ^ N=0 ( mod9 ) From this information， we can conclude this information, we can conclude that ^ N 54 ( mod 5 ) and ^ N 54 ( mod 9 ) . Therefore ^ N=54 ( md 45 ) an d ^ N=9 ( md 45 ) so the remainder is ( C ) 9 . Because a number is equivalent to the sum of its digits modulo 9 ， we have that ^ N 1+2+3+4+5+ +44 44 45 2 0(mod9) Furthemore， we see that N-9 ends in the digt 5 and thus is divisible by 5 ， so N-9 is divisible by 45 ， meaning the remainder is( C ) 9 ."
+    },
+    "answer": {
+      "final_raw": "9",
+      "final_normalized": "9",
+      "candidates": [
+        "9",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "aliquot_theory",
+        "amc10_12",
+        "divisibility_rules_of_certain_numbers_2_3_5_9_11",
+        "number_theory"
+      ],
+      "tags": [
+        "aliquot_theory",
+        "amc10_12",
+        "divisibility_rules_of_certain_numbers_2_3_5_9_11",
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "We only need to find the remainders of N when divided by $$5$$and $$9$$ to determine the answer.",
+        "By inspection，$$N=4$$ (mod$$5$$)，$$The$$ remainder when Nis divided  by $$9$$is$$1+2+3+4+\\ldots +1+0+1+1+1+2+\\ldots +4+3+4+4$$，but  $$sin c{{e}^{10=1(mod9)}}$$，$$we$$ can also write this  $$a{{s}^{1+2+3+\\cdots +10+11+12+\\cdots 43+44=\\frac{44\\cdot 45}{2}=22\\cdot 45}}$$，$$which$$ has a remairder of 0 rod$$9$$.",
+        "Therefoer，$$by$$ inspection，$$the$$ answer is ($$\\text{C}$$)$$9$$  Note：$$the$$ sum of the digits or N is$$270$$.",
+        "Noting the solution above，$$we$$ try to find the sum of the digits to figure out its remainder when divided by$$9$$.",
+        "From1thru$$9$$，$$the$$ sum is$$45$$，$$10$$ thru$$19$$，$$the$$ sum is$$55$$，$$20$$ thru$$29$$is$$65$$，and$$30$$thru$$39$$is$$75$$．$$Thus$$ the sum of the digits is$$45+55+65+75+4+5+6+7+8=240+30=270$$，$$and$$ thus N is divisible by$$9$$.",
+        "Now.refer to the above solution $$^{N=4\\left( mod5 \\right)}an{{d}^{ N=0\\left( mod9 \\right)}}$$From this information，$$we$$ can conclude this information, we can conclude that $$^{N\\equiv 54 \\left( mod 5 \\right)}and{{ }^{N\\equiv 54\\left( mod 9 \\right)}}$$.",
+        "Therefore $$^{N=54\\left( md 45 \\right)}an{{d}^{N=9\\left( md 45 \\right)}}$$ so the remainder is ($$\\text{C}$$)$$9$$.",
+        "Because a number is equivalent to the sum of its digits modulo$$9$$，$$we$$ have that $$^{N\\equiv 1+2+3+4+5+\\cdots +44\\equiv \\frac{44\\times 45}{2}\\equiv 0(mod9)}$$Furthemore，$$we$$ see that $$N-9$$ends in the digt$$5$$and thus is divisible by$$5$$，$$so$$ $$N-9$$is divisible by$$45$$，$$meaning$$ the remainder is($$\\text{C}$$)$$9$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2017 AMC10B P23 Let N=123456789101112 4344 be the 79 -digit number that is formed by writing the integers from 1 to 44 in order, one after the other. What is the remainder when N is divided by 45 ? 设 N=123456789101112 4344 是 79 位数，由 1 至 44 的整数依次写成。当 N 除以 45 时，余数是多少？ (A) 1 (B) 4 (C) 9 (D) 18 (E) 44",
+      "solution_text": "We only need to find the remainders of N when divided by 5 and 9 to determine the answer. By inspection， N=4 (mod 5 )， The remainder when Nis divided by 9 is 1+2+3+4+ +1+0+1+1+1+2+ +4+3+4+4 ，but sin c e ^ 10=1(mod9) ， we can also write this a s ^ 1+2+3+ +10+11+12+ 43+44= 44 45 2 =22 45 ， which has a remairder of 0 rod 9 . Therefoer， by inspection， the answer is ( C ) 9 Note： the sum of the digits or N is 270 . Noting the solution above， we try to find the sum of the digits to figure out its remainder when divided by 9 . From1thru 9 ， the sum is 45 ， 10 thru 19 ， the sum is 55 ， 20 thru 29 is 65 ，and 30 thru 39 is 75 ． Thus the sum of the digits is 45+55+65+75+4+5+6+7+8=240+30=270 ， and thus N is divisible by 9 . Now.refer to the above solution ^ N=4 ( mod5 ) an d ^ N=0 ( mod9 ) From this information， we can conclude this information, we can conclude that ^ N 54 ( mod 5 ) and ^ N 54 ( mod 9 ) . Therefore ^ N=54 ( md 45 ) an d ^ N=9 ( md 45 ) so the remainder is ( C ) 9 . Because a number is equivalent to the sum of its digits modulo 9 ， we have that ^ N 1+2+3+4+5+ +44 44 45 2 0(mod9) Furthemore， we see that N-9 ends in the digt 5 and thus is divisible by 5 ， so N-9 is divisible by 45 ， meaning the remainder is( C ) 9 .",
+      "keywords": [
+        "aliquot_theory",
+        "amc10_12",
+        "divisibility_rules_of_certain_numbers_2_3_5_9_11",
+        "level_4",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "419",
+        "queId": "4311f632409641c790f5cca3decba15e",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "4"
+          },
+          {
+            "label": "C",
+            "content": "9"
+          },
+          {
+            "label": "D",
+            "content": "18"
+          },
+          {
+            "label": "E",
+            "content": "44"
+          }
+        ],
+        "knowledge_point_routes": [
+          "美国AMC10/12->Knowledge Point->Number Theory->Aliquot Theory->Divisibility Rules of Certain Numbers (2/3/5/9/11)"
+        ],
+        "competition_source_list": [
+          "2017年AMC10竞赛B第23题",
+          "2017年AMC12竞赛B第19题"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,2654 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:00048",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 48,
+      "split": "zh_train",
+      "source_problem_id": "6078a63ffcd241b68ad97f9f5a7907bc"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "陈老师按小奥、小林、小匹、小克这个顺序派发$$20$$粒糖果给这$$4$$位小朋友，每次一粒，那么最后一次糖会派给哪位小朋友？\n(A) 小奥\n(B) 小林\n(C) 小匹\n(D) 小克",
+      "problem_plain": "陈老师按小奥、小林、小匹、小克这个顺序派发 20 粒糖果给这 4 位小朋友，每次一粒，那么最后一次糖会派给哪位小朋友？ (A) 小奥 (B) 小林 (C) 小匹 (D) 小克",
+      "solution_latex": "小克$$20$$颗糖发放给$$4$$个小朋友，每发完一次就少$$4$$个糖，$$20=4+4+4+4+4$$．  $$20$$颗糖刚好可以发$$5$$个轮回，最后一颗糖刚好发到小克，所以答案是小克．",
+      "solution_plain": "小克 20 颗糖发放给 4 个小朋友，每发完一次就少 4 个糖， 20=4+4+4+4+4 ． 20 颗糖刚好可以发 5 个轮回，最后一颗糖刚好发到小克，所以答案是小克．"
+    },
+    "answer": {
+      "final_raw": "小克",
+      "final_normalized": "小克",
+      "candidates": [
+        "D",
+        "小克"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "小克$$20$$颗糖发放给$$4$$个小朋友，每发完一次就少$$4$$个糖，$$20=4+4+4+4+4$$．  $$20$$颗糖刚好可以发$$5$$个轮回，最后一颗糖刚好发到小克，所以答案是小克．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "陈老师按小奥、小林、小匹、小克这个顺序派发 20 粒糖果给这 4 位小朋友，每次一粒，那么最后一次糖会派给哪位小朋友？ (A) 小奥 (B) 小林 (C) 小匹 (D) 小克",
+      "solution_text": "小克 20 颗糖发放给 4 个小朋友，每发完一次就少 4 个糖， 20=4+4+4+4+4 ． 20 颗糖刚好可以发 5 个轮回，最后一颗糖刚好发到小克，所以答案是小克．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2810",
+        "queId": "6078a63ffcd241b68ad97f9f5a7907bc",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "小奥"
+          },
+          {
+            "label": "B",
+            "content": "小林"
+          },
+          {
+            "label": "C",
+            "content": "小匹"
+          },
+          {
+            "label": "D",
+            "content": "小克"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->课内知识点->数与运算->数的运算的实际应用（应用题）->整数的简单实际问题->加法的实际应用"
+        ],
+        "competition_source_list": [
+          "2019年华夏杯一年级竞赛复赛（华南赛区）第16题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:00391",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 391,
+      "split": "zh_train",
+      "source_problem_id": "0e26e3e575ba460d96651a1532c2ebf5"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "符号$$\\left[ x \\right]$$表示不大于$$x$$的最大整数，例如$$\\left[ 5 \\right]=5$$、$$\\left[ 6.31 \\right]=6$$。如果$$\\left[ \\frac{3x+7}{7} \\right]=4$$，这样的正整数$$x$$有(  )\n(A) 3个\n(B) 4个\n(C) 5个\n(D) 2个",
+      "problem_plain": "符号 [ x ] 表示不大于 x 的最大整数，例如 [ 5 ]=5 、 [ 6.31 ]=6 。如果 [ 3x+7 7 ]=4 ，这样的正整数 x 有( ) (A) 3个 (B) 4个 (C) 5个 (D) 2个",
+      "solution_latex": "根据高斯函数的性质，可得$$4 \\leqslant \\frac{3x+7}{7} \\textless{} 5$$，解得$$ 7 \\leqslant x \\textless{} \\frac{28}{3}$$，对应的整数共$$3$$个数．",
+      "solution_plain": "根据高斯函数的性质，可得 4 3x+7 7 5 ，解得 7 x 28 3 ，对应的整数共 3 个数．"
+    },
+    "answer": {
+      "final_raw": "3个",
+      "final_normalized": "3个",
+      "candidates": [
+        "3个",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "根据高斯函数的性质，可得$$4 \\leqslant \\frac{3x+7}{7} \\textless{} 5$$，解得$$ 7 \\leqslant x \\textless{} \\frac{28}{3}$$，对应的整数共$$3$$个数．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "符号 [ x ] 表示不大于 x 的最大整数，例如 [ 5 ]=5 、 [ 6.31 ]=6 。如果 [ 3x+7 7 ]=4 ，这样的正整数 x 有( ) (A) 3个 (B) 4个 (C) 5个 (D) 2个",
+      "solution_text": "根据高斯函数的性质，可得 4 3x+7 7 5 ，解得 7 x 28 3 ，对应的整数共 3 个数．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "556",
+        "queId": "0e26e3e575ba460d96651a1532c2ebf5",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3个"
+          },
+          {
+            "label": "B",
+            "content": "4个"
+          },
+          {
+            "label": "C",
+            "content": "5个"
+          },
+          {
+            "label": "D",
+            "content": "2个"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->高斯记号->高斯记号的基本运算"
+        ],
+        "competition_source_list": [
+          "2011年六年级竞赛创新杯"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:00433",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 433,
+      "split": "zh_train",
+      "source_problem_id": "5d543549447842de859245275e8f0567"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "某数被$$13$$除，商是$$9$$，余数是$$8$$，则某数等于（  ）。\n(A) 115\n(B) 120\n(C) 125\n(D) 130",
+      "problem_plain": "某数被 13 除，商是 9 ，余数是 8 ，则某数等于（ ）。 (A) 115 (B) 120 (C) 125 (D) 130",
+      "solution_latex": "被除数$$\\div 13=9\\cdots\\cdots 8$$，则被除数$$=13\\times 9+8=125$$。",
+      "solution_plain": "被除数 13=9 8 ，则被除数 =13 9+8=125 。"
+    },
+    "answer": {
+      "final_raw": "125",
+      "final_normalized": "125",
+      "candidates": [
+        "125",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "被除数$$\\div 13=9\\cdots\\cdots 8$$，则被除数$$=13\\times 9+8=125$$。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "某数被 13 除，商是 9 ，余数是 8 ，则某数等于（ ）。 (A) 115 (B) 120 (C) 125 (D) 130",
+      "solution_text": "被除数 13=9 8 ，则被除数 =13 9+8=125 。",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "611",
+        "queId": "5d543549447842de859245275e8f0567",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "115"
+          },
+          {
+            "label": "B",
+            "content": "120"
+          },
+          {
+            "label": "C",
+            "content": "125"
+          },
+          {
+            "label": "D",
+            "content": "130"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->余数问题->余数问题带余除法"
+        ],
+        "competition_source_list": [
+          "2009年希望杯四年级竞赛复赛",
+          "2009年希望杯三年级竞赛复赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:00579",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 579,
+      "split": "zh_train",
+      "source_problem_id": "0807671281324674a8d28c62ea90ca60"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "\\textbf{(2018 Math league, Primary 5, Question \\#13)}  Of the following, which is the sum of two consecutive integers?  下列哪个选项是$$2$$个连续整数的和？\n(A) 111111\n(B) 222222\n(C) 444444\n(D) 888888",
+      "problem_plain": "(2018 Math league, Primary 5, Question #13) Of the following, which is the sum of two consecutive integers? 下列哪个选项是 2 个连续整数的和？ (A) 111111 (B) 222222 (C) 444444 (D) 888888",
+      "solution_latex": "在两个连续整数中，其中一个是双数，一个是单数．一个双数和一个单数的和一定是一个单数，所以两个连续整数的和也定是单数．  在$$\\text{A}$$、$$\\text{B}$$、$$\\text{C}$$、$$\\text{D}$$，$$4$$个选项中，只有$$\\text{A}$$是单数，其余$$3$$个都是双数．  故答案选：$$\\text{A}$$",
+      "solution_plain": "在两个连续整数中，其中一个是双数，一个是单数．一个双数和一个单数的和一定是一个单数，所以两个连续整数的和也定是单数． 在 A 、 B 、 C 、 D ， 4 个选项中，只有 A 是单数，其余 3 个都是双数． 故答案选： A"
+    },
+    "answer": {
+      "final_raw": "111111",
+      "final_normalized": "111111",
+      "candidates": [
+        "111111",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "在两个连续整数中，其中一个是双数，一个是单数．一个双数和一个单数的和一定是一个单数，所以两个连续整数的和也定是单数．  在$$\\text{A}$$、$$\\text{B}$$、$$\\text{C}$$、$$\\text{D}$$，$$4$$个选项中，只有$$\\text{A}$$是单数，其余$$3$$个都是双数．  故答案选：$$\\text{A}$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "(2018 Math league, Primary 5, Question #13) Of the following, which is the sum of two consecutive integers? 下列哪个选项是 2 个连续整数的和？ (A) 111111 (B) 222222 (C) 444444 (D) 888888",
+      "solution_text": "在两个连续整数中，其中一个是双数，一个是单数．一个双数和一个单数的和一定是一个单数，所以两个连续整数的和也定是单数． 在 A 、 B 、 C 、 D ， 4 个选项中，只有 A 是单数，其余 3 个都是双数． 故答案选： A",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "581",
+        "queId": "0807671281324674a8d28c62ea90ca60",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "111111"
+          },
+          {
+            "label": "B",
+            "content": "222222"
+          },
+          {
+            "label": "C",
+            "content": "444444"
+          },
+          {
+            "label": "D",
+            "content": "888888"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->逻辑分析"
+        ],
+        "competition_source_list": [
+          "2018年美国数学大联盟杯五年级竞赛初赛第13题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:00796",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 796,
+      "split": "zh_train",
+      "source_problem_id": "a8f35f0ccdef45f5992c447c99d64e2f"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在大于$$2004$$的自然数中，有些数除以$$69$$的商和余数相等，这样的自然数的个数是（  ）\n(A) 28$$个\n(B) 40$$个\n(C) 68$$个\n(D) 无穷多个",
+      "problem_plain": "在大于 2004 的自然数中，有些数除以 69 的商和余数相等，这样的自然数的个数是（ ） (A) 28 个 (B) 40 个 (C) 68 个 (D) 无穷多个",
+      "solution_latex": "设符合要求的自然数为$$n$$，则$$n\\textgreater2004$$，且$$n=69q+q$$，$$0\\leqslant q\\leqslant 68$$。故而$$n=70q\\textgreater2004$$得$$q\\geqslant 29$$，因此$$29\\leqslant q\\leqslant 68$$，即$$q$$有$$68-29+1=40$$个，符合要求的自然数有$$40$$个，选B。",
+      "solution_plain": "设符合要求的自然数为 n ，则 n 2004 ，且 n=69q+q ， 0 q 68 。故而 n=70q 2004 得 q 29 ，因此 29 q 68 ，即 q 有 68-29+1=40 个，符合要求的自然数有 40 个，选B。"
+    },
+    "answer": {
+      "final_raw": "40$$个",
+      "final_normalized": "40$$个",
+      "candidates": [
+        "40$$个",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设符合要求的自然数为$$n$$，则$$n\\textgreater2004$$，且$$n=69q+q$$，$$0\\leqslant q\\leqslant 68$$。故而$$n=70q\\textgreater2004$$得$$q\\geqslant 29$$，因此$$29\\leqslant q\\leqslant 68$$，即$$q$$有$$68-29+1=40$$个，符合要求的自然数有$$40$$个，选B。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在大于 2004 的自然数中，有些数除以 69 的商和余数相等，这样的自然数的个数是（ ） (A) 28 个 (B) 40 个 (C) 68 个 (D) 无穷多个",
+      "solution_text": "设符合要求的自然数为 n ，则 n 2004 ，且 n=69q+q ， 0 q 68 。故而 n=70q 2004 得 q 29 ，因此 29 q 68 ，即 q 有 68-29+1=40 个，符合要求的自然数有 40 个，选B。",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "863",
+        "queId": "a8f35f0ccdef45f5992c447c99d64e2f",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "28$$个"
+          },
+          {
+            "label": "B",
+            "content": "40$$个"
+          },
+          {
+            "label": "C",
+            "content": "68$$个"
+          },
+          {
+            "label": "D",
+            "content": "无穷多个"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->余数问题->同余->同余定理"
+        ],
+        "competition_source_list": [
+          "2004年四年级竞赛创新杯",
+          "2004年第2届创新杯六年级竞赛初赛第8题",
+          "2004年五年级竞赛创新杯",
+          "2004年六年级竞赛创新杯"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:00804",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 804,
+      "split": "zh_train",
+      "source_problem_id": "ae1e79e9e157402b9e6f9e5f728ceed9"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "两个连续的非负整数的和不可能是~\\uline{~~~~~~~~~~}~．\n(A) 质数\n(B) 完全平方数\n(C) 13$$ 的倍数\n(D) 偶数",
+      "problem_plain": "两个连续的非负整数的和不可能是~ ~~~~~~~~~~ ~． (A) 质数 (B) 完全平方数 (C) 13 的倍数 (D) 偶数",
+      "solution_latex": "两个连续的非负整数的和不可能是偶数 ．",
+      "solution_plain": "两个连续的非负整数的和不可能是偶数 ．"
+    },
+    "answer": {
+      "final_raw": "偶数",
+      "final_normalized": "偶数",
+      "candidates": [
+        "D",
+        "偶数"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "两个连续的非负整数的和不可能是偶数 ．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "两个连续的非负整数的和不可能是~ ~~~~~~~~~~ ~． (A) 质数 (B) 完全平方数 (C) 13 的倍数 (D) 偶数",
+      "solution_text": "两个连续的非负整数的和不可能是偶数 ．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "901",
+        "queId": "ae1e79e9e157402b9e6f9e5f728ceed9",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "质数"
+          },
+          {
+            "label": "B",
+            "content": "完全平方数"
+          },
+          {
+            "label": "C",
+            "content": "13$$ 的倍数"
+          },
+          {
+            "label": "D",
+            "content": "偶数"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->逻辑分析"
+        ],
+        "competition_source_list": [
+          "2015年全国美国数学大联盟杯小学高年级五年级竞赛初赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:00841",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 841,
+      "split": "zh_train",
+      "source_problem_id": "04399a8724da4e958a6ddd5ba9c8e2d2"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$100$$以内，能同时被$$9$$和$$5$$整除的最大偶数是（~ ）．\n(A) 75\n(B) 85\n(C) 90\n(D) 95",
+      "problem_plain": "100 以内，能同时被 9 和 5 整除的最大偶数是（~ ）． (A) 75 (B) 85 (C) 90 (D) 95",
+      "solution_latex": "能同时被$$9$$和$$5$$整除的数一定能被$$45$$整除，所以$$100$$以内只有$$90$$符合题意．",
+      "solution_plain": "能同时被 9 和 5 整除的数一定能被 45 整除，所以 100 以内只有 90 符合题意．"
+    },
+    "answer": {
+      "final_raw": "90",
+      "final_normalized": "90",
+      "candidates": [
+        "90",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "能同时被$$9$$和$$5$$整除的数一定能被$$45$$整除，所以$$100$$以内只有$$90$$符合题意．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "100 以内，能同时被 9 和 5 整除的最大偶数是（~ ）． (A) 75 (B) 85 (C) 90 (D) 95",
+      "solution_text": "能同时被 9 和 5 整除的数一定能被 45 整除，所以 100 以内只有 90 符合题意．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "569",
+        "queId": "04399a8724da4e958a6ddd5ba9c8e2d2",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "75"
+          },
+          {
+            "label": "B",
+            "content": "85"
+          },
+          {
+            "label": "C",
+            "content": "90"
+          },
+          {
+            "label": "D",
+            "content": "95"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->奇数与偶数->奇数与偶数的认识"
+        ],
+        "competition_source_list": [
+          "2017年河南郑州小升初豫才杯第二场第11题",
+          "2017年河南郑州豫才杯竞赛第11题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:01102",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1102,
+      "split": "zh_train",
+      "source_problem_id": "a90ea7eb17f9454dbd046dae0efccf2e"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "古时候的原始人捕猎，捕到一只野兽对应一根手指．等到$$10$$根手指用完，就在绳子上打一个结，这就是运用现在的数学中的．\n(A) 出入相补原理\n(B) 等差数列求和\n(C) 十进制计数法\n(D) 四舍五入",
+      "problem_plain": "古时候的原始人捕猎，捕到一只野兽对应一根手指．等到 10 根手指用完，就在绳子上打一个结，这就是运用现在的数学中的． (A) 出入相补原理 (B) 等差数列求和 (C) 十进制计数法 (D) 四舍五入",
+      "solution_latex": "古时候的原始人捕猎运用现在的数学中的十进制计数法．",
+      "solution_plain": "古时候的原始人捕猎运用现在的数学中的十进制计数法．"
+    },
+    "answer": {
+      "final_raw": "十进制计数法",
+      "final_normalized": "十进制计数法",
+      "candidates": [
+        "C",
+        "十进制计数法"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "古时候的原始人捕猎运用现在的数学中的十进制计数法．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "古时候的原始人捕猎，捕到一只野兽对应一根手指．等到 10 根手指用完，就在绳子上打一个结，这就是运用现在的数学中的． (A) 出入相补原理 (B) 等差数列求和 (C) 十进制计数法 (D) 四舍五入",
+      "solution_text": "古时候的原始人捕猎运用现在的数学中的十进制计数法．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "872",
+        "queId": "a90ea7eb17f9454dbd046dae0efccf2e",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "出入相补原理"
+          },
+          {
+            "label": "B",
+            "content": "等差数列求和"
+          },
+          {
+            "label": "C",
+            "content": "十进制计数法"
+          },
+          {
+            "label": "D",
+            "content": "四舍五入"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->位值原理与进制->进制的性质与应用->进制的认识"
+        ],
+        "competition_source_list": [
+          "2013年第12届上海小机灵杯小学高年级五年级竞赛初赛第5题1分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:01436",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1436,
+      "split": "zh_train",
+      "source_problem_id": "450ab68529b348078d09b09d2de28aa9"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "下列各数中，读出的``零''最多．\n(A) 60006000\n(B) 60606060\n(C) 6006060",
+      "problem_plain": "下列各数中，读出的``零''最多． (A) 60006000 (B) 60606060 (C) 6006060",
+      "solution_latex": "$$60006000$$读作六千万六千，没有读出``零''；  $$60606060$$读作六千零六十万六千零六十，读了两个``零''；  $$6006060$$读作六百万六千零六十，读了一个``零''．  故选：$$\\text{B}$$．",
+      "solution_plain": "60006000 读作六千万六千，没有读出``零''； 60606060 读作六千零六十万六千零六十，读了两个``零''； 6006060 读作六百万六千零六十，读了一个``零''． 故选： B ．"
+    },
+    "answer": {
+      "final_raw": "60606060",
+      "final_normalized": "60606060",
+      "candidates": [
+        "60606060",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$60006000$$读作六千万六千，没有读出``零''；  $$60606060$$读作六千零六十万六千零六十，读了两个``零''；  $$6006060$$读作六百万六千零六十，读了一个``零''．  故选：$$\\text{B}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "下列各数中，读出的``零''最多． (A) 60006000 (B) 60606060 (C) 6006060",
+      "solution_text": "60006000 读作六千万六千，没有读出``零''； 60606060 读作六千零六十万六千零六十，读了两个``零''； 6006060 读作六百万六千零六十，读了一个``零''． 故选： B ．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "758",
+        "queId": "450ab68529b348078d09b09d2de28aa9",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "60006000"
+          },
+          {
+            "label": "B",
+            "content": "60606060"
+          },
+          {
+            "label": "C",
+            "content": "6006060"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->位值原理与进制->数与数字->数、数位、数字的认识"
+        ],
+        "competition_source_list": [
+          "2016年全国小学生数学学习能力测评四年级竞赛复赛第7题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:01820",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1820,
+      "split": "zh_train",
+      "source_problem_id": "7c4b93cfaaa74b3abd4acde315663beb"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "下列哪个选项是$$2$$个连续整数的和？\n(A) 111111\n(B) 222222\n(C) 444444\n(D) 888888",
+      "problem_plain": "下列哪个选项是 2 个连续整数的和？ (A) 111111 (B) 222222 (C) 444444 (D) 888888",
+      "solution_latex": "在两个连续整数中，其中一个是双数，一个是单数．一个双数和一个单数的和一定是一个单数，所以两个连续整数的和也定是单数．  在$$\\text{A}$$、$$\\text{B}$$、$$\\text{C}$$、$$\\text{D}$$，$$4$$个选项中，只有$$\\text{A}$$是单数，其余$$3$$个都是双数．  故答案选：$$\\text{A}$$",
+      "solution_plain": "在两个连续整数中，其中一个是双数，一个是单数．一个双数和一个单数的和一定是一个单数，所以两个连续整数的和也定是单数． 在 A 、 B 、 C 、 D ， 4 个选项中，只有 A 是单数，其余 3 个都是双数． 故答案选： A"
+    },
+    "answer": {
+      "final_raw": "111111",
+      "final_normalized": "111111",
+      "candidates": [
+        "111111",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "在两个连续整数中，其中一个是双数，一个是单数．一个双数和一个单数的和一定是一个单数，所以两个连续整数的和也定是单数．  在$$\\text{A}$$、$$\\text{B}$$、$$\\text{C}$$、$$\\text{D}$$，$$4$$个选项中，只有$$\\text{A}$$是单数，其余$$3$$个都是双数．  故答案选：$$\\text{A}$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "下列哪个选项是 2 个连续整数的和？ (A) 111111 (B) 222222 (C) 444444 (D) 888888",
+      "solution_text": "在两个连续整数中，其中一个是双数，一个是单数．一个双数和一个单数的和一定是一个单数，所以两个连续整数的和也定是单数． 在 A 、 B 、 C 、 D ， 4 个选项中，只有 A 是单数，其余 3 个都是双数． 故答案选： A",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "851",
+        "queId": "7c4b93cfaaa74b3abd4acde315663beb",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "111111"
+          },
+          {
+            "label": "B",
+            "content": "222222"
+          },
+          {
+            "label": "C",
+            "content": "444444"
+          },
+          {
+            "label": "D",
+            "content": "888888"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->对应思想"
+        ],
+        "competition_source_list": [
+          "2018年美国数学大联盟杯五年级竞赛初赛第13题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:01868",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1868,
+      "split": "zh_train",
+      "source_problem_id": "c8ef2561213f406189e50885335b32d7"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一个奇数乘$$3$$以后将会是 （~ ~ ）.\n(A) 质数\n(B) 合数\n(C) 奇数\n(D) 偶数",
+      "problem_plain": "一个奇数乘 3 以后将会是 （~ ~ ）. (A) 质数 (B) 合数 (C) 奇数 (D) 偶数",
+      "solution_latex": "奇数$$\\times 3$$只能是奇数．最容易做错的是选合数，反例：$$1\\times 3=3$$，$$3$$不是合数．",
+      "solution_plain": "奇数 3 只能是奇数．最容易做错的是选合数，反例： 1 3=3 ， 3 不是合数．"
+    },
+    "answer": {
+      "final_raw": "奇数",
+      "final_normalized": "奇数",
+      "candidates": [
+        "C",
+        "奇数"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "奇数$$\\times 3$$只能是奇数．最容易做错的是选合数，反例：$$1\\times 3=3$$，$$3$$不是合数．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一个奇数乘 3 以后将会是 （~ ~ ）. (A) 质数 (B) 合数 (C) 奇数 (D) 偶数",
+      "solution_text": "奇数 3 只能是奇数．最容易做错的是选合数，反例： 1 3=3 ， 3 不是合数．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "870",
+        "queId": "c8ef2561213f406189e50885335b32d7",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "质数"
+          },
+          {
+            "label": "B",
+            "content": "合数"
+          },
+          {
+            "label": "C",
+            "content": "奇数"
+          },
+          {
+            "label": "D",
+            "content": "偶数"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->奇数与偶数->奇数与偶数的乘法规律"
+        ],
+        "competition_source_list": [
+          "2016年全国美国数学大联盟杯小学中年级三年级竞赛初赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:01933",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1933,
+      "split": "zh_train",
+      "source_problem_id": "10612f786d98473682cdaba3ad156342"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在整数$$0$$、$$1$$、$$2$$、$$3$$、$$4$$、$$5$$、$$6$$、$$7$$、$$8$$、$$9$$中，质数的个数为$$x$$，偶数有$$y$$个，完全平方数的个数为$$z$$．则$$x+y+z$$ 等于．\n(A) 14\n(B) 13\n(C) 12\n(D) 11",
+      "problem_plain": "在整数 0 、 1 、 2 、 3 、 4 、 5 、 6 、 7 、 8 、 9 中，质数的个数为 x ，偶数有 y 个，完全平方数的个数为 z ．则 x+y+z 等于． (A) 14 (B) 13 (C) 12 (D) 11",
+      "solution_latex": "质数有$$4$$个，偶数有$$5$$个，完全平方数有$$4$$个（$$0$$也是）$$4+5+4=13$$．",
+      "solution_plain": "质数有 4 个，偶数有 5 个，完全平方数有 4 个（ 0 也是） 4+5+4=13 ．"
+    },
+    "answer": {
+      "final_raw": "13",
+      "final_normalized": "13",
+      "candidates": [
+        "13",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "质数有$$4$$个，偶数有$$5$$个，完全平方数有$$4$$个（$$0$$也是）$$4+5+4=13$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在整数 0 、 1 、 2 、 3 、 4 、 5 、 6 、 7 、 8 、 9 中，质数的个数为 x ，偶数有 y 个，完全平方数的个数为 z ．则 x+y+z 等于． (A) 14 (B) 13 (C) 12 (D) 11",
+      "solution_text": "质数有 4 个，偶数有 5 个，完全平方数有 4 个（ 0 也是） 4+5+4=13 ．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "607",
+        "queId": "10612f786d98473682cdaba3ad156342",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "14"
+          },
+          {
+            "label": "B",
+            "content": "13"
+          },
+          {
+            "label": "C",
+            "content": "12"
+          },
+          {
+            "label": "D",
+            "content": "11"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->数论模块->完全平方数->平方数的简单应用"
+        ],
+        "competition_source_list": [
+          "2014年全国创新杯五年级竞赛第1题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:02001",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2001,
+      "split": "zh_train",
+      "source_problem_id": "ac6ec3620e924e609ef65fa41355bcbc"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "【SZ】已知$${{x}^{2}}+ax-12$$能分解成两个整系数的一次因式的乘积，则符合条件的整数$$a$$的个数是．\n(A) 3$$个\n(B) 4$$个\n(C) 6$$个\n(D) 8$$个",
+      "problem_plain": "【SZ】已知 x ^ 2 +ax-12 能分解成两个整系数的一次因式的乘积，则符合条件的整数 a 的个数是． (A) 3 个 (B) 4 个 (C) 6 个 (D) 8 个",
+      "solution_latex": "设$${{x}^{2}}+ax-12=(x+m)(x+n)$$（$$m$$，$$n$$为整数），  则$$a=m+n$$，$$mn=-12$$共有$$6$$种结果．",
+      "solution_plain": "设 x ^ 2 +ax-12=(x+m)(x+n) （ m ， n 为整数）， 则 a=m+n ， mn=-12 共有 6 种结果．"
+    },
+    "answer": {
+      "final_raw": "6$$个",
+      "final_normalized": "6$$个",
+      "candidates": [
+        "6$$个",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设$${{x}^{2}}+ax-12=(x+m)(x+n)$$（$$m$$，$$n$$为整数），  则$$a=m+n$$，$$mn=-12$$共有$$6$$种结果．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "【SZ】已知 x ^ 2 +ax-12 能分解成两个整系数的一次因式的乘积，则符合条件的整数 a 的个数是． (A) 3 个 (B) 4 个 (C) 6 个 (D) 8 个",
+      "solution_text": "设 x ^ 2 +ax-12=(x+m)(x+n) （ m ， n 为整数）， 则 a=m+n ， mn=-12 共有 6 种结果．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "728",
+        "queId": "ac6ec3620e924e609ef65fa41355bcbc",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3$$个"
+          },
+          {
+            "label": "B",
+            "content": "4$$个"
+          },
+          {
+            "label": "C",
+            "content": "6$$个"
+          },
+          {
+            "label": "D",
+            "content": "8$$个"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->式->因式分解->因式分解的基础->已知因式分解结果求参数"
+        ],
+        "competition_source_list": [
+          "2017~2018学年5月四川成都天府新区 成都市实验外国语学校（西区）初二下学期月考第10题3分",
+          "2019~2020学年3月浙江杭州滨江区杭二中白马湖学校初一下学期周测C卷第9题",
+          "初二其它",
+          "1996年第7届希望杯初二竞赛第3题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:02102",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2102,
+      "split": "zh_train",
+      "source_problem_id": "ff8080814cfa9b24014cfe9600870a3b"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$${{x}^{2}}+ax-12$$能分解成两个整数系数的一次因式的乘积，则符合条件的整数$$a$$的个数是．\n(A) 3$$个\n(B) 4$$个\n(C) 6$$个\n(D) 8$$个",
+      "problem_plain": "已知 x ^ 2 +ax-12 能分解成两个整数系数的一次因式的乘积，则符合条件的整数 a 的个数是． (A) 3 个 (B) 4 个 (C) 6 个 (D) 8 个",
+      "solution_latex": "设$$x^{2}+ax-12$$能分解成两个整数系数的一次因式的乘积，  即$$x^{2}+ax-12=(x+m)(x+n)$$，$$m$$，$$n$$是整数，  $$\\therefore x^{2}+ax-12=x^{2}+(m+n)x+mn$$，  $$\\therefore \\begin{cases}mn=-12 \\m+n=a\\end{cases}$$，  $$\\because m$$，$$n$$是整数，且$$mn=-12$$，  有$$\\begin{cases}m=12 \\n=-1\\end{cases}$$，$$\\begin{cases}m=-1 \\n=12\\end{cases}$$，$$\\begin{cases}m=6 \\n=-2\\end{cases}$$，$$\\begin{cases}m=-2 \\n=6\\end{cases}$$，  $$\\begin{cases}m=4 \\n=-3\\end{cases}$$，$$\\begin{cases}m=-3 \\n=4\\end{cases}$$，$$\\begin{cases}m=3 \\n=-4\\end{cases}$$，$$\\begin{cases}m=-3 \\n=4\\end{cases}$$，$$\\begin{cases}m=2 \\n=-6\\end{cases}$$，  $$\\begin{cases}m=-6 \\n=2\\end{cases}$$，$$\\begin{cases}m=1 \\n=-12\\end{cases}$$，$$\\begin{cases}m=-12 \\n=1\\end{cases}$$，共$$12$$种情况．  而$$a=m+n$$，只有$$6$$种结果，  故选$$\\text{C}$$．",
+      "solution_plain": "设 x^ 2 +ax-12 能分解成两个整数系数的一次因式的乘积， 即 x^ 2 +ax-12=(x+m)(x+n) ， m ， n 是整数， x^ 2 +ax-12=x^ 2 +(m+n)x+mn ， cases mn=-12 +n=a cases ， m ， n 是整数，且 mn=-12 ， 有 cases m=12 =-1 cases ， cases m=-1 =12 cases ， cases m=6 =-2 cases ， cases m=-2 =6 cases ， cases m=4 =-3 cases ， cases m=-3 =4 cases ， cases m=3 =-4 cases ， cases m=-3 =4 cases ， cases m=2 =-6 cases ， cases m=-6 =2 cases ， cases m=1 =-12 cases ， cases m=-12 =1 cases ，共 12 种情况． 而 a=m+n ，只有 6 种结果， 故选 C ．"
+    },
+    "answer": {
+      "final_raw": "6$$个",
+      "final_normalized": "6$$个",
+      "candidates": [
+        "6$$个",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设$$x^{2}+ax-12$$能分解成两个整数系数的一次因式的乘积，  即$$x^{2}+ax-12=(x+m)(x+n)$$，$$m$$，$$n$$是整数，  $$\\therefore x^{2}+ax-12=x^{2}+(m+n)x+mn$$，  $$\\therefore \\begin{cases}mn=-12 \\m+n=a\\end{cases}$$，  $$\\because m$$，$$n$$是整数，且$$mn=-12$$，  有$$\\begin{cases}m=12 \\n=-1\\end{cases}$$，$$\\begin{cases}m=-1 \\n=12\\end{cases}$$，$$\\begin{cases}m=6 \\n=-2\\end{cases}$$，$$\\begin{cases}m=-2 \\n=6\\end{cases}$$，  $$\\begin{cases}m=4 \\n=-3\\end{cases}$$，$$\\begin{cases}m=-3 \\n=4\\end{cases}$$，$$\\begin{cases}m=3 \\n=-4\\end{cases}$$，$$\\begin{cases}m=-3 \\n=4\\end{cases}$$，$$\\begin{cases}m=2 \\n=-6\\end{cases}$$，  $$\\begin{cases}m=-6 \\n=2\\end{cases}$$，$$\\begin{cases}m=1 \\n=-12\\end{cases}$$，$$\\begin{cases}m=-12 \\n=1\\end{cases}$$，共$$12$$种情况．  而$$a=m+n$$，只有$$6$$种结果，  故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 x ^ 2 +ax-12 能分解成两个整数系数的一次因式的乘积，则符合条件的整数 a 的个数是． (A) 3 个 (B) 4 个 (C) 6 个 (D) 8 个",
+      "solution_text": "设 x^ 2 +ax-12 能分解成两个整数系数的一次因式的乘积， 即 x^ 2 +ax-12=(x+m)(x+n) ， m ， n 是整数， x^ 2 +ax-12=x^ 2 +(m+n)x+mn ， cases mn=-12 +n=a cases ， m ， n 是整数，且 mn=-12 ， 有 cases m=12 =-1 cases ， cases m=-1 =12 cases ， cases m=6 =-2 cases ， cases m=-2 =6 cases ， cases m=4 =-3 cases ， cases m=-3 =4 cases ， cases m=3 =-4 cases ， cases m=-3 =4 cases ， cases m=2 =-6 cases ， cases m=-6 =2 cases ， cases m=1 =-12 cases ， cases m=-12 =1 cases ，共 12 种情况． 而 a=m+n ，只有 6 种结果， 故选 C ．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "984",
+        "queId": "ff8080814cfa9b24014cfe9600870a3b",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3$$个"
+          },
+          {
+            "label": "B",
+            "content": "4$$个"
+          },
+          {
+            "label": "C",
+            "content": "6$$个"
+          },
+          {
+            "label": "D",
+            "content": "8$$个"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->运算能力",
+          "课内体系->知识点->式->因式分解->因式分解的基础->已知因式分解结果求参数"
+        ],
+        "competition_source_list": [
+          "上海自主招生近5年（2015-2019）真题题型分类汇编第15题",
+          "2017~2018学年5月四川成都天府新区 成都市实验外国语学校（西区）初二下学期月考第10题3分",
+          "2019~2020学年3月浙江杭州滨江区杭州二中白马湖学校初一下学期周测C卷第9题",
+          "初二其它",
+          "1996年第7届希望杯初二竞赛第3题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:02125",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2125,
+      "split": "zh_train",
+      "source_problem_id": "69cd5e4311bc4895a9b87571fc3b1b65"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$${{x}^{2}}+ax-12$$能分解成两个整数系数的一次因式的乘积，则符合条件的整数$$a$$的个数是．\n(A) 3$$个\n(B) 4$$个\n(C) 6$$个\n(D) 8$$个",
+      "problem_plain": "已知 x ^ 2 +ax-12 能分解成两个整数系数的一次因式的乘积，则符合条件的整数 a 的个数是． (A) 3 个 (B) 4 个 (C) 6 个 (D) 8 个",
+      "solution_latex": "设$$x^{2}+ax-12$$能分解成两个整数系数的一次因式的乘积，  即$$x^{2}+ax-12=(x+m)(x+n)$$，$$m$$，$$n$$是整数，  $$\\therefore x^{2}+ax-12=x^{2}+(m+n)x+mn$$，  $$\\therefore \\begin{cases}mn=-12 \\m+n=a\\end{cases}$$，  $$\\because m$$，$$n$$是整数，且$$mn=-12$$，  有$$\\begin{cases}m=12 \\n=-1\\end{cases}$$，$$\\begin{cases}m=-1 \\n=12\\end{cases}$$，$$\\begin{cases}m=6 \\n=-2\\end{cases}$$，$$\\begin{cases}m=-2 \\n=6\\end{cases}$$，  $$\\begin{cases}m=4 \\n=-3\\end{cases}$$，$$\\begin{cases}m=-3 \\n=4\\end{cases}$$，$$\\begin{cases}m=3 \\n=-4\\end{cases}$$，$$\\begin{cases}m=-3 \\n=4\\end{cases}$$，$$\\begin{cases}m=2 \\n=-6\\end{cases}$$，  $$\\begin{cases}m=-6 \\n=2\\end{cases}$$，$$\\begin{cases}m=1 \\n=-12\\end{cases}$$，$$\\begin{cases}m=-12 \\n=1\\end{cases}$$，共$$12$$种情况．  而$$a=m+n$$，只有$$6$$种结果，  故选$$\\text{C}$$．",
+      "solution_plain": "设 x^ 2 +ax-12 能分解成两个整数系数的一次因式的乘积， 即 x^ 2 +ax-12=(x+m)(x+n) ， m ， n 是整数， x^ 2 +ax-12=x^ 2 +(m+n)x+mn ， cases mn=-12 +n=a cases ， m ， n 是整数，且 mn=-12 ， 有 cases m=12 =-1 cases ， cases m=-1 =12 cases ， cases m=6 =-2 cases ， cases m=-2 =6 cases ， cases m=4 =-3 cases ， cases m=-3 =4 cases ， cases m=3 =-4 cases ， cases m=-3 =4 cases ， cases m=2 =-6 cases ， cases m=-6 =2 cases ， cases m=1 =-12 cases ， cases m=-12 =1 cases ，共 12 种情况． 而 a=m+n ，只有 6 种结果， 故选 C ．"
+    },
+    "answer": {
+      "final_raw": "6$$个",
+      "final_normalized": "6$$个",
+      "candidates": [
+        "6$$个",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设$$x^{2}+ax-12$$能分解成两个整数系数的一次因式的乘积，  即$$x^{2}+ax-12=(x+m)(x+n)$$，$$m$$，$$n$$是整数，  $$\\therefore x^{2}+ax-12=x^{2}+(m+n)x+mn$$，  $$\\therefore \\begin{cases}mn=-12 \\m+n=a\\end{cases}$$，  $$\\because m$$，$$n$$是整数，且$$mn=-12$$，  有$$\\begin{cases}m=12 \\n=-1\\end{cases}$$，$$\\begin{cases}m=-1 \\n=12\\end{cases}$$，$$\\begin{cases}m=6 \\n=-2\\end{cases}$$，$$\\begin{cases}m=-2 \\n=6\\end{cases}$$，  $$\\begin{cases}m=4 \\n=-3\\end{cases}$$，$$\\begin{cases}m=-3 \\n=4\\end{cases}$$，$$\\begin{cases}m=3 \\n=-4\\end{cases}$$，$$\\begin{cases}m=-3 \\n=4\\end{cases}$$，$$\\begin{cases}m=2 \\n=-6\\end{cases}$$，  $$\\begin{cases}m=-6 \\n=2\\end{cases}$$，$$\\begin{cases}m=1 \\n=-12\\end{cases}$$，$$\\begin{cases}m=-12 \\n=1\\end{cases}$$，共$$12$$种情况．  而$$a=m+n$$，只有$$6$$种结果，  故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 x ^ 2 +ax-12 能分解成两个整数系数的一次因式的乘积，则符合条件的整数 a 的个数是． (A) 3 个 (B) 4 个 (C) 6 个 (D) 8 个",
+      "solution_text": "设 x^ 2 +ax-12 能分解成两个整数系数的一次因式的乘积， 即 x^ 2 +ax-12=(x+m)(x+n) ， m ， n 是整数， x^ 2 +ax-12=x^ 2 +(m+n)x+mn ， cases mn=-12 +n=a cases ， m ， n 是整数，且 mn=-12 ， 有 cases m=12 =-1 cases ， cases m=-1 =12 cases ， cases m=6 =-2 cases ， cases m=-2 =6 cases ， cases m=4 =-3 cases ， cases m=-3 =4 cases ， cases m=3 =-4 cases ， cases m=-3 =4 cases ， cases m=2 =-6 cases ， cases m=-6 =2 cases ， cases m=1 =-12 cases ， cases m=-12 =1 cases ，共 12 种情况． 而 a=m+n ，只有 6 种结果， 故选 C ．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "880",
+        "queId": "69cd5e4311bc4895a9b87571fc3b1b65",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3$$个"
+          },
+          {
+            "label": "B",
+            "content": "4$$个"
+          },
+          {
+            "label": "C",
+            "content": "6$$个"
+          },
+          {
+            "label": "D",
+            "content": "8$$个"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->式->因式分解->因式分解的基础->已知因式分解结果求参数",
+          "课内体系->能力->运算能力"
+        ],
+        "competition_source_list": [
+          "1996年第7届希望杯初二竞赛第3题",
+          "上海自主招生近5年（2015-2019）真题题型分类汇编第15题",
+          "2017~2018学年5月四川成都天府新区 成都市实验外国语学校（西区）初二下学期月考第10题3分",
+          "初二其它",
+          "2019~2020学年3月浙江杭州滨江区杭州二中白马湖学校初一下学期周测C卷第9题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:02310",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2310,
+      "split": "zh_train",
+      "source_problem_id": "055a5cdc0062482eb035244d84d99b3e"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$${{x}^{2}}+ax-12$$能分解成两个整数系数的一次因式的乘积，则符合条件的整数$$a$$的个数是．\n(A) 3$$个\n(B) 4$$个\n(C) 6$$个\n(D) 8$$个",
+      "problem_plain": "已知 x ^ 2 +ax-12 能分解成两个整数系数的一次因式的乘积，则符合条件的整数 a 的个数是． (A) 3 个 (B) 4 个 (C) 6 个 (D) 8 个",
+      "solution_latex": "设$$x^{2}+ax-12$$能分解成两个整数系数的一次因式的乘积，  即$$x^{2}+ax-12=(x+m)(x+n)$$，$$m$$，$$n$$是整数，  $$\\therefore x^{2}+ax-12=x^{2}+(m+n)x+mn$$，  $$\\therefore \\begin{cases}mn=-12 \\m+n=a\\end{cases}$$，  $$\\because m$$，$$n$$是整数，且$$mn=-12$$，  有$$\\begin{cases}m=12 \\n=-1\\end{cases}$$，$$\\begin{cases}m=-1 \\n=12\\end{cases}$$，$$\\begin{cases}m=6 \\n=-2\\end{cases}$$，$$\\begin{cases}m=-2 \\n=6\\end{cases}$$，  $$\\begin{cases}m=4 \\n=-3\\end{cases}$$，$$\\begin{cases}m=-3 \\n=4\\end{cases}$$，$$\\begin{cases}m=3 \\n=-4\\end{cases}$$，$$\\begin{cases}m=-3 \\n=4\\end{cases}$$，$$\\begin{cases}m=2 \\n=-6\\end{cases}$$，  $$\\begin{cases}m=-6 \\n=2\\end{cases}$$，$$\\begin{cases}m=1 \\n=-12\\end{cases}$$，$$\\begin{cases}m=-12 \\n=1\\end{cases}$$，共$$12$$种情况．  而$$a=m+n$$，只有$$6$$种结果，  故选$$\\text{C}$$．",
+      "solution_plain": "设 x^ 2 +ax-12 能分解成两个整数系数的一次因式的乘积， 即 x^ 2 +ax-12=(x+m)(x+n) ， m ， n 是整数， x^ 2 +ax-12=x^ 2 +(m+n)x+mn ， cases mn=-12 +n=a cases ， m ， n 是整数，且 mn=-12 ， 有 cases m=12 =-1 cases ， cases m=-1 =12 cases ， cases m=6 =-2 cases ， cases m=-2 =6 cases ， cases m=4 =-3 cases ， cases m=-3 =4 cases ， cases m=3 =-4 cases ， cases m=-3 =4 cases ， cases m=2 =-6 cases ， cases m=-6 =2 cases ， cases m=1 =-12 cases ， cases m=-12 =1 cases ，共 12 种情况． 而 a=m+n ，只有 6 种结果， 故选 C ．"
+    },
+    "answer": {
+      "final_raw": "6$$个",
+      "final_normalized": "6$$个",
+      "candidates": [
+        "6$$个",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设$$x^{2}+ax-12$$能分解成两个整数系数的一次因式的乘积，  即$$x^{2}+ax-12=(x+m)(x+n)$$，$$m$$，$$n$$是整数，  $$\\therefore x^{2}+ax-12=x^{2}+(m+n)x+mn$$，  $$\\therefore \\begin{cases}mn=-12 \\m+n=a\\end{cases}$$，  $$\\because m$$，$$n$$是整数，且$$mn=-12$$，  有$$\\begin{cases}m=12 \\n=-1\\end{cases}$$，$$\\begin{cases}m=-1 \\n=12\\end{cases}$$，$$\\begin{cases}m=6 \\n=-2\\end{cases}$$，$$\\begin{cases}m=-2 \\n=6\\end{cases}$$，  $$\\begin{cases}m=4 \\n=-3\\end{cases}$$，$$\\begin{cases}m=-3 \\n=4\\end{cases}$$，$$\\begin{cases}m=3 \\n=-4\\end{cases}$$，$$\\begin{cases}m=-3 \\n=4\\end{cases}$$，$$\\begin{cases}m=2 \\n=-6\\end{cases}$$，  $$\\begin{cases}m=-6 \\n=2\\end{cases}$$，$$\\begin{cases}m=1 \\n=-12\\end{cases}$$，$$\\begin{cases}m=-12 \\n=1\\end{cases}$$，共$$12$$种情况．  而$$a=m+n$$，只有$$6$$种结果，  故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 x ^ 2 +ax-12 能分解成两个整数系数的一次因式的乘积，则符合条件的整数 a 的个数是． (A) 3 个 (B) 4 个 (C) 6 个 (D) 8 个",
+      "solution_text": "设 x^ 2 +ax-12 能分解成两个整数系数的一次因式的乘积， 即 x^ 2 +ax-12=(x+m)(x+n) ， m ， n 是整数， x^ 2 +ax-12=x^ 2 +(m+n)x+mn ， cases mn=-12 +n=a cases ， m ， n 是整数，且 mn=-12 ， 有 cases m=12 =-1 cases ， cases m=-1 =12 cases ， cases m=6 =-2 cases ， cases m=-2 =6 cases ， cases m=4 =-3 cases ， cases m=-3 =4 cases ， cases m=3 =-4 cases ， cases m=-3 =4 cases ， cases m=2 =-6 cases ， cases m=-6 =2 cases ， cases m=1 =-12 cases ， cases m=-12 =1 cases ，共 12 种情况． 而 a=m+n ，只有 6 种结果， 故选 C ．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "28",
+        "queId": "055a5cdc0062482eb035244d84d99b3e",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3$$个"
+          },
+          {
+            "label": "B",
+            "content": "4$$个"
+          },
+          {
+            "label": "C",
+            "content": "6$$个"
+          },
+          {
+            "label": "D",
+            "content": "8$$个"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->运算能力",
+          "课内体系->知识点->式->因式分解->因式分解的基础->已知因式分解结果求参数"
+        ],
+        "competition_source_list": [
+          "2019~2020学年3月浙江杭州滨江区杭州二中白马湖学校初一下学期周测C卷第9题",
+          "第7届希望杯初二竞赛第3题",
+          "2017~2018学年5月四川成都天府新区 成都市实验外国语学校（西区）初二下学期月考第10题3分",
+          "上海自主招生近5年（2015-2019）真题题型分类汇编第15题",
+          "初二其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:02329",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2329,
+      "split": "zh_train",
+      "source_problem_id": "88d776d4e351433594aa13d0c8c74ba6"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "不等式组$$\\begin{cases}x-4\\leqslant 8-2x    x\\textgreater-\\dfrac{2}{3} \\end{cases}$$的最小整数解是（~ ）．\n(A) -1\n(B) 0\n(C) 1\n(D) 4",
+      "problem_plain": "不等式组 cases x-4 8-2x x - 2 3 cases 的最小整数解是（~ ）． (A) -1 (B) 0 (C) 1 (D) 4",
+      "solution_latex": "解$$x-4\\leqslant 8-2x$$，得$$x\\leqslant 4$$，  故原不等式的解为$$-\\frac{2}{3}\\textless{}x\\leqslant 4$$，  所以，原不等式组的最小整数解是$$x=0$$．",
+      "solution_plain": "解 x-4 8-2x ，得 x 4 ， 故原不等式的解为 - 2 3 x 4 ， 所以，原不等式组的最小整数解是 x=0 ．"
+    },
+    "answer": {
+      "final_raw": "0",
+      "final_normalized": "0",
+      "candidates": [
+        "0",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "解$$x-4\\leqslant 8-2x$$，得$$x\\leqslant 4$$，  故原不等式的解为$$-\\frac{2}{3}\\textless{}x\\leqslant 4$$，  所以，原不等式组的最小整数解是$$x=0$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "不等式组 cases x-4 8-2x x - 2 3 cases 的最小整数解是（~ ）． (A) -1 (B) 0 (C) 1 (D) 4",
+      "solution_text": "解 x-4 8-2x ，得 x 4 ， 故原不等式的解为 - 2 3 x 4 ， 所以，原不等式组的最小整数解是 x=0 ．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "780",
+        "queId": "88d776d4e351433594aa13d0c8c74ba6",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "-1"
+          },
+          {
+            "label": "B",
+            "content": "0"
+          },
+          {
+            "label": "C",
+            "content": "1"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->方程与不等式->不等式（组）->一元一次不等式组->一元一次不等式组的整数解",
+          "课内体系->知识点->方程与不等式->不等式（组）->一元一次不等式组->解一元一次不等式组",
+          "课内体系->能力->运算能力"
+        ],
+        "competition_source_list": [
+          "2014年第25届全国希望杯初二竞赛复赛第4题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:02502",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2502,
+      "split": "zh_train",
+      "source_problem_id": "9a6acc98891c444ab037d9f2efeb4aab"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$$z={{(\\sqrt{3}-3\\text i)}^{n}}$$, 若$$z$$为实数，则最小的正整数$$n$$的值为．\n(A) 3\n(B) 4\n(C) 5\n(D) 6",
+      "problem_plain": "已知 z= ( 3 -3 i) ^ n , 若 z 为实数，则最小的正整数 n 的值为． (A) 3 (B) 4 (C) 5 (D) 6",
+      "solution_latex": "$$z={{(\\sqrt{3}-3\\text i)}^{n}}={{(-2\\sqrt{3})}^{n}}{{(-\\frac{1}{2}+\\frac{\\sqrt{3}}{2}\\text i)}^{n}}$$，$$n=3$$是使$$z$$为实数的最小的正整数．",
+      "solution_plain": "z= ( 3 -3 i) ^ n = (-2 3 ) ^ n (- 1 2 + 3 2 i) ^ n ， n=3 是使 z 为实数的最小的正整数．"
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$z={{(\\sqrt{3}-3\\text i)}^{n}}={{(-2\\sqrt{3})}^{n}}{{(-\\frac{1}{2}+\\frac{\\sqrt{3}}{2}\\text i)}^{n}}$$，$$n=3$$是使$$z$$为实数的最小的正整数．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 z= ( 3 -3 i) ^ n , 若 z 为实数，则最小的正整数 n 的值为． (A) 3 (B) 4 (C) 5 (D) 6",
+      "solution_text": "z= ( 3 -3 i) ^ n = (-2 3 ) ^ n (- 1 2 + 3 2 i) ^ n ， n=3 是使 z 为实数的最小的正整数．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "713",
+        "queId": "9a6acc98891c444ab037d9f2efeb4aab",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "4"
+          },
+          {
+            "label": "C",
+            "content": "5"
+          },
+          {
+            "label": "D",
+            "content": "6"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->复数与平面向量->复数的概念与运算"
+        ],
+        "competition_source_list": [
+          "2011年山东全国高中数学联赛竞赛初赛第2题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:02711",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2711,
+      "split": "zh_train",
+      "source_problem_id": "eb5553dd1e034f6f853a8fc3fd04f9fe"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "从$$0$$，$$1$$，$$\\cdots $$，$$9$$这十个号码中任意抽取三个，其中至少有两个号码是连续整数的概率为~\\uline{~~~~~~~~~~}~．\n(A) \\frac{7}{15}\n(B) \\frac{8}{15}\n(C) \\frac{2}{5}\n(D) \\frac{3}{5}\n(E) \\frac{1}{2}",
+      "problem_plain": "从 0 ， 1 ， ， 9 这十个号码中任意抽取三个，其中至少有两个号码是连续整数的概率为~ ~~~~~~~~~~ ~． (A) 7 15 (B) 8 15 (C) 2 5 (D) 3 5 (E) 1 2",
+      "solution_latex": "设抽出的号码$$i$$，$$j$$，$$k$$（$$0\\leqslant i\\textless{}j\\textless{}k\\leqslant 9$$）中任何两个均不相邻，  则$$i$$，$$j-1$$，$$k-2$$互不相邻，且只能从$$ {0,1,\\cdots ,7 }$$中取值，  故所求的概率$$ p=1- \\frac{\\text{C}_{8}^{3}}{\\text{C}_{15}^{3}}= \\frac{8}{15}$$．",
+      "solution_plain": "设抽出的号码 i ， j ， k （ 0 i j k 9 ）中任何两个均不相邻， 则 i ， j-1 ， k-2 互不相邻，且只能从 0,1, ,7 中取值， 故所求的概率 p=1- C _ 8 ^ 3 C _ 15 ^ 3 = 8 15 ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{8}{15}",
+      "final_normalized": "\\frac{8}{15}",
+      "candidates": [
+        "B",
+        "\\frac{8}{15}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设抽出的号码$$i$$，$$j$$，$$k$$（$$0\\leqslant i\\textless{}j\\textless{}k\\leqslant 9$$）中任何两个均不相邻，  则$$i$$，$$j-1$$，$$k-2$$互不相邻，且只能从$$ {0,1,\\cdots ,7 }$$中取值，  故所求的概率$$ p=1- \\frac{\\text{C}_{8}^{3}}{\\text{C}_{15}^{3}}= \\frac{8}{15}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "从 0 ， 1 ， ， 9 这十个号码中任意抽取三个，其中至少有两个号码是连续整数的概率为~ ~~~~~~~~~~ ~． (A) 7 15 (B) 8 15 (C) 2 5 (D) 3 5 (E) 1 2",
+      "solution_text": "设抽出的号码 i ， j ， k （ 0 i j k 9 ）中任何两个均不相邻， 则 i ， j-1 ， k-2 互不相邻，且只能从 0,1, ,7 中取值， 故所求的概率 p=1- C _ 8 ^ 3 C _ 15 ^ 3 = 8 15 ．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1173",
+        "queId": "eb5553dd1e034f6f853a8fc3fd04f9fe",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{7}{15}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{8}{15}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{2}{5}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{3}{5}"
+          },
+          {
+            "label": "E",
+            "content": "\\frac{1}{2}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->排列组合与概率->两个基本计数原理",
+          "竞赛->知识点->排列组合与概率->概率初步",
+          "竞赛->知识点->排列组合与概率->排列与组合",
+          "课内体系->知识点->计数原理"
+        ],
+        "competition_source_list": [
+          "全国高中数学联赛竞赛模拟一试（五）第3题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:02884",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2884,
+      "split": "zh_train",
+      "source_problem_id": "2a6ee04e44814636a32300a25839dd56"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "称横坐标为整数的点为``次整点''，过曲线$$y=\\sqrt{9-{{x}^{2}}}$$上任意两个次整点作直线，则倾斜角大于$$30{}^{}\\circ $$的直线条数为．\n(A) 12\n(B) 13\n(C) 14\n(D) 15",
+      "problem_plain": "称横坐标为整数的点为``次整点''，过曲线 y= 9- x ^ 2 上任意两个次整点作直线，则倾斜角大于 30 ^ 的直线条数为． (A) 12 (B) 13 (C) 14 (D) 15",
+      "solution_latex": "次整点有$$\\left( \\pm 3,0 \\right)$$，$$\\left( \\pm 2,\\sqrt{5} \\right)$$，$$\\left( \\pm 1,2\\sqrt{2} \\right)$$，$$\\left( 0,3 \\right)$$，斜率为负的直线都满足要求，共有$$5+3+1=9$$条，斜率为正的只有$$5$$条满足要求，总共$$9+5=14$$条．",
+      "solution_plain": "次整点有 ( 3,0 ) ， ( 2, 5 ) ， ( 1,2 2 ) ， ( 0,3 ) ，斜率为负的直线都满足要求，共有 5+3+1=9 条，斜率为正的只有 5 条满足要求，总共 9+5=14 条．"
+    },
+    "answer": {
+      "final_raw": "14",
+      "final_normalized": "14",
+      "candidates": [
+        "14",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "次整点有$$\\left( \\pm 3,0 \\right)$$，$$\\left( \\pm 2,\\sqrt{5} \\right)$$，$$\\left( \\pm 1,2\\sqrt{2} \\right)$$，$$\\left( 0,3 \\right)$$，斜率为负的直线都满足要求，共有$$5+3+1=9$$条，斜率为正的只有$$5$$条满足要求，总共$$9+5=14$$条．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "称横坐标为整数的点为``次整点''，过曲线 y= 9- x ^ 2 上任意两个次整点作直线，则倾斜角大于 30 ^ 的直线条数为． (A) 12 (B) 13 (C) 14 (D) 15",
+      "solution_text": "次整点有 ( 3,0 ) ， ( 2, 5 ) ， ( 1,2 2 ) ， ( 0,3 ) ，斜率为负的直线都满足要求，共有 5+3+1=9 条，斜率为正的只有 5 条满足要求，总共 9+5=14 条．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "124",
+        "queId": "2a6ee04e44814636a32300a25839dd56",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "12"
+          },
+          {
+            "label": "B",
+            "content": "13"
+          },
+          {
+            "label": "C",
+            "content": "14"
+          },
+          {
+            "label": "D",
+            "content": "15"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->解析几何->直线与圆综合"
+        ],
+        "competition_source_list": [
+          "2009年吉林全国高中数学联赛竞赛初赛第3题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:02912",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2912,
+      "split": "zh_train",
+      "source_problem_id": "c3373a7adf1845309aa00c2a53305309"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "用$$[x]$$表示不大于$$x$$的最大整数，方程$${{x}^{2}}-[x]-2=0$$共有（ ~ ~）个不同的实根．\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
+      "problem_plain": "用 [x] 表示不大于 x 的最大整数，方程 x ^ 2 -[x]-2=0 共有（ ~ ~）个不同的实根． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_latex": "$$x-1\\textless{}{{x}^{2}}-2=[x]\\leqslant x$$，解得$$\\frac{1+\\sqrt{5}}{2}\\textless{}x\\leqslant 2$$或者$$-1\\leqslant x\\textless{}\\frac{1-\\sqrt{5}}{2}$$，所以$$[x]=2$$、$$1$$或$$-1$$．代入原方程，解得$$x=2$$、$$\\sqrt{3}$$或$$-1$$．",
+      "solution_plain": "x-1 x ^ 2 -2=[x] x ，解得 1+ 5 2 x 2 或者 -1 x 1- 5 2 ，所以 [x]=2 、 1 或 -1 ．代入原方程，解得 x=2 、 3 或 -1 ．"
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown",
+        "x"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "x",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$x-1\\textless{}{{x}^{2}}-2=[x]\\leqslant x$$，解得$$\\frac{1+\\sqrt{5}}{2}\\textless{}x\\leqslant 2$$或者$$-1\\leqslant x\\textless{}\\frac{1-\\sqrt{5}}{2}$$，所以$$[x]=2$$、$$1$$或$$-1$$．代入原方程，解得$$x=2$$、$$\\sqrt{3}$$或$$-1$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "用 [x] 表示不大于 x 的最大整数，方程 x ^ 2 -[x]-2=0 共有（ ~ ~）个不同的实根． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_text": "x-1 x ^ 2 -2=[x] x ，解得 1+ 5 2 x 2 或者 -1 x 1- 5 2 ，所以 [x]=2 、 1 或 -1 ．代入原方程，解得 x=2 、 3 或 -1 ．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "x",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "554",
+        "queId": "c3373a7adf1845309aa00c2a53305309",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->数论模块->取整函数->与[x]有关的方程和不等式"
+        ],
+        "competition_source_list": [
+          "2015年天津全国高中数学联赛竞赛初赛第3题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:number_theory:level_1:02938",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2938,
+      "split": "zh_train",
+      "source_problem_id": "7999e94481fe4306944726914fa76e09"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$n$$为正整数，二项式$${{\\left( {{x}^{2}}+\\frac{1}{{{x}^{3}}} \\right)}^{n}}$$的展开式中含有$${{x}^{7}}$$的项，则$$n$$的最小值为（~ ）．\n(A) 4\n(B) 5\n(C) 6\n(D) 7",
+      "problem_plain": "设 n 为正整数，二项式 ( x ^ 2 + 1 x ^ 3 ) ^ n 的展开式中含有 x ^ 7 的项，则 n 的最小值为（~ ）． (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_latex": "$${{T}_{r+1}}=C_{n}^{r}{{({{x}^{2}})}^{n-r}}{{\\left( \\frac{1}{{{x}^{3}}} \\right)}^{r}}=C_{n}^{r}{{x}^{2}}^{n-5r}$$．令$$2n-5r=7$$，所以$$r=1$$时，$$n$$取得最小值$$6$$．选$$\\text{C}$$．",
+      "solution_plain": "T _ r+1 =C_ n ^ r ( x ^ 2 ) ^ n-r ( 1 x ^ 3 ) ^ r =C_ n ^ r x ^ 2 ^ n-5r ．令 2n-5r=7 ，所以 r=1 时， n 取得最小值 6 ．选 C ．"
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$${{T}_{r+1}}=C_{n}^{r}{{({{x}^{2}})}^{n-r}}{{\\left( \\frac{1}{{{x}^{3}}} \\right)}^{r}}=C_{n}^{r}{{x}^{2}}^{n-5r}$$．令$$2n-5r=7$$，所以$$r=1$$时，$$n$$取得最小值$$6$$．选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 n 为正整数，二项式 ( x ^ 2 + 1 x ^ 3 ) ^ n 的展开式中含有 x ^ 7 的项，则 n 的最小值为（~ ）． (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_text": "T _ r+1 =C_ n ^ r ( x ^ 2 ) ^ n-r ( 1 x ^ 3 ) ^ r =C_ n ^ r x ^ 2 ^ n-5r ．令 2n-5r=7 ，所以 r=1 时， n 取得最小值 6 ．选 C ．",
+      "keywords": [
+        "level_1",
+        "number_theory",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "324",
+        "queId": "7999e94481fe4306944726914fa76e09",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "7"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->素养->数学运算",
+          "课内体系->知识点->计数原理->二项式定理->二项式定理的展开式",
+          "课内体系->知识点->计数原理->二项式定理->求项的系数或二项式系数"
+        ],
+        "competition_source_list": [
+          "2015年四川全国高中数学联赛竞赛初赛第1题5分",
+          "2017年北京西城区高三三模理科第2题"
+        ]
+      }
+    }
+  }
+]

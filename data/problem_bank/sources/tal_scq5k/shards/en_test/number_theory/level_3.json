@@ -1,0 +1,5818 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00012",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 12,
+      "split": "en_test",
+      "source_problem_id": "02e76774175f4826a13cc03f23ba5a61"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "With how many zeroes does the product of the first $$2006$$ consecutive prime numbers end?\n(A) 0\n(B) 1\n(C) 2\n(D) 9\n(E) 26",
+      "problem_plain": "With how many zeroes does the product of the first 2006 consecutive prime numbers end? (A) 0 (B) 1 (C) 2 (D) 9 (E) 26",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "applying_prime_factorization",
+        "number_theory_modules",
+        "prime_factorization",
+        "the_number_of_zeros_at_the_end_of_a_product"
+      ],
+      "tags": [
+        "applying_prime_factorization",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "prime_factorization",
+        "single_choice",
+        "tal_scq5k",
+        "the_number_of_zeros_at_the_end_of_a_product"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "With how many zeroes does the product of the first 2006 consecutive prime numbers end? (A) 0 (B) 1 (C) 2 (D) 9 (E) 26",
+      "solution_text": "N/A.",
+      "keywords": [
+        "applying_prime_factorization",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "prime_factorization",
+        "single_choice",
+        "tal_scq5k",
+        "the_number_of_zeros_at_the_end_of_a_product"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "37",
+        "queId": "02e76774175f4826a13cc03f23ba5a61",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "9"
+          },
+          {
+            "label": "E",
+            "content": "26"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime Factorization->Applying Prime Factorization->The Number of Zeros at the end of a Product"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00015",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 15,
+      "split": "en_test",
+      "source_problem_id": "1c17eb201d04483a8401ab0c4a99b44b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "If  $$-$$ means $$\\times$$  $$+$$ means $$\\div$$  $$\\times$$ means $$+$$  $$\\div$$ means $$-$$  Then: $$20+(4\\div 2)-2\\times 5=$$？\n(A) 12\n(B) 20\n(C) 25\n(D) 22\n(E) 35",
+      "problem_plain": "If - means + means means + means - Then: 20+(4 2)-2 5= ？ (A) 12 (B) 20 (C) 25 (D) 22 (E) 35",
+      "solution_latex": "N/A",
+      "solution_plain": "N/A"
+    },
+    "answer": {
+      "final_raw": "25",
+      "final_normalized": "25",
+      "candidates": [
+        "25",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "If - means + means means + means - Then: 20+(4 2)-2 5= ？ (A) 12 (B) 20 (C) 25 (D) 22 (E) 35",
+      "solution_text": "N/A",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "44",
+        "queId": "1c17eb201d04483a8401ab0c4a99b44b",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "12"
+          },
+          {
+            "label": "B",
+            "content": "20"
+          },
+          {
+            "label": "C",
+            "content": "25"
+          },
+          {
+            "label": "D",
+            "content": "22"
+          },
+          {
+            "label": "E",
+            "content": "35"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00021",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 21,
+      "split": "en_test",
+      "source_problem_id": "048140a4c20f48f293f1c82967a9e5a6"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A seven-digit number $$\\overline{579A379}$$ is divisible by $$11$$. Which number does $$A$$ represent? ．\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
+      "problem_plain": "A seven-digit number 579A379 is divisible by 11 . Which number does A represent? ． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A seven-digit number 579A379 is divisible by 11 . Which number does A represent? ． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_text": "",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "61",
+        "queId": "048140a4c20f48f293f1c82967a9e5a6",
+        "difficulty": "2",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00029",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 29,
+      "split": "en_test",
+      "source_problem_id": "074937ab5c0c404f8ff79f24849695d9"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many perfect cubes lie between 2\\textsuperscript{8}~+1 and 2\\textsuperscript{18}+1, inclusive?\n(A) 4\n(B) 9\n(C) 10\n(D) 57\n(E) 58",
+      "problem_plain": "How many perfect cubes lie between 2 8 ~+1 and 2 18 +1, inclusive? (A) 4 (B) 9 (C) 10 (D) 57 (E) 58",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "58",
+      "final_normalized": "58",
+      "candidates": [
+        "58",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules",
+        "perfect_square_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "perfect_square_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many perfect cubes lie between 2 8 ~+1 and 2 18 +1, inclusive? (A) 4 (B) 9 (C) 10 (D) 57 (E) 58",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "perfect_square_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "76",
+        "queId": "074937ab5c0c404f8ff79f24849695d9",
+        "difficulty": "2",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "9"
+          },
+          {
+            "label": "C",
+            "content": "10"
+          },
+          {
+            "label": "D",
+            "content": "57"
+          },
+          {
+            "label": "E",
+            "content": "58"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Perfect Square Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00041",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 41,
+      "split": "en_test",
+      "source_problem_id": "089566321dfe477a971e8a213cd802a3"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Barry wrote 6 different numbers, one on each side of 3 cards, and laid the cards on a table, as shown. The sums of the two numbers on each of the three cards are equal. The three numbers on the hidden sides are prime numbers. What is the average of the hidden prime numbers?\n(A) 13\n(B) 14\n(C) 15\n(D) 16\n(E) 17",
+      "problem_plain": "Barry wrote 6 different numbers, one on each side of 3 cards, and laid the cards on a table, as shown. The sums of the two numbers on each of the three cards are equal. The three numbers on the hidden sides are prime numbers. What is the average of the hidden prime numbers? (A) 13 (B) 14 (C) 15 (D) 16 (E) 17",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "14",
+      "final_normalized": "14",
+      "candidates": [
+        "14",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules",
+        "prime_and_composite_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Barry wrote 6 different numbers, one on each side of 3 cards, and laid the cards on a table, as shown. The sums of the two numbers on each of the three cards are equal. The three numbers on the hidden sides are prime numbers. What is the average of the hidden prime numbers? (A) 13 (B) 14 (C) 15 (D) 16 (E) 17",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "prime_and_composite_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "115",
+        "queId": "089566321dfe477a971e8a213cd802a3",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "13"
+          },
+          {
+            "label": "B",
+            "content": "14"
+          },
+          {
+            "label": "C",
+            "content": "15"
+          },
+          {
+            "label": "D",
+            "content": "16"
+          },
+          {
+            "label": "E",
+            "content": "17"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime and Composite Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00050",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 50,
+      "split": "en_test",
+      "source_problem_id": "18397810496a490f92c3a4778934122e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "One day Randy was bored and he wrotre all the whole numbers from 49 to 97 on his paper. How many times did he write the digit \\textquotesingle\\textquotesingle8\\textquotesingle\\textquotesingle{} on his paper?\n(A) 4\n(B) 8\n(C) 11\n(D) 13\n(E) None of the above",
+      "problem_plain": "One day Randy was bored and he wrotre all the whole numbers from 49 to 97 on his paper. How many times did he write the digit 8 on his paper? (A) 4 (B) 8 (C) 11 (D) 13 (E) None of the above",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "None of the above",
+      "final_normalized": "None of the above",
+      "candidates": [
+        "E",
+        "None of the above"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases",
+        "understanding_numbers_and_digits"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases",
+        "single_choice",
+        "tal_scq5k",
+        "understanding_numbers_and_digits"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "One day Randy was bored and he wrotre all the whole numbers from 49 to 97 on his paper. How many times did he write the digit 8 on his paper? (A) 4 (B) 8 (C) 11 (D) 13 (E) None of the above",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "numbers",
+        "place_value_and_number_bases",
+        "single_choice",
+        "tal_scq5k",
+        "understanding_numbers_and_digits"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "137",
+        "queId": "18397810496a490f92c3a4778934122e",
+        "difficulty": "2",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "8"
+          },
+          {
+            "label": "C",
+            "content": "11"
+          },
+          {
+            "label": "D",
+            "content": "13"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Place Value and Number Bases->Numbers->Understanding Numbers and Digits"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00055",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 55,
+      "split": "en_test",
+      "source_problem_id": "41845126b9a94353901b65b3cfad786a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The smallest positive integer greater than $1$ that leaves a remainder of $1$ when divided by $4$, $5$, and $6$ lies between which of the following pairs of numbers?\n(A) 2$$ and $$19\n(B) 20$$ and $$39\n(C) 40$$ and $$59\n(D) 60$$ and $$79\n(E) 80$$ and $$124",
+      "problem_plain": "The smallest positive integer greater than 1 that leaves a remainder of 1 when divided by 4 , 5 , and 6 lies between which of the following pairs of numbers? (A) 2 and 19 (B) 20 and 39 (C) 40 and 59 (D) 60 and 79 (E) 80 and 124",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "60$$ and $$79",
+      "final_normalized": "60$$ and $$79",
+      "candidates": [
+        "60$$ and $$79",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The smallest positive integer greater than 1 that leaves a remainder of 1 when divided by 4 , 5 , and 6 lies between which of the following pairs of numbers? (A) 2 and 19 (B) 20 and 39 (C) 40 and 59 (D) 60 and 79 (E) 80 and 124",
+      "solution_text": "",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "150",
+        "queId": "41845126b9a94353901b65b3cfad786a",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2$$ and $$19"
+          },
+          {
+            "label": "B",
+            "content": "20$$ and $$39"
+          },
+          {
+            "label": "C",
+            "content": "40$$ and $$59"
+          },
+          {
+            "label": "D",
+            "content": "60$$ and $$79"
+          },
+          {
+            "label": "E",
+            "content": "80$$ and $$124"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00064",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 64,
+      "split": "en_test",
+      "source_problem_id": "f597e0c83bbd4bc09a9eb81551a0e0b7"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Elmo is packing $$107$$ cookies. He wants to put $$5$$ cookies exactly in each plastic bag. How many cookies will not be packed into plastic bags?\n(A) 0\n(B) 1\n(C) 2\n(D) 3\n(E) 4",
+      "problem_plain": "Elmo is packing 107 cookies. He wants to put 5 cookies exactly in each plastic bag. How many cookies will not be packed into plastic bags? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Elmo is packing 107 cookies. He wants to put 5 cookies exactly in each plastic bag. How many cookies will not be packed into plastic bags? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_text": "",
+      "keywords": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "172",
+        "queId": "f597e0c83bbd4bc09a9eb81551a0e0b7",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          },
+          {
+            "label": "E",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders->Divisibility Rules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00075",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 75,
+      "split": "en_test",
+      "source_problem_id": "41c59147157f49569ca4da1340f2626b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many factors of 2020 have more than 3 factors? (As an example, 12 has 6 factors, namely 1,2,3,4,6 and 12)\n(A) 6\n(B) 7\n(C) 8\n(D) 9\n(E) 10",
+      "problem_plain": "How many factors of 2020 have more than 3 factors? (As an example, 12 has 6 factors, namely 1,2,3,4,6 and 12) (A) 6 (B) 7 (C) 8 (D) 9 (E) 10",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "7",
+      "final_normalized": "7",
+      "candidates": [
+        "7",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many factors of 2020 have more than 3 factors? (As an example, 12 has 6 factors, namely 1,2,3,4,6 and 12) (A) 6 (B) 7 (C) 8 (D) 9 (E) 10",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "197",
+        "queId": "41c59147157f49569ca4da1340f2626b",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "7"
+          },
+          {
+            "label": "C",
+            "content": "8"
+          },
+          {
+            "label": "D",
+            "content": "9"
+          },
+          {
+            "label": "E",
+            "content": "10"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00078",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 78,
+      "split": "en_test",
+      "source_problem_id": "793b68842c274cd5ae9457bbeb6b53f9"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The smallest positive integer greater than $1$ that leaves a remainder of $1$ when divided by $4$, $5$, and $6$ lies between which of the following pairs of numbers?\n(A) 2$ and $19\n(B) 20$ and $39\n(C) 40$ and $59\n(D) 60$ and $79\n(E) 80$ and $124",
+      "problem_plain": "The smallest positive integer greater than 1 that leaves a remainder of 1 when divided by 4 , 5 , and 6 lies between which of the following pairs of numbers? (A) 2 and 19 (B) 20 and 39 (C) 40 and 59 (D) 60 and 79 (E) 80 and 124",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "60$ and $79",
+      "final_normalized": "60$ and $79",
+      "candidates": [
+        "60$ and $79",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The smallest positive integer greater than 1 that leaves a remainder of 1 when divided by 4 , 5 , and 6 lies between which of the following pairs of numbers? (A) 2 and 19 (B) 20 and 39 (C) 40 and 59 (D) 60 and 79 (E) 80 and 124",
+      "solution_text": "",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "201",
+        "queId": "793b68842c274cd5ae9457bbeb6b53f9",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2$ and $19"
+          },
+          {
+            "label": "B",
+            "content": "20$ and $39"
+          },
+          {
+            "label": "C",
+            "content": "40$ and $59"
+          },
+          {
+            "label": "D",
+            "content": "60$ and $79"
+          },
+          {
+            "label": "E",
+            "content": "80$ and $124"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00081",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 81,
+      "split": "en_test",
+      "source_problem_id": "cbda068d467747bdae1e47cbda1bcddc"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A number is called flippy if its digits alternate between two distinct digits. For example, 2020 and 37373 are flippy, but 3883 and 123123 are not. How many five-digit flippy numbers are divisible by 15?\n(A) 3\n(B) 4\n(C) 5\n(D) 6\n(E) 8",
+      "problem_plain": "A number is called flippy if its digits alternate between two distinct digits. For example, 2020 and 37373 are flippy, but 3883 and 123123 are not. How many five-digit flippy numbers are divisible by 15? (A) 3 (B) 4 (C) 5 (D) 6 (E) 8",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A number is called flippy if its digits alternate between two distinct digits. For example, 2020 and 37373 are flippy, but 3883 and 123123 are not. How many five-digit flippy numbers are divisible by 15? (A) 3 (B) 4 (C) 5 (D) 6 (E) 8",
+      "solution_text": "",
+      "keywords": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "204",
+        "queId": "cbda068d467747bdae1e47cbda1bcddc",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "4"
+          },
+          {
+            "label": "C",
+            "content": "5"
+          },
+          {
+            "label": "D",
+            "content": "6"
+          },
+          {
+            "label": "E",
+            "content": "8"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders->Divisibility Rules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00094",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 94,
+      "split": "en_test",
+      "source_problem_id": "38dee33f3a0640b486402e0f05c7895b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let $N$ be the greatest five-digit number whose digits have a product of $120$. What is the sum of the digits of $N$?\n(A) 15\n(B) 16\n(C) 17\n(D) 18\n(E) 20",
+      "problem_plain": "Let N be the greatest five-digit number whose digits have a product of 120 . What is the sum of the digits of N ? (A) 15 (B) 16 (C) 17 (D) 18 (E) 20",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "18",
+      "final_normalized": "18",
+      "candidates": [
+        "18",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let N be the greatest five-digit number whose digits have a product of 120 . What is the sum of the digits of N ? (A) 15 (B) 16 (C) 17 (D) 18 (E) 20",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "240",
+        "queId": "38dee33f3a0640b486402e0f05c7895b",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "15"
+          },
+          {
+            "label": "B",
+            "content": "16"
+          },
+          {
+            "label": "C",
+            "content": "17"
+          },
+          {
+            "label": "D",
+            "content": "18"
+          },
+          {
+            "label": "E",
+            "content": "20"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00095",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 95,
+      "split": "en_test",
+      "source_problem_id": "4fc61cf32f6249db96caace1259d5e40"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many positive factors does $$23,232$$ have?\n(A) 9\n(B) 12\n(C) 28\n(D) 36\n(E) 42",
+      "problem_plain": "How many positive factors does 23,232 have? (A) 9 (B) 12 (C) 28 (D) 36 (E) 42",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "42",
+      "final_normalized": "42",
+      "candidates": [
+        "42",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules",
+        "prime_factorization"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "prime_factorization",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many positive factors does 23,232 have? (A) 9 (B) 12 (C) 28 (D) 36 (E) 42",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "prime_factorization",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "242",
+        "queId": "4fc61cf32f6249db96caace1259d5e40",
+        "difficulty": "2",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "9"
+          },
+          {
+            "label": "B",
+            "content": "12"
+          },
+          {
+            "label": "C",
+            "content": "28"
+          },
+          {
+            "label": "D",
+            "content": "36"
+          },
+          {
+            "label": "E",
+            "content": "42"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime Factorization"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00110",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 110,
+      "split": "en_test",
+      "source_problem_id": "1e85530065e242fe8f224b2176917e0a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many factors of $2020$ have more than $3$ factors? (As an example, $12$ has $6$ factors, namely $1$,$2$,$3$,$4$,$6$ and $12$)\n(A) 6\n(B) 7\n(C) 8\n(D) 9\n(E) 10",
+      "problem_plain": "How many factors of 2020 have more than 3 factors? (As an example, 12 has 6 factors, namely 1 , 2 , 3 , 4 , 6 and 12 ) (A) 6 (B) 7 (C) 8 (D) 9 (E) 10",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "7",
+      "final_normalized": "7",
+      "candidates": [
+        "7",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many factors of 2020 have more than 3 factors? (As an example, 12 has 6 factors, namely 1 , 2 , 3 , 4 , 6 and 12 ) (A) 6 (B) 7 (C) 8 (D) 9 (E) 10",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "282",
+        "queId": "1e85530065e242fe8f224b2176917e0a",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "7"
+          },
+          {
+            "label": "C",
+            "content": "8"
+          },
+          {
+            "label": "D",
+            "content": "9"
+          },
+          {
+            "label": "E",
+            "content": "10"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00143",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 143,
+      "split": "en_test",
+      "source_problem_id": "1f6160c1151448ceaabf0c091df13750"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "989 pieces of candy are packed into packages, each of which contains 4 pieces of candy. In order to complete the last package, how many more pieces of candy are needed?\n(A) 2\n(B) 3\n(C) 4\n(D) 5\n(E) None of the above",
+      "problem_plain": "989 pieces of candy are packed into packages, each of which contains 4 pieces of candy. In order to complete the last package, how many more pieces of candy are needed? (A) 2 (B) 3 (C) 4 (D) 5 (E) None of the above",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "989 pieces of candy are packed into packages, each of which contains 4 pieces of candy. In order to complete the last package, how many more pieces of candy are needed? (A) 2 (B) 3 (C) 4 (D) 5 (E) None of the above",
+      "solution_text": "",
+      "keywords": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "352",
+        "queId": "1f6160c1151448ceaabf0c091df13750",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "5"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders->Divisibility Rules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00170",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 170,
+      "split": "en_test",
+      "source_problem_id": "79d2f1d310314a14b79d8933e78fd27e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "If  $$-$$ means $$\\times$$  $$+$$ means $$\\div$$  $$\\times$$ means $$+$$  $$\\div$$ means $$-$$  Then: $$26+(4\\div 2)-2\\times 5=$$？\n(A) 12\n(B) 22\n(C) 25\n(D) 31\n(E) 35",
+      "problem_plain": "If - means + means means + means - Then: 26+(4 2)-2 5= ？ (A) 12 (B) 22 (C) 25 (D) 31 (E) 35",
+      "solution_latex": "N/A",
+      "solution_plain": "N/A"
+    },
+    "answer": {
+      "final_raw": "31",
+      "final_normalized": "31",
+      "candidates": [
+        "31",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "If - means + means means + means - Then: 26+(4 2)-2 5= ？ (A) 12 (B) 22 (C) 25 (D) 31 (E) 35",
+      "solution_text": "N/A",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "412",
+        "queId": "79d2f1d310314a14b79d8933e78fd27e",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "12"
+          },
+          {
+            "label": "B",
+            "content": "22"
+          },
+          {
+            "label": "C",
+            "content": "25"
+          },
+          {
+            "label": "D",
+            "content": "31"
+          },
+          {
+            "label": "E",
+            "content": "35"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00181",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 181,
+      "split": "en_test",
+      "source_problem_id": "431d26d741bd4f9a8fff671002b048e7"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "If  $$-$$ means $$\\times$$  $$+$$ means $$\\div$$  $$\\times$$ means $$+$$  $$\\div$$ means $$-$$  Then: $$12+(3\\div 2)-3\\times 4=$$？\n(A) 32\n(B) 42\n(C) 40\n(D) 41\n(E) 45",
+      "problem_plain": "If - means + means means + means - Then: 12+(3 2)-3 4= ？ (A) 32 (B) 42 (C) 40 (D) 41 (E) 45",
+      "solution_latex": "N/A",
+      "solution_plain": "N/A"
+    },
+    "answer": {
+      "final_raw": "40",
+      "final_normalized": "40",
+      "candidates": [
+        "40",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "If - means + means means + means - Then: 12+(3 2)-3 4= ？ (A) 32 (B) 42 (C) 40 (D) 41 (E) 45",
+      "solution_text": "N/A",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "432",
+        "queId": "431d26d741bd4f9a8fff671002b048e7",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "32"
+          },
+          {
+            "label": "B",
+            "content": "42"
+          },
+          {
+            "label": "C",
+            "content": "40"
+          },
+          {
+            "label": "D",
+            "content": "41"
+          },
+          {
+            "label": "E",
+            "content": "45"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00186",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 186,
+      "split": "en_test",
+      "source_problem_id": "6c2570f6d4f244d088b310e3252e76e3"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "If I switch the digits in the two digit-number which expresses my father\\textquotesingle s age, I will obtain a number that expresses my age. Which of the following numbers can express my father\\textquotesingle s age when I was born?\n(A) 24\n(B) 25\n(C) 26\n(D) 27\n(E) 28",
+      "problem_plain": "If I switch the digits in the two digit-number which expresses my father s age, I will obtain a number that expresses my age. Which of the following numbers can express my father s age when I was born? (A) 24 (B) 25 (C) 26 (D) 27 (E) 28",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "27",
+      "final_normalized": "27",
+      "candidates": [
+        "27",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "applying_the_principle_of_place_value",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "questions_involving_applying_place_value_principle"
+      ],
+      "tags": [
+        "applying_the_principle_of_place_value",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "questions_involving_applying_place_value_principle",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "If I switch the digits in the two digit-number which expresses my father s age, I will obtain a number that expresses my age. Which of the following numbers can express my father s age when I was born? (A) 24 (B) 25 (C) 26 (D) 27 (E) 28",
+      "solution_text": "N/A.",
+      "keywords": [
+        "applying_the_principle_of_place_value",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "questions_involving_applying_place_value_principle",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "446",
+        "queId": "6c2570f6d4f244d088b310e3252e76e3",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "24"
+          },
+          {
+            "label": "B",
+            "content": "25"
+          },
+          {
+            "label": "C",
+            "content": "26"
+          },
+          {
+            "label": "D",
+            "content": "27"
+          },
+          {
+            "label": "E",
+            "content": "28"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Place Value and Number Bases->Applying the Principle of Place Value->Questions Involving Applying Place Value Principle"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00210",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 210,
+      "split": "en_test",
+      "source_problem_id": "e36478f269704f7cbab4a7045d93bbec"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A simple pendulum swings about the vertical equilibrium position with a maximum angular displacement of 5° and period T. If the same pendulum is given a maximum angular displacement of $$ 10^{\\circ} $$, then which of the following best gives the period of the oscillations?\n(A) \\frac{T}{2}\n(B) \\frac{T}{\\sqrt{2}}\n(C) T\n(D) 2T",
+      "problem_plain": "A simple pendulum swings about the vertical equilibrium position with a maximum angular displacement of 5° and period T. If the same pendulum is given a maximum angular displacement of 10^ , then which of the following best gives the period of the oscillations? (A) T 2 (B) T 2 (C) T (D) 2T",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "T",
+      "final_normalized": "T",
+      "candidates": [
+        "C",
+        "T"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules",
+        "remainder_problems"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A simple pendulum swings about the vertical equilibrium position with a maximum angular displacement of 5° and period T. If the same pendulum is given a maximum angular displacement of 10^ , then which of the following best gives the period of the oscillations? (A) T 2 (B) T 2 (C) T (D) 2T",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "488",
+        "queId": "e36478f269704f7cbab4a7045d93bbec",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{T}{2}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{T}{\\sqrt{2}}"
+          },
+          {
+            "label": "C",
+            "content": "T"
+          },
+          {
+            "label": "D",
+            "content": "2T"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Remainder Problems"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00211",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 211,
+      "split": "en_test",
+      "source_problem_id": "438a5a8eb45e4819957353749c0452a6"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "$$989$$ pieces of candy are packed into packages, each of which contains $$4$$ pieces of candy. In order to complete the last package, how many more pieces of candy are needed?\n(A) 2\n(B) 3\n(C) 4\n(D) 5\n(E) None of the above",
+      "problem_plain": "989 pieces of candy are packed into packages, each of which contains 4 pieces of candy. In order to complete the last package, how many more pieces of candy are needed? (A) 2 (B) 3 (C) 4 (D) 5 (E) None of the above",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "989 pieces of candy are packed into packages, each of which contains 4 pieces of candy. In order to complete the last package, how many more pieces of candy are needed? (A) 2 (B) 3 (C) 4 (D) 5 (E) None of the above",
+      "solution_text": "",
+      "keywords": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "496",
+        "queId": "438a5a8eb45e4819957353749c0452a6",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "5"
+          },
+          {
+            "label": "E",
+            "content": "None of the above"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders->Divisibility Rules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00213",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 213,
+      "split": "en_test",
+      "source_problem_id": "9040ca1493584a618f93faf78fae81d0"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "There are $$19$$ apples in $$4$$ baskets. John wants $$4$$ baskets to have the same weight. How many apples should he pick up at least?\n(A) 5\n(B) 4\n(C) 3\n(D) 2\n(E) 1",
+      "problem_plain": "There are 19 apples in 4 baskets. John wants 4 baskets to have the same weight. How many apples should he pick up at least? (A) 5 (B) 4 (C) 3 (D) 2 (E) 1",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "applying_the_properties_of_dividing_without_remainders",
+        "division_without_remainders",
+        "guessing_dividends",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "applying_the_properties_of_dividing_without_remainders",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "guessing_dividends",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "There are 19 apples in 4 baskets. John wants 4 baskets to have the same weight. How many apples should he pick up at least? (A) 5 (B) 4 (C) 3 (D) 2 (E) 1",
+      "solution_text": "",
+      "keywords": [
+        "applying_the_properties_of_dividing_without_remainders",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "guessing_dividends",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "499",
+        "queId": "9040ca1493584a618f93faf78fae81d0",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "5"
+          },
+          {
+            "label": "B",
+            "content": "4"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "2"
+          },
+          {
+            "label": "E",
+            "content": "1"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders->Applying the Properties of Dividing without Remainders->Guessing Dividends"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00257",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 257,
+      "split": "en_test",
+      "source_problem_id": "63f71f8ee037416ea98f3663a7f171ef"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Use the octal system (base-$8$ numeral system) to calculate $\\left (773\\right )\\_8 + \\left (6\\right )\\_8$. The answer should be~\\uline{~~~~~~~~~~}~.\n(A) \\left (1001\\right )\\_8\n(B) \\left (779\\right )\\_8\n(C) \\left (111\\right )\\_8\n(D) \\left (781\\right )\\_8",
+      "problem_plain": "Use the octal system (base- 8 numeral system) to calculate (773 ) _8 + (6 ) _8 . The answer should be~ ~~~~~~~~~~ ~. (A) (1001 ) _8 (B) (779 ) _8 (C) (111 ) _8 (D) (781 ) _8",
+      "solution_latex": "N/A",
+      "solution_plain": "N/A"
+    },
+    "answer": {
+      "final_raw": "\\left (1001\\right )\\_8",
+      "final_normalized": "\\left (1001\\right )\\_8",
+      "candidates": [
+        "A",
+        "\\left (1001\\right )\\_8"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "properties_and_applications_of_number_bases"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "properties_and_applications_of_number_bases",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Use the octal system (base- 8 numeral system) to calculate (773 ) _8 + (6 ) _8 . The answer should be~ ~~~~~~~~~~ ~. (A) (1001 ) _8 (B) (779 ) _8 (C) (111 ) _8 (D) (781 ) _8",
+      "solution_text": "N/A",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "properties_and_applications_of_number_bases",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "632",
+        "queId": "63f71f8ee037416ea98f3663a7f171ef",
+        "difficulty": "2",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\left (1001\\right )\\_8"
+          },
+          {
+            "label": "B",
+            "content": "\\left (779\\right )\\_8"
+          },
+          {
+            "label": "C",
+            "content": "\\left (111\\right )\\_8"
+          },
+          {
+            "label": "D",
+            "content": "\\left (781\\right )\\_8"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Place Value and Number Bases->Properties and Applications of Number Bases"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00270",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 270,
+      "split": "en_test",
+      "source_problem_id": "a7dbaf08e81c406bac37c2339c8729da"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "With how many zeroes does the product of the first $$2006$$ consecutive prime numbers end?\n(A) 0\n(B) 1\n(C) 2\n(D) 9",
+      "problem_plain": "With how many zeroes does the product of the first 2006 consecutive prime numbers end? (A) 0 (B) 1 (C) 2 (D) 9",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "applying_prime_factorization",
+        "number_theory_modules",
+        "prime_factorization",
+        "the_number_of_zeros_at_the_end_of_a_product"
+      ],
+      "tags": [
+        "applying_prime_factorization",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "prime_factorization",
+        "single_choice",
+        "tal_scq5k",
+        "the_number_of_zeros_at_the_end_of_a_product"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "With how many zeroes does the product of the first 2006 consecutive prime numbers end? (A) 0 (B) 1 (C) 2 (D) 9",
+      "solution_text": "N/A.",
+      "keywords": [
+        "applying_prime_factorization",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "prime_factorization",
+        "single_choice",
+        "tal_scq5k",
+        "the_number_of_zeros_at_the_end_of_a_product"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "662",
+        "queId": "a7dbaf08e81c406bac37c2339c8729da",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "9"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime Factorization->Applying Prime Factorization->The Number of Zeros at the end of a Product"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00295",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 295,
+      "split": "en_test",
+      "source_problem_id": "b5e6d67c800346438e0068f4df0b64ae"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The smallest positive integer greater than 1 that leaves a remainder of 1 when divided by 4, 5, and 6 lies between which of the following pairs of numbers?\n(A) 2 and 19\n(B) 20 and 39\n(C) 40 and 59\n(D) 60 and 79\n(E) 80 and 124",
+      "problem_plain": "The smallest positive integer greater than 1 that leaves a remainder of 1 when divided by 4, 5, and 6 lies between which of the following pairs of numbers? (A) 2 and 19 (B) 20 and 39 (C) 40 and 59 (D) 60 and 79 (E) 80 and 124",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "60 and 79",
+      "final_normalized": "60 and 79",
+      "candidates": [
+        "60 and 79",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The smallest positive integer greater than 1 that leaves a remainder of 1 when divided by 4, 5, and 6 lies between which of the following pairs of numbers? (A) 2 and 19 (B) 20 and 39 (C) 40 and 59 (D) 60 and 79 (E) 80 and 124",
+      "solution_text": "",
+      "keywords": [
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "742",
+        "queId": "b5e6d67c800346438e0068f4df0b64ae",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2 and 19"
+          },
+          {
+            "label": "B",
+            "content": "20 and 39"
+          },
+          {
+            "label": "C",
+            "content": "40 and 59"
+          },
+          {
+            "label": "D",
+            "content": "60 and 79"
+          },
+          {
+            "label": "E",
+            "content": "80 and 124"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00296",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 296,
+      "split": "en_test",
+      "source_problem_id": "60544f52f7fa446990954dba92d7b0f2"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Elmo is packing 107 cookies. He wants to put 5 cookies in each plastic bag. How many cookies will not be packed into plastic bags?\n(A) 0\n(B) 1\n(C) 2\n(D) 3\n(E) 4",
+      "problem_plain": "Elmo is packing 107 cookies. He wants to put 5 cookies in each plastic bag. How many cookies will not be packed into plastic bags? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Elmo is packing 107 cookies. He wants to put 5 cookies in each plastic bag. How many cookies will not be packed into plastic bags? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_text": "",
+      "keywords": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "743",
+        "queId": "60544f52f7fa446990954dba92d7b0f2",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          },
+          {
+            "label": "E",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders->Divisibility Rules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00306",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 306,
+      "split": "en_test",
+      "source_problem_id": "9a8ccdae4c6147aab767adf2a8d8a47a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many perfect cubes lie between $2^{8}+1$ and $2^{18}+1$, inclusive?\n(A) 4\n(B) 9\n(C) 10\n(D) 57\n(E) 58",
+      "problem_plain": "How many perfect cubes lie between 2^ 8 +1 and 2^ 18 +1 , inclusive? (A) 4 (B) 9 (C) 10 (D) 57 (E) 58",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "58",
+      "final_normalized": "58",
+      "candidates": [
+        "58",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules",
+        "perfect_square_numbers"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "perfect_square_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many perfect cubes lie between 2^ 8 +1 and 2^ 18 +1 , inclusive? (A) 4 (B) 9 (C) 10 (D) 57 (E) 58",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "perfect_square_numbers",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "771",
+        "queId": "9a8ccdae4c6147aab767adf2a8d8a47a",
+        "difficulty": "2",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "9"
+          },
+          {
+            "label": "C",
+            "content": "10"
+          },
+          {
+            "label": "D",
+            "content": "57"
+          },
+          {
+            "label": "E",
+            "content": "58"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Perfect Square Numbers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00321",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 321,
+      "split": "en_test",
+      "source_problem_id": "f1e7ecc9e4f04424a66439d679b99cec"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Two apples cost $10$ cents, and two peaches cost $4$ cents. How much do one apple and one peach cost in total? (Adapted from 2019 Math Kangaroo Problem, Level 1-2, Question \\#8)\n(A) 5$ cents\n(B) 6$ cents\n(C) 7$ cents\n(D) 8$ cents\n(E) 9$ cents",
+      "problem_plain": "Two apples cost 10 cents, and two peaches cost 4 cents. How much do one apple and one peach cost in total? (Adapted from 2019 Math Kangaroo Problem, Level 1-2, Question #8) (A) 5 cents (B) 6 cents (C) 7 cents (D) 8 cents (E) 9 cents",
+      "solution_latex": "N/A",
+      "solution_plain": "N/A"
+    },
+    "answer": {
+      "final_raw": "7$ cents",
+      "final_normalized": "7$ cents",
+      "candidates": [
+        "7$ cents",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Two apples cost 10 cents, and two peaches cost 4 cents. How much do one apple and one peach cost in total? (Adapted from 2019 Math Kangaroo Problem, Level 1-2, Question #8) (A) 5 cents (B) 6 cents (C) 7 cents (D) 8 cents (E) 9 cents",
+      "solution_text": "N/A",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "807",
+        "queId": "f1e7ecc9e4f04424a66439d679b99cec",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "5$ cents"
+          },
+          {
+            "label": "B",
+            "content": "6$ cents"
+          },
+          {
+            "label": "C",
+            "content": "7$ cents"
+          },
+          {
+            "label": "D",
+            "content": "8$ cents"
+          },
+          {
+            "label": "E",
+            "content": "9$ cents"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00330",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 330,
+      "split": "en_test",
+      "source_problem_id": "611590b457eb47099a45583da98603f8"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Using the octal system (base $6$ numeral system) to calculate $\\left (243\\right )\\_6 + \\left (15\\right )\\_6$, the answer should be．\n(A) \\left (302\\right )\\_6\n(B) \\left (258\\right )\\_6\n(C) \\left (331\\right )\\_6\n(D) \\left (262\\right )\\_6",
+      "problem_plain": "Using the octal system (base 6 numeral system) to calculate (243 ) _6 + (15 ) _6 , the answer should be． (A) (302 ) _6 (B) (258 ) _6 (C) (331 ) _6 (D) (262 ) _6",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "\\left (302\\right )\\_6",
+      "final_normalized": "\\left (302\\right )\\_6",
+      "candidates": [
+        "A",
+        "\\left (302\\right )\\_6"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "properties_and_applications_of_number_bases"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "properties_and_applications_of_number_bases",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Using the octal system (base 6 numeral system) to calculate (243 ) _6 + (15 ) _6 , the answer should be． (A) (302 ) _6 (B) (258 ) _6 (C) (331 ) _6 (D) (262 ) _6",
+      "solution_text": "N/A.",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "properties_and_applications_of_number_bases",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "820",
+        "queId": "611590b457eb47099a45583da98603f8",
+        "difficulty": "2",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\left (302\\right )\\_6"
+          },
+          {
+            "label": "B",
+            "content": "\\left (258\\right )\\_6"
+          },
+          {
+            "label": "C",
+            "content": "\\left (331\\right )\\_6"
+          },
+          {
+            "label": "D",
+            "content": "\\left (262\\right )\\_6"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Place Value and Number Bases->Properties and Applications of Number Bases"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00336",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 336,
+      "split": "en_test",
+      "source_problem_id": "f20705c99be247ff8e418a3a6b299285"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many positive three-digit integers have a remainder of 2 when divided by 6, a remainder of 5 when divided by 9, and a remainder of 7 when divided by 11?\n(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+      "problem_plain": "How many positive three-digit integers have a remainder of 2 when divided by 6, a remainder of 5 when divided by 9, and a remainder of 7 when divided by 11? (A) 1 (B) 2 (C) 3 (D) 4 (E) 5",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "5",
+      "final_normalized": "5",
+      "candidates": [
+        "5",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules",
+        "remainder_problems"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many positive three-digit integers have a remainder of 2 when divided by 6, a remainder of 5 when divided by 9, and a remainder of 7 when divided by 11? (A) 1 (B) 2 (C) 3 (D) 4 (E) 5",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "839",
+        "queId": "f20705c99be247ff8e418a3a6b299285",
+        "difficulty": "2",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          },
+          {
+            "label": "E",
+            "content": "5"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Remainder Problems"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00349",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 349,
+      "split": "en_test",
+      "source_problem_id": "85616760b40c4bbc83228b84b5aeda58"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "For any positive integer M, the notation M! denotes the product of the integers 1 through M. What is the largest integer n for which 5n is a factor of the sum 98! + 99! + 100! ?\n(A) 23\n(B) 24\n(C) 25\n(D) 26\n(E) 27",
+      "problem_plain": "For any positive integer M, the notation M! denotes the product of the integers 1 through M. What is the largest integer n for which 5n is a factor of the sum 98! + 99! + 100! ? (A) 23 (B) 24 (C) 25 (D) 26 (E) 27",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "26",
+      "final_normalized": "26",
+      "candidates": [
+        "26",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "For any positive integer M, the notation M! denotes the product of the integers 1 through M. What is the largest integer n for which 5n is a factor of the sum 98! + 99! + 100! ? (A) 23 (B) 24 (C) 25 (D) 26 (E) 27",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "873",
+        "queId": "85616760b40c4bbc83228b84b5aeda58",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "23"
+          },
+          {
+            "label": "B",
+            "content": "24"
+          },
+          {
+            "label": "C",
+            "content": "25"
+          },
+          {
+            "label": "D",
+            "content": "26"
+          },
+          {
+            "label": "E",
+            "content": "27"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00354",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 354,
+      "split": "en_test",
+      "source_problem_id": "96b364d144eb4613bebacf4eecf95e4e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "If I fold a square into two equal parts, the two parts can\\textquotesingle t be\n(A) rectangle\n(B) parallelogram\n(C) square\n(D) trapezoid\n(E) triangle",
+      "problem_plain": "If I fold a square into two equal parts, the two parts can t be (A) rectangle (B) parallelogram (C) square (D) trapezoid (E) triangle",
+      "solution_latex": "N/A",
+      "solution_plain": "N/A"
+    },
+    "answer": {
+      "final_raw": "square",
+      "final_normalized": "square",
+      "candidates": [
+        "C",
+        "square"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "If I fold a square into two equal parts, the two parts can t be (A) rectangle (B) parallelogram (C) square (D) trapezoid (E) triangle",
+      "solution_text": "N/A",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "890",
+        "queId": "96b364d144eb4613bebacf4eecf95e4e",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "rectangle"
+          },
+          {
+            "label": "B",
+            "content": "parallelogram"
+          },
+          {
+            "label": "C",
+            "content": "square"
+          },
+          {
+            "label": "D",
+            "content": "trapezoid"
+          },
+          {
+            "label": "E",
+            "content": "triangle"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00378",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 378,
+      "split": "en_test",
+      "source_problem_id": "fbaa955297234423b035a719e8b636d6"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let N be the greatest five-digit number whose digits have a product of 120. What is the sum of the digits of N?\n(A) 15\n(B) 16\n(C) 17\n(D) 18\n(E) 20",
+      "problem_plain": "Let N be the greatest five-digit number whose digits have a product of 120. What is the sum of the digits of N? (A) 15 (B) 16 (C) 17 (D) 18 (E) 20",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "18",
+      "final_normalized": "18",
+      "candidates": [
+        "18",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let N be the greatest five-digit number whose digits have a product of 120. What is the sum of the digits of N? (A) 15 (B) 16 (C) 17 (D) 18 (E) 20",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "953",
+        "queId": "fbaa955297234423b035a719e8b636d6",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "15"
+          },
+          {
+            "label": "B",
+            "content": "16"
+          },
+          {
+            "label": "C",
+            "content": "17"
+          },
+          {
+            "label": "D",
+            "content": "18"
+          },
+          {
+            "label": "E",
+            "content": "20"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00383",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 383,
+      "split": "en_test",
+      "source_problem_id": "7d765fb113f84bb19469f1a93762e5d5"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "With how many zeros does the product of the first $$10$$ consecutive prime numbers end?\n(A) 0\n(B) 1\n(C) 2\n(D) 3\n(E) 4",
+      "problem_plain": "With how many zeros does the product of the first 10 consecutive prime numbers end? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "applying_prime_factorization",
+        "number_theory_modules",
+        "prime_factorization",
+        "the_number_of_zeros_at_the_end_of_a_product"
+      ],
+      "tags": [
+        "applying_prime_factorization",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "prime_factorization",
+        "single_choice",
+        "tal_scq5k",
+        "the_number_of_zeros_at_the_end_of_a_product"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "With how many zeros does the product of the first 10 consecutive prime numbers end? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_text": "N/A.",
+      "keywords": [
+        "applying_prime_factorization",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "prime_factorization",
+        "single_choice",
+        "tal_scq5k",
+        "the_number_of_zeros_at_the_end_of_a_product"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "965",
+        "queId": "7d765fb113f84bb19469f1a93762e5d5",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          },
+          {
+            "label": "E",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime Factorization->Applying Prime Factorization->The Number of Zeros at the end of a Product"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00385",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 385,
+      "split": "en_test",
+      "source_problem_id": "8e81763bcff9429694d0a6543832f555"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Let $N$ be the greatest five-digit number whose digits have a product of $120$. What is the sum of the digits of $N$?\n(A) 15\n(B) 16\n(C) 17\n(D) 18\n(E) 20",
+      "problem_plain": "Let N be the greatest five-digit number whose digits have a product of 120 . What is the sum of the digits of N ? (A) 15 (B) 16 (C) 17 (D) 18 (E) 20",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "18",
+      "final_normalized": "18",
+      "candidates": [
+        "18",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Let N be the greatest five-digit number whose digits have a product of 120 . What is the sum of the digits of N ? (A) 15 (B) 16 (C) 17 (D) 18 (E) 20",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "972",
+        "queId": "8e81763bcff9429694d0a6543832f555",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "15"
+          },
+          {
+            "label": "B",
+            "content": "16"
+          },
+          {
+            "label": "C",
+            "content": "17"
+          },
+          {
+            "label": "D",
+            "content": "18"
+          },
+          {
+            "label": "E",
+            "content": "20"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00393",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 393,
+      "split": "en_test",
+      "source_problem_id": "9c173bd4b4e44d4ab5a10606be3a489a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many factors of $2020$ have more than $3$ factors? (As an example, $12$ has $6$ factors, namely $1$,$2$,$3$,$4$,$6$ and $12$)\n(A) 6\n(B) 7\n(C) 8\n(D) 9\n(E) 10",
+      "problem_plain": "How many factors of 2020 have more than 3 factors? (As an example, 12 has 6 factors, namely 1 , 2 , 3 , 4 , 6 and 12 ) (A) 6 (B) 7 (C) 8 (D) 9 (E) 10",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "7",
+      "final_normalized": "7",
+      "candidates": [
+        "7",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many factors of 2020 have more than 3 factors? (As an example, 12 has 6 factors, namely 1 , 2 , 3 , 4 , 6 and 12 ) (A) 6 (B) 7 (C) 8 (D) 9 (E) 10",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "987",
+        "queId": "9c173bd4b4e44d4ab5a10606be3a489a",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "6"
+          },
+          {
+            "label": "B",
+            "content": "7"
+          },
+          {
+            "label": "C",
+            "content": "8"
+          },
+          {
+            "label": "D",
+            "content": "9"
+          },
+          {
+            "label": "E",
+            "content": "10"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00417",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 417,
+      "split": "en_test",
+      "source_problem_id": "e0805f850def4715b44c2a69b5d00e6b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Elmo is packing $$107$$ cookies. He wants to put $$5$$ cookies exactly in each plastic bag. How many cookies will not be packed into plastic bags?\n(A) 0\n(B) 1\n(C) 2\n(D) 3\n(E) 4",
+      "problem_plain": "Elmo is packing 107 cookies. He wants to put 5 cookies exactly in each plastic bag. How many cookies will not be packed into plastic bags? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Elmo is packing 107 cookies. He wants to put 5 cookies exactly in each plastic bag. How many cookies will not be packed into plastic bags? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_text": "",
+      "keywords": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "1050",
+        "queId": "e0805f850def4715b44c2a69b5d00e6b",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          },
+          {
+            "label": "E",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders->Divisibility Rules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00424",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 424,
+      "split": "en_test",
+      "source_problem_id": "e9c8d530ea2f4287a5e9718f66d85b8d"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "If I switch the digits in the two digit-number which expresses my father\\textquotesingle s age, I will obtain a number that expresses my age. Which of the following numbers can express my father\\textquotesingle s age when I was born?\n(A) 24\n(B) 25\n(C) 26\n(D) 27\n(E) 28",
+      "problem_plain": "If I switch the digits in the two digit-number which expresses my father s age, I will obtain a number that expresses my age. Which of the following numbers can express my father s age when I was born? (A) 24 (B) 25 (C) 26 (D) 27 (E) 28",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "27",
+      "final_normalized": "27",
+      "candidates": [
+        "27",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "applying_the_principle_of_place_value",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "questions_involving_applying_place_value_principle"
+      ],
+      "tags": [
+        "applying_the_principle_of_place_value",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "questions_involving_applying_place_value_principle",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "If I switch the digits in the two digit-number which expresses my father s age, I will obtain a number that expresses my age. Which of the following numbers can express my father s age when I was born? (A) 24 (B) 25 (C) 26 (D) 27 (E) 28",
+      "solution_text": "N/A.",
+      "keywords": [
+        "applying_the_principle_of_place_value",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "questions_involving_applying_place_value_principle",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1072",
+        "queId": "e9c8d530ea2f4287a5e9718f66d85b8d",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "24"
+          },
+          {
+            "label": "B",
+            "content": "25"
+          },
+          {
+            "label": "C",
+            "content": "26"
+          },
+          {
+            "label": "D",
+            "content": "27"
+          },
+          {
+            "label": "E",
+            "content": "28"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Place Value and Number Bases->Applying the Principle of Place Value->Questions Involving Applying Place Value Principle"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00425",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 425,
+      "split": "en_test",
+      "source_problem_id": "c9ed4e68cfe04841b3f35029e0fd3882"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "All natural numbers from $$1$$ to $$1000$$ were written down. How many times was the digit $$4$$ used?\n(A) 110\n(B) 300\n(C) 121\n(D) 200\n(E) 100",
+      "problem_plain": "All natural numbers from 1 to 1000 were written down. How many times was the digit 4 used? (A) 110 (B) 300 (C) 121 (D) 200 (E) 100",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "300",
+      "final_normalized": "300",
+      "candidates": [
+        "300",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "applying_the_principle_of_place_value",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "questions_involving_applying_place_value_principle"
+      ],
+      "tags": [
+        "applying_the_principle_of_place_value",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "questions_involving_applying_place_value_principle",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "All natural numbers from 1 to 1000 were written down. How many times was the digit 4 used? (A) 110 (B) 300 (C) 121 (D) 200 (E) 100",
+      "solution_text": "N/A.",
+      "keywords": [
+        "applying_the_principle_of_place_value",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "questions_involving_applying_place_value_principle",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1073",
+        "queId": "c9ed4e68cfe04841b3f35029e0fd3882",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "110"
+          },
+          {
+            "label": "B",
+            "content": "300"
+          },
+          {
+            "label": "C",
+            "content": "121"
+          },
+          {
+            "label": "D",
+            "content": "200"
+          },
+          {
+            "label": "E",
+            "content": "100"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Place Value and Number Bases->Applying the Principle of Place Value->Questions Involving Applying Place Value Principle"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00428",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 428,
+      "split": "en_test",
+      "source_problem_id": "c0ec763321234feeb93ff70da15703fe"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "With how many zeros does the product of the first $$10$$ consecutive prime numbers end?\n(A) 0\n(B) 1\n(C) 2\n(D) 3\n(E) 4",
+      "problem_plain": "With how many zeros does the product of the first 10 consecutive prime numbers end? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "applying_prime_factorization",
+        "number_theory_modules",
+        "prime_factorization",
+        "the_number_of_zeros_at_the_end_of_a_product"
+      ],
+      "tags": [
+        "applying_prime_factorization",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "prime_factorization",
+        "single_choice",
+        "tal_scq5k",
+        "the_number_of_zeros_at_the_end_of_a_product"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "With how many zeros does the product of the first 10 consecutive prime numbers end? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_text": "N/A.",
+      "keywords": [
+        "applying_prime_factorization",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "prime_factorization",
+        "single_choice",
+        "tal_scq5k",
+        "the_number_of_zeros_at_the_end_of_a_product"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1077",
+        "queId": "c0ec763321234feeb93ff70da15703fe",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          },
+          {
+            "label": "E",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Prime Factorization->Applying Prime Factorization->The Number of Zeros at the end of a Product"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00433",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 433,
+      "split": "en_test",
+      "source_problem_id": "b377aa99f7444b5494de74166c9f83fa"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Using the octal system (base-$8$ numeral system) to calculate $\\left (773\\right )\\_8 + \\left (6\\right )\\_8$, the answer should be．\n(A) \\left (111\\right )\\_8\n(B) \\left (779\\right )\\_8\n(C) \\left (781\\right )\\_8\n(D) \\left (801\\right )\\_8\n(E) \\left (1001\\right )\\_8",
+      "problem_plain": "Using the octal system (base- 8 numeral system) to calculate (773 ) _8 + (6 ) _8 , the answer should be． (A) (111 ) _8 (B) (779 ) _8 (C) (781 ) _8 (D) (801 ) _8 (E) (1001 ) _8",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "\\left (1001\\right )\\_8",
+      "final_normalized": "\\left (1001\\right )\\_8",
+      "candidates": [
+        "E",
+        "\\left (1001\\right )\\_8"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "properties_and_applications_of_number_bases"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "properties_and_applications_of_number_bases",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Using the octal system (base- 8 numeral system) to calculate (773 ) _8 + (6 ) _8 , the answer should be． (A) (111 ) _8 (B) (779 ) _8 (C) (781 ) _8 (D) (801 ) _8 (E) (1001 ) _8",
+      "solution_text": "N/A.",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "place_value_and_number_bases",
+        "properties_and_applications_of_number_bases",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1088",
+        "queId": "b377aa99f7444b5494de74166c9f83fa",
+        "difficulty": "2",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\left (111\\right )\\_8"
+          },
+          {
+            "label": "B",
+            "content": "\\left (779\\right )\\_8"
+          },
+          {
+            "label": "C",
+            "content": "\\left (781\\right )\\_8"
+          },
+          {
+            "label": "D",
+            "content": "\\left (801\\right )\\_8"
+          },
+          {
+            "label": "E",
+            "content": "\\left (1001\\right )\\_8"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Place Value and Number Bases->Properties and Applications of Number Bases"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00446",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 446,
+      "split": "en_test",
+      "source_problem_id": "ca2ce002027e428bba6ffc383b9a62ca"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following numbers cannot be written as the sum of $$4$$ consecutive whole numbers?\n(A) 1994\n(B) 2042\n(C) 2050\n(D) 2060",
+      "problem_plain": "Which of the following numbers cannot be written as the sum of 4 consecutive whole numbers? (A) 1994 (B) 2042 (C) 2050 (D) 2060",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "2060",
+      "final_normalized": "2060",
+      "candidates": [
+        "2060",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "characteristics_of_remainder",
+        "number_theory_modules",
+        "remainder_problems"
+      ],
+      "tags": [
+        "characteristics_of_remainder",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following numbers cannot be written as the sum of 4 consecutive whole numbers? (A) 1994 (B) 2042 (C) 2050 (D) 2060",
+      "solution_text": "N/A.",
+      "keywords": [
+        "characteristics_of_remainder",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1110",
+        "queId": "ca2ce002027e428bba6ffc383b9a62ca",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1994"
+          },
+          {
+            "label": "B",
+            "content": "2042"
+          },
+          {
+            "label": "C",
+            "content": "2050"
+          },
+          {
+            "label": "D",
+            "content": "2060"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Remainder Problems->Characteristics of Remainder"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00462",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 462,
+      "split": "en_test",
+      "source_problem_id": "d819f1134a4d4e16a4180211fb13d898"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The greatest odd factor of 30 is ．\n(A) 5\n(B) 6\n(C) 15\n(D) 21",
+      "problem_plain": "The greatest odd factor of 30 is ． (A) 5 (B) 6 (C) 15 (D) 21",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "15",
+      "final_normalized": "15",
+      "candidates": [
+        "15",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The greatest odd factor of 30 is ． (A) 5 (B) 6 (C) 15 (D) 21",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "1150",
+        "queId": "d819f1134a4d4e16a4180211fb13d898",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "5"
+          },
+          {
+            "label": "B",
+            "content": "6"
+          },
+          {
+            "label": "C",
+            "content": "15"
+          },
+          {
+            "label": "D",
+            "content": "21"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00465",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 465,
+      "split": "en_test",
+      "source_problem_id": "cf17fb6e1efa485f80df5b0017c51763"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many positive three-digit integers have a remainder of $2$ when divided by $6$, a remainder of $5$ when divided by $9$, and a remainder of $7$ when divided by $11$?\n(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+      "problem_plain": "How many positive three-digit integers have a remainder of 2 when divided by 6 , a remainder of 5 when divided by 9 , and a remainder of 7 when divided by 11 ? (A) 1 (B) 2 (C) 3 (D) 4 (E) 5",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "5",
+      "final_normalized": "5",
+      "candidates": [
+        "5",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules",
+        "remainder_problems"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many positive three-digit integers have a remainder of 2 when divided by 6 , a remainder of 5 when divided by 9 , and a remainder of 7 when divided by 11 ? (A) 1 (B) 2 (C) 3 (D) 4 (E) 5",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "1158",
+        "queId": "cf17fb6e1efa485f80df5b0017c51763",
+        "difficulty": "2",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          },
+          {
+            "label": "E",
+            "content": "5"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Remainder Problems"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00473",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 473,
+      "split": "en_test",
+      "source_problem_id": "b8c6fb276f264866a196e5fcefe4dd62"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which one of the following numbers is a multiple of 8?\n(A) 18\n(B) 28\n(C) 38\n(D) 48\n(E) 58",
+      "problem_plain": "Which one of the following numbers is a multiple of 8? (A) 18 (B) 28 (C) 38 (D) 48 (E) 58",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "48",
+      "final_normalized": "48",
+      "candidates": [
+        "48",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which one of the following numbers is a multiple of 8? (A) 18 (B) 28 (C) 38 (D) 48 (E) 58",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "1174",
+        "queId": "b8c6fb276f264866a196e5fcefe4dd62",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "18"
+          },
+          {
+            "label": "B",
+            "content": "28"
+          },
+          {
+            "label": "C",
+            "content": "38"
+          },
+          {
+            "label": "D",
+            "content": "48"
+          },
+          {
+            "label": "E",
+            "content": "58"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00493",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 493,
+      "split": "en_test",
+      "source_problem_id": "f49739e20f85487c8f1f05afe5bb2545"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Riley had $$4$$ dollar in her piggy bank on $$1^{st}$$ December $$2022$$, which is a Thursday. She will put $$1$$ into the piggy bank every Monday, Wednesday, Friday and Sunday. On which day would she reach $$$16$$ in her piggy bank?\n(A) Friday\n(B) Sunday\n(C) Monday\n(D) Wednesday\n(E) Tuesday",
+      "problem_plain": "Riley had 4 dollar in her piggy bank on 1^ st December 2022 , which is a Thursday. She will put 1 into the piggy bank every Monday, Wednesday, Friday and Sunday. On which day would she reach 16 in her piggy bank? (A) Friday (B) Sunday (C) Monday (D) Wednesday (E) Tuesday",
+      "solution_latex": "$$N.A$$",
+      "solution_plain": "N.A"
+    },
+    "answer": {
+      "final_raw": "Wednesday",
+      "final_normalized": "Wednesday",
+      "candidates": [
+        "D",
+        "Wednesday"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules",
+        "remainder_problems"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$N.A$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Riley had 4 dollar in her piggy bank on 1^ st December 2022 , which is a Thursday. She will put 1 into the piggy bank every Monday, Wednesday, Friday and Sunday. On which day would she reach 16 in her piggy bank? (A) Friday (B) Sunday (C) Monday (D) Wednesday (E) Tuesday",
+      "solution_text": "N.A",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "remainder_problems",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1227",
+        "queId": "f49739e20f85487c8f1f05afe5bb2545",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Friday"
+          },
+          {
+            "label": "B",
+            "content": "Sunday"
+          },
+          {
+            "label": "C",
+            "content": "Monday"
+          },
+          {
+            "label": "D",
+            "content": "Wednesday"
+          },
+          {
+            "label": "E",
+            "content": "Tuesday"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Remainder Problems"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_3:00505",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 505,
+      "split": "en_test",
+      "source_problem_id": "fe8d83d6d94b43639946c1e19ef5d5f3"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Elmo is packing $$107$$ cookies. He wants to put $$5$$ cookies in each plastic bag. How many cookies will not be packed into plastic bags?\n(A) 0\n(B) 1\n(C) 2\n(D) 3\n(E) 4",
+      "problem_plain": "Elmo is packing 107 cookies. He wants to put 5 cookies in each plastic bag. How many cookies will not be packed into plastic bags? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Elmo is packing 107 cookies. He wants to put 5 cookies in each plastic bag. How many cookies will not be packed into plastic bags? (A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
+      "solution_text": "",
+      "keywords": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_3",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "1260",
+        "queId": "fe8d83d6d94b43639946c1e19ef5d5f3",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          },
+          {
+            "label": "E",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders->Divisibility Rules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  }
+]

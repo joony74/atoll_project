@@ -1,0 +1,2176 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00000",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 0,
+      "split": "en_test",
+      "source_problem_id": "04c0b0b72d444057afcf885efb9473d7"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Compute the average angular acceleration and the angular displacement during the 2 seconds a rotating object speeds up from 0.5 rad/s to 0.7 rad/s.\n(A) a = 0.1 rad/s\\textsuperscript{2}~$\\Delta\\theta$~= 0.3 radians\n(B) a = 0.2 rad/s\\textsuperscript{2~}$\\Delta\\theta$~= 0.5 radians\n(C) a = 0.1 rad/s\\textsuperscript{2~}$\\Delta\\theta$~= 1.2 radians\n(D) a = 0.2 rad/s\\textsuperscript{2~}$\\Delta\\theta$~= 1.2 radians",
+      "problem_plain": "Compute the average angular acceleration and the angular displacement during the 2 seconds a rotating object speeds up from 0.5 rad/s to 0.7 rad/s. (A) a = 0.1 rad/s 2 ~ ~= 0.3 radians (B) a = 0.2 rad/s 2~ ~= 0.5 radians (C) a = 0.1 rad/s 2~ ~= 1.2 radians (D) a = 0.2 rad/s 2~ ~= 1.2 radians",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "a = 0.1 rad/s\\textsuperscript{2~}$\\Delta\\theta$~= 1.2 radians",
+      "final_normalized": "a = 0.1 rad/s\\textsuperscript{2~}$\\Delta\\theta$~= 1.2 radians",
+      "candidates": [
+        "C",
+        "a = 0.1 rad/s\\textsuperscript{2~}$\\Delta\\theta$~= 1.2 radians"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Compute the average angular acceleration and the angular displacement during the 2 seconds a rotating object speeds up from 0.5 rad/s to 0.7 rad/s. (A) a = 0.1 rad/s 2 ~ ~= 0.3 radians (B) a = 0.2 rad/s 2~ ~= 0.5 radians (C) a = 0.1 rad/s 2~ ~= 1.2 radians (D) a = 0.2 rad/s 2~ ~= 1.2 radians",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "3",
+        "queId": "04c0b0b72d444057afcf885efb9473d7",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "a = 0.1 rad/s\\textsuperscript{2}~$\\Delta\\theta$~= 0.3 radians"
+          },
+          {
+            "label": "B",
+            "content": "a = 0.2 rad/s\\textsuperscript{2~}$\\Delta\\theta$~= 0.5 radians"
+          },
+          {
+            "label": "C",
+            "content": "a = 0.1 rad/s\\textsuperscript{2~}$\\Delta\\theta$~= 1.2 radians"
+          },
+          {
+            "label": "D",
+            "content": "a = 0.2 rad/s\\textsuperscript{2~}$\\Delta\\theta$~= 1.2 radians"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00001",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1,
+      "split": "en_test",
+      "source_problem_id": "052ac178f4164a6cbd28c4ad644d6a34"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A 35 kg child ziplines from rest on a platform 12 m high to the ground with negligible friction. In the last 8 m of the zipline, which is approximately horizontal, a braking mechanism applies a constant force opposing the motion to slow the child down so that she\\textquotesingle s traveling at 2.5 m/s when she finally lands on the safety padding at the end. The padding compresses for1.5 s when the child lands on it and stops.  $\\textasciitilde$  What is the magnitude of the force applied by the braking mechanism?\n(A) 350N\n(B) 511N\n(C) 525N\n(D) 4090N",
+      "problem_plain": "A 35 kg child ziplines from rest on a platform 12 m high to the ground with negligible friction. In the last 8 m of the zipline, which is approximately horizontal, a braking mechanism applies a constant force opposing the motion to slow the child down so that she s traveling at 2.5 m/s when she finally lands on the safety padding at the end. The padding compresses for1.5 s when the child lands on it and stops. What is the magnitude of the force applied by the braking mechanism? (A) 350N (B) 511N (C) 525N (D) 4090N",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "511N",
+      "final_normalized": "511N",
+      "candidates": [
+        "511N",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A 35 kg child ziplines from rest on a platform 12 m high to the ground with negligible friction. In the last 8 m of the zipline, which is approximately horizontal, a braking mechanism applies a constant force opposing the motion to slow the child down so that she s traveling at 2.5 m/s when she finally lands on the safety padding at the end. The padding compresses for1.5 s when the child lands on it and stops. What is the magnitude of the force applied by the braking mechanism? (A) 350N (B) 511N (C) 525N (D) 4090N",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "12",
+        "queId": "052ac178f4164a6cbd28c4ad644d6a34",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "350N"
+          },
+          {
+            "label": "B",
+            "content": "511N"
+          },
+          {
+            "label": "C",
+            "content": "525N"
+          },
+          {
+            "label": "D",
+            "content": "4090N"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00056",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 56,
+      "split": "en_test",
+      "source_problem_id": "25f33846c9e54bc28f386cdbe9164796"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The muzzle velocity of a 0.003-kg paintball pellet is 90 m/s. If it takes 0.002 s for the pellet to be shot from the paintball gun, what is the average force of the recoilon the paintball gun?\n(A) 24N\n(B) 60N\n(C) 68N\n(D) 135N",
+      "problem_plain": "The muzzle velocity of a 0.003-kg paintball pellet is 90 m/s. If it takes 0.002 s for the pellet to be shot from the paintball gun, what is the average force of the recoilon the paintball gun? (A) 24N (B) 60N (C) 68N (D) 135N",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "135N",
+      "final_normalized": "135N",
+      "candidates": [
+        "135N",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The muzzle velocity of a 0.003-kg paintball pellet is 90 m/s. If it takes 0.002 s for the pellet to be shot from the paintball gun, what is the average force of the recoilon the paintball gun? (A) 24N (B) 60N (C) 68N (D) 135N",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "151",
+        "queId": "25f33846c9e54bc28f386cdbe9164796",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "24N"
+          },
+          {
+            "label": "B",
+            "content": "60N"
+          },
+          {
+            "label": "C",
+            "content": "68N"
+          },
+          {
+            "label": "D",
+            "content": "135N"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00093",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 93,
+      "split": "en_test",
+      "source_problem_id": "98dfcdfaa1804d5dae4e883b433ea373"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A bicycle wheel with a diameter of 62.2 cm and a rotational inertia of 0.40 kg·m\\textsuperscript{2} is rotating at a rate of 8 rad/s when the brakes are applied. The brakes apply a normal force of 85 N on the brake pad at the edge of the wheel.The coefficient of kinetic friction between the brake pad and the wheel is 0.32. How long does it take for the bicycle to stop?\n(A) 0.19s\n(B) 0.29s\n(C) 0.38s\n(D) 2.6s",
+      "problem_plain": "A bicycle wheel with a diameter of 62.2 cm and a rotational inertia of 0.40 kg·m 2 is rotating at a rate of 8 rad/s when the brakes are applied. The brakes apply a normal force of 85 N on the brake pad at the edge of the wheel.The coefficient of kinetic friction between the brake pad and the wheel is 0.32. How long does it take for the bicycle to stop? (A) 0.19s (B) 0.29s (C) 0.38s (D) 2.6s",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "0.38s",
+      "final_normalized": "0.38s",
+      "candidates": [
+        "0.38s",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A bicycle wheel with a diameter of 62.2 cm and a rotational inertia of 0.40 kg·m 2 is rotating at a rate of 8 rad/s when the brakes are applied. The brakes apply a normal force of 85 N on the brake pad at the edge of the wheel.The coefficient of kinetic friction between the brake pad and the wheel is 0.32. How long does it take for the bicycle to stop? (A) 0.19s (B) 0.29s (C) 0.38s (D) 2.6s",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "237",
+        "queId": "98dfcdfaa1804d5dae4e883b433ea373",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0.19s"
+          },
+          {
+            "label": "B",
+            "content": "0.29s"
+          },
+          {
+            "label": "C",
+            "content": "0.38s"
+          },
+          {
+            "label": "D",
+            "content": "2.6s"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00136",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 136,
+      "split": "en_test",
+      "source_problem_id": "471488ccba7f4ada82a4a69213ecca58"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A large clinical trial was designed to determine whether a certain vitamin improves the general health of adults.The investigators first identified 85 variables that measure various aspects of the general health of adults. Because each adult in the clinical trial was to serve as his or her own control, the 85 variables were measured for each adult, both before taking the vitamin and after taking the vitamin for three months. The investigators then performed 85 matched-pair t-tests, one for each variable. They found statistically significant results at the 0.05evel in 2 of the variables, both in the direction of improved general health. Which of the following should the investigators conclude?\n(A) There is evidence that the vitamin improves the health of adults because 2 of the 85 tests were statistically significant.\n(B) There is evidence that the vitamin improves the health of adults because in clinical trials investigators typically underestimate the proportion of the population that is helped by a vitamin.\n(C) There is insufficient evidence that the vitamin improves the health of adults because at the 0.05 significance level, one could easily get statistically significant results in 2 out of 85 tests just due to chance variability.\n(D) There is insufficient evidence that the vitamin improves the health of adults because the sample size of 85 is not large enough to draw a conclusion.\n(E) No conclusion can be drawn because an even number of variables is needed for a matched-pairs design.",
+      "problem_plain": "A large clinical trial was designed to determine whether a certain vitamin improves the general health of adults.The investigators first identified 85 variables that measure various aspects of the general health of adults. Because each adult in the clinical trial was to serve as his or her own control, the 85 variables were measured for each adult, both before taking the vitamin and after taking the vitamin for three months. The investigators then performed 85 matched-pair t-tests, one for each variable. They found statistically significant results at the 0.05evel in 2 of the variables, both in the direction of improved general health. Which of the following should the investigators conclude? (A) There is evidence that the vitamin improves the health of adults because 2 of the 85 tests were statistically significant. (B) There is evidence that the vitamin improves the health of adults because in clinical trials investigators typically underestimate the proportion of the population that is helped by a vitamin. (C) There is insufficient evidence that the vitamin improves the health of adults because at the 0.05 significance level, one could easily get statistically significant results in 2 out of 85 tests just due to chance variability. (D) There is insufficient evidence that the vitamin improves the health of adults because the sample size of 85 is not large enough to draw a conclusion. (E) No conclusion can be drawn because an even number of variables is needed for a matched-pairs design.",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "There is insufficient evidence that the vitamin improves the health of adults because at the 0.05 significance level, one could easily get statistically significant results in 2 out of 85 tests just due to chance variability.",
+      "final_normalized": "There is insufficient evidence that the vitamin improves the health of adults because at the 0.05 significance level, one could easily get statistically significant results in 2 out of 85 tests just due to chance variability.",
+      "candidates": [
+        "C",
+        "There is insufficient evidence that the vitamin improves the health of adults because at the 0.05 significance level, one could easily get statistically significant results in 2 out of 85 tests just due to chance variability."
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A large clinical trial was designed to determine whether a certain vitamin improves the general health of adults.The investigators first identified 85 variables that measure various aspects of the general health of adults. Because each adult in the clinical trial was to serve as his or her own control, the 85 variables were measured for each adult, both before taking the vitamin and after taking the vitamin for three months. The investigators then performed 85 matched-pair t-tests, one for each variable. They found statistically significant results at the 0.05evel in 2 of the variables, both in the direction of improved general health. Which of the following should the investigators conclude? (A) There is evidence that the vitamin improves the health of adults because 2 of the 85 tests were statistically significant. (B) There is evidence that the vitamin improves the health of adults because in clinical trials investigators typically underestimate the proportion of the population that is helped by a vitamin. (C) There is insufficient evidence that the vitamin improves the health of adults because at the 0.05 significance level, one could easily get statistically significant results in 2 out of 85 tests just due to chance variability. (D) There is insufficient evidence that the vitamin improves the health of adults because the sample size of 85 is not large enough to draw a conclusion. (E) No conclusion can be drawn because an even number of variables is needed for a matched-pairs design.",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "336",
+        "queId": "471488ccba7f4ada82a4a69213ecca58",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "There is evidence that the vitamin improves the health of adults because 2 of the 85 tests were statistically significant."
+          },
+          {
+            "label": "B",
+            "content": "There is evidence that the vitamin improves the health of adults because in clinical trials investigators typically underestimate the proportion of the population that is helped by a vitamin."
+          },
+          {
+            "label": "C",
+            "content": "There is insufficient evidence that the vitamin improves the health of adults because at the 0.05 significance level, one could easily get statistically significant results in 2 out of 85 tests just due to chance variability."
+          },
+          {
+            "label": "D",
+            "content": "There is insufficient evidence that the vitamin improves the health of adults because the sample size of 85 is not large enough to draw a conclusion."
+          },
+          {
+            "label": "E",
+            "content": "No conclusion can be drawn because an even number of variables is needed for a matched-pairs design."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00165",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 165,
+      "split": "en_test",
+      "source_problem_id": "24171a355ab14f79a5a72c722de35c62"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A person pushes a 60 kg grocery cart, initially at rest, across a parking lot. He exerts a pushing force directed 20$^{\\circ}$~below the horizontal. If the person pushes the cart with a force of 300 N for 5 m across horizontal ground and then releases the cart, the cart has a speed of 3 m/s. What is the work done by friction during this motion?\n(A) -1230J\n(B) -1140J\n(C) 1140J\n(D) 1230J",
+      "problem_plain": "A person pushes a 60 kg grocery cart, initially at rest, across a parking lot. He exerts a pushing force directed 20 ^ ~below the horizontal. If the person pushes the cart with a force of 300 N for 5 m across horizontal ground and then releases the cart, the cart has a speed of 3 m/s. What is the work done by friction during this motion? (A) -1230J (B) -1140J (C) 1140J (D) 1230J",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "-1140J",
+      "final_normalized": "-1140J",
+      "candidates": [
+        "-1140J",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A person pushes a 60 kg grocery cart, initially at rest, across a parking lot. He exerts a pushing force directed 20 ^ ~below the horizontal. If the person pushes the cart with a force of 300 N for 5 m across horizontal ground and then releases the cart, the cart has a speed of 3 m/s. What is the work done by friction during this motion? (A) -1230J (B) -1140J (C) 1140J (D) 1230J",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "400",
+        "queId": "24171a355ab14f79a5a72c722de35c62",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "-1230J"
+          },
+          {
+            "label": "B",
+            "content": "-1140J"
+          },
+          {
+            "label": "C",
+            "content": "1140J"
+          },
+          {
+            "label": "D",
+            "content": "1230J"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00194",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 194,
+      "split": "en_test",
+      "source_problem_id": "2d3cbd10dccb4d2db6d831df43a26c09"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Researchers investigated whether a new process for producing yarn could reduce the mean amount of volatile organic compounds (VOCs) emitted by carpet. From random samples of carpets, the researchers found the mean reduction of VOCs emitted by carpets made with yarn produced by the new process compared with thatof carpets made with yarn produced by the traditional process was 13 parts per million (ppm). All conditionsfor inference were met, and the p-value for the appropriate hypothesis test was 0.095. Which of the following statements is the best interpretation of the p-value?\n(A) The probability that the null hypothesis is true is 0.095\n(B) The probability that the alternative hypothesis is true is 0.095\n(C) The probability of observing a mean reduction of 13 ppm is 0.095\n(D) If the null hypothesis is true, the probability of observing a mean reduction of at least 13 ppm is 0.095\n(E) If the null hypothesis is true, the probability of observing a mean reduction of at most 13 ppm is 0.095",
+      "problem_plain": "Researchers investigated whether a new process for producing yarn could reduce the mean amount of volatile organic compounds (VOCs) emitted by carpet. From random samples of carpets, the researchers found the mean reduction of VOCs emitted by carpets made with yarn produced by the new process compared with thatof carpets made with yarn produced by the traditional process was 13 parts per million (ppm). All conditionsfor inference were met, and the p-value for the appropriate hypothesis test was 0.095. Which of the following statements is the best interpretation of the p-value? (A) The probability that the null hypothesis is true is 0.095 (B) The probability that the alternative hypothesis is true is 0.095 (C) The probability of observing a mean reduction of 13 ppm is 0.095 (D) If the null hypothesis is true, the probability of observing a mean reduction of at least 13 ppm is 0.095 (E) If the null hypothesis is true, the probability of observing a mean reduction of at most 13 ppm is 0.095",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "If the null hypothesis is true, the probability of observing a mean reduction of at least 13 ppm is 0.095",
+      "final_normalized": "If the null hypothesis is true, the probability of observing a mean reduction of at least 13 ppm is 0.095",
+      "candidates": [
+        "D",
+        "If the null hypothesis is true, the probability of observing a mean reduction of at least 13 ppm is 0.095"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Researchers investigated whether a new process for producing yarn could reduce the mean amount of volatile organic compounds (VOCs) emitted by carpet. From random samples of carpets, the researchers found the mean reduction of VOCs emitted by carpets made with yarn produced by the new process compared with thatof carpets made with yarn produced by the traditional process was 13 parts per million (ppm). All conditionsfor inference were met, and the p-value for the appropriate hypothesis test was 0.095. Which of the following statements is the best interpretation of the p-value? (A) The probability that the null hypothesis is true is 0.095 (B) The probability that the alternative hypothesis is true is 0.095 (C) The probability of observing a mean reduction of 13 ppm is 0.095 (D) If the null hypothesis is true, the probability of observing a mean reduction of at least 13 ppm is 0.095 (E) If the null hypothesis is true, the probability of observing a mean reduction of at most 13 ppm is 0.095",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "460",
+        "queId": "2d3cbd10dccb4d2db6d831df43a26c09",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "The probability that the null hypothesis is true is 0.095"
+          },
+          {
+            "label": "B",
+            "content": "The probability that the alternative hypothesis is true is 0.095"
+          },
+          {
+            "label": "C",
+            "content": "The probability of observing a mean reduction of 13 ppm is 0.095"
+          },
+          {
+            "label": "D",
+            "content": "If the null hypothesis is true, the probability of observing a mean reduction of at least 13 ppm is 0.095"
+          },
+          {
+            "label": "E",
+            "content": "If the null hypothesis is true, the probability of observing a mean reduction of at most 13 ppm is 0.095"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00202",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 202,
+      "split": "en_test",
+      "source_problem_id": "d57a0b6b960a40aabf056422bd04d60d"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The main difference between a $\\chi^{2}$ test for independence and a~$\\chi^{2}$ test for homogeneity of proportions is which of the following?\n(A) They are based on a different number of degrees of freedom.\n(B) One of the tests is for a two-sided alternative and the other is for a one-sided alternative.\n(C) In one case, two variables are compared within a single population. In the other case, two populations are compared in terms of a single variable.\n(D) For a given value of $\\chi^{2}$, they have different P-values.\n(E) There are no differences between the tests. They measure exactly the same thing.",
+      "problem_plain": "The main difference between a ^ 2 test for independence and a~ ^ 2 test for homogeneity of proportions is which of the following? (A) They are based on a different number of degrees of freedom. (B) One of the tests is for a two-sided alternative and the other is for a one-sided alternative. (C) In one case, two variables are compared within a single population. In the other case, two populations are compared in terms of a single variable. (D) For a given value of ^ 2 , they have different P-values. (E) There are no differences between the tests. They measure exactly the same thing.",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "In one case, two variables are compared within a single population. In the other case, two populations are compared in terms of a single variable.",
+      "final_normalized": "In one case, two variables are compared within a single population. In the other case, two populations are compared in terms of a single variable.",
+      "candidates": [
+        "C",
+        "In one case, two variables are compared within a single population. In the other case, two populations are compared in terms of a single variable."
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The main difference between a ^ 2 test for independence and a~ ^ 2 test for homogeneity of proportions is which of the following? (A) They are based on a different number of degrees of freedom. (B) One of the tests is for a two-sided alternative and the other is for a one-sided alternative. (C) In one case, two variables are compared within a single population. In the other case, two populations are compared in terms of a single variable. (D) For a given value of ^ 2 , they have different P-values. (E) There are no differences between the tests. They measure exactly the same thing.",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "476",
+        "queId": "d57a0b6b960a40aabf056422bd04d60d",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "They are based on a different number of degrees of freedom."
+          },
+          {
+            "label": "B",
+            "content": "One of the tests is for a two-sided alternative and the other is for a one-sided alternative."
+          },
+          {
+            "label": "C",
+            "content": "In one case, two variables are compared within a single population. In the other case, two populations are compared in terms of a single variable."
+          },
+          {
+            "label": "D",
+            "content": "For a given value of $\\chi^{2}$, they have different P-values."
+          },
+          {
+            "label": "E",
+            "content": "There are no differences between the tests. They measure exactly the same thing."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00235",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 235,
+      "split": "en_test",
+      "source_problem_id": "713c25f344cf45a7b56786e37ac08ab7"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the length of a pendulum whose period, at the equator, is 1 s?\n(A) 0.15m\n(B) 0.25m\n(C) 0.30m\n(D) 0.45m",
+      "problem_plain": "What is the length of a pendulum whose period, at the equator, is 1 s? (A) 0.15m (B) 0.25m (C) 0.30m (D) 0.45m",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "0.45m",
+      "final_normalized": "0.45m",
+      "candidates": [
+        "0.45m",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the length of a pendulum whose period, at the equator, is 1 s? (A) 0.15m (B) 0.25m (C) 0.30m (D) 0.45m",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "558",
+        "queId": "713c25f344cf45a7b56786e37ac08ab7",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0.15m"
+          },
+          {
+            "label": "B",
+            "content": "0.25m"
+          },
+          {
+            "label": "C",
+            "content": "0.30m"
+          },
+          {
+            "label": "D",
+            "content": "0.45m"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00251",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 251,
+      "split": "en_test",
+      "source_problem_id": "4d4e1d53e9df4e93b99e30d27c9bb00f"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "What is the average power used to pitch a 0.142 kg baseball at 42 m/s, if it takes 0.3 s to accelerate it from rest?\n(A) 251W\n(B) 417W\n(C) 501W\n(D) 835W",
+      "problem_plain": "What is the average power used to pitch a 0.142 kg baseball at 42 m/s, if it takes 0.3 s to accelerate it from rest? (A) 251W (B) 417W (C) 501W (D) 835W",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "417W",
+      "final_normalized": "417W",
+      "candidates": [
+        "417W",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "What is the average power used to pitch a 0.142 kg baseball at 42 m/s, if it takes 0.3 s to accelerate it from rest? (A) 251W (B) 417W (C) 501W (D) 835W",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "613",
+        "queId": "4d4e1d53e9df4e93b99e30d27c9bb00f",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "251W"
+          },
+          {
+            "label": "B",
+            "content": "417W"
+          },
+          {
+            "label": "C",
+            "content": "501W"
+          },
+          {
+            "label": "D",
+            "content": "835W"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00267",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 267,
+      "split": "en_test",
+      "source_problem_id": "5234679bcf7d40b9815c77a690da3f3e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A department store manager wants to know if a greater proportion of customers on the store\\textquotesingle s mailing list would redeem a coupon for $\\textbackslash$$5 off the price of an item than would redeem a coupon for 10 percent off the price of anitem. The manager mails a $\\textbackslash$$5 off coupon to a random sample of 500 customers and mails a 10 percent off coupon to an independent random sample of 500 customers. The number of coupons of each type that were redeemed was recorded. Assuming that the conditions for inference are met, what test procedure should be usedto answer the manager\\textquotesingle s question?\n(A) A one-sample t-test for a mean\n(B) A one-sample z-test for a proportion\n(C) A t-test for the slope of a regression line\n(D) A matched-pairs t-test for a mean difference\n(E) A two-sample z-test for a difference between two proportions",
+      "problem_plain": "A department store manager wants to know if a greater proportion of customers on the store s mailing list would redeem a coupon for 5 off the price of an item than would redeem a coupon for 10 percent off the price of anitem. The manager mails a 5 off coupon to a random sample of 500 customers and mails a 10 percent off coupon to an independent random sample of 500 customers. The number of coupons of each type that were redeemed was recorded. Assuming that the conditions for inference are met, what test procedure should be usedto answer the manager s question? (A) A one-sample t-test for a mean (B) A one-sample z-test for a proportion (C) A t-test for the slope of a regression line (D) A matched-pairs t-test for a mean difference (E) A two-sample z-test for a difference between two proportions",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "A two-sample z-test for a difference between two proportions",
+      "final_normalized": "A two-sample z-test for a difference between two proportions",
+      "candidates": [
+        "A two-sample z-test for a difference between two proportions",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A department store manager wants to know if a greater proportion of customers on the store s mailing list would redeem a coupon for 5 off the price of an item than would redeem a coupon for 10 percent off the price of anitem. The manager mails a 5 off coupon to a random sample of 500 customers and mails a 10 percent off coupon to an independent random sample of 500 customers. The number of coupons of each type that were redeemed was recorded. Assuming that the conditions for inference are met, what test procedure should be usedto answer the manager s question? (A) A one-sample t-test for a mean (B) A one-sample z-test for a proportion (C) A t-test for the slope of a regression line (D) A matched-pairs t-test for a mean difference (E) A two-sample z-test for a difference between two proportions",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "653",
+        "queId": "5234679bcf7d40b9815c77a690da3f3e",
+        "difficulty": "4",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "A one-sample t-test for a mean"
+          },
+          {
+            "label": "B",
+            "content": "A one-sample z-test for a proportion"
+          },
+          {
+            "label": "C",
+            "content": "A t-test for the slope of a regression line"
+          },
+          {
+            "label": "D",
+            "content": "A matched-pairs t-test for a mean difference"
+          },
+          {
+            "label": "E",
+            "content": "A two-sample z-test for a difference between two proportions"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00275",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 275,
+      "split": "en_test",
+      "source_problem_id": "5b59e0a8671b478f8941fe4b89192db6"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A two-sample t-test of the hypotheses H\\textsubscript{0} :~$\\mu\\_{1}-\\mu\\_{2}$~= 0 versus H\\textsubscript{a}~:~$\\mu\\_{1}-\\mu\\_{2}$ \\textgreater{} 0 produces a p-value of 0.03. Which of the following must be true?  $\\textasciitilde$ I. A 90 percent confidence interval for the difference in means will contain the value 0.  $\\textasciitilde$ Il. A 95 percent confidence interval for the difference in means will contain the value 0.  $\\textasciitilde$ II. A 99 percent confidence interval for the difference in means will contain the value 0.\n(A) I only\n(B) III only\n(C) I and II only\n(D) Il and III only\n(E) I, Il, and I",
+      "problem_plain": "A two-sample t-test of the hypotheses H 0 :~ _ 1 - _ 2 ~= 0 versus H a ~:~ _ 1 - _ 2 0 produces a p-value of 0.03. Which of the following must be true? I. A 90 percent confidence interval for the difference in means will contain the value 0. Il. A 95 percent confidence interval for the difference in means will contain the value 0. II. A 99 percent confidence interval for the difference in means will contain the value 0. (A) I only (B) III only (C) I and II only (D) Il and III only (E) I, Il, and I",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "Il and III only",
+      "final_normalized": "Il and III only",
+      "candidates": [
+        "D",
+        "Il and III only"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A two-sample t-test of the hypotheses H 0 :~ _ 1 - _ 2 ~= 0 versus H a ~:~ _ 1 - _ 2 0 produces a p-value of 0.03. Which of the following must be true? I. A 90 percent confidence interval for the difference in means will contain the value 0. Il. A 95 percent confidence interval for the difference in means will contain the value 0. II. A 99 percent confidence interval for the difference in means will contain the value 0. (A) I only (B) III only (C) I and II only (D) Il and III only (E) I, Il, and I",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "676",
+        "queId": "5b59e0a8671b478f8941fe4b89192db6",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "I only"
+          },
+          {
+            "label": "B",
+            "content": "III only"
+          },
+          {
+            "label": "C",
+            "content": "I and II only"
+          },
+          {
+            "label": "D",
+            "content": "Il and III only"
+          },
+          {
+            "label": "E",
+            "content": "I, Il, and I"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00307",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 307,
+      "split": "en_test",
+      "source_problem_id": "a849d43d20f54bd59054a55f6a20c9ff"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "If the length of a simple pendulum is doubled, its period will\n(A) decrease by 2\n(B) increase by 2\n(C) decrease by~$\\sqrt{2}\n(D) increase by~$\\sqrt{2}",
+      "problem_plain": "If the length of a simple pendulum is doubled, its period will (A) decrease by 2 (B) increase by 2 (C) decrease by~ 2 (D) increase by~ 2",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "increase by~$\\sqrt{2}",
+      "final_normalized": "increase by~$\\sqrt{2}",
+      "candidates": [
+        "D",
+        "increase by~$\\sqrt{2}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "If the length of a simple pendulum is doubled, its period will (A) decrease by 2 (B) increase by 2 (C) decrease by~ 2 (D) increase by~ 2",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "773",
+        "queId": "a849d43d20f54bd59054a55f6a20c9ff",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "decrease by 2"
+          },
+          {
+            "label": "B",
+            "content": "increase by 2"
+          },
+          {
+            "label": "C",
+            "content": "decrease by~$\\sqrt{2}"
+          },
+          {
+            "label": "D",
+            "content": "increase by~$\\sqrt{2}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00338",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 338,
+      "split": "en_test",
+      "source_problem_id": "77a5a605f5f94825a021ea6db07e09dd"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A 90 percent confidence interval for the slope of a regression line is determined to be (-0.181, 1.529). Which of the following statements must be true?\n(A) The correlation coefficient of the data is positive.\n(B) The sum of the residuals for the data based on the regression line is positive.\n(C) A scatterplot of the data would show a linear pattern.\n(D) The slope of the sample regression line is 1.348.\n(E) The slope of the sample regression line is 0.",
+      "problem_plain": "A 90 percent confidence interval for the slope of a regression line is determined to be (-0.181, 1.529). Which of the following statements must be true? (A) The correlation coefficient of the data is positive. (B) The sum of the residuals for the data based on the regression line is positive. (C) A scatterplot of the data would show a linear pattern. (D) The slope of the sample regression line is 1.348. (E) The slope of the sample regression line is 0.",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "The correlation coefficient of the data is positive.",
+      "final_normalized": "The correlation coefficient of the data is positive.",
+      "candidates": [
+        "A",
+        "The correlation coefficient of the data is positive."
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A 90 percent confidence interval for the slope of a regression line is determined to be (-0.181, 1.529). Which of the following statements must be true? (A) The correlation coefficient of the data is positive. (B) The sum of the residuals for the data based on the regression line is positive. (C) A scatterplot of the data would show a linear pattern. (D) The slope of the sample regression line is 1.348. (E) The slope of the sample regression line is 0.",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "844",
+        "queId": "77a5a605f5f94825a021ea6db07e09dd",
+        "difficulty": "4",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "The correlation coefficient of the data is positive."
+          },
+          {
+            "label": "B",
+            "content": "The sum of the residuals for the data based on the regression line is positive."
+          },
+          {
+            "label": "C",
+            "content": "A scatterplot of the data would show a linear pattern."
+          },
+          {
+            "label": "D",
+            "content": "The slope of the sample regression line is 1.348."
+          },
+          {
+            "label": "E",
+            "content": "The slope of the sample regression line is 0."
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00343",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 343,
+      "split": "en_test",
+      "source_problem_id": "7c3f31bd33404dff95cf297a7575a0f6"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A survey of a random sample of 210 male teens and 228 female teens, ages 13 years to 17 years, found that 122 of the male teens and 160 of the female teens brush their teeth at least twice a day. If there is no difference between the proportions in the population of all male and female teens ages 13 years to 17 years who brush their teeth at least twice a day, approximately how many males and females in the sample would be expected to brush their teeth at least twice a day?\n(A) 105 males and 114 females\n(B) 122 males and 160 females\n(C) 135 males and 147 females\n(D) 141 males and 141 females\n(E) 219 males and 219 females",
+      "problem_plain": "A survey of a random sample of 210 male teens and 228 female teens, ages 13 years to 17 years, found that 122 of the male teens and 160 of the female teens brush their teeth at least twice a day. If there is no difference between the proportions in the population of all male and female teens ages 13 years to 17 years who brush their teeth at least twice a day, approximately how many males and females in the sample would be expected to brush their teeth at least twice a day? (A) 105 males and 114 females (B) 122 males and 160 females (C) 135 males and 147 females (D) 141 males and 141 females (E) 219 males and 219 females",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "135 males and 147 females",
+      "final_normalized": "135 males and 147 females",
+      "candidates": [
+        "135 males and 147 females",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A survey of a random sample of 210 male teens and 228 female teens, ages 13 years to 17 years, found that 122 of the male teens and 160 of the female teens brush their teeth at least twice a day. If there is no difference between the proportions in the population of all male and female teens ages 13 years to 17 years who brush their teeth at least twice a day, approximately how many males and females in the sample would be expected to brush their teeth at least twice a day? (A) 105 males and 114 females (B) 122 males and 160 females (C) 135 males and 147 females (D) 141 males and 141 females (E) 219 males and 219 females",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "857",
+        "queId": "7c3f31bd33404dff95cf297a7575a0f6",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "105 males and 114 females"
+          },
+          {
+            "label": "B",
+            "content": "122 males and 160 females"
+          },
+          {
+            "label": "C",
+            "content": "135 males and 147 females"
+          },
+          {
+            "label": "D",
+            "content": "141 males and 141 females"
+          },
+          {
+            "label": "E",
+            "content": "219 males and 219 females"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00351",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 351,
+      "split": "en_test",
+      "source_problem_id": "6f0c4665d8534cfe8743e6f8f7f38fc5"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A 40-kg box slides down an incline that is angled 30$^{\\circ}$ above the horizontal. The box starts from rest at a height of 8 m, and the coefficient of kinetic friction is 0.2. What is the total work done on the box as it slides to the bottom of the incline?\n(A) 1109J\n(B) 2091J\n(C) 3200J\n(D) 4390J",
+      "problem_plain": "A 40-kg box slides down an incline that is angled 30 ^ above the horizontal. The box starts from rest at a height of 8 m, and the coefficient of kinetic friction is 0.2. What is the total work done on the box as it slides to the bottom of the incline? (A) 1109J (B) 2091J (C) 3200J (D) 4390J",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "2091J",
+      "final_normalized": "2091J",
+      "candidates": [
+        "2091J",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A 40-kg box slides down an incline that is angled 30 ^ above the horizontal. The box starts from rest at a height of 8 m, and the coefficient of kinetic friction is 0.2. What is the total work done on the box as it slides to the bottom of the incline? (A) 1109J (B) 2091J (C) 3200J (D) 4390J",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "879",
+        "queId": "6f0c4665d8534cfe8743e6f8f7f38fc5",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1109J"
+          },
+          {
+            "label": "B",
+            "content": "2091J"
+          },
+          {
+            "label": "C",
+            "content": "3200J"
+          },
+          {
+            "label": "D",
+            "content": "4390J"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00418",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 418,
+      "split": "en_test",
+      "source_problem_id": "98431a4b7aec400cb19b4f6307f993fc"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Ali surveyed 200 students at a school and recorded the eye color and the gender of each student. Of the 80 male students who were surveyed, 60 had brown eyes. If eye color and gender are independent, how many female students surveyed would be expected to have brown eyes?\n(A) 5\n(B) 20\n(C) 30\n(D) 90\n(E) 100",
+      "problem_plain": "Ali surveyed 200 students at a school and recorded the eye color and the gender of each student. Of the 80 male students who were surveyed, 60 had brown eyes. If eye color and gender are independent, how many female students surveyed would be expected to have brown eyes? (A) 5 (B) 20 (C) 30 (D) 90 (E) 100",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "90",
+      "final_normalized": "90",
+      "candidates": [
+        "90",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Ali surveyed 200 students at a school and recorded the eye color and the gender of each student. Of the 80 male students who were surveyed, 60 had brown eyes. If eye color and gender are independent, how many female students surveyed would be expected to have brown eyes? (A) 5 (B) 20 (C) 30 (D) 90 (E) 100",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "1051",
+        "queId": "98431a4b7aec400cb19b4f6307f993fc",
+        "difficulty": "4",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "5"
+          },
+          {
+            "label": "B",
+            "content": "20"
+          },
+          {
+            "label": "C",
+            "content": "30"
+          },
+          {
+            "label": "D",
+            "content": "90"
+          },
+          {
+            "label": "E",
+            "content": "100"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_5:00426",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 426,
+      "split": "en_test",
+      "source_problem_id": "fc2fe8a2b6d94fd3b82f072badfd7656"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "A rocket of mass m is launched with kinetic energy K\\textsubscript{0~}from the surface of the Earth. How much less kinetic energy does the rocket have at an altitude of two Earth radii in terms of the gravitational constant, G; the mass of the Earth, m\\textsubscript{E}; the radius of the Earth, R\\textsubscript{E}; and the mass of the rocket?\n(A) \\dfrac{GM\\_{E}m}{2R\\_{E}}\n(B) \\dfrac{2GM\\_{E}m}{3R\\_{E}}\n(C) \\dfrac{3GM\\_{E}m}{4R\\_{E}}\n(D) \\dfrac{8GM\\_{E}m}{9R\\_{E}}",
+      "problem_plain": "A rocket of mass m is launched with kinetic energy K 0~ from the surface of the Earth. How much less kinetic energy does the rocket have at an altitude of two Earth radii in terms of the gravitational constant, G; the mass of the Earth, m E ; the radius of the Earth, R E ; and the mass of the rocket? (A) GM _ E m 2R _ E (B) 2GM _ E m 3R _ E (C) 3GM _ E m 4R _ E (D) 8GM _ E m 9R _ E",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "\\dfrac{2GM\\_{E}m}{3R\\_{E}}",
+      "final_normalized": "\\dfrac{2GM\\_{E}m}{3R\\_{E}}",
+      "candidates": [
+        "B",
+        "\\dfrac{2GM\\_{E}m}{3R\\_{E}}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "A rocket of mass m is launched with kinetic energy K 0~ from the surface of the Earth. How much less kinetic energy does the rocket have at an altitude of two Earth radii in terms of the gravitational constant, G; the mass of the Earth, m E ; the radius of the Earth, R E ; and the mass of the rocket? (A) GM _ E m 2R _ E (B) 2GM _ E m 3R _ E (C) 3GM _ E m 4R _ E (D) 8GM _ E m 9R _ E",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_5",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "1075",
+        "queId": "fc2fe8a2b6d94fd3b82f072badfd7656",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\dfrac{GM\\_{E}m}{2R\\_{E}}"
+          },
+          {
+            "label": "B",
+            "content": "\\dfrac{2GM\\_{E}m}{3R\\_{E}}"
+          },
+          {
+            "label": "C",
+            "content": "\\dfrac{3GM\\_{E}m}{4R\\_{E}}"
+          },
+          {
+            "label": "D",
+            "content": "\\dfrac{8GM\\_{E}m}{9R\\_{E}}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  }
+]

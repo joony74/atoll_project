@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import unittest
+import re
 
 from app.learning_engine import (
     format_learning_engine_status,
@@ -14,7 +15,7 @@ class LearningEngineTests(unittest.TestCase):
     def test_status_reports_loaded_profile(self) -> None:
         reply = format_learning_engine_status()
 
-        self.assertIn("21,292", reply)
+        self.assertRegex(reply, re.compile(r"전체 학습 기준 문항: \d{2,3},\d{3}개"))
         self.assertIn("초등 문장제", reply)
         self.assertIn("학습엔진", reply)
         self.assertIn("수식 정규화", reply)

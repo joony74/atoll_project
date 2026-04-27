@@ -36,5 +36,15 @@ data/image_cache/
 data/problem_understanding/
 data/sessions/
 
+# Generated/private learning material
+02.학습문제/05.문제은행/
+02.학습문제/_pdf_private/
+data/problem_bank/learned/coco_private_pdf_capture*.json
+
+# Local debug scratch
+.tmp_ocr/
+.tmp_pdf_debug/
+.tmp_segments/
+
 # Optional local settings
 config/settings.local.json

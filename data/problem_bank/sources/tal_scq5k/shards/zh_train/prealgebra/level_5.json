@@ -1,0 +1,113 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_5:00819",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 819,
+      "split": "zh_train",
+      "source_problem_id": "d3985ecb10cb4d3ba3828281e24f20f5"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "\\hspace{0pt}老师在黑板上随机写了$$8$$个数，每个数都是$$1$$、$$2$$、$$4$$中的某一个．学生们每次擦去两个相同的数，并把这两个相同的数的和写在黑板上．如果某位同学在黑板上写出了``$$2048$$''，则过程``成功结束''，否则老师就再随机写一个数上去（$$1$$或$$2$$或$$4$$），以保证黑板上仍有$$8$$个数．学生每次成功写数都会得与此数相同的分数，例如：擦去两个$$2$$，写上$$4$$，得到$$4$$分．如果并没有写出$$2048$$，但已没有相同的数可以同时擦去，则过程``失败结束''．请问：  (2)若一个过程结束后恰好得到了$$18000$$分，能否是一次``成功结束''？为什么？（请写出具体解题过程）\n(A) 能\n(B) 不能",
+      "problem_plain": "0pt 老师在黑板上随机写了 8 个数，每个数都是 1 、 2 、 4 中的某一个．学生们每次擦去两个相同的数，并把这两个相同的数的和写在黑板上．如果某位同学在黑板上写出了`` 2048 ''，则过程``成功结束''，否则老师就再随机写一个数上去（ 1 或 2 或 4 ），以保证黑板上仍有 8 个数．学生每次成功写数都会得与此数相同的分数，例如：擦去两个 2 ，写上 4 ，得到 4 分．如果并没有写出 2048 ，但已没有相同的数可以同时擦去，则过程``失败结束''．请问： (2)若一个过程结束后恰好得到了 18000 分，能否是一次``成功结束''？为什么？（请写出具体解题过程） (A) 能 (B) 不能",
+      "solution_latex": "（2）同上题，出现了$$2048$$，至少要得如下的分数：$$2048+1024\\times 2+512\\times 4+256\\times 8+128\\times 16+64\\times 32+32\\times64+16\\times 128+8\\times 256$$$$=2048\\times 9=18432$$  由于$$18000\\textless18432$$，因此$$18000$$分是不可能成功结束的．",
+      "solution_plain": "（2）同上题，出现了 2048 ，至少要得如下的分数： 2048+1024 2+512 4+256 8+128 16+64 32+32 64+16 128+8 256 =2048 9=18432 由于 18000 18432 ，因此 18000 分是不可能成功结束的．"
+    },
+    "answer": {
+      "final_raw": "不能",
+      "final_normalized": "不能",
+      "candidates": [
+        "B",
+        "不能"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "（2）同上题，出现了$$2048$$，至少要得如下的分数：$$2048+1024\\times 2+512\\times 4+256\\times 8+128\\times 16+64\\times 32+32\\times64+16\\times 128+8\\times 256$$$$=2048\\times 9=18432$$  由于$$18000\\textless18432$$，因此$$18000$$分是不可能成功结束的．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "0pt 老师在黑板上随机写了 8 个数，每个数都是 1 、 2 、 4 中的某一个．学生们每次擦去两个相同的数，并把这两个相同的数的和写在黑板上．如果某位同学在黑板上写出了`` 2048 ''，则过程``成功结束''，否则老师就再随机写一个数上去（ 1 或 2 或 4 ），以保证黑板上仍有 8 个数．学生每次成功写数都会得与此数相同的分数，例如：擦去两个 2 ，写上 4 ，得到 4 分．如果并没有写出 2048 ，但已没有相同的数可以同时擦去，则过程``失败结束''．请问： (2)若一个过程结束后恰好得到了 18000 分，能否是一次``成功结束''？为什么？（请写出具体解题过程） (A) 能 (B) 不能",
+      "solution_text": "（2）同上题，出现了 2048 ，至少要得如下的分数： 2048+1024 2+512 4+256 8+128 16+64 32+32 64+16 128+8 256 =2048 9=18432 由于 18000 18432 ，因此 18000 分是不可能成功结束的．",
+      "keywords": [
+        "level_5",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "493",
+        "queId": "d3985ecb10cb4d3ba3828281e24f20f5",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "能"
+          },
+          {
+            "label": "B",
+            "content": "不能"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->数学思想->逐步调整思想"
+        ],
+        "competition_source_list": [
+          "2014年全国学而思杯五年级竞赛第20题"
+        ]
+      }
+    }
+  }
+]

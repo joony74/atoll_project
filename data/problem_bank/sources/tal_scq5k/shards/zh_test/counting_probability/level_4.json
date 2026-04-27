@@ -1,0 +1,1258 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_4:00021",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 21,
+      "split": "zh_test",
+      "source_problem_id": "e51e51948f6c4a65bd0c593f6699827d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "五个人站成一列，每人戴一顶不同的帽子，编号为$$1$$、$$2$$、$$3$$、$$4$$、$$5$$的帽子，每人只能看到前面的人的帽子．小王一顶都看不到；小孔只看到$$4$$号帽子；小田没有看到$$3$$号帽子，但看到了$$1$$号帽子；小严看到了有$$3$$顶帽子，但没有看到$$3$$号帽子；小韦看到了$$3$$号帽子和$$2$$号帽子，小田戴号帽子．\n(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 以上都不正确",
+      "problem_plain": "五个人站成一列，每人戴一顶不同的帽子，编号为 1 、 2 、 3 、 4 、 5 的帽子，每人只能看到前面的人的帽子．小王一顶都看不到；小孔只看到 4 号帽子；小田没有看到 3 号帽子，但看到了 1 号帽子；小严看到了有 3 顶帽子，但没有看到 3 号帽子；小韦看到了 3 号帽子和 2 号帽子，小田戴号帽子． (A) 1 (B) 2 (C) 3 (D) 4 (E) 以上都不正确",
+      "solution_latex": "由小王一顶也看不到可知王站在第一个，由小孔只看到了$$4$$号帽子，可以得出小孔站在第二个，且小王戴的是$$4$$号帽子；由小严看到了$$3$$顶帽子却没看到$$3$$号帽子，可知小严站在第四个，且$$3$$号帽子只能是第四或第五个人，由小韦看到$$3$$号帽子，可知，小韦站在第五个，且小严戴$$3$$号帽子；前面出现了$$1、$$2$$、$$3$$、4$$号帽子，所以，小韦戴$$5$$号帽子、小田戴$$2$$号帽子．",
+      "solution_plain": "由小王一顶也看不到可知王站在第一个，由小孔只看到了 4 号帽子，可以得出小孔站在第二个，且小王戴的是 4 号帽子；由小严看到了 3 顶帽子却没看到 3 号帽子，可知小严站在第四个，且 3 号帽子只能是第四或第五个人，由小韦看到 3 号帽子，可知，小韦站在第五个，且小严戴 3 号帽子；前面出现了 1、 2 、 3 、4 号帽子，所以，小韦戴 5 号帽子、小田戴 2 号帽子．"
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由小王一顶也看不到可知王站在第一个，由小孔只看到了$$4$$号帽子，可以得出小孔站在第二个，且小王戴的是$$4$$号帽子；由小严看到了$$3$$顶帽子却没看到$$3$$号帽子，可知小严站在第四个，且$$3$$号帽子只能是第四或第五个人，由小韦看到$$3$$号帽子，可知，小韦站在第五个，且小严戴$$3$$号帽子；前面出现了$$1、$$2$$、$$3$$、4$$号帽子，所以，小韦戴$$5$$号帽子、小田戴$$2$$号帽子．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "五个人站成一列，每人戴一顶不同的帽子，编号为 1 、 2 、 3 、 4 、 5 的帽子，每人只能看到前面的人的帽子．小王一顶都看不到；小孔只看到 4 号帽子；小田没有看到 3 号帽子，但看到了 1 号帽子；小严看到了有 3 顶帽子，但没有看到 3 号帽子；小韦看到了 3 号帽子和 2 号帽子，小田戴号帽子． (A) 1 (B) 2 (C) 3 (D) 4 (E) 以上都不正确",
+      "solution_text": "由小王一顶也看不到可知王站在第一个，由小孔只看到了 4 号帽子，可以得出小孔站在第二个，且小王戴的是 4 号帽子；由小严看到了 3 顶帽子却没看到 3 号帽子，可知小严站在第四个，且 3 号帽子只能是第四或第五个人，由小韦看到 3 号帽子，可知，小韦站在第五个，且小严戴 3 号帽子；前面出现了 1、 2 、 3 、4 号帽子，所以，小韦戴 5 号帽子、小田戴 2 号帽子．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "461",
+        "queId": "e51e51948f6c4a65bd0c593f6699827d",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          },
+          {
+            "label": "E",
+            "content": "以上都不正确"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->逻辑推理->假设型逻辑推理->答案（数字）正误问题"
+        ],
+        "competition_source_list": [
+          "2015年全国迎春杯四年级竞赛初赛第3题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_4:00282",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 282,
+      "split": "zh_test",
+      "source_problem_id": "8e6b1a666d0a4049bfa2accc6cbdee3e"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "红、黄、蓝$$3$$种颜色的球分别有$$11$$、$$12$$、$$17$$个，每次操作可以将$$2$$个不同颜色的球换成$$2$$个第三种颜色的球，则在操作过程中，红色球至多有~\\uline{~~~~~~~~~~}~个．\n(A) 36\n(B) 37\n(C) 38\n(D) 39\n(E) 40",
+      "problem_plain": "红、黄、蓝 3 种颜色的球分别有 11 、 12 、 17 个，每次操作可以将 2 个不同颜色的球换成 2 个第三种颜色的球，则在操作过程中，红色球至多有~ ~~~~~~~~~~ ~个． (A) 36 (B) 37 (C) 38 (D) 39 (E) 40",
+      "solution_latex": "（1）红球最多，那么就要黄、蓝球最少，而黄、蓝球最少则取决于这两种球数之差最小．  （2）一开始，黄蓝球数差$$5$$，每次操作，黄球和蓝球的差要么不变，要么改变$$3$$，所以变化后，这两种球数之差最小为$$1$$．  （3）当黄、蓝球数差$$1$$时，我们就一直把它们换成红色，最后只剩下一个黄球，剩下的$$39$$个全是红球，此时红球会最多．  （4）下面构造说明红球最多可以有$$39$$个．（括号内三个数依次表示红、黄、蓝$$3$$种颜色的球的个数）  （$$11$$，$$12$$，$$17）→（10$$，$$14$$，$$16）→（9$$，$$16$$，$$15）→（11$$，$$15$$，$$14）→（13$$，$$14$$，$$13）→（15$$，$$13$$，$$12）→（17$$，$$12$$，$$11）→（19$$，$$11$$，$$10$$）→$$\\cdots$$ →（$$39$$，$$1$$，$$0$$）．",
+      "solution_plain": "（1）红球最多，那么就要黄、蓝球最少，而黄、蓝球最少则取决于这两种球数之差最小． （2）一开始，黄蓝球数差 5 ，每次操作，黄球和蓝球的差要么不变，要么改变 3 ，所以变化后，这两种球数之差最小为 1 ． （3）当黄、蓝球数差 1 时，我们就一直把它们换成红色，最后只剩下一个黄球，剩下的 39 个全是红球，此时红球会最多． （4）下面构造说明红球最多可以有 39 个．（括号内三个数依次表示红、黄、蓝 3 种颜色的球的个数） （ 11 ， 12 ， 17）→（10 ， 14 ， 16）→（9 ， 16 ， 15）→（11 ， 15 ， 14）→（13 ， 14 ， 13）→（15 ， 13 ， 12）→（17 ， 12 ， 11）→（19 ， 11 ， 10 ）→ →（ 39 ， 1 ， 0 ）．"
+    },
+    "answer": {
+      "final_raw": "39",
+      "final_normalized": "39",
+      "candidates": [
+        "39",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "（1）红球最多，那么就要黄、蓝球最少，而黄、蓝球最少则取决于这两种球数之差最小．  （2）一开始，黄蓝球数差$$5$$，每次操作，黄球和蓝球的差要么不变，要么改变$$3$$，所以变化后，这两种球数之差最小为$$1$$．  （3）当黄、蓝球数差$$1$$时，我们就一直把它们换成红色，最后只剩下一个黄球，剩下的$$39$$个全是红球，此时红球会最多．  （4）下面构造说明红球最多可以有$$39$$个．（括号内三个数依次表示红、黄、蓝$$3$$种颜色的球的个数）  （$$11$$，$$12$$，$$17）→（10$$，$$14$$，$$16）→（9$$，$$16$$，$$15）→（11$$，$$15$$，$$14）→（13$$，$$14$$，$$13）→（15$$，$$13$$，$$12）→（17$$，$$12$$，$$11）→（19$$，$$11$$，$$10$$）→$$\\cdots$$ →（$$39$$，$$1$$，$$0$$）．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "红、黄、蓝 3 种颜色的球分别有 11 、 12 、 17 个，每次操作可以将 2 个不同颜色的球换成 2 个第三种颜色的球，则在操作过程中，红色球至多有~ ~~~~~~~~~~ ~个． (A) 36 (B) 37 (C) 38 (D) 39 (E) 40",
+      "solution_text": "（1）红球最多，那么就要黄、蓝球最少，而黄、蓝球最少则取决于这两种球数之差最小． （2）一开始，黄蓝球数差 5 ，每次操作，黄球和蓝球的差要么不变，要么改变 3 ，所以变化后，这两种球数之差最小为 1 ． （3）当黄、蓝球数差 1 时，我们就一直把它们换成红色，最后只剩下一个黄球，剩下的 39 个全是红球，此时红球会最多． （4）下面构造说明红球最多可以有 39 个．（括号内三个数依次表示红、黄、蓝 3 种颜色的球的个数） （ 11 ， 12 ， 17）→（10 ， 14 ， 16）→（9 ， 16 ， 15）→（11 ， 15 ， 14）→（13 ， 14 ， 13）→（15 ， 13 ， 12）→（17 ， 12 ， 11）→（19 ， 11 ， 10 ）→ →（ 39 ， 1 ， 0 ）．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "425",
+        "queId": "8e6b1a666d0a4049bfa2accc6cbdee3e",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "36"
+          },
+          {
+            "label": "B",
+            "content": "37"
+          },
+          {
+            "label": "C",
+            "content": "38"
+          },
+          {
+            "label": "D",
+            "content": "39"
+          },
+          {
+            "label": "E",
+            "content": "40"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->抽屉原理->构造型抽屉原理"
+        ],
+        "competition_source_list": [
+          "2012年全国迎春杯四年级竞赛初赛第7题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_4:00299",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 299,
+      "split": "zh_test",
+      "source_problem_id": "2d1fd03cf71d424d877d93b8bc5e8938"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一个骰子六个面上的数字分别为$$0$$，$$1$$，$$2$$，$$3$$，$$4$$，$$5$$，现在来掷这个骰子，把每次掷出的点数依次求和，当总点数超过$$12$$时就停止不再掷了，这种掷法最有可能出现的总点数是~\\uline{~~~~~~~~~~}~．\n(A) 12\n(B) 13\n(C) 14\n(D) 16",
+      "problem_plain": "一个骰子六个面上的数字分别为 0 ， 1 ， 2 ， 3 ， 4 ， 5 ，现在来掷这个骰子，把每次掷出的点数依次求和，当总点数超过 12 时就停止不再掷了，这种掷法最有可能出现的总点数是~ ~~~~~~~~~~ ~． (A) 12 (B) 13 (C) 14 (D) 16",
+      "solution_latex": "掷的总点数在$$8$$至$$12$$之间时，再掷一次，总点数才有可能超过$$12$$（至多是$$17$$）．当总点数是$$8$$时，再掷一次，总点数是$$13$$的可能性比总点数超过$$13$$的可能性大．当总点数在$$9$$至$$12$$之间时，再掷一次，总点数是$$13$$的可能性不比总点数是$$14$$，$$15$$，$$16$$，$$17$$的可能性小．  例如，总点数是$$11$$时，再掷一次，出现$$0\\sim 5$$的可能性相同，所以总点数是$$11\\sim 16$$的可能性相同，即总数是$$13$$的可能性不比总数点数分别是$$14$$，$$15$$，$$16$$的可能性小，综上所述，总点数是$$13$$的可能性最大．",
+      "solution_plain": "掷的总点数在 8 至 12 之间时，再掷一次，总点数才有可能超过 12 （至多是 17 ）．当总点数是 8 时，再掷一次，总点数是 13 的可能性比总点数超过 13 的可能性大．当总点数在 9 至 12 之间时，再掷一次，总点数是 13 的可能性不比总点数是 14 ， 15 ， 16 ， 17 的可能性小． 例如，总点数是 11 时，再掷一次，出现 0 5 的可能性相同，所以总点数是 11 16 的可能性相同，即总数是 13 的可能性不比总数点数分别是 14 ， 15 ， 16 的可能性小，综上所述，总点数是 13 的可能性最大．"
+    },
+    "answer": {
+      "final_raw": "13",
+      "final_normalized": "13",
+      "candidates": [
+        "13",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "掷的总点数在$$8$$至$$12$$之间时，再掷一次，总点数才有可能超过$$12$$（至多是$$17$$）．当总点数是$$8$$时，再掷一次，总点数是$$13$$的可能性比总点数超过$$13$$的可能性大．当总点数在$$9$$至$$12$$之间时，再掷一次，总点数是$$13$$的可能性不比总点数是$$14$$，$$15$$，$$16$$，$$17$$的可能性小．  例如，总点数是$$11$$时，再掷一次，出现$$0\\sim 5$$的可能性相同，所以总点数是$$11\\sim 16$$的可能性相同，即总数是$$13$$的可能性不比总数点数分别是$$14$$，$$15$$，$$16$$的可能性小，综上所述，总点数是$$13$$的可能性最大．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一个骰子六个面上的数字分别为 0 ， 1 ， 2 ， 3 ， 4 ， 5 ，现在来掷这个骰子，把每次掷出的点数依次求和，当总点数超过 12 时就停止不再掷了，这种掷法最有可能出现的总点数是~ ~~~~~~~~~~ ~． (A) 12 (B) 13 (C) 14 (D) 16",
+      "solution_text": "掷的总点数在 8 至 12 之间时，再掷一次，总点数才有可能超过 12 （至多是 17 ）．当总点数是 8 时，再掷一次，总点数是 13 的可能性比总点数超过 13 的可能性大．当总点数在 9 至 12 之间时，再掷一次，总点数是 13 的可能性不比总点数是 14 ， 15 ， 16 ， 17 的可能性小． 例如，总点数是 11 时，再掷一次，出现 0 5 的可能性相同，所以总点数是 11 16 的可能性相同，即总数是 13 的可能性不比总数点数分别是 14 ， 15 ， 16 的可能性小，综上所述，总点数是 13 的可能性最大．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3247",
+        "queId": "2d1fd03cf71d424d877d93b8bc5e8938",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "12"
+          },
+          {
+            "label": "B",
+            "content": "13"
+          },
+          {
+            "label": "C",
+            "content": "14"
+          },
+          {
+            "label": "D",
+            "content": "16"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->拓展思维->计数模块->统计与概率->概率->典型问题->掷骰子"
+        ],
+        "competition_source_list": [
+          "其它",
+          "2015年湖北武汉世奥赛六年级竞赛模拟训练题（三）第10题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_4:00402",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 402,
+      "split": "zh_test",
+      "source_problem_id": "ff0fa961e16c42d4b1ea2717d4d33d2d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知袋子中装有$$n$$颗小球，嘉泽同学依次编号为$$1$$、$$2$$、$$3$$、$$\\cdots$$、$$n$$，每次都从袋子中取出两颗球，把它们的编号相加并记下结果，然后把它们放回袋子内．重复抽取直到袋子中每一对小球都被取到为止，记录中恰好有$$215$$种不同的数值，请问$$n$$的值是多少？\n(A) 100\n(B) 105\n(C) 108\n(D) 109\n(E) 215",
+      "problem_plain": "已知袋子中装有 n 颗小球，嘉泽同学依次编号为 1 、 2 、 3 、 、 n ，每次都从袋子中取出两颗球，把它们的编号相加并记下结果，然后把它们放回袋子内．重复抽取直到袋子中每一对小球都被取到为止，记录中恰好有 215 种不同的数值，请问 n 的值是多少？ (A) 100 (B) 105 (C) 108 (D) 109 (E) 215",
+      "solution_latex": "每两个数相加，和最小为$$1+2=3$$，最大为$$n+(n-1)=2n-1$$，现在共有$$215$$种不同的数值，即最大的数值为$$215+3-1=217$$，$$217=2n-1$$，$$n=109$$．  最大值和最小值之间有多少数字就是多少种可能性．$$2n -1-3=215$$．",
+      "solution_plain": "每两个数相加，和最小为 1+2=3 ，最大为 n+(n-1)=2n-1 ，现在共有 215 种不同的数值，即最大的数值为 215+3-1=217 ， 217=2n-1 ， n=109 ． 最大值和最小值之间有多少数字就是多少种可能性． 2n -1-3=215 ．"
+    },
+    "answer": {
+      "final_raw": "215",
+      "final_normalized": "215",
+      "candidates": [
+        "215",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "每两个数相加，和最小为$$1+2=3$$，最大为$$n+(n-1)=2n-1$$，现在共有$$215$$种不同的数值，即最大的数值为$$215+3-1=217$$，$$217=2n-1$$，$$n=109$$．  最大值和最小值之间有多少数字就是多少种可能性．$$2n -1-3=215$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知袋子中装有 n 颗小球，嘉泽同学依次编号为 1 、 2 、 3 、 、 n ，每次都从袋子中取出两颗球，把它们的编号相加并记下结果，然后把它们放回袋子内．重复抽取直到袋子中每一对小球都被取到为止，记录中恰好有 215 种不同的数值，请问 n 的值是多少？ (A) 100 (B) 105 (C) 108 (D) 109 (E) 215",
+      "solution_text": "每两个数相加，和最小为 1+2=3 ，最大为 n+(n-1)=2n-1 ，现在共有 215 种不同的数值，即最大的数值为 215+3-1=217 ， 217=2n-1 ， n=109 ． 最大值和最小值之间有多少数字就是多少种可能性． 2n -1-3=215 ．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "168",
+        "queId": "ff0fa961e16c42d4b1ea2717d4d33d2d",
+        "difficulty": "3",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "100"
+          },
+          {
+            "label": "B",
+            "content": "105"
+          },
+          {
+            "label": "C",
+            "content": "108"
+          },
+          {
+            "label": "D",
+            "content": "109"
+          },
+          {
+            "label": "E",
+            "content": "215"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->操作与策略->归纳递推->汉诺塔递推"
+        ],
+        "competition_source_list": [
+          "2016年IMAS小学高年级竞赛第一轮检测试题第13题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_4:00835",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 835,
+      "split": "zh_test",
+      "source_problem_id": "ee5f306e495f4510a7d61fe1e843e224"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "老师将$$21$$个两位质数写在卡片上，发给四个同学，每人五张，老师手里留下一张，进行五轮游戏，每轮规则如下：  ①每轮每人打出$$1$$张卡片，如果个位与别人重复则出局；  ②在留下的人中，数最大的人获胜．  （例如，四个同学分别打出$$17$$、$$41$$、$$73$$、$$83$$．那么，打出$$73$$与$$83$$的两个人出局，打出$$41$$的人获得胜利）  已知，小明前三轮游戏打出的是$$11$$、$$13$$、$$17$$均获得了胜利；第$$4$$轮小明打出的是$$83$$，出局了，打出$$41$$的人获得了胜利：第$$5$$轮小明打出的是$$97$$，也出局了，打出$$59$$的人获得了胜利．如果$$59$$是第五轮第二大的卡片，那么，老师手里留下的卡片写的质数是．\n(A) 41\n(B) 47\n(C) 59\n(D) 67\n(E) 83",
+      "problem_plain": "老师将 21 个两位质数写在卡片上，发给四个同学，每人五张，老师手里留下一张，进行五轮游戏，每轮规则如下： ①每轮每人打出 1 张卡片，如果个位与别人重复则出局； ②在留下的人中，数最大的人获胜． （例如，四个同学分别打出 17 、 41 、 73 、 83 ．那么，打出 73 与 83 的两个人出局，打出 41 的人获得胜利） 已知，小明前三轮游戏打出的是 11 、 13 、 17 均获得了胜利；第 4 轮小明打出的是 83 ，出局了，打出 41 的人获得了胜利：第 5 轮小明打出的是 97 ，也出局了，打出 59 的人获得了胜利．如果 59 是第五轮第二大的卡片，那么，老师手里留下的卡片写的质数是． (A) 41 (B) 47 (C) 59 (D) 67 (E) 83",
+      "solution_latex": "先分析每种个位题目中未出现过的数：个位$$1$$的有$$41$$、$$61$$、$$71$$；个位$$3$$的有$$23$$、$$43$$、$$53$$、$$73$$；个位$$7$$的有$$37$$、$$47$$、$$67$$；个位$$9$$的有$$19$$、$$29$$、$$79$$、$$89$$，  第一轮$$11$$能赢，$$11$$身为最小的两位质数，说明其他三个人的个位应该是一样的，且不为$$1$$；第二轮$$13$$能赢，比$$13$$小的$$11$$出现过了，所以也是其他三人个位都一样，且不为$$3$$；第三轮$$17$$也能赢，考虑到$$11$$和$$13$$都出现过了，那么其他三人个位也一样，且不为$$7$$；第四轮打出$$83$$出局了，并且赢的人是$$41$$，说明第四轮应该出现了另一个个位是$$3$$的质数；第五轮$$97$$也出局，那应该是出现了另一个个位是$$7$$的质数；  考虑到这为止，前三轮个位$$1$$、$$3$$、$$7$$、$$9$$能用到的质数个数应该分别为$$3$$个、$$3$$个、$$2$$个、$$4$$个，因此第一轮到第三轮其他三个数的个位应该是$$1$$、$$3$$、$$9$$（顺序暂时未确定），此时后两轮能出现的数只剩一个个位$$3$$的质数、三个个位是$$7$$的质数，以及一个个位是$$9$$的质数，其中个位$$3$$的质数必定出现在第四轮，和$$83$$同归于尽，第五轮会出现至少一个个位是$$7$$的质数；  考虑到最后一轮打出$$59$$能赢，那么最后一轮不能出现个位是$$9$$的，那么除了$$97$$和$$59$$外，另外两个质数个位只能是$$7$$，而题目说$$59$$第二大，鉴于$$97$$比$$59$$大，那么这两个个位是$$7$$的数只可能是$$37$$和$$47$$；  第四轮除了$$83$$、$$41$$和一个个位$$3$$的质数外，还有$$67$$和个位是$$9$$的质数能选择，由于没有直接出局，所以必须得比$$41$$小，因此只可能是后者，所以唯一没有出现过的质数是$$67$$．",
+      "solution_plain": "先分析每种个位题目中未出现过的数：个位 1 的有 41 、 61 、 71 ；个位 3 的有 23 、 43 、 53 、 73 ；个位 7 的有 37 、 47 、 67 ；个位 9 的有 19 、 29 、 79 、 89 ， 第一轮 11 能赢， 11 身为最小的两位质数，说明其他三个人的个位应该是一样的，且不为 1 ；第二轮 13 能赢，比 13 小的 11 出现过了，所以也是其他三人个位都一样，且不为 3 ；第三轮 17 也能赢，考虑到 11 和 13 都出现过了，那么其他三人个位也一样，且不为 7 ；第四轮打出 83 出局了，并且赢的人是 41 ，说明第四轮应该出现了另一个个位是 3 的质数；第五轮 97 也出局，那应该是出现了另一个个位是 7 的质数； 考虑到这为止，前三轮个位 1 、 3 、 7 、 9 能用到的质数个数应该分别为 3 个、 3 个、 2 个、 4 个，因此第一轮到第三轮其他三个数的个位应该是 1 、 3 、 9 （顺序暂时未确定），此时后两轮能出现的数只剩一个个位 3 的质数、三个个位是 7 的质数，以及一个个位是 9 的质数，其中个位 3 的质数必定出现在第四轮，和 83 同归于尽，第五轮会出现至少一个个位是 7 的质数； 考虑到最后一轮打出 59 能赢，那么最后一轮不能出现个位是 9 的，那么除了 97 和 59 外，另外两个质数个位只能是 7 ，而题目说 59 第二大，鉴于 97 比 59 大，那么这两个个位是 7 的数只可能是 37 和 47 ； 第四轮除了 83 、 41 和一个个位 3 的质数外，还有 67 和个位是 9 的质数能选择，由于没有直接出局，所以必须得比 41 小，因此只可能是后者，所以唯一没有出现过的质数是 67 ．"
+    },
+    "answer": {
+      "final_raw": "67",
+      "final_normalized": "67",
+      "candidates": [
+        "67",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "1",
+        "unknown"
+      ],
+      "tags": [
+        "1",
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "先分析每种个位题目中未出现过的数：个位$$1$$的有$$41$$、$$61$$、$$71$$；个位$$3$$的有$$23$$、$$43$$、$$53$$、$$73$$；个位$$7$$的有$$37$$、$$47$$、$$67$$；个位$$9$$的有$$19$$、$$29$$、$$79$$、$$89$$，  第一轮$$11$$能赢，$$11$$身为最小的两位质数，说明其他三个人的个位应该是一样的，且不为$$1$$；第二轮$$13$$能赢，比$$13$$小的$$11$$出现过了，所以也是其他三人个位都一样，且不为$$3$$；第三轮$$17$$也能赢，考虑到$$11$$和$$13$$都出现过了，那么其他三人个位也一样，且不为$$7$$；第四轮打出$$83$$出局了，并且赢的人是$$41$$，说明第四轮应该出现了另一个个位是$$3$$的质数；第五轮$$97$$也出局，那应该是出现了另一个个位是$$7$$的质数；  考虑到这为止，前三轮个位$$1$$、$$3$$、$$7$$、$$9$$能用到的质数个数应该分别为$$3$$个、$$3$$个、$$2$$个、$$4$$个，因此第一轮到第三轮其他三个数的个位应该是$$1$$、$$3$$、$$9$$（顺序暂时未确定），此时后两轮能出现的数只剩一个个位$$3$$的质数、三个个位是$$7$$的质数，以及一个个位是$$9$$的质数，其中个位$$3$$的质数必定出现在第四轮，和$$83$$同归于尽，第五轮会出现至少一个个位是$$7$$的质数；  考虑到最后一轮打出$$59$$能赢，那么最后一轮不能出现个位是$$9$$的，那么除了$$97$$和$$59$$外，另外两个质数个位只能是$$7$$，而题目说$$59$$第二大，鉴于$$97$$比$$59$$大，那么这两个个位是$$7$$的数只可能是$$37$$和$$47$$；  第四轮除了$$83$$、$$41$$和一个个位$$3$$的质数外，还有$$67$$和个位是$$9$$的质数能选择，由于没有直接出局，所以必须得比$$41$$小，因此只可能是后者，所以唯一没有出现过的质数是$$67$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "老师将 21 个两位质数写在卡片上，发给四个同学，每人五张，老师手里留下一张，进行五轮游戏，每轮规则如下： ①每轮每人打出 1 张卡片，如果个位与别人重复则出局； ②在留下的人中，数最大的人获胜． （例如，四个同学分别打出 17 、 41 、 73 、 83 ．那么，打出 73 与 83 的两个人出局，打出 41 的人获得胜利） 已知，小明前三轮游戏打出的是 11 、 13 、 17 均获得了胜利；第 4 轮小明打出的是 83 ，出局了，打出 41 的人获得了胜利：第 5 轮小明打出的是 97 ，也出局了，打出 59 的人获得了胜利．如果 59 是第五轮第二大的卡片，那么，老师手里留下的卡片写的质数是． (A) 41 (B) 47 (C) 59 (D) 67 (E) 83",
+      "solution_text": "先分析每种个位题目中未出现过的数：个位 1 的有 41 、 61 、 71 ；个位 3 的有 23 、 43 、 53 、 73 ；个位 7 的有 37 、 47 、 67 ；个位 9 的有 19 、 29 、 79 、 89 ， 第一轮 11 能赢， 11 身为最小的两位质数，说明其他三个人的个位应该是一样的，且不为 1 ；第二轮 13 能赢，比 13 小的 11 出现过了，所以也是其他三人个位都一样，且不为 3 ；第三轮 17 也能赢，考虑到 11 和 13 都出现过了，那么其他三人个位也一样，且不为 7 ；第四轮打出 83 出局了，并且赢的人是 41 ，说明第四轮应该出现了另一个个位是 3 的质数；第五轮 97 也出局，那应该是出现了另一个个位是 7 的质数； 考虑到这为止，前三轮个位 1 、 3 、 7 、 9 能用到的质数个数应该分别为 3 个、 3 个、 2 个、 4 个，因此第一轮到第三轮其他三个数的个位应该是 1 、 3 、 9 （顺序暂时未确定），此时后两轮能出现的数只剩一个个位 3 的质数、三个个位是 7 的质数，以及一个个位是 9 的质数，其中个位 3 的质数必定出现在第四轮，和 83 同归于尽，第五轮会出现至少一个个位是 7 的质数； 考虑到最后一轮打出 59 能赢，那么最后一轮不能出现个位是 9 的，那么除了 97 和 59 外，另外两个质数个位只能是 7 ，而题目说 59 第二大，鉴于 97 比 59 大，那么这两个个位是 7 的数只可能是 37 和 47 ； 第四轮除了 83 、 41 和一个个位 3 的质数外，还有 67 和个位是 9 的质数能选择，由于没有直接出局，所以必须得比 41 小，因此只可能是后者，所以唯一没有出现过的质数是 67 ．",
+      "keywords": [
+        "1",
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1941",
+        "queId": "ee5f306e495f4510a7d61fe1e843e224",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "41"
+          },
+          {
+            "label": "B",
+            "content": "47"
+          },
+          {
+            "label": "C",
+            "content": "59"
+          },
+          {
+            "label": "D",
+            "content": "67"
+          },
+          {
+            "label": "E",
+            "content": "83"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->操作与策略->游戏策略->数字游戏",
+          "Overseas Competition->知识点->应用题模块->分百应用题->认识单位1"
+        ],
+        "competition_source_list": [
+          "2019年广东广州学而思综合能力诊断五年级竞赛第15题12分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_4:00863",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 863,
+      "split": "zh_test",
+      "source_problem_id": "42d019b6c2de46de902b43700f0dfc0d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "动物园里猩猩比狒狒多，猴子比猩猩多.一天，饲养员拿了10箱香蕉分给它们.每只猩猩比每只狒狒多分1根，每只猴子比每只猩猩多分1根.分完后，只剩下2根香蕉.如果每箱香蕉数量相同，都是40多个，而且猴子比狒狒多6只，猩猩有16只.那么，动物园里有（ ）只猴子.\n(A) 18\n(B) 19\n(C) 20\n(D) 17",
+      "problem_plain": "动物园里猩猩比狒狒多，猴子比猩猩多.一天，饲养员拿了10箱香蕉分给它们.每只猩猩比每只狒狒多分1根，每只猴子比每只猩猩多分1根.分完后，只剩下2根香蕉.如果每箱香蕉数量相同，都是40多个，而且猴子比狒狒多6只，猩猩有16只.那么，动物园里有（ ）只猴子. (A) 18 (B) 19 (C) 20 (D) 17",
+      "solution_latex": "由题意知，共吃了香蕉$$400\\tilde{  }500$$根，且个位数是$$8$$.设有猴子$$n$$只，则有狒狒$$\\left( n-6 \\right)$$只.因为猩猩的数量介于猴子与狒狒之间，所以$$17\\leqslant n\\leqslant 21$$.再设每只猴子吃了$$a$$根香蕉，则每只猩猩吃了$$\\left( a-1 \\right)$$根，每只狒狒吃了$$\\left( a-2 \\right)$$根.共吃香蕉 $$an+\\left( a-1 \\right)\\times 16+\\left( a-2 \\right)\\left( n-6 \\right)$$ $$=an+16a-16+an-2n-6a+12$$ $$=2an+10a-2n-4$$ $$=2a\\left( n+5 \\right)-2n-4$$ $$=X$$.$$X$$的个位数是8，且$$17$$≤$$n$$≤$$21$$ 若$$n=17$$，则$$X=44a-38$$.$$a$$的个位只能是$$4$$或$$9$$，不满足$$400 \\textless{} X \\textless{} 500$$; 若$$n=18$$，则$$X=46a-40$$.$$a$$的个位只能是$$3$$或$$8$$，不满足$$400 \\textless{} X \\textless{} 500$$; 若$$n=19$$，则$$X=48a-42$$.$$a$$的个位只能是$$0$$或$$5$$，当$$a=10$$时，$$X=438$$，符合题意; 同理，$$n=20$$或$$21$$都不符合题意. 所以有猴子$$19$$只.",
+      "solution_plain": "由题意知，共吃了香蕉 400 500 根，且个位数是 8 .设有猴子 n 只，则有狒狒 ( n-6 ) 只.因为猩猩的数量介于猴子与狒狒之间，所以 17 n 21 .再设每只猴子吃了 a 根香蕉，则每只猩猩吃了 ( a-1 ) 根，每只狒狒吃了 ( a-2 ) 根.共吃香蕉 an+ ( a-1 ) 16+ ( a-2 ) ( n-6 ) =an+16a-16+an-2n-6a+12 =2an+10a-2n-4 =2a ( n+5 )-2n-4 =X . X 的个位数是8，且 17 ≤ n ≤ 21 若 n=17 ，则 X=44a-38 . a 的个位只能是 4 或 9 ，不满足 400 X 500 ; 若 n=18 ，则 X=46a-40 . a 的个位只能是 3 或 8 ，不满足 400 X 500 ; 若 n=19 ，则 X=48a-42 . a 的个位只能是 0 或 5 ，当 a=10 时， X=438 ，符合题意; 同理， n=20 或 21 都不符合题意. 所以有猴子 19 只."
+    },
+    "answer": {
+      "final_raw": "19",
+      "final_normalized": "19",
+      "candidates": [
+        "19",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由题意知，共吃了香蕉$$400\\tilde{  }500$$根，且个位数是$$8$$.设有猴子$$n$$只，则有狒狒$$\\left( n-6 \\right)$$只.因为猩猩的数量介于猴子与狒狒之间，所以$$17\\leqslant n\\leqslant 21$$.再设每只猴子吃了$$a$$根香蕉，则每只猩猩吃了$$\\left( a-1 \\right)$$根，每只狒狒吃了$$\\left( a-2 \\right)$$根.共吃香蕉 $$an+\\left( a-1 \\right)\\times 16+\\left( a-2 \\right)\\left( n-6 \\right)$$ $$=an+16a-16+an-2n-6a+12$$ $$=2an+10a-2n-4$$ $$=2a\\left( n+5 \\right)-2n-4$$ $$=X$$.$$X$$的个位数是8，且$$17$$≤$$n$$≤$$21$$ 若$$n=17$$，则$$X=44a-38$$.$$a$$的个位只能是$$4$$或$$9$$，不满足$$400 \\textless{} X \\textless{} 500$$; 若$$n=18$$，则$$X=46a-40$$.$$a$$的个位只能是$$3$$或$$8$$，不满足$$400 \\textless{} X \\textless{} 500$$; 若$$n=19$$，则$$X=48a-42$$.$$a$$的个位只能是$$0$$或$$5$$，当$$a=10$$时，$$X=438$$，符合题意; 同理，$$n=20$$或$$21$$都不符合题意.",
+        "所以有猴子$$19$$只."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "动物园里猩猩比狒狒多，猴子比猩猩多.一天，饲养员拿了10箱香蕉分给它们.每只猩猩比每只狒狒多分1根，每只猴子比每只猩猩多分1根.分完后，只剩下2根香蕉.如果每箱香蕉数量相同，都是40多个，而且猴子比狒狒多6只，猩猩有16只.那么，动物园里有（ ）只猴子. (A) 18 (B) 19 (C) 20 (D) 17",
+      "solution_text": "由题意知，共吃了香蕉 400 500 根，且个位数是 8 .设有猴子 n 只，则有狒狒 ( n-6 ) 只.因为猩猩的数量介于猴子与狒狒之间，所以 17 n 21 .再设每只猴子吃了 a 根香蕉，则每只猩猩吃了 ( a-1 ) 根，每只狒狒吃了 ( a-2 ) 根.共吃香蕉 an+ ( a-1 ) 16+ ( a-2 ) ( n-6 ) =an+16a-16+an-2n-6a+12 =2an+10a-2n-4 =2a ( n+5 )-2n-4 =X . X 的个位数是8，且 17 ≤ n ≤ 21 若 n=17 ，则 X=44a-38 . a 的个位只能是 4 或 9 ，不满足 400 X 500 ; 若 n=18 ，则 X=46a-40 . a 的个位只能是 3 或 8 ，不满足 400 X 500 ; 若 n=19 ，则 X=48a-42 . a 的个位只能是 0 或 5 ，当 a=10 时， X=438 ，符合题意; 同理， n=20 或 21 都不符合题意. 所以有猴子 19 只.",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3231",
+        "queId": "42d019b6c2de46de902b43700f0dfc0d",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "18"
+          },
+          {
+            "label": "B",
+            "content": "19"
+          },
+          {
+            "label": "C",
+            "content": "20"
+          },
+          {
+            "label": "D",
+            "content": "17"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计数模块->枚举法综合->枚举法->有序枚举"
+        ],
+        "competition_source_list": [
+          "2006年迎春杯四年级竞赛复赛",
+          "2006年迎春杯三年级竞赛复赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_4:01433",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1433,
+      "split": "zh_test",
+      "source_problem_id": "60da1557d6be4313aebc721f4b549af5"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "将$$1$$，$$2$$，$$3$$，$$4$$，$$5$$，$$6$$，$$7$$，$$8$$这$$8$$个数排成一行，要使$$8$$的两边各数的和相等，则不同的排法一共有．\n(A) 1152$$种\n(B) 576$$种\n(C) 288$$种\n(D) 144$$种",
+      "problem_plain": "将 1 ， 2 ， 3 ， 4 ， 5 ， 6 ， 7 ， 8 这 8 个数排成一行，要使 8 的两边各数的和相等，则不同的排法一共有． (A) 1152 种 (B) 576 种 (C) 288 种 (D) 144 种",
+      "solution_latex": "因为去掉$$8$$以后，余下$$7$$个数的和是$$1+2+3+4+5+6+7=28$$，  所以$$8$$的两边各数的和分别是$$14$$．  因为$$7+6=13$$，  所以$$14$$至少是由$$3$$个数相加而成的，  所以$$8$$的两边分别有$$3$$个数和$$4$$个数．  因为$$(7,6,1)$$，$$(7,5,2)$$，$$(7,4,3)$$，$$(6,5,3)$$这四组数的和都是$$14$$，  每组中的数的排列方法有$$3\\times 2\\times 1=6$$种，  与其对应的另外$$4$$个数（$$8$$除外）有$$4\\times 3\\times 2\\times 1=24$$种排列方法，  当排成横行时，这$$4$$组数有排在$$8$$的左边和右边两种排列方法，  因此，每组数的排列方法有$$2\\times 6\\times 24=288$$（种）．  所以，满足题意的排列方法有$$4\\times 288=1152$$（种）．",
+      "solution_plain": "因为去掉 8 以后，余下 7 个数的和是 1+2+3+4+5+6+7=28 ， 所以 8 的两边各数的和分别是 14 ． 因为 7+6=13 ， 所以 14 至少是由 3 个数相加而成的， 所以 8 的两边分别有 3 个数和 4 个数． 因为 (7,6,1) ， (7,5,2) ， (7,4,3) ， (6,5,3) 这四组数的和都是 14 ， 每组中的数的排列方法有 3 2 1=6 种， 与其对应的另外 4 个数（ 8 除外）有 4 3 2 1=24 种排列方法， 当排成横行时，这 4 组数有排在 8 的左边和右边两种排列方法， 因此，每组数的排列方法有 2 6 24=288 （种）． 所以，满足题意的排列方法有 4 288=1152 （种）．"
+    },
+    "answer": {
+      "final_raw": "1152$$种",
+      "final_normalized": "1152$$种",
+      "candidates": [
+        "1152$$种",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为去掉$$8$$以后，余下$$7$$个数的和是$$1+2+3+4+5+6+7=28$$，  所以$$8$$的两边各数的和分别是$$14$$．  因为$$7+6=13$$，  所以$$14$$至少是由$$3$$个数相加而成的，  所以$$8$$的两边分别有$$3$$个数和$$4$$个数．  因为$$(7,6,1)$$，$$(7,5,2)$$，$$(7,4,3)$$，$$(6,5,3)$$这四组数的和都是$$14$$，  每组中的数的排列方法有$$3\\times 2\\times 1=6$$种，  与其对应的另外$$4$$个数（$$8$$除外）有$$4\\times 3\\times 2\\times 1=24$$种排列方法，  当排成横行时，这$$4$$组数有排在$$8$$的左边和右边两种排列方法，  因此，每组数的排列方法有$$2\\times 6\\times 24=288$$（种）．  所以，满足题意的排列方法有$$4\\times 288=1152$$（种）．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "将 1 ， 2 ， 3 ， 4 ， 5 ， 6 ， 7 ， 8 这 8 个数排成一行，要使 8 的两边各数的和相等，则不同的排法一共有． (A) 1152 种 (B) 576 种 (C) 288 种 (D) 144 种",
+      "solution_text": "因为去掉 8 以后，余下 7 个数的和是 1+2+3+4+5+6+7=28 ， 所以 8 的两边各数的和分别是 14 ． 因为 7+6=13 ， 所以 14 至少是由 3 个数相加而成的， 所以 8 的两边分别有 3 个数和 4 个数． 因为 (7,6,1) ， (7,5,2) ， (7,4,3) ， (6,5,3) 这四组数的和都是 14 ， 每组中的数的排列方法有 3 2 1=6 种， 与其对应的另外 4 个数（ 8 除外）有 4 3 2 1=24 种排列方法， 当排成横行时，这 4 组数有排在 8 的左边和右边两种排列方法， 因此，每组数的排列方法有 2 6 24=288 （种）． 所以，满足题意的排列方法有 4 288=1152 （种）．",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "872",
+        "queId": "60da1557d6be4313aebc721f4b549af5",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1152$$种"
+          },
+          {
+            "label": "B",
+            "content": "576$$种"
+          },
+          {
+            "label": "C",
+            "content": "288$$种"
+          },
+          {
+            "label": "D",
+            "content": "144$$种"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->分析和解决问题能力",
+          "竞赛->知识点->组合->排列与组合"
+        ],
+        "competition_source_list": [
+          "2014年第25届全国希望杯初二竞赛初赛第10题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_4:01582",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1582,
+      "split": "zh_test",
+      "source_problem_id": "3493725e55ac4d74b784bfd69328f924"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "我们随机选择了一个介于$1000$和$10,000$之间的回文数，它能被$7$整除的概率是多少？\n(A) \\dfrac{1}{10}\n(B) \\dfrac{1}{9}\n(C) \\dfrac{1}{7}\n(D) \\dfrac{1}{6}\n(E) \\dfrac{1}{5}",
+      "problem_plain": "我们随机选择了一个介于 1000 和 10,000 之间的回文数，它能被 7 整除的概率是多少？ (A) 1 10 (B) 1 9 (C) 1 7 (D) 1 6 (E) 1 5",
+      "solution_latex": "The palindromes can be expressed as: $$1000 x+100 y+10 y+x$$ (since it is a four digit palindrome, it must be of the form $$xyyx$$, where $$x$$ and $$y$$ are integers from $$ [1, 9] $$ and $$[0, 9]$$, respectively.) We simplify this to: $$1001 x+110 y$$. Because the question asks for it to be divisible by $$7$$, We express it as $$1001 x+110 y≡0 (\\bmod 7)$$. Because $$1001≡0 (\\bmod 7)$$, We can substitute $$1001$$ for $$0$$, We are left with $$110y≡0(\\bmod 7)$$. Since $$110≡5(\\bmod 7)$$ we can simplfy the $$110$$ in the expression to $$5y≡0(\\bmod 7)$$. In order for this to be true, $$y≡0(\\bmod 7)$$ must also be true.~ Thus we solve:~ $$y≡0(\\bmod 7)$$. Which has two soutions: $$0$$ and $$7$$. There are thus two options for $$y$$ out of the $$10$$, so the answer is $$2/10= (\\rm E)\\frac{1}{5}$$.",
+      "solution_plain": "The palindromes can be expressed as: 1000 x+100 y+10 y+x (since it is a four digit palindrome, it must be of the form xyyx , where x and y are integers from [1, 9] and [0, 9] , respectively.) We simplify this to: 1001 x+110 y . Because the question asks for it to be divisible by 7 , We express it as 1001 x+110 y≡0 ( 7) . Because 1001≡0 ( 7) , We can substitute 1001 for 0 , We are left with 110y≡0( 7) . Since 110≡5( 7) we can simplfy the 110 in the expression to 5y≡0( 7) . In order for this to be true, y≡0( 7) must also be true.~ Thus we solve:~ y≡0( 7) . Which has two soutions: 0 and 7 . There are thus two options for y out of the 10 , so the answer is 2/10= ( E) 1 5 ."
+    },
+    "answer": {
+      "final_raw": "\\dfrac{1}{5}",
+      "final_normalized": "\\dfrac{1}{5}",
+      "candidates": [
+        "E",
+        "\\dfrac{1}{5}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "classical_models_of_probabilities",
+        "combination",
+        "probability_calculation",
+        "unknown"
+      ],
+      "tags": [
+        "amc10_12",
+        "classical_models_of_probabilities",
+        "combination",
+        "counting_probability",
+        "level_4",
+        "probability_calculation",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "The palindromes can be expressed as: $$1000 x+100 y+10 y+x$$ (since it is a four digit palindrome, it must be of the form $$xyyx$$, where $$x$$ and $$y$$ are integers from $$ [1, 9] $$ and $$[0, 9]$$, respectively.) We simplify this to: $$1001 x+110 y$$.",
+        "Because the question asks for it to be divisible by $$7$$, We express it as $$1001 x+110 y≡0 (\\bmod 7)$$.",
+        "Because $$1001≡0 (\\bmod 7)$$, We can substitute $$1001$$ for $$0$$, We are left with $$110y≡0(\\bmod 7)$$.",
+        "Since $$110≡5(\\bmod 7)$$ we can simplfy the $$110$$ in the expression to $$5y≡0(\\bmod 7)$$.",
+        "In order for this to be true, $$y≡0(\\bmod 7)$$ must also be true.~ Thus we solve:~ $$y≡0(\\bmod 7)$$.",
+        "Which has two soutions: $$0$$ and $$7$$.",
+        "There are thus two options for $$y$$ out of the $$10$$, so the answer is $$2/10= (\\rm E)\\frac{1}{5}$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "我们随机选择了一个介于 1000 和 10,000 之间的回文数，它能被 7 整除的概率是多少？ (A) 1 10 (B) 1 9 (C) 1 7 (D) 1 6 (E) 1 5",
+      "solution_text": "The palindromes can be expressed as: 1000 x+100 y+10 y+x (since it is a four digit palindrome, it must be of the form xyyx , where x and y are integers from [1, 9] and [0, 9] , respectively.) We simplify this to: 1001 x+110 y . Because the question asks for it to be divisible by 7 , We express it as 1001 x+110 y≡0 ( 7) . Because 1001≡0 ( 7) , We can substitute 1001 for 0 , We are left with 110y≡0( 7) . Since 110≡5( 7) we can simplfy the 110 in the expression to 5y≡0( 7) . In order for this to be true, y≡0( 7) must also be true.~ Thus we solve:~ y≡0( 7) . Which has two soutions: 0 and 7 . There are thus two options for y out of the 10 , so the answer is 2/10= ( E) 1 5 .",
+      "keywords": [
+        "amc10_12",
+        "classical_models_of_probabilities",
+        "combination",
+        "counting_probability",
+        "level_4",
+        "probability_calculation",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "278",
+        "queId": "3493725e55ac4d74b784bfd69328f924",
+        "difficulty": "3",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\dfrac{1}{10}"
+          },
+          {
+            "label": "B",
+            "content": "\\dfrac{1}{9}"
+          },
+          {
+            "label": "C",
+            "content": "\\dfrac{1}{7}"
+          },
+          {
+            "label": "D",
+            "content": "\\dfrac{1}{6}"
+          },
+          {
+            "label": "E",
+            "content": "\\dfrac{1}{5}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "美国AMC10/12->Knowledge Point->Combination->Probability Calculation->Classical Models of Probabilities",
+          "课内体系->知识点->等式与不等式->等式->方程组的解集"
+        ],
+        "competition_source_list": [
+          "2010年AMC10竞赛B第21题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_4:01678",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1678,
+      "split": "zh_test",
+      "source_problem_id": "e63f0dd37e404eb5b8880fc44fbc3768"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "甲、乙两人参加一次选举，已知结果：甲7票，乙5票，则计票过程中，甲的票数始终领先乙的概率以及甲的票数始终不落后于乙的概率分别为（~~~~~~~）\n(A) \\frac{1}{6},\\frac{3}{8}\n(B) \\frac{1}{12},\\frac{3}{8}\n(C) \\frac{1}{6},\\frac{3}{13}\n(D) \\frac{1}{12},\\frac{3}{13}",
+      "problem_plain": "甲、乙两人参加一次选举，已知结果：甲7票，乙5票，则计票过程中，甲的票数始终领先乙的概率以及甲的票数始终不落后于乙的概率分别为（~~~~~~~） (A) 1 6 , 3 8 (B) 1 12 , 3 8 (C) 1 6 , 3 13 (D) 1 12 , 3 13",
+      "solution_latex": "\\hfill\\break 【分析】\\\\ 根据卡特兰数的模型可求甲的票数始终领先乙的概率以及甲的票数始终不落后于乙的概率.\\\\ 【详解】\\\\ 根据卡特兰数的模型，可得甲的票数不落后于乙的概率为$\\frac{{\\mathrm{C}}_{12}^{5}-{\\mathrm{C}}_{12}^{4}}{{\\mathrm{C}}_{12}^{5}}=\\frac{297}{792}=\\frac{3}{8}$．\\\\ 甲的票数领先乙的概率为（第一票必然为甲获得，相等于甲6票，乙5票的卡特兰模型）\\\\ $\\frac{{\\mathrm{C}}_{11}^{5}-{\\mathrm{C}}_{11}^{4}}{{\\mathrm{C}}_{12}^{5}}=\\frac{132}{792}=\\frac{1}{6}$．\\\\ 故选：A.",
+      "solution_plain": "【分析】 根据卡特兰数的模型可求甲的票数始终领先乙的概率以及甲的票数始终不落后于乙的概率. 【详解】 根据卡特兰数的模型，可得甲的票数不落后于乙的概率为 C _ 12 ^ 5 - C _ 12 ^ 4 C _ 12 ^ 5 = 297 792 = 3 8 ． 甲的票数领先乙的概率为（第一票必然为甲获得，相等于甲6票，乙5票的卡特兰模型） C _ 11 ^ 5 - C _ 11 ^ 4 C _ 12 ^ 5 = 132 792 = 1 6 ． 故选：A."
+    },
+    "answer": {
+      "final_raw": "\\frac{1}{6},\\frac{3}{8}",
+      "final_normalized": "\\frac{1}{6},\\frac{3}{8}",
+      "candidates": [
+        "A",
+        "\\frac{1}{6},\\frac{3}{8}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [],
+      "tags": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "\\hfill\\break 【分析】\\\\ 根据卡特兰数的模型可求甲的票数始终领先乙的概率以及甲的票数始终不落后于乙的概率.\\\\ 【详解】\\\\ 根据卡特兰数的模型，可得甲的票数不落后于乙的概率为$\\frac{{\\mathrm{C}}_{12}^{5}-{\\mathrm{C}}_{12}^{4}}{{\\mathrm{C}}_{12}^{5}}=\\frac{297}{792}=\\frac{3}{8}$．\\\\ 甲的票数领先乙的概率为（第一票必然为甲获得，相等于甲6票，乙5票的卡特兰模型）\\\\ $\\frac{{\\mathrm{C}}_{11}^{5}-{\\mathrm{C}}_{11}^{4}}{{\\mathrm{C}}_{12}^{5}}=\\frac{132}{792}=\\frac{1}{6}$．\\\\ 故选：A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "甲、乙两人参加一次选举，已知结果：甲7票，乙5票，则计票过程中，甲的票数始终领先乙的概率以及甲的票数始终不落后于乙的概率分别为（~~~~~~~） (A) 1 6 , 3 8 (B) 1 12 , 3 8 (C) 1 6 , 3 13 (D) 1 12 , 3 13",
+      "solution_text": "【分析】 根据卡特兰数的模型可求甲的票数始终领先乙的概率以及甲的票数始终不落后于乙的概率. 【详解】 根据卡特兰数的模型，可得甲的票数不落后于乙的概率为 C _ 12 ^ 5 - C _ 12 ^ 4 C _ 12 ^ 5 = 297 792 = 3 8 ． 甲的票数领先乙的概率为（第一票必然为甲获得，相等于甲6票，乙5票的卡特兰模型） C _ 11 ^ 5 - C _ 11 ^ 4 C _ 12 ^ 5 = 132 792 = 1 6 ． 故选：A.",
+      "keywords": [
+        "counting_probability",
+        "level_4",
+        "single_choice",
+        "tal_scq5k",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1145",
+        "queId": "e63f0dd37e404eb5b8880fc44fbc3768",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{1}{6},\\frac{3}{8}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{1}{12},\\frac{3}{8}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{1}{6},\\frac{3}{13}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{1}{12},\\frac{3}{13}"
+          }
+        ],
+        "knowledge_point_routes": [],
+        "competition_source_list": [
+          "竞赛第14题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:counting_probability:level_4:01773",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1773,
+      "split": "zh_test",
+      "source_problem_id": "f5a735ac28ed4253affb1ac67a294100"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$2013-AMC10A-17$$  Daphne is visited periodically by her three best friends: Alice, Beatrix, and Claire. Alice visits every third day, Beatrix visits every fourth day, and Claire visits every fifth day. All three friends visited Daphne yesterday. How many days of the next $$365-$$day period will exactly two friends visit her?  她的三个最好的朋友爱丽丝、碧翠丝和克莱尔定期拜访达芙妮。 爱丽丝每三天来一次，碧翠丝每四天来一次，克莱尔每五天来一次。 昨天三位朋友都拜访了达芙妮。 在接下来的 365天期间，正好有两个朋友来拜访她有多少天？\n(A) 48\n(B) 54\n(C) 60\n(D) 66\n(E) 72",
+      "problem_plain": "2013-AMC10A-17 Daphne is visited periodically by her three best friends: Alice, Beatrix, and Claire. Alice visits every third day, Beatrix visits every fourth day, and Claire visits every fifth day. All three friends visited Daphne yesterday. How many days of the next 365- day period will exactly two friends visit her? 她的三个最好的朋友爱丽丝、碧翠丝和克莱尔定期拜访达芙妮。 爱丽丝每三天来一次，碧翠丝每四天来一次，克莱尔每五天来一次。 昨天三位朋友都拜访了达芙妮。 在接下来的 365天期间，正好有两个朋友来拜访她有多少天？ (A) 48 (B) 54 (C) 60 (D) 66 (E) 72",
+      "solution_latex": "The $$365-$$day time period can be split up into $$660-$$day time periods, because after $$60$$ days, all three of them visit again $$\\left({}\\right.$$ Least common multiple of $$3$$, $$4$$, and $$5$$ $$\\left.{}\\right)$$. You can find how many times each pair of visitors can meet by finding the LCM of their visiting days and dividing that number by $$60$$. Remember to subtract $$1$$, because you do not wish to count the $$60\\text{th}$$ day, when all three visit.  A and B visit $$\\dfrac{60}{3\\cdot4}-1=4$$ times. B and C visit $$\\dfrac{60}{4\\cdot5}-1=2$$ times. C and A visit $$\\dfrac{60}{3\\cdot5}-1=3$$ times.  This is a total of $$9$$ visits per $$60$$ day period. Therefore, the total number of $$2-$$person visits is $$9\\cdot6=\\left( \\text{B}\\right)54$$.  From the information above, we get that $$A=3x$$, $$B=4x$$, $$C=5x$$.  Now, we want the days in which exactly two of these people meet up The three pairs are $$\\left( A,B\\right)$$, $$\\left( B,C\\right)$$, $$\\left( A,C\\right)$$.  Notice that we are trying to find the LCM of each pair.  Hence, $$LCM\\left( A,B\\right)=12x$$, $$LCM\\left( B,C\\right)=20x$$, $$LCM\\left( A,C\\right)=15x$$.  Notice that we want to eliminate when all these friends meet up. By doing this, we will find the LCM of the three letters.  Hence, $$LCM\\left(A,B,C\\right)=60x$$.  Now, we add all of the days up $$\\left({}\\right.$$ including overcount $$\\left.{}\\right)$$.  We get $$30+18+24=72$$. Now, because $$60\\left(6\\right)=360$$, we have to subtract $$6$$ days from every pair.  Hence, our answer is $$72-18=\\boxed ~{\\textasciitilde54\\textasciitilde}\\Rightarrow\\boxed ~{\\textasciitilde B\\textasciitilde}$$.",
+      "solution_plain": "The 365- day time period can be split up into 660- day time periods, because after 60 days, all three of them visit again ( . Least common multiple of 3 , 4 , and 5 . ) . You can find how many times each pair of visitors can meet by finding the LCM of their visiting days and dividing that number by 60 . Remember to subtract 1 , because you do not wish to count the 60 th day, when all three visit. A and B visit 60 3 4 -1=4 times. B and C visit 60 4 5 -1=2 times. C and A visit 60 3 5 -1=3 times. This is a total of 9 visits per 60 day period. Therefore, the total number of 2- person visits is 9 6= ( B )54 . From the information above, we get that A=3x , B=4x , C=5x . Now, we want the days in which exactly two of these people meet up The three pairs are ( A,B ) , ( B,C ) , ( A,C ) . Notice that we are trying to find the LCM of each pair. Hence, LCM ( A,B )=12x , LCM ( B,C )=20x , LCM ( A,C )=15x . Notice that we want to eliminate when all these friends meet up. By doing this, we will find the LCM of the three letters. Hence, LCM (A,B,C )=60x . Now, we add all of the days up ( . including overcount . ) . We get 30+18+24=72 . Now, because 60 (6 )=360 , we have to subtract 6 days from every pair. Hence, our answer is 72-18= ~ 54 ~ B ."
+    },
+    "answer": {
+      "final_raw": "54",
+      "final_normalized": "54",
+      "candidates": [
+        "54",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Counting & Probability",
+      "subject_slug": "counting_probability",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "combination",
+        "reasoning",
+        "simple_logical_reasoning",
+        "unknown"
+      ],
+      "tags": [
+        "amc10_12",
+        "combination",
+        "counting_probability",
+        "level_4",
+        "reasoning",
+        "simple_logical_reasoning",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "The $$365-$$day time period can be split up into $$660-$$day time periods, because after $$60$$ days, all three of them visit again $$\\left({}\\right.$$ Least common multiple of $$3$$, $$4$$, and $$5$$ $$\\left.{}\\right)$$.",
+        "You can find how many times each pair of visitors can meet by finding the LCM of their visiting days and dividing that number by $$60$$.",
+        "Remember to subtract $$1$$, because you do not wish to count the $$60\\text{th}$$ day, when all three visit.",
+        "A and B visit $$\\dfrac{60}{3\\cdot4}-1=4$$ times.",
+        "B and C visit $$\\dfrac{60}{4\\cdot5}-1=2$$ times.",
+        "C and A visit $$\\dfrac{60}{3\\cdot5}-1=3$$ times.",
+        "This is a total of $$9$$ visits per $$60$$ day period.",
+        "Therefore, the total number of $$2-$$person visits is $$9\\cdot6=\\left( \\text{B}\\right)54$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2013-AMC10A-17 Daphne is visited periodically by her three best friends: Alice, Beatrix, and Claire. Alice visits every third day, Beatrix visits every fourth day, and Claire visits every fifth day. All three friends visited Daphne yesterday. How many days of the next 365- day period will exactly two friends visit her? 她的三个最好的朋友爱丽丝、碧翠丝和克莱尔定期拜访达芙妮。 爱丽丝每三天来一次，碧翠丝每四天来一次，克莱尔每五天来一次。 昨天三位朋友都拜访了达芙妮。 在接下来的 365天期间，正好有两个朋友来拜访她有多少天？ (A) 48 (B) 54 (C) 60 (D) 66 (E) 72",
+      "solution_text": "The 365- day time period can be split up into 660- day time periods, because after 60 days, all three of them visit again ( . Least common multiple of 3 , 4 , and 5 . ) . You can find how many times each pair of visitors can meet by finding the LCM of their visiting days and dividing that number by 60 . Remember to subtract 1 , because you do not wish to count the 60 th day, when all three visit. A and B visit 60 3 4 -1=4 times. B and C visit 60 4 5 -1=2 times. C and A visit 60 3 5 -1=3 times. This is a total of 9 visits per 60 day period. Therefore, the total number of 2- person visits is 9 6= ( B )54 . From the information above, we get that A=3x , B=4x , C=5x . Now, we want the days in which exactly two of these people meet up The three pairs are ( A,B ) , ( B,C ) , ( A,C ) . Notice that we are trying to find the LCM of each pair. Hence, LCM ( A,B )=12x , LCM ( B,C )=20x , LCM ( A,C )=15x . Notice that we want to eliminate when all these friends meet up. By doing this, we will find the LCM of the three letters. Hence, LCM (A,B,C )=60x . Now, we add all of the days up ( . including overcount . ) . We get 30+18+24=72 . Now, because 60 (6 )=360 , we have to subtract 6 days from every pair. Hence, our answer is 72-18= ~ 54 ~ B .",
+      "keywords": [
+        "amc10_12",
+        "combination",
+        "counting_probability",
+        "level_4",
+        "reasoning",
+        "simple_logical_reasoning",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "242",
+        "queId": "f5a735ac28ed4253affb1ac67a294100",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "48"
+          },
+          {
+            "label": "B",
+            "content": "54"
+          },
+          {
+            "label": "C",
+            "content": "60"
+          },
+          {
+            "label": "D",
+            "content": "66"
+          },
+          {
+            "label": "E",
+            "content": "72"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->集合->容斥原理",
+          "课内体系->知识点->计数原理->两个基本计数原理->分类加法计数原理",
+          "美国AMC10/12->Knowledge Point->Combination->Reasoning->Simple Logical Reasoning"
+        ],
+        "competition_source_list": [
+          "2013年AMC10竞赛A第17题"
+        ]
+      }
+    }
+  }
+]

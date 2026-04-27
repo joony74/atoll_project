@@ -1,0 +1,1402 @@
+{
+  "schema_version": "coco_problem_bank_image_validation_report.v1",
+  "generated_at": "2026-04-25T11:41:04+00:00",
+  "elapsed_seconds": 8.283,
+  "project_root": "/Volumes/마중나 도킹스테이션/atoll_project",
+  "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+  "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+  "options": {
+    "app_register": true,
+    "band": "중등",
+    "clean_generated_images": false,
+    "clear_app_between_items": false,
+    "clear_app_generated": true,
+    "count_per_grade": 100,
+    "difficulty": "",
+    "force": false,
+    "generate": false,
+    "grade": 0,
+    "limit": 10,
+    "loop": false,
+    "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+    "max_cycles": 1,
+    "offset": 30,
+    "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+    "report": "data/problem_bank/learned/ui_batches/coco_ui_batch_016.json",
+    "seed": 20260425,
+    "sleep_seconds": 1.0,
+    "stop_on_failure": false
+  },
+  "selected_count": 10,
+  "cycle_count": 1,
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "error": 0,
+    "by_band": {
+      "중등": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "error": 0
+      }
+    },
+    "by_topic": {
+      "fraction_ratio": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "function": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "geometry": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      },
+      "probability": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      }
+    }
+  },
+  "failures": [],
+  "results": [
+    {
+      "case_id": "middle_g02_011",
+      "band": "중등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/도형과 측정/삼각형과 사각형의 성질/middle_g02_011_easy_expression_geometry.png",
+      "expected_answer": "65",
+      "expected_expression": "28+37",
+      "computed_answer": "65",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "28 + 37"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.506,
+      "analysis": {
+        "analysis_started_at": 1777117256.671308,
+        "analysis_finished_at": 1777117257.176916,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n28 + 3/\n중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 expression ㆍ geometr\n28 + 37",
+            "| 중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n28 + 3/\n중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 expression ㆍ geometr\n28 + 37"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "28 + 37"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/도형과 측정/삼각형과 사각형의 성질/middle_g02_011_easy_expression_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n28 + 3/",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n28 + 37",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n28 + 3/",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "6965eb31110b"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "65",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 65야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 도형이나 좌표 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 65야. 그래서 정답은 65야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n28 + 3/\n중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 expression ㆍ geometr\n28 + 37",
+            "content_text": "| 중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n28 + 3/\n중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 expression ㆍ geometr\n28 + 37",
+            "repaired_text": "",
+            "expressions": [
+              "28 + 37"
+            ],
+            "choices": [],
+            "math_topic": "geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "65",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g02_011__f1d7576e"
+    },
+    {
+      "case_id": "middle_g02_012",
+      "band": "중등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "probability",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/자료와 가능성/확률의 기본/middle_g02_012_easy_word_probability.png",
+      "expected_answer": "5/28",
+      "expected_expression": "5/28",
+      "computed_answer": "5/28",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "공 하나를 뽑을 때 당첨될 확률을 구하시오",
+      "recognized_expressions": [
+        "5/28"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.709,
+      "analysis": {
+        "analysis_started_at": 1777117257.177453,
+        "analysis_finished_at": 1777117257.8867872,
+        "structured_problem": {
+          "source_text_candidates": [
+            "： 중등 2학년ㆍ확률의 기본ㆍ기본 word - probability\n상자에 공이 287] 있고 그중 당첨 SE 5개입니다.\n공 하나를 뽑을 때 당점될 SEBS 구하시오.\n중등 2학년ㆍ확률의 기본ㆍ기본 word ㆍ probability\n상자에 공이 2874 있고 그중 당첨 SE 5개입니다.\n공 하나를 뽑을 때 당첨될 확률을 구하시오.\n중등 2학년ㆍ확률의 기본 ㆍ기본 word - probability",
+            "： 중등 2학년ㆍ확률의 기본ㆍ기본 word - probability\n상자에 공이 287] 있고 그중 당첨 SE 5개입니다.\n공 하나를 뽑을 때 당점될 SEBS 구하시오.\n중등 2학년ㆍ확률의 기본ㆍ기본 word ㆍ probability\n상자에 공이 2874 있고 그중 당첨 SE 5개입니다.\n공 하나를 뽑을 때 당첨될 확률을 구하시오.\n중등 2학년ㆍ확률의 기본 ㆍ기본 word - probability"
+          ],
+          "normalized_problem_text": "공 하나를 뽑을 때 당첨될 확률을 구하시오",
+          "expressions": [
+            "5/28"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "probability",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/자료와 가능성/확률의 기본/middle_g02_012_easy_word_probability.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "： 중등 2학년ㆍ확률의 기본ㆍ기본 word - probability\n상자에 공이 287] 있고 그중 당첨 SE 5개입니다.\n공 하나를 뽑을 때 당점될 SEBS 구하시오.",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 2학년ㆍ확률의 기본ㆍ기본 word ㆍ probability\n상자에 공이 2874 있고 그중 당첨 SE 5개입니다.\n공 하나를 뽑을 때 당첨될 확률을 구하시오.",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "중등 2학년ㆍ확률의 기본 ㆍ기본 word - probability\n상자에 공이 2874 있고 그중 당첨 SE 5개입니다.\n공 하나를 뽑을 때 당첨될 확률을 구하시오.",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 중등 2학년ㆍ확률의 기본ㆍ기본 word - probability\n상자에 공이 287] 있고 그중 당첨 SE 5개입니다.\n공 하나를 뽑을 때 당점될 SEBS 구하시오.",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "0c7d7b848347"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "5/28",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 5/28야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 확률 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 5/28야. 그래서 정답은 5/28야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "： 중등 2학년ㆍ확률의 기본ㆍ기본 word - probability\n상자에 공이 287] 있고 그중 당첨 SE 5개입니다.\n공 하나를 뽑을 때 당점될 SEBS 구하시오.\n중등 2학년ㆍ확률의 기본ㆍ기본 word ㆍ probability\n상자에 공이 2874 있고 그중 당첨 SE 5개입니다.\n공 하나를 뽑을 때 당첨될 확률을 구하시오.\n중등 2학년ㆍ확률의 기본 ㆍ기본 word - probability",
+            "content_text": "： 중등 2학년ㆍ확률의 기본ㆍ기본 word - probability\n상자에 공이 287] 있고 그중 당첨 SE 5개입니다.\n공 하나를 뽑을 때 당점될 SEBS 구하시오.\n중등 2학년ㆍ확률의 기본ㆍ기본 word ㆍ probability\n상자에 공이 2874 있고 그중 당첨 SE 5개입니다.\n공 하나를 뽑을 때 당첨될 확률을 구하시오.\n중등 2학년ㆍ확률의 기본 ㆍ기본 word - probability",
+            "repaired_text": "",
+            "expressions": [
+              "5/28"
+            ],
+            "choices": [],
+            "math_topic": "probability",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "5/28",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g02_012__5a2a2358"
+    },
+    {
+      "case_id": "middle_g02_013",
+      "band": "중등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "fraction_ratio",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/수와 연산/유리수와 순환소수/middle_g02_013_easy_table_fraction_ratio.png",
+      "expected_answer": "148",
+      "expected_expression": "41+42+19+46",
+      "computed_answer": "148",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 수량은 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "41+42+19+46"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.454,
+      "analysis": {
+        "analysis_started_at": 1777117257.8873038,
+        "analysis_finished_at": 1777117259.340984,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 중등 2학년ㆍ유리수와 순환소수ㆍ기본 table - fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\nesa BC 10\na fa 142 000 19 00146\n중등 2학년ㆍ유리수와 순환소수ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 4l 42 19 46\ntable_row_2 4 42 19 46",
+            "| 중등 2학년ㆍ유리수와 순환소수ㆍ기본 table - fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\nesa BC 10\na fa 142 000 19 00146\n중등 2학년ㆍ유리수와 순환소수ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 4l 42 19 46\ntable_row_2 4 42 19 46"
+          ],
+          "normalized_problem_text": "아래 표의 수량은 모두 몇 개인지 구하시오",
+          "expressions": [
+            "41+42+19+46"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/수와 연산/유리수와 순환소수/middle_g02_013_easy_table_fraction_ratio.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 중등 2학년ㆍ유리수와 순환소수ㆍ기본 table - fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\nesa BC 10\na fa 142 000 19 00146",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 2학년ㆍ유리수와 순환소수ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\neC",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "중등 2학년ㆍ유리수와 순환소수ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B c D\na 4l 42 19 46",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 중등 2학년ㆍ유리수와 순환소수ㆍ기본 table - fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\nesa BC 10\na fa 142 000 19 00146",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 4 42 19 46",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "8af02921b0a6"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "148",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 148야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 148야. 그래서 정답은 148야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 중등 2학년ㆍ유리수와 순환소수ㆍ기본 table - fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\nesa BC 10\na fa 142 000 19 00146\n중등 2학년ㆍ유리수와 순환소수ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 4l 42 19 46\ntable_row_2 4 42 19 46",
+            "content_text": "| 중등 2학년ㆍ유리수와 순환소수ㆍ기본 table - fraction_ratio\n아래 표의 수량은 모두 몇 개인지 구하시오.\nesa BC 10\na fa 142 000 19 00146\n중등 2학년ㆍ유리수와 순환소수ㆍ기본 table - fraction_ratio\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 4l 42 19 46\ntable_row_2 4 42 19 46",
+            "repaired_text": "",
+            "expressions": [
+              "41+42+19+46"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "148",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g02_013__731c7500"
+    },
+    {
+      "case_id": "middle_g02_014",
+      "band": "중등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "graph",
+      "topic": "function",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/변화와 관계/연립방정식과 일차함수/middle_g02_014_easy_graph_function.png",
+      "expected_answer": "8",
+      "expected_expression": "y=-3x+ 5; x=-1",
+      "computed_answer": "8",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "function_value_solver",
+      "recognized_problem": "* = -12 때 y의 값을 구하시오",
+      "recognized_expressions": [
+        "y=-3x+5",
+        "x=-1",
+        "y=-3"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.677,
+      "analysis": {
+        "analysis_started_at": 1777117259.341535,
+        "analysis_finished_at": 1777117260.018479,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| Ss 2학년ㆍ연립방정식과 Artes ㆍ기본 graph - function |\n오른쪽 직선의 AS y= -3x + 5입니다-%…\n- © =\n* = -12 때 \\의 값을 구하시오.\n중등 2학년ㆍ연립방정식과 일차함수ㆍ기본 graph - function\n오른쪽 직선의 식은 y = -3% + 5입니다.~… \\\n_ o =\nX = -1 때 \\의 값을 구하시오.",
+            "| Ss 2학년ㆍ연립방정식과 Artes ㆍ기본 graph - function |\n오른쪽 직선의 AS y= -3x + 5입니다-%…\n- © =\n* = -12 때 \\의 값을 구하시오.\n중등 2학년ㆍ연립방정식과 일차함수ㆍ기본 graph - function\n오른쪽 직선의 식은 y = -3% + 5입니다.~… \\\n_ o =\nX = -1 때 \\의 값을 구하시오."
+          ],
+          "normalized_problem_text": "* = -12 때 y의 값을 구하시오",
+          "expressions": [
+            "y=-3x+5",
+            "x=-1",
+            "y=-3"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "function",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/변화와 관계/연립방정식과 일차함수/middle_g02_014_easy_graph_function.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| Ss 2학년ㆍ연립방정식과 Artes ㆍ기본 graph - function |\n오른쪽 직선의 AS y= -3x + 5입니다-%…\n- © =\n* = -12 때 \\의 값을 구하시오.",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 2학년ㆍ연립방정식과 일차함수ㆍ기본 graph - function\n오른쪽 직선의 식은 y = -3% + 5입니다.~… \\\n_ o =\nX = -1 때 \\의 값을 구하시오.",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| Ss 2학년ㆍ연립방정식과 Artes ㆍ기본 graph - function |\n오른쪽 직선의 AS y= -3x + 5입니다-%…\n- © =\n* = -12 때 \\의 값을 구하시오.",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "c9d6a089bdbc"
+          }
+        },
+        "solve_result": {
+          "solver_name": "function_value_solver",
+          "computed_answer": "8",
+          "steps": [
+            "함수식을 y=-3*x+5 형태로 정리했어.",
+            "x=-1을 대입했어.",
+            "y의 값은 8야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.83,
+          "validation_status": "verified",
+          "explanation": "이건 함수 문제야. 함수식을 y=-3*x+5 형태로 정리했어. x=-1을 대입했어. y의 값은 8야. 그래서 정답은 8야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| Ss 2학년ㆍ연립방정식과 Artes ㆍ기본 graph - function |\n오른쪽 직선의 AS y= -3x + 5입니다-%…\n- © =\n* = -12 때 \\의 값을 구하시오.\n중등 2학년ㆍ연립방정식과 일차함수ㆍ기본 graph - function\n오른쪽 직선의 식은 y = -3% + 5입니다.~… \\\n_ o =\nX = -1 때 \\의 값을 구하시오.",
+            "content_text": "| Ss 2학년ㆍ연립방정식과 Artes ㆍ기본 graph - function |\n오른쪽 직선의 AS y= -3x + 5입니다-%…\n- © =\n* = -12 때 \\의 값을 구하시오.\n중등 2학년ㆍ연립방정식과 일차함수ㆍ기본 graph - function\n오른쪽 직선의 식은 y = -3% + 5입니다.~… \\\n_ o =\nX = -1 때 \\의 값을 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "y=-3x+5",
+              "x=-1",
+              "y=-3"
+            ],
+            "choices": [],
+            "math_topic": "function",
+            "question_type": "subjective"
+          },
+          "solver_name": "function_value_solver",
+          "computed_answer": "8",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g02_014__534e0a60"
+    },
+    {
+      "case_id": "middle_g02_015",
+      "band": "중등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "geometry",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/도형과 측정/삼각형과 사각형의 성질/middle_g02_015_easy_geometry_geometry.png",
+      "expected_answer": "182",
+      "expected_expression": "13*14",
+      "computed_answer": "182",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "오른쪽 직사각형의 넓이를 구하시오",
+      "recognized_expressions": [
+        "13*14",
+        "rectangle_width 13rectangle_height 14rectangle_area 13*14"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.909,
+      "analysis": {
+        "analysis_started_at": 1777117260.0190039,
+        "analysis_finished_at": 1777117260.927614,
+        "structured_problem": {
+          "source_text_candidates": [
+            "중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n14 007\n13cm\n중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 geometry « geometry\n중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 geometry ㆍ geometry\nx ro) Ln |= =~\n| 0\"\nrectangle_width 13rectangle_height 14rectangle_area 13*14",
+            "중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n14 007\n13cm\n중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 geometry « geometry\n중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 geometry ㆍ geometry\nx ro) Ln |= =~\n| 0\"\nrectangle_width 13rectangle_height 14rectangle_area 13*14"
+          ],
+          "normalized_problem_text": "오른쪽 직사각형의 넓이를 구하시오",
+          "expressions": [
+            "13*14",
+            "rectangle_width 13rectangle_height 14rectangle_area 13*14"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/도형과 측정/삼각형과 사각형의 성질/middle_g02_015_easy_geometry_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n14 007\n13cm",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 geometry « geometry\nie So Lc 르 ray\n오른쪽 직사각형의 넓이를 구하시오.\n| | 때\n13cm",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n14 007\n13cm",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 geometry ㆍ geometry\nx ro) Ln |= =~\n오른쪽 직사각형의 넓이를 구하시오.\n| 0\"\n13cm",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "geometry_metric_reader",
+                    "variant": "rectangle_metric",
+                    "psm": "geometry",
+                    "available": true,
+                    "text": "rectangle_width 13 rectangle_height 14 rectangle_area 13*14",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "64c086479ffd"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "182",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 182야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 도형이나 좌표 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 182야. 그래서 정답은 182야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n14 007\n13cm\n중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 geometry « geometry\n중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 geometry ㆍ geometry\nx ro) Ln |= =~\n| 0\"\nrectangle_width 13rectangle_height 14rectangle_area 13*14",
+            "content_text": "중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 geometry - geometry\n오른쪽 직사각형의 넓이를 구하시오.\n14 007\n13cm\n중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 geometry « geometry\n중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 geometry ㆍ geometry\nx ro) Ln |= =~\n| 0\"\nrectangle_width 13rectangle_height 14rectangle_area 13*14",
+            "repaired_text": "",
+            "expressions": [
+              "13*14",
+              "rectangle_width 13rectangle_height 14rectangle_area 13*14"
+            ],
+            "choices": [],
+            "math_topic": "geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "182",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g02_015__fdb6067e"
+    },
+    {
+      "case_id": "middle_g02_016",
+      "band": "중등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "probability",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/자료와 가능성/확률의 기본/middle_g02_016_easy_expression_probability.png",
+      "expected_answer": "17/28",
+      "expected_expression": "17/28",
+      "computed_answer": "17/28",
+      "matched_choice": "",
+      "validation_status": "needs_review",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "17/28",
+      "recognized_expressions": [
+        "17/28"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.713,
+      "analysis": {
+        "analysis_started_at": 1777117260.9281979,
+        "analysis_finished_at": 1777117261.640813,
+        "structured_problem": {
+          "source_text_candidates": [
+            "중등 2학년ㆍ확률의 기본ㆍ기본 @*%2「655107ㆍ0ㅁ「0081901\n공 28개 중 빨간 공이 17개입니다.\n임의로 하나를 뽑을 때 빨간 Be 확률은?\n중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\nS 2874 중 빨간 공이 17개입니다.\n임의로 하나를 뽑을 때 빨간 공일 확률은?\n| 중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\n& 2874 중 빨간 공이 17개입니다.\n= >) =",
+            "중등 2학년ㆍ확률의 기본ㆍ기본 @*%2「655107ㆍ0ㅁ「0081901\n공 28개 중 빨간 공이 17개입니다.\n임의로 하나를 뽑을 때 빨간 Be 확률은?\n중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\nS 2874 중 빨간 공이 17개입니다.\n임의로 하나를 뽑을 때 빨간 공일 확률은?\n| 중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\n& 2874 중 빨간 공이 17개입니다.\n= >) ="
+          ],
+          "normalized_problem_text": "17/28",
+          "expressions": [
+            "17/28"
+          ],
+          "choices": [
+            "ㅁ 「0081901\n공 28개 중 빨간 공이 17개입니다.\n임의로 하나를 뽑을 때 빨간 Be 확률은?\n중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\nS 2874 중 빨간 공이 17개입니다.\n임의로 하나를 뽑을 때 빨간 공일 확률은?\n| 중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\n& 2874 중 빨간 공이 17개입니다.\n= >) ="
+          ],
+          "question_type": "multiple_choice",
+          "math_topic": "probability",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/자료와 가능성/확률의 기본/middle_g02_016_easy_expression_probability.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "중등 2학년ㆍ확률의 기본ㆍ기본 @*%2「655107ㆍ0ㅁ「0081901\n공 28개 중 빨간 공이 17개입니다.\n임의로 하나를 뽑을 때 빨간 Be 확률은?",
+                "confidence": 0.6799999999999999,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 2학년ㆍ확률의 기본ㆍ기본 @*%2「655107ㆍ0ㅁ「0081901\n공 28개 중 빨간 공이 17개입니다.\n임의로 하나를 뽑을 때 빨간 Be 확률은?",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\nS 2874 중 빨간 공이 17개입니다.\n임의로 하나를 뽑을 때 빨간 공일 확률은?",
+                    "confidence": 0.52
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\n& 2874 중 빨간 공이 17개입니다.\n= >) =\n임의로 하나를 뽑을 때 빨간 공일 확률은?",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "49e5ff33a3cd"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "17/28",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 17/28야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "needs_review",
+          "explanation": "이건 확률 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 17/28야. 그래서 정답은 17/28야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "중등 2학년ㆍ확률의 기본ㆍ기본 @*%2「655107ㆍ0ㅁ「0081901\n공 28개 중 빨간 공이 17개입니다.\n임의로 하나를 뽑을 때 빨간 Be 확률은?\n중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\nS 2874 중 빨간 공이 17개입니다.\n임의로 하나를 뽑을 때 빨간 공일 확률은?\n| 중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\n& 2874 중 빨간 공이 17개입니다.\n= >) =",
+            "content_text": "중등 2학년ㆍ확률의 기본ㆍ기본 @*%2「655107ㆍ0ㅁ「0081901\n공 28개 중 빨간 공이 17개입니다.\n임의로 하나를 뽑을 때 빨간 Be 확률은?\n중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\nS 2874 중 빨간 공이 17개입니다.\n임의로 하나를 뽑을 때 빨간 공일 확률은?\n| 중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\n& 2874 중 빨간 공이 17개입니다.\n= >) =",
+            "repaired_text": "",
+            "expressions": [
+              "17/28"
+            ],
+            "choices": [
+              "ㅁ 「0081901\n공 28개 중 빨간 공이 17개입니다.\n임의로 하나를 뽑을 때 빨간 Be 확률은?\n중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\nS 2874 중 빨간 공이 17개입니다.\n임의로 하나를 뽑을 때 빨간 공일 확률은?\n| 중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\n& 2874 중 빨간 공이 17개입니다.\n= >) ="
+            ],
+            "math_topic": "probability",
+            "question_type": "multiple_choice"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "17/28",
+          "validation_status": "needs_review"
+        }
+      },
+      "app_doc_id": "autobank__middle_g02_016__641c9a1a"
+    },
+    {
+      "case_id": "middle_g02_017",
+      "band": "중등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "fraction_ratio",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/수와 연산/유리수와 순환소수/middle_g02_017_easy_word_fraction_ratio.png",
+      "expected_answer": "66",
+      "expected_expression": "53+25-12",
+      "computed_answer": "66",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "53+25-12",
+      "recognized_expressions": [
+        "53+25-12"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.826,
+      "analysis": {
+        "analysis_started_at": 1777117261.641382,
+        "analysis_finished_at": 1777117262.467278,
+        "structured_problem": {
+          "source_text_candidates": [
+            "： 중등 2학년ㆍ유리수와 순환소수ㆍ기본 word - fraction_ratio\n민지는 스티커를 538 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<\n중등 2학년ㆍ유리수와 순환소수ㆍ기본 word : fraction_ratio\n민지는 스티커를 53장 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 SA\n중등 2학년ㆍ유리수와 순환소수ㆍ기본 word - fraction_ratio\n민지는 스티커를 534 가지고 있었습니다.",
+            "： 중등 2학년ㆍ유리수와 순환소수ㆍ기본 word - fraction_ratio\n민지는 스티커를 538 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<\n중등 2학년ㆍ유리수와 순환소수ㆍ기본 word : fraction_ratio\n민지는 스티커를 53장 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 SA\n중등 2학년ㆍ유리수와 순환소수ㆍ기본 word - fraction_ratio\n민지는 스티커를 534 가지고 있었습니다."
+          ],
+          "normalized_problem_text": "53+25-12",
+          "expressions": [
+            "53+25-12"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/수와 연산/유리수와 순환소수/middle_g02_017_easy_word_fraction_ratio.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "： 중등 2학년ㆍ유리수와 순환소수ㆍ기본 word - fraction_ratio\n민지는 스티커를 538 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 2학년ㆍ유리수와 순환소수ㆍ기본 word : fraction_ratio\n민지는 스티커를 53장 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 SA",
+                    "confidence": 0.48
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "중등 2학년ㆍ유리수와 순환소수ㆍ기본 word - fraction_ratio\n민지는 스티커를 534 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<\nOo AHI",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 중등 2학년ㆍ유리수와 순환소수ㆍ기본 word - fraction_ratio\n민지는 스티커를 538 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "5fe4e50fbb8d"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "66",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 66야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 66야. 그래서 정답은 66야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "： 중등 2학년ㆍ유리수와 순환소수ㆍ기본 word - fraction_ratio\n민지는 스티커를 538 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<\n중등 2학년ㆍ유리수와 순환소수ㆍ기본 word : fraction_ratio\n민지는 스티커를 53장 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 SA\n중등 2학년ㆍ유리수와 순환소수ㆍ기본 word - fraction_ratio\n민지는 스티커를 534 가지고 있었습니다.",
+            "content_text": "： 중등 2학년ㆍ유리수와 순환소수ㆍ기본 word - fraction_ratio\n민지는 스티커를 538 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<\n중등 2학년ㆍ유리수와 순환소수ㆍ기본 word : fraction_ratio\n민지는 스티커를 53장 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 SA\n중등 2학년ㆍ유리수와 순환소수ㆍ기본 word - fraction_ratio\n민지는 스티커를 534 가지고 있었습니다.",
+            "repaired_text": "",
+            "expressions": [
+              "53+25-12"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "66",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g02_017__ed506bca"
+    },
+    {
+      "case_id": "middle_g02_018",
+      "band": "중등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "function",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/변화와 관계/연립방정식과 일차함수/middle_g02_018_easy_table_function.png",
+      "expected_answer": "10",
+      "expected_expression": "y=4x+ 2; x=2",
+      "computed_answer": "10",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "* = 2일 때 의 값을 구하시오",
+      "recognized_expressions": [
+        "answer=10",
+        "x=2"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.363,
+      "analysis": {
+        "analysis_started_at": 1777117262.4678552,
+        "analysis_finished_at": 1777117263.831257,
+        "structured_problem": {
+          "source_text_candidates": [
+            "중등 2학년ㆍ연립방정식과 일차함수ㆍ기본 table - function\n아래 HE 일차함수 = ax + #의 일부입니다.\n* = 2일 때 \\의 값을 구하시오\n* 1 2 3 4\ny 6 10 14 18\n아래 표는 일차함수 / = ax + #의 일부입니다.\nx = 2일 때 \\의 값을 구하시오.\nye 10 0 000 0 _|\n. 중등 2하년 ㆍ연립방정식과 일차함수 기본 table function\n아래 RE 일차함수 = ax + #의 일부입니다.\n* = 2일 때 의 값을 구하시오.\n이 fe ft 00001\ntable_row_1 1 2 3\ntable_row_2 6 10 14 18",
+            "중등 2학년ㆍ연립방정식과 일차함수ㆍ기본 table - function\n아래 HE 일차함수 = ax + #의 일부입니다.\n* = 2일 때 \\의 값을 구하시오\n* 1 2 3 4\ny 6 10 14 18\n아래 표는 일차함수 / = ax + #의 일부입니다.\nx = 2일 때 \\의 값을 구하시오.\nye 10 0 000 0 _|\n. 중등 2하년 ㆍ연립방정식과 일차함수 기본 table function\n아래 RE 일차함수 = ax + #의 일부입니다.\n* = 2일 때 의 값을 구하시오.\n이 fe ft 00001\ntable_row_1 1 2 3\ntable_row_2 6 10 14 18"
+          ],
+          "normalized_problem_text": "* = 2일 때 의 값을 구하시오",
+          "expressions": [
+            "answer=10",
+            "x=2"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "function",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/변화와 관계/연립방정식과 일차함수/middle_g02_018_easy_table_function.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "중등 2학년ㆍ연립방정식과 일차함수ㆍ기본 table - function\n아래 HE 일차함수 = ax + #의 일부입니다.\n* = 2일 때 \\의 값을 구하시오\n* 1 2 3 4\ny 6 10 14 18",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 2학년ㆍ연립방정식과 일차함수 ㆍ기본 table - function\n아래 표는 일차함수 / = ax + #의 일부입니다.\nx = 2일 때 \\의 값을 구하시오.\nye 10 0 000 0 _|",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "중등 2학년ㆍ연립방정식과 일차함수ㆍ기본 table - function\n아래 HE 일차함수 = ax + #의 일부입니다.\n* = 2일 때 \\의 값을 구하시오\n* 1 2 3 4\ny 6 10 14 18",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ". 중등 2하년 ㆍ연립방정식과 일차함수 기본 table function\n아래 RE 일차함수 = ax + #의 일부입니다.\n* = 2일 때 의 값을 구하시오.\n이 fe ft 00001",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_1 1 2 3\ntable_row_2 6 10 14 18",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "0f8b6a0b8c28"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "10",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 10야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 함수 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 10야. 그래서 정답은 10야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "중등 2학년ㆍ연립방정식과 일차함수ㆍ기본 table - function\n아래 HE 일차함수 = ax + #의 일부입니다.\n* = 2일 때 \\의 값을 구하시오\n* 1 2 3 4\ny 6 10 14 18\n아래 표는 일차함수 / = ax + #의 일부입니다.\nx = 2일 때 \\의 값을 구하시오.\nye 10 0 000 0 _|\n. 중등 2하년 ㆍ연립방정식과 일차함수 기본 table function\n아래 RE 일차함수 = ax + #의 일부입니다.\n* = 2일 때 의 값을 구하시오.\n이 fe ft 00001\ntable_row_1 1 2 3\ntable_row_2 6 10 14 18",
+            "content_text": "중등 2학년ㆍ연립방정식과 일차함수ㆍ기본 table - function\n아래 HE 일차함수 = ax + #의 일부입니다.\n* = 2일 때 \\의 값을 구하시오\n* 1 2 3 4\ny 6 10 14 18\n아래 표는 일차함수 / = ax + #의 일부입니다.\nx = 2일 때 \\의 값을 구하시오.\nye 10 0 000 0 _|\n. 중등 2하년 ㆍ연립방정식과 일차함수 기본 table function\n아래 RE 일차함수 = ax + #의 일부입니다.\n* = 2일 때 의 값을 구하시오.\n이 fe ft 00001\ntable_row_1 1 2 3\ntable_row_2 6 10 14 18",
+            "repaired_text": "",
+            "expressions": [
+              "answer=10",
+              "x=2"
+            ],
+            "choices": [],
+            "math_topic": "function",
+            "question_type": "subjective"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "10",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g02_018__58a22ad0"
+    },
+    {
+      "case_id": "middle_g02_019",
+      "band": "중등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/도형과 측정/삼각형과 사각형의 성질/middle_g02_019_easy_expression_geometry.png",
+      "expected_answer": "48",
+      "expected_expression": "33+15",
+      "computed_answer": "48",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "33 + 15"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.458,
+      "analysis": {
+        "analysis_started_at": 1777117263.8318489,
+        "analysis_finished_at": 1777117264.2896059,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n33 + 15\n중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 expression ㆍ geometr",
+            "| 중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n33 + 15\n중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 expression ㆍ geometr"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "33 + 15"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/도형과 측정/삼각형과 사각형의 성질/middle_g02_019_easy_expression_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n33 + 15",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n33 + 15",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n33 + 15",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "d86125293c0f"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "48",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 48야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 도형이나 좌표 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 48야. 그래서 정답은 48야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n33 + 15\n중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 expression ㆍ geometr",
+            "content_text": "| 중등 2학년ㆍ삼각형과 사각형의 성질ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n33 + 15\n중등 2학년ㆍ삼각형과 사각형의 성질 ㆍ기본 expression ㆍ geometr",
+            "repaired_text": "",
+            "expressions": [
+              "33 + 15"
+            ],
+            "choices": [],
+            "math_topic": "geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "48",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__middle_g02_019__f81c2efb"
+    },
+    {
+      "case_id": "middle_g02_020",
+      "band": "중등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "probability",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/자료와 가능성/확률의 기본/middle_g02_020_easy_expression_probability.png",
+      "expected_answer": "9/17",
+      "expected_expression": "18/34",
+      "computed_answer": "9/17",
+      "matched_choice": "",
+      "validation_status": "needs_review",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "18/34",
+      "recognized_expressions": [
+        "18/34"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.663,
+      "analysis": {
+        "analysis_started_at": 1777117264.290213,
+        "analysis_finished_at": 1777117264.953572,
+        "structured_problem": {
+          "source_text_candidates": [
+            "중등 2학년ㆍ확률의 기본ㆍ기본 @*%2「655107ㆍ0ㅁ「0081901\n공 34개 중 빨간 공이 18개입니다.\n임의로 하나를 뽑을 때 빨간 Be 확률은?\n중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\nS 3474 중 빨간 공이 18개입니다.\n임의로 하나를 뽑을 때 빨간 공일 확률은?\n_ 중등 2학년 ㆍ확률의 기본 ㆍ기본 expression” 01008메1\n=. © 호\n임의로 하나를 뽑을 때 빨간 se 확률은?",
+            "중등 2학년ㆍ확률의 기본ㆍ기본 @*%2「655107ㆍ0ㅁ「0081901\n공 34개 중 빨간 공이 18개입니다.\n임의로 하나를 뽑을 때 빨간 Be 확률은?\n중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\nS 3474 중 빨간 공이 18개입니다.\n임의로 하나를 뽑을 때 빨간 공일 확률은?\n_ 중등 2학년 ㆍ확률의 기본 ㆍ기본 expression” 01008메1\n=. © 호\n임의로 하나를 뽑을 때 빨간 se 확률은?"
+          ],
+          "normalized_problem_text": "18/34",
+          "expressions": [
+            "18/34"
+          ],
+          "choices": [
+            "ㅁ 「0081901\n공 34개 중 빨간 공이 18개입니다.\n임의로 하나를 뽑을 때 빨간 Be 확률은?\n중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\nS 3474 중 빨간 공이 18개입니다.\n임의로 하나를 뽑을 때 빨간 공일 확률은?\n_ 중등 2학년 ㆍ확률의 기본 ㆍ기본 expression” 01008메1\n=. © 호\n임의로 하나를 뽑을 때 빨간 se 확률은?"
+          ],
+          "question_type": "multiple_choice",
+          "math_topic": "probability",
+          "target_question": "문제 풀이",
+          "confidence": 0.4,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/02.중등/2학년/자료와 가능성/확률의 기본/middle_g02_020_easy_expression_probability.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "중등 2학년ㆍ확률의 기본ㆍ기본 @*%2「655107ㆍ0ㅁ「0081901\n공 34개 중 빨간 공이 18개입니다.\n임의로 하나를 뽑을 때 빨간 Be 확률은?",
+                "confidence": 0.6799999999999999,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "중등 2학년ㆍ확률의 기본ㆍ기본 @*%2「655107ㆍ0ㅁ「0081901\n공 34개 중 빨간 공이 18개입니다.\n임의로 하나를 뽑을 때 빨간 Be 확률은?",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\nS 3474 중 빨간 공이 18개입니다.\n임의로 하나를 뽑을 때 빨간 공일 확률은?",
+                    "confidence": 0.52
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "_ 중등 2학년 ㆍ확률의 기본 ㆍ기본 expression” 01008메1\n공 34개 중 빨간 공이 18개입니다.\n=. © 호\n임의로 하나를 뽑을 때 빨간 se 확률은?",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "d36d7c8dc168"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "9/17",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 9/17야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "needs_review",
+          "explanation": "이건 확률 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 9/17야. 그래서 정답은 9/17야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "중등 2학년ㆍ확률의 기본ㆍ기본 @*%2「655107ㆍ0ㅁ「0081901\n공 34개 중 빨간 공이 18개입니다.\n임의로 하나를 뽑을 때 빨간 Be 확률은?\n중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\nS 3474 중 빨간 공이 18개입니다.\n임의로 하나를 뽑을 때 빨간 공일 확률은?\n_ 중등 2학년 ㆍ확률의 기본 ㆍ기본 expression” 01008메1\n=. © 호\n임의로 하나를 뽑을 때 빨간 se 확률은?",
+            "content_text": "중등 2학년ㆍ확률의 기본ㆍ기본 @*%2「655107ㆍ0ㅁ「0081901\n공 34개 중 빨간 공이 18개입니다.\n임의로 하나를 뽑을 때 빨간 Be 확률은?\n중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\nS 3474 중 빨간 공이 18개입니다.\n임의로 하나를 뽑을 때 빨간 공일 확률은?\n_ 중등 2학년 ㆍ확률의 기본 ㆍ기본 expression” 01008메1\n=. © 호\n임의로 하나를 뽑을 때 빨간 se 확률은?",
+            "repaired_text": "",
+            "expressions": [
+              "18/34"
+            ],
+            "choices": [
+              "ㅁ 「0081901\n공 34개 중 빨간 공이 18개입니다.\n임의로 하나를 뽑을 때 빨간 Be 확률은?\n중등 2학년ㆍ확률의 기본ㆍ기본 expression ㆍ probabil\nS 3474 중 빨간 공이 18개입니다.\n임의로 하나를 뽑을 때 빨간 공일 확률은?\n_ 중등 2학년 ㆍ확률의 기본 ㆍ기본 expression” 01008메1\n=. © 호\n임의로 하나를 뽑을 때 빨간 se 확률은?"
+            ],
+            "math_topic": "probability",
+            "question_type": "multiple_choice"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "9/17",
+          "validation_status": "needs_review"
+        }
+      },
+      "app_doc_id": "autobank__middle_g02_020__f316605a"
+    }
+  ]
+}

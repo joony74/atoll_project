@@ -1,0 +1,2910 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:00097",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 97,
+      "split": "zh_train",
+      "source_problem_id": "8f2a4f3724184d30a2ce768c0824fa02"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "计算$$\\frac{1}{1\\times 2\\times 3}+\\frac{1}{2\\times 3\\times 4}+\\frac{1}{3\\times 4\\times 5}+...+\\frac{1}{8\\times 9\\times 10}$$=~\\uline{~~~~~~~~~~}~．\n(A) \\frac{9}{10}\n(B) \\frac{9}{20}\n(C) \\frac{11}{45}\n(D) \\frac{22}{45}",
+      "problem_plain": "计算 1 1 2 3 + 1 2 3 4 + 1 3 4 5 +...+ 1 8 9 10 =~ ~~~~~~~~~~ ~． (A) 9 10 (B) 9 20 (C) 11 45 (D) 22 45",
+      "solution_latex": "因为$$\\frac{1}{n\\left( n+1 \\right)\\left( n+2 \\right)}=\\frac{1}{2}\\times \\frac{\\left( n+2 \\right)-n}{n\\left( n+1 \\right)\\left( n+2 \\right)}=\\frac{1}{2}\\left[ \\frac{1}{n\\left( n+1 \\right)}-\\frac{1}{\\left( n+1 \\right)\\left( n+2 \\right)} \\right]$$  所以原式$$=\\frac{1}{2}\\times \\left( \\frac{1}{1\\times 2}-\\frac{1}{2\\times 3}+\\frac{1}{2\\times 3}-\\frac{1}{3\\times 4}+\\frac{1}{3\\times 4}-\\frac{1}{4\\times 5}...+\\frac{1}{8\\times 9}-\\frac{1}{9\\times 10} \\right)$$  $$=\\frac{1}{2}\\times \\left[ \\frac{1}{2}-\\frac{1}{90} \\right]=\\frac{11}{45}$$．",
+      "solution_plain": "因为 1 n ( n+1 ) ( n+2 ) = 1 2 ( n+2 )-n n ( n+1 ) ( n+2 ) = 1 2 [ 1 n ( n+1 ) - 1 ( n+1 ) ( n+2 ) ] 所以原式 = 1 2 ( 1 1 2 - 1 2 3 + 1 2 3 - 1 3 4 + 1 3 4 - 1 4 5 ...+ 1 8 9 - 1 9 10 ) = 1 2 [ 1 2 - 1 90 ]= 11 45 ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{11}{45}",
+      "final_normalized": "\\frac{11}{45}",
+      "candidates": [
+        "C",
+        "\\frac{11}{45}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为$$\\frac{1}{n\\left( n+1 \\right)\\left( n+2 \\right)}=\\frac{1}{2}\\times \\frac{\\left( n+2 \\right)-n}{n\\left( n+1 \\right)\\left( n+2 \\right)}=\\frac{1}{2}\\left[ \\frac{1}{n\\left( n+1 \\right)}-\\frac{1}{\\left( n+1 \\right)\\left( n+2 \\right)} \\right]$$  所以原式$$=\\frac{1}{2}\\times \\left( \\frac{1}{1\\times 2}-\\frac{1}{2\\times 3}+\\frac{1}{2\\times 3}-\\frac{1}{3\\times 4}+\\frac{1}{3\\times 4}-\\frac{1}{4\\times 5}...+\\frac{1}{8\\times 9}-\\frac{1}{9\\times 10} \\right)$$  $$=\\frac{1}{2}\\times \\left[ \\frac{1}{2}-\\frac{1}{90} \\right]=\\frac{11}{45}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "计算 1 1 2 3 + 1 2 3 4 + 1 3 4 5 +...+ 1 8 9 10 =~ ~~~~~~~~~~ ~． (A) 9 10 (B) 9 20 (C) 11 45 (D) 22 45",
+      "solution_text": "因为 1 n ( n+1 ) ( n+2 ) = 1 2 ( n+2 )-n n ( n+1 ) ( n+2 ) = 1 2 [ 1 n ( n+1 ) - 1 ( n+1 ) ( n+2 ) ] 所以原式 = 1 2 ( 1 1 2 - 1 2 3 + 1 2 3 - 1 3 4 + 1 3 4 - 1 4 5 ...+ 1 8 9 - 1 9 10 ) = 1 2 [ 1 2 - 1 90 ]= 11 45 ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2993",
+        "queId": "8f2a4f3724184d30a2ce768c0824fa02",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{9}{10}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{9}{20}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{11}{45}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{22}{45}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->归纳总结->归纳推理"
+        ],
+        "competition_source_list": [
+          "2017年第15届全国希望杯六年级竞赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:00259",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 259,
+      "split": "zh_train",
+      "source_problem_id": "b833cba3b77e44a7a7e467580fae3354"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "美是一种感觉，本应没有什么客观的标准，但在自然界里，物体形状的比例却提供了在匀称与协调上的一种美感的参考，在数学上，这个比例称为黄金分割．在人体下躯干（由脚底至肚脐的长度）与身高的比例上，肚脐是理想的黄金分割点，也就是说，若此比值越接近$$0.618$$，就越给别人一种美的感觉．如果某女士身高为$$1.60\\text{m}$$，下躯干与身高的比为$$0.60$$，为了追求美，她想利用高跟鞋达到这一效果，那么她选的高跟鞋的高度约为．\n(A) 2.5\\text{cm}\n(B) 5.1\\text{cm}\n(C) 7.5\\text{cm}\n(D) 8.2\\text{cm}",
+      "problem_plain": "美是一种感觉，本应没有什么客观的标准，但在自然界里，物体形状的比例却提供了在匀称与协调上的一种美感的参考，在数学上，这个比例称为黄金分割．在人体下躯干（由脚底至肚脐的长度）与身高的比例上，肚脐是理想的黄金分割点，也就是说，若此比值越接近 0.618 ，就越给别人一种美的感觉．如果某女士身高为 1.60 m ，下躯干与身高的比为 0.60 ，为了追求美，她想利用高跟鞋达到这一效果，那么她选的高跟鞋的高度约为． (A) 2.5 cm (B) 5.1 cm (C) 7.5 cm (D) 8.2 cm",
+      "solution_latex": "根据已知条件得下半身长是$$160\\times 0.6=96\\text{cm}$$，  设选的高跟鞋的高度是$$x\\text{cm}$$，则根据黄金分割的定义得： $$\\frac{96+x}{160+x}=0.618$$，  解得：$$x\\approx 7.5\\text{cm}$$．  故选$$\\text{C}$$．",
+      "solution_plain": "根据已知条件得下半身长是 160 0.6=96 cm ， 设选的高跟鞋的高度是 x cm ，则根据黄金分割的定义得： 96+x 160+x =0.618 ， 解得： x 7.5 cm ． 故选 C ．"
+    },
+    "answer": {
+      "final_raw": "7.5\\text{cm}",
+      "final_normalized": "7.5\\text{cm}",
+      "candidates": [
+        "7.5\\text{cm}",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "根据已知条件得下半身长是$$160\\times 0.6=96\\text{cm}$$，  设选的高跟鞋的高度是$$x\\text{cm}$$，则根据黄金分割的定义得： $$\\frac{96+x}{160+x}=0.618$$，  解得：$$x\\approx 7.5\\text{cm}$$．  故选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "美是一种感觉，本应没有什么客观的标准，但在自然界里，物体形状的比例却提供了在匀称与协调上的一种美感的参考，在数学上，这个比例称为黄金分割．在人体下躯干（由脚底至肚脐的长度）与身高的比例上，肚脐是理想的黄金分割点，也就是说，若此比值越接近 0.618 ，就越给别人一种美的感觉．如果某女士身高为 1.60 m ，下躯干与身高的比为 0.60 ，为了追求美，她想利用高跟鞋达到这一效果，那么她选的高跟鞋的高度约为． (A) 2.5 cm (B) 5.1 cm (C) 7.5 cm (D) 8.2 cm",
+      "solution_text": "根据已知条件得下半身长是 160 0.6=96 cm ， 设选的高跟鞋的高度是 x cm ，则根据黄金分割的定义得： 96+x 160+x =0.618 ， 解得： x 7.5 cm ． 故选 C ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1973",
+        "queId": "b833cba3b77e44a7a7e467580fae3354",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2.5\\text{cm}"
+          },
+          {
+            "label": "B",
+            "content": "5.1\\text{cm}"
+          },
+          {
+            "label": "C",
+            "content": "7.5\\text{cm}"
+          },
+          {
+            "label": "D",
+            "content": "8.2\\text{cm}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->应用题模块->比例应用题->方程法解比例问题"
+        ],
+        "competition_source_list": [
+          "2009年第7届创新杯六年级竞赛初赛第2题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:00333",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 333,
+      "split": "zh_train",
+      "source_problem_id": "ac9e34e32d514a2f99676b7a434a5264"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "从$$0$$、$$1$$、$$2$$、$$3$$、$$4$$、$$5$$、$$6$$、$$7$$、$$8$$、$$9$$这十个数字中选出九个数字，组成一个两位数、一个三位数和一个四位数，使这三个数的和等于$$2017$$，那么未被选中的数字是．\n(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 8\n(F) 9",
+      "problem_plain": "从 0 、 1 、 2 、 3 、 4 、 5 、 6 、 7 、 8 、 9 这十个数字中选出九个数字，组成一个两位数、一个三位数和一个四位数，使这三个数的和等于 2017 ，那么未被选中的数字是． (A) 1 (B) 2 (C) 3 (D) 4 (E) 8 (F) 9",
+      "solution_latex": "$$2017$$除以$$9$$余$$1$$，$$0+1+2+3+\\cdots +9=45$$，$$45$$是$$9$$的倍数，$$9-1=8$$，所以未被选中的数字是$$8$$．",
+      "solution_plain": "2017 除以 9 余 1 ， 0+1+2+3+ +9=45 ， 45 是 9 的倍数， 9-1=8 ，所以未被选中的数字是 8 ．"
+    },
+    "answer": {
+      "final_raw": "8",
+      "final_normalized": "8",
+      "candidates": [
+        "8",
+        "E"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$2017$$除以$$9$$余$$1$$，$$0+1+2+3+\\cdots +9=45$$，$$45$$是$$9$$的倍数，$$9-1=8$$，所以未被选中的数字是$$8$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "从 0 、 1 、 2 、 3 、 4 、 5 、 6 、 7 、 8 、 9 这十个数字中选出九个数字，组成一个两位数、一个三位数和一个四位数，使这三个数的和等于 2017 ，那么未被选中的数字是． (A) 1 (B) 2 (C) 3 (D) 4 (E) 8 (F) 9",
+      "solution_text": "2017 除以 9 余 1 ， 0+1+2+3+ +9=45 ， 45 是 9 的倍数， 9-1=8 ，所以未被选中的数字是 8 ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2765",
+        "queId": "ac9e34e32d514a2f99676b7a434a5264",
+        "difficulty": "3",
+        "answer_value": "E",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          },
+          {
+            "label": "E",
+            "content": "8"
+          },
+          {
+            "label": "F",
+            "content": "9"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->拓展思维->计算模块->整数->整数乘除->整数除法运算->带余除法"
+        ],
+        "competition_source_list": [
+          "2018年湖北武汉新希望杯六年级竞赛训练题（四）第6题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:00870",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 870,
+      "split": "zh_train",
+      "source_problem_id": "505af15f476d4d269f3ba1da895838c9"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "食米分三种包装出售：$$5\\operatorname{kg}$$装的，每包售价$$48$$元；$$10\\operatorname{kg}$$装的，每包售价为$$92$$元；$$25\\operatorname{kg}$$装的，每包售价为$$210$$元．若要使得每$$\\operatorname{kg}$$食米的平均售价恰好为$$9$$元，请问至少需购买食米多少包？\n(A) 4\n(B) 5\n(C) 6\n(D) 7\n(E) 8",
+      "problem_plain": "食米分三种包装出售： 5 kg 装的，每包售价 48 元； 10 kg 装的，每包售价为 92 元； 25 kg 装的，每包售价为 210 元．若要使得每 kg 食米的平均售价恰好为 9 元，请问至少需购买食米多少包？ (A) 4 (B) 5 (C) 6 (D) 7 (E) 8",
+      "solution_latex": "设$$5\\text{kg}$$装的$$a$$包，$$10\\text{kg}$$装的$$b$$包，$$25\\text{kg}$$装的$$c$$包，使平均价格为$$9$$元，可列方程：$$4.8a+92b+210c=9(5a+10b+25c)$$，化简$$3a+2b=15c$$，讨论，当$$c=1$$时，有$$a=3$$，$$b=3$$；$$a=5$$，$$b=0$$；$$a=1$$，$$b=6$$，要最少包，则$$a=5$$，$$b=0$$，$$c=1$$，共$$6$$包．",
+      "solution_plain": "设 5 kg 装的 a 包， 10 kg 装的 b 包， 25 kg 装的 c 包，使平均价格为 9 元，可列方程： 4.8a+92b+210c=9(5a+10b+25c) ，化简 3a+2b=15c ，讨论，当 c=1 时，有 a=3 ， b=3 ； a=5 ， b=0 ； a=1 ， b=6 ，要最少包，则 a=5 ， b=0 ， c=1 ，共 6 包．"
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设$$5\\text{kg}$$装的$$a$$包，$$10\\text{kg}$$装的$$b$$包，$$25\\text{kg}$$装的$$c$$包，使平均价格为$$9$$元，可列方程：$$4.8a+92b+210c=9(5a+10b+25c)$$，化简$$3a+2b=15c$$，讨论，当$$c=1$$时，有$$a=3$$，$$b=3$$；$$a=5$$，$$b=0$$；$$a=1$$，$$b=6$$，要最少包，则$$a=5$$，$$b=0$$，$$c=1$$，共$$6$$包．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "食米分三种包装出售： 5 kg 装的，每包售价 48 元； 10 kg 装的，每包售价为 92 元； 25 kg 装的，每包售价为 210 元．若要使得每 kg 食米的平均售价恰好为 9 元，请问至少需购买食米多少包？ (A) 4 (B) 5 (C) 6 (D) 7 (E) 8",
+      "solution_text": "设 5 kg 装的 a 包， 10 kg 装的 b 包， 25 kg 装的 c 包，使平均价格为 9 元，可列方程： 4.8a+92b+210c=9(5a+10b+25c) ，化简 3a+2b=15c ，讨论，当 c=1 时，有 a=3 ， b=3 ； a=5 ， b=0 ； a=1 ， b=6 ，要最少包，则 a=5 ， b=0 ， c=1 ，共 6 包．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1304",
+        "queId": "505af15f476d4d269f3ba1da895838c9",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "7"
+          },
+          {
+            "label": "E",
+            "content": "8"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->应用题模块->列方程解应用题->多元一次方程解应用题->小数系数方程（组）解题"
+        ],
+        "competition_source_list": [
+          "2016年IMAS小学高年级竞赛第一轮检测试题第18题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:00926",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 926,
+      "split": "zh_train",
+      "source_problem_id": "94245526c71643d3aaaa5e621537c1e8"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "若$$p$$，$$q$$是非$$0$$的自然数，并且$$p\\textless{}q$$，则四个式子：$$\\frac{p}{q}$$，$$\\frac{q-p}{q}$$，$$\\frac{p+q}{p}$$，$$\\frac{p+q}{q}$$中，值在$$1$$和$$2$$之间的是哪一个？\n(A) \\frac{p}{q}\n(B) \\frac{q-p}{q}\n(C) \\frac{p+q}{p}\n(D) \\frac{p+q}{q}",
+      "problem_plain": "若 p ， q 是非 0 的自然数，并且 p q ，则四个式子： p q ， q-p q ， p+q p ， p+q q 中，值在 1 和 2 之间的是哪一个？ (A) p q (B) q-p q (C) p+q p (D) p+q q",
+      "solution_latex": "由$$p$$，$$q$$是非$$0$$的自然数，并且$$p\\textless{}q$$，可知$$0\\textless{}\\frac{p}{q}\\textless{}1$$，于是有$$\\frac{q-p}{q}=1-\\frac{p}{q}\\textless{}1$$，$$\\frac{p+q}{p}=1+\\frac{q}{p}\\textgreater1+1=2$$，$$1\\textless{}\\frac{p+q}{q}=1+\\frac{p}{q}\\textless{}2$$，故四个式子：$$\\frac{p}{q}$$，$$\\frac{q-p}{q}$$，$$\\frac{p+q}{p}$$，$$\\frac{p+q}{q}$$中，值在$$1$$和 $$2$$之间的是$$\\frac{p+q}{q}$$．",
+      "solution_plain": "由 p ， q 是非 0 的自然数，并且 p q ，可知 0 p q 1 ，于是有 q-p q =1- p q 1 ， p+q p =1+ q p 1+1=2 ， 1 p+q q =1+ p q 2 ，故四个式子： p q ， q-p q ， p+q p ， p+q q 中，值在 1 和 2 之间的是 p+q q ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{p+q}{q}",
+      "final_normalized": "\\frac{p+q}{q}",
+      "candidates": [
+        "D",
+        "\\frac{p+q}{q}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由$$p$$，$$q$$是非$$0$$的自然数，并且$$p\\textless{}q$$，可知$$0\\textless{}\\frac{p}{q}\\textless{}1$$，于是有$$\\frac{q-p}{q}=1-\\frac{p}{q}\\textless{}1$$，$$\\frac{p+q}{p}=1+\\frac{q}{p}\\textgreater1+1=2$$，$$1\\textless{}\\frac{p+q}{q}=1+\\frac{p}{q}\\textless{}2$$，故四个式子：$$\\frac{p}{q}$$，$$\\frac{q-p}{q}$$，$$\\frac{p+q}{p}$$，$$\\frac{p+q}{q}$$中，值在$$1$$和 $$2$$之间的是$$\\frac{p+q}{q}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "若 p ， q 是非 0 的自然数，并且 p q ，则四个式子： p q ， q-p q ， p+q p ， p+q q 中，值在 1 和 2 之间的是哪一个？ (A) p q (B) q-p q (C) p+q p (D) p+q q",
+      "solution_text": "由 p ， q 是非 0 的自然数，并且 p q ，可知 0 p q 1 ，于是有 q-p q =1- p q 1 ， p+q p =1+ q p 1+1=2 ， 1 p+q q =1+ p q 2 ，故四个式子： p q ， q-p q ， p+q p ， p+q q 中，值在 1 和 2 之间的是 p+q q ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2445",
+        "queId": "94245526c71643d3aaaa5e621537c1e8",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{p}{q}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{q-p}{q}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{p+q}{p}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{p+q}{q}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->方程基础->等量代换->代数式"
+        ],
+        "competition_source_list": [
+          "2017年第15届全国希望杯小学高年级六年级竞赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01124",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1124,
+      "split": "zh_train",
+      "source_problem_id": "8065e52716e34cd69d6de99bd54d6708"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有一天，彭老师和陈老师约好去打乒乓球，结果彭老师以$$4:0$$完虐陈老师．乒乓球比赛为$$11$$分制，即每局$$11$$分，$$7$$局$$4$$胜制，打成$$10:10$$后必须净胜而且只能净胜$$2$$分．经计算，彭老师四局的总得分为$$48$$分，陈老师总得分为$$39$$分，且每一局比赛分差不超过$$3$$分，则一共有种情况．（不考虑这四局比分之间的顺序）\n(A) 4\n(B) 5\n(C) 6\n(D) 7",
+      "problem_plain": "有一天，彭老师和陈老师约好去打乒乓球，结果彭老师以 4:0 完虐陈老师．乒乓球比赛为 11 分制，即每局 11 分， 7 局 4 胜制，打成 10:10 后必须净胜而且只能净胜 2 分．经计算，彭老师四局的总得分为 48 分，陈老师总得分为 39 分，且每一局比赛分差不超过 3 分，则一共有种情况．（不考虑这四局比分之间的顺序） (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_latex": "每周比赛要分出胜负分差必须在$$2$$分或以上，题中又给出每局比赛分差不超过$$3$$分，故每局比赛的分差只有两种可能：差$$2$$分或$$3$$分．且分差为$$3$$分的那局彭老师得分为$$11$$分，总分差为$$48-39=9$$分，故必有$$3$$场分差为$$2$$分，另一场分差为$$3$$分；即有一场的比分为$$118$$，另两场的总比分为$$3731$$，有以下四种情况：①$$11:9$$，$$11:9$$，$$15:13$$②$$11:9$$，$$12:10$$，$$14:12$$③$$11:9$$，$$13:11$$，$$13:11$$④$$12:10$$，$$12:10$$，$$13:11$$．故一共有$$4$$种情况．",
+      "solution_plain": "每周比赛要分出胜负分差必须在 2 分或以上，题中又给出每局比赛分差不超过 3 分，故每局比赛的分差只有两种可能：差 2 分或 3 分．且分差为 3 分的那局彭老师得分为 11 分，总分差为 48-39=9 分，故必有 3 场分差为 2 分，另一场分差为 3 分；即有一场的比分为 118 ，另两场的总比分为 3731 ，有以下四种情况：① 11:9 ， 11:9 ， 15:13 ② 11:9 ， 12:10 ， 14:12 ③ 11:9 ， 13:11 ， 13:11 ④ 12:10 ， 12:10 ， 13:11 ．故一共有 4 种情况．"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "每周比赛要分出胜负分差必须在$$2$$分或以上，题中又给出每局比赛分差不超过$$3$$分，故每局比赛的分差只有两种可能：差$$2$$分或$$3$$分．且分差为$$3$$分的那局彭老师得分为$$11$$分，总分差为$$48-39=9$$分，故必有$$3$$场分差为$$2$$分，另一场分差为$$3$$分；即有一场的比分为$$118$$，另两场的总比分为$$3731$$，有以下四种情况：①$$11:9$$，$$11:9$$，$$15:13$$②$$11:9$$，$$12:10$$，$$14:12$$③$$11:9$$，$$13:11$$，$$13:11$$④$$12:10$$，$$12:10$$，$$13:11$$．故一共有$$4$$种情况．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有一天，彭老师和陈老师约好去打乒乓球，结果彭老师以 4:0 完虐陈老师．乒乓球比赛为 11 分制，即每局 11 分， 7 局 4 胜制，打成 10:10 后必须净胜而且只能净胜 2 分．经计算，彭老师四局的总得分为 48 分，陈老师总得分为 39 分，且每一局比赛分差不超过 3 分，则一共有种情况．（不考虑这四局比分之间的顺序） (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_text": "每周比赛要分出胜负分差必须在 2 分或以上，题中又给出每局比赛分差不超过 3 分，故每局比赛的分差只有两种可能：差 2 分或 3 分．且分差为 3 分的那局彭老师得分为 11 分，总分差为 48-39=9 分，故必有 3 场分差为 2 分，另一场分差为 3 分；即有一场的比分为 118 ，另两场的总比分为 3731 ，有以下四种情况：① 11:9 ， 11:9 ， 15:13 ② 11:9 ， 12:10 ， 14:12 ③ 11:9 ， 13:11 ， 13:11 ④ 12:10 ， 12:10 ， 13:11 ．故一共有 4 种情况．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "346",
+        "queId": "8065e52716e34cd69d6de99bd54d6708",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "7"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->课内知识点->数学广角->推理->解决简单逻辑推理问题"
+        ],
+        "competition_source_list": [
+          "2017年第16届湖北武汉创新杯五年级竞赛邀请赛训练题（三）"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01137",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1137,
+      "split": "zh_train",
+      "source_problem_id": "5e4696bc9d474b8fa6901682a11f878c"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "大互联网梅森素数分布式计算（GIMPS）项目又建奇功，据外媒今年$$1$$月$$20$$月日报道，美国州立中密苏里大学阿迪斯库珀CurtisCooper通过GIMPS项目发现了第$$49$$个梅森素数（被称为M74207281），为GIMPS项目诞生$$20$$周免献礼．M74207281这个超大素数$$22338618$$位，是目前已知的最大素数，诞生一台Inter I7-4790 CPU电脑．这是库珀教授第四次通过S项目发现的梅森素数，刷新了他的记录．他上次发现第$$48$$个梅森素数$${{2}^{57885161}}-1$$是在$$2013$$年$$1$$月，由$$17425170$$位．GIMPS项目集合了$$20$$多万台计算机的计算能力，主要任务是不断筛选，寻找更大的梅森素数，尽管一些素数已经被用于加密和其他实际应用任务，但寻找最大的素数仍然出于对学术方面的兴趣．近年来发现的最大素数都是梅森素数．这一命名是为了纪念法国神学家、数学家、音乐理论家马林·梅森（Marin Nersenne，$$1588 \\tilde{  } 1648$$）．下面该同学显显身手了，请从一个$$1 \\tilde{  } 9$$（缺$$8$$）这八个自然数中不重复地用这些数字构造出四个两位质数，并求出它们的和是（~ ）．\n(A) 190\n(B) 217\n(C) 127\n(D) 无法构造",
+      "problem_plain": "大互联网梅森素数分布式计算（GIMPS）项目又建奇功，据外媒今年 1 月 20 月日报道，美国州立中密苏里大学阿迪斯库珀CurtisCooper通过GIMPS项目发现了第 49 个梅森素数（被称为M74207281），为GIMPS项目诞生 20 周免献礼．M74207281这个超大素数 22338618 位，是目前已知的最大素数，诞生一台Inter I7-4790 CPU电脑．这是库珀教授第四次通过S项目发现的梅森素数，刷新了他的记录．他上次发现第 48 个梅森素数 2 ^ 57885161 -1 是在 2013 年 1 月，由 17425170 位．GIMPS项目集合了 20 多万台计算机的计算能力，主要任务是不断筛选，寻找更大的梅森素数，尽管一些素数已经被用于加密和其他实际应用任务，但寻找最大的素数仍然出于对学术方面的兴趣．近年来发现的最大素数都是梅森素数．这一命名是为了纪念法国神学家、数学家、音乐理论家马林·梅森（Marin Nersenne， 1588 1648 ）．下面该同学显显身手了，请从一个 1 9 （缺 8 ）这八个自然数中不重复地用这些数字构造出四个两位质数，并求出它们的和是（~ ）． (A) 190 (B) 217 (C) 127 (D) 无法构造",
+      "solution_latex": "我们知道所有的偶数都是合数，除了$$5$$以外，个位为$$5$$的数也都是合数，这$$8$$个数中只有$$1$$、$$3$$、$$5$$、$$7$$、$$9$$放在个位才有可能是质数，所以十位上只能是$$2$$、$$4$$、$$5$$、$$6$$．这四个两位数的和是$$\\left( 2+4+5+6 \\right)\\times 10+1+3+7+9=190$$．",
+      "solution_plain": "我们知道所有的偶数都是合数，除了 5 以外，个位为 5 的数也都是合数，这 8 个数中只有 1 、 3 、 5 、 7 、 9 放在个位才有可能是质数，所以十位上只能是 2 、 4 、 5 、 6 ．这四个两位数的和是 ( 2+4+5+6 ) 10+1+3+7+9=190 ．"
+    },
+    "answer": {
+      "final_raw": "190",
+      "final_normalized": "190",
+      "candidates": [
+        "190",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "我们知道所有的偶数都是合数，除了$$5$$以外，个位为$$5$$的数也都是合数，这$$8$$个数中只有$$1$$、$$3$$、$$5$$、$$7$$、$$9$$放在个位才有可能是质数，所以十位上只能是$$2$$、$$4$$、$$5$$、$$6$$．这四个两位数的和是$$\\left( 2+4+5+6 \\right)\\times 10+1+3+7+9=190$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "大互联网梅森素数分布式计算（GIMPS）项目又建奇功，据外媒今年 1 月 20 月日报道，美国州立中密苏里大学阿迪斯库珀CurtisCooper通过GIMPS项目发现了第 49 个梅森素数（被称为M74207281），为GIMPS项目诞生 20 周免献礼．M74207281这个超大素数 22338618 位，是目前已知的最大素数，诞生一台Inter I7-4790 CPU电脑．这是库珀教授第四次通过S项目发现的梅森素数，刷新了他的记录．他上次发现第 48 个梅森素数 2 ^ 57885161 -1 是在 2013 年 1 月，由 17425170 位．GIMPS项目集合了 20 多万台计算机的计算能力，主要任务是不断筛选，寻找更大的梅森素数，尽管一些素数已经被用于加密和其他实际应用任务，但寻找最大的素数仍然出于对学术方面的兴趣．近年来发现的最大素数都是梅森素数．这一命名是为了纪念法国神学家、数学家、音乐理论家马林·梅森（Marin Nersenne， 1588 1648 ）．下面该同学显显身手了，请从一个 1 9 （缺 8 ）这八个自然数中不重复地用这些数字构造出四个两位质数，并求出它们的和是（~ ）． (A) 190 (B) 217 (C) 127 (D) 无法构造",
+      "solution_text": "我们知道所有的偶数都是合数，除了 5 以外，个位为 5 的数也都是合数，这 8 个数中只有 1 、 3 、 5 、 7 、 9 放在个位才有可能是质数，所以十位上只能是 2 、 4 、 5 、 6 ．这四个两位数的和是 ( 2+4+5+6 ) 10+1+3+7+9=190 ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "683",
+        "queId": "5e4696bc9d474b8fa6901682a11f878c",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "190"
+          },
+          {
+            "label": "B",
+            "content": "217"
+          },
+          {
+            "label": "C",
+            "content": "127"
+          },
+          {
+            "label": "D",
+            "content": "无法构造"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->逻辑分析"
+        ],
+        "competition_source_list": [
+          "2016年第16届世奥赛六年级竞赛决赛第11题",
+          "2016年全国世奥赛竞赛A卷第11题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01143",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1143,
+      "split": "zh_train",
+      "source_problem_id": "76e8f5c4f4904b2e8807119adb13f2fd"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "思思编了一个计算机程序，在屏幕上显示所有由$$0$$、$$1$$、$$2$$、$$3$$组成的四位编码（数字可以重复使用），每个四位编码都是红、黄、蓝、绿四种颜色中的一种．并且，如果两个编码的每一位数字均不相同，那么这两个编码的颜色也不相同．如果，$$0000$$是红色的、$$1000$$是黄色的、$$2000$$是蓝色的，那么：  （1）下列编码中，一定不是红色的是．\n(A) 0102\n(B) 0312\n(C) 2222\n(D) 0123",
+      "problem_plain": "思思编了一个计算机程序，在屏幕上显示所有由 0 、 1 、 2 、 3 组成的四位编码（数字可以重复使用），每个四位编码都是红、黄、蓝、绿四种颜色中的一种．并且，如果两个编码的每一位数字均不相同，那么这两个编码的颜色也不相同．如果， 0000 是红色的、 1000 是黄色的、 2000 是蓝色的，那么： （1）下列编码中，一定不是红色的是． (A) 0102 (B) 0312 (C) 2222 (D) 0123",
+      "solution_latex": "$$2222$$与$$0000$$的每一位数字均不相同，故$$2222$$一定不是红色，选$$\\text{C}$$．",
+      "solution_plain": "2222 与 0000 的每一位数字均不相同，故 2222 一定不是红色，选 C ．"
+    },
+    "answer": {
+      "final_raw": "2222",
+      "final_normalized": "2222",
+      "candidates": [
+        "2222",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$2222$$与$$0000$$的每一位数字均不相同，故$$2222$$一定不是红色，选$$\\text{C}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "思思编了一个计算机程序，在屏幕上显示所有由 0 、 1 、 2 、 3 组成的四位编码（数字可以重复使用），每个四位编码都是红、黄、蓝、绿四种颜色中的一种．并且，如果两个编码的每一位数字均不相同，那么这两个编码的颜色也不相同．如果， 0000 是红色的、 1000 是黄色的、 2000 是蓝色的，那么： （1）下列编码中，一定不是红色的是． (A) 0102 (B) 0312 (C) 2222 (D) 0123",
+      "solution_text": "2222 与 0000 的每一位数字均不相同，故 2222 一定不是红色，选 C ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "810",
+        "queId": "76e8f5c4f4904b2e8807119adb13f2fd",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0102"
+          },
+          {
+            "label": "B",
+            "content": "0312"
+          },
+          {
+            "label": "C",
+            "content": "2222"
+          },
+          {
+            "label": "D",
+            "content": "0123"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->运算求解",
+          "拓展思维->能力->实践应用"
+        ],
+        "competition_source_list": [
+          "2013年全国学而思杯五年级竞赛A卷第20题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01203",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1203,
+      "split": "zh_train",
+      "source_problem_id": "eb16598ef88948e8a7c062edadddaea0"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "计算：$$\\frac{{{1}^{2}}+{{2}^{2}}}{1\\times 2}+\\frac{{{2}^{2}}+{{3}^{2}}}{2\\times 3}+\\cdots +\\frac{{{18}^{2}}+{{19}^{2}}}{18\\times 19}+\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}$$=~\\uline{~~~~~~~~~~}~\n(A) 37\\frac{19}{20}\n(B) 28\\frac{19}{20}\n(C) 38\\frac{19}{20}",
+      "problem_plain": "计算： 1 ^ 2 + 2 ^ 2 1 2 + 2 ^ 2 + 3 ^ 2 2 3 + + 18 ^ 2 + 19 ^ 2 18 19 + 19 ^ 2 + 20 ^ 2 19 20 =~ ~~~~~~~~~~ ~ (A) 37 19 20 (B) 28 19 20 (C) 38 19 20",
+      "solution_latex": "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律：  $$\\frac{{{1}^{2}}+{{2}^{2}}}{1\\times 2}=\\frac{5}{2}=2\\frac{1}{2}$$，$$\\frac{{{2}^{2}}+{{3}^{2}}}{2\\times 3}=\\frac{13}{6}=2\\frac{1}{6}$$，$$\\frac{{{3}^{2}}+{{4}^{2}}}{3\\times 4}=\\frac{25}{12}=2\\frac{1}{12}$$．  我们发现一规律：每一项减去$$2$$后，分子就变成了$$1$$．  再来试试最后一项：$$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{761}{380}=2\\frac{1}{380}$$，  也满足这个规律，这是为什么呢？  观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形：  $$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{19\\times \\left( 20-1 \\right)+20\\times \\left( 19+1 \\right)}{19\\times 20}$$  $$=\\frac{19\\times 20\\times 2+\\left( 20-19 \\right)}{19\\times 20}$$  $$=2+\\frac{1}{19\\times 20}$$．  算式中的每一项都能像上面一样进行变形，再结合分数裂差，所以：  原式$$=2\\frac{1}{1\\times 2}+2\\frac{1}{2\\times 3}+\\cdots +2\\frac{1}{19\\times 20}$$  $$=2\\times 19+\\frac{1}{1\\times 2}+\\frac{1}{2\\times 3}+\\cdots +\\frac{1}{19\\times 20}$$  $$=38+1-\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{3}+\\frac{1}{3}-\\frac{1}{4}+\\cdots +\\frac{1}{18}-\\frac{1}{19}+\\frac{1}{19}-\\frac{1}{20}$$  $$=38+1-\\frac{1}{20}$$  $$=38\\frac{19}{20}$$．",
+      "solution_plain": "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律： 1 ^ 2 + 2 ^ 2 1 2 = 5 2 =2 1 2 ， 2 ^ 2 + 3 ^ 2 2 3 = 13 6 =2 1 6 ， 3 ^ 2 + 4 ^ 2 3 4 = 25 12 =2 1 12 ． 我们发现一规律：每一项减去 2 后，分子就变成了 1 ． 再来试试最后一项： 19 ^ 2 + 20 ^ 2 19 20 = 761 380 =2 1 380 ， 也满足这个规律，这是为什么呢？ 观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形： 19 ^ 2 + 20 ^ 2 19 20 = 19 ( 20-1 )+20 ( 19+1 ) 19 20 = 19 20 2+ ( 20-19 ) 19 20 =2+ 1 19 20 ． 算式中的每一项都能像上面一样进行变形，再结合分数裂差，所以： 原式 =2 1 1 2 +2 1 2 3 + +2 1 19 20 =2 19+ 1 1 2 + 1 2 3 + + 1 19 20 =38+1- 1 2 + 1 2 - 1 3 + 1 3 - 1 4 + + 1 18 - 1 19 + 1 19 - 1 20 =38+1- 1 20 =38 19 20 ．"
+    },
+    "answer": {
+      "final_raw": "38\\frac{19}{20}",
+      "final_normalized": "38\\frac{19}{20}",
+      "candidates": [
+        "38\\frac{19}{20}",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律：  $$\\frac{{{1}^{2}}+{{2}^{2}}}{1\\times 2}=\\frac{5}{2}=2\\frac{1}{2}$$，$$\\frac{{{2}^{2}}+{{3}^{2}}}{2\\times 3}=\\frac{13}{6}=2\\frac{1}{6}$$，$$\\frac{{{3}^{2}}+{{4}^{2}}}{3\\times 4}=\\frac{25}{12}=2\\frac{1}{12}$$．  我们发现一规律：每一项减去$$2$$后，分子就变成了$$1$$．  再来试试最后一项：$$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{761}{380}=2\\frac{1}{380}$$，  也满足这个规律，这是为什么呢？",
+        "观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形：  $$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{19\\times \\left( 20-1 \\right)+20\\times \\left( 19+1 \\right)}{19\\times 20}$$  $$=\\frac{19\\times 20\\times 2+\\left( 20-19 \\right)}{19\\times 20}$$  $$=2+\\frac{1}{19\\times 20}$$．  算式中的每一项都能像上面一样进行变形，再结合分数裂差，所以：  原式$$=2\\frac{1}{1\\times 2}+2\\frac{1}{2\\times 3}+\\cdots +2\\frac{1}{19\\times 20}$$  $$=2\\times 19+\\frac{1}{1\\times 2}+\\frac{1}{2\\times 3}+\\cdots +\\frac{1}{19\\times 20}$$  $$=38+1-\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{3}+\\frac{1}{3}-\\frac{1}{4}+\\cdots +\\frac{1}{18}-\\frac{1}{19}+\\frac{1}{19}-\\frac{1}{20}$$  $$=38+1-\\frac{1}{20}$$  $$=38\\frac{19}{20}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "计算： 1 ^ 2 + 2 ^ 2 1 2 + 2 ^ 2 + 3 ^ 2 2 3 + + 18 ^ 2 + 19 ^ 2 18 19 + 19 ^ 2 + 20 ^ 2 19 20 =~ ~~~~~~~~~~ ~ (A) 37 19 20 (B) 28 19 20 (C) 38 19 20",
+      "solution_text": "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律： 1 ^ 2 + 2 ^ 2 1 2 = 5 2 =2 1 2 ， 2 ^ 2 + 3 ^ 2 2 3 = 13 6 =2 1 6 ， 3 ^ 2 + 4 ^ 2 3 4 = 25 12 =2 1 12 ． 我们发现一规律：每一项减去 2 后，分子就变成了 1 ． 再来试试最后一项： 19 ^ 2 + 20 ^ 2 19 20 = 761 380 =2 1 380 ， 也满足这个规律，这是为什么呢？ 观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形： 19 ^ 2 + 20 ^ 2 19 20 = 19 ( 20-1 )+20 ( 19+1 ) 19 20 = 19 20 2+ ( 20-19 ) 19 20 =2+ 1 19 20 ． 算式中的每一项都能像上面一样进行变形，再结合分数裂差，所以： 原式 =2 1 1 2 +2 1 2 3 + +2 1 19 20 =2 19+ 1 1 2 + 1 2 3 + + 1 19 20 =38+1- 1 2 + 1 2 - 1 3 + 1 3 - 1 4 + + 1 18 - 1 19 + 1 19 - 1 20 =38+1- 1 20 =38 19 20 ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3097",
+        "queId": "eb16598ef88948e8a7c062edadddaea0",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "37\\frac{19}{20}"
+          },
+          {
+            "label": "B",
+            "content": "28\\frac{19}{20}"
+          },
+          {
+            "label": "C",
+            "content": "38\\frac{19}{20}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->裂项与通项归纳->分数裂项->分数裂差->两分数间接裂差",
+          "课内体系->思想->转化与化归的思想"
+        ],
+        "competition_source_list": [
+          "2018年陕西西安雁塔区西安铁一中小升初（二十六）第20题5分",
+          "2015年世界少年奥林匹克数学竞赛六年级竞赛复赛A卷第10题10分",
+          "六年级其它导引"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01235",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1235,
+      "split": "zh_train",
+      "source_problem_id": "c94f40530b5343b58bb75c395938afd8"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "若$$a=\\underbrace{1515\\cdots 15}_{1004个15}\\times \\underbrace{333\\cdots 3}_{2008个3}$$，则整数a的所有位数上的数字和等于(  ).\n(A) 18063\n(B) 18072\n(C) 18079\n(D) 18054",
+      "problem_plain": "若 a= 1515 15 _ 1004个15 333 3 _ 2008个3 ，则整数a的所有位数上的数字和等于( ). (A) 18063 (B) 18072 (C) 18079 (D) 18054",
+      "solution_latex": "法一:递推: $$15\\times 33=495$$;$$1515\\times 3333=5049495$$;$$151515\\times 333333=50504949495$$;$$15151515\\times 33333333=505050494949495$$，$$\\cdots \\cdots $$ 我们发现$$\\underbrace{1515\\cdots 15}_{n个1\\text{5}}\\times \\underbrace{\\text{33}\\cdots \\text{3}}_{\\text{2}n个\\text{3}}\\text{=}\\underbrace{\\text{50}\\cdots \\text{50}}_{n-1个50}\\underbrace{4949\\cdots 49}_{n个49}5$$ 则$$\\underbrace{1515\\cdots 15}_{1004个1\\text{5}}\\times \\underbrace{\\text{33}\\cdots \\text{3}}_{2008个\\text{3}}\\text{=}\\underbrace{\\text{50}\\cdots \\text{50}}_{1003个50}\\underbrace{4949\\cdots 49}_{1004个49}5$$ 则数字和为$$\\left( 5+0 \\right)\\times 1003+\\left( 4+9 \\right)\\times 1004+5=18072$$  法二:凑整 $$\\underbrace{1515\\cdots 15}_{1004个15}\\times \\underbrace{333\\cdots 3}_{2008个3}$$ $$\\text{=}\\underbrace{5050\\cdots 50}_{1003个50}5\\times 3\\times \\underbrace{333\\cdots 3}_{2008个3}$$ $$\\text{=}\\underbrace{5050\\cdots 50}_{1003个50}5\\times \\underbrace{999\\cdots 9}_{2008个9}$$ $$=\\underbrace{5050\\cdots 50}_{1003个50}5\\times \\left( 1\\underbrace{000\\cdots 0}_{2008个0}-1 \\right)$$ $$\\text{=}\\underbrace{5050\\cdots 50}_{1003个50}5\\underbrace{000\\cdots 0}_{2008个0}-\\underbrace{5050\\cdots 50}_{1003个50}5$$ $$\\text{=}\\underbrace{5050\\cdots 50}_{1003个50}\\underbrace{4949\\cdots 49}_{1004个49}5$$ 则数字和为$$\\left( 5+0 \\right)\\times 1003+\\left( 4+9 \\right)\\times 1004+5=18072$$",
+      "solution_plain": "法一:递推: 15 33=495 ; 1515 3333=5049495 ; 151515 333333=50504949495 ; 15151515 33333333=505050494949495 ， 我们发现 1515 15 _ n个1 5 33 3 _ 2 n个 3 = 50 50 _ n-1个50 4949 49 _ n个49 5 则 1515 15 _ 1004个1 5 33 3 _ 2008个 3 = 50 50 _ 1003个50 4949 49 _ 1004个49 5 则数字和为 ( 5+0 ) 1003+ ( 4+9 ) 1004+5=18072 法二:凑整 1515 15 _ 1004个15 333 3 _ 2008个3 = 5050 50 _ 1003个50 5 3 333 3 _ 2008个3 = 5050 50 _ 1003个50 5 999 9 _ 2008个9 = 5050 50 _ 1003个50 5 ( 1 000 0 _ 2008个0 -1 ) = 5050 50 _ 1003个50 5 000 0 _ 2008个0 - 5050 50 _ 1003个50 5 = 5050 50 _ 1003个50 4949 49 _ 1004个49 5 则数字和为 ( 5+0 ) 1003+ ( 4+9 ) 1004+5=18072"
+    },
+    "answer": {
+      "final_raw": "18072",
+      "final_normalized": "18072",
+      "candidates": [
+        "18072",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "法一:递推: $$15\\times 33=495$$;$$1515\\times 3333=5049495$$;$$151515\\times 333333=50504949495$$;$$15151515\\times 33333333=505050494949495$$，$$\\cdots \\cdots $$ 我们发现$$\\underbrace{1515\\cdots 15}_{n个1\\text{5}}\\times \\underbrace{\\text{33}\\cdots \\text{3}}_{\\text{2}n个\\text{3}}\\text{=}\\underbrace{\\text{50}\\cdots \\text{50}}_{n-1个50}\\underbrace{4949\\cdots 49}_{n个49}5$$ 则$$\\underbrace{1515\\cdots 15}_{1004个1\\text{5}}\\times \\underbrace{\\text{33}\\cdots \\text{3}}_{2008个\\text{3}}\\text{=}\\underbrace{\\text{50}\\cdots \\text{50}}_{1003个50}\\underbrace{4949\\cdots 49}_{1004个49}5$$ 则数字和为$$\\left( 5+0 \\right)\\times 1003+\\left( 4+9 \\right)\\times 1004+5=18072$$  法二:凑整 $$\\underbrace{1515\\cdots 15}_{1004个15}\\times \\underbrace{333\\cdots 3}_{2008个3}$$ $$\\text{=}\\underbrace{5050\\cdots 50}_{1003个50}5\\times 3\\times \\underbrace{333\\cdots 3}_{2008个3}$$ $$\\text{=}\\underbrace{5050\\cdots 50}_{1003个50}5\\times \\underbrace{999\\cdots 9}_{2008个9}$$ $$=\\underbrace{5050\\cdots 50}_{1003个50}5\\times \\left( 1\\underbrace{000\\cdots 0}_{2008个0}-1 \\right)$$ $$\\text{=}\\underbrace{5050\\cdots 50}_{1003个50}5\\underbrace{000\\cdots 0}_{2008个0}-\\underbrace{5050\\cdots 50}_{1003个50}5$$ $$\\text{=}\\underbrace{5050\\cdots 50}_{1003个50}\\underbrace{4949\\cdots 49}_{1004个49}5$$ 则数字和为$$\\left( 5+0 \\right)\\times 1003+\\left( 4+9 \\right)\\times 1004+5=18072$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "若 a= 1515 15 _ 1004个15 333 3 _ 2008个3 ，则整数a的所有位数上的数字和等于( ). (A) 18063 (B) 18072 (C) 18079 (D) 18054",
+      "solution_text": "法一:递推: 15 33=495 ; 1515 3333=5049495 ; 151515 333333=50504949495 ; 15151515 33333333=505050494949495 ， 我们发现 1515 15 _ n个1 5 33 3 _ 2 n个 3 = 50 50 _ n-1个50 4949 49 _ n个49 5 则 1515 15 _ 1004个1 5 33 3 _ 2008个 3 = 50 50 _ 1003个50 4949 49 _ 1004个49 5 则数字和为 ( 5+0 ) 1003+ ( 4+9 ) 1004+5=18072 法二:凑整 1515 15 _ 1004个15 333 3 _ 2008个3 = 5050 50 _ 1003个50 5 3 333 3 _ 2008个3 = 5050 50 _ 1003个50 5 999 9 _ 2008个9 = 5050 50 _ 1003个50 5 ( 1 000 0 _ 2008个0 -1 ) = 5050 50 _ 1003个50 5 000 0 _ 2008个0 - 5050 50 _ 1003个50 5 = 5050 50 _ 1003个50 4949 49 _ 1004个49 5 则数字和为 ( 5+0 ) 1003+ ( 4+9 ) 1004+5=18072",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2954",
+        "queId": "c94f40530b5343b58bb75c395938afd8",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "18063"
+          },
+          {
+            "label": "B",
+            "content": "18072"
+          },
+          {
+            "label": "C",
+            "content": "18079"
+          },
+          {
+            "label": "D",
+            "content": "18054"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->运算求解->程序性计算"
+        ],
+        "competition_source_list": [
+          "2008年华杯赛六年级竞赛初赛",
+          "2008年华杯赛五年级竞赛初赛",
+          "2008年华杯赛四年级竞赛初赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01251",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1251,
+      "split": "zh_train",
+      "source_problem_id": "87e3148c09464389aff9d6c64ba794a2"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$1977$$除本身外有三个因数：$$1$$，$$3$$，$$659$$（注意：$$659$$是个质数，也叫素数）．$$1977$$的数字和为$$1+9+7+7=24$$，它除本身外所有因数的数字和也是$$1+3+(6+5+9)=24$$，我们把具有这种特点的数叫鹏程数，以下是$$8000$$以内的鹏程数：  $$6$$，$$33$$，$$87$$，~\\uline{~~~~~~~~~~}~，$$303$$，$$519$$，$$573$$，$$681$$，$$843$$，$$951$$，$$1059$$，$$1329$$，$$1383$$，$$1923$$，$$1977$$，$$2463$$，$$2733$$，$$2787$$，$$2949$$，$$3057$$，$$3273$$，$$3327$$，$$3543$$，$$3651$$，$$3867$$，$$3921$$，$$4083$$，$$4353$$，$$4677$$，$$5163$$，$$5433$$，$$5703$$，$$5919$$，$$6081$$，$$6243$$，$$6297$$，$$6621$$，$$6891$$，$$7053$$，$$7323$$，$$7377$$，$$7647$$，$$7971$$．那么上面的鹏程数中缺少的数是．\n(A) 178\n(B) 198\n(C) 218\n(D) 249",
+      "problem_plain": "1977 除本身外有三个因数： 1 ， 3 ， 659 （注意： 659 是个质数，也叫素数）． 1977 的数字和为 1+9+7+7=24 ，它除本身外所有因数的数字和也是 1+3+(6+5+9)=24 ，我们把具有这种特点的数叫鹏程数，以下是 8000 以内的鹏程数： 6 ， 33 ， 87 ，~ ~~~~~~~~~~ ~， 303 ， 519 ， 573 ， 681 ， 843 ， 951 ， 1059 ， 1329 ， 1383 ， 1923 ， 1977 ， 2463 ， 2733 ， 2787 ， 2949 ， 3057 ， 3273 ， 3327 ， 3543 ， 3651 ， 3867 ， 3921 ， 4083 ， 4353 ， 4677 ， 5163 ， 5433 ， 5703 ， 5919 ， 6081 ， 6243 ， 6297 ， 6621 ， 6891 ， 7053 ， 7323 ， 7377 ， 7647 ， 7971 ．那么上面的鹏程数中缺少的数是． (A) 178 (B) 198 (C) 218 (D) 249",
+      "solution_latex": "249的因数：1,3,83,249．$$1+3+8+3=15$$；$$2+4+9=15$$．所以$$249$$也是鹏程数．",
+      "solution_plain": "249的因数：1,3,83,249． 1+3+8+3=15 ； 2+4+9=15 ．所以 249 也是鹏程数．"
+    },
+    "answer": {
+      "final_raw": "249",
+      "final_normalized": "249",
+      "candidates": [
+        "249",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "249的因数：1,3,83,249．$$1+3+8+3=15$$；$$2+4+9=15$$．所以$$249$$也是鹏程数．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "1977 除本身外有三个因数： 1 ， 3 ， 659 （注意： 659 是个质数，也叫素数）． 1977 的数字和为 1+9+7+7=24 ，它除本身外所有因数的数字和也是 1+3+(6+5+9)=24 ，我们把具有这种特点的数叫鹏程数，以下是 8000 以内的鹏程数： 6 ， 33 ， 87 ，~ ~~~~~~~~~~ ~， 303 ， 519 ， 573 ， 681 ， 843 ， 951 ， 1059 ， 1329 ， 1383 ， 1923 ， 1977 ， 2463 ， 2733 ， 2787 ， 2949 ， 3057 ， 3273 ， 3327 ， 3543 ， 3651 ， 3867 ， 3921 ， 4083 ， 4353 ， 4677 ， 5163 ， 5433 ， 5703 ， 5919 ， 6081 ， 6243 ， 6297 ， 6621 ， 6891 ， 7053 ， 7323 ， 7377 ， 7647 ， 7971 ．那么上面的鹏程数中缺少的数是． (A) 178 (B) 198 (C) 218 (D) 249",
+      "solution_text": "249的因数：1,3,83,249． 1+3+8+3=15 ； 2+4+9=15 ．所以 249 也是鹏程数．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2619",
+        "queId": "87e3148c09464389aff9d6c64ba794a2",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "178"
+          },
+          {
+            "label": "B",
+            "content": "198"
+          },
+          {
+            "label": "C",
+            "content": "218"
+          },
+          {
+            "label": "D",
+            "content": "249"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->数列与数表->数列规律->数列找规律填数"
+        ],
+        "competition_source_list": [
+          "2017年第4届广东深圳鹏程杯小学高年级竞赛第14题15分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01256",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1256,
+      "split": "zh_train",
+      "source_problem_id": "861170ebe9cd4f7fb7c3135d2defe865"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "某个等差数列第$$8$$项是$$50$$，前$$10$$项的和为$$325$$．那么，在这个数列前$$99$$项中有~\\uline{~~~~~~~~~~}~个奇数．\n(A) 0\n(B) 33\n(C) 49\n(D) 50\n(E) 99",
+      "problem_plain": "某个等差数列第 8 项是 50 ，前 10 项的和为 325 ．那么，在这个数列前 99 项中有~ ~~~~~~~~~~ ~个奇数． (A) 0 (B) 33 (C) 49 (D) 50 (E) 99",
+      "solution_latex": "根据题意：  $$\\begin{cases}{{a}_{1}}+7d=50    ({{a}_{1}}+{{a}_{1}}+9d)\\times 5=325 \\end{cases}$$  整理得：$$\\begin{cases}{{a}_{1}}+7d=50    2{{a}_{1}}+9d=65 \\end{cases}$$  解得：$$\\begin{cases}{{a}_{1}}=1    d=7 \\end{cases}$$  因此：该数列首项为奇数，公差为奇数，  故数列中奇数项为奇数，偶数项为偶数．  前$$99$$项中共有奇数$$(99+1)\\div 2=50$$（个）．",
+      "solution_plain": "根据题意： cases a _ 1 +7d=50 ( a _ 1 + a _ 1 +9d) 5=325 cases 整理得： cases a _ 1 +7d=50 2 a _ 1 +9d=65 cases 解得： cases a _ 1 =1 d=7 cases 因此：该数列首项为奇数，公差为奇数， 故数列中奇数项为奇数，偶数项为偶数． 前 99 项中共有奇数 (99+1) 2=50 （个）．"
+    },
+    "answer": {
+      "final_raw": "50",
+      "final_normalized": "50",
+      "candidates": [
+        "50",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "根据题意：  $$\\begin{cases}{{a}_{1}}+7d=50    ({{a}_{1}}+{{a}_{1}}+9d)\\times 5=325 \\end{cases}$$  整理得：$$\\begin{cases}{{a}_{1}}+7d=50    2{{a}_{1}}+9d=65 \\end{cases}$$  解得：$$\\begin{cases}{{a}_{1}}=1    d=7 \\end{cases}$$  因此：该数列首项为奇数，公差为奇数，  故数列中奇数项为奇数，偶数项为偶数．  前$$99$$项中共有奇数$$(99+1)\\div 2=50$$（个）．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "某个等差数列第 8 项是 50 ，前 10 项的和为 325 ．那么，在这个数列前 99 项中有~ ~~~~~~~~~~ ~个奇数． (A) 0 (B) 33 (C) 49 (D) 50 (E) 99",
+      "solution_text": "根据题意： cases a _ 1 +7d=50 ( a _ 1 + a _ 1 +9d) 5=325 cases 整理得： cases a _ 1 +7d=50 2 a _ 1 +9d=65 cases 解得： cases a _ 1 =1 d=7 cases 因此：该数列首项为奇数，公差为奇数， 故数列中奇数项为奇数，偶数项为偶数． 前 99 项中共有奇数 (99+1) 2=50 （个）．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2920",
+        "queId": "861170ebe9cd4f7fb7c3135d2defe865",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "33"
+          },
+          {
+            "label": "C",
+            "content": "49"
+          },
+          {
+            "label": "D",
+            "content": "50"
+          },
+          {
+            "label": "E",
+            "content": "99"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->知识点->计数模块->几何计数->分类枚举法数图形->常规图形枚举计数",
+          "拓展思维->拓展思维->计算模块->数列与数表->等差数列->等差数列与估算"
+        ],
+        "competition_source_list": [
+          "2018年第12届北京学而思综合能力诊断小学中年级三年级竞赛第14题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01296",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1296,
+      "split": "zh_train",
+      "source_problem_id": "ad605ea9b8e3432cb6e92654391027ed"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "根据``三角形两边之和大于第三边''的知识，解答本题：  有不同长度的七条线段，其长度均为整数厘米，最短的是$$1$$厘米，最长的是$$21$$厘米，其中以任何三条线段作``边''都不能组成一个三角形，那么这七条线段中第二长的线段长厘米．\n(A) 8\n(B) 9\n(C) 13\n(D) 20",
+      "problem_plain": "根据``三角形两边之和大于第三边''的知识，解答本题： 有不同长度的七条线段，其长度均为整数厘米，最短的是 1 厘米，最长的是 21 厘米，其中以任何三条线段作``边''都不能组成一个三角形，那么这七条线段中第二长的线段长厘米． (A) 8 (B) 9 (C) 13 (D) 20",
+      "solution_latex": "斐波那契数串从第三项开始，等于前两项的和，即$$1$$、$$2$$、$$3$$、$$5$$、$$8$$、$$13$$、$$21$$．  即第二长的为$$13$$．",
+      "solution_plain": "斐波那契数串从第三项开始，等于前两项的和，即 1 、 2 、 3 、 5 、 8 、 13 、 21 ． 即第二长的为 13 ．"
+    },
+    "answer": {
+      "final_raw": "13",
+      "final_normalized": "13",
+      "candidates": [
+        "13",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "斐波那契数串从第三项开始，等于前两项的和，即$$1$$、$$2$$、$$3$$、$$5$$、$$8$$、$$13$$、$$21$$．  即第二长的为$$13$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "根据``三角形两边之和大于第三边''的知识，解答本题： 有不同长度的七条线段，其长度均为整数厘米，最短的是 1 厘米，最长的是 21 厘米，其中以任何三条线段作``边''都不能组成一个三角形，那么这七条线段中第二长的线段长厘米． (A) 8 (B) 9 (C) 13 (D) 20",
+      "solution_text": "斐波那契数串从第三项开始，等于前两项的和，即 1 、 2 、 3 、 5 、 8 、 13 、 21 ． 即第二长的为 13 ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2878",
+        "queId": "ad605ea9b8e3432cb6e92654391027ed",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "8"
+          },
+          {
+            "label": "B",
+            "content": "9"
+          },
+          {
+            "label": "C",
+            "content": "13"
+          },
+          {
+            "label": "D",
+            "content": "20"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->拓展思维->计算模块->数列与数表->数列规律"
+        ],
+        "competition_source_list": [
+          "2016年第14届全国创新杯五年级竞赛初赛第8题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01298",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1298,
+      "split": "zh_train",
+      "source_problem_id": "111da7821b194f4a93a0f9c02b11dfe3"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有一天，彭老师和陈老师约好去打乒乓球，结果彭老师以$$4:0$$完虐陈老师．乒乓球比赛为$$11$$分制，即每局$$11$$分，$$7$$局$$4$$胜制，打成$$10:10$$后必须净胜而且只能净胜$$2$$分．经计算，彭老师四局的总得分为$$48$$分，陈老师总得分为$$39$$分，且每一局比赛分差不超过$$3$$分，则一共有种情况．（不考虑这四局比分之间的顺序）\n(A) 4\n(B) 5\n(C) 6\n(D) 7",
+      "problem_plain": "有一天，彭老师和陈老师约好去打乒乓球，结果彭老师以 4:0 完虐陈老师．乒乓球比赛为 11 分制，即每局 11 分， 7 局 4 胜制，打成 10:10 后必须净胜而且只能净胜 2 分．经计算，彭老师四局的总得分为 48 分，陈老师总得分为 39 分，且每一局比赛分差不超过 3 分，则一共有种情况．（不考虑这四局比分之间的顺序） (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_latex": "每周比赛要分出胜负分差必须在$$2$$分或以上，题中又给出每局比赛分差不超过$$3$$分，故每局比赛的分差只有两种可能：差$$2$$分或$$3$$分．且分差为$$3$$分的那局彭老师得分为$$11$$分，总分差为$$48-39=9$$分，故必有$$3$$场分差为$$2$$分，另一场分差为$$3$$分；即有一场的比分为$$118$$，另两场的总比分为$$37：31$$，有以下四种情况：①$$11:9$$，$$11:9$$，$$15:13$$②$$11:9$$，$$12:10$$，$$14:12$$③$$11:9$$，$$13:11$$，$$13:11$$④$$12:10$$，$$12:10$$，$$13:11$$．故一共有$$4$$种情况．",
+      "solution_plain": "每周比赛要分出胜负分差必须在 2 分或以上，题中又给出每局比赛分差不超过 3 分，故每局比赛的分差只有两种可能：差 2 分或 3 分．且分差为 3 分的那局彭老师得分为 11 分，总分差为 48-39=9 分，故必有 3 场分差为 2 分，另一场分差为 3 分；即有一场的比分为 118 ，另两场的总比分为 37：31 ，有以下四种情况：① 11:9 ， 11:9 ， 15:13 ② 11:9 ， 12:10 ， 14:12 ③ 11:9 ， 13:11 ， 13:11 ④ 12:10 ， 12:10 ， 13:11 ．故一共有 4 种情况．"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "每周比赛要分出胜负分差必须在$$2$$分或以上，题中又给出每局比赛分差不超过$$3$$分，故每局比赛的分差只有两种可能：差$$2$$分或$$3$$分．且分差为$$3$$分的那局彭老师得分为$$11$$分，总分差为$$48-39=9$$分，故必有$$3$$场分差为$$2$$分，另一场分差为$$3$$分；即有一场的比分为$$118$$，另两场的总比分为$$37：31$$，有以下四种情况：①$$11:9$$，$$11:9$$，$$15:13$$②$$11:9$$，$$12:10$$，$$14:12$$③$$11:9$$，$$13:11$$，$$13:11$$④$$12:10$$，$$12:10$$，$$13:11$$．故一共有$$4$$种情况．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有一天，彭老师和陈老师约好去打乒乓球，结果彭老师以 4:0 完虐陈老师．乒乓球比赛为 11 分制，即每局 11 分， 7 局 4 胜制，打成 10:10 后必须净胜而且只能净胜 2 分．经计算，彭老师四局的总得分为 48 分，陈老师总得分为 39 分，且每一局比赛分差不超过 3 分，则一共有种情况．（不考虑这四局比分之间的顺序） (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_text": "每周比赛要分出胜负分差必须在 2 分或以上，题中又给出每局比赛分差不超过 3 分，故每局比赛的分差只有两种可能：差 2 分或 3 分．且分差为 3 分的那局彭老师得分为 11 分，总分差为 48-39=9 分，故必有 3 场分差为 2 分，另一场分差为 3 分；即有一场的比分为 118 ，另两场的总比分为 37：31 ，有以下四种情况：① 11:9 ， 11:9 ， 15:13 ② 11:9 ， 12:10 ， 14:12 ③ 11:9 ， 13:11 ， 13:11 ④ 12:10 ， 12:10 ， 13:11 ．故一共有 4 种情况．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "93",
+        "queId": "111da7821b194f4a93a0f9c02b11dfe3",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "7"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->拓展思维->组合模块->逻辑推理->体育比赛->单循环赛"
+        ],
+        "competition_source_list": [
+          "2017年第16届湖北武汉创新杯五年级竞赛邀请赛训练题（三）"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01365",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1365,
+      "split": "zh_train",
+      "source_problem_id": "a1aa0fb9750e461599a0bd81b4594e88"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "【提升7】  计算：$$\\frac{{{1}^{2}}+{{2}^{2}}}{1\\times 2}+\\frac{{{2}^{2}}+{{3}^{2}}}{2\\times 3}+\\cdots +\\frac{{{18}^{2}}+{{19}^{2}}}{18\\times 19}+\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}$$\n(A) 38\\frac{19}{20}\n(B) 36\\frac{19}{20}\n(C) 38\\frac{11}{20}\n(D) 36\\frac{13}{20}",
+      "problem_plain": "【提升7】 计算： 1 ^ 2 + 2 ^ 2 1 2 + 2 ^ 2 + 3 ^ 2 2 3 + + 18 ^ 2 + 19 ^ 2 18 19 + 19 ^ 2 + 20 ^ 2 19 20 (A) 38 19 20 (B) 36 19 20 (C) 38 11 20 (D) 36 13 20",
+      "solution_latex": "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律：  $$\\frac{{{1}^{2}}+{{2}^{2}}}{1\\times 2}=\\frac{5}{2}=2\\frac{1}{2}$$，$$\\frac{{{2}^{2}}+{{3}^{2}}}{2\\times 3}=\\frac{13}{6}=2\\frac{1}{6}$$，$$\\frac{{{3}^{2}}+{{4}^{2}}}{3\\times 4}=\\frac{25}{12}=2\\frac{1}{12}$$．  我们发现一规律：每一项减去$$2$$后，分子就变成了$$1$$．  再来试试最后一项：$$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{761}{380}=2\\frac{1}{380}$$，  也满足这个规律，这是为什么呢？  观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形：  $$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{19\\times \\left( 20-1 \\right)+20\\times \\left( 19+1 \\right)}{19\\times 20}$$  $$=\\frac{19\\times 20\\times 2+\\left( 20-19 \\right)}{19\\times 20}$$  $$=2+\\frac{1}{19\\times 20}$$．  算式中的每一项都能像上面一样进行变形，所以：  原式$$=2\\frac{1}{1\\times 2}+2\\frac{1}{2\\times 3}+\\cdots +2\\frac{1}{19\\times 20}$$  $$=2\\times 19+\\frac{1}{1\\times 2}+\\frac{1}{2\\times 3}+\\cdots +\\frac{1}{19\\times 20}$$  $$=38+1-\\frac{1}{20}$$  $$=38\\frac{19}{20}$$．",
+      "solution_plain": "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律： 1 ^ 2 + 2 ^ 2 1 2 = 5 2 =2 1 2 ， 2 ^ 2 + 3 ^ 2 2 3 = 13 6 =2 1 6 ， 3 ^ 2 + 4 ^ 2 3 4 = 25 12 =2 1 12 ． 我们发现一规律：每一项减去 2 后，分子就变成了 1 ． 再来试试最后一项： 19 ^ 2 + 20 ^ 2 19 20 = 761 380 =2 1 380 ， 也满足这个规律，这是为什么呢？ 观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形： 19 ^ 2 + 20 ^ 2 19 20 = 19 ( 20-1 )+20 ( 19+1 ) 19 20 = 19 20 2+ ( 20-19 ) 19 20 =2+ 1 19 20 ． 算式中的每一项都能像上面一样进行变形，所以： 原式 =2 1 1 2 +2 1 2 3 + +2 1 19 20 =2 19+ 1 1 2 + 1 2 3 + + 1 19 20 =38+1- 1 20 =38 19 20 ．"
+    },
+    "answer": {
+      "final_raw": "38\\frac{19}{20}",
+      "final_normalized": "38\\frac{19}{20}",
+      "candidates": [
+        "38\\frac{19}{20}",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律：  $$\\frac{{{1}^{2}}+{{2}^{2}}}{1\\times 2}=\\frac{5}{2}=2\\frac{1}{2}$$，$$\\frac{{{2}^{2}}+{{3}^{2}}}{2\\times 3}=\\frac{13}{6}=2\\frac{1}{6}$$，$$\\frac{{{3}^{2}}+{{4}^{2}}}{3\\times 4}=\\frac{25}{12}=2\\frac{1}{12}$$．  我们发现一规律：每一项减去$$2$$后，分子就变成了$$1$$．  再来试试最后一项：$$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{761}{380}=2\\frac{1}{380}$$，  也满足这个规律，这是为什么呢？",
+        "观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形：  $$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{19\\times \\left( 20-1 \\right)+20\\times \\left( 19+1 \\right)}{19\\times 20}$$  $$=\\frac{19\\times 20\\times 2+\\left( 20-19 \\right)}{19\\times 20}$$  $$=2+\\frac{1}{19\\times 20}$$．  算式中的每一项都能像上面一样进行变形，所以：  原式$$=2\\frac{1}{1\\times 2}+2\\frac{1}{2\\times 3}+\\cdots +2\\frac{1}{19\\times 20}$$  $$=2\\times 19+\\frac{1}{1\\times 2}+\\frac{1}{2\\times 3}+\\cdots +\\frac{1}{19\\times 20}$$  $$=38+1-\\frac{1}{20}$$  $$=38\\frac{19}{20}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "【提升7】 计算： 1 ^ 2 + 2 ^ 2 1 2 + 2 ^ 2 + 3 ^ 2 2 3 + + 18 ^ 2 + 19 ^ 2 18 19 + 19 ^ 2 + 20 ^ 2 19 20 (A) 38 19 20 (B) 36 19 20 (C) 38 11 20 (D) 36 13 20",
+      "solution_text": "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律： 1 ^ 2 + 2 ^ 2 1 2 = 5 2 =2 1 2 ， 2 ^ 2 + 3 ^ 2 2 3 = 13 6 =2 1 6 ， 3 ^ 2 + 4 ^ 2 3 4 = 25 12 =2 1 12 ． 我们发现一规律：每一项减去 2 后，分子就变成了 1 ． 再来试试最后一项： 19 ^ 2 + 20 ^ 2 19 20 = 761 380 =2 1 380 ， 也满足这个规律，这是为什么呢？ 观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形： 19 ^ 2 + 20 ^ 2 19 20 = 19 ( 20-1 )+20 ( 19+1 ) 19 20 = 19 20 2+ ( 20-19 ) 19 20 =2+ 1 19 20 ． 算式中的每一项都能像上面一样进行变形，所以： 原式 =2 1 1 2 +2 1 2 3 + +2 1 19 20 =2 19+ 1 1 2 + 1 2 3 + + 1 19 20 =38+1- 1 20 =38 19 20 ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3030",
+        "queId": "a1aa0fb9750e461599a0bd81b4594e88",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "38\\frac{19}{20}"
+          },
+          {
+            "label": "B",
+            "content": "36\\frac{19}{20}"
+          },
+          {
+            "label": "C",
+            "content": "38\\frac{11}{20}"
+          },
+          {
+            "label": "D",
+            "content": "36\\frac{13}{20}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->裂项与通项归纳->分数裂项->分数裂差->两分数间接裂差"
+        ],
+        "competition_source_list": [
+          "2018年陕西西安碑林区西安市铁一中学小升初（二十六）第20题5分",
+          "2015年世界少年奥林匹克数学竞赛六年级竞赛复赛A卷第10题10分",
+          "六年级其它导引"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01427",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1427,
+      "split": "zh_train",
+      "source_problem_id": "b863c4d0799c4e68b1006a39cf17fc09"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "算式$$\\underbrace{20182018\\cdots 2018}_{18个2018}\\times 151514141313\\cdots 0707$$的计算结果中有~\\uline{~~~~~~~~~~}~个奇数数字．\n(A) 60\n(B) 63\n(C) 72\n(D) 81\n(E) 96",
+      "problem_plain": "算式 20182018 2018 _ 18个2018 151514141313 0707 的计算结果中有~ ~~~~~~~~~~ ~个奇数数字． (A) 60 (B) 63 (C) 72 (D) 81 (E) 96",
+      "solution_latex": "设$$A=151514141313\\cdots 0707$$，  （$$1$$）由四位数截断法知$$A$$是$$9999$$的倍数，不妨设$$A=9999B$$，则$$B$$是个$$32$$位数；  （$$2$$）原式$$=\\underbrace{20182018\\cdots 2018}_{18个2018}\\times 9999\\times B=\\underbrace{99999999\\cdots 9999}_{18个9999}\\times 2018\\times B=\\underbrace{99\\cdots 9}_{72个9}\\times 2018\\times B$$  因为$$2018\\times B$$是一个不超过$$72$$位的数，无论它是多少，$$\\underbrace{99\\cdots 9}_{72个9}\\times 2018\\times B$$的计算结果中都是$$72$$个奇数数字．",
+      "solution_plain": "设 A=151514141313 0707 ， （ 1 ）由四位数截断法知 A 是 9999 的倍数，不妨设 A=9999B ，则 B 是个 32 位数； （ 2 ）原式 = 20182018 2018 _ 18个2018 9999 B= 99999999 9999 _ 18个9999 2018 B= 99 9 _ 72个9 2018 B 因为 2018 B 是一个不超过 72 位的数，无论它是多少， 99 9 _ 72个9 2018 B 的计算结果中都是 72 个奇数数字．"
+    },
+    "answer": {
+      "final_raw": "72",
+      "final_normalized": "72",
+      "candidates": [
+        "72",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "2",
+        "unknown"
+      ],
+      "tags": [
+        "2",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设$$A=151514141313\\cdots 0707$$，  （$$1$$）由四位数截断法知$$A$$是$$9999$$的倍数，不妨设$$A=9999B$$，则$$B$$是个$$32$$位数；  （$$2$$）原式$$=\\underbrace{20182018\\cdots 2018}_{18个2018}\\times 9999\\times B=\\underbrace{99999999\\cdots 9999}_{18个9999}\\times 2018\\times B=\\underbrace{99\\cdots 9}_{72个9}\\times 2018\\times B$$  因为$$2018\\times B$$是一个不超过$$72$$位的数，无论它是多少，$$\\underbrace{99\\cdots 9}_{72个9}\\times 2018\\times B$$的计算结果中都是$$72$$个奇数数字．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "算式 20182018 2018 _ 18个2018 151514141313 0707 的计算结果中有~ ~~~~~~~~~~ ~个奇数数字． (A) 60 (B) 63 (C) 72 (D) 81 (E) 96",
+      "solution_text": "设 A=151514141313 0707 ， （ 1 ）由四位数截断法知 A 是 9999 的倍数，不妨设 A=9999B ，则 B 是个 32 位数； （ 2 ）原式 = 20182018 2018 _ 18个2018 9999 B= 99999999 9999 _ 18个9999 2018 B= 99 9 _ 72个9 2018 B 因为 2018 B 是一个不超过 72 位的数，无论它是多少， 99 9 _ 72个9 2018 B 的计算结果中都是 72 个奇数数字．",
+      "keywords": [
+        "2",
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "930",
+        "queId": "b863c4d0799c4e68b1006a39cf17fc09",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "60"
+          },
+          {
+            "label": "B",
+            "content": "63"
+          },
+          {
+            "label": "C",
+            "content": "72"
+          },
+          {
+            "label": "D",
+            "content": "81"
+          },
+          {
+            "label": "E",
+            "content": "96"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->转化与化归的思想",
+          "海外竞赛体系->知识点->数论模块->质数与合数->特殊质数运用->特殊质数2"
+        ],
+        "competition_source_list": [
+          "2018年迎春杯小学高年级竞赛决赛A卷第9题12分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01454",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1454,
+      "split": "zh_train",
+      "source_problem_id": "f32dfa5f79944467855a45fcbd78d5ff"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "新学期性格活泼开朗的莉莉要竞选文艺委员，按规定需$$\\frac{3}{4}$$的选票才能当选，计算$$\\frac{2}{3}$$的选票后，她得到的选票已达到当选票数的$$\\frac{5}{6}$$，她还要得到剩下选票的~\\uline{~~~~~~~~~~}~才能当选。\n(A) \\frac58\n(B) \\frac56\n(C) \\frac14\n(D) \\frac38\n(E) \\frac23",
+      "problem_plain": "新学期性格活泼开朗的莉莉要竞选文艺委员，按规定需 3 4 的选票才能当选，计算 2 3 的选票后，她得到的选票已达到当选票数的 5 6 ，她还要得到剩下选票的~ ~~~~~~~~~~ ~才能当选。 (A) 58 (B) 56 (C) 14 (D) 38 (E) 23",
+      "solution_latex": "【分析】假设全班一共$$120$$人，按规定需$$\\frac34$$的选票才能当选，也就是至少需要得到$$90$$票，现在已经得到当选票数的$$\\frac56$$，求出已获得的选票数量，求出还需要的选票数量，再计算还需要的数量占余下票数的几分之几。【详解】假设全班一共$$60$$人；$$120\\times\\frac34=90$$（张）$$90\\times\\frac56=75$$（张）$$120\\times\\frac23=80$$（张）$$120-80=40$$（张）$$90-75=15$$（张）$$15\\div40=\\frac38$$【点睛】本题考查的是基础的分数乘除法应用题，找准单位``1''是解题的关键。",
+      "solution_plain": "【分析】假设全班一共 120 人，按规定需 34 的选票才能当选，也就是至少需要得到 90 票，现在已经得到当选票数的 56 ，求出已获得的选票数量，求出还需要的选票数量，再计算还需要的数量占余下票数的几分之几。【详解】假设全班一共 60 人； 120 34=90 （张） 90 56=75 （张） 120 23=80 （张） 120-80=40 （张） 90-75=15 （张） 15 40= 38 【点睛】本题考查的是基础的分数乘除法应用题，找准单位``1''是解题的关键。"
+    },
+    "answer": {
+      "final_raw": "\\frac38",
+      "final_normalized": "\\frac38",
+      "candidates": [
+        "D",
+        "\\frac38"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "【分析】假设全班一共$$120$$人，按规定需$$\\frac34$$的选票才能当选，也就是至少需要得到$$90$$票，现在已经得到当选票数的$$\\frac56$$，求出已获得的选票数量，求出还需要的选票数量，再计算还需要的数量占余下票数的几分之几。【详解】假设全班一共$$60$$人；$$120\\times\\frac34=90$$（张）$$90\\times\\frac56=75$$（张）$$120\\times\\frac23=80$$（张）$$120-80=40$$（张）$$90-75=15$$（张）$$15\\div40=\\frac38$$【点睛】本题考查的是基础的分数乘除法应用题，找准单位``1''是解题的关键。"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "新学期性格活泼开朗的莉莉要竞选文艺委员，按规定需 3 4 的选票才能当选，计算 2 3 的选票后，她得到的选票已达到当选票数的 5 6 ，她还要得到剩下选票的~ ~~~~~~~~~~ ~才能当选。 (A) 58 (B) 56 (C) 14 (D) 38 (E) 23",
+      "solution_text": "【分析】假设全班一共 120 人，按规定需 34 的选票才能当选，也就是至少需要得到 90 票，现在已经得到当选票数的 56 ，求出已获得的选票数量，求出还需要的选票数量，再计算还需要的数量占余下票数的几分之几。【详解】假设全班一共 60 人； 120 34=90 （张） 90 56=75 （张） 120 23=80 （张） 120-80=40 （张） 90-75=15 （张） 15 40= 38 【点睛】本题考查的是基础的分数乘除法应用题，找准单位``1''是解题的关键。",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3036",
+        "queId": "f32dfa5f79944467855a45fcbd78d5ff",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac58"
+          },
+          {
+            "label": "B",
+            "content": "\\frac56"
+          },
+          {
+            "label": "C",
+            "content": "\\frac14"
+          },
+          {
+            "label": "D",
+            "content": "\\frac38"
+          },
+          {
+            "label": "E",
+            "content": "\\frac23"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->分数"
+        ],
+        "competition_source_list": [
+          "2022年六年级竞赛（世界少年奥林匹克思维能力测评地方选拔活动）第4题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01517",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1517,
+      "split": "zh_train",
+      "source_problem_id": "add2799cd96940f3a1b9449b17fd73f4"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "计算：$$\\frac{{{1}^{2}}+{{2}^{2}}}{1\\times 2}+\\frac{{{2}^{2}}+{{3}^{2}}}{2\\times 3}+\\cdots +\\frac{{{18}^{2}}+{{19}^{2}}}{18\\times 19}+\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}$$=~\\uline{~~~~~~~~~~}~\n(A) 37\\frac{19}{20}\n(B) 28\\frac{19}{20}\n(C) 38\\frac{19}{20}",
+      "problem_plain": "计算： 1 ^ 2 + 2 ^ 2 1 2 + 2 ^ 2 + 3 ^ 2 2 3 + + 18 ^ 2 + 19 ^ 2 18 19 + 19 ^ 2 + 20 ^ 2 19 20 =~ ~~~~~~~~~~ ~ (A) 37 19 20 (B) 28 19 20 (C) 38 19 20",
+      "solution_latex": "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律：  $$\\frac{{{1}^{2}}+{{2}^{2}}}{1\\times 2}=\\frac{5}{2}=2\\frac{1}{2}$$，$$\\frac{{{2}^{2}}+{{3}^{2}}}{2\\times 3}=\\frac{13}{6}=2\\frac{1}{6}$$，$$\\frac{{{3}^{2}}+{{4}^{2}}}{3\\times 4}=\\frac{25}{12}=2\\frac{1}{12}$$．  我们发现一规律：每一项减去$$2$$后，分子就变成了$$1$$．  再来试试最后一项：$$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{761}{380}=2\\frac{1}{380}$$，  也满足这个规律，这是为什么呢？  观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形：  $$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{19\\times \\left( 20-1 \\right)+20\\times \\left( 19+1 \\right)}{19\\times 20}$$  $$=\\frac{19\\times 20\\times 2+\\left( 20-19 \\right)}{19\\times 20}$$  $$=2+\\frac{1}{19\\times 20}$$．  算式中的每一项都能像上面一样进行变形，再结合分数裂差，所以：  原式$$=2\\frac{1}{1\\times 2}+2\\frac{1}{2\\times 3}+\\cdots +2\\frac{1}{19\\times 20}$$  $$=2\\times 19+\\frac{1}{1\\times 2}+\\frac{1}{2\\times 3}+\\cdots +\\frac{1}{19\\times 20}$$  $$=38+1-\\frac{1}{20}$$  $$=38\\frac{19}{20}$$．",
+      "solution_plain": "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律： 1 ^ 2 + 2 ^ 2 1 2 = 5 2 =2 1 2 ， 2 ^ 2 + 3 ^ 2 2 3 = 13 6 =2 1 6 ， 3 ^ 2 + 4 ^ 2 3 4 = 25 12 =2 1 12 ． 我们发现一规律：每一项减去 2 后，分子就变成了 1 ． 再来试试最后一项： 19 ^ 2 + 20 ^ 2 19 20 = 761 380 =2 1 380 ， 也满足这个规律，这是为什么呢？ 观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形： 19 ^ 2 + 20 ^ 2 19 20 = 19 ( 20-1 )+20 ( 19+1 ) 19 20 = 19 20 2+ ( 20-19 ) 19 20 =2+ 1 19 20 ． 算式中的每一项都能像上面一样进行变形，再结合分数裂差，所以： 原式 =2 1 1 2 +2 1 2 3 + +2 1 19 20 =2 19+ 1 1 2 + 1 2 3 + + 1 19 20 =38+1- 1 20 =38 19 20 ．"
+    },
+    "answer": {
+      "final_raw": "38\\frac{19}{20}",
+      "final_normalized": "38\\frac{19}{20}",
+      "candidates": [
+        "38\\frac{19}{20}",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律：  $$\\frac{{{1}^{2}}+{{2}^{2}}}{1\\times 2}=\\frac{5}{2}=2\\frac{1}{2}$$，$$\\frac{{{2}^{2}}+{{3}^{2}}}{2\\times 3}=\\frac{13}{6}=2\\frac{1}{6}$$，$$\\frac{{{3}^{2}}+{{4}^{2}}}{3\\times 4}=\\frac{25}{12}=2\\frac{1}{12}$$．  我们发现一规律：每一项减去$$2$$后，分子就变成了$$1$$．  再来试试最后一项：$$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{761}{380}=2\\frac{1}{380}$$，  也满足这个规律，这是为什么呢？",
+        "观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形：  $$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{19\\times \\left( 20-1 \\right)+20\\times \\left( 19+1 \\right)}{19\\times 20}$$  $$=\\frac{19\\times 20\\times 2+\\left( 20-19 \\right)}{19\\times 20}$$  $$=2+\\frac{1}{19\\times 20}$$．  算式中的每一项都能像上面一样进行变形，再结合分数裂差，所以：  原式$$=2\\frac{1}{1\\times 2}+2\\frac{1}{2\\times 3}+\\cdots +2\\frac{1}{19\\times 20}$$  $$=2\\times 19+\\frac{1}{1\\times 2}+\\frac{1}{2\\times 3}+\\cdots +\\frac{1}{19\\times 20}$$  $$=38+1-\\frac{1}{20}$$  $$=38\\frac{19}{20}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "计算： 1 ^ 2 + 2 ^ 2 1 2 + 2 ^ 2 + 3 ^ 2 2 3 + + 18 ^ 2 + 19 ^ 2 18 19 + 19 ^ 2 + 20 ^ 2 19 20 =~ ~~~~~~~~~~ ~ (A) 37 19 20 (B) 28 19 20 (C) 38 19 20",
+      "solution_text": "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律： 1 ^ 2 + 2 ^ 2 1 2 = 5 2 =2 1 2 ， 2 ^ 2 + 3 ^ 2 2 3 = 13 6 =2 1 6 ， 3 ^ 2 + 4 ^ 2 3 4 = 25 12 =2 1 12 ． 我们发现一规律：每一项减去 2 后，分子就变成了 1 ． 再来试试最后一项： 19 ^ 2 + 20 ^ 2 19 20 = 761 380 =2 1 380 ， 也满足这个规律，这是为什么呢？ 观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形： 19 ^ 2 + 20 ^ 2 19 20 = 19 ( 20-1 )+20 ( 19+1 ) 19 20 = 19 20 2+ ( 20-19 ) 19 20 =2+ 1 19 20 ． 算式中的每一项都能像上面一样进行变形，再结合分数裂差，所以： 原式 =2 1 1 2 +2 1 2 3 + +2 1 19 20 =2 19+ 1 1 2 + 1 2 3 + + 1 19 20 =38+1- 1 20 =38 19 20 ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2921",
+        "queId": "add2799cd96940f3a1b9449b17fd73f4",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "37\\frac{19}{20}"
+          },
+          {
+            "label": "B",
+            "content": "28\\frac{19}{20}"
+          },
+          {
+            "label": "C",
+            "content": "38\\frac{19}{20}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->运算求解",
+          "课内体系->能力->运算求解"
+        ],
+        "competition_source_list": [
+          "2018年陕西西安雁塔区西安铁一中小升初（二十六）第20题5分",
+          "2015年世界少年奥林匹克数学竞赛六年级竞赛复赛A卷第10题10分",
+          "六年级其它导引"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01659",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1659,
+      "split": "zh_train",
+      "source_problem_id": "77d8a02e3fc84712a9ef3e99ab27ab04"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "甲、乙二车分别从$$A$$、$$B$$两地同时出发，相向匀速而行，当甲行驶过$$AB$$中点$$12$$千米时，两车相遇．若甲比乙晚出发$$10$$分钟，则两车恰好相遇在$$AB$$中点，且甲到$$B$$地时，乙距离$$A$$地还有$$20$$千米．那么$$AB$$两地间的距离是~\\uline{~~~~~~~~~~}~千米．\n(A) 100\n(B) 110\n(C) 120\n(D) 130\n(E) 140",
+      "problem_plain": "甲、乙二车分别从 A 、 B 两地同时出发，相向匀速而行，当甲行驶过 AB 中点 12 千米时，两车相遇．若甲比乙晚出发 10 分钟，则两车恰好相遇在 AB 中点，且甲到 B 地时，乙距离 A 地还有 20 千米．那么 AB 两地间的距离是~ ~~~~~~~~~~ ~千米． (A) 100 (B) 110 (C) 120 (D) 130 (E) 140",
+      "solution_latex": "方法一：由第一个条件知甲乙速度比为$$（\\frac { S }{ 2 } +12）：（\\frac { S }{ 2 } -12）$$；再由第二条件知甲乙速度比为$$\\frac { S }{ 2 } ：（\\frac { S }{ 2 } -20）$$，两者相等得$$S=120$$千米．  方法二：设全长为$$2S$$千米，则第一次相遇时，甲走了$$S+12$$千米，乙走了$$S-12$$千米；第二次相遇点走到各自目的地时，甲走了$$S$$千米，乙走了$$S-20$$千米．由于两人速度不变，故以速度比作等量关系列方程可得：$$\\frac{S+12}{S-12}=\\frac{S}{S-20}$$，解得$$S=60$$，故全长为$$2S=120$$千米．",
+      "solution_plain": "方法一：由第一个条件知甲乙速度比为 （ S 2 +12）：（ S 2 -12） ；再由第二条件知甲乙速度比为 S 2 ：（ S 2 -20） ，两者相等得 S=120 千米． 方法二：设全长为 2S 千米，则第一次相遇时，甲走了 S+12 千米，乙走了 S-12 千米；第二次相遇点走到各自目的地时，甲走了 S 千米，乙走了 S-20 千米．由于两人速度不变，故以速度比作等量关系列方程可得： S+12 S-12 = S S-20 ，解得 S=60 ，故全长为 2S=120 千米．"
+    },
+    "answer": {
+      "final_raw": "120",
+      "final_normalized": "120",
+      "candidates": [
+        "120",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "方法一：由第一个条件知甲乙速度比为$$（\\frac { S }{ 2 } +12）：（\\frac { S }{ 2 } -12）$$；再由第二条件知甲乙速度比为$$\\frac { S }{ 2 } ：（\\frac { S }{ 2 } -20）$$，两者相等得$$S=120$$千米．  方法二：设全长为$$2S$$千米，则第一次相遇时，甲走了$$S+12$$千米，乙走了$$S-12$$千米；第二次相遇点走到各自目的地时，甲走了$$S$$千米，乙走了$$S-20$$千米．由于两人速度不变，故以速度比作等量关系列方程可得：$$\\frac{S+12}{S-12}=\\frac{S}{S-20}$$，解得$$S=60$$，故全长为$$2S=120$$千米．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "甲、乙二车分别从 A 、 B 两地同时出发，相向匀速而行，当甲行驶过 AB 中点 12 千米时，两车相遇．若甲比乙晚出发 10 分钟，则两车恰好相遇在 AB 中点，且甲到 B 地时，乙距离 A 地还有 20 千米．那么 AB 两地间的距离是~ ~~~~~~~~~~ ~千米． (A) 100 (B) 110 (C) 120 (D) 130 (E) 140",
+      "solution_text": "方法一：由第一个条件知甲乙速度比为 （ S 2 +12）：（ S 2 -12） ；再由第二条件知甲乙速度比为 S 2 ：（ S 2 -20） ，两者相等得 S=120 千米． 方法二：设全长为 2S 千米，则第一次相遇时，甲走了 S+12 千米，乙走了 S-12 千米；第二次相遇点走到各自目的地时，甲走了 S 千米，乙走了 S-20 千米．由于两人速度不变，故以速度比作等量关系列方程可得： S+12 S-12 = S S-20 ，解得 S=60 ，故全长为 2S=120 千米．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2274",
+        "queId": "77d8a02e3fc84712a9ef3e99ab27ab04",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "100"
+          },
+          {
+            "label": "B",
+            "content": "110"
+          },
+          {
+            "label": "C",
+            "content": "120"
+          },
+          {
+            "label": "D",
+            "content": "130"
+          },
+          {
+            "label": "E",
+            "content": "140"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->行程模块->比例解行程问题->行程中的比例",
+          "Overseas Competition->知识点->行程模块"
+        ],
+        "competition_source_list": [
+          "2013年北京迎春杯六年级竞赛",
+          "2013年全国迎春杯六年级竞赛初赛第9题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01703",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1703,
+      "split": "zh_train",
+      "source_problem_id": "84410d2730cf47b5b53ea6ad91c8bf91"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "【补4】  计算：$$\\frac{{{1}^{2}}+{{2}^{2}}}{1\\times 2}+\\frac{{{2}^{2}}+{{3}^{2}}}{2\\times 3}+\\cdots +\\frac{{{18}^{2}}+{{19}^{2}}}{18\\times 19}+\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}$$．\n(A) 38\\frac{19}{20}\n(B) 38\\frac{17}{20}\n(C) 38\\frac{13}{20}\n(D) 38\\frac{1}{20}",
+      "problem_plain": "【补4】 计算： 1 ^ 2 + 2 ^ 2 1 2 + 2 ^ 2 + 3 ^ 2 2 3 + + 18 ^ 2 + 19 ^ 2 18 19 + 19 ^ 2 + 20 ^ 2 19 20 ． (A) 38 19 20 (B) 38 17 20 (C) 38 13 20 (D) 38 1 20",
+      "solution_latex": "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律：  $$\\frac{{{1}^{2}}+{{2}^{2}}}{1\\times 2}=\\frac{5}{2}=2\\frac{1}{2}$$，$$\\frac{{{2}^{2}}+{{3}^{2}}}{2\\times 3}=\\frac{13}{6}=2\\frac{1}{6}$$，$$\\frac{{{3}^{2}}+{{4}^{2}}}{3\\times 4}=\\frac{25}{12}=2\\frac{1}{12}$$．  我们发现一规律：每一项减去$$2$$后，分子就变成了$$1$$．  再来试试最后一项：$$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{761}{380}=2\\frac{1}{380}$$，  也满足这个规律，这是为什么呢？  观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形：  $$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{19\\times \\left( 20-1 \\right)+20\\times \\left( 19+1 \\right)}{19\\times 20}$$  $$=\\frac{19\\times 20\\times 2+\\left( 20-19 \\right)}{19\\times 20}$$  $$=2+\\frac{1}{19\\times 20}$$．  算式中的每一项都能像上面一样进行变形，所以：  原式$$=2\\frac{1}{1\\times 2}+2\\frac{1}{2\\times 3}+\\cdots +2\\frac{1}{19\\times 20}$$  $$=2\\times 19+\\frac{1}{1\\times 2}+\\frac{1}{2\\times 3}+\\cdots +\\frac{1}{19\\times 20}$$  $$=38+1-\\frac{1}{20}$$  $$=38\\frac{19}{20}$$．",
+      "solution_plain": "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律： 1 ^ 2 + 2 ^ 2 1 2 = 5 2 =2 1 2 ， 2 ^ 2 + 3 ^ 2 2 3 = 13 6 =2 1 6 ， 3 ^ 2 + 4 ^ 2 3 4 = 25 12 =2 1 12 ． 我们发现一规律：每一项减去 2 后，分子就变成了 1 ． 再来试试最后一项： 19 ^ 2 + 20 ^ 2 19 20 = 761 380 =2 1 380 ， 也满足这个规律，这是为什么呢？ 观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形： 19 ^ 2 + 20 ^ 2 19 20 = 19 ( 20-1 )+20 ( 19+1 ) 19 20 = 19 20 2+ ( 20-19 ) 19 20 =2+ 1 19 20 ． 算式中的每一项都能像上面一样进行变形，所以： 原式 =2 1 1 2 +2 1 2 3 + +2 1 19 20 =2 19+ 1 1 2 + 1 2 3 + + 1 19 20 =38+1- 1 20 =38 19 20 ．"
+    },
+    "answer": {
+      "final_raw": "38\\frac{19}{20}",
+      "final_normalized": "38\\frac{19}{20}",
+      "candidates": [
+        "38\\frac{19}{20}",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律：  $$\\frac{{{1}^{2}}+{{2}^{2}}}{1\\times 2}=\\frac{5}{2}=2\\frac{1}{2}$$，$$\\frac{{{2}^{2}}+{{3}^{2}}}{2\\times 3}=\\frac{13}{6}=2\\frac{1}{6}$$，$$\\frac{{{3}^{2}}+{{4}^{2}}}{3\\times 4}=\\frac{25}{12}=2\\frac{1}{12}$$．  我们发现一规律：每一项减去$$2$$后，分子就变成了$$1$$．  再来试试最后一项：$$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{761}{380}=2\\frac{1}{380}$$，  也满足这个规律，这是为什么呢？",
+        "观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形：  $$\\frac{{{19}^{2}}+{{20}^{2}}}{19\\times 20}=\\frac{19\\times \\left( 20-1 \\right)+20\\times \\left( 19+1 \\right)}{19\\times 20}$$  $$=\\frac{19\\times 20\\times 2+\\left( 20-19 \\right)}{19\\times 20}$$  $$=2+\\frac{1}{19\\times 20}$$．  算式中的每一项都能像上面一样进行变形，所以：  原式$$=2\\frac{1}{1\\times 2}+2\\frac{1}{2\\times 3}+\\cdots +2\\frac{1}{19\\times 20}$$  $$=2\\times 19+\\frac{1}{1\\times 2}+\\frac{1}{2\\times 3}+\\cdots +\\frac{1}{19\\times 20}$$  $$=38+1-\\frac{1}{20}$$  $$=38\\frac{19}{20}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "【补4】 计算： 1 ^ 2 + 2 ^ 2 1 2 + 2 ^ 2 + 3 ^ 2 2 3 + + 18 ^ 2 + 19 ^ 2 18 19 + 19 ^ 2 + 20 ^ 2 19 20 ． (A) 38 19 20 (B) 38 17 20 (C) 38 13 20 (D) 38 1 20",
+      "solution_text": "算式中的分母是裂项计算的最基本形式，但分子比较复杂，我们可以从前几项找找规律： 1 ^ 2 + 2 ^ 2 1 2 = 5 2 =2 1 2 ， 2 ^ 2 + 3 ^ 2 2 3 = 13 6 =2 1 6 ， 3 ^ 2 + 4 ^ 2 3 4 = 25 12 =2 1 12 ． 我们发现一规律：每一项减去 2 后，分子就变成了 1 ． 再来试试最后一项： 19 ^ 2 + 20 ^ 2 19 20 = 761 380 =2 1 380 ， 也满足这个规律，这是为什么呢？ 观察每一项的分子和分母，我们发现分子的每个加数都与分母大小接近，可以做如下变形： 19 ^ 2 + 20 ^ 2 19 20 = 19 ( 20-1 )+20 ( 19+1 ) 19 20 = 19 20 2+ ( 20-19 ) 19 20 =2+ 1 19 20 ． 算式中的每一项都能像上面一样进行变形，所以： 原式 =2 1 1 2 +2 1 2 3 + +2 1 19 20 =2 19+ 1 1 2 + 1 2 3 + + 1 19 20 =38+1- 1 20 =38 19 20 ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2762",
+        "queId": "84410d2730cf47b5b53ea6ad91c8bf91",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "38\\frac{19}{20}"
+          },
+          {
+            "label": "B",
+            "content": "38\\frac{17}{20}"
+          },
+          {
+            "label": "C",
+            "content": "38\\frac{13}{20}"
+          },
+          {
+            "label": "D",
+            "content": "38\\frac{1}{20}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->转化与化归的思想"
+        ],
+        "competition_source_list": [
+          "六年级其它导引",
+          "2015年世界少年奥林匹克数学竞赛六年级竞赛复赛A卷第10题10分",
+          "2018年陕西西安碑林区西安市铁一中学小升初（二十六）第20题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01919",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1919,
+      "split": "zh_train",
+      "source_problem_id": "70e30d127b0645fc8ea0277fcec0cad9"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "有一天，彭老师和陈老师约好去打乒乓球，结果彭老师以$$4:0$$完虐陈老师．乒乓球比赛为$$11$$分制，即每局$$11$$分，$$7$$局$$4$$胜制，打成$$10:10$$后必须净胜而且只能净胜$$2$$分．经计算，彭老师四局的总得分为$$48$$分，陈老师总得分为$$39$$分，且每一局比赛分差不超过$$3$$分，则一共有（~ ）种情况．（不考虑这四局比分之间的顺序）\n(A) 4\n(B) 5\n(C) 6\n(D) 7",
+      "problem_plain": "有一天，彭老师和陈老师约好去打乒乓球，结果彭老师以 4:0 完虐陈老师．乒乓球比赛为 11 分制，即每局 11 分， 7 局 4 胜制，打成 10:10 后必须净胜而且只能净胜 2 分．经计算，彭老师四局的总得分为 48 分，陈老师总得分为 39 分，且每一局比赛分差不超过 3 分，则一共有（~ ）种情况．（不考虑这四局比分之间的顺序） (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_latex": "每周比赛要分出胜负分差必须在$$2$$分或以上，题中又给出每局比赛分差不超过$$3$$分，故每局比赛的分差只有两种可能：差$$2$$分或$$3$$分．且分差为$$3$$分的那局彭老师得分为$$11$$分，总分差为$$4839=9$$分，故必有$$3$$场分差为$$2$$分，另一场分差为$$3$$分；即有一场的比分为$$118$$，另两场的总比分为$$3731$$，有以下四种情况：①$$11:9$$，$$11:9$$，$$15:13$$②$$11:9$$，$$12:10$$，$$14:12$$③$$11:9$$，$$13:11$$，$$13:11$$④$$12:10$$，$$12:10$$，$$13:11$$．故一共有$$4$$种情况．",
+      "solution_plain": "每周比赛要分出胜负分差必须在 2 分或以上，题中又给出每局比赛分差不超过 3 分，故每局比赛的分差只有两种可能：差 2 分或 3 分．且分差为 3 分的那局彭老师得分为 11 分，总分差为 4839=9 分，故必有 3 场分差为 2 分，另一场分差为 3 分；即有一场的比分为 118 ，另两场的总比分为 3731 ，有以下四种情况：① 11:9 ， 11:9 ， 15:13 ② 11:9 ， 12:10 ， 14:12 ③ 11:9 ， 13:11 ， 13:11 ④ 12:10 ， 12:10 ， 13:11 ．故一共有 4 种情况．"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "每周比赛要分出胜负分差必须在$$2$$分或以上，题中又给出每局比赛分差不超过$$3$$分，故每局比赛的分差只有两种可能：差$$2$$分或$$3$$分．且分差为$$3$$分的那局彭老师得分为$$11$$分，总分差为$$4839=9$$分，故必有$$3$$场分差为$$2$$分，另一场分差为$$3$$分；即有一场的比分为$$118$$，另两场的总比分为$$3731$$，有以下四种情况：①$$11:9$$，$$11:9$$，$$15:13$$②$$11:9$$，$$12:10$$，$$14:12$$③$$11:9$$，$$13:11$$，$$13:11$$④$$12:10$$，$$12:10$$，$$13:11$$．故一共有$$4$$种情况．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "有一天，彭老师和陈老师约好去打乒乓球，结果彭老师以 4:0 完虐陈老师．乒乓球比赛为 11 分制，即每局 11 分， 7 局 4 胜制，打成 10:10 后必须净胜而且只能净胜 2 分．经计算，彭老师四局的总得分为 48 分，陈老师总得分为 39 分，且每一局比赛分差不超过 3 分，则一共有（~ ）种情况．（不考虑这四局比分之间的顺序） (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_text": "每周比赛要分出胜负分差必须在 2 分或以上，题中又给出每局比赛分差不超过 3 分，故每局比赛的分差只有两种可能：差 2 分或 3 分．且分差为 3 分的那局彭老师得分为 11 分，总分差为 4839=9 分，故必有 3 场分差为 2 分，另一场分差为 3 分；即有一场的比分为 118 ，另两场的总比分为 3731 ，有以下四种情况：① 11:9 ， 11:9 ， 15:13 ② 11:9 ， 12:10 ， 14:12 ③ 11:9 ， 13:11 ， 13:11 ④ 12:10 ， 12:10 ， 13:11 ．故一共有 4 种情况．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "207",
+        "queId": "70e30d127b0645fc8ea0277fcec0cad9",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "7"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->组合模块->逻辑推理->体育比赛->单循环赛"
+        ],
+        "competition_source_list": [
+          "2017年第16届湖北武汉创新杯五年级竞赛邀请赛训练题（三）"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:01967",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 1967,
+      "split": "zh_train",
+      "source_problem_id": "19977b1c84604a1aa83bd13e891ebcd4"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在下面的一列数中，从左向右数，第$$8$$个数是~\\uline{~~~~~~~~~~}~．  $$1$$，$$4$$，$$10$$，$$20$$，$$35$$，$$\\cdots$$\n(A) 116\n(B) 120\n(C) 140\n(D) 156\n(E) 180",
+      "problem_plain": "在下面的一列数中，从左向右数，第 8 个数是~ ~~~~~~~~~~ ~． 1 ， 4 ， 10 ， 20 ， 35 ， (A) 116 (B) 120 (C) 140 (D) 156 (E) 180",
+      "solution_latex": "每两个数差值为$$3$$，$$6$$，$$10$$，$$15$$，$$\\cdots$$  它们的差值为$$3$$，$$4$$，$$5$$，$$\\cdots$$  所以第$$8$$个数是$$120$$．  $$1+3=4$$，$$4+6=10$$，$$10+10=20$$，$$20+15=35$$，$$35+21=56$$，$$56+28=84$$，$$84+36=120$$，每次加上的数$$3$$，$$6$$，$$10$$，$$15$$，$$21$$，$$28$$，$$36$$又有规律，$$3+3=6$$，$$6+4=10$$，$$10+5=15$$，$$15+6=21$$，$$21+7=28$$，$$28+8=36$$，所以第$$8$$个数是$$120$$．",
+      "solution_plain": "每两个数差值为 3 ， 6 ， 10 ， 15 ， 它们的差值为 3 ， 4 ， 5 ， 所以第 8 个数是 120 ． 1+3=4 ， 4+6=10 ， 10+10=20 ， 20+15=35 ， 35+21=56 ， 56+28=84 ， 84+36=120 ，每次加上的数 3 ， 6 ， 10 ， 15 ， 21 ， 28 ， 36 又有规律， 3+3=6 ， 6+4=10 ， 10+5=15 ， 15+6=21 ， 21+7=28 ， 28+8=36 ，所以第 8 个数是 120 ．"
+    },
+    "answer": {
+      "final_raw": "120",
+      "final_normalized": "120",
+      "candidates": [
+        "120",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "每两个数差值为$$3$$，$$6$$，$$10$$，$$15$$，$$\\cdots$$  它们的差值为$$3$$，$$4$$，$$5$$，$$\\cdots$$  所以第$$8$$个数是$$120$$．  $$1+3=4$$，$$4+6=10$$，$$10+10=20$$，$$20+15=35$$，$$35+21=56$$，$$56+28=84$$，$$84+36=120$$，每次加上的数$$3$$，$$6$$，$$10$$，$$15$$，$$21$$，$$28$$，$$36$$又有规律，$$3+3=6$$，$$6+4=10$$，$$10+5=15$$，$$15+6=21$$，$$21+7=28$$，$$28+8=36$$，所以第$$8$$个数是$$120$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在下面的一列数中，从左向右数，第 8 个数是~ ~~~~~~~~~~ ~． 1 ， 4 ， 10 ， 20 ， 35 ， (A) 116 (B) 120 (C) 140 (D) 156 (E) 180",
+      "solution_text": "每两个数差值为 3 ， 6 ， 10 ， 15 ， 它们的差值为 3 ， 4 ， 5 ， 所以第 8 个数是 120 ． 1+3=4 ， 4+6=10 ， 10+10=20 ， 20+15=35 ， 35+21=56 ， 56+28=84 ， 84+36=120 ，每次加上的数 3 ， 6 ， 10 ， 15 ， 21 ， 28 ， 36 又有规律， 3+3=6 ， 6+4=10 ， 10+5=15 ， 15+6=21 ， 21+7=28 ， 28+8=36 ，所以第 8 个数是 120 ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2474",
+        "queId": "19977b1c84604a1aa83bd13e891ebcd4",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "116"
+          },
+          {
+            "label": "B",
+            "content": "120"
+          },
+          {
+            "label": "C",
+            "content": "140"
+          },
+          {
+            "label": "D",
+            "content": "156"
+          },
+          {
+            "label": "E",
+            "content": "180"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->计算模块->数列与数表->数列规律->数列找规律填数"
+        ],
+        "competition_source_list": [
+          "2010年北京学而思综合能力诊断三年级竞赛第3题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:02135",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2135,
+      "split": "zh_train",
+      "source_problem_id": "ddb72402fedc42cbb864a6ef6b6df448"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设完全平方数$$A$$是$$11$$个连续整数的平方和，则$$A$$的最小值是~\\uline{~~~~~~~~~~}~．\n(A) 81\n(B) 100\n(C) 121\n(D) 144",
+      "problem_plain": "设完全平方数 A 是 11 个连续整数的平方和，则 A 的最小值是~ ~~~~~~~~~~ ~． (A) 81 (B) 100 (C) 121 (D) 144",
+      "solution_latex": "设$$11$$个连续整数中，中间的数为$$x$$，  则这$$11$$个数的平方和可以写成  $${{(x-5)}^{2}}+{{(x-4)}^{2}}+\\cdots +{{x}^{2}}+\\cdots +{{(x+4)}^{2}}+{{(x+5)}^{2}}$$  $$=11{{x}^{2}}+2({{5}^{2}}+{{4}^{2}}+{{3}^{2}}+{{2}^{2}}+{{1}^{2}})$$  $$=11({{x}^{2}}+10)$$，  则$$A=11({{x}^{2}}+10)$$，  当$$x=\\pm 1$$时，$$A$$取最小值$$121$$．",
+      "solution_plain": "设 11 个连续整数中，中间的数为 x ， 则这 11 个数的平方和可以写成 (x-5) ^ 2 + (x-4) ^ 2 + + x ^ 2 + + (x+4) ^ 2 + (x+5) ^ 2 =11 x ^ 2 +2( 5 ^ 2 + 4 ^ 2 + 3 ^ 2 + 2 ^ 2 + 1 ^ 2 ) =11( x ^ 2 +10) ， 则 A=11( x ^ 2 +10) ， 当 x= 1 时， A 取最小值 121 ．"
+    },
+    "answer": {
+      "final_raw": "121",
+      "final_normalized": "121",
+      "candidates": [
+        "121",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设$$11$$个连续整数中，中间的数为$$x$$，  则这$$11$$个数的平方和可以写成  $${{(x-5)}^{2}}+{{(x-4)}^{2}}+\\cdots +{{x}^{2}}+\\cdots +{{(x+4)}^{2}}+{{(x+5)}^{2}}$$  $$=11{{x}^{2}}+2({{5}^{2}}+{{4}^{2}}+{{3}^{2}}+{{2}^{2}}+{{1}^{2}})$$  $$=11({{x}^{2}}+10)$$，  则$$A=11({{x}^{2}}+10)$$，  当$$x=\\pm 1$$时，$$A$$取最小值$$121$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设完全平方数 A 是 11 个连续整数的平方和，则 A 的最小值是~ ~~~~~~~~~~ ~． (A) 81 (B) 100 (C) 121 (D) 144",
+      "solution_text": "设 11 个连续整数中，中间的数为 x ， 则这 11 个数的平方和可以写成 (x-5) ^ 2 + (x-4) ^ 2 + + x ^ 2 + + (x+4) ^ 2 + (x+5) ^ 2 =11 x ^ 2 +2( 5 ^ 2 + 4 ^ 2 + 3 ^ 2 + 2 ^ 2 + 1 ^ 2 ) =11( x ^ 2 +10) ， 则 A=11( x ^ 2 +10) ， 当 x= 1 时， A 取最小值 121 ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1564",
+        "queId": "ddb72402fedc42cbb864a6ef6b6df448",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "81"
+          },
+          {
+            "label": "B",
+            "content": "100"
+          },
+          {
+            "label": "C",
+            "content": "121"
+          },
+          {
+            "label": "D",
+            "content": "144"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->抽象概括能力",
+          "课内体系->能力->运算能力",
+          "课内体系->知识点->式->整式的乘除->乘法公式->完全平方公式的计算-不含分式",
+          "竞赛->知识点->数论->同余->完全平方数"
+        ],
+        "competition_source_list": [
+          "2011年第22届全国希望杯初二竞赛初赛第17题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_train:prealgebra:level_4:02723",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_train_3K.jsonl",
+      "license": "MIT",
+      "original_index": 2723,
+      "split": "zh_train",
+      "source_problem_id": "77a73cbc5992493e868ab3113dba5f1d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "数列$ {a_n }$满足: $a_0=\\sqrt{3}$, $a_{n+1}=[a_n]+\\dfrac{1}{ {a_n }}$(其中$[a_n]$和${a_n}$分别表示实数$x$的整数部分与小数部分), 则$a_{2020}=$．\n(A) 3029+\\dfrac{\\sqrt{3}-1}{2}\n(B) 3032+\\dfrac{\\sqrt{3}-1}{2}\n(C) 3035+\\dfrac{\\sqrt{3}-1}{2}\n(D) 前三个答案都不对",
+      "problem_plain": "数列 a_n 满足: a_0= 3 , a_ n+1 =[a_n]+ 1 a_n (其中 [a_n] 和 a_n 分别表示实数 x 的整数部分与小数部分), 则 a_ 2020 = ． (A) 3029+ 3 -1 2 (B) 3032+ 3 -1 2 (C) 3035+ 3 -1 2 (D) 前三个答案都不对",
+      "solution_latex": "$$1^{\\circ}$$迭代几项尝试一下，  $$a_1=\\sqrt{3}=1+(\\sqrt{3}-1)$$，  $$\\Rightarrow{a_2}=[a_1]+\\frac{1}{\\left { {{a}_{n}} \\right }}=1+\\frac{1}{\\sqrt{3}-1}=2+\\frac{\\sqrt{3}-1}{2}$$，  $$\\Rightarrow{{a}_{3}}=[{{a}_{2}}]+\\frac{1}{\\left { {{a}_{2}} \\right }}=2+\\frac{2}{\\sqrt{3}-1}=4+(\\sqrt{3}-1)$$，  $$\\Rightarrow{{a}_{4}}=[{{a}_{3}}]+\\frac{1}{\\left { {{a}_{3}} \\right }}=4+\\frac{1}{\\sqrt{3}-1}=5+\\frac{\\sqrt{3}-1}{2}$$，  $$\\Rightarrow{{a}_{5}}=[{{a}_{4}}]+\\frac{1}{\\left { {{a}_{4}} \\right }}=5+\\frac{2}{\\sqrt{3}-1}=7+(\\sqrt{3}-1)$$，  $$\\Rightarrow{{a}_{6}}=[{{a}_{5}}]+\\frac{1}{\\left { {{a}_{5}} \\right }}=7+\\frac{1}{\\sqrt{3}-1}=8+\\frac{\\sqrt{3}-1}{2}$$．  $$2^{\\circ}$$猜想$$a_{2n}=3n-1+\\frac{\\sqrt{3}-1}{2}$$，  用数学归纳法证明，  ①$$n=1$$时显然；  ②若$$n=k$$时成立，即$$a_{2k}=3k-1+\\frac{\\sqrt{3}-1}{2}$$，  则$$a_{2k+1}=\\left[a_{2k}\\right]+\\frac{1}{ {a_{2k} }}=3k-1+\\frac{2}{\\sqrt{3}-1}=3k+1+\\left(\\sqrt{3}-1\\right)$$，  $$\\Rightarrow a_{2k+2}=\\left[a_{2k+1}\\right]+\\frac{1}{ {a_{2k+1} }}=3k+1+\\frac{1}{\\sqrt{3}-1}=3k+2+\\frac{\\sqrt{3}-1}{2}$$，得证．  故，$${{a}_{2020}}=3\\times 1010-1+\\frac{\\sqrt{3}-1}{2}=3029+\\frac{\\sqrt{3}-1}{2}$$．",
+      "solution_plain": "1^ 迭代几项尝试一下， a_1= 3 =1+( 3 -1) ， a_2 =[a_1]+ 1 a _ n =1+ 1 3 -1 =2+ 3 -1 2 ， a _ 3 =[ a _ 2 ]+ 1 a _ 2 =2+ 2 3 -1 =4+( 3 -1) ， a _ 4 =[ a _ 3 ]+ 1 a _ 3 =4+ 1 3 -1 =5+ 3 -1 2 ， a _ 5 =[ a _ 4 ]+ 1 a _ 4 =5+ 2 3 -1 =7+( 3 -1) ， a _ 6 =[ a _ 5 ]+ 1 a _ 5 =7+ 1 3 -1 =8+ 3 -1 2 ． 2^ 猜想 a_ 2n =3n-1+ 3 -1 2 ， 用数学归纳法证明， ① n=1 时显然； ②若 n=k 时成立，即 a_ 2k =3k-1+ 3 -1 2 ， 则 a_ 2k+1 = [a_ 2k ]+ 1 a_ 2k =3k-1+ 2 3 -1 =3k+1+ ( 3 -1 ) ， a_ 2k+2 = [a_ 2k+1 ]+ 1 a_ 2k+1 =3k+1+ 1 3 -1 =3k+2+ 3 -1 2 ，得证． 故， a _ 2020 =3 1010-1+ 3 -1 2 =3029+ 3 -1 2 ．"
+    },
+    "answer": {
+      "final_raw": "3029+\\dfrac{\\sqrt{3}-1}{2}",
+      "final_normalized": "3029+\\dfrac{\\sqrt{3}-1}{2}",
+      "candidates": [
+        "3029+\\dfrac{\\sqrt{3}-1}{2}",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Prealgebra",
+      "subject_slug": "prealgebra",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$1^{\\circ}$$迭代几项尝试一下，  $$a_1=\\sqrt{3}=1+(\\sqrt{3}-1)$$，  $$\\Rightarrow{a_2}=[a_1]+\\frac{1}{\\left { {{a}_{n}} \\right }}=1+\\frac{1}{\\sqrt{3}-1}=2+\\frac{\\sqrt{3}-1}{2}$$，  $$\\Rightarrow{{a}_{3}}=[{{a}_{2}}]+\\frac{1}{\\left { {{a}_{2}} \\right }}=2+\\frac{2}{\\sqrt{3}-1}=4+(\\sqrt{3}-1)$$，  $$\\Rightarrow{{a}_{4}}=[{{a}_{3}}]+\\frac{1}{\\left { {{a}_{3}} \\right }}=4+\\frac{1}{\\sqrt{3}-1}=5+\\frac{\\sqrt{3}-1}{2}$$，  $$\\Rightarrow{{a}_{5}}=[{{a}_{4}}]+\\frac{1}{\\left { {{a}_{4}} \\right }}=5+\\frac{2}{\\sqrt{3}-1}=7+(\\sqrt{3}-1)$$，  $$\\Rightarrow{{a}_{6}}=[{{a}_{5}}]+\\frac{1}{\\left { {{a}_{5}} \\right }}=7+\\frac{1}{\\sqrt{3}-1}=8+\\frac{\\sqrt{3}-1}{2}$$．  $$2^{\\circ}$$猜想$$a_{2n}=3n-1+\\frac{\\sqrt{3}-1}{2}$$，  用数学归纳法证明，  ①$$n=1$$时显然；  ②若$$n=k$$时成立，即$$a_{2k}=3k-1+\\frac{\\sqrt{3}-1}{2}$$，  则$$a_{2k+1}=\\left[a_{2k}\\right]+\\frac{1}{ {a_{2k} }}=3k-1+\\frac{2}{\\sqrt{3}-1}=3k+1+\\left(\\sqrt{3}-1\\right)$$，  $$\\Rightarrow a_{2k+2}=\\left[a_{2k+1}\\right]+\\frac{1}{ {a_{2k+1} }}=3k+1+\\frac{1}{\\sqrt{3}-1}=3k+2+\\frac{\\sqrt{3}-1}{2}$$，得证．  故，$${{a}_{2020}}=3\\times 1010-1+\\frac{\\sqrt{3}-1}{2}=3029+\\frac{\\sqrt{3}-1}{2}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "数列 a_n 满足: a_0= 3 , a_ n+1 =[a_n]+ 1 a_n (其中 [a_n] 和 a_n 分别表示实数 x 的整数部分与小数部分), 则 a_ 2020 = ． (A) 3029+ 3 -1 2 (B) 3032+ 3 -1 2 (C) 3035+ 3 -1 2 (D) 前三个答案都不对",
+      "solution_text": "1^ 迭代几项尝试一下， a_1= 3 =1+( 3 -1) ， a_2 =[a_1]+ 1 a _ n =1+ 1 3 -1 =2+ 3 -1 2 ， a _ 3 =[ a _ 2 ]+ 1 a _ 2 =2+ 2 3 -1 =4+( 3 -1) ， a _ 4 =[ a _ 3 ]+ 1 a _ 3 =4+ 1 3 -1 =5+ 3 -1 2 ， a _ 5 =[ a _ 4 ]+ 1 a _ 4 =5+ 2 3 -1 =7+( 3 -1) ， a _ 6 =[ a _ 5 ]+ 1 a _ 5 =7+ 1 3 -1 =8+ 3 -1 2 ． 2^ 猜想 a_ 2n =3n-1+ 3 -1 2 ， 用数学归纳法证明， ① n=1 时显然； ②若 n=k 时成立，即 a_ 2k =3k-1+ 3 -1 2 ， 则 a_ 2k+1 = [a_ 2k ]+ 1 a_ 2k =3k-1+ 2 3 -1 =3k+1+ ( 3 -1 ) ， a_ 2k+2 = [a_ 2k+1 ]+ 1 a_ 2k+1 =3k+1+ 1 3 -1 =3k+2+ 3 -1 2 ，得证． 故， a _ 2020 =3 1010-1+ 3 -1 2 =3029+ 3 -1 2 ．",
+      "keywords": [
+        "level_4",
+        "prealgebra",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_train"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "828",
+        "queId": "77a73cbc5992493e868ab3113dba5f1d",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3029+\\dfrac{\\sqrt{3}-1}{2}"
+          },
+          {
+            "label": "B",
+            "content": "3032+\\dfrac{\\sqrt{3}-1}{2}"
+          },
+          {
+            "label": "C",
+            "content": "3035+\\dfrac{\\sqrt{3}-1}{2}"
+          },
+          {
+            "label": "D",
+            "content": "前三个答案都不对"
+          }
+        ],
+        "knowledge_point_routes": [
+          "知识标签->知识点->数列->数列的概念->数列的表示方法->通项公式"
+        ],
+        "competition_source_list": [
+          "2019年江西全国高中数学联赛竞赛初赛改编第8题"
+        ]
+      }
+    }
+  }
+]

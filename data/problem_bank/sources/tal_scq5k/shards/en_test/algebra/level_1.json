@@ -1,0 +1,2897 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:00784",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 784,
+      "split": "en_test",
+      "source_problem_id": "61a7a0b23a55455381f758881d1979d6"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "To calculate the area of a rectangle with a length of $$7$$ and a breadth of $$5$$, we can use $$7\\times 5$$. Therefore, the formula of a rectangle can be summarised as:．\n(A) Area of rectangle $$=$$ breadth $$\\times $$ breadth\n(B) Area of rectangle $$=$$ length $$\\times $$ length\n(C) Area of rectangle $$=$$ length $$\\times $$ breadth",
+      "problem_plain": "To calculate the area of a rectangle with a length of 7 and a breadth of 5 , we can use 7 5 . Therefore, the formula of a rectangle can be summarised as:． (A) Area of rectangle = breadth breadth (B) Area of rectangle = length length (C) Area of rectangle = length breadth",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "Area of rectangle $$=$$ length $$\\times $$ breadth",
+      "final_normalized": "Area of rectangle $$=$$ length $$\\times $$ breadth",
+      "candidates": [
+        "Area of rectangle $$=$$ length $$\\times $$ breadth",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "To calculate the area of a rectangle with a length of 7 and a breadth of 5 , we can use 7 5 . Therefore, the formula of a rectangle can be summarised as:． (A) Area of rectangle = breadth breadth (B) Area of rectangle = length length (C) Area of rectangle = length breadth",
+      "solution_text": "N/A.",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2660",
+        "queId": "61a7a0b23a55455381f758881d1979d6",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Area of rectangle $$=$$ breadth $$\\times $$ breadth"
+          },
+          {
+            "label": "B",
+            "content": "Area of rectangle $$=$$ length $$\\times $$ length"
+          },
+          {
+            "label": "C",
+            "content": "Area of rectangle $$=$$ length $$\\times $$ breadth"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:00901",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 901,
+      "split": "en_test",
+      "source_problem_id": "1409b5deb37a4fe2b08d578ea534274a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Simplify the expression． ~\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}  $$a+2a=$$~\\uline{~~~~~~~~~~}~\n(A) 2a\n(B) a+2a\n(C) 3a\n(D) a3",
+      "problem_plain": "Simplify the expression． ~ 0pt 0pt 0pt 0pt 0pt 0pt a+2a= ~ ~~~~~~~~~~ ~ (A) 2a (B) a+2a (C) 3a (D) a3",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "3a",
+      "final_normalized": "3a",
+      "candidates": [
+        "3a",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Simplify the expression． ~ 0pt 0pt 0pt 0pt 0pt 0pt a+2a= ~ ~~~~~~~~~~ ~ (A) 2a (B) a+2a (C) 3a (D) a3",
+      "solution_text": "N/A.",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3040",
+        "queId": "1409b5deb37a4fe2b08d578ea534274a",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2a"
+          },
+          {
+            "label": "B",
+            "content": "a+2a"
+          },
+          {
+            "label": "C",
+            "content": "3a"
+          },
+          {
+            "label": "D",
+            "content": "a3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:00954",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 954,
+      "split": "en_test",
+      "source_problem_id": "110fa32c42e74ad68b265bc97a55a95b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Amy has $a$ lollipops. Anna has $6$ more lollipops than Amy. Anna has~\\uline{~~~~~~~~~~}~lollipops.\n(A) a-6\n(B) a+6\n(C) 16\n(D) 6",
+      "problem_plain": "Amy has a lollipops. Anna has 6 more lollipops than Amy. Anna has~ ~~~~~~~~~~ ~lollipops. (A) a-6 (B) a+6 (C) 16 (D) 6",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "a+6",
+      "final_normalized": "a+6",
+      "candidates": [
+        "B",
+        "a+6"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Amy has a lollipops. Anna has 6 more lollipops than Amy. Anna has~ ~~~~~~~~~~ ~lollipops. (A) a-6 (B) a+6 (C) 16 (D) 6",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "3224",
+        "queId": "110fa32c42e74ad68b265bc97a55a95b",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "a-6"
+          },
+          {
+            "label": "B",
+            "content": "a+6"
+          },
+          {
+            "label": "C",
+            "content": "16"
+          },
+          {
+            "label": "D",
+            "content": "6"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:00965",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 965,
+      "split": "en_test",
+      "source_problem_id": "6b58b279cbe44b7699615d22a77b7cbb"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following is NOT an algebraic expression?\n(A) 3b-b\n(B) 3b-b=8\n(C) -b\n(D) 3",
+      "problem_plain": "Which of the following is NOT an algebraic expression? (A) 3b-b (B) 3b-b=8 (C) -b (D) 3",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "3b-b=8",
+      "final_normalized": "3b-b=8",
+      "candidates": [
+        "3b-b=8",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following is NOT an algebraic expression? (A) 3b-b (B) 3b-b=8 (C) -b (D) 3",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "3268",
+        "queId": "6b58b279cbe44b7699615d22a77b7cbb",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3b-b"
+          },
+          {
+            "label": "B",
+            "content": "3b-b=8"
+          },
+          {
+            "label": "C",
+            "content": "-b"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01096",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1096,
+      "split": "en_test",
+      "source_problem_id": "1b5eaedf742841e3921f66b2db3eb845"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The product of~$z$~and~$-1$~is ．\n(A) -1\\times z\n(B) -z\n(C) -1z",
+      "problem_plain": "The product of~ z ~and~ -1 ~is ． (A) -1 z (B) -z (C) -1z",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "-z",
+      "final_normalized": "-z",
+      "candidates": [
+        "-z",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The product of~ z ~and~ -1 ~is ． (A) -1 z (B) -z (C) -1z",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "3750",
+        "queId": "1b5eaedf742841e3921f66b2db3eb845",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "-1\\times z"
+          },
+          {
+            "label": "B",
+            "content": "-z"
+          },
+          {
+            "label": "C",
+            "content": "-1z"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01105",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1105,
+      "split": "en_test",
+      "source_problem_id": "62ad1ab7419047279450c0094a29a65c"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Simplify $$4\\times a+b\\times b$$. Which one is right?\n(A) 4abb\n(B) 8ab\n(C) 4a{{b}^{2}}\n(D) 4a+{{b}^{2}}\n(E) 4a+2b",
+      "problem_plain": "Simplify 4 a+b b . Which one is right? (A) 4abb (B) 8ab (C) 4a b ^ 2 (D) 4a+ b ^ 2 (E) 4a+2b",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "4a+{{b}^{2}}",
+      "final_normalized": "4a+{{b}^{2}}",
+      "candidates": [
+        "4a+{{b}^{2}}",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Simplify 4 a+b b . Which one is right? (A) 4abb (B) 8ab (C) 4a b ^ 2 (D) 4a+ b ^ 2 (E) 4a+2b",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "3795",
+        "queId": "62ad1ab7419047279450c0094a29a65c",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4abb"
+          },
+          {
+            "label": "B",
+            "content": "8ab"
+          },
+          {
+            "label": "C",
+            "content": "4a{{b}^{2}}"
+          },
+          {
+            "label": "D",
+            "content": "4a+{{b}^{2}}"
+          },
+          {
+            "label": "E",
+            "content": "4a+2b"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01108",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1108,
+      "split": "en_test",
+      "source_problem_id": "30cb96c375ab4324b4a549cf3b899e6e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "How many of the following options are equations?  1.~$x=y$  2.~$x\\gt1$  3.~$x\\geqslant x-1$  4.~$1=2$\n(A) 0\n(B) 1\n(C) 2\n(D) 3",
+      "problem_plain": "How many of the following options are equations? 1.~ x=y 2.~ x 1 3.~ x x-1 4.~ 1=2 (A) 0 (B) 1 (C) 2 (D) 3",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "How many of the following options are equations? 1.~ x=y 2.~ x 1 3.~ x x-1 4.~ 1=2 (A) 0 (B) 1 (C) 2 (D) 3",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "3806",
+        "queId": "30cb96c375ab4324b4a549cf3b899e6e",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "1"
+          },
+          {
+            "label": "C",
+            "content": "2"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01121",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1121,
+      "split": "en_test",
+      "source_problem_id": "39e0f22696a84bb2a244093a2f077205"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "After simplifying the following expressions, which one is different from others?\n(A) (2x+y)-(x-y)\n(B) (5x-y)+(-4x+3y)\n(C) (3x+y)-(y-2x)\n(D) (4x+y)-(3x-y)",
+      "problem_plain": "After simplifying the following expressions, which one is different from others? (A) (2x+y)-(x-y) (B) (5x-y)+(-4x+3y) (C) (3x+y)-(y-2x) (D) (4x+y)-(3x-y)",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "(3x+y)-(y-2x)",
+      "final_normalized": "(3x+y)-(y-2x)",
+      "candidates": [
+        "(3x+y)-(y-2x)",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "After simplifying the following expressions, which one is different from others? (A) (2x+y)-(x-y) (B) (5x-y)+(-4x+3y) (C) (3x+y)-(y-2x) (D) (4x+y)-(3x-y)",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "3883",
+        "queId": "39e0f22696a84bb2a244093a2f077205",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "(2x+y)-(x-y)"
+          },
+          {
+            "label": "B",
+            "content": "(5x-y)+(-4x+3y)"
+          },
+          {
+            "label": "C",
+            "content": "(3x+y)-(y-2x)"
+          },
+          {
+            "label": "D",
+            "content": "(4x+y)-(3x-y)"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01129",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1129,
+      "split": "en_test",
+      "source_problem_id": "200a7e4ec63f4dad9b777506c81b390f"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The graph of $y=x-3$ does not pass through which quadrant?\n(A) Quadrant $I\n(B) Quadrant $II\n(C) Quadrant $III\n(D) Quadrant $IV",
+      "problem_plain": "The graph of y=x-3 does not pass through which quadrant? (A) Quadrant I (B) Quadrant II (C) Quadrant III (D) Quadrant IV",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "Quadrant $II",
+      "final_normalized": "Quadrant $II",
+      "candidates": [
+        "B",
+        "Quadrant $II"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The graph of y=x-3 does not pass through which quadrant? (A) Quadrant I (B) Quadrant II (C) Quadrant III (D) Quadrant IV",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "3911",
+        "queId": "200a7e4ec63f4dad9b777506c81b390f",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Quadrant $I"
+          },
+          {
+            "label": "B",
+            "content": "Quadrant $II"
+          },
+          {
+            "label": "C",
+            "content": "Quadrant $III"
+          },
+          {
+            "label": "D",
+            "content": "Quadrant $IV"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01161",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1161,
+      "split": "en_test",
+      "source_problem_id": "2d07609e2a8b45529d70309905824b6b"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Jasson was selling some old stationery. A set of pens cost $\\textbackslash$5x$ and a set of pencil cost $\\textbackslash$y$. He then bought some new clothes for $\\textbackslash$2x$. What is the amount of money Jasson has now in terms of $x$ and $y$?\n(A) \\textbackslash$(3x+y)\n(B) \\textbackslash$(3x-y)\n(C) \\textbackslash$(7x-y)\n(D) \\textbackslash$(7x+y)",
+      "problem_plain": "Jasson was selling some old stationery. A set of pens cost 5x and a set of pencil cost y . He then bought some new clothes for 2x . What is the amount of money Jasson has now in terms of x and y ? (A) (3x+y) (B) (3x-y) (C) (7x-y) (D) (7x+y)",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "\\textbackslash$(3x+y)",
+      "final_normalized": "\\textbackslash$(3x+y)",
+      "candidates": [
+        "A",
+        "\\textbackslash$(3x+y)"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Jasson was selling some old stationery. A set of pens cost 5x and a set of pencil cost y . He then bought some new clothes for 2x . What is the amount of money Jasson has now in terms of x and y ? (A) (3x+y) (B) (3x-y) (C) (7x-y) (D) (7x+y)",
+      "solution_text": "N/A.",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "4025",
+        "queId": "2d07609e2a8b45529d70309905824b6b",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\textbackslash$(3x+y)"
+          },
+          {
+            "label": "B",
+            "content": "\\textbackslash$(3x-y)"
+          },
+          {
+            "label": "C",
+            "content": "\\textbackslash$(7x-y)"
+          },
+          {
+            "label": "D",
+            "content": "\\textbackslash$(7x+y)"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01182",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1182,
+      "split": "en_test",
+      "source_problem_id": "3ee192f8f2ef4f398099846fa23b28ff"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which is the solution of the following inequality:  $-21x-11\\geq-31-x$.\n(A) x\\leq-1\n(B) x\\geq-1\n(C) x\\leq1\n(D) x\\geq1",
+      "problem_plain": "Which is the solution of the following inequality: -21x-11 -31-x . (A) x -1 (B) x -1 (C) x 1 (D) x 1",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "x\\leq1",
+      "final_normalized": "x\\leq1",
+      "candidates": [
+        "C",
+        "x\\leq1"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "inequalities"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "inequalities",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which is the solution of the following inequality: -21x-11 -31-x . (A) x -1 (B) x -1 (C) x 1 (D) x 1",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "inequalities",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4119",
+        "queId": "3ee192f8f2ef4f398099846fa23b28ff",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "x\\leq-1"
+          },
+          {
+            "label": "B",
+            "content": "x\\geq-1"
+          },
+          {
+            "label": "C",
+            "content": "x\\leq1"
+          },
+          {
+            "label": "D",
+            "content": "x\\geq1"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Inequalities"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01191",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1191,
+      "split": "en_test",
+      "source_problem_id": "f5f20062afcc4c23b16a3cec1dcac727"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The function $$y=a\\times 2^{}x$$ is constant when $$a=$$~\\uline{~~~~~~~~~~}~, the function $$y=2\\times b^{}x$$ is constant when $$b=$$~\\uline{~~~~~~~~~~}~.\n(A) 1,1\n(B) -1,-1\n(C) 0,1\n(D) 0,-1",
+      "problem_plain": "The function y=a 2^ x is constant when a= ~ ~~~~~~~~~~ ~, the function y=2 b^ x is constant when b= ~ ~~~~~~~~~~ ~. (A) 1,1 (B) -1,-1 (C) 0,1 (D) 0,-1",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "0,1",
+      "final_normalized": "0,1",
+      "candidates": [
+        "0,1",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "calculation_modules",
+        "computing_powers",
+        "exponentiation_of_powers",
+        "power"
+      ],
+      "tags": [
+        "algebra",
+        "calculation_modules",
+        "computing_powers",
+        "en",
+        "en_test",
+        "exponentiation_of_powers",
+        "level_1",
+        "power",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The function y=a 2^ x is constant when a= ~ ~~~~~~~~~~ ~, the function y=2 b^ x is constant when b= ~ ~~~~~~~~~~ ~. (A) 1,1 (B) -1,-1 (C) 0,1 (D) 0,-1",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "calculation_modules",
+        "computing_powers",
+        "en",
+        "en_test",
+        "exponentiation_of_powers",
+        "level_1",
+        "power",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4157",
+        "queId": "f5f20062afcc4c23b16a3cec1dcac727",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1,1"
+          },
+          {
+            "label": "B",
+            "content": "-1,-1"
+          },
+          {
+            "label": "C",
+            "content": "0,1"
+          },
+          {
+            "label": "D",
+            "content": "0,-1"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Power->Computing Powers->Exponentiation of Powers"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01243",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1243,
+      "split": "en_test",
+      "source_problem_id": "2e57ceb4b9e34473bbd022c6f7cbbbee"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Eddie has $$y$$ toys. Bob has $$150$$ more than two times the number of toys Eddie has. Bob hastoys．\n(A) 2y+150\n(B) 2(y+150)\n(C) 2y-150\n(D) 2(y-150)",
+      "problem_plain": "Eddie has y toys. Bob has 150 more than two times the number of toys Eddie has. Bob hastoys． (A) 2y+150 (B) 2(y+150) (C) 2y-150 (D) 2(y-150)",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "2y+150",
+      "final_normalized": "2y+150",
+      "candidates": [
+        "2y+150",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Eddie has y toys. Bob has 150 more than two times the number of toys Eddie has. Bob hastoys． (A) 2y+150 (B) 2(y+150) (C) 2y-150 (D) 2(y-150)",
+      "solution_text": "N/A.",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "4400",
+        "queId": "2e57ceb4b9e34473bbd022c6f7cbbbee",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2y+150"
+          },
+          {
+            "label": "B",
+            "content": "2(y+150)"
+          },
+          {
+            "label": "C",
+            "content": "2y-150"
+          },
+          {
+            "label": "D",
+            "content": "2(y-150)"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01254",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1254,
+      "split": "en_test",
+      "source_problem_id": "36ff4e11f2e7414d829dcbe3b119a73e"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Expressions: The combination of numbers, symbols and operators.  (1) A single number or a single letter can be considered an algebraic expression.  (2) Equations and inequalities are NOT expressions.  Which of the following is \\textbf{NOT} an expression?\n(A) 3\n(B) a\n(C) a+b=a+b\n(D) b+1+a",
+      "problem_plain": "Expressions: The combination of numbers, symbols and operators. (1) A single number or a single letter can be considered an algebraic expression. (2) Equations and inequalities are NOT expressions. Which of the following is NOT an expression? (A) 3 (B) a (C) a+b=a+b (D) b+1+a",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "a+b=a+b",
+      "final_normalized": "a+b=a+b",
+      "candidates": [
+        "C",
+        "a+b=a+b"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Expressions: The combination of numbers, symbols and operators. (1) A single number or a single letter can be considered an algebraic expression. (2) Equations and inequalities are NOT expressions. Which of the following is NOT an expression? (A) 3 (B) a (C) a+b=a+b (D) b+1+a",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4433",
+        "queId": "36ff4e11f2e7414d829dcbe3b119a73e",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "a"
+          },
+          {
+            "label": "C",
+            "content": "a+b=a+b"
+          },
+          {
+            "label": "D",
+            "content": "b+1+a"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01298",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1298,
+      "split": "en_test",
+      "source_problem_id": "5abc676677a2420faf8ce4787d01bdba"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The graph of $y=-3x-1$ does not pass through which quadrant?\n(A) Quadrant $I\n(B) Quadrant $II\n(C) Quadrant $III\n(D) Quadrant $IV",
+      "problem_plain": "The graph of y=-3x-1 does not pass through which quadrant? (A) Quadrant I (B) Quadrant II (C) Quadrant III (D) Quadrant IV",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "Quadrant $I",
+      "final_normalized": "Quadrant $I",
+      "candidates": [
+        "A",
+        "Quadrant $I"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The graph of y=-3x-1 does not pass through which quadrant? (A) Quadrant I (B) Quadrant II (C) Quadrant III (D) Quadrant IV",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4571",
+        "queId": "5abc676677a2420faf8ce4787d01bdba",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Quadrant $I"
+          },
+          {
+            "label": "B",
+            "content": "Quadrant $II"
+          },
+          {
+            "label": "C",
+            "content": "Quadrant $III"
+          },
+          {
+            "label": "D",
+            "content": "Quadrant $IV"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01368",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1368,
+      "split": "en_test",
+      "source_problem_id": "525d5e0ca7e04894835757d37ec9f647"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "After simplying the following expressions, which one is different from others?\n(A) (x+y)-(x-y)\n(B) (2x+3y)+(-2x-y)\n(C) \\frac{8y}{4}\n(D) (x-y)+(-x+y)",
+      "problem_plain": "After simplying the following expressions, which one is different from others? (A) (x+y)-(x-y) (B) (2x+3y)+(-2x-y) (C) 8y 4 (D) (x-y)+(-x+y)",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "(x-y)+(-x+y)",
+      "final_normalized": "(x-y)+(-x+y)",
+      "candidates": [
+        "(x-y)+(-x+y)",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "After simplying the following expressions, which one is different from others? (A) (x+y)-(x-y) (B) (2x+3y)+(-2x-y) (C) 8y 4 (D) (x-y)+(-x+y)",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4810",
+        "queId": "525d5e0ca7e04894835757d37ec9f647",
+        "difficulty": "0",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "(x+y)-(x-y)"
+          },
+          {
+            "label": "B",
+            "content": "(2x+3y)+(-2x-y)"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{8y}{4}"
+          },
+          {
+            "label": "D",
+            "content": "(x-y)+(-x+y)"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01385",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1385,
+      "split": "en_test",
+      "source_problem_id": "410c41737cd146808b772f89ff22cea4"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following algebraic expressions is written correctly?\n(A) 2\\dfrac{1}{3}abc\n(B) ay\\cdot3\n(C) \\dfrac{ab}{4}\n(D) a\\times b+c",
+      "problem_plain": "Which of the following algebraic expressions is written correctly? (A) 2 1 3 abc (B) ay 3 (C) ab 4 (D) a b+c",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "\\dfrac{ab}{4}",
+      "final_normalized": "\\dfrac{ab}{4}",
+      "candidates": [
+        "C",
+        "\\dfrac{ab}{4}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following algebraic expressions is written correctly? (A) 2 1 3 abc (B) ay 3 (C) ab 4 (D) a b+c",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "4880",
+        "queId": "410c41737cd146808b772f89ff22cea4",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2\\dfrac{1}{3}abc"
+          },
+          {
+            "label": "B",
+            "content": "ay\\cdot3"
+          },
+          {
+            "label": "C",
+            "content": "\\dfrac{ab}{4}"
+          },
+          {
+            "label": "D",
+            "content": "a\\times b+c"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01412",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1412,
+      "split": "en_test",
+      "source_problem_id": "52e65280310c489b91bb62261fc66284"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Eddie has $$y$$ toys. Bob has $$150$$ more than two times the number of toys Eddie has. Bob hastoys．\n(A) 2y+150\n(B) 2(y+150)\n(C) 2y-150\n(D) 2(y-150)",
+      "problem_plain": "Eddie has y toys. Bob has 150 more than two times the number of toys Eddie has. Bob hastoys． (A) 2y+150 (B) 2(y+150) (C) 2y-150 (D) 2(y-150)",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "2y+150",
+      "final_normalized": "2y+150",
+      "candidates": [
+        "2y+150",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Eddie has y toys. Bob has 150 more than two times the number of toys Eddie has. Bob hastoys． (A) 2y+150 (B) 2(y+150) (C) 2y-150 (D) 2(y-150)",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "5001",
+        "queId": "52e65280310c489b91bb62261fc66284",
+        "difficulty": "0",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2y+150"
+          },
+          {
+            "label": "B",
+            "content": "2(y+150)"
+          },
+          {
+            "label": "C",
+            "content": "2y-150"
+          },
+          {
+            "label": "D",
+            "content": "2(y-150)"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01425",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1425,
+      "split": "en_test",
+      "source_problem_id": "64d1ddcf2b5b4bd69d2317773959585a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which of the following inequalities is always true?\n(A) 57+x\\textgreater75\n(B) 74\\textless47\n(C) 24\\leq26\n(D) 24\\geq26",
+      "problem_plain": "Which of the following inequalities is always true? (A) 57+x 75 (B) 74 47 (C) 24 26 (D) 24 26",
+      "solution_latex": "N/A",
+      "solution_plain": "N/A"
+    },
+    "answer": {
+      "final_raw": "24\\leq26",
+      "final_normalized": "24\\leq26",
+      "candidates": [
+        "24\\leq26",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "inequalities"
+      ],
+      "tags": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "inequalities",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which of the following inequalities is always true? (A) 57+x 75 (B) 74 47 (C) 24 26 (D) 24 26",
+      "solution_text": "N/A",
+      "keywords": [
+        "algebra",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "inequalities",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "5054",
+        "queId": "64d1ddcf2b5b4bd69d2317773959585a",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "57+x\\textgreater75"
+          },
+          {
+            "label": "B",
+            "content": "74\\textless47"
+          },
+          {
+            "label": "C",
+            "content": "24\\leq26"
+          },
+          {
+            "label": "D",
+            "content": "24\\geq26"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Inequalities"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01453",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1453,
+      "split": "en_test",
+      "source_problem_id": "65074380ffd84e88902cff2bc18a6ecc"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "$\\frac{3a}{5}+\\frac{2b}{5}-\\frac{a}{2}$ =~\\uline{~~~~~~~~~~}~.\n(A) \\frac{1}{2}a\n(B) a+\\frac{2}{5}b\n(C) \\frac{1}{10}a+\\frac{2}{5}b\n(D) \\frac{5}{3}a",
+      "problem_plain": "3a 5 + 2b 5 - a 2 =~ ~~~~~~~~~~ ~. (A) 1 2 a (B) a+ 2 5 b (C) 1 10 a+ 2 5 b (D) 5 3 a",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "\\frac{1}{10}a+\\frac{2}{5}b",
+      "final_normalized": "\\frac{1}{10}a+\\frac{2}{5}b",
+      "candidates": [
+        "C",
+        "\\frac{1}{10}a+\\frac{2}{5}b"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "3a 5 + 2b 5 - a 2 =~ ~~~~~~~~~~ ~. (A) 1 2 a (B) a+ 2 5 b (C) 1 10 a+ 2 5 b (D) 5 3 a",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "5139",
+        "queId": "65074380ffd84e88902cff2bc18a6ecc",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{1}{2}a"
+          },
+          {
+            "label": "B",
+            "content": "a+\\frac{2}{5}b"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{1}{10}a+\\frac{2}{5}b"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{5}{3}a"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01698",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1698,
+      "split": "en_test",
+      "source_problem_id": "ae7aa4bcda7a4fae900759f51e8b71e7"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Simplify the expression． ~\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}\\hspace{0pt}  $$a+2a=$$~\\uline{~~~~~~~~~~}~\n(A) 2a\n(B) a+2a\n(C) 3a\n(D) a3",
+      "problem_plain": "Simplify the expression． ~ 0pt 0pt 0pt 0pt 0pt 0pt a+2a= ~ ~~~~~~~~~~ ~ (A) 2a (B) a+2a (C) 3a (D) a3",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "3a",
+      "final_normalized": "3a",
+      "candidates": [
+        "3a",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Simplify the expression． ~ 0pt 0pt 0pt 0pt 0pt 0pt a+2a= ~ ~~~~~~~~~~ ~ (A) 2a (B) a+2a (C) 3a (D) a3",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "6009",
+        "queId": "ae7aa4bcda7a4fae900759f51e8b71e7",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2a"
+          },
+          {
+            "label": "B",
+            "content": "a+2a"
+          },
+          {
+            "label": "C",
+            "content": "3a"
+          },
+          {
+            "label": "D",
+            "content": "a3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01734",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1734,
+      "split": "en_test",
+      "source_problem_id": "a5fcee5a672c4df493a314640219ddff"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "$3a-2b-2a+3b$ =~\\uline{~~~~~~~~~~}~.\n(A) 1+b\n(B) a-b\n(C) a+b\n(D) a-5b",
+      "problem_plain": "3a-2b-2a+3b =~ ~~~~~~~~~~ ~. (A) 1+b (B) a-b (C) a+b (D) a-5b",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "a+b",
+      "final_normalized": "a+b",
+      "candidates": [
+        "C",
+        "a+b"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "equivalent_substitution"
+      ],
+      "tags": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "3a-2b-2a+3b =~ ~~~~~~~~~~ ~. (A) 1+b (B) a-b (C) a+b (D) a-5b",
+      "solution_text": "",
+      "keywords": [
+        "algebra",
+        "algebraic_expressions",
+        "basic_concepts_of_equation",
+        "calculation_modules",
+        "en",
+        "en_test",
+        "equivalent_substitution",
+        "level_1",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "6159",
+        "queId": "a5fcee5a672c4df493a314640219ddff",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1+b"
+          },
+          {
+            "label": "B",
+            "content": "a-b"
+          },
+          {
+            "label": "C",
+            "content": "a+b"
+          },
+          {
+            "label": "D",
+            "content": "a-5b"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Calculation Modules->Basic Concepts of Equation->Equivalent Substitution->Algebraic Expressions"
+        ],
+        "competition_source_list": []
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:algebra:level_1:01921",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1921,
+      "split": "en_test",
+      "source_problem_id": "4a9b6870bdee4b4aa4ab8ab4a975ad0a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Which equation or inequality describes real numbers whose distance from $-5$ is less than or equal to $13$ units?\n(A) \\textbar x-5\\textbar{} \\leq 13\n(B) \\textbar x+5\\textbar{} \\leq 13\n(C) \\textbar x-13\\textbar{} \\leq 5\n(D) \\textbar x+13\\textbar{} \\leq 5\n(E) None",
+      "problem_plain": "Which equation or inequality describes real numbers whose distance from -5 is less than or equal to 13 units? (A) x-5 13 (B) x+5 13 (C) x-13 5 (D) x+13 5 (E) None",
+      "solution_latex": "N/A",
+      "solution_plain": "N/A"
+    },
+    "answer": {
+      "final_raw": "\\textbar x+5\\textbar{} \\leq 13",
+      "final_normalized": "\\textbar x+5\\textbar{} \\leq 13",
+      "candidates": [
+        "B",
+        "\\textbar x+5\\textbar{} \\leq 13"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Algebra",
+      "subject_slug": "algebra",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "absolute_value",
+        "combinatorics",
+        "mathematical_thoughts"
+      ],
+      "tags": [
+        "absolute_value",
+        "algebra",
+        "combinatorics",
+        "en",
+        "en_test",
+        "level_1",
+        "mathematical_thoughts",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Which equation or inequality describes real numbers whose distance from -5 is less than or equal to 13 units? (A) x-5 13 (B) x+5 13 (C) x-13 5 (D) x+13 5 (E) None",
+      "solution_text": "N/A",
+      "keywords": [
+        "absolute_value",
+        "algebra",
+        "combinatorics",
+        "en",
+        "en_test",
+        "level_1",
+        "mathematical_thoughts",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "6843",
+        "queId": "4a9b6870bdee4b4aa4ab8ab4a975ad0a",
+        "difficulty": "0",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\textbar x-5\\textbar{} \\leq 13"
+          },
+          {
+            "label": "B",
+            "content": "\\textbar x+5\\textbar{} \\leq 13"
+          },
+          {
+            "label": "C",
+            "content": "\\textbar x-13\\textbar{} \\leq 5"
+          },
+          {
+            "label": "D",
+            "content": "\\textbar x+13\\textbar{} \\leq 5"
+          },
+          {
+            "label": "E",
+            "content": "None"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Combinatorics->Mathematical Thoughts->Absolute Value"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  }
+]

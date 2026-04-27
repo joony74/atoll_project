@@ -1,0 +1,121 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:geometry:level_1:01487",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1487,
+      "split": "en_test",
+      "source_problem_id": "84df3d1cf138423da554afd47a5cb7b0"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "To calculate the area of a rectangle with a length of $$7$$ and a breadth of $$5$$, we can use $$7\\times 5$$. Therefore, the formula for the area of a rectangle can be summarised as:．\n(A) Area of rectangle $$=$$ breadth $$\\times $$ breadth\n(B) Area of rectangle $$=$$ length $$\\times $$ length\n(C) Area of rectangle $$=$$ length $$\\times $$ breadth",
+      "problem_plain": "To calculate the area of a rectangle with a length of 7 and a breadth of 5 , we can use 7 5 . Therefore, the formula for the area of a rectangle can be summarised as:． (A) Area of rectangle = breadth breadth (B) Area of rectangle = length length (C) Area of rectangle = length breadth",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "Area of rectangle $$=$$ length $$\\times $$ breadth",
+      "final_normalized": "Area of rectangle $$=$$ length $$\\times $$ breadth",
+      "candidates": [
+        "Area of rectangle $$=$$ length $$\\times $$ breadth",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 1",
+      "level_number": 1,
+      "grade_band": "elementary",
+      "concepts": [
+        "geometry_modules",
+        "knowing_graphs",
+        "objects_with_straight_sides"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "geometry",
+        "geometry_modules",
+        "knowing_graphs",
+        "level_1",
+        "objects_with_straight_sides",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "To calculate the area of a rectangle with a length of 7 and a breadth of 5 , we can use 7 5 . Therefore, the formula for the area of a rectangle can be summarised as:． (A) Area of rectangle = breadth breadth (B) Area of rectangle = length length (C) Area of rectangle = length breadth",
+      "solution_text": "N/A.",
+      "keywords": [
+        "en",
+        "en_test",
+        "geometry",
+        "geometry_modules",
+        "knowing_graphs",
+        "level_1",
+        "objects_with_straight_sides",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "5281",
+        "queId": "84df3d1cf138423da554afd47a5cb7b0",
+        "difficulty": "0",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "Area of rectangle $$=$$ breadth $$\\times $$ breadth"
+          },
+          {
+            "label": "B",
+            "content": "Area of rectangle $$=$$ length $$\\times $$ length"
+          },
+          {
+            "label": "C",
+            "content": "Area of rectangle $$=$$ length $$\\times $$ breadth"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Geometry Modules->Objects with Straight Sides->Knowing Graphs"
+        ],
+        "competition_source_list": []
+      }
+    }
+  }
+]

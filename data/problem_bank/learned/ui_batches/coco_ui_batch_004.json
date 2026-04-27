@@ -1,0 +1,1407 @@
+{
+  "schema_version": "coco_problem_bank_image_validation_report.v1",
+  "generated_at": "2026-04-25T11:28:06+00:00",
+  "elapsed_seconds": 8.073,
+  "project_root": "/Volumes/마중나 도킹스테이션/atoll_project",
+  "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+  "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+  "options": {
+    "app_register": true,
+    "band": "초등",
+    "clean_generated_images": false,
+    "clear_app_between_items": false,
+    "clear_app_generated": true,
+    "count_per_grade": 100,
+    "difficulty": "",
+    "force": false,
+    "generate": false,
+    "grade": 0,
+    "limit": 10,
+    "loop": false,
+    "manifest": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/learned/coco_problem_bank_image_validation_manifest.json",
+    "max_cycles": 1,
+    "offset": 30,
+    "output_root": "/Volumes/마중나 도킹스테이션/atoll_project/02.학습문제/05.문제은행",
+    "report": "data/problem_bank/learned/ui_batches/coco_ui_batch_004.json",
+    "seed": 20260425,
+    "sleep_seconds": 1.0,
+    "stop_on_failure": false
+  },
+  "selected_count": 10,
+  "cycle_count": 1,
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "error": 0,
+    "by_band": {
+      "초등": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "error": 0
+      }
+    },
+    "by_topic": {
+      "arithmetic": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "measurement": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "pattern": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      },
+      "statistics": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      }
+    }
+  },
+  "failures": [],
+  "results": [
+    {
+      "case_id": "elementary_g02_011",
+      "band": "초등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "pattern",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/변화와 관계/규칙과 대응/elementary_g02_011_easy_expression_pattern.png",
+      "expected_answer": "28",
+      "expected_expression": "22+6",
+      "computed_answer": "28",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "answer=28",
+      "recognized_expressions": [
+        "answer=28",
+        "*10 =",
+        "10 ="
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.69,
+      "analysis": {
+        "analysis_started_at": 1777116478.2330592,
+        "analysis_finished_at": 1777116478.92341,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 10, 16, 22, 0\n| 초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n“10 =\n규칙을 찾아 빈칸에 알맞은 AS 쓰시오\n4 10, 16, 22, U",
+            "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 10, 16, 22, 0\n| 초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n“10 =\n규칙을 찾아 빈칸에 알맞은 AS 쓰시오\n4 10, 16, 22, U"
+          ],
+          "normalized_problem_text": "answer=28",
+          "expressions": [
+            "answer=28",
+            "*10 =",
+            "10 ="
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/변화와 관계/규칙과 대응/elementary_g02_011_easy_expression_pattern.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 10, 16, 22, 0",
+                "confidence": 0.6799999999999999,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 10, 16, 22, 0",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 10, 16, 22, 0",
+                    "confidence": 0.52
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n“10 =\n규칙을 찾아 빈칸에 알맞은 AS 쓰시오\n4 10, 16, 22, U",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "5599f4a531cc"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "28",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 28야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 28야. 그래서 정답은 28야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 10, 16, 22, 0\n| 초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n“10 =\n규칙을 찾아 빈칸에 알맞은 AS 쓰시오\n4 10, 16, 22, U",
+            "content_text": "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 10, 16, 22, 0\n| 초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n“10 =\n규칙을 찾아 빈칸에 알맞은 AS 쓰시오\n4 10, 16, 22, U",
+            "repaired_text": "",
+            "expressions": [
+              "answer=28",
+              "*10 =",
+              "10 ="
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "28",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g02_011__77de6745"
+    },
+    {
+      "case_id": "elementary_g02_012",
+      "band": "초등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/자료와 가능성/표와 그래프/elementary_g02_012_easy_word_statistics.png",
+      "expected_answer": "53",
+      "expected_expression": "49+23-19",
+      "computed_answer": "53",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "초등 2학년ㆍ표와 그래프ㆍ기본 word - statistics ： AS 2학년ㆍ표와 그래프ㆍ기본 word : statistics ：",
+      "recognized_expressions": [
+        "49+23-19"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.77,
+      "analysis": {
+        "analysis_started_at": 1777116478.92399,
+        "analysis_finished_at": 1777116479.6939561,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 2학년ㆍ표와 그래프ㆍ기본 word - statistics\n민지는 스티커를 498 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 RS\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 SS\n： AS 2학년ㆍ표와 그래프ㆍ기본 word : statistics ：\n민지는 스티커를 49장 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 BA",
+            "초등 2학년ㆍ표와 그래프ㆍ기본 word - statistics\n민지는 스티커를 498 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 RS\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 SS\n： AS 2학년ㆍ표와 그래프ㆍ기본 word : statistics ：\n민지는 스티커를 49장 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 BA"
+          ],
+          "normalized_problem_text": "초등 2학년ㆍ표와 그래프ㆍ기본 word - statistics ： AS 2학년ㆍ표와 그래프ㆍ기본 word : statistics ：",
+          "expressions": [
+            "49+23-19"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "coordinate_geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/자료와 가능성/표와 그래프/elementary_g02_012_easy_word_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 2학년ㆍ표와 그래프ㆍ기본 word - statistics\n민지는 스티커를 498 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 RS",
+                "confidence": 0.72,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 2학년ㆍ표와 그래프ㆍ기본 word - statistics\n민지는 스티커를 498 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 SS",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 2학년ㆍ표와 그래프ㆍ기본 word - statistics\n민지는 스티커를 498 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 RS",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： AS 2학년ㆍ표와 그래프ㆍ기본 word : statistics ：\n민지는 스티커를 49장 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 BA",
+                    "confidence": 0.54
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "3af5c178a932"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "53",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 53야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 53야. 그래서 정답은 53야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 2학년ㆍ표와 그래프ㆍ기본 word - statistics\n민지는 스티커를 498 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 RS\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 SS\n： AS 2학년ㆍ표와 그래프ㆍ기본 word : statistics ：\n민지는 스티커를 49장 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 BA",
+            "content_text": "초등 2학년ㆍ표와 그래프ㆍ기본 word - statistics\n민지는 스티커를 498 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 RS\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 SS\n： AS 2학년ㆍ표와 그래프ㆍ기본 word : statistics ：\n민지는 스티커를 49장 가지고 있었습니다.\n23장을 더 받고, 그중 19장을 사용했습니다. 남은 스티커는 BA",
+            "repaired_text": "",
+            "expressions": [
+              "49+23-19"
+            ],
+            "choices": [],
+            "math_topic": "coordinate_geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "53",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g02_012__98e27fc2"
+    },
+    {
+      "case_id": "elementary_g02_013",
+      "band": "초등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "arithmetic",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/수와 연산/세 자리 수와 곱셈구구/elementary_g02_013_easy_table_arithmetic.png",
+      "expected_answer": "148",
+      "expected_expression": "41+42+19+46",
+      "computed_answer": "148",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 수량은 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "41+42+19+46"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.497,
+      "analysis": {
+        "analysis_started_at": 1777116479.694488,
+        "analysis_finished_at": 1777116481.191703,
+        "structured_problem": {
+          "source_text_candidates": [
+            "： 초등 2학년ㆍ세 자리 수와 곱셈구구ㆍ기본 table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\n초등 2학년ㆍ세 자리 수와 곱셈구구 ㆍ기본 table ㆍ arithmetic\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 4l 42 19 46\ntable_row_2 4 42 19 46",
+            "： 초등 2학년ㆍ세 자리 수와 곱셈구구ㆍ기본 table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\n초등 2학년ㆍ세 자리 수와 곱셈구구 ㆍ기본 table ㆍ arithmetic\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 4l 42 19 46\ntable_row_2 4 42 19 46"
+          ],
+          "normalized_problem_text": "아래 표의 수량은 모두 몇 개인지 구하시오",
+          "expressions": [
+            "41+42+19+46"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/수와 연산/세 자리 수와 곱셈구구/elementary_g02_013_easy_table_arithmetic.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "： 초등 2학년ㆍ세 자리 수와 곱셈구구ㆍ기본 table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\nes ABC\nala la [es",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 2학년ㆍ세 자리 수와 곱셈구구 ㆍ기본 table ㆍ arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\neC",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 2학년ㆍ세 자리 수와 곱셈구구ㆍ기본 table ㆍ arithmetic\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B c D\na 4l 42 19 46",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 초등 2학년ㆍ세 자리 수와 곱셈구구ㆍ기본 table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\nes ABC\nala la [es",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 4 42 19 46",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "1f97f277a7de"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "148",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 148야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 148야. 그래서 정답은 148야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "： 초등 2학년ㆍ세 자리 수와 곱셈구구ㆍ기본 table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\n초등 2학년ㆍ세 자리 수와 곱셈구구 ㆍ기본 table ㆍ arithmetic\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 4l 42 19 46\ntable_row_2 4 42 19 46",
+            "content_text": "： 초등 2학년ㆍ세 자리 수와 곱셈구구ㆍ기본 table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\n초등 2학년ㆍ세 자리 수와 곱셈구구 ㆍ기본 table ㆍ arithmetic\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 4l 42 19 46\ntable_row_2 4 42 19 46",
+            "repaired_text": "",
+            "expressions": [
+              "41+42+19+46"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "148",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g02_013__19a84b7b"
+    },
+    {
+      "case_id": "elementary_g02_014",
+      "band": "초등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "measurement",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/도형과 측정/길이와 시각/elementary_g02_014_easy_expression_measurement.png",
+      "expected_answer": "29",
+      "expected_expression": "15+14",
+      "computed_answer": "29",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "15 + 14"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.421,
+      "analysis": {
+        "analysis_started_at": 1777116481.192225,
+        "analysis_finished_at": 1777116481.61292,
+        "structured_problem": {
+          "source_text_candidates": [
+            "_ 초등 2학년ㆍ길이와 시각ㆍ기본 600016551011: measure\n~ =.\n다음 식의 값을 구하시오.\n15 + 14\n초등 2학년ㆍ길이와 시각ㆍ기본 expression ㆍ measure\n(2) So =",
+            "_ 초등 2학년ㆍ길이와 시각ㆍ기본 600016551011: measure\n~ =.\n다음 식의 값을 구하시오.\n15 + 14\n초등 2학년ㆍ길이와 시각ㆍ기본 expression ㆍ measure\n(2) So ="
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "15 + 14"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/도형과 측정/길이와 시각/elementary_g02_014_easy_expression_measurement.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "_ 초등 2학년ㆍ길이와 시각ㆍ기본 600016551011: measure\n~ =.\n다음 식의 값을 구하시오.\n15 + 14",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 2학년ㆍ길이와 시각ㆍ기본 expression ㆍ measure\n(2) So =\n다음 식의 값을 구하시오.\n15 + 14",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "_ 초등 2학년ㆍ길이와 시각ㆍ기본 600016551011: measure\n~ =.\n다음 식의 값을 구하시오.\n15 + 14",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "0d4253218520"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "29",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 29야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 29야. 그래서 정답은 29야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "_ 초등 2학년ㆍ길이와 시각ㆍ기본 600016551011: measure\n~ =.\n다음 식의 값을 구하시오.\n15 + 14\n초등 2학년ㆍ길이와 시각ㆍ기본 expression ㆍ measure\n(2) So =",
+            "content_text": "_ 초등 2학년ㆍ길이와 시각ㆍ기본 600016551011: measure\n~ =.\n다음 식의 값을 구하시오.\n15 + 14\n초등 2학년ㆍ길이와 시각ㆍ기본 expression ㆍ measure\n(2) So =",
+            "repaired_text": "",
+            "expressions": [
+              "15 + 14"
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "29",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g02_014__b96d924e"
+    },
+    {
+      "case_id": "elementary_g02_015",
+      "band": "초등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "pattern",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/변화와 관계/규칙과 대응/elementary_g02_015_easy_expression_pattern.png",
+      "expected_answer": "27",
+      "expected_expression": "21+6",
+      "computed_answer": "27",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "answer=27",
+      "recognized_expressions": [
+        "answer=27",
+        "~16o =",
+        "10 ="
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.652,
+      "analysis": {
+        "analysis_started_at": 1777116481.613473,
+        "analysis_finished_at": 1777116482.265353,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n3, 9 15, 21, 0\nAS 2학년ㆍ규칙과 대응ㆍ기본 expression - pattern\n~16o =\n규칙을 찾아 빈칸에 알맞은 AS MAIO.\n3,9 15, 21,",
+            "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n3, 9 15, 21, 0\nAS 2학년ㆍ규칙과 대응ㆍ기본 expression - pattern\n~16o =\n규칙을 찾아 빈칸에 알맞은 AS MAIO.\n3,9 15, 21,"
+          ],
+          "normalized_problem_text": "answer=27",
+          "expressions": [
+            "answer=27",
+            "~16o =",
+            "10 ="
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/변화와 관계/규칙과 대응/elementary_g02_015_easy_expression_pattern.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n3, 9 15, 21, 0",
+                "confidence": 0.72,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n3, 9 15, 21, 0",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n3, 9 15, 21, 0",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "AS 2학년ㆍ규칙과 대응ㆍ기본 expression - pattern\n~16o =\n규칙을 찾아 빈칸에 알맞은 AS MAIO.\n3,9 15, 21,",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "f523ddb30d6c"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "27",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 27야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 27야. 그래서 정답은 27야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n3, 9 15, 21, 0\nAS 2학년ㆍ규칙과 대응ㆍ기본 expression - pattern\n~16o =\n규칙을 찾아 빈칸에 알맞은 AS MAIO.\n3,9 15, 21,",
+            "content_text": "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n3, 9 15, 21, 0\nAS 2학년ㆍ규칙과 대응ㆍ기본 expression - pattern\n~16o =\n규칙을 찾아 빈칸에 알맞은 AS MAIO.\n3,9 15, 21,",
+            "repaired_text": "",
+            "expressions": [
+              "answer=27",
+              "~16o =",
+              "10 ="
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "27",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g02_015__3095a05f"
+    },
+    {
+      "case_id": "elementary_g02_016",
+      "band": "초등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/자료와 가능성/표와 그래프/elementary_g02_016_easy_expression_statistics.png",
+      "expected_answer": "387/5",
+      "expected_expression": "(92+89+67+65+74)/5",
+      "computed_answer": "387/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 SAS 구하시오",
+      "recognized_expressions": [
+        "(92+89+67+65+74)/5",
+        "92, 89, 67 65, /4"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.628,
+      "analysis": {
+        "analysis_started_at": 1777116482.265894,
+        "analysis_finished_at": 1777116482.893676,
+        "structured_problem": {
+          "source_text_candidates": [
+            "“ 초등 2학년 ㆍ표와 그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n92, 89, 67 65, /4\n초등 2학년ㆍ표와 그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.\n92, 89, 67, 65, 74",
+            "“ 초등 2학년 ㆍ표와 그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n92, 89, 67 65, /4\n초등 2학년ㆍ표와 그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.\n92, 89, 67, 65, 74"
+          ],
+          "normalized_problem_text": "다음 자료의 SAS 구하시오",
+          "expressions": [
+            "(92+89+67+65+74)/5",
+            "92, 89, 67 65, /4"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "coordinate_geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/자료와 가능성/표와 그래프/elementary_g02_016_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "“ 초등 2학년 ㆍ표와 그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n92, 89, 67 65, /4",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 2학년ㆍ표와 그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.\n92, 89, 67, 65, 74",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 2학년ㆍ표와 그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.\n92, 89, 67, 65, 74",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "“ 초등 2학년 ㆍ표와 그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n92, 89, 67 65, /4",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "35085cea8c34"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "387/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 387/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 387/5야. 그래서 정답은 387/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "“ 초등 2학년 ㆍ표와 그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n92, 89, 67 65, /4\n초등 2학년ㆍ표와 그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.\n92, 89, 67, 65, 74",
+            "content_text": "“ 초등 2학년 ㆍ표와 그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n92, 89, 67 65, /4\n초등 2학년ㆍ표와 그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.\n92, 89, 67, 65, 74",
+            "repaired_text": "",
+            "expressions": [
+              "(92+89+67+65+74)/5",
+              "92, 89, 67 65, /4"
+            ],
+            "choices": [],
+            "math_topic": "coordinate_geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "387/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g02_016__0ef617ed"
+    },
+    {
+      "case_id": "elementary_g02_017",
+      "band": "초등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "arithmetic",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/수와 연산/세 자리 수와 곱셈구구/elementary_g02_017_easy_word_arithmetic.png",
+      "expected_answer": "66",
+      "expected_expression": "53+25-12",
+      "computed_answer": "66",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "53+25-12",
+      "recognized_expressions": [
+        "53+25-12"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.811,
+      "analysis": {
+        "analysis_started_at": 1777116482.894262,
+        "analysis_finished_at": 1777116483.7051032,
+        "structured_problem": {
+          "source_text_candidates": [
+            "Bs 2학년 ㆍ 세 자리 수와 곰섬구구 ㆍ 기온 word - arithmetic\n민지는 스티커를 53장 가지고 있었습니다.\n자으 더 x oO =\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 AEA 몇 장<\n초등 2학년ㆍ세 자리 수와 곱셈구구ㆍ기본 word - arithmetic\n민지는 스티커를 534 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<",
+            "Bs 2학년 ㆍ 세 자리 수와 곰섬구구 ㆍ 기온 word - arithmetic\n민지는 스티커를 53장 가지고 있었습니다.\n자으 더 x oO =\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 AEA 몇 장<\n초등 2학년ㆍ세 자리 수와 곱셈구구ㆍ기본 word - arithmetic\n민지는 스티커를 534 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<"
+          ],
+          "normalized_problem_text": "53+25-12",
+          "expressions": [
+            "53+25-12"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/수와 연산/세 자리 수와 곱셈구구/elementary_g02_017_easy_word_arithmetic.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "Bs 2학년 ㆍ 세 자리 수와 곰섬구구 ㆍ 기온 word - arithmetic\nㄴㄴ\n민지는 스티커를 53장 가지고 있었습니다.\n자으 더 x oO =\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 AEA 몇 장<",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 2학년ㆍ세 자리 수와 곱셈구구ㆍ기본 word - arithmetic\n민지는 스티커를 534 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 2학년ㆍ세 자리 수와 곱셈구구ㆍ기본 word - arithmetic\n민지는 스티커를 534 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "Bs 2학년 ㆍ 세 자리 수와 곰섬구구 ㆍ 기온 word - arithmetic\nㄴㄴ\n민지는 스티커를 53장 가지고 있었습니다.\n자으 더 x oO =\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 AEA 몇 장<",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "0d59d7145890"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "66",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 66야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 66야. 그래서 정답은 66야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "Bs 2학년 ㆍ 세 자리 수와 곰섬구구 ㆍ 기온 word - arithmetic\n민지는 스티커를 53장 가지고 있었습니다.\n자으 더 x oO =\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 AEA 몇 장<\n초등 2학년ㆍ세 자리 수와 곱셈구구ㆍ기본 word - arithmetic\n민지는 스티커를 534 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<",
+            "content_text": "Bs 2학년 ㆍ 세 자리 수와 곰섬구구 ㆍ 기온 word - arithmetic\n민지는 스티커를 53장 가지고 있었습니다.\n자으 더 x oO =\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 AEA 몇 장<\n초등 2학년ㆍ세 자리 수와 곱셈구구ㆍ기본 word - arithmetic\n민지는 스티커를 534 가지고 있었습니다.\n25장을 더 받고, 그중 12장을 사용했습니다. 남은 스티커는 몇 장<",
+            "repaired_text": "",
+            "expressions": [
+              "53+25-12"
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "66",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g02_017__0bb435f1"
+    },
+    {
+      "case_id": "elementary_g02_018",
+      "band": "초등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "measurement",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/도형과 측정/길이와 시각/elementary_g02_018_easy_table_measurement.png",
+      "expected_answer": "118",
+      "expected_expression": "31+40+20+27",
+      "computed_answer": "118",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 수량은 모두 B 개인지 구하시오",
+      "recognized_expressions": [
+        "31+40+20+27"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.306,
+      "analysis": {
+        "analysis_started_at": 1777116483.7056818,
+        "analysis_finished_at": 1777116485.011263,
+        "structured_problem": {
+          "source_text_candidates": [
+            ": 초등 2학년ㆍ길이와 시각ㆍ기본 table - measurement\n아래 표의 수량은 모두 B 개인지 구하시오.\n황목 14000] 16000]\n초등 2학년ㆍ길이와 시각ㆍ기본 table ㆍ measurement\n아래 표의 수량은 모두 몇 개인지 구하시오.\na 31 40 20 27\ntable_row_2 31 40 20 2",
+            ": 초등 2학년ㆍ길이와 시각ㆍ기본 table - measurement\n아래 표의 수량은 모두 B 개인지 구하시오.\n황목 14000] 16000]\n초등 2학년ㆍ길이와 시각ㆍ기본 table ㆍ measurement\n아래 표의 수량은 모두 몇 개인지 구하시오.\na 31 40 20 27\ntable_row_2 31 40 20 2"
+          ],
+          "normalized_problem_text": "아래 표의 수량은 모두 B 개인지 구하시오",
+          "expressions": [
+            "31+40+20+27"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/도형과 측정/길이와 시각/elementary_g02_018_easy_table_measurement.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": ": 초등 2학년ㆍ길이와 시각ㆍ기본 table - measurement\n아래 표의 수량은 모두 B 개인지 구하시오.\n황목 14000] 16000]",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 2학년ㆍ길이와 시각ㆍ기본 table ㆍ measurement\n아래 표의 수량은 모두 몇 개인지 구하시오.\nae fA ee",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 2학년ㆍ길이와 시각ㆍ기본 table ㆍ measurement\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 A B c D\na 31 40 20 27",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ": 초등 2학년ㆍ길이와 시각ㆍ기본 table - measurement\n아래 표의 수량은 모두 B 개인지 구하시오.\n황목 14000] 16000]",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 31 40 20 2",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "2946695c2f10"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "118",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 118야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 118야. 그래서 정답은 118야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": ": 초등 2학년ㆍ길이와 시각ㆍ기본 table - measurement\n아래 표의 수량은 모두 B 개인지 구하시오.\n황목 14000] 16000]\n초등 2학년ㆍ길이와 시각ㆍ기본 table ㆍ measurement\n아래 표의 수량은 모두 몇 개인지 구하시오.\na 31 40 20 27\ntable_row_2 31 40 20 2",
+            "content_text": ": 초등 2학년ㆍ길이와 시각ㆍ기본 table - measurement\n아래 표의 수량은 모두 B 개인지 구하시오.\n황목 14000] 16000]\n초등 2학년ㆍ길이와 시각ㆍ기본 table ㆍ measurement\n아래 표의 수량은 모두 몇 개인지 구하시오.\na 31 40 20 27\ntable_row_2 31 40 20 2",
+            "repaired_text": "",
+            "expressions": [
+              "31+40+20+27"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "118",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g02_018__4e1083a1"
+    },
+    {
+      "case_id": "elementary_g02_019",
+      "band": "초등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "pattern",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/변화와 관계/규칙과 대응/elementary_g02_019_easy_expression_pattern.png",
+      "expected_answer": "16",
+      "expected_expression": "13+3",
+      "computed_answer": "16",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "answer=16",
+      "recognized_expressions": [
+        "answer=16",
+        "*10 =",
+        "10 ="
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.666,
+      "analysis": {
+        "analysis_started_at": 1777116485.0118191,
+        "analysis_finished_at": 1777116485.6779132,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 7,10, 13, O\n| 초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n“10 =\n규칙을 찾아 빈칸에 알맞은 AS 쓰시오\n4 710, 13, U",
+            "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 7,10, 13, O\n| 초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n“10 =\n규칙을 찾아 빈칸에 알맞은 AS 쓰시오\n4 710, 13, U"
+          ],
+          "normalized_problem_text": "answer=16",
+          "expressions": [
+            "answer=16",
+            "*10 =",
+            "10 ="
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/변화와 관계/규칙과 대응/elementary_g02_019_easy_expression_pattern.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 7,10, 13, O",
+                "confidence": 0.72,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 7,10, 13, O",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 7,10, 13, O",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n“10 =\n규칙을 찾아 빈칸에 알맞은 AS 쓰시오\n4 710, 13, U",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "540748d4203f"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "16",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 16야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 16야. 그래서 정답은 16야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 7,10, 13, O\n| 초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n“10 =\n규칙을 찾아 빈칸에 알맞은 AS 쓰시오\n4 710, 13, U",
+            "content_text": "초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 7,10, 13, O\n| 초등 2학년ㆍ규칙과 대응ㆍ기본 expression ㆍ pattern\n“10 =\n규칙을 찾아 빈칸에 알맞은 AS 쓰시오\n4 710, 13, U",
+            "repaired_text": "",
+            "expressions": [
+              "answer=16",
+              "*10 =",
+              "10 ="
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "16",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g02_019__c670d957"
+    },
+    {
+      "case_id": "elementary_g02_020",
+      "band": "초등",
+      "grade": 2,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/자료와 가능성/표와 그래프/elementary_g02_020_easy_expression_statistics.png",
+      "expected_answer": "376/5",
+      "expected_expression": "(90+62+72+74+78)/5",
+      "computed_answer": "376/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 SAS 구하시오",
+      "recognized_expressions": [
+        "(90+62+72+74+78)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.627,
+      "analysis": {
+        "analysis_started_at": 1777116485.678463,
+        "analysis_finished_at": 1777116486.305527,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 2학년ㆍ표와 그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.\n90, 62, 72, 74, 78\n“ 초등 2학년 ㆍ표와 그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.",
+            "초등 2학년ㆍ표와 그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.\n90, 62, 72, 74, 78\n“ 초등 2학년 ㆍ표와 그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오."
+          ],
+          "normalized_problem_text": "다음 자료의 SAS 구하시오",
+          "expressions": [
+            "(90+62+72+74+78)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "coordinate_geometry",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/2학년/자료와 가능성/표와 그래프/elementary_g02_020_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 2학년ㆍ표와 그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.\n90, 62, 72, 74, 78",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 2학년ㆍ표와 그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.\n90, 62, 72, 74, 78",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 2학년ㆍ표와 그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.\n90, 62, 72, 74, 78",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "“ 초등 2학년 ㆍ표와 그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n90, 62, 72, 74, 78",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "a65126a2fd63"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "376/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 376/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 376/5야. 그래서 정답은 376/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 2학년ㆍ표와 그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.\n90, 62, 72, 74, 78\n“ 초등 2학년 ㆍ표와 그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.",
+            "content_text": "초등 2학년ㆍ표와 그래프ㆍ기본 expression - statistics\n다음 자료의 BS 구하시오.\n90, 62, 72, 74, 78\n“ 초등 2학년 ㆍ표와 그래프 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "(90+62+72+74+78)/5"
+            ],
+            "choices": [],
+            "math_topic": "coordinate_geometry",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "376/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g02_020__5e359666"
+    }
+  ]
+}

@@ -1,0 +1,4146 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:00084",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 84,
+      "split": "zh_test",
+      "source_problem_id": "a206df9548104d23a5e6da7f47fa2302"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "蛋君在桌上摆了一些不同形状的积木，如下所示：■◇◇●●●■◇◇●●●■◇◇●●●$$\\cdot \\cdot \\cdot \\cdot \\cdot \\cdot $$，照这样的规律摆，蛋君摆第$$40$$个时，需要选择的图形是．\n(A) ■\n(B) ◇\n(C) ●\n(D) 无法确定",
+      "problem_plain": "蛋君在桌上摆了一些不同形状的积木，如下所示：■◇◇●●●■◇◇●●●■◇◇●●● ，照这样的规律摆，蛋君摆第 40 个时，需要选择的图形是． (A) ■ (B) ◇ (C) ● (D) 无法确定",
+      "solution_latex": "观察可知，■◇◇●●●，$$6$$个图形一个循环周期，$$40\\div 6=6\\cdots \\cdots4$$，所以第$$40$$个图形是一个周期中的第$$4$$个，是●．",
+      "solution_plain": "观察可知，■◇◇●●●， 6 个图形一个循环周期， 40 6=6 4 ，所以第 40 个图形是一个周期中的第 4 个，是●．"
+    },
+    "answer": {
+      "final_raw": "●",
+      "final_normalized": "●",
+      "candidates": [
+        "C",
+        "●"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "观察可知，■◇◇●●●，$$6$$个图形一个循环周期，$$40\\div 6=6\\cdots \\cdots4$$，所以第$$40$$个图形是一个周期中的第$$4$$个，是●．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "蛋君在桌上摆了一些不同形状的积木，如下所示：■◇◇●●●■◇◇●●●■◇◇●●● ，照这样的规律摆，蛋君摆第 40 个时，需要选择的图形是． (A) ■ (B) ◇ (C) ● (D) 无法确定",
+      "solution_text": "观察可知，■◇◇●●●， 6 个图形一个循环周期， 40 6=6 4 ，所以第 40 个图形是一个周期中的第 4 个，是●．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "83",
+        "queId": "a206df9548104d23a5e6da7f47fa2302",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "■"
+          },
+          {
+            "label": "B",
+            "content": "◇"
+          },
+          {
+            "label": "C",
+            "content": "●"
+          },
+          {
+            "label": "D",
+            "content": "无法确定"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->能力->图形认知"
+        ],
+        "competition_source_list": [
+          "2017年河南郑州东风杯竞赛初赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:00287",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 287,
+      "split": "zh_test",
+      "source_problem_id": "eec767520a8c4497b4a0b0a085906421"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "一个长方体的长、宽、高恰好是3个连续的自然数，并且它的体积的数值等于它的所有棱长之和的数值的2倍，那么这个长方体的表面积是(  )\n(A) 74\n(B) 148\n(C) 150\n(D) 154",
+      "problem_plain": "一个长方体的长、宽、高恰好是3个连续的自然数，并且它的体积的数值等于它的所有棱长之和的数值的2倍，那么这个长方体的表面积是( ) (A) 74 (B) 148 (C) 150 (D) 154",
+      "solution_latex": "设长方体的三条棱长分别为a-1，a，a+1，则它的体积为$${{a}^{3}}-a$$， 它的所有棱长之和为$$\\left[ \\left( a-1 \\right)+a+\\left( a+1 \\right) \\right]\\times 4=12a$$ 于是有$${{a}^{3}}-a=12a\\times 2$$，即$${{a}^{3}}=25a$$，$${{a}^{2}}=25$$，$$a=5$$， 即这个长方体的棱长分别为4，5，6 所以，它的表面积为$$\\left(4\\times 5+4\\times 6+5\\times 6\\right)\\times 2=148$$",
+      "solution_plain": "设长方体的三条棱长分别为a-1，a，a+1，则它的体积为 a ^ 3 -a ， 它的所有棱长之和为 [ ( a-1 )+a+ ( a+1 ) ] 4=12a 于是有 a ^ 3 -a=12a 2 ，即 a ^ 3 =25a ， a ^ 2 =25 ， a=5 ， 即这个长方体的棱长分别为4，5，6 所以，它的表面积为 (4 5+4 6+5 6 ) 2=148"
+    },
+    "answer": {
+      "final_raw": "148",
+      "final_normalized": "148",
+      "candidates": [
+        "148",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设长方体的三条棱长分别为a-1，a，a+1，则它的体积为$${{a}^{3}}-a$$， 它的所有棱长之和为$$\\left[ \\left( a-1 \\right)+a+\\left( a+1 \\right) \\right]\\times 4=12a$$ 于是有$${{a}^{3}}-a=12a\\times 2$$，即$${{a}^{3}}=25a$$，$${{a}^{2}}=25$$，$$a=5$$， 即这个长方体的棱长分别为4，5，6 所以，它的表面积为$$\\left(4\\times 5+4\\times 6+5\\times 6\\right)\\times 2=148$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "一个长方体的长、宽、高恰好是3个连续的自然数，并且它的体积的数值等于它的所有棱长之和的数值的2倍，那么这个长方体的表面积是( ) (A) 74 (B) 148 (C) 150 (D) 154",
+      "solution_text": "设长方体的三条棱长分别为a-1，a，a+1，则它的体积为 a ^ 3 -a ， 它的所有棱长之和为 [ ( a-1 )+a+ ( a+1 ) ] 4=12a 于是有 a ^ 3 -a=12a 2 ，即 a ^ 3 =25a ， a ^ 2 =25 ， a=5 ， 即这个长方体的棱长分别为4，5，6 所以，它的表面积为 (4 5+4 6+5 6 ) 2=148",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "3051",
+        "queId": "eec767520a8c4497b4a0b0a085906421",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "74"
+          },
+          {
+            "label": "B",
+            "content": "148"
+          },
+          {
+            "label": "C",
+            "content": "150"
+          },
+          {
+            "label": "D",
+            "content": "154"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->拓展思维->应用题模块->列方程解应用题"
+        ],
+        "competition_source_list": [
+          "2007年华杯赛五年级竞赛初赛",
+          "2007年华杯赛六年级竞赛初赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:00929",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 929,
+      "split": "zh_test",
+      "source_problem_id": "425137604faa4bc8a27dec50b961afb4"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$9$$个正方形放在一行，第$$1$$个正方形的面积为$$1$$，从第$$2$$个正方形开始，每个正方形的面积都是前一个正方形面积的一半，试比较第$$2$$个到第$$9$$个正方形的面积之和与第$$1$$个正方形面积的大小．\n(A) 第$$2$$个到第$$9$$个正方形的面积之和大\n(B) 第$$1$$个正方形面积大\n(C) 一样大\n(D) 不能判断",
+      "problem_plain": "9 个正方形放在一行，第 1 个正方形的面积为 1 ，从第 2 个正方形开始，每个正方形的面积都是前一个正方形面积的一半，试比较第 2 个到第 9 个正方形的面积之和与第 1 个正方形面积的大小． (A) 第 2 个到第 9 个正方形的面积之和大 (B) 第 1 个正方形面积大 (C) 一样大 (D) 不能判断",
+      "solution_latex": "第$$2$$个到第$$9$$个正方形的面积之和为$$\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{8}+\\frac{1}{16}+\\frac{1}{32}+\\frac{1}{64}+\\frac{1}{128}+\\frac{1}{256}$$  $$=\\frac{1}{256}\\left( 128+64+32+16+8+4+2+1 \\right)$$  $$=\\frac{255}{256}\\textless{}1$$",
+      "solution_plain": "第 2 个到第 9 个正方形的面积之和为 1 2 + 1 4 + 1 8 + 1 16 + 1 32 + 1 64 + 1 128 + 1 256 = 1 256 ( 128+64+32+16+8+4+2+1 ) = 255 256 1"
+    },
+    "answer": {
+      "final_raw": "第$$1$$个正方形面积大",
+      "final_normalized": "第$$1$$个正方形面积大",
+      "candidates": [
+        "B",
+        "第$$1$$个正方形面积大"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "第$$2$$个到第$$9$$个正方形的面积之和为$$\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{8}+\\frac{1}{16}+\\frac{1}{32}+\\frac{1}{64}+\\frac{1}{128}+\\frac{1}{256}$$  $$=\\frac{1}{256}\\left( 128+64+32+16+8+4+2+1 \\right)$$  $$=\\frac{255}{256}\\textless{}1$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "9 个正方形放在一行，第 1 个正方形的面积为 1 ，从第 2 个正方形开始，每个正方形的面积都是前一个正方形面积的一半，试比较第 2 个到第 9 个正方形的面积之和与第 1 个正方形面积的大小． (A) 第 2 个到第 9 个正方形的面积之和大 (B) 第 1 个正方形面积大 (C) 一样大 (D) 不能判断",
+      "solution_text": "第 2 个到第 9 个正方形的面积之和为 1 2 + 1 4 + 1 8 + 1 16 + 1 32 + 1 64 + 1 128 + 1 256 = 1 256 ( 128+64+32+16+8+4+2+1 ) = 255 256 1",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "2516",
+        "queId": "425137604faa4bc8a27dec50b961afb4",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "第$$2$$个到第$$9$$个正方形的面积之和大"
+          },
+          {
+            "label": "B",
+            "content": "第$$1$$个正方形面积大"
+          },
+          {
+            "label": "C",
+            "content": "一样大"
+          },
+          {
+            "label": "D",
+            "content": "不能判断"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->数形结合思想"
+        ],
+        "competition_source_list": [
+          "2017年第15届全国希望杯小学高年级六年级竞赛"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01000",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1000,
+      "split": "zh_test",
+      "source_problem_id": "b0842f505b9240b48452693cde5c2a10"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设二次函数$$y={{x}^{2}}+2ax+\\frac{{{a}^{2}}}{2}$$的图象的顶点为$$A$$，与$$x$$轴的交点为$$B$$，$$C$$．当$$\\triangle ABC$$为等边三角形时，其边长为 (~ ~ ) .\n(A) \\sqrt{6}\n(B) 2\\sqrt{2}\n(C) 2\\sqrt{3}\n(D) 3\\sqrt{2}",
+      "problem_plain": "设二次函数 y= x ^ 2 +2ax+ a ^ 2 2 的图象的顶点为 A ，与 x 轴的交点为 B ， C ．当 ABC 为等边三角形时，其边长为 (~ ~ ) . (A) 6 (B) 2 2 (C) 2 3 (D) 3 2",
+      "solution_latex": "由题设知$$A\\left( -a,-\\frac{{{a}^{2}}}{2} \\right)$$．设$$B({{x}_{1}},0)$$，$$C({{x}_{2}},0)$$，  二次函数的图象的对称轴与$$x$$轴的交点为$$D$$，  则$$BC=\\left\\textbar{} {{x}_{1}}-{{x}_{ }}_{2} \\right\\textbar=\\sqrt{{{({{x}_{1}}+{{x}_{2}})}^{2}}-4{{x}_{1}}{{x}_{2}}}=\\sqrt{4{{a}^{2}}-4\\times \\frac{{{a}^{2}}}{2}}=\\sqrt{2{{a}^{2}}}$$.  又$$AD=\\frac{\\sqrt{3}}{2}BC$$，则$$\\left\\textbar{} -\\frac{{{a}^{2}}}{2} \\right\\textbar=\\frac{\\sqrt{3}}{2}\\cdot \\sqrt{2{{a}^{2}}}$$，解得$${{a}^{2}}=6$$或$${{a}^{2}}=0$$ (舍去)  所以，$$\\triangle ABC$$的边长$$BC=\\sqrt{2{{a}^{2}}}=2\\sqrt{3}$$．",
+      "solution_plain": "由题设知 A ( -a,- a ^ 2 2 ) ．设 B( x _ 1 ,0) ， C( x _ 2 ,0) ， 二次函数的图象的对称轴与 x 轴的交点为 D ， 则 BC= x _ 1 - x _ _ 2 = ( x _ 1 + x _ 2 ) ^ 2 -4 x _ 1 x _ 2 = 4 a ^ 2 -4 a ^ 2 2 = 2 a ^ 2 . 又 AD= 3 2 BC ，则 - a ^ 2 2 = 3 2 2 a ^ 2 ，解得 a ^ 2 =6 或 a ^ 2 =0 (舍去) 所以， ABC 的边长 BC= 2 a ^ 2 =2 3 ．"
+    },
+    "answer": {
+      "final_raw": "2\\sqrt{3}",
+      "final_normalized": "2\\sqrt{3}",
+      "candidates": [
+        "2\\sqrt{3}",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由题设知$$A\\left( -a,-\\frac{{{a}^{2}}}{2} \\right)$$．设$$B({{x}_{1}},0)$$，$$C({{x}_{2}},0)$$，  二次函数的图象的对称轴与$$x$$轴的交点为$$D$$，  则$$BC=\\left\\textbar{} {{x}_{1}}-{{x}_{ }}_{2} \\right\\textbar=\\sqrt{{{({{x}_{1}}+{{x}_{2}})}^{2}}-4{{x}_{1}}{{x}_{2}}}=\\sqrt{4{{a}^{2}}-4\\times \\frac{{{a}^{2}}}{2}}=\\sqrt{2{{a}^{2}}}$$.",
+        "又$$AD=\\frac{\\sqrt{3}}{2}BC$$，则$$\\left\\textbar{} -\\frac{{{a}^{2}}}{2} \\right\\textbar=\\frac{\\sqrt{3}}{2}\\cdot \\sqrt{2{{a}^{2}}}$$，解得$${{a}^{2}}=6$$或$${{a}^{2}}=0$$ (舍去)  所以，$$\\triangle ABC$$的边长$$BC=\\sqrt{2{{a}^{2}}}=2\\sqrt{3}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设二次函数 y= x ^ 2 +2ax+ a ^ 2 2 的图象的顶点为 A ，与 x 轴的交点为 B ， C ．当 ABC 为等边三角形时，其边长为 (~ ~ ) . (A) 6 (B) 2 2 (C) 2 3 (D) 3 2",
+      "solution_text": "由题设知 A ( -a,- a ^ 2 2 ) ．设 B( x _ 1 ,0) ， C( x _ 2 ,0) ， 二次函数的图象的对称轴与 x 轴的交点为 D ， 则 BC= x _ 1 - x _ _ 2 = ( x _ 1 + x _ 2 ) ^ 2 -4 x _ 1 x _ 2 = 4 a ^ 2 -4 a ^ 2 2 = 2 a ^ 2 . 又 AD= 3 2 BC ，则 - a ^ 2 2 = 3 2 2 a ^ 2 ，解得 a ^ 2 =6 或 a ^ 2 =0 (舍去) 所以， ABC 的边长 BC= 2 a ^ 2 =2 3 ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "539",
+        "queId": "b0842f505b9240b48452693cde5c2a10",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\sqrt{6}"
+          },
+          {
+            "label": "B",
+            "content": "2\\sqrt{2}"
+          },
+          {
+            "label": "C",
+            "content": "2\\sqrt{3}"
+          },
+          {
+            "label": "D",
+            "content": "3\\sqrt{2}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->函数->二次函数->二次函数与几何综合->二次函数与等边三角形结合"
+        ],
+        "competition_source_list": [
+          "2018年全国全国初中数学联赛初一竞赛A卷"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01017",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1017,
+      "split": "zh_test",
+      "source_problem_id": "fda88fd4ad104ba69b7626fbb084f389"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$x$$是实数，$$y=\\left\\textbar{} x-1 \\right\\textbar+\\left\\textbar{} x+1 \\right\\textbar$$．下列四个结论：  Ⅰ．$$y$$没有最小值~  Ⅱ．只有一个$$x$$使$$y$$取到最小值~  Ⅲ．有限多个$$x$$(不止一个)使$$y$$取到最大值~  Ⅳ．有无穷多个$$x$$使$$y$$取到最小值~  其中正确的是（~ ）.\n(A) I\n(B) Ⅱ\n(C) Ⅲ\n(D) Ⅳ",
+      "problem_plain": "设 x 是实数， y= x-1 + x+1 ．下列四个结论： Ⅰ． y 没有最小值~ Ⅱ．只有一个 x 使 y 取到最小值~ Ⅲ．有限多个 x (不止一个)使 y 取到最大值~ Ⅳ．有无穷多个 x 使 y 取到最小值~ 其中正确的是（~ ）. (A) I (B) Ⅱ (C) Ⅲ (D) Ⅳ",
+      "solution_latex": "因为$$\\left\\textbar{} x-1 \\right\\textbar$$，$$\\left\\textbar{} x+1 \\right\\textbar$$分别表示数轴上点$$x$$到点$$1$$和点$$-1$$的距离，  因此，当$$-1\\leqslant x\\leqslant 1$$时，$$y=\\left\\textbar{} x-1 \\right\\textbar+\\left\\textbar{} x+1 \\right\\textbar=2$$，  当$$x ~\\textless{} ~-1$$时，$$y=\\left\\textbar{} x-1 \\right\\textbar+\\left\\textbar{} x+1 \\right\\textbar=2+2\\left\\textbar{} x+1 \\right\\textbar\\textgreater2$$，  当$$x\\textgreater1$$时，$$y=\\left\\textbar{} x-1 \\right\\textbar+\\left\\textbar{} x+1 \\right\\textbar=2+2\\left\\textbar{} x+1 \\right\\textbar\\textgreater2$$，  而在$$-1$$与$$1$$之间有无穷个实数$$x$$，故有无穷多个$$x$$使$$y$$取到最小值.",
+      "solution_plain": "因为 x-1 ， x+1 分别表示数轴上点 x 到点 1 和点 -1 的距离， 因此，当 -1 x 1 时， y= x-1 + x+1 =2 ， 当 x ~ ~-1 时， y= x-1 + x+1 =2+2 x+1 2 ， 当 x 1 时， y= x-1 + x+1 =2+2 x+1 2 ， 而在 -1 与 1 之间有无穷个实数 x ，故有无穷多个 x 使 y 取到最小值."
+    },
+    "answer": {
+      "final_raw": "Ⅳ",
+      "final_normalized": "Ⅳ",
+      "candidates": [
+        "D",
+        "Ⅳ"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "因为$$\\left\\textbar{} x-1 \\right\\textbar$$，$$\\left\\textbar{} x+1 \\right\\textbar$$分别表示数轴上点$$x$$到点$$1$$和点$$-1$$的距离，  因此，当$$-1\\leqslant x\\leqslant 1$$时，$$y=\\left\\textbar{} x-1 \\right\\textbar+\\left\\textbar{} x+1 \\right\\textbar=2$$，  当$$x ~\\textless{} ~-1$$时，$$y=\\left\\textbar{} x-1 \\right\\textbar+\\left\\textbar{} x+1 \\right\\textbar=2+2\\left\\textbar{} x+1 \\right\\textbar\\textgreater2$$，  当$$x\\textgreater1$$时，$$y=\\left\\textbar{} x-1 \\right\\textbar+\\left\\textbar{} x+1 \\right\\textbar=2+2\\left\\textbar{} x+1 \\right\\textbar\\textgreater2$$，  而在$$-1$$与$$1$$之间有无穷个实数$$x$$，故有无穷多个$$x$$使$$y$$取到最小值."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 x 是实数， y= x-1 + x+1 ．下列四个结论： Ⅰ． y 没有最小值~ Ⅱ．只有一个 x 使 y 取到最小值~ Ⅲ．有限多个 x (不止一个)使 y 取到最大值~ Ⅳ．有无穷多个 x 使 y 取到最小值~ 其中正确的是（~ ）. (A) I (B) Ⅱ (C) Ⅲ (D) Ⅳ",
+      "solution_text": "因为 x-1 ， x+1 分别表示数轴上点 x 到点 1 和点 -1 的距离， 因此，当 -1 x 1 时， y= x-1 + x+1 =2 ， 当 x ~ ~-1 时， y= x-1 + x+1 =2+2 x+1 2 ， 当 x 1 时， y= x-1 + x+1 =2+2 x+1 2 ， 而在 -1 与 1 之间有无穷个实数 x ，故有无穷多个 x 使 y 取到最小值.",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1561",
+        "queId": "fda88fd4ad104ba69b7626fbb084f389",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "I"
+          },
+          {
+            "label": "B",
+            "content": "Ⅱ"
+          },
+          {
+            "label": "C",
+            "content": "Ⅲ"
+          },
+          {
+            "label": "D",
+            "content": "Ⅳ"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->运算能力",
+          "课内体系->知识点->数->有理数->绝对值->利用绝对值求最值",
+          "课内体系->知识点->数->有理数->绝对值->绝对值的几何意义",
+          "课内体系->知识点->数->有理数->绝对值->绝对值的非负性",
+          "课内体系->思想->分类讨论思想"
+        ],
+        "competition_source_list": [
+          "1993年第10届全国初中数学联赛竞赛第3题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01038",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1038,
+      "split": "zh_test",
+      "source_problem_id": "476b2adc9c82422cab275d9706644810"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "将一张$$1\\text{m}\\times 1\\text{m}$$的正方形白纸对折$$8$$次（每一次都沿平行于正方形边的方向对折），那么所有折痕的长度的和的最小是（~ ）．\n(A) 32\\text{m}\n(B) 30\\text{m}\n(C) 16\\text{m}\n(D) 14\\text{m}",
+      "problem_plain": "将一张 1 m 1 m 的正方形白纸对折 8 次（每一次都沿平行于正方形边的方向对折），那么所有折痕的长度的和的最小是（~ ）． (A) 32 m (B) 30 m (C) 16 m (D) 14 m",
+      "solution_latex": "第一次折叠，折痕长度为$$1\\text{m}$$，  第二次折叠，折痕最小为$$\\frac{1}{2}\\times 2=1\\text{m}$$，  第三次折叠，折痕最小为$$\\frac{1}{2}\\times 4=2\\text{m}$$，  第四次折叠，折痕最小为$$\\frac{1}{4}\\times 8=2\\text{m}$$，  第五次折叠，折痕最小为$$\\frac{1}{4}\\times 16=4\\text{m}$$，  第六次折叠，折痕最小为$$\\frac{1}{8}\\times 32=4\\text{m}$$，  第七次折叠，折痕最小为$$\\frac{1}{8}\\times 64=8\\text{m}$$，  第八次折叠，折痕最小为$$\\frac{1}{16}\\times 128=8\\text{m}$$，  ∴所有折痕的长度的和的最小是$$1+1+2+2+4+4+8+8=30\\text{m}$$．",
+      "solution_plain": "第一次折叠，折痕长度为 1 m ， 第二次折叠，折痕最小为 1 2 2=1 m ， 第三次折叠，折痕最小为 1 2 4=2 m ， 第四次折叠，折痕最小为 1 4 8=2 m ， 第五次折叠，折痕最小为 1 4 16=4 m ， 第六次折叠，折痕最小为 1 8 32=4 m ， 第七次折叠，折痕最小为 1 8 64=8 m ， 第八次折叠，折痕最小为 1 16 128=8 m ， ∴所有折痕的长度的和的最小是 1+1+2+2+4+4+8+8=30 m ．"
+    },
+    "answer": {
+      "final_raw": "30\\text{m}",
+      "final_normalized": "30\\text{m}",
+      "candidates": [
+        "30\\text{m}",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "第一次折叠，折痕长度为$$1\\text{m}$$，  第二次折叠，折痕最小为$$\\frac{1}{2}\\times 2=1\\text{m}$$，  第三次折叠，折痕最小为$$\\frac{1}{2}\\times 4=2\\text{m}$$，  第四次折叠，折痕最小为$$\\frac{1}{4}\\times 8=2\\text{m}$$，  第五次折叠，折痕最小为$$\\frac{1}{4}\\times 16=4\\text{m}$$，  第六次折叠，折痕最小为$$\\frac{1}{8}\\times 32=4\\text{m}$$，  第七次折叠，折痕最小为$$\\frac{1}{8}\\times 64=8\\text{m}$$，  第八次折叠，折痕最小为$$\\frac{1}{16}\\times 128=8\\text{m}$$，  ∴所有折痕的长度的和的最小是$$1+1+2+2+4+4+8+8=30\\text{m}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "将一张 1 m 1 m 的正方形白纸对折 8 次（每一次都沿平行于正方形边的方向对折），那么所有折痕的长度的和的最小是（~ ）． (A) 32 m (B) 30 m (C) 16 m (D) 14 m",
+      "solution_text": "第一次折叠，折痕长度为 1 m ， 第二次折叠，折痕最小为 1 2 2=1 m ， 第三次折叠，折痕最小为 1 2 4=2 m ， 第四次折叠，折痕最小为 1 4 8=2 m ， 第五次折叠，折痕最小为 1 4 16=4 m ， 第六次折叠，折痕最小为 1 8 32=4 m ， 第七次折叠，折痕最小为 1 8 64=8 m ， 第八次折叠，折痕最小为 1 16 128=8 m ， ∴所有折痕的长度的和的最小是 1+1+2+2+4+4+8+8=30 m ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "444",
+        "queId": "476b2adc9c82422cab275d9706644810",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "32\\text{m}"
+          },
+          {
+            "label": "B",
+            "content": "30\\text{m}"
+          },
+          {
+            "label": "C",
+            "content": "16\\text{m}"
+          },
+          {
+            "label": "D",
+            "content": "14\\text{m}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->几何图形初步->相交线与平行线->平行线的判定与性质->平行线的性质",
+          "课内体系->知识点->几何图形初步->相交线与平行线->平行线的判定与性质->平行线相关折叠问题"
+        ],
+        "competition_source_list": [
+          "2016年第27届全国希望杯初一竞赛复赛第6题4分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01068",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1068,
+      "split": "zh_test",
+      "source_problem_id": "8b4ba8b7d31a41bd8dfc4b4740fbd1c9"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在式子$$\\left\\textbar{} x+1 \\right\\textbar+\\left\\textbar{} x+2 \\right\\textbar+\\left\\textbar{} x+3 \\right\\textbar+\\left\\textbar{} x+4 \\right\\textbar$$中，用不同的$$x$$值代入，得到对应的值，在这些对应值中，最小的值是（~ ）．\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
+      "problem_plain": "在式子 x+1 + x+2 + x+3 + x+4 中，用不同的 x 值代入，得到对应的值，在这些对应值中，最小的值是（~ ）． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_latex": "令$$a=\\left\\textbar{} x+1 \\right\\textbar+\\left\\textbar{} x+4 \\right\\textbar$$，$$b=\\left\\textbar{} x+2 \\right\\textbar+\\left\\textbar{} x+3 \\right\\textbar$$，  $$t=\\left\\textbar{} x+1 \\right\\textbar+\\left\\textbar{} x+2 \\right\\textbar+\\left\\textbar{} x+3 \\right\\textbar+\\left\\textbar{} x+4 \\right\\textbar=a+b$$，  根据绝对值的几何意义，$$a$$表示点$$x$$到$$-1$$与$$-4$$两点的距离之和，  分析可得当$$-4\\leqslant x\\leqslant -1$$时，$$a$$最小，其值为$$3$$，  $$b$$表示点$$x$$到$$-2$$与$$-3$$两点的距离之和，  分析可得当$$-3\\leqslant x\\leqslant -2$$时，$$b$$最小，其值为$$1$$，  综合可得，当$$-3\\leqslant x\\leqslant -2$$，$$a$$、$$b$$均取得最小值，  故此时$$t$$取得最小值，且$$t$$的最小值为$$3+1=4$$，  故答案为$$4$$．  故选$$\\text{D}$$．",
+      "solution_plain": "令 a= x+1 + x+4 ， b= x+2 + x+3 ， t= x+1 + x+2 + x+3 + x+4 =a+b ， 根据绝对值的几何意义， a 表示点 x 到 -1 与 -4 两点的距离之和， 分析可得当 -4 x -1 时， a 最小，其值为 3 ， b 表示点 x 到 -2 与 -3 两点的距离之和， 分析可得当 -3 x -2 时， b 最小，其值为 1 ， 综合可得，当 -3 x -2 ， a 、 b 均取得最小值， 故此时 t 取得最小值，且 t 的最小值为 3+1=4 ， 故答案为 4 ． 故选 D ．"
+    },
+    "answer": {
+      "final_raw": "4",
+      "final_normalized": "4",
+      "candidates": [
+        "4",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "令$$a=\\left\\textbar{} x+1 \\right\\textbar+\\left\\textbar{} x+4 \\right\\textbar$$，$$b=\\left\\textbar{} x+2 \\right\\textbar+\\left\\textbar{} x+3 \\right\\textbar$$，  $$t=\\left\\textbar{} x+1 \\right\\textbar+\\left\\textbar{} x+2 \\right\\textbar+\\left\\textbar{} x+3 \\right\\textbar+\\left\\textbar{} x+4 \\right\\textbar=a+b$$，  根据绝对值的几何意义，$$a$$表示点$$x$$到$$-1$$与$$-4$$两点的距离之和，  分析可得当$$-4\\leqslant x\\leqslant -1$$时，$$a$$最小，其值为$$3$$，  $$b$$表示点$$x$$到$$-2$$与$$-3$$两点的距离之和，  分析可得当$$-3\\leqslant x\\leqslant -2$$时，$$b$$最小，其值为$$1$$，  综合可得，当$$-3\\leqslant x\\leqslant -2$$，$$a$$、$$b$$均取得最小值，  故此时$$t$$取得最小值，且$$t$$的最小值为$$3+1=4$$，  故答案为$$4$$．  故选$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在式子 x+1 + x+2 + x+3 + x+4 中，用不同的 x 值代入，得到对应的值，在这些对应值中，最小的值是（~ ）． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_text": "令 a= x+1 + x+4 ， b= x+2 + x+3 ， t= x+1 + x+2 + x+3 + x+4 =a+b ， 根据绝对值的几何意义， a 表示点 x 到 -1 与 -4 两点的距离之和， 分析可得当 -4 x -1 时， a 最小，其值为 3 ， b 表示点 x 到 -2 与 -3 两点的距离之和， 分析可得当 -3 x -2 时， b 最小，其值为 1 ， 综合可得，当 -3 x -2 ， a 、 b 均取得最小值， 故此时 t 取得最小值，且 t 的最小值为 3+1=4 ， 故答案为 4 ． 故选 D ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "423",
+        "queId": "8b4ba8b7d31a41bd8dfc4b4740fbd1c9",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->运算能力",
+          "课内体系->知识点->数->有理数->绝对值->绝对值的几何意义",
+          "课内体系->知识点->数->有理数->绝对值->利用绝对值求最值",
+          "课内体系->思想->分类讨论思想"
+        ],
+        "competition_source_list": [
+          "1992年第3届希望杯初二竞赛第7题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01081",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1081,
+      "split": "zh_test",
+      "source_problem_id": "65b8740d9f904498af31da703c28285b"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知二次函数$$y=a{{x}^{2}}+bx+c$$的图象交\\emph{x}轴于\\emph{A}(\\emph{x}\\textsubscript{1}，0)，\\emph{B}(\\emph{x}\\textsubscript{2}，0)两点，交\\emph{y}轴于点\\emph{C}(0，3)，若$${{x}_{1}}+{{x}_{2}}=4$$，且△\\emph{ABC}的面积为3，则\\emph{a+b}（~~~~~~~）\n(A) 3\n(B) -5\n(C) 3\n(D) 5",
+      "problem_plain": "已知二次函数 y=a x ^ 2 +bx+c 的图象交 x 轴于 A ( x 1 ，0)， B ( x 2 ，0)两点，交 y 轴于点 C (0，3)，若 x _ 1 + x _ 2 =4 ，且△ ABC 的面积为3，则 a+b （~~~~~~~） (A) 3 (B) -5 (C) 3 (D) 5",
+      "solution_latex": "\\hfill\\break 【分析】\\\\ 方法一：由根与系数的关系可得$${{x}_{1}}+{{x}_{2}}=-\\frac{b}{a}=4$$，$${{x}_{1}}{{x}_{2}}=\\frac{c}{a}=\\frac{3}{a}$$，再利用$$AB=\\left\\textbar{} {{x}_{1}}-{{x}_{2}} \\right\\textbar=\\sqrt{{{\\left( {{x}_{1}}+{{x}_{2}} \\right)}^{2}}-4{{x}_{1}}{{x}_{2}}}=\\sqrt{16-4\\times \\frac{3}{a}}=2\\sqrt{4-\\frac{3}{a}}$$列方程求解$$a,b$$，再检验即可得到答案；方法二：不妨设$${{x}_{1}}\\textless{} {{x}_{2}}$$，由三角形的面积先求解$$AB={{x}_{2}}-{{x}_{1}}=2$$，结合$${{x}_{1}}+{{x}_{2}}=4$$，再求解$${{x}_{1}},{{x}_{2}},$$再利用待定系数法求解$$a,b,$$ 从而可得答案.\\\\ 【详解】\\\\ 解：方法一：依题意$${{x}_{1}},{{x}_{2}}$$为方程$$a{{x}^{2}}+bx+c=0$$的两根，且$$c=3$$．\\\\ 所以$${{x}_{1}}+{{x}_{2}}=-\\frac{b}{a}=4$$，$${{x}_{1}}{{x}_{2}}=\\frac{c}{a}=\\frac{3}{a}$$．\\\\ 所以$$AB=\\left\\textbar{} {{x}_{1}}-{{x}_{2}} \\right\\textbar=\\sqrt{{{\\left( {{x}_{1}}+{{x}_{2}} \\right)}^{2}}-4{{x}_{1}}{{x}_{2}}}=\\sqrt{16-4\\times \\frac{3}{a}}=2\\sqrt{4-\\frac{3}{a}}$$，\\\\ 所以$$\\vartriangle ABC$$面积$$S=\\frac{1}{2}AB\\times 3=\\frac{1}{2}\\times 2\\sqrt{4-\\frac{3}{a}}\\times 3=3$$．\\\\ 解得$$a=1$$，经检验符合题意，\\\\ $$\\therefore $$ $$b=-4a=-4$$．\\\\ 因为函数$$y={{x}^{2}}-4x+3$$的图象与$$x$$轴有两个不同交点，因此$$a=1$$，$$b=-4$$，$$c=3$$符合要求．\\\\ 所以$$a+b=-3$$．\\\\ 方法二：不妨设$${{x}_{1}}\\textless{} {{x}_{2}}$$，则$$AB={{x}_{2}}-{{x}_{1}}$$，由$$\\vartriangle ABC$$的面积为3，且$$C\\left( 0,3 \\right)$$，得$$AB=2$$．\\\\ 所以$$AB={{x}_{2}}-{{x}_{1}}=2$$，又$${{x}_{1}}+{{x}_{2}}=4$$，\\\\ 解得：$${{x}_{1}}=1$$，$${{x}_{2}}=3$$．\\\\ 因此$$y=a{{x}^{2}}+bx+c=a\\left( x-1 \\right)\\left( x-3 \\right)$$．\\\\ 将$$x=0$$代入，得$$y=3a=3$$，所以$$a=1$$．\\\\ 所以$$y=a{{x}^{2}}+bx+c=\\left( x-1 \\right)\\left( x-3 \\right)={{x}^{2}}-4x+3$$，\\\\ 因此$$a+b=1+\\left( -4 \\right)=-3$$．\\\\ 故选C\\\\ 【点睛】\\\\ 本题考查的是二次函数的性质，一元二次方程根与系数的关系，掌握二次函数与\\emph{x}轴的交点坐标的含义是解本题的关键.",
+      "solution_plain": "【分析】 方法一：由根与系数的关系可得 x _ 1 + x _ 2 =- b a =4 ， x _ 1 x _ 2 = c a = 3 a ，再利用 AB= x _ 1 - x _ 2 = ( x _ 1 + x _ 2 ) ^ 2 -4 x _ 1 x _ 2 = 16-4 3 a =2 4- 3 a 列方程求解 a,b ，再检验即可得到答案；方法二：不妨设 x _ 1 x _ 2 ，由三角形的面积先求解 AB= x _ 2 - x _ 1 =2 ，结合 x _ 1 + x _ 2 =4 ，再求解 x _ 1 , x _ 2 , 再利用待定系数法求解 a,b, 从而可得答案. 【详解】 解：方法一：依题意 x _ 1 , x _ 2 为方程 a x ^ 2 +bx+c=0 的两根，且 c=3 ． 所以 x _ 1 + x _ 2 =- b a =4 ， x _ 1 x _ 2 = c a = 3 a ． 所以 AB= x _ 1 - x _ 2 = ( x _ 1 + x _ 2 ) ^ 2 -4 x _ 1 x _ 2 = 16-4 3 a =2 4- 3 a ， 所以 ABC 面积 S= 1 2 AB 3= 1 2 2 4- 3 a 3=3 ． 解得 a=1 ，经检验符合题意， b=-4a=-4 ． 因为函数 y= x ^ 2 -4x+3 的图象与 x 轴有两个不同交点，因此 a=1 ， b=-4 ， c=3 符合要求． 所以 a+b=-3 ． 方法二：不妨设 x _ 1 x _ 2 ，则 AB= x _ 2 - x _ 1 ，由 ABC 的面积为3，且 C ( 0,3 ) ，得 AB=2 ． 所以 AB= x _ 2 - x _ 1 =2 ，又 x _ 1 + x _ 2 =4 ， 解得： x _ 1 =1 ， x _ 2 =3 ． 因此 y=a x ^ 2 +bx+c=a ( x-1 ) ( x-3 ) ． 将 x=0 代入，得 y=3a=3 ，所以 a=1 ． 所以 y=a x ^ 2 +bx+c= ( x-1 ) ( x-3 )= x ^ 2 -4x+3 ， 因此 a+b=1+ ( -4 )=-3 ． 故选C 【点睛】 本题考查的是二次函数的性质，一元二次方程根与系数的关系，掌握二次函数与 x 轴的交点坐标的含义是解本题的关键."
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "\\hfill\\break 【分析】\\\\ 方法一：由根与系数的关系可得$${{x}_{1}}+{{x}_{2}}=-\\frac{b}{a}=4$$，$${{x}_{1}}{{x}_{2}}=\\frac{c}{a}=\\frac{3}{a}$$，再利用$$AB=\\left\\textbar{} {{x}_{1}}-{{x}_{2}} \\right\\textbar=\\sqrt{{{\\left( {{x}_{1}}+{{x}_{2}} \\right)}^{2}}-4{{x}_{1}}{{x}_{2}}}=\\sqrt{16-4\\times \\frac{3}{a}}=2\\sqrt{4-\\frac{3}{a}}$$列方程求解$$a,b$$，再检验即可得到答案；方法二：不妨设$${{x}_{1}}\\textless{} {{x}_{2}}$$，由三角形的面积先求解$$AB={{x}_{2}}-{{x}_{1}}=2$$，结合$${{x}_{1}}+{{x}_{2}}=4$$，再求解$${{x}_{1}},{{x}_{2}},$$再利用待定系数法求解$$a,b,$$ 从而可得答案.\\\\ 【详解】\\\\ 解：方法一：依题意$${{x}_{1}},{{x}_{2}}$$为方程$$a{{x}^{2}}+bx+c=0$$的两根，且$$c=3$$．\\\\ 所以$${{x}_{1}}+{{x}_{2}}=-\\frac{b}{a}=4$$，$${{x}_{1}}{{x}_{2}}=\\frac{c}{a}=\\frac{3}{a}$$．\\\\ 所以$$AB=\\left\\textbar{} {{x}_{1}}-{{x}_{2}} \\right\\textbar=\\sqrt{{{\\left( {{x}_{1}}+{{x}_{2}} \\right)}^{2}}-4{{x}_{1}}{{x}_{2}}}=\\sqrt{16-4\\times \\frac{3}{a}}=2\\sqrt{4-\\frac{3}{a}}$$，\\\\ 所以$$\\vartriangle ABC$$面积$$S=\\frac{1}{2}AB\\times 3=\\frac{1}{2}\\times 2\\sqrt{4-\\frac{3}{a}}\\times 3=3$$．\\\\ 解得$$a=1$$，经检验符合题意，\\\\ $$\\therefore $$ $$b=-4a=-4$$．\\\\ 因为函数$$y={{x}^{2}}-4x+3$$的图象与$$x$$轴有两个不同交点，因此$$a=1$$，$$b=-4$$，$$c=3$$符合要求．\\\\ 所以$$a+b=-3$$．\\\\ 方法二：不妨设$${{x}_{1}}\\textless{} {{x}_{2}}$$，则$$AB={{x}_{2}}-{{x}_{1}}$$，由$$\\vartriangle ABC$$的面积为3，且$$C\\left( 0,3 \\right)$$，得$$AB=2$$．\\\\ 所以$$AB={{x}_{2}}-{{x}_{1}}=2$$，又$${{x}_{1}}+{{x}_{2}}=4$$，\\\\ 解得：$${{x}_{1}}=1$$，$${{x}_{2}}=3$$．\\\\ 因此$$y=a{{x}^{2}}+bx+c=a\\left( x-1 \\right)\\left( x-3 \\right)$$．\\\\ 将$$x=0$$代入，得$$y=3a=3$$，所以$$a=1$$．\\\\ 所以$$y=a{{x}^{2}}+bx+c=\\left( x-1 \\right)\\left( x-3 \\right)={{x}^{2}}-4x+3$$，\\\\ 因此$$a+b=1+\\left( -4 \\right)=-3$$．\\\\ 故选C\\\\ 【点睛】\\\\ 本题考查的是二次函数的性质，一元二次方程根与系数的关系，掌握二次函数与\\emph{x}轴的交点坐标的含义是解本题的关键."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知二次函数 y=a x ^ 2 +bx+c 的图象交 x 轴于 A ( x 1 ，0)， B ( x 2 ，0)两点，交 y 轴于点 C (0，3)，若 x _ 1 + x _ 2 =4 ，且△ ABC 的面积为3，则 a+b （~~~~~~~） (A) 3 (B) -5 (C) 3 (D) 5",
+      "solution_text": "【分析】 方法一：由根与系数的关系可得 x _ 1 + x _ 2 =- b a =4 ， x _ 1 x _ 2 = c a = 3 a ，再利用 AB= x _ 1 - x _ 2 = ( x _ 1 + x _ 2 ) ^ 2 -4 x _ 1 x _ 2 = 16-4 3 a =2 4- 3 a 列方程求解 a,b ，再检验即可得到答案；方法二：不妨设 x _ 1 x _ 2 ，由三角形的面积先求解 AB= x _ 2 - x _ 1 =2 ，结合 x _ 1 + x _ 2 =4 ，再求解 x _ 1 , x _ 2 , 再利用待定系数法求解 a,b, 从而可得答案. 【详解】 解：方法一：依题意 x _ 1 , x _ 2 为方程 a x ^ 2 +bx+c=0 的两根，且 c=3 ． 所以 x _ 1 + x _ 2 =- b a =4 ， x _ 1 x _ 2 = c a = 3 a ． 所以 AB= x _ 1 - x _ 2 = ( x _ 1 + x _ 2 ) ^ 2 -4 x _ 1 x _ 2 = 16-4 3 a =2 4- 3 a ， 所以 ABC 面积 S= 1 2 AB 3= 1 2 2 4- 3 a 3=3 ． 解得 a=1 ，经检验符合题意， b=-4a=-4 ． 因为函数 y= x ^ 2 -4x+3 的图象与 x 轴有两个不同交点，因此 a=1 ， b=-4 ， c=3 符合要求． 所以 a+b=-3 ． 方法二：不妨设 x _ 1 x _ 2 ，则 AB= x _ 2 - x _ 1 ，由 ABC 的面积为3，且 C ( 0,3 ) ，得 AB=2 ． 所以 AB= x _ 2 - x _ 1 =2 ，又 x _ 1 + x _ 2 =4 ， 解得： x _ 1 =1 ， x _ 2 =3 ． 因此 y=a x ^ 2 +bx+c=a ( x-1 ) ( x-3 ) ． 将 x=0 代入，得 y=3a=3 ，所以 a=1 ． 所以 y=a x ^ 2 +bx+c= ( x-1 ) ( x-3 )= x ^ 2 -4x+3 ， 因此 a+b=1+ ( -4 )=-3 ． 故选C 【点睛】 本题考查的是二次函数的性质，一元二次方程根与系数的关系，掌握二次函数与 x 轴的交点坐标的含义是解本题的关键.",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "919",
+        "queId": "65b8740d9f904498af31da703c28285b",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "-5"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "5"
+          }
+        ],
+        "knowledge_point_routes": [],
+        "competition_source_list": [
+          "2021年福建竞赛（\"大梦杯”青少年水平测试）第1~1题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01121",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1121,
+      "split": "zh_test",
+      "source_problem_id": "6aab8d0fc4cc4402b5493adc969e1ec6"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "如果对于某一特定范围内的$$x$$的任一允许值，$$p=\\left\\textbar{} 1-2x \\right\\textbar+\\left\\textbar{} 1-3x \\right\\textbar+\\cdots +\\left\\textbar{} 1-9x \\right\\textbar+\\left\\textbar{} 1-10x \\right\\textbar$$为定值，则此定值为．\n(A) 2\n(B) 3\n(C) 4\n(D) 5",
+      "problem_plain": "如果对于某一特定范围内的 x 的任一允许值， p= 1-2x + 1-3x + + 1-9x + 1-10x 为定值，则此定值为． (A) 2 (B) 3 (C) 4 (D) 5",
+      "solution_latex": "∵$$P$$为定值，  ∴$$P$$的表达式化简后与$$x$$无关，  即$$x$$的系数为$$0$$，  观察发现：$$2+3+4+5+6+7=8+9+10$$，  ∴只需$$1-7x\\geqslant 0$$且$$1-8x\\leqslant 0$$，  ∴$$\\frac{1}{8}\\leqslant x\\leqslant \\frac{1}{7}$$，  ∴$$P=(1-2x)+(1-3x)+(1-4x)+(1-5x)+(1-6x)+(1-7x)-(1-8x)-(1-9x)-(1-10x)$$  $$=3$$．  故选$$\\text{B}$$．",
+      "solution_plain": "∵ P 为定值， ∴ P 的表达式化简后与 x 无关， 即 x 的系数为 0 ， 观察发现： 2+3+4+5+6+7=8+9+10 ， ∴只需 1-7x 0 且 1-8x 0 ， ∴ 1 8 x 1 7 ， ∴ P=(1-2x)+(1-3x)+(1-4x)+(1-5x)+(1-6x)+(1-7x)-(1-8x)-(1-9x)-(1-10x) =3 ． 故选 B ．"
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "∵$$P$$为定值，  ∴$$P$$的表达式化简后与$$x$$无关，  即$$x$$的系数为$$0$$，  观察发现：$$2+3+4+5+6+7=8+9+10$$，  ∴只需$$1-7x\\geqslant 0$$且$$1-8x\\leqslant 0$$，  ∴$$\\frac{1}{8}\\leqslant x\\leqslant \\frac{1}{7}$$，  ∴$$P=(1-2x)+(1-3x)+(1-4x)+(1-5x)+(1-6x)+(1-7x)-(1-8x)-(1-9x)-(1-10x)$$  $$=3$$．  故选$$\\text{B}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "如果对于某一特定范围内的 x 的任一允许值， p= 1-2x + 1-3x + + 1-9x + 1-10x 为定值，则此定值为． (A) 2 (B) 3 (C) 4 (D) 5",
+      "solution_text": "∵ P 为定值， ∴ P 的表达式化简后与 x 无关， 即 x 的系数为 0 ， 观察发现： 2+3+4+5+6+7=8+9+10 ， ∴只需 1-7x 0 且 1-8x 0 ， ∴ 1 8 x 1 7 ， ∴ P=(1-2x)+(1-3x)+(1-4x)+(1-5x)+(1-6x)+(1-7x)-(1-8x)-(1-9x)-(1-10x) =3 ． 故选 B ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "977",
+        "queId": "6aab8d0fc4cc4402b5493adc969e1ec6",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "5"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->数->有理数->绝对值->零点分段法",
+          "课内体系->知识点->数->有理数->绝对值->绝对值的几何意义",
+          "课内体系->能力->运算能力"
+        ],
+        "competition_source_list": [
+          "2019~2020学年浙江宁波鄞州区宁波市鄞州蓝青学校初一上学期期末第6题",
+          "初一上学期单元测试《物以类聚》第19题",
+          "2019年第1届广东深圳罗湖区深圳中学初中部初一竞赛（凤凰木杯）第2题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01229",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1229,
+      "split": "zh_test",
+      "source_problem_id": "14b21eb04ba24f7ba50c84760e589d27"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "直角三角形$$ABC$$的面积为$$240$$，且$$\\angle BAC=90{}^{}\\circ $$，$$AD$$是斜边上的中线，过$$D$$作$$DE\\bot AB$$于$$E$$，连$$CE$$交$$AD$$于$$F$$，则$$\\triangle AFE$$的面积为．\n(A) 48\n(B) 44\n(C) 40\n(D) 36",
+      "problem_plain": "直角三角形 ABC 的面积为 240 ，且 BAC=90 ^ ， AD 是斜边上的中线，过 D 作 DE AB 于 E ，连 CE 交 AD 于 F ，则 AFE 的面积为． (A) 48 (B) 44 (C) 40 (D) 36",
+      "solution_latex": "$$C$$",
+      "solution_plain": "C"
+    },
+    "answer": {
+      "final_raw": "40",
+      "final_normalized": "40",
+      "candidates": [
+        "40",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$C$$"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "直角三角形 ABC 的面积为 240 ，且 BAC=90 ^ ， AD 是斜边上的中线，过 D 作 DE AB 于 E ，连 CE 交 AD 于 F ，则 AFE 的面积为． (A) 48 (B) 44 (C) 40 (D) 36",
+      "solution_text": "C",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "205",
+        "queId": "14b21eb04ba24f7ba50c84760e589d27",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "48"
+          },
+          {
+            "label": "B",
+            "content": "44"
+          },
+          {
+            "label": "C",
+            "content": "40"
+          },
+          {
+            "label": "D",
+            "content": "36"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->推理论证能力",
+          "课内体系->知识点->三角形->三角形及多边形->与三角形有关的线段->与中线或等分线有关的等积变换",
+          "课内体系->知识点->三角形->直角三角形->直角三角形的性质->直角三角形斜边中线性质以及应用"
+        ],
+        "competition_source_list": [
+          "2002年第19届全国初中数学联赛竞赛第4题7分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01263",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1263,
+      "split": "zh_test",
+      "source_problem_id": "c3ce460c765a450cbbd0ebb61405c2e2"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知抛物线$$y={{x}^{2}}-4x+3$$与$$x$$轴相交于点$$A$$，$$B$$（点$$A$$在点$$B$$左侧），顶点为$$M$$．平移该抛物线，使点$$M$$平移后的对应点$${M}'$$落在$$x$$轴上，点$$B$$平移后的对应点$${B}'$$落在$$y$$轴上．则平移后的抛物线解析式为（~ ）．\n(A) y={{x}^{2}}+2x+1\n(B) y={{x}^{2}}+2x-1\n(C) y={{x}^{2}}-2x+1\n(D) y={{x}^{2}}-2x-1",
+      "problem_plain": "已知抛物线 y= x ^ 2 -4x+3 与 x 轴相交于点 A ， B （点 A 在点 B 左侧），顶点为 M ．平移该抛物线，使点 M 平移后的对应点 M ' 落在 x 轴上，点 B 平移后的对应点 B ' 落在 y 轴上．则平移后的抛物线解析式为（~ ）． (A) y= x ^ 2 +2x+1 (B) y= x ^ 2 +2x-1 (C) y= x ^ 2 -2x+1 (D) y= x ^ 2 -2x-1",
+      "solution_latex": "令$$y=0={{x}^{2}}-4x+3$$，$${{x}_{1}}=1$$，$${{x}_{2}}=3$$，  ∵$$A\\left( 1,0 \\right)$$，$$B\\left( 3,0 \\right)$$，$$y={{x}^{2}}-4x+3={{\\left( x-2 \\right)}^{2}}-1$$，  ∴$$M\\left( 2,-1 \\right)$$，  ∵平移后$${{M}^{\\prime }}$$落在$$x$$轴上，  ∴图像向上平移$$1$$个单位，  ∵平移后$${{B}^{\\prime }}$$落在$$y$$轴上，  ∴图像向左平移$$3$$个单位，  ∴平移后的解析式为$$y=(x-2+3){{}^{2}}-1+1=(x+1){{}^{2}}={{x}^{2}}+2x+1$$，  故选$$\\text{A}$$．",
+      "solution_plain": "令 y=0= x ^ 2 -4x+3 ， x _ 1 =1 ， x _ 2 =3 ， ∵ A ( 1,0 ) ， B ( 3,0 ) ， y= x ^ 2 -4x+3= ( x-2 ) ^ 2 -1 ， ∴ M ( 2,-1 ) ， ∵平移后 M ^ 落在 x 轴上， ∴图像向上平移 1 个单位， ∵平移后 B ^ 落在 y 轴上， ∴图像向左平移 3 个单位， ∴平移后的解析式为 y=(x-2+3) ^ 2 -1+1=(x+1) ^ 2 = x ^ 2 +2x+1 ， 故选 A ．"
+    },
+    "answer": {
+      "final_raw": "y={{x}^{2}}+2x+1",
+      "final_normalized": "y={{x}^{2}}+2x+1",
+      "candidates": [
+        "A",
+        "y={{x}^{2}}+2x+1"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "令$$y=0={{x}^{2}}-4x+3$$，$${{x}_{1}}=1$$，$${{x}_{2}}=3$$，  ∵$$A\\left( 1,0 \\right)$$，$$B\\left( 3,0 \\right)$$，$$y={{x}^{2}}-4x+3={{\\left( x-2 \\right)}^{2}}-1$$，  ∴$$M\\left( 2,-1 \\right)$$，  ∵平移后$${{M}^{\\prime }}$$落在$$x$$轴上，  ∴图像向上平移$$1$$个单位，  ∵平移后$${{B}^{\\prime }}$$落在$$y$$轴上，  ∴图像向左平移$$3$$个单位，  ∴平移后的解析式为$$y=(x-2+3){{}^{2}}-1+1=(x+1){{}^{2}}={{x}^{2}}+2x+1$$，  故选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知抛物线 y= x ^ 2 -4x+3 与 x 轴相交于点 A ， B （点 A 在点 B 左侧），顶点为 M ．平移该抛物线，使点 M 平移后的对应点 M ' 落在 x 轴上，点 B 平移后的对应点 B ' 落在 y 轴上．则平移后的抛物线解析式为（~ ）． (A) y= x ^ 2 +2x+1 (B) y= x ^ 2 +2x-1 (C) y= x ^ 2 -2x+1 (D) y= x ^ 2 -2x-1",
+      "solution_text": "令 y=0= x ^ 2 -4x+3 ， x _ 1 =1 ， x _ 2 =3 ， ∵ A ( 1,0 ) ， B ( 3,0 ) ， y= x ^ 2 -4x+3= ( x-2 ) ^ 2 -1 ， ∴ M ( 2,-1 ) ， ∵平移后 M ^ 落在 x 轴上， ∴图像向上平移 1 个单位， ∵平移后 B ^ 落在 y 轴上， ∴图像向左平移 3 个单位， ∴平移后的解析式为 y=(x-2+3) ^ 2 -1+1=(x+1) ^ 2 = x ^ 2 +2x+1 ， 故选 A ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "848",
+        "queId": "c3ce460c765a450cbbd0ebb61405c2e2",
+        "difficulty": "2",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "y={{x}^{2}}+2x+1"
+          },
+          {
+            "label": "B",
+            "content": "y={{x}^{2}}+2x-1"
+          },
+          {
+            "label": "C",
+            "content": "y={{x}^{2}}-2x+1"
+          },
+          {
+            "label": "D",
+            "content": "y={{x}^{2}}-2x-1"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->函数->二次函数->二次函数的几何变换->二次函数平移变换"
+        ],
+        "competition_source_list": [
+          "2018~2019学年10月天津河西区天津市海河中学初三上学期月考第12题3分",
+          "2017~2018学年1月陕西西安雁塔区西安市第八十五中学初三上学期月考第10题3分",
+          "2019~2020学年12月河北石家庄裕华区石家庄外国语学校初三上学期周测B卷第24题",
+          "2018年第20届浙江宁波余姚市余姚市实验学校初三竞赛决赛第8题4分",
+          "2017年天津中考真题第12题3分",
+          "2017~2018学年山东济宁汶上县初三上学期期末第9题3分",
+          "2018年陕西西安新城区西光中学初三中考二模第10题3分",
+          "2018年山东德州夏津县初三中考二模第11题4分",
+          "2017~2018学年3月陕西咸阳秦都区陕西科技大学附属中学初三下学期月考第1次（四模）第10题3分",
+          "2019~2020学年陕西西安雁塔区西安高新逸翠园学校初三上学期期末（西安高新第三中学联考）第8题3分",
+          "2017~2018学年浙江杭州拱墅区杭州市文澜中学初三上学期期中第8题3分",
+          "2019~2020学年山东威海文登区初三上学期期末（五四制）第8题3分",
+          "2017~2018学年2月天津天津市第二南开中学初三下学期月考第11题3分",
+          "2017~2018学年陕西西安高新区西安高新第一中学初三上学期期末第8题3分",
+          "2019~2020学年天津河北区天津外国语大学附属外国语学校初三上学期期末第10题3分",
+          "2017~2018学年9月浙江金华义乌市义乌市绣湖中学初一上学期月考第6题",
+          "2019年广东广州荔湾区广雅实验学校初三中考二模第8题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01347",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1347,
+      "split": "zh_test",
+      "source_problem_id": "7daf6c264b564f7380ff8b805b54bc24"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "如果抛物线$$y={{x}^{2}}-\\left( k-1 \\right)x-k-1$$与$$x$$轴的交点分别为$$A$$，$$B$$，顶点为$$C$$，那么$$\\triangle ABC$$面积的最小值是．\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
+      "problem_plain": "如果抛物线 y= x ^ 2 - ( k-1 )x-k-1 与 x 轴的交点分别为 A ， B ，顶点为 C ，那么 ABC 面积的最小值是． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_latex": "首先，$$\\Delta ={{\\left( k-1 \\right)}^{2}}+4\\left( k+1 \\right)={{k}^{2}}+2k+5\\textgreater0$$，  所以抛物线与$$x$$轴总有两个交点，设抛物线与$$x$$轴交点的横坐标分别为$${{x}_{1}}$$，$${{x}_{2}}$$，那么  $$\\left\\textbar{} AB \\right\\textbar=\\sqrt{{{\\left( {{x}_{1}}-{{x}_{2}} \\right)}^{2}}}=\\sqrt{{{\\left( {{x}_{1}}+{{x}_{2}} \\right)}^{2}}-4{{x}_{1}}{{x}_{2}}}=\\sqrt{{{k}^{2}}+2k+5}$$．  又抛物线的顶点坐标是$$C\\left( \\frac{k-1}{2},-\\frac{{{k}^{2}}+2k+5}{4} \\right)$$，  所以  $${{S}_{\\triangle ABC}}=\\frac{1}{2}\\sqrt{{{k}^{2}}+2k+5}\\cdot \\frac{{{k}^{2}}+2k+5}{4}$$  $$=\\frac{1}{8}{{\\left[ {{\\left( k+1 \\right)}^{2}}+4 \\right]}^{\\dfrac{3}{2}}}\\geqslant \\frac{1}{8}\\cdot {{4}^{\\frac{3}{2}}}=1$$，  当$$k=-1$$时，等号成立．  故选：$$\\text{A}$$．",
+      "solution_plain": "首先， = ( k-1 ) ^ 2 +4 ( k+1 )= k ^ 2 +2k+5 0 ， 所以抛物线与 x 轴总有两个交点，设抛物线与 x 轴交点的横坐标分别为 x _ 1 ， x _ 2 ，那么 AB = ( x _ 1 - x _ 2 ) ^ 2 = ( x _ 1 + x _ 2 ) ^ 2 -4 x _ 1 x _ 2 = k ^ 2 +2k+5 ． 又抛物线的顶点坐标是 C ( k-1 2 ,- k ^ 2 +2k+5 4 ) ， 所以 S _ ABC = 1 2 k ^ 2 +2k+5 k ^ 2 +2k+5 4 = 1 8 [ ( k+1 ) ^ 2 +4 ] ^ 3 2 1 8 4 ^ 3 2 =1 ， 当 k=-1 时，等号成立． 故选： A ．"
+    },
+    "answer": {
+      "final_raw": "1",
+      "final_normalized": "1",
+      "candidates": [
+        "1",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "首先，$$\\Delta ={{\\left( k-1 \\right)}^{2}}+4\\left( k+1 \\right)={{k}^{2}}+2k+5\\textgreater0$$，  所以抛物线与$$x$$轴总有两个交点，设抛物线与$$x$$轴交点的横坐标分别为$${{x}_{1}}$$，$${{x}_{2}}$$，那么  $$\\left\\textbar{} AB \\right\\textbar=\\sqrt{{{\\left( {{x}_{1}}-{{x}_{2}} \\right)}^{2}}}=\\sqrt{{{\\left( {{x}_{1}}+{{x}_{2}} \\right)}^{2}}-4{{x}_{1}}{{x}_{2}}}=\\sqrt{{{k}^{2}}+2k+5}$$．  又抛物线的顶点坐标是$$C\\left( \\frac{k-1}{2},-\\frac{{{k}^{2}}+2k+5}{4} \\right)$$，  所以  $${{S}_{\\triangle ABC}}=\\frac{1}{2}\\sqrt{{{k}^{2}}+2k+5}\\cdot \\frac{{{k}^{2}}+2k+5}{4}$$  $$=\\frac{1}{8}{{\\left[ {{\\left( k+1 \\right)}^{2}}+4 \\right]}^{\\dfrac{3}{2}}}\\geqslant \\frac{1}{8}\\cdot {{4}^{\\frac{3}{2}}}=1$$，  当$$k=-1$$时，等号成立．  故选：$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "如果抛物线 y= x ^ 2 - ( k-1 )x-k-1 与 x 轴的交点分别为 A ， B ，顶点为 C ，那么 ABC 面积的最小值是． (A) 1 (B) 2 (C) 3 (D) 4",
+      "solution_text": "首先， = ( k-1 ) ^ 2 +4 ( k+1 )= k ^ 2 +2k+5 0 ， 所以抛物线与 x 轴总有两个交点，设抛物线与 x 轴交点的横坐标分别为 x _ 1 ， x _ 2 ，那么 AB = ( x _ 1 - x _ 2 ) ^ 2 = ( x _ 1 + x _ 2 ) ^ 2 -4 x _ 1 x _ 2 = k ^ 2 +2k+5 ． 又抛物线的顶点坐标是 C ( k-1 2 ,- k ^ 2 +2k+5 4 ) ， 所以 S _ ABC = 1 2 k ^ 2 +2k+5 k ^ 2 +2k+5 4 = 1 8 [ ( k+1 ) ^ 2 +4 ] ^ 3 2 1 8 4 ^ 3 2 =1 ， 当 k=-1 时，等号成立． 故选： A ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "126",
+        "queId": "7daf6c264b564f7380ff8b805b54bc24",
+        "difficulty": "2",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "3"
+          },
+          {
+            "label": "D",
+            "content": "4"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->推理论证能力",
+          "课内体系->知识点->函数->二次函数->二次函数与方程、不等式->二次函数与坐标轴交点",
+          "课内体系->知识点->函数->二次函数->二次函数与几何综合->二次函数与面积"
+        ],
+        "competition_source_list": [
+          "1999年竞赛（全国初中数学竞赛）第5题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01416",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1416,
+      "split": "zh_test",
+      "source_problem_id": "73627cc6310b491bad4e82a83aa7d8d8"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "如果对于某一特定范围内$$x$$的任意允许值, $$p=\\left\\textbar{} 1-2x \\right\\textbar+\\left\\textbar{} 1-3x \\right\\textbar+\\cdots +\\left\\textbar{} 1-9x \\right\\textbar+\\left\\textbar{} 1-10x \\right\\textbar$$ 的值恒为一常数，则此值为．\n(A) 2\n(B) 3\n(C) 4\n(D) 5",
+      "problem_plain": "如果对于某一特定范围内 x 的任意允许值, p= 1-2x + 1-3x + + 1-9x + 1-10x 的值恒为一常数，则此值为． (A) 2 (B) 3 (C) 4 (D) 5",
+      "solution_latex": "∵$$P$$为定值，  ∴$$P$$的表达式化简后与$$x$$无关，  即$$x$$的系数为$$0$$，  观察发现：$$2+3+4+5+6+7=8+9+10$$，  ∴只需$$1-7x\\geqslant 0$$且$$1-8x\\leqslant 0$$，  ∴$$\\frac{1}{8}\\leqslant x\\leqslant \\frac{1}{7}$$，  ∴$$P=(1-2x)+(1-3x)+(1-4x)+(1-5x)+(1-6x)+(1-7x)-(1-8x)-(1-9x)-(1-10x)$$  $$=3$$．  故选$$\\text{B}$$．",
+      "solution_plain": "∵ P 为定值， ∴ P 的表达式化简后与 x 无关， 即 x 的系数为 0 ， 观察发现： 2+3+4+5+6+7=8+9+10 ， ∴只需 1-7x 0 且 1-8x 0 ， ∴ 1 8 x 1 7 ， ∴ P=(1-2x)+(1-3x)+(1-4x)+(1-5x)+(1-6x)+(1-7x)-(1-8x)-(1-9x)-(1-10x) =3 ． 故选 B ．"
+    },
+    "answer": {
+      "final_raw": "3",
+      "final_normalized": "3",
+      "candidates": [
+        "3",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "∵$$P$$为定值，  ∴$$P$$的表达式化简后与$$x$$无关，  即$$x$$的系数为$$0$$，  观察发现：$$2+3+4+5+6+7=8+9+10$$，  ∴只需$$1-7x\\geqslant 0$$且$$1-8x\\leqslant 0$$，  ∴$$\\frac{1}{8}\\leqslant x\\leqslant \\frac{1}{7}$$，  ∴$$P=(1-2x)+(1-3x)+(1-4x)+(1-5x)+(1-6x)+(1-7x)-(1-8x)-(1-9x)-(1-10x)$$  $$=3$$．  故选$$\\text{B}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "如果对于某一特定范围内 x 的任意允许值, p= 1-2x + 1-3x + + 1-9x + 1-10x 的值恒为一常数，则此值为． (A) 2 (B) 3 (C) 4 (D) 5",
+      "solution_text": "∵ P 为定值， ∴ P 的表达式化简后与 x 无关， 即 x 的系数为 0 ， 观察发现： 2+3+4+5+6+7=8+9+10 ， ∴只需 1-7x 0 且 1-8x 0 ， ∴ 1 8 x 1 7 ， ∴ P=(1-2x)+(1-3x)+(1-4x)+(1-5x)+(1-6x)+(1-7x)-(1-8x)-(1-9x)-(1-10x) =3 ． 故选 B ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "949",
+        "queId": "73627cc6310b491bad4e82a83aa7d8d8",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2"
+          },
+          {
+            "label": "B",
+            "content": "3"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "5"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->数->有理数->绝对值->零点分段法",
+          "课内体系->知识点->数->有理数->绝对值->绝对值的几何意义",
+          "课内体系->能力->运算能力"
+        ],
+        "competition_source_list": [
+          "2019年第1届广东深圳罗湖区深圳中学初中部初一竞赛（凤凰木杯）第2题3分",
+          "初一上学期单元测试《物以类聚》第19题",
+          "2019~2020学年浙江宁波鄞州区宁波市鄞州蓝青学校初一上学期期末第6题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01482",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1482,
+      "split": "zh_test",
+      "source_problem_id": "79ca107a5f144a03a0aa8f7fa3f08af7"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "直线$$y=x-1$$与$$x$$轴、$$y$$轴分别交于$$A$$，$$B$$两点，点$$C$$在坐标轴上，$$\\triangle ABC$$是等腰三角形，则满足条件的点$$C$$有个．\n(A) 4\n(B) 5\n(C) 6\n(D) 7",
+      "problem_plain": "直线 y=x-1 与 x 轴、 y 轴分别交于 A ， B 两点，点 C 在坐标轴上， ABC 是等腰三角形，则满足条件的点 C 有个． (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_latex": "$$C\\left( 0,0 \\right)$$、$$C\\left( 0,1 \\right)$$、$$C\\left( 0,-1-\\sqrt{2} \\right)$$、$$C\\left( 1+\\sqrt{2},0 \\right)$$、$$C\\left( 1-\\sqrt{2},0 \\right)$$、$$C\\left( -1,0 \\right)$$、$$C\\left( 0,\\sqrt{2}-1 \\right)$$．",
+      "solution_plain": "C ( 0,0 ) 、 C ( 0,1 ) 、 C ( 0,-1- 2 ) 、 C ( 1+ 2 ,0 ) 、 C ( 1- 2 ,0 ) 、 C ( -1,0 ) 、 C ( 0, 2 -1 ) ．"
+    },
+    "answer": {
+      "final_raw": "7",
+      "final_normalized": "7",
+      "candidates": [
+        "7",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$C\\left( 0,0 \\right)$$、$$C\\left( 0,1 \\right)$$、$$C\\left( 0,-1-\\sqrt{2} \\right)$$、$$C\\left( 1+\\sqrt{2},0 \\right)$$、$$C\\left( 1-\\sqrt{2},0 \\right)$$、$$C\\left( -1,0 \\right)$$、$$C\\left( 0,\\sqrt{2}-1 \\right)$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "直线 y=x-1 与 x 轴、 y 轴分别交于 A ， B 两点，点 C 在坐标轴上， ABC 是等腰三角形，则满足条件的点 C 有个． (A) 4 (B) 5 (C) 6 (D) 7",
+      "solution_text": "C ( 0,0 ) 、 C ( 0,1 ) 、 C ( 0,-1- 2 ) 、 C ( 1+ 2 ,0 ) 、 C ( 1- 2 ,0 ) 、 C ( -1,0 ) 、 C ( 0, 2 -1 ) ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "439",
+        "queId": "79ca107a5f144a03a0aa8f7fa3f08af7",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "4"
+          },
+          {
+            "label": "B",
+            "content": "5"
+          },
+          {
+            "label": "C",
+            "content": "6"
+          },
+          {
+            "label": "D",
+            "content": "7"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->函数->一次函数->一次函数与几何综合->一次函数与等腰三角形结合",
+          "课内体系->思想->分类讨论思想"
+        ],
+        "competition_source_list": [
+          "2013年第24届全国希望杯初二竞赛复赛第17题4分",
+          "初一下学期单元测试《坐标平面上的直线》第24题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01513",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1513,
+      "split": "zh_test",
+      "source_problem_id": "32b4e6ded4cd4b1babf788505dcc35de"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知$$\\triangle ABC$$三边长分别为$$a$$，$$b$$，$$c$$，面积为$$s$$．$$\\triangle {{A}^{\\prime }}{{B}^{\\prime }}{{C}^{\\prime }}$$的三边长分别为$${{a}^{\\prime }}$$、$${{b}^{\\prime }}$$、$${{c}^{\\prime }}$$，面积为$${{s}^{\\prime }}$$，且$$a\\textgreater{{a}^{\\prime }}$$，$$b\\textgreater{{b}^{\\prime }}$$，$$c\\textgreater{{c}^{\\prime }}$$，则$$s$$与$${{s}^{\\prime }}$$的大小关系一定是（~ ）．\n(A) s\\textgreater{{s}^{\\prime }}\n(B) s\\textless{}{{s}^{\\prime }}\n(C) s={{s}^{\\prime }}\n(D) 不确定",
+      "problem_plain": "已知 ABC 三边长分别为 a ， b ， c ，面积为 s ． A ^ B ^ C ^ 的三边长分别为 a ^ 、 b ^ 、 c ^ ，面积为 s ^ ，且 a a ^ ， b b ^ ， c c ^ ，则 s 与 s ^ 的大小关系一定是（~ ）． (A) s s ^ (B) s s ^ (C) s= s ^ (D) 不确定",
+      "solution_latex": "分别构造$$\\triangle ABC$$与$$\\triangle {{A}^{\\prime }}{{B}^{\\prime }}{{C}^{\\prime }}$$如下：  ①作$$\\triangle ABC\\backsim \\triangle {{A}^{\\prime }}{{B}^{\\prime }}{{C}^{\\prime }}$$，显然$$\\frac{s}{{{s}^{\\prime }}}={{\\left( \\frac{a}{{{a}^{\\prime }}} \\right)}^{2}}\\textgreater1$$，  ∴$$s\\textgreater{{s}^{\\prime }}$$．  ②设$$a=b=\\sqrt{101}$$，$$c=20$$，则$${{h}_{c}}=1$$，$$s=10$$，  设$${{a}^{\\prime }}={{b}^{\\prime }}={{c}^{\\prime }}=10$$，则$${{s}^{\\prime }}=\\frac{\\sqrt{3}}{4}\\times 100\\textgreater10$$，  ∴$$s\\textless{}{{s}^{\\prime }}$$．  ③设$$a=b=\\sqrt{101}$$，$$c=20$$，则$${{h}_{c}}=1$$，$$s=10$$，  $${{a}^{\\prime }}={{b}^{\\prime }}=\\sqrt{29}$$，$${{c}^{\\prime }}=10$$，则$${{h}_{c}}=2$$，$${{s}^{\\prime }}=10$$，  ∴$$s={{s}^{\\prime }}$$，  ∴$$s$$与$${{s}^{\\prime }}$$的大小关系不确定．",
+      "solution_plain": "分别构造 ABC 与 A ^ B ^ C ^ 如下： ①作 ABC A ^ B ^ C ^ ，显然 s s ^ = ( a a ^ ) ^ 2 1 ， ∴ s s ^ ． ②设 a=b= 101 ， c=20 ，则 h _ c =1 ， s=10 ， 设 a ^ = b ^ = c ^ =10 ，则 s ^ = 3 4 100 10 ， ∴ s s ^ ． ③设 a=b= 101 ， c=20 ，则 h _ c =1 ， s=10 ， a ^ = b ^ = 29 ， c ^ =10 ，则 h _ c =2 ， s ^ =10 ， ∴ s= s ^ ， ∴ s 与 s ^ 的大小关系不确定．"
+    },
+    "answer": {
+      "final_raw": "不确定",
+      "final_normalized": "不确定",
+      "candidates": [
+        "D",
+        "不确定"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "分别构造$$\\triangle ABC$$与$$\\triangle {{A}^{\\prime }}{{B}^{\\prime }}{{C}^{\\prime }}$$如下：  ①作$$\\triangle ABC\\backsim \\triangle {{A}^{\\prime }}{{B}^{\\prime }}{{C}^{\\prime }}$$，显然$$\\frac{s}{{{s}^{\\prime }}}={{\\left( \\frac{a}{{{a}^{\\prime }}} \\right)}^{2}}\\textgreater1$$，  ∴$$s\\textgreater{{s}^{\\prime }}$$．  ②设$$a=b=\\sqrt{101}$$，$$c=20$$，则$${{h}_{c}}=1$$，$$s=10$$，  设$${{a}^{\\prime }}={{b}^{\\prime }}={{c}^{\\prime }}=10$$，则$${{s}^{\\prime }}=\\frac{\\sqrt{3}}{4}\\times 100\\textgreater10$$，  ∴$$s\\textless{}{{s}^{\\prime }}$$．  ③设$$a=b=\\sqrt{101}$$，$$c=20$$，则$${{h}_{c}}=1$$，$$s=10$$，  $${{a}^{\\prime }}={{b}^{\\prime }}=\\sqrt{29}$$，$${{c}^{\\prime }}=10$$，则$${{h}_{c}}=2$$，$${{s}^{\\prime }}=10$$，  ∴$$s={{s}^{\\prime }}$$，  ∴$$s$$与$${{s}^{\\prime }}$$的大小关系不确定．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知 ABC 三边长分别为 a ， b ， c ，面积为 s ． A ^ B ^ C ^ 的三边长分别为 a ^ 、 b ^ 、 c ^ ，面积为 s ^ ，且 a a ^ ， b b ^ ， c c ^ ，则 s 与 s ^ 的大小关系一定是（~ ）． (A) s s ^ (B) s s ^ (C) s= s ^ (D) 不确定",
+      "solution_text": "分别构造 ABC 与 A ^ B ^ C ^ 如下： ①作 ABC A ^ B ^ C ^ ，显然 s s ^ = ( a a ^ ) ^ 2 1 ， ∴ s s ^ ． ②设 a=b= 101 ， c=20 ，则 h _ c =1 ， s=10 ， 设 a ^ = b ^ = c ^ =10 ，则 s ^ = 3 4 100 10 ， ∴ s s ^ ． ③设 a=b= 101 ， c=20 ，则 h _ c =1 ， s=10 ， a ^ = b ^ = 29 ， c ^ =10 ，则 h _ c =2 ， s ^ =10 ， ∴ s= s ^ ， ∴ s 与 s ^ 的大小关系不确定．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "623",
+        "queId": "32b4e6ded4cd4b1babf788505dcc35de",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "s\\textgreater{{s}^{\\prime }}"
+          },
+          {
+            "label": "B",
+            "content": "s\\textless{}{{s}^{\\prime }}"
+          },
+          {
+            "label": "C",
+            "content": "s={{s}^{\\prime }}"
+          },
+          {
+            "label": "D",
+            "content": "不确定"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->三角形->相似三角形->相似三角形基础->相似三角形的性质",
+          "课内体系->知识点->三角形->相似三角形->相似三角形的判定->相似三角形的性质与判定综合",
+          "课内体系->思想->分类讨论思想"
+        ],
+        "competition_source_list": [
+          "2015年四川成都金牛区成都外国语学校初三自主招生第14题3分",
+          "2000年竞赛（全国初中数学竞赛）第6题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01578",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1578,
+      "split": "zh_test",
+      "source_problem_id": "eb8e9e69bd8a481d897b569f9fbddc0b"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$B$$，$$C$$是定点且都不在平面$$\\pi $$上，动点$$A$$在平面$$ \\pi $$上且$$\\sin \\angle ABC{=}\\frac{1}{2}$$．那么，$$A$$点的轨迹是．\n(A) 椭圆\n(B) 抛物线\n(C) 双曲线\n(D) 以上皆有可能",
+      "problem_plain": "设 B ， C 是定点且都不在平面 上，动点 A 在平面 上且 ABC = 1 2 ．那么， A 点的轨迹是． (A) 椭圆 (B) 抛物线 (C) 双曲线 (D) 以上皆有可能",
+      "solution_latex": "满足$$\\sin \\angle ABC=\\frac{1}{2}$$的$$A$$点轨迹是以$$B$$为锥顶，以$$BC$$为轴线的一个圆锥面（母线与轴线的夹角为$$30{}^{}\\circ $$）．现在，$$A$$点还需落在平面$$ \\pi $$上，从而其轨迹是圆锥面与平面$$ \\pi $$的交线，可能是三种圆锥曲线中的任何一种．",
+      "solution_plain": "满足 ABC= 1 2 的 A 点轨迹是以 B 为锥顶，以 BC 为轴线的一个圆锥面（母线与轴线的夹角为 30 ^ ）．现在， A 点还需落在平面 上，从而其轨迹是圆锥面与平面 的交线，可能是三种圆锥曲线中的任何一种．"
+    },
+    "answer": {
+      "final_raw": "以上皆有可能",
+      "final_normalized": "以上皆有可能",
+      "candidates": [
+        "D",
+        "以上皆有可能"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "满足$$\\sin \\angle ABC=\\frac{1}{2}$$的$$A$$点轨迹是以$$B$$为锥顶，以$$BC$$为轴线的一个圆锥面（母线与轴线的夹角为$$30{}^{}\\circ $$）．现在，$$A$$点还需落在平面$$ \\pi $$上，从而其轨迹是圆锥面与平面$$ \\pi $$的交线，可能是三种圆锥曲线中的任何一种．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 B ， C 是定点且都不在平面 上，动点 A 在平面 上且 ABC = 1 2 ．那么， A 点的轨迹是． (A) 椭圆 (B) 抛物线 (C) 双曲线 (D) 以上皆有可能",
+      "solution_text": "满足 ABC= 1 2 的 A 点轨迹是以 B 为锥顶，以 BC 为轴线的一个圆锥面（母线与轴线的夹角为 30 ^ ）．现在， A 点还需落在平面 上，从而其轨迹是圆锥面与平面 的交线，可能是三种圆锥曲线中的任何一种．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1185",
+        "queId": "eb8e9e69bd8a481d897b569f9fbddc0b",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "椭圆"
+          },
+          {
+            "label": "B",
+            "content": "抛物线"
+          },
+          {
+            "label": "C",
+            "content": "双曲线"
+          },
+          {
+            "label": "D",
+            "content": "以上皆有可能"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->解析几何->椭圆",
+          "竞赛->知识点->解析几何->轨迹方程（二试）",
+          "竞赛->知识点->解析几何->双曲线",
+          "竞赛->知识点->解析几何->抛物线"
+        ],
+        "competition_source_list": [
+          "2013年天津全国高中数学联赛竞赛初赛第2题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01580",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1580,
+      "split": "zh_test",
+      "source_problem_id": "3f10f8e442cc4bb1945dac20a854f207"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知圆柱的底面半径为$$r$$，高为$$h$$，体积为$$2$$，表面积为$$24$$，则$$\\frac{1}{r}+\\frac{1}{h}=$$（~ ）．\n(A) 24\n(B) 12\n(C) 8\n(D) 6",
+      "problem_plain": "已知圆柱的底面半径为 r ，高为 h ，体积为 2 ，表面积为 24 ，则 1 r + 1 h = （~ ）． (A) 24 (B) 12 (C) 8 (D) 6",
+      "solution_latex": "由题意可知$$\\begin{cases} \\pi {{r}^{2}}h=2    2 \\pi {{r}^{2}}+2 \\pi rh=24 \\end{cases}$$，  两式相比可得$$\\frac{ \\pi {{r}^{2}}h}{2 \\pi {{r}^{2}}+2 \\pi rh}=\\frac{1}{12}$$，  ∴$$\\frac{rh}{r+h}=\\frac{1}{6}$$，  ∴$$\\frac{1}{r}+\\frac{1}{h}=\\frac{r+h}{rh}=6$$．  故选$$\\text{D}$$．",
+      "solution_plain": "由题意可知 cases r ^ 2 h=2 2 r ^ 2 +2 rh=24 cases ， 两式相比可得 r ^ 2 h 2 r ^ 2 +2 rh = 1 12 ， ∴ rh r+h = 1 6 ， ∴ 1 r + 1 h = r+h rh =6 ． 故选 D ．"
+    },
+    "answer": {
+      "final_raw": "6",
+      "final_normalized": "6",
+      "candidates": [
+        "6",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "由题意可知$$\\begin{cases} \\pi {{r}^{2}}h=2    2 \\pi {{r}^{2}}+2 \\pi rh=24 \\end{cases}$$，  两式相比可得$$\\frac{ \\pi {{r}^{2}}h}{2 \\pi {{r}^{2}}+2 \\pi rh}=\\frac{1}{12}$$，  ∴$$\\frac{rh}{r+h}=\\frac{1}{6}$$，  ∴$$\\frac{1}{r}+\\frac{1}{h}=\\frac{r+h}{rh}=6$$．  故选$$\\text{D}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知圆柱的底面半径为 r ，高为 h ，体积为 2 ，表面积为 24 ，则 1 r + 1 h = （~ ）． (A) 24 (B) 12 (C) 8 (D) 6",
+      "solution_text": "由题意可知 cases r ^ 2 h=2 2 r ^ 2 +2 rh=24 cases ， 两式相比可得 r ^ 2 h 2 r ^ 2 +2 rh = 1 12 ， ∴ rh r+h = 1 6 ， ∴ 1 r + 1 h = r+h rh =6 ． 故选 D ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "483",
+        "queId": "3f10f8e442cc4bb1945dac20a854f207",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "24"
+          },
+          {
+            "label": "B",
+            "content": "12"
+          },
+          {
+            "label": "C",
+            "content": "8"
+          },
+          {
+            "label": "D",
+            "content": "6"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->立体几何初步->基本立体图形->空间几何体的体积、表面积->空间几何体的体积",
+          "课内体系->知识点->立体几何初步->基本立体图形->空间几何体的体积、表面积->组合体求体积、表面积问题",
+          "课内体系->知识点->立体几何初步->基本立体图形->空间几何体的体积、表面积->空间几何体的表面积",
+          "课内体系->素养->数学运算"
+        ],
+        "competition_source_list": [
+          "2015~2016学年湖北武汉武昌区高二下学期期末理科第10题5分",
+          "2014年天津全国高中数学联赛竞赛初赛第2题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01585",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1585,
+      "split": "zh_test",
+      "source_problem_id": "a55ed4518bb14af1a6ab161fd965391e"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "空间四点$$A$$、$$B$$、$$C$$、$$D$$满足$$\\textbar\\overrightarrow{AB}\\textbar=3$$，$$\\textbar\\overrightarrow{BC}\\textbar=7$$，$$\\textbar\\overrightarrow{CD}\\textbar=11$$，$$\\textbar\\overrightarrow{DA}\\textbar=9$$，则$$\\overrightarrow{AC}\\cdot \\overrightarrow{BD}$$=~\\uline{~~~~~~~~~~}~．\n(A) 只有一个\n(B) 有二个\n(C) 有四个\n(D) 有无穷多个",
+      "problem_plain": "空间四点 A 、 B 、 C 、 D 满足 AB =3 ， BC =7 ， CD =11 ， DA =9 ，则 AC BD =~ ~~~~~~~~~~ ~． (A) 只有一个 (B) 有二个 (C) 有四个 (D) 有无穷多个",
+      "solution_latex": "注意到$${{3}^{2}}+{{11}^{2}}=1130={{7}^{2}}+{{9}^{2}}$$，由于$$\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CD}+\\overrightarrow{DA}=\\vec{0}$$，  则$$D{{A}^{2}}={{\\overrightarrow{DA}}^{2}}={{(\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CD})}^{2}}=A{{B}^{2}}+B{{C}^{2}}+C{{D}^{2}}+2(\\overrightarrow{AB}\\cdot \\overrightarrow{BC}+\\overrightarrow{BC}\\cdot \\overrightarrow{CD}+\\overrightarrow{CD}\\cdot \\overrightarrow{AB})$$  $$=A{{B}^{2}}-B{{C}^{2}}+C{{D}^{2}}+2({{\\overline{BC}}^{2}}+\\overrightarrow{AB}\\cdot \\overrightarrow{BC}+\\overrightarrow{BC}\\cdot \\overrightarrow{CD}+\\overrightarrow{CD}\\cdot \\overrightarrow{AB})$$  $$=A{{B}^{2}}-B{{C}^{2}}+C{{D}^{2}}+2(\\overrightarrow{AB}+\\overrightarrow{BC})\\cdot (\\overrightarrow{BC}+\\overrightarrow{CD})$$，  即$$2\\overrightarrow{AC}\\cdot \\overrightarrow{BD}=A{{D}^{2}}+B{{C}^{2}}-A{{B}^{2}}-C{{D}^{2}}=0$$，∴$$\\overrightarrow{AC}\\cdot \\overrightarrow{BD}$$只有一个值得$$0$$，  故选$$\\text{A}$$．",
+      "solution_plain": "注意到 3 ^ 2 + 11 ^ 2 =1130= 7 ^ 2 + 9 ^ 2 ，由于 AB + BC + CD + DA = 0 ， 则 D A ^ 2 = DA ^ 2 = ( AB + BC + CD ) ^ 2 =A B ^ 2 +B C ^ 2 +C D ^ 2 +2( AB BC + BC CD + CD AB ) =A B ^ 2 -B C ^ 2 +C D ^ 2 +2( BC ^ 2 + AB BC + BC CD + CD AB ) =A B ^ 2 -B C ^ 2 +C D ^ 2 +2( AB + BC ) ( BC + CD ) ， 即 2 AC BD =A D ^ 2 +B C ^ 2 -A B ^ 2 -C D ^ 2 =0 ，∴ AC BD 只有一个值得 0 ， 故选 A ．"
+    },
+    "answer": {
+      "final_raw": "只有一个",
+      "final_normalized": "只有一个",
+      "candidates": [
+        "A",
+        "只有一个"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "注意到$${{3}^{2}}+{{11}^{2}}=1130={{7}^{2}}+{{9}^{2}}$$，由于$$\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CD}+\\overrightarrow{DA}=\\vec{0}$$，  则$$D{{A}^{2}}={{\\overrightarrow{DA}}^{2}}={{(\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CD})}^{2}}=A{{B}^{2}}+B{{C}^{2}}+C{{D}^{2}}+2(\\overrightarrow{AB}\\cdot \\overrightarrow{BC}+\\overrightarrow{BC}\\cdot \\overrightarrow{CD}+\\overrightarrow{CD}\\cdot \\overrightarrow{AB})$$  $$=A{{B}^{2}}-B{{C}^{2}}+C{{D}^{2}}+2({{\\overline{BC}}^{2}}+\\overrightarrow{AB}\\cdot \\overrightarrow{BC}+\\overrightarrow{BC}\\cdot \\overrightarrow{CD}+\\overrightarrow{CD}\\cdot \\overrightarrow{AB})$$  $$=A{{B}^{2}}-B{{C}^{2}}+C{{D}^{2}}+2(\\overrightarrow{AB}+\\overrightarrow{BC})\\cdot (\\overrightarrow{BC}+\\overrightarrow{CD})$$，  即$$2\\overrightarrow{AC}\\cdot \\overrightarrow{BD}=A{{D}^{2}}+B{{C}^{2}}-A{{B}^{2}}-C{{D}^{2}}=0$$，∴$$\\overrightarrow{AC}\\cdot \\overrightarrow{BD}$$只有一个值得$$0$$，  故选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "空间四点 A 、 B 、 C 、 D 满足 AB =3 ， BC =7 ， CD =11 ， DA =9 ，则 AC BD =~ ~~~~~~~~~~ ~． (A) 只有一个 (B) 有二个 (C) 有四个 (D) 有无穷多个",
+      "solution_text": "注意到 3 ^ 2 + 11 ^ 2 =1130= 7 ^ 2 + 9 ^ 2 ，由于 AB + BC + CD + DA = 0 ， 则 D A ^ 2 = DA ^ 2 = ( AB + BC + CD ) ^ 2 =A B ^ 2 +B C ^ 2 +C D ^ 2 +2( AB BC + BC CD + CD AB ) =A B ^ 2 -B C ^ 2 +C D ^ 2 +2( BC ^ 2 + AB BC + BC CD + CD AB ) =A B ^ 2 -B C ^ 2 +C D ^ 2 +2( AB + BC ) ( BC + CD ) ， 即 2 AC BD =A D ^ 2 +B C ^ 2 -A B ^ 2 -C D ^ 2 =0 ，∴ AC BD 只有一个值得 0 ， 故选 A ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1003",
+        "queId": "a55ed4518bb14af1a6ab161fd965391e",
+        "difficulty": "2",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "只有一个"
+          },
+          {
+            "label": "B",
+            "content": "有二个"
+          },
+          {
+            "label": "C",
+            "content": "有四个"
+          },
+          {
+            "label": "D",
+            "content": "有无穷多个"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->立体几何与空间向量->空间向量"
+        ],
+        "competition_source_list": [
+          "2005年全国高中数学联赛竞赛一试第2题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01591",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1591,
+      "split": "zh_test",
+      "source_problem_id": "f5e13a23613c4ad1ac523de992aa3a45"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "2013年$$AMC10$$竞赛$$B$$第$$15$$题  A wire is cut into two pieces, one of length $$a$$ and the other of length $$b$$. The piece of length $$a$$ is bent to form an equilateral triangle, and the piece of length $$b$$ is bent to form a regular hexagon. The triangle and the hexagon have equal area. What is $$\\frac ab$$?  一根电线被切成两块，一块长度为 $$a$$，另一块长度为 $$b$$。 长度$$a$$ 弯曲形成等边三角形，长度$$b$$ 弯曲形成正六边形。 三角形和六边形的面积相等。 求 $$\\frac ab$$？\n(A) 1\n(B) \\frac{\\sqrt{6}}{2}\n(C) \\sqrt{3}\n(D) 2\n(E) \\frac{3\\sqrt{2}}{2}",
+      "problem_plain": "2013年 AMC10 竞赛 B 第 15 题 A wire is cut into two pieces, one of length a and the other of length b . The piece of length a is bent to form an equilateral triangle, and the piece of length b is bent to form a regular hexagon. The triangle and the hexagon have equal area. What is ab ? 一根电线被切成两块，一块长度为 a ，另一块长度为 b 。 长度 a 弯曲形成等边三角形，长度 b 弯曲形成正六边形。 三角形和六边形的面积相等。 求 ab ？ (A) 1 (B) 6 2 (C) 3 (D) 2 (E) 3 2 2",
+      "solution_latex": "Using the area formulas for an equilateral triangle $$\\left(\\frac{s^{2}\\sqrt{3}}{4}\\right)$$ and regular hexagon $$\\left(\\frac{3s^{2}\\sqrt{3}}{2}\\right)$$ , with side length $$s$$ and plugging $$\\frac a3$$ and $$\\frac b6$$ into each equation, we find that $$\\frac{a^{2}\\sqrt{3}}{36}= \\frac{b^{2}\\sqrt{3}}{24}$$. Simplifying this, we get $$\\frac ab=\\boxed{\\rm(B)\\textasciitilde\\frac{\\sqrt{6}}{2}}$$.  The regular hexagon can be broken into $$6$$ small equilateral triangles, each of which is similar to the big equilateral triangle. The big triangle\\textquotesingle s area is $$6$$ times the area of one of the little triangles. Therefore each side of the big triangle is $$\\sqrt{6}$$ times the side of the small triangle. The desired ratio is $$\\frac{3 \\sqrt{6}}{6}= \\frac{\\sqrt{6}}{2}\\Rightarrow (B)$$.",
+      "solution_plain": "Using the area formulas for an equilateral triangle ( s^ 2 3 4 ) and regular hexagon ( 3s^ 2 3 2 ) , with side length s and plugging a3 and b6 into each equation, we find that a^ 2 3 36 = b^ 2 3 24 . Simplifying this, we get ab= (B) 6 2 . The regular hexagon can be broken into 6 small equilateral triangles, each of which is similar to the big equilateral triangle. The big triangle s area is 6 times the area of one of the little triangles. Therefore each side of the big triangle is 6 times the side of the small triangle. The desired ratio is 3 6 6 = 6 2 (B) ."
+    },
+    "answer": {
+      "final_raw": "\\frac{\\sqrt{6}}{2}",
+      "final_normalized": "\\frac{\\sqrt{6}}{2}",
+      "candidates": [
+        "B",
+        "\\frac{\\sqrt{6}}{2}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "calculation_of_plane_geometry",
+        "geometry",
+        "regular_polygon",
+        "unknown"
+      ],
+      "tags": [
+        "amc10_12",
+        "calculation_of_plane_geometry",
+        "geometry",
+        "level_3",
+        "regular_polygon",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Using the area formulas for an equilateral triangle $$\\left(\\frac{s^{2}\\sqrt{3}}{4}\\right)$$ and regular hexagon $$\\left(\\frac{3s^{2}\\sqrt{3}}{2}\\right)$$ , with side length $$s$$ and plugging $$\\frac a3$$ and $$\\frac b6$$ into each equation, we find that $$\\frac{a^{2}\\sqrt{3}}{36}= \\frac{b^{2}\\sqrt{3}}{24}$$.",
+        "Simplifying this, we get $$\\frac ab=\\boxed{\\rm(B)\\textasciitilde\\frac{\\sqrt{6}}{2}}$$.",
+        "The regular hexagon can be broken into $$6$$ small equilateral triangles, each of which is similar to the big equilateral triangle.",
+        "The big triangle\\textquotesingle s area is $$6$$ times the area of one of the little triangles.",
+        "Therefore each side of the big triangle is $$\\sqrt{6}$$ times the side of the small triangle.",
+        "The desired ratio is $$\\frac{3 \\sqrt{6}}{6}= \\frac{\\sqrt{6}}{2}\\Rightarrow (B)$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "2013年 AMC10 竞赛 B 第 15 题 A wire is cut into two pieces, one of length a and the other of length b . The piece of length a is bent to form an equilateral triangle, and the piece of length b is bent to form a regular hexagon. The triangle and the hexagon have equal area. What is ab ? 一根电线被切成两块，一块长度为 a ，另一块长度为 b 。 长度 a 弯曲形成等边三角形，长度 b 弯曲形成正六边形。 三角形和六边形的面积相等。 求 ab ？ (A) 1 (B) 6 2 (C) 3 (D) 2 (E) 3 2 2",
+      "solution_text": "Using the area formulas for an equilateral triangle ( s^ 2 3 4 ) and regular hexagon ( 3s^ 2 3 2 ) , with side length s and plugging a3 and b6 into each equation, we find that a^ 2 3 36 = b^ 2 3 24 . Simplifying this, we get ab= (B) 6 2 . The regular hexagon can be broken into 6 small equilateral triangles, each of which is similar to the big equilateral triangle. The big triangle s area is 6 times the area of one of the little triangles. Therefore each side of the big triangle is 6 times the side of the small triangle. The desired ratio is 3 6 6 = 6 2 (B) .",
+      "keywords": [
+        "amc10_12",
+        "calculation_of_plane_geometry",
+        "geometry",
+        "level_3",
+        "regular_polygon",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "426",
+        "queId": "f5e13a23613c4ad1ac523de992aa3a45",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "1"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{\\sqrt{6}}{2}"
+          },
+          {
+            "label": "C",
+            "content": "\\sqrt{3}"
+          },
+          {
+            "label": "D",
+            "content": "2"
+          },
+          {
+            "label": "E",
+            "content": "\\frac{3\\sqrt{2}}{2}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->解三角形->三角形面积公式",
+          "美国AMC10/12->Knowledge Point->Geometry->Calculation of Plane Geometry->Regular Polygon"
+        ],
+        "competition_source_list": [
+          "2013年AMC10竞赛B第15题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01631",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1631,
+      "split": "zh_test",
+      "source_problem_id": "c3baf90b2bb44e31893cc0d5e0c6327e"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知点$$P$$为正三棱柱$$ABC-{{A}_{1}}{{B}_{1}}{{C}_{1}}$$上底面$$\\triangle {{A}_{1}}{{B}_{1}}{{C}_{1}}$$的中心，作平面$$BCD\\bot AP$$，与棱$$A{{A}_{1}}$$交于$$D$$，若$$A{{A}_{1}}=2AB=2$$，则三棱锥$$D-ABC$$的体积为．\n(A) \\frac{\\sqrt{3}}{48}\n(B) \\frac{\\sqrt{3}}{24}\n(C) \\frac{\\sqrt{3}}{16}\n(D) \\frac{\\sqrt{3}}{12}",
+      "problem_plain": "已知点 P 为正三棱柱 ABC- A _ 1 B _ 1 C _ 1 上底面 A _ 1 B _ 1 C _ 1 的中心，作平面 BCD AP ，与棱 A A _ 1 交于 D ，若 A A _ 1 =2AB=2 ，则三棱锥 D-ABC 的体积为． (A) 3 48 (B) 3 24 (C) 3 16 (D) 3 12",
+      "solution_latex": "过$$A{{A}_{1}}$$和$$BC$$中点$$M$$作截面，$$AP$$在这个截面内．  由$$AP\\bot MD$$，可得$$AD=\\frac{1}{4}$$．  所以，$${{V}_{D-ABC}}=\\frac{1}{3}\\cdot \\frac{\\sqrt{3}}{4}\\cdot \\frac{1}{4}=\\frac{\\sqrt{3}}{48}$$．",
+      "solution_plain": "过 A A _ 1 和 BC 中点 M 作截面， AP 在这个截面内． 由 AP MD ，可得 AD= 1 4 ． 所以， V _ D-ABC = 1 3 3 4 1 4 = 3 48 ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{\\sqrt{3}}{48}",
+      "final_normalized": "\\frac{\\sqrt{3}}{48}",
+      "candidates": [
+        "A",
+        "\\frac{\\sqrt{3}}{48}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "过$$A{{A}_{1}}$$和$$BC$$中点$$M$$作截面，$$AP$$在这个截面内．  由$$AP\\bot MD$$，可得$$AD=\\frac{1}{4}$$．  所以，$${{V}_{D-ABC}}=\\frac{1}{3}\\cdot \\frac{\\sqrt{3}}{4}\\cdot \\frac{1}{4}=\\frac{\\sqrt{3}}{48}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知点 P 为正三棱柱 ABC- A _ 1 B _ 1 C _ 1 上底面 A _ 1 B _ 1 C _ 1 的中心，作平面 BCD AP ，与棱 A A _ 1 交于 D ，若 A A _ 1 =2AB=2 ，则三棱锥 D-ABC 的体积为． (A) 3 48 (B) 3 24 (C) 3 16 (D) 3 12",
+      "solution_text": "过 A A _ 1 和 BC 中点 M 作截面， AP 在这个截面内． 由 AP MD ，可得 AD= 1 4 ． 所以， V _ D-ABC = 1 3 3 4 1 4 = 3 48 ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "723",
+        "queId": "c3baf90b2bb44e31893cc0d5e0c6327e",
+        "difficulty": "2",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{\\sqrt{3}}{48}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{\\sqrt{3}}{24}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{\\sqrt{3}}{16}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{\\sqrt{3}}{12}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->立体几何与空间向量->空间几何体中的求值问题"
+        ],
+        "competition_source_list": [
+          "2017年湖南全国高中数学联赛竞赛初赛第2题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01637",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1637,
+      "split": "zh_test",
+      "source_problem_id": "54dbaa7382644b59ba6e1e5baf4ebe7d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "空间四点$$A$$、$$B$$、$$C$$、$$D$$满足$$\\textbar\\overrightarrow{AB}\\textbar=3$$，$$\\textbar\\overrightarrow{BC}\\textbar=7$$，$$\\textbar\\overrghtarrow{CD}\\textbar=11$$，$$\\textbar\\overrightarrow{DA}\\textbar=9$$，则$$\\overrightarrow{AC}\\cdot \\overrightarrow{BD}$$=~\\uline{~~~~~~~~~~}~．\n(A) 只有一个\n(B) 有二个\n(C) 有四个\n(D) 有无穷多个",
+      "problem_plain": "空间四点 A 、 B 、 C 、 D 满足 AB =3 ， BC =7 ， CD =11 ， DA =9 ，则 AC BD =~ ~~~~~~~~~~ ~． (A) 只有一个 (B) 有二个 (C) 有四个 (D) 有无穷多个",
+      "solution_latex": "注意到$${{3}^{2}}+{{11}^{2}}=1130={{7}^{2}}+{{9}^{2}}$$，由于$$\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CD}+\\overrightarrow{DA}=\\vec{0}$$，  则$$D{{A}^{2}}={{\\overrightarrow{DA}}^{2}}={{(\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CD})}^{2}}=A{{B}^{2}}+B{{C}^{2}}+C{{D}^{2}}+2(\\overrightarrow{AB}\\cdot \\overrightarrow{BC}+\\overrightarrow{BC}\\cdot \\overrightarrow{CD}+\\overrightarrow{CD}\\cdot \\overrightarrow{AB})$$  $$=A{{B}^{2}}-B{{C}^{2}}+C{{D}^{2}}+2({{\\overline{BC}}^{2}}+\\overrightarrow{AB}\\cdot \\overrightarrow{BC}+\\overrightarrow{BC}\\cdot \\overrightarrow{CD}+\\overrightarrow{CD}\\cdot \\overrightarrow{AB})$$  $$=A{{B}^{2}}-B{{C}^{2}}+C{{D}^{2}}+2(\\overrightarrow{AB}+\\overrightarrow{BC})\\cdot (\\overrightarrow{BC}+\\overrightarrow{CD})$$，  即$$2\\overrightarrow{AC}\\cdot \\overrightarrow{BD}=A{{D}^{2}}+B{{C}^{2}}-A{{B}^{2}}-C{{D}^{2}}=0$$，∴$$\\overrightarrow{AC}\\cdot \\overrightarrow{BD}$$只有一个值得$$0$$，  故选$$\\text{A}$$．",
+      "solution_plain": "注意到 3 ^ 2 + 11 ^ 2 =1130= 7 ^ 2 + 9 ^ 2 ，由于 AB + BC + CD + DA = 0 ， 则 D A ^ 2 = DA ^ 2 = ( AB + BC + CD ) ^ 2 =A B ^ 2 +B C ^ 2 +C D ^ 2 +2( AB BC + BC CD + CD AB ) =A B ^ 2 -B C ^ 2 +C D ^ 2 +2( BC ^ 2 + AB BC + BC CD + CD AB ) =A B ^ 2 -B C ^ 2 +C D ^ 2 +2( AB + BC ) ( BC + CD ) ， 即 2 AC BD =A D ^ 2 +B C ^ 2 -A B ^ 2 -C D ^ 2 =0 ，∴ AC BD 只有一个值得 0 ， 故选 A ．"
+    },
+    "answer": {
+      "final_raw": "只有一个",
+      "final_normalized": "只有一个",
+      "candidates": [
+        "A",
+        "只有一个"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "注意到$${{3}^{2}}+{{11}^{2}}=1130={{7}^{2}}+{{9}^{2}}$$，由于$$\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CD}+\\overrightarrow{DA}=\\vec{0}$$，  则$$D{{A}^{2}}={{\\overrightarrow{DA}}^{2}}={{(\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CD})}^{2}}=A{{B}^{2}}+B{{C}^{2}}+C{{D}^{2}}+2(\\overrightarrow{AB}\\cdot \\overrightarrow{BC}+\\overrightarrow{BC}\\cdot \\overrightarrow{CD}+\\overrightarrow{CD}\\cdot \\overrightarrow{AB})$$  $$=A{{B}^{2}}-B{{C}^{2}}+C{{D}^{2}}+2({{\\overline{BC}}^{2}}+\\overrightarrow{AB}\\cdot \\overrightarrow{BC}+\\overrightarrow{BC}\\cdot \\overrightarrow{CD}+\\overrightarrow{CD}\\cdot \\overrightarrow{AB})$$  $$=A{{B}^{2}}-B{{C}^{2}}+C{{D}^{2}}+2(\\overrightarrow{AB}+\\overrightarrow{BC})\\cdot (\\overrightarrow{BC}+\\overrightarrow{CD})$$，  即$$2\\overrightarrow{AC}\\cdot \\overrightarrow{BD}=A{{D}^{2}}+B{{C}^{2}}-A{{B}^{2}}-C{{D}^{2}}=0$$，∴$$\\overrightarrow{AC}\\cdot \\overrightarrow{BD}$$只有一个值得$$0$$，  故选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "空间四点 A 、 B 、 C 、 D 满足 AB =3 ， BC =7 ， CD =11 ， DA =9 ，则 AC BD =~ ~~~~~~~~~~ ~． (A) 只有一个 (B) 有二个 (C) 有四个 (D) 有无穷多个",
+      "solution_text": "注意到 3 ^ 2 + 11 ^ 2 =1130= 7 ^ 2 + 9 ^ 2 ，由于 AB + BC + CD + DA = 0 ， 则 D A ^ 2 = DA ^ 2 = ( AB + BC + CD ) ^ 2 =A B ^ 2 +B C ^ 2 +C D ^ 2 +2( AB BC + BC CD + CD AB ) =A B ^ 2 -B C ^ 2 +C D ^ 2 +2( BC ^ 2 + AB BC + BC CD + CD AB ) =A B ^ 2 -B C ^ 2 +C D ^ 2 +2( AB + BC ) ( BC + CD ) ， 即 2 AC BD =A D ^ 2 +B C ^ 2 -A B ^ 2 -C D ^ 2 =0 ，∴ AC BD 只有一个值得 0 ， 故选 A ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "345",
+        "queId": "54dbaa7382644b59ba6e1e5baf4ebe7d",
+        "difficulty": "2",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "只有一个"
+          },
+          {
+            "label": "B",
+            "content": "有二个"
+          },
+          {
+            "label": "C",
+            "content": "有四个"
+          },
+          {
+            "label": "D",
+            "content": "有无穷多个"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->立体几何与空间向量->空间向量"
+        ],
+        "competition_source_list": [
+          "2005年全国高中数学联赛竞赛一试第2题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01660",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1660,
+      "split": "zh_test",
+      "source_problem_id": "d4959bc9ead144ed9dfbb5ed914752a0"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "连接球面上两点的线段称为球的弦．半径为$$4$$的球的两条弦$$AB$$、$$CD$$的长度分别等于$$2\\sqrt{7}$$和$$4\\sqrt{3}$$，$$M$$、$$N$$分别为$$AB$$、$$CD$$的中点，两条弦的两端都在球面上运动，有下面四个命题：  ①弦$$AB$$、$$CD$$可能相交于点$$M$$；②弦$$AB$$、$$CD$$可能相交于点$$N$$；  ③$$MN$$的最大值为$$5$$；④$$MN$$的最小值为$$1$$．  其中真命题为．\n(A) ①③④\n(B) ①②③\n(C) ①②④\n(D) ②③④",
+      "problem_plain": "连接球面上两点的线段称为球的弦．半径为 4 的球的两条弦 AB 、 CD 的长度分别等于 2 7 和 4 3 ， M 、 N 分别为 AB 、 CD 的中点，两条弦的两端都在球面上运动，有下面四个命题： ①弦 AB 、 CD 可能相交于点 M ；②弦 AB 、 CD 可能相交于点 N ； ③ MN 的最大值为 5 ；④ MN 的最小值为 1 ． 其中真命题为． (A) ①③④ (B) ①②③ (C) ①②④ (D) ②③④",
+      "solution_latex": "假设$$AB$$、$$CD$$相交于点$$N$$，则$$AB$$、$$CD$$共面，  所以$$A$$、$$B$$、$$C$$、$$D$$四点共圆，  而过圆的弦$$CD$$的中点$$N$$的弦$$AB$$的长度显然有$$AB\\geqslant CD$$，  所以②是错的．  容易证明，当以$$AB$$为直径的圆面与以$$CD$$为直径的圆面平行且在球心两侧时，  $$MN$$最大为５，故③对．  当以$$AB$$为直径的圆面与以$$CD$$为直径的圆面平行且在球心同侧时，  $$MN$$最小为$$1$$，故④对．  故选$$\\text{A}$$．",
+      "solution_plain": "假设 AB 、 CD 相交于点 N ，则 AB 、 CD 共面， 所以 A 、 B 、 C 、 D 四点共圆， 而过圆的弦 CD 的中点 N 的弦 AB 的长度显然有 AB CD ， 所以②是错的． 容易证明，当以 AB 为直径的圆面与以 CD 为直径的圆面平行且在球心两侧时， MN 最大为５，故③对． 当以 AB 为直径的圆面与以 CD 为直径的圆面平行且在球心同侧时， MN 最小为 1 ，故④对． 故选 A ．"
+    },
+    "answer": {
+      "final_raw": "①③④",
+      "final_normalized": "①③④",
+      "candidates": [
+        "A",
+        "①③④"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "假设$$AB$$、$$CD$$相交于点$$N$$，则$$AB$$、$$CD$$共面，  所以$$A$$、$$B$$、$$C$$、$$D$$四点共圆，  而过圆的弦$$CD$$的中点$$N$$的弦$$AB$$的长度显然有$$AB\\geqslant CD$$，  所以②是错的．  容易证明，当以$$AB$$为直径的圆面与以$$CD$$为直径的圆面平行且在球心两侧时，  $$MN$$最大为５，故③对．  当以$$AB$$为直径的圆面与以$$CD$$为直径的圆面平行且在球心同侧时，  $$MN$$最小为$$1$$，故④对．  故选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "连接球面上两点的线段称为球的弦．半径为 4 的球的两条弦 AB 、 CD 的长度分别等于 2 7 和 4 3 ， M 、 N 分别为 AB 、 CD 的中点，两条弦的两端都在球面上运动，有下面四个命题： ①弦 AB 、 CD 可能相交于点 M ；②弦 AB 、 CD 可能相交于点 N ； ③ MN 的最大值为 5 ；④ MN 的最小值为 1 ． 其中真命题为． (A) ①③④ (B) ①②③ (C) ①②④ (D) ②③④",
+      "solution_text": "假设 AB 、 CD 相交于点 N ，则 AB 、 CD 共面， 所以 A 、 B 、 C 、 D 四点共圆， 而过圆的弦 CD 的中点 N 的弦 AB 的长度显然有 AB CD ， 所以②是错的． 容易证明，当以 AB 为直径的圆面与以 CD 为直径的圆面平行且在球心两侧时， MN 最大为５，故③对． 当以 AB 为直径的圆面与以 CD 为直径的圆面平行且在球心同侧时， MN 最小为 1 ，故④对． 故选 A ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1171",
+        "queId": "d4959bc9ead144ed9dfbb5ed914752a0",
+        "difficulty": "2",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "①③④"
+          },
+          {
+            "label": "B",
+            "content": "①②③"
+          },
+          {
+            "label": "C",
+            "content": "①②④"
+          },
+          {
+            "label": "D",
+            "content": "②③④"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->立体几何与空间向量->空间中的角与距离",
+          "竞赛->知识点->立体几何与空间向量->空间几何体中的求值问题"
+        ],
+        "competition_source_list": [
+          "2008年湖南全国高中数学联赛竞赛初赛第6题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01670",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1670,
+      "split": "zh_test",
+      "source_problem_id": "e1cf08db3e2b4b65a11c6481fe007268"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设实数$$r\\textgreater1$$，如果复平面上的动点$$z$$满足$$\\textbar z\\textbar=r$$，则动点$$\\omega =z+\\frac{1}{z}$$的轨迹是（~ ）．\n(A) 焦距为$$4$$的椭圆\n(B) 焦距为$$\\frac{4}{r}$$的椭圆\n(C) 焦距为$$2$$的椭圆\n(D) 焦距为$$\\frac{2}{r}$$的椭圆",
+      "problem_plain": "设实数 r 1 ，如果复平面上的动点 z 满足 z =r ，则动点 =z+ 1 z 的轨迹是（~ ）． (A) 焦距为 4 的椭圆 (B) 焦距为 4 r 的椭圆 (C) 焦距为 2 的椭圆 (D) 焦距为 2 r 的椭圆",
+      "solution_latex": "令$$z=r\\left( \\cos \\theta +\\text{i}\\sin \\theta \\right)$$，则  $$\\omega =r\\left( \\cos \\theta +\\text{i}\\sin \\theta \\right)+\\frac{1}{r}\\left( \\cos \\theta -\\text{i}\\sin \\theta \\right)=\\left( r+\\frac{1}{r} \\right)\\cos \\theta +\\text{i}\\cdot \\left( r-\\frac{1}{r} \\right)\\sin \\theta $$，  设$$\\omega =x+y\\text{i}$$，则$$\\frac{{{x}^{2}}}{{{\\left( r+\\frac{1}{r} \\right)}^{2}}}+\\frac{{{y}^{2}}}{{{\\left( r-\\frac{1}{r} \\right)}^{2}}}=1$$，  这是一个椭圆．$${{c}^{2}}={{\\left( r+\\frac{1}{r} \\right)}^{2}}-{{\\left( r-\\frac{1}{r} \\right)}^{2}}=4$$，焦距为$$4$$．",
+      "solution_plain": "令 z=r ( + i ) ，则 =r ( + i )+ 1 r ( - i )= ( r+ 1 r ) + i ( r- 1 r ) ， 设 =x+y i ，则 x ^ 2 ( r+ 1 r ) ^ 2 + y ^ 2 ( r- 1 r ) ^ 2 =1 ， 这是一个椭圆． c ^ 2 = ( r+ 1 r ) ^ 2 - ( r- 1 r ) ^ 2 =4 ，焦距为 4 ．"
+    },
+    "answer": {
+      "final_raw": "焦距为$$4$$的椭圆",
+      "final_normalized": "焦距为$$4$$的椭圆",
+      "candidates": [
+        "A",
+        "焦距为$$4$$的椭圆"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "令$$z=r\\left( \\cos \\theta +\\text{i}\\sin \\theta \\right)$$，则  $$\\omega =r\\left( \\cos \\theta +\\text{i}\\sin \\theta \\right)+\\frac{1}{r}\\left( \\cos \\theta -\\text{i}\\sin \\theta \\right)=\\left( r+\\frac{1}{r} \\right)\\cos \\theta +\\text{i}\\cdot \\left( r-\\frac{1}{r} \\right)\\sin \\theta $$，  设$$\\omega =x+y\\text{i}$$，则$$\\frac{{{x}^{2}}}{{{\\left( r+\\frac{1}{r} \\right)}^{2}}}+\\frac{{{y}^{2}}}{{{\\left( r-\\frac{1}{r} \\right)}^{2}}}=1$$，  这是一个椭圆．$${{c}^{2}}={{\\left( r+\\frac{1}{r} \\right)}^{2}}-{{\\left( r-\\frac{1}{r} \\right)}^{2}}=4$$，焦距为$$4$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设实数 r 1 ，如果复平面上的动点 z 满足 z =r ，则动点 =z+ 1 z 的轨迹是（~ ）． (A) 焦距为 4 的椭圆 (B) 焦距为 4 r 的椭圆 (C) 焦距为 2 的椭圆 (D) 焦距为 2 r 的椭圆",
+      "solution_text": "令 z=r ( + i ) ，则 =r ( + i )+ 1 r ( - i )= ( r+ 1 r ) + i ( r- 1 r ) ， 设 =x+y i ，则 x ^ 2 ( r+ 1 r ) ^ 2 + y ^ 2 ( r- 1 r ) ^ 2 =1 ， 这是一个椭圆． c ^ 2 = ( r+ 1 r ) ^ 2 - ( r- 1 r ) ^ 2 =4 ，焦距为 4 ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1152",
+        "queId": "e1cf08db3e2b4b65a11c6481fe007268",
+        "difficulty": "2",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "焦距为$$4$$的椭圆"
+          },
+          {
+            "label": "B",
+            "content": "焦距为$$\\frac{4}{r}$$的椭圆"
+          },
+          {
+            "label": "C",
+            "content": "焦距为$$2$$的椭圆"
+          },
+          {
+            "label": "D",
+            "content": "焦距为$$\\frac{2}{r}$$的椭圆"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->解析几何->曲线与方程",
+          "竞赛->知识点->复数与平面向量->模、辐角与单位根",
+          "竞赛->知识点->复数与平面向量->复数的应用"
+        ],
+        "competition_source_list": [
+          "2012年湖南全国高中数学联赛竞赛初赛第4题6分",
+          "2009年上海复旦大学自主招生千分考第23题",
+          "高三上学期单元测试《复数》自招第3题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01727",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1727,
+      "split": "zh_test",
+      "source_problem_id": "131c4db76b4d4ee69dc796797fb0632c"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "空间四点$$A$$、$$B$$、$$C$$、$$D$$满足$$\\textbar\\overrightarrow{AB}\\textbar=3$$，$$\\textbar\\overrightarrow{BC}\\textbar=7$$，$$\\textbar\\overrghtarrow{CD}\\textbar=11$$，$$\\textbar\\overrightarrow{DA}\\textbar=9$$，则$$\\overrightarrow{AC}\\cdot \\overrightarrow{BD}$$=~\\uline{~~~~~~~~~~}~．\n(A) 只有一个\n(B) 有二个\n(C) 有四个\n(D) 有无穷多个",
+      "problem_plain": "空间四点 A 、 B 、 C 、 D 满足 AB =3 ， BC =7 ， CD =11 ， DA =9 ，则 AC BD =~ ~~~~~~~~~~ ~． (A) 只有一个 (B) 有二个 (C) 有四个 (D) 有无穷多个",
+      "solution_latex": "注意到$${{3}^{2}}+{{11}^{2}}=1130={{7}^{2}}+{{9}^{2}}$$，由于$$\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CD}+\\overrightarrow{DA}=\\vec{0}$$，  则$$D{{A}^{2}}={{\\overrightarrow{DA}}^{2}}={{(\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CD})}^{2}}=A{{B}^{2}}+B{{C}^{2}}+C{{D}^{2}}+2(\\overrightarrow{AB}\\cdot \\overrightarrow{BC}+\\overrightarrow{BC}\\cdot \\overrightarrow{CD}+\\overrightarrow{CD}\\cdot \\overrightarrow{AB})$$  $$=A{{B}^{2}}-B{{C}^{2}}+C{{D}^{2}}+2({{\\overline{BC}}^{2}}+\\overrightarrow{AB}\\cdot \\overrightarrow{BC}+\\overrightarrow{BC}\\cdot \\overrightarrow{CD}+\\overrightarrow{CD}\\cdot \\overrightarrow{AB})$$  $$=A{{B}^{2}}-B{{C}^{2}}+C{{D}^{2}}+2(\\overrightarrow{AB}+\\overrightarrow{BC})\\cdot (\\overrightarrow{BC}+\\overrightarrow{CD})$$，  即$$2\\overrightarrow{AC}\\cdot \\overrightarrow{BD}=A{{D}^{2}}+B{{C}^{2}}-A{{B}^{2}}-C{{D}^{2}}=0$$，∴$$\\overrightarrow{AC}\\cdot \\overrightarrow{BD}$$只有一个值得$$0$$，  故选$$\\text{A}$$．",
+      "solution_plain": "注意到 3 ^ 2 + 11 ^ 2 =1130= 7 ^ 2 + 9 ^ 2 ，由于 AB + BC + CD + DA = 0 ， 则 D A ^ 2 = DA ^ 2 = ( AB + BC + CD ) ^ 2 =A B ^ 2 +B C ^ 2 +C D ^ 2 +2( AB BC + BC CD + CD AB ) =A B ^ 2 -B C ^ 2 +C D ^ 2 +2( BC ^ 2 + AB BC + BC CD + CD AB ) =A B ^ 2 -B C ^ 2 +C D ^ 2 +2( AB + BC ) ( BC + CD ) ， 即 2 AC BD =A D ^ 2 +B C ^ 2 -A B ^ 2 -C D ^ 2 =0 ，∴ AC BD 只有一个值得 0 ， 故选 A ．"
+    },
+    "answer": {
+      "final_raw": "只有一个",
+      "final_normalized": "只有一个",
+      "candidates": [
+        "A",
+        "只有一个"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "注意到$${{3}^{2}}+{{11}^{2}}=1130={{7}^{2}}+{{9}^{2}}$$，由于$$\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CD}+\\overrightarrow{DA}=\\vec{0}$$，  则$$D{{A}^{2}}={{\\overrightarrow{DA}}^{2}}={{(\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CD})}^{2}}=A{{B}^{2}}+B{{C}^{2}}+C{{D}^{2}}+2(\\overrightarrow{AB}\\cdot \\overrightarrow{BC}+\\overrightarrow{BC}\\cdot \\overrightarrow{CD}+\\overrightarrow{CD}\\cdot \\overrightarrow{AB})$$  $$=A{{B}^{2}}-B{{C}^{2}}+C{{D}^{2}}+2({{\\overline{BC}}^{2}}+\\overrightarrow{AB}\\cdot \\overrightarrow{BC}+\\overrightarrow{BC}\\cdot \\overrightarrow{CD}+\\overrightarrow{CD}\\cdot \\overrightarrow{AB})$$  $$=A{{B}^{2}}-B{{C}^{2}}+C{{D}^{2}}+2(\\overrightarrow{AB}+\\overrightarrow{BC})\\cdot (\\overrightarrow{BC}+\\overrightarrow{CD})$$，  即$$2\\overrightarrow{AC}\\cdot \\overrightarrow{BD}=A{{D}^{2}}+B{{C}^{2}}-A{{B}^{2}}-C{{D}^{2}}=0$$，∴$$\\overrightarrow{AC}\\cdot \\overrightarrow{BD}$$只有一个值得$$0$$，  故选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "空间四点 A 、 B 、 C 、 D 满足 AB =3 ， BC =7 ， CD =11 ， DA =9 ，则 AC BD =~ ~~~~~~~~~~ ~． (A) 只有一个 (B) 有二个 (C) 有四个 (D) 有无穷多个",
+      "solution_text": "注意到 3 ^ 2 + 11 ^ 2 =1130= 7 ^ 2 + 9 ^ 2 ，由于 AB + BC + CD + DA = 0 ， 则 D A ^ 2 = DA ^ 2 = ( AB + BC + CD ) ^ 2 =A B ^ 2 +B C ^ 2 +C D ^ 2 +2( AB BC + BC CD + CD AB ) =A B ^ 2 -B C ^ 2 +C D ^ 2 +2( BC ^ 2 + AB BC + BC CD + CD AB ) =A B ^ 2 -B C ^ 2 +C D ^ 2 +2( AB + BC ) ( BC + CD ) ， 即 2 AC BD =A D ^ 2 +B C ^ 2 -A B ^ 2 -C D ^ 2 =0 ，∴ AC BD 只有一个值得 0 ， 故选 A ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "63",
+        "queId": "131c4db76b4d4ee69dc796797fb0632c",
+        "difficulty": "2",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "只有一个"
+          },
+          {
+            "label": "B",
+            "content": "有二个"
+          },
+          {
+            "label": "C",
+            "content": "有四个"
+          },
+          {
+            "label": "D",
+            "content": "有无穷多个"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->立体几何与空间向量->空间向量"
+        ],
+        "competition_source_list": [
+          "2005年全国高中数学联赛竞赛一试第2题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01762",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1762,
+      "split": "zh_test",
+      "source_problem_id": "3901bb261882495d9c93b6a6e4efd4c6"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "若动点$$P\\left( x,y \\right)$$以等角速度$$\\omega $$在单位圆上逆时针运动，则点$$Q\\left( -2xy,{{y}^{2}}-{{x}^{2}} \\right)$$的运动方程是（~ ）．\n(A) 以角速度$$\\omega $$在单位圆上顺时针运动\n(B) 以角速度$$\\omega $$在单位圆上逆时针运动\n(C) 以角速度$$2\\omega $$在单位圆上顺时针运动\n(D) 以角速度$$2\\omega $$在单位圆上逆时针运动",
+      "problem_plain": "若动点 P ( x,y ) 以等角速度 在单位圆上逆时针运动，则点 Q ( -2xy, y ^ 2 - x ^ 2 ) 的运动方程是（~ ）． (A) 以角速度 在单位圆上顺时针运动 (B) 以角速度 在单位圆上逆时针运动 (C) 以角速度 2 在单位圆上顺时针运动 (D) 以角速度 2 在单位圆上逆时针运动",
+      "solution_latex": "将动点$$P\\left( x,y \\right)$$的坐标表为参数形式．  $$\\begin{cases}x=\\cos \\omega t    y=\\sin \\omega t \\end{cases}$$ $$(\\omega \\textgreater0)$$  则 $$-2xy=-\\sin 2\\omega t=\\cos \\left( -2\\omega t+\\frac{3}{2} \\pi ~\\right)$$  $${{y}^{2}}-{{x}^{2}}=-\\cos 2\\omega t=\\sin \\left( -2\\omega t+\\frac{2 \\pi }{3} \\right)$$．  则点$$Q\\left( -2xy,{{y}^{2}}-{{x}^{2}} \\right)$$运动轨迹的参数方程为  $$\\begin{cases}{x}'=\\cos \\left( -2\\omega t+\\frac{3}{2} \\pi ~\\right)    {y}'=\\sin \\left( -2\\omega t+\\frac{2 \\pi }{3} \\right) \\end{cases}$$  很显然$$\\omega t$$与$$-2\\omega t$$的旋转方向是相反的，$$P\\left( x,y \\right)$$在单位圆上逆时针运动，所以$$Q\\left( -2xy,{{y}^{2}}-{{x}^{2}} \\right)$$以角速度$$2\\omega $$在单位圆上顺时针运动．",
+      "solution_plain": "将动点 P ( x,y ) 的坐标表为参数形式． cases x= t y= t cases ( 0) 则 -2xy=- 2 t= ( -2 t+ 3 2 ~ ) y ^ 2 - x ^ 2 =- 2 t= ( -2 t+ 2 3 ) ． 则点 Q ( -2xy, y ^ 2 - x ^ 2 ) 运动轨迹的参数方程为 cases x '= ( -2 t+ 3 2 ~ ) y '= ( -2 t+ 2 3 ) cases 很显然 t 与 -2 t 的旋转方向是相反的， P ( x,y ) 在单位圆上逆时针运动，所以 Q ( -2xy, y ^ 2 - x ^ 2 ) 以角速度 2 在单位圆上顺时针运动．"
+    },
+    "answer": {
+      "final_raw": "以角速度$$2\\omega $$在单位圆上顺时针运动",
+      "final_normalized": "以角速度$$2\\omega $$在单位圆上顺时针运动",
+      "candidates": [
+        "C",
+        "以角速度$$2\\omega $$在单位圆上顺时针运动"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "将动点$$P\\left( x,y \\right)$$的坐标表为参数形式．  $$\\begin{cases}x=\\cos \\omega t    y=\\sin \\omega t \\end{cases}$$ $$(\\omega \\textgreater0)$$  则 $$-2xy=-\\sin 2\\omega t=\\cos \\left( -2\\omega t+\\frac{3}{2} \\pi ~\\right)$$  $${{y}^{2}}-{{x}^{2}}=-\\cos 2\\omega t=\\sin \\left( -2\\omega t+\\frac{2 \\pi }{3} \\right)$$．  则点$$Q\\left( -2xy,{{y}^{2}}-{{x}^{2}} \\right)$$运动轨迹的参数方程为  $$\\begin{cases}{x}'=\\cos \\left( -2\\omega t+\\frac{3}{2} \\pi ~\\right)    {y}'=\\sin \\left( -2\\omega t+\\frac{2 \\pi }{3} \\right) \\end{cases}$$  很显然$$\\omega t$$与$$-2\\omega t$$的旋转方向是相反的，$$P\\left( x,y \\right)$$在单位圆上逆时针运动，所以$$Q\\left( -2xy,{{y}^{2}}-{{x}^{2}} \\right)$$以角速度$$2\\omega $$在单位圆上顺时针运动．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "若动点 P ( x,y ) 以等角速度 在单位圆上逆时针运动，则点 Q ( -2xy, y ^ 2 - x ^ 2 ) 的运动方程是（~ ）． (A) 以角速度 在单位圆上顺时针运动 (B) 以角速度 在单位圆上逆时针运动 (C) 以角速度 2 在单位圆上顺时针运动 (D) 以角速度 2 在单位圆上逆时针运动",
+      "solution_text": "将动点 P ( x,y ) 的坐标表为参数形式． cases x= t y= t cases ( 0) 则 -2xy=- 2 t= ( -2 t+ 3 2 ~ ) y ^ 2 - x ^ 2 =- 2 t= ( -2 t+ 2 3 ) ． 则点 Q ( -2xy, y ^ 2 - x ^ 2 ) 运动轨迹的参数方程为 cases x '= ( -2 t+ 3 2 ~ ) y '= ( -2 t+ 2 3 ) cases 很显然 t 与 -2 t 的旋转方向是相反的， P ( x,y ) 在单位圆上逆时针运动，所以 Q ( -2xy, y ^ 2 - x ^ 2 ) 以角速度 2 在单位圆上顺时针运动．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "270",
+        "queId": "3901bb261882495d9c93b6a6e4efd4c6",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "以角速度$$\\omega $$在单位圆上顺时针运动"
+          },
+          {
+            "label": "B",
+            "content": "以角速度$$\\omega $$在单位圆上逆时针运动"
+          },
+          {
+            "label": "C",
+            "content": "以角速度$$2\\omega $$在单位圆上顺时针运动"
+          },
+          {
+            "label": "D",
+            "content": "以角速度$$2\\omega $$在单位圆上逆时针运动"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->解析几何->极坐标与参数方程（二试）"
+        ],
+        "competition_source_list": [
+          "1984年全国高中数学联赛竞赛一试第7题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01772",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1772,
+      "split": "zh_test",
+      "source_problem_id": "95f05179102a49a7bf28957b0abc74c6"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$A,  B,  C,  D$$是以点$$O$$为球心的球面上四点，$$AB,  AC,  AD$$两两互相垂直，且$$AB=3\\text{cm}$$，$$AC=4\\text{cm}$$，$$AD=\\sqrt{11}\\text{cm}$$，则球的半径为．\n(A) 3\\text{cm}\n(B) 4\\text{cm}\n(C) 5\\text{cm}\n(D) 6\\text{cm}",
+      "problem_plain": "设 A, B, C, D 是以点 O 为球心的球面上四点， AB, AC, AD 两两互相垂直，且 AB=3 cm ， AC=4 cm ， AD= 11 cm ，则球的半径为． (A) 3 cm (B) 4 cm (C) 5 cm (D) 6 cm",
+      "solution_latex": "方法一 以点$$A$$为原点，分别以$$AB,  AC,  AD$$所在射线为坐标$$x$$轴、$$y$$轴和$$z$$轴，建立空间直角坐标系，则$$B,  C,  D$$的坐标分别为$$B\\left( 3,  0,  0 \\right)$$、$$C\\left( 0,  4,  0 \\right)$$，$$D\\left( 0,  0,\\sqrt{11} \\right)$$．显然球心应为下述三个平面  $$a:x=\\frac{3}{2}$$；$$\\beta :y=2$$；$$\\gamma :z=\\frac{\\sqrt{11}}{2}$$  的交点，所以球心坐标为$$O\\left( \\frac{3}{2},  2,\\frac{\\sqrt{11}}{2} \\right)$$，因此球的半径$$r=OA=3\\left( \\text{cm} \\right)$$．  方法二 以点$$A$$为原点，分别以$$AB,  AC,  AD$$所在射线为坐标$$x$$轴、$$y$$轴和$$z$$轴，建立空间直角坐标系，则$$B,  C,  D$$的坐标分别为$$B\\left( 3,  0,  0 \\right)$$、$$C\\left( 0,  4,  0 \\right)$$，$$D\\left( 0,  0,\\sqrt{11} \\right)$$．设球面方程为  $${{\\left( x-{{x}_{0}} \\right)}^{2}}+{{\\left( y-{{y}_{0}} \\right)}^{2}}+{{\\left( z-{{z}_{0}} \\right)}^{2}}={{r}^{2}}$$，  其中$$O\\left( {{x}_{0}},  {{y}_{0}},  {{z}_{0}} \\right)$$为坐标原点，$$r$$为球的半径．因为$$B$$，$$C$$，$$D$$均在球面上，得方程组  $$\\begin{cases}x_{0}^{2}+y_{0}^{2}+z_{0}^{2}={{r}^{2}},  {{\\left( {{x}_{0}}-3 \\right)}^{2}}+y_{0}^{2}+z_{0}^{2}={{r}^{2}}, \\x_{0}^{2}+{{\\left( {{y}_{0}}-4 \\right)}^{2}}+z_{0}^{2}={{r}^{2}}, \\x_{0}^{2}+y_{0}^{2}+{{\\left( {{z}_{0}}-\\sqrt{11} \\right)}^{2}}={{r}^{2}}. \\end{cases}$$解得$${{x}_{0}}=\\frac{3}{2},  {{y}_{0}}=2,  {{z}_{0}}=\\frac{\\sqrt{11}}{2}$$，$$r=3\\left( \\text{cm} \\right)$$．",
+      "solution_plain": "方法一 以点 A 为原点，分别以 AB, AC, AD 所在射线为坐标 x 轴、 y 轴和 z 轴，建立空间直角坐标系，则 B, C, D 的坐标分别为 B ( 3, 0, 0 ) 、 C ( 0, 4, 0 ) ， D ( 0, 0, 11 ) ．显然球心应为下述三个平面 a:x= 3 2 ； :y=2 ； :z= 11 2 的交点，所以球心坐标为 O ( 3 2 , 2, 11 2 ) ，因此球的半径 r=OA=3 ( cm ) ． 方法二 以点 A 为原点，分别以 AB, AC, AD 所在射线为坐标 x 轴、 y 轴和 z 轴，建立空间直角坐标系，则 B, C, D 的坐标分别为 B ( 3, 0, 0 ) 、 C ( 0, 4, 0 ) ， D ( 0, 0, 11 ) ．设球面方程为 ( x- x _ 0 ) ^ 2 + ( y- y _ 0 ) ^ 2 + ( z- z _ 0 ) ^ 2 = r ^ 2 ， 其中 O ( x _ 0 , y _ 0 , z _ 0 ) 为坐标原点， r 为球的半径．因为 B ， C ， D 均在球面上，得方程组 cases x_ 0 ^ 2 +y_ 0 ^ 2 +z_ 0 ^ 2 = r ^ 2 , ( x _ 0 -3 ) ^ 2 +y_ 0 ^ 2 +z_ 0 ^ 2 = r ^ 2 , _ 0 ^ 2 + ( y _ 0 -4 ) ^ 2 +z_ 0 ^ 2 = r ^ 2 , _ 0 ^ 2 +y_ 0 ^ 2 + ( z _ 0 - 11 ) ^ 2 = r ^ 2 . cases 解得 x _ 0 = 3 2 , y _ 0 =2, z _ 0 = 11 2 ， r=3 ( cm ) ．"
+    },
+    "answer": {
+      "final_raw": "3\\text{cm}",
+      "final_normalized": "3\\text{cm}",
+      "candidates": [
+        "3\\text{cm}",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "方法一 以点$$A$$为原点，分别以$$AB,  AC,  AD$$所在射线为坐标$$x$$轴、$$y$$轴和$$z$$轴，建立空间直角坐标系，则$$B,  C,  D$$的坐标分别为$$B\\left( 3,  0,  0 \\right)$$、$$C\\left( 0,  4,  0 \\right)$$，$$D\\left( 0,  0,\\sqrt{11} \\right)$$．显然球心应为下述三个平面  $$a:x=\\frac{3}{2}$$；$$\\beta :y=2$$；$$\\gamma :z=\\frac{\\sqrt{11}}{2}$$  的交点，所以球心坐标为$$O\\left( \\frac{3}{2},  2,\\frac{\\sqrt{11}}{2} \\right)$$，因此球的半径$$r=OA=3\\left( \\text{cm} \\right)$$．  方法二 以点$$A$$为原点，分别以$$AB,  AC,  AD$$所在射线为坐标$$x$$轴、$$y$$轴和$$z$$轴，建立空间直角坐标系，则$$B,  C,  D$$的坐标分别为$$B\\left( 3,  0,  0 \\right)$$、$$C\\left( 0,  4,  0 \\right)$$，$$D\\left( 0,  0,\\sqrt{11} \\right)$$．设球面方程为  $${{\\left( x-{{x}_{0}} \\right)}^{2}}+{{\\left( y-{{y}_{0}} \\right)}^{2}}+{{\\left( z-{{z}_{0}} \\right)}^{2}}={{r}^{2}}$$，  其中$$O\\left( {{x}_{0}},  {{y}_{0}},  {{z}_{0}} \\right)$$为坐标原点，$$r$$为球的半径．因为$$B$$，$$C$$，$$D$$均在球面上，得方程组  $$\\begin{cases}x_{0}^{2}+y_{0}^{2}+z_{0}^{2}={{r}^{2}},  {{\\left( {{x}_{0}}-3 \\right)}^{2}}+y_{0}^{2}+z_{0}^{2}={{r}^{2}}, \\x_{0}^{2}+{{\\left( {{y}_{0}}-4 \\right)}^{2}}+z_{0}^{2}={{r}^{2}}, \\x_{0}^{2}+y_{0}^{2}+{{\\left( {{z}_{0}}-\\sqrt{11} \\right)}^{2}}={{r}^{2}}.",
+        "\\end{cases}$$解得$${{x}_{0}}=\\frac{3}{2},  {{y}_{0}}=2,  {{z}_{0}}=\\frac{\\sqrt{11}}{2}$$，$$r=3\\left( \\text{cm} \\right)$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 A, B, C, D 是以点 O 为球心的球面上四点， AB, AC, AD 两两互相垂直，且 AB=3 cm ， AC=4 cm ， AD= 11 cm ，则球的半径为． (A) 3 cm (B) 4 cm (C) 5 cm (D) 6 cm",
+      "solution_text": "方法一 以点 A 为原点，分别以 AB, AC, AD 所在射线为坐标 x 轴、 y 轴和 z 轴，建立空间直角坐标系，则 B, C, D 的坐标分别为 B ( 3, 0, 0 ) 、 C ( 0, 4, 0 ) ， D ( 0, 0, 11 ) ．显然球心应为下述三个平面 a:x= 3 2 ； :y=2 ； :z= 11 2 的交点，所以球心坐标为 O ( 3 2 , 2, 11 2 ) ，因此球的半径 r=OA=3 ( cm ) ． 方法二 以点 A 为原点，分别以 AB, AC, AD 所在射线为坐标 x 轴、 y 轴和 z 轴，建立空间直角坐标系，则 B, C, D 的坐标分别为 B ( 3, 0, 0 ) 、 C ( 0, 4, 0 ) ， D ( 0, 0, 11 ) ．设球面方程为 ( x- x _ 0 ) ^ 2 + ( y- y _ 0 ) ^ 2 + ( z- z _ 0 ) ^ 2 = r ^ 2 ， 其中 O ( x _ 0 , y _ 0 , z _ 0 ) 为坐标原点， r 为球的半径．因为 B ， C ， D 均在球面上，得方程组 cases x_ 0 ^ 2 +y_ 0 ^ 2 +z_ 0 ^ 2 = r ^ 2 , ( x _ 0 -3 ) ^ 2 +y_ 0 ^ 2 +z_ 0 ^ 2 = r ^ 2 , _ 0 ^ 2 + ( y _ 0 -4 ) ^ 2 +z_ 0 ^ 2 = r ^ 2 , _ 0 ^ 2 +y_ 0 ^ 2 + ( z _ 0 - 11 ) ^ 2 = r ^ 2 . cases 解得 x _ 0 = 3 2 , y _ 0 =2, z _ 0 = 11 2 ， r=3 ( cm ) ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "730",
+        "queId": "95f05179102a49a7bf28957b0abc74c6",
+        "difficulty": "2",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3\\text{cm}"
+          },
+          {
+            "label": "B",
+            "content": "4\\text{cm}"
+          },
+          {
+            "label": "C",
+            "content": "5\\text{cm}"
+          },
+          {
+            "label": "D",
+            "content": "6\\text{cm}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->立体几何与空间向量->空间几何体中的求值问题"
+        ],
+        "competition_source_list": [
+          "2012年山东全国高中数学联赛竞赛初赛第4题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01795",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1795,
+      "split": "zh_test",
+      "source_problem_id": "eaf91d3211ad49219a639379602b64df"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知实数$$x,y$$满足$$17{}({{x}^{2}}+{{y}^{2}}){}-30xy-16=0$$，则$$\\sqrt{16{{x}^{2}}+4{{y}^{2}}-16xy-12x+6y+9}$$的最大值是．\n(A) 7\n(B) {}\\sqrt{29}\n(C) {}\\sqrt{19}\n(D) 3",
+      "problem_plain": "已知实数 x,y 满足 17 ( x ^ 2 + y ^ 2 ) -30xy-16=0 ，则 16 x ^ 2 +4 y ^ 2 -16xy-12x+6y+9 的最大值是． (A) 7 (B) 29 (C) 19 (D) 3",
+      "solution_latex": "$$17\\left( {{x}^{2}}+{{y}^{2}} \\right){-}30xy-16=0$$，  得$${{\\left( x+y \\right)}^{2}}+16{{\\left( x-y \\right)}^{2}}=16$$  $$16={{\\left( x+y \\right)}^{2}}+16{{\\left( x-y \\right)}^{2}}$$$\\geqslant\\dfrac{1}{25}\\left( 12\\left\\textbar{} x-y\\right\\textbar+4\\left\\textbar{} x+y\\right\\textbar\\right)^{2}\\geqslant\\dfrac{16}{25}\\left( 4x-2y\\right)^{2}$  则$-5\\leqslant4x-2y\\leqslant5$  $$f\\left( x,y \\right)=\\sqrt{16{{x}^{2}}+4{{y}^{2}}-16xy-12x+6y+9}$$  $$=\\sqrt{{{\\left( 4x-2y \\right)}^{2}}-3\\left( 4x-2y \\right)+9}$$  的最小值为7",
+      "solution_plain": "17 ( x ^ 2 + y ^ 2 ) - 30xy-16=0 ， 得 ( x+y ) ^ 2 +16 ( x-y ) ^ 2 =16 16= ( x+y ) ^ 2 +16 ( x-y ) ^ 2 1 25 ( 12 x-y +4 x+y )^ 2 16 25 ( 4x-2y )^ 2 则 -5 4x-2y 5 f ( x,y )= 16 x ^ 2 +4 y ^ 2 -16xy-12x+6y+9 = ( 4x-2y ) ^ 2 -3 ( 4x-2y )+9 的最小值为7"
+    },
+    "answer": {
+      "final_raw": "7",
+      "final_normalized": "7",
+      "candidates": [
+        "7",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$17\\left( {{x}^{2}}+{{y}^{2}} \\right){-}30xy-16=0$$，  得$${{\\left( x+y \\right)}^{2}}+16{{\\left( x-y \\right)}^{2}}=16$$  $$16={{\\left( x+y \\right)}^{2}}+16{{\\left( x-y \\right)}^{2}}$$$\\geqslant\\dfrac{1}{25}\\left( 12\\left\\textbar{} x-y\\right\\textbar+4\\left\\textbar{} x+y\\right\\textbar\\right)^{2}\\geqslant\\dfrac{16}{25}\\left( 4x-2y\\right)^{2}$  则$-5\\leqslant4x-2y\\leqslant5$  $$f\\left( x,y \\right)=\\sqrt{16{{x}^{2}}+4{{y}^{2}}-16xy-12x+6y+9}$$  $$=\\sqrt{{{\\left( 4x-2y \\right)}^{2}}-3\\left( 4x-2y \\right)+9}$$  的最小值为7"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知实数 x,y 满足 17 ( x ^ 2 + y ^ 2 ) -30xy-16=0 ，则 16 x ^ 2 +4 y ^ 2 -16xy-12x+6y+9 的最大值是． (A) 7 (B) 29 (C) 19 (D) 3",
+      "solution_text": "17 ( x ^ 2 + y ^ 2 ) - 30xy-16=0 ， 得 ( x+y ) ^ 2 +16 ( x-y ) ^ 2 =16 16= ( x+y ) ^ 2 +16 ( x-y ) ^ 2 1 25 ( 12 x-y +4 x+y )^ 2 16 25 ( 4x-2y )^ 2 则 -5 4x-2y 5 f ( x,y )= 16 x ^ 2 +4 y ^ 2 -16xy-12x+6y+9 = ( 4x-2y ) ^ 2 -3 ( 4x-2y )+9 的最小值为7",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1155",
+        "queId": "eaf91d3211ad49219a639379602b64df",
+        "difficulty": "2",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "7"
+          },
+          {
+            "label": "B",
+            "content": "{}\\sqrt{29}"
+          },
+          {
+            "label": "C",
+            "content": "{}\\sqrt{19}"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->等式与不等式->不等式->柯西不等式",
+          "竞赛->知识点->解析几何->圆与方程",
+          "竞赛->知识点->不等式->换元技巧->三角换元"
+        ],
+        "competition_source_list": [
+          "2013年辽宁全国高中数学联赛竞赛初赛第6题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01813",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1813,
+      "split": "zh_test",
+      "source_problem_id": "1486890f75a6432a80179a1b0dbaa668"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "在平面直角坐标系中，方程$${{x}^{2}}+2x\\sin \\left( xy \\right)+1=0$$所表示的图形是．\n(A) 直线\n(B) 抛物线\n(C) 一个点\n(D) 以上都不对",
+      "problem_plain": "在平面直角坐标系中，方程 x ^ 2 +2x ( xy )+1=0 所表示的图形是． (A) 直线 (B) 抛物线 (C) 一个点 (D) 以上都不对",
+      "solution_latex": "易知$$x=-1$$，$$\\sin \\left( xy \\right)=1$$，或$$x=1$$，$$\\sin \\left( xy \\right)=-1$$．从而该方程所表示的图形由点列$$\\left( -1,  2k \\pi -\\frac{ \\pi }{2} \\right)$$，$$k\\in \\mathbf{Z}$$和点列$$\\left( 1,  2k \\pi -\\frac{ \\pi }{2} \\right)$$，$$k\\in \\mathbf{Z}$$构成．",
+      "solution_plain": "易知 x=-1 ， ( xy )=1 ，或 x=1 ， ( xy )=-1 ．从而该方程所表示的图形由点列 ( -1, 2k - 2 ) ， k Z 和点列 ( 1, 2k - 2 ) ， k Z 构成．"
+    },
+    "answer": {
+      "final_raw": "以上都不对",
+      "final_normalized": "以上都不对",
+      "candidates": [
+        "D",
+        "以上都不对"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "易知$$x=-1$$，$$\\sin \\left( xy \\right)=1$$，或$$x=1$$，$$\\sin \\left( xy \\right)=-1$$．从而该方程所表示的图形由点列$$\\left( -1,  2k \\pi -\\frac{ \\pi }{2} \\right)$$，$$k\\in \\mathbf{Z}$$和点列$$\\left( 1,  2k \\pi -\\frac{ \\pi }{2} \\right)$$，$$k\\in \\mathbf{Z}$$构成．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "在平面直角坐标系中，方程 x ^ 2 +2x ( xy )+1=0 所表示的图形是． (A) 直线 (B) 抛物线 (C) 一个点 (D) 以上都不对",
+      "solution_text": "易知 x=-1 ， ( xy )=1 ，或 x=1 ， ( xy )=-1 ．从而该方程所表示的图形由点列 ( -1, 2k - 2 ) ， k Z 和点列 ( 1, 2k - 2 ) ， k Z 构成．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "169",
+        "queId": "1486890f75a6432a80179a1b0dbaa668",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "直线"
+          },
+          {
+            "label": "B",
+            "content": "抛物线"
+          },
+          {
+            "label": "C",
+            "content": "一个点"
+          },
+          {
+            "label": "D",
+            "content": "以上都不对"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->解析几何->曲线与方程"
+        ],
+        "competition_source_list": [
+          "2014年天津全国高中数学联赛竞赛初赛第1题6分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01830",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1830,
+      "split": "zh_test",
+      "source_problem_id": "776b929303c04a8faa9fd166c8892df2"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "过椭圆$$\\frac{{{x}^{2}}}{2}+{{y}^{2}}=1$$的右焦点$${{F}_{2}}$$作倾斜角为$${{45}^{\\circ }}$$弦$$AB$$，则$$\\left\\textbar{} AB \\right\\textbar$$为．\n(A) \\frac{2\\sqrt{6}}{3}\n(B) \\frac{4\\sqrt{6}}{3}\n(C) \\frac{4\\sqrt{2}}{3}\n(D) \\frac{4\\sqrt{3}}{3}",
+      "problem_plain": "过椭圆 x ^ 2 2 + y ^ 2 =1 的右焦点 F _ 2 作倾斜角为 45 ^ 弦 AB ，则 AB 为． (A) 2 6 3 (B) 4 6 3 (C) 4 2 3 (D) 4 3 3",
+      "solution_latex": "椭圆的右焦点为$$（1，0）$$，则弦$$AB$$为$$y=x-1$$代入椭圆方程得  $$3{{x}^{2}}-4x=0\\Rightarrow {{x}_{1}}=0,  {{x}_{2}}=\\frac{4}{3}\\Rightarrow \\left\\textbar{} AB \\right\\textbar=\\sqrt{2{{({{x}_{1}}-{{x}_{2}})}^{2}}}=\\frac{4\\sqrt{2}}{3}$$．",
+      "solution_plain": "椭圆的右焦点为 （1，0） ，则弦 AB 为 y=x-1 代入椭圆方程得 3 x ^ 2 -4x=0 x _ 1 =0, x _ 2 = 4 3 AB = 2 ( x _ 1 - x _ 2 ) ^ 2 = 4 2 3 ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{4\\sqrt{2}}{3}",
+      "final_normalized": "\\frac{4\\sqrt{2}}{3}",
+      "candidates": [
+        "C",
+        "\\frac{4\\sqrt{2}}{3}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "椭圆的右焦点为$$（1，0）$$，则弦$$AB$$为$$y=x-1$$代入椭圆方程得  $$3{{x}^{2}}-4x=0\\Rightarrow {{x}_{1}}=0,  {{x}_{2}}=\\frac{4}{3}\\Rightarrow \\left\\textbar{} AB \\right\\textbar=\\sqrt{2{{({{x}_{1}}-{{x}_{2}})}^{2}}}=\\frac{4\\sqrt{2}}{3}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "过椭圆 x ^ 2 2 + y ^ 2 =1 的右焦点 F _ 2 作倾斜角为 45 ^ 弦 AB ，则 AB 为． (A) 2 6 3 (B) 4 6 3 (C) 4 2 3 (D) 4 3 3",
+      "solution_text": "椭圆的右焦点为 （1，0） ，则弦 AB 为 y=x-1 代入椭圆方程得 3 x ^ 2 -4x=0 x _ 1 =0, x _ 2 = 4 3 AB = 2 ( x _ 1 - x _ 2 ) ^ 2 = 4 2 3 ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "804",
+        "queId": "776b929303c04a8faa9fd166c8892df2",
+        "difficulty": "2",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{2\\sqrt{6}}{3}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{4\\sqrt{6}}{3}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{4\\sqrt{2}}{3}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{4\\sqrt{3}}{3}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->解析几何->椭圆"
+        ],
+        "competition_source_list": [
+          "2011年浙江全国高中数学联赛竞赛初赛第4题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01836",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1836,
+      "split": "zh_test",
+      "source_problem_id": "b1f0f013885d4485a0619e6b473e614d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "设$$G$$为$$\\triangle ABC$$的重心．若$$BG\\bot CG$$，$$BC=\\sqrt{2}$$，则$$AB+AC$$的最大值为~\\uline{~~~~~~~~~~}~．\n(A) 2\\sqrt{3}\n(B) 2\\sqrt{5}\n(C) 4\n(D) 6",
+      "problem_plain": "设 G 为 ABC 的重心．若 BG CG ， BC= 2 ，则 AB+AC 的最大值为~ ~~~~~~~~~~ ~． (A) 2 3 (B) 2 5 (C) 4 (D) 6",
+      "solution_latex": "设$$BC$$的中点为$$D$$，  由$$\\triangle BCG$$为直角三角形知$$GD=\\frac{1}{2}BC=\\frac{\\sqrt{2}}{2}$$，  又因为$$G$$是$$\\triangle ABC$$的重心，  所以，$$AD=3GD=\\frac{3\\sqrt{2}}{2}$$，  由三角形中线长公式得：$$A{{D}^{2}}=\\frac{1}{4}(2A{{B}^{2}}+2A{{C}^{2}}-B{{C}^{2}})$$，  则$$A{{B}^{2}}+A{{C}^{2}}=2A{{D}^{2}}+\\frac{1}{2}B{{C}^{2}}=10$$，  故$$AB+AC\\leqslant 2\\sqrt{\\frac{A{{B}^{2}}+A{{C}^{2}}}{2}}=2\\sqrt{5}$$，  当且仅当$$AB=AC$$时，上式等号成立，  因此，$$AB+AC$$的最大值为$$2\\sqrt{5}$$．  故答案为$$2\\sqrt{5}$$．",
+      "solution_plain": "设 BC 的中点为 D ， 由 BCG 为直角三角形知 GD= 1 2 BC= 2 2 ， 又因为 G 是 ABC 的重心， 所以， AD=3GD= 3 2 2 ， 由三角形中线长公式得： A D ^ 2 = 1 4 (2A B ^ 2 +2A C ^ 2 -B C ^ 2 ) ， 则 A B ^ 2 +A C ^ 2 =2A D ^ 2 + 1 2 B C ^ 2 =10 ， 故 AB+AC 2 A B ^ 2 +A C ^ 2 2 =2 5 ， 当且仅当 AB=AC 时，上式等号成立， 因此， AB+AC 的最大值为 2 5 ． 故答案为 2 5 ．"
+    },
+    "answer": {
+      "final_raw": "2\\sqrt{5}",
+      "final_normalized": "2\\sqrt{5}",
+      "candidates": [
+        "2\\sqrt{5}",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设$$BC$$的中点为$$D$$，  由$$\\triangle BCG$$为直角三角形知$$GD=\\frac{1}{2}BC=\\frac{\\sqrt{2}}{2}$$，  又因为$$G$$是$$\\triangle ABC$$的重心，  所以，$$AD=3GD=\\frac{3\\sqrt{2}}{2}$$，  由三角形中线长公式得：$$A{{D}^{2}}=\\frac{1}{4}(2A{{B}^{2}}+2A{{C}^{2}}-B{{C}^{2}})$$，  则$$A{{B}^{2}}+A{{C}^{2}}=2A{{D}^{2}}+\\frac{1}{2}B{{C}^{2}}=10$$，  故$$AB+AC\\leqslant 2\\sqrt{\\frac{A{{B}^{2}}+A{{C}^{2}}}{2}}=2\\sqrt{5}$$，  当且仅当$$AB=AC$$时，上式等号成立，  因此，$$AB+AC$$的最大值为$$2\\sqrt{5}$$．  故答案为$$2\\sqrt{5}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "设 G 为 ABC 的重心．若 BG CG ， BC= 2 ，则 AB+AC 的最大值为~ ~~~~~~~~~~ ~． (A) 2 3 (B) 2 5 (C) 4 (D) 6",
+      "solution_text": "设 BC 的中点为 D ， 由 BCG 为直角三角形知 GD= 1 2 BC= 2 2 ， 又因为 G 是 ABC 的重心， 所以， AD=3GD= 3 2 2 ， 由三角形中线长公式得： A D ^ 2 = 1 4 (2A B ^ 2 +2A C ^ 2 -B C ^ 2 ) ， 则 A B ^ 2 +A C ^ 2 =2A D ^ 2 + 1 2 B C ^ 2 =10 ， 故 AB+AC 2 A B ^ 2 +A C ^ 2 2 =2 5 ， 当且仅当 AB=AC 时，上式等号成立， 因此， AB+AC 的最大值为 2 5 ． 故答案为 2 5 ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "864",
+        "queId": "b1f0f013885d4485a0619e6b473e614d",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "2\\sqrt{3}"
+          },
+          {
+            "label": "B",
+            "content": "2\\sqrt{5}"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "6"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->平面几何->欧拉线上的心（二试）->重心（二试）"
+        ],
+        "competition_source_list": [
+          "2018年湖北全国高中数学联赛竞赛初赛第5题10分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01907",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1907,
+      "split": "zh_test",
+      "source_problem_id": "89409f4b938b4c688c52e761a59e9a4c"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知三个平面$$\\alpha $$、$$\\beta $$、$$\\lambda $$，每两个平面之间的夹角都是$$\\theta $$，且$$\\alpha \\cap \\beta =a$$，$$\\beta \\cap \\gamma =b$$，$$\\gamma \\cap \\alpha =c$$．若有：  命题甲：$$\\theta \\textgreater\\frac{ \\pi }{3}$$．命题乙：$$a$$，$$b$$，$$c$$相交于一点．  则．\n(A) 甲是乙的充分非必要条件\n(B) 甲是乙的必要非充分条件\n(C) 甲是乙的充分必要条件\n(D) 甲是乙的非充分非必要条件",
+      "problem_plain": "已知三个平面 、 、 ，每两个平面之间的夹角都是 ，且 =a ， =b ， =c ．若有： 命题甲： 3 ．命题乙： a ， b ， c 相交于一点． 则． (A) 甲是乙的充分非必要条件 (B) 甲是乙的必要非充分条件 (C) 甲是乙的充分必要条件 (D) 甲是乙的非充分非必要条件",
+      "solution_latex": "设$$a$$，$$b$$，$$c$$交于一点，  由所成三面角内部一点引三条射线分别垂直于$$\\alpha $$、$$\\beta $$、$$\\lambda $$，  其中每两条射线所成的角都是$$ \\pi -\\varphi $$，  $$\\varphi $$为三面角中两两相等的二面角的平面角，  总和$$3( \\pi -\\varphi )\\textless{}2 \\pi $$，  ∴$$\\varphi \\textgreater\\frac{1}{3} \\pi $$．  当$$\\varphi \\textgreater\\frac{2}{3} \\pi $$时，$$\\varphi \\textgreater\\frac{1}{3} \\pi $$．  若$$a$$，$$b$$，$$c$$不交于一点，则互相平行，  这时$$\\varphi \\textgreater\\frac{1}{3} \\pi $$．  故选$$\\text{A}$$．  （注：认定两平面间夹角范围是$$0\\textless{}\\theta {\\leqslant }\\frac{1}{2} \\pi $$）",
+      "solution_plain": "设 a ， b ， c 交于一点， 由所成三面角内部一点引三条射线分别垂直于 、 、 ， 其中每两条射线所成的角都是 - ， 为三面角中两两相等的二面角的平面角， 总和 3( - ) 2 ， ∴ 1 3 ． 当 2 3 时， 1 3 ． 若 a ， b ， c 不交于一点，则互相平行， 这时 1 3 ． 故选 A ． （注：认定两平面间夹角范围是 0 1 2 ）"
+    },
+    "answer": {
+      "final_raw": "甲是乙的充分非必要条件",
+      "final_normalized": "甲是乙的充分非必要条件",
+      "candidates": [
+        "A",
+        "甲是乙的充分非必要条件"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设$$a$$，$$b$$，$$c$$交于一点，  由所成三面角内部一点引三条射线分别垂直于$$\\alpha $$、$$\\beta $$、$$\\lambda $$，  其中每两条射线所成的角都是$$ \\pi -\\varphi $$，  $$\\varphi $$为三面角中两两相等的二面角的平面角，  总和$$3( \\pi -\\varphi )\\textless{}2 \\pi $$，  ∴$$\\varphi \\textgreater\\frac{1}{3} \\pi $$．  当$$\\varphi \\textgreater\\frac{2}{3} \\pi $$时，$$\\varphi \\textgreater\\frac{1}{3} \\pi $$．  若$$a$$，$$b$$，$$c$$不交于一点，则互相平行，  这时$$\\varphi \\textgreater\\frac{1}{3} \\pi $$．  故选$$\\text{A}$$．  （注：认定两平面间夹角范围是$$0\\textless{}\\theta {\\leqslant }\\frac{1}{2} \\pi $$）"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知三个平面 、 、 ，每两个平面之间的夹角都是 ，且 =a ， =b ， =c ．若有： 命题甲： 3 ．命题乙： a ， b ， c 相交于一点． 则． (A) 甲是乙的充分非必要条件 (B) 甲是乙的必要非充分条件 (C) 甲是乙的充分必要条件 (D) 甲是乙的非充分非必要条件",
+      "solution_text": "设 a ， b ， c 交于一点， 由所成三面角内部一点引三条射线分别垂直于 、 、 ， 其中每两条射线所成的角都是 - ， 为三面角中两两相等的二面角的平面角， 总和 3( - ) 2 ， ∴ 1 3 ． 当 2 3 时， 1 3 ． 若 a ， b ， c 不交于一点，则互相平行， 这时 1 3 ． 故选 A ． （注：认定两平面间夹角范围是 0 1 2 ）",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "748",
+        "queId": "89409f4b938b4c688c52e761a59e9a4c",
+        "difficulty": "2",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "甲是乙的充分非必要条件"
+          },
+          {
+            "label": "B",
+            "content": "甲是乙的必要非充分条件"
+          },
+          {
+            "label": "C",
+            "content": "甲是乙的充分必要条件"
+          },
+          {
+            "label": "D",
+            "content": "甲是乙的非充分非必要条件"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->常用逻辑用语->充分条件与必要条件->充要条件与立体几何结合",
+          "课内体系->知识点->立体几何初步->基本图形位置关系->空间中的基本事实与定理",
+          "课内体系->素养->逻辑推理"
+        ],
+        "competition_source_list": [
+          "全国全国高中数学联赛竞赛一试"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01920",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1920,
+      "split": "zh_test",
+      "source_problem_id": "46be171ee60c4673ba2d4f983e4425a9"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "半径为$$2$$的圆的直径$$AB$$被延伸到圆外的一点$$D$$，使$$BD=3$$.选择$$E$$点，使$$ED=5$$，直线$$ED$$与直线$$AD$$垂直．线段$$AE$$与圆相交于$$A$$和$$E$$之间的点$$C$$.请问三角形$$ABC$$的面积是多少？\n(A) \\frac{120}{37}\n(B) \\frac{140}{39}\n(C) \\frac{145}{39}\n(D) \\frac{140}{37}\n(E) \\frac{120}{31}",
+      "problem_plain": "半径为 2 的圆的直径 AB 被延伸到圆外的一点 D ，使 BD=3 .选择 E 点，使 ED=5 ，直线 ED 与直线 AD 垂直．线段 AE 与圆相交于 A 和 E 之间的点 C .请问三角形 ABC 的面积是多少？ (A) 120 37 (B) 140 39 (C) 145 39 (D) 140 37 (E) 120 31",
+      "solution_latex": "Solution 1  Notice that $$ADE$$ and $$ABC$$ are right triangles.  Then $$AE=\\sqrt{7^{2}+5^{2}}=\\sqrt{74}$$,$$\\sin DAE=\\sin ABC=\\dfrac{5}{\\sqrt{74}}=\\sin BAE=\\dfrac{BC}{4}$$,so $$BC=\\dfrac{20}{\\sqrt{74}}$$. We also find that $$AC=\\dfrac{28}{\\sqrt{74}}$$, and thus the area of $$ABC$$ is $$\\dfrac{\\dfrac{20}{\\sqrt{74}}\\cdot\\dfrac{28}{\\sqrt{74}}}{2}=\\dfrac{\\dfrac{560}{74}}{2}=\\dfrac{140}{37}$$.  Solution 2  We note that $$\\triangle ACB\\sim\\triangle ADE$$ by $$AA$$ similarity. Also, since the area of $$\\triangle ADE=\\dfrac{7\\cdot5}{2}=\\dfrac{35}{2}$$ and $$AE=\\sqrt {74}$$,$$\\dfrac{\\left[ ABC\\right]}{\\left[ ADE\\right]}=\\dfrac{\\left[ ABC\\right]}{\\dfrac{35}{2}}=\\left( \\dfrac{4}{\\sqrt{74}}\\right)^{2}$$ , so the area of $$\\triangle ABC=\\frac {140}{37}$$.  Solution 3  As stated before, note that $$\\triangle ACB$$,$$\\triangle ADE$$. By similarity, we note that $$\\dfrac{\\overline{AC}}{\\overline{BC}}$$ is equivalent to $$\\frac 75$$. We set $$\\overline{AC}$$ to $$7x$$~ and $$\\overline{BC}$$ to $$5x$$. By the Pythagorean Theorem, $$\\left( 7x\\right)^{2}+\\left( 5x\\right)^{2}=4^{2}$$. Combining, $$49x^{2}+25x^{2}=16$$. We can add and divide to get $$x^{2}=\\frac 8{37}$$. We square root and rearrange to get $$x=\\dfrac{2\\sqrt{74}}{37}$$. We know that the legs of the triangle are $$7x$$ and $$5x$$. Mulitplying $$x$$ by $$7$$ and $$5$$ eventually gives us $$\\dfrac{14\\sqrt{74}}{37}\\dfrac{10\\sqrt{74}}{37}$$. We divide this by $$2$$, since $$\\frac 12bh$$ is the formula for a triangle. This gives us $$\\frac {140}{37}$$.  Solution 4  Let\\textquotesingle s call the center of the circle that segment $$AB$$ is the diameter of,$$O$$. Note that $$\\triangle ODE$$ is an isosceles right triangle. Solving for side $$OE$$, using the Pythagorean theorem, we find it to be $$5\\sqrt 2$$. Calling the point where segment $$OE$$ intersects circle $$O$$, the point $$I$$, segment $$IE$$ would be $$5\\sqrt 2-2$$. Also, noting that $$\\triangle ADE$$ is a right triangle, we solve for side $$AE$$, using the Pythagorean Theorem, and get $$\\sqrt {74}$$. Using Power of Point on point $$E$$, we can solve for $$CE$$. We can subtract $$CE$$ from $$AE$$ to find $$AC$$ and then solve for $$CB$$ using Pythagorean theorem once more $$(AE)(CE)$$. $$=$$ (Diameter of circle $$O+IE$$ ),$$ \\left( IE\\right)\\rightarrow\\sqrt{74}\\left( CE\\right)=\\left( 5\\sqrt{2}+2\\right)\\left( 5\\sqrt{2}-2\\right)\\Rightarrow CE=\\dfrac{23\\sqrt{74}}{37}$$,$$AC=AE-CE\\rightarrow AC=\\sqrt{74}-\\dfrac{23\\sqrt{74}}{37}\\Rightarrow AC=\\dfrac{14\\sqrt{74}}{37}$$,Now to solve for $$CB$$:$$AB^{2}-AC^{2}=CB^{2}\\rightarrow4^{2}+\\dfrac{14\\sqrt{74}^{2}}{37}=CB^{2}\\Rightarrow CB=\\dfrac{10\\sqrt{74}}{37}$$ ,  Note that $$\\triangle ABC$$ is a right triangle because the hypotenuse is the diameter of the circle. Solving for area using the bases $$AC$$ and $$BC$$, we get the area of triangle $$ABC$$ to be $$\\frac {140}{37}$$.",
+      "solution_plain": "Solution 1 Notice that ADE and ABC are right triangles. Then AE= 7^ 2 +5^ 2 = 74 , DAE= ABC= 5 74 = BAE= BC 4 ,so BC= 20 74 . We also find that AC= 28 74 , and thus the area of ABC is 20 74 28 74 2 = 560 74 2 = 140 37 . Solution 2 We note that ACB ADE by AA similarity. Also, since the area of ADE= 7 5 2 = 35 2 and AE= 74 , [ ABC ] [ ADE ] = [ ABC ] 35 2 = ( 4 74 )^ 2 , so the area of ABC= 140 37 . Solution 3 As stated before, note that ACB , ADE . By similarity, we note that AC BC is equivalent to 75 . We set AC to 7x ~ and BC to 5x . By the Pythagorean Theorem, ( 7x )^ 2 + ( 5x )^ 2 =4^ 2 . Combining, 49x^ 2 +25x^ 2 =16 . We can add and divide to get x^ 2 = 8 37 . We square root and rearrange to get x= 2 74 37 . We know that the legs of the triangle are 7x and 5x . Mulitplying x by 7 and 5 eventually gives us 14 74 37 10 74 37 . We divide this by 2 , since 12bh is the formula for a triangle. This gives us 140 37 . Solution 4 Let s call the center of the circle that segment AB is the diameter of, O . Note that ODE is an isosceles right triangle. Solving for side OE , using the Pythagorean theorem, we find it to be 5 2 . Calling the point where segment OE intersects circle O , the point I , segment IE would be 5 2-2 . Also, noting that ADE is a right triangle, we solve for side AE , using the Pythagorean Theorem, and get 74 . Using Power of Point on point E , we can solve for CE . We can subtract CE from AE to find AC and then solve for CB using Pythagorean theorem once more (AE)(CE) . = (Diameter of circle O+IE ), ( IE ) 74 ( CE )= ( 5 2 +2 ) ( 5 2 -2 ) CE= 23 74 37 , AC=AE-CE AC= 74 - 23 74 37 AC= 14 74 37 ,Now to solve for CB : AB^ 2 -AC^ 2 =CB^ 2 4^ 2 + 14 74 ^ 2 37 =CB^ 2 CB= 10 74 37 , Note that ABC is a right triangle because the hypotenuse is the diameter of the circle. Solving for area using the bases AC and BC , we get the area of triangle ABC to be 140 37 ."
+    },
+    "answer": {
+      "final_raw": "\\frac{140}{37}",
+      "final_normalized": "\\frac{140}{37}",
+      "candidates": [
+        "D",
+        "\\frac{140}{37}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "amc10_12",
+        "calculation_of_plane_geometry",
+        "circle",
+        "geometry",
+        "unknown"
+      ],
+      "tags": [
+        "amc10_12",
+        "calculation_of_plane_geometry",
+        "circle",
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "Solution 1  Notice that $$ADE$$ and $$ABC$$ are right triangles.",
+        "Then $$AE=\\sqrt{7^{2}+5^{2}}=\\sqrt{74}$$,$$\\sin DAE=\\sin ABC=\\dfrac{5}{\\sqrt{74}}=\\sin BAE=\\dfrac{BC}{4}$$,so $$BC=\\dfrac{20}{\\sqrt{74}}$$.",
+        "We also find that $$AC=\\dfrac{28}{\\sqrt{74}}$$, and thus the area of $$ABC$$ is $$\\dfrac{\\dfrac{20}{\\sqrt{74}}\\cdot\\dfrac{28}{\\sqrt{74}}}{2}=\\dfrac{\\dfrac{560}{74}}{2}=\\dfrac{140}{37}$$.",
+        "Solution 2  We note that $$\\triangle ACB\\sim\\triangle ADE$$ by $$AA$$ similarity.",
+        "Also, since the area of $$\\triangle ADE=\\dfrac{7\\cdot5}{2}=\\dfrac{35}{2}$$ and $$AE=\\sqrt {74}$$,$$\\dfrac{\\left[ ABC\\right]}{\\left[ ADE\\right]}=\\dfrac{\\left[ ABC\\right]}{\\dfrac{35}{2}}=\\left( \\dfrac{4}{\\sqrt{74}}\\right)^{2}$$ , so the area of $$\\triangle ABC=\\frac {140}{37}$$.",
+        "Solution 3  As stated before, note that $$\\triangle ACB$$,$$\\triangle ADE$$.",
+        "By similarity, we note that $$\\dfrac{\\overline{AC}}{\\overline{BC}}$$ is equivalent to $$\\frac 75$$.",
+        "We set $$\\overline{AC}$$ to $$7x$$~ and $$\\overline{BC}$$ to $$5x$$."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "半径为 2 的圆的直径 AB 被延伸到圆外的一点 D ，使 BD=3 .选择 E 点，使 ED=5 ，直线 ED 与直线 AD 垂直．线段 AE 与圆相交于 A 和 E 之间的点 C .请问三角形 ABC 的面积是多少？ (A) 120 37 (B) 140 39 (C) 145 39 (D) 140 37 (E) 120 31",
+      "solution_text": "Solution 1 Notice that ADE and ABC are right triangles. Then AE= 7^ 2 +5^ 2 = 74 , DAE= ABC= 5 74 = BAE= BC 4 ,so BC= 20 74 . We also find that AC= 28 74 , and thus the area of ABC is 20 74 28 74 2 = 560 74 2 = 140 37 . Solution 2 We note that ACB ADE by AA similarity. Also, since the area of ADE= 7 5 2 = 35 2 and AE= 74 , [ ABC ] [ ADE ] = [ ABC ] 35 2 = ( 4 74 )^ 2 , so the area of ABC= 140 37 . Solution 3 As stated before, note that ACB , ADE . By similarity, we note that AC BC is equivalent to 75 . We set AC to 7x ~ and BC to 5x . By the Pythagorean Theorem, ( 7x )^ 2 + ( 5x )^ 2 =4^ 2 . Combining, 49x^ 2 +25x^ 2 =16 . We can add and divide to get x^ 2 = 8 37 . We square root and rearrange to get x= 2 74 37 . We know that the legs of the triangle are 7x and 5x . Mulitplying x by 7 and 5 eventually gives us 14 74 37 10 74 37 . We divide this by 2 , since 12bh is the formula for a triangle. This gives us 140 37 . Solution 4 Let s call the center of the circle that segment AB is the diameter of, O . Note that ODE is an isosceles right triangle. Solving for side OE , using the Pythagorean theorem, we find it to be 5 2 . Calling the point where segment OE intersects circle O , the point I , segment IE would be 5 2-2 . Also, noting that ADE is a right triangle, we solve for side AE , using the Pythagorean Theorem, and get 74 . Using Power of Point on point E , we can solve for CE . We can subtract CE from AE to find AC and then solve for CB using Pythagorean theorem once more (AE)(CE) . = (Diameter of circle O+IE ), ( IE ) 74 ( CE )= ( 5 2 +2 ) ( 5 2 -2 ) CE= 23 74 37 , AC=AE-CE AC= 74 - 23 74 37 AC= 14 74 37 ,Now to solve for CB : AB^ 2 -AC^ 2 =CB^ 2 4^ 2 + 14 74 ^ 2 37 =CB^ 2 CB= 10 74 37 , Note that ABC is a right triangle because the hypotenuse is the diameter of the circle. Solving for area using the bases AC and BC , we get the area of triangle ABC to be 140 37 .",
+      "keywords": [
+        "amc10_12",
+        "calculation_of_plane_geometry",
+        "circle",
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "274",
+        "queId": "46be171ee60c4673ba2d4f983e4425a9",
+        "difficulty": "2",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{120}{37}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{140}{39}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{145}{39}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{140}{37}"
+          },
+          {
+            "label": "E",
+            "content": "\\frac{120}{31}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->直线和圆的方程",
+          "美国AMC10/12->Knowledge Point->Geometry->Calculation of Plane Geometry->Circle"
+        ],
+        "competition_source_list": [
+          "2017年AMC12竞赛B第18题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01923",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1923,
+      "split": "zh_test",
+      "source_problem_id": "f76ef37db8a444c19a4ebf8284921eb2"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "三棱锥$$P-ABC$$的底面$$\\triangle ABC$$是边长为$$4$$的正三角形，$$PA=3$$，$$PB=4$$，$$PC=5$$，则三棱锥$$P-ABC$$的体积为．\n(A) 3\n(B) \\sqrt{39}\n(C) \\sqrt{11}\n(D) 2\\sqrt{3}",
+      "problem_plain": "三棱锥 P-ABC 的底面 ABC 是边长为 4 的正三角形， PA=3 ， PB=4 ， PC=5 ，则三棱锥 P-ABC 的体积为． (A) 3 (B) 39 (C) 11 (D) 2 3",
+      "solution_latex": "解：$${{V}_{P-ABC}}={{V}_{A-PBC}}=\\frac{1}{3}\\times \\left( \\frac{1}{2}\\times 3\\times 4 \\right)\\times \\sqrt{{{4}^{2}}-{{\\left( \\frac{5}{2} \\right)}^{2}}}=\\sqrt{39}$$．",
+      "solution_plain": "解： V _ P-ABC = V _ A-PBC = 1 3 ( 1 2 3 4 ) 4 ^ 2 - ( 5 2 ) ^ 2 = 39 ．"
+    },
+    "answer": {
+      "final_raw": "\\sqrt{39}",
+      "final_normalized": "\\sqrt{39}",
+      "candidates": [
+        "B",
+        "\\sqrt{39}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "expression"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "解：$${{V}_{P-ABC}}={{V}_{A-PBC}}=\\frac{1}{3}\\times \\left( \\frac{1}{2}\\times 3\\times 4 \\right)\\times \\sqrt{{{4}^{2}}-{{\\left( \\frac{5}{2} \\right)}^{2}}}=\\sqrt{39}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "三棱锥 P-ABC 的底面 ABC 是边长为 4 的正三角形， PA=3 ， PB=4 ， PC=5 ，则三棱锥 P-ABC 的体积为． (A) 3 (B) 39 (C) 11 (D) 2 3",
+      "solution_text": "解： V _ P-ABC = V _ A-PBC = 1 3 ( 1 2 3 4 ) 4 ^ 2 - ( 5 2 ) ^ 2 = 39 ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1022",
+        "queId": "f76ef37db8a444c19a4ebf8284921eb2",
+        "difficulty": "2",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "3"
+          },
+          {
+            "label": "B",
+            "content": "\\sqrt{39}"
+          },
+          {
+            "label": "C",
+            "content": "\\sqrt{11}"
+          },
+          {
+            "label": "D",
+            "content": "2\\sqrt{3}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->立体几何初步->基本立体图形->空间几何体的体积、表面积->三棱锥体积问题->等体积法",
+          "竞赛->知识点->立体几何与空间向量"
+        ],
+        "competition_source_list": [
+          "2018年吉林全国高中数学联赛竞赛初赛第2题5分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:geometry:level_3:01942",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1942,
+      "split": "zh_test",
+      "source_problem_id": "5f78b77382ae461ba171072d2b9d1fbc"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "已知实数$$x,y$$满足$$17{}{{x}^{2}}+{{y}^{2}}{}-30xy-16=0$$，则$$\\sqrt{16{{x}^{2}}+4{{y}^{2}}-16xy-12x+6y+9}$$的最大值是．\n(A) 7\n(B) {}\\sqrt{29}\n(C) {}\\sqrt{19}\n(D) 3",
+      "problem_plain": "已知实数 x,y 满足 17 x ^ 2 + y ^ 2 -30xy-16=0 ，则 16 x ^ 2 +4 y ^ 2 -16xy-12x+6y+9 的最大值是． (A) 7 (B) 29 (C) 19 (D) 3",
+      "solution_latex": "$$17\\left( {{x}^{2}}+{{y}^{2}} \\right){-}30xy-16=0$$，  得$${{\\left( x+y \\right)}^{2}}+16{{\\left( x-y \\right)}^{2}}=16$$，$${{\\left( \\frac{x+y}{4} \\right)}^{2}}+{{\\left( x-y \\right)}^{2}}=1$$．  令$$\\begin{cases}x+y=4\\cos \\theta    x-y=\\sin \\theta \\end{cases}{}\\theta \\in \\mathbf{R}{}$$，得  $$f\\left( x,y \\right)=\\sqrt{16{{x}^{2}}+4{{y}^{2}}-16xy-12x+6y+9}$$  $$=\\sqrt{{{\\left( 4x-2y \\right)}^{2}}-3\\left( 4x-2y \\right)+9}$$  $$=\\sqrt{[3\\left( x-y \\right)+\\left( x+y \\right)\\left] ^{2}-3 \\right[3\\left( x-y \\right)+\\left( x+y \\right)]+9}$$  $$=\\sqrt{{{\\left( 3\\sin \\theta +4\\cos \\theta \\right)}^{2}}-3\\left( 3\\sin \\theta +4\\cos \\theta \\right)+9}$$  $$=\\sqrt{[5\\sin \\left( \\theta +\\alpha \\right)\\left] ^{2}-3 \\right[5\\sin \\left( \\theta +\\alpha \\right)]+9}$$，  其中$$\\alpha =\\text{arc}\\sin \\frac{4}{5}$$;当$$\\theta =\\frac{3 \\pi }{2}-\\alpha $$时，$$\\sin \\left( \\theta +\\alpha \\right)=-1,f{(}x,y{)}$$取得最大值$$7$$．",
+      "solution_plain": "17 ( x ^ 2 + y ^ 2 ) - 30xy-16=0 ， 得 ( x+y ) ^ 2 +16 ( x-y ) ^ 2 =16 ， ( x+y 4 ) ^ 2 + ( x-y ) ^ 2 =1 ． 令 cases x+y=4 x-y= cases R ，得 f ( x,y )= 16 x ^ 2 +4 y ^ 2 -16xy-12x+6y+9 = ( 4x-2y ) ^ 2 -3 ( 4x-2y )+9 = [3 ( x-y )+ ( x+y ) ] ^ 2 -3 [3 ( x-y )+ ( x+y )]+9 = ( 3 +4 ) ^ 2 -3 ( 3 +4 )+9 = [5 ( + ) ] ^ 2 -3 [5 ( + )]+9 ， 其中 = arc 4 5 ;当 = 3 2 - 时， ( + )=-1,f ( x,y ) 取得最大值 7 ．"
+    },
+    "answer": {
+      "final_raw": "7",
+      "final_normalized": "7",
+      "candidates": [
+        "7",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Geometry",
+      "subject_slug": "geometry",
+      "level": "Level 3",
+      "level_number": 3,
+      "grade_band": "middle",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "$$17\\left( {{x}^{2}}+{{y}^{2}} \\right){-}30xy-16=0$$，  得$${{\\left( x+y \\right)}^{2}}+16{{\\left( x-y \\right)}^{2}}=16$$，$${{\\left( \\frac{x+y}{4} \\right)}^{2}}+{{\\left( x-y \\right)}^{2}}=1$$．  令$$\\begin{cases}x+y=4\\cos \\theta    x-y=\\sin \\theta \\end{cases}{}\\theta \\in \\mathbf{R}{}$$，得  $$f\\left( x,y \\right)=\\sqrt{16{{x}^{2}}+4{{y}^{2}}-16xy-12x+6y+9}$$  $$=\\sqrt{{{\\left( 4x-2y \\right)}^{2}}-3\\left( 4x-2y \\right)+9}$$  $$=\\sqrt{[3\\left( x-y \\right)+\\left( x+y \\right)\\left] ^{2}-3 \\right[3\\left( x-y \\right)+\\left( x+y \\right)]+9}$$  $$=\\sqrt{{{\\left( 3\\sin \\theta +4\\cos \\theta \\right)}^{2}}-3\\left( 3\\sin \\theta +4\\cos \\theta \\right)+9}$$  $$=\\sqrt{[5\\sin \\left( \\theta +\\alpha \\right)\\left] ^{2}-3 \\right[5\\sin \\left( \\theta +\\alpha \\right)]+9}$$，  其中$$\\alpha =\\text{arc}\\sin \\frac{4}{5}$$;当$$\\theta =\\frac{3 \\pi }{2}-\\alpha $$时，$$\\sin \\left( \\theta +\\alpha \\right)=-1,f{(}x,y{)}$$取得最大值$$7$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "已知实数 x,y 满足 17 x ^ 2 + y ^ 2 -30xy-16=0 ，则 16 x ^ 2 +4 y ^ 2 -16xy-12x+6y+9 的最大值是． (A) 7 (B) 29 (C) 19 (D) 3",
+      "solution_text": "17 ( x ^ 2 + y ^ 2 ) - 30xy-16=0 ， 得 ( x+y ) ^ 2 +16 ( x-y ) ^ 2 =16 ， ( x+y 4 ) ^ 2 + ( x-y ) ^ 2 =1 ． 令 cases x+y=4 x-y= cases R ，得 f ( x,y )= 16 x ^ 2 +4 y ^ 2 -16xy-12x+6y+9 = ( 4x-2y ) ^ 2 -3 ( 4x-2y )+9 = [3 ( x-y )+ ( x+y ) ] ^ 2 -3 [3 ( x-y )+ ( x+y )]+9 = ( 3 +4 ) ^ 2 -3 ( 3 +4 )+9 = [5 ( + ) ] ^ 2 -3 [5 ( + )]+9 ， 其中 = arc 4 5 ;当 = 3 2 - 时， ( + )=-1,f ( x,y ) 取得最大值 7 ．",
+      "keywords": [
+        "geometry",
+        "level_3",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "607",
+        "queId": "5f78b77382ae461ba171072d2b9d1fbc",
+        "difficulty": "2",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "7"
+          },
+          {
+            "label": "B",
+            "content": "{}\\sqrt{29}"
+          },
+          {
+            "label": "C",
+            "content": "{}\\sqrt{19}"
+          },
+          {
+            "label": "D",
+            "content": "3"
+          }
+        ],
+        "knowledge_point_routes": [
+          "竞赛->知识点->解析几何->圆与方程",
+          "竞赛->知识点->不等式->换元技巧->三角换元"
+        ],
+        "competition_source_list": [
+          "2013年辽宁全国高中数学联赛竞赛初赛第6题6分"
+        ]
+      }
+    }
+  }
+]

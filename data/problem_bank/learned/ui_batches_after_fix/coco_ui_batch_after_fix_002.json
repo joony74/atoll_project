@@ -1,0 +1,1370 @@
+{
+  "schema_version": "coco_app_batch_after_fix.v1",
+  "batch_index": 2,
+  "band": "초등",
+  "offset": 10,
+  "doc_ids": [
+    "autobank__elementary_g01_011__55c4961d",
+    "autobank__elementary_g01_012__34164256",
+    "autobank__elementary_g01_013__7c7b169a",
+    "autobank__elementary_g01_014__0f820be4",
+    "autobank__elementary_g01_015__975d6c81",
+    "autobank__elementary_g01_016__358fabb8",
+    "autobank__elementary_g01_017__fb2f04cd",
+    "autobank__elementary_g01_018__ed8dc974",
+    "autobank__elementary_g01_019__c5a0b35f",
+    "autobank__elementary_g01_020__bc4af5f6"
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "error": 0,
+    "by_band": {
+      "초등": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "error": 0
+      }
+    },
+    "by_topic": {
+      "arithmetic": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "geometry": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "error": 0
+      },
+      "pattern": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      },
+      "statistics": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "error": 0
+      }
+    }
+  },
+  "card_issue_count": 0,
+  "card_issues": [],
+  "state_issue": null,
+  "results": [
+    {
+      "case_id": "elementary_g01_011",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "pattern",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_011_easy_expression_pattern.png",
+      "expected_answer": "28",
+      "expected_expression": "22+6",
+      "computed_answer": "28",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "answer=28",
+      "recognized_expressions": [
+        "answer=28",
+        "*106 = Oo",
+        "10 ="
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.646,
+      "analysis": {
+        "analysis_started_at": 1777119424.2895858,
+        "analysis_finished_at": 1777119424.935426,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 10, 16, 22, 0\n| 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n“106 = Oo\nTAS 찾아 빈칸에 알맞은 수를 MAIO.\n4 10, 16, 22, 니",
+            "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 10, 16, 22, 0\n| 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n“106 = Oo\nTAS 찾아 빈칸에 알맞은 수를 MAIO.\n4 10, 16, 22, 니"
+          ],
+          "normalized_problem_text": "answer=28",
+          "expressions": [
+            "answer=28",
+            "*106 = Oo",
+            "10 ="
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_011_easy_expression_pattern.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 10, 16, 22, 0",
+                "confidence": 0.6799999999999999,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 10, 16, 22, 0",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 10, 16, 22, 0",
+                    "confidence": 0.52
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n“106 = Oo\nTAS 찾아 빈칸에 알맞은 수를 MAIO.\n4 10, 16, 22, 니",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "af71dde112ad"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "28",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 28야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 28야. 그래서 정답은 28야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 10, 16, 22, 0\n| 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n“106 = Oo\nTAS 찾아 빈칸에 알맞은 수를 MAIO.\n4 10, 16, 22, 니",
+            "content_text": "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n4, 10, 16, 22, 0\n| 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n“106 = Oo\nTAS 찾아 빈칸에 알맞은 수를 MAIO.\n4 10, 16, 22, 니",
+            "repaired_text": "",
+            "expressions": [
+              "answer=28",
+              "*106 = Oo",
+              "10 ="
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "28",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g01_011__55c4961d"
+    },
+    {
+      "case_id": "elementary_g01_012",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/자료와 가능성/분류하고 세기/elementary_g01_012_easy_word_statistics.png",
+      "expected_answer": "71",
+      "expected_expression": "67+17-13",
+      "computed_answer": "71",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "67+17-13",
+      "recognized_expressions": [
+        "67+17-13"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.738,
+      "analysis": {
+        "analysis_started_at": 1777119424.936241,
+        "analysis_finished_at": 1777119425.673805,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| 초등 1학년ㆍ분류하고 세기ㆍ기본 word - statistics ：\n민지는 스티커를 67장 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 BAe?\n초등 1학년ㆍ분류하고 세기ㆍ기본 word ㆍ statistics\n민지는 스티커를 672 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 Bae\n17장을 더 받고, 그중 BAS 사용했습니다. 남은 스티커는 몇 장(",
+            "| 초등 1학년ㆍ분류하고 세기ㆍ기본 word - statistics ：\n민지는 스티커를 67장 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 BAe?\n초등 1학년ㆍ분류하고 세기ㆍ기본 word ㆍ statistics\n민지는 스티커를 672 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 Bae\n17장을 더 받고, 그중 BAS 사용했습니다. 남은 스티커는 몇 장("
+          ],
+          "normalized_problem_text": "67+17-13",
+          "expressions": [
+            "67+17-13"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/자료와 가능성/분류하고 세기/elementary_g01_012_easy_word_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| 초등 1학년ㆍ분류하고 세기ㆍ기본 word - statistics ：\n민지는 스티커를 67장 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 BAe?",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년ㆍ분류하고 세기ㆍ기본 word ㆍ statistics\n민지는 스티커를 672 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 Bae",
+                    "confidence": 0.48
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 1학년ㆍ분류하고 세기ㆍ기본 word ㆍ statistics\n민지는 스티커를 672 가지고 있었습니다.\n17장을 더 받고, 그중 BAS 사용했습니다. 남은 스티커는 몇 장(\nO AEA",
+                    "confidence": 0.52
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 1학년ㆍ분류하고 세기ㆍ기본 word - statistics ：\n민지는 스티커를 67장 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 BAe?",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "bcbd602d57af"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "71",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 71야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 71야. 그래서 정답은 71야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| 초등 1학년ㆍ분류하고 세기ㆍ기본 word - statistics ：\n민지는 스티커를 67장 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 BAe?\n초등 1학년ㆍ분류하고 세기ㆍ기본 word ㆍ statistics\n민지는 스티커를 672 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 Bae\n17장을 더 받고, 그중 BAS 사용했습니다. 남은 스티커는 몇 장(",
+            "content_text": "| 초등 1학년ㆍ분류하고 세기ㆍ기본 word - statistics ：\n민지는 스티커를 67장 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 BAe?\n초등 1학년ㆍ분류하고 세기ㆍ기본 word ㆍ statistics\n민지는 스티커를 672 가지고 있었습니다.\n17장을 더 받고, 그중 13장을 사용했습니다. 남은 스티커는 Bae\n17장을 더 받고, 그중 BAS 사용했습니다. 남은 스티커는 몇 장(",
+            "repaired_text": "",
+            "expressions": [
+              "67+17-13"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "71",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g01_012__34164256"
+    },
+    {
+      "case_id": "elementary_g01_013",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "arithmetic",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/수와 연산/9까지의 수와 덧셈·뺄셈/elementary_g01_013_easy_table_arithmetic.png",
+      "expected_answer": "84",
+      "expected_expression": "18+29+16+21",
+      "computed_answer": "84",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 수량은 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "18+29+16+21"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.459,
+      "analysis": {
+        "analysis_started_at": 1777119425.6744099,
+        "analysis_finished_at": 1777119427.133583,
+        "structured_problem": {
+          "source_text_candidates": [
+            ": 초등 1학년 ㆍ9까지의 수와 GA wal - 7) table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\n갈 0 18 00 129 000 16 002 00\n초등 1학년 ㆍ9까지의 AO) GA wall «7 | table ㆍ arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오,\na 18 29 16 21\ntable_row_2 18 29 16 21",
+            ": 초등 1학년 ㆍ9까지의 수와 GA wal - 7) table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\n갈 0 18 00 129 000 16 002 00\n초등 1학년 ㆍ9까지의 AO) GA wall «7 | table ㆍ arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오,\na 18 29 16 21\ntable_row_2 18 29 16 21"
+          ],
+          "normalized_problem_text": "아래 표의 수량은 모두 몇 개인지 구하시오",
+          "expressions": [
+            "18+29+16+21"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/수와 연산/9까지의 수와 덧셈·뺄셈/elementary_g01_013_easy_table_arithmetic.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": ": 초등 1학년 ㆍ9까지의 수와 GA wal - 7) table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\nesa BD\n갈 0 18 00 129 000 16 002 00",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년 ㆍ9까지의 AO) GA wall «7 | table ㆍ arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오,\neC",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 1학년 ㆍ9까지의 AO) GA wall «7 | table ㆍ arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\n항목 A B c D\na 18 29 16 21",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": ": 초등 1학년 ㆍ9까지의 수와 GA wal - 7) table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\nesa BD\n갈 0 18 00 129 000 16 002 00",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 18 29 16 21",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "69f38ff08022"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "84",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 84야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 84야. 그래서 정답은 84야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": ": 초등 1학년 ㆍ9까지의 수와 GA wal - 7) table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\n갈 0 18 00 129 000 16 002 00\n초등 1학년 ㆍ9까지의 AO) GA wall «7 | table ㆍ arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오,\na 18 29 16 21\ntable_row_2 18 29 16 21",
+            "content_text": ": 초등 1학년 ㆍ9까지의 수와 GA wal - 7) table - arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오.\n갈 0 18 00 129 000 16 002 00\n초등 1학년 ㆍ9까지의 AO) GA wall «7 | table ㆍ arithmetic\n아래 표의 수량은 모두 몇 개인지 구하시오,\na 18 29 16 21\ntable_row_2 18 29 16 21",
+            "repaired_text": "",
+            "expressions": [
+              "18+29+16+21"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "84",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g01_013__7c7b169a"
+    },
+    {
+      "case_id": "elementary_g01_014",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_014_easy_expression_geometry.png",
+      "expected_answer": "99",
+      "expected_expression": "86+13",
+      "computed_answer": "99",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "safe_eval_solver",
+      "recognized_problem": "다음 식의 값을 구하시오",
+      "recognized_expressions": [
+        "86 + 13"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.562,
+      "analysis": {
+        "analysis_started_at": 1777119427.134227,
+        "analysis_finished_at": 1777119427.6958358,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| AS 1학년 ㆍ여러 가지 SOFT 길이 비교ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n86 + 13\n초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 expression ㆍ geometr",
+            "| AS 1학년 ㆍ여러 가지 SOFT 길이 비교ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n86 + 13\n초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 expression ㆍ geometr"
+          ],
+          "normalized_problem_text": "다음 식의 값을 구하시오",
+          "expressions": [
+            "86 + 13"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_014_easy_expression_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| AS 1학년 ㆍ여러 가지 SOFT 길이 비교ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n86 + 13",
+                "confidence": 0.76,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 expression ㆍ geometr\n다음 식의 값을 구하시오.\n86 + 13",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| AS 1학년 ㆍ여러 가지 SOFT 길이 비교ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n86 + 13",
+                    "confidence": 0.76
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "a47b3ad34715"
+          }
+        },
+        "solve_result": {
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "99",
+          "steps": [
+            "보이는 식을 계산 가능한 형태로 정리했어.",
+            "지수와 괄호를 순서대로 계산했어.",
+            "값은 99야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.86,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 보이는 식을 계산 가능한 형태로 정리했어. 지수와 괄호를 순서대로 계산했어. 값은 99야. 그래서 정답은 99야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| AS 1학년 ㆍ여러 가지 SOFT 길이 비교ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n86 + 13\n초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 expression ㆍ geometr",
+            "content_text": "| AS 1학년 ㆍ여러 가지 SOFT 길이 비교ㆍ기본 expression ㆍ geometr\n© < =.\n다음 식의 값을 구하시오.\n86 + 13\n초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 expression ㆍ geometr",
+            "repaired_text": "",
+            "expressions": [
+              "86 + 13"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "safe_eval_solver",
+          "computed_answer": "99",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g01_014__0f820be4"
+    },
+    {
+      "case_id": "elementary_g01_015",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "pattern",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_015_easy_expression_pattern.png",
+      "expected_answer": "15",
+      "expected_expression": "13+2",
+      "computed_answer": "15",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "answer=15",
+      "recognized_expressions": [
+        "answer=15",
+        "10 ="
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.696,
+      "analysis": {
+        "analysis_started_at": 1777119427.698892,
+        "analysis_finished_at": 1777119428.394829,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n7,9, 11, 13, 2\n| 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n7 9, 11, 13, O",
+            "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n7,9, 11, 13, 2\n| 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n7 9, 11, 13, O"
+          ],
+          "normalized_problem_text": "answer=15",
+          "expressions": [
+            "answer=15",
+            "10 ="
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_015_easy_expression_pattern.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n7,9, 11, 13, 2",
+                "confidence": 0.72,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n7,9, 11, 13, 2",
+                    "confidence": 0.6799999999999999
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n7,9, 11, 13, 2",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n7 9, 11, 13, O",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "793232f4d882"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "15",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 15야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 15야. 그래서 정답은 15야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n7,9, 11, 13, 2\n| 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n7 9, 11, 13, O",
+            "content_text": "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 MAIC.\n7,9, 11, 13, 2\n| 초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\nrio =x © -\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오\n7 9, 11, 13, O",
+            "repaired_text": "",
+            "expressions": [
+              "answer=15",
+              "10 ="
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "15",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g01_015__975d6c81"
+    },
+    {
+      "case_id": "elementary_g01_016",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/자료와 가능성/분류하고 세기/elementary_g01_016_easy_expression_statistics.png",
+      "expected_answer": "418/5",
+      "expected_expression": "(98+81+72+85+82)/5",
+      "computed_answer": "418/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(98+81+72+85+82)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.46,
+      "analysis": {
+        "analysis_started_at": 1777119428.395443,
+        "analysis_finished_at": 1777119428.854955,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n98, 81, 72, 85, 82\n내 초등 1학년 ㆍ분류하고 세기 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.",
+            "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n98, 81, 72, 85, 82\n내 초등 1학년 ㆍ분류하고 세기 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오."
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(98+81+72+85+82)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/자료와 가능성/분류하고 세기/elementary_g01_016_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n98, 81, 72, 85, 82",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n98, 81, 72, 85, 82",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "내 초등 1학년 ㆍ분류하고 세기 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n98, 81, 72, 85, 82",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "7d022770aaed"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "418/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 418/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 418/5야. 그래서 정답은 418/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n98, 81, 72, 85, 82\n내 초등 1학년 ㆍ분류하고 세기 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.",
+            "content_text": "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n98, 81, 72, 85, 82\n내 초등 1학년 ㆍ분류하고 세기 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "(98+81+72+85+82)/5"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "418/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g01_016__358fabb8"
+    },
+    {
+      "case_id": "elementary_g01_017",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "word",
+      "topic": "arithmetic",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/수와 연산/9까지의 수와 덧셈·뺄셈/elementary_g01_017_easy_word_arithmetic.png",
+      "expected_answer": "37",
+      "expected_expression": "32+15-10",
+      "computed_answer": "37",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "32+15-10",
+      "recognized_expressions": [
+        "32+15-10"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.822,
+      "analysis": {
+        "analysis_started_at": 1777119428.8556402,
+        "analysis_finished_at": 1777119429.677675,
+        "structured_problem": {
+          "source_text_candidates": [
+            "| AS 1학년 ㆍ9까지의 수와 GIA HA. 7] word - arithmetic\n민지는 스티커를 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 Sas\n초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 word ㆍ arithmetic\n민지는 AAS 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장(\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장\nO AEA ow -",
+            "| AS 1학년 ㆍ9까지의 수와 GIA HA. 7] word - arithmetic\n민지는 스티커를 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 Sas\n초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 word ㆍ arithmetic\n민지는 AAS 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장(\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장\nO AEA ow -"
+          ],
+          "normalized_problem_text": "32+15-10",
+          "expressions": [
+            "32+15-10"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/수와 연산/9까지의 수와 덧셈·뺄셈/elementary_g01_017_easy_word_arithmetic.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "preprocessed",
+                "available": true,
+                "text": "| AS 1학년 ㆍ9까지의 수와 GIA HA. 7] word - arithmetic\n민지는 스티커를 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 Sas",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 word ㆍ arithmetic\n민지는 AAS 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장(",
+                    "confidence": 0.48
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 word ㆍ arithmetic\n민지는 스티커를 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장\nO AEA ow -",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "| AS 1학년 ㆍ9까지의 수와 GIA HA. 7] word - arithmetic\n민지는 스티커를 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 Sas",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "503422fbce3f"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "37",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 37야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 37야. 그래서 정답은 37야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "| AS 1학년 ㆍ9까지의 수와 GIA HA. 7] word - arithmetic\n민지는 스티커를 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 Sas\n초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 word ㆍ arithmetic\n민지는 AAS 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장(\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장\nO AEA ow -",
+            "content_text": "| AS 1학년 ㆍ9까지의 수와 GIA HA. 7] word - arithmetic\n민지는 스티커를 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 Sas\n초등 1학년 ㆍ9까지의 AO) 덧셈밸셈ㆍ기본 word ㆍ arithmetic\n민지는 AAS 328 가지고 있었습니다.\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장(\n15장을 더 받고, 그중 10장을 사용했습니다. 남은 스티커는 몇 장\nO AEA ow -",
+            "repaired_text": "",
+            "expressions": [
+              "32+15-10"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "37",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g01_017__fb2f04cd"
+    },
+    {
+      "case_id": "elementary_g01_018",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "table",
+      "topic": "geometry",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_018_easy_table_geometry.png",
+      "expected_answer": "109",
+      "expected_expression": "15+36+39+19",
+      "computed_answer": "109",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "direct_numeric_solver",
+      "recognized_problem": "아래 표의 SSS 모두 몇 개인지 구하시오",
+      "recognized_expressions": [
+        "15+36+39+19"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 1.391,
+      "analysis": {
+        "analysis_started_at": 1777119429.678338,
+        "analysis_finished_at": 1777119431.068956,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 1학년ㆍ여러 가지 모양과 길이 비교 ㆍ기본 table - geometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 15 36 39 19\n아래 표의 수량은 모두 몇 개인지 구하시오.\n： 초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 table - geometry |\ntable_row_2 15 36 39 19",
+            "초등 1학년ㆍ여러 가지 모양과 길이 비교 ㆍ기본 table - geometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 15 36 39 19\n아래 표의 수량은 모두 몇 개인지 구하시오.\n： 초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 table - geometry |\ntable_row_2 15 36 39 19"
+          ],
+          "normalized_problem_text": "아래 표의 SSS 모두 몇 개인지 구하시오",
+          "expressions": [
+            "15+36+39+19"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "arithmetic",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/도형과 측정/여러 가지 모양과 길이 비교/elementary_g01_018_easy_table_geometry.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 1학년ㆍ여러 가지 모양과 길이 비교 ㆍ기본 table - geometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B c D\na 15 36 39 19",
+                "confidence": 0.74,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년ㆍ여러 가지 모양과 길이 비교 ㆍ기본 table - geometry\n아래 표의 수량은 모두 몇 개인지 구하시오.\n«ee",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 1학년ㆍ여러 가지 모양과 길이 비교 ㆍ기본 table - geometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\n항목 A B c D\na 15 36 39 19",
+                    "confidence": 0.74
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "： 초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 table - geometry |\n아래 표의 SSS 모두 몇 개인지 구하시오.\nwe A ie fe |ㅁ\nzs [sf |» _",
+                    "confidence": 0.76
+                  },
+                  {
+                    "engine": "grid_table_digit_reader",
+                    "variant": "grid_table",
+                    "psm": "grid",
+                    "available": true,
+                    "text": "table_row_2 15 36 39 19",
+                    "confidence": 0.72
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "83b1416575fe"
+          }
+        },
+        "solve_result": {
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "109",
+          "steps": [
+            "OCR 후보 중 바로 계산 가능한 식을 우선 사용했어.",
+            "계산하면 109야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. OCR 후보 중 바로 계산 가능한 식을 우선 사용했어. 계산하면 109야. 그래서 정답은 109야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 1학년ㆍ여러 가지 모양과 길이 비교 ㆍ기본 table - geometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 15 36 39 19\n아래 표의 수량은 모두 몇 개인지 구하시오.\n： 초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 table - geometry |\ntable_row_2 15 36 39 19",
+            "content_text": "초등 1학년ㆍ여러 가지 모양과 길이 비교 ㆍ기본 table - geometry\n아래 표의 SSS 모두 몇 개인지 구하시오.\na 15 36 39 19\n아래 표의 수량은 모두 몇 개인지 구하시오.\n： 초등 1학년ㆍ여러 가지 모양과 길이 비교ㆍ기본 table - geometry |\ntable_row_2 15 36 39 19",
+            "repaired_text": "",
+            "expressions": [
+              "15+36+39+19"
+            ],
+            "choices": [],
+            "math_topic": "arithmetic",
+            "question_type": "subjective"
+          },
+          "solver_name": "direct_numeric_solver",
+          "computed_answer": "109",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g01_018__ed8dc974"
+    },
+    {
+      "case_id": "elementary_g01_019",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "pattern",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_019_easy_expression_pattern.png",
+      "expected_answer": "15",
+      "expected_expression": "12+3",
+      "computed_answer": "15",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "table_lookup_solver",
+      "recognized_problem": "answer=15",
+      "recognized_expressions": [
+        "answer=15",
+        "10 ="
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.639,
+      "analysis": {
+        "analysis_started_at": 1777119431.0698829,
+        "analysis_finished_at": 1777119431.709028,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n3, 6,9, 12, 0\nAS 1학년ㆍ규칙 찾기ㆍ기본 expression - pattern\n~|Oo <= O\n규칙을 찾아 빈칸에 알맞은 AS Malo.\n3, 6, 9 12,",
+            "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n3, 6,9, 12, 0\nAS 1학년ㆍ규칙 찾기ㆍ기본 expression - pattern\n~|Oo <= O\n규칙을 찾아 빈칸에 알맞은 AS Malo.\n3, 6, 9 12,"
+          ],
+          "normalized_problem_text": "answer=15",
+          "expressions": [
+            "answer=15",
+            "10 ="
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "linear_equation",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/변화와 관계/규칙 찾기/elementary_g01_019_easy_expression_pattern.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original_table",
+                "available": true,
+                "text": "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n3, 6,9, 12, 0",
+                "confidence": 0.72,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n3, 6,9, 12, 0",
+                    "confidence": 0.48
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "original_table",
+                    "psm": "4",
+                    "available": true,
+                    "text": "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n3, 6,9, 12, 0",
+                    "confidence": 0.72
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "AS 1학년ㆍ규칙 찾기ㆍ기본 expression - pattern\n~|Oo <= O\n규칙을 찾아 빈칸에 알맞은 AS Malo.\n3, 6, 9 12,",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "e27d59efe711"
+          }
+        },
+        "solve_result": {
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "15",
+          "steps": [
+            "표에서 목표 조건과 같은 열을 찾았어.",
+            "그 열의 대응값은 15야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.84,
+          "validation_status": "verified",
+          "explanation": "이건 방정식 문제야. 표에서 목표 조건과 같은 열을 찾았어. 그 열의 대응값은 15야. 그래서 정답은 15야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n3, 6,9, 12, 0\nAS 1학년ㆍ규칙 찾기ㆍ기본 expression - pattern\n~|Oo <= O\n규칙을 찾아 빈칸에 알맞은 AS Malo.\n3, 6, 9 12,",
+            "content_text": "초등 1학년ㆍ규칙 찾기ㆍ기본 expression ㆍ pattern\n10 =\n규칙을 찾아 빈칸에 알맞은 수를 쓰시오.\n3, 6,9, 12, 0\nAS 1학년ㆍ규칙 찾기ㆍ기본 expression - pattern\n~|Oo <= O\n규칙을 찾아 빈칸에 알맞은 AS Malo.\n3, 6, 9 12,",
+            "repaired_text": "",
+            "expressions": [
+              "answer=15",
+              "10 ="
+            ],
+            "choices": [],
+            "math_topic": "linear_equation",
+            "question_type": "subjective"
+          },
+          "solver_name": "table_lookup_solver",
+          "computed_answer": "15",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g01_019__c5a0b35f"
+    },
+    {
+      "case_id": "elementary_g01_020",
+      "band": "초등",
+      "grade": 1,
+      "difficulty": "easy",
+      "layout": "expression",
+      "topic": "statistics",
+      "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/자료와 가능성/분류하고 세기/elementary_g01_020_easy_expression_statistics.png",
+      "expected_answer": "393/5",
+      "expected_expression": "(72+82+80+92+67)/5",
+      "computed_answer": "393/5",
+      "matched_choice": "",
+      "validation_status": "verified",
+      "solver_name": "fraction_solver",
+      "recognized_problem": "다음 자료의 평균을 구하시오",
+      "recognized_expressions": [
+        "(72+82+80+92+67)/5"
+      ],
+      "status": "passed",
+      "error": "",
+      "elapsed_seconds": 0.456,
+      "analysis": {
+        "analysis_started_at": 1777119431.709752,
+        "analysis_finished_at": 1777119432.166154,
+        "structured_problem": {
+          "source_text_candidates": [
+            "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n72, 82, 80, 92, 67\n“ 초등 1학년 ㆍ분류하고 세기 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.",
+            "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n72, 82, 80, 92, 67\n“ 초등 1학년 ㆍ분류하고 세기 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오."
+          ],
+          "normalized_problem_text": "다음 자료의 평균을 구하시오",
+          "expressions": [
+            "(72+82+80+92+67)/5"
+          ],
+          "choices": [],
+          "question_type": "subjective",
+          "math_topic": "statistics",
+          "target_question": "문제 풀이",
+          "confidence": 0.35,
+          "metadata": {
+            "image_path": "02.학습문제/05.문제은행/00.자동검증/01.초등/1학년/자료와 가능성/분류하고 세기/elementary_g01_020_easy_expression_statistics.png",
+            "user_query": "",
+            "ocr_debug": {
+              "tesseract": {
+                "engine": "tesseract",
+                "variant": "original",
+                "available": true,
+                "text": "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n72, 82, 80, 92, 67",
+                "confidence": 0.7,
+                "passes": [
+                  {
+                    "engine": "tesseract",
+                    "variant": "original",
+                    "psm": "6",
+                    "available": true,
+                    "text": "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n72, 82, 80, 92, 67",
+                    "confidence": 0.7
+                  },
+                  {
+                    "engine": "tesseract",
+                    "variant": "preprocessed",
+                    "psm": "6",
+                    "available": true,
+                    "text": "“ 초등 1학년 ㆍ분류하고 세기 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.\n72, 82, 80, 92, 67",
+                    "confidence": 0.74
+                  }
+                ]
+              },
+              "vision": {
+                "engine": "ollama_vision",
+                "available": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "text_repair": {
+                "engine": "ollama_text_repair",
+                "available": false,
+                "accepted": false,
+                "text": "",
+                "confidence": 0.0,
+                "skipped": true,
+                "reason": "disabled_by_default"
+              },
+              "selected_engine": "tesseract"
+            },
+            "metadata_lines": [],
+            "content_hash": "8d163d322b8a"
+          }
+        },
+        "solve_result": {
+          "solver_name": "fraction_solver",
+          "computed_answer": "393/5",
+          "steps": [
+            "분수식을 통분해서 계산 가능한 형태로 정리했어.",
+            "마지막 값은 기약분수로 줄였어.",
+            "값은 393/5야."
+          ],
+          "matched_choice": "",
+          "confidence": 0.88,
+          "validation_status": "verified",
+          "explanation": "이건 수학 문제야. 분수식을 통분해서 계산 가능한 형태로 정리했어. 마지막 값은 기약분수로 줄였어. 값은 393/5야. 그래서 정답은 393/5야.",
+          "debug": {}
+        },
+        "debug": {
+          "upload": {
+            "raw_text": "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n72, 82, 80, 92, 67\n“ 초등 1학년 ㆍ분류하고 세기 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.",
+            "content_text": "초등 1학년ㆍ분류하고 세기ㆍ기본 expression - statistics\n다음 자료의 평균을 구하시오.\n72, 82, 80, 92, 67\n“ 초등 1학년 ㆍ분류하고 세기 ㆍ기본 expression ㆍ statistics\n다음 자료의 SAS 구하시오.",
+            "repaired_text": "",
+            "expressions": [
+              "(72+82+80+92+67)/5"
+            ],
+            "choices": [],
+            "math_topic": "statistics",
+            "question_type": "subjective"
+          },
+          "solver_name": "fraction_solver",
+          "computed_answer": "393/5",
+          "validation_status": "verified"
+        }
+      },
+      "app_doc_id": "autobank__elementary_g01_020__bc4af5f6"
+    }
+  ]
+}

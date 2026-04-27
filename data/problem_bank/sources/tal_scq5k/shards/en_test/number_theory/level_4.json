@@ -1,0 +1,1019 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_4:00036",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 36,
+      "split": "en_test",
+      "source_problem_id": "2a28b43c279b4dbbaafa966d78dfec7d"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Several different positive integers are written on the board. Exactly two of them are divisible by $$2$$ and exactly $$13$$ of them are divisible by $$13$$. Let $$M$$ be the greatest of these numbers. What is the smallest possible value of $$M$$?\n(A) 169\n(B) 260\n(C) 273\n(D) 299\n(E) 325",
+      "problem_plain": "Several different positive integers are written on the board. Exactly two of them are divisible by 2 and exactly 13 of them are divisible by 13 . Let M be the greatest of these numbers. What is the smallest possible value of M ? (A) 169 (B) 260 (C) 273 (D) 299 (E) 325",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "273",
+      "final_normalized": "273",
+      "candidates": [
+        "273",
+        "C"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "number_theory_modules",
+        "questions_involving_properties_of_dividing_without_remainders"
+      ],
+      "tags": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_4",
+        "number_theory",
+        "number_theory_modules",
+        "questions_involving_properties_of_dividing_without_remainders",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Several different positive integers are written on the board. Exactly two of them are divisible by 2 and exactly 13 of them are divisible by 13 . Let M be the greatest of these numbers. What is the smallest possible value of M ? (A) 169 (B) 260 (C) 273 (D) 299 (E) 325",
+      "solution_text": "N/A.",
+      "keywords": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_4",
+        "number_theory",
+        "number_theory_modules",
+        "questions_involving_properties_of_dividing_without_remainders",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "96",
+        "queId": "2a28b43c279b4dbbaafa966d78dfec7d",
+        "difficulty": "3",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "169"
+          },
+          {
+            "label": "B",
+            "content": "260"
+          },
+          {
+            "label": "C",
+            "content": "273"
+          },
+          {
+            "label": "D",
+            "content": "299"
+          },
+          {
+            "label": "E",
+            "content": "325"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders->Divisibility Rules->Questions Involving Properties of Dividing without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_4:00054",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 54,
+      "split": "en_test",
+      "source_problem_id": "1cdcb468272e438385cad3c39971bb33"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "If n is an even positive integer, the double factorial notation n!! represents the product of all the even integers from 2 to n. For example, $8!!=2\\cdot4\\cdot6\\cdot8$. What is the units digit of the following sum?  $2!!+4!!+6!!+\\cdot\\cdot\\cdot+2018!!+2020!!+2022!!$\n(A) 0\n(B) 2\n(C) 4\n(D) 6\n(E) 8",
+      "problem_plain": "If n is an even positive integer, the double factorial notation n!! represents the product of all the even integers from 2 to n. For example, 8!!=2 4 6 8 . What is the units digit of the following sum? 2!!+4!!+6!!+ +2018!!+2020!!+2022!! (A) 0 (B) 2 (C) 4 (D) 6 (E) 8",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_4",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "If n is an even positive integer, the double factorial notation n!! represents the product of all the even integers from 2 to n. For example, 8!!=2 4 6 8 . What is the units digit of the following sum? 2!!+4!!+6!!+ +2018!!+2020!!+2022!! (A) 0 (B) 2 (C) 4 (D) 6 (E) 8",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_4",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "149",
+        "queId": "1cdcb468272e438385cad3c39971bb33",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "6"
+          },
+          {
+            "label": "E",
+            "content": "8"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_4:00166",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 166,
+      "split": "en_test",
+      "source_problem_id": "3e6221bcce5e48a3987f7657d8e30ef3"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "If $n$ is an even positive integer, the double factorial notation $n!!$ represents the product of all the even integers from $2$ to $n$. For example, $8!!=2\\cdot4\\cdot6\\cdot8$. What is the units digit of the following sum?  $2!!+4!!+6!!+\\cdot\\cdot\\cdot+2018!!+2020!!+2022!!$\n(A) 0\n(B) 2\n(C) 4\n(D) 6\n(E) 8",
+      "problem_plain": "If n is an even positive integer, the double factorial notation n!! represents the product of all the even integers from 2 to n . For example, 8!!=2 4 6 8 . What is the units digit of the following sum? 2!!+4!!+6!!+ +2018!!+2020!!+2022!! (A) 0 (B) 2 (C) 4 (D) 6 (E) 8",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "2",
+      "final_normalized": "2",
+      "candidates": [
+        "2",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_4",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "If n is an even positive integer, the double factorial notation n!! represents the product of all the even integers from 2 to n . For example, 8!!=2 4 6 8 . What is the units digit of the following sum? 2!!+4!!+6!!+ +2018!!+2020!!+2022!! (A) 0 (B) 2 (C) 4 (D) 6 (E) 8",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_4",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "403",
+        "queId": "3e6221bcce5e48a3987f7657d8e30ef3",
+        "difficulty": "3",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "0"
+          },
+          {
+            "label": "B",
+            "content": "2"
+          },
+          {
+            "label": "C",
+            "content": "4"
+          },
+          {
+            "label": "D",
+            "content": "6"
+          },
+          {
+            "label": "E",
+            "content": "8"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_4:00196",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 196,
+      "split": "en_test",
+      "source_problem_id": "c2fc51c33def4f67a9bfe4a967bbbc77"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "The positive integer N is such that the product of its digits is $45$.  Which of the following could not be the product of the digits of $N+1$？\n(A) 90\n(B) 60\n(C) 54\n(D) 35\n(E) 0",
+      "problem_plain": "The positive integer N is such that the product of its digits is 45 . Which of the following could not be the product of the digits of N+1 ？ (A) 90 (B) 60 (C) 54 (D) 35 (E) 0",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "35",
+      "final_normalized": "35",
+      "candidates": [
+        "35",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "level_4",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "The positive integer N is such that the product of its digits is 45 . Which of the following could not be the product of the digits of N+1 ？ (A) 90 (B) 60 (C) 54 (D) 35 (E) 0",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "level_4",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "467",
+        "queId": "c2fc51c33def4f67a9bfe4a967bbbc77",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "90"
+          },
+          {
+            "label": "B",
+            "content": "60"
+          },
+          {
+            "label": "C",
+            "content": "54"
+          },
+          {
+            "label": "D",
+            "content": "35"
+          },
+          {
+            "label": "E",
+            "content": "0"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_4:00230",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 230,
+      "split": "en_test",
+      "source_problem_id": "55c4bdc12e014ada8728444e5a109918"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "For a positive integer~~the factorial notation $n!$ represents the product of the integers from $n$ to $1$ (For example,~$6!=6\\cdot5\\cdot4\\cdot3\\cdot2\\cdot1$) What value of $N$ satisfies the following equation? $5!\\cdot9!=12\\cdot N!$\n(A) 10\n(B) 11\n(C) 12\n(D) 13\n(E) 14",
+      "problem_plain": "For a positive integer~~the factorial notation n! represents the product of the integers from n to 1 (For example,~ 6!=6 5 4 3 2 1 ) What value of N satisfies the following equation? 5! 9!=12 N! (A) 10 (B) 11 (C) 12 (D) 13 (E) 14",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "10",
+      "final_normalized": "10",
+      "candidates": [
+        "10",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_4",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "For a positive integer~~the factorial notation n! represents the product of the integers from n to 1 (For example,~ 6!=6 5 4 3 2 1 ) What value of N satisfies the following equation? 5! 9!=12 N! (A) 10 (B) 11 (C) 12 (D) 13 (E) 14",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_4",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "536",
+        "queId": "55c4bdc12e014ada8728444e5a109918",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "11"
+          },
+          {
+            "label": "C",
+            "content": "12"
+          },
+          {
+            "label": "D",
+            "content": "13"
+          },
+          {
+            "label": "E",
+            "content": "14"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_4:00314",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 314,
+      "split": "en_test",
+      "source_problem_id": "c3d313bd0d894192959e63f48d61189a"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "Several different positive integers are written on the board. Exactly two of them are divisible by $$2$$ and exactly thirteen of them are divisible by $$13$$. Let $$M$$ be the greatest of these numbers. What is the smallest possible value of $$M$$?\n(A) 169\n(B) 221\n(C) 247\n(D) 273\n(E) 325",
+      "problem_plain": "Several different positive integers are written on the board. Exactly two of them are divisible by 2 and exactly thirteen of them are divisible by 13 . Let M be the greatest of these numbers. What is the smallest possible value of M ? (A) 169 (B) 221 (C) 247 (D) 273 (E) 325",
+      "solution_latex": "N/A.",
+      "solution_plain": "N/A."
+    },
+    "answer": {
+      "final_raw": "273",
+      "final_normalized": "273",
+      "candidates": [
+        "273",
+        "D"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "number_theory_modules",
+        "questions_involving_properties_of_dividing_without_remainders"
+      ],
+      "tags": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_4",
+        "number_theory",
+        "number_theory_modules",
+        "questions_involving_properties_of_dividing_without_remainders",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "N/A."
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "Several different positive integers are written on the board. Exactly two of them are divisible by 2 and exactly thirteen of them are divisible by 13 . Let M be the greatest of these numbers. What is the smallest possible value of M ? (A) 169 (B) 221 (C) 247 (D) 273 (E) 325",
+      "solution_text": "N/A.",
+      "keywords": [
+        "divisibility_rules",
+        "division_without_remainders",
+        "en",
+        "en_test",
+        "level_4",
+        "number_theory",
+        "number_theory_modules",
+        "questions_involving_properties_of_dividing_without_remainders",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "791",
+        "queId": "c3d313bd0d894192959e63f48d61189a",
+        "difficulty": "3",
+        "answer_value": "D",
+        "choices": [
+          {
+            "label": "A",
+            "content": "169"
+          },
+          {
+            "label": "B",
+            "content": "221"
+          },
+          {
+            "label": "C",
+            "content": "247"
+          },
+          {
+            "label": "D",
+            "content": "273"
+          },
+          {
+            "label": "E",
+            "content": "325"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Division without Remainders->Divisibility Rules->Questions Involving Properties of Dividing without Remainders"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_4:00335",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 335,
+      "split": "en_test",
+      "source_problem_id": "91d248cc1aea461eb5a0a5608a37446d"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "For a positive integer~~the factorial notation n! represents the product of the integers from n to 1 (For example,~$6!=6\\cdot5\\cdot4\\cdot3\\cdot2\\cdot1$) What value of N satisfies the following equation? $5!\\cdot9!=12\\cdot N!$\n(A) 10\n(B) 11\n(C) 12\n(D) 13\n(E) 14",
+      "problem_plain": "For a positive integer~~the factorial notation n! represents the product of the integers from n to 1 (For example,~ 6!=6 5 4 3 2 1 ) What value of N satisfies the following equation? 5! 9!=12 N! (A) 10 (B) 11 (C) 12 (D) 13 (E) 14",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "10",
+      "final_normalized": "10",
+      "candidates": [
+        "10",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_4",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "For a positive integer~~the factorial notation n! represents the product of the integers from n to 1 (For example,~ 6!=6 5 4 3 2 1 ) What value of N satisfies the following equation? 5! 9!=12 N! (A) 10 (B) 11 (C) 12 (D) 13 (E) 14",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_4",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "836",
+        "queId": "91d248cc1aea461eb5a0a5608a37446d",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "11"
+          },
+          {
+            "label": "C",
+            "content": "12"
+          },
+          {
+            "label": "D",
+            "content": "13"
+          },
+          {
+            "label": "E",
+            "content": "14"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:en_test:number_theory:level_4:00403",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/en_single_choice_constructed_5K/en_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 403,
+      "split": "en_test",
+      "source_problem_id": "d2a5020f64cb4a038fb9f4440fcab978"
+    },
+    "content": {
+      "language": "en",
+      "problem_latex": "For a positive integer~~the factorial notation $n!$ represents the product of the integers from $n$ to $1$ (For example,~$6!=6\\cdot5\\cdot4\\cdot3\\cdot2\\cdot1$) What value of $N$ satisfies the following equation? $5!\\cdot9!=12\\cdot N!$\n(A) 10\n(B) 11\n(C) 12\n(D) 13\n(E) 14",
+      "problem_plain": "For a positive integer~~the factorial notation n! represents the product of the integers from n to 1 (For example,~ 6!=6 5 4 3 2 1 ) What value of N satisfies the following equation? 5! 9!=12 N! (A) 10 (B) 11 (C) 12 (D) 13 (E) 14",
+      "solution_latex": "",
+      "solution_plain": ""
+    },
+    "answer": {
+      "final_raw": "10",
+      "final_normalized": "10",
+      "candidates": [
+        "10",
+        "A"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Number Theory",
+      "subject_slug": "number_theory",
+      "level": "Level 4",
+      "level_number": 4,
+      "grade_band": "middle",
+      "concepts": [
+        "factors_and_multiples",
+        "number_theory_modules"
+      ],
+      "tags": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_4",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "For a positive integer~~the factorial notation n! represents the product of the integers from n to 1 (For example,~ 6!=6 5 4 3 2 1 ) What value of N satisfies the following equation? 5! 9!=12 N! (A) 10 (B) 11 (C) 12 (D) 13 (E) 14",
+      "solution_text": "",
+      "keywords": [
+        "en",
+        "en_test",
+        "factors_and_multiples",
+        "level_4",
+        "number_theory",
+        "number_theory_modules",
+        "single_choice",
+        "tal_scq5k"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": false,
+        "final_answer_extracted": true,
+        "needs_review": true,
+        "review_reasons": [
+          "missing_answer_analysis"
+        ]
+      },
+      "tal_scq5k": {
+        "qid": "1015",
+        "queId": "d2a5020f64cb4a038fb9f4440fcab978",
+        "difficulty": "3",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "10"
+          },
+          {
+            "label": "B",
+            "content": "11"
+          },
+          {
+            "label": "C",
+            "content": "12"
+          },
+          {
+            "label": "D",
+            "content": "13"
+          },
+          {
+            "label": "E",
+            "content": "14"
+          }
+        ],
+        "knowledge_point_routes": [
+          "Overseas Competition->Knowledge Point->Number Theory Modules->Factors and Multiples"
+        ],
+        "competition_source_list": [
+          "其它"
+        ]
+      }
+    }
+  }
+]

@@ -288,7 +288,8 @@ def _make_middle(grade: int, index: int, rng: random.Random) -> tuple[str, tuple
         p = rng.randint(-5, 5)
         q = x * x + p * x
         expr = f"x^2 + {p}x = {q}"
-        answer = str(x)
+        roots = sorted({x, -p - x})
+        answer = ", ".join(str(item) for item in roots)
         topic = "quadratic"
     else:
         a = rng.randint(3, 9)
@@ -300,6 +301,8 @@ def _make_middle(grade: int, index: int, rng: random.Random) -> tuple[str, tuple
         answer = str(c)
         topic = "geometry"
     if layout == "word":
+        if topic == "quadratic":
+            return (topic, ("다음 이차방정식의 해를 모두 구하시오.", expr), answer, expr, "서술형", table)
         return (topic, ("다음 조건을 만족하는 값을 구하시오.", expr), answer, expr, "서술형", table)
     if layout == "table":
         values = [rng.randint(1, 6) for _ in range(3)]
@@ -448,8 +451,9 @@ def _wrap_lines(lines: tuple[str, ...], width: int = 34) -> list[str]:
     return wrapped
 
 
-def render_problem(spec: ProblemSpec, force: bool = False) -> Path:
-    target_dir = PROBLEM_ROOT / spec.folder
+def render_problem(spec: ProblemSpec, force: bool = False, problem_root: Path | None = None) -> Path:
+    root = problem_root or PROBLEM_ROOT
+    target_dir = root / spec.folder
     target_dir.mkdir(parents=True, exist_ok=True)
     target_path = target_dir / spec.file_name
     if target_path.exists() and not force:
@@ -489,10 +493,11 @@ def render_problem(spec: ProblemSpec, force: bool = False) -> Path:
     return target_path
 
 
-def clean_generated_files() -> None:
+def clean_generated_files(problem_root: Path | None = None) -> None:
+    root = problem_root or PROBLEM_ROOT
     for folder_name, _, grades in BANDS:
         for grade in grades:
-            folder = PROBLEM_ROOT / folder_name / f"{grade}학년"
+            folder = root / folder_name / f"{grade}학년"
             if folder.exists():
                 shutil.rmtree(folder)
 
@@ -504,17 +509,18 @@ def main() -> int:
     parser.add_argument("--force", action="store_true", help="Overwrite existing images.")
     parser.add_argument("--clean", action="store_true", help="Remove generated grade folders before rendering.")
     parser.add_argument("--manifest", type=Path, default=MANIFEST_PATH)
+    parser.add_argument("--problem-root", type=Path, default=PROBLEM_ROOT)
     args = parser.parse_args()
 
     if args.count_per_grade <= 0:
         raise SystemExit("--count-per-grade must be positive")
     if args.clean:
-        clean_generated_files()
+        clean_generated_files(args.problem_root)
 
     specs = generate_specs(args.count_per_grade, args.seed)
     records = []
     for spec in specs:
-        image_path = render_problem(spec, force=args.force)
+        image_path = render_problem(spec, force=args.force, problem_root=args.problem_root)
         record = asdict(spec)
         record["image_path"] = str(image_path)
         record["relative_path"] = str(image_path.relative_to(PROJECT_ROOT))

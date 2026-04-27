@@ -1,0 +1,362 @@
+[
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_5:00219",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 219,
+      "split": "zh_test",
+      "source_problem_id": "af5e722f7d4e47488f5525b35024bc2d"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "黑板上有$$11$$个$$1$$，$$22$$个$$2$$，$$33$$个$$3$$，$$44$$个$$4$$．做以下操作：每次擦掉$$3$$个不同的数字，并且把没擦掉的第四种数字多写$$2$$个．例如：某次操作擦掉$$1$$个$$1$$，$$1$$个$$2$$，$$1$$个$$3$$，那就再写上$$2$$个$$4$$．经过若干次操作后，黑板上只剩下$$3$$个数字，而且无法继续进行操作，那么最后剩下的三个数字的乘积是．\n(A) 8\n(B) 12\n(C) 18\n(D) 24",
+      "problem_plain": "黑板上有 11 个 1 ， 22 个 2 ， 33 个 3 ， 44 个 4 ．做以下操作：每次擦掉 3 个不同的数字，并且把没擦掉的第四种数字多写 2 个．例如：某次操作擦掉 1 个 1 ， 1 个 2 ， 1 个 3 ，那就再写上 2 个 4 ．经过若干次操作后，黑板上只剩下 3 个数字，而且无法继续进行操作，那么最后剩下的三个数字的乘积是． (A) 8 (B) 12 (C) 18 (D) 24",
+      "solution_latex": "这类题需要抓住操作的本质：无论如何操作，任意两种数的个数的差只有不变，加$$3$$和减$$3$$三种情况，  （比如说$$1$$和$$2$$的个数，要么同时减少一个；要么$$1$$的个数加$$2$$个，$$2$$的个数少一个；要么$$1$$的个数少$$1$$个，$$2$$的个数加$$2$$个，分别对应：个数差不变，加$$3$$，减$$3$$）  而事实上，更进一步刻画这个特征：任意两个数的个数差，同余$$3$$（即：除以$$3$$的余数保持不变）  那么继续，看$$1$$的个数和$$2$$的个数，用$$2$$的个数减去$$1$$的个数，他们的差是$$22-11=11$$，$$11$$除以$$3$$的余数是$$2$$，那就是说当数字$$2$$的个数比$$1$$的个数多时，他们的差一定是除以$$3$$余$$2$$的；但如果数字$$1$$的个数比$$2$$多的话，那么这个差除以$$3$$的余数一定是$$1$$，（可以试着操作几次，让$$1$$的个数多于$$2$$的个数）．这样都算下来比较麻烦，观察一些特殊的，不用分类讨论的，可以发现$$1$$的个数和$$4$$的个数，它们的差是$$33$$，正好是$$3$$的倍数，也就是说，操作到最后，剩下的$$1$$的个数和$$4$$的个数要么一样多，要么个数差$$3$$．再根据题意，最后只剩下$$3$$个数，如果$$1$$的个数为$$3$$，那么$$2$$的个数必然为$$2$$，不合题意．如果$$3$$的个数为$$3$$，而$$1$$和$$2$$不可能都为$$0$$个，所以操作到最后时$$1$$的个数和$$4$$的个数都只能为$$0$$，而$$2$$的个数一定是$$2$$，那么$$3$$的个数就是$$1$$，所以剩下的三个数是$$2$$个$$2$$和$$1$$个$$3$$，他们乘积是$$12$$．",
+      "solution_plain": "这类题需要抓住操作的本质：无论如何操作，任意两种数的个数的差只有不变，加 3 和减 3 三种情况， （比如说 1 和 2 的个数，要么同时减少一个；要么 1 的个数加 2 个， 2 的个数少一个；要么 1 的个数少 1 个， 2 的个数加 2 个，分别对应：个数差不变，加 3 ，减 3 ） 而事实上，更进一步刻画这个特征：任意两个数的个数差，同余 3 （即：除以 3 的余数保持不变） 那么继续，看 1 的个数和 2 的个数，用 2 的个数减去 1 的个数，他们的差是 22-11=11 ， 11 除以 3 的余数是 2 ，那就是说当数字 2 的个数比 1 的个数多时，他们的差一定是除以 3 余 2 的；但如果数字 1 的个数比 2 多的话，那么这个差除以 3 的余数一定是 1 ，（可以试着操作几次，让 1 的个数多于 2 的个数）．这样都算下来比较麻烦，观察一些特殊的，不用分类讨论的，可以发现 1 的个数和 4 的个数，它们的差是 33 ，正好是 3 的倍数，也就是说，操作到最后，剩下的 1 的个数和 4 的个数要么一样多，要么个数差 3 ．再根据题意，最后只剩下 3 个数，如果 1 的个数为 3 ，那么 2 的个数必然为 2 ，不合题意．如果 3 的个数为 3 ，而 1 和 2 不可能都为 0 个，所以操作到最后时 1 的个数和 4 的个数都只能为 0 ，而 2 的个数一定是 2 ，那么 3 的个数就是 1 ，所以剩下的三个数是 2 个 2 和 1 个 3 ，他们乘积是 12 ．"
+    },
+    "answer": {
+      "final_raw": "12",
+      "final_normalized": "12",
+      "candidates": [
+        "12",
+        "B"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "integer"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "这类题需要抓住操作的本质：无论如何操作，任意两种数的个数的差只有不变，加$$3$$和减$$3$$三种情况，  （比如说$$1$$和$$2$$的个数，要么同时减少一个；要么$$1$$的个数加$$2$$个，$$2$$的个数少一个；要么$$1$$的个数少$$1$$个，$$2$$的个数加$$2$$个，分别对应：个数差不变，加$$3$$，减$$3$$）  而事实上，更进一步刻画这个特征：任意两个数的个数差，同余$$3$$（即：除以$$3$$的余数保持不变）  那么继续，看$$1$$的个数和$$2$$的个数，用$$2$$的个数减去$$1$$的个数，他们的差是$$22-11=11$$，$$11$$除以$$3$$的余数是$$2$$，那就是说当数字$$2$$的个数比$$1$$的个数多时，他们的差一定是除以$$3$$余$$2$$的；但如果数字$$1$$的个数比$$2$$多的话，那么这个差除以$$3$$的余数一定是$$1$$，（可以试着操作几次，让$$1$$的个数多于$$2$$的个数）．这样都算下来比较麻烦，观察一些特殊的，不用分类讨论的，可以发现$$1$$的个数和$$4$$的个数，它们的差是$$33$$，正好是$$3$$的倍数，也就是说，操作到最后，剩下的$$1$$的个数和$$4$$的个数要么一样多，要么个数差$$3$$．再根据题意，最后只剩下$$3$$个数，如果$$1$$的个数为$$3$$，那么$$2$$的个数必然为$$2$$，不合题意．如果$$3$$的个数为$$3$$，而$$1$$和$$2$$不可能都为$$0$$个，所以操作到最后时$$1$$的个数和$$4$$的个数都只能为$$0$$，而$$2$$的个数一定是$$2$$，那么$$3$$的个数就是$$1$$，所以剩下的三个数是$$2$$个$$2$$和$$1$$个$$3$$，他们乘积是$$12$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "黑板上有 11 个 1 ， 22 个 2 ， 33 个 3 ， 44 个 4 ．做以下操作：每次擦掉 3 个不同的数字，并且把没擦掉的第四种数字多写 2 个．例如：某次操作擦掉 1 个 1 ， 1 个 2 ， 1 个 3 ，那就再写上 2 个 4 ．经过若干次操作后，黑板上只剩下 3 个数字，而且无法继续进行操作，那么最后剩下的三个数字的乘积是． (A) 8 (B) 12 (C) 18 (D) 24",
+      "solution_text": "这类题需要抓住操作的本质：无论如何操作，任意两种数的个数的差只有不变，加 3 和减 3 三种情况， （比如说 1 和 2 的个数，要么同时减少一个；要么 1 的个数加 2 个， 2 的个数少一个；要么 1 的个数少 1 个， 2 的个数加 2 个，分别对应：个数差不变，加 3 ，减 3 ） 而事实上，更进一步刻画这个特征：任意两个数的个数差，同余 3 （即：除以 3 的余数保持不变） 那么继续，看 1 的个数和 2 的个数，用 2 的个数减去 1 的个数，他们的差是 22-11=11 ， 11 除以 3 的余数是 2 ，那就是说当数字 2 的个数比 1 的个数多时，他们的差一定是除以 3 余 2 的；但如果数字 1 的个数比 2 多的话，那么这个差除以 3 的余数一定是 1 ，（可以试着操作几次，让 1 的个数多于 2 的个数）．这样都算下来比较麻烦，观察一些特殊的，不用分类讨论的，可以发现 1 的个数和 4 的个数，它们的差是 33 ，正好是 3 的倍数，也就是说，操作到最后，剩下的 1 的个数和 4 的个数要么一样多，要么个数差 3 ．再根据题意，最后只剩下 3 个数，如果 1 的个数为 3 ，那么 2 的个数必然为 2 ，不合题意．如果 3 的个数为 3 ，而 1 和 2 不可能都为 0 个，所以操作到最后时 1 的个数和 4 的个数都只能为 0 ，而 2 的个数一定是 2 ，那么 3 的个数就是 1 ，所以剩下的三个数是 2 个 2 和 1 个 3 ，他们乘积是 12 ．",
+      "keywords": [
+        "competition_math",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "486",
+        "queId": "af5e722f7d4e47488f5525b35024bc2d",
+        "difficulty": "4",
+        "answer_value": "B",
+        "choices": [
+          {
+            "label": "A",
+            "content": "8"
+          },
+          {
+            "label": "B",
+            "content": "12"
+          },
+          {
+            "label": "C",
+            "content": "18"
+          },
+          {
+            "label": "D",
+            "content": "24"
+          }
+        ],
+        "knowledge_point_routes": [
+          "拓展思维->思想->逐步调整思想"
+        ],
+        "competition_source_list": [
+          "2013年全国华杯赛小学高年级竞赛初赛C卷第9题"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_5:01022",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1022,
+      "split": "zh_test",
+      "source_problem_id": "ff8080814d7978b9014d866b715d243c"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "轮船往返于一条河的两码头之间，如果船本身在静水中的速度是固定的，那么，当这条河的水流速度增大时，船往返一次所用的时间将（~ ）．\n(A) 增多\n(B) 减少\n(C) 不变\n(D) 增多、减少都有可能",
+      "problem_plain": "轮船往返于一条河的两码头之间，如果船本身在静水中的速度是固定的，那么，当这条河的水流速度增大时，船往返一次所用的时间将（~ ）． (A) 增多 (B) 减少 (C) 不变 (D) 增多、减少都有可能",
+      "solution_latex": "设两码头之间距离为$$s$$，船在静水中速度为$$a$$，水速为$${{v}_{0}}$$，则往返一次所用时间为$${{t}_{0}}=\\frac{s}{a+{{v}_{0}}}+\\frac{s}{a-{{v}_{0}}}$$，  设河水速度增大后为$$v(v\\textgreater{{v}_{0}})$$，则往返一次所用时间为$$t=\\frac{s}{a+v}+\\frac{s}{a-v}$$．  计算：$${{t}_{0}}-t=\\frac{s}{a+{{v}_{0}}}+\\frac{s}{a-{{v}_{0}}}-\\frac{s}{a+v}-\\frac{s}{a-v}$$  $$=s[(\\frac{1}{a+{{v}_{0}}}-\\frac{1}{a+v})+(\\frac{1}{a-{{v}_{0}}}-\\frac{1}{a-v})]$$  $$=s[\\frac{v-{{v}_{0}}}{(a+{{v}_{0}})(a+v)}+\\frac{{{v}_{0}}-v}{(a-{{v}_{0}})(a-v)}]$$  $$=s(v-{{v}_{0}})[\\frac{1}{(a+{{v}_{0}})(a+v)}-\\frac{1}{(a-{{v}_{0}})(a-v)}]$$．  由于$$v-{{v}_{0}}\\textgreater0$$，$$a+{{v}_{0}}\\textgreater a-{{v}_{0}}$$，$$a+v\\textgreater a-v$$  所以$$(a+{{v}_{0}})(a+v)\\textgreater(a-{{v}_{0}})(a-v)$$，  因此$$\\frac{1}{(a+{{v}_{0}})(a+v)}\\textless\\frac{1}{(a-{{v}_{0}})(a-v)}$$，  即$$\\frac{1}{(a+{{v}_{0}})(a+v)}-\\frac{1}{(a-{{v}_{0}})(a-v)}\\textless0$$．  ∴$${{t}_{0}}-t\\textless0$$，即$${{t}_{0}}\\textless t$$．因此河水速增大所用时间将增多，选$$\\text{A}$$．",
+      "solution_plain": "设两码头之间距离为 s ，船在静水中速度为 a ，水速为 v _ 0 ，则往返一次所用时间为 t _ 0 = s a+ v _ 0 + s a- v _ 0 ， 设河水速度增大后为 v(v v _ 0 ) ，则往返一次所用时间为 t= s a+v + s a-v ． 计算： t _ 0 -t= s a+ v _ 0 + s a- v _ 0 - s a+v - s a-v =s[( 1 a+ v _ 0 - 1 a+v )+( 1 a- v _ 0 - 1 a-v )] =s[ v- v _ 0 (a+ v _ 0 )(a+v) + v _ 0 -v (a- v _ 0 )(a-v) ] =s(v- v _ 0 )[ 1 (a+ v _ 0 )(a+v) - 1 (a- v _ 0 )(a-v) ] ． 由于 v- v _ 0 0 ， a+ v _ 0 a- v _ 0 ， a+v a-v 所以 (a+ v _ 0 )(a+v) (a- v _ 0 )(a-v) ， 因此 1 (a+ v _ 0 )(a+v) 1 (a- v _ 0 )(a-v) ， 即 1 (a+ v _ 0 )(a+v) - 1 (a- v _ 0 )(a-v) 0 ． ∴ t _ 0 -t 0 ，即 t _ 0 t ．因此河水速增大所用时间将增多，选 A ．"
+    },
+    "answer": {
+      "final_raw": "增多",
+      "final_normalized": "增多",
+      "candidates": [
+        "A",
+        "增多"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "text"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": false
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "设两码头之间距离为$$s$$，船在静水中速度为$$a$$，水速为$${{v}_{0}}$$，则往返一次所用时间为$${{t}_{0}}=\\frac{s}{a+{{v}_{0}}}+\\frac{s}{a-{{v}_{0}}}$$，  设河水速度增大后为$$v(v\\textgreater{{v}_{0}})$$，则往返一次所用时间为$$t=\\frac{s}{a+v}+\\frac{s}{a-v}$$．  计算：$${{t}_{0}}-t=\\frac{s}{a+{{v}_{0}}}+\\frac{s}{a-{{v}_{0}}}-\\frac{s}{a+v}-\\frac{s}{a-v}$$  $$=s[(\\frac{1}{a+{{v}_{0}}}-\\frac{1}{a+v})+(\\frac{1}{a-{{v}_{0}}}-\\frac{1}{a-v})]$$  $$=s[\\frac{v-{{v}_{0}}}{(a+{{v}_{0}})(a+v)}+\\frac{{{v}_{0}}-v}{(a-{{v}_{0}})(a-v)}]$$  $$=s(v-{{v}_{0}})[\\frac{1}{(a+{{v}_{0}})(a+v)}-\\frac{1}{(a-{{v}_{0}})(a-v)}]$$．  由于$$v-{{v}_{0}}\\textgreater0$$，$$a+{{v}_{0}}\\textgreater a-{{v}_{0}}$$，$$a+v\\textgreater a-v$$  所以$$(a+{{v}_{0}})(a+v)\\textgreater(a-{{v}_{0}})(a-v)$$，  因此$$\\frac{1}{(a+{{v}_{0}})(a+v)}\\textless\\frac{1}{(a-{{v}_{0}})(a-v)}$$，  即$$\\frac{1}{(a+{{v}_{0}})(a+v)}-\\frac{1}{(a-{{v}_{0}})(a-v)}\\textless0$$．  ∴$${{t}_{0}}-t\\textless0$$，即$${{t}_{0}}\\textless t$$．因此河水速增大所用时间将增多，选$$\\text{A}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "轮船往返于一条河的两码头之间，如果船本身在静水中的速度是固定的，那么，当这条河的水流速度增大时，船往返一次所用的时间将（~ ）． (A) 增多 (B) 减少 (C) 不变 (D) 增多、减少都有可能",
+      "solution_text": "设两码头之间距离为 s ，船在静水中速度为 a ，水速为 v _ 0 ，则往返一次所用时间为 t _ 0 = s a+ v _ 0 + s a- v _ 0 ， 设河水速度增大后为 v(v v _ 0 ) ，则往返一次所用时间为 t= s a+v + s a-v ． 计算： t _ 0 -t= s a+ v _ 0 + s a- v _ 0 - s a+v - s a-v =s[( 1 a+ v _ 0 - 1 a+v )+( 1 a- v _ 0 - 1 a-v )] =s[ v- v _ 0 (a+ v _ 0 )(a+v) + v _ 0 -v (a- v _ 0 )(a-v) ] =s(v- v _ 0 )[ 1 (a+ v _ 0 )(a+v) - 1 (a- v _ 0 )(a-v) ] ． 由于 v- v _ 0 0 ， a+ v _ 0 a- v _ 0 ， a+v a-v 所以 (a+ v _ 0 )(a+v) (a- v _ 0 )(a-v) ， 因此 1 (a+ v _ 0 )(a+v) 1 (a- v _ 0 )(a-v) ， 即 1 (a+ v _ 0 )(a+v) - 1 (a- v _ 0 )(a-v) 0 ． ∴ t _ 0 -t 0 ，即 t _ 0 t ．因此河水速增大所用时间将增多，选 A ．",
+      "keywords": [
+        "competition_math",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1043",
+        "queId": "ff8080814d7978b9014d866b715d243c",
+        "difficulty": "4",
+        "answer_value": "A",
+        "choices": [
+          {
+            "label": "A",
+            "content": "增多"
+          },
+          {
+            "label": "B",
+            "content": "减少"
+          },
+          {
+            "label": "C",
+            "content": "不变"
+          },
+          {
+            "label": "D",
+            "content": "增多、减少都有可能"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->能力->运算能力",
+          "课内体系->知识点->式->分式->分式的运算->分式加减混合运算"
+        ],
+        "competition_source_list": [
+          "1990年第1届全国希望杯初一竞赛初赛第10题",
+          "2019年浙江杭州拱墅区杭州市文澜中学中考模拟（一）第10题3分"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": "problem_bank_record.v1",
+    "id": "tal_scq5k:zh_test:competition_math:level_5:01475",
+    "source": {
+      "name": "TAL-SCQ5K",
+      "dataset_id": "math-eval/TAL-SCQ5K",
+      "source_url": "https://raw.githubusercontent.com/math-eval/TAL-SCQ5K/main/ch_single_choice_constructed_5K/ch_single_choice_test_2K.jsonl",
+      "license": "MIT",
+      "original_index": 1475,
+      "split": "zh_test",
+      "source_problem_id": "ebb2e22c60064229b10f77114b08f7bc"
+    },
+    "content": {
+      "language": "zh",
+      "problem_latex": "$$a$$，$$b$$，$$c$$都是质数，且$$a+b+c+abc=99$$，则$$\\left\\textbar{} \\frac{1}{a}-\\frac{1}{b} \\right\\textbar+\\left\\textbar{} \\frac{1}{b}-\\frac{1}{c} \\right\\textbar+\\left\\textbar{} \\frac{1}{c}-\\frac{1}{a} \\right\\textbar=$$ ．\n(A) \\frac{15}{17}\n(B) \\frac{15}{34}\n(C) \\frac{17}{19}\n(D) \\frac{17}{38}",
+      "problem_plain": "a ， b ， c 都是质数，且 a+b+c+abc=99 ，则 1 a - 1 b + 1 b - 1 c + 1 c - 1 a = ． (A) 15 17 (B) 15 34 (C) 17 19 (D) 17 38",
+      "solution_latex": "若$$a$$，$$b$$，$$c$$都是奇数，那么$$abc$$也为奇数，则$$a+b+c+abc$$为偶数，与$$a+b+c+abc=99$$矛盾．  ∴$$a$$，$$b$$，$$c$$中必有一个偶数，  又∵$$a$$，$$b$$，$$c$$都是质数，  ∴$$a$$，$$b$$，$$c$$中必有一个偶数是$$2$$，  令$$a=2$$，则$$b+c+2bc=97$$，  同理，若$$b$$，$$c$$都是奇数，则$$bc$$为奇数，则$$b+c+2bc$$为偶数，与$$b+c+2bc=97$$矛盾，  ∴$$b$$，$$c$$中也必有一个偶数，则偶数必是$$2$$，  令$$b=2$$，可得$$c=19$$，  ∴$$\\left\\textbar{} \\frac{1}{a}-\\frac{1}{b} \\right\\textbar+\\left\\textbar{} \\frac{1}{b}-\\frac{1}{c} \\right\\textbar+\\left\\textbar{} \\frac{1}{c}-\\frac{1}{a} \\right\\textbar=\\frac{17}{19}$$．  故答案为：$$\\frac{17}{19}$$．",
+      "solution_plain": "若 a ， b ， c 都是奇数，那么 abc 也为奇数，则 a+b+c+abc 为偶数，与 a+b+c+abc=99 矛盾． ∴ a ， b ， c 中必有一个偶数， 又∵ a ， b ， c 都是质数， ∴ a ， b ， c 中必有一个偶数是 2 ， 令 a=2 ，则 b+c+2bc=97 ， 同理，若 b ， c 都是奇数，则 bc 为奇数，则 b+c+2bc 为偶数，与 b+c+2bc=97 矛盾， ∴ b ， c 中也必有一个偶数，则偶数必是 2 ， 令 b=2 ，可得 c=19 ， ∴ 1 a - 1 b + 1 b - 1 c + 1 c - 1 a = 17 19 ． 故答案为： 17 19 ．"
+    },
+    "answer": {
+      "final_raw": "\\frac{17}{19}",
+      "final_normalized": "\\frac{17}{19}",
+      "candidates": [
+        "C",
+        "\\frac{17}{19}"
+      ],
+      "extraction_method": "tal_answer_option",
+      "answer_type": "fraction"
+    },
+    "taxonomy": {
+      "domain": "competition_math",
+      "subject": "Competition Math",
+      "subject_slug": "competition_math",
+      "level": "Level 5",
+      "level_number": 5,
+      "grade_band": "high",
+      "concepts": [
+        "unknown"
+      ],
+      "tags": [
+        "competition_math",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "structure": {
+      "format": "multiple_choice_latex_text",
+      "has_asy": false,
+      "has_diagram": false,
+      "has_table": false,
+      "has_choices": true,
+      "requires_rendering": true
+    },
+    "learning": {
+      "prerequisites": [],
+      "step_outline": [
+        "若$$a$$，$$b$$，$$c$$都是奇数，那么$$abc$$也为奇数，则$$a+b+c+abc$$为偶数，与$$a+b+c+abc=99$$矛盾．  ∴$$a$$，$$b$$，$$c$$中必有一个偶数，  又∵$$a$$，$$b$$，$$c$$都是质数，  ∴$$a$$，$$b$$，$$c$$中必有一个偶数是$$2$$，  令$$a=2$$，则$$b+c+2bc=97$$，  同理，若$$b$$，$$c$$都是奇数，则$$bc$$为奇数，则$$b+c+2bc$$为偶数，与$$b+c+2bc=97$$矛盾，  ∴$$b$$，$$c$$中也必有一个偶数，则偶数必是$$2$$，  令$$b=2$$，可得$$c=19$$，  ∴$$\\left\\textbar{} \\frac{1}{a}-\\frac{1}{b} \\right\\textbar+\\left\\textbar{} \\frac{1}{b}-\\frac{1}{c} \\right\\textbar+\\left\\textbar{} \\frac{1}{c}-\\frac{1}{a} \\right\\textbar=\\frac{17}{19}$$．  故答案为：$$\\frac{17}{19}$$．"
+      ],
+      "hints": [],
+      "common_mistakes": []
+    },
+    "search": {
+      "problem_text": "a ， b ， c 都是质数，且 a+b+c+abc=99 ，则 1 a - 1 b + 1 b - 1 c + 1 c - 1 a = ． (A) 15 17 (B) 15 34 (C) 17 19 (D) 17 38",
+      "solution_text": "若 a ， b ， c 都是奇数，那么 abc 也为奇数，则 a+b+c+abc 为偶数，与 a+b+c+abc=99 矛盾． ∴ a ， b ， c 中必有一个偶数， 又∵ a ， b ， c 都是质数， ∴ a ， b ， c 中必有一个偶数是 2 ， 令 a=2 ，则 b+c+2bc=97 ， 同理，若 b ， c 都是奇数，则 bc 为奇数，则 b+c+2bc 为偶数，与 b+c+2bc=97 矛盾， ∴ b ， c 中也必有一个偶数，则偶数必是 2 ， 令 b=2 ，可得 c=19 ， ∴ 1 a - 1 b + 1 b - 1 c + 1 c - 1 a = 17 19 ． 故答案为： 17 19 ．",
+      "keywords": [
+        "competition_math",
+        "level_5",
+        "single_choice",
+        "tal_scq5k",
+        "unknown",
+        "zh",
+        "zh_test"
+      ]
+    },
+    "metadata": {
+      "created_at": "2026-04-25T04:57:08+00:00",
+      "updated_at": "2026-04-25T04:57:08+00:00",
+      "quality": {
+        "solution_available": true,
+        "final_answer_extracted": true,
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tal_scq5k": {
+        "qid": "1578",
+        "queId": "ebb2e22c60064229b10f77114b08f7bc",
+        "difficulty": "4",
+        "answer_value": "C",
+        "choices": [
+          {
+            "label": "A",
+            "content": "\\frac{15}{17}"
+          },
+          {
+            "label": "B",
+            "content": "\\frac{15}{34}"
+          },
+          {
+            "label": "C",
+            "content": "\\frac{17}{19}"
+          },
+          {
+            "label": "D",
+            "content": "\\frac{17}{38}"
+          }
+        ],
+        "knowledge_point_routes": [
+          "课内体系->知识点->数->有理数->绝对值->绝对值的非负性",
+          "课内体系->知识点->数->有理数->绝对值->绝对值综合"
+        ],
+        "competition_source_list": [
+          "2007年第18届希望杯初一竞赛复赛第18题4分"
+        ]
+      }
+    }
+  }
+]
