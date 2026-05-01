@@ -1,0 +1,183 @@
+{
+  "schema_version": "coco_elementary_50k_readiness_report.v1",
+  "generated_at": "2026-04-28T22:12:38+00:00",
+  "target_total": 50000,
+  "readiness": "source_acquisition_needed_for_actual_capture",
+  "prepared_or_available_total": 35720,
+  "remaining_to_50k": 14280,
+  "tracks": {
+    "actual_pdf_capture": {
+      "target": 15000,
+      "verified": 720,
+      "estimated_after_pending_sources": 1137,
+      "remaining_verified": 14280,
+      "remaining_estimated_after_pending_sources": 13863
+    },
+    "normalized_json": {
+      "target": 20000,
+      "candidate_available": 53320,
+      "usable_without_more_downloads": 20000,
+      "remaining": 0
+    },
+    "template_variant": {
+      "target": 15000,
+      "candidate_manifest_records": 15000,
+      "manifest": "data/problem_bank/elementary_50k/template_variants_manifest.json",
+      "remaining": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "toctoc_03_elementary",
+      "label": "Toctoc elementary baseline",
+      "status": "verified",
+      "root": "03.학습문제/05.문제은행/01.초등",
+      "root_exists": true,
+      "pdf_count": 12,
+      "edite_image_count": 712,
+      "edite_by_grade": {
+        "1학년": 131,
+        "2학년": 139,
+        "3학년": 149,
+        "4학년": 142,
+        "5학년": 78,
+        "6학년": 73
+      },
+      "estimated_capture_cards": 720,
+      "verified_capture_cards": 720,
+      "validation": {
+        "report": "data/problem_bank/learned/coco_capture_flow_toctoc_03_elementary_summary.json",
+        "total": 720,
+        "ok": 720,
+        "review": 0,
+        "error": 0,
+        "non_problem": 0,
+        "ok_rate": 1.0
+      }
+    },
+    {
+      "id": "skai_02_elementary",
+      "label": "Skai elementary PDF source",
+      "status": "pending_revalidation",
+      "root": "02.학습문제/05.문제은행/01.초등",
+      "root_exists": true,
+      "pdf_count": 148,
+      "edite_image_count": 412,
+      "edite_by_grade": {
+        "1학년": 86,
+        "2학년": 90,
+        "3학년": 113,
+        "4학년": 102,
+        "5학년": 12,
+        "6학년": 9
+      },
+      "estimated_capture_cards": 417,
+      "verified_capture_cards": 0,
+      "validation": {}
+    }
+  ],
+  "normalized_json_sources": {
+    "catalog_path": "data/problem_bank/catalog.json",
+    "candidate_total": 53320,
+    "filter_status": "available_but_requires_school_level_filtering",
+    "banks": [
+      {
+        "bank_id": "competition_math",
+        "name": "Competition MATH",
+        "total": 12500,
+        "manifest_path": "data/problem_bank/sources/competition_math/manifest.json",
+        "import_status": "imported"
+      },
+      {
+        "bank_id": "deepmind_mathematics",
+        "name": "DeepMind Mathematics Dataset",
+        "total": 2028,
+        "manifest_path": "data/problem_bank/sources/deepmind_mathematics/manifest.json",
+        "import_status": "sample_imported"
+      },
+      {
+        "bank_id": "gsm8k",
+        "name": "GSM8K",
+        "total": 8792,
+        "manifest_path": "data/problem_bank/sources/gsm8k/manifest.json",
+        "import_status": "imported"
+      },
+      {
+        "bank_id": "metamathqa",
+        "name": "MetaMathQA",
+        "total": 20000,
+        "manifest_path": "data/problem_bank/sources/metamathqa/manifest.json",
+        "import_status": "sample_imported"
+      },
+      {
+        "bank_id": "tal_scq5k",
+        "name": "TAL-SCQ5K",
+        "total": 10000,
+        "manifest_path": "data/problem_bank/sources/tal_scq5k/manifest.json",
+        "import_status": "imported"
+      }
+    ]
+  },
+  "grade_queue": {
+    "1학년": {
+      "target_total_cards": 6000,
+      "verified_or_baseline_images": 131,
+      "pending_images": 86,
+      "remaining_after_current_images": 5783
+    },
+    "2학년": {
+      "target_total_cards": 7000,
+      "verified_or_baseline_images": 139,
+      "pending_images": 90,
+      "remaining_after_current_images": 6771
+    },
+    "3학년": {
+      "target_total_cards": 8000,
+      "verified_or_baseline_images": 149,
+      "pending_images": 113,
+      "remaining_after_current_images": 7738
+    },
+    "4학년": {
+      "target_total_cards": 9000,
+      "verified_or_baseline_images": 142,
+      "pending_images": 102,
+      "remaining_after_current_images": 8756
+    },
+    "5학년": {
+      "target_total_cards": 10000,
+      "verified_or_baseline_images": 78,
+      "pending_images": 12,
+      "remaining_after_current_images": 9910
+    },
+    "6학년": {
+      "target_total_cards": 10000,
+      "verified_or_baseline_images": 73,
+      "pending_images": 9,
+      "remaining_after_current_images": 9918
+    }
+  },
+  "created_directories": [
+    "data/problem_bank/elementary_50k/01_actual_pdf_capture/incoming",
+    "data/problem_bank/elementary_50k/01_actual_pdf_capture/edite",
+    "data/problem_bank/elementary_50k/01_actual_pdf_capture/cards",
+    "data/problem_bank/elementary_50k/02_normalized_json/candidates",
+    "data/problem_bank/elementary_50k/02_normalized_json/verified",
+    "data/problem_bank/elementary_50k/03_template_variants/candidates",
+    "data/problem_bank/elementary_50k/03_template_variants/rendered",
+    "data/problem_bank/elementary_50k/04_verified",
+    "data/problem_bank/elementary_50k/05_rejected",
+    "data/problem_bank/elementary_50k/06_reports",
+    "data/problem_bank/elementary_50k/queues"
+  ],
+  "template_step": {
+    "path": "data/problem_bank/elementary_50k/template_variants_manifest.json",
+    "created": true,
+    "record_count": 15000
+  },
+  "next_actions": [
+    "Revalidate the pending Skai PDF set through the Coco capture flow.",
+    "Add more independent elementary PDF sources until actual capture verified cards reach 15000.",
+    "Filter external JSON banks down to elementary-suitable normalized records.",
+    "Render and solver-test template candidates before counting them as verified."
+  ]
+}

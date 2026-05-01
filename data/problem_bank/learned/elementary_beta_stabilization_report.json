@@ -1,0 +1,158 @@
+{
+  "schema_version": "coco_elementary_beta_stabilization_report.v1",
+  "generated_at": "2026-04-28T22:02:25+00:00",
+  "config_path": "data/problem_bank/beta/elementary_beta_config.json",
+  "root": "03.학습문제/05.문제은행/01.초등",
+  "baseline_report": "data/problem_bank/learned/coco_capture_flow_toctoc_03_elementary_summary.json",
+  "readiness": "current_source_pass_needs_more_sources",
+  "corpus_summary": {
+    "root": "03.학습문제/05.문제은행/01.초등",
+    "root_exists": true,
+    "edite_image_total": 712,
+    "by_grade": {
+      "1학년": 131,
+      "2학년": 139,
+      "3학년": 149,
+      "4학년": 142,
+      "5학년": 78,
+      "6학년": 73
+    }
+  },
+  "baseline_summary": {
+    "total": 720,
+    "ok": 720,
+    "review": 0,
+    "non_problem": 0,
+    "error": 0,
+    "ok_rate": 1.0,
+    "review_rate": 0.0,
+    "error_rate": 0.0,
+    "issue_counts": {},
+    "by_topic": {
+      "arithmetic": {
+        "ok": 557
+      },
+      "geometry": {
+        "ok": 43
+      },
+      "linear_equation": {
+        "ok": 2
+      },
+      "measurement": {
+        "ok": 54
+      },
+      "pattern": {
+        "ok": 11
+      },
+      "statistics": {
+        "ok": 44
+      },
+      "fraction_ratio": {
+        "ok": 8
+      },
+      "unknown": {
+        "ok": 1
+      }
+    }
+  },
+  "source_summary": {
+    "active_source_count": 1,
+    "active_validated_cards": 720,
+    "weighted_ok_rate": 1.0,
+    "active_sources": [
+      {
+        "id": "toctoc_03_elementary",
+        "label": "Toctoc elementary PDF capture baseline",
+        "status": "verified_baseline",
+        "root": "03.학습문제/05.문제은행/01.초등",
+        "root_exists": true,
+        "summary_report": "data/problem_bank/learned/coco_capture_flow_toctoc_03_elementary_summary.json",
+        "validated_cards": 720,
+        "ok_rate": 1.0
+      }
+    ]
+  },
+  "gates": {
+    "current_source": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "current_source_min_cards",
+          "passed": true,
+          "actual": 720,
+          "expected": ">= 500"
+        },
+        {
+          "name": "current_source_min_ok_rate",
+          "passed": true,
+          "actual": 1.0,
+          "expected": ">= 0.99"
+        },
+        {
+          "name": "current_source_max_review_rate",
+          "passed": true,
+          "actual": 0.0,
+          "expected": "<= 0.01"
+        },
+        {
+          "name": "current_source_max_error_rate",
+          "passed": true,
+          "actual": 0.0,
+          "expected": "<= 0.0"
+        }
+      ]
+    },
+    "beta": {
+      "passed": false,
+      "checks": [
+        {
+          "name": "beta_min_sources",
+          "passed": false,
+          "actual": 1,
+          "expected": ">= 3"
+        },
+        {
+          "name": "beta_min_cards",
+          "passed": false,
+          "actual": 720,
+          "expected": ">= 5000"
+        },
+        {
+          "name": "beta_min_ok_rate",
+          "passed": true,
+          "actual": 1.0,
+          "expected": ">= 0.95"
+        }
+      ]
+    },
+    "service": {
+      "passed": false,
+      "checks": [
+        {
+          "name": "service_min_sources",
+          "passed": false,
+          "actual": 1,
+          "expected": ">= 5"
+        },
+        {
+          "name": "service_min_cards",
+          "passed": false,
+          "actual": 720,
+          "expected": ">= 10000"
+        },
+        {
+          "name": "service_min_ok_rate",
+          "passed": true,
+          "actual": 1.0,
+          "expected": ">= 0.98"
+        }
+      ]
+    }
+  },
+  "next_actions": [
+    "Add at least two more independent elementary PDF source sets.",
+    "Run the same capture-flow validation for each new source.",
+    "Merge validated source summaries into this config before beta approval."
+  ],
+  "validation_step": null
+}

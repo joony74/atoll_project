@@ -363,7 +363,10 @@ def display_problem_text(document: dict | None, topic: str | None = None) -> str
     structured = _structured(document)
     resolved_topic = topic or display_topic(document)
     expressions = _as_text_list(structured.get("expressions"))
-    raw = _clean_visible_candidate(str(structured.get("normalized_problem_text") or ""))
+    original = str(structured.get("normalized_problem_text") or "")
+    raw = _clean_visible_candidate(original)
+    if "÷" in original:
+        raw = re.sub(r"(?<!\d)(\d{1,3})/(\d{1,3})(?=\s*(?:를|을|은|는|가|이|로|으로|에|와|과))", r"\1 ÷ \2", raw, count=1)
     raw = raw.replace("SAS", "평균").replace("HOS", "평균")
     if not _is_weak_problem_text(raw, resolved_topic):
         return raw

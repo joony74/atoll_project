@@ -4,8 +4,10 @@ import json
 import re
 import shutil
 import subprocess
+import sys
 import tempfile
 import unicodedata
+import argparse
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
@@ -13,8 +15,13 @@ from PIL import Image
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-PROBLEM_BANK_ROOT = PROJECT_ROOT / "02.학습문제" / "05.문제은행"
-MANIFEST_PATH = PROJECT_ROOT / "data" / "problem_bank" / "sources" / "skai_pdf_edite_manifest.json"
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from app.core.multi_problem_segmenter import _merge_marker_glyphs, _millimeter_margin_px, _question_marker_components
+
+DEFAULT_PROBLEM_BANK_ROOT = PROJECT_ROOT / "02.학습문제" / "05.문제은행"
+DEFAULT_MANIFEST_PATH = PROJECT_ROOT / "data" / "problem_bank" / "sources" / "skai_pdf_edite_manifest.json"
 PDFTOPPM = shutil.which("pdftoppm")
 PDFINFO = shutil.which("pdfinfo")
 PDFTOTEXT = shutil.which("pdftotext")
@@ -119,15 +126,34 @@ def crop_problem_body(image_path: Path, page_number: int) -> Image.Image:
     image = Image.open(image_path).convert("RGB")
     width, height = image.size
     top_ratio = 0.180 if page_number == 1 else 0.082
+    markers = _merge_marker_glyphs(_question_marker_components(image))
+    markers = [
+        box
+        for box in markers
+        if box[1] > height * 0.04
+        and (box[0] < width * 0.22 or (width * 0.45 < box[0] < width * 0.68))
+        and box[2] - box[0] <= max(72, width * 0.06)
+        and box[3] - box[1] <= max(46, height * 0.04)
+    ]
+    top = int(height * top_ratio)
+    if markers:
+        marker_top = max(0, min(box[1] for box in markers) - _millimeter_margin_px(image, 5.0))
+        if marker_top < height * 0.45:
+            top = marker_top
     bottom_ratio = 0.940
     left_ratio = 0.035
     right_ratio = 0.965
+    bottom = int(height * bottom_ratio)
+    if top >= bottom:
+        top = int(height * top_ratio)
+    if top >= bottom:
+        top = 0
     cropped = image.crop(
         (
             int(width * left_ratio),
-            int(height * top_ratio),
+            top,
             int(width * right_ratio),
-            int(height * bottom_ratio),
+            bottom,
         )
     )
     return trim_whitespace(cropped)
@@ -159,8 +185,8 @@ def trim_whitespace(image: Image.Image) -> Image.Image:
     return image.crop((left, top, right, bottom))
 
 
-def clean_edite_folders() -> None:
-    for edite in PROBLEM_BANK_ROOT.glob("01.초등/*학년/EDITE"):
+def clean_edite_folders(problem_bank_root: Path) -> None:
+    for edite in problem_bank_root.glob("01.초등/*학년/EDITE"):
         shutil.rmtree(edite)
 
 
@@ -204,18 +230,50 @@ def process_pdf(pdf_path: Path, *, clean: bool = False) -> list[EditRecord]:
     return records
 
 
-def collect_pdfs() -> list[Path]:
-    return sorted(PROBLEM_BANK_ROOT.glob("01.초등/*학년/PDF/*.pdf"), key=lambda path: str(path))
+def collect_pdfs(problem_bank_root: Path) -> list[Path]:
+    return sorted(problem_bank_root.glob("01.초등/*학년/PDF/*.pdf"), key=lambda path: str(path))
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Crop elementary PDF pages into EDITE images.")
+    parser.add_argument(
+        "--problem-bank-root",
+        type=Path,
+        default=DEFAULT_PROBLEM_BANK_ROOT,
+        help="Root folder containing 01.초등/*학년/PDF.",
+    )
+    parser.add_argument(
+        "--manifest-path",
+        type=Path,
+        default=DEFAULT_MANIFEST_PATH,
+        help="Where to write the generated manifest JSON.",
+    )
+    parser.add_argument(
+        "--source",
+        default="skai_pdf_edite_crop",
+        help="Manifest source label.",
+    )
+    parser.add_argument(
+        "--keep-existing-edite",
+        action="store_true",
+        help="Do not remove existing EDITE folders before cropping.",
+    )
+    return parser.parse_args()
 
 
 def main() -> None:
     if not PDFTOPPM or not PDFINFO:
         raise SystemExit("pdftoppm/pdfinfo is required. Install poppler first.")
 
-    clean_edite_folders()
+    args = parse_args()
+    problem_bank_root = args.problem_bank_root.resolve()
+    manifest_path = args.manifest_path.resolve()
+
+    if not args.keep_existing_edite:
+        clean_edite_folders(problem_bank_root)
     records: list[EditRecord] = []
     failures: list[dict[str, str]] = []
-    pdfs = collect_pdfs()
+    pdfs = collect_pdfs(problem_bank_root)
     for index, pdf_path in enumerate(pdfs, start=1):
         try:
             records.extend(process_pdf(pdf_path))
@@ -226,18 +284,20 @@ def main() -> None:
 
     by_grade = {str(grade): sum(1 for record in records if record.grade == grade) for grade in range(1, 7)}
     payload = {
-        "source": "skai_pdf_edite_crop",
+        "source": args.source,
+        "problem_bank_root": str(problem_bank_root.relative_to(PROJECT_ROOT) if problem_bank_root.is_relative_to(PROJECT_ROOT) else problem_bank_root),
         "pdf_count": len(pdfs),
         "image_count": len(records),
         "by_grade": by_grade,
         "records": [asdict(record) for record in records],
         "failures": failures,
     }
-    MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
-    MANIFEST_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps({k: payload[k] for k in ("pdf_count", "image_count", "by_grade")}, ensure_ascii=False, indent=2))
     if failures:
-        print(f"failures={len(failures)} see {MANIFEST_PATH.relative_to(PROJECT_ROOT)}")
+        display_path = manifest_path.relative_to(PROJECT_ROOT) if manifest_path.is_relative_to(PROJECT_ROOT) else manifest_path
+        print(f"failures={len(failures)} see {display_path}")
 
 
 if __name__ == "__main__":

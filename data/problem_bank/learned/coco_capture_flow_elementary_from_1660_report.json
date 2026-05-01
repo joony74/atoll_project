@@ -1,0 +1,641 @@
+{
+  "schema_version": "coco_capture_flow_validation.v1",
+  "generated_at": "2026-04-27T21:52:02+00:00",
+  "batch_size": 10,
+  "input_total": 100,
+  "processed_total": 10,
+  "summary": {
+    "total": 10,
+    "ok": 3,
+    "review": 7,
+    "non_problem": 0,
+    "error": 0,
+    "issue_counts": {
+      "answer_mismatch": 7
+    },
+    "by_band": {
+      "초등": {
+        "ok": 3,
+        "review": 7,
+        "answer_mismatch": 7
+      }
+    },
+    "by_source_kind": {
+      "coco_app_capture": {
+        "ok": 3,
+        "review": 7,
+        "answer_mismatch": 7
+      }
+    },
+    "by_topic": {
+      "arithmetic": {
+        "ok": 2,
+        "review": 7
+      },
+      "measurement": {
+        "ok": 1
+      }
+    }
+  },
+  "issue_examples": {
+    "answer_mismatch": [
+      {
+        "index": 1663,
+        "band": "초등",
+        "grade": 3,
+        "source_kind": "coco_app_capture",
+        "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항01.png",
+        "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p02.png",
+        "problem_card_label": "01",
+        "problem_text": "59×□<400에서 □ 안에 들어갈 수 있는 가장 큰 자연수를 구하세요.",
+        "expressions": [
+          "answer=6"
+        ],
+        "computed_answer": "6",
+        "display_topic": "arithmetic",
+        "source_preview": "59×□<400에서 □ 안에 들어갈 수 있는 가장 큰 자연수를 구하세요. 10. 다음 중 곱이 200보다 작은 것에 ○표 하세 table_row_1 317 653 249 10. 다음 중 곱이 200보다 작은 것에 ○표 하세 table_row_1 317 653 249",
+        "error": null
+      },
+      {
+        "index": 1664,
+        "band": "초등",
+        "grade": 3,
+        "source_kind": "coco_app_capture",
+        "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항02.png",
+        "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p02.png",
+        "problem_card_label": "02",
+        "problem_text": "필통 한 개에 연필이 14자루씩 들어갑니다. 필통 2개에는 모두 몇 자루를 넣을 수 있습니까?",
+        "expressions": [
+          "answer_text=28 자루"
+        ],
+        "computed_answer": "28 자루",
+        "display_topic": "arithmetic",
+        "source_preview": "필통 한 개에 연필이 14자루씩 들어갑니다. 필통 2개에는 모두 몇 자루를 넣을 수 있습니까? 11. [_] 안에 들어갈 수 있는 가장 큰 자연수를 구 59*| ㅣ< 400 11. ] 안에 들어갈 수 있는 가장 큰 자연수를 구 11. CJ 안에 들어갈 수 있는 가장 큰 자연수를 59x < 400 11. [_] 안에 들어갈 수 있는 가장 큰 자연수를 구 59*| ㅣ< 400 11. ] 안...",
+        "error": null
+      },
+      {
+        "index": 1665,
+        "band": "초등",
+        "grade": 3,
+        "source_kind": "coco_app_capture",
+        "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항03.png",
+        "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p02.png",
+        "problem_card_label": "03",
+        "problem_text": "학급 문고에 위인전이 15권씩 5칸에 꽂혀 있습니다. 위인전은 모두 몇 권입니까?",
+        "expressions": [
+          "answer_text=75 권"
+        ],
+        "computed_answer": "75 권",
+        "display_topic": "arithmetic",
+        "source_preview": "학급 문고에 위인전이 15권씩 5칸에 꽂혀 있습니다. 위인전은 모두 몇 권입니까? 12. 필통 한 개에 연필이 14자루씩 들어갑니다. 필 통 2개에는 연필을 모두 몇 자루 넣을 수 ws 통 :개에는 연필을 모두 몇 자루 넣을 수 있습니 까2 통 2개에는 ABS 모두 몇 자루 넣을 수 있습니 12. 필통 한 개에 연필이 14자루씩 들어갑니다. 필 통 2개에는 연필을 모두 몇 자루 넣을 수...",
+        "error": null
+      },
+      {
+        "index": 1666,
+        "band": "초등",
+        "grade": 3,
+        "source_kind": "coco_app_capture",
+        "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항04.png",
+        "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p02.png",
+        "problem_card_label": "04",
+        "problem_text": "6명이 한 사람당 종이학을 75마리씩 접었습니다. 모두 몇 마리입니까?",
+        "expressions": [
+          "answer_text=450 마리"
+        ],
+        "computed_answer": "450 마리",
+        "display_topic": "arithmetic",
+        "source_preview": "6명이 한 사람당 종이학을 75마리씩 접었습니다. 모두 몇 마리입니까? 13. 학급 문고에 위인전이 15권씩 5칸에 꽂혀 있 13. 학급 문고에 위인전이 15권씩 5칸에 꽂혀 있",
+        "error": null
+      },
+      {
+        "index": 1667,
+        "band": "초등",
+        "grade": 3,
+        "source_kind": "coco_app_capture",
+        "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항05.png",
+        "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p02.png",
+        "problem_card_label": "05",
+        "problem_text": "한 통에 18가지 색이 들어 있는 크레파스를 5통 샀습니다. 모두 몇 개입니까?",
+        "expressions": [
+          "answer_text=90 개"
+        ],
+        "computed_answer": "90 개",
+        "display_topic": "arithmetic",
+        "source_preview": "한 통에 18가지 색이 들어 있는 크레파스를 5통 샀습니다. 모두 몇 개입니까? 14. 승우네 SSS 6명입니다. 한 사람이 종이학을 75마리씩 접었습니다. 승우네 OS0| 접은 종이 | 14. SPU] SSS 6명입니다. 한 사람이 종이학을 75마리씩 접었습니다. 승우네 SEo| 접은 종이 75마리씩 접었습니다. 승우네 SE0| 접은 종이 14. 승우네 SSS 6명입니다. 한 사람이 ...",
+        "error": null
+      },
+      {
+        "index": 1669,
+        "band": "초등",
+        "grade": 3,
+        "source_kind": "coco_app_capture",
+        "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항07.png",
+        "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p02.png",
+        "problem_card_label": "07",
+        "problem_text": "계란 30개씩 들어 있는 판 3판과 낱개 5개를 모두 합하면 몇 개입니까?",
+        "expressions": [
+          "answer_text=95 개"
+        ],
+        "computed_answer": "95 개",
+        "display_topic": "arithmetic",
+        "source_preview": "계란 30개씩 들어 있는 판 3판과 낱개 5개를 모두 합하면 몇 개입니까? 16. 철사를 구부려 그림과 같은 정사각형 모양을 만들려고 합니다. 한 변의 길이가 21 02라면 철 사는 모두 몇 cm7) 필요합니까? 21062 만들려고 합니다. 한 변의 길이가 2100ㅁ라면 철 사는 모두 몇 om7) 필요합니까? 16, 철사를 구부려 그림과 같은 정사각형 모양을 _ 만들려고 합니다. 한 변...",
+        "error": null
+      },
+      {
+        "index": 1670,
+        "band": "초등",
+        "grade": 3,
+        "source_kind": "coco_app_capture",
+        "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항08.png",
+        "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p02.png",
+        "problem_card_label": "08",
+        "problem_text": "12점짜리 4문제와 8점짜리 11문제를 맞추었습니다. 모두 몇 점입니까?",
+        "expressions": [
+          "answer_text=136 점"
+        ],
+        "computed_answer": "136 점",
+        "display_topic": "arithmetic",
+        "source_preview": "12점짜리 4문제와 8점짜리 11문제를 맞추었습니다. 모두 몇 점입니까? 17, 어머니께서는 마트에서 30개씩 들어 있는 계 란 3판과 날개로 된 계란 5개를 사 오셨습니다. 17. 어머니께서는 마트에서 30개씩 들어 있는 계 란 3판과 SAS 된 계란 5개를 사 오셨습니다. 17, 어머니께서는 마트에서 30개씩 들어 있는 계 란 3판과 날개로 된 계란 5개를 사 오셨습니다. 17. 어...",
+        "error": null
+      }
+    ]
+  },
+  "results": [
+    {
+      "index": 1661,
+      "case_id": "초3-1_4단원_곱셈_3회_p01_capture_q08",
+      "band": "초등",
+      "grade": 3,
+      "source_kind": "coco_app_capture",
+      "image_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/7eda9266524b/초3-1_4단원_곱셈_3회_p01_문항08.png",
+      "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/7eda9266524b/초3-1_4단원_곱셈_3회_p01_문항08.png",
+      "pdf_path": "02.학습문제/05.문제은행/01.초등/3학년/PDF/skai_0079_무료_수학프린트_학습지_[단원평가_3회]_초3-1_Ⅳ._곱셈_[무료_수학_프린트_학습지_-_단원평가]_초등_3학년_1학기_Ⅳ.__[초3-1]_4.곱셈_[3회].pdf",
+      "title_slug": "초3-1_4단원_곱셈_3회",
+      "source_page": 1,
+      "page_count": 3,
+      "parent_page_index": 211,
+      "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p01.png",
+      "problem_card_index": 8,
+      "problem_card_label": "08",
+      "problem_card_bbox": [
+        649,
+        820,
+        1326,
+        1282
+      ],
+      "expected_problem_number": 8,
+      "capture_file_id": "80afe967a068",
+      "capture_file_name": "capture_01661_초3-1_4단원_곱셈_3회_p01_문항08.png",
+      "capture_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation/capture_01661_초3-1_4단원_곱셈_3회_p01_문항08.png",
+      "upload_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/80afe967a068_capture_01661_초3-1_4단원_곱셈_3회_p01_문항08.png",
+      "upload_relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/80afe967a068_capture_01661_초3-1_4단원_곱셈_3회_p01_문항08.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "53×5 계산에서 잘못된 부분을 찾아 바르게 고치세요.",
+      "expressions": [
+        "answer=265",
+        "x 5 ="
+      ],
+      "computed_answer": "265",
+      "matched_choice": "",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "problem_number": 8,
+      "reference_answer": "265",
+      "pdf_card_text": "9. 다음 곱셈을 하여 두 계산 결과의 차를 구하시 오.",
+      "source_preview": "53×5 계산에서 잘못된 부분을 찾아 바르게 고치세요. 8. 계산에서 잘못된 부분을 찾아 바르게 고쳐 보 5 3 x 5 = 255 8. 계산에서 잘못된 SES 찾아 바르게 고쳐 보 5 83 x 5D> 8. 계산에서 잘못된 부분을 찾아 바르게 고쳐 보 5 3 x 5 = 255 8. 계산에서 잘못된 SES 찾아 바르게 고쳐 보 5 83 x 5D>",
+      "elapsed_seconds": 0.741
+    },
+    {
+      "index": 1662,
+      "case_id": "초3-1_4단원_곱셈_3회_p01_capture_q09",
+      "band": "초등",
+      "grade": 3,
+      "source_kind": "coco_app_capture",
+      "image_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/7eda9266524b/초3-1_4단원_곱셈_3회_p01_문항09.png",
+      "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/7eda9266524b/초3-1_4단원_곱셈_3회_p01_문항09.png",
+      "pdf_path": "02.학습문제/05.문제은행/01.초등/3학년/PDF/skai_0079_무료_수학프린트_학습지_[단원평가_3회]_초3-1_Ⅳ._곱셈_[무료_수학_프린트_학습지_-_단원평가]_초등_3학년_1학기_Ⅳ.__[초3-1]_4.곱셈_[3회].pdf",
+      "title_slug": "초3-1_4단원_곱셈_3회",
+      "source_page": 1,
+      "page_count": 3,
+      "parent_page_index": 211,
+      "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p01.png",
+      "problem_card_index": 9,
+      "problem_card_label": "09",
+      "problem_card_bbox": [
+        649,
+        1282,
+        1326,
+        1606
+      ],
+      "expected_problem_number": 9,
+      "capture_file_id": "e340ccbf19a5",
+      "capture_file_name": "capture_01662_초3-1_4단원_곱셈_3회_p01_문항09.png",
+      "capture_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation/capture_01662_초3-1_4단원_곱셈_3회_p01_문항09.png",
+      "upload_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/e340ccbf19a5_capture_01662_초3-1_4단원_곱셈_3회_p01_문항09.png",
+      "upload_relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/e340ccbf19a5_capture_01662_초3-1_4단원_곱셈_3회_p01_문항09.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "42×4와 62×2를 곱하여 두 계산 결과의 차를 구하세요.",
+      "expressions": [
+        "answer=44",
+        "42 *4 62*2"
+      ],
+      "computed_answer": "44",
+      "matched_choice": "",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "problem_number": 9,
+      "reference_answer": "44",
+      "pdf_card_text": "오. 42 × 4 62 × 2 ( )",
+      "source_preview": "42×4와 62×2를 곱하여 두 계산 결과의 차를 구하세요. 9. 다음 곱셈을 하여 두 계산 결과의 차를 Pata 42 *4 62x2 9. 다음 곱셈을 하여 두 계산 결과의 차를 구하시 9. 다음 곱셈을 하여 두 계산 결과의 차를 Pata 42 *4 62x2 9. 다음 곱셈을 하여 두 계산 결과의 차를 구하시",
+      "elapsed_seconds": 0.551
+    },
+    {
+      "index": 1663,
+      "case_id": "초3-1_4단원_곱셈_3회_p02_capture_q01",
+      "band": "초등",
+      "grade": 3,
+      "source_kind": "coco_app_capture",
+      "image_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항01.png",
+      "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항01.png",
+      "pdf_path": "02.학습문제/05.문제은행/01.초등/3학년/PDF/skai_0079_무료_수학프린트_학습지_[단원평가_3회]_초3-1_Ⅳ._곱셈_[무료_수학_프린트_학습지_-_단원평가]_초등_3학년_1학기_Ⅳ.__[초3-1]_4.곱셈_[3회].pdf",
+      "title_slug": "초3-1_4단원_곱셈_3회",
+      "source_page": 2,
+      "page_count": 3,
+      "parent_page_index": 212,
+      "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p02.png",
+      "problem_card_index": 1,
+      "problem_card_label": "01",
+      "problem_card_bbox": [
+        0,
+        0,
+        677,
+        338
+      ],
+      "expected_problem_number": 10,
+      "capture_file_id": "ed6e638bbb39",
+      "capture_file_name": "capture_01663_초3-1_4단원_곱셈_3회_p02_문항01.png",
+      "capture_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation/capture_01663_초3-1_4단원_곱셈_3회_p02_문항01.png",
+      "upload_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/ed6e638bbb39_capture_01663_초3-1_4단원_곱셈_3회_p02_문항01.png",
+      "upload_relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/ed6e638bbb39_capture_01663_초3-1_4단원_곱셈_3회_p02_문항01.png",
+      "status": "review",
+      "issues": [
+        "answer_mismatch"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "59×□<400에서 □ 안에 들어갈 수 있는 가장 큰 자연수를 구하세요.",
+      "expressions": [
+        "answer=6"
+      ],
+      "computed_answer": "6",
+      "matched_choice": "",
+      "solver_name": "table_lookup_solver",
+      "validation_status": "verified",
+      "problem_number": 10,
+      "reference_answer": "( ) ( ○ ) ( )",
+      "pdf_card_text": "10. 다음 중 곱이 2 보다 작은 것에 ○표 하세 요. 31 × 7 65 × 3 24 × 9 ( ) ( ) ( )",
+      "source_preview": "59×□<400에서 □ 안에 들어갈 수 있는 가장 큰 자연수를 구하세요. 10. 다음 중 곱이 200보다 작은 것에 ○표 하세 table_row_1 317 653 249 10. 다음 중 곱이 200보다 작은 것에 ○표 하세 table_row_1 317 653 249",
+      "elapsed_seconds": 0.694
+    },
+    {
+      "index": 1664,
+      "case_id": "초3-1_4단원_곱셈_3회_p02_capture_q02",
+      "band": "초등",
+      "grade": 3,
+      "source_kind": "coco_app_capture",
+      "image_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항02.png",
+      "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항02.png",
+      "pdf_path": "02.학습문제/05.문제은행/01.초등/3학년/PDF/skai_0079_무료_수학프린트_학습지_[단원평가_3회]_초3-1_Ⅳ._곱셈_[무료_수학_프린트_학습지_-_단원평가]_초등_3학년_1학기_Ⅳ.__[초3-1]_4.곱셈_[3회].pdf",
+      "title_slug": "초3-1_4단원_곱셈_3회",
+      "source_page": 2,
+      "page_count": 3,
+      "parent_page_index": 212,
+      "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p02.png",
+      "problem_card_index": 2,
+      "problem_card_label": "02",
+      "problem_card_bbox": [
+        0,
+        338,
+        677,
+        724
+      ],
+      "expected_problem_number": 11,
+      "capture_file_id": "1fd2b38ddf3f",
+      "capture_file_name": "capture_01664_초3-1_4단원_곱셈_3회_p02_문항02.png",
+      "capture_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation/capture_01664_초3-1_4단원_곱셈_3회_p02_문항02.png",
+      "upload_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/1fd2b38ddf3f_capture_01664_초3-1_4단원_곱셈_3회_p02_문항02.png",
+      "upload_relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/1fd2b38ddf3f_capture_01664_초3-1_4단원_곱셈_3회_p02_문항02.png",
+      "status": "review",
+      "issues": [
+        "answer_mismatch"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "필통 한 개에 연필이 14자루씩 들어갑니다. 필통 2개에는 모두 몇 자루를 넣을 수 있습니까?",
+      "expressions": [
+        "answer_text=28 자루"
+      ],
+      "computed_answer": "28 자루",
+      "matched_choice": "",
+      "solver_name": "visual_template_solver",
+      "validation_status": "verified",
+      "problem_number": 11,
+      "reference_answer": "6",
+      "pdf_card_text": "11. 안에 들어갈 수 있는 가장 큰 자연수를 구 하시오. 59 ×  4 ( )",
+      "source_preview": "필통 한 개에 연필이 14자루씩 들어갑니다. 필통 2개에는 모두 몇 자루를 넣을 수 있습니까? 11. [_] 안에 들어갈 수 있는 가장 큰 자연수를 구 59*| ㅣ< 400 11. ] 안에 들어갈 수 있는 가장 큰 자연수를 구 11. CJ 안에 들어갈 수 있는 가장 큰 자연수를 59x < 400 11. [_] 안에 들어갈 수 있는 가장 큰 자연수를 구 59*| ㅣ< 400 11. ] 안...",
+      "elapsed_seconds": 0.565
+    },
+    {
+      "index": 1665,
+      "case_id": "초3-1_4단원_곱셈_3회_p02_capture_q03",
+      "band": "초등",
+      "grade": 3,
+      "source_kind": "coco_app_capture",
+      "image_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항03.png",
+      "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항03.png",
+      "pdf_path": "02.학습문제/05.문제은행/01.초등/3학년/PDF/skai_0079_무료_수학프린트_학습지_[단원평가_3회]_초3-1_Ⅳ._곱셈_[무료_수학_프린트_학습지_-_단원평가]_초등_3학년_1학기_Ⅳ.__[초3-1]_4.곱셈_[3회].pdf",
+      "title_slug": "초3-1_4단원_곱셈_3회",
+      "source_page": 2,
+      "page_count": 3,
+      "parent_page_index": 212,
+      "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p02.png",
+      "problem_card_index": 3,
+      "problem_card_label": "03",
+      "problem_card_bbox": [
+        0,
+        724,
+        677,
+        1037
+      ],
+      "expected_problem_number": 12,
+      "capture_file_id": "b6c1b52f694c",
+      "capture_file_name": "capture_01665_초3-1_4단원_곱셈_3회_p02_문항03.png",
+      "capture_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation/capture_01665_초3-1_4단원_곱셈_3회_p02_문항03.png",
+      "upload_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/b6c1b52f694c_capture_01665_초3-1_4단원_곱셈_3회_p02_문항03.png",
+      "upload_relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/b6c1b52f694c_capture_01665_초3-1_4단원_곱셈_3회_p02_문항03.png",
+      "status": "review",
+      "issues": [
+        "answer_mismatch"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "학급 문고에 위인전이 15권씩 5칸에 꽂혀 있습니다. 위인전은 모두 몇 권입니까?",
+      "expressions": [
+        "answer_text=75 권"
+      ],
+      "computed_answer": "75 권",
+      "matched_choice": "",
+      "solver_name": "visual_template_solver",
+      "validation_status": "verified",
+      "problem_number": 12,
+      "reference_answer": "28 자루",
+      "pdf_card_text": "12. 필통 한 개에 연필이 14 자루씩 들어갑니다. 필 통 2 개에는 연필을 모두 몇 자루 넣을 수 있습니 까? ( )",
+      "source_preview": "학급 문고에 위인전이 15권씩 5칸에 꽂혀 있습니다. 위인전은 모두 몇 권입니까? 12. 필통 한 개에 연필이 14자루씩 들어갑니다. 필 통 2개에는 연필을 모두 몇 자루 넣을 수 ws 통 :개에는 연필을 모두 몇 자루 넣을 수 있습니 까2 통 2개에는 ABS 모두 몇 자루 넣을 수 있습니 12. 필통 한 개에 연필이 14자루씩 들어갑니다. 필 통 2개에는 연필을 모두 몇 자루 넣을 수...",
+      "elapsed_seconds": 0.525
+    },
+    {
+      "index": 1666,
+      "case_id": "초3-1_4단원_곱셈_3회_p02_capture_q04",
+      "band": "초등",
+      "grade": 3,
+      "source_kind": "coco_app_capture",
+      "image_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항04.png",
+      "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항04.png",
+      "pdf_path": "02.학습문제/05.문제은행/01.초등/3학년/PDF/skai_0079_무료_수학프린트_학습지_[단원평가_3회]_초3-1_Ⅳ._곱셈_[무료_수학_프린트_학습지_-_단원평가]_초등_3학년_1학기_Ⅳ.__[초3-1]_4.곱셈_[3회].pdf",
+      "title_slug": "초3-1_4단원_곱셈_3회",
+      "source_page": 2,
+      "page_count": 3,
+      "parent_page_index": 212,
+      "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p02.png",
+      "problem_card_index": 4,
+      "problem_card_label": "04",
+      "problem_card_bbox": [
+        0,
+        1037,
+        677,
+        1306
+      ],
+      "expected_problem_number": 13,
+      "capture_file_id": "fba1b1a64754",
+      "capture_file_name": "capture_01666_초3-1_4단원_곱셈_3회_p02_문항04.png",
+      "capture_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation/capture_01666_초3-1_4단원_곱셈_3회_p02_문항04.png",
+      "upload_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/fba1b1a64754_capture_01666_초3-1_4단원_곱셈_3회_p02_문항04.png",
+      "upload_relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/fba1b1a64754_capture_01666_초3-1_4단원_곱셈_3회_p02_문항04.png",
+      "status": "review",
+      "issues": [
+        "answer_mismatch"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "6명이 한 사람당 종이학을 75마리씩 접었습니다. 모두 몇 마리입니까?",
+      "expressions": [
+        "answer_text=450 마리"
+      ],
+      "computed_answer": "450 마리",
+      "matched_choice": "",
+      "solver_name": "visual_template_solver",
+      "validation_status": "verified",
+      "problem_number": 13,
+      "reference_answer": "75 권",
+      "pdf_card_text": "14. 승우네 모둠은 6 명입니다. 한 사람이 종이학을",
+      "source_preview": "6명이 한 사람당 종이학을 75마리씩 접었습니다. 모두 몇 마리입니까? 13. 학급 문고에 위인전이 15권씩 5칸에 꽂혀 있 13. 학급 문고에 위인전이 15권씩 5칸에 꽂혀 있",
+      "elapsed_seconds": 0.447
+    },
+    {
+      "index": 1667,
+      "case_id": "초3-1_4단원_곱셈_3회_p02_capture_q05",
+      "band": "초등",
+      "grade": 3,
+      "source_kind": "coco_app_capture",
+      "image_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항05.png",
+      "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항05.png",
+      "pdf_path": "02.학습문제/05.문제은행/01.초등/3학년/PDF/skai_0079_무료_수학프린트_학습지_[단원평가_3회]_초3-1_Ⅳ._곱셈_[무료_수학_프린트_학습지_-_단원평가]_초등_3학년_1학기_Ⅳ.__[초3-1]_4.곱셈_[3회].pdf",
+      "title_slug": "초3-1_4단원_곱셈_3회",
+      "source_page": 2,
+      "page_count": 3,
+      "parent_page_index": 212,
+      "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p02.png",
+      "problem_card_index": 5,
+      "problem_card_label": "05",
+      "problem_card_bbox": [
+        0,
+        1306,
+        677,
+        1620
+      ],
+      "expected_problem_number": 14,
+      "capture_file_id": "807f82bcbde2",
+      "capture_file_name": "capture_01667_초3-1_4단원_곱셈_3회_p02_문항05.png",
+      "capture_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation/capture_01667_초3-1_4단원_곱셈_3회_p02_문항05.png",
+      "upload_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/807f82bcbde2_capture_01667_초3-1_4단원_곱셈_3회_p02_문항05.png",
+      "upload_relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/807f82bcbde2_capture_01667_초3-1_4단원_곱셈_3회_p02_문항05.png",
+      "status": "review",
+      "issues": [
+        "answer_mismatch"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "한 통에 18가지 색이 들어 있는 크레파스를 5통 샀습니다. 모두 몇 개입니까?",
+      "expressions": [
+        "answer_text=90 개"
+      ],
+      "computed_answer": "90 개",
+      "matched_choice": "",
+      "solver_name": "visual_template_solver",
+      "validation_status": "verified",
+      "problem_number": 14,
+      "reference_answer": "45 마리",
+      "pdf_card_text": "15. 수정이는 문구점에서 한 통에 18 가지 색이 들 어 있는 크레파스를 5 통 샀습니다. 수정이가 산",
+      "source_preview": "한 통에 18가지 색이 들어 있는 크레파스를 5통 샀습니다. 모두 몇 개입니까? 14. 승우네 SSS 6명입니다. 한 사람이 종이학을 75마리씩 접었습니다. 승우네 OS0| 접은 종이 | 14. SPU] SSS 6명입니다. 한 사람이 종이학을 75마리씩 접었습니다. 승우네 SEo| 접은 종이 75마리씩 접었습니다. 승우네 SE0| 접은 종이 14. 승우네 SSS 6명입니다. 한 사람이 ...",
+      "elapsed_seconds": 0.575
+    },
+    {
+      "index": 1668,
+      "case_id": "초3-1_4단원_곱셈_3회_p02_capture_q06",
+      "band": "초등",
+      "grade": 3,
+      "source_kind": "coco_app_capture",
+      "image_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항06.png",
+      "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항06.png",
+      "pdf_path": "02.학습문제/05.문제은행/01.초등/3학년/PDF/skai_0079_무료_수학프린트_학습지_[단원평가_3회]_초3-1_Ⅳ._곱셈_[무료_수학_프린트_학습지_-_단원평가]_초등_3학년_1학기_Ⅳ.__[초3-1]_4.곱셈_[3회].pdf",
+      "title_slug": "초3-1_4단원_곱셈_3회",
+      "source_page": 2,
+      "page_count": 3,
+      "parent_page_index": 212,
+      "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p02.png",
+      "problem_card_index": 6,
+      "problem_card_label": "06",
+      "problem_card_bbox": [
+        0,
+        1620,
+        677,
+        1836
+      ],
+      "expected_problem_number": 15,
+      "capture_file_id": "97e6db53656b",
+      "capture_file_name": "capture_01668_초3-1_4단원_곱셈_3회_p02_문항06.png",
+      "capture_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation/capture_01668_초3-1_4단원_곱셈_3회_p02_문항06.png",
+      "upload_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/97e6db53656b_capture_01668_초3-1_4단원_곱셈_3회_p02_문항06.png",
+      "upload_relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/97e6db53656b_capture_01668_초3-1_4단원_곱셈_3회_p02_문항06.png",
+      "status": "ok",
+      "issues": [],
+      "math_topic": "measurement",
+      "display_topic": "measurement",
+      "problem_text": "한 변의 길이가 21 cm인 정사각형 모양을 만드는 데 필요한 철사의 길이를 구하세요.",
+      "expressions": [
+        "answer_text=84 cm"
+      ],
+      "computed_answer": "84 cm",
+      "matched_choice": "",
+      "solver_name": "visual_template_solver",
+      "validation_status": "verified",
+      "problem_number": 15,
+      "reference_answer": "9 개",
+      "pdf_card_text": "어 있는 크레파스를 5 통 샀습니다. 수정이가 산 크레파스는 모두 몇 개입니까? ( )",
+      "source_preview": "한 변의 길이가 21 cm인 정사각형 모양을 만드는 데 필요한 철사의 길이를 구하세요. 15. 수정이는 문구점에서 한 통에 18가지 Ho] 들 어 있는 크레파스를 5통 ASUCH 수정이가 At 15. 수정이는 문구점에서 한 통에 18가지 색이 들 어 있는 크레파스를 5통 ALSUCH 수정이가 산 어 있는 크레파스를 5통 MSUCH 수정이가 산 15. 수정이는 문구점에서 한 통에 18가지...",
+      "elapsed_seconds": 0.567
+    },
+    {
+      "index": 1669,
+      "case_id": "초3-1_4단원_곱셈_3회_p02_capture_q07",
+      "band": "초등",
+      "grade": 3,
+      "source_kind": "coco_app_capture",
+      "image_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항07.png",
+      "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항07.png",
+      "pdf_path": "02.학습문제/05.문제은행/01.초등/3학년/PDF/skai_0079_무료_수학프린트_학습지_[단원평가_3회]_초3-1_Ⅳ._곱셈_[무료_수학_프린트_학습지_-_단원평가]_초등_3학년_1학기_Ⅳ.__[초3-1]_4.곱셈_[3회].pdf",
+      "title_slug": "초3-1_4단원_곱셈_3회",
+      "source_page": 2,
+      "page_count": 3,
+      "parent_page_index": 212,
+      "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p02.png",
+      "problem_card_index": 7,
+      "problem_card_label": "07",
+      "problem_card_bbox": [
+        649,
+        0,
+        1326,
+        484
+      ],
+      "expected_problem_number": 16,
+      "capture_file_id": "ed74b9544436",
+      "capture_file_name": "capture_01669_초3-1_4단원_곱셈_3회_p02_문항07.png",
+      "capture_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation/capture_01669_초3-1_4단원_곱셈_3회_p02_문항07.png",
+      "upload_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/ed74b9544436_capture_01669_초3-1_4단원_곱셈_3회_p02_문항07.png",
+      "upload_relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/ed74b9544436_capture_01669_초3-1_4단원_곱셈_3회_p02_문항07.png",
+      "status": "review",
+      "issues": [
+        "answer_mismatch"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "계란 30개씩 들어 있는 판 3판과 낱개 5개를 모두 합하면 몇 개입니까?",
+      "expressions": [
+        "answer_text=95 개"
+      ],
+      "computed_answer": "95 개",
+      "matched_choice": "",
+      "solver_name": "visual_template_solver",
+      "validation_status": "verified",
+      "problem_number": 16,
+      "reference_answer": "84 cm",
+      "pdf_card_text": "16. 철사를 구부려 그림과 같은 정사각형 모양을 만들려고 합니다. 한 변의 길이가 21 cm 라면 철 사는 모두 몇 cm 가 필요합니까? ( )",
+      "source_preview": "계란 30개씩 들어 있는 판 3판과 낱개 5개를 모두 합하면 몇 개입니까? 16. 철사를 구부려 그림과 같은 정사각형 모양을 만들려고 합니다. 한 변의 길이가 21 02라면 철 사는 모두 몇 cm7) 필요합니까? 21062 만들려고 합니다. 한 변의 길이가 2100ㅁ라면 철 사는 모두 몇 om7) 필요합니까? 16, 철사를 구부려 그림과 같은 정사각형 모양을 _ 만들려고 합니다. 한 변...",
+      "elapsed_seconds": 0.66
+    },
+    {
+      "index": 1670,
+      "case_id": "초3-1_4단원_곱셈_3회_p02_capture_q08",
+      "band": "초등",
+      "grade": 3,
+      "source_kind": "coco_app_capture",
+      "image_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항08.png",
+      "relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation_segments/c27c03f6261d/초3-1_4단원_곱셈_3회_p02_문항08.png",
+      "pdf_path": "02.학습문제/05.문제은행/01.초등/3학년/PDF/skai_0079_무료_수학프린트_학습지_[단원평가_3회]_초3-1_Ⅳ._곱셈_[무료_수학_프린트_학습지_-_단원평가]_초등_3학년_1학기_Ⅳ.__[초3-1]_4.곱셈_[3회].pdf",
+      "title_slug": "초3-1_4단원_곱셈_3회",
+      "source_page": 2,
+      "page_count": 3,
+      "parent_page_index": 212,
+      "parent_relative_path": "02.학습문제/05.문제은행/01.초등/3학년/EDITE/초3-1_4단원_곱셈_3회_p02.png",
+      "problem_card_index": 8,
+      "problem_card_label": "08",
+      "problem_card_bbox": [
+        649,
+        484,
+        1326,
+        798
+      ],
+      "expected_problem_number": 17,
+      "capture_file_id": "32640d4b0081",
+      "capture_file_name": "capture_01670_초3-1_4단원_곱셈_3회_p02_문항08.png",
+      "capture_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/captures/validation/capture_01670_초3-1_4단원_곱셈_3회_p02_문항08.png",
+      "upload_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/32640d4b0081_capture_01670_초3-1_4단원_곱셈_3회_p02_문항08.png",
+      "upload_relative_path": "/Users/juhwigeun/Library/Application Support/CocoAIStudy/uploads/32640d4b0081_capture_01670_초3-1_4단원_곱셈_3회_p02_문항08.png",
+      "status": "review",
+      "issues": [
+        "answer_mismatch"
+      ],
+      "math_topic": "arithmetic",
+      "display_topic": "arithmetic",
+      "problem_text": "12점짜리 4문제와 8점짜리 11문제를 맞추었습니다. 모두 몇 점입니까?",
+      "expressions": [
+        "answer_text=136 점"
+      ],
+      "computed_answer": "136 점",
+      "matched_choice": "",
+      "solver_name": "visual_template_solver",
+      "validation_status": "verified",
+      "problem_number": 17,
+      "reference_answer": "95 개",
+      "pdf_card_text": "17. 어머니께서는 마트에서 3 개씩 들어 있는 계 ) 란 3 판과 낱개로 된 계란 5 개를 사 오셨습니다. 어머니께서 사 오신 계란은 모두 몇 개입니까? ( )",
+      "source_preview": "12점짜리 4문제와 8점짜리 11문제를 맞추었습니다. 모두 몇 점입니까? 17, 어머니께서는 마트에서 30개씩 들어 있는 계 란 3판과 날개로 된 계란 5개를 사 오셨습니다. 17. 어머니께서는 마트에서 30개씩 들어 있는 계 란 3판과 SAS 된 계란 5개를 사 오셨습니다. 17, 어머니께서는 마트에서 30개씩 들어 있는 계 란 3판과 날개로 된 계란 5개를 사 오셨습니다. 17. 어...",
+      "elapsed_seconds": 0.715
+    }
+  ]
+}

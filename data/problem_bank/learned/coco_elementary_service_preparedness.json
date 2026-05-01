@@ -1,0 +1,43 @@
+{
+  "schema_version": "coco_elementary_service_preparedness.v1",
+  "generated_at": 1777596576.298403,
+  "template_readiness": {
+    "prepared_visual_template_entries": 2981,
+    "target_min": 800,
+    "target_service_range": "800-1200+ reusable page/card/type templates",
+    "status": "complete",
+    "edite_page_total": 409,
+    "edite_card_total": 2946,
+    "edite_ok_total": 2946,
+    "edite_review_total": 0
+  },
+  "formula_candidate_readiness": {
+    "prepared_rule_count": 197,
+    "extractor_family_count": 22,
+    "target_range": "180-260 elementary formula candidates",
+    "status": "complete",
+    "by_category": {
+      "number_relation": 26,
+      "direct_arithmetic": 28,
+      "arithmetic_word": 27,
+      "fraction_arithmetic": 24,
+      "measurement": 22,
+      "geometry_metric": 22,
+      "pattern_statistics": 24,
+      "ocr_repair": 24
+    }
+  },
+  "validation": {
+    "latest_pytest": "537 passed, 2448 subtests passed",
+    "count_only": {
+      "page_total": 409,
+      "card_total": 2946
+    }
+  },
+  "next_runtime_behavior": [
+    "registered images first use existing visual templates",
+    "elementary formula candidates are appended after existing high-confidence OCR repairs",
+    "auto reanalysis upgrades failed registrations when a better result is found",
+    "remaining failures stay in review/template queue for follow-up templates"
+  ]
+}

@@ -12,17 +12,57 @@ from typing import Any, Callable
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 PROFILE_PATH = PROJECT_ROOT / "data" / "problem_bank" / "learned" / "coco_problem_generation_profile.json"
+ELEMENTARY_50K_PROFILE_PATH = (
+    PROJECT_ROOT / "data" / "problem_bank" / "learned" / "coco_elementary_50k_learning_profile.json"
+)
 
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
 
+def _compact_elementary_50k_profile() -> dict[str, Any] | None:
+    if not ELEMENTARY_50K_PROFILE_PATH.exists():
+        return None
+    try:
+        payload = json.loads(ELEMENTARY_50K_PROFILE_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    if not isinstance(payload, dict):
+        return None
+    counts = payload.get("counts") if isinstance(payload.get("counts"), dict) else {}
+    routing = payload.get("routing") if isinstance(payload.get("routing"), dict) else {}
+    quality_gates = payload.get("quality_gates") if isinstance(payload.get("quality_gates"), dict) else {}
+    return {
+        "schema_version": payload.get("schema_version"),
+        "generated_at": payload.get("generated_at"),
+        "counts": counts,
+        "routing": routing,
+        "quality_gates": quality_gates,
+    }
+
+
+def _attach_elementary_50k_profile(profile: dict[str, Any]) -> dict[str, Any]:
+    elementary_profile = _compact_elementary_50k_profile()
+    if not elementary_profile:
+        return profile
+    enriched = dict(profile)
+    enriched["elementary_50k"] = elementary_profile
+    counts = dict(enriched.get("counts") or {})
+    elementary_counts = elementary_profile.get("counts") or {}
+    counts["elementary_50k_total_records"] = int(elementary_counts.get("total_records") or 0)
+    counts["elementary_50k_learning_ready_or_queued"] = int(
+        elementary_counts.get("learning_ready_or_queued") or 0
+    )
+    enriched["counts"] = counts
+    return enriched
+
+
 @lru_cache(maxsize=1)
 def load_generation_profile(path: str | None = None) -> dict[str, Any]:
     profile_path = Path(path) if path else PROFILE_PATH
     if not profile_path.exists():
-        return {
+        fallback = {
             "schema_version": "coco_problem_generation_profile.v1",
             "source_banks": [],
             "counts": {"total_records": 0},
@@ -33,8 +73,11 @@ def load_generation_profile(path: str | None = None) -> dict[str, Any]:
                 "strategy": "fallback_template_generation",
             },
         }
+        return _attach_elementary_50k_profile(fallback) if path is None else fallback
     payload = json.loads(profile_path.read_text(encoding="utf-8"))
-    return payload if isinstance(payload, dict) else {}
+    if not isinstance(payload, dict):
+        return {}
+    return _attach_elementary_50k_profile(payload) if path is None else payload
 
 
 def _weighted_choice(rng: random.Random, weighted_items: list[tuple[str, int]]) -> str:

@@ -1,0 +1,31 @@
+{
+  "schema_version": "coco_elementary_learning_routine_status.v1",
+  "generated_at": "2026-04-30T00:45:06+00:00",
+  "summary": {
+    "actual_capture_verified": 10020,
+    "actual_capture_review": 39,
+    "actual_capture_review_rate": 0.003877,
+    "template_render_verified": 31082,
+    "normalized_json_learning_ready": 15001,
+    "learning_assets_ready_total": 56142
+  },
+  "gates": {
+    "internal_beta": {
+      "passed": true,
+      "actual_verified_cards": 10020,
+      "actual_review_rate": 0.003877
+    },
+    "public_beta": {
+      "passed": true,
+      "actual_verified_cards": 10020,
+      "actual_review_rate": 0.003877,
+      "remaining_actual_cards_to_10000": 0
+    }
+  },
+  "last_live_batch": "/Volumes/마중나 도킹스테이션/atoll_project/data/problem_bank/elementary_50k/06_reports/elementary_50k_actual_validation_adaptive_batch_continue_026_previous_capture_card_image.json",
+  "automation": {
+    "target_actual_verified": 10000,
+    "stopped_reason": "target_reached",
+    "batch_policy": "PDF one full source; contiguous non-PDF image sources up to 100; continue through low-rate review; stop on error or review-rate guard"
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "schema_version": "coco_elementary_50k_learning_profile.v1",
+  "generated_at": "2026-04-28T23:19:56+00:00",
+  "source": {
+    "collection_manifest": "data/problem_bank/elementary_50k/00_collected/source_collection_manifest.json",
+    "learning_report": "data/problem_bank/learned/elementary_50k_learning_report.json",
+    "policy": "elementary_only_static_learning_with_capture_and_template_validation_queues"
+  },
+  "counts": {
+    "total_records": 50000,
+    "learning_ready_or_queued": 50000,
+    "by_status": {
+      "learned_ready": 15001,
+      "validation_queued": 34999
+    },
+    "by_track": {
+      "actual_pdf_capture": 3917,
+      "normalized_json": 15001,
+      "template_variant": 31082
+    },
+    "by_grade": {
+      "1학년": 3953,
+      "2학년": 6575,
+      "3학년": 3030,
+      "4학년": 7983,
+      "5학년": 7789,
+      "6학년": 5669,
+      "elementary": 9534,
+      "elementary_middle": 5467
+    },
+    "by_bank": {
+      "deepmind_mathematics": 945,
+      "gsm8k": 8329,
+      "local_or_template": 34999,
+      "tal_scq5k": 5727
+    },
+    "by_domain": {
+      "algebra": 753,
+      "angle": 2463,
+      "arithmetic": 6304,
+      "arithmetic_word_problem": 8329,
+      "average": 3098,
+      "comparison": 159,
+      "competition_math": 1834,
+      "counting_probability": 897,
+      "division": 224,
+      "elementary_template": 3917,
+      "factors_multiples": 2534,
+      "fraction_division": 448,
+      "fraction_ratio": 1072,
+      "function": 1132,
+      "geometry": 2413,
+      "measurement": 662,
+      "number_theory": 837,
+      "numbers": 334,
+      "pattern": 659,
+      "polynomials": 52,
+      "prealgebra": 1397,
+      "probability": 40,
+      "statistics": 9944,
+      "time": 498
+    },
+    "answer_type_counts": {
+      "integer": 35241,
+      "text_or_numeric": 10842,
+      "unknown": 3917
+    }
+  },
+  "domains": {
+    "algebra": {
+      "count": 753,
+      "levels": {
+        "1": 158,
+        "2": 595
+      }
+    },
+    "angle": {
+      "count": 2463,
+      "levels": {
+        "4": 2463
+      }
+    },
+    "arithmetic": {
+      "count": 6304,
+      "levels": {
+        "1": 1867,
+        "2": 3813,
+        "3": 624
+      }
+    },
+    "arithmetic_word_problem": {
+      "count": 8329,
+      "levels": {
+        "1": 564,
+        "2": 3243,
+        "3": 3149,
+        "4": 1373
+      }
+    },
+    "average": {
+      "count": 3098,
+      "levels": {
+        "5": 3098
+      }
+    },
+    "comparison": {
+      "count": 159,
+      "levels": {
+        "1": 80,
+        "2": 79
+      }
+    },
+    "competition_math": {
+      "count": 1834,
+      "levels": {
+        "1": 174,
+        "2": 1660
+      }
+    },
+    "counting_probability": {
+      "count": 897,
+      "levels": {
+        "1": 72,
+        "2": 825
+      }
+    },
+    "division": {
+      "count": 224,
+      "levels": {
+        "3": 224
+      }
+    },
+    "elementary_template": {
+      "count": 3917,
+      "levels": {
+        "1학년": 928,
+        "2학년": 952,
+        "3학년": 930,
+        "4학년": 819,
+        "5학년": 156,
+        "6학년": 132
+      }
+    },
+    "factors_multiples": {
+      "count": 2534,
+      "levels": {
+        "5": 2534
+      }
+    },
+    "fraction_division": {
+      "count": 448,
+      "levels": {
+        "6": 448
+      }
+    },
+    "fraction_ratio": {
+      "count": 1072,
+      "levels": {
+        "4": 364,
+        "5": 356,
+        "6": 352
+      }
+    },
+    "function": {
+      "count": 1132,
+      "levels": {
+        "5": 565,
+        "6": 567
+      }
+    },
+    "geometry": {
+      "count": 2413,
+      "levels": {
+        "1": 489,
+        "2": 114,
+        "3": 458,
+        "4": 449,
+        "5": 455,
+        "6": 448
+      }
+    },
+    "measurement": {
+      "count": 662,
+      "levels": {
+        "1": 20,
+        "2": 642
+      }
+    },
+    "number_theory": {
+      "count": 837,
+      "levels": {
+        "1": 61,
+        "2": 776
+      }
+    },
+    "numbers": {
+      "count": 334,
+      "levels": {
+        "1": 167,
+        "2": 167
+      }
+    },
+    "pattern": {
+      "count": 659,
+      "levels": {
+        "1": 169,
+        "2": 155,
+        "3": 169,
+        "4": 166
+      }
+    },
+    "polynomials": {
+      "count": 52,
+      "levels": {
+        "1": 26,
+        "2": 26
+      }
+    },
+    "prealgebra": {
+      "count": 1397,
+      "levels": {
+        "1": 143,
+        "2": 1254
+      }
+    },
+    "probability": {
+      "count": 40,
+      "levels": {
+        "1": 20,
+        "2": 20
+      }
+    },
+    "statistics": {
+      "count": 9944,
+      "levels": {
+        "1": 625,
+        "2": 625,
+        "3": 625,
+        "4": 3722,
+        "5": 625,
+        "6": 3722
+      }
+    },
+    "time": {
+      "count": 498,
+      "levels": {
+        "2": 498
+      }
+    }
+  },
+  "top_tags": {
+    "arithmetic": 14633,
+    "statistics": 9944,
+    "level_2": 8869,
+    "word_problem": 8331,
+    "gsm8k": 8329,
+    "train": 7094,
+    "multiplication": 6979,
+    "addition": 6057,
+    "single_choice": 5727,
+    "tal_scq5k": 5727,
+    "division": 5477,
+    "subtraction": 4699,
+    "fraction": 4329,
+    "rate": 3918,
+    "elementary_template": 3917,
+    "level_3": 3149,
+    "average": 3098,
+    "zh": 2887,
+    "unknown": 2845,
+    "en": 2840,
+    "money": 2741,
+    "factors_multiples": 2534,
+    "angle": 2463,
+    "geometry": 2413,
+    "en_train": 2271,
+    "competition_math": 1834,
+    "zh_train": 1684,
+    "level_1": 1610,
+    "prealgebra": 1397,
+    "level_4": 1373,
+    "test": 1235,
+    "zh_test": 1203,
+    "function": 1132,
+    "fraction_ratio": 1072,
+    "percent": 1056,
+    "unit_conversion": 977,
+    "calculation_modules": 970,
+    "deepmind_mathematics": 945,
+    "decimal": 931,
+    "counting_probability": 897,
+    "number_theory": 837,
+    "algebra": 754,
+    "word_problem_modules": 701,
+    "measurement": 668,
+    "pattern": 659,
+    "en_test": 569,
+    "number_theory_modules": 515,
+    "time": 501,
+    "train_easy": 473,
+    "train_medium": 472,
+    "fraction_division": 448,
+    "counting_modules": 382,
+    "numbers": 370,
+    "combinatorics": 259,
+    "whole_numbers": 258,
+    "ratio": 213,
+    "algebra_equation": 175,
+    "comparison": 159,
+    "factors_and_multiples": 110,
+    "permutations_and_combinations": 107
+  },
+  "top_concepts": {
+    "arithmetic": 8329,
+    "multiplication": 6979,
+    "addition": 6057,
+    "division": 5253,
+    "subtraction": 4699,
+    "fraction": 4329,
+    "rate": 3918,
+    "elementary_template": 3917,
+    "세 자리 수": 3098,
+    "평균": 3098,
+    "여러 그래프": 3097,
+    "꺾은선그래프와 막대그래프": 3097,
+    "unknown": 2845,
+    "money": 2741,
+    "약수와 배수": 2534,
+    "각도": 2463,
+    "덧셈과 뺄셈": 1153,
+    "percent": 1056,
+    "unit_conversion": 977,
+    "calculation_modules": 970,
+    "decimal": 931,
+    "분수·소수의 나눗셈": 800,
+    "word_problem_modules": 701,
+    "분류하고 세기": 625,
+    "세 자리 수와 곱셈구구": 625,
+    "표와 그래프": 625,
+    "막대그래프": 625,
+    "꺾은선그래프": 625,
+    "평균과 가능성": 625,
+    "여러 그래프와 가능성": 625,
+    "9까지의 수와 덧셈·뺄셈": 624,
+    "곱셈·나눗셈과 분수": 624,
+    "길이와 시각": 622,
+    "비례식과 비율": 567,
+    "대응 관계와 비": 565,
+    "number_theory_modules": 515,
+    "시각과 시간": 498,
+    "다각형의 둘레와 넓이": 455,
+    "여러 가지 모양과 길이 비교": 454,
+    "각도와 삼각형·사각형": 449,
+    "원과 입체도형": 448,
+    "평면도형과 원": 447,
+    "counting_modules": 382,
+    "큰 수와 분수·소수 계산": 364,
+    "약수와 배수·분수의 계산": 356,
+    "combinatorics": 259,
+    "whole_numbers": 258,
+    "나눗셈": 224,
+    "ratio": 213,
+    "algebra_equation": 175,
+    "규칙 찾기": 169,
+    "규칙 배열": 169,
+    "규칙과 대응 관계": 166,
+    "규칙과 대응": 155,
+    "factors_and_multiples": 110,
+    "permutations_and_combinations": 107,
+    "combinations": 104,
+    "fractions": 103,
+    "basic_concepts_of_equation": 101,
+    "statistics_and_probability": 100
+  },
+  "routing": {
+    "school_level": "초등",
+    "engine_partition": "elementary",
+    "actual_capture_policy": "validation_queued_until_coco_app_capture_passes",
+    "template_policy": "validation_queued_until_render_and_solver_pass",
+    "normalized_json_policy": "learned_ready_after_static_answer_solution_grade_filter"
+  }
+}

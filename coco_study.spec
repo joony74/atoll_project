@@ -45,7 +45,7 @@ exe = EXE(
 )
 app = BUNDLE(
     exe,
-    name="CocoAIStudy.app",
+    name="CocoAi Study.app",
     icon=icon_path,
-    bundle_identifier="com.cocoai.study",
+    bundle_identifier="com.futureplatform.cocoaistudy",
 )

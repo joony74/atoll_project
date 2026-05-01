@@ -442,6 +442,10 @@ def format_learning_engine_status() -> str:
     profile = _profile()
     normalization = math_normalization_profile_summary()
     counts = profile.get("counts") or {}
+    elementary_50k = profile.get("elementary_50k") if isinstance(profile.get("elementary_50k"), dict) else {}
+    elementary_50k_counts = (
+        elementary_50k.get("counts") if isinstance(elementary_50k.get("counts"), dict) else {}
+    )
     domains = profile.get("domains") or {}
     source_banks = list_banks()
     registered_external = [
@@ -467,9 +471,22 @@ def format_learning_engine_status() -> str:
         f"- 수식 정규화 학습 문항: {int(normalization.get('total_records') or 0):,}개",
         f"- 런타임 정규화 규칙: {int(normalization.get('runtime_rule_count') or 0):,}개",
         f"- 출제/추천 전략: {strategy}",
-        "",
-        "주요 영역",
     ]
+    elementary_total = int(elementary_50k_counts.get("total_records") or 0)
+    if elementary_total:
+        by_status = (
+            elementary_50k_counts.get("by_status")
+            if isinstance(elementary_50k_counts.get("by_status"), dict)
+            else {}
+        )
+        lines.extend(
+            [
+                f"- 초등 50k 학습 큐: {elementary_total:,}개",
+                f"- 초등 50k 즉시 학습 완료: {int(by_status.get('learned_ready') or 0):,}개",
+                f"- 초등 50k 검증 대기: {int(by_status.get('validation_queued') or 0):,}개",
+            ]
+        )
+    lines.extend(["", "주요 영역"])
     top_domains = sorted(
         (
             (str(slug), int((payload or {}).get("count") or 0))

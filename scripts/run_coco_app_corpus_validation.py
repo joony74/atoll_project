@@ -36,6 +36,7 @@ DEFAULT_ROOT = PROJECT_ROOT / "02.학습문제" / "05.문제은행"
 DEFAULT_REPORT = PROJECT_ROOT / "data" / "problem_bank" / "learned" / "coco_app_corpus_10batch_validation_report.json"
 DEFAULT_SEGMENT_DIR = PROJECT_ROOT / "data" / "problem_bank" / "learned" / "coco_app_validation_segments"
 DEFAULT_EDITE_MANIFEST = PROJECT_ROOT / "data" / "problem_bank" / "sources" / "skai_pdf_edite_manifest.json"
+TOCTOC_EDITE_MANIFEST = PROJECT_ROOT / "data" / "problem_bank" / "sources" / "toctoc_pdf_edite_manifest.json"
 APP_SLOT_PREFIX = "corpus_batch_slot__"
 BAND_ORDER = {"초등": 0, "중등": 1, "고등": 2, "unknown": 9}
 IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".bmp", ".tif", ".tiff"}
@@ -59,7 +60,18 @@ QUESTION_CUES = (
     "길이",
     "쓰시오",
     "쓰세요",
+    "써보",
+    "써 보",
+    "써볼",
     "써넣",
+    "연결",
+    "비교",
+    "무겁",
+    "가볍",
+    "길다",
+    "짧다",
+    "많다",
+    "적다",
     "색칠",
     "표",
     "이어",
@@ -79,7 +91,18 @@ VISUAL_TASK_CUES = (
     "세어",
     "쓰시오",
     "쓰세요",
+    "써보",
+    "써 보",
+    "써볼",
     "써넣",
+    "연결",
+    "비교",
+    "무겁",
+    "가볍",
+    "길다",
+    "짧다",
+    "많다",
+    "적다",
     "나타내어",
     "시계",
     "시각",
@@ -112,6 +135,16 @@ VISUAL_TASK_CUES = (
     "단추",
     "가장많이",
     "가장적게",
+    "순서대로",
+    "거꾸로",
+    "몇째",
+    "몇개",
+    "몇 개",
+    "모으기",
+    "가르기",
+    "재어",
+    "뼘",
+    "동전",
 )
 NON_QUESTION_CUES = (
     "목차",
@@ -204,20 +237,24 @@ def relative_to_project(path: Path) -> str:
 
 
 def load_edite_manifest(path: Path = DEFAULT_EDITE_MANIFEST) -> dict[str, dict[str, Any]]:
-    if not path.exists():
-        return {}
-    try:
-        payload = json.loads(path.read_text(encoding="utf-8"))
-    except Exception:
-        return {}
-    records = payload.get("records") if isinstance(payload, dict) else []
     lookup: dict[str, dict[str, Any]] = {}
-    for record in records or []:
-        if not isinstance(record, dict):
+    manifest_paths = [path]
+    if path == DEFAULT_EDITE_MANIFEST:
+        manifest_paths.append(TOCTOC_EDITE_MANIFEST)
+    for manifest_path in manifest_paths:
+        if not manifest_path.exists():
             continue
-        image_path = normalized_path_text(record.get("image_path") or "")
-        if image_path:
-            lookup[image_path] = record
+        try:
+            payload = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        records = payload.get("records") if isinstance(payload, dict) else []
+        for record in records or []:
+            if not isinstance(record, dict):
+                continue
+            image_path = normalized_path_text(record.get("image_path") or "")
+            if image_path:
+                lookup[image_path] = record
     return lookup
 
 
@@ -310,6 +347,8 @@ def is_visual_task(text: str) -> bool:
 
 def is_probably_non_question(text: str, *, source_kind: str = "") -> bool:
     compact = re.sub(r"\s+", "", text).lower()
+    if compact and re.fullmatch(r"[\(\)（）\[\]{}□○◯\-_.·ㆍ]+", compact):
+        return True
     has_non_question = any(cue.lower().replace(" ", "") in compact for cue in NON_QUESTION_CUES)
     if source_kind == "pdf_capture":
         lead = compact[:160]
@@ -546,22 +585,40 @@ def apply_pdf_card_text(record: dict[str, Any], analysis: dict[str, Any]) -> tup
     structured = dict(analysis.get("structured_problem") or {})
     existing = str(structured.get("normalized_problem_text") or "").strip()
     existing_compact = re.sub(r"\s+", "", existing)
+    pdf_compact = re.sub(r"\s+", "", pdf_text)
+    metadata = dict(structured.get("metadata") or {})
+    has_visual_template = bool(metadata.get("visual_template"))
+    existing_is_header = bool(
+        existing
+        and any(marker in existing_compact for marker in ("단원평가", "진단평가", "이름:", "점수:"))
+        and not is_question_like(existing)
+    )
+    pdf_is_question = is_question_like(pdf_text) or bool(re.search(r"(?<!\d)\d{1,2}\s*[.,)]\s*[가-힣]", pdf_text))
     pdf_no = re.search(r"(?<!\d)(\d{1,2})\s*[.,)]\s*[가-힣]", pdf_text)
     existing_no = re.search(r"(?<!\d)(\d{1,2})\s*[.,)]\s*[가-힣]", existing)
     should_replace = (
         not existing_compact
         or len(existing_compact) <= 8
         or ocr_noise_score(existing) >= 4
-        or len(re.sub(r"\s+", "", pdf_text)) > len(existing_compact) + 12
+        or len(pdf_compact) > len(existing_compact) + 12
+        or (existing_is_header and pdf_is_question)
         or (pdf_no is not None and existing_no is not None and pdf_no.group(1) != existing_no.group(1))
     )
+    if has_visual_template and existing_compact and not existing_is_header:
+        # A curated visual template is anchored to the actual card image. PDF bbox
+        # extraction is still useful as an auxiliary text candidate, but dense
+        # worksheet pages can shift the bbox into the neighboring problem. In
+        # that case, do not let the PDF fragment overwrite the image-derived
+        # card identity. Math symbols such as ÷, ×, ★, and ▲ can raise OCR noise
+        # scores even when the template text is exact, so visual templates should
+        # remain authoritative once selected.
+        should_replace = False
     sources = [str(item or "") for item in structured.get("source_text_candidates") or []]
     if pdf_text not in sources:
         sources.insert(0, pdf_text)
     structured["source_text_candidates"] = sources
     if should_replace:
         structured["normalized_problem_text"] = pdf_text
-    metadata = dict(structured.get("metadata") or {})
     metadata["pdf_card_text"] = {
         "source": "pdftotext_bbox",
         "text": pdf_text,
@@ -581,7 +638,7 @@ def infer_problem_number(structured: dict[str, Any], record: dict[str, Any]) -> 
         pdf_card_text = str(pdf_card.get("text") or "")
     sources_to_scan = [pdf_card_text, "\n".join(text_candidates(structured))]
     source = "\n".join(source for source in sources_to_scan if source)
-    for pattern in (r"^\s*(\d{1,2})\s*[.,)]", r"(?<!\d)(\d{1,2})\s*[.,)]\s*(?=[가-힣\d<])"):
+    for pattern in (r"^\s*(\d{1,2})\s*[.,)](?!\d)", r"(?<!\d)(\d{1,2})\s*[.,)]\s*(?=[가-힣<])"):
         match = re.search(pattern, source)
         if match:
             value = int(match.group(1))
@@ -673,6 +730,9 @@ def classify_issues(document: dict[str, Any], card_message: str, *, source_kind:
     visual_task = is_visual_task(f"{combined}\n{file_context}")
 
     issues: list[str] = []
+    if problem_text and re.fullmatch(r"[\s()（）\[\]{}□○◯\-_.·ㆍ]+", problem_text):
+        issues.append("non_question_image")
+        return issues
     if is_probably_non_question(combined, source_kind=source_kind) and not (answer and is_verified):
         issues.append("non_question_image")
         return issues
@@ -693,13 +753,13 @@ def classify_issues(document: dict[str, Any], card_message: str, *, source_kind:
         issues.append("solve_failed")
     if not answer and is_question_like(combined) and "non_question_image" not in issues and not is_verified and not visual_task:
         issues.append("answer_missing")
-    if topic in {"unknown", ""}:
+    if topic in {"unknown", ""} and not visual_task:
         issues.append("topic_unknown")
     if ("수식 후보: 아직 확실" in card_message or "원본 대조" in card_message) and not (
         (answer and is_verified) or visual_task
     ):
         issues.append("card_needs_review")
-    if "유형 후보: 문제 유형 확인 중" in card_message:
+    if "유형 후보: 문제 유형 확인 중" in card_message and not visual_task:
         issues.append("card_topic_unknown")
 
     return issues

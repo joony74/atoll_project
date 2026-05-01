@@ -1,0 +1,51 @@
+{
+  "schema_version": "coco_elementary_beta_config.v1",
+  "active_level": "elementary",
+  "primary_root": "03.학습문제/05.문제은행/01.초등",
+  "baseline": {
+    "source_id": "toctoc_03_elementary",
+    "summary_report": "data/problem_bank/learned/coco_capture_flow_toctoc_03_elementary_summary.json"
+  },
+  "source_sets": [
+    {
+      "id": "toctoc_03_elementary",
+      "label": "Toctoc elementary PDF capture baseline",
+      "root": "03.학습문제/05.문제은행/01.초등",
+      "status": "verified_baseline",
+      "summary_report": "data/problem_bank/learned/coco_capture_flow_toctoc_03_elementary_summary.json"
+    }
+  ],
+  "thresholds": {
+    "current_source_min_cards": 500,
+    "current_source_min_ok_rate": 0.99,
+    "current_source_max_review_rate": 0.01,
+    "current_source_max_error_rate": 0.0,
+    "beta_min_sources": 3,
+    "beta_min_cards": 5000,
+    "beta_min_ok_rate": 0.95,
+    "beta_max_review_rate": 0.04,
+    "beta_max_error_rate": 0.01,
+    "service_min_sources": 5,
+    "service_min_cards": 10000,
+    "service_min_ok_rate": 0.98,
+    "service_max_review_rate": 0.02,
+    "service_max_error_rate": 0.005
+  },
+  "routine": {
+    "batch_size": 10,
+    "validation_report": "data/problem_bank/learned/elementary_beta_capture_validation_report.json",
+    "stabilization_report": "data/problem_bank/learned/elementary_beta_stabilization_report.json",
+    "segment_dir": "~/Library/Application Support/CocoAiStudy/captures/elementary_beta_segments",
+    "capture_dir": "~/Library/Application Support/CocoAiStudy/captures/elementary_beta_uploads"
+  },
+  "failure_taxonomy": [
+    "crop_or_non_problem_page",
+    "problem_split_error",
+    "ocr_text_loss",
+    "korean_text_corruption",
+    "visual_relation_missed",
+    "answer_candidate_wrong",
+    "topic_or_level_wrong",
+    "slow_pipeline"
+  ]
+}

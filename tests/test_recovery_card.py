@@ -87,6 +87,25 @@ class RecoveryCardTests(unittest.TestCase):
         self.assertIn("- 유형 후보: 계산 문제", message)
         self.assertNotIn("- 함수 후보:", message)
 
+    def test_display_problem_text_preserves_division_symbol_for_visual_fraction_task(self) -> None:
+        document = _document(
+            topic="fraction_ratio",
+            problem_text="5 ÷ 4를 그림에 나타내고, 몫을 분수로 나타내어 보세요.",
+            expressions=["answer_text=5/4 = 1 1/4"],
+            computed_answer="5/4 = 1 1/4",
+            metadata={
+                "school_level": "elementary",
+                "school_profile": "elementary_visual",
+                "visual_template": {"rule_id": "generic_division_to_fraction_model"},
+            },
+            solver_name="visual_template_solver",
+        )
+
+        message = build_recovery_message(document)
+
+        self.assertIn("5 ÷ 4를 그림에 나타내고", message)
+        self.assertNotIn("5/4를 그림에 나타내고", message)
+
     def test_problem_text_cues_override_stale_problem_bank_topic(self) -> None:
         document = _document(
             file_name="high_g03_018_easy_table_calculus_integral.png",

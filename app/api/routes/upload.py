@@ -5,7 +5,7 @@ from pathlib import Path
 
 from fastapi import APIRouter, File, UploadFile
 
-from app.core.pipeline import run_upload_pipeline
+from app.core.pipeline import run_service_image_analysis
 
 
 router = APIRouter(prefix="/upload", tags=["upload"])
@@ -18,11 +18,13 @@ async def upload_image(file: UploadFile = File(...), debug: bool = False):
         temp.write(await file.read())
         temp_path = temp.name
 
-    payload = run_upload_pipeline(temp_path, user_query="", debug=debug)
+    analysis = run_service_image_analysis(temp_path, user_query="", debug=debug)
     result = {
-        "route": payload["route"],
-        "structured_problem": payload["structured_problem"].model_dump(),
+        "route": "solver",
+        "analysis_engine": analysis.get("analysis_engine", {}),
+        "structured_problem": analysis["structured_problem"],
+        "solve_result": analysis["solve_result"],
     }
     if debug:
-        result["debug"] = payload.get("debug", {})
+        result["debug"] = analysis.get("debug", {})
     return result

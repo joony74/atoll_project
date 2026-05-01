@@ -13,6 +13,7 @@ __pycache__/
 venv/
 venv_clean/
 .automation_venv/
+.codex_venv/
 
 # Browser / tooling caches
 .playwright-browsers/
@@ -38,7 +39,11 @@ data/sessions/
 
 # Generated/private learning material
 02.학습문제/05.문제은행/
+03.학습문제/05.문제은행/
 02.학습문제/_pdf_private/
+data/problem_bank/elementary_50k/
+data/problem_bank/learned/coco_edite_service_segments/
+data/problem_bank/removed_non_problem/
 data/problem_bank/learned/coco_private_pdf_capture*.json
 
 # Local debug scratch

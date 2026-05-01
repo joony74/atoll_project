@@ -11,7 +11,9 @@ import subprocess
 import sys
 import threading
 import time
+import uuid
 from pathlib import Path
+from urllib.parse import quote
 
 import streamlit as st
 import streamlit.components.v1 as components
@@ -55,6 +57,7 @@ from app.chat.ui import (
 )
 from app.engines.parser.school_math_taxonomy import topic_label as _school_topic_label
 from app.core.multi_problem_segmenter import save_problem_card_images as _save_problem_card_images
+from app.learning_engine.auto_reanalysis import maybe_upgrade_registered_analysis as _maybe_upgrade_registered_analysis
 from app.learning_engine import (
     format_learning_engine_status as _format_learning_engine_status,
     generate_learning_problem_record as _generate_learning_problem_record,
@@ -80,7 +83,10 @@ DEFAULT_USER_PROMPT = "뭐야?"
 PROMPT_PLACEHOLDER = "자료가 없어도 괜찮아요. 수학 개념이나 문제를 그대로 물어보세요."
 APP_VERSION = str(os.getenv("COCO_APP_VERSION") or "1.0.0").strip() or "1.0.0"
 CHECK_FAULTS_PATH = APP_SUPPORT_DIR / "check_faults.json"
+AUTO_REANALYSIS_QUEUE_PATH = APP_SUPPORT_DIR / "auto_reanalysis_review_queue.jsonl"
 CAPTURES_DIR = APP_SUPPORT_DIR / "captures"
+NATIVE_CAPTURE_REQUESTS_DIR = APP_SUPPORT_DIR / "native_capture_requests"
+NATIVE_CAPTURE_RESULTS_DIR = APP_SUPPORT_DIR / "native_capture_results"
 PRACTICE_IMAGES_DIR = APP_SUPPORT_DIR / "generated_practice_images"
 OLLAMA_BIN_CANDIDATES = (
     "/opt/homebrew/bin/ollama",
@@ -233,7 +239,7 @@ def _register_uploaded_document(state: dict, file_id: str, file_name: str, file_
     docs = [item for item in state.get("documents", []) if item.get("doc_id") not in registered_doc_ids]
     new_docs: list[dict] = []
     for offset, (doc_id, doc_name, doc_path, segment_metadata) in enumerate(upload_items):
-        analysis = _run_analysis(doc_path)
+        analysis = _run_registered_analysis_with_auto_recheck(doc_id, doc_name, doc_path)
         if segment_metadata:
             analysis["multi_problem_parent"] = segment_metadata
         item_registered_at = registered_at - offset * 0.001
@@ -447,6 +453,39 @@ def _mac_screen_capture_access_granted() -> bool | None:
         return None
 
 
+def _request_mac_screen_capture_access() -> bool | None:
+    if sys.platform != "darwin":
+        return None
+    try:
+        from Quartz import CGRequestScreenCaptureAccess
+
+        return bool(CGRequestScreenCaptureAccess())
+    except Exception:
+        return None
+
+
+def _open_mac_screen_capture_privacy_settings() -> None:
+    if sys.platform != "darwin":
+        return
+    settings_urls = [
+        "x-apple.systempreferences:com.apple.preference.security?Privacy_ScreenCapture",
+        "x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_ScreenCapture",
+    ]
+    for settings_url in settings_urls:
+        try:
+            result = subprocess.run(
+                ["open", settings_url],
+                capture_output=True,
+                text=True,
+                timeout=3,
+                check=False,
+            )
+        except Exception:
+            continue
+        if result.returncode == 0:
+            return
+
+
 def _mac_screenshot_search_dirs() -> list[Path]:
     candidates: list[Path] = []
     try:
@@ -570,6 +609,74 @@ def _capture_with_system_screenshot_app(capture_name: str) -> tuple[str, str, st
     return None
 
 
+def _capture_with_native_app_bridge(capture_name: str) -> tuple[str, str, str] | None:
+    cooldown_until = float(st.session_state.get("_capture_permission_denied_until", 0.0) or 0.0)
+    if time.time() < cooldown_until:
+        _set_upload_feedback(
+            "error",
+            "화면 캡처 권한이 필요합니다. 시스템 설정에서 화면 기록 권한을 허용한 뒤 CocoAi Study를 완전히 종료하고 다시 실행해주세요.",
+        )
+        return None
+
+    request_id = uuid.uuid4().hex
+    NATIVE_CAPTURE_REQUESTS_DIR.mkdir(parents=True, exist_ok=True)
+    NATIVE_CAPTURE_RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    request_path = NATIVE_CAPTURE_REQUESTS_DIR / f"{request_id}.json"
+    result_path = NATIVE_CAPTURE_RESULTS_DIR / f"{request_id}.json"
+    payload = {
+        "request_id": request_id,
+        "capture_name": capture_name,
+        "created_at": time.time(),
+    }
+    try:
+        request_path.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+    except Exception as exc:
+        _set_upload_feedback("error", f"캡처 요청을 만들지 못했습니다: {exc}")
+        return None
+
+    timeout = float(os.getenv("COCO_NATIVE_CAPTURE_TIMEOUT", "120") or "120")
+    deadline = time.time() + max(timeout, 20.0)
+    while time.time() < deadline:
+        if result_path.exists():
+            try:
+                result = json.loads(result_path.read_text(encoding="utf-8"))
+            except Exception as exc:
+                _set_upload_feedback("error", f"캡처 결과를 읽지 못했습니다: {exc}")
+                result_path.unlink(missing_ok=True)
+                return None
+            result_path.unlink(missing_ok=True)
+            status = str(result.get("status") or "").strip()
+            if status == "ok":
+                captured_path = Path(str(result.get("path") or ""))
+                if not captured_path.exists() or not captured_path.is_file():
+                    _set_upload_feedback("error", "캡처 파일을 찾지 못했습니다.")
+                    return None
+                try:
+                    data = _read_stable_file_bytes(captured_path)
+                    saved = _save_uploaded_bytes(capture_name, data)
+                    captured_path.unlink(missing_ok=True)
+                    return saved
+                except Exception as exc:
+                    _set_upload_feedback("error", f"캡처 파일을 등록하지 못했습니다: {exc}")
+                    return None
+            if status == "permission_denied":
+                st.session_state["_capture_permission_denied_until"] = time.time() + 10.0
+                _set_upload_feedback(
+                    "error",
+                    "화면 캡처 권한이 필요합니다. 시스템 설정에서 화면 기록 권한을 허용한 뒤 CocoAi Study를 완전히 종료하고 다시 실행해주세요.",
+                )
+            elif status == "cancelled":
+                _set_upload_feedback("error", "캡처가 취소되었거나 완료되지 않았습니다.")
+            else:
+                _set_upload_feedback("error", "캡처가 취소되었거나 완료되지 않았습니다.")
+            return None
+        time.sleep(0.2)
+
+    request_path.unlink(missing_ok=True)
+    _set_upload_feedback("error", "CocoAi Study 캡처 브리지가 응답하지 않았습니다. 앱을 완전히 종료한 뒤 다시 실행해주세요.")
+    return None
+
+
 def _capture_screen_selection() -> tuple[str, str, str] | None:
     if sys.platform != "darwin":
         _set_upload_feedback("error", "현재 캡처 등록은 macOS 앱 환경에서만 지원합니다.")
@@ -579,17 +686,16 @@ def _capture_screen_selection() -> tuple[str, str, str] | None:
     capture_name = f"capture_{time.strftime('%Y%m%d_%H%M%S')}.png"
     capture_path = CAPTURES_DIR / capture_name
     capture_mode = str(os.getenv("COCO_CAPTURE_MODE") or "auto").strip().lower()
-    access_granted = _mac_screen_capture_access_granted()
-    if capture_mode in {"screenshot", "screenshot_app", "system"} or (
-        capture_mode == "auto" and access_granted is not True
-    ):
+    if capture_mode in {"screenshot", "screenshot_app", "system"}:
         _set_upload_feedback("success", "시스템 캡처 도구를 열었습니다. 캡처가 끝나면 자동 등록합니다.")
         return _capture_with_system_screenshot_app(capture_name)
+    if str(os.getenv("COCO_NATIVE_CAPTURE_BRIDGE") or "").strip() == "1":
+        return _capture_with_native_app_bridge(capture_name)
 
     try:
         capture_bin = shutil.which("screencapture") or "/usr/sbin/screencapture"
         result = subprocess.run(
-            [capture_bin, "-i", str(capture_path)],
+            [capture_bin, "-i", "-s", "-x", str(capture_path)],
             capture_output=True,
             text=True,
             check=False,
@@ -601,7 +707,15 @@ def _capture_screen_selection() -> tuple[str, str, str] | None:
     if result.returncode != 0 or not capture_path.exists() or capture_path.stat().st_size == 0:
         if capture_path.exists():
             capture_path.unlink(missing_ok=True)
-        _set_upload_feedback("error", "캡처가 취소되었거나 저장되지 않았습니다.")
+        error_text = str(result.stderr or result.stdout or "").strip()
+        if "not authorized" in error_text.lower() or "screen" in error_text.lower() and "record" in error_text.lower():
+            _open_mac_screen_capture_privacy_settings()
+            _set_upload_feedback(
+                "error",
+                "화면 캡처 권한이 필요합니다. 열린 설정에서 화면 기록 권한을 허용한 뒤 CocoAi Study를 다시 실행해주세요.",
+            )
+        else:
+            _set_upload_feedback("error", "캡처가 취소되었거나 저장되지 않았습니다.")
         return None
 
     try:
@@ -655,18 +769,22 @@ def _choose_local_image_file() -> UploadResult | None:
 
 
 def _run_analysis(file_path: str, user_query: str = "") -> dict:
-    from app.core.pipeline import run_solve_pipeline
+    from app.core.pipeline import run_service_image_analysis
 
-    started = time.time()
-    payload = run_solve_pipeline(image_path=file_path, user_query=user_query, debug=True)
-    finished = time.time()
-    return {
-        "analysis_started_at": started,
-        "analysis_finished_at": finished,
-        "structured_problem": payload["structured_problem"].model_dump(),
-        "solve_result": payload["solve_result"].model_dump(),
-        "debug": payload.get("debug", {}),
-    }
+    return run_service_image_analysis(file_path, user_query=user_query, debug=True)
+
+
+def _run_registered_analysis_with_auto_recheck(doc_id: str, file_name: str, file_path: str) -> dict:
+    initial_analysis = _run_analysis(file_path)
+    return _maybe_upgrade_registered_analysis(
+        file_path=file_path,
+        initial_analysis=initial_analysis,
+        analyzer=_run_analysis,
+        doc_id=doc_id,
+        file_name=file_name,
+        review_queue_path=AUTO_REANALYSIS_QUEUE_PATH,
+        max_attempts=1,
+    )
 
 
 def _schedule_main_chat_llm_warmup() -> None:
@@ -711,8 +829,11 @@ def _learning_list_label(item: dict, document: dict | None = None) -> str:
 def _status_badge(status: str) -> str:
     palette = {
         "정상": ("rgba(34,197,94,0.14)", "#7ce2a6"),
-        "보강 필요": ("rgba(251,113,133,0.16)", "#f9a8b3"),
-        "재설정필요": ("rgba(251,113,133,0.16)", "#f9a8b3"),
+        "분석실패": ("rgba(251,113,133,0.16)", "#f9a8b3"),
+        "생성실패": ("rgba(251,113,133,0.16)", "#f9a8b3"),
+        "등록실패": ("rgba(251,113,133,0.16)", "#f9a8b3"),
+        "저장실패": ("rgba(251,113,133,0.16)", "#f9a8b3"),
+        "로그확인": ("rgba(251,191,36,0.16)", "#fde68a"),
         "실패": ("rgba(248,113,113,0.18)", "#fca5a5"),
     }
     bg, fg = palette.get(status, ("rgba(148,163,184,0.18)", "#cbd5e1"))
@@ -1193,10 +1314,9 @@ def _render_search_panel(state: dict) -> None:
         label = html.escape(_search_result_button_label(index, result))
         target_type = str(result.get("target_type") or "").strip()
         doc_id = str(result.get("doc_id") or "").strip()
-        key_seed = hashlib.sha1(f"{query}|{index}|{target_type}|{doc_id}".encode("utf-8")).hexdigest()[:10]
-        result_lines.append(
-            f'<a class="search-panel-result" href="#" data-coco-search-action="{key_seed}">{label}</a>'
-        )
+        href = "?chat=main" if target_type == "main" else f"?doc={quote(doc_id, safe='')}"
+        safe_href = html.escape(href, quote=True)
+        result_lines.append(f'<a class="search-panel-result" href="{safe_href}">{label}</a>')
     if not result_lines:
         result_lines.append(
             '<div class="search-panel-empty">현재 저장된 메인 채팅, 학습리스트 채팅, 분석 텍스트에서 찾지 못했습니다.</div>'
@@ -1211,75 +1331,14 @@ def _render_search_panel(state: dict) -> None:
                 f"    <span>{html.escape(query)} · {html.escape(count_text)} · 마우스를 올리면 펼쳐집니다.</span>"
                 "  </div>"
                 f'  <div class="search-panel-results">{"".join(result_lines)}</div>'
-                '  <div class="search-panel-close-row">'
-                '    <a class="search-panel-close-link" href="#" data-coco-search-action="close">닫기</a>'
-                "  </div>"
                 "</div>"
             ),
             unsafe_allow_html=True,
         )
-    with st.container(key="search_panel_actions"):
-        for index, result in enumerate(results[:12], start=1):
-            target_type = str(result.get("target_type") or "").strip()
-            doc_id = str(result.get("doc_id") or "").strip()
-            key_seed = hashlib.sha1(f"{query}|{index}|{target_type}|{doc_id}".encode("utf-8")).hexdigest()[:10]
-            if st.button(f"search-action-{key_seed}", key=f"search_action_{key_seed}"):
-                if target_type == "main":
-                    _mark_active_target(state, "main")
-                elif doc_id:
-                    _mark_active_target(state, "study", doc_id)
-                _save_state(state)
-                st.rerun()
-        if st.button("search-action-close", key="search_action_close"):
+        if st.button("닫기", key="search_panel_close_button"):
             state.pop("search_panel", None)
             _save_state(state)
             st.rerun()
-    _wire_search_panel_actions()
-
-
-def _wire_search_panel_actions() -> None:
-    components.html(
-        """
-        <script>
-        const root = window.parent.document;
-        if (root.body && root.body.dataset.cocoSearchBridgeReady !== '1') {
-          root.body.dataset.cocoSearchBridgeReady = '1';
-
-          const findActionButton = (action) => {
-            const byKey = root.querySelector(`[class*="st-key-search_action_${action}"] button`);
-            if (byKey) return byKey;
-            const expected = action === 'close' ? 'search-action-close' : `search-action-${action}`;
-            const buttons = Array.from(root.querySelectorAll('button'));
-            return buttons.find((button) => (button.textContent || '').trim() === expected) || null;
-          };
-
-          root.addEventListener('click', (event) => {
-            const link = event.target && event.target.closest
-              ? event.target.closest('[data-coco-search-action]')
-              : null;
-            if (!link) return;
-            event.preventDefault();
-            event.stopPropagation();
-            const action = link.getAttribute('data-coco-search-action') || '';
-            if (!action) return;
-            const clickTarget = () => {
-              const target = findActionButton(action);
-              if (target) {
-                target.click();
-                return true;
-              }
-              return false;
-            };
-            if (!clickTarget()) {
-              setTimeout(clickTarget, 80);
-              setTimeout(clickTarget, 220);
-            }
-          }, true);
-        }
-        </script>
-        """,
-        height=0,
-    )
 
 
 def _render_prompt_input(state: dict) -> str | None:
@@ -1378,6 +1437,39 @@ def _count_debug_entries(payload: object) -> int:
     return 0
 
 
+def _debug_issue_messages(payload: object, *, limit: int = 3) -> list[str]:
+    messages: list[str] = []
+
+    def collect(value: object, prefix: str = "") -> None:
+        if len(messages) >= limit:
+            return
+        if isinstance(value, str):
+            text = value.strip()
+            if text:
+                messages.append(f"{prefix}{text}" if prefix else text)
+            return
+        if isinstance(value, dict):
+            message = str(value.get("message") or value.get("error") or value.get("reason") or "").strip()
+            if message:
+                messages.append(f"{prefix}{message}" if prefix else message)
+                return
+            for key, child in value.items():
+                collect(child, f"{key}: ")
+                if len(messages) >= limit:
+                    return
+            return
+        if isinstance(value, (list, tuple, set)):
+            for child in value:
+                collect(child, prefix)
+                if len(messages) >= limit:
+                    return
+
+    if isinstance(payload, dict):
+        collect(payload.get("errors"))
+        collect(payload.get("warnings"))
+    return _dedupe_text(messages, limit=limit)
+
+
 def _build_study_check_items(state: dict, selected: dict | None) -> list[dict]:
     documents = _load_all_documents(state)
     stored_files = len(documents)
@@ -1405,6 +1497,9 @@ def _build_study_check_items(state: dict, selected: dict | None) -> list[dict]:
         + [str(item or "").strip() for item in structured.get("source_text_candidates") or []],
         limit=8,
     )
+    problem_text = str(structured.get("normalized_problem_text") or "").strip()
+    source_candidates = [str(item or "").strip() for item in structured.get("source_text_candidates") or [] if str(item or "").strip()]
+    expression_candidates = [str(item or "").strip() for item in structured.get("expressions") or [] if str(item or "").strip()]
     try:
         recognition_confidence = float(structured.get("confidence") or 0.0)
     except Exception:
@@ -1423,37 +1518,50 @@ def _build_study_check_items(state: dict, selected: dict | None) -> list[dict]:
     session_ok, session_body = _probe_session_restore()
     storage_ready = storage_ok and session_ok
 
-    warning_count = _count_debug_entries(debug_payload.get("warnings")) + _count_debug_entries(debug_payload.get("errors"))
-    if not recognition_ready:
-        warning_count += 1
-    if solution_failed:
-        warning_count += 1
+    external_error_messages = _debug_issue_messages(debug_payload)
 
     file_body = "현재 등록된 학습 자료가 없습니다."
     if file_name:
         file_body = f"현재 자료 {_truncate_label(file_name, limit=20)} / 저장된 자료 {stored_files}건"
 
     vision_missing = bool(vision_debug) and not bool(vision_debug.get("available"))
+    visual_template = metadata.get("visual_template") if isinstance(metadata.get("visual_template"), dict) else {}
+    template_hint_text = " ".join([problem_text] + source_candidates)
+    template_needed = any(token in template_hint_text for token in ("그림", "보기", "표", "그래프", "도형", "선분"))
+    recognition_issues: list[str] = []
+    if not problem_text and not source_candidates:
+        recognition_issues.append("문장 OCR 실패")
+    if not expression_candidates:
+        recognition_issues.append("수식 후보 없음")
+    if template_needed and not visual_template:
+        recognition_issues.append("템플릿 확인 필요")
+    if recognition_confidence < 0.45:
+        recognition_issues.append("OCR 신뢰도 낮음")
+    recognition_issues = _dedupe_text(recognition_issues, limit=4)
     if recognition_ready:
         recognition_body = f"문제 문장과 식 후보 {len(recognized_signals)}개를 확인했습니다."
+    elif recognition_issues:
+        recognition_body = f"원인: {' · '.join(recognition_issues)}"
     elif repair_debug.get("accepted"):
-        recognition_body = "기본 OCR을 바탕으로 문제 문장을 다시 정리했고, 식 후보를 더 선명하게 맞추는 중입니다."
+        recognition_body = "원인: OCR 보정 후에도 수식 또는 템플릿 확정이 부족합니다."
     elif vision_missing:
-        recognition_body = "시각 분석 모델 연결이 없어 기본 OCR만 사용했고, 문제 문장을 더 선명하게 읽는 중입니다."
+        recognition_body = "원인: 시각 분석 모델 연결 없음 · 기본 OCR만 사용"
     else:
-        recognition_body = "문제 문장과 식 후보를 더 선명하게 읽는 중입니다."
+        recognition_body = "원인: 문제 문장 또는 수식 단서 부족"
 
     if solution_ready:
         if answer_value:
             solution_body = f"현재 답 후보 {answer_value}"
         else:
             solution_body = f"풀이 단계 {len(steps)}개를 정리했습니다."
+    elif not recognition_ready:
+        solution_body = "문제 인식 실패로 풀이를 생성하지 못했습니다."
     elif validation_status == "failed" and repair_debug.get("accepted"):
-        solution_body = "문제 문장은 보강했지만 계산식 확정이 더 필요해서 풀이를 계속 정리하고 있습니다."
+        solution_body = "수식 확정이 부족해 풀이를 생성하지 못했습니다."
     elif validation_status == "failed" and str(tesseract_debug.get("variant") or "").strip() == "preprocessed":
-        solution_body = "OCR 보정까지 시도했지만 수식 복원이 부족해서 풀이를 확정하지 못했습니다."
+        solution_body = "OCR 보정 후에도 수식 복원이 부족해 풀이를 생성하지 못했습니다."
     else:
-        solution_body = "풀이 단서를 정리하는 중입니다."
+        solution_body = "풀이 생성에 필요한 계산 단서가 부족합니다."
 
     if selected_chat_count:
         dialogue_body = f"현재 자료 대화 {selected_chat_count}건이 이어지고 있습니다."
@@ -1464,25 +1572,27 @@ def _build_study_check_items(state: dict, selected: dict | None) -> list[dict]:
         storage_body if not storage_ok else session_body
     )
 
-    error_body = "최근 분석 오류가 없습니다." if warning_count == 0 else f"최근 확인된 분석 경고 {warning_count}건"
+    error_body = "문제 인식/풀이 외 오류 없음"
+    if external_error_messages:
+        error_body = f"외부 오류 {len(external_error_messages)}건: {' · '.join(external_error_messages)}"
 
     return [
         {
             "id": "study_file",
             "title": "파일 등록",
-            "status": "정상" if file_name else "보강 필요",
+            "status": "정상" if file_name else "등록실패",
             "body": file_body,
         },
         {
             "id": "study_recognition",
             "title": "문제 인식",
-            "status": "정상" if recognition_ready else "보강 필요",
+            "status": "정상" if recognition_ready else "분석실패",
             "body": recognition_body,
         },
         {
             "id": "study_solution",
             "title": "풀이 결과",
-            "status": "정상" if solution_ready else "보강 필요",
+            "status": "정상" if solution_ready else "생성실패",
             "body": solution_body,
         },
         {
@@ -1494,13 +1604,13 @@ def _build_study_check_items(state: dict, selected: dict | None) -> list[dict]:
         {
             "id": "study_storage",
             "title": "저장 상태",
-            "status": "정상" if storage_ready else "보강 필요",
+            "status": "정상" if storage_ready else "저장실패",
             "body": storage_message,
         },
         {
             "id": "study_errors",
             "title": "오류 로그",
-            "status": "정상" if warning_count == 0 else "보강 필요",
+            "status": "정상" if not external_error_messages else "로그확인",
             "body": error_body,
         },
     ]
@@ -1522,14 +1632,44 @@ def _build_check_panel_meta(state: dict, selected: dict | None) -> tuple[str, st
     return "학습 점검", "등록된 학습 자료 상태를 확인하고 있습니다."
 
 
+def _study_check_routine_count(selected: dict | None) -> int:
+    analysis = (selected or {}).get("analysis") or {}
+    structured = analysis.get("structured_problem") or {}
+    metadata = structured.get("metadata") or {}
+    auto_reanalysis = metadata.get("auto_reanalysis") or {}
+    status = str(auto_reanalysis.get("status") or "").strip()
+    try:
+        attempt_count = int(auto_reanalysis.get("attempt_count") or 0)
+    except Exception:
+        attempt_count = 0
+    try:
+        selected_attempt = int(auto_reanalysis.get("selected_attempt") or 0)
+    except Exception:
+        selected_attempt = 0
+    if status == "healthy":
+        return 1
+    if status == "upgraded" and selected_attempt > 0:
+        return max(2, 1 + selected_attempt)
+    if status in {"review_queued", "rechecked"} and selected_attempt <= 0:
+        return 1 + min(max(0, attempt_count), 1)
+    return max(1, 1 + max(0, attempt_count))
+
+
 def _render_check_panel(items: list[dict], state: dict, selected: dict | None) -> None:
-    has_red_status = any(str(item.get("status") or "").strip() in {"보강 필요", "실패"} for item in items)
-    summary = "재설정필요" if has_red_status else "정상"
+    failure_statuses = {"분석실패", "생성실패", "등록실패", "저장실패", "실패"}
+    has_red_status = any(str(item.get("status") or "").strip() in failure_statuses for item in items)
+    summary = "분석실패" if has_red_status else "정상"
     summary_badge = _status_badge(summary)
     feedback = st.session_state.pop("_check_panel_feedback", None)
     panel_title, panel_subtitle = _build_check_panel_meta(state, selected)
     panel_mode = "main" if _active_chat_mode(state) == "main" else "study"
-    title_html = html.escape(panel_title)
+    if panel_mode == "study":
+        title_html = (
+            f'{html.escape(panel_title)} '
+            f'<span class="check-routine-count">({_study_check_routine_count(selected)})</span>'
+        )
+    else:
+        title_html = html.escape(panel_title)
     subtitle_html = html.escape(panel_subtitle)
 
     with st.container(key=f"check_panel_{panel_mode}"):
@@ -1710,10 +1850,100 @@ def _render_upload_entry(state: dict) -> None:
 
     _render_upload_feedback()
 
-    if st.session_state.pop("_pending_capture_request", False):
-        _run_capture_registration(state)
+    if st.session_state.pop("_pending_capture_request", False) and not st.session_state.get("_capture_request_active"):
+        st.session_state["_capture_request_active"] = True
+        try:
+            _run_capture_registration(state)
+        finally:
+            st.session_state["_capture_request_active"] = False
     if st.session_state.pop("_pending_browse_request", False):
         _run_browse_registration(state)
+
+
+def _wire_global_upload_dropzone() -> None:
+    components.html(
+        """
+        <script>
+        (() => {
+          const root = window.parent.document;
+          if (!root.body) return;
+
+          const readyVersion = '2';
+          root.body.classList.remove('coco-global-dragging');
+          if (root.body.dataset.cocoGlobalUploadDropReady === readyVersion) return;
+          root.body.dataset.cocoGlobalUploadDropReady = readyVersion;
+
+          let dragDepth = 0;
+          let clearTimer = null;
+          let lastFileDragAt = 0;
+
+          const hasFiles = (event) => {
+            const transfer = event.dataTransfer;
+            if (!transfer) return false;
+            return Array.from(transfer.types || []).includes('Files');
+          };
+
+          const show = () => {
+            if (clearTimer) window.clearTimeout(clearTimer);
+            lastFileDragAt = Date.now();
+            root.body.classList.add('coco-global-dragging');
+          };
+
+          const hideNow = () => {
+            if (clearTimer) window.clearTimeout(clearTimer);
+            dragDepth = 0;
+            root.body.classList.remove('coco-global-dragging');
+          };
+
+          const hideSoon = () => {
+            if (clearTimer) window.clearTimeout(clearTimer);
+            clearTimer = window.setTimeout(() => {
+              hideNow();
+            }, 80);
+          };
+
+          root.addEventListener('dragenter', (event) => {
+            if (!hasFiles(event)) return;
+            dragDepth += 1;
+            show();
+          }, true);
+
+          root.addEventListener('dragover', (event) => {
+            if (!hasFiles(event)) return;
+            show();
+          }, true);
+
+          root.addEventListener('dragleave', (event) => {
+            if (!hasFiles(event)) return;
+            dragDepth = Math.max(0, dragDepth - 1);
+            if (dragDepth === 0) hideSoon();
+          }, true);
+
+          root.addEventListener('drop', () => {
+            hideNow();
+            window.setTimeout(hideNow, 160);
+            window.setTimeout(hideNow, 700);
+          }, true);
+          root.addEventListener('dragend', hideNow, true);
+          root.defaultView.addEventListener('blur', hideNow, true);
+          root.addEventListener('mouseup', hideSoon, true);
+          root.addEventListener('mouseleave', hideSoon, true);
+          root.addEventListener('visibilitychange', () => {
+            if (root.hidden) hideNow();
+          }, true);
+          root.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') hideNow();
+          }, true);
+
+          window.setInterval(() => {
+            if (!root.body.classList.contains('coco-global-dragging')) return;
+            if (Date.now() - lastFileDragAt > 1400) hideNow();
+          }, 500);
+        })();
+        </script>
+        """,
+        height=0,
+    )
 
 
 def _is_initial_study_card(message: dict) -> bool:
@@ -2292,6 +2522,61 @@ def _inject_css() -> None:
           content: none;
         }
 
+        body.coco-global-dragging::before {
+          content: "";
+          position: fixed;
+          inset: 0;
+          z-index: 9997;
+          background: rgba(10, 14, 24, 0.50);
+          border: 2px dashed rgba(147, 197, 253, 0.72);
+          box-shadow: inset 0 0 0 8px rgba(59, 130, 246, 0.10);
+          pointer-events: none;
+          box-sizing: border-box;
+        }
+
+        body.coco-global-dragging::after {
+          content: "파일을 놓으면 학습자료로 등록됩니다.";
+          position: fixed;
+          left: 50%;
+          top: 50%;
+          z-index: 9998;
+          transform: translate(-50%, -50%);
+          padding: 14px 18px;
+          border-radius: 14px;
+          background: rgba(15, 23, 42, 0.92);
+          border: 1px solid rgba(147, 197, 253, 0.46);
+          box-shadow: 0 18px 46px rgba(0, 0, 0, 0.28);
+          color: #edf2ff;
+          font-size: 16px;
+          font-weight: 520;
+          line-height: 1.35;
+          pointer-events: none;
+          white-space: nowrap;
+        }
+
+        body.coco-global-dragging [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"] {
+          position: fixed !important;
+          inset: 0 !important;
+          z-index: 9999 !important;
+          width: 100vw !important;
+          height: 100vh !important;
+          min-height: 100vh !important;
+          border: 0 !important;
+          border-radius: 0 !important;
+          background: transparent !important;
+          opacity: 0.01 !important;
+          pointer-events: auto !important;
+        }
+
+        body.coco-global-dragging [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"] section,
+        body.coco-global-dragging [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"] > div,
+        body.coco-global-dragging [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"] section > div,
+        body.coco-global-dragging [data-testid="stSidebar"] [class*="st-key-upload_find_card"] [data-testid="stFileUploaderDropzone"] section > div > div {
+          width: 100vw !important;
+          height: 100vh !important;
+          min-height: 100vh !important;
+        }
+
         [data-testid="stFileUploaderDropzone"] {
           min-height: 50px !important;
           height: 50px !important;
@@ -2659,6 +2944,13 @@ def _inject_css() -> None:
           font-weight: 700;
           letter-spacing: -0.03em;
           line-height: 1.2;
+        }
+
+        .check-routine-count {
+          color: rgba(255, 255, 255, 0.64);
+          font-size: 13px;
+          font-weight: 520;
+          letter-spacing: 0;
         }
 
         .check-panel-subtitle {
@@ -3051,6 +3343,7 @@ def _inject_css() -> None:
           --coco-chat-right: 106px;
           --coco-chat-bottom: 12px;
           --coco-chat-height: 45px;
+          --coco-search-panel-open-height: min(420px, calc(100dvh - 150px));
         }
 
 div[data-testid="stChatInput"] {
@@ -3175,7 +3468,7 @@ div[data-testid="stChatInput"] button {
 [class*="st-key-search_panel"] {
     position: fixed !important;
     left: var(--coco-chat-left) !important;
-    right: var(--coco-chat-right) !important;
+    right: 32px !important;
     width: auto !important;
     bottom: calc(var(--coco-chat-bottom) + var(--coco-chat-height) + 10px) !important;
     z-index: 1003 !important;
@@ -3187,22 +3480,33 @@ div[data-testid="stChatInput"] button {
     background: rgba(25, 28, 36, 0.96) !important;
     box-shadow: 0 14px 34px rgba(15, 23, 42, 0.26) !important;
     padding: 0 12px 10px 12px !important;
+    box-sizing: border-box !important;
     transition: height 0.16s ease, max-height 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease !important;
 }
 
 [class*="st-key-search_panel"]:hover {
-    height: min(330px, calc(100vh - 170px)) !important;
-    max-height: min(330px, calc(100vh - 170px)) !important;
+    height: var(--coco-search-panel-open-height) !important;
+    max-height: var(--coco-search-panel-open-height) !important;
     border-color: rgba(147, 197, 253, 0.42) !important;
     box-shadow: 0 18px 46px rgba(15, 23, 42, 0.34) !important;
     overflow: hidden !important;
 }
 
+[class*="st-key-search_panel"] [data-testid="stVerticalBlock"],
+[class*="st-key-search_panel"] [data-testid="stMarkdownContainer"],
+[class*="st-key-search_panel"] [data-testid="stMarkdownContainer"] > div {
+    height: 100% !important;
+    min-height: 0 !important;
+}
+
 [class*="st-key-search_panel"] .search-panel-body {
     height: 100%;
+    max-height: 100%;
     display: flex;
     flex-direction: column;
     min-width: 0;
+    min-height: 0;
+    overflow: hidden;
 }
 
 [class*="st-key-search_panel"] .search-panel-summary {
@@ -3216,6 +3520,7 @@ div[data-testid="stChatInput"] button {
     line-height: 1.2;
     white-space: nowrap;
     min-width: 0;
+    padding-left: 8px;
 }
 
 [class*="st-key-search_panel"] .search-panel-summary strong {
@@ -3239,10 +3544,14 @@ div[data-testid="stChatInput"] button {
 
 [class*="st-key-search_panel"] .search-panel-results {
     flex: 1 1 auto;
+    height: auto;
+    max-height: none;
     min-height: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 2px 0 6px;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    padding: 2px 0 42px;
 }
 
 [class*="st-key-search_panel"] .search-panel-results::-webkit-scrollbar {
@@ -3282,55 +3591,105 @@ div[data-testid="stChatInput"] button {
     color: #ffffff;
 }
 
-[class*="st-key-search_panel"] .search-panel-close-row {
-    flex: 0 0 34px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 4px;
-    margin-top: 2px;
-    border-top: 1px solid rgba(148, 163, 184, 0.18);
+[class*="st-key-search_panel"] [class*="st-key-search_panel_close_button"] {
+    position: absolute !important;
+    left: auto !important;
+    right: 12px !important;
+    bottom: 8px !important;
+    width: 54px !important;
+    min-width: 54px !important;
+    max-width: 54px !important;
+    height: 32px !important;
+    min-height: 32px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-top: 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
 }
 
-[class*="st-key-search_panel"] .search-panel-close-link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 54px;
-    height: 28px;
-    padding: 0 10px;
-    border-radius: 999px;
-    border: 1px solid rgba(148, 163, 184, 0.28);
-    background: rgba(255, 255, 255, 0.05);
-    color: #e5e7eb;
-    font-size: 12px;
-    font-weight: 800;
-    text-decoration: none;
-    text-align: center;
+[class*="st-key-search_panel"] [class*="st-key-search_panel_close_button"] > div,
+[class*="st-key-search_panel"] [class*="st-key-search_panel_close_button"] [data-testid="stButton"] {
+    width: 54px !important;
+    min-width: 54px !important;
+    max-width: 54px !important;
+    height: 28px !important;
+    min-height: 28px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    box-sizing: border-box !important;
 }
 
-[class*="st-key-search_panel"] .search-panel-close-link:hover,
-[class*="st-key-search_panel"] .search-panel-close-link:focus {
-    background: rgba(59, 130, 246, 0.18);
-    border-color: rgba(147, 197, 253, 0.5);
-    color: #ffffff;
+[class*="st-key-search_panel"] [class*="st-key-search_panel_close_button"] [data-testid="stButton"] > div,
+[class*="st-key-search_panel"] [class*="st-key-search_panel_close_button"] [data-testid="stButton"] > div > div {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
 }
 
-[class*="st-key-search_panel_actions"] {
-    position: fixed !important;
-    left: -10000px !important;
-    top: -10000px !important;
-    width: 1px !important;
-    height: 1px !important;
-    overflow: hidden !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
+[class*="st-key-search_panel"] [class*="st-key-search_panel_close_button"] button {
+    width: 54px !important;
+    min-width: 54px !important;
+    max-width: 54px !important;
+    height: 28px !important;
+    min-height: 28px !important;
+    padding: 0 10px !important;
+    border-radius: 999px !important;
+    border: 1px solid rgba(148, 163, 184, 0.28) !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    color: #e5e7eb !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+    filter: none !important;
+    font-size: 11px !important;
+    font-weight: 800 !important;
+    box-sizing: border-box !important;
+}
+
+[class*="st-key-search_panel"] [class*="st-key-search_panel_close_button"] button::before,
+[class*="st-key-search_panel"] [class*="st-key-search_panel_close_button"] button::after {
+    display: none !important;
+    content: none !important;
+}
+
+[class*="st-key-search_panel"] [class*="st-key-search_panel_close_button"] button > div,
+[class*="st-key-search_panel"] [class*="st-key-search_panel_close_button"] button [data-testid="stMarkdownContainer"],
+[class*="st-key-search_panel"] [class*="st-key-search_panel_close_button"] button p,
+[class*="st-key-search_panel"] [class*="st-key-search_panel_close_button"] button span {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    line-height: 1 !important;
+    font-size: 11px !important;
+}
+
+[class*="st-key-search_panel"] [class*="st-key-search_panel_close_button"] button:hover,
+[class*="st-key-search_panel"] [class*="st-key-search_panel_close_button"] button:focus,
+[class*="st-key-search_panel"] [class*="st-key-search_panel_close_button"] button:focus-visible,
+[class*="st-key-search_panel"] [class*="st-key-search_panel_close_button"] button:active {
+    background: rgba(59, 130, 246, 0.18) !important;
+    border-color: rgba(147, 197, 253, 0.5) !important;
+    color: #ffffff !important;
+    outline: 0 !important;
+    box-shadow: none !important;
 }
 
 [class*="st-key-floating_reset_button"] {
     position: fixed;
     right: 40px;
-    bottom: 98px;
+    bottom: 113px;
     z-index: 1002;
     width: 48px;
     height: 48px;
@@ -3480,6 +3839,7 @@ if st.session_state.pop("_clear_active_chat_requested", False):
 
 _save_state(state)
 _inject_css()
+_wire_global_upload_dropzone()
 
 with st.sidebar:
     with st.container(key="logo_home_button"):

@@ -80,7 +80,7 @@ def _question_marker_components(image: Image.Image) -> list[tuple[int, int, int,
         box_height = y1 - y0
         if area < 18 or box_width < 4 or box_height < 12:
             continue
-        if area > 2600 or box_width > width * 0.12 or box_height > height * 0.08:
+        if area > 700 or box_width > width * 0.12 or box_height > height * 0.08:
             continue
         markers.append((x0, y0, x1, y1))
     return markers
@@ -160,7 +160,13 @@ def detect_problem_regions(image_path: str | Path, *, minimum_regions: int = 2) 
     right = [box for box in right if split_x - 20 <= box[0] <= split_x + marker_x_margin]
     left = [box for box in left if _has_prompt_ink_right(image, box, split_x)]
     right = [box for box in right if _has_prompt_ink_right(image, box, width)]
-    columns = [("left", 0, split_x, sorted(left, key=lambda box: box[1])), ("right", split_x, width, sorted(right, key=lambda box: box[1]))]
+    if left and not right:
+        columns = [("left", 0, width, sorted(left, key=lambda box: box[1]))]
+    else:
+        columns = [
+            ("left", 0, split_x, sorted(left, key=lambda box: box[1])),
+            ("right", split_x, width, sorted(right, key=lambda box: box[1])),
+        ]
 
     regions: list[ProblemRegion] = []
     for column_name, x0, x1, boxes in columns:

@@ -1,0 +1,87 @@
+{
+  "schema_version": "coco_elementary_50k_config.v1",
+  "target_total": 50000,
+  "tracks": {
+    "actual_pdf_capture": {
+      "target": 15000,
+      "minimum_verified_ratio_for_beta": 0.8,
+      "description": "Real PDF/image capture cards used to harden OCR, cropping, segmentation, and visual interpretation."
+    },
+    "normalized_json": {
+      "target": 20000,
+      "minimum_verified_ratio_for_beta": 0.6,
+      "description": "Normalized problem/solution/answer records used to train expression normalization and solver routing."
+    },
+    "template_variant": {
+      "target": 15000,
+      "minimum_verified_ratio_for_beta": 0.4,
+      "description": "Candidate generated variants from verified templates, used for regression and similar-problem generation."
+    }
+  },
+  "grade_targets": {
+    "1학년": 6000,
+    "2학년": 7000,
+    "3학년": 8000,
+    "4학년": 9000,
+    "5학년": 10000,
+    "6학년": 10000
+  },
+  "source_roots": [
+    {
+      "id": "toctoc_03_elementary",
+      "label": "Toctoc elementary baseline",
+      "track": "actual_pdf_capture",
+      "status": "verified",
+      "root": "03.학습문제/05.문제은행/01.초등",
+      "summary_report": "data/problem_bank/learned/coco_capture_flow_toctoc_03_elementary_summary.json"
+    },
+    {
+      "id": "skai_02_elementary",
+      "label": "Skai elementary PDF source",
+      "track": "actual_pdf_capture",
+      "status": "pending_revalidation",
+      "root": "02.학습문제/05.문제은행/01.초등",
+      "manifest": "data/problem_bank/sources/skai_pdf_edite_manifest.json"
+    }
+  ],
+  "normalized_json_sources": {
+    "catalog_path": "data/problem_bank/catalog.json",
+    "candidate_bank_ids": [
+      "competition_math",
+      "gsm8k",
+      "deepmind_mathematics",
+      "metamathqa",
+      "tal_scq5k"
+    ],
+    "elementary_filter_status": "available_but_requires_school_level_filtering"
+  },
+  "template_variant": {
+    "seed": 20260429,
+    "manifest": "data/problem_bank/elementary_50k/template_variants_manifest.json",
+    "status": "candidate_not_verified",
+    "policy": "Generated variants are candidates only; they must not replace real PDF capture validation."
+  },
+  "workspace": {
+    "root": "data/problem_bank/elementary_50k",
+    "directories": [
+      "01_actual_pdf_capture/incoming",
+      "01_actual_pdf_capture/edite",
+      "01_actual_pdf_capture/cards",
+      "02_normalized_json/candidates",
+      "02_normalized_json/verified",
+      "03_template_variants/candidates",
+      "03_template_variants/rendered",
+      "04_verified",
+      "05_rejected",
+      "06_reports",
+      "queues"
+    ]
+  },
+  "quality_gates": {
+    "dedupe_required": true,
+    "actual_capture_ok_rate": 0.95,
+    "normalized_json_answer_required": true,
+    "template_variant_solver_pass_rate": 0.98,
+    "max_duplicate_ratio": 0.03
+  }
+}

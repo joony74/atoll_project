@@ -1,0 +1,82 @@
+{
+  "schema_version": "coco_elementary_50k_learning_report.v1",
+  "generated_at": "2026-04-28T23:19:56+00:00",
+  "success": true,
+  "readiness": "static_learning_complete_validation_queues_ready",
+  "source_manifest": "data/problem_bank/elementary_50k/00_collected/source_collection_manifest.json",
+  "profile_path": "data/problem_bank/learned/coco_elementary_50k_learning_profile.json",
+  "workspace": "data/problem_bank/elementary_50k",
+  "summary": {
+    "target": 50000,
+    "total_records": 50000,
+    "learned_ready": 15001,
+    "validation_queued": 34999,
+    "review_queued": 0,
+    "rejected_duplicate": 0,
+    "answer_ready": 46083,
+    "ready_or_queued_total": 50000
+  },
+  "counts": {
+    "by_status": {
+      "learned_ready": 15001,
+      "validation_queued": 34999
+    },
+    "by_track": {
+      "actual_pdf_capture": 3917,
+      "normalized_json": 15001,
+      "template_variant": 31082
+    },
+    "by_source_type": {
+      "edite_page_image": 1124,
+      "external_problem_bank_record": 15001,
+      "generated_template_candidate": 11361,
+      "generated_template_reserve_candidate": 19721,
+      "previous_capture_card_image": 2633,
+      "source_pdf": 160
+    },
+    "by_grade": {
+      "1학년": 3953,
+      "2학년": 6575,
+      "3학년": 3030,
+      "4학년": 7983,
+      "5학년": 7789,
+      "6학년": 5669,
+      "elementary": 9534,
+      "elementary_middle": 5467
+    },
+    "by_bank": {
+      "deepmind_mathematics": 945,
+      "gsm8k": 8329,
+      "local_or_template": 34999,
+      "tal_scq5k": 5727
+    },
+    "top_reasons": {
+      "template_requires_render_and_solver_validation": 31082,
+      "previous_capture_card_image_requires_coco_capture_validation": 2633,
+      "edite_page_image_requires_coco_capture_validation": 1124,
+      "source_pdf_requires_coco_capture_validation": 160
+    }
+  },
+  "quality_gates": {
+    "target_loaded": true,
+    "no_non_elementary_external_records": true,
+    "duplicate_ratio": 0.0,
+    "max_duplicate_ratio": 0.03,
+    "duplicate_gate_passed": true,
+    "normalized_json_answer_coverage": 1.0,
+    "normalized_json_answer_gate_passed": true,
+    "static_learning_ingestion_complete": true
+  },
+  "queues": {
+    "learned_ready": "data/problem_bank/elementary_50k/queues/learned_ready.jsonl",
+    "actual_capture_validation": "data/problem_bank/elementary_50k/queues/actual_capture_validation_queue.jsonl",
+    "template_render_validation": "data/problem_bank/elementary_50k/queues/template_render_validation_queue.jsonl",
+    "review": "data/problem_bank/elementary_50k/queues/review_queue.jsonl",
+    "rejected": "data/problem_bank/elementary_50k/queues/rejected_queue.jsonl"
+  },
+  "next_routine": [
+    "Run actual_capture_validation_queue through the Coco app capture flow in small batches.",
+    "Render and solver-check template_render_validation_queue before promotion.",
+    "Use learned_ready normalized JSON immediately for elementary routing, answer normalization, search, and similar-problem generation."
+  ]
+}
